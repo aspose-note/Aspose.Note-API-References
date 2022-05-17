@@ -3,7 +3,7 @@ title: UnsupportedFileFormatException
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.note/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class

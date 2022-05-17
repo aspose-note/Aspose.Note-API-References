@@ -3,7 +3,7 @@ title: NotebookPdfSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.note.saving/notebookpdfsaveoptions/
 ---
 ## NotebookPdfSaveOptions class

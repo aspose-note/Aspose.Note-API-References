@@ -3,7 +3,7 @@ title: HtmlImageType
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.note.saving.html/htmlimagetype/
 ---
 ## HtmlImageType enumeration

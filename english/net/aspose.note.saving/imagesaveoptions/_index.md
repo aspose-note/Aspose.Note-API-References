@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.note.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class

@@ -3,7 +3,7 @@ title: TagStatus
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 890
 url: /net/aspose.note/tagstatus/
 ---
 ## TagStatus enumeration

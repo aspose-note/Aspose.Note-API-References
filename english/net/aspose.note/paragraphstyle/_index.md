@@ -3,7 +3,7 @@ title: ParagraphStyle
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class

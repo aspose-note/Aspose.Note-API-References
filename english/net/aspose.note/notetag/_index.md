@@ -3,7 +3,7 @@ title: NoteTag
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.note/notetag/
 ---
 ## NoteTag class

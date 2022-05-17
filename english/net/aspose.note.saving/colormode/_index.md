@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.note.saving/colormode/
 ---
 ## ColorMode enumeration

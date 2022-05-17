@@ -3,7 +3,7 @@ title: PageSplittingAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.note.saving/pagesplittingalgorithm/
 ---
 ## PageSplittingAlgorithm class

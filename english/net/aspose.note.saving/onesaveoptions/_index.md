@@ -3,7 +3,7 @@ title: OneSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.note.saving/onesaveoptions/
 ---
 ## OneSaveOptions class

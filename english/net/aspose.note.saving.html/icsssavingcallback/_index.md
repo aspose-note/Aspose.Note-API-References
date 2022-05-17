@@ -3,7 +3,7 @@ title: ICssSavingCallback
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.note.saving.html/icsssavingcallback/
 ---
 ## ICssSavingCallback interface

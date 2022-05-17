@@ -3,7 +3,7 @@ title: IImageSavingCallback
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.note.saving.html/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface

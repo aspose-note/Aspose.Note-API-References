@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 910
+weight: 920
 url: /net/aspose.note/title/
 ---
 ## Title class

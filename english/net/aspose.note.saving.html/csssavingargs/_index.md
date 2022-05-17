@@ -3,7 +3,7 @@ title: CssSavingArgs
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.note.saving.html/csssavingargs/
 ---
 ## CssSavingArgs class

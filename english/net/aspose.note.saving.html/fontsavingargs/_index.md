@@ -3,7 +3,7 @@ title: FontSavingArgs
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.note.saving.html/fontsavingargs/
 ---
 ## FontSavingArgs class

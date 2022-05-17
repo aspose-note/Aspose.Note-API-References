@@ -3,7 +3,7 @@ title: NotebookHtmlSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.note.saving/notebookhtmlsaveoptions/
 ---
 ## NotebookHtmlSaveOptions class

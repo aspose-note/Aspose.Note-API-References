@@ -3,7 +3,7 @@ title: Node
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.note/node/
 ---
 ## Node class

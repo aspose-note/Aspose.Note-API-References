@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.note.saving.html/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

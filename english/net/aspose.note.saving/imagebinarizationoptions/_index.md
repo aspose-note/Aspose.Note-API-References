@@ -3,7 +3,7 @@ title: ImageBinarizationOptions
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.note.saving/imagebinarizationoptions/
 ---
 ## ImageBinarizationOptions class

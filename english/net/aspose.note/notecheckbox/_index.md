@@ -3,7 +3,7 @@ title: NoteCheckBox
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.note/notecheckbox/
 ---
 ## NoteCheckBox class

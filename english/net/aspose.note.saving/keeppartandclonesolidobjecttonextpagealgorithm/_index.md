@@ -3,7 +3,7 @@ title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm class

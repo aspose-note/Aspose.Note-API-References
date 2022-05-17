@@ -3,7 +3,7 @@ title: KeepSolidObjectsAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.note.saving/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm class

@@ -3,7 +3,7 @@ title: FontFaceType
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.note.saving.html/fontfacetype/
 ---
 ## FontFaceType enumeration

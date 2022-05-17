@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.note/numberformat/
 ---
 ## NumberFormat enumeration

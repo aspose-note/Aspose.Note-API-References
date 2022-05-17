@@ -3,7 +3,7 @@ title: AlwaysSplitObjectsAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.note.saving/alwayssplitobjectsalgorithm/
 ---
 ## AlwaysSplitObjectsAlgorithm class

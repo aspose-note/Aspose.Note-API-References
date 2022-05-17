@@ -3,7 +3,7 @@ title: NumberList
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.note/numberlist/
 ---
 ## NumberList class

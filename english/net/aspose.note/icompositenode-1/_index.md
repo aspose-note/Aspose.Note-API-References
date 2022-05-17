@@ -1,5 +1,5 @@
 ---
-title: ICompositeNode<T>
+title: ICompositeNodeT
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs

@@ -3,7 +3,7 @@ title: OutlineElement
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.note/outlineelement/
 ---
 ## OutlineElement class

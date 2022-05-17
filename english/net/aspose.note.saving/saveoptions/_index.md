@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 810
 url: /net/aspose.note.saving/saveoptions/
 ---
 ## SaveOptions class

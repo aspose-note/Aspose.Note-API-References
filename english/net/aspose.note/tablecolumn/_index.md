@@ -3,7 +3,7 @@ title: TableColumn
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.note/tablecolumn/
 ---
 ## TableColumn class

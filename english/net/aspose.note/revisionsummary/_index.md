@@ -3,7 +3,7 @@ title: RevisionSummary
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.note/revisionsummary/
 ---
 ## RevisionSummary class

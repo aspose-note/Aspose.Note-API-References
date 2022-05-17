@@ -3,7 +3,7 @@ title: TaskType
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.note/tasktype/
 ---
 ## TaskType enumeration

@@ -3,7 +3,7 @@ title: ResourceExportType
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.note.saving.html/resourceexporttype/
 ---
 ## ResourceExportType enumeration

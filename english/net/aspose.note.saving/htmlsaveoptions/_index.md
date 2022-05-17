@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

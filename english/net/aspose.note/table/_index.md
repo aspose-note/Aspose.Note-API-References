@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Note for .NET API Reference
 description: 
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.note/table/
 ---
 ## Table class
