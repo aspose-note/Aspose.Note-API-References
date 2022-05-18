@@ -24,8 +24,8 @@ public class ImageBinarizationOptions
 
 | Name | Description |
 | --- | --- |
-| [BinarizationMethod](binarizationmethod) { get; set; } | Gets or sets the binarization method. The default value is FixedThreshold. |
-| [BinarizationThreshold](binarizationthreshold) { get; set; } | Gets or sets threshold value for fixed threshold binarization method. The default value is 128. |
+| [BinarizationMethod](../../aspose.note.saving/imagebinarizationoptions/binarizationmethod) { get; set; } | Gets or sets the binarization method. The default value is FixedThreshold. |
+| [BinarizationThreshold](../../aspose.note.saving/imagebinarizationoptions/binarizationthreshold) { get; set; } | Gets or sets threshold value for fixed threshold binarization method. The default value is 128. |
 
 ### Examples
 

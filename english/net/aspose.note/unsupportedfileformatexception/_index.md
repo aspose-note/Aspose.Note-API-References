@@ -18,7 +18,7 @@ public class UnsupportedFileFormatException : Exception
 
 | Name | Description |
 | --- | --- |
-| [FileFormat](fileformat) { get; } | Gets the file format of passed data if detected. |
+| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat) { get; } | Gets the file format of passed data if detected. |
 
 ### Examples
 

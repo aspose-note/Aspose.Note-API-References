@@ -24,8 +24,8 @@ public sealed class TableColumn
 
 | Name | Description |
 | --- | --- |
-| [LockedWidth](lockedwidth) { get; set; } | Gets or sets a value indicating whether a table column has locked width and does not resize automatically to fit table content. By default, column width is not locked. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [LockedWidth](../../aspose.note/tablecolumn/lockedwidth) { get; set; } | Gets or sets a value indicating whether a table column has locked width and does not resize automatically to fit table content. By default, column width is not locked. |
+| [Width](../../aspose.note/tablecolumn/width) { get; set; } | Gets or sets the width. |
 
 ### Examples
 

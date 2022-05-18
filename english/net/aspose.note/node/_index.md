@@ -18,18 +18,18 @@ public abstract class Node : INode
 
 | Name | Description |
 | --- | --- |
-| [Document](document) { get; } | Gets the document of the node. |
-| virtual [IsComposite](iscomposite) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
-| [NextSibling](nextsibling) { get; } | Gets the next node at the same node tree level. |
-| [NodeType](nodetype) { get; } | Gets the node type. |
-| [ParentNode](parentnode) { get; } | Gets the parent node. |
-| [PreviousSibling](previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| abstract [Accept](../../aspose.note/node/accept)(DocumentVisitor) | Accepts the visitor of the node. |
 
 ### See Also
 

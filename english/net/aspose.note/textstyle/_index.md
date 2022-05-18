@@ -24,22 +24,34 @@ public sealed class TextStyle : Style
 
 | Name | Description |
 | --- | --- |
-| static [DefaultMsOneNoteTitleDateStyle](defaultmsonenotetitledatestyle) { get; } | Gets default style for title date in MS OneNote. |
-| static [DefaultMsOneNoteTitleTextStyle](defaultmsonenotetitletextstyle) { get; } | Gets default style for title text in MS OneNote. |
-| static [DefaultMsOneNoteTitleTimeStyle](defaultmsonenotetitletimestyle) { get; } | Gets default style for title time in MS OneNote. |
-| [HyperlinkAddress](hyperlinkaddress) { get; set; } | Gets or sets the hyperlink address. Must be set if the value of the [`IsHyperlink`](./ishyperlink) property is true. |
-| [IsHidden](ishidden) { get; set; } | Gets or sets a value indicating whether the text style is hidden. |
-| [IsHyperlink](ishyperlink) { get; set; } | Gets or sets a value indicating whether the text style is hyperlink. |
-| [IsMathFormatting](ismathformatting) { get; set; } | Gets or sets a value indicating whether the text style is math-formatting. |
-| [Language](language) { get; set; } | Gets or sets the language of the text. |
-| [RunIndex](runindex) { get; set; } | Gets or sets the run index. |
+| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle) { get; } | Gets default style for title date in MS OneNote. |
+| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle) { get; } | Gets default style for title text in MS OneNote. |
+| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle) { get; } | Gets default style for title time in MS OneNote. |
+| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Gets or sets the font color. |
+| [FontName](../../aspose.note/style/fontname) { get; set; } | Gets or sets the font name. |
+| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Gets or sets the font size. |
+| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Gets the font style. |
+| [Highlight](../../aspose.note/style/highlight) { get; set; } | Gets or sets the highlight color. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | Gets or sets the hyperlink address. Must be set if the value of the [`IsHyperlink`](./ishyperlink) property is true. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
+| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | Gets or sets a value indicating whether the text style is hidden. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | Gets or sets a value indicating whether the text style is hyperlink. |
+| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
+| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | Gets or sets a value indicating whether the text style is math-formatting. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
+| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
+| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
+| [Language](../../aspose.note/textstyle/language) { get; set; } | Gets or sets the language of the text. |
+| [RunIndex](../../aspose.note/textstyle/runindex) { get; set; } | Gets or sets the run index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| [Equals](equals)(TextStyle) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/textstyle/equals)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/textstyle/equals)(TextStyle) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.note/style/gethashcode)() | Serves as a hash function for the type. |
 
 ### Examples
 

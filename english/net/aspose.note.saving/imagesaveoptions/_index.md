@@ -24,11 +24,15 @@ public class ImageSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [BinarizationOptions](binarizationoptions) { get; set; } | Gets or sets options for image's binarization. |
-| [ColorMode](colormode) { get; set; } | Gets or sets [`ColorMode`](./colormode) for the output image. |
-| [Quality](quality) { get; set; } | Gets or sets a value determining the quality of saved image. This value is passed to codec as System.Drawing.Imaging.Encoder.Quality parameter. |
-| [Resolution](resolution) { get; set; } | Gets or sets the resolution for the generated images, in dots per inch. |
-| [TiffCompression](tiffcompression) { get; set; } | Gets or sets the type of compression to use when saving generated images to the TIFF format. |
+| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions) { get; set; } | Gets or sets options for image's binarization. |
+| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode) { get; set; } | Gets or sets [`ColorMode`](./colormode) for the output image. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Gets or sets font's settings to be used while saving |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
+| [Quality](../../aspose.note.saving/imagesaveoptions/quality) { get; set; } | Gets or sets a value determining the quality of saved image. This value is passed to codec as System.Drawing.Imaging.Encoder.Quality parameter. |
+| [Resolution](../../aspose.note.saving/imagesaveoptions/resolution) { get; set; } | Gets or sets the resolution for the generated images, in dots per inch. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Gets the format in which the document is saved. |
+| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression) { get; set; } | Gets or sets the type of compression to use when saving generated images to the TIFF format. |
 
 ### Examples
 

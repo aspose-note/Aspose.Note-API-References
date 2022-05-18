@@ -25,13 +25,29 @@ public sealed class OutlineGroup : CompositeNode<IOutlineChildNode>, IOutlineChi
 
 | Name | Description |
 | --- | --- |
-| [IndentPosition](indentposition) { get; set; } | Gets or sets the indent position. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
+| [IndentPosition](../../aspose.note/outlinegroup/indentposition) { get; set; } | Gets or sets the indent position. |
+| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
+| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [Accept](../../aspose.note/outlinegroup/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
+| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
 
 ### See Also
 

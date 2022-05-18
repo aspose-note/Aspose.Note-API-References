@@ -25,7 +25,7 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 
 | Name | Description |
 | --- | --- |
-| [HeightLimitOfClonedPart](heightlimitofclonedpart) { get; } | Gets the height limit of cloned part. |
+| [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart) { get; } | Gets the height limit of cloned part. |
 
 ### Examples
 

@@ -18,20 +18,20 @@ public abstract class CheckBox : ITag
 
 | Name | Description |
 | --- | --- |
-| [Checked](checked) { get; } | Gets a value indicating whether the CheckBox is in the checked state. |
-| [CompletedTime](completedtime) { get; set; } | Gets or sets the completed time. |
-| [CreationTime](creationtime) { get; set; } | Gets or sets the creation time. |
-| abstract [Icon](icon) { get; set; } | Gets or sets the icon. |
-| [Label](label) { get; } | Gets the label text. |
-| [Status](status) { get; set; } | Gets or sets the status. |
+| [Checked](../../aspose.note/checkbox/checked) { get; } | Gets a value indicating whether the CheckBox is in the checked state. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; set; } | Gets or sets the completed time. |
+| [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Gets or sets the creation time. |
+| abstract [Icon](../../aspose.note/checkbox/icon) { get; set; } | Gets or sets the icon. |
+| [Label](../../aspose.note/checkbox/label) { get; } | Gets the label text. |
+| [Status](../../aspose.note/checkbox/status) { get; set; } | Gets or sets the status. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetCompleted](setcompleted)() | Sets the tag to completed state using current time as completed time. |
-| [SetCompleted](setcompleted)(DateTime) | Sets the tag to completed state. |
-| virtual [SetOpen](setopen)() | Sets the tag to open state. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Sets the tag to completed state using current time as completed time. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Sets the tag to completed state. |
+| virtual [SetOpen](../../aspose.note/checkbox/setopen)() | Sets the tag to open state. |
 
 ### Examples
 

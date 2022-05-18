@@ -24,20 +24,20 @@ public struct Margins : IEquatable<Margins>
 
 | Name | Description |
 | --- | --- |
-| [Bottom](bottom) { get; set; } | Gets or sets the bottom margin width. |
-| [Left](left) { get; set; } | Gets or sets the left margin width. |
-| [Right](right) { get; set; } | Gets or sets the right margin width. |
-| [Top](top) { get; set; } | Gets or sets the top margin width. |
+| [Bottom](../../aspose.note/margins/bottom) { get; set; } | Gets or sets the bottom margin width. |
+| [Left](../../aspose.note/margins/left) { get; set; } | Gets or sets the left margin width. |
+| [Right](../../aspose.note/margins/right) { get; set; } | Gets or sets the right margin width. |
+| [Top](../../aspose.note/margins/top) { get; set; } | Gets or sets the top margin width. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(Margins) | Tests whether two Margins structures are equal. |
-| override [Equals](equals)(object) | Tests whether two Margins structures are equal. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for the type. |
-| [operator ==](op_equality) | Tests whether two Margins structures are equal. |
-| [operator !=](op_inequality) | Tests whether two Margins structures are not equal. |
+| [Equals](../../aspose.note/margins/equals)(Margins) | Tests whether two Margins structures are equal. |
+| override [Equals](../../aspose.note/margins/equals)(object) | Tests whether two Margins structures are equal. |
+| override [GetHashCode](../../aspose.note/margins/gethashcode)() | Serves as a hash function for the type. |
+| [operator ==](../../aspose.note/margins/op_equality) | Tests whether two Margins structures are equal. |
+| [operator !=](../../aspose.note/margins/op_inequality) | Tests whether two Margins structures are not equal. |
 
 ## Other Members
 

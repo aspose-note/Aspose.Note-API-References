@@ -18,7 +18,7 @@ public interface ITaggable : INode
 
 | Name | Description |
 | --- | --- |
-| [Tags](tags) { get; } | Gets the list of all tags. |
+| [Tags](../../aspose.note/itaggable/tags) { get; } | Gets the list of all tags. |
 
 ### Examples
 

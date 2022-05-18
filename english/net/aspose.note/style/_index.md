@@ -18,23 +18,23 @@ public class Style
 
 | Name | Description |
 | --- | --- |
-| [FontColor](fontcolor) { get; set; } | Gets or sets the font color. |
-| [FontName](fontname) { get; set; } | Gets or sets the font name. |
-| [FontSize](fontsize) { get; set; } | Gets or sets the font size. |
-| [FontStyle](fontstyle) { get; } | Gets the font style. |
-| [Highlight](highlight) { get; set; } | Gets or sets the highlight color. |
-| [IsBold](isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
-| [IsItalic](isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
-| [IsStrikethrough](isstrikethrough) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
-| [IsSubscript](issubscript) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
-| [IsSuperscript](issuperscript) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
-| [IsUnderline](isunderline) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
+| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Gets or sets the font color. |
+| [FontName](../../aspose.note/style/fontname) { get; set; } | Gets or sets the font name. |
+| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Gets or sets the font size. |
+| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Gets the font style. |
+| [Highlight](../../aspose.note/style/highlight) { get; set; } | Gets or sets the highlight color. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
+| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
+| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
+| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for the type. |
+| override [GetHashCode](../../aspose.note/style/gethashcode)() | Serves as a hash function for the type. |
 
 ### See Also
 

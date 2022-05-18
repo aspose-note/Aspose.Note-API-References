@@ -24,14 +24,26 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; } | Gets the ParagraphStyle with default settings. |
+| static [Default](../../aspose.note/paragraphstyle/default) { get; } | Gets the ParagraphStyle with default settings. |
+| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Gets or sets the font color. |
+| [FontName](../../aspose.note/style/fontname) { get; set; } | Gets or sets the font name. |
+| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Gets or sets the font size. |
+| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Gets the font style. |
+| [Highlight](../../aspose.note/style/highlight) { get; set; } | Gets or sets the highlight color. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
+| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
+| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
+| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| [Equals](equals)(ParagraphStyle) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/paragraphstyle/equals)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/paragraphstyle/equals)(ParagraphStyle) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.note/style/gethashcode)() | Serves as a hash function for the type. |
 
 ### Examples
 

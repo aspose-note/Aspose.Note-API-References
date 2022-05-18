@@ -26,29 +26,35 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Gets or sets the alignment. |
-| [AlternativeTextDescription](alternativetextdescription) { get; set; } | Gets or sets a body an alternative text for the image. |
-| [AlternativeTextTitle](alternativetexttitle) { get; set; } | Gets or sets a title of alternative text for the image. |
-| [Bytes](bytes) { get; } | Gets the image data store. |
-| [FileName](filename) { get; } | Gets the file name. |
-| [FilePath](filepath) { get; } | Gets the path to the image file. |
-| [Format](format) { get; } | Gets the image's format. |
-| [Height](height) { get; set; } | Gets or sets the height. This is the real height of the image in the MS OneNote document. |
-| [HorizontalOffset](horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
-| [HyperlinkUrl](hyperlinkurl) { get; set; } | Gets or sets the hyperlink associated with the image. |
-| [IsBackground](isbackground) { get; set; } | Gets whether the image is a background image. |
-| [LastModifiedTime](lastmodifiedtime) { get; set; } | Gets or sets last modified time. |
-| [OriginalHeight](originalheight) { get; } | Gets the original height. This is the original width of the image, before resizing. |
-| [OriginalWidth](originalwidth) { get; } | Gets the original width. This is the original width of the image, before resizing. |
-| [Tags](tags) { get; } | Gets the list of all tags of a paragraph. |
-| [VerticalOffset](verticaloffset) { get; set; } | Gets or sets the vertical offset. |
-| [Width](width) { get; set; } | Gets or sets the width. This is the real width of the image in the MS OneNote document. |
+| [Alignment](../../aspose.note/image/alignment) { get; set; } | Gets or sets the alignment. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | Gets or sets a body an alternative text for the image. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | Gets or sets a title of alternative text for the image. |
+| [Bytes](../../aspose.note/image/bytes) { get; } | Gets the image data store. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [FileName](../../aspose.note/image/filename) { get; } | Gets the file name. |
+| [FilePath](../../aspose.note/image/filepath) { get; } | Gets the path to the image file. |
+| [Format](../../aspose.note/image/format) { get; } | Gets the image's format. |
+| [Height](../../aspose.note/image/height) { get; set; } | Gets or sets the height. This is the real height of the image in the MS OneNote document. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Gets or sets the hyperlink associated with the image. |
+| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Gets whether the image is a background image. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Gets or sets last modified time. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | Gets the original height. This is the original width of the image, before resizing. |
+| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | Gets the original width. This is the original width of the image, before resizing. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [Tags](../../aspose.note/image/tags) { get; } | Gets the list of all tags of a paragraph. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | Gets or sets the vertical offset. |
+| [Width](../../aspose.note/image/width) { get; set; } | Gets or sets the width. This is the real width of the image in the MS OneNote document. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | Accepts the visitor of the node. |
 
 ### Examples
 

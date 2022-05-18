@@ -18,7 +18,7 @@ public interface IFontsSubsystem
 
 | Name | Description |
 | --- | --- |
-| [GetFontFamily](getfontfamily)(string) | Gets font family. |
+| [GetFontFamily](../../aspose.note.fonts/ifontssubsystem/getfontfamily)(string) | Gets font family. |
 
 ### See Also
 

@@ -23,14 +23,16 @@ public abstract class NotebookSaveOptions<TDocumentSaveOptions> : NotebookSaveOp
 
 | Name | Description |
 | --- | --- |
-| [DocumentSaveOptions](documentsaveoptions) { get; } | Gets or sets the save options for all notebook's child documents. |
-| override [SaveFormat](saveformat) { get; } | Gets the format in which the notebook is saved. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Gets or sets a value indicating whether children documents should be saved explicitly. |
+| [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/documentsaveoptions) { get; } | Gets or sets the save options for all notebook's child documents. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten) { get; set; } | Gets or sets a value indicating whether the notebook children hierarchy is saved flattened. |
+| override [SaveFormat](../../aspose.note.saving/notebooksaveoptions`1/saveformat) { get; } | Gets the format in which the notebook is saved. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetDocumentSaveOptions](getdocumentsaveoptions)() | Gets the save options for all notebook's child documents. |
+| override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/getdocumentsaveoptions)() | Gets the save options for all notebook's child documents. |
 
 ### Examples
 

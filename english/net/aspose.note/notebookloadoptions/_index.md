@@ -24,8 +24,8 @@ public class NotebookLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [DeferredLoading](deferredloading) { get; set; } | Gets or sets a value indicating whether children documents should be loaded explicitly later. |
-| [InstantLoading](instantloading) { get; set; } | Gets or sets a value indicating whether children documents should be loaded while the parent document is loading. |
+| [DeferredLoading](../../aspose.note/notebookloadoptions/deferredloading) { get; set; } | Gets or sets a value indicating whether children documents should be loaded explicitly later. |
+| [InstantLoading](../../aspose.note/notebookloadoptions/instantloading) { get; set; } | Gets or sets a value indicating whether children documents should be loaded while the parent document is loading. |
 
 ### Examples
 

@@ -24,8 +24,8 @@ public class RevisionSummary
 
 | Name | Description |
 | --- | --- |
-| [AuthorMostRecent](authormostrecent) { get; set; } | Gets or sets the most recent author. |
-| [LastModifiedTime](lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [AuthorMostRecent](../../aspose.note/revisionsummary/authormostrecent) { get; set; } | Gets or sets the most recent author. |
+| [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
 
 ### Examples
 

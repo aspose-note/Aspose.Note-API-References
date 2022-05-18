@@ -18,7 +18,7 @@ public interface IImageSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [ImageSaving](imagesaving)(ImageSavingArgs) | Called when Aspose.Note saves an image. |
+| [ImageSaving](../../aspose.note.saving.html/iimagesavingcallback/imagesaving)(ImageSavingArgs) | Called when Aspose.Note saves an image. |
 
 ### See Also
 

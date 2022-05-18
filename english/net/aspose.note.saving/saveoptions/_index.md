@@ -18,10 +18,10 @@ public abstract class SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [FontsSubsystem](fontssubsystem) { get; set; } | Gets or sets font's settings to be used while saving |
-| [PageCount](pagecount) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
-| [PageIndex](pageindex) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
-| [SaveFormat](saveformat) { get; } | Gets the format in which the document is saved. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Gets or sets font's settings to be used while saving |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Gets the format in which the document is saved. |
 
 ### See Also
 

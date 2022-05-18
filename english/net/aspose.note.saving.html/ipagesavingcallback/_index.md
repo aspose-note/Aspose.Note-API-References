@@ -18,7 +18,7 @@ public interface IPageSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [PageSaving](pagesaving)(PageSavingArgs) | Called when Aspose.Note saves a separate page. |
+| [PageSaving](../../aspose.note.saving.html/ipagesavingcallback/pagesaving)(PageSavingArgs) | Called when Aspose.Note saves a separate page. |
 
 ### See Also
 

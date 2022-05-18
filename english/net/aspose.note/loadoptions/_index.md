@@ -24,8 +24,8 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [DocumentPassword](documentpassword) { get; set; } | Gets or sets a password for the encrypted document content. Value is ignored in case the document is not password protected. |
-| [LoadHistory](loadhistory) { get; set; } | Gets or sets a value indicating whether a document loader should ignore the history. Use this option to decrease memory and CPU usage. Default value is `true`. |
+| [DocumentPassword](../../aspose.note/loadoptions/documentpassword) { get; set; } | Gets or sets a password for the encrypted document content. Value is ignored in case the document is not password protected. |
+| [LoadHistory](../../aspose.note/loadoptions/loadhistory) { get; set; } | Gets or sets a value indicating whether a document loader should ignore the history. Use this option to decrease memory and CPU usage. Default value is `true`. |
 
 ### Examples
 

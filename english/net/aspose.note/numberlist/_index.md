@@ -25,24 +25,24 @@ public class NumberList
 
 | Name | Description |
 | --- | --- |
-| [Font](font) { get; set; } | Gets or sets the name of the font. |
-| [FontColor](fontcolor) { get; set; } | Gets or sets the font color. |
-| [FontSize](fontsize) { get; set; } | Gets or sets the font size. |
-| [Format](format) { get; set; } | Gets or sets the format of the line header. For bulleted lists represents a bullet symbol. |
-| [IsBold](isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
-| [IsItalic](isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
-| [LastModifiedTime](lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
-| [NumberFormat](numberformat) { get; set; } | Gets or sets the number format used for a group of automatically numbered objects. Should be null for bulleted lists. |
-| [Restart](restart) { get; set; } | Gets or sets the numeric value that overrides the automatic number value of the list item. |
+| [Font](../../aspose.note/numberlist/font) { get; set; } | Gets or sets the name of the font. |
+| [FontColor](../../aspose.note/numberlist/fontcolor) { get; set; } | Gets or sets the font color. |
+| [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | Gets or sets the font size. |
+| [Format](../../aspose.note/numberlist/format) { get; set; } | Gets or sets the format of the line header. For bulleted lists represents a bullet symbol. |
+| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
+| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Gets or sets the number format used for a group of automatically numbered objects. Should be null for bulleted lists. |
+| [Restart](../../aspose.note/numberlist/restart) { get; set; } | Gets or sets the numeric value that overrides the automatic number value of the list item. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(NumberList) | Determines whether the specified object is equal to the current object. |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for the type. |
-| [GetNumberedListHeader](getnumberedlistheader)(int) | Gets the numbered list header. |
+| [Equals](../../aspose.note/numberlist/equals)(NumberList) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/numberlist/equals)(object) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Serves as a hash function for the type. |
+| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Gets the numbered list header. |
 
 ### Examples
 

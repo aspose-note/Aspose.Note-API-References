@@ -18,9 +18,14 @@ public class FontSavingArgs : ResourceSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [FontFamilyName](fontfamilyname) { get; } | Gets the family name of the font to be saved. |
-| [IsBold](isbold) { get; } | Gets a value indicating whether font under saving is bold. |
-| [IsItalic](isitalic) { get; } | Gets a value indicating whether font under saving is italic. |
+| [Document](../../aspose.note.saving.html/resourcesavingargs/document) { get; } | Gets the saving document. |
+| [FileName](../../aspose.note.saving.html/resourcesavingargs/filename) { get; } | Gets the file name. |
+| [FontFamilyName](../../aspose.note.saving.html/fontsavingargs/fontfamilyname) { get; } | Gets the family name of the font to be saved. |
+| [IsBold](../../aspose.note.saving.html/fontsavingargs/isbold) { get; } | Gets a value indicating whether font under saving is bold. |
+| [IsItalic](../../aspose.note.saving.html/fontsavingargs/isitalic) { get; } | Gets a value indicating whether font under saving is italic. |
+| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | Gets or sets a value indicating whether keep stream open. |
+| [Stream](../../aspose.note.saving.html/resourcesavingargs/stream) { get; set; } | Gets or sets the stream used to store the resource. |
+| [Uri](../../aspose.note.saving.html/resourcesavingargs/uri) { get; set; } | Gets or sets the uri to access stored resource. |
 
 ### See Also
 

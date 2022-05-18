@@ -24,21 +24,27 @@ public sealed class RichText : Node, IOutlineElementChildNode, ITaggable
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Gets or sets the alignment. |
-| [LastModifiedTime](lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
-| [LineSpacing](linespacing) { get; set; } | Gets or sets the line spacing. |
-| [ParagraphStyle](paragraphstyle) { get; set; } | Gets or sets the paragraph style. These settings are used if there is no matching TextStyle object in [`Styles`](./styles) collection either this object doesn't specify a needed setting. |
-| [SpaceAfter](spaceafter) { get; set; } | Gets or sets the minimum amount of space after. |
-| [SpaceBefore](spacebefore) { get; set; } | Gets or sets the minimum amount of space before. |
-| [Styles](styles) { get; } | Gets the styles. |
-| [Tags](tags) { get; } | Gets the list of all tags of a paragraph. |
-| [Text](text) { get; set; } | Gets or sets the text. The string MUST NOT contain any characters of the value 10 (line feed). |
+| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Gets or sets the alignment. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Gets or sets the line spacing. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Gets or sets the paragraph style. These settings are used if there is no matching TextStyle object in [`Styles`](./styles) collection either this object doesn't specify a needed setting. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Gets or sets the minimum amount of space after. |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Gets or sets the minimum amount of space before. |
+| [Styles](../../aspose.note/richtext/styles) { get; } | Gets the styles. |
+| [Tags](../../aspose.note/richtext/tags) { get; } | Gets the list of all tags of a paragraph. |
+| [Text](../../aspose.note/richtext/text) { get; set; } | Gets or sets the text. The string MUST NOT contain any characters of the value 10 (line feed). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | Accepts the visitor of the node. |
 
 ### Examples
 

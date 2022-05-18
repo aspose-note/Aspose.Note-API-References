@@ -24,21 +24,26 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Name | Description |
 | --- | --- |
-| [HorizontalOffset](horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
-| override [IsComposite](iscomposite) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
-| [LastModifiedTime](lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
-| [TitleDate](titledate) { get; set; } | Gets or sets a string representation of the date in the title. |
-| [TitleText](titletext) { get; set; } | Gets or sets the text of the title. |
-| [TitleTime](titletime) { get; set; } | Gets or sets a string representation of the time in the title. |
-| [VerticalOffset](verticaloffset) { get; set; } | Gets or sets the vertical offset. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
+| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [TitleDate](../../aspose.note/title/titledate) { get; set; } | Gets or sets a string representation of the date in the title. |
+| [TitleText](../../aspose.note/title/titletext) { get; set; } | Gets or sets the text of the title. |
+| [TitleTime](../../aspose.note/title/titletime) { get; set; } | Gets or sets a string representation of the time in the title. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | Gets or sets the vertical offset. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
-| override [GetChildNodes&lt;T1&gt;](getchildnodes)() | Get all child nodes by the node type. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through child nodes of the [`Title`](../title). |
+| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes)() | Get all child nodes by the node type. |
+| [GetEnumerator](../../aspose.note/title/getenumerator)() | Returns an enumerator that iterates through child nodes of the [`Title`](../title). |
 
 ### Examples
 

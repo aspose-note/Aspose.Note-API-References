@@ -28,34 +28,50 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | Name | Description |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](automaticlayoutchangesdetectionenabled) { get; set; } | Gets or sets a value indicating whether Aspose.Note performs detection of layout changes automatically. Default value is `true`. |
-| [Color](color) { get; set; } | Gets or sets the color. |
-| [CreationTime](creationtime) { get; set; } | Gets or sets the creation time. |
-| [DisplayName](displayname) { get; set; } | Gets or sets the display name. |
-| [FileFormat](fileformat) { get; } | Gets file format (OneNote 2010, OneNote Online). |
-| [Guid](guid) { get; } | Gets the object's globally unique id. |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Gets or sets a value indicating whether Aspose.Note performs detection of layout changes automatically. Default value is `true`. |
+| [Color](../../aspose.note/document/color) { get; set; } | Gets or sets the color. |
+| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | Gets or sets the creation time. |
+| [DisplayName](../../aspose.note/document/displayname) { get; set; } | Gets or sets the display name. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [FileFormat](../../aspose.note/document/fileformat) { get; } | Gets file format (OneNote 2010, OneNote Online). |
+| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
+| [Guid](../../aspose.note/document/guid) { get; } | Gets the object's globally unique id. |
+| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
+| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
-| [DetectLayoutChanges](detectlayoutchanges)() | Detects all changes made to the document layout since the previous [`DetectLayoutChanges`](./detectlayoutchanges) call. In case [`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) set to true, used automatically in the beginning of document export. |
-| [GetPageHistory](getpagehistory)(Page) | Gets the [`PageHistory`](../pagehistory) which contains full history for each page presented in a document (the earliest at index 0). The current page revision can be accessed as [`Current`](../pagehistory/current) and contained separately from collection of historical versions. |
-| [Print](print)() | Prints the document using the default printer. |
-| [Print](print)(PrintOptions) | Prints the document using the default printer. |
-| [Save](save)(Stream) | Saves the OneNote document to a stream. |
-| [Save](save)(string) | Saves the OneNote document to a file. |
-| [Save](save)(Stream, SaveFormat) | Saves the OneNote document to a stream in the specified format. |
-| [Save](save)(Stream, SaveOptions) | Saves the OneNote document to a stream using the specified save options. |
-| [Save](save)(string, SaveFormat) | Saves the OneNote document to a file in the specified format. |
-| [Save](save)(string, SaveOptions) | Saves the OneNote document to a file using the specified save options. |
-| static [IsEncrypted](isencrypted)(Stream, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](isencrypted)(string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](isencrypted)(Stream, LoadOptions, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](isencrypted)(Stream, string, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](isencrypted)(string, LoadOptions, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](isencrypted)(string, string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Detects all changes made to the document layout since the previous [`DetectLayoutChanges`](./detectlayoutchanges) call. In case [`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) set to true, used automatically in the beginning of document export. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
+| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Gets the [`PageHistory`](../pagehistory) which contains full history for each page presented in a document (the earliest at index 0). The current page revision can be accessed as [`Current`](../pagehistory/current) and contained separately from collection of historical versions. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
+| [Print](../../aspose.note/document/print)() | Prints the document using the default printer. |
+| [Print](../../aspose.note/document/print)(PrintOptions) | Prints the document using the default printer. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| [Save](../../aspose.note/document/save)(Stream) | Saves the OneNote document to a stream. |
+| [Save](../../aspose.note/document/save)(string) | Saves the OneNote document to a file. |
+| [Save](../../aspose.note/document/save)(Stream, SaveFormat) | Saves the OneNote document to a stream in the specified format. |
+| [Save](../../aspose.note/document/save)(Stream, SaveOptions) | Saves the OneNote document to a stream using the specified save options. |
+| [Save](../../aspose.note/document/save)(string, SaveFormat) | Saves the OneNote document to a file in the specified format. |
+| [Save](../../aspose.note/document/save)(string, SaveOptions) | Saves the OneNote document to a file using the specified save options. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted)(Stream, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted)(string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted)(Stream, LoadOptions, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted)(Stream, string, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted)(string, LoadOptions, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted)(string, string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
 
 ### Examples
 

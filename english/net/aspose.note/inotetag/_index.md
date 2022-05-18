@@ -18,9 +18,9 @@ public interface INoteTag : ITag
 
 | Name | Description |
 | --- | --- |
-| [FontColor](fontcolor) { get; set; } | Gets or sets the font color. |
-| [Highlight](highlight) { get; set; } | Gets or sets the highlight color. |
-| [Label](label) { get; set; } | Gets or sets the label text. |
+| [FontColor](../../aspose.note/inotetag/fontcolor) { get; set; } | Gets or sets the font color. |
+| [Highlight](../../aspose.note/inotetag/highlight) { get; set; } | Gets or sets the highlight color. |
+| [Label](../../aspose.note/inotetag/label) { get; set; } | Gets or sets the label text. |
 
 ### Examples
 

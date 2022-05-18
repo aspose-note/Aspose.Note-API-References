@@ -18,18 +18,18 @@ public abstract class FontsSubsystem : IFontsSubsystem
 
 | Name | Description |
 | --- | --- |
-| [DefaultFont](defaultfont) { get; } | Gets or sets default font. |
+| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont) { get; } | Gets or sets default font. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddFont](addfont)(Stream) | Add the font. |
-| [AddFont](addfont)(string) | Add the font. |
-| [AddFont](addfont)(Stream, string) | Add the font. |
-| [AddFontSubstitution](addfontsubstitution)(string, string) | Adds font substitution. |
-| virtual [GetFontFamily](getfontfamily)(string) | Gets font family. |
-| [LoadFontsFromFolder](loadfontsfromfolder)(string) | Loads all TrueType fonts from specified folder to internal collection. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Add the font. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Add the font. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Add the font. |
+| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | Adds font substitution. |
+| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | Gets font family. |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | Loads all TrueType fonts from specified folder to internal collection. |
 
 ### See Also
 

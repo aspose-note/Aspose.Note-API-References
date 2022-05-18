@@ -18,12 +18,12 @@ public static class DisplayUnitsConverter
 
 | Name | Description |
 | --- | --- |
-| static [InchToPoint](inchtopoint)(float) | Converts inches to points. |
-| static [MillimeterToInch](millimetertoinch)(float) | Converts millimeters to inches. |
-| static [MillimeterToPoint](millimetertopoint)(float) | Converts millimeters to points. |
-| static [PixelToPoint](pixeltopoint)(int, float) | Converts pixels to points at the specified pixel resolution. |
-| static [PointToInch](pointtoinch)(float) | Converts points to inches. |
-| static [PointToPixel](pointtopixel)(float, float) | Converts points to pixels at the specified pixel resolution. |
+| static [InchToPoint](../../aspose.note/displayunitsconverter/inchtopoint)(float) | Converts inches to points. |
+| static [MillimeterToInch](../../aspose.note/displayunitsconverter/millimetertoinch)(float) | Converts millimeters to inches. |
+| static [MillimeterToPoint](../../aspose.note/displayunitsconverter/millimetertopoint)(float) | Converts millimeters to points. |
+| static [PixelToPoint](../../aspose.note/displayunitsconverter/pixeltopoint)(int, float) | Converts pixels to points at the specified pixel resolution. |
+| static [PointToInch](../../aspose.note/displayunitsconverter/pointtoinch)(float) | Converts points to inches. |
+| static [PointToPixel](../../aspose.note/displayunitsconverter/pointtopixel)(float, float) | Converts points to pixels at the specified pixel resolution. |
 
 ### See Also
 

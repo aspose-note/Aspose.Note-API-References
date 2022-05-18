@@ -18,15 +18,15 @@ public abstract class NotebookSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [DeferredSaving](deferredsaving) { get; set; } | Gets or sets a value indicating whether children documents should be saved explicitly. |
-| [Flatten](flatten) { get; set; } | Gets or sets a value indicating whether the notebook children hierarchy is saved flattened. |
-| abstract [SaveFormat](saveformat) { get; } | Gets the format in which the notebook is saved. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Gets or sets a value indicating whether children documents should be saved explicitly. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten) { get; set; } | Gets or sets a value indicating whether the notebook children hierarchy is saved flattened. |
+| abstract [SaveFormat](../../aspose.note.saving/notebooksaveoptions/saveformat) { get; } | Gets the format in which the notebook is saved. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [GetDocumentSaveOptions](getdocumentsaveoptions)() | Gets the save options for all notebook's child documents. |
+| abstract [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions/getdocumentsaveoptions)() | Gets the save options for all notebook's child documents. |
 
 ### Examples
 

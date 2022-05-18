@@ -18,7 +18,7 @@ public interface ICompositeNode
 
 | Name | Description |
 | --- | --- |
-| [GetChildNodes&lt;T1&gt;](getchildnodes)() | Get all child nodes by the node type. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/icompositenode/getchildnodes)() | Get all child nodes by the node type. |
 
 ### See Also
 

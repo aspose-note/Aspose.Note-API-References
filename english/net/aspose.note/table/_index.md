@@ -24,16 +24,32 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 | Name | Description |
 | --- | --- |
-| [Columns](columns) { get; } | Gets the columns of the table. |
-| [IsBordersVisible](isbordersvisible) { get; set; } | Gets or sets a value indicating whether the table border is visible. |
-| [LastModifiedTime](lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
-| [Tags](tags) { get; } | Gets the list of all tags of a paragraph. |
+| [Columns](../../aspose.note/table/columns) { get; } | Gets the columns of the table. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
+| [IsBordersVisible](../../aspose.note/table/isbordersvisible) { get; set; } | Gets or sets a value indicating whether the table border is visible. |
+| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
+| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
+| [LastModifiedTime](../../aspose.note/table/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [Tags](../../aspose.note/table/tags) { get; } | Gets the list of all tags of a paragraph. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [Accept](../../aspose.note/table/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
+| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;TableRow&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params TableRow[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
 
 ### Examples
 

@@ -18,9 +18,9 @@ public interface INotebookChildNode
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; } | Gets a color. Default value is Color.Empty. |
-| [DisplayName](displayname) { get; } | Gets a display name. |
-| [Guid](guid) { get; } | Gets the object's globally unique id. |
+| [Color](../../aspose.note/inotebookchildnode/color) { get; } | Gets a color. Default value is Color.Empty. |
+| [DisplayName](../../aspose.note/inotebookchildnode/displayname) { get; } | Gets a display name. |
+| [Guid](../../aspose.note/inotebookchildnode/guid) { get; } | Gets the object's globally unique id. |
 
 ### See Also
 

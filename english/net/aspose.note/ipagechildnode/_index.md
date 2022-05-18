@@ -18,8 +18,8 @@ public interface IPageChildNode : INode
 
 | Name | Description |
 | --- | --- |
-| [HorizontalOffset](horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
-| [VerticalOffset](verticaloffset) { get; set; } | Gets or sets the vertical offset. |
+| [HorizontalOffset](../../aspose.note/ipagechildnode/horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
+| [VerticalOffset](../../aspose.note/ipagechildnode/verticaloffset) { get; set; } | Gets or sets the vertical offset. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public interface ICssSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [CssSaving](csssaving)(CssSavingArgs) | Called when Aspose.Note saves an CSS(Cascading Style Sheet). |
+| [CssSaving](../../aspose.note.saving.html/icsssavingcallback/csssaving)(CssSavingArgs) | Called when Aspose.Note saves an CSS(Cascading Style Sheet). |
 
 ### See Also
 

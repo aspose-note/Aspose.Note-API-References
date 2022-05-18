@@ -26,15 +26,22 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; set; } | Gets or sets the static default instance. |
+| static [Default](../../aspose.note.fonts/documentfontssubsystem/default) { get; set; } | Gets or sets the static default instance. |
+| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont) { get; } | Gets or sets default font. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [UsingDefaultFont](usingdefaultfont)(string, Dictionary&lt;string, string&gt;) | Create new DocumentFontsSubsystem instance using specified default font name. |
-| static [UsingDefaultFontFromFile](usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Create new DocumentFontsSubsystem instance using a font from specified file as default. |
-| static [UsingDefaultFontFromStream](usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Create new DocumentFontsSubsystem instance using a font from specified stream as default. |
+| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont)(string, Dictionary&lt;string, string&gt;) | Create new DocumentFontsSubsystem instance using specified default font name. |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Create new DocumentFontsSubsystem instance using a font from specified file as default. |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Create new DocumentFontsSubsystem instance using a font from specified stream as default. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Add the font. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Add the font. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Add the font. |
+| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | Adds font substitution. |
+| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | Gets font family. |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | Loads all TrueType fonts from specified folder to internal collection. |
 
 ### Examples
 

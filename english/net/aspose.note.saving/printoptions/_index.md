@@ -24,10 +24,10 @@ public class PrintOptions
 
 | Name | Description |
 | --- | --- |
-| [DocumentName](documentname) { get; set; } | Gets or sets the document name to display (for example, in a print status dialog box or printer queue) while printing the document. |
-| [PageSplittingAlgorithm](pagesplittingalgorithm) { get; set; } | Gets or sets algorithm used for page splitting. |
-| [PrinterSettings](printersettings) { get; set; } | Gets or sets the printer settings. |
-| [Resolution](resolution) { get; set; } | Gets or sets the resolution for the generated images, in dots per inch. |
+| [DocumentName](../../aspose.note.saving/printoptions/documentname) { get; set; } | Gets or sets the document name to display (for example, in a print status dialog box or printer queue) while printing the document. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm) { get; set; } | Gets or sets algorithm used for page splitting. |
+| [PrinterSettings](../../aspose.note.saving/printoptions/printersettings) { get; set; } | Gets or sets the printer settings. |
+| [Resolution](../../aspose.note.saving/printoptions/resolution) { get; set; } | Gets or sets the resolution for the generated images, in dots per inch. |
 
 ### Examples
 

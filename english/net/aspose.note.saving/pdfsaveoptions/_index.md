@@ -24,9 +24,13 @@ public sealed class PdfSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageCompression](imagecompression) { get; set; } | Gets or sets the type of compression applied to images in the PDF file. |
-| [JpegQuality](jpegquality) { get; set; } | Gets or sets a value determining the quality of the JPEG images inside PDF document. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. |
-| [PageSplittingAlgorithm](pagesplittingalgorithm) { get; set; } | Gets or sets algorithm used for page splitting. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Gets or sets font's settings to be used while saving |
+| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression) { get; set; } | Gets or sets the type of compression applied to images in the PDF file. |
+| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality) { get; set; } | Gets or sets a value determining the quality of the JPEG images inside PDF document. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm) { get; set; } | Gets or sets algorithm used for page splitting. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Gets the format in which the document is saved. |
 
 ### Examples
 

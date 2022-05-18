@@ -24,15 +24,31 @@ public sealed class TableCell : CompositeNode<OutlineElement>
 
 | Name | Description |
 | --- | --- |
-| [BackgroundColor](backgroundcolor) { get; set; } | Gets or sets the background color. |
-| [LastModifiedTime](lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
-| [MaxWidth](maxwidth) { get; } | Gets the max width. |
+| [BackgroundColor](../../aspose.note/tablecell/backgroundcolor) { get; set; } | Gets or sets the background color. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
+| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
+| [LastModifiedTime](../../aspose.note/tablecell/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [MaxWidth](../../aspose.note/tablecell/maxwidth) { get; } | Gets the max width. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [Accept](../../aspose.note/tablecell/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
+| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;OutlineElement&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params OutlineElement[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
 
 ### Examples
 

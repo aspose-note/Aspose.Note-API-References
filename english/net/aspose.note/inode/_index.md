@@ -18,14 +18,14 @@ public interface INode
 
 | Name | Description |
 | --- | --- |
-| [NextSibling](nextsibling) { get; } | Gets the next node at the same node tree level. |
-| [PreviousSibling](previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [NextSibling](../../aspose.note/inode/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [PreviousSibling](../../aspose.note/inode/previoussibling) { get; } | Gets the previous node at the same node tree level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| [Accept](../../aspose.note/inode/accept)(DocumentVisitor) | Accepts the visitor of the node. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public interface IFontSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [FontSaving](fontsaving)(FontSavingArgs) | Called when Aspose.Note saves a font. |
+| [FontSaving](../../aspose.note.saving.html/ifontsavingcallback/fontsaving)(FontSavingArgs) | Called when Aspose.Note saves a font. |
 
 ### See Also
 

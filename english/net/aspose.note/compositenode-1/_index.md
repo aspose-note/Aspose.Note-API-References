@@ -23,23 +23,28 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 
 | Name | Description |
 | --- | --- |
-| [FirstChild](firstchild) { get; } | Gets the first child node of this node. |
-| [IsComposite](iscomposite) { get; } | Checks whether the node is composite. If true then the node can have child nodes. |
-| [LastChild](lastchild) { get; } | Gets the last child node of this node. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } | Gets the first child node of this node. |
+| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } | Checks whether the node is composite. If true then the node can have child nodes. |
+| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } | Gets the last child node of this node. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts the visitor of the node. |
-| virtual [AppendChildFirst&lt;T1&gt;](appendchildfirst)(T1) | Adds the node to the front of the list of child nodes for this node. |
-| virtual [AppendChildLast&lt;T1&gt;](appendchildlast)(T1) | Adds the node to the end of the list of child nodes for this node. |
-| override [GetChildNodes&lt;T1&gt;](getchildnodes)() | Get all child nodes by the node type. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through child nodes of the [`CompositeNode`](../compositenode-1). |
-| virtual [InsertChild&lt;T1&gt;](insertchild)(int, T1) | Inserts the node to the specified position in the list of child nodes for this node. |
-| [InsertChildrenRange](insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
-| [InsertChildrenRange](insertchildrenrange)(int, params T[]) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
-| [RemoveChild&lt;T1&gt;](removechild)(T1) | Removes the child node. |
+| override [Accept](../../aspose.note/compositenode`1/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) | Adds the node to the front of the list of child nodes for this node. |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) | Adds the node to the end of the list of child nodes for this node. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() | Get all child nodes by the node type. |
+| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() | Returns an enumerator that iterates through child nodes of the [`CompositeNode`](../compositenode-1). |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) | Inserts the node to the specified position in the list of child nodes for this node. |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params T[]) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) | Removes the child node. |
 
 ### See Also
 
