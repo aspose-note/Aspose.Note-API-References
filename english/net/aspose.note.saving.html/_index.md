@@ -21,7 +21,7 @@ The Html namespace contains classes which perform saving to HTML format.
 
 | Interface | Description |
 | --- | --- |
-| [ICssSavingCallback](./icsssavingcallback) | Implement this interface if you want to control how Aspose.Note saves CSS (../Cascading Style Sheet) when saving a document to HTML. |
+| [ICssSavingCallback](./icsssavingcallback) | Implement this interface if you want to control how Aspose.Note saves CSS (Cascading Style Sheet) when saving a document to HTML. |
 | [IFontSavingCallback](./ifontsavingcallback) | Implement this interface if you want to control how Aspose.Note saves fonts when saving a document to HTML. |
 | [IImageSavingCallback](./iimagesavingcallback) | Implement this interface if you want to control how Aspose.Note saves images when saving a document to HTML. |
 | [IPageSavingCallback](./ipagesavingcallback) | Implement this interface if you want to control how Aspose.Note saves separate pages. |

@@ -58,7 +58,7 @@ The Note namespace contains classes which represent document structure.
 | [ICompositeNode&lt;T&gt;](./icompositenode-1) | The interface for nodes that can contain other nodes. |
 | [INode](./inode) | The interface for all nodes of an Aspose.Note document. |
 | [INotebookChildNode](./inotebookchildnode) | Represents an Aspose.Note notebook's child. |
-| [INoteTag](./inotetag) | The interface for note tags(../i.e. tags that are not associated with Outlook tasks). |
+| [INoteTag](./inotetag) | The interface for note tags(i.e. tags that are not associated with Outlook tasks). |
 | [IOutlineChildNode](./ioutlinechildnode) | The interface for all child nodes of an outline node. |
 | [IOutlineElementChildNode](./ioutlineelementchildnode) | The interface for all child nodes of an outline element node. |
 | [IPageChildNode](./ipagechildnode) | The interface for all child nodes of a page node. |
@@ -71,7 +71,7 @@ The Note namespace contains classes which represent document structure.
 | [FileFormat](./fileformat) | Represents OneNote file format. |
 | [HorizontalAlignment](./horizontalalignment) | Specifies the alignment. |
 | [NodeType](./nodetype) | Specifies the type of the node. |
-| [NumberFormat](./numberformat) | Specifies the numbering format that can be used for a group of automatically numbered objects. Full list is specified on [MSDN](../https://msdn.microsoft.com/en-us/library/dd923798(v=office.12).aspx) |
+| [NumberFormat](./numberformat) | Specifies the numbering format that can be used for a group of automatically numbered objects. Full list is specified on [MSDN](https://msdn.microsoft.com/en-us/library/dd923798(v=office.12).aspx) |
 | [PageSizeType](./pagesizetype) | Specifies the size of the page node type. |
 | [SaveFormat](./saveformat) | Indicates the format in which the document is saved. |
 | [TagIcon](./tagicon) | Specifies the icon of tag or task icon. |
