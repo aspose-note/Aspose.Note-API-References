@@ -39,11 +39,11 @@ public struct Margins : IEquatable<Margins>
 | [operator ==](../../aspose.note/margins/op_equality) | Tests whether two Margins structures are equal. |
 | [operator !=](../../aspose.note/margins/op_inequality) | Tests whether two Margins structures are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [Empty](empty) | The empty margins. |
+| static readonly [Empty](../../aspose.note/margins/empty) | The empty margins. |
 
 ### See Also
 

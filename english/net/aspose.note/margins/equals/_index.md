@@ -18,7 +18,7 @@ public bool Equals(Margins other)
 | --- | --- | --- |
 | other | Margins | The Margins structure. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | Any object. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

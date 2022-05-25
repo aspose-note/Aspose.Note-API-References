@@ -19,7 +19,7 @@ public static int PointToPixel(float points, float dpi)
 | points | Single | The value to convert in points. |
 | dpi | Single | Screen resolution. |
 
-## Return Value
+### Return Value
 
 The Int32.
 

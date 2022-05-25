@@ -14,7 +14,7 @@ Gets or sets algorithm used for page splitting.
 public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The `PageSplittingAlgorithm`.
 

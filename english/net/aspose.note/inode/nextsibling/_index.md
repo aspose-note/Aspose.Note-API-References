@@ -14,7 +14,7 @@ Gets the next node at the same node tree level.
 public INode NextSibling { get; }
 ```
 
-## Property Value
+### Property Value
 
 The next sibling.
 

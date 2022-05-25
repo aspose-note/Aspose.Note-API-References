@@ -18,7 +18,7 @@ public static NoteTag CreateScheduledTask(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

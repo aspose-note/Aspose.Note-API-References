@@ -14,7 +14,7 @@ Gets or sets the icon.
 public override TagIcon Icon { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`TagIcon`](../../tagicon).
 

@@ -18,7 +18,7 @@ public static NoteTag CreateBlueDownArrow(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

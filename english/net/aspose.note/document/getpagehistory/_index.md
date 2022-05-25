@@ -18,7 +18,7 @@ public PageHistory GetPageHistory(Page page)
 | --- | --- | --- |
 | page | Page | The current revision of a page. |
 
-## Return Value
+### Return Value
 
 The [`PageHistory`](../../pagehistory).
 

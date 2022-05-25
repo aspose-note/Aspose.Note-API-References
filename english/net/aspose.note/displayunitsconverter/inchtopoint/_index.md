@@ -18,7 +18,7 @@ public static float InchToPoint(float inches)
 | --- | --- | --- |
 | inches | Single | The value to convert in inches. |
 
-## Return Value
+### Return Value
 
 The Single.
 

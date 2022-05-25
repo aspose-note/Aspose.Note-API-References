@@ -14,7 +14,7 @@ Gets the object's globally unique id.
 public Guid Guid { get; }
 ```
 
-## Property Value
+### Property Value
 
 The GUID.
 

@@ -14,7 +14,7 @@ Gets or sets the icon.
 public abstract TagIcon Icon { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`TagIcon`](../../tagicon).
 

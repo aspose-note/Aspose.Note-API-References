@@ -18,7 +18,7 @@ public static NoteTag CreateYellowStar(string label = "Important")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

@@ -14,7 +14,7 @@ Specifies the type of the node.
 public enum NodeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

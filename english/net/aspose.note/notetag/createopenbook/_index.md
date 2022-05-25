@@ -18,7 +18,7 @@ public static NoteTag CreateOpenBook(string label = "Book to read")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

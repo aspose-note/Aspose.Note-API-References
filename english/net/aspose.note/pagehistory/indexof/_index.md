@@ -18,7 +18,7 @@ public int IndexOf(Page item)
 | --- | --- | --- |
 | item | Page | The page version. |
 
-## Return Value
+### Return Value
 
 The Int32.
 

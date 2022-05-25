@@ -14,7 +14,7 @@ The color mode of the image.
 public enum ColorMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

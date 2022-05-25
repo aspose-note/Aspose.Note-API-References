@@ -14,7 +14,7 @@ Specifies the size of the page node type.
 public enum PageSizeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

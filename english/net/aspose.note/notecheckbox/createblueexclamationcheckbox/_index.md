@@ -18,7 +18,7 @@ public static NoteCheckBox CreateBlueExclamationCheckBox(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

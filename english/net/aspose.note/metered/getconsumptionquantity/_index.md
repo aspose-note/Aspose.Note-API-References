@@ -14,7 +14,7 @@ Gets consumption file size.
 public static decimal GetConsumptionQuantity()
 ```
 
-## Return Value
+### Return Value
 
 Returns the number of consumed bytes.
 

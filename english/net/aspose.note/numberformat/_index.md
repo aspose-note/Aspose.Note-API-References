@@ -14,7 +14,7 @@ Specifies the numbering format that can be used for a group of automatically num
 public enum NumberFormat : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

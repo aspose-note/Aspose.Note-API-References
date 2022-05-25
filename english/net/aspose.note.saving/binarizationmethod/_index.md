@@ -14,7 +14,7 @@ Specifies binarization method for an image.
 public enum BinarizationMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

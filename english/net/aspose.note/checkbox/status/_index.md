@@ -14,7 +14,7 @@ Gets or sets the status.
 public TagStatus Status { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`TagStatus`](../../tagstatus).
 

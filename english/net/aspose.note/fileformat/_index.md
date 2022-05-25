@@ -14,7 +14,7 @@ Represents OneNote file format.
 public enum FileFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

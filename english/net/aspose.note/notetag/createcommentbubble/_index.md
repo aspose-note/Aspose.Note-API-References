@@ -18,7 +18,7 @@ public static NoteTag CreateCommentBubble(string label = "Remember for blog")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

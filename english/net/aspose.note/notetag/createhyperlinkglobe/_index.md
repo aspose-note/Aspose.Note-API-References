@@ -18,7 +18,7 @@ public static NoteTag CreateHyperlinkGlobe(string label = "Web site to visit")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

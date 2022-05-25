@@ -18,7 +18,7 @@ public static NoteTag CreateQuestionMark(string label = "Question")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

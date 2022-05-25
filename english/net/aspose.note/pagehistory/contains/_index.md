@@ -18,7 +18,7 @@ public bool Contains(Page item)
 | --- | --- | --- |
 | item | Page | The page version. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

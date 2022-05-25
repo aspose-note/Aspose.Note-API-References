@@ -21,7 +21,7 @@ public virtual T1 InsertChild<T1>(int i, T1 newChild)
 | i | Position to insert |
 | newChild | The node to insert. |
 
-## Return Value
+### Return Value
 
 The added node.
 

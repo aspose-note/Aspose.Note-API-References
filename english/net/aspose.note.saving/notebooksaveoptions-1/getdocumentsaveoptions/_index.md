@@ -14,7 +14,7 @@ Gets the save options for all notebook's child documents.
 public override SaveOptions GetDocumentSaveOptions()
 ```
 
-## Return Value
+### Return Value
 
 The [`SaveOptions`](../../saveoptions).
 

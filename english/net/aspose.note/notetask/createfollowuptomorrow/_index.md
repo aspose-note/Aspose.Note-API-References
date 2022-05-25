@@ -14,7 +14,7 @@ Creates a new note task with FollowUpTomorrowFlag icon.
 public static NoteTask CreateFollowUpTomorrow()
 ```
 
-## Return Value
+### Return Value
 
 The [`NoteTask`](../../notetask).
 

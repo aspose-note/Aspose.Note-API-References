@@ -14,7 +14,7 @@ Returns an enumerator that iterates through child nodes of the [`Notebook`](../.
 public IEnumerator<INotebookChildNode> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 A IEnumerator.
 

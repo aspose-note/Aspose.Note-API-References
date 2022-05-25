@@ -14,7 +14,7 @@ Represents HTML image type.
 public enum HtmlImageType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

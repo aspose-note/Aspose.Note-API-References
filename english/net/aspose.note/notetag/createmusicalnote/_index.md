@@ -18,7 +18,7 @@ public static NoteTag CreateMusicalNote(string label = "Music to listen to")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

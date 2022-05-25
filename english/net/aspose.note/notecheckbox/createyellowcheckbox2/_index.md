@@ -18,7 +18,7 @@ public static NoteCheckBox CreateYellowCheckBox2(string label = "To Do priority 
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

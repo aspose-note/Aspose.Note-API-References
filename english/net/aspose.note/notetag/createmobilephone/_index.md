@@ -18,7 +18,7 @@ public static NoteTag CreateMobilePhone(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

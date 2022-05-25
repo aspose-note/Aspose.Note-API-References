@@ -14,7 +14,7 @@ Creates a new note task with NoFollowUpDateFlag icon.
 public static NoteTask CreateNoFollowUpDate()
 ```
 
-## Return Value
+### Return Value
 
 The [`NoteTask`](../../notetask).
 

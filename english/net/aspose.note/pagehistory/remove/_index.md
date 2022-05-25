@@ -18,7 +18,7 @@ public bool Remove(Page item)
 | --- | --- | --- |
 | item | Page | The page version. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

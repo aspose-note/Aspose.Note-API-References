@@ -18,7 +18,7 @@ public static NoteTag CreateRedSquare(string label = "Project A")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

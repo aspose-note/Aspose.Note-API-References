@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 
@@ -42,7 +42,7 @@ public bool Equals(TextStyle other)
 | --- | --- | --- |
 | other | TextStyle | The object. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

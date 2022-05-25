@@ -18,7 +18,7 @@ public static NoteCheckBox CreateGreenRightArrowCheckBox(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

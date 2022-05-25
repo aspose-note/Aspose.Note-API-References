@@ -14,7 +14,7 @@ Enumerates ways a resource can be exported
 public enum ResourceExportType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

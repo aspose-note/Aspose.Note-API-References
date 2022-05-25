@@ -19,7 +19,7 @@ public static bool operator ==(Margins lhs, Margins rhs)
 | lhs | Margins | The Margins structure. |
 | rhs | Margins | The Margins structure to be compared with. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

@@ -27,6 +27,12 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 | --- | --- |
 | [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart) { get; } | Gets the height limit of cloned part. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart) | The default max size of cloned part. |
+
 ### Examples
 
 When long OneNote pages are saved in pdf format they are split across pages. The sample shows how to configure the splitting logic of objects located on page's breaks.

@@ -18,7 +18,7 @@ public INotebookChildNode RemoveChild(INotebookChildNode oldChild)
 | --- | --- | --- |
 | oldChild | INotebookChildNode | The node to remove. |
 
-## Return Value
+### Return Value
 
 The removed node.
 

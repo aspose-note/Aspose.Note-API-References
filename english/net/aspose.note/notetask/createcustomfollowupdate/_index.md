@@ -18,7 +18,7 @@ public static NoteTask CreateCustomFollowUpDate(DateTime dueDate)
 | --- | --- | --- |
 | dueDate | DateTime | The due Date. |
 
-## Return Value
+### Return Value
 
 The [`NoteTask`](../../notetask).
 

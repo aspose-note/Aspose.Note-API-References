@@ -18,7 +18,7 @@ public static NoteCheckBox CreateBluePersonCheckBox(string label = "Discuss with
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

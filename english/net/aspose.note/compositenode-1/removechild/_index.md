@@ -20,7 +20,7 @@ public T1 RemoveChild<T1>(T1 oldChild)
 | T1 | The exact type of removed node. |
 | oldChild | The node to remove. |
 
-## Return Value
+### Return Value
 
 The removed node.
 

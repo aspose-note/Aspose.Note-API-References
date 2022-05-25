@@ -18,7 +18,7 @@ public static NoteTag CreateEMailMessage(string label = "Send in email")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

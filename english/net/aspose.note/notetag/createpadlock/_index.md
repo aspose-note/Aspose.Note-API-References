@@ -18,7 +18,7 @@ public static NoteTag CreatePadlock(string label = "Password")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

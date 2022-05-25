@@ -14,7 +14,7 @@ Gets or sets the font face types.
 public FontFaceType FontFaceTypes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The font face types.
 

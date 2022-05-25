@@ -14,7 +14,7 @@ Gets the previous node at the same node tree level.
 public INode PreviousSibling { get; }
 ```
 
-## Property Value
+### Property Value
 
 The previous sibling.
 

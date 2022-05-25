@@ -18,7 +18,7 @@ public static NoteTag CreateMovieClip(string label = "Movie to see")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

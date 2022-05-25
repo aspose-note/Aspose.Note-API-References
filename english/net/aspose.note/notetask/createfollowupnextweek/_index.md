@@ -14,7 +14,7 @@ Creates a new note task with FollowUpNextWeekFlag icon.
 public static NoteTask CreateFollowUpNextWeek()
 ```
 
-## Return Value
+### Return Value
 
 The [`NoteTask`](../../notetask).
 

@@ -20,7 +20,7 @@ public static DocumentFontsSubsystem UsingDefaultFont(string defaultFontName,
 | defaultFontName | String | The default font name. |
 | fontsSubstitutions | Dictionary`2 | The fonts substitutions. |
 
-## Return Value
+### Return Value
 
 The [`DocumentFontsSubsystem`](../../documentfontssubsystem).
 

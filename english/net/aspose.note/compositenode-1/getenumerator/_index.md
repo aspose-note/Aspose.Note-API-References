@@ -14,7 +14,7 @@ Returns an enumerator that iterates through child nodes of the [`CompositeNode`]
 public IEnumerator<T> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 A IEnumerator for the [`CompositeNode`](../../compositenode-1).
 

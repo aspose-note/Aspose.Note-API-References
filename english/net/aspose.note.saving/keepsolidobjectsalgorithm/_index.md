@@ -27,6 +27,12 @@ public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
 | --- | --- |
 | [HeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/heightlimitofclonedpart) { get; } | Gets the height limit of cloned part. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart) | The default max size of cloned part. |
+
 ### Examples
 
 Shows how to save notebook in pdf format with specified options.

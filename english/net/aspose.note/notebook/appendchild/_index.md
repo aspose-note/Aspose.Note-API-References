@@ -18,7 +18,7 @@ public INotebookChildNode AppendChild(INotebookChildNode newChild)
 | --- | --- | --- |
 | newChild | INotebookChildNode | The node to add. |
 
-## Return Value
+### Return Value
 
 The added node.
 

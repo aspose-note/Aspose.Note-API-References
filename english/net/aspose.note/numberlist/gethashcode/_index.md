@@ -14,7 +14,7 @@ Serves as a hash function for the type.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 The Int32.
 

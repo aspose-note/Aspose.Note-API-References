@@ -18,7 +18,7 @@ public string GetNumberedListHeader(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number in the numbered list. |
 
-## Return Value
+### Return Value
 
 A string representation of the specified sequence number.
 

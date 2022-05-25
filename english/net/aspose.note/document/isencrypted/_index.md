@@ -20,7 +20,7 @@ public static bool IsEncrypted(Stream stream, LoadOptions options, out Document 
 | options | LoadOptions | The load options. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -92,7 +92,7 @@ public static bool IsEncrypted(Stream stream, string password, out Document docu
 | password | String | The password to decrypt a document. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -162,7 +162,7 @@ public static bool IsEncrypted(Stream stream, out Document document)
 | stream | Stream | The stream. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -233,7 +233,7 @@ public static bool IsEncrypted(string filePath, LoadOptions options, out Documen
 | options | LoadOptions | The load options. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -304,7 +304,7 @@ public static bool IsEncrypted(string filePath, out Document document)
 | filePath | String | The file path. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -375,7 +375,7 @@ public static bool IsEncrypted(string filePath, string password, out Document do
 | password | String | The password to decrypt a document. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 

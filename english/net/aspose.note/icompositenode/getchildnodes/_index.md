@@ -19,7 +19,7 @@ public List<T1> GetChildNodes<T1>()
 | --- | --- |
 | T1 | The type of elements in the returned list. |
 
-## Return Value
+### Return Value
 
 A list of child nodes.
 

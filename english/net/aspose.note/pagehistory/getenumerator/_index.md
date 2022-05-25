@@ -14,7 +14,7 @@ Returns an enumerator that iterates through child nodes of the [`PageHistory`](.
 public IEnumerator<Page> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 The IEnumerator.
 

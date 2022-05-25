@@ -18,7 +18,7 @@ public Page Clone(bool cloneHistory = false)
 | --- | --- | --- |
 | cloneHistory | Boolean | Specifies if page's history should be cloned.. |
 
-## Return Value
+### Return Value
 
 A clone of the page.
 

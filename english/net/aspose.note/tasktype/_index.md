@@ -14,7 +14,7 @@ Specifies the type of the note task node.
 public enum TaskType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

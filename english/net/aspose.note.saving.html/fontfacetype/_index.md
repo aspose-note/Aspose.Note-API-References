@@ -15,7 +15,7 @@ Enumerates font face types
 public enum FontFaceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

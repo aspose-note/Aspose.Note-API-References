@@ -14,7 +14,7 @@ Specifies the icon of tag or task icon.
 public enum TagIcon
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
