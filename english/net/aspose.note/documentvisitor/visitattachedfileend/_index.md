@@ -1,7 +1,7 @@
 ---
 title: VisitAttachedFileEnd
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: End to visit the AttachedFileaspose.note/attachedfile node.
 type: docs
 weight: 10
 url: /net/aspose.note/documentvisitor/visitattachedfileend/

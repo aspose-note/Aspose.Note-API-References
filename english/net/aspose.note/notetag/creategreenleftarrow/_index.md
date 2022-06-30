@@ -1,7 +1,7 @@
 ---
 title: CreateGreenLeftArrow
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with GreenLeftArrow icon and specified label.
 type: docs
 weight: 430
 url: /net/aspose.note/notetag/creategreenleftarrow/
@@ -18,7 +18,7 @@ public static NoteTag CreateGreenLeftArrow(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

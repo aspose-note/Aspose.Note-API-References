@@ -1,7 +1,7 @@
 ---
 title: AddRange
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Adds the page versions to the end of the PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 70
 url: /net/aspose.note/pagehistory/addrange/

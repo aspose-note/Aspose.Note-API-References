@@ -1,7 +1,7 @@
 ---
 title: CreateFollowUpThisWeek
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note task with FollowUpThisWeekFlag icon.
 type: docs
 weight: 30
 url: /net/aspose.note/notetask/createfollowupthisweek/
@@ -14,7 +14,7 @@ Creates a new note task with FollowUpThisWeekFlag icon.
 public static NoteTask CreateFollowUpThisWeek()
 ```
 
-## Return Value
+### Return Value
 
 The [`NoteTask`](../../notetask).
 

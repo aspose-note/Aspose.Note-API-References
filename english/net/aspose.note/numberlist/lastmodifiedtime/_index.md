@@ -1,7 +1,7 @@
 ---
 title: LastModifiedTime
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the last modified time.
 type: docs
 weight: 80
 url: /net/aspose.note/numberlist/lastmodifiedtime/

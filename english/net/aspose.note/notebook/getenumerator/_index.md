@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through child nodes of the Notebookaspose.note/notebook.
 type: docs
 weight: 110
 url: /net/aspose.note/notebook/getenumerator/
@@ -14,7 +14,7 @@ Returns an enumerator that iterates through child nodes of the [`Notebook`](../.
 public IEnumerator<INotebookChildNode> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 A IEnumerator.
 

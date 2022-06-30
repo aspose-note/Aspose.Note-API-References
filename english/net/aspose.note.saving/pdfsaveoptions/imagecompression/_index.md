@@ -1,7 +1,7 @@
 ---
 title: ImageCompression
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the type of compression applied to images in the PDF file.
 type: docs
 weight: 20
 url: /net/aspose.note.saving/pdfsaveoptions/imagecompression/

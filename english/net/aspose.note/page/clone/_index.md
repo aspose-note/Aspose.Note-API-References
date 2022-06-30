@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Clones the page.
 type: docs
 weight: 140
 url: /net/aspose.note/page/clone/
@@ -18,7 +18,7 @@ public Page Clone(bool cloneHistory = false)
 | --- | --- | --- |
 | cloneHistory | Boolean | Specifies if page's history should be cloned.. |
 
-## Return Value
+### Return Value
 
 A clone of the page.
 

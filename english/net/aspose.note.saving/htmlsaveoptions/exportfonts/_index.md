@@ -1,7 +1,7 @@
 ---
 title: ExportFonts
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the way fonts are exported.
 type: docs
 weight: 60
 url: /net/aspose.note.saving/htmlsaveoptions/exportfonts/

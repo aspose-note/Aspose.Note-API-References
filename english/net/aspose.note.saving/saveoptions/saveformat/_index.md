@@ -1,7 +1,7 @@
 ---
 title: SaveFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the format in which the document is saved.
 type: docs
 weight: 40
 url: /net/aspose.note.saving/saveoptions/saveformat/

@@ -1,7 +1,7 @@
 ---
 title: CreateBlueCheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with BlueCheckBoxEmpty icon and specified label.
 type: docs
 weight: 10
 url: /net/aspose.note/notecheckbox/createbluecheckbox/
@@ -18,7 +18,7 @@ public static NoteCheckBox CreateBlueCheckBox(string label = "To Do")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

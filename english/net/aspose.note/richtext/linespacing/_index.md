@@ -1,9 +1,9 @@
 ---
 title: LineSpacing
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the line spacing.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.note/richtext/linespacing/
 ---
 ## RichText.LineSpacing property

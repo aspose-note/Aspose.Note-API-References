@@ -1,7 +1,7 @@
 ---
 title: CreateBinoculars
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Binoculars icon and specified label.
 type: docs
 weight: 20
 url: /net/aspose.note/notetag/createbinoculars/
@@ -18,7 +18,7 @@ public static NoteTag CreateBinoculars(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

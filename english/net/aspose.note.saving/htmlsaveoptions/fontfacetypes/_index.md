@@ -1,7 +1,7 @@
 ---
 title: FontFaceTypes
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the font face types.
 type: docs
 weight: 80
 url: /net/aspose.note.saving/htmlsaveoptions/fontfacetypes/
@@ -14,7 +14,7 @@ Gets or sets the font face types.
 public FontFaceType FontFaceTypes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The font face types.
 

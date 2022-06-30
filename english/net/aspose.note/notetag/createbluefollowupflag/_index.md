@@ -1,7 +1,7 @@
 ---
 title: CreateBlueFollowUpFlag
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with BlueFollowUpFlag icon and specified label.
 type: docs
 weight: 110
 url: /net/aspose.note/notetag/createbluefollowupflag/
@@ -18,7 +18,7 @@ public static NoteTag CreateBlueFollowUpFlag(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

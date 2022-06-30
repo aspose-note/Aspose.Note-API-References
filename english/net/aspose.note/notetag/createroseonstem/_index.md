@@ -1,7 +1,7 @@
 ---
 title: CreateRoseOnStem
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with RoseOnStem icon and specified label.
 type: docs
 weight: 860
 url: /net/aspose.note/notetag/createroseonstem/
@@ -18,7 +18,7 @@ public static NoteTag CreateRoseOnStem(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

@@ -1,7 +1,7 @@
 ---
 title: TiffCompression
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the type of compression to use when saving generated images to the TIFF format.
 type: docs
 weight: 60
 url: /net/aspose.note.saving/imagesaveoptions/tiffcompression/

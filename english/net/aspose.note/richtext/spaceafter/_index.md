@@ -1,9 +1,9 @@
 ---
 title: SpaceAfter
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the minimum amount of space after.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.note/richtext/spaceafter/
 ---
 ## RichText.SpaceAfter property

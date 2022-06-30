@@ -1,7 +1,7 @@
 ---
 title: IconExtension
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the extension of the icon.
 type: docs
 weight: 120
 url: /net/aspose.note/attachedfile/iconextension/

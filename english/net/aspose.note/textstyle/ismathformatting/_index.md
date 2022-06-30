@@ -1,9 +1,9 @@
 ---
 title: IsMathFormatting
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is math-formatting.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.note/textstyle/ismathformatting/
 ---
 ## TextStyle.IsMathFormatting property

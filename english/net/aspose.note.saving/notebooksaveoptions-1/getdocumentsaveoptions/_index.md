@@ -1,7 +1,7 @@
 ---
 title: GetDocumentSaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the save options for all notebooks child documents.
 type: docs
 weight: 30
 url: /net/aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/
@@ -14,7 +14,7 @@ Gets the save options for all notebook's child documents.
 public override SaveOptions GetDocumentSaveOptions()
 ```
 
-## Return Value
+### Return Value
 
 The [`SaveOptions`](../../saveoptions).
 

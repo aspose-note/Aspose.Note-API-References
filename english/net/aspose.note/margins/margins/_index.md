@@ -1,7 +1,7 @@
 ---
 title: Margins
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the Marginsaspose.note/margins struct with the specified left right top and bottom margins.
 type: docs
 weight: 10
 url: /net/aspose.note/margins/margins/

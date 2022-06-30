@@ -1,7 +1,7 @@
 ---
 title: FileFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets file format OneNote 2010 OneNote Online.
 type: docs
 weight: 50
 url: /net/aspose.note/notebook/fileformat/

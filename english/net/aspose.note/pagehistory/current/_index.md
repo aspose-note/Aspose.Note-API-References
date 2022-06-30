@@ -1,7 +1,7 @@
 ---
 title: Current
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the current page version.
 type: docs
 weight: 30
 url: /net/aspose.note/pagehistory/current/

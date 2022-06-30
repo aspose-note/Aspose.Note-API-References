@@ -1,7 +1,7 @@
 ---
 title: VisitRichTextEnd
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: End to visit the RichTextaspose.note/richtext node.
 type: docs
 weight: 150
 url: /net/aspose.note/documentvisitor/visitrichtextend/

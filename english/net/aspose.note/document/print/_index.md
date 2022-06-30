@@ -1,12 +1,12 @@
 ---
 title: Print
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Prints the document using the default printer.
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.note/document/print/
 ---
-## Document.Print method (1 of 2)
+## Print() {#print}
 
 Prints the document using the default printer.
 
@@ -56,7 +56,7 @@ document.Print(new PrintOptions()
 
 ---
 
-## Document.Print method (2 of 2)
+## Print(PrintOptions) {#print_1}
 
 Prints the document using the default printer.
 

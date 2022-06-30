@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Removes the page version from the PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 140
 url: /net/aspose.note/pagehistory/remove/
@@ -18,7 +18,7 @@ public bool Remove(Page item)
 | --- | --- | --- |
 | item | Page | The page version. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

@@ -1,7 +1,7 @@
 ---
 title: CreateGreenTarget
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with GreenTarget icon and specified label.
 type: docs
 weight: 490
 url: /net/aspose.note/notetag/creategreentarget/
@@ -18,7 +18,7 @@ public static NoteTag CreateGreenTarget(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

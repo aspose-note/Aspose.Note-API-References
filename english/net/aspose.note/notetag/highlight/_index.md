@@ -1,7 +1,7 @@
 ---
 title: Highlight
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the highlight color.
 type: docs
 weight: 1160
 url: /net/aspose.note/notetag/highlight/

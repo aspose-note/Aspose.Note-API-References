@@ -1,7 +1,7 @@
 ---
 title: CreateHighPriority
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with HighPriority icon and specified label.
 type: docs
 weight: 560
 url: /net/aspose.note/notetag/createhighpriority/
@@ -18,7 +18,7 @@ public static NoteTag CreateHighPriority(string label = "Critical")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

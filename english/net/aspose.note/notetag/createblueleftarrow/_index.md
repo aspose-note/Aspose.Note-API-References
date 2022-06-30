@@ -1,7 +1,7 @@
 ---
 title: CreateBlueLeftArrow
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with BlueLeftArrow icon and specified label.
 type: docs
 weight: 120
 url: /net/aspose.note/notetag/createblueleftarrow/
@@ -18,7 +18,7 @@ public static NoteTag CreateBlueLeftArrow(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

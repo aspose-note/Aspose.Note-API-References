@@ -1,7 +1,7 @@
 ---
 title: ICompositeNodeT
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The interface for nodes that can contain other nodes.
 type: docs
 weight: 150
 url: /net/aspose.note/icompositenode-1/

@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets type of image to be saved.
 type: docs
 weight: 10
 url: /net/aspose.note.saving.html/imagesavingargs/imagetype/

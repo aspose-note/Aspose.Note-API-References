@@ -1,7 +1,7 @@
 ---
 title: GetConsumptionCredit
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets consumption credit.
 type: docs
 weight: 40
 url: /net/aspose.note/metered/getconsumptioncredit/
@@ -14,7 +14,7 @@ Gets consumption credit.
 public static decimal GetConsumptionCredit()
 ```
 
-## Return Value
+### Return Value
 
 Returns the number of consumed credit points.
 

@@ -1,7 +1,7 @@
 ---
 title: CreateMobilePhone
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with MobilePhone icon and specified label.
 type: docs
 weight: 640
 url: /net/aspose.note/notetag/createmobilephone/
@@ -18,7 +18,7 @@ public static NoteTag CreateMobilePhone(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

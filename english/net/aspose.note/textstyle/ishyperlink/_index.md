@@ -1,9 +1,9 @@
 ---
 title: IsHyperlink
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is hyperlink.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
@@ -25,56 +25,45 @@ string dataDir = RunExamples.GetDataDir_Tasks();
 // Create an object of the Document class
 Document doc = new Document();
 
-RichText titleText = new RichText(doc)
-                     {
-                         Text = "Title!",
-                         ParagraphStyle = ParagraphStyle.Default
-                     };
+RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
 
-Outline outline = new Outline(doc)
-                  {
-                      MaxWidth = 200,
-                      MaxHeight = 200,
-                      VerticalOffset = 100,
-                      HorizontalOffset = 100
-                  };
+Outline outline = new Outline()
+                      {
+                          MaxWidth = 200,
+                          MaxHeight = 200,
+                          VerticalOffset = 100,
+                          HorizontalOffset = 100
+                      };
 
 TextStyle textStyleRed = new TextStyle
-                         {
-                             FontColor = Color.Red,
-                             FontName = "Arial",
-                             FontSize = 10,
-
-                             // This style will be applied to 0-7 characters.
-                             RunIndex = 8 
-                         };
+                             {
+                                 FontColor = Color.Red,
+                                 FontName = "Arial",
+                                 FontSize = 10,
+                             };
 
 TextStyle textStyleHyperlink = new TextStyle
-                              {
-                                  // This style will be applied to 8-16 characters.
-                                  RunIndex = 17,
-                                  IsHyperlink = true,
-                                  HyperlinkAddress = "www.google.com"
-                              };
+                                   {
+                                       IsHyperlink = true,
+                                       HyperlinkAddress = "www.google.com"
+                                   };
 
-RichText text = new RichText(doc)
-                {
-                    Text = "This is hyperlink. This text is not a hyperlink.",
-                    ParagraphStyle = ParagraphStyle.Default,
-                    Styles = { textStyleRed, textStyleHyperlink }
-                };
+RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
+                    .Append("This is ", textStyleRed)
+                    .Append("hyperlink", textStyleHyperlink)
+                    .Append(". This text is not a hyperlink.", TextStyle.Default);
 
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
 // Add outline elements
 outline.AppendChildLast(outlineElem);
 
 // Initialize Title class object
-Title title = new Title(doc) { TitleText = titleText };
+Title title = new Title() { TitleText = titleText };
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc) { Title = title };
+Page page = new Note.Page() { Title = title };
 
 // Add Outline node
 page.AppendChildLast(outline);

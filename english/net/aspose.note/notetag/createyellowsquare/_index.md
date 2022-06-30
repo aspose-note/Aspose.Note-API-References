@@ -1,7 +1,7 @@
 ---
 title: CreateYellowSquare
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowSquare icon and specified label.
 type: docs
 weight: 1040
 url: /net/aspose.note/notetag/createyellowsquare/
@@ -18,7 +18,7 @@ public static NoteTag CreateYellowSquare(string label = "Project B")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

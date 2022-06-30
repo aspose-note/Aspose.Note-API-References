@@ -1,9 +1,9 @@
 ---
 title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Adds objects top part to the bottom of the page and clones full object to the next page in case it doesnt fit in original page.
 type: docs
-weight: 680
+weight: 710
 url: /net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm class
@@ -18,14 +18,20 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 
 | Name | Description |
 | --- | --- |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm)() | Initializes a new instance of the [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) class, using default height limit of cloned part. |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm)(float) | Initializes a new instance of the [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) class, using specific height limit of cloned part. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor)() | Initializes a new instance of the [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) class, using default height limit of cloned part. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor_1)(float) | Initializes a new instance of the [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) class, using specific height limit of cloned part. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart) { get; } | Gets the height limit of cloned part. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart) | The default max size of cloned part. |
 
 ### Examples
 

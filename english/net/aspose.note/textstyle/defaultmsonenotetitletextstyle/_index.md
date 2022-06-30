@@ -1,9 +1,9 @@
 ---
 title: DefaultMsOneNoteTitleTextStyle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets default style for title text in MS OneNote.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.note/textstyle/defaultmsonenotetitletextstyle/
 ---
 ## TextStyle.DefaultMsOneNoteTitleTextStyle property

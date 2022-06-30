@@ -1,7 +1,7 @@
 ---
 title: MaxHeight
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the maximum height to display the embedded file icon.
 type: docs
 weight: 160
 url: /net/aspose.note/attachedfile/maxheight/

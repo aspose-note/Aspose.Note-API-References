@@ -1,7 +1,7 @@
 ---
 title: IsSizeSetByUser
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the value of the size of the icon was explicitly updated by the user.
 type: docs
 weight: 140
 url: /net/aspose.note/attachedfile/issizesetbyuser/

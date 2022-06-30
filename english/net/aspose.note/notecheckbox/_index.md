@@ -1,9 +1,9 @@
 ---
 title: NoteCheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a note tag that can toggle their state between complete and incomplete.
 type: docs
-weight: 330
+weight: 360
 url: /net/aspose.note/notecheckbox/
 ---
 ## NoteCheckBox class
@@ -57,8 +57,8 @@ public sealed class NoteCheckBox : CheckBox, IEquatable<NoteCheckBox>, INoteTag
 | static [CreateYellowExclamationCheckBox](../../aspose.note/notecheckbox/createyellowexclamationcheckbox)(string) | Creates a new note checkbox with YellowExclamationCheckBoxEmpty icon and specified label. |
 | static [CreateYellowPersonCheckBox](../../aspose.note/notecheckbox/createyellowpersoncheckbox)(string) | Creates a new note checkbox with YellowPersonCheckBoxEmpty icon and specified label. |
 | static [CreateYellowRightArrowCheckBox](../../aspose.note/notecheckbox/createyellowrightarrowcheckbox)(string) | Creates a new note checkbox with YellowRightArrowCheckBoxEmpty icon and specified label. |
-| [Equals](../../aspose.note/notecheckbox/equals)(NoteCheckBox) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.note/notecheckbox/equals)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/notecheckbox/equals#equals)(NoteCheckBox) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/notecheckbox/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.note/notecheckbox/gethashcode)() | Serves as a hash function for the type. |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Sets the tag to completed state using current time as completed time. |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Sets the tag to completed state. |

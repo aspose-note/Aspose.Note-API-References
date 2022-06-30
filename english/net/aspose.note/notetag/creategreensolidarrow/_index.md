@@ -1,7 +1,7 @@
 ---
 title: CreateGreenSolidArrow
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with GreenSolidArrow icon and specified label.
 type: docs
 weight: 450
 url: /net/aspose.note/notetag/creategreensolidarrow/
@@ -18,7 +18,7 @@ public static NoteTag CreateGreenSolidArrow(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

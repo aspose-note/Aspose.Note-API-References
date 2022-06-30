@@ -1,7 +1,7 @@
 ---
 title: SetOpen
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Sets the tag to open state.
 type: docs
 weight: 110
 url: /net/aspose.note/notetask/setopen/

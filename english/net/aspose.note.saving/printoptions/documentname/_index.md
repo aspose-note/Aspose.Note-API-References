@@ -1,7 +1,7 @@
 ---
 title: DocumentName
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the document name to display for example in a print status dialog box or printer queue while printing the document.
 type: docs
 weight: 20
 url: /net/aspose.note.saving/printoptions/documentname/

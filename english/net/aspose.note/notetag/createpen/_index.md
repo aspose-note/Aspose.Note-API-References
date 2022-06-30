@@ -1,7 +1,7 @@
 ---
 title: CreatePen
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Pen icon and specified label.
 type: docs
 weight: 740
 url: /net/aspose.note/notetag/createpen/
@@ -18,7 +18,7 @@ public static NoteTag CreatePen(string label = "Highlight")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

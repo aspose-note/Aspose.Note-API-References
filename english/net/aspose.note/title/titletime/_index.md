@@ -1,7 +1,7 @@
 ---
 title: TitleTime
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a string representation of the time in the title.
 type: docs
 weight: 70
 url: /net/aspose.note/title/titletime/

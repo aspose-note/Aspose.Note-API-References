@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents an Aspose.Note document.
 type: docs
 weight: 60
 url: /net/aspose.note/document/
@@ -18,11 +18,11 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | Name | Description |
 | --- | --- |
-| [Document](document)() | Initializes a new instance of the [`Document`](../document) class. Creates a blank OneNote document. |
-| [Document](document)(Stream) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a stream. |
-| [Document](document)(string) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a file. |
-| [Document](document)(Stream, LoadOptions) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a stream. Allows to specify additional options such as an encryption password. |
-| [Document](document)(string, LoadOptions) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a file. Allows to specify additional options such as an encryption password. |
+| [Document](document#constructor)() | Initializes a new instance of the [`Document`](../document) class. Creates a blank OneNote document. |
+| [Document](document#constructor_1)(Stream) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a stream. |
+| [Document](document#constructor_3)(string) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a file. |
+| [Document](document#constructor_2)(Stream, LoadOptions) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a stream. Allows to specify additional options such as an encryption password. |
+| [Document](document#constructor_4)(string, LoadOptions) | Initializes a new instance of the [`Document`](../document) class. Opens an existing OneNote document from a file. Allows to specify additional options such as an encryption password. |
 
 ## Properties
 
@@ -54,24 +54,27 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
 | [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
 | [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Gets the [`PageHistory`](../pagehistory) which contains full history for each page presented in a document (the earliest at index 0). The current page revision can be accessed as [`Current`](../pagehistory/current) and contained separately from collection of historical versions. |
+| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | Imports a set of pages from provided PDF document. |
+| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | Imports a set of pages from provided PDF document. |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
 | [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
 | [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Print](../../aspose.note/document/print)() | Prints the document using the default printer. |
-| [Print](../../aspose.note/document/print)(PrintOptions) | Prints the document using the default printer. |
+| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | Merges a set of pages to the document. |
+| [Print](../../aspose.note/document/print#print)() | Prints the document using the default printer. |
+| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | Prints the document using the default printer. |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save)(Stream) | Saves the OneNote document to a stream. |
-| [Save](../../aspose.note/document/save)(string) | Saves the OneNote document to a file. |
-| [Save](../../aspose.note/document/save)(Stream, SaveFormat) | Saves the OneNote document to a stream in the specified format. |
-| [Save](../../aspose.note/document/save)(Stream, SaveOptions) | Saves the OneNote document to a stream using the specified save options. |
-| [Save](../../aspose.note/document/save)(string, SaveFormat) | Saves the OneNote document to a file in the specified format. |
-| [Save](../../aspose.note/document/save)(string, SaveOptions) | Saves the OneNote document to a file using the specified save options. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted)(Stream, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted)(string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted)(Stream, LoadOptions, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted)(Stream, string, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted)(string, LoadOptions, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted)(string, string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| [Save](../../aspose.note/document/save#save)(Stream) | Saves the OneNote document to a stream. |
+| [Save](../../aspose.note/document/save#save_3)(string) | Saves the OneNote document to a file. |
+| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | Saves the OneNote document to a stream in the specified format. |
+| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | Saves the OneNote document to a stream using the specified save options. |
+| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | Saves the OneNote document to a file in the specified format. |
+| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | Saves the OneNote document to a file using the specified save options. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty. |
 
 ### Examples
 
@@ -1176,56 +1179,45 @@ string dataDir = RunExamples.GetDataDir_Tasks();
 // Create an object of the Document class
 Document doc = new Document();
 
-RichText titleText = new RichText(doc)
-                     {
-                         Text = "Title!",
-                         ParagraphStyle = ParagraphStyle.Default
-                     };
+RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
 
-Outline outline = new Outline(doc)
-                  {
-                      MaxWidth = 200,
-                      MaxHeight = 200,
-                      VerticalOffset = 100,
-                      HorizontalOffset = 100
-                  };
+Outline outline = new Outline()
+                      {
+                          MaxWidth = 200,
+                          MaxHeight = 200,
+                          VerticalOffset = 100,
+                          HorizontalOffset = 100
+                      };
 
 TextStyle textStyleRed = new TextStyle
-                         {
-                             FontColor = Color.Red,
-                             FontName = "Arial",
-                             FontSize = 10,
-
-                             // This style will be applied to 0-7 characters.
-                             RunIndex = 8 
-                         };
+                             {
+                                 FontColor = Color.Red,
+                                 FontName = "Arial",
+                                 FontSize = 10,
+                             };
 
 TextStyle textStyleHyperlink = new TextStyle
-                              {
-                                  // This style will be applied to 8-16 characters.
-                                  RunIndex = 17,
-                                  IsHyperlink = true,
-                                  HyperlinkAddress = "www.google.com"
-                              };
+                                   {
+                                       IsHyperlink = true,
+                                       HyperlinkAddress = "www.google.com"
+                                   };
 
-RichText text = new RichText(doc)
-                {
-                    Text = "This is hyperlink. This text is not a hyperlink.",
-                    ParagraphStyle = ParagraphStyle.Default,
-                    Styles = { textStyleRed, textStyleHyperlink }
-                };
+RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
+                    .Append("This is ", textStyleRed)
+                    .Append("hyperlink", textStyleHyperlink)
+                    .Append(". This text is not a hyperlink.", TextStyle.Default);
 
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
 // Add outline elements
 outline.AppendChildLast(outlineElem);
 
 // Initialize Title class object
-Title title = new Title(doc) { TitleText = titleText };
+Title title = new Title() { TitleText = titleText };
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc) { Title = title };
+Page page = new Note.Page() { Title = title };
 
 // Add Outline node
 page.AppendChildLast(outline);

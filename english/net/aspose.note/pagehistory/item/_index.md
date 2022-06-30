@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the page version at the specified index of the PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 50
 url: /net/aspose.note/pagehistory/item/
@@ -18,7 +18,7 @@ public Page this[int index] { get; set; }
 | --- | --- |
 | index | The index. |
 
-## Return Value
+### Return Value
 
 The page version.
 

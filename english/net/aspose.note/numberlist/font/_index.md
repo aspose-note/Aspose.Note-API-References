@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the name of the font.
 type: docs
 weight: 20
 url: /net/aspose.note/numberlist/font/

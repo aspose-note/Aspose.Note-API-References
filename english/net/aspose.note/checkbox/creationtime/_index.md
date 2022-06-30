@@ -1,7 +1,7 @@
 ---
 title: CreationTime
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the creation time.
 type: docs
 weight: 30
 url: /net/aspose.note/checkbox/creationtime/
@@ -14,7 +14,7 @@ Gets or sets the creation time.
 public DateTime CreationTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The DateTime.
 

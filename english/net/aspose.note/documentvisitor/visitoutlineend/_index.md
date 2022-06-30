@@ -1,7 +1,7 @@
 ---
 title: VisitOutlineEnd
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: End to visit the Outlineaspose.note/outline node.
 type: docs
 weight: 90
 url: /net/aspose.note/documentvisitor/visitoutlineend/

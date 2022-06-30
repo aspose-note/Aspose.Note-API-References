@@ -1,7 +1,7 @@
 ---
 title: FirstChild
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the first child node of this node.
 type: docs
 weight: 10
 url: /net/aspose.note/compositenode-1/firstchild/

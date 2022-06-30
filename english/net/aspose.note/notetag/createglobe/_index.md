@@ -1,7 +1,7 @@
 ---
 title: CreateGlobe
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Globe icon and specified label.
 type: docs
 weight: 350
 url: /net/aspose.note/notetag/createglobe/
@@ -18,7 +18,7 @@ public static NoteTag CreateGlobe(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

@@ -1,7 +1,7 @@
 ---
 title: GetFontFamily
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets font family.
 type: docs
 weight: 40
 url: /net/aspose.note.fonts/fontssubsystem/getfontfamily/
@@ -18,7 +18,7 @@ public virtual FontFamily GetFontFamily(string fontName)
 | --- | --- | --- |
 | fontName | String | The font name. |
 
-## Return Value
+### Return Value
 
 The FontFamily.
 

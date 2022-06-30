@@ -1,7 +1,7 @@
 ---
 title: Uri
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the uri to access stored resource.
 type: docs
 weight: 50
 url: /net/aspose.note.saving.html/resourcesavingargs/uri/

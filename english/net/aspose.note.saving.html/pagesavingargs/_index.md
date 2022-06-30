@@ -1,9 +1,9 @@
 ---
 title: PageSavingArgs
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Provides data for PageSaving event.
 type: docs
-weight: 620
+weight: 650
 url: /net/aspose.note.saving.html/pagesavingargs/
 ---
 ## PageSavingArgs class

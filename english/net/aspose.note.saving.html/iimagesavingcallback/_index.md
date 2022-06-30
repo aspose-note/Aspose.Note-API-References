@@ -1,9 +1,9 @@
 ---
 title: IImageSavingCallback
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Implement this interface if you want to control how Aspose.Note saves images when saving a document to HTML.
 type: docs
-weight: 590
+weight: 620
 url: /net/aspose.note.saving.html/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface

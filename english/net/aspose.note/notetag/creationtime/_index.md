@@ -1,7 +1,7 @@
 ---
 title: CreationTime
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the creation time.
 type: docs
 weight: 1140
 url: /net/aspose.note/notetag/creationtime/
@@ -14,7 +14,7 @@ Gets or sets the creation time.
 public DateTime CreationTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The DateTime.
 

@@ -1,7 +1,7 @@
 ---
 title: IsBold
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets a value indicating whether font under saving is bold.
 type: docs
 weight: 20
 url: /net/aspose.note.saving.html/fontsavingargs/isbold/

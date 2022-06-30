@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Determines whether the page history contains the page version.
 type: docs
 weight: 90
 url: /net/aspose.note/pagehistory/contains/
@@ -18,7 +18,7 @@ public bool Contains(Page item)
 | --- | --- | --- |
 | item | Page | The page version. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

@@ -1,7 +1,7 @@
 ---
 title: Icon
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the icon.
 type: docs
 weight: 290
 url: /net/aspose.note/notecheckbox/icon/
@@ -14,7 +14,7 @@ Gets or sets the icon.
 public override TagIcon Icon { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`TagIcon`](../../tagicon).
 

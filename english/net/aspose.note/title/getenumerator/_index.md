@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through child nodes of the Titleaspose.note/title.
 type: docs
 weight: 110
 url: /net/aspose.note/title/getenumerator/
@@ -14,7 +14,7 @@ Returns an enumerator that iterates through child nodes of the [`Title`](../../t
 public IEnumerator<RichText> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 The IEnumerator.
 

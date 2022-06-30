@@ -1,12 +1,12 @@
 ---
 title: AddFont
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Add the font.
 type: docs
 weight: 20
 url: /net/aspose.note.fonts/fontssubsystem/addfont/
 ---
-## FontsSubsystem.AddFont method (1 of 3)
+## AddFont(Stream, string) {#addfont_1}
 
 Add the font.
 
@@ -27,7 +27,7 @@ public void AddFont(Stream stream, string tempFolder)
 
 ---
 
-## FontsSubsystem.AddFont method (2 of 3)
+## AddFont(Stream) {#addfont}
 
 Add the font.
 
@@ -47,7 +47,7 @@ public void AddFont(Stream stream)
 
 ---
 
-## FontsSubsystem.AddFont method (3 of 3)
+## AddFont(string) {#addfont_2}
 
 Add the font.
 

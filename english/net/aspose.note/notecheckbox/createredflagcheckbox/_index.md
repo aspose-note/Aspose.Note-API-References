@@ -1,7 +1,7 @@
 ---
 title: CreateRedFlagCheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with RedFlagCheckBoxEmpty icon and specified label.
 type: docs
 weight: 190
 url: /net/aspose.note/notecheckbox/createredflagcheckbox/
@@ -18,7 +18,7 @@ public static NoteCheckBox CreateRedFlagCheckBox(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through child nodes of the PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 110
 url: /net/aspose.note/pagehistory/getenumerator/
@@ -14,7 +14,7 @@ Returns an enumerator that iterates through child nodes of the [`PageHistory`](.
 public IEnumerator<Page> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 The IEnumerator.
 

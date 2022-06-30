@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets notebook child node by the given index.
 type: docs
 weight: 80
 url: /net/aspose.note/notebook/item/
@@ -18,7 +18,7 @@ public INotebookChildNode this[int index] { get; }
 | --- | --- |
 | index | Index to child node. |
 
-## Return Value
+### Return Value
 
 The child node on the *index* position.
 

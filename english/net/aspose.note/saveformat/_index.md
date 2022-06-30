@@ -1,9 +1,9 @@
 ---
 title: SaveFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Indicates the format in which the document is saved.
 type: docs
-weight: 490
+weight: 520
 url: /net/aspose.note/saveformat/
 ---
 ## SaveFormat enumeration
@@ -14,7 +14,7 @@ Indicates the format in which the document is saved.
 public enum SaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

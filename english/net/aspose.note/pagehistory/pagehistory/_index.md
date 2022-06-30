@@ -1,7 +1,7 @@
 ---
 title: PageHistory
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the PageHistoryaspose.note/pagehistory class.
 type: docs
 weight: 10
 url: /net/aspose.note/pagehistory/pagehistory/

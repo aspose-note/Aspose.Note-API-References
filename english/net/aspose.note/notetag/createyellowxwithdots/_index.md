@@ -1,7 +1,7 @@
 ---
 title: CreateYellowXWithDots
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowXWithDots icon and specified label.
 type: docs
 weight: 1120
 url: /net/aspose.note/notetag/createyellowxwithdots/
@@ -18,7 +18,7 @@ public static NoteTag CreateYellowXWithDots(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

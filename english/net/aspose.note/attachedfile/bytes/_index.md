@@ -1,7 +1,7 @@
 ---
 title: Bytes
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the binary data for an embedded file.
 type: docs
 weight: 50
 url: /net/aspose.note/attachedfile/bytes/

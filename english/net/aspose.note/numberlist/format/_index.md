@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the format of the line header. For bulleted lists represents a bullet symbol.
 type: docs
 weight: 50
 url: /net/aspose.note/numberlist/format/

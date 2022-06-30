@@ -1,7 +1,7 @@
 ---
 title: CreateYellowTriangle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowTriangle icon and specified label.
 type: docs
 weight: 1080
 url: /net/aspose.note/notetag/createyellowtriangle/
@@ -18,7 +18,7 @@ public static NoteTag CreateYellowTriangle(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

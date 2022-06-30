@@ -1,7 +1,7 @@
 ---
 title: IsBackground
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets whether the image is a background image.
 type: docs
 weight: 120
 url: /net/aspose.note/image/isbackground/

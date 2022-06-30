@@ -1,7 +1,7 @@
 ---
 title: FontSavingCallback
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the callback that is called to create resource to store font.
 type: docs
 weight: 90
 url: /net/aspose.note.saving/htmlsaveoptions/fontsavingcallback/

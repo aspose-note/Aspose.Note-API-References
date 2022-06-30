@@ -1,7 +1,7 @@
 ---
 title: CreateSunflower
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Sunflower icon and specified label.
 type: docs
 weight: 890
 url: /net/aspose.note/notetag/createsunflower/
@@ -18,7 +18,7 @@ public static NoteTag CreateSunflower(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

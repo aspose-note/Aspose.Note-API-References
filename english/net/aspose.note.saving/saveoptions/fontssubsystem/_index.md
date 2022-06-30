@@ -1,7 +1,7 @@
 ---
 title: FontsSubsystem
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets fonts settings to be used while saving
 type: docs
 weight: 10
 url: /net/aspose.note.saving/saveoptions/fontssubsystem/

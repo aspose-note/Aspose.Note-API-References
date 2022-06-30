@@ -1,7 +1,7 @@
 ---
 title: Icon
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the icon.
 type: docs
 weight: 1170
 url: /net/aspose.note/notetag/icon/
@@ -14,7 +14,7 @@ Gets or sets the icon.
 public TagIcon Icon { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`TagIcon`](../../tagicon).
 

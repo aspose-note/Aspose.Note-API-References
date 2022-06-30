@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the ParagraphStyle with default settings.
 type: docs
 weight: 20
 url: /net/aspose.note/paragraphstyle/default/

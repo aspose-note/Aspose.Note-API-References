@@ -1,7 +1,7 @@
 ---
 title: FontFamilyName
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the family name of the font to be saved.
 type: docs
 weight: 10
 url: /net/aspose.note.saving.html/fontsavingargs/fontfamilyname/

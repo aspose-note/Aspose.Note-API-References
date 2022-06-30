@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets a color. Default value is Color.Empty.
 type: docs
 weight: 10
 url: /net/aspose.note/inotebookchildnode/color/

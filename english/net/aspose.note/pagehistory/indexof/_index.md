@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Determines the index of a specific page version in the page history.
 type: docs
 weight: 120
 url: /net/aspose.note/pagehistory/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(Page item)
 | --- | --- | --- |
 | item | Page | The page version. |
 
-## Return Value
+### Return Value
 
 The Int32.
 

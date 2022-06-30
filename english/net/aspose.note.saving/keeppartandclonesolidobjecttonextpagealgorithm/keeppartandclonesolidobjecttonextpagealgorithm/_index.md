@@ -1,12 +1,12 @@
 ---
 title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the KeepPartAndCloneSolidObjectToNextPageAlgorithmaspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm class using default height limit of cloned part.
 type: docs
 weight: 10
 url: /net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
-## KeepPartAndCloneSolidObjectToNextPageAlgorithm constructor (1 of 2)
+## KeepPartAndCloneSolidObjectToNextPageAlgorithm() {#constructor}
 
 Initializes a new instance of the [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../../keeppartandclonesolidobjecttonextpagealgorithm) class, using default height limit of cloned part.
 
@@ -22,7 +22,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm()
 
 ---
 
-## KeepPartAndCloneSolidObjectToNextPageAlgorithm constructor (2 of 2)
+## KeepPartAndCloneSolidObjectToNextPageAlgorithm(float) {#constructor_1}
 
 Initializes a new instance of the [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../../keeppartandclonesolidobjecttonextpagealgorithm) class, using specific height limit of cloned part.
 

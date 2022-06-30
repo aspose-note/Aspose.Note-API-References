@@ -1,7 +1,7 @@
 ---
 title: FilePath
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the path to the original file.
 type: docs
 weight: 80
 url: /net/aspose.note/attachedfile/filepath/

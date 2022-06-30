@@ -1,7 +1,7 @@
 ---
 title: CreateGreenPersonCheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with GreenPersonCheckBoxEmpty icon and specified label.
 type: docs
 weight: 160
 url: /net/aspose.note/notecheckbox/creategreenpersoncheckbox/
@@ -18,7 +18,7 @@ public static NoteCheckBox CreateGreenPersonCheckBox(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

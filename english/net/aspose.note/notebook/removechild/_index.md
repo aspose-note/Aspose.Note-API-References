@@ -1,7 +1,7 @@
 ---
 title: RemoveChild
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Removes the child node.
 type: docs
 weight: 140
 url: /net/aspose.note/notebook/removechild/
@@ -18,7 +18,7 @@ public INotebookChildNode RemoveChild(INotebookChildNode oldChild)
 | --- | --- | --- |
 | oldChild | INotebookChildNode | The node to remove. |
 
-## Return Value
+### Return Value
 
 The removed node.
 

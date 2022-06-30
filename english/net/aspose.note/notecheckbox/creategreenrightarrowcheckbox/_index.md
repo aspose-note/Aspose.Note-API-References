@@ -1,7 +1,7 @@
 ---
 title: CreateGreenRightArrowCheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with GreenRightArrowCheckBoxEmpty icon and specified label.
 type: docs
 weight: 170
 url: /net/aspose.note/notecheckbox/creategreenrightarrowcheckbox/
@@ -18,7 +18,7 @@ public static NoteCheckBox CreateGreenRightArrowCheckBox(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

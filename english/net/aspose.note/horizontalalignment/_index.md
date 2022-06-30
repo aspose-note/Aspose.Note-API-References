@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlignment
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Specifies the alignment.
 type: docs
 weight: 130
 url: /net/aspose.note/horizontalalignment/
@@ -14,7 +14,7 @@ Specifies the alignment.
 public enum HorizontalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

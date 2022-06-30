@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the width.
 type: docs
 weight: 30
 url: /net/aspose.note/tablecolumn/width/

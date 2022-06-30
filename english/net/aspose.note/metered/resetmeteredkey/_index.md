@@ -1,7 +1,7 @@
 ---
 title: ResetMeteredKey
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Removes previously setup license.
 type: docs
 weight: 20
 url: /net/aspose.note/metered/resetmeteredkey/

@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Saves the OneNote document to a file.
 type: docs
 weight: 150
 url: /net/aspose.note/notebook/save/
 ---
-## Notebook.Save method (1 of 6)
+## Save(string) {#save_3}
 
 Saves the OneNote document to a file.
 
@@ -33,7 +33,7 @@ public void Save(string fileName)
 
 ---
 
-## Notebook.Save method (2 of 6)
+## Save(Stream) {#save}
 
 Saves the OneNote document to a stream.
 
@@ -60,7 +60,7 @@ public void Save(Stream stream)
 
 ---
 
-## Notebook.Save method (3 of 6)
+## Save(string, SaveFormat) {#save_4}
 
 Saves the OneNote document to a file in the specified format.
 
@@ -89,7 +89,7 @@ public void Save(string fileName, SaveFormat format)
 
 ---
 
-## Notebook.Save method (4 of 6)
+## Save(Stream, SaveFormat) {#save_1}
 
 Saves the OneNote document to a stream in the specified format.
 
@@ -118,7 +118,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ---
 
-## Notebook.Save method (5 of 6)
+## Save(string, NotebookSaveOptions) {#save_5}
 
 Saves the OneNote document to a file using the specified save options.
 
@@ -147,7 +147,7 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 ---
 
-## Notebook.Save method (6 of 6)
+## Save(Stream, NotebookSaveOptions) {#save_2}
 
 Saves the OneNote document to a stream using the specified save options.
 

@@ -1,7 +1,7 @@
 ---
 title: PageSavingCallback
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the callback that is called to create resource to store page.
 type: docs
 weight: 110
 url: /net/aspose.note.saving/htmlsaveoptions/pagesavingcallback/

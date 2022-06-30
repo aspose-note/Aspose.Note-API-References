@@ -1,7 +1,7 @@
 ---
 title: ImageSaving
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Called when Aspose.Note saves an image.
 type: docs
 weight: 10
 url: /net/aspose.note.saving.html/iimagesavingcallback/imagesaving/

@@ -1,7 +1,7 @@
 ---
 title: IsStrikethrough
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is strikethrough.
 type: docs
 weight: 80
 url: /net/aspose.note/style/isstrikethrough/

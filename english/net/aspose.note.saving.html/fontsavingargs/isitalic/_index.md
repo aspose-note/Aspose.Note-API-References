@@ -1,7 +1,7 @@
 ---
 title: IsItalic
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets a value indicating whether font under saving is italic.
 type: docs
 weight: 30
 url: /net/aspose.note.saving.html/fontsavingargs/isitalic/

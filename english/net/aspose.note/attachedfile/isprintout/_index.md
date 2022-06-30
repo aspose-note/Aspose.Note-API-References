@@ -1,7 +1,7 @@
 ---
 title: IsPrintout
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the view of the file is printout.
 type: docs
 weight: 130
 url: /net/aspose.note/attachedfile/isprintout/

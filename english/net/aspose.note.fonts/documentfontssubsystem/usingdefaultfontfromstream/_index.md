@@ -1,7 +1,7 @@
 ---
 title: UsingDefaultFontFromStream
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Create new DocumentFontsSubsystem instance using a font from specified stream as default.
 type: docs
 weight: 50
 url: /net/aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/
@@ -20,7 +20,7 @@ public static DocumentFontsSubsystem UsingDefaultFontFromStream(Stream defaultFo
 | defaultFontStream | Stream | The stream containing the default font name. |
 | fontsSubstitutions | Dictionary`2 | The fonts substitutions. |
 
-## Return Value
+### Return Value
 
 The [`DocumentFontsSubsystem`](../../documentfontssubsystem).
 

@@ -1,12 +1,12 @@
 ---
 title: IsEncrypted
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.note/document/isencrypted/
 ---
-## Document.IsEncrypted method (1 of 6)
+## IsEncrypted(Stream, LoadOptions, out Document) {#isencrypted_1}
 
 Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 
@@ -20,7 +20,7 @@ public static bool IsEncrypted(Stream stream, LoadOptions options, out Document 
 | options | LoadOptions | The load options. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -78,7 +78,7 @@ else
 
 ---
 
-## Document.IsEncrypted method (2 of 6)
+## IsEncrypted(Stream, string, out Document) {#isencrypted_2}
 
 Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 
@@ -92,7 +92,7 @@ public static bool IsEncrypted(Stream stream, string password, out Document docu
 | password | String | The password to decrypt a document. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -149,7 +149,7 @@ else
 
 ---
 
-## Document.IsEncrypted method (3 of 6)
+## IsEncrypted(Stream, out Document) {#isencrypted}
 
 Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 
@@ -162,7 +162,7 @@ public static bool IsEncrypted(Stream stream, out Document document)
 | stream | Stream | The stream. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -219,7 +219,7 @@ else
 
 ---
 
-## Document.IsEncrypted method (4 of 6)
+## IsEncrypted(string, LoadOptions, out Document) {#isencrypted_4}
 
 Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 
@@ -233,7 +233,7 @@ public static bool IsEncrypted(string filePath, LoadOptions options, out Documen
 | options | LoadOptions | The load options. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -291,7 +291,7 @@ else
 
 ---
 
-## Document.IsEncrypted method (5 of 6)
+## IsEncrypted(string, out Document) {#isencrypted_3}
 
 Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 
@@ -304,7 +304,7 @@ public static bool IsEncrypted(string filePath, out Document document)
 | filePath | String | The file path. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 
@@ -361,7 +361,7 @@ else
 
 ---
 
-## Document.IsEncrypted method (6 of 6)
+## IsEncrypted(string, string, out Document) {#isencrypted_5}
 
 Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 
@@ -375,7 +375,7 @@ public static bool IsEncrypted(string filePath, string password, out Document do
 | password | String | The password to decrypt a document. |
 | document | Document& | The loaded document. |
 
-## Return Value
+### Return Value
 
 Returns true if the document is encrypted otherwise false.
 

@@ -1,7 +1,7 @@
 ---
 title: MillimeterToPoint
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Converts millimeters to points.
 type: docs
 weight: 30
 url: /net/aspose.note/displayunitsconverter/millimetertopoint/
@@ -18,7 +18,7 @@ public static float MillimeterToPoint(float mm)
 | --- | --- | --- |
 | mm | Single | The value to convert in millimeters. |
 
-## Return Value
+### Return Value
 
 The Single.
 

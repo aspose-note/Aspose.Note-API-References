@@ -1,9 +1,9 @@
 ---
 title: ColorMode
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The color mode of the image.
 type: docs
-weight: 520
+weight: 550
 url: /net/aspose.note.saving/colormode/
 ---
 ## ColorMode enumeration
@@ -14,7 +14,7 @@ The color mode of the image.
 public enum ColorMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: NextSibling
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the next node at the same node tree level.
 type: docs
 weight: 30
 url: /net/aspose.note/node/nextsibling/
@@ -14,7 +14,7 @@ Gets the next node at the same node tree level.
 public INode NextSibling { get; }
 ```
 
-## Property Value
+### Property Value
 
 The next sibling.
 

@@ -1,7 +1,7 @@
 ---
 title: DefaultHeightLimitOfClonedPart
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The default max size of cloned part.
 type: docs
 weight: 30
 url: /net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart/

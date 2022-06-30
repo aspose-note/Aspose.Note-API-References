@@ -1,7 +1,7 @@
 ---
 title: BinarizationThreshold
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets threshold value for fixed threshold binarization method. The default value is 128.
 type: docs
 weight: 30
 url: /net/aspose.note.saving/imagebinarizationoptions/binarizationthreshold/

@@ -1,7 +1,7 @@
 ---
 title: AlternativeTextDescription
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a body an alternative text for the icon of the attached file.
 type: docs
 weight: 30
 url: /net/aspose.note/attachedfile/alternativetextdescription/

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkUrl
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the hyperlink associated with the image.
 type: docs
 weight: 110
 url: /net/aspose.note/image/hyperlinkurl/

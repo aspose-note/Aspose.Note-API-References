@@ -1,7 +1,7 @@
 ---
 title: Top
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the top margin width.
 type: docs
 weight: 60
 url: /net/aspose.note/margins/top/

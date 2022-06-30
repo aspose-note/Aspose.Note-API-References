@@ -1,9 +1,9 @@
 ---
 title: KeepSolidObjectsAlgorithm
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Shifts full object to the next page in case it doesnt fit in original page.
 type: docs
-weight: 690
+weight: 720
 url: /net/aspose.note.saving/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm class
@@ -18,14 +18,20 @@ public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
 
 | Name | Description |
 | --- | --- |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm)() | Initializes a new instance of the [`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm) class using default height limit of cloned part. |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm)(float) | Initializes a new instance of the [`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm) class using specific height limit of cloned part. |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor)() | Initializes a new instance of the [`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm) class using default height limit of cloned part. |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor_1)(float) | Initializes a new instance of the [`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm) class using specific height limit of cloned part. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [HeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/heightlimitofclonedpart) { get; } | Gets the height limit of cloned part. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart) | The default max size of cloned part. |
 
 ### Examples
 

@@ -1,7 +1,7 @@
 ---
 title: CreateLightningBolt
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with LightningBolt icon and specified label.
 type: docs
 weight: 620
 url: /net/aspose.note/notetag/createlightningbolt/
@@ -18,7 +18,7 @@ public static NoteTag CreateLightningBolt(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

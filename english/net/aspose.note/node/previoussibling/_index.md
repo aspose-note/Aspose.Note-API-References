@@ -1,7 +1,7 @@
 ---
 title: PreviousSibling
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the previous node at the same node tree level.
 type: docs
 weight: 60
 url: /net/aspose.note/node/previoussibling/
@@ -14,7 +14,7 @@ Gets the previous node at the same node tree level.
 public INode PreviousSibling { get; }
 ```
 
-## Property Value
+### Property Value
 
 The previous sibling.
 

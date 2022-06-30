@@ -1,7 +1,7 @@
 ---
 title: OriginalHeight
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the original height. This is the original width of the image before resizing.
 type: docs
 weight: 140
 url: /net/aspose.note/image/originalheight/

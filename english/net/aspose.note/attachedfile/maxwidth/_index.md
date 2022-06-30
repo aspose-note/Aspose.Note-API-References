@@ -1,7 +1,7 @@
 ---
 title: MaxWidth
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the maximum width to display the embedded file icon.
 type: docs
 weight: 170
 url: /net/aspose.note/attachedfile/maxwidth/

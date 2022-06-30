@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Determines whether the specified object is equal to the current object.
 type: docs
 weight: 110
 url: /net/aspose.note/numberlist/equals/
 ---
-## NumberList.Equals method (1 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified object is equal to the current object.
 
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 
@@ -30,7 +30,7 @@ The Boolean.
 
 ---
 
-## NumberList.Equals method (2 of 2)
+## Equals(NumberList) {#equals}
 
 Determines whether the specified object is equal to the current object.
 
@@ -42,7 +42,7 @@ public bool Equals(NumberList other)
 | --- | --- | --- |
 | other | NumberList | The object. |
 
-## Return Value
+### Return Value
 
 The Boolean.
 

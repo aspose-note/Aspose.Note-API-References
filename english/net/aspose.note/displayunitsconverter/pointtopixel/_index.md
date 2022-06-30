@@ -1,7 +1,7 @@
 ---
 title: PointToPixel
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Converts points to pixels at the specified pixel resolution.
 type: docs
 weight: 60
 url: /net/aspose.note/displayunitsconverter/pointtopixel/
@@ -19,7 +19,7 @@ public static int PointToPixel(float points, float dpi)
 | points | Single | The value to convert in points. |
 | dpi | Single | Screen resolution. |
 
-## Return Value
+### Return Value
 
 The Int32.
 

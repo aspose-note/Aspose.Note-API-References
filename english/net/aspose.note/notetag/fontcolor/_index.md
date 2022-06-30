@@ -1,7 +1,7 @@
 ---
 title: FontColor
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the font color.
 type: docs
 weight: 1150
 url: /net/aspose.note/notetag/fontcolor/

@@ -1,7 +1,7 @@
 ---
 title: BinarizationMethod
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the binarization method. The default value is FixedThreshold.
 type: docs
 weight: 20
 url: /net/aspose.note.saving/imagebinarizationoptions/binarizationmethod/

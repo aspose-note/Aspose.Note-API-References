@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the count of the page versions in the page history.
 type: docs
 weight: 20
 url: /net/aspose.note/pagehistory/count/

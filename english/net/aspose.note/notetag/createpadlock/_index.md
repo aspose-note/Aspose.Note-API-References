@@ -1,7 +1,7 @@
 ---
 title: CreatePadlock
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Padlock icon and specified label.
 type: docs
 weight: 720
 url: /net/aspose.note/notetag/createpadlock/
@@ -18,7 +18,7 @@ public static NoteTag CreatePadlock(string label = "Password")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

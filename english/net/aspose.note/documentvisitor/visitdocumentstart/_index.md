@@ -1,7 +1,7 @@
 ---
 title: VisitDocumentStart
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Start to visit the Documentaspose.note/document node.
 type: docs
 weight: 40
 url: /net/aspose.note/documentvisitor/visitdocumentstart/

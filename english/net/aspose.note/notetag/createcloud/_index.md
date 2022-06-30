@@ -1,7 +1,7 @@
 ---
 title: CreateCloud
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Cloud icon and specified label.
 type: docs
 weight: 270
 url: /net/aspose.note/notetag/createcloud/
@@ -18,7 +18,7 @@ public static NoteTag CreateCloud(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

@@ -1,7 +1,7 @@
 ---
 title: FontSize
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the font size.
 type: docs
 weight: 30
 url: /net/aspose.note/style/fontsize/
@@ -27,56 +27,80 @@ Document document = new Document(dataDir + "Aspose.one");
 // Get a particular RichText node
 RichText richText = document.GetChildNodes<RichText>().First();
 
-foreach (TextStyle style in richText.Styles)
+foreach (var run in richText.TextRuns)
 {
     // Set font color
-    style.FontColor = Color.Yellow;
+    run.Style.FontColor = Color.Yellow;
 
     // Set highlight color
-    style.Highlight = Color.Blue;
+    run.Style.Highlight = Color.Blue;
 
     // Set font size
-    style.FontSize = 20;
+    run.Style.FontSize = 20;
 }
+```
+
+Let's emphasize page's titles among other headers by increasing font's size.
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Load the document into Aspose.Note.
+Document document = new Document(dataDir + "Aspose.one");
+
+// Iterate through page's titles.
+foreach (var title in document.Select(e => e.Title.TitleText))
+{
+    title.ParagraphStyle.FontSize = 24;
+    title.ParagraphStyle.IsBold = true;
+
+    foreach (var run in title.TextRuns)
+    {
+        run.Style.FontSize = 24;
+        run.Style.IsBold = true;
+    }
+}
+
+document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
+```
+
+Let's emphasize latest text's changes by highlighting.
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Load the document into Aspose.Note.
+Document document = new Document(dataDir + "Aspose.one");
+
+// Get RichText nodes modified last week.
+var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
+
+foreach (var node in richTextNodes)
+{
+    // Set highlight color
+    node.ParagraphStyle.Highlight = Color.DarkGreen;
+    foreach (var run in node.TextRuns)
+    {
+        // Set highlight color
+        run.Style.Highlight = Color.DarkSeaGreen;
+    }
+}
+
+document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
 Manipulate by text format using paragraph style.
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
-var outline = new Outline(document);
-var outlineElem = new OutlineElement(document);
+var page = new Page();
+var outline = new Outline();
+var outlineElem = new OutlineElement();
 
-var text = new RichText(document)
-            {
-                Text = $"DefaultParagraphFontAndSize{Environment.NewLine}OnlyDefaultParagraphFont{Environment.NewLine}OnlyDefaultParagraphFontSize",
-                ParagraphStyle = new ParagraphStyle()
-                                    {
-                                        FontName = "Courier New",
-                                        FontSize = 20
-                                    }
-            };
-
-// Font and font size are from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            RunIndex = 27
-                        });
-
-// Only font is from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            FontSize = 14,
-                            RunIndex = 53
-                        });
-
-// Only font size is from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            FontName = "Verdana",
-                            RunIndex = text.Text.Length
-                        });
+var text = new RichText() { ParagraphStyle = new ParagraphStyle() { FontName = "Courier New", FontSize = 20 } }
+                .Append($"DefaultParagraphFontAndSize{Environment.NewLine}")
+                .Append($"OnlyDefaultParagraphFont{Environment.NewLine}", new TextStyle() { FontSize = 14 })
+                .Append("OnlyDefaultParagraphFontSize", new TextStyle() { FontName = "Verdana" });
 
 outlineElem.AppendChildLast(text);
 outline.AppendChildLast(outlineElem);
@@ -231,56 +255,45 @@ string dataDir = RunExamples.GetDataDir_Tasks();
 // Create an object of the Document class
 Document doc = new Document();
 
-RichText titleText = new RichText(doc)
-                     {
-                         Text = "Title!",
-                         ParagraphStyle = ParagraphStyle.Default
-                     };
+RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
 
-Outline outline = new Outline(doc)
-                  {
-                      MaxWidth = 200,
-                      MaxHeight = 200,
-                      VerticalOffset = 100,
-                      HorizontalOffset = 100
-                  };
+Outline outline = new Outline()
+                      {
+                          MaxWidth = 200,
+                          MaxHeight = 200,
+                          VerticalOffset = 100,
+                          HorizontalOffset = 100
+                      };
 
 TextStyle textStyleRed = new TextStyle
-                         {
-                             FontColor = Color.Red,
-                             FontName = "Arial",
-                             FontSize = 10,
-
-                             // This style will be applied to 0-7 characters.
-                             RunIndex = 8 
-                         };
+                             {
+                                 FontColor = Color.Red,
+                                 FontName = "Arial",
+                                 FontSize = 10,
+                             };
 
 TextStyle textStyleHyperlink = new TextStyle
-                              {
-                                  // This style will be applied to 8-16 characters.
-                                  RunIndex = 17,
-                                  IsHyperlink = true,
-                                  HyperlinkAddress = "www.google.com"
-                              };
+                                   {
+                                       IsHyperlink = true,
+                                       HyperlinkAddress = "www.google.com"
+                                   };
 
-RichText text = new RichText(doc)
-                {
-                    Text = "This is hyperlink. This text is not a hyperlink.",
-                    ParagraphStyle = ParagraphStyle.Default,
-                    Styles = { textStyleRed, textStyleHyperlink }
-                };
+RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
+                    .Append("This is ", textStyleRed)
+                    .Append("hyperlink", textStyleHyperlink)
+                    .Append(". This text is not a hyperlink.", TextStyle.Default);
 
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
 // Add outline elements
 outline.AppendChildLast(outlineElem);
 
 // Initialize Title class object
-Title title = new Title(doc) { TitleText = titleText };
+Title title = new Title() { TitleText = titleText };
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc) { Title = title };
+Page page = new Note.Page() { Title = title };
 
 // Add Outline node
 page.AppendChildLast(outline);
@@ -291,6 +304,70 @@ doc.AppendChildLast(page);
 // Save OneNote document
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
+```
+
+Shows how to compose a table having text with various styles.
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+var headerText = new RichText() { ParagraphStyle = new ParagraphStyle() { FontSize = 18, IsBold = true }, Alignment = HorizontalAlignment.Center }
+                    .Append("Super contest for suppliers.");
+
+var page = new Page();
+var outline = page.AppendChildLast(new Outline() { HorizontalOffset = 50 });
+outline.AppendChildLast(new OutlineElement()).AppendChildLast(headerText);
+
+// Summary text before table
+var bodyTextHeader = outline.AppendChildLast(new OutlineElement()).AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default });
+bodyTextHeader.Append("This is the final ranking of proposals got from our suppliers.");
+
+var ranking = outline.AppendChildLast(new OutlineElement()).AppendChildLast(new Table());
+var headerRow = ranking.AppendChildFirst(new TableRow());
+
+var headerStyle = ParagraphStyle.Default;
+headerStyle.IsBold = true;
+
+// Let's add a set of columns and a header row
+var backGroundColor = Color.LightGray;
+foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Score C", "Final score", "Attached materials", "Comments" })
+{
+    ranking.Columns.Add(new TableColumn());
+    headerRow.AppendChildLast(new TableCell() { BackgroundColor = backGroundColor })
+             .AppendChildLast(new OutlineElement())
+             .AppendChildLast(new RichText() { ParagraphStyle = headerStyle })
+                .Append(header);
+}
+
+// Let's 5 empty rows. Rows have interchanging background color
+for (int i = 0; i < 5; i++)
+{
+    backGroundColor = backGroundColor.IsEmpty ? Color.LightGray : Color.Empty;
+
+    var row = ranking.AppendChildLast(new TableRow());
+    for (int j = 0; j < ranking.Columns.Count(); j++)
+    {
+        row.AppendChildLast(new TableCell() { BackgroundColor = backGroundColor })
+           .AppendChildLast(new OutlineElement())
+           .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default });
+    }
+}
+
+// Let's add some template for content in 'Contacts' column
+foreach (var row in ranking.Skip(1))
+{
+    var contactsCell = row.ElementAt(1);
+    contactsCell.AppendChildLast(new OutlineElement())
+                .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default })
+                    .Append("Web: ").Append("link", new TextStyle() { HyperlinkAddress = "www.link.com", IsHyperlink = true });
+    contactsCell.AppendChildLast(new OutlineElement())
+                .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default })
+                    .Append("E-mail: ").Append("mail", new TextStyle() { HyperlinkAddress = "mailto:hi@link.com", IsHyperlink = true });
+}
+
+var d = new Document();
+d.AppendChildLast(page);
+d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 ```
 
 ### See Also

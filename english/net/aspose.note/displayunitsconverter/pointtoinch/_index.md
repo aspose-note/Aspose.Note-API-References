@@ -1,7 +1,7 @@
 ---
 title: PointToInch
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Converts points to inches.
 type: docs
 weight: 50
 url: /net/aspose.note/displayunitsconverter/pointtoinch/
@@ -18,7 +18,7 @@ public static float PointToInch(float points)
 | --- | --- | --- |
 | points | Single | The value to convert in points. |
 
-## Return Value
+### Return Value
 
 The Single.
 

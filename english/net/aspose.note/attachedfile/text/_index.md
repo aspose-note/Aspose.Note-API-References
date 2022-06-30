@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the text representation of the embedded file. The string MUST NOT contain any characters of the value 10 line feed or 13 carriage return.
 type: docs
 weight: 190
 url: /net/aspose.note/attachedfile/text/

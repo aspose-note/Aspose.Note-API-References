@@ -1,7 +1,7 @@
 ---
 title: ParagraphStyle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the ParagraphStyleaspose.note/paragraphstyle class.
 type: docs
 weight: 10
 url: /net/aspose.note/paragraphstyle/paragraphstyle/

@@ -1,9 +1,9 @@
 ---
 title: DefaultMsOneNoteTitleTimeStyle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets default style for title time in MS OneNote.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.note/textstyle/defaultmsonenotetitletimestyle/
 ---
 ## TextStyle.DefaultMsOneNoteTitleTimeStyle property

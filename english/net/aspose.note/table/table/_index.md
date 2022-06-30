@@ -1,7 +1,7 @@
 ---
 title: Table
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the Tableaspose.note/table class.
 type: docs
 weight: 10
 url: /net/aspose.note/table/table/

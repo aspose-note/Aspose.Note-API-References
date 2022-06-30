@@ -1,7 +1,7 @@
 ---
 title: PageSplittingAlgorithm
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets algorithm used for page splitting.
 type: docs
 weight: 30
 url: /net/aspose.note.saving/printoptions/pagesplittingalgorithm/
@@ -14,7 +14,7 @@ Gets or sets algorithm used for page splitting.
 public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The `PageSplittingAlgorithm`.
 

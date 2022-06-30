@@ -1,7 +1,7 @@
 ---
 title: IsItalic
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is italic.
 type: docs
 weight: 70
 url: /net/aspose.note/style/isitalic/
@@ -12,36 +12,6 @@ Gets or sets a value indicating whether the text style is italic.
 
 ```csharp
 public bool IsItalic { get; set; }
-```
-
-### Examples
-
-Let's format table for better perception. Make header row bold and italic, highlight every even row using LightGray color.
-
-```csharp
-string dataDir = RunExamples.GetDataDir_Tables();
-
-// Load the document into Aspose.Note.
-Document document = new Document(dataDir + "ChangeTableStyleIn.one");
-
-// Get a list of table nodes
-IList<Table> nodes = document.GetChildNodes<Table>();
-
-foreach (Table table in nodes)
-{
-    SetRowStyle(table.First(), Color.DarkGray, true, true);
-
-    // Highlight first row after head.
-    var flag = false;
-    foreach (var row in table.Skip(1))
-    {
-        SetRowStyle(row, flag ? Color.LightGray : Color.Empty, false, false);
-
-        flag = !flag;
-    }
-}
-
-document.Save(Path.Combine(dataDir, "ChangeTableStyleOut.one"));
 ```
 
 ### See Also

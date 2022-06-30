@@ -1,7 +1,7 @@
 ---
 title: Tags
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the list of all tags.
 type: docs
 weight: 10
 url: /net/aspose.note/itaggable/tags/

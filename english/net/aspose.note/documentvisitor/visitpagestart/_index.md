@@ -1,7 +1,7 @@
 ---
 title: VisitPageStart
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Start to visit the Pageaspose.note/page node.
 type: docs
 weight: 140
 url: /net/aspose.note/documentvisitor/visitpagestart/

@@ -1,7 +1,7 @@
 ---
 title: CreateBlueCircle2
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with BlueCircle2 icon and specified label.
 type: docs
 weight: 70
 url: /net/aspose.note/notetag/createbluecircle2/
@@ -18,7 +18,7 @@ public static NoteTag CreateBlueCircle2(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

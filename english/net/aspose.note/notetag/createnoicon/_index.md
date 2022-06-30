@@ -1,7 +1,7 @@
 ---
 title: CreateNoIcon
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag without icon and with specified label.
 type: docs
 weight: 670
 url: /net/aspose.note/notetag/createnoicon/
@@ -18,7 +18,7 @@ public static NoteTag CreateNoIcon(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

@@ -1,12 +1,12 @@
 ---
 title: AttachedFile
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the AttachedFileaspose.note/attachedfile class.
 type: docs
 weight: 10
 url: /net/aspose.note/attachedfile/attachedfile/
 ---
-## AttachedFile constructor (1 of 4)
+## AttachedFile(string, Stream, ImageFormat) {#constructor_7}
 
 Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
 
@@ -28,7 +28,7 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 ---
 
-## AttachedFile constructor (2 of 4)
+## AttachedFile(string, Stream) {#constructor_6}
 
 Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
 
@@ -49,7 +49,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 
 ---
 
-## AttachedFile constructor (3 of 4)
+## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_8}
 
 Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
 
@@ -72,7 +72,7 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 
 ---
 
-## AttachedFile constructor (4 of 4)
+## AttachedFile() {#constructor}
 
 Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
 

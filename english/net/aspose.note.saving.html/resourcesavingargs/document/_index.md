@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the saving document.
 type: docs
 weight: 10
 url: /net/aspose.note.saving.html/resourcesavingargs/document/

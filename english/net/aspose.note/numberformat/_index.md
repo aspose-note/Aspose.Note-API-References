@@ -1,9 +1,9 @@
 ---
 title: NumberFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Specifies the numbering format that can be used for a group of automatically numbered objects. Full list is specified on MSDNhttps//msdn.microsoft.com/en-us/library/dd923798voffice.12.aspx
 type: docs
-weight: 380
+weight: 410
 url: /net/aspose.note/numberformat/
 ---
 ## NumberFormat enumeration
@@ -14,7 +14,7 @@ Specifies the numbering format that can be used for a group of automatically num
 public enum NumberFormat : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

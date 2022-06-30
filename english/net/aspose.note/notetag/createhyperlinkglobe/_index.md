@@ -1,7 +1,7 @@
 ---
 title: CreateHyperlinkGlobe
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with HyperlinkGlobe icon and specified label.
 type: docs
 weight: 580
 url: /net/aspose.note/notetag/createhyperlinkglobe/
@@ -18,7 +18,7 @@ public static NoteTag CreateHyperlinkGlobe(string label = "Web site to visit")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

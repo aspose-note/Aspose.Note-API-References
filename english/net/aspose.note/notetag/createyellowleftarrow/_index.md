@@ -1,7 +1,7 @@
 ---
 title: CreateYellowLeftArrow
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowLeftArrow icon and specified label.
 type: docs
 weight: 1010
 url: /net/aspose.note/notetag/createyellowleftarrow/
@@ -18,7 +18,7 @@ public static NoteTag CreateYellowLeftArrow(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

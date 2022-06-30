@@ -1,7 +1,7 @@
 ---
 title: CreateYellowUmbrella
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowUmbrella icon and specified label.
 type: docs
 weight: 1090
 url: /net/aspose.note/notetag/createyellowumbrella/
@@ -18,7 +18,7 @@ public static NoteTag CreateYellowUmbrella(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

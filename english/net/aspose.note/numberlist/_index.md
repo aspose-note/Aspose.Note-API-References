@@ -1,9 +1,9 @@
 ---
 title: NumberList
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents the numbered or bulleted list.
 type: docs
-weight: 390
+weight: 420
 url: /net/aspose.note/numberlist/
 ---
 ## NumberList class
@@ -18,8 +18,8 @@ public class NumberList
 
 | Name | Description |
 | --- | --- |
-| [NumberList](numberlist)(string, string, int) | Initializes a new instance of the [`NumberList`](../numberlist) class. This instance represents a bulleted list. |
-| [NumberList](numberlist)(string, NumberFormat, string, int) | Initializes a new instance of the [`NumberList`](../numberlist) class. This instance represents a numbered list. |
+| [NumberList](numberlist#constructor_1)(string, string, int) | Initializes a new instance of the [`NumberList`](../numberlist) class. This instance represents a bulleted list. |
+| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Initializes a new instance of the [`NumberList`](../numberlist) class. This instance represents a numbered list. |
 
 ## Properties
 
@@ -39,8 +39,8 @@ public class NumberList
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals)(NumberList) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.note/numberlist/equals)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Serves as a hash function for the type. |
 | [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Gets the numbered list header. |
 

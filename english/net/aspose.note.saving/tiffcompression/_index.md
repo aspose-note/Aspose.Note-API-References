@@ -1,9 +1,9 @@
 ---
 title: TiffCompression
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Specifies what type of compression to use when saving a document to the TIFF format.
 type: docs
-weight: 820
+weight: 850
 url: /net/aspose.note.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
@@ -14,7 +14,7 @@ Specifies what type of compression to use when saving a document to the TIFF for
 public enum TiffCompression
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

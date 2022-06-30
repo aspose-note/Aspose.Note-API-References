@@ -1,7 +1,7 @@
 ---
 title: CreateAwardRibbon
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with AwardRibbon icon and specified label.
 type: docs
 weight: 10
 url: /net/aspose.note/notetag/createawardribbon/
@@ -18,7 +18,7 @@ public static NoteTag CreateAwardRibbon(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

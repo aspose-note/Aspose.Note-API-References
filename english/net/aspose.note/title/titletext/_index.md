@@ -1,7 +1,7 @@
 ---
 title: TitleText
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the text of the title.
 type: docs
 weight: 60
 url: /net/aspose.note/title/titletext/

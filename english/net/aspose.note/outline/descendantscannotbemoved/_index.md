@@ -1,7 +1,7 @@
 ---
 title: DescendantsCannotBeMoved
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets whether descendants of the outline can be moved.
 type: docs
 weight: 20
 url: /net/aspose.note/outline/descendantscannotbemoved/

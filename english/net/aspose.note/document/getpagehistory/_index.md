@@ -1,7 +1,7 @@
 ---
 title: GetPageHistory
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the PageHistoryaspose.note/pagehistory which contains full history for each page presented in a document the earliest at index 0. The current page revision can be accessed as Currentaspose.note/pagehistory/current and contained separately from collection of historical versions.
 type: docs
 weight: 100
 url: /net/aspose.note/document/getpagehistory/
@@ -18,7 +18,7 @@ public PageHistory GetPageHistory(Page page)
 | --- | --- | --- |
 | page | Page | The current revision of a page. |
 
-## Return Value
+### Return Value
 
 The [`PageHistory`](../../pagehistory).
 

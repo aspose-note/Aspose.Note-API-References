@@ -1,7 +1,7 @@
 ---
 title: Tags
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the list of all tags of a paragraph.
 type: docs
 weight: 160
 url: /net/aspose.note/image/tags/

@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the images format.
 type: docs
 weight: 80
 url: /net/aspose.note/image/format/

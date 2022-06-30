@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the static default instance.
 type: docs
 weight: 20
 url: /net/aspose.note.fonts/documentfontssubsystem/default/

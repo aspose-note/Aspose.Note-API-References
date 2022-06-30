@@ -1,12 +1,12 @@
 ---
 title: KeepSolidObjectsAlgorithm
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the KeepSolidObjectsAlgorithmaspose.note.saving/keepsolidobjectsalgorithm class using default height limit of cloned part.
 type: docs
 weight: 10
 url: /net/aspose.note.saving/keepsolidobjectsalgorithm/keepsolidobjectsalgorithm/
 ---
-## KeepSolidObjectsAlgorithm constructor (1 of 2)
+## KeepSolidObjectsAlgorithm() {#constructor}
 
 Initializes a new instance of the [`KeepSolidObjectsAlgorithm`](../../keepsolidobjectsalgorithm) class using default height limit of cloned part.
 
@@ -22,7 +22,7 @@ public KeepSolidObjectsAlgorithm()
 
 ---
 
-## KeepSolidObjectsAlgorithm constructor (2 of 2)
+## KeepSolidObjectsAlgorithm(float) {#constructor_1}
 
 Initializes a new instance of the [`KeepSolidObjectsAlgorithm`](../../keepsolidobjectsalgorithm) class using specific height limit of cloned part.
 

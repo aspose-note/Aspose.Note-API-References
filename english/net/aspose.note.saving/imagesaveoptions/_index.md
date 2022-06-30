@@ -1,9 +1,9 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Allows to specify additional options when rendering document pages to images.
 type: docs
-weight: 670
+weight: 700
 url: /net/aspose.note.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class

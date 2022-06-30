@@ -1,7 +1,7 @@
 ---
 title: CreateReminderBell
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with ReminderBell icon and specified label.
 type: docs
 weight: 840
 url: /net/aspose.note/notetag/createreminderbell/
@@ -18,7 +18,7 @@ public static NoteTag CreateReminderBell(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

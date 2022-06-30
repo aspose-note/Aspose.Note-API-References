@@ -1,7 +1,7 @@
 ---
 title: AppendChildLast
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Adds the node to the end of the list of child nodes for this node.
 type: docs
 weight: 60
 url: /net/aspose.note/compositenode-1/appendchildlast/
@@ -20,7 +20,7 @@ public virtual T1 AppendChildLast<T1>(T1 newChild)
 | T1 | The exact type of appended node. |
 | newChild | The node to add. |
 
-## Return Value
+### Return Value
 
 The added node.
 

@@ -1,7 +1,7 @@
 ---
 title: Guid
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the objects globally unique id.
 type: docs
 weight: 60
 url: /net/aspose.note/notebook/guid/
@@ -14,7 +14,7 @@ Gets the object's globally unique id.
 public Guid Guid { get; }
 ```
 
-## Property Value
+### Property Value
 
 The GUID.
 

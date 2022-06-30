@@ -1,7 +1,7 @@
 ---
 title: CreateResearch
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Research icon and specified label.
 type: docs
 weight: 850
 url: /net/aspose.note/notetag/createresearch/
@@ -18,7 +18,7 @@ public static NoteTag CreateResearch(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

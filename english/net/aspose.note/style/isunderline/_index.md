@@ -1,7 +1,7 @@
 ---
 title: IsUnderline
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is underline.
 type: docs
 weight: 110
 url: /net/aspose.note/style/isunderline/

@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the height. This is the real height of the image in the MS OneNote document.
 type: docs
 weight: 90
 url: /net/aspose.note/image/height/

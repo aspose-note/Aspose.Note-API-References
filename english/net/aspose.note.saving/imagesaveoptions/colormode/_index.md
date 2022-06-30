@@ -1,7 +1,7 @@
 ---
 title: ColorMode
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets ColorModeaspose.note.saving/imagesaveoptions/colormode for the output image.
 type: docs
 weight: 30
 url: /net/aspose.note.saving/imagesaveoptions/colormode/

@@ -1,7 +1,7 @@
 ---
 title: CreateBlankPaperWithLines
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with BlankPaperWithLines icon and specified label.
 type: docs
 weight: 30
 url: /net/aspose.note/notetag/createblankpaperwithlines/
@@ -18,7 +18,7 @@ public static NoteTag CreateBlankPaperWithLines(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

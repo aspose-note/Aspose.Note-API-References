@@ -3,7 +3,7 @@ title: Aspose.Note.Saving.Pdf
 second_title: Aspose.Note for .NET API Reference
 description: The Pdf namespace contains classes which perform saving to PDF format.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.note.saving.pdf/
 ---
 The Pdf namespace contains classes which perform saving to PDF format.

@@ -1,7 +1,7 @@
 ---
 title: NumberList
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the style for the numbered list header.
 type: docs
 weight: 50
 url: /net/aspose.note/outlineelement/numberlist/

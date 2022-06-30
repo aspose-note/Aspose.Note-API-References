@@ -1,12 +1,12 @@
 ---
 title: InsertChildrenRange
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Inserts the nodes sequence starting from specified position in the list of child nodes for this node.
 type: docs
 weight: 100
 url: /net/aspose.note/compositenode-1/insertchildrenrange/
 ---
-## CompositeNode&lt;T&gt;.InsertChildrenRange method (1 of 2)
+## InsertChildrenRange(int, IEnumerable&lt;T&gt;) {#insertchildrenrange}
 
 Inserts the node's sequence starting from specified position in the list of child nodes for this node.
 
@@ -27,7 +27,7 @@ public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
 
 ---
 
-## CompositeNode&lt;T&gt;.InsertChildrenRange method (2 of 2)
+## InsertChildrenRange(int, params T[]) {#insertchildrenrange_1}
 
 Inserts the node's sequence starting from specified position in the list of child nodes for this node.
 

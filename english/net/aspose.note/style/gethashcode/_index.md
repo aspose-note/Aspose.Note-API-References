@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Serves as a hash function for the type.
 type: docs
 weight: 120
 url: /net/aspose.note/style/gethashcode/
@@ -14,7 +14,7 @@ Serves as a hash function for the type.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 The Int32.
 

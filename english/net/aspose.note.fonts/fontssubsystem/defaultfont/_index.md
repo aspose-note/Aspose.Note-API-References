@@ -1,7 +1,7 @@
 ---
 title: DefaultFont
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets default font.
 type: docs
 weight: 10
 url: /net/aspose.note.fonts/fontssubsystem/defaultfont/

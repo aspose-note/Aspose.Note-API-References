@@ -1,7 +1,7 @@
 ---
 title: CreateYellowCheckBox3
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with YellowCheckBox3Empty icon and specified label.
 type: docs
 weight: 230
 url: /net/aspose.note/notecheckbox/createyellowcheckbox3/
@@ -18,7 +18,7 @@ public static NoteCheckBox CreateYellowCheckBox3(string label = "")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteCheckBox`](../../notecheckbox).
 

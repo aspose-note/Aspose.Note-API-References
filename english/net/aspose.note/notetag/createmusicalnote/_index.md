@@ -1,7 +1,7 @@
 ---
 title: CreateMusicalNote
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with MusicalNote icon and specified label.
 type: docs
 weight: 660
 url: /net/aspose.note/notetag/createmusicalnote/
@@ -18,7 +18,7 @@ public static NoteTag CreateMusicalNote(string label = "Music to listen to")
 | --- | --- | --- |
 | label | String | The tag's label. |
 
-## Return Value
+### Return Value
 
 The [`NoteTag`](../../notetag).
 

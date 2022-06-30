@@ -1,7 +1,7 @@
 ---
 title: IOutlineChildNode
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The interface for all child nodes of an outline node.
 type: docs
 weight: 190
 url: /net/aspose.note/ioutlinechildnode/
