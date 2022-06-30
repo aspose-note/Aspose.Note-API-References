@@ -1,7 +1,7 @@
 ---
 title: DeferredLoading
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether children documents should be loaded explicitly later.
 type: docs
 weight: 20
 url: /net/aspose.note/notebookloadoptions/deferredloading/

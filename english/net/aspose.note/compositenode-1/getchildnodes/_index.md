@@ -1,7 +1,7 @@
 ---
 title: GetChildNodes
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Get all child nodes by the node type.
 type: docs
 weight: 70
 url: /net/aspose.note/compositenode-1/getchildnodes/

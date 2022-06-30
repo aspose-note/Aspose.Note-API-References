@@ -1,7 +1,7 @@
 ---
 title: Columns
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the columns of the table.
 type: docs
 weight: 20
 url: /net/aspose.note/table/columns/

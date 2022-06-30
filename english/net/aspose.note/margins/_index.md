@@ -1,9 +1,9 @@
 ---
 title: Margins
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Specifies the dimensions of the margins of a node.
 type: docs
-weight: 290
+weight: 310
 url: /net/aspose.note/margins/
 ---
 ## Margins structure
@@ -33,8 +33,8 @@ public struct Margins : IEquatable<Margins>
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.note/margins/equals)(Margins) | Tests whether two Margins structures are equal. |
-| override [Equals](../../aspose.note/margins/equals)(object) | Tests whether two Margins structures are equal. |
+| [Equals](../../aspose.note/margins/equals#equals)(Margins) | Tests whether two Margins structures are equal. |
+| override [Equals](../../aspose.note/margins/equals#equals_1)(object) | Tests whether two Margins structures are equal. |
 | override [GetHashCode](../../aspose.note/margins/gethashcode)() | Serves as a hash function for the type. |
 | [operator ==](../../aspose.note/margins/op_equality) | Tests whether two Margins structures are equal. |
 | [operator !=](../../aspose.note/margins/op_inequality) | Tests whether two Margins structures are not equal. |

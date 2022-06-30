@@ -1,7 +1,7 @@
 ---
 title: ImageSavingCallback
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the callback that is called to create resource to store image.
 type: docs
 weight: 100
 url: /net/aspose.note.saving/htmlsaveoptions/imagesavingcallback/

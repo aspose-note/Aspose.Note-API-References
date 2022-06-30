@@ -1,7 +1,7 @@
 ---
 title: HeightLimitOfClonedPart
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the height limit of cloned part.
 type: docs
 weight: 20
 url: /net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart/

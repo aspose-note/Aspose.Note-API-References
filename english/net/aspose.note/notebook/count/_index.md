@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the number of elements contained in the Notebookaspose.note/notebook.
 type: docs
 weight: 30
 url: /net/aspose.note/notebook/count/

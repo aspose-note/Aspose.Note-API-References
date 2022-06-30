@@ -1,7 +1,7 @@
 ---
 title: CreateGreenXNo
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with GreenXNo icon and specified label.
 type: docs
 weight: 530
 url: /net/aspose.note/notetag/creategreenxno/

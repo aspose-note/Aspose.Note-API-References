@@ -1,7 +1,7 @@
 ---
 title: CreateGreenXWithDots
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with GreenXWithDots icon and specified label.
 type: docs
 weight: 540
 url: /net/aspose.note/notetag/creategreenxwithdots/

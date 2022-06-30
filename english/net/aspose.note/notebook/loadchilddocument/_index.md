@@ -1,12 +1,12 @@
 ---
 title: LoadChildDocument
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Adds a child document node. Opens an existing OneNote document from a file.
 type: docs
 weight: 120
 url: /net/aspose.note/notebook/loadchilddocument/
 ---
-## Notebook.LoadChildDocument method (1 of 4)
+## LoadChildDocument(string) {#loadchilddocument_2}
 
 Adds a child document node. Opens an existing OneNote document from a file.
 
@@ -46,7 +46,7 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 
 ---
 
-## Notebook.LoadChildDocument method (2 of 4)
+## LoadChildDocument(string, LoadOptions) {#loadchilddocument_3}
 
 Adds a child document node. Opens an existing OneNote document from a file. Allows to specify additional load options.
 
@@ -68,7 +68,7 @@ public void LoadChildDocument(string filePath, LoadOptions loadOptions)
 
 ---
 
-## Notebook.LoadChildDocument method (3 of 4)
+## LoadChildDocument(Stream) {#loadchilddocument}
 
 Adds a child document node. Opens an existing OneNote document from a stream.
 
@@ -108,7 +108,7 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 
 ---
 
-## Notebook.LoadChildDocument method (4 of 4)
+## LoadChildDocument(Stream, LoadOptions) {#loadchilddocument_1}
 
 Adds a child document node. Opens an existing OneNote document from a stream. Allows to specify additional load options.
 

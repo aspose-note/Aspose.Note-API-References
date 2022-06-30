@@ -1,7 +1,7 @@
 ---
 title: CreateBlueDownArrow
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with BlueDownArrow icon and specified label.
 type: docs
 weight: 90
 url: /net/aspose.note/notetag/createbluedownarrow/

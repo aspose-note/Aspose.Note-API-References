@@ -1,12 +1,12 @@
 ---
 title: Notebook
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the Notebookaspose.note/notebook class.
 type: docs
 weight: 10
 url: /net/aspose.note/notebook/notebook/
 ---
-## Notebook constructor (1 of 5)
+## Notebook() {#constructor}
 
 Initializes a new instance of the [`Notebook`](../../notebook) class.
 
@@ -22,7 +22,7 @@ public Notebook()
 
 ---
 
-## Notebook constructor (2 of 5)
+## Notebook(string) {#constructor_3}
 
 Initializes a new instance of the [`Notebook`](../../notebook) class. Opens an existing OneNote notebook from a file.
 
@@ -42,7 +42,7 @@ public Notebook(string filePath)
 
 ---
 
-## Notebook constructor (3 of 5)
+## Notebook(string, NotebookLoadOptions) {#constructor_4}
 
 Initializes a new instance of the [`Notebook`](../../notebook) class. Opens an existing OneNote notebook from a file. Allows to specify additional options such as a children loading strategy ("lazy"/instant).
 
@@ -64,7 +64,7 @@ public Notebook(string filePath, NotebookLoadOptions loadOptions)
 
 ---
 
-## Notebook constructor (4 of 5)
+## Notebook(Stream) {#constructor_1}
 
 Initializes a new instance of the [`Notebook`](../../notebook) class. Opens an existing OneNote notebook from a stream.
 
@@ -84,7 +84,7 @@ public Notebook(Stream stream)
 
 ---
 
-## Notebook constructor (5 of 5)
+## Notebook(Stream, NotebookLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`Notebook`](../../notebook) class. Opens an existing OneNote notebook from a stream. Allows to specify additional loading options.
 

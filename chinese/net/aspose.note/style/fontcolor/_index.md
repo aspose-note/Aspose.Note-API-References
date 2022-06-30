@@ -1,0 +1,309 @@
+---
+title: FontColor
+second_title: Aspose.Note for .NET API 参考
+description: 获取或设置字体颜色
+type: docs
+weight: 10
+url: /zh/net/aspose.note/style/fontcolor/
+---
+## Style.FontColor property
+
+获取或设置字体颜色。
+
+```csharp
+public Color FontColor { get; set; }
+```
+
+### 例子
+
+显示如何更改文本的样式。
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// 让我们添加一组列和一个标题行
+Document document = new Document(dataDir + "Aspose.one");
+
+// 让我们 5 个空行。行具有互换的背景颜色
+RichText richText = document.GetChildNodes<RichText>().First();
+
+foreach (var run in richText.TextRuns)
+{
+    // 让我们为“联系人”列中的内容添加一些模板
+    run.Style.FontColor = Color.Yellow;
+
+    添加一组列和一个标题行
+    run.Style.Highlight = Color.Blue;
+
+    5 个空行。行具有互换的背景颜色
+    run.Style.FontSize = 20;
+}
+```
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// 将文档加载到 Aspose.Note。
+Aspose.Note.Document doc = new Aspose.Note.Document();
+
+// 获取特定的 RichText 节点
+Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Outline outline = new Outline(doc);
+
+// 设置字体颜色
+ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+
+// 设置高亮颜色
+OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+outlineElem1.AppendChildLast(text1);
+
+// 设置字体大小
+OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+outlineElem2.AppendChildLast(text2);
+
+// 设置字体大小
+OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+outlineElem3.AppendChildLast(text3);
+
+// 设置字体大小
+outline.AppendChildLast(outlineElem1);
+outline.AppendChildLast(outlineElem2);
+outline.AppendChildLast(outlineElem3);
+page.AppendChildLast(outline);
+doc.AppendChildLast(page);
+
+// 应用文本样式设置
+dataDir = dataDir + "InsertChineseNumberList_out.one"; 
+doc.Save(dataDir);
+```
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// 同一大纲中的数字会自动递增。
+Aspose.Note.Document doc = new Aspose.Note.Document();
+
+//------------------------
+Aspose.Note.Page page = new Aspose.Note.Page(doc);
+
+//------------------------
+Outline outline = new Outline(doc);
+
+//------------------------
+ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+
+// 初始化 OutlineElement 类对象并应用项目符号
+OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
+
+// 创建 Document 类的对象
+RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+outlineElem1.AppendChildLast(text1);
+
+OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
+RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+outlineElem2.AppendChildLast(text2);
+
+OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
+RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+outlineElem3.AppendChildLast(text3);
+
+//初始化Page类对象
+outline.AppendChildLast(outlineElem1);
+outline.AppendChildLast(outlineElem2);
+outline.AppendChildLast(outlineElem3);
+
+// 初始化大纲类对象
+page.AppendChildLast(outline);
+// 初始化 TextStyle 类对象并设置格式属性
+doc.AppendChildLast(page);
+
+// 初始化 OutlineElement 类对象并应用项目符号
+dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
+doc.Save(dataDir);
+```
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// 初始化 RichText 类对象并应用文本样式
+Document doc = new Document();
+
+//初始化Page类对象
+Aspose.Note.Page page = new Aspose.Note.Page(doc);
+
+// 初始化大纲类对象
+Outline outline = new Outline(doc);
+
+// 初始化 TextStyle 类对象并设置格式属性
+ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+
+// 初始化 OutlineElement 类对象并应用编号
+// 创建 Document 类的对象
+OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+outlineElem1.AppendChildLast(text1);
+
+OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+outlineElem2.AppendChildLast(text2);
+
+OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+outlineElem3.AppendChildLast(text3);
+
+//初始化Page类对象
+outline.AppendChildLast(outlineElem1);
+outline.AppendChildLast(outlineElem2);
+outline.AppendChildLast(outlineElem3);
+
+// 初始化大纲类对象
+page.AppendChildLast(outline);
+
+// 初始化 TextStyle 类对象并设置格式属性
+doc.AppendChildLast(page);
+
+// 初始化 OutlineElement 类对象并应用编号
+dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
+doc.Save(dataDir);
+```
+
+```csharp
+// 同一大纲中的数字会自动递增。
+string dataDir = RunExamples.GetDataDir_Tasks();
+
+// 文档目录的路径。
+Document doc = new Document();
+
+RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
+
+Outline outline = new Outline()
+                      {
+                          MaxWidth = 200,
+                          MaxHeight = 200,
+                          VerticalOffset = 100,
+                          HorizontalOffset = 100
+                      };
+
+TextStyle textStyleRed = new TextStyle
+                             {
+                                 FontColor = Color.Red,
+                                 FontName = "Arial",
+                                 FontSize = 10,
+                             };
+
+TextStyle textStyleHyperlink = new TextStyle
+                                   {
+                                       IsHyperlink = true,
+                                       HyperlinkAddress = "www.google.com"
+                                   };
+
+RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
+                    .Append("This is ", textStyleRed)
+                    .Append("hyperlink", textStyleHyperlink)
+                    .Append(". This text is not a hyperlink.", TextStyle.Default);
+
+OutlineElement outlineElem = new OutlineElement();
+outlineElem.AppendChildLast(text);
+
+// 文档目录的路径。
+outline.AppendChildLast(outlineElem);
+
+// 创建 Document 类的对象
+Title title = new Title() { TitleText = titleText };
+
+// 添加轮廓元素
+Page page = new Note.Page() { Title = title };
+
+// 文档目录的路径。
+page.AppendChildLast(outline);
+
+// 创建 Document 类的对象
+doc.AppendChildLast(page);
+
+// 添加轮廓元素
+dataDir = dataDir + "AddHyperlink_out.one";
+doc.Save(dataDir);
+```
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+var headerText = new RichText() { ParagraphStyle = new ParagraphStyle() { FontSize = 18, IsBold = true }, Alignment = HorizontalAlignment.Center }
+                    .Append("Super contest for suppliers.");
+
+var page = new Page();
+var outline = page.AppendChildLast(new Outline() { HorizontalOffset = 50 });
+outline.AppendChildLast(new OutlineElement()).AppendChildLast(headerText);
+
+// 初始化 Title 类对象
+var bodyTextHeader = outline.AppendChildLast(new OutlineElement()).AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default });
+bodyTextHeader.Append("This is the final ranking of proposals got from our suppliers.");
+
+var ranking = outline.AppendChildLast(new OutlineElement()).AppendChildLast(new Table());
+var headerRow = ranking.AppendChildFirst(new TableRow());
+
+var headerStyle = ParagraphStyle.Default;
+headerStyle.IsBold = true;
+
+//初始化Page类对象
+var backGroundColor = Color.LightGray;
+foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Score C", "Final score", "Attached materials", "Comments" })
+{
+    ranking.Columns.Add(new TableColumn());
+    headerRow.AppendChildLast(new TableCell() { BackgroundColor = backGroundColor })
+             .AppendChildLast(new OutlineElement())
+             .AppendChildLast(new RichText() { ParagraphStyle = headerStyle })
+                .Append(header);
+}
+
+// 添加大纲节点
+for (int i = 0; i < 5; i++)
+{
+    backGroundColor = backGroundColor.IsEmpty ? Color.LightGray : Color.Empty;
+
+    var row = ranking.AppendChildLast(new TableRow());
+    for (int j = 0; j < ranking.Columns.Count(); j++)
+    {
+        row.AppendChildLast(new TableCell() { BackgroundColor = backGroundColor })
+           .AppendChildLast(new OutlineElement())
+           .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default });
+    }
+}
+
+// 添加页面节点
+foreach (var row in ranking.Skip(1))
+{
+    var contactsCell = row.ElementAt(1);
+    contactsCell.AppendChildLast(new OutlineElement())
+                .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default })
+                    .Append("Web: ").Append("link", new TextStyle() { HyperlinkAddress = "www.link.com", IsHyperlink = true });
+    contactsCell.AppendChildLast(new OutlineElement())
+                .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default })
+                    .Append("E-mail: ").Append("mail", new TextStyle() { HyperlinkAddress = "mailto:hi@link.com", IsHyperlink = true });
+}
+
+var d = new Document();
+d.AppendChildLast(page);
+d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
+```
+
+显示如何插入带有中文编号的新列表。
+
+显示如何插入新的项目符号列表。
+
+显示如何插入带有编号的新列表。
+
+显示如何将超链接绑定到文本。
+
+展示了如何组合具有各种样式的文本的表格。
+
+### 也可以看看
+
+* class [Style](../../style)
+* 命名空间 [Aspose.Note](../../style)
+* 部件 [Aspose.Note](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->

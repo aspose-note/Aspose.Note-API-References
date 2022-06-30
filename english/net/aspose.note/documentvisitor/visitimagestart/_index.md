@@ -1,7 +1,7 @@
 ---
 title: VisitImageStart
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Start to visit the Imageaspose.note/image node.
 type: docs
 weight: 60
 url: /net/aspose.note/documentvisitor/visitimagestart/

@@ -1,7 +1,7 @@
 ---
 title: CreateNoFollowUpDate
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note task with NoFollowUpDateFlag icon.
 type: docs
 weight: 60
 url: /net/aspose.note/notetask/createnofollowupdate/

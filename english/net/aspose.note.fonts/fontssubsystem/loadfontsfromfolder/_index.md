@@ -1,7 +1,7 @@
 ---
 title: LoadFontsFromFolder
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Loads all TrueType fonts from specified folder to internal collection.
 type: docs
 weight: 50
 url: /net/aspose.note.fonts/fontssubsystem/loadfontsfromfolder/

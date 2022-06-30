@@ -1,7 +1,7 @@
 ---
 title: LockedWidth
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a table column has locked width and does not resize automatically to fit table content. By default column width is not locked.
 type: docs
 weight: 20
 url: /net/aspose.note/tablecolumn/lockedwidth/

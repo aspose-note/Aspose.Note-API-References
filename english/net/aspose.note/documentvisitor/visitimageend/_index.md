@@ -1,7 +1,7 @@
 ---
 title: VisitImageEnd
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: End to visit the Imageaspose.note/image node.
 type: docs
 weight: 50
 url: /net/aspose.note/documentvisitor/visitimageend/

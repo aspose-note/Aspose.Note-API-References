@@ -1,9 +1,9 @@
 ---
 title: Language
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the language of the text.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.note/textstyle/language/
 ---
 ## TextStyle.Language property
@@ -24,26 +24,14 @@ Set proofing language for a text.
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
-var outline = new Outline(document);
-var outlineElem = new OutlineElement(document);
+var page = new Page();
+var outline = new Outline();
+var outlineElem = new OutlineElement();
 
-var text = new RichText(document) { Text = "United States Germany China", ParagraphStyle = ParagraphStyle.Default };
-text.Styles.Add(new TextStyle()
-                    {
-                        Language = CultureInfo.GetCultureInfo("en-US"),
-                        RunIndex = 13
-                    });
-text.Styles.Add(new TextStyle()
-                    {
-                        Language = CultureInfo.GetCultureInfo("de-DE"),
-                        RunIndex = 21
-                    });
-text.Styles.Add(new TextStyle()
-                    {
-                        Language = CultureInfo.GetCultureInfo("zh-CN"),
-                        RunIndex = text.Text.Length
-                    });
+var text = new RichText() { ParagraphStyle = ParagraphStyle.Default };
+text.Append("United States", new TextStyle() { Language = CultureInfo.GetCultureInfo("en-US") })
+    .Append(" Germany", new TextStyle() { Language = CultureInfo.GetCultureInfo("de-DE") })
+    .Append(" China", new TextStyle() { Language = CultureInfo.GetCultureInfo("zh-CN") });
 
 outlineElem.AppendChildLast(text);
 outline.AppendChildLast(outlineElem);

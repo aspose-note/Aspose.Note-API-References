@@ -1,7 +1,7 @@
 ---
 title: CreateYellowCircle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowCircle icon and specified label.
 type: docs
 weight: 940
 url: /net/aspose.note/notetag/createyellowcircle/

@@ -1,7 +1,7 @@
 ---
 title: Stream
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the stream used to store the resource.
 type: docs
 weight: 40
 url: /net/aspose.note.saving.html/resourcesavingargs/stream/

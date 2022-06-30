@@ -1,12 +1,12 @@
 ---
 title: LoadChildNotebook
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Adds a child notebook node. Opens an existing OneNote notebook from a file.
 type: docs
 weight: 130
 url: /net/aspose.note/notebook/loadchildnotebook/
 ---
-## Notebook.LoadChildNotebook method (1 of 4)
+## LoadChildNotebook(string) {#loadchildnotebook_2}
 
 Adds a child notebook node. Opens an existing OneNote notebook from a file.
 
@@ -26,7 +26,7 @@ public void LoadChildNotebook(string filePath)
 
 ---
 
-## Notebook.LoadChildNotebook method (2 of 4)
+## LoadChildNotebook(string, NotebookLoadOptions) {#loadchildnotebook_3}
 
 Adds a child notebook node. Opens an existing OneNote notebook from a file. Allows to specify additional load options.
 
@@ -48,7 +48,7 @@ public void LoadChildNotebook(string filePath, NotebookLoadOptions loadOptions)
 
 ---
 
-## Notebook.LoadChildNotebook method (3 of 4)
+## LoadChildNotebook(Stream) {#loadchildnotebook}
 
 Adds a child notebook node. Opens an existing OneNote notebook from a stream.
 
@@ -68,7 +68,7 @@ public void LoadChildNotebook(Stream stream)
 
 ---
 
-## Notebook.LoadChildNotebook method (4 of 4)
+## LoadChildNotebook(Stream, NotebookLoadOptions) {#loadchildnotebook_1}
 
 Adds a child notebook node. Opens an existing OneNote notebook from a stream. Allows to specify additional load options.
 

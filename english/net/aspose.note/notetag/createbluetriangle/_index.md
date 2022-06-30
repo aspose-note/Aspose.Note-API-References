@@ -1,7 +1,7 @@
 ---
 title: CreateBlueTriangle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with BlueTriangle icon and specified label.
 type: docs
 weight: 190
 url: /net/aspose.note/notetag/createbluetriangle/

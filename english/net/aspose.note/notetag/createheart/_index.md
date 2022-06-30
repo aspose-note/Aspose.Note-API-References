@@ -1,7 +1,7 @@
 ---
 title: CreateHeart
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with Heart icon and specified label.
 type: docs
 weight: 550
 url: /net/aspose.note/notetag/createheart/

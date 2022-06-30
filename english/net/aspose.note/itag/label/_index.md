@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the label text.
 type: docs
 weight: 40
 url: /net/aspose.note/itag/label/

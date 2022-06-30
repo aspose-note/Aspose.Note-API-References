@@ -1,9 +1,9 @@
 ---
 title: Notebook
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents an Aspose.Note notebook.
 type: docs
-weight: 360
+weight: 390
 url: /net/aspose.note/notebook/
 ---
 ## Notebook class
@@ -18,11 +18,11 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | Name | Description |
 | --- | --- |
-| [Notebook](notebook)() | Initializes a new instance of the [`Notebook`](../notebook) class. |
-| [Notebook](notebook)(Stream) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a stream. |
-| [Notebook](notebook)(string) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a file. |
-| [Notebook](notebook)(Stream, NotebookLoadOptions) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a stream. Allows to specify additional loading options. |
-| [Notebook](notebook)(string, NotebookLoadOptions) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a file. Allows to specify additional options such as a children loading strategy ("lazy"/instant). |
+| [Notebook](notebook#constructor)() | Initializes a new instance of the [`Notebook`](../notebook) class. |
+| [Notebook](notebook#constructor_1)(Stream) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a stream. |
+| [Notebook](notebook#constructor_3)(string) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a file. |
+| [Notebook](notebook#constructor_2)(Stream, NotebookLoadOptions) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a stream. Allows to specify additional loading options. |
+| [Notebook](notebook#constructor_4)(string, NotebookLoadOptions) | Initializes a new instance of the [`Notebook`](../notebook) class. Opens an existing OneNote notebook from a file. Allows to specify additional options such as a children loading strategy ("lazy"/instant). |
 
 ## Properties
 
@@ -43,21 +43,21 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 | [AppendChild](../../aspose.note/notebook/appendchild)(INotebookChildNode) | Adds the node to the end of the list. |
 | [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes)() | Get all child nodes by the node type. |
 | [GetEnumerator](../../aspose.note/notebook/getenumerator)() | Returns an enumerator that iterates through child nodes of the [`Notebook`](../notebook). |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument)(Stream) | Adds a child document node. Opens an existing OneNote document from a stream. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument)(string) | Adds a child document node. Opens an existing OneNote document from a file. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument)(Stream, LoadOptions) | Adds a child document node. Opens an existing OneNote document from a stream. Allows to specify additional load options. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument)(string, LoadOptions) | Adds a child document node. Opens an existing OneNote document from a file. Allows to specify additional load options. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook)(Stream) | Adds a child notebook node. Opens an existing OneNote notebook from a stream. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook)(string) | Adds a child notebook node. Opens an existing OneNote notebook from a file. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook)(Stream, NotebookLoadOptions) | Adds a child notebook node. Opens an existing OneNote notebook from a stream. Allows to specify additional load options. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook)(string, NotebookLoadOptions) | Adds a child notebook node. Opens an existing OneNote notebook from a file. Allows to specify additional load options. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument)(Stream) | Adds a child document node. Opens an existing OneNote document from a stream. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_2)(string) | Adds a child document node. Opens an existing OneNote document from a file. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_1)(Stream, LoadOptions) | Adds a child document node. Opens an existing OneNote document from a stream. Allows to specify additional load options. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_3)(string, LoadOptions) | Adds a child document node. Opens an existing OneNote document from a file. Allows to specify additional load options. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook)(Stream) | Adds a child notebook node. Opens an existing OneNote notebook from a stream. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_2)(string) | Adds a child notebook node. Opens an existing OneNote notebook from a file. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Adds a child notebook node. Opens an existing OneNote notebook from a stream. Allows to specify additional load options. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_3)(string, NotebookLoadOptions) | Adds a child notebook node. Opens an existing OneNote notebook from a file. Allows to specify additional load options. |
 | [RemoveChild](../../aspose.note/notebook/removechild)(INotebookChildNode) | Removes the child node. |
-| [Save](../../aspose.note/notebook/save)(Stream) | Saves the OneNote document to a stream. |
-| [Save](../../aspose.note/notebook/save)(string) | Saves the OneNote document to a file. |
-| [Save](../../aspose.note/notebook/save)(Stream, NotebookSaveOptions) | Saves the OneNote document to a stream using the specified save options. |
-| [Save](../../aspose.note/notebook/save)(Stream, SaveFormat) | Saves the OneNote document to a stream in the specified format. |
-| [Save](../../aspose.note/notebook/save)(string, NotebookSaveOptions) | Saves the OneNote document to a file using the specified save options. |
-| [Save](../../aspose.note/notebook/save)(string, SaveFormat) | Saves the OneNote document to a file in the specified format. |
+| [Save](../../aspose.note/notebook/save#save)(Stream) | Saves the OneNote document to a stream. |
+| [Save](../../aspose.note/notebook/save#save_3)(string) | Saves the OneNote document to a file. |
+| [Save](../../aspose.note/notebook/save#save_2)(Stream, NotebookSaveOptions) | Saves the OneNote document to a stream using the specified save options. |
+| [Save](../../aspose.note/notebook/save#save_1)(Stream, SaveFormat) | Saves the OneNote document to a stream in the specified format. |
+| [Save](../../aspose.note/notebook/save#save_5)(string, NotebookSaveOptions) | Saves the OneNote document to a file using the specified save options. |
+| [Save](../../aspose.note/notebook/save#save_4)(string, SaveFormat) | Saves the OneNote document to a file in the specified format. |
 
 ### Examples
 

@@ -1,7 +1,7 @@
 ---
 title: IsHistoryEnabled
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the history is enabled.
 type: docs
 weight: 70
 url: /net/aspose.note/notebook/ishistoryenabled/

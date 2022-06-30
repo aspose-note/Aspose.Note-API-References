@@ -1,7 +1,7 @@
 ---
 title: CreateYellowTarget
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowTarget icon and specified label.
 type: docs
 weight: 1070
 url: /net/aspose.note/notetag/createyellowtarget/

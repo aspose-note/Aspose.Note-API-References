@@ -1,7 +1,7 @@
 ---
 title: Margin
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the margin.
 type: docs
 weight: 80
 url: /net/aspose.note/page/margin/

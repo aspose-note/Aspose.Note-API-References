@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the title.
 type: docs
 weight: 120
 url: /net/aspose.note/page/title/

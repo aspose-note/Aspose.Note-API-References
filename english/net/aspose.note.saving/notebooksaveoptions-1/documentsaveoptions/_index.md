@@ -1,7 +1,7 @@
 ---
 title: DocumentSaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the save options for all notebooks child documents.
 type: docs
 weight: 10
 url: /net/aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/

@@ -1,9 +1,9 @@
 ---
 title: DefaultMsOneNoteTitleDateStyle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets default style for title date in MS OneNote.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.note/textstyle/defaultmsonenotetitledatestyle/
 ---
 ## TextStyle.DefaultMsOneNoteTitleDateStyle property

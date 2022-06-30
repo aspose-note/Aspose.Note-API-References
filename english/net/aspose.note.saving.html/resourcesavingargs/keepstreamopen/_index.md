@@ -1,7 +1,7 @@
 ---
 title: KeepStreamOpen
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether keep stream open.
 type: docs
 weight: 30
 url: /net/aspose.note.saving.html/resourcesavingargs/keepstreamopen/

@@ -1,7 +1,7 @@
 ---
 title: Author
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the author.
 type: docs
 weight: 20
 url: /net/aspose.note/page/author/

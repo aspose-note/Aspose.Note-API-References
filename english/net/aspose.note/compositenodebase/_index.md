@@ -1,7 +1,7 @@
 ---
 title: CompositeNodeBase
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The non-generic class for nodes that can contain other nodes.
 type: docs
 weight: 30
 url: /net/aspose.note/compositenodebase/
@@ -30,7 +30,7 @@ public abstract class CompositeNodeBase : Node, ICompositeNode
 | Name | Description |
 | --- | --- |
 | abstract [Accept](../../aspose.note/node/accept)(DocumentVisitor) | Accepts the visitor of the node. |
-| abstract [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenodebase/getchildnodes)() | Get all child nodes by the node type. |
+| abstract [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenodebase/getchildnodes#getchildnodes_1)() | Get all child nodes by the node type. |
 
 ### See Also
 

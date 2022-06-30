@@ -1,7 +1,7 @@
 ---
 title: DocumentPassword
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a password for the encrypted document content. Value is ignored in case the document is not password protected.
 type: docs
 weight: 20
 url: /net/aspose.note/loadoptions/documentpassword/

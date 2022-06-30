@@ -1,7 +1,7 @@
 ---
 title: PrinterSettings
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the printer settings.
 type: docs
 weight: 40
 url: /net/aspose.note.saving/printoptions/printersettings/

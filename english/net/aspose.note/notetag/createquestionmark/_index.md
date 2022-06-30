@@ -1,7 +1,7 @@
 ---
 title: CreateQuestionMark
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with QuestionMark icon and specified label.
 type: docs
 weight: 810
 url: /net/aspose.note/notetag/createquestionmark/

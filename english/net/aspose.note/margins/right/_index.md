@@ -1,7 +1,7 @@
 ---
 title: Right
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the right margin width.
 type: docs
 weight: 50
 url: /net/aspose.note/margins/right/

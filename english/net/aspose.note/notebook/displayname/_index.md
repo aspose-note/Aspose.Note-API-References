@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the display name.
 type: docs
 weight: 40
 url: /net/aspose.note/notebook/displayname/

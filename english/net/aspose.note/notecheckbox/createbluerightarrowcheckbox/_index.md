@@ -1,7 +1,7 @@
 ---
 title: CreateBlueRightArrowCheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with BlueRightArrowCheckBoxEmpty icon and specified label.
 type: docs
 weight: 80
 url: /net/aspose.note/notecheckbox/createbluerightarrowcheckbox/

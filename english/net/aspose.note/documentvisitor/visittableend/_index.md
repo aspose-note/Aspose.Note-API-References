@@ -1,7 +1,7 @@
 ---
 title: VisitTableEnd
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: End to visit the Tableaspose.note/table node.
 type: docs
 weight: 190
 url: /net/aspose.note/documentvisitor/visittableend/

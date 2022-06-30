@@ -1,7 +1,7 @@
 ---
 title: DocumentFontsSubsystem
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves FontFamily object from OS.
 type: docs
 weight: 100
 url: /net/aspose.note.fonts/documentfontssubsystem/
@@ -18,9 +18,9 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | Name | Description |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem)(Dictionary&lt;string, string&gt;) | Initializes a new instance of the [`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
-| [DocumentFontsSubsystem](documentfontssubsystem)(Stream, Dictionary&lt;string, string&gt;) | Initializes a new instance of the [`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
-| [DocumentFontsSubsystem](documentfontssubsystem)(string, Dictionary&lt;string, string&gt;) | Initializes a new instance of the [`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
+| [DocumentFontsSubsystem](documentfontssubsystem#constructor)(Dictionary&lt;string, string&gt;) | Initializes a new instance of the [`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
+| [DocumentFontsSubsystem](documentfontssubsystem#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Initializes a new instance of the [`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
+| [DocumentFontsSubsystem](documentfontssubsystem#constructor_2)(string, Dictionary&lt;string, string&gt;) | Initializes a new instance of the [`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
 
 ## Properties
 

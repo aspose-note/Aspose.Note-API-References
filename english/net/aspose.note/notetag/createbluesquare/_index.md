@@ -1,7 +1,7 @@
 ---
 title: CreateBlueSquare
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with BlueSquare icon and specified label.
 type: docs
 weight: 150
 url: /net/aspose.note/notetag/createbluesquare/

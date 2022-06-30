@@ -1,7 +1,7 @@
 ---
 title: IsConflictPage
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether this page is a conflict page.
 type: docs
 weight: 50
 url: /net/aspose.note/page/isconflictpage/

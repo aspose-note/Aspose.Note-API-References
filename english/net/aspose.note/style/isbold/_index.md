@@ -1,7 +1,7 @@
 ---
 title: IsBold
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is bold.
 type: docs
 weight: 60
 url: /net/aspose.note/style/isbold/
@@ -16,32 +16,53 @@ public bool IsBold { get; set; }
 
 ### Examples
 
-Let's format table for better perception. Make header row bold and italic, highlight every even row using LightGray color.
+Let's emphasize page's titles among other headers by increasing font's size.
 
 ```csharp
-string dataDir = RunExamples.GetDataDir_Tables();
+string dataDir = RunExamples.GetDataDir_Text();
 
 // Load the document into Aspose.Note.
-Document document = new Document(dataDir + "ChangeTableStyleIn.one");
+Document document = new Document(dataDir + "Aspose.one");
 
-// Get a list of table nodes
-IList<Table> nodes = document.GetChildNodes<Table>();
-
-foreach (Table table in nodes)
+// Iterate through page's titles.
+foreach (var title in document.Select(e => e.Title.TitleText))
 {
-    SetRowStyle(table.First(), Color.DarkGray, true, true);
+    title.ParagraphStyle.FontSize = 24;
+    title.ParagraphStyle.IsBold = true;
 
-    // Highlight first row after head.
-    var flag = false;
-    foreach (var row in table.Skip(1))
+    foreach (var run in title.TextRuns)
     {
-        SetRowStyle(row, flag ? Color.LightGray : Color.Empty, false, false);
-
-        flag = !flag;
+        run.Style.FontSize = 24;
+        run.Style.IsBold = true;
     }
 }
 
-document.Save(Path.Combine(dataDir, "ChangeTableStyleOut.one"));
+document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
+```
+
+Let's emphasize latest text's changes by highlighting.
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Load the document into Aspose.Note.
+Document document = new Document(dataDir + "Aspose.one");
+
+// Get RichText nodes modified last week.
+var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
+
+foreach (var node in richTextNodes)
+{
+    // Set highlight color
+    node.ParagraphStyle.Highlight = Color.DarkGreen;
+    foreach (var run in node.TextRuns)
+    {
+        // Set highlight color
+        run.Style.Highlight = Color.DarkSeaGreen;
+    }
+}
+
+document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
 ### See Also

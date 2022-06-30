@@ -1,7 +1,7 @@
 ---
 title: CreateCoinsWithWindowBackdrop
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with CoinsWithWindowBackdrop icon and specified label.
 type: docs
 weight: 280
 url: /net/aspose.note/notetag/createcoinswithwindowbackdrop/

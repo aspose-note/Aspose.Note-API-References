@@ -1,7 +1,7 @@
 ---
 title: VisitPageEnd
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: End to visit the Pageaspose.note/page node.
 type: docs
 weight: 130
 url: /net/aspose.note/documentvisitor/visitpageend/

@@ -1,7 +1,7 @@
 ---
 title: Checked
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets a value indicating whether the CheckBox is in the checked state.
 type: docs
 weight: 10
 url: /net/aspose.note/checkbox/checked/

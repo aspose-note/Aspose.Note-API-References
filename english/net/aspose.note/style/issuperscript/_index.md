@@ -1,7 +1,7 @@
 ---
 title: IsSuperscript
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is superscript.
 type: docs
 weight: 100
 url: /net/aspose.note/style/issuperscript/

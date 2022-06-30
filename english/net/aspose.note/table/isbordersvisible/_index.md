@@ -1,7 +1,7 @@
 ---
 title: IsBordersVisible
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the table border is visible.
 type: docs
 weight: 30
 url: /net/aspose.note/table/isbordersvisible/

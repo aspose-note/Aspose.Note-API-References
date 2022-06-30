@@ -1,7 +1,7 @@
 ---
 title: CreateQuotationMark
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with QuotationMark icon and specified label.
 type: docs
 weight: 820
 url: /net/aspose.note/notetag/createquotationmark/

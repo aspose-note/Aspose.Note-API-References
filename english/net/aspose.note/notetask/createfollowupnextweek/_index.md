@@ -1,7 +1,7 @@
 ---
 title: CreateFollowUpNextWeek
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note task with FollowUpNextWeekFlag icon.
 type: docs
 weight: 20
 url: /net/aspose.note/notetask/createfollowupnextweek/

@@ -1,7 +1,7 @@
 ---
 title: CreateRedSquare
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with RedSquare icon and specified label.
 type: docs
 weight: 830
 url: /net/aspose.note/notetag/createredsquare/

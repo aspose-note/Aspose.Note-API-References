@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Tests whether two Margins structures are equal.
 type: docs
 weight: 70
 url: /net/aspose.note/margins/equals/
 ---
-## Margins.Equals method (1 of 2)
+## Equals(Margins) {#equals}
 
 Tests whether two Margins structures are equal.
 
@@ -30,7 +30,7 @@ The Boolean.
 
 ---
 
-## Margins.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Tests whether two Margins structures are equal.
 

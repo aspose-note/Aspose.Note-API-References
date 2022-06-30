@@ -1,7 +1,7 @@
 ---
 title: ParentNode
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the parent node.
 type: docs
 weight: 50
 url: /net/aspose.note/node/parentnode/

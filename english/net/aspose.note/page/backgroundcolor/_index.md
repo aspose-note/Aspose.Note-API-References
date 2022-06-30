@@ -1,7 +1,7 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets pages background color.
 type: docs
 weight: 30
 url: /net/aspose.note/page/backgroundcolor/

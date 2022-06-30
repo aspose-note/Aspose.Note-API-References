@@ -1,7 +1,7 @@
 ---
 title: InsertChild
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Inserts the node to the specified position in the list of child nodes for this node.
 type: docs
 weight: 90
 url: /net/aspose.note/compositenode-1/insertchild/

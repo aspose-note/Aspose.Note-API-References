@@ -1,7 +1,7 @@
 ---
 title: Level
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the level.
 type: docs
 weight: 70
 url: /net/aspose.note/page/level/

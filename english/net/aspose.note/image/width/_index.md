@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the width. This is the real width of the image in the MS OneNote document.
 type: docs
 weight: 180
 url: /net/aspose.note/image/width/

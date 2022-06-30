@@ -1,7 +1,7 @@
 ---
 title: IsComposite
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Checks whether the node is composite. If true then the node can have child nodes.
 type: docs
 weight: 20
 url: /net/aspose.note/compositenode-1/iscomposite/

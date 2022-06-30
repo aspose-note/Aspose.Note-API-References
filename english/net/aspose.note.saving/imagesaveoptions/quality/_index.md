@@ -1,7 +1,7 @@
 ---
 title: Quality
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value determining the quality of saved image. This value is passed to codec as System.Drawing.Imaging.Encoder.Quality parameter.
 type: docs
 weight: 40
 url: /net/aspose.note.saving/imagesaveoptions/quality/

@@ -1,7 +1,7 @@
 ---
 title: GetChildNodes
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Get all child nodes of the page by the node type.
 type: docs
 weight: 150
 url: /net/aspose.note/page/getchildnodes/
@@ -81,11 +81,8 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        if (richText != null)
-        {
-            // Replace text of a shape
-            richText.Text = richText.Text.Replace(kvp.Key, kvp.Value);
-        }
+        // Replace text of a shape
+        richText.Replace(kvp.Key, kvp.Value);
     }
 }
 
@@ -116,11 +113,8 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        if (richText != null)
-        {
-            // Replace text of a shape
-            richText.Text = richText.Text.Replace(kvp.Key, kvp.Value);
-        }
+        // Replace text of a shape
+        richText.Replace(kvp.Key, kvp.Value);
     }
 }
 

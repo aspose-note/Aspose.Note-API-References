@@ -1,7 +1,7 @@
 ---
 title: CreateFollowUpToday
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note task with FollowUpTodayFlag icon.
 type: docs
 weight: 40
 url: /net/aspose.note/notetask/createfollowuptoday/

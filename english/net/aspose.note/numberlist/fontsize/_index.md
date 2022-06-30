@@ -1,7 +1,7 @@
 ---
 title: FontSize
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the font size.
 type: docs
 weight: 40
 url: /net/aspose.note/numberlist/fontsize/

@@ -1,9 +1,9 @@
 ---
 title: Table
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a table.
 type: docs
-weight: 840
+weight: 870
 url: /net/aspose.note/table/
 ---
 ## Table class
@@ -18,7 +18,7 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 | Name | Description |
 | --- | --- |
-| [Table](table)() | Initializes a new instance of the [`Table`](../table) class. |
+| [Table](table#constructor)() | Initializes a new instance of the [`Table`](../table) class. |
 
 ## Properties
 

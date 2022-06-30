@@ -1,7 +1,7 @@
 ---
 title: LoadHistory
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a document loader should ignore the history. Use this option to decrease memory and CPU usage. Default value is true.
 type: docs
 weight: 30
 url: /net/aspose.note/loadoptions/loadhistory/

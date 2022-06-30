@@ -1,7 +1,7 @@
 ---
 title: CompositeNodeT
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The base generic class for nodes that can contain other nodes.
 type: docs
 weight: 40
 url: /net/aspose.note/compositenode-1/
@@ -39,11 +39,11 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 | override [Accept](../../aspose.note/compositenode`1/accept)(DocumentVisitor) | Accepts the visitor of the node. |
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) | Adds the node to the front of the list of child nodes for this node. |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) | Adds the node to the end of the list of child nodes for this node. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() | Get all child nodes by the node type. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes#getchildnodes_1)() | Get all child nodes by the node type. |
 | [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() | Returns an enumerator that iterates through child nodes of the [`CompositeNode`](../compositenode-1). |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) | Inserts the node to the specified position in the list of child nodes for this node. |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params T[]) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange_1)(int, params T[]) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) | Removes the child node. |
 
 ### See Also

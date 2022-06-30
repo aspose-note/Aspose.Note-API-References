@@ -1,7 +1,7 @@
 ---
 title: SizeType
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the size type of a page.
 type: docs
 weight: 110
 url: /net/aspose.note/page/sizetype/

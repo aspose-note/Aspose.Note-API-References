@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Serves as a hash function for the type.
 type: docs
 weight: 100
 url: /net/aspose.note/notetask/gethashcode/

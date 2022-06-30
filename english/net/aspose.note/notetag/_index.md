@@ -1,9 +1,9 @@
 ---
 title: NoteTag
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a note tag.
 type: docs
-weight: 340
+weight: 370
 url: /net/aspose.note/notetag/
 ---
 ## NoteTag class
@@ -142,8 +142,8 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateYellowUpArrow](../../aspose.note/notetag/createyellowuparrow)(string) | Creates a new note tag with YellowUpArrow icon and specified label. |
 | static [CreateYellowX](../../aspose.note/notetag/createyellowx)(string) | Creates a new note tag with YellowX icon and specified label. |
 | static [CreateYellowXWithDots](../../aspose.note/notetag/createyellowxwithdots)(string) | Creates a new note tag with YellowXWithDots icon and specified label. |
-| [Equals](../../aspose.note/notetag/equals)(NoteTag) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.note/notetag/equals)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/notetag/equals#equals)(NoteTag) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/notetag/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.note/notetag/gethashcode)() | Serves as a hash function for the type. |
 
 ### Examples

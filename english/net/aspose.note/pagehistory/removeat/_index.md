@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Removes the page version at the specified index of the PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 150
 url: /net/aspose.note/pagehistory/removeat/

@@ -1,7 +1,7 @@
 ---
 title: GetNumberedListHeader
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the numbered list header.
 type: docs
 weight: 130
 url: /net/aspose.note/numberlist/getnumberedlistheader/

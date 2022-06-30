@@ -1,7 +1,7 @@
 ---
 title: CreateOpenBook
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with OpenBook icon and specified label.
 type: docs
 weight: 690
 url: /net/aspose.note/notetag/createopenbook/

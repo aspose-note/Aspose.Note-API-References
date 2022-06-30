@@ -1,7 +1,7 @@
 ---
 title: FileFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents OneNote file format.
 type: docs
 weight: 90
 url: /net/aspose.note/fileformat/

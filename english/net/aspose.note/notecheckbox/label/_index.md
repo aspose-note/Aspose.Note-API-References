@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the label text.
 type: docs
 weight: 300
 url: /net/aspose.note/notecheckbox/label/

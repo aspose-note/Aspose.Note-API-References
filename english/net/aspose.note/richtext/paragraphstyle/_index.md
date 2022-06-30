@@ -1,14 +1,14 @@
 ---
 title: ParagraphStyle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the paragraph style. These settings are used if there is no matching TextStyle object in Styles collection either this object doesnt specify a needed setting.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.note/richtext/paragraphstyle/
 ---
 ## RichText.ParagraphStyle property
 
-Gets or sets the paragraph style. These settings are used if there is no matching TextStyle object in [`Styles`](../styles) collection either this object doesn't specify a needed setting.
+Gets or sets the paragraph style. These settings are used if there is no matching TextStyle object in Styles collection either this object doesn't specify a needed setting.
 
 ```csharp
 public ParagraphStyle ParagraphStyle { get; set; }
@@ -16,32 +16,53 @@ public ParagraphStyle ParagraphStyle { get; set; }
 
 ### Examples
 
-Let's format table for better perception. Make header row bold and italic, highlight every even row using LightGray color.
+Let's emphasize page's titles among other headers by increasing font's size.
 
 ```csharp
-string dataDir = RunExamples.GetDataDir_Tables();
+string dataDir = RunExamples.GetDataDir_Text();
 
 // Load the document into Aspose.Note.
-Document document = new Document(dataDir + "ChangeTableStyleIn.one");
+Document document = new Document(dataDir + "Aspose.one");
 
-// Get a list of table nodes
-IList<Table> nodes = document.GetChildNodes<Table>();
-
-foreach (Table table in nodes)
+// Iterate through page's titles.
+foreach (var title in document.Select(e => e.Title.TitleText))
 {
-    SetRowStyle(table.First(), Color.DarkGray, true, true);
+    title.ParagraphStyle.FontSize = 24;
+    title.ParagraphStyle.IsBold = true;
 
-    // Highlight first row after head.
-    var flag = false;
-    foreach (var row in table.Skip(1))
+    foreach (var run in title.TextRuns)
     {
-        SetRowStyle(row, flag ? Color.LightGray : Color.Empty, false, false);
-
-        flag = !flag;
+        run.Style.FontSize = 24;
+        run.Style.IsBold = true;
     }
 }
 
-document.Save(Path.Combine(dataDir, "ChangeTableStyleOut.one"));
+document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
+```
+
+Let's emphasize latest text's changes by highlighting.
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Load the document into Aspose.Note.
+Document document = new Document(dataDir + "Aspose.one");
+
+// Get RichText nodes modified last week.
+var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
+
+foreach (var node in richTextNodes)
+{
+    // Set highlight color
+    node.ParagraphStyle.Highlight = Color.DarkGreen;
+    foreach (var run in node.TextRuns)
+    {
+        // Set highlight color
+        run.Style.Highlight = Color.DarkSeaGreen;
+    }
+}
+
+document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
 Shows how to set a title for a page.
@@ -75,6 +96,27 @@ page.Title = new Title(doc)
 doc.AppendChildLast(page);
 
 doc.Save(outputPath);
+```
+
+Manipulate by text format using paragraph style.
+
+```csharp
+var document = new Document();
+var page = new Page();
+var outline = new Outline();
+var outlineElem = new OutlineElement();
+
+var text = new RichText() { ParagraphStyle = new ParagraphStyle() { FontName = "Courier New", FontSize = 20 } }
+                .Append($"DefaultParagraphFontAndSize{Environment.NewLine}")
+                .Append($"OnlyDefaultParagraphFont{Environment.NewLine}", new TextStyle() { FontSize = 14 })
+                .Append("OnlyDefaultParagraphFontSize", new TextStyle() { FontName = "Verdana" });
+
+outlineElem.AppendChildLast(text);
+outline.AppendChildLast(outlineElem);
+page.AppendChildLast(outline);
+document.AppendChildLast(page);
+
+document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
 Shows how to add new paragraph with tag.
@@ -147,52 +189,6 @@ foreach (RichText richText in nodes)
         }
     }
 }
-```
-
-Manipulate by text format using paragraph style.
-
-```csharp
-var document = new Document();
-var page = new Page(document);
-var outline = new Outline(document);
-var outlineElem = new OutlineElement(document);
-
-var text = new RichText(document)
-            {
-                Text = $"DefaultParagraphFontAndSize{Environment.NewLine}OnlyDefaultParagraphFont{Environment.NewLine}OnlyDefaultParagraphFontSize",
-                ParagraphStyle = new ParagraphStyle()
-                                    {
-                                        FontName = "Courier New",
-                                        FontSize = 20
-                                    }
-            };
-
-// Font and font size are from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            RunIndex = 27
-                        });
-
-// Only font is from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            FontSize = 14,
-                            RunIndex = 53
-                        });
-
-// Only font size is from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            FontName = "Verdana",
-                            RunIndex = text.Text.Length
-                        });
-
-outlineElem.AppendChildLast(text);
-outline.AppendChildLast(outlineElem);
-page.AppendChildLast(outline);
-document.AppendChildLast(page);
-
-document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
 Shows how to insert new list with chinese numbering.
@@ -380,56 +376,45 @@ string dataDir = RunExamples.GetDataDir_Tasks();
 // Create an object of the Document class
 Document doc = new Document();
 
-RichText titleText = new RichText(doc)
-                     {
-                         Text = "Title!",
-                         ParagraphStyle = ParagraphStyle.Default
-                     };
+RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
 
-Outline outline = new Outline(doc)
-                  {
-                      MaxWidth = 200,
-                      MaxHeight = 200,
-                      VerticalOffset = 100,
-                      HorizontalOffset = 100
-                  };
+Outline outline = new Outline()
+                      {
+                          MaxWidth = 200,
+                          MaxHeight = 200,
+                          VerticalOffset = 100,
+                          HorizontalOffset = 100
+                      };
 
 TextStyle textStyleRed = new TextStyle
-                         {
-                             FontColor = Color.Red,
-                             FontName = "Arial",
-                             FontSize = 10,
-
-                             // This style will be applied to 0-7 characters.
-                             RunIndex = 8 
-                         };
+                             {
+                                 FontColor = Color.Red,
+                                 FontName = "Arial",
+                                 FontSize = 10,
+                             };
 
 TextStyle textStyleHyperlink = new TextStyle
-                              {
-                                  // This style will be applied to 8-16 characters.
-                                  RunIndex = 17,
-                                  IsHyperlink = true,
-                                  HyperlinkAddress = "www.google.com"
-                              };
+                                   {
+                                       IsHyperlink = true,
+                                       HyperlinkAddress = "www.google.com"
+                                   };
 
-RichText text = new RichText(doc)
-                {
-                    Text = "This is hyperlink. This text is not a hyperlink.",
-                    ParagraphStyle = ParagraphStyle.Default,
-                    Styles = { textStyleRed, textStyleHyperlink }
-                };
+RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
+                    .Append("This is ", textStyleRed)
+                    .Append("hyperlink", textStyleHyperlink)
+                    .Append(". This text is not a hyperlink.", TextStyle.Default);
 
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
 // Add outline elements
 outline.AppendChildLast(outlineElem);
 
 // Initialize Title class object
-Title title = new Title(doc) { TitleText = titleText };
+Title title = new Title() { TitleText = titleText };
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc) { Title = title };
+Page page = new Note.Page() { Title = title };
 
 // Add Outline node
 page.AppendChildLast(outline);

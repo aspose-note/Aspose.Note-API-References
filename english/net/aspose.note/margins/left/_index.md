@@ -1,7 +1,7 @@
 ---
 title: Left
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the left margin width.
 type: docs
 weight: 40
 url: /net/aspose.note/margins/left/

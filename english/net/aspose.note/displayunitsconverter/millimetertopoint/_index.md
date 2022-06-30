@@ -1,7 +1,7 @@
 ---
 title: MillimeterToPoint
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Converts millimeters to points.
 type: docs
 weight: 30
 url: /net/aspose.note/displayunitsconverter/millimetertopoint/

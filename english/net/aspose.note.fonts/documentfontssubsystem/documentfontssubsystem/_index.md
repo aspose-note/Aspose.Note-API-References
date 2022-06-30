@@ -1,12 +1,12 @@
 ---
 title: DocumentFontsSubsystem
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the DocumentFontsSubsystemaspose.note.fonts/documentfontssubsystem class.
 type: docs
 weight: 10
 url: /net/aspose.note.fonts/documentfontssubsystem/documentfontssubsystem/
 ---
-## DocumentFontsSubsystem constructor (1 of 3)
+## DocumentFontsSubsystem(Stream, Dictionary&lt;string, string&gt;) {#constructor_1}
 
 Initializes a new instance of the [`DocumentFontsSubsystem`](../../documentfontssubsystem) class.
 
@@ -28,7 +28,7 @@ public DocumentFontsSubsystem(Stream defaultFontStream,
 
 ---
 
-## DocumentFontsSubsystem constructor (2 of 3)
+## DocumentFontsSubsystem(string, Dictionary&lt;string, string&gt;) {#constructor_2}
 
 Initializes a new instance of the [`DocumentFontsSubsystem`](../../documentfontssubsystem) class.
 
@@ -50,7 +50,7 @@ public DocumentFontsSubsystem(string defaultFontFile,
 
 ---
 
-## DocumentFontsSubsystem constructor (3 of 3)
+## DocumentFontsSubsystem(Dictionary&lt;string, string&gt;) {#constructor}
 
 Initializes a new instance of the [`DocumentFontsSubsystem`](../../documentfontssubsystem) class.
 

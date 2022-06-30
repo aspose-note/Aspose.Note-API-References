@@ -1,9 +1,9 @@
 ---
 title: TableColumn
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a table column.
 type: docs
-weight: 860
+weight: 890
 url: /net/aspose.note/tablecolumn/
 ---
 ## TableColumn class

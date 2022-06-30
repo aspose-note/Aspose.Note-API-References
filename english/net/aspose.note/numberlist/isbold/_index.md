@@ -1,7 +1,7 @@
 ---
 title: IsBold
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is bold.
 type: docs
 weight: 60
 url: /net/aspose.note/numberlist/isbold/

@@ -1,7 +1,7 @@
 ---
 title: CreateYellowEightPointStar
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowEightPointStar icon and specified label.
 type: docs
 weight: 990
 url: /net/aspose.note/notetag/createyelloweightpointstar/

@@ -1,7 +1,7 @@
 ---
 title: CreateGreenCircle3
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with GreenCircle3 icon and specified label.
 type: docs
 weight: 400
 url: /net/aspose.note/notetag/creategreencircle3/

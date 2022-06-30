@@ -1,7 +1,7 @@
 ---
 title: CssPerPageGeneration
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets whether the StyleSheet file will be generated for each new page separately.
 type: docs
 weight: 20
 url: /net/aspose.note.saving/htmlsaveoptions/cssperpagegeneration/

@@ -1,7 +1,7 @@
 ---
 title: CreateTimeSensitive
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with TimeSensitive icon and specified label.
 type: docs
 weight: 910
 url: /net/aspose.note/notetag/createtimesensitive/

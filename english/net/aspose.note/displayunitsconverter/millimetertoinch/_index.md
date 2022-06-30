@@ -1,7 +1,7 @@
 ---
 title: MillimeterToInch
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Converts millimeters to inches.
 type: docs
 weight: 20
 url: /net/aspose.note/displayunitsconverter/millimetertoinch/

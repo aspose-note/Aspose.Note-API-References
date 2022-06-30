@@ -1,9 +1,9 @@
 ---
 title: IsHidden
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the text style is hidden.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.note/textstyle/ishidden/
 ---
 ## TextStyle.IsHidden property

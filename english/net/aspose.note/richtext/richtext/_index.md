@@ -1,7 +1,7 @@
 ---
 title: RichText
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the RichTextaspose.note/richtext class.
 type: docs
 weight: 10
 url: /net/aspose.note/richtext/richtext/

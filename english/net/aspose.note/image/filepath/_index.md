@@ -1,7 +1,7 @@
 ---
 title: FilePath
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the path to the image file.
 type: docs
 weight: 70
 url: /net/aspose.note/image/filepath/

@@ -1,7 +1,7 @@
 ---
 title: CreateContactPersonOnCard
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with ContactPersonOnCard icon and specified label.
 type: docs
 weight: 310
 url: /net/aspose.note/notetag/createcontactpersononcard/

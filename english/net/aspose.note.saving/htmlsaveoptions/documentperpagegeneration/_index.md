@@ -1,7 +1,7 @@
 ---
 title: DocumentPerPageGeneration
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether document per page generation is enabled.
 type: docs
 weight: 40
 url: /net/aspose.note.saving/htmlsaveoptions/documentperpagegeneration/

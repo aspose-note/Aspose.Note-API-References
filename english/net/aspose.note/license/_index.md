@@ -1,9 +1,9 @@
 ---
 title: License
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Provides methods to license the component.
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.note/license/
 ---
 ## License class
@@ -24,8 +24,8 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](../../aspose.note/license/setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../aspose.note/license/setlicense)(string) | Licenses the component. |
+| [SetLicense](../../aspose.note/license/setlicense#setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.note/license/setlicense#setlicense_1)(string) | Licenses the component. |
 
 ### Examples
 

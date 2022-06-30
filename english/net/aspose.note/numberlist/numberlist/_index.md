@@ -1,12 +1,12 @@
 ---
 title: NumberList
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the NumberListaspose.note/numberlist class. This instance represents a bulleted list.
 type: docs
 weight: 10
 url: /net/aspose.note/numberlist/numberlist/
 ---
-## NumberList constructor (1 of 2)
+## NumberList(string, string, int) {#constructor_1}
 
 Initializes a new instance of the [`NumberList`](../../numberlist) class. This instance represents a bulleted list.
 
@@ -28,7 +28,7 @@ public NumberList(string bulletedSymbol, string font, int fontSize)
 
 ---
 
-## NumberList constructor (2 of 2)
+## NumberList(string, NumberFormat, string, int) {#constructor}
 
 Initializes a new instance of the [`NumberList`](../../numberlist) class. This instance represents a numbered list.
 

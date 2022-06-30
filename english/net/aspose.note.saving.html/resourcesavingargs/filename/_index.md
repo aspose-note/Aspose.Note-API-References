@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the file name.
 type: docs
 weight: 20
 url: /net/aspose.note.saving.html/resourcesavingargs/filename/

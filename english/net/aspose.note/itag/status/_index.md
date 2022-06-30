@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the status.
 type: docs
 weight: 50
 url: /net/aspose.note/itag/status/

@@ -1,7 +1,7 @@
 ---
 title: CreateBlueExclamationCheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with BlueExclamationCheckBoxEmpty icon and specified label.
 type: docs
 weight: 50
 url: /net/aspose.note/notecheckbox/createblueexclamationcheckbox/

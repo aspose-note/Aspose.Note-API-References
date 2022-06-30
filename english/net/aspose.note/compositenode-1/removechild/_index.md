@@ -1,7 +1,7 @@
 ---
 title: RemoveChild
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Removes the child node.
 type: docs
 weight: 110
 url: /net/aspose.note/compositenode-1/removechild/

@@ -1,14 +1,14 @@
 ---
 title: ParagraphStyle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Text style settings to be used if there is no matching TextStyle object in Styles collection either this object doesnt specify a needed setting.
 type: docs
-weight: 460
+weight: 490
 url: /net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
 
-Text style settings to be used if there is no matching TextStyle object in [`Styles`](../richtext/styles) collection either this object doesn't specify a needed setting.
+Text style settings to be used if there is no matching TextStyle object in Styles collection either this object doesn't specify a needed setting.
 
 ```csharp
 public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
@@ -41,77 +41,73 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.note/paragraphstyle/equals)(object) | Determines whether the specified object is equal to the current object. |
-| [Equals](../../aspose.note/paragraphstyle/equals)(ParagraphStyle) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.note/style/gethashcode)() | Serves as a hash function for the type. |
 
 ### Examples
 
-Let's format table for better perception. Make header row bold and italic, highlight every even row using LightGray color.
+Let's emphasize page's titles among other headers by increasing font's size.
 
 ```csharp
-string dataDir = RunExamples.GetDataDir_Tables();
+string dataDir = RunExamples.GetDataDir_Text();
 
 // Load the document into Aspose.Note.
-Document document = new Document(dataDir + "ChangeTableStyleIn.one");
+Document document = new Document(dataDir + "Aspose.one");
 
-// Get a list of table nodes
-IList<Table> nodes = document.GetChildNodes<Table>();
-
-foreach (Table table in nodes)
+// Iterate through page's titles.
+foreach (var title in document.Select(e => e.Title.TitleText))
 {
-    SetRowStyle(table.First(), Color.DarkGray, true, true);
+    title.ParagraphStyle.FontSize = 24;
+    title.ParagraphStyle.IsBold = true;
 
-    // Highlight first row after head.
-    var flag = false;
-    foreach (var row in table.Skip(1))
+    foreach (var run in title.TextRuns)
     {
-        SetRowStyle(row, flag ? Color.LightGray : Color.Empty, false, false);
-
-        flag = !flag;
+        run.Style.FontSize = 24;
+        run.Style.IsBold = true;
     }
 }
 
-document.Save(Path.Combine(dataDir, "ChangeTableStyleOut.one"));
+document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
+```
+
+Let's emphasize latest text's changes by highlighting.
+
+```csharp
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Load the document into Aspose.Note.
+Document document = new Document(dataDir + "Aspose.one");
+
+// Get RichText nodes modified last week.
+var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
+
+foreach (var node in richTextNodes)
+{
+    // Set highlight color
+    node.ParagraphStyle.Highlight = Color.DarkGreen;
+    foreach (var run in node.TextRuns)
+    {
+        // Set highlight color
+        run.Style.Highlight = Color.DarkSeaGreen;
+    }
+}
+
+document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
 Manipulate by text format using paragraph style.
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
-var outline = new Outline(document);
-var outlineElem = new OutlineElement(document);
+var page = new Page();
+var outline = new Outline();
+var outlineElem = new OutlineElement();
 
-var text = new RichText(document)
-            {
-                Text = $"DefaultParagraphFontAndSize{Environment.NewLine}OnlyDefaultParagraphFont{Environment.NewLine}OnlyDefaultParagraphFontSize",
-                ParagraphStyle = new ParagraphStyle()
-                                    {
-                                        FontName = "Courier New",
-                                        FontSize = 20
-                                    }
-            };
-
-// Font and font size are from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            RunIndex = 27
-                        });
-
-// Only font is from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            FontSize = 14,
-                            RunIndex = 53
-                        });
-
-// Only font size is from text.ParagraphStyle
-text.Styles.Add(new TextStyle()
-                        {
-                            FontName = "Verdana",
-                            RunIndex = text.Text.Length
-                        });
+var text = new RichText() { ParagraphStyle = new ParagraphStyle() { FontName = "Courier New", FontSize = 20 } }
+                .Append($"DefaultParagraphFontAndSize{Environment.NewLine}")
+                .Append($"OnlyDefaultParagraphFont{Environment.NewLine}", new TextStyle() { FontSize = 14 })
+                .Append("OnlyDefaultParagraphFontSize", new TextStyle() { FontName = "Verdana" });
 
 outlineElem.AppendChildLast(text);
 outline.AppendChildLast(outlineElem);

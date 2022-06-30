@@ -1,7 +1,7 @@
 ---
 title: CreateLightBulb
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with LightBulb icon and specified label.
 type: docs
 weight: 610
 url: /net/aspose.note/notetag/createlightbulb/

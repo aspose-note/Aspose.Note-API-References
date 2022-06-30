@@ -1,7 +1,7 @@
 ---
 title: FileFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the file format of passed data if detected.
 type: docs
 weight: 10
 url: /net/aspose.note/unsupportedfileformatexception/fileformat/

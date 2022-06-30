@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Clears the page history.
 type: docs
 weight: 80
 url: /net/aspose.note/pagehistory/clear/

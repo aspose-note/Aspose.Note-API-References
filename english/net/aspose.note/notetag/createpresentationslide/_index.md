@@ -1,7 +1,7 @@
 ---
 title: CreatePresentationSlide
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with PresentationSlide icon and specified label.
 type: docs
 weight: 780
 url: /net/aspose.note/notetag/createpresentationslide/

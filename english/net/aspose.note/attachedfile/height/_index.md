@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the original height of the embedded file icon.
 type: docs
 weight: 90
 url: /net/aspose.note/attachedfile/height/

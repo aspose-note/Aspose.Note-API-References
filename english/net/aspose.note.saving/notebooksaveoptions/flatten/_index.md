@@ -1,7 +1,7 @@
 ---
 title: Flatten
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the notebook children hierarchy is saved flattened.
 type: docs
 weight: 20
 url: /net/aspose.note.saving/notebooksaveoptions/flatten/

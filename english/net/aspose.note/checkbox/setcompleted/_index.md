@@ -1,12 +1,12 @@
 ---
 title: SetCompleted
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Sets the tag to completed state.
 type: docs
 weight: 70
 url: /net/aspose.note/checkbox/setcompleted/
 ---
-## CheckBox.SetCompleted method (1 of 2)
+## SetCompleted(DateTime) {#setcompleted_1}
 
 Sets the tag to completed state.
 
@@ -26,7 +26,7 @@ public void SetCompleted(DateTime completedTime)
 
 ---
 
-## CheckBox.SetCompleted method (2 of 2)
+## SetCompleted() {#setcompleted}
 
 Sets the tag to completed state using current time as completed time.
 

@@ -1,7 +1,7 @@
 ---
 title: BinarizationOptions
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets options for images binarization.
 type: docs
 weight: 20
 url: /net/aspose.note.saving/imagesaveoptions/binarizationoptions/

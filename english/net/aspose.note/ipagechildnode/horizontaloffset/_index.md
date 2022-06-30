@@ -1,7 +1,7 @@
 ---
 title: HorizontalOffset
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the horizontal offset.
 type: docs
 weight: 10
 url: /net/aspose.note/ipagechildnode/horizontaloffset/

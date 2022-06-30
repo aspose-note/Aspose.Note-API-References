@@ -1,7 +1,7 @@
 ---
 title: CssSaving
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Called when Aspose.Note saves an CSSCascading Style Sheet.
 type: docs
 weight: 10
 url: /net/aspose.note.saving.html/icsssavingcallback/csssaving/

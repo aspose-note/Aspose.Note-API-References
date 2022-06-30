@@ -1,9 +1,9 @@
 ---
 title: Style
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: This class contains common properties of ParagraphStyle./paragraphstyle and TextStyle./textstyle classes.
 type: docs
-weight: 830
+weight: 860
 url: /net/aspose.note/style/
 ---
 ## Style class

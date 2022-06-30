@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the number format used for a group of automatically numbered objects. Should be null for bulleted lists.
 type: docs
 weight: 90
 url: /net/aspose.note/numberlist/numberformat/

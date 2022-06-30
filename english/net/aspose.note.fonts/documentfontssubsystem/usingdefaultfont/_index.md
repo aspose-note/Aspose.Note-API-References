@@ -1,7 +1,7 @@
 ---
 title: UsingDefaultFont
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Create new DocumentFontsSubsystem instance using specified default font name.
 type: docs
 weight: 30
 url: /net/aspose.note.fonts/documentfontssubsystem/usingdefaultfont/

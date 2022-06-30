@@ -1,7 +1,7 @@
 ---
 title: CreateGreenCheckBox2
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note checkbox with GreenCheckBox2Empty icon and specified label.
 type: docs
 weight: 120
 url: /net/aspose.note/notecheckbox/creategreencheckbox2/

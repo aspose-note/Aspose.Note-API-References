@@ -1,7 +1,7 @@
 ---
 title: InstantLoading
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether children documents should be loaded while the parent document is loading.
 type: docs
 weight: 30
 url: /net/aspose.note/notebookloadoptions/instantloading/

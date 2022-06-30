@@ -1,7 +1,7 @@
 ---
 title: CreateCustomFollowUpDate
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note task with NoFollowUpDateFlag icon and specified due date.
 type: docs
 weight: 10
 url: /net/aspose.note/notetask/createcustomfollowupdate/

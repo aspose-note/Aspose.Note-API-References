@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Clones the page.
 type: docs
 weight: 140
 url: /net/aspose.note/page/clone/

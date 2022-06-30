@@ -1,7 +1,7 @@
 ---
 title: CreatePersonWithExclamationMark
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with PersonWithExclamationMark icon and specified label.
 type: docs
 weight: 750
 url: /net/aspose.note/notetag/createpersonwithexclamationmark/

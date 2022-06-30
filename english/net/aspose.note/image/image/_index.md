@@ -1,12 +1,12 @@
 ---
 title: Image
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the Imageaspose.note/image class.
 type: docs
 weight: 10
 url: /net/aspose.note/image/image/
 ---
-## Image constructor (1 of 3)
+## Image(string, string, string) {#constructor_5}
 
 Initializes a new instance of the [`Image`](../../image) class.
 
@@ -28,7 +28,7 @@ public Image(string path, string altTitle = null, string altDescription = null)
 
 ---
 
-## Image constructor (2 of 3)
+## Image(string, Stream) {#constructor_4}
 
 Initializes a new instance of the [`Image`](../../image) class.
 
@@ -49,7 +49,7 @@ public Image(string fileName, Stream imageStream)
 
 ---
 
-## Image constructor (3 of 3)
+## Image() {#constructor}
 
 Initializes a new instance of the [`Image`](../../image) class.
 

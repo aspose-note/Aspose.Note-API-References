@@ -1,7 +1,7 @@
 ---
 title: IndentPosition
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the indent position.
 type: docs
 weight: 40
 url: /net/aspose.note/outline/indentposition/

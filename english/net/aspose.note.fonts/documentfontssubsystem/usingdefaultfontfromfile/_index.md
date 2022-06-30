@@ -1,7 +1,7 @@
 ---
 title: UsingDefaultFontFromFile
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Create new DocumentFontsSubsystem instance using a font from specified file as default.
 type: docs
 weight: 40
 url: /net/aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/

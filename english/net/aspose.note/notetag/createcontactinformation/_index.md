@@ -1,7 +1,7 @@
 ---
 title: CreateContactInformation
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with ContactInformation icon and specified label.
 type: docs
 weight: 300
 url: /net/aspose.note/notetag/createcontactinformation/

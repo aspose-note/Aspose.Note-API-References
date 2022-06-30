@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Copies the page versions to an array starting at the beginning.
 type: docs
 weight: 100
 url: /net/aspose.note/pagehistory/copyto/

@@ -1,7 +1,7 @@
 ---
 title: AutomaticLayoutChangesDetectionEnabled
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether Aspose.Note performs detection of layout changes automatically. Default value is true.
 type: docs
 weight: 20
 url: /net/aspose.note/document/automaticlayoutchangesdetectionenabled/

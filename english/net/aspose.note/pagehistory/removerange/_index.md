@@ -1,7 +1,7 @@
 ---
 title: RemoveRange
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Removes a range of the page versions from the PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 160
 url: /net/aspose.note/pagehistory/removerange/

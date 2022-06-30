@@ -1,9 +1,9 @@
 ---
 title: SaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: An abstract base class which represents document saving options for a particular format.
 type: docs
-weight: 810
+weight: 840
 url: /net/aspose.note.saving/saveoptions/
 ---
 ## SaveOptions class

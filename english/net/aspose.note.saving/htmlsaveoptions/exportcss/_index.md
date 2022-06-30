@@ -1,7 +1,7 @@
 ---
 title: ExportCss
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the way css is exported.
 type: docs
 weight: 50
 url: /net/aspose.note.saving/htmlsaveoptions/exportcss/

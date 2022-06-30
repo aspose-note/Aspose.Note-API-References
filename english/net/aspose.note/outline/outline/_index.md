@@ -1,7 +1,7 @@
 ---
 title: Outline
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the Outlineaspose.note/outline class.
 type: docs
 weight: 10
 url: /net/aspose.note/outline/outline/

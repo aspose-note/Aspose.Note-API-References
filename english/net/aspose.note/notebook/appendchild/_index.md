@@ -1,7 +1,7 @@
 ---
 title: AppendChild
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Adds the node to the end of the list.
 type: docs
 weight: 90
 url: /net/aspose.note/notebook/appendchild/

@@ -1,7 +1,7 @@
 ---
 title: VisitTitleStart
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Start to visit the Titleaspose.note/title node.
 type: docs
 weight: 240
 url: /net/aspose.note/documentvisitor/visittitlestart/

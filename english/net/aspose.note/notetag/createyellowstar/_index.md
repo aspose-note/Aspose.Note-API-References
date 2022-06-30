@@ -1,7 +1,7 @@
 ---
 title: CreateYellowStar
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowStar icon and specified label.
 type: docs
 weight: 1050
 url: /net/aspose.note/notetag/createyellowstar/

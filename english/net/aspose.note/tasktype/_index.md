@@ -1,9 +1,9 @@
 ---
 title: TaskType
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Specifies the type of the note task node.
 type: docs
-weight: 900
+weight: 930
 url: /net/aspose.note/tasktype/
 ---
 ## TaskType enumeration

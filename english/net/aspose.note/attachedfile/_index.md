@@ -1,7 +1,7 @@
 ---
 title: AttachedFile
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents an attached file.
 type: docs
 weight: 10
 url: /net/aspose.note/attachedfile/
@@ -18,10 +18,10 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Name | Description |
 | --- | --- |
-| [AttachedFile](attachedfile)() | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
-| [AttachedFile](attachedfile)(string, Stream) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
-| [AttachedFile](attachedfile)(string, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
-| [AttachedFile](attachedfile)(string, Stream, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor)() | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_6)(string, Stream) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_7)(string, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_8)(string, Stream, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the original width of the embedded file icon.
 type: docs
 weight: 210
 url: /net/aspose.note/attachedfile/width/

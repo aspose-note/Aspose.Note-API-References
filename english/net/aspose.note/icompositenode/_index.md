@@ -1,7 +1,7 @@
 ---
 title: ICompositeNode
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The interface for nodes that can contain other nodes.
 type: docs
 weight: 140
 url: /net/aspose.note/icompositenode/
@@ -18,7 +18,7 @@ public interface ICompositeNode
 
 | Name | Description |
 | --- | --- |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/icompositenode/getchildnodes)() | Get all child nodes by the node type. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/icompositenode/getchildnodes#getchildnodes_1)() | Get all child nodes by the node type. |
 
 ### See Also
 

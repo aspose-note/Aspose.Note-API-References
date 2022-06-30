@@ -1,7 +1,7 @@
 ---
 title: DueDate
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the due date.
 type: docs
 weight: 70
 url: /net/aspose.note/notetask/duedate/

@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets a value indicating whether the page history is read only.
 type: docs
 weight: 40
 url: /net/aspose.note/pagehistory/isreadonly/

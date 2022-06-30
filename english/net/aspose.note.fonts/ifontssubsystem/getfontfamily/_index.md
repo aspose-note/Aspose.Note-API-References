@@ -1,7 +1,7 @@
 ---
 title: GetFontFamily
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets font family.
 type: docs
 weight: 10
 url: /net/aspose.note.fonts/ifontssubsystem/getfontfamily/

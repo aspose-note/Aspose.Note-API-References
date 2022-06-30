@@ -1,12 +1,12 @@
 ---
 title: Document
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Initializes a new instance of the Documentaspose.note/document class. Creates a blank OneNote document.
 type: docs
 weight: 10
 url: /net/aspose.note/document/document/
 ---
-## Document constructor (1 of 5)
+## Document() {#constructor}
 
 Initializes a new instance of the [`Document`](../../document) class. Creates a blank OneNote document.
 
@@ -22,7 +22,7 @@ public Document()
 
 ---
 
-## Document constructor (2 of 5)
+## Document(string) {#constructor_3}
 
 Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a file.
 
@@ -52,7 +52,7 @@ public Document(string filePath)
 
 ---
 
-## Document constructor (3 of 5)
+## Document(string, LoadOptions) {#constructor_4}
 
 Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a file. Allows to specify additional options such as an encryption password.
 
@@ -84,7 +84,7 @@ public Document(string filePath, LoadOptions loadOptions)
 
 ---
 
-## Document constructor (4 of 5)
+## Document(Stream) {#constructor_1}
 
 Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a stream.
 
@@ -115,7 +115,7 @@ public Document(Stream inStream)
 
 ---
 
-## Document constructor (5 of 5)
+## Document(Stream, LoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a stream. Allows to specify additional options such as an encryption password.
 

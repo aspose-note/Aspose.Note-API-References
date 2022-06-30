@@ -1,9 +1,9 @@
 ---
 title: Accept
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Accepts the visitor of the node.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.note/richtext/accept/
 ---
 ## RichText.Accept method

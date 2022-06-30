@@ -1,7 +1,7 @@
 ---
 title: PageSaving
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Called when Aspose.Note saves a separate page.
 type: docs
 weight: 10
 url: /net/aspose.note.saving.html/ipagesavingcallback/pagesaving/

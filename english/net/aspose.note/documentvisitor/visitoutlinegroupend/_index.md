@@ -1,7 +1,7 @@
 ---
 title: VisitOutlineGroupEnd
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: End to visit the OutlineGroupaspose.note/outlinegroup node.
 type: docs
 weight: 100
 url: /net/aspose.note/documentvisitor/visitoutlinegroupend/

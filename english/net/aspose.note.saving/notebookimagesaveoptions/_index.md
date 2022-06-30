@@ -1,9 +1,9 @@
 ---
 title: NotebookImageSaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Allows to specify additional options when rendering notebook pages to images.
 type: docs
-weight: 710
+weight: 740
 url: /net/aspose.note.saving/notebookimagesaveoptions/
 ---
 ## NotebookImageSaveOptions class

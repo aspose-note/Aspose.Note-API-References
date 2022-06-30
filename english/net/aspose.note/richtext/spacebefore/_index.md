@@ -1,9 +1,9 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the minimum amount of space before.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.note/richtext/spacebefore/
 ---
 ## RichText.SpaceBefore property

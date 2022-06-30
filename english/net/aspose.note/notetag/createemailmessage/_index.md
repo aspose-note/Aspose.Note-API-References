@@ -1,7 +1,7 @@
 ---
 title: CreateEMailMessage
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with EMailMessage icon and specified label.
 type: docs
 weight: 330
 url: /net/aspose.note/notetag/createemailmessage/

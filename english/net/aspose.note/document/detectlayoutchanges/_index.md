@@ -1,7 +1,7 @@
 ---
 title: DetectLayoutChanges
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Detects all changes made to the document layout since the previous DetectLayoutChangesaspose.note/document/detectlayoutchanges call. In case AutomaticLayoutChangesDetectionEnabledaspose.note/document/automaticlayoutchangesdetectionenabled set to true used automatically in the beginning of document export.
 type: docs
 weight: 90
 url: /net/aspose.note/document/detectlayoutchanges/

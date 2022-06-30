@@ -1,7 +1,7 @@
 ---
 title: AddFontSubstitution
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Adds font substitution.
 type: docs
 weight: 30
 url: /net/aspose.note.fonts/fontssubsystem/addfontsubstitution/

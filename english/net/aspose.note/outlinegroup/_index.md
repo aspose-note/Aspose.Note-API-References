@@ -1,9 +1,9 @@
 ---
 title: OutlineGroup
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a OutlineGroup.
 type: docs
-weight: 420
+weight: 450
 url: /net/aspose.note/outlinegroup/
 ---
 ## OutlineGroup class
@@ -19,7 +19,7 @@ public sealed class OutlineGroup : CompositeNode<IOutlineChildNode>, IOutlineChi
 
 | Name | Description |
 | --- | --- |
-| [OutlineGroup](outlinegroup)() | Initializes a new instance of the [`OutlineGroup`](../outlinegroup) class. |
+| [OutlineGroup](outlinegroup#constructor)() | Initializes a new instance of the [`OutlineGroup`](../outlinegroup) class. |
 
 ## Properties
 

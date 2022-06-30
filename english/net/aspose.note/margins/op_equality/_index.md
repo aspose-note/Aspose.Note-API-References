@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Tests whether two Margins structures are equal.
 type: docs
 weight: 90
 url: /net/aspose.note/margins/op_equality/

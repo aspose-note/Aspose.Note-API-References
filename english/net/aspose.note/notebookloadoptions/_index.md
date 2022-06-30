@@ -1,9 +1,9 @@
 ---
 title: NotebookLoadOptions
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Options used to load a notebook.
 type: docs
-weight: 370
+weight: 400
 url: /net/aspose.note/notebookloadoptions/
 ---
 ## NotebookLoadOptions class

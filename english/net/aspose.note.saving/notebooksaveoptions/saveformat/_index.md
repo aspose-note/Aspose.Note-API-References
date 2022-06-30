@@ -1,7 +1,7 @@
 ---
 title: SaveFormat
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the format in which the notebook is saved.
 type: docs
 weight: 30
 url: /net/aspose.note.saving/notebooksaveoptions/saveformat/

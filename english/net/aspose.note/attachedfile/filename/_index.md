@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the name of the embedded file.
 type: docs
 weight: 70
 url: /net/aspose.note/attachedfile/filename/

@@ -1,7 +1,7 @@
 ---
 title: VerticalOffset
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the vertical offset.
 type: docs
 weight: 100
 url: /net/aspose.note/outline/verticaloffset/

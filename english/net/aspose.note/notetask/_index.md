@@ -1,9 +1,9 @@
 ---
 title: NoteTask
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a note task.
 type: docs
-weight: 350
+weight: 380
 url: /net/aspose.note/notetask/
 ---
 ## NoteTask class
@@ -36,8 +36,8 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 | static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday)() | Creates a new note task with FollowUpTodayFlag icon. |
 | static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow)() | Creates a new note task with FollowUpTomorrowFlag icon. |
 | static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate)() | Creates a new note task with NoFollowUpDateFlag icon. |
-| [Equals](../../aspose.note/notetask/equals)(NoteTask) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.note/notetask/equals)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/notetask/equals#equals)(NoteTask) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/notetask/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.note/notetask/gethashcode)() | Serves as a hash function for the type. |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Sets the tag to completed state using current time as completed time. |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Sets the tag to completed state. |

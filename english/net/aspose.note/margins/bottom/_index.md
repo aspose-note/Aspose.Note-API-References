@@ -1,7 +1,7 @@
 ---
 title: Bottom
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the bottom margin width.
 type: docs
 weight: 30
 url: /net/aspose.note/margins/bottom/

@@ -1,9 +1,9 @@
 ---
 title: Page
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a page.
 type: docs
-weight: 430
+weight: 460
 url: /net/aspose.note/page/
 ---
 ## Page class
@@ -18,7 +18,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | Name | Description |
 | --- | --- |
-| [Page](page)() | Initializes a new instance of the [`Page`](../page) class. |
+| [Page](page#constructor)() | Initializes a new instance of the [`Page`](../page) class. |
 
 ## Properties
 
@@ -52,7 +52,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
 | [Clone](../../aspose.note/page/clone)(bool) | Clones the page. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes)() | Get all child nodes of the page by the node type. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | Get all child nodes of the page by the node type. |
 | [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
 | [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
@@ -198,17 +198,45 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        if (richText != null)
-        {
-            // Replace text of a shape
-            richText.Text = richText.Text.Replace(kvp.Key, kvp.Value);
-        }
+        // Replace text of a shape
+        richText.Replace(kvp.Key, kvp.Value);
     }
 }
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
 // Save to any supported file format
+oneFile.Save(dataDir, SaveFormat.Pdf);
+```
+
+Shows how to pass through page's text and make a replacement.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Text();
+
+Dictionary<string, string> replacements = new Dictionary<string, string>();
+replacements.Add("voice over", "voice over new text");
+
+// Load the document into Aspose.Note.
+Document oneFile = new Document(dataDir + "Aspose.one");
+
+IList<Page> pageNodes = oneFile.GetChildNodes<Page>();
+
+// Get all RichText nodes
+IList<RichText> textNodes = pageNodes[0].GetChildNodes<RichText>();
+
+foreach (RichText richText in textNodes)
+{
+    foreach (KeyValuePair<string, string> kvp in replacements)
+    {
+        // Replace text of a shape
+        richText.Replace(kvp.Key, kvp.Value);
+    }
+}
+
+// Save to any supported file format
+dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
@@ -234,40 +262,6 @@ page.Title = new Title()
 // Save into HTML format
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
-```
-
-Shows how to pass through page's text and make a replacement.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_Text();
-
-Dictionary<string, string> replacements = new Dictionary<string, string>();
-replacements.Add("voice over", "voice over new text");
-
-// Load the document into Aspose.Note.
-Document oneFile = new Document(dataDir + "Aspose.one");
-
-IList<Page> pageNodes = oneFile.GetChildNodes<Page>();
-
-// Get all RichText nodes
-IList<RichText> textNodes = pageNodes[0].GetChildNodes<RichText>();
-
-foreach (RichText richText in textNodes)
-{
-    foreach (KeyValuePair<string, string> kvp in replacements)
-    {
-        if (richText != null)
-        {
-            // Replace text of a shape
-            richText.Text = richText.Text.Replace(kvp.Key, kvp.Value);
-        }
-    }
-}
-
-// Save to any supported file format
-dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
-oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
 Shows how to add new image with tag.

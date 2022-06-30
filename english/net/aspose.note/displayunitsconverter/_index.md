@@ -1,7 +1,7 @@
 ---
 title: DisplayUnitsConverter
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The class contains the methods for converting values.
 type: docs
 weight: 50
 url: /net/aspose.note/displayunitsconverter/

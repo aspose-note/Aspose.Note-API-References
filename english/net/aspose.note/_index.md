@@ -25,6 +25,7 @@ The Note namespace contains classes which represent document structure.
 | [IncorrectPasswordException](./incorrectpasswordexception) | Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. |
 | [License](./license) | Provides methods to license the component. |
 | [LoadOptions](./loadoptions) | Options used to load a document. |
+| [MergeOptions](./mergeoptions) | The options for merging a collection of pages. |
 | [Metered](./metered) | Provides methods to set metered key. |
 | [Node](./node) | The base class for all nodes of an Aspose.Note document. |
 | [Notebook](./notebook) | Represents an Aspose.Note notebook. |
@@ -38,7 +39,7 @@ The Note namespace contains classes which represent document structure.
 | [OutlineGroup](./outlinegroup) | Represents a OutlineGroup. |
 | [Page](./page) | Represents a page. |
 | [PageHistory](./pagehistory) | Represents the page history. |
-| [ParagraphStyle](./paragraphstyle) | Text style settings to be used if there is no matching TextStyle object in [`Styles`](../aspose.note/richtext/styles) collection either this object doesn't specify a needed setting. |
+| [ParagraphStyle](./paragraphstyle) | Text style settings to be used if there is no matching TextStyle object in Styles collection either this object doesn't specify a needed setting. |
 | [RevisionSummary](./revisionsummary) | Represents a summary for node's revision. |
 | [RichText](./richtext) | Represents a rich text. |
 | [Style](./style) | This class contains common properties of [`ParagraphStyle`](../aspose.note/paragraphstyle) and [`TextStyle`](../aspose.note/textstyle) classes. |
@@ -46,6 +47,7 @@ The Note namespace contains classes which represent document structure.
 | [TableCell](./tablecell) | Represents a table cell. |
 | [TableColumn](./tablecolumn) | Represents a table column. |
 | [TableRow](./tablerow) | Represents a table row. |
+| [TextRun](./textrun) | The class representing a piece of text with associated style. |
 | [TextStyle](./textstyle) | Specifies the text style. |
 | [Title](./title) | Represents a title. |
 | [UnsupportedFileFormatException](./unsupportedfileformatexception) | Thrown during document load, when the file format is not recognized or not supported by Aspose.Note. |

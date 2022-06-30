@@ -1,7 +1,7 @@
 ---
 title: FontStyle
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the font style.
 type: docs
 weight: 40
 url: /net/aspose.note/style/fontstyle/

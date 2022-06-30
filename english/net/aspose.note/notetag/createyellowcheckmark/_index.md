@@ -1,7 +1,7 @@
 ---
 title: CreateYellowCheckMark
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Creates a new note tag with YellowCheckMark icon and specified label.
 type: docs
 weight: 930
 url: /net/aspose.note/notetag/createyellowcheckmark/

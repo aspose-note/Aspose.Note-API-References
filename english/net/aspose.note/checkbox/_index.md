@@ -1,7 +1,7 @@
 ---
 title: CheckBox
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: The base class for tags that can toggle their state between complete and incomplete.
 type: docs
 weight: 20
 url: /net/aspose.note/checkbox/
@@ -29,8 +29,8 @@ public abstract class CheckBox : ITag
 
 | Name | Description |
 | --- | --- |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Sets the tag to completed state using current time as completed time. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Sets the tag to completed state. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted#setcompleted)() | Sets the tag to completed state using current time as completed time. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted#setcompleted_1)(DateTime) | Sets the tag to completed state. |
 | virtual [SetOpen](../../aspose.note/checkbox/setopen)() | Sets the tag to open state. |
 
 ### Examples

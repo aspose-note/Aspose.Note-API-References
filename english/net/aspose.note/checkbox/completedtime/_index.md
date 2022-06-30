@@ -1,7 +1,7 @@
 ---
 title: CompletedTime
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets or sets the completed time.
 type: docs
 weight: 20
 url: /net/aspose.note/checkbox/completedtime/

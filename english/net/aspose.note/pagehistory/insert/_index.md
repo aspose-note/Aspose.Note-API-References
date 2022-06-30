@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Inserts a page version into the page history.
 type: docs
 weight: 130
 url: /net/aspose.note/pagehistory/insert/

@@ -1,9 +1,9 @@
 ---
 title: Title
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Represents a title.
 type: docs
-weight: 920
+weight: 960
 url: /net/aspose.note/title/
 ---
 ## Title class
@@ -18,7 +18,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Name | Description |
 | --- | --- |
-| [Title](title)() | Initializes a new instance of the [`Title`](../title) class. |
+| [Title](title#constructor)() | Initializes a new instance of the [`Title`](../title) class. |
 
 ## Properties
 
@@ -42,7 +42,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Accepts the visitor of the node. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes)() | Get all child nodes by the node type. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Get all child nodes by the node type. |
 | [GetEnumerator](../../aspose.note/title/getenumerator)() | Returns an enumerator that iterates through child nodes of the [`Title`](../title). |
 
 ### Examples

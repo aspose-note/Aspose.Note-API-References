@@ -1,9 +1,9 @@
 ---
 title: IncorrectDocumentStructureException
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Thrown if a user created document has incorrect structure.
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.note/incorrectdocumentstructureexception/
 ---
 ## IncorrectDocumentStructureException class

@@ -1,7 +1,7 @@
 ---
 title: Extension
 second_title: Aspose.Note for .NET API Reference
-description: 
+description: Gets the extension of an embedded file.
 type: docs
 weight: 60
 url: /net/aspose.note/attachedfile/extension/
