@@ -24,7 +24,7 @@ Estos son enlaces a algunos recursos útiles:
 
 ## Aspose.Note para Java
 
-{% alert color="primary" %}}
+{{% alert color="primary" %}} 
 
 ![Aspose.Note para el logotipo del producto Java](../home_2.png)
 
