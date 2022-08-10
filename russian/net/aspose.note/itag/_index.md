@@ -18,11 +18,11 @@ public interface ITag
 
 | Имя | Описание |
 | --- | --- |
-| [CompletedTime](../../aspose.note/itag/completedtime) { get; set; } | Получает или задает завершенное время. |
+| [CompletedTime](../../aspose.note/itag/completedtime) { get; } | Получает или устанавливает завершенное время. |
 | [CreationTime](../../aspose.note/itag/creationtime) { get; set; } | Получает или задает время создания. |
-| [Icon](../../aspose.note/itag/icon) { get; set; } | Получает или задает значок. |
+| [Icon](../../aspose.note/itag/icon) { get; } | Получает или задает значок. |
 | [Label](../../aspose.note/itag/label) { get; } | Получает текст метки. |
-| [Status](../../aspose.note/itag/status) { get; set; } | Получает или устанавливает статус. |
+| [Status](../../aspose.note/itag/status) { get; } | Получает или устанавливает статус. |
 
 ### Примеры
 
@@ -47,6 +47,8 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
+Показывает, как сделать заполненными все элементы флажков, связанные с «Проектом C».
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -67,6 +69,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
+
+Показывает, как открыть все элементы флажка, связанные с «Проектом C».
 
 ```csharp
 // Путь к каталогу документов.
@@ -89,6 +93,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
+Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными незавершенными флажками и созданными за последнюю неделю.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -107,6 +113,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
+
+Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
 
 ```csharp
 // Путь к каталогу документов.
@@ -127,6 +135,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
+
+Показывает, как получить доступ к сведениям о задачах Outlook.
 
 ```csharp
 // Путь к каталогу документов.
@@ -157,6 +167,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+Показывает, как получить доступ к сведениям о теге.
 
 ```csharp
 // Путь к каталогу документов.
@@ -189,18 +201,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-Показывает, как сделать заполненными все элементы флажков, связанные с «Проектом C».
-
-Показывает, как открыть все элементы флажков, связанные с «Проектом C».
-
-Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными неполными флажками и созданными за последнюю неделю.
-
-Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
-
-Показывает, как получить доступ к сведениям о задачах Outlook.
-
-Показывает, как получить доступ к деталям тега.
 
 ### Смотрите также
 

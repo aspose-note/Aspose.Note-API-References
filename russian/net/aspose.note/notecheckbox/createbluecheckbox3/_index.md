@@ -20,7 +20,7 @@ public static NoteCheckBox CreateBlueCheckBox3(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteCheckBox`](../../notecheckbox).
+[`NoteCheckBox`](../../notecheckbox) .
 
 ### Смотрите также
 

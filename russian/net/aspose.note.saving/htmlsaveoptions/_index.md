@@ -26,7 +26,7 @@ public class HtmlSaveOptions : SaveOptions
 | --- | --- |
 | [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration) { get; set; } | Получает или задает, будет ли файл таблицы стилей создаваться для каждой новой страницы отдельно. |
 | [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения CSS. |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration) { get; set; } | Получает или задает значение, указывающее, включено ли создание документа постранично. |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration) { get; set; } | Получает или задает значение, указывающее, включено ли создание документа на странице. |
 | [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss) { get; set; } | Получает или задает способ экспорта css. |
 | [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts) { get; set; } | Получает или задает способ экспорта шрифтов. |
 | [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages) { get; set; } | Получает или задает способ экспорта изображений. |
@@ -34,7 +34,7 @@ public class HtmlSaveOptions : SaveOptions
 | [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения шрифта. |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
 | [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения изображения. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчанию этоMaxValue что означает, что будут отображаться все страницы документа. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
 | [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения страницы. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Получает формат, в котором сохранен документ. |
@@ -57,6 +57,8 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
+Показывает, как сохранить документ в поток в формате html с встраиванием всех ресурсов (css/шрифты/изображения).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 var document = new Document(Path.Combine(dataDir, "Aspose.one"));
@@ -72,6 +74,8 @@ var options = new HtmlSaveOptions()
 var r = new MemoryStream();
 document.Save(r, options);
 ```
+
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -99,6 +103,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) с помощью пользовательских обратных вызовов.
 
 ```csharp
 // Код ниже создает папку «documentFolder», содержащую document.html, папку «css» с файлом «style.css», папку «images» с изображениями и папку «fonts» со шрифтами.
@@ -138,12 +144,6 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
     writer.WriteLine("/* This line is appended to stream manually by user */");
 }
 ```
-
-Показывает, как сохранить документ в поток в формате html с вложением всех ресурсов (css/шрифты/изображения).
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) с помощью пользовательских обратных вызовов.
 
 ### Смотрите также
 

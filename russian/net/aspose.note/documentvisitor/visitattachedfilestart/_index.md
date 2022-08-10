@@ -1,14 +1,14 @@
 ---
 title: VisitAttachedFileStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелAttachedFileaspose.note/attachedfile.
+description: Начните посещатьAttachedFileaspose.note/attachedfile узел.
 type: docs
 weight: 20
 url: /ru/net/aspose.note/documentvisitor/visitattachedfilestart/
 ---
 ## DocumentVisitor.VisitAttachedFileStart method
 
-Начните посещать узел[`AttachedFile`](../../attachedfile).
+Начните посещать[`AttachedFile`](../../attachedfile) узел.
 
 ```csharp
 public virtual void VisitAttachedFileStart(AttachedFile attachedFile)
@@ -16,7 +16,7 @@ public virtual void VisitAttachedFileStart(AttachedFile attachedFile)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| attachedFile | AttachedFile | Узел[`AttachedFile`](../../attachedfile). |
+| attachedFile | AttachedFile | [`AttachedFile`](../../attachedfile) узел. |
 
 ### Смотрите также
 

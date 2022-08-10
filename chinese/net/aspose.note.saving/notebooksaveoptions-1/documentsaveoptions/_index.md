@@ -22,7 +22,7 @@ public TDocumentSaveOptions DocumentSaveOptions { get; }
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 文档目录的路径。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -33,7 +33,7 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 

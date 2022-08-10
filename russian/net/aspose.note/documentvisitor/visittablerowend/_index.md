@@ -1,14 +1,14 @@
 ---
 title: VisitTableRowEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаTableRowaspose.note/tablerow.
+description: Конец посещенияTableRowaspose.note/tablerow узел.
 type: docs
 weight: 200
 url: /ru/net/aspose.note/documentvisitor/visittablerowend/
 ---
 ## DocumentVisitor.VisitTableRowEnd method
 
-End для посещения узла[`TableRow`](../../tablerow).
+Конец посещения[`TableRow`](../../tablerow) узел.
 
 ```csharp
 public virtual void VisitTableRowEnd(TableRow tableRow)
@@ -16,7 +16,7 @@ public virtual void VisitTableRowEnd(TableRow tableRow)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tableRow | TableRow | Узел[`TableRow`](../../tablerow). |
+| tableRow | TableRow | [`TableRow`](../../tablerow) узел. |
 
 ### Смотрите также
 

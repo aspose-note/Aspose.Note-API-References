@@ -21,7 +21,7 @@ public static int PointToPixel(float points, float dpi)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: IsHyperlink
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个值该值指示文本样式是否为超链接
+description: 获取或设置文本样式是否为超链接的值
 type: docs
 weight: 80
 url: /zh/net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-获取或设置一个值，该值指示文本样式是否为超链接。
+获取或设置文本样式是否为超链接的值。
 
 ```csharp
 public bool IsHyperlink { get; set; }
@@ -19,10 +19,10 @@ public bool IsHyperlink { get; set; }
 显示如何将超链接绑定到文本。
 
 ```csharp
-// 设置高亮颜色
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 设置高亮颜色
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -56,22 +56,22 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// 文档目录的路径。
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 创建 Document 类的对象
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 添加轮廓元素
+//初始化Page类对象
 Page page = new Note.Page() { Title = title };
 
-// 初始化 Title 类对象
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-//初始化Page类对象
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 添加大纲节点
+// 保存 OneNote 文档
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```

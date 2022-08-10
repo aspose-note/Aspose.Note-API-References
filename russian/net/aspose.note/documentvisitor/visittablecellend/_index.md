@@ -1,14 +1,14 @@
 ---
 title: VisitTableCellEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаTableCellaspose.note/tablecell.
+description: Конец посещенияTableCellaspose.note/tablecell узел.
 type: docs
 weight: 170
 url: /ru/net/aspose.note/documentvisitor/visittablecellend/
 ---
 ## DocumentVisitor.VisitTableCellEnd method
 
-End для посещения узла[`TableCell`](../../tablecell).
+Конец посещения[`TableCell`](../../tablecell) узел.
 
 ```csharp
 public virtual void VisitTableCellEnd(TableCell tableCell)
@@ -16,7 +16,7 @@ public virtual void VisitTableCellEnd(TableCell tableCell)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tableCell | TableCell | Узел[`TableCell`](../../tablecell). |
+| tableCell | TableCell | [`TableCell`](../../tablecell) узел. |
 
 ### Смотрите также
 

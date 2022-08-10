@@ -1,14 +1,14 @@
 ---
 title: IsUnderline
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个值指示文本样式是否为下划线
+description: 获取或设置文本样式是否为下划线的值
 type: docs
 weight: 110
 url: /zh/net/aspose.note/style/isunderline/
 ---
 ## Style.IsUnderline property
 
-获取或设置一个值，指示文本样式是否为下划线。
+获取或设置文本样式是否为下划线的值。
 
 ```csharp
 public bool IsUnderline { get; set; }

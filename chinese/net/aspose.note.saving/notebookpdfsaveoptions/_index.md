@@ -40,10 +40,10 @@ public class NotebookPdfSaveOptions : NotebookSaveOptions<PdfSaveOptions>
 显示如何使用指定选项以 pdf 格式保存笔记本。
 
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 将文档保存为 gif。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -54,7 +54,7 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 

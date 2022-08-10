@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаTableaspose.note/table.
+description: Инициализирует новый экземплярTableaspose.note/table класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/table/table/
 ---
 ## Table constructor
 
-Инициализирует новый экземпляр класса[`Table`](../../table).
+Инициализирует новый экземпляр[`Table`](../../table) класс.
 
 ```csharp
 public Table()

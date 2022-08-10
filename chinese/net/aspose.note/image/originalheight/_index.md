@@ -19,13 +19,13 @@ public float OriginalHeight { get; }
 显示如何获取图像的元信息。
 
 ```csharp
-s 尺寸根据您的需要（可选）。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-页面中的位置（可选）。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 文档目录的路径。
+// 获取所有图像节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)

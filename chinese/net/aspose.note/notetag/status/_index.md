@@ -11,12 +11,12 @@ url: /zh/net/aspose.note/notetag/status/
 获取或设置状态。
 
 ```csharp
-public TagStatus Status { get; set; }
+public TagStatus Status { get; }
 ```
 
 ### 适当的价值
 
-[`TagStatus`](../../tagstatus)。
+的[`TagStatus`](../../tagstatus).
 
 ### 也可以看看
 

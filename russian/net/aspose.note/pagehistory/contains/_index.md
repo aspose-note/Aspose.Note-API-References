@@ -20,7 +20,7 @@ public bool Contains(Page item)
 
 ### Возвращаемое значение
 
-TheBoolean.
+Boolean .
 
 ### Смотрите также
 

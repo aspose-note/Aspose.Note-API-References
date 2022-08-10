@@ -19,14 +19,14 @@ public string HyperlinkUrl { get; set; }
 显示如何将超链接绑定到图像。
 
 ```csharp
-// 设置图像对齐
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images(); 
 
 var document = new Document();
 
 var page = new Page(document);
 
-var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http:// 将图像添加到页面。
+var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
 
 page.AppendChildLast(image);
 

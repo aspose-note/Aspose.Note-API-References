@@ -53,6 +53,8 @@ doc.AppendChildLast(page);
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
 
+Показывает, как добавить новую таблицу с тегом.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -103,6 +105,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать таблицу с заблокированным столбцом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -158,6 +162,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать новую таблицу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -236,12 +242,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как добавить новую таблицу с тегом.
-
-Показывает, как создать таблицу с заблокированным столбцом.
-
-Показывает, как создать новую таблицу.
 
 ### Смотрите также
 

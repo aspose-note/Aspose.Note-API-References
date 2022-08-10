@@ -1,14 +1,14 @@
 ---
 title: Notebook
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаNotebookaspose.note/notebook.
+description: Инициализирует новый экземплярNotebookaspose.note/notebook класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/notebook/notebook/
 ---
 ## Notebook() {#constructor}
 
-Инициализирует новый экземпляр класса[`Notebook`](../../notebook).
+Инициализирует новый экземпляр[`Notebook`](../../notebook) класс.
 
 ```csharp
 public Notebook()
@@ -24,7 +24,7 @@ public Notebook()
 
 ## Notebook(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Notebook`](../../notebook). Открывает существующую записную книжку OneNote из файла.
+Инициализирует новый экземпляр[`Notebook`](../../notebook) class. Открывает существующую записную книжку OneNote из файла.
 
 ```csharp
 public Notebook(string filePath)
@@ -44,7 +44,7 @@ public Notebook(string filePath)
 
 ## Notebook(string, NotebookLoadOptions) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Notebook`](../../notebook). Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры, такие как стратегия загрузки детей («ленивый»/мгновенный).
+Инициализирует новый экземпляр[`Notebook`](../../notebook)class. Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры, такие как стратегия загрузки детей («ленивый»/мгновенный).
 
 ```csharp
 public Notebook(string filePath, NotebookLoadOptions loadOptions)
@@ -66,7 +66,7 @@ public Notebook(string filePath, NotebookLoadOptions loadOptions)
 
 ## Notebook(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Notebook`](../../notebook). Открывает существующую записную книжку OneNote из потока.
+Инициализирует новый экземпляр[`Notebook`](../../notebook) class. Открывает существующую записную книжку OneNote из потока.
 
 ```csharp
 public Notebook(Stream stream)
@@ -86,7 +86,7 @@ public Notebook(Stream stream)
 
 ## Notebook(Stream, NotebookLoadOptions) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Notebook`](../../notebook). Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки.
+Инициализирует новый экземпляр[`Notebook`](../../notebook) class. Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки.
 
 ```csharp
 public Notebook(Stream stream, NotebookLoadOptions loadOptions)

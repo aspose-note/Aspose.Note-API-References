@@ -1,14 +1,14 @@
 ---
 title: NumberList
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаNumberListaspose.note/numberlist. Этот экземпляр представляет собой маркированный список.
+description: Инициализирует новый экземплярNumberListaspose.note/numberlist class. Этот экземпляр представляет собой маркированный список.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/numberlist/numberlist/
 ---
 ## NumberList(string, string, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`NumberList`](../../numberlist). Этот экземпляр представляет собой маркированный список.
+Инициализирует новый экземпляр[`NumberList`](../../numberlist) class. Этот экземпляр представляет собой маркированный список.
 
 ```csharp
 public NumberList(string bulletedSymbol, string font, int fontSize)
@@ -17,7 +17,7 @@ public NumberList(string bulletedSymbol, string font, int fontSize)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | bulletedSymbol | String | Символ, представляющий пулю. |
-| font | String | Шрифт для маркера. |
+| font | String | Шрифт для пули. |
 | fontSize | Int32 | Размер шрифта для маркера. |
 
 ### Смотрите также
@@ -30,7 +30,7 @@ public NumberList(string bulletedSymbol, string font, int fontSize)
 
 ## NumberList(string, NumberFormat, string, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`NumberList`](../../numberlist). Этот экземпляр представляет нумерованный список.
+Инициализирует новый экземпляр[`NumberList`](../../numberlist)class. Этот экземпляр представляет нумерованный список.
 
 ```csharp
 public NumberList(string format, NumberFormat numberFormat, string font, int fontSize)
@@ -40,7 +40,7 @@ public NumberList(string format, NumberFormat numberFormat, string font, int fon
 | --- | --- | --- |
 | format | String | Формат нумерованного заголовка. |
 | numberFormat | NumberFormat | Формат числа в заголовке. |
-| font | String | Шрифт для пронумерованного заголовка. |
+| font | String | Шрифт для нумерованного заголовка. |
 | fontSize | Int32 | Размер шрифта для пронумерованного заголовка. |
 
 ### Смотрите также

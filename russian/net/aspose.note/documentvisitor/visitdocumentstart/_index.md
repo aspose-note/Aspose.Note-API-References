@@ -1,14 +1,14 @@
 ---
 title: VisitDocumentStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелDocumentaspose.note/document.
+description: Начните посещатьDocumentaspose.note/document узел.
 type: docs
 weight: 40
 url: /ru/net/aspose.note/documentvisitor/visitdocumentstart/
 ---
 ## DocumentVisitor.VisitDocumentStart method
 
-Начните посещать узел[`Document`](../../document).
+Начните посещать[`Document`](../../document) узел.
 
 ```csharp
 public virtual void VisitDocumentStart(Document document)
@@ -16,7 +16,7 @@ public virtual void VisitDocumentStart(Document document)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | Document | Узел[`Document`](../../document). |
+| document | Document | [`Document`](../../document) узел. |
 
 ### Смотрите также
 

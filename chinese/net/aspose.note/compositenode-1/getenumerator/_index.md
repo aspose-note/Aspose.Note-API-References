@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API 参考
-description: 返回一个遍历CompositeNodeaspose.note/compositenode-1的子节点的枚举器
+description: 返回一个遍历子节点的枚举器CompositeNodeaspose.note/compositenode-1.
 type: docs
 weight: 80
 url: /zh/net/aspose.note/compositenode-1/getenumerator/
 ---
 ## CompositeNode&lt;T&gt;.GetEnumerator method
 
-返回一个遍历[`CompositeNode`](../../compositenode-1)的子节点的枚举器。
+返回一个遍历子节点的枚举器[`CompositeNode`](../../compositenode-1).
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<T> GetEnumerator()
 
 ### 返回值
 
-AIEnumerator用于[`CompositeNode`](../../compositenode-1)。
+一个IEnumerator为了[`CompositeNode`](../../compositenode-1).
 
 ### 也可以看看
 

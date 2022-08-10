@@ -1,14 +1,14 @@
 ---
 title: VisitTableCellEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问TableCellaspose.note/tablecell节点
+description: 结束访问TableCellaspose.note/tablecell节点.
 type: docs
 weight: 170
 url: /zh/net/aspose.note/documentvisitor/visittablecellend/
 ---
 ## DocumentVisitor.VisitTableCellEnd method
 
-结束访问[`TableCell`](../../tablecell)节点。
+结束访问[`TableCell`](../../tablecell)节点.
 
 ```csharp
 public virtual void VisitTableCellEnd(TableCell tableCell)
@@ -16,7 +16,7 @@ public virtual void VisitTableCellEnd(TableCell tableCell)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tableCell | TableCell | [`TableCell`](../../tablecell)节点。 |
+| tableCell | TableCell | 的[`TableCell`](../../tablecell)节点. |
 
 ### 也可以看看
 

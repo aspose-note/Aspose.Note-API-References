@@ -17,22 +17,22 @@ public abstract class NotebookSaveOptions<TDocumentSaveOptions> : NotebookSaveOp
 
 | Параметр | Описание |
 | --- | --- |
-| TDocumentSaveOptions | Параметры сохранения для всех дочерних документов блокнота. |
+| TDocumentSaveOptions | Параметры сохранения для всех дочерних документов записной книжки. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, должны ли дочерние документы сохраняться явно. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, следует ли сохранять дочерние документы явно. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/documentsaveoptions) { get; } | Получает или задает параметры сохранения для всех дочерних документов записной книжки. |
 | [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten) { get; set; } | Получает или задает значение, указывающее, сохраняется ли иерархия дочерних элементов записной книжки в свернутом виде. |
-| override [SaveFormat](../../aspose.note.saving/notebooksaveoptions`1/saveformat) { get; } | Получает формат, в котором сохранен блокнот. |
+| override [SaveFormat](../../aspose.note.saving/notebooksaveoptions`1/saveformat) { get; } | Получает формат, в котором сохранена записная книжка. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/getdocumentsaveoptions)() | Получает параметры сохранения для всех дочерних документов блокнота. |
+| override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/getdocumentsaveoptions)() | Получает параметры сохранения для всех дочерних документов записной книжки. |
 
 ### Примеры
 

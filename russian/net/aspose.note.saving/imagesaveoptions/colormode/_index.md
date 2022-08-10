@@ -1,14 +1,14 @@
 ---
 title: ColorMode
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или устанавливаетColorModeaspose.note.saving/imagesaveoptions/colormodeдля выходного изображения.
+description: Получает или устанавливаетColorModeaspose.note.saving/imagesaveoptions/colormode для выходного изображения.
 type: docs
 weight: 30
 url: /ru/net/aspose.note.saving/imagesaveoptions/colormode/
 ---
 ## ImageSaveOptions.ColorMode property
 
-Получает или устанавливает`ColorMode`для выходного изображения.
+Получает или устанавливает`ColorMode` для выходного изображения.
 
 ```csharp
 public ColorMode ColorMode { get; set; }
@@ -34,6 +34,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
+Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -50,6 +52,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.Ccitt3
                       });
 ```
+
+Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -71,6 +75,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -91,12 +97,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
-
-Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BinarizationMethod
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置二值化方法 默认值为FixedThreshold
+description: 获取或设置二值化方法 默认值为FixedThreshold.
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/imagebinarizationoptions/binarizationmethod/
 ---
 ## ImageBinarizationOptions.BinarizationMethod property
 
-获取或设置二值化方法。 默认值为FixedThreshold。
+获取或设置二值化方法。 默认值为FixedThreshold.
 
 ```csharp
 public BinarizationMethod BinarizationMethod { get; set; }
@@ -38,6 +38,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+展示如何使用固定阈值将文档保存为二进制图像。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -58,8 +60,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-显示如何使用固定阈值将文档保存为二进制图像。
 
 ### 也可以看看
 

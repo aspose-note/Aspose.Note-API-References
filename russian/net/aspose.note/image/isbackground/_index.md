@@ -1,14 +1,14 @@
 ---
 title: IsBackground
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает является ли изображение фоновым.
+description: Получает является ли изображение фоновым изображением.
 type: docs
 weight: 120
 url: /ru/net/aspose.note/image/isbackground/
 ---
 ## Image.IsBackground property
 
-Получает, является ли изображение фоновым.
+Получает, является ли изображение фоновым изображением.
 
 ```csharp
 public bool IsBackground { get; set; }

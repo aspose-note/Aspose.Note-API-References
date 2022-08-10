@@ -21,7 +21,7 @@ public class ImageSavingArgs : ResourceSavingArgs
 | [Document](../../aspose.note.saving.html/resourcesavingargs/document) { get; } | 获取保存文档。 |
 | [FileName](../../aspose.note.saving.html/resourcesavingargs/filename) { get; } | 获取文件名。 |
 | [ImageType](../../aspose.note.saving.html/imagesavingargs/imagetype) { get; } | 获取要保存的图像类型。 |
-| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | 获取或设置一个指示是否保持流打开的值。 |
+| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | 获取或设置是否保持流打开的值。 |
 | [Stream](../../aspose.note.saving.html/resourcesavingargs/stream) { get; set; } | 获取或设置用于存储资源的流。 |
 | [Uri](../../aspose.note.saving.html/resourcesavingargs/uri) { get; set; } | 获取或设置访问存储资源的 uri。 |
 

@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置高度这是 MS OneNote 文档中图像的实际高度
+description: 获取或设置高度这是MS OneNote文档中图片的真实高度
 type: docs
 weight: 90
 url: /zh/net/aspose.note/image/height/
 ---
 ## Image.Height property
 
-获取或设置高度。这是 MS OneNote 文档中图像的实际高度。
+获取或设置高度。这是MS OneNote文档中图片的真实高度。
 
 ```csharp
 public float Height { get; set; }
@@ -40,36 +40,36 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
+演示如何将图像从文件添加到具有用户定义属性的文档。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 将文档加载到 Aspose.Note。
+// 从流中加载文档。
 Document doc = new Document(dataDir + "Aspose.one");
 
-// 获取所有图像节点
+// 获取文档的第一页。
 Aspose.Note.Page page = doc.FirstChild;
 
-// 文档目录的路径。
+// 从文件中加载图像。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // 从流中加载文档。
+                              // 根据您的需要更改图像的大小（可选）。
                               Width = 100,
                               Height = 100,
 
-                              // 获取文档的第一页。
+                              // 设置图片在页面中的位置（可选）。
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // 从文件中加载图像。
+                              // 设置图像对齐
                               Alignment = HorizontalAlignment.Right
                           };
 
-// 根据您的需要更改图像的大小（可选）。
+// 将图像添加到页面。
 page.AppendChildLast(image);
 ```
-
-显示如何将图像从文件添加到具有用户定义属性的文档。
 
 ### 也可以看看
 

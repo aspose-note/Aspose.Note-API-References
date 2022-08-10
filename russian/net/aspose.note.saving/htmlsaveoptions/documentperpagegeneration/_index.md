@@ -1,14 +1,14 @@
 ---
 title: DocumentPerPageGeneration
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает значение указывающее включено ли создание документа постранично.
+description: Получает или задает значение указывающее включено ли создание документа на странице.
 type: docs
 weight: 40
 url: /ru/net/aspose.note.saving/htmlsaveoptions/documentperpagegeneration/
 ---
 ## HtmlSaveOptions.DocumentPerPageGeneration property
 
-Получает или задает значение, указывающее, включено ли создание документа постранично.
+Получает или задает значение, указывающее, включено ли создание документа на странице.
 
 ```csharp
 public bool DocumentPerPageGeneration { get; set; }

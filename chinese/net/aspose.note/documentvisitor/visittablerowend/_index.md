@@ -1,14 +1,14 @@
 ---
 title: VisitTableRowEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问TableRowaspose.note/tablerow节点
+description: 结束访问TableRowaspose.note/tablerow节点.
 type: docs
 weight: 200
 url: /zh/net/aspose.note/documentvisitor/visittablerowend/
 ---
 ## DocumentVisitor.VisitTableRowEnd method
 
-结束访问[`TableRow`](../../tablerow)节点。
+结束访问[`TableRow`](../../tablerow)节点.
 
 ```csharp
 public virtual void VisitTableRowEnd(TableRow tableRow)
@@ -16,7 +16,7 @@ public virtual void VisitTableRowEnd(TableRow tableRow)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tableRow | TableRow | [`TableRow`](../../tablerow)节点。 |
+| tableRow | TableRow | 的[`TableRow`](../../tablerow)节点. |
 
 ### 也可以看看
 

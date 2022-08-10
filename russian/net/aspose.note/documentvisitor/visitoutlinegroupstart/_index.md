@@ -1,14 +1,14 @@
 ---
 title: VisitOutlineGroupStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелOutlineGroupaspose.note/outlinegroup.
+description: Начните посещатьOutlineGroupaspose.note/outlinegroup узел.
 type: docs
 weight: 110
 url: /ru/net/aspose.note/documentvisitor/visitoutlinegroupstart/
 ---
 ## DocumentVisitor.VisitOutlineGroupStart method
 
-Начните посещать узел[`OutlineGroup`](../../outlinegroup).
+Начните посещать[`OutlineGroup`](../../outlinegroup) узел.
 
 ```csharp
 public virtual void VisitOutlineGroupStart(OutlineGroup outlineGroup)
@@ -16,7 +16,7 @@ public virtual void VisitOutlineGroupStart(OutlineGroup outlineGroup)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| outlineGroup | OutlineGroup | Узел[`OutlineGroup`](../../outlinegroup). |
+| outlineGroup | OutlineGroup | [`OutlineGroup`](../../outlinegroup) узел. |
 
 ### Смотрите также
 

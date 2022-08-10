@@ -20,7 +20,7 @@ public RichText TrimEnd(params char[] trimChars)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -40,11 +40,11 @@ public RichText TrimEnd(char trimChar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| trimChar | Char | Символ обрезки. |
+| trimChar | Char | Обрезка char. |
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -56,7 +56,7 @@ The[`RichText`](../../richtext).
 
 ## TrimEnd() {#trimend}
 
-Удаляет все конечные пробельные символы.
+Удаляет все завершающие пробельные символы.
 
 ```csharp
 public RichText TrimEnd()
@@ -64,7 +64,7 @@ public RichText TrimEnd()
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 

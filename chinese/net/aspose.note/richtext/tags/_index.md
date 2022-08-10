@@ -1,14 +1,14 @@
 ---
 title: Tags
 second_title: Aspose.Note for .NET API 参考
-description: 获取段落所有标签的列表
+description: 获取段落的所有标签列表
 type: docs
 weight: 90
 url: /zh/net/aspose.note/richtext/tags/
 ---
 ## RichText.Tags property
 
-获取段落所有标签的列表。
+获取段落的所有标签列表。
 
 ```csharp
 public List<ITag> Tags { get; }
@@ -19,16 +19,16 @@ public List<ITag> Tags { get; }
 显示如何访问 Outlook 任务的详细信息。
 
 ```csharp
-// 添加页面节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 保存 OneNote 文档
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 创建 Document 类的对象
+// 获取所有富文本节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//初始化Page类对象
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -37,7 +37,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Task: {richText.Text}");
         foreach (var noteTask in tasks)
         {
-            // 初始化大纲类对象
+            // 获取属性
             Console.WriteLine($"    Completed Time: {noteTask.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTask.CreationTime}");
             Console.WriteLine($"    Due Date: {noteTask.DueDate}");

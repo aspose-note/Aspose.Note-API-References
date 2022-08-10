@@ -20,7 +20,7 @@ public int IndexOf(Page item)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 

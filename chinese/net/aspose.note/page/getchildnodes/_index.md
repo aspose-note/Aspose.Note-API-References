@@ -17,7 +17,7 @@ public override List<T1> GetChildNodes<T1>()
 
 | 范围 | 描述 |
 | --- | --- |
-| T1 | 返回列表中的元素类型。 |
+| T1 | 返回列表中元素的类型。 |
 
 ### 返回值
 
@@ -31,62 +31,68 @@ public override List<T1> GetChildNodes<T1>()
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 加载 OneNote 文档
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取第一页
+// 获取文本
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-// 文档目录的路径。
+// 在输出屏幕上打印文本
 Console.WriteLine(text);
 ```
+
+显示如何从页面中获取所有文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 加载 OneNote 文档
+// 获取页面节点列表
 var page = oneFile.GetChildNodes<Page>().FirstOrDefault();
 
 if (page != null)
 {
-    // 获取第一页
+    // 获取文本
     string text = string.Join(Environment.NewLine, page.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
-    // 文档目录的路径。
+    // 在输出屏幕上打印文本
     Console.WriteLine(text);
 }
 ```
 
+显示如何通过所有页面并在文本中进行替换。
+
 ```csharp
-// 创建 Document 类的对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("Some task here", "New Text Here");
 
-// 初始化 Page 类对象并设置它的层级
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 初始化 Page 类对象并设置它的层级
+// 获取所有富文本节点
 IList<RichText> textNodes = oneFile.GetChildNodes<RichText>();
 
 foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // 初始化 Page 类对象并设置它的层级
+        // 替换形状的文本
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
-// 保存 OneNote 文档
+// 保存为任何支持的文件格式
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
+
+显示如何通过页面的文本并进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -100,28 +106,22 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 IList<Page> pageNodes = oneFile.GetChildNodes<Page>();
 
-// 文档目录的路径。
+// 获取所有富文本节点
 IList<RichText> textNodes = pageNodes[0].GetChildNodes<RichText>();
 
 foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // 加载 OneNote 文档
+        // 替换形状的文本
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
 
-// 获取第一页
+// 保存为任何支持的文件格式
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
-
-显示如何从页面获取所有文本。
-
-显示如何通过所有页面并在文本中进行替换。
-
-显示如何通过页面文本并进行替换。
 
 ### 也可以看看
 

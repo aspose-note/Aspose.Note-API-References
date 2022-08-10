@@ -16,7 +16,7 @@ public FontFaceType FontFaceTypes { get; set; }
 
 ### Стоимость имущества
 
-Типы шрифта.
+Типы начертания шрифта.
 
 ### Примеры
 
@@ -36,6 +36,8 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
+Показывает, как сохранить документ в поток в формате html с встраиванием всех ресурсов (css/шрифты/изображения).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 var document = new Document(Path.Combine(dataDir, "Aspose.one"));
@@ -51,6 +53,8 @@ var options = new HtmlSaveOptions()
 var r = new MemoryStream();
 document.Save(r, options);
 ```
+
+Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) с помощью пользовательских обратных вызовов.
 
 ```csharp
 // Код ниже создает папку «documentFolder», содержащую document.html, папку «css» с файлом «style.css», папку «images» с изображениями и папку «fonts» со шрифтами.
@@ -90,10 +94,6 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
     writer.WriteLine("/* This line is appended to stream manually by user */");
 }
 ```
-
-Показывает, как сохранить документ в поток в формате html с вложением всех ресурсов (css/шрифты/изображения).
-
-Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) с помощью пользовательских обратных вызовов.
 
 ### Смотрите также
 

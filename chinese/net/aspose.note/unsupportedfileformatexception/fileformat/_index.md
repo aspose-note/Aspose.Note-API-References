@@ -16,7 +16,7 @@ public FileFormat FileFormat { get; }
 
 ### 例子
 
-显示如何检查文档加载是否因为不支持 OneNote 2007 格式而失败。
+说明如何检查文档加载是否因为不支持 OneNote 2007 格式而失败。
 
 ```csharp
 // 文档目录的路径。

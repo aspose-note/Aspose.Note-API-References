@@ -16,14 +16,14 @@ public float Resolution { get; set; }
 
 ### 评论
 
-默认值为 96。
+默认值为 96.
 
 ### 例子
 
 显示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ```csharp
-// 或者
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 var document = new Aspose.Note.Document(dataDir + "Aspose.one");

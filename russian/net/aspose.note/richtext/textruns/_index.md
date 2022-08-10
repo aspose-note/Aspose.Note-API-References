@@ -1,14 +1,14 @@
 ---
 title: TextRuns
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает коллекцию текстов.
+description: Получает коллекцию текстовых прогонов.
 type: docs
 weight: 110
 url: /ru/net/aspose.note/richtext/textruns/
 ---
 ## RichText.TextRuns property
 
-Получает коллекцию текстов.
+Получает коллекцию текстовых прогонов.
 
 ```csharp
 public IEnumerable<TextRun> TextRuns { get; }

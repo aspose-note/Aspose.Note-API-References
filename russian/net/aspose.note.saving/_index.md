@@ -1,12 +1,12 @@
 ---
 title: Aspose.Note.Saving
 second_title: Справочник по API Aspose.Note для .NET
-description: Пространство именSavingсодержит классы выполняющие сохранение в различные форматы.
+description: Saving пространство имен содержит классы которые выполняют сохранение в разные форматы.
 type: docs
 weight: 40
 url: /ru/net/aspose.note.saving/
 ---
-Пространство именSavingсодержит классы, выполняющие сохранение в различные форматы.
+Saving пространство имен содержит классы, которые выполняют сохранение в разные форматы.
 
 ## Классы
 
@@ -14,14 +14,14 @@ url: /ru/net/aspose.note.saving/
 | --- | --- |
 | [AlwaysSplitObjectsAlgorithm](./alwayssplitobjectsalgorithm) | Разбивает объект на несколько частей, если он не помещается на исходной странице. |
 | [HtmlSaveOptions](./htmlsaveoptions) | Позволяет указать дополнительные параметры при сохранении документа в формате HTML. |
-| [ImageBinarizationOptions](./imagebinarizationoptions) | Варианты бинаризации изображения. |
+| [ImageBinarizationOptions](./imagebinarizationoptions) | Параметры бинаризации изображения. |
 | [ImageSaveOptions](./imagesaveoptions) | Позволяет указать дополнительные параметры при преобразовании страниц документа в изображения. |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](./keeppartandclonesolidobjecttonextpagealgorithm) | Добавляет верхнюю часть объекта к нижней части страницы и клонирует весь объект на следующую страницу, если он не помещается на исходной странице. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](./keeppartandclonesolidobjecttonextpagealgorithm) | Добавляет верхнюю часть объекта в нижнюю часть страницы и полностью клонирует объект на следующую страницу, если он не помещается на исходной странице. |
 | [KeepSolidObjectsAlgorithm](./keepsolidobjectsalgorithm) | Смещает весь объект на следующую страницу, если он не помещается на исходной странице. |
 | [NotebookHtmlSaveOptions](./notebookhtmlsaveoptions) | Позволяет указать дополнительные параметры при сохранении блокнота в формате HTML. |
-| [NotebookImageSaveOptions](./notebookimagesaveoptions) | Позволяет указать дополнительные параметры при рендеринге страниц блокнота в изображения. |
+| [NotebookImageSaveOptions](./notebookimagesaveoptions) | Позволяет указать дополнительные параметры при преобразовании страниц блокнота в изображения. |
 | [NotebookOneSaveOptions](./notebookonesaveoptions) | Позволяет указать дополнительные параметры при сохранении блокнота в формате OneNote. |
-| [NotebookPdfSaveOptions](./notebookpdfsaveoptions) | Позволяет указать дополнительные параметры при рендеринге страниц блокнота в PDF. |
+| [NotebookPdfSaveOptions](./notebookpdfsaveoptions) | Позволяет указать дополнительные параметры при рендеринге страниц записной книжки в PDF. |
 | [NotebookSaveOptions](./notebooksaveoptions) | Абстрактный базовый класс, представляющий параметры сохранения записной книжки для определенного формата. |
 | [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](./notebooksaveoptions-1) | Абстрактный базовый класс, который представляет параметры сохранения записной книжки для определенного формата и предоставляет общие параметры сохранения для всех дочерних узлов документа. |
 | [OneSaveOptions](./onesaveoptions) | Позволяет указать дополнительные параметры при сохранении документа в формате OneNote. |

@@ -18,11 +18,11 @@ public static class DisplayUnitsConverter
 
 | Имя | Описание |
 | --- | --- |
-| static [InchToPoint](../../aspose.note/displayunitsconverter/inchtopoint)(float) | Преобразует дюймы в точки. |
+| static [InchToPoint](../../aspose.note/displayunitsconverter/inchtopoint)(float) | Преобразует дюймы в пункты. |
 | static [MillimeterToInch](../../aspose.note/displayunitsconverter/millimetertoinch)(float) | Преобразует миллиметры в дюймы. |
 | static [MillimeterToPoint](../../aspose.note/displayunitsconverter/millimetertopoint)(float) | Преобразует миллиметры в точки. |
 | static [PixelToPoint](../../aspose.note/displayunitsconverter/pixeltopoint)(int, float) | Преобразует пиксели в точки с указанным разрешением в пикселях. |
-| static [PointToInch](../../aspose.note/displayunitsconverter/pointtoinch)(float) | Преобразует точки в дюймы. |
+| static [PointToInch](../../aspose.note/displayunitsconverter/pointtoinch)(float) | Преобразует пункты в дюймы. |
 | static [PointToPixel](../../aspose.note/displayunitsconverter/pointtopixel)(float, float) | Преобразует точки в пиксели с указанным разрешением в пикселях. |
 
 ### Смотрите также

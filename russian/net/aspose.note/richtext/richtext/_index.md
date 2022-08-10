@@ -1,14 +1,14 @@
 ---
 title: RichText
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаRichTextaspose.note/richtext.
+description: Инициализирует новый экземплярRichTextaspose.note/richtext класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/richtext/richtext/
 ---
 ## RichText constructor
 
-Инициализирует новый экземпляр класса[`RichText`](../../richtext).
+Инициализирует новый экземпляр[`RichText`](../../richtext) класс.
 
 ```csharp
 public RichText()

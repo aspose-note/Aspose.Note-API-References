@@ -1,14 +1,14 @@
 ---
 title: IOutlineChildNode
 second_title: Справочник по API Aspose.Note для .NET
-description: Интерфейс для всех дочерних узлов узла структуры.
+description: Интерфейс для всех дочерних узлов узла схемы.
 type: docs
 weight: 190
 url: /ru/net/aspose.note/ioutlinechildnode/
 ---
 ## IOutlineChildNode interface
 
-Интерфейс для всех дочерних узлов узла структуры.
+Интерфейс для всех дочерних узлов узла схемы.
 
 ```csharp
 public interface IOutlineChildNode : INode

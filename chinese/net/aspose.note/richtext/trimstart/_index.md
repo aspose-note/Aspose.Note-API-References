@@ -20,7 +20,7 @@ public RichText TrimStart(params char[] trimChars)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public RichText TrimStart(char trimChar)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public RichText TrimStart()
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 

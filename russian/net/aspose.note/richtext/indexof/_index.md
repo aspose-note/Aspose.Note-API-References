@@ -23,7 +23,7 @@ public int IndexOf(string value, int startIndex, int count, StringComparison com
 
 ### Возвращаемое значение
 
-Int32.
+Int32 .
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public int IndexOf(string value, int startIndex, StringComparison comparisonType
 
 ### Возвращаемое значение
 
-Int32.
+Int32 .
 
 ### Смотрите также
 
@@ -61,7 +61,7 @@ Int32.
 
 ## IndexOf(char, int, int) {#indexof_2}
 
-Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа в этом экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов.
+Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа в данном экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов.
 
 ```csharp
 public int IndexOf(char value, int startIndex, int count)
@@ -75,7 +75,7 @@ public int IndexOf(char value, int startIndex, int count)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 
@@ -100,7 +100,7 @@ public int IndexOf(string value, StringComparison comparisonType)
 
 ### Возвращаемое значение
 
-Int32.
+Int32 .
 
 ### Смотрите также
 
@@ -126,7 +126,7 @@ public int IndexOf(string value, int startIndex, int count)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 
@@ -151,7 +151,7 @@ public int IndexOf(char value, int startIndex)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 
@@ -175,7 +175,7 @@ public int IndexOf(string value)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 
@@ -199,7 +199,7 @@ public int IndexOf(char value)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 
@@ -224,7 +224,7 @@ public int IndexOf(string value, int startIndex)
 
 ### Возвращаемое значение
 
-TheInt32.
+Int32 .
 
 ### Смотрите также
 

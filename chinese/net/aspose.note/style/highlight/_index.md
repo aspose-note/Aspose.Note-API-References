@@ -21,24 +21,26 @@ public Color Highlight { get; set; }
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 保存 OneNote 文档
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-// 表格前的摘要文本
+// 获取特定的 RichText 节点
 RichText richText = document.GetChildNodes<RichText>().First();
 
 foreach (var run in richText.TextRuns)
 {
-    // 让我们添加一组列和一个标题行
+    // 设置字体颜色
     run.Style.FontColor = Color.Yellow;
 
-    // 让我们 5 个空行。行具有互换的背景颜色
+    // 设置高亮颜色
     run.Style.Highlight = Color.Blue;
 
-    // 让我们为“联系人”列中的内容添加一些模板
+    // 设置字体大小
     run.Style.FontSize = 20;
 }
 ```
+
+展示了如何编写具有各种样式的文本的表格。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -50,7 +52,7 @@ var page = new Page();
 var outline = page.AppendChildLast(new Outline() { HorizontalOffset = 50 });
 outline.AppendChildLast(new OutlineElement()).AppendChildLast(headerText);
 
-添加一组列和一个标题行
+// 表格前的摘要文本
 var bodyTextHeader = outline.AppendChildLast(new OutlineElement()).AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default });
 bodyTextHeader.Append("This is the final ranking of proposals got from our suppliers.");
 
@@ -60,7 +62,7 @@ var headerRow = ranking.AppendChildFirst(new TableRow());
 var headerStyle = ParagraphStyle.Default;
 headerStyle.IsBold = true;
 
-5 个空行。行具有互换的背景颜色
+// 让我们添加一组列和一个标题行
 var backGroundColor = Color.LightGray;
 foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Score C", "Final score", "Attached materials", "Comments" })
 {
@@ -71,7 +73,7 @@ foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Sc
                 .Append(header);
 }
 
-// 将文档加载到 Aspose.Note。
+// 让我们 5 个空行。行具有互换的背景颜色
 for (int i = 0; i < 5; i++)
 {
     backGroundColor = backGroundColor.IsEmpty ? Color.LightGray : Color.Empty;
@@ -85,7 +87,7 @@ for (int i = 0; i < 5; i++)
     }
 }
 
-// 获取特定的 RichText 节点
+// 让我们为“联系人”列中的内容添加一些模板
 foreach (var row in ranking.Skip(1))
 {
     var contactsCell = row.ElementAt(1);
@@ -101,8 +103,6 @@ var d = new Document();
 d.AppendChildLast(page);
 d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 ```
-
-展示了如何组合具有各种样式的文本的表格。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MergeOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Варианты объединения набора страниц.
+description: Варианты объединения коллекции страниц.
 type: docs
 weight: 320
 url: /ru/net/aspose.note/mergeoptions/
 ---
 ## MergeOptions class
 
-Варианты объединения набора страниц.
+Варианты объединения коллекции страниц.
 
 ```csharp
 public class MergeOptions
@@ -31,7 +31,7 @@ public class MergeOptions
 
 ### Примеры
 
-Показывает, как импортировать все страницы из документа PDF, группируя каждые 5 страниц, в одну страницу OneNote.
+Показывает, как импортировать все страницы из документа PDF, группирующего каждые 5 страниц, в одну страницу OneNote.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -50,6 +50,8 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
+Показывает, как импортировать все страницы из набора документов PDF при вставке страниц из каждого документа PDF в качестве дочерних элементов страницы OneNote верхнего уровня.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
 
@@ -63,6 +65,8 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
+
+Показывает, как импортировать все содержимое из набора документов PDF при объединении страниц из каждого документа PDF в одну страницу OneNote.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -78,10 +82,6 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
-
-Показывает, как импортировать все страницы из набора документов PDF при вставке страниц из каждого документа PDF в качестве дочерних элементов страницы OneNote верхнего уровня.
-
-Показывает, как импортировать все содержимое из набора документов PDF при объединении страниц из каждого документа PDF в одну страницу OneNote.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor
 second_title: Aspose.Note for .NET API 参考
-description: 用于在指定节点处以根为根的子树迭代的抽象类
+description: 以指定节点为根的子树迭代的抽象类
 type: docs
 weight: 70
 url: /zh/net/aspose.note/documentvisitor/
 ---
 ## DocumentVisitor class
 
-用于在指定节点处以根为根的子树迭代的抽象类。
+以指定节点为根的子树迭代的抽象类。
 
 ```csharp
 public abstract class DocumentVisitor
@@ -18,34 +18,34 @@ public abstract class DocumentVisitor
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | 结束访问[`AttachedFile`](../attachedfile)节点。 |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | 开始访问[`AttachedFile`](../attachedfile)节点。 |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | 结束访问[`Document`](../document)节点。 |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | 开始访问[`Document`](../document)节点。 |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | 结束访问[`Image`](../image)节点。 |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | 开始访问[`Image`](../image)节点。 |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | 结束访问[`OutlineElement`](../outlineelement)节点。 |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | 开始访问[`OutlineElement`](../outlineelement)节点。 |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | 结束访问[`Outline`](../outline)节点。 |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | 结束访问[`OutlineGroup`](../outlinegroup)节点。 |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | 开始访问[`OutlineGroup`](../outlinegroup)节点。 |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | 开始访问[`Outline`](../outline)节点。 |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | 结束访问[`Page`](../page)节点。 |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | 开始访问[`Page`](../page)节点。 |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | 结束访问[`RichText`](../richtext)节点。 |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | 开始访问[`RichText`](../richtext)节点。 |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | 结束访问[`TableCell`](../tablecell)节点。 |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | 开始访问[`TableCell`](../tablecell)节点。 |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | 结束访问[`Table`](../table)节点。 |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | 结束访问[`TableRow`](../tablerow)节点。 |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | 开始访问[`TableRow`](../tablerow)节点。 |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | 开始访问[`Table`](../table)节点。 |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | 结束访问[`Title`](../title)节点。 |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | 开始访问[`Title`](../title)节点。 |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | 结束访问[`AttachedFile`](../attachedfile)节点. |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | 开始访问[`AttachedFile`](../attachedfile)节点. |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | 结束访问[`Document`](../document)节点. |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | 开始访问[`Document`](../document)节点. |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | 结束访问[`Image`](../image)节点. |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | 开始访问[`Image`](../image)节点. |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | 结束访问[`OutlineElement`](../outlineelement)节点. |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | 开始访问[`OutlineElement`](../outlineelement)节点. |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | 结束访问[`Outline`](../outline)节点. |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | 结束访问[`OutlineGroup`](../outlinegroup)节点. |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | 开始访问[`OutlineGroup`](../outlinegroup)节点. |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | 开始访问[`Outline`](../outline)节点. |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | 结束访问[`Page`](../page)节点. |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | 开始访问[`Page`](../page)节点. |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | 结束访问[`RichText`](../richtext)节点. |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | 开始访问[`RichText`](../richtext)节点. |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | 结束访问[`TableCell`](../tablecell)节点. |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | 开始访问[`TableCell`](../tablecell)节点. |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | 结束访问[`Table`](../table)节点. |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | 结束访问[`TableRow`](../tablerow)节点. |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | 开始访问[`TableRow`](../tablerow)节点. |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | 开始访问[`Table`](../table)节点. |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | 结束访问[`Title`](../title)节点. |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | 开始访问[`Title`](../title)节点. |
 
 ### 例子
 
-显示如何使用访问者访问文档的内容。
+展示如何使用访问者访问文档的内容。
 
 ```csharp
 public static void Run()

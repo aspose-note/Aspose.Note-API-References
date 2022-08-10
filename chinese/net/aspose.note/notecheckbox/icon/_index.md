@@ -11,12 +11,12 @@ url: /zh/net/aspose.note/notecheckbox/icon/
 获取或设置图标。
 
 ```csharp
-public override TagIcon Icon { get; set; }
+public override TagIcon Icon { get; }
 ```
 
 ### 适当的价值
 
-[`TagIcon`](../../tagicon)。
+的[`TagIcon`](../../tagicon).
 
 ### 也可以看看
 

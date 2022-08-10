@@ -1,14 +1,14 @@
 ---
 title: KeepSolidObjectsAlgorithm
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаKeepSolidObjectsAlgorithmaspose.note.saving/keepsolidobjectsalgorithm используя предел высоты клонированной части по умолчанию.
+description: Инициализирует новый экземплярKeepSolidObjectsAlgorithmaspose.note.saving/keepsolidobjectsalgorithm класс использующий предел высоты клонированной части по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.note.saving/keepsolidobjectsalgorithm/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm() {#constructor}
 
-Инициализирует новый экземпляр класса[`KeepSolidObjectsAlgorithm`](../../keepsolidobjectsalgorithm), используя предел высоты клонированной части по умолчанию.
+Инициализирует новый экземпляр[`KeepSolidObjectsAlgorithm`](../../keepsolidobjectsalgorithm) класс, использующий предел высоты клонированной части по умолчанию.
 
 ```csharp
 public KeepSolidObjectsAlgorithm()
@@ -24,7 +24,7 @@ public KeepSolidObjectsAlgorithm()
 
 ## KeepSolidObjectsAlgorithm(float) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`KeepSolidObjectsAlgorithm`](../../keepsolidobjectsalgorithm)с использованием определенного ограничения высоты клонированной части.
+Инициализирует новый экземпляр[`KeepSolidObjectsAlgorithm`](../../keepsolidobjectsalgorithm) класс, использующий определенный предел высоты клонированной части.
 
 ```csharp
 public KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)

@@ -1,14 +1,14 @@
 ---
 title: DocumentPassword
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置用于加密文档内容的密码
+description: 获取或设置密码以加密文档内容
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/onesaveoptions/documentpassword/
 ---
 ## OneSaveOptions.DocumentPassword property
 
-获取或设置用于加密文档内容的密码。
+获取或设置密码以加密文档内容。
 
 ```csharp
 public string DocumentPassword { get; set; }
@@ -19,7 +19,7 @@ public string DocumentPassword { get; set; }
 显示如何使用加密保存文档。
 
 ```csharp
-// 保存笔记本
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 Document document = new Document();

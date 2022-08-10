@@ -1,14 +1,14 @@
 ---
 title: IsSuperscript
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个值指示文本样式是否为上标
+description: 获取或设置文本样式是否为上标的值
 type: docs
 weight: 100
 url: /zh/net/aspose.note/style/issuperscript/
 ---
 ## Style.IsSuperscript property
 
-获取或设置一个值，指示文本样式是否为上标。
+获取或设置文本样式是否为上标的值。
 
 ```csharp
 public bool IsSuperscript { get; set; }

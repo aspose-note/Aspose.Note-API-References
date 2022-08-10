@@ -1,14 +1,14 @@
 ---
 title: VisitImageEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问Imageaspose.note/image节点
+description: 结束访问Imageaspose.note/image节点.
 type: docs
 weight: 50
 url: /zh/net/aspose.note/documentvisitor/visitimageend/
 ---
 ## DocumentVisitor.VisitImageEnd method
 
-结束访问[`Image`](../../image)节点。
+结束访问[`Image`](../../image)节点.
 
 ```csharp
 public virtual void VisitImageEnd(Image image)
@@ -16,7 +16,7 @@ public virtual void VisitImageEnd(Image image)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Image | [`Image`](../../image)节点。 |
+| image | Image | 的[`Image`](../../image)节点. |
 
 ### 也可以看看
 

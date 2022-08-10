@@ -39,6 +39,8 @@ foreach (Document document in allDocuments)
 }
 ```
 
+Показывает, как удалить раздел из блокнота.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_NoteBook();
@@ -61,6 +63,8 @@ dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 // Сохраняем блокнот
 notebook.Save(dataDir);
 ```
+
+Показывает, как сохранить блокнот.
 
 ```csharp
 // Путь к каталогу документов.
@@ -85,10 +89,6 @@ if (notebook.Any())
     childDocument2.Save(dataDir + "Locked Pass2_out.one", new OneSaveOptions() { DocumentPassword = "pass2" });
 }
 ```
-
-Показывает, как удалить раздел из блокнота.
-
-Показывает, как сохранить блокнот.
 
 ### Смотрите также
 

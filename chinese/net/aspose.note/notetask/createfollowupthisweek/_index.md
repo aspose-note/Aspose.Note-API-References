@@ -1,14 +1,14 @@
 ---
 title: CreateFollowUpThisWeek
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有 FollowUpThisWeekFlag 图标的新笔记任务
+description: 使用 FollowUpThisWeekFlag 图标创建一个新的笔记任务
 type: docs
 weight: 30
 url: /zh/net/aspose.note/notetask/createfollowupthisweek/
 ---
 ## NoteTask.CreateFollowUpThisWeek method
 
-创建一个带有 FollowUpThisWeekFlag 图标的新笔记任务。
+使用 FollowUpThisWeekFlag 图标创建一个新的笔记任务。
 
 ```csharp
 public static NoteTask CreateFollowUpThisWeek()
@@ -16,7 +16,7 @@ public static NoteTask CreateFollowUpThisWeek()
 
 ### 返回值
 
-[`NoteTask`](../../notetask)。
+的[`NoteTask`](../../notetask).
 
 ### 也可以看看
 

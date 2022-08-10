@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Aspose.Note for .NET API 参考
-description: 初始化Tableaspose.note/table类的新实例
+description: 初始化Tableaspose.note/table类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/table/table/
 ---
 ## Table constructor
 
-初始化[`Table`](../../table)类的新实例。
+初始化[`Table`](../../table)类.
 
 ```csharp
 public Table()

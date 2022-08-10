@@ -20,7 +20,7 @@ public static float MillimeterToPoint(float mm)
 
 ### Возвращаемое значение
 
-TheSingle.
+Single .
 
 ### Смотрите также
 

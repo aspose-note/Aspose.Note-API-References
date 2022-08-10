@@ -32,6 +32,8 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 Console.WriteLine(text);
 ```
 
+Показывает, как получить весь текст со страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Text();
@@ -50,6 +52,8 @@ if (page != null)
     Console.WriteLine(text);
 }
 ```
+
+Показывает, как получить текст из каждой строки таблицы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -74,6 +78,8 @@ foreach (Table table in nodes)
     }
 }
 ```
+
+Показывает, как получить текст из таблицы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -100,6 +106,8 @@ foreach (Table table in nodes)
     Console.WriteLine(text);
 }
 ```
+
+Показывает, как установить заголовок для страницы.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -132,6 +140,8 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+Показывает, как пройтись по всем страницам и сделать замену в тексте.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Text();
@@ -159,6 +169,8 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 // Сохраняем в любой поддерживаемый формат файла
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
+
+Показывает, как получить текст из ячеек таблицы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -189,6 +201,8 @@ foreach (Table table in nodes)
 }
 ```
 
+Показывает, как создать документ и сохранить его в формате html, используя параметры по умолчанию.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -210,6 +224,8 @@ page.Title = new Title()
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить новый абзац с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -247,6 +263,8 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -273,6 +291,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как получить доступ к сведениям о теге.
 
 ```csharp
 // Путь к каталогу документов.
@@ -305,6 +325,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+Показывает, как создать документ с текстом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -345,6 +367,8 @@ dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с китайской нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -384,6 +408,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -430,6 +456,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -475,6 +503,8 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как подготовить шаблон для еженедельной встречи.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -512,6 +542,8 @@ foreach (var e in new[] { "First", "Second", "Third" })
 
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -570,38 +602,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как получить весь текст со страницы.
-
-Показывает, как получить текст из каждой строки таблицы.
-
-Показывает, как получить текст из таблицы.
-
-Показывает, как задать заголовок для страницы.
-
-Показывает, как пройти по всем страницам и сделать замену в тексте.
-
-Показывает, как получить текст из ячеек таблицы.
-
-Показывает, как создать документ и сохранить его в формате html с параметрами по умолчанию.
-
-Показывает, как добавить новый абзац с тегом.
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как получить доступ к деталям тега.
-
-Показывает, как создать документ с текстом.
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
-
-Показывает, как подготовить шаблон для еженедельной встречи.
-
-Показывает, как привязать гиперссылку к тексту.
 
 ### Смотрите также
 

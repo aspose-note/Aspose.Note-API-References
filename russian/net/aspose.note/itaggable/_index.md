@@ -1,14 +1,14 @@
 ---
 title: ITaggable
 second_title: Справочник по API Aspose.Note для .NET
-description: Интерфейс для узлов которые могут быть помечены тегами.
+description: Интерфейс для узлов которые можно пометить тегами.
 type: docs
 weight: 230
 url: /ru/net/aspose.note/itaggable/
 ---
 ## ITaggable interface
 
-Интерфейс для узлов, которые могут быть помечены тегами.
+Интерфейс для узлов, которые можно пометить тегами.
 
 ```csharp
 public interface ITaggable : INode
@@ -43,6 +43,8 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
+Показывает, как сделать заполненными все элементы флажков, связанные с «Проектом C».
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -63,6 +65,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
+
+Показывает, как открыть все элементы флажка, связанные с «Проектом C».
 
 ```csharp
 // Путь к каталогу документов.
@@ -85,6 +89,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
+Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными незавершенными флажками и созданными за последнюю неделю.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -103,6 +109,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
+
+Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
 
 ```csharp
 // Путь к каталогу документов.
@@ -123,14 +131,6 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
-
-Показывает, как сделать заполненными все элементы флажков, связанные с «Проектом C».
-
-Показывает, как открыть все элементы флажков, связанные с «Проектом C».
-
-Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными неполными флажками и созданными на прошлой неделе.
-
-Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
 
 ### Смотрите также
 

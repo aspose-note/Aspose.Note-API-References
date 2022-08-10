@@ -1,14 +1,14 @@
 ---
 title: AttachedFile
 second_title: Aspose.Note for .NET API 参考
-description: 初始化AttachedFileaspose.note/attachedfile类的新实例
+description: 初始化AttachedFileaspose.note/attachedfile类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/attachedfile/attachedfile/
 ---
 ## AttachedFile(string, Stream, ImageFormat) {#constructor_7}
 
-初始化[`AttachedFile`](../../attachedfile)类的新实例。
+初始化[`AttachedFile`](../../attachedfile)类.
 
 ```csharp
 public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
@@ -16,7 +16,7 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 包含创建 [`AttachedFile`](../../attachedfile) 的文件路径的字符串。 |
+| path | String | 一个字符串，其中包含要从中创建文件的路径[`AttachedFile`](../../attachedfile). |
 | icon | Stream | 附件的图标。 |
 | iconFormat | ImageFormat | 附件图标的格式。 |
 
@@ -30,7 +30,7 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 ## AttachedFile(string, Stream) {#constructor_6}
 
-初始化[`AttachedFile`](../../attachedfile)类的新实例。
+初始化[`AttachedFile`](../../attachedfile)类.
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream)
@@ -51,7 +51,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 
 ## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_8}
 
-初始化[`AttachedFile`](../../attachedfile)类的新实例。
+初始化[`AttachedFile`](../../attachedfile)类.
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, ImageFormat iconFormat)
@@ -74,7 +74,7 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 
 ## AttachedFile() {#constructor}
 
-初始化[`AttachedFile`](../../attachedfile)类的新实例。
+初始化[`AttachedFile`](../../attachedfile)类.
 
 ```csharp
 public AttachedFile()

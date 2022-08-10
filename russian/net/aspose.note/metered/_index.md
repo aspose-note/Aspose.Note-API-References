@@ -25,13 +25,13 @@ public class Metered
 | Имя | Описание |
 | --- | --- |
 | [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey)() | Удаляет ранее установленную лицензию. |
-| [SetMeteredKey](../../aspose.note/metered/setmeteredkey)(string, string) | Устанавливает лимитированные открытый и закрытый ключи. |
+| [SetMeteredKey](../../aspose.note/metered/setmeteredkey)(string, string) | Устанавливает лимитированные открытые и закрытые ключи. |
 | static [GetConsumptionCredit](../../aspose.note/metered/getconsumptioncredit)() | Получает потребительский кредит. |
 | static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity)() | Получает размер файла потребления. |
 
 ### Примеры
 
-В этом примере будет предпринята попытка установить дозированные открытый и закрытый ключ
+В этом примере будет предпринята попытка установить лимитированный открытый и закрытый ключ
 
 ```csharp
 [C#]
@@ -45,6 +45,8 @@ metered.SetMeteredKey("PublicKey", "PrivateKey");
 Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
+
+Показывает, как установить лимитную лицензию.
 
 ```csharp
 Metered metered = new Metered();
@@ -64,8 +66,6 @@ document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
-
-Показывает, как установить лимитную лицензию.
 
 ### Смотрите также
 

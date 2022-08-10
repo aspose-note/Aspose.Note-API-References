@@ -1,14 +1,14 @@
 ---
 title: NumberList
 second_title: Aspose.Note for .NET API 参考
-description: 初始化NumberListaspose.note/numberlist类的新实例 这个实例代表一个项目符号列表
+description: 初始化NumberListaspose.note/numberlist class. 这个实例代表一个项目符号列表
 type: docs
 weight: 10
 url: /zh/net/aspose.note/numberlist/numberlist/
 ---
 ## NumberList(string, string, int) {#constructor_1}
 
-初始化[`NumberList`](../../numberlist)类的新实例。 这个实例代表一个项目符号列表。
+初始化[`NumberList`](../../numberlist) class. 这个实例代表一个项目符号列表。
 
 ```csharp
 public NumberList(string bulletedSymbol, string font, int fontSize)
@@ -30,7 +30,7 @@ public NumberList(string bulletedSymbol, string font, int fontSize)
 
 ## NumberList(string, NumberFormat, string, int) {#constructor}
 
-初始化[`NumberList`](../../numberlist)类的新实例。 这个实例代表一个编号列表。
+初始化[`NumberList`](../../numberlist)class. 这个实例代表一个编号列表。
 
 ```csharp
 public NumberList(string format, NumberFormat numberFormat, string font, int fontSize)
@@ -38,8 +38,8 @@ public NumberList(string format, NumberFormat numberFormat, string font, int fon
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| format | String | 编号标头的格式。 |
-| numberFormat | NumberFormat | 标头中数字的格式。 |
+| format | String | 编号头的格式。 |
+| numberFormat | NumberFormat | header 中数字的格式。 |
 | font | String | 编号标题的字体。 |
 | fontSize | Int32 | 编号标题的字体大小。 |
 

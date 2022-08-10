@@ -3,7 +3,7 @@ title: UnsupportedFileFormatException
 second_title: Справочник по API Aspose.Note для .NET
 description: Выдается при загрузке документа когда формат файла не распознается или не поддерживается Aspose.Note.
 type: docs
-weight: 970
+weight: 960
 url: /ru/net/aspose.note/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class

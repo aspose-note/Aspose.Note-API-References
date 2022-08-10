@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает версию страницы по указанному индексуPageHistoryaspose.note/pagehistory.
+description: Получает или задает версию страницы по указанному индексуPageHistoryaspose.note/pagehistory .
 type: docs
 weight: 50
 url: /ru/net/aspose.note/pagehistory/item/
 ---
 ## PageHistory indexer
 
-Получает или задает версию страницы по указанному индексу[`PageHistory`](../../pagehistory).
+Получает или задает версию страницы по указанному индексу[`PageHistory`](../../pagehistory) .
 
 ```csharp
 public Page this[int index] { get; set; }

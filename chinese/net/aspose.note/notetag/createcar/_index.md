@@ -1,14 +1,14 @@
 ---
 title: CreateCar
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有汽车图标和指定标签的新笔记标签
+description: 创建一个带有汽车图标和指定标签的新注释标签
 type: docs
 weight: 250
 url: /zh/net/aspose.note/notetag/createcar/
 ---
 ## NoteTag.CreateCar method
 
-创建一个带有汽车图标和指定标签的新笔记标签。
+创建一个带有汽车图标和指定标签的新注释标签。
 
 ```csharp
 public static NoteTag CreateCar(string label = "")
@@ -20,7 +20,7 @@ public static NoteTag CreateCar(string label = "")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

@@ -22,20 +22,20 @@ public static DocumentFontsSubsystem UsingDefaultFont(string defaultFontName,
 
 ### 返回值
 
-[`DocumentFontsSubsystem`](../../documentfontssubsystem)。
+的[`DocumentFontsSubsystem`](../../documentfontssubsystem).
 
 ### 例子
 
-显示如何使用指定的默认字体以 pdf 格式保存文档。
+展示如何使用指定的默认字体以 pdf 格式保存文档。
 
 ```csharp
-// 文档中所有文本的默认样式。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 追加页面节点
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions() 
                       {

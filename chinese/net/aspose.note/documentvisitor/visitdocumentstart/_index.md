@@ -1,14 +1,14 @@
 ---
 title: VisitDocumentStart
 second_title: Aspose.Note for .NET API 参考
-description: 开始访问Documentaspose.note/document节点
+description: 开始访问Documentaspose.note/document节点.
 type: docs
 weight: 40
 url: /zh/net/aspose.note/documentvisitor/visitdocumentstart/
 ---
 ## DocumentVisitor.VisitDocumentStart method
 
-开始访问[`Document`](../../document)节点。
+开始访问[`Document`](../../document)节点.
 
 ```csharp
 public virtual void VisitDocumentStart(Document document)
@@ -16,7 +16,7 @@ public virtual void VisitDocumentStart(Document document)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Document | [`Document`](../../document)节点。 |
+| document | Document | 的[`Document`](../../document)节点. |
 
 ### 也可以看看
 

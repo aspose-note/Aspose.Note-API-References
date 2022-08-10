@@ -1,14 +1,14 @@
 ---
 title: DocumentFontsSubsystem
 second_title: Aspose.Note for .NET API 参考
-description: 初始化DocumentFontsSubsystemaspose.note.fonts/documentfontssubsystem类的新实例
+description: 初始化DocumentFontsSubsystemaspose.note.fonts/documentfontssubsystem类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note.fonts/documentfontssubsystem/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem(Stream, Dictionary&lt;string, string&gt;) {#constructor_1}
 
-初始化[`DocumentFontsSubsystem`](../../documentfontssubsystem)类的新实例。
+初始化[`DocumentFontsSubsystem`](../../documentfontssubsystem)类.
 
 ```csharp
 public DocumentFontsSubsystem(Stream defaultFontStream, 
@@ -30,7 +30,7 @@ public DocumentFontsSubsystem(Stream defaultFontStream,
 
 ## DocumentFontsSubsystem(string, Dictionary&lt;string, string&gt;) {#constructor_2}
 
-初始化[`DocumentFontsSubsystem`](../../documentfontssubsystem)类的新实例。
+初始化[`DocumentFontsSubsystem`](../../documentfontssubsystem)类.
 
 ```csharp
 public DocumentFontsSubsystem(string defaultFontFile, 
@@ -52,7 +52,7 @@ public DocumentFontsSubsystem(string defaultFontFile,
 
 ## DocumentFontsSubsystem(Dictionary&lt;string, string&gt;) {#constructor}
 
-初始化[`DocumentFontsSubsystem`](../../documentfontssubsystem)类的新实例。
+初始化[`DocumentFontsSubsystem`](../../documentfontssubsystem)类.
 
 ```csharp
 public DocumentFontsSubsystem(Dictionary<string, string> fontsSubstitutions = null)

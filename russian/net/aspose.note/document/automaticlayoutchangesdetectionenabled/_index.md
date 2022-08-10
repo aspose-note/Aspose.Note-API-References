@@ -1,14 +1,14 @@
 ---
 title: AutomaticLayoutChangesDetectionEnabled
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает значение указывающее выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчанию true .
+description: Получает или задает значение указывающее выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчаниюистинный .
 type: docs
 weight: 20
 url: /ru/net/aspose.note/document/automaticlayoutchangesdetectionenabled/
 ---
 ## Document.AutomaticLayoutChangesDetectionEnabled property
 
-Получает или задает значение, указывающее, выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчанию:` true` .
+Получает или задает значение, указывающее, выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool AutomaticLayoutChangesDetectionEnabled { get; set; }
@@ -16,7 +16,7 @@ public bool AutomaticLayoutChangesDetectionEnabled { get; set; }
 
 ### Примеры
 
-Показывает, как сохранить документ в разных форматах.
+Показывает, как сохранить документ в различных форматах.
 
 ```csharp
 // Путь к каталогу документов.

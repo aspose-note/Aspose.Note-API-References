@@ -19,13 +19,13 @@ public byte[] Bytes { get; }
 显示如何从文档中获取图像。
 
 ```csharp
-// 从流中加载文档。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 获取文档的第一页。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 从文件中加载图像。
+// 获取所有图像节点
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -34,7 +34,7 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // 根据您的需要更改图像的大小（可选）。
+            // 将图像字节保存到文件中
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }

@@ -1,14 +1,14 @@
 ---
 title: FileCorruptedException
 second_title: Справочник по API Aspose.Note для .NET
-description: Выдается во время загрузки документа когда документ кажется поврежденным и невозможным для загрузки.
+description: Возникает во время загрузки документа когда документ кажется поврежденным и его невозможно загрузить.
 type: docs
 weight: 80
 url: /ru/net/aspose.note/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-Выдается во время загрузки документа, когда документ кажется поврежденным и невозможным для загрузки.
+Возникает во время загрузки документа, когда документ кажется поврежденным и его невозможно загрузить.
 
 ```csharp
 public class FileCorruptedException : Exception

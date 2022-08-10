@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Note for .NET API 参考
-description: 初始化Titleaspose.note/title类的新实例
+description: 初始化Titleaspose.note/title类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/title/title/
 ---
 ## Title constructor
 
-初始化[`Title`](../../title)类的新实例。
+初始化[`Title`](../../title)类.
 
 ```csharp
 public Title()

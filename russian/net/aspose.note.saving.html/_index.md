@@ -1,12 +1,12 @@
 ---
 title: Aspose.Note.Saving.Html
 second_title: Справочник по API Aspose.Note для .NET
-description: Пространство именHtmlсодержит классы которые выполняют сохранение в формате HTML.
+description: Html пространство имен содержит классы которые выполняют сохранение в формате HTML.
 type: docs
 weight: 50
 url: /ru/net/aspose.note.saving.html/
 ---
-Пространство именHtmlсодержит классы, которые выполняют сохранение в формате HTML.
+Html пространство имен содержит классы, которые выполняют сохранение в формате HTML.
 
 ## Классы
 
@@ -21,10 +21,10 @@ url: /ru/net/aspose.note.saving.html/
 
 | Интерфейс | Описание |
 | --- | --- |
-| [ICssSavingCallback](./icsssavingcallback) | Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет CSS (каскадную таблицу стилей) при сохранении документа в HTML. |
-| [IFontSavingCallback](./ifontsavingcallback) | Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет шрифты при сохранении документа в HTML. |
-| [IImageSavingCallback](./iimagesavingcallback) | Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет изображения при сохранении документа в HTML. |
-| [IPageSavingCallback](./ipagesavingcallback) | Реализуйте этот интерфейс, если хотите контролировать, как Aspose.Note сохраняет отдельные страницы. |
+| [ICssSavingCallback](./icsssavingcallback) | Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет CSS (каскадную таблицу стилей) при сохранении документа в формате HTML. |
+| [IFontSavingCallback](./ifontsavingcallback) | Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет шрифты при сохранении документа в формате HTML. |
+| [IImageSavingCallback](./iimagesavingcallback) | Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет изображения при сохранении документа в формате HTML. |
+| [IPageSavingCallback](./ipagesavingcallback) | Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет отдельные страницы. |
 ## перечисление
 
 | перечисление | Описание |

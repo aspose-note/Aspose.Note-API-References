@@ -25,7 +25,7 @@ public Document Merge(IEnumerable<Page> pages, MergeOptions mergeOptions = null)
 
 ### 例子
 
-显示如何将所有页面从 PDF 文档中导入，每 5 页分组到单个 OneNote 页面。
+演示如何将 PDF 文档中的所有页面（每 5 页分组）导入单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

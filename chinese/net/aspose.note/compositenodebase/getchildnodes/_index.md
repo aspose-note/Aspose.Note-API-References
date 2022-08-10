@@ -17,7 +17,7 @@ public abstract List<T1> GetChildNodes<T1>()
 
 | 范围 | 描述 |
 | --- | --- |
-| T1 | 返回列表中的元素类型。 |
+| T1 | 返回列表中元素的类型。 |
 
 ### 返回值
 

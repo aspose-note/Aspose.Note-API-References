@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаDocumentaspose.note/document. Создает пустой документ OneNote.
+description: Инициализирует новый экземплярDocumentaspose.note/document class. Создает пустой документ OneNote.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/document/document/
 ---
 ## Document() {#constructor}
 
-Инициализирует новый экземпляр класса[`Document`](../../document). Создает пустой документ OneNote.
+Инициализирует новый экземпляр[`Document`](../../document) class. Создает пустой документ OneNote.
 
 ```csharp
 public Document()
@@ -24,7 +24,7 @@ public Document()
 
 ## Document(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Document`](../../document). Открывает существующий документ OneNote из файла.
+Инициализирует новый экземпляр[`Document`](../../document) class. Открывает существующий документ OneNote из файла.
 
 ```csharp
 public Document(string filePath)
@@ -40,9 +40,9 @@ public Document(string filePath)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
-| InvalidOperationException | Существует проблема с документом, о которой следует сообщить разработчикам Aspose.Note. |
-| IOException | Исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| InvalidOperationException | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Note. |
+| IOException | Существует исключение ввода/вывода. |
 
 ### Смотрите также
 
@@ -54,7 +54,7 @@ public Document(string filePath)
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Document`](../../document). Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования.
+Инициализирует новый экземпляр[`Document`](../../document) class. Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования.
 
 ```csharp
 public Document(string filePath, LoadOptions loadOptions)
@@ -71,9 +71,9 @@ public Document(string filePath, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
-| InvalidOperationException | Существует проблема с документом, о которой следует сообщить разработчикам Aspose.Note. |
-| IOException | Исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| InvalidOperationException | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Note. |
+| IOException | Существует исключение ввода/вывода. |
 
 ### Смотрите также
 
@@ -86,7 +86,7 @@ public Document(string filePath, LoadOptions loadOptions)
 
 ## Document(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Document`](../../document). Открывает существующий документ OneNote из потока.
+Инициализирует новый экземпляр[`Document`](../../document) class. Открывает существующий документ OneNote из потока.
 
 ```csharp
 public Document(Stream inStream)
@@ -102,9 +102,9 @@ public Document(Stream inStream)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
-| InvalidOperationException | Существует проблема с документом, о которой следует сообщить разработчикам Aspose.Note. |
-| IOException | Исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| InvalidOperationException | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Note. |
+| IOException | Существует исключение ввода/вывода. |
 | ArgumentException | Поток не поддерживает чтение, имеет значение null или уже закрыт. |
 
 ### Смотрите также
@@ -117,7 +117,7 @@ public Document(Stream inStream)
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Document`](../../document). Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования.
+Инициализирует новый экземпляр[`Document`](../../document) class. Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования.
 
 ```csharp
 public Document(Stream inStream, LoadOptions loadOptions)
@@ -134,9 +134,9 @@ public Document(Stream inStream, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
-| InvalidOperationException | Существует проблема с документом, о которой необходимо сообщить разработчикам Aspose.Note. |
-| IOException | Исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| InvalidOperationException | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Note. |
+| IOException | Существует исключение ввода/вывода. |
 | ArgumentException | Поток не поддерживает чтение, имеет значение null или уже закрыт. |
 
 ### Смотрите также

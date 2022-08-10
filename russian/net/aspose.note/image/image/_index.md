@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаImageaspose.note/image.
+description: Инициализирует новый экземплярImageaspose.note/image класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/image/image/
 ---
 ## Image(string, string, string) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`Image`](../../image).
+Инициализирует новый экземпляр[`Image`](../../image) класс.
 
 ```csharp
 public Image(string path, string altTitle = null, string altDescription = null)
@@ -16,8 +16,8 @@ public Image(string path, string altTitle = null, string altDescription = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Строка, содержащая путь к файлу, из которого создается[`Image`](../../image). |
-| altTitle | String | Альтернативный заголовок. |
+| path | String | Строка, содержащая путь к файлу, из которого создается[`Image`](../../image) . |
+| altTitle | String | Альтернативное название. |
 | altDescription | String | Альтернативное описание. |
 
 ### Смотрите также
@@ -30,7 +30,7 @@ public Image(string path, string altTitle = null, string altDescription = null)
 
 ## Image(string, Stream) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Image`](../../image).
+Инициализирует новый экземпляр[`Image`](../../image) класс.
 
 ```csharp
 public Image(string fileName, Stream imageStream)
@@ -38,7 +38,7 @@ public Image(string fileName, Stream imageStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя образа. |
+| fileName | String | Имя изображения. |
 | imageStream | Stream | Поток, содержащий изображение. |
 
 ### Смотрите также
@@ -51,7 +51,7 @@ public Image(string fileName, Stream imageStream)
 
 ## Image() {#constructor}
 
-Инициализирует новый экземпляр класса[`Image`](../../image).
+Инициализирует новый экземпляр[`Image`](../../image) класс.
 
 ```csharp
 public Image()

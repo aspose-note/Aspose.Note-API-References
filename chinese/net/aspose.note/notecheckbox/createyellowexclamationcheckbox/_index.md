@@ -20,7 +20,7 @@ public static NoteCheckBox CreateYellowExclamationCheckBox(string label = "Clien
 
 ### 返回值
 
-[`NoteCheckBox`](../../notecheckbox)。
+的[`NoteCheckBox`](../../notecheckbox).
 
 ### 也可以看看
 

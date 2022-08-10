@@ -1,14 +1,14 @@
 ---
 title: LoadChildNotebook
 second_title: Справочник по API Aspose.Note для .NET
-description: Добавляет дочерний блокнот. Открывает существующую записную книжку OneNote из файла.
+description: Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из файла.
 type: docs
 weight: 130
 url: /ru/net/aspose.note/notebook/loadchildnotebook/
 ---
 ## LoadChildNotebook(string) {#loadchildnotebook_2}
 
-Добавляет дочерний блокнот. Открывает существующую записную книжку OneNote из файла.
+Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из файла.
 
 ```csharp
 public void LoadChildNotebook(string filePath)
@@ -28,7 +28,7 @@ public void LoadChildNotebook(string filePath)
 
 ## LoadChildNotebook(string, NotebookLoadOptions) {#loadchildnotebook_3}
 
-Добавляет дочерний блокнот. Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры загрузки.
+Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры загрузки.
 
 ```csharp
 public void LoadChildNotebook(string filePath, NotebookLoadOptions loadOptions)
@@ -50,7 +50,7 @@ public void LoadChildNotebook(string filePath, NotebookLoadOptions loadOptions)
 
 ## LoadChildNotebook(Stream) {#loadchildnotebook}
 
-Добавляет дочерний блокнот. Открывает существующую записную книжку OneNote из потока.
+Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из потока.
 
 ```csharp
 public void LoadChildNotebook(Stream stream)
@@ -70,7 +70,7 @@ public void LoadChildNotebook(Stream stream)
 
 ## LoadChildNotebook(Stream, NotebookLoadOptions) {#loadchildnotebook_1}
 
-Добавляет дочерний блокнот. Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки.
+Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки.
 
 ```csharp
 public void LoadChildNotebook(Stream stream, NotebookLoadOptions loadOptions)

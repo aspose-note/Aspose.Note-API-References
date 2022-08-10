@@ -1,14 +1,14 @@
 ---
 title: InsertChildrenRange
 second_title: Справочник по API Aspose.Note для .NET
-description: Вставляет последовательность узлов начиная с указанной позиции в список дочерних узлов для данного узла.
+description: Вставляет последовательность узлов начиная с указанной позиции в список дочерних узлов для этого узла.
 type: docs
 weight: 100
 url: /ru/net/aspose.note/compositenode-1/insertchildrenrange/
 ---
 ## InsertChildrenRange(int, IEnumerable&lt;T&gt;) {#insertchildrenrange}
 
-Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для данного узла.
+Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для этого узла.
 
 ```csharp
 public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
@@ -29,7 +29,7 @@ public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
 
 ## InsertChildrenRange(int, params T[]) {#insertchildrenrange_1}
 
-Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для данного узла.
+Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для этого узла.
 
 ```csharp
 public void InsertChildrenRange(int i, params T[] newChildren)

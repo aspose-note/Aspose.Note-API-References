@@ -18,7 +18,7 @@ public sealed class TableRow : CompositeNode<TableCell>
 
 | Имя | Описание |
 | --- | --- |
-| [TableRow](tablerow#constructor)() | Инициализирует новый экземпляр класса[`TableRow`](../tablerow). |
+| [TableRow](tablerow#constructor)() | Инициализирует новый экземпляр[`TableRow`](../tablerow) класс. |
 
 ## Характеристики
 
@@ -28,7 +28,7 @@ public sealed class TableRow : CompositeNode<TableCell>
 | [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
+| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
 | [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
 | [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
@@ -76,6 +76,8 @@ foreach (Table table in nodes)
 }
 ```
 
+Показывает, как получить текст из ячеек таблицы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tables();
@@ -104,6 +106,8 @@ foreach (Table table in nodes)
     }
 }
 ```
+
+Показывает, как установить цвет фона для ячейки.
 
 ```csharp
 // Создаем объект класса Document
@@ -139,6 +143,8 @@ doc.AppendChildLast(page);
 
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
+
+Показывает, как добавить новую таблицу с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -190,6 +196,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать таблицу с заблокированным столбцом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -245,6 +253,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать новую таблицу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -323,16 +333,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как получить текст из ячеек таблицы.
-
-Показывает, как установить цвет фона для ячейки.
-
-Показывает, как добавить новую таблицу с тегом.
-
-Показывает, как создать таблицу с заблокированным столбцом.
-
-Показывает, как создать новую таблицу.
 
 ### Смотрите также
 

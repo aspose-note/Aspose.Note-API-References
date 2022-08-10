@@ -16,7 +16,7 @@ public void SetCompleted(DateTime completedTime)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| completedTime | DateTime | Время завершения. |
+| completedTime | DateTime | Завершенное время. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public void SetCompleted(DateTime completedTime)
 
 ## SetCompleted() {#setcompleted}
 
-Устанавливает тег в завершенное состояние, используя текущее время как завершенное.
+Устанавливает тег в завершенное состояние, используя текущее время как завершенное время.
 
 ```csharp
 public void SetCompleted()

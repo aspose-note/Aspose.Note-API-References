@@ -39,6 +39,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
+Показывает, как открыть все элементы флажка, связанные с «Проектом C».
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -59,6 +61,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
+
+Показывает, как получить доступ к сведениям о теге.
 
 ```csharp
 // Путь к каталогу документов.
@@ -91,10 +95,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-Показывает, как открыть все элементы флажков, связанные с «Проектом C».
-
-Показывает, как получить доступ к деталям тега.
 
 ### Смотрите также
 

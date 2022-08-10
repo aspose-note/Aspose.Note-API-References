@@ -1,14 +1,14 @@
 ---
 title: CreateYellowCheckBox3
 second_title: Справочник по API Aspose.Note для .NET
-description: Создает новый флажок для заметки со значком YellowCheckBox3Empty и указанной меткой.
+description: Создает новый флажок примечания со значком YellowCheckBox3Empty и указанной меткой.
 type: docs
 weight: 230
 url: /ru/net/aspose.note/notecheckbox/createyellowcheckbox3/
 ---
 ## NoteCheckBox.CreateYellowCheckBox3 method
 
-Создает новый флажок для заметки со значком YellowCheckBox3Empty и указанной меткой.
+Создает новый флажок примечания со значком YellowCheckBox3Empty и указанной меткой.
 
 ```csharp
 public static NoteCheckBox CreateYellowCheckBox3(string label = "")
@@ -20,7 +20,7 @@ public static NoteCheckBox CreateYellowCheckBox3(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteCheckBox`](../../notecheckbox).
+[`NoteCheckBox`](../../notecheckbox) .
 
 ### Смотрите также
 

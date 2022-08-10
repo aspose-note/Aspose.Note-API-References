@@ -16,34 +16,34 @@ public float VerticalOffset { get; set; }
 
 ### 例子
 
-显示如何将图像从文件添加到具有用户定义属性的文档。
+演示如何将图像从文件添加到具有用户定义属性的文档。
 
 ```csharp
-// 获取所有图像节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 文档目录的路径。
+// 从流中加载文档。
 Document doc = new Document(dataDir + "Aspose.one");
 
-s 尺寸根据您的需要（可选）。
+// 获取文档的第一页。
 Aspose.Note.Page page = doc.FirstChild;
 
-页面中的位置（可选）。
+// 从文件中加载图像。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // 文档目录的路径。
+                              // 根据您的需要更改图像的大小（可选）。
                               Width = 100,
                               Height = 100,
 
-                              // 将文档加载到 Aspose.Note。
+                              // 设置图片在页面中的位置（可选）。
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // 获取所有图像节点
+                              // 设置图像对齐
                               Alignment = HorizontalAlignment.Right
                           };
 
-// 文档目录的路径。
+// 将图像添加到页面。
 page.AppendChildLast(image);
 ```
 

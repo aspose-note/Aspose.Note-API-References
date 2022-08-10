@@ -1,14 +1,14 @@
 ---
 title: DetectLayoutChanges
 second_title: Справочник по API Aspose.Note для .NET
-description: Обнаруживает все изменения внесенные в макет документа с момента предыдущего вызоваDetectLayoutChangesaspose.note/document/detectlayoutchanges. В случаеAutomaticLayoutChangesDetectionEnabledaspose.note/document/automaticlayoutchangesdetectionenabledустановлено значение true используется автоматически в начале экспорта документа.
+description: Обнаруживает все изменения внесенные в макет документа с момента предыдущегоDetectLayoutChangesaspose.note/document/detectlayoutchanges call. В случаеAutomaticLayoutChangesDetectionEnabledaspose.note/document/automaticlayoutchangesdetectionenabled установлено значение true используется автоматически в начале экспорта документа.
 type: docs
 weight: 90
 url: /ru/net/aspose.note/document/detectlayoutchanges/
 ---
 ## Document.DetectLayoutChanges method
 
-Обнаруживает все изменения, внесенные в макет документа с момента предыдущего вызова`DetectLayoutChanges`. В случае[`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled)установлено значение true, используется автоматически в начале экспорта документа.
+Обнаруживает все изменения, внесенные в макет документа с момента предыдущего`DetectLayoutChanges` call. В случае[`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled) установлено значение true, используется автоматически в начале экспорта документа.
 
 ```csharp
 public void DetectLayoutChanges()

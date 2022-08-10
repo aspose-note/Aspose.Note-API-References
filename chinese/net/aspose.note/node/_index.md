@@ -19,7 +19,7 @@ public abstract class Node : INode
 | 姓名 | 描述 |
 | --- | --- |
 | [Document](../../aspose.note/node/document) { get; } | 获取节点的文档。 |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | 获取一个值，该值指示此节点是否为复合节点。如果为 true，则该节点可以有子节点。 |
+| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | 获取一个值，该值指示此节点是否为复合节点。如果为真，则节点可以有子节点。 |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | 获取同一节点树级别的下一个节点。 |
 | [NodeType](../../aspose.note/node/nodetype) { get; } | 获取节点类型。 |
 | [ParentNode](../../aspose.note/node/parentnode) { get; } | 获取父节点。 |

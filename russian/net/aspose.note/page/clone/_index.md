@@ -41,6 +41,8 @@ pageHistory.Add(page.Clone());
 document.Save(dataDir + "PushCurrentPageVersion_out.one");
 ```
 
+Показывает, как клонировать страницу.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -56,8 +58,6 @@ cloned.AppendChildLast(document.FirstChild.Clone());
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
-
-Показывает, как клонировать страницу.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: PdfImporter
 second_title: Aspose.Note for .NET API 参考
-description: 提供从 PDF 格式文档导入内容的 API 类 api 允许使用指定选项从位于文件或流中的 PDF 文档导入 导入选项使用PdfImportOptions./pdfimportoptions传递
+description: 提供 api 以从 PDF 格式的文档中导入内容的类 该 api 允许使用指定选项从位于文件或流中的 PDF 文档导入 导入选项通过使用PdfImportOptions./pdfimportoptions.
 type: docs
 weight: 260
 url: /zh/net/aspose.note.importing/pdfimporter/
 ---
 ## PdfImporter class
 
-提供从 PDF 格式文档导入内容的 API 类。 api 允许使用指定选项从位于文件或流中的 PDF 文档导入。 导入选项使用[`PdfImportOptions`](../pdfimportoptions)传递。
+提供 api 以从 PDF 格式的文档中导入内容的类。 该 api 允许使用指定选项从位于文件或流中的 PDF 文档导入。 导入选项通过使用[`PdfImportOptions`](../pdfimportoptions).
 
 ```csharp
 public static class PdfImporter
@@ -23,7 +23,7 @@ public static class PdfImporter
 
 ### 例子
 
-演示如何将所有页面从 PDF 文档（每 5 页分组）导入到单个 OneNote 页面。
+演示如何将 PDF 文档中的所有页面（每 5 页分组）导入单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

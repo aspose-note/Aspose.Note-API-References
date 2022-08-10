@@ -22,7 +22,7 @@ public Color BackgroundColor { get; set; }
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)

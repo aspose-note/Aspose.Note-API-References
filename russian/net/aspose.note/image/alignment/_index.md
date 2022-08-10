@@ -47,6 +47,8 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
+Показывает, как добавить изображение из потока в документ.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Images();
@@ -82,6 +84,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить изображение из файла в документ.
 
 ```csharp
 // Путь к каталогу документов.
@@ -122,10 +126,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как добавить изображение из потока в документ.
-
-Показывает, как добавить изображение из файла в документ.
 
 ### Смотрите также
 

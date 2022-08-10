@@ -19,11 +19,11 @@ public abstract class CheckBox : ITag
 | 姓名 | 描述 |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked) { get; } | 获取表示CheckBox是否处于选中状态的值。 |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; set; } | 获取或设置完成时间。 |
+| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | 获取或设置完成时间。 |
 | [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | 获取或设置创建时间。 |
-| abstract [Icon](../../aspose.note/checkbox/icon) { get; set; } | 获取或设置图标。 |
+| abstract [Icon](../../aspose.note/checkbox/icon) { get; } | 获取或设置图标。 |
 | [Label](../../aspose.note/checkbox/label) { get; } | 获取标签文本。 |
-| [Status](../../aspose.note/checkbox/status) { get; set; } | 获取或设置状态。 |
+| [Status](../../aspose.note/checkbox/status) { get; } | 获取或设置状态。 |
 
 ## 方法
 
@@ -35,7 +35,7 @@ public abstract class CheckBox : ITag
 
 ### 例子
 
-显示如何生成包含与“项目 A”相关的所有页面的 pdf。
+展示如何生成包含与“项目 A”相关的所有页面的 pdf。
 
 ```csharp
 // 文档目录的路径。
@@ -55,6 +55,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
+
+显示如何完成与“项目 C”相关的所有复选框项目。
 
 ```csharp
 // 文档目录的路径。
@@ -77,6 +79,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
+显示如何打开与“项目 C”相关的所有复选框项目。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -98,6 +102,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
+展示如何生成一个 pdf，其中包含在上周创建的带有不完整复选框标记的项目的页面。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -116,6 +122,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
+
+演示如何生成包含本周要完成的 Outlook 未完成任务的页面的 pdf。
 
 ```csharp
 // 文档目录的路径。
@@ -136,14 +144,6 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
-
-显示如何完成与“项目 C”相关的所有复选框项目。
-
-显示如何打开与“项目 C”相关的所有复选框项目。
-
-展示如何生成一个 pdf，其中包含带有不完整复选框标记并在上周创建的项目的页面。
-
-显示如何生成包含本周要完成的 Outlook 未完成任务的页面的 pdf。
 
 ### 也可以看看
 

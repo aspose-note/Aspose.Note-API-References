@@ -18,9 +18,9 @@ public enum HorizontalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 文本左对齐。 |
+| Left | `0` | 文本向左对齐。 |
 | Center | `1` | 文本居中。 |
-| Right | `2` | 文本右对齐。 |
+| Right | `2` | 文本向右对齐。 |
 
 ### 也可以看看
 

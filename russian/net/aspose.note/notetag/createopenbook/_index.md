@@ -20,7 +20,7 @@ public static NoteTag CreateOpenBook(string label = "Book to read")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

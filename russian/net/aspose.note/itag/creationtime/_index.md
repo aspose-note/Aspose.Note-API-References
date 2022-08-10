@@ -16,7 +16,7 @@ public DateTime CreationTime { get; set; }
 
 ### Стоимость имущества
 
-TheDateTime.
+DateTime .
 
 ### Примеры
 
@@ -41,6 +41,8 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
+Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными незавершенными флажками и созданными за последнюю неделю.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -59,6 +61,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
+
+Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
 
 ```csharp
 // Путь к каталогу документов.
@@ -79,6 +83,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
+
+Показывает, как получить доступ к сведениям о задачах Outlook.
 
 ```csharp
 // Путь к каталогу документов.
@@ -109,6 +115,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+Показывает, как получить доступ к сведениям о теге.
 
 ```csharp
 // Путь к каталогу документов.
@@ -141,14 +149,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными неполными флажками и созданными за последнюю неделю.
-
-Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
-
-Показывает, как получить доступ к сведениям о задачах Outlook.
-
-Показывает, как получить доступ к деталям тега.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: IsSubscript
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个值该值指示文本样式是否为下标
+description: 获取或设置文本样式是否为下标的值
 type: docs
 weight: 90
 url: /zh/net/aspose.note/style/issubscript/
 ---
 ## Style.IsSubscript property
 
-获取或设置一个值，该值指示文本样式是否为下标。
+获取或设置文本样式是否为下标的值。
 
 ```csharp
 public bool IsSubscript { get; set; }

@@ -24,7 +24,7 @@ public class PdfImportOptions
 
 | Имя | Описание |
 | --- | --- |
-| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчанию этоMaxValue что означает, что будут отображаться все страницы документа. |
+| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
 | [PageIndex](../../aspose.note.importing/pdfimportoptions/pageindex) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
 | [Password](../../aspose.note.importing/pdfimportoptions/password) { get; set; } | Получает или задает пароль для расшифровки содержимого документа. |
 

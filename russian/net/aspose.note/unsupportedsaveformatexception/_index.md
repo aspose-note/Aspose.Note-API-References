@@ -1,14 +1,14 @@
 ---
 title: UnsupportedSaveFormatException
 second_title: Справочник по API Aspose.Note для .NET
-description: Выбрасывается если запрошенный формат сохранения не поддерживается.
+description: Выдается если запрошенный формат сохранения не поддерживается.
 type: docs
-weight: 980
+weight: 970
 url: /ru/net/aspose.note/unsupportedsaveformatexception/
 ---
 ## UnsupportedSaveFormatException class
 
-Выбрасывается, если запрошенный формат сохранения не поддерживается.
+Выдается, если запрошенный формат сохранения не поддерживается.
 
 ```csharp
 public class UnsupportedSaveFormatException : Exception

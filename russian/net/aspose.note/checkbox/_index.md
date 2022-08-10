@@ -19,17 +19,17 @@ public abstract class CheckBox : ITag
 | Имя | Описание |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked) { get; } | Получает значение, указывающее, находится ли CheckBox в проверенном состоянии. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; set; } | Получает или задает завершенное время. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Получает или устанавливает завершенное время. |
 | [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Получает или задает время создания. |
-| abstract [Icon](../../aspose.note/checkbox/icon) { get; set; } | Получает или задает значок. |
+| abstract [Icon](../../aspose.note/checkbox/icon) { get; } | Получает или задает значок. |
 | [Label](../../aspose.note/checkbox/label) { get; } | Получает текст метки. |
-| [Status](../../aspose.note/checkbox/status) { get; set; } | Получает или устанавливает статус. |
+| [Status](../../aspose.note/checkbox/status) { get; } | Получает или устанавливает статус. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted#setcompleted)() | Устанавливает тег в завершенное состояние, используя текущее время как завершенное. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted#setcompleted)() | Устанавливает тег в завершенное состояние, используя текущее время как завершенное время. |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted#setcompleted_1)(DateTime) | Устанавливает тег в завершенное состояние. |
 | virtual [SetOpen](../../aspose.note/checkbox/setopen)() | Устанавливает тег в открытое состояние. |
 
@@ -56,6 +56,8 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
+Показывает, как сделать заполненными все элементы флажков, связанные с «Проектом C».
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -76,6 +78,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
+
+Показывает, как открыть все элементы флажка, связанные с «Проектом C».
 
 ```csharp
 // Путь к каталогу документов.
@@ -98,6 +102,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
+Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными незавершенными флажками и созданными за последнюю неделю.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -116,6 +122,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
+
+Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
 
 ```csharp
 // Путь к каталогу документов.
@@ -136,14 +144,6 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
-
-Показывает, как сделать заполненными все элементы флажков, связанные с «Проектом C».
-
-Показывает, как открыть все элементы флажков, связанные с «Проектом C».
-
-Показывает, как создать PDF-файл, содержащий страницы с элементами, отмеченными неполными флажками и созданными за последнюю неделю.
-
-Показывает, как создать PDF-файл, содержащий страницы с незавершенными задачами Outlook, которые необходимо выполнить на этой неделе.
 
 ### Смотрите также
 

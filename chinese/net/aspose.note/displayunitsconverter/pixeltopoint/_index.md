@@ -21,7 +21,7 @@ public static float PixelToPoint(int pixels, float dpi)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 

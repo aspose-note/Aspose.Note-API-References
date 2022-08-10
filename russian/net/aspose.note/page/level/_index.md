@@ -36,6 +36,8 @@ foreach (Page page in oneFile)
 }
 ```
 
+Показывает, как получить историю страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -56,6 +58,8 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
+
+Показывает, как добавить страницу с подстраницей.
 
 ```csharp
 // Путь к каталогу документов.
@@ -109,10 +113,6 @@ doc.AppendChildLast(page3);
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как получить историю страницы.
-
-Показывает, как добавить страницу с подстраницей.
 
 ### Смотрите также
 

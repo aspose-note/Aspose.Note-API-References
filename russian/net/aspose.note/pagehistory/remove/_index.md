@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по API Aspose.Note для .NET
-description: Удаляет версию страницы изPageHistoryaspose.note/pagehistory.
+description: Удаляет версию страницы изPageHistoryaspose.note/pagehistory .
 type: docs
 weight: 140
 url: /ru/net/aspose.note/pagehistory/remove/
 ---
 ## PageHistory.Remove method
 
-Удаляет версию страницы из[`PageHistory`](../../pagehistory).
+Удаляет версию страницы из[`PageHistory`](../../pagehistory) .
 
 ```csharp
 public bool Remove(Page item)
@@ -20,7 +20,7 @@ public bool Remove(Page item)
 
 ### Возвращаемое значение
 
-TheBoolean.
+Boolean .
 
 ### Смотрите также
 

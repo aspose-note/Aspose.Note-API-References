@@ -16,7 +16,7 @@ public DateTime CreationTime { get; set; }
 
 ### Стоимость имущества
 
-TheDateTime.
+DateTime .
 
 ### Смотрите также
 

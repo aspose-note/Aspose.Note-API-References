@@ -1,14 +1,14 @@
 ---
 title: PageSplittingAlgorithm
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает алгоритм используемый для разделения страниц.
+description: Получает или задает алгоритм используемый для разбиения страницы.
 type: docs
 weight: 30
 url: /ru/net/aspose.note.saving/printoptions/pagesplittingalgorithm/
 ---
 ## PrintOptions.PageSplittingAlgorithm property
 
-Получает или задает алгоритм, используемый для разделения страниц.
+Получает или задает алгоритм, используемый для разбиения страницы.
 
 ```csharp
 public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
@@ -16,7 +16,7 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 
 ### Стоимость имущества
 
-`PageSplittingAlgorithm`.
+`PageSplittingAlgorithm` .
 
 ### Примеры
 

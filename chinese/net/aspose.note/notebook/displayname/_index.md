@@ -19,25 +19,25 @@ public string DisplayName { get; set; }
 显示如何从笔记本中删除部分。
 
 ```csharp
-// 添加一个新的子节点到 Notebook
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 添加一个新的子节点到 Notebook
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "test.onetoc2");
 
-// 文档目录的路径。
+// 遍历它的子节点，寻找想要的子项
 foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // 文档目录的路径。
+        // 从笔记本中删除子项
         notebook.RemoveChild(child);
     }
 }
 
 dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir);
 ```
 

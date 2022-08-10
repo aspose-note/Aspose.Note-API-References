@@ -20,7 +20,7 @@ public static NoteTag CreateQuotationMark(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

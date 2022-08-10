@@ -16,7 +16,7 @@ public Document Document { get; }
 
 ### 适当的价值
 
-文档。
+文件。
 
 ### 也可以看看
 

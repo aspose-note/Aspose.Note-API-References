@@ -1,14 +1,14 @@
 ---
 title: RemoveRange
 second_title: Справочник по API Aspose.Note для .NET
-description: Удаляет диапазон версий страницы изPageHistoryaspose.note/pagehistory.
+description: Удаляет диапазон версий страницы изPageHistoryaspose.note/pagehistory .
 type: docs
 weight: 160
 url: /ru/net/aspose.note/pagehistory/removerange/
 ---
 ## PageHistory.RemoveRange method
 
-Удаляет диапазон версий страницы из[`PageHistory`](../../pagehistory).
+Удаляет диапазон версий страницы из[`PageHistory`](../../pagehistory) .
 
 ```csharp
 public void RemoveRange(int index, int count)
@@ -17,7 +17,7 @@ public void RemoveRange(int index, int count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Индекс. |
-| count | Int32 | Счетчик. |
+| count | Int32 | Количество. |
 
 ### Смотрите также
 

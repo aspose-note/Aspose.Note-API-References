@@ -24,8 +24,8 @@ public class LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DocumentPassword](../../aspose.note/loadoptions/documentpassword) { get; set; } | Получает или задает пароль для содержимого зашифрованного документа. Значение игнорируется, если документ не защищен паролем. |
-| [LoadHistory](../../aspose.note/loadoptions/loadhistory) { get; set; } | Получает или задает значение, указывающее, должен ли загрузчик документов игнорировать историю. Используйте этот параметр, чтобы уменьшить использование памяти и ЦП. Значение по умолчанию:` true` . |
+| [DocumentPassword](../../aspose.note/loadoptions/documentpassword) { get; set; } | Получает или задает пароль для зашифрованного содержимого документа. Значение игнорируется, если документ не защищен паролем. |
+| [LoadHistory](../../aspose.note/loadoptions/loadhistory) { get; set; } | Получает или задает значение, указывающее, должен ли загрузчик документов игнорировать историю. Используйте этот параметр, чтобы уменьшить использование памяти и ЦП. Значение по умолчанию:`истинный` . |
 
 ### Примеры
 
@@ -39,6 +39,8 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
+Показывает, как зашифровать блокнот.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_NoteBook();
@@ -48,6 +50,8 @@ notebook.LoadChildDocument(dataDir + "Aspose.one");
 notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { DocumentPassword = "pass" });
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
+
+Показывает, как получить историю страницы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -69,10 +73,6 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
-
-Показывает, как зашифровать блокнот.
-
-Показывает, как получить историю страницы.
 
 ### Смотрите также
 

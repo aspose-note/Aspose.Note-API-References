@@ -16,8 +16,8 @@ public void AddFontSubstitution(string substituted, string substitution)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| subscribed | String | Имя подставляемого шрифта. |
-| substitution | String | Имя шрифта подстановки. |
+| substituted | String | Заменяемое имя шрифта. |
+| substitution | String | Название подстановочного шрифта. |
 
 ### Смотрите также
 

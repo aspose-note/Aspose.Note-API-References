@@ -16,11 +16,11 @@ public FontFamily GetFontFamily(string fontName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Имя шрифта. |
+| fontName | String | Название шрифта. |
 
 ### Возвращаемое значение
 
-TheFontFamily.
+FontFamily .
 
 ### Смотрите также
 

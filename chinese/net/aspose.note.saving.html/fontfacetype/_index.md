@@ -19,8 +19,8 @@ public enum FontFaceType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotSpecified | `0` | 未指定字体类型 |
-| Ttf | `1` | 真正的类型 fot |
+| NotSpecified | `0` | 字体类型未指定 |
+| Ttf | `1` | 真正的类型fot |
 | Eot | `2` | eot 字体 |
 | Woff | `4` | woff 字体 |
 

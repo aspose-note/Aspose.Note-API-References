@@ -1,14 +1,14 @@
 ---
 title: VisitAttachedFileEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问AttachedFileaspose.note/attachedfile节点
+description: 结束访问AttachedFileaspose.note/attachedfile节点.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/documentvisitor/visitattachedfileend/
 ---
 ## DocumentVisitor.VisitAttachedFileEnd method
 
-结束访问[`AttachedFile`](../../attachedfile)节点。
+结束访问[`AttachedFile`](../../attachedfile)节点.
 
 ```csharp
 public virtual void VisitAttachedFileEnd(AttachedFile attachedFile)
@@ -16,7 +16,7 @@ public virtual void VisitAttachedFileEnd(AttachedFile attachedFile)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| attachedFile | AttachedFile | [`AttachedFile`](../../attachedfile)节点。 |
+| attachedFile | AttachedFile | 的[`AttachedFile`](../../attachedfile)节点. |
 
 ### 也可以看看
 

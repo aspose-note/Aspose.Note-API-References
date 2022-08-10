@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или устанавливает автора.
+description: Получает или задает автора.
 type: docs
 weight: 20
 url: /ru/net/aspose.note/page/author/
 ---
 ## Page.Author property
 
-Получает или устанавливает автора.
+Получает или задает автора.
 
 ```csharp
 public string Author { get; set; }
@@ -36,6 +36,8 @@ foreach (Page page in oneFile)
 }
 ```
 
+Показывает, как получить историю страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -56,8 +58,6 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
-
-Показывает, как получить историю страницы.
 
 ### Смотрите также
 

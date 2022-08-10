@@ -22,10 +22,10 @@ public string FileName { get; }
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 文档目录的路径。
+// 获取所有图像节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)

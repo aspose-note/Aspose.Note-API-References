@@ -1,14 +1,14 @@
 ---
 title: VisitDocumentEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问Documentaspose.note/document节点
+description: 结束访问Documentaspose.note/document节点.
 type: docs
 weight: 30
 url: /zh/net/aspose.note/documentvisitor/visitdocumentend/
 ---
 ## DocumentVisitor.VisitDocumentEnd method
 
-结束访问[`Document`](../../document)节点。
+结束访问[`Document`](../../document)节点.
 
 ```csharp
 public virtual void VisitDocumentEnd(Document document)
@@ -16,7 +16,7 @@ public virtual void VisitDocumentEnd(Document document)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Document | [`Document`](../../document)节点。 |
+| document | Document | 的[`Document`](../../document)节点. |
 
 ### 也可以看看
 

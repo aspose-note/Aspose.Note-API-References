@@ -1,12 +1,12 @@
 ---
 title: Aspose.Note
 second_title: Aspose.Note for .NET API 参考
-description: Note命名空间包含代表文档结构的类
+description: 的Note命名空间包含代表文档结构的类
 type: docs
 weight: 10
 url: /zh/net/aspose.note/
 ---
-Note命名空间包含代表文档结构的类。
+的Note命名空间包含代表文档结构的类。
 
 ## 课程
 
@@ -16,12 +16,12 @@ Note命名空间包含代表文档结构的类。
 | [CheckBox](./checkbox) | 标签的基类，可以在完整和不完整之间切换其状态。 |
 | [CompositeNode&lt;T&gt;](./compositenode-1) | 可以包含其他节点的节点的基类。 |
 | [CompositeNodeBase](./compositenodebase) | 可以包含其他节点的节点的非泛型类。 |
-| [DisplayUnitsConverter](./displayunitsconverter) | 该类包含用于转换值的方法。 |
-| [Document](./document) | 表示一个 Aspose.Note 文档。 |
-| [DocumentVisitor](./documentvisitor) | 用于在指定节点处以根为根的子树迭代的抽象类。 |
-| [FileCorruptedException](./filecorruptedexception) | 在文档加载期间，当文档似乎已损坏且无法加载时抛出。 |
-| [Image](./image) | 表示图像。 |
-| [IncorrectDocumentStructureException](./incorrectdocumentstructureexception) | 如果用户创建的文档结构不正确，则抛出此异常。 |
+| [DisplayUnitsConverter](./displayunitsconverter) | 该类包含转换值的方法。 |
+| [Document](./document) | 代表一个 Aspose.Note 文档。 |
+| [DocumentVisitor](./documentvisitor) | 以指定节点为根的子树迭代的抽象类。 |
+| [FileCorruptedException](./filecorruptedexception) | 在文档加载期间抛出，当文档似乎已损坏且无法加载时。 |
+| [Image](./image) | 表示一个图像。 |
+| [IncorrectDocumentStructureException](./incorrectdocumentstructureexception) | 如果用户创建的文档结构不正确，则抛出此错误。 |
 | [IncorrectPasswordException](./incorrectpasswordexception) | 如果文档使用密码加密并且打开文档时指定的密码不正确或丢失，则抛出此错误。 |
 | [License](./license) | 提供许可组件的方法。 |
 | [LoadOptions](./loadoptions) | 用于加载文档的选项。 |
@@ -30,54 +30,53 @@ Note命名空间包含代表文档结构的类。
 | [Node](./node) | Aspose.Note 文档的所有节点的基类。 |
 | [Notebook](./notebook) | 代表一个 Aspose.Note 笔记本。 |
 | [NotebookLoadOptions](./notebookloadoptions) | 用于加载笔记本的选项。 |
-| [NoteCheckBox](./notecheckbox) | 表示可以在完整和不完整之间切换其状态的注释标记。 |
+| [NoteCheckBox](./notecheckbox) | 表示可以在完整和不完整之间切换其状态的注释标签。 |
 | [NoteTag](./notetag) | 表示注释标签。 |
-| [NoteTask](./notetask) | 表示笔记任务。 |
+| [NoteTask](./notetask) | 代表一个笔记任务。 |
 | [NumberList](./numberlist) | 表示编号或项目符号列表。 |
 | [Outline](./outline) | 表示大纲。 |
 | [OutlineElement](./outlineelement) | 表示一个 OutlineElement。 |
 | [OutlineGroup](./outlinegroup) | 表示一个大纲组。 |
 | [Page](./page) | 代表一个页面。 |
-| [PageHistory](./pagehistory) | 表示页面历史。 |
-| [ParagraphStyle](./paragraphstyle) | 如果在Styles集合中没有匹配的 TextStyle 对象，则使用文本样式设置或此对象没有指定需要的设置。 |
+| [PageHistory](./pagehistory) | 代表页面历史记录。 |
+| [ParagraphStyle](./paragraphstyle) | 中没有匹配的 TextStyle 对象时使用的文本样式设置Styles收集此对象未指定所需设置。 |
 | [RevisionSummary](./revisionsummary) | 表示节点修订的摘要。 |
 | [RichText](./richtext) | 表示富文本。 |
-| [Style](./style) | 此类包含[`ParagraphStyle`](../aspose.note/paragraphstyle)和TextStyle的公共属性课程。 |
+| [Style](./style) | 此类包含[`ParagraphStyle`](../aspose.note/paragraphstyle)和[`TextStyle`](../aspose.note/textstyle)类. |
 | [Table](./table) | 表示一个表。 |
-| [TableCell](./tablecell) | 表示表格单元格。 |
-| [TableColumn](./tablecolumn) | 表示一个表列。 |
+| [TableCell](./tablecell) | 表示一个表格单元格。 |
+| [TableColumn](./tablecolumn) | 代表一个表列。 |
 | [TableRow](./tablerow) | 表示一个表行。 |
 | [TextRun](./textrun) | 表示具有关联样式的一段文本的类。 |
 | [TextStyle](./textstyle) | 指定文本样式。 |
-| [Title](./title) | 表示标题。 |
-| [UnsupportedFileFormatException](./unsupportedfileformatexception) | 在文档加载期间，当 Aspose.Note 无法识别或不支持文件格式时抛出。 |
-| [UnsupportedSaveFormatException](./unsupportedsaveformatexception) | 如果请求的保存格式不受支持，则抛出。 |
+| [Title](./title) | 代表一个标题。 |
+| [UnsupportedFileFormatException](./unsupportedfileformatexception) | 在文档加载期间抛出，当文件格式不被 Aspose.Note 识别或不支持时。 |
+| [UnsupportedSaveFormatException](./unsupportedsaveformatexception) | 如果请求的保存格式不受支持则抛出。 |
 ## 接口
 
 | 界面 | 描述 |
 | --- | --- |
 | [ICompositeNode](./icompositenode) | 可以包含其他节点的节点的接口。 |
 | [ICompositeNode&lt;T&gt;](./icompositenode-1) | 可以包含其他节点的节点的接口。 |
-| [INode](./inode) | Aspose.Note 文档的所有节点的接口。 |
+| [INode](./inode) | Aspose.Note 文档所有节点的接口。 |
 | [INotebookChildNode](./inotebookchildnode) | 表示 Aspose.Note 笔记本的子节点。 |
 | [INoteTag](./inotetag) | 笔记标签（即与 Outlook 任务无关的标签）的接口。 |
-| [IOutlineChildNode](./ioutlinechildnode) | 大纲节点的所有子节点的接口。 |
-| [IOutlineElementChildNode](./ioutlineelementchildnode) | 大纲元素节点的所有子节点的接口。 |
+| [IOutlineChildNode](./ioutlinechildnode) | 一个大纲节点的所有子节点的接口。 |
+| [IOutlineElementChildNode](./ioutlineelementchildnode) | 一个大纲元素节点的所有子节点的接口。 |
 | [IPageChildNode](./ipagechildnode) | 一个页面节点的所有子节点的接口。 |
 | [ITag](./itag) | 各种标签的接口。 |
-| [ITaggable](./itaggable) | 可以标记节点的接口。 |
+| [ITaggable](./itaggable) | 可标记节点的接口。 |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
-| [FileFormat](./fileformat) | 表示 OneNote 文件格式。 |
+| [FileFormat](./fileformat) | 代表 OneNote 文件格式。 |
 | [HorizontalAlignment](./horizontalalignment) | 指定对齐方式。 |
 | [NodeType](./nodetype) | 指定节点的类型。 |
-| [NumberFormat](./numberformat) | 指定可用于一组自动编号对象的编号格式。 完整列表在 [MSDN](https://msdn.microsoft.com/en-us/library/dd923798(v=office.12).aspx) |
+| [NumberFormat](./numberformat) | 指定可用于一组自动编号对象的编号格式。 完整列表在[MSDN](https://msdn.microsoft.com/en-us/library/dd923798(v=office.12).aspx) |
 | [PageSizeType](./pagesizetype) | 指定页面节点类型的大小。 |
 | [SaveFormat](./saveformat) | 表示文档保存的格式。 |
 | [TagIcon](./tagicon) | 指定标签或任务图标的图标。 |
 | [TagStatus](./tagstatus) | 指定注释标签节点的状态。 |
-| [TaskType](./tasktype) | 指定笔记任务节点的类型。 |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->

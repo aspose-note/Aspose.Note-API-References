@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Note для .NET
-description: Возвращает перечислитель который перебирает дочерние узлыTitleaspose.note/title.
+description: Возвращает перечислитель который перебирает дочерние узлыTitleaspose.note/title .
 type: docs
 weight: 110
 url: /ru/net/aspose.note/title/getenumerator/
 ---
 ## Title.GetEnumerator method
 
-Возвращает перечислитель, который перебирает дочерние узлы[`Title`](../../title).
+Возвращает перечислитель, который перебирает дочерние узлы[`Title`](../../title) .
 
 ```csharp
 public IEnumerator<RichText> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<RichText> GetEnumerator()
 
 ### Возвращаемое значение
 
-TheIEnumerator.
+IEnumerator .
 
 ### Смотрите также
 

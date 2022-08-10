@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Note for .NET API 参考
 description: 指定文本样式
 type: docs
-weight: 950
+weight: 940
 url: /zh/net/aspose.note/textstyle/
 ---
 ## TextStyle class
@@ -33,25 +33,25 @@ public sealed class TextStyle : Style
 | [FontSize](../../aspose.note/style/fontsize) { get; set; } | 获取或设置字体大小。 |
 | [FontStyle](../../aspose.note/style/fontstyle) { get; } | 获取字体样式。 |
 | [Highlight](../../aspose.note/style/highlight) { get; set; } | 获取或设置高亮颜色。 |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | 获取或设置超链接地址。如果[`IsHyperlink`](./ishyperlink)属性的值为 true，则必须设置。 |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | 获取或设置超链接地址。如果值为[`IsHyperlink`](./ishyperlink)属性为真。 |
 | [IsBold](../../aspose.note/style/isbold) { get; set; } | 获取或设置一个值，指示文本样式是否为粗体。 |
-| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | 获取或设置一个指示文本样式是否隐藏的值。 |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | 获取或设置一个值，该值指示文本样式是否为超链接。 |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | 获取或设置一个值，指示文本样式是否为斜体。 |
+| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | 获取或设置文本样式是否隐藏的值。 |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | 获取或设置文本样式是否为超链接的值。 |
+| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | 获取或设置文本样式是否为斜体的值。 |
 | [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | 获取或设置一个值，该值指示文本样式是否为数学格式。 |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | 获取或设置一个值，该值指示文本样式是否为删除线。 |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | 获取或设置一个值，该值指示文本样式是否为下标。 |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | 获取或设置一个值，指示文本样式是否为上标。 |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | 获取或设置一个值，指示文本样式是否为下划线。 |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | 获取或设置文本样式是否为下标的值。 |
+| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | 获取或设置文本样式是否为上标的值。 |
+| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | 获取或设置文本样式是否为下划线的值。 |
 | [Language](../../aspose.note/textstyle/language) { get; set; } | 获取或设置文本的语言。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
-| [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | 判断指定对象是否等于当前对象。 |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | 用作该类型的哈希函数。 |
+| override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | 判断指定对象是否等于当前对象 |
+| [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | 判断指定对象是否等于当前对象 |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | 用作类型的哈希函数。 |
 
 ### 例子
 
@@ -60,10 +60,10 @@ public sealed class TextStyle : Style
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 初始化 TableCell 类对象并设置文本内容
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-// 初始化 TableRow 类对象
+// 遍历页面的标题。
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -79,28 +79,32 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
+让我们通过突出显示来强调最新文本的变化。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 初始化 TableCell 类对象并设置文本内容
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-// 初始化表类对象
+// 获取上周修改的 RichText 节点。
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // 添加行
+    // 设置高亮颜色
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // 添加行
+        // 设置高亮颜色
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }
 
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
+
+设置文本的校对语言。
 
 ```csharp
 var document = new Document();
@@ -121,6 +125,8 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
+使用段落样式按文本格式进行操作。
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -140,11 +146,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
+显示如何将超链接绑定到文本。
+
 ```csharp
-// 添加大纲元素节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-的头衔。
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -178,33 +186,25 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// 将文档加载到 Aspose.Note。
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 将文档加载到 Aspose.Note。
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 遍历页面的标题。
+//初始化Page类对象
 Page page = new Note.Page() { Title = title };
 
-的头衔。
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 将文档加载到 Aspose.Note。
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 获取上周修改的 RichText 节点。
+// 保存 OneNote 文档
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-让我们通过突出显示来强调最新文本的更改。
-
-设置文本的校对语言。
-
-使用段落样式按文本格式进行操作。
-
-显示如何将超链接绑定到文本。
 
 ### 也可以看看
 

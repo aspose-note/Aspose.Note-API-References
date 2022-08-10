@@ -17,16 +17,16 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип элементов составного узла. |
+| T | Тип элементов в составном узле. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } | Получает первый дочерний узел данного узла. |
+| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } | Получает первый дочерний узел этого узла. |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } | Проверяет, является ли узел составным. Если true, то узел может иметь дочерние узлы. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } | Получает последний дочерний узел данного узла. |
+| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } | Получает последний дочерний узел этого узла. |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
 | [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
 | [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
@@ -38,12 +38,12 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 | --- | --- |
 | override [Accept](../../aspose.note/compositenode`1/accept)(DocumentVisitor) | Принимает посетителя узла. |
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) | Добавляет узел в начало списка дочерних узлов для этого узла. |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) | Добавляет узел в конец списка дочерних узлов для данного узла. |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) | Добавляет узел в конец списка дочерних узлов для этого узла. |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes#getchildnodes_1)() | Получить все дочерние узлы по типу узла. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`CompositeNode`](../compositenode-1). |
+| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`CompositeNode`](../compositenode-1) . |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) | Вставляет узел в указанную позицию в списке дочерних узлов для этого узла. |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для данного узла. |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange_1)(int, params T[]) | Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для данного узла. |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для этого узла. |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange_1)(int, params T[]) | Вставляет последовательность узлов, начиная с указанной позиции, в список дочерних узлов для этого узла. |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) | Удаляет дочерний узел. |
 
 ### Смотрите также

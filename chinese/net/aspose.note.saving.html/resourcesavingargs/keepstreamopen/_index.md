@@ -1,14 +1,14 @@
 ---
 title: KeepStreamOpen
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个指示是否保持流打开的值
+description: 获取或设置是否保持流打开的值
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving.html/resourcesavingargs/keepstreamopen/
 ---
 ## ResourceSavingArgs.KeepStreamOpen property
 
-获取或设置一个指示是否保持流打开的值。
+获取或设置是否保持流打开的值。
 
 ```csharp
 public bool KeepStreamOpen { get; set; }

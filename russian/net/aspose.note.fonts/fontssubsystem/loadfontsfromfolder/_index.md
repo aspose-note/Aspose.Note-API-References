@@ -23,7 +23,7 @@ public void LoadFontsFromFolder(string folder)
 | исключение | условие |
 | --- | --- |
 | NullReferenceException | Параметр "папка" имеет значение null или пуст. |
-| DirectoryNotFoundException | Указанный папкой каталог не существует. |
+| DirectoryNotFoundException | Указанный каталог не существует. |
 | InvalidDataException | Файл из папки не содержит шрифта TrueType. |
 
 ### Смотрите также

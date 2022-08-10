@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API 参考
-description: 返回一个遍历Titleaspose.note/title子节点的枚举数
+description: 返回一个遍历子节点的枚举器Titleaspose.note/title.
 type: docs
 weight: 110
 url: /zh/net/aspose.note/title/getenumerator/
 ---
 ## Title.GetEnumerator method
 
-返回一个遍历[`Title`](../../title)子节点的枚举数。
+返回一个遍历子节点的枚举器[`Title`](../../title).
 
 ```csharp
 public IEnumerator<RichText> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<RichText> GetEnumerator()
 
 ### 返回值
 
-IEnumerator。
+的IEnumerator.
 
 ### 也可以看看
 

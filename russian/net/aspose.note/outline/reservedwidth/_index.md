@@ -1,14 +1,14 @@
 ---
 title: ReservedWidth
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает зарезервированную ширину.
+description: Получает или устанавливает зарезервированную ширину.
 type: docs
 weight: 90
 url: /ru/net/aspose.note/outline/reservedwidth/
 ---
 ## Outline.ReservedWidth property
 
-Получает или задает зарезервированную ширину.
+Получает или устанавливает зарезервированную ширину.
 
 ```csharp
 public float ReservedWidth { get; set; }

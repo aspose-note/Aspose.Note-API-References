@@ -1,14 +1,14 @@
 ---
 title: IPageSavingCallback
 second_title: Aspose.Note for .NET API 参考
-description: 如果您想控制 Aspose.Note 如何保存单独的页面请实现此接口
+description: 如果要控制Aspose.Note如何保存单独的页面请实现此接口
 type: docs
 weight: 630
 url: /zh/net/aspose.note.saving.html/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
 
-如果您想控制 Aspose.Note 如何保存单独的页面，请实现此接口。
+如果要控制Aspose.Note如何保存单独的页面，请实现此接口。
 
 ```csharp
 public interface IPageSavingCallback
@@ -18,7 +18,7 @@ public interface IPageSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageSaving](../../aspose.note.saving.html/ipagesavingcallback/pagesaving)(PageSavingArgs) | 当 Aspose.Note 保存单独的页面时调用。 |
+| [PageSaving](../../aspose.note.saving.html/ipagesavingcallback/pagesaving)(PageSavingArgs) | Aspose.Note 保存单独页面时调用。 |
 
 ### 也可以看看
 

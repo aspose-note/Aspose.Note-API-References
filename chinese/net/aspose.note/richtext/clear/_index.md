@@ -16,7 +16,7 @@ public RichText Clear()
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 

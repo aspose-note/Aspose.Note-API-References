@@ -1,14 +1,14 @@
 ---
 title: CreateNoFollowUpDate
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有 NoFollowUpDateFlag 图标的新笔记任务
+description: 使用 NoFollowUpDateFlag 图标创建一个新的笔记任务
 type: docs
 weight: 60
 url: /zh/net/aspose.note/notetask/createnofollowupdate/
 ---
 ## NoteTask.CreateNoFollowUpDate method
 
-创建一个带有 NoFollowUpDateFlag 图标的新笔记任务。
+使用 NoFollowUpDateFlag 图标创建一个新的笔记任务。
 
 ```csharp
 public static NoteTask CreateNoFollowUpDate()
@@ -16,7 +16,7 @@ public static NoteTask CreateNoFollowUpDate()
 
 ### 返回值
 
-[`NoteTask`](../../notetask)。
+的[`NoteTask`](../../notetask).
 
 ### 也可以看看
 

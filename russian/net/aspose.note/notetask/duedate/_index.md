@@ -16,7 +16,7 @@ public DateTime DueDate { get; set; }
 
 ### Стоимость имущества
 
-TheDateTime.
+DateTime .
 
 ### Примеры
 
@@ -40,6 +40,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
+
+Показывает, как получить доступ к сведениям о задачах Outlook.
 
 ```csharp
 // Путь к каталогу документов.
@@ -70,8 +72,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-Показывает, как получить доступ к сведениям о задачах Outlook.
 
 ### Смотрите также
 

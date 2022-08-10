@@ -19,7 +19,7 @@ public Color BackgroundColor { get; set; }
 显示如何为单元格设置背景颜色。
 
 ```csharp
-// 初始化 TableRow 类对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
 // 初始化 TableCell 类对象并设置文本内容
@@ -44,7 +44,7 @@ oe.AppendChildLast(table);
 Outline o = new Outline(doc);
 o.AppendChildLast(oe);
 
-// 初始化 TableCell 类对象并设置文本内容
+//初始化Page类对象
 Page page = new Page(doc);
 page.AppendChildLast(o);
 

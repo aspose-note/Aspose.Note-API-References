@@ -16,7 +16,7 @@ public override void Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 派生自DocumentVisitor。 |
+| visitor | DocumentVisitor | 派生自的类的对象[`DocumentVisitor`](../../documentvisitor). |
 
 ### 也可以看看
 

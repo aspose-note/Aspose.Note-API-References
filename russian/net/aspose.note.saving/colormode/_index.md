@@ -20,7 +20,7 @@ public enum ColorMode
 | --- | --- | --- |
 | Normal | `0` | Полноцветное изображение |
 | GrayScale | `1` | Изображение в оттенках серого |
-| BlackAndWhite | `2` | Бинарное изображение:используются только черный и белый цвета |
+| BlackAndWhite | `2` | Бинарное изображение: используются только черный и белый цвета |
 
 ### Примеры
 
@@ -42,6 +42,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
+Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -58,6 +60,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.Ccitt3
                       });
 ```
+
+Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -79,6 +83,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -99,12 +105,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
-
-Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
 
 ### Смотрите также
 

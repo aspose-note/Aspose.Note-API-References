@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Note for .NET API 参考
-description: 测试两个Margins结构是否相等
+description: 测试是否两个Margins结构是平等的
 type: docs
 weight: 90
 url: /zh/net/aspose.note/margins/op_equality/
 ---
 ## Margins Equality operator
 
-测试两个Margins结构是否相等。
+测试是否两个Margins结构是平等的。
 
 ```csharp
 public static bool operator ==(Margins lhs, Margins rhs)
@@ -16,12 +16,12 @@ public static bool operator ==(Margins lhs, Margins rhs)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| lhs | Margins | Margins结构。 |
-| rhs | Margins | Margins结构进行比较。 |
+| lhs | Margins | 的Margins结构. |
+| rhs | Margins | 的Margins要与之比较的结构。 |
 
 ### 返回值
 
-Boolean。
+的Boolean.
 
 ### 也可以看看
 

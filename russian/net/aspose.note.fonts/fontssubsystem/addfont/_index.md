@@ -1,14 +1,14 @@
 ---
 title: AddFont
 second_title: Справочник по API Aspose.Note для .NET
-description: Добавить шрифт.
+description: Добавьте шрифт.
 type: docs
 weight: 20
 url: /ru/net/aspose.note.fonts/fontssubsystem/addfont/
 ---
 ## AddFont(Stream, string) {#addfont_1}
 
-Добавить шрифт.
+Добавьте шрифт.
 
 ```csharp
 public void AddFont(Stream stream, string tempFolder)
@@ -29,7 +29,7 @@ public void AddFont(Stream stream, string tempFolder)
 
 ## AddFont(Stream) {#addfont}
 
-Добавить шрифт.
+Добавьте шрифт.
 
 ```csharp
 public void AddFont(Stream stream)
@@ -49,7 +49,7 @@ public void AddFont(Stream stream)
 
 ## AddFont(string) {#addfont_2}
 
-Добавить шрифт.
+Добавьте шрифт.
 
 ```csharp
 public void AddFont(string file)

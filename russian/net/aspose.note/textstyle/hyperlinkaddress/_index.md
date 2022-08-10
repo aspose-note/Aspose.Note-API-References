@@ -1,14 +1,14 @@
 ---
 title: HyperlinkAddress
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает адрес гиперссылки. Должен быть установлен если значение свойстваIsHyperlinkaspose.note/textstyle/ishyperlinkравно true.
+description: Получает или задает адрес гиперссылки. Должен быть установлен если значениеIsHyperlinkaspose.note/textstyle/ishyperlink свойство истинно.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Получает или задает адрес гиперссылки. Должен быть установлен, если значение свойства[`IsHyperlink`](../ishyperlink)равно true.
+Получает или задает адрес гиперссылки. Должен быть установлен, если значение[`IsHyperlink`](../ishyperlink) свойство истинно.
 
 ```csharp
 public string HyperlinkAddress { get; set; }

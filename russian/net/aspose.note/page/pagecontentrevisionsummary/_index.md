@@ -41,6 +41,8 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
+Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
@@ -65,8 +67,6 @@ for (int i = 0; i < history.Count; i++)
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
-
-Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
 
 ### Смотрите также
 

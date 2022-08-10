@@ -1,14 +1,14 @@
 ---
 title: NotebookImageSaveOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Позволяет указать дополнительные параметры при рендеринге страниц блокнота в изображения.
+description: Позволяет указать дополнительные параметры при преобразовании страниц блокнота в изображения.
 type: docs
 weight: 740
 url: /ru/net/aspose.note.saving/notebookimagesaveoptions/
 ---
 ## NotebookImageSaveOptions class
 
-Позволяет указать дополнительные параметры при рендеринге страниц блокнота в изображения.
+Позволяет указать дополнительные параметры при преобразовании страниц блокнота в изображения.
 
 ```csharp
 public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
@@ -18,13 +18,13 @@ public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
 
 | Имя | Описание |
 | --- | --- |
-| [NotebookImageSaveOptions](notebookimagesaveoptions)(SaveFormat) | Инициализирует новый экземпляр класса[`NotebookImageSaveOptions`](../notebookimagesaveoptions). |
+| [NotebookImageSaveOptions](notebookimagesaveoptions)(SaveFormat) | Инициализирует новый экземпляр[`NotebookImageSaveOptions`](../notebookimagesaveoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, должны ли дочерние документы сохраняться явно. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, следует ли сохранять дочерние документы явно. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/documentsaveoptions) { get; } |  |
 | [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten) { get; set; } | Получает или задает значение, указывающее, сохраняется ли иерархия дочерних элементов записной книжки в свернутом виде. |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions`1/saveformat) { get; } |  |
@@ -37,7 +37,7 @@ public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
 
 ### Примеры
 
-Показывает, как сохранить сведенный блокнот в формате pdf.
+Показывает, как сохранить плоский блокнот в формате pdf.
 
 ```csharp
 // Путь к каталогу документов.
@@ -55,6 +55,8 @@ notebook.Save(
         Flatten = true
     });
 ```
+
+Показывает, как сохранить записную книжку как изображение с указанными параметрами.
 
 ```csharp
 // Путь к каталогу документов.
@@ -75,6 +77,8 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+Показывает, как сохранить плоский блокнот как изображение.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_NoteBook();
@@ -94,10 +98,6 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 // Сохраняем блокнот
 notebook.Save(dataDir, notebookSaveOptions);
 ```
-
-Показывает, как сохранить блокнот как изображение с указанными параметрами.
-
-Показывает, как сохранить блокнот в виде изображения.
 
 ### Смотрите также
 

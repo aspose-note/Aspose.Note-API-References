@@ -19,7 +19,7 @@ public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IO
 
 | Имя | Описание |
 | --- | --- |
-| [OutlineElement](outlineelement#constructor)() | Инициализирует новый экземпляр класса[`OutlineElement`](../outlineelement). |
+| [OutlineElement](outlineelement#constructor)() | Инициализирует новый экземпляр[`OutlineElement`](../outlineelement) класс. |
 
 ## Характеристики
 
@@ -31,7 +31,7 @@ public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IO
 | [IndentPosition](../../aspose.note/outlineelement/indentposition) { get; set; } | Получает или задает позицию отступа. |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
+| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
 | [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
 | [NumberList](../../aspose.note/outlineelement/numberlist) { get; set; } | Получает или задает стиль заголовка нумерованного списка. |
@@ -93,6 +93,8 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как получить информацию о форматировании списка.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -134,6 +136,8 @@ foreach (OutlineElement node in nodes)
 }
 ```
 
+Показывает, как вставить новый список с китайской нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -173,6 +177,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -219,6 +225,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -263,14 +271,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
-
-Показывает, как получить информацию о форматировании списка.
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
 
 ### Смотрите также
 

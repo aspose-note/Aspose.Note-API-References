@@ -1,14 +1,14 @@
 ---
 title: Bytes
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает двоичные данные для встроенного файла.
+description: Получает двоичные данные для внедренного файла.
 type: docs
 weight: 50
 url: /ru/net/aspose.note/attachedfile/bytes/
 ---
 ## AttachedFile.Bytes property
 
-Получает двоичные данные для встроенного файла.
+Получает двоичные данные для внедренного файла.
 
 ```csharp
 public byte[] Bytes { get; }
@@ -16,7 +16,7 @@ public byte[] Bytes { get; }
 
 ### Примеры
 
-Показывает, как получить содержимое прикрепленного файла.
+Показывает, как получить содержимое вложенного файла.
 
 ```csharp
 // Путь к каталогу документов.

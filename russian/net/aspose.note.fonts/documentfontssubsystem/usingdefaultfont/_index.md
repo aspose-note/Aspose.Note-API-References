@@ -22,7 +22,7 @@ public static DocumentFontsSubsystem UsingDefaultFont(string defaultFontName,
 
 ### Возвращаемое значение
 
-Подсистема[`DocumentFontsSubsystem`](../../documentfontssubsystem).
+[`DocumentFontsSubsystem`](../../documentfontssubsystem) .
 
 ### Примеры
 

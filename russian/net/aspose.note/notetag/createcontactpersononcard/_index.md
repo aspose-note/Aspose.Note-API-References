@@ -20,7 +20,7 @@ public static NoteTag CreateContactPersonOnCard(string label = "Contact")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

@@ -21,10 +21,10 @@ public bool IsBold { get; set; }
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 保存 OneNote 文档
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-// 将文档加载到 Aspose.Note。
+// 遍历页面的标题。
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -40,30 +40,30 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
+让我们通过突出显示来强调最新文本的变化。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 遍历页面的标题。
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-的头衔。
+// 获取上周修改的 RichText 节点。
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // 将文档加载到 Aspose.Note。
+    // 设置高亮颜色
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // 将文档加载到 Aspose.Note。
+        // 设置高亮颜色
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }
 
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
-
-让我们通过突出显示来强调最新文本的更改。
 
 ### 也可以看看
 

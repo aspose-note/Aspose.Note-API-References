@@ -1,14 +1,14 @@
 ---
 title: IncorrectDocumentStructureException
 second_title: Aspose.Note for .NET API 参考
-description: 如果用户创建的文档结构不正确则抛出此异常
+description: 如果用户创建的文档结构不正确则抛出此错误
 type: docs
 weight: 270
 url: /zh/net/aspose.note/incorrectdocumentstructureexception/
 ---
 ## IncorrectDocumentStructureException class
 
-如果用户创建的文档结构不正确，则抛出此异常。
+如果用户创建的文档结构不正确，则抛出此错误。
 
 ```csharp
 public class IncorrectDocumentStructureException : Exception

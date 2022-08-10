@@ -19,8 +19,8 @@ public IFontSavingCallback FontSavingCallback { get; set; }
 展示如何使用用户定义的回调将文档保存为 html 格式并存储所有资源（css/fonts/images）。
 
 ```csharp
-// 或者
-// 文档目录的路径。
+// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 'style.css' 文件将在末尾包含以下字符串“/* 此行由用户手动附加到流 */”
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",

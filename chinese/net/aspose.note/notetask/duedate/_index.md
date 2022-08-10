@@ -16,11 +16,11 @@ public DateTime DueDate { get; set; }
 
 ### 适当的价值
 
-DateTime。
+的DateTime.
 
 ### 例子
 
-显示如何生成包含与“项目 A”相关的所有页面的 pdf。
+展示如何生成包含与“项目 A”相关的所有页面的 pdf。
 
 ```csharp
 // 文档目录的路径。
@@ -40,6 +40,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
+
+显示如何访问 Outlook 任务的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -70,8 +72,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-显示如何访问 Outlook 任务的详细信息。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LoadFontsFromFolder
 second_title: Aspose.Note for .NET API 参考
-description: 将指定文件夹中的所有 TrueType 字体加载到内部集合
+description: 将所有 TrueType 字体从指定文件夹加载到内部集合
 type: docs
 weight: 50
 url: /zh/net/aspose.note.fonts/fontssubsystem/loadfontsfromfolder/
 ---
 ## FontsSubsystem.LoadFontsFromFolder method
 
-将指定文件夹中的所有 TrueType 字体加载到内部集合。
+将所有 TrueType 字体从指定文件夹加载到内部集合。
 
 ```csharp
 public void LoadFontsFromFolder(string folder)

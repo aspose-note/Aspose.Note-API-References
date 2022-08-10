@@ -1,14 +1,14 @@
 ---
 title: HeightLimitOfClonedPart
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает предел высоты клонируемой части.
+description: Получает предел высоты клонированной детали.
 type: docs
 weight: 20
 url: /ru/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm.HeightLimitOfClonedPart property
 
-Получает предел высоты клонируемой части.
+Получает предел высоты клонированной детали.
 
 ```csharp
 public float HeightLimitOfClonedPart { get; }

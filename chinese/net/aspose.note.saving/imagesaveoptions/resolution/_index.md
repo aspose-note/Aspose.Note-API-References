@@ -16,7 +16,7 @@ public float Resolution { get; set; }
 
 ### 评论
 
-默认值为 96。
+默认值为 96.
 
 ### 例子
 
@@ -31,15 +31,17 @@ Document doc = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 
-// 将文档保存为 gif。
+// 保存文档。
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
+
+显示如何使用指定选项将笔记本保存为图像。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 将文档加载到 Aspose.Note。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -50,9 +52,11 @@ documentSaveOptions.Resolution = 400;
 
 dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 
-// 保存文档。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
+
+显示如何将展平的笔记本另存为图像。
 
 ```csharp
 // 文档目录的路径。
@@ -73,10 +77,6 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 // 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
-
-显示如何使用指定选项将笔记本保存为图像。
-
-显示如何将扁平笔记本保存为图像。
 
 ### 也可以看看
 

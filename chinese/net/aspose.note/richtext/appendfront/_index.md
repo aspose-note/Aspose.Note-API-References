@@ -1,14 +1,14 @@
 ---
 title: AppendFront
 second_title: Aspose.Note for .NET API 参考
-description: 将字符串添加到第一个文本范围的前面
+description: 在第一个文本范围的前面添加一个字符串
 type: docs
 weight: 140
 url: /zh/net/aspose.note/richtext/appendfront/
 ---
 ## AppendFront(string) {#appendfront}
 
-将字符串添加到第一个文本范围的前面。
+在第一个文本范围的前面添加一个字符串。
 
 ```csharp
 public RichText AppendFront(string value)
@@ -20,7 +20,7 @@ public RichText AppendFront(string value)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public RichText AppendFront(string value, TextStyle style)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 

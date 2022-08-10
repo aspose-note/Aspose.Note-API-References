@@ -16,58 +16,58 @@ public bool LockedWidth { get; set; }
 
 ### 例子
 
-显示如何创建具有锁定列的表。
+演示如何创建具有锁定列的表。
 
 ```csharp
-// 将表格单元格附加到行
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 初始化 Table 类对象并设置列宽
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 将表格行追加到表格中
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 初始化大纲对象
+// 初始化 TableRow 类对象
 TableRow row1 = new TableRow(doc);
 
-// 初始化 OutlineElement 对象
+// 初始化 TableCell 类对象并设置文本内容
 TableCell cell11 = new TableCell(doc);
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
-// 初始化大纲对象
+// 初始化 TableRow 类对象
 TableRow row2 = new TableRow(doc);
 
-// 初始化 OutlineElement 对象
+// 初始化 TableCell 类对象并设置文本内容
 TableCell cell21 = new TableCell(doc);
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
-// 添加大纲到页面节点
+// 初始化表类对象
 Table table = new Table(doc)
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
               };
 
-// 添加页面到文档节点
+// 添加行
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 Outline outline = new Outline(doc);
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// 文档目录的路径。
+// 添加表节点
 outlineElem.AppendChildLast(table);
 
-// 创建 Document 类的对象
+// 添加大纲元素节点
 outline.AppendChildLast(outlineElem);
 
-//初始化Page类对象
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 初始化 TableRow 类对象
+// 添加页面节点
 doc.AppendChildLast(page);
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);

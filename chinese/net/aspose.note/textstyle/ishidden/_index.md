@@ -1,14 +1,14 @@
 ---
 title: IsHidden
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个指示文本样式是否隐藏的值
+description: 获取或设置文本样式是否隐藏的值
 type: docs
 weight: 70
 url: /zh/net/aspose.note/textstyle/ishidden/
 ---
 ## TextStyle.IsHidden property
 
-获取或设置一个指示文本样式是否隐藏的值。
+获取或设置文本样式是否隐藏的值。
 
 ```csharp
 public bool IsHidden { get; set; }

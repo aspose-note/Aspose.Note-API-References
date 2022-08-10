@@ -1,14 +1,14 @@
 ---
 title: SpaceAfter
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или устанавливает минимальное количество места после.
+description: Получает или задает минимальное количество места после .
 type: docs
 weight: 70
 url: /ru/net/aspose.note/richtext/spaceafter/
 ---
 ## RichText.SpaceAfter property
 
-Получает или устанавливает минимальное количество места после.
+Получает или задает минимальное количество места после .
 
 ```csharp
 public float? SpaceAfter { get; set; }

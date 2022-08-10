@@ -1,14 +1,14 @@
 ---
 title: FontsSubsystem
 second_title: Aspose.Note for .NET API 参考
-description: 实现 Aspose.Note.Fonts.IFontsSubsystem 接口的基类 提供默认字体和字体替换的功能 在派生类中覆盖 Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily 受保护的成员函数以实现检索FontFamily对象的逻辑
+description: 实现 Aspose.Note.Fonts.IFontsSubsystem 接口的基类 提供默认字体和字体替换的功能 在派生类中覆盖 Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily 受保护的成员函数以实现用于检索FontFamily对象.
 type: docs
 weight: 110
 url: /zh/net/aspose.note.fonts/fontssubsystem/
 ---
 ## FontsSubsystem class
 
-实现 Aspose.Note.Fonts.IFontsSubsystem 接口的基类。 提供默认字体和字体替换的功能。 在派生类中覆盖 Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily 受保护的成员函数，以实现检索FontFamily对象的逻辑。
+实现 Aspose.Note.Fonts.IFontsSubsystem 接口的基类。 提供默认字体和字体替换的功能。 在派生类中覆盖 Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily 受保护的成员函数，以实现用于检索FontFamily对象.
 
 ```csharp
 public abstract class FontsSubsystem : IFontsSubsystem
@@ -29,7 +29,7 @@ public abstract class FontsSubsystem : IFontsSubsystem
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont#addfont_1)(Stream, string) | 添加字体。 |
 | [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | 添加字体替换。 |
 | virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | 获取字体系列。 |
-| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | 将指定文件夹中的所有 TrueType 字体加载到内部集合。 |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | 将所有 TrueType 字体从指定文件夹加载到内部集合。 |
 
 ### 也可以看看
 

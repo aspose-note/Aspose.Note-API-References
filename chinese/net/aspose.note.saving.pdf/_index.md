@@ -1,12 +1,12 @@
 ---
 title: Aspose.Note.Saving.Pdf
 second_title: Aspose.Note for .NET API 参考
-description: Pdf命名空间包含执行保存为 PDF 格式的类
+description: 的Pdf命名空间包含执行保存为 PDF 格式的类
 type: docs
 weight: 60
 url: /zh/net/aspose.note.saving.pdf/
 ---
-Pdf命名空间包含执行保存为 PDF 格式的类。
+的Pdf命名空间包含执行保存为 PDF 格式的类。
 
 ## 枚举
 

@@ -18,13 +18,13 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 
 | Имя | Описание |
 | --- | --- |
-| [CompletedTime](../../aspose.note/notetag/completedtime) { get; set; } | Получает или задает завершенное время. |
+| [CompletedTime](../../aspose.note/notetag/completedtime) { get; } | Получает или устанавливает завершенное время. |
 | [CreationTime](../../aspose.note/notetag/creationtime) { get; set; } | Получает или задает время создания. |
 | [FontColor](../../aspose.note/notetag/fontcolor) { get; set; } | Получает или задает цвет шрифта. |
 | [Highlight](../../aspose.note/notetag/highlight) { get; set; } | Получает или задает цвет выделения. |
 | [Icon](../../aspose.note/notetag/icon) { get; set; } | Получает или задает значок. |
 | [Label](../../aspose.note/notetag/label) { get; set; } | Получает или задает текст метки. |
-| [Status](../../aspose.note/notetag/status) { get; set; } | Получает или устанавливает статус. |
+| [Status](../../aspose.note/notetag/status) { get; } | Получает или устанавливает статус. |
 
 ## Методы
 
@@ -86,7 +86,7 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateGreenXWithDots](../../aspose.note/notetag/creategreenxwithdots)(string) | Создает новый тег заметки со значком GreenXWithDots и указанной меткой. |
 | static [CreateHeart](../../aspose.note/notetag/createheart)(string) | Создает новый тег заметки со значком сердца и указанной меткой. |
 | static [CreateHighPriority](../../aspose.note/notetag/createhighpriority)(string) | Создает новый тег заметки со значком HighPriority и указанной меткой. |
-| static [CreateHome](../../aspose.note/notetag/createhome)(string) | Создает новый тег заметки со значком Home и указанной меткой. |
+| static [CreateHome](../../aspose.note/notetag/createhome)(string) | Создает новый тег заметки со значком «Домой» и указанной меткой. |
 | static [CreateHyperlinkGlobe](../../aspose.note/notetag/createhyperlinkglobe)(string) | Создает новый тег заметки со значком HyperlinkGlobe и указанной меткой. |
 | static [CreateInstantMessagingContactPerson](../../aspose.note/notetag/createinstantmessagingcontactperson)(string) | Создает новый тег заметки со значком InstantMessagingContactPerson и указанной меткой. |
 | static [CreateLaptop](../../aspose.note/notetag/createlaptop)(string) | Создает новый тег заметки со значком ноутбука и указанной меткой. |
@@ -106,7 +106,7 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreatePen](../../aspose.note/notetag/createpen)(string) | Создает новый тег заметки со значком пера и указанной меткой. |
 | static [CreatePersonWithExclamationMark](../../aspose.note/notetag/createpersonwithexclamationmark)(string) | Создает новый тег заметки со значком PersonWithExclamationMark и указанной меткой. |
 | static [CreatePinkSquare](../../aspose.note/notetag/createpinksquare)(string) | Создает новый тег заметки со значком PinkSquare и указанной меткой. |
-| static [CreatePlane](../../aspose.note/notetag/createplane)(string) | Создает новый тег заметки со значком плоскости и указанной меткой. |
+| static [CreatePlane](../../aspose.note/notetag/createplane)(string) | Создает новый тег заметки со значком самолета и указанной меткой. |
 | static [CreatePresentationSlide](../../aspose.note/notetag/createpresentationslide)(string) | Создает новый тег заметки со значком PresentationSlide и указанной меткой. |
 | static [CreatePushpin](../../aspose.note/notetag/createpushpin)(string) | Создает новый тег заметки со значком канцелярской кнопки и указанной меткой. |
 | static [CreateQuestionBalloon](../../aspose.note/notetag/createquestionballoon)(string) | Создает новый тег заметки со значком QuestionBalloon и указанной меткой. |
@@ -144,7 +144,7 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateYellowXWithDots](../../aspose.note/notetag/createyellowxwithdots)(string) | Создает новый тег заметки со значком YellowXWithDots и указанной меткой. |
 | [Equals](../../aspose.note/notetag/equals#equals)(NoteTag) | Определяет, равен ли указанный объект текущему объекту. |
 | override [Equals](../../aspose.note/notetag/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/notetag/gethashcode)() | Служит хэш-функцией для типа. |
+| override [GetHashCode](../../aspose.note/notetag/gethashcode)() | Служит хеш-функцией для типа. |
 
 ### Примеры
 
@@ -187,6 +187,8 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как добавить новый абзац с тегом.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -223,6 +225,8 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как получить доступ к сведениям о теге.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -254,6 +258,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+Показывает, как добавить новую таблицу с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -306,6 +312,8 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как подготовить шаблон для еженедельной встречи.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -343,14 +351,6 @@ foreach (var e in new[] { "First", "Second", "Third" })
 
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
-
-Показывает, как добавить новый абзац с тегом.
-
-Показывает, как получить доступ к деталям тега.
-
-Показывает, как добавить новую таблицу с тегом.
-
-Показывает, как подготовить шаблон для еженедельной встречи.
 
 ### Смотрите также
 

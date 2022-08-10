@@ -1,14 +1,14 @@
 ---
 title: TableCell
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаTableCellaspose.note/tablecell.
+description: Инициализирует новый экземплярTableCellaspose.note/tablecell класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/tablecell/tablecell/
 ---
 ## TableCell constructor
 
-Инициализирует новый экземпляр класса[`TableCell`](../../tablecell).
+Инициализирует новый экземпляр[`TableCell`](../../tablecell) класс.
 
 ```csharp
 public TableCell()

@@ -11,12 +11,12 @@ url: /ru/net/aspose.note/checkbox/icon/
 Получает или задает значок.
 
 ```csharp
-public abstract TagIcon Icon { get; set; }
+public abstract TagIcon Icon { get; }
 ```
 
 ### Стоимость имущества
 
-The[`TagIcon`](../../tagicon).
+[`TagIcon`](../../tagicon) .
 
 ### Смотрите также
 

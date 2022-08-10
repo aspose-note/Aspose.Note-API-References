@@ -20,7 +20,7 @@ public INotebookChildNode this[int index] { get; }
 
 ### Возвращаемое значение
 
-Дочерний узел в позиции*index*.
+Дочерний узел на*index* позиция.
 
 ### Смотрите также
 

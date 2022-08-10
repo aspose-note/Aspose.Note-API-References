@@ -16,7 +16,7 @@ public TagIcon Icon { get; set; }
 
 ### Стоимость имущества
 
-The[`TagIcon`](../../tagicon).
+[`TagIcon`](../../tagicon) .
 
 ### Смотрите также
 

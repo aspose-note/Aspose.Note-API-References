@@ -23,7 +23,7 @@ public class FontSavingArgs : ResourceSavingArgs
 | [FontFamilyName](../../aspose.note.saving.html/fontsavingargs/fontfamilyname) { get; } | Получает имя семейства сохраняемого шрифта. |
 | [IsBold](../../aspose.note.saving.html/fontsavingargs/isbold) { get; } | Получает значение, указывающее, является ли сохраняемый шрифт полужирным. |
 | [IsItalic](../../aspose.note.saving.html/fontsavingargs/isitalic) { get; } | Получает значение, указывающее, является ли сохраняемый шрифт курсивом. |
-| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | Получает или задает значение, указывающее, следует ли держать поток открытым. |
+| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | Получает или задает значение, указывающее, следует ли оставить поток открытым. |
 | [Stream](../../aspose.note.saving.html/resourcesavingargs/stream) { get; set; } | Получает или задает поток, используемый для хранения ресурса. |
 | [Uri](../../aspose.note.saving.html/resourcesavingargs/uri) { get; set; } | Получает или задает uri для доступа к сохраненному ресурсу. |
 

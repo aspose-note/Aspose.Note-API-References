@@ -1,14 +1,14 @@
 ---
 title: Replace
 second_title: Aspose.Note for .NET API 参考
-description: 将此实例中所有出现的指定 Unicode 字符替换为另一个指定的 Unicode 字符
+description: 将此实例中出现的所有指定 Unicode 字符替换为另一个指定的 Unicode 字符
 type: docs
 weight: 200
 url: /zh/net/aspose.note/richtext/replace/
 ---
 ## Replace(char, char) {#replace}
 
-将此实例中所有出现的指定 Unicode 字符替换为另一个指定的 Unicode 字符。
+将此实例中出现的所有指定 Unicode 字符替换为另一个指定的 Unicode 字符。
 
 ```csharp
 public RichText Replace(char oldChar, char newChar)
@@ -17,11 +17,11 @@ public RichText Replace(char oldChar, char newChar)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | oldChar | Char | 旧字符。 |
-| newChar | Char | 新字符。 |
+| newChar | Char | 新的字符。 |
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 
@@ -46,7 +46,7 @@ public RichText Replace(string oldValue, string newValue)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例外
 
@@ -60,33 +60,35 @@ public RichText Replace(string oldValue, string newValue)
 显示如何通过页面的文本并进行替换。
 
 ```csharp
-// 获取属性
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("voice over", "voice over new text");
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 IList<Page> pageNodes = oneFile.GetChildNodes<Page>();
 
-// 创建 Document 类的对象
+// 获取所有富文本节点
 IList<RichText> textNodes = pageNodes[0].GetChildNodes<RichText>();
 
 foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // 添加轮廓元素
+        // 替换形状的文本
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
 
-// 初始化 Title 类对象
+// 保存为任何支持的文件格式
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
+
+展示如何通过替换模板中的特殊文本片段来生成新文档。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -103,10 +105,10 @@ var D = new Dictionary<string, string>
                 { "YourName", "Ayn Rand" }
             };
 
-//初始化Page类对象
+// 将模板文档加载到 Aspose.Note。
 var d = new Document(Path.Combine(dataDir, "JobOffer.one"));
 
-// 添加大纲节点
+// 让我们替换所有的模板词
 foreach (var e in d.GetChildNodes<RichText>())
 {
     foreach (var replace in D)
@@ -118,8 +120,6 @@ foreach (var e in d.GetChildNodes<RichText>())
 d.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ```
 
-展示如何通过替换模板中的特殊文本片段来生成新文档。
-
 ### 也可以看看
 
 * class [RichText](../../richtext)
@@ -130,7 +130,7 @@ d.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 
 ## Replace(string, string, TextStyle) {#replace_2}
 
-用指定样式的另一个指定字符串替换当前实例中所有出现的指定字符串。
+用指定样式中的另一个指定字符串替换当前实例中出现的所有指定字符串。
 
 ```csharp
 public RichText Replace(string oldValue, string newValue, TextStyle style)
@@ -140,11 +140,11 @@ public RichText Replace(string oldValue, string newValue, TextStyle style)
 | --- | --- | --- |
 | oldValue | String | 旧值。 |
 | newValue | String | 新值。 |
-| style | TextStyle | 新值的样式。 |
+| style | TextStyle | 新值的样式 |
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例外
 

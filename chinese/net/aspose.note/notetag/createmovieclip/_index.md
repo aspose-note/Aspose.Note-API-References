@@ -1,14 +1,14 @@
 ---
 title: CreateMovieClip
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有 MovieClip 图标和指定标签的新笔记标签
+description: 创建一个带有 MovieClip 图标和指定标签的新注释标签
 type: docs
 weight: 650
 url: /zh/net/aspose.note/notetag/createmovieclip/
 ---
 ## NoteTag.CreateMovieClip method
 
-创建一个带有 MovieClip 图标和指定标签的新笔记标签。
+创建一个带有 MovieClip 图标和指定标签的新注释标签。
 
 ```csharp
 public static NoteTag CreateMovieClip(string label = "Movie to see")
@@ -20,7 +20,7 @@ public static NoteTag CreateMovieClip(string label = "Movie to see")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

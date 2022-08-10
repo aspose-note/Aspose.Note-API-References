@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Note for .NET API 参考
-description: 从PageHistoryaspose.note/pagehistory中删除页面版本
+description: 从PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 140
 url: /zh/net/aspose.note/pagehistory/remove/
 ---
 ## PageHistory.Remove method
 
-从[`PageHistory`](../../pagehistory)中删除页面版本。
+从[`PageHistory`](../../pagehistory).
 
 ```csharp
 public bool Remove(Page item)
@@ -20,7 +20,7 @@ public bool Remove(Page item)
 
 ### 返回值
 
-Boolean。
+的Boolean.
 
 ### 也可以看看
 

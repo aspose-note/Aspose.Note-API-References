@@ -16,7 +16,7 @@ public TagIcon Icon { get; set; }
 
 ### 适当的价值
 
-[`TagIcon`](../../tagicon)。
+的[`TagIcon`](../../tagicon).
 
 ### 也可以看看
 

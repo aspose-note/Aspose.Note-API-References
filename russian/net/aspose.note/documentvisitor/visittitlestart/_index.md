@@ -1,14 +1,14 @@
 ---
 title: VisitTitleStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелTitleaspose.note/title.
+description: Начните посещатьTitleaspose.note/title узел.
 type: docs
 weight: 240
 url: /ru/net/aspose.note/documentvisitor/visittitlestart/
 ---
 ## DocumentVisitor.VisitTitleStart method
 
-Начните посещать узел[`Title`](../../title).
+Начните посещать[`Title`](../../title) узел.
 
 ```csharp
 public virtual void VisitTitleStart(Title title)
@@ -16,7 +16,7 @@ public virtual void VisitTitleStart(Title title)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| title | Title | Узел[`Title`](../../title). |
+| title | Title | [`Title`](../../title) узел. |
 
 ### Смотрите также
 

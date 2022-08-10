@@ -1,14 +1,14 @@
 ---
 title: InsertAsChild
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个值该值指示是否应将插入的页面添加为前一页面的子页面
+description: 获取或设置一个值该值指示是否应将插入的页面添加为上一页的子页面
 type: docs
 weight: 30
 url: /zh/net/aspose.note/mergeoptions/insertaschild/
 ---
 ## MergeOptions.InsertAsChild property
 
-获取或设置一个值，该值指示是否应将插入的页面添加为前一页面的子页面。
+获取或设置一个值，该值指示是否应将插入的页面添加为上一页的子页面。
 
 ```csharp
 public bool InsertAsChild { get; set; }
@@ -16,7 +16,7 @@ public bool InsertAsChild { get; set; }
 
 ### 例子
 
-显示如何从一组 PDF 文档中导入所有页面，同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入.
+演示如何从一组 PDF 文档中导入所有页面，同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземплярMarginsaspose.note/marginsstruct с указанными левым правым  верхнее и нижнее поля.
+description: Инициализирует новый экземплярMarginsaspose.note/margins struct с указанными левым правым верхним и нижним полями.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/margins/margins/
 ---
 ## Margins constructor
 
-Инициализирует новый экземпляр[`Margins`](../../margins)struct с указанными левым, правым , верхнее и нижнее поля.
+Инициализирует новый экземпляр[`Margins`](../../margins) struct с указанными левым, правым, верхним и нижним полями.
 
 ```csharp
 public Margins(float left, float right, float top, float bottom)

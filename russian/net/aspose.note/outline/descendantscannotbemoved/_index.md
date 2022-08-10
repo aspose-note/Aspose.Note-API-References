@@ -1,14 +1,14 @@
 ---
 title: DescendantsCannotBeMoved
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает можно ли перемещать потомков контура.
+description: Указывает можно ли перемещать потомков контура.
 type: docs
 weight: 20
 url: /ru/net/aspose.note/outline/descendantscannotbemoved/
 ---
 ## Outline.DescendantsCannotBeMoved property
 
-Получает, можно ли перемещать потомков контура.
+Указывает, можно ли перемещать потомков контура.
 
 ```csharp
 public bool DescendantsCannotBeMoved { get; set; }

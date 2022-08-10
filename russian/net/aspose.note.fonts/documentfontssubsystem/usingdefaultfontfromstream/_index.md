@@ -1,14 +1,14 @@
 ---
 title: UsingDefaultFontFromStream
 second_title: Справочник по API Aspose.Note для .NET
-description: Создать новый экземпляр DocumentFontsSubsystem используя по умолчанию шрифт из указанного потока.
+description: Создать новый экземпляр DocumentFontsSubsystem используя шрифт из указанного потока по умолчанию.
 type: docs
 weight: 50
 url: /ru/net/aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/
 ---
 ## DocumentFontsSubsystem.UsingDefaultFontFromStream method
 
-Создать новый экземпляр DocumentFontsSubsystem, используя по умолчанию шрифт из указанного потока.
+Создать новый экземпляр DocumentFontsSubsystem, используя шрифт из указанного потока по умолчанию.
 
 ```csharp
 public static DocumentFontsSubsystem UsingDefaultFontFromStream(Stream defaultFontStream, 
@@ -22,7 +22,7 @@ public static DocumentFontsSubsystem UsingDefaultFontFromStream(Stream defaultFo
 
 ### Возвращаемое значение
 
-Подсистема[`DocumentFontsSubsystem`](../../documentfontssubsystem).
+[`DocumentFontsSubsystem`](../../documentfontssubsystem) .
 
 ### Примеры
 

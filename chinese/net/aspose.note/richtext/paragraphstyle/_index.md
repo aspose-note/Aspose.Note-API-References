@@ -1,14 +1,14 @@
 ---
 title: ParagraphStyle
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置段落样式 如果在Styles集合中没有匹配的 TextStyle 对象或者此对象未指定所需的设置则使用这些设置
+description: 获取或设置段落样式 如果没有匹配的 TextStyle 对象则使用这些设置Styles收集此对象未指定所需设置
 type: docs
 weight: 60
 url: /zh/net/aspose.note/richtext/paragraphstyle/
 ---
 ## RichText.ParagraphStyle property
 
-获取或设置段落样式。 如果在Styles集合中没有匹配的 TextStyle 对象，或者此对象未指定所需的设置，则使用这些设置。
+获取或设置段落样式。 如果没有匹配的 TextStyle 对象，则使用这些设置Styles收集此对象未指定所需设置。
 
 ```csharp
 public ParagraphStyle ParagraphStyle { get; set; }
@@ -21,10 +21,10 @@ public ParagraphStyle ParagraphStyle { get; set; }
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 初始化 RichText 类对象并应用文本样式
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-// 添加轮廓元素
+// 遍历页面的标题。
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -40,28 +40,32 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
+让我们通过突出显示来强调最新文本的变化。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 添加大纲节点
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-// 添加页面节点
+// 获取上周修改的 RichText 节点。
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // 保存 OneNote 文档
+    // 设置高亮颜色
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // 保存 OneNote 文档
+        // 设置高亮颜色
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }
 
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
+
+显示如何为页面设置标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -94,6 +98,8 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+使用段落样式按文本格式进行操作。
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -113,53 +119,57 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
+显示如何添加带有标签的新段落。
+
 ```csharp
-// 初始化 TextStyle 类对象并设置格式属性
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 同一大纲中的数字会自动递增。并应用编号
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化 TextStyle 类对象并设置格式属性
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 同一大纲中的数字会自动递增。并应用编号
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-// 同一大纲中的数字会自动递增。
+// 初始化 OutlineElement 类对象
 OutlineElement outlineElem = new OutlineElement(doc);
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
-// 添加轮廓元素
+// 添加文本节点
 outlineElem.AppendChildLast(text);
 
-// 文档目录的路径。
+// 添加大纲元素节点
 outline.AppendChildLast(outlineElem);
 
-// 文档目录的路径。
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 文档目录的路径。
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 文档目录的路径。
+// 保存 OneNote 文档
 dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+显示如何访问标签的详细信息。
+
 ```csharp
-// 创建 Document 类的对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "TagFile.one");
 
-// 创建 Document 类的对象
+// 获取所有富文本节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// 添加轮廓元素
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -168,7 +178,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // 初始化 Title 类对象
+            // 获取属性
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -181,65 +191,69 @@ foreach (RichText richText in nodes)
 }
 ```
 
+显示如何插入带有中文编号的新列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-//初始化Page类对象
+// 初始化 OneNote 文档
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// 添加大纲节点
+// 初始化 OneNote 页面
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 Outline outline = new Outline(doc);
 
-// 添加页面节点
+// 应用文本样式设置
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 将文档加载到 Aspose.Note。
+// 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-// 将文档加载到 Aspose.Note。
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-// 将文档加载到 Aspose.Note。
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 将文档加载到 Aspose.Note。
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// 将文档加载到 Aspose.Note。
+// 保存 OneNote 文档
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
 
+显示如何插入新的项目符号列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 获取上周修改的 RichText 节点。
+// 创建 Document 类的对象
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// 设置高亮颜色
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 设置高亮颜色
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-// 文档目录的路径。
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 创建 Document 类的对象
+// 初始化 OutlineElement 类对象并应用项目符号
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-//初始化Page类对象
+// 初始化 RichText 类对象并应用文本样式
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -251,38 +265,40 @@ OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 初始化大纲类对象
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 初始化 OutlineElement 类对象
+// 添加大纲节点
 page.AppendChildLast(outline);
-// 添加文本节点
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 添加大纲元素节点
+// 保存 OneNote 文档
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
+显示如何插入带有编号的新列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 获取属性
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化 OneNote 文档
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 初始化 OneNote 页面
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-// 文档目录的路径。
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 将文档加载到 Aspose.Note。
-// 获取所有富文本节点
+// 初始化 OutlineElement 类对象并应用编号
+// 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -295,27 +311,29 @@ OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 遍历每个节点
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 获取属性
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 初始化 OneNote 文档
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 初始化 OneNote 页面
+// 保存 OneNote 文档
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
+展示如何为每周会议准备模板。
+
 ```csharp
-// 应用文本样式设置
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 同一大纲中的数字会自动递增。
+// 创建 Document 类的对象
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -349,11 +367,13 @@ foreach (var e in new[] { "First", "Second", "Third" })
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
 
+显示如何将超链接绑定到文本。
+
 ```csharp
-//------------------------
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-//------------------------
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -387,45 +407,25 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-//------------------------
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化 TextStyle 类对象并设置格式属性
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 创建 Document 类的对象
+//初始化Page类对象
 Page page = new Note.Page() { Title = title };
 
-//初始化Page类对象
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 初始化大纲类对象
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 初始化 TextStyle 类对象并设置格式属性
+// 保存 OneNote 文档
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-让我们通过突出显示来强调最新文本的更改。
-
-显示如何为页面设置标题。
-
-使用段落样式按文本格式进行操作。
-
-显示如何添加带有标签的新段落。
-
-显示如何访问标签的详细信息。
-
-显示如何插入带有中文编号的新列表。
-
-显示如何插入新的项目符号列表。
-
-显示如何插入带有编号的新列表。
-
-展示如何为周会准备模板。
-
-显示如何将超链接绑定到文本。
 
 ### 也可以看看
 

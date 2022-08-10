@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Note для .NET
-description: Возвращает перечислитель который перебирает дочерние узлыNotebookaspose.note/notebook.
+description: Возвращает перечислитель который перебирает дочерние узлыNotebookaspose.note/notebook .
 type: docs
 weight: 110
 url: /ru/net/aspose.note/notebook/getenumerator/
 ---
 ## Notebook.GetEnumerator method
 
-Возвращает перечислитель, который перебирает дочерние узлы[`Notebook`](../../notebook).
+Возвращает перечислитель, который перебирает дочерние узлы[`Notebook`](../../notebook) .
 
 ```csharp
 public IEnumerator<INotebookChildNode> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<INotebookChildNode> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumerator.
+АIEnumerator .
 
 ### Смотрите также
 

@@ -20,7 +20,7 @@ public static NoteTag CreateGreenUmbrella(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: VisitRichTextEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问RichTextaspose.note/richtext节点
+description: 结束访问RichTextaspose.note/richtext节点.
 type: docs
 weight: 150
 url: /zh/net/aspose.note/documentvisitor/visitrichtextend/
 ---
 ## DocumentVisitor.VisitRichTextEnd method
 
-结束访问[`RichText`](../../richtext)节点。
+结束访问[`RichText`](../../richtext)节点.
 
 ```csharp
 public virtual void VisitRichTextEnd(RichText richText)
@@ -16,7 +16,7 @@ public virtual void VisitRichTextEnd(RichText richText)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| richText | RichText | [`RichText`](../../richtext)节点。 |
+| richText | RichText | 的[`RichText`](../../richtext)节点. |
 
 ### 也可以看看
 

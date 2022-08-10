@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Note for .NET API 参考
-description: 获取Notebookaspose.note/notebook中包含的元素数量
+description: 获取包含在Notebookaspose.note/notebook.
 type: docs
 weight: 30
 url: /zh/net/aspose.note/notebook/count/
 ---
 ## Notebook.Count property
 
-获取[`Notebook`](../../notebook)中包含的元素数量。
+获取包含在[`Notebook`](../../notebook).
 
 ```csharp
 public int Count { get; }

@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по API Aspose.Note для .NET
-description: Служит хэш-функцией для типа.
+description: Служит хеш-функцией для типа.
 type: docs
 weight: 320
 url: /ru/net/aspose.note/notecheckbox/gethashcode/
 ---
 ## NoteCheckBox.GetHashCode method
 
-Служит хэш-функцией для типа.
+Служит хеш-функцией для типа.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Int32.
+Int32 .
 
 ### Смотрите также
 

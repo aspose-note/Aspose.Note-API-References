@@ -1,14 +1,14 @@
 ---
 title: TableRow
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаTableRowaspose.note/tablerow.
+description: Инициализирует новый экземплярTableRowaspose.note/tablerow класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/tablerow/tablerow/
 ---
 ## TableRow constructor
 
-Инициализирует новый экземпляр класса[`TableRow`](../../tablerow).
+Инициализирует новый экземпляр[`TableRow`](../../tablerow) класс.
 
 ```csharp
 public TableRow()

@@ -1,14 +1,14 @@
 ---
 title: CreateHome
 second_title: Справочник по API Aspose.Note для .NET
-description: Создает новый тег заметки со значком Home и указанной меткой.
+description: Создает новый тег заметки со значком Домой и указанной меткой.
 type: docs
 weight: 570
 url: /ru/net/aspose.note/notetag/createhome/
 ---
 ## NoteTag.CreateHome method
 
-Создает новый тег заметки со значком Home и указанной меткой.
+Создает новый тег заметки со значком «Домой» и указанной меткой.
 
 ```csharp
 public static NoteTag CreateHome(string label = "")
@@ -20,7 +20,7 @@ public static NoteTag CreateHome(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

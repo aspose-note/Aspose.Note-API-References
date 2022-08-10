@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Aspose.Note for .NET API 参考
-description: 将页面版本添加到PageHistoryaspose.note/pagehistory的末尾
+description: 将页面版本添加到末尾PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 70
 url: /zh/net/aspose.note/pagehistory/addrange/
 ---
 ## PageHistory.AddRange method
 
-将页面版本添加到[`PageHistory`](../../pagehistory)的末尾。
+将页面版本添加到末尾[`PageHistory`](../../pagehistory).
 
 ```csharp
 public void AddRange(IEnumerable<Page> items)
@@ -16,7 +16,7 @@ public void AddRange(IEnumerable<Page> items)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| items | IEnumerable`1 | IEnumerable页面版本的集合。 |
+| items | IEnumerable`1 | 的IEnumerable页面版本集合. |
 
 ### 也可以看看
 

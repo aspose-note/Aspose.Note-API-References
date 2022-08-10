@@ -25,21 +25,21 @@ public class RevisionSummary
 | 姓名 | 描述 |
 | --- | --- |
 | [AuthorMostRecent](../../aspose.note/revisionsummary/authormostrecent) { get; set; } | 获取或设置最近的作者。 |
-| [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime) { get; set; } | 获取或设置最后修改时间。 |
+| [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime) { get; set; } | 获取或设置上次修改时间。 |
 
 ### 例子
 
 显示如何编辑页面的元信息。
 
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 获取文本           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// 在输出屏幕上打印文本
+// 阅读本页的内容修订摘要
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -47,17 +47,19 @@ Console.WriteLine(string.Format(
     pageRevisionInfo.AuthorMostRecent,
     pageRevisionInfo.LastModifiedTime.ToString("dd.MM.yyyy HH:mm:ss")));
 
-// 文档目录的路径。
+// 更新此页面的页面修订摘要
 pageRevisionInfo.AuthorMostRecent = "New Author";
 pageRevisionInfo.LastModifiedTime = DateTime.Now;
 
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
+显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 将文档加载到 Aspose.Note。
+// 加载 OneNote 文档
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -70,16 +72,14 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 获取页面节点列表
-    // 获取文本
+    // 默认情况下，冲突页面只是在保存时跳过。
+    // 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
-
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
 
 ### 也可以看看
 

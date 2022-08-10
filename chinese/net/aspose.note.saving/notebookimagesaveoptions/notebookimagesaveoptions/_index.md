@@ -1,14 +1,14 @@
 ---
 title: NotebookImageSaveOptions
 second_title: Aspose.Note for .NET API 参考
-description: 初始化NotebookImageSaveOptionsaspose.note.saving/notebookimagesaveoptions类的新实例
+description: 初始化NotebookImageSaveOptionsaspose.note.saving/notebookimagesaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving/notebookimagesaveoptions/notebookimagesaveoptions/
 ---
 ## NotebookImageSaveOptions constructor
 
-初始化[`NotebookImageSaveOptions`](../../notebookimagesaveoptions)类的新实例。
+初始化[`NotebookImageSaveOptions`](../../notebookimagesaveoptions)类.
 
 ```csharp
 public NotebookImageSaveOptions(SaveFormat format)
@@ -16,7 +16,7 @@ public NotebookImageSaveOptions(SaveFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| format | SaveFormat | 笔记本的保存格式。 |
+| format | SaveFormat | 保存笔记本的格式。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: NoteCheckBox
 second_title: Aspose.Note for .NET API 参考
-description: 表示可以在完整和不完整之间切换其状态的注释标记
+description: 表示可以在完整和不完整之间切换其状态的注释标签
 type: docs
 weight: 360
 url: /zh/net/aspose.note/notecheckbox/
 ---
 ## NoteCheckBox class
 
-表示可以在完整和不完整之间切换其状态的注释标记。
+表示可以在完整和不完整之间切换其状态的注释标签。
 
 ```csharp
 public sealed class NoteCheckBox : CheckBox, IEquatable<NoteCheckBox>, INoteTag
@@ -19,13 +19,13 @@ public sealed class NoteCheckBox : CheckBox, IEquatable<NoteCheckBox>, INoteTag
 | 姓名 | 描述 |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked) { get; } | 获取表示CheckBox是否处于选中状态的值。 |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; set; } | 获取或设置完成时间。 |
+| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | 获取或设置完成时间。 |
 | [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | 获取或设置创建时间。 |
 | [FontColor](../../aspose.note/notecheckbox/fontcolor) { get; set; } | 获取或设置字体颜色。 |
 | [Highlight](../../aspose.note/notecheckbox/highlight) { get; set; } | 获取或设置高亮颜色。 |
-| override [Icon](../../aspose.note/notecheckbox/icon) { get; set; } | 获取或设置图标。 |
+| override [Icon](../../aspose.note/notecheckbox/icon) { get; } | 获取或设置图标。 |
 | [Label](../../aspose.note/notecheckbox/label) { get; set; } | 获取或设置标签文本。 |
-| [Status](../../aspose.note/checkbox/status) { get; set; } | 获取或设置状态。 |
+| [Status](../../aspose.note/checkbox/status) { get; } | 获取或设置状态。 |
 
 ## 方法
 
@@ -57,9 +57,9 @@ public sealed class NoteCheckBox : CheckBox, IEquatable<NoteCheckBox>, INoteTag
 | static [CreateYellowExclamationCheckBox](../../aspose.note/notecheckbox/createyellowexclamationcheckbox)(string) | 创建一个带有 YellowExclamationCheckBoxEmpty 图标和指定标签的新注释复选框。 |
 | static [CreateYellowPersonCheckBox](../../aspose.note/notecheckbox/createyellowpersoncheckbox)(string) | 创建一个带有 YellowPersonCheckBoxEmpty 图标和指定标签的新注释复选框。 |
 | static [CreateYellowRightArrowCheckBox](../../aspose.note/notecheckbox/createyellowrightarrowcheckbox)(string) | 创建一个带有 YellowRightArrowCheckBoxEmpty 图标和指定标签的新注释复选框。 |
-| [Equals](../../aspose.note/notecheckbox/equals#equals)(NoteCheckBox) | 判断指定对象是否等于当前对象。 |
-| override [Equals](../../aspose.note/notecheckbox/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
-| override [GetHashCode](../../aspose.note/notecheckbox/gethashcode)() | 用作该类型的哈希函数。 |
+| [Equals](../../aspose.note/notecheckbox/equals#equals)(NoteCheckBox) | 判断指定对象是否等于当前对象 |
+| override [Equals](../../aspose.note/notecheckbox/equals#equals_1)(object) | 判断指定对象是否等于当前对象 |
+| override [GetHashCode](../../aspose.note/notecheckbox/gethashcode)() | 用作类型的哈希函数。 |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted)() | 使用当前时间作为完成时间将标签设置为完成状态。 |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | 将标签设置为完成状态。 |
 | virtual [SetOpen](../../aspose.note/checkbox/setopen)() | 将标签设置为打开状态。 |

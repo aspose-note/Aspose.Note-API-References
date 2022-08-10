@@ -1,14 +1,14 @@
 ---
 title: PageHistory
 second_title: Aspose.Note for .NET API 参考
-description: 初始化PageHistoryaspose.note/pagehistory类的新实例
+description: 初始化PageHistoryaspose.note/pagehistory类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/pagehistory/pagehistory/
 ---
 ## PageHistory constructor
 
-初始化[`PageHistory`](../../pagehistory)类的新实例。
+初始化[`PageHistory`](../../pagehistory)类.
 
 ```csharp
 public PageHistory(Page page)

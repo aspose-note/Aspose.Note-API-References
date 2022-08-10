@@ -20,7 +20,7 @@ public FontFaceType FontFaceTypes { get; set; }
 
 ### 例子
 
-显示如何以 html 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
+展示如何以 html 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -35,6 +35,8 @@ var options = new HtmlSaveOptions()
              };
 document.Save(dataDir + "document_out.html", options);
 ```
+
+展示如何通过嵌入所有资源（css/fonts/images）将文档保存到 html 格式的流中。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -52,9 +54,11 @@ var r = new MemoryStream();
 document.Save(r, options);
 ```
 
+展示如何使用用户定义的回调将文档保存为 html 格式并存储所有资源（css/fonts/images）。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
-// 或者
+// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 'style.css' 文件将在末尾包含以下字符串“/* 此行由用户手动附加到流 */”
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",
@@ -90,10 +94,6 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
     writer.WriteLine("/* This line is appended to stream manually by user */");
 }
 ```
-
-展示如何以嵌入所有资源（css/字体/图像）的 html 格式将文档保存到流中。
-
-展示如何使用用户定义的回调将文档保存为 html 格式并存储所有资源（css/字体/图像）。
 
 ### 也可以看看
 

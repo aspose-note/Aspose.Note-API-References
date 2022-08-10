@@ -1,14 +1,14 @@
 ---
 title: LastModifiedTime
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置最后修改时间
+description: 获取或设置上次修改时间
 type: docs
 weight: 30
 url: /zh/net/aspose.note/richtext/lastmodifiedtime/
 ---
 ## RichText.LastModifiedTime property
 
-获取或设置最后修改时间。
+获取或设置上次修改时间。
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
@@ -21,19 +21,19 @@ public DateTime LastModifiedTime { get; set; }
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 初始化 RichText 类对象并应用文本样式
+// 将文档加载到 Aspose.Note。
 Document document = new Document(dataDir + "Aspose.one");
 
-// 添加轮廓元素
+// 获取上周修改的 RichText 节点。
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // 添加大纲节点
+    // 设置高亮颜色
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // 添加大纲节点
+        // 设置高亮颜色
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }

@@ -1,14 +1,14 @@
 ---
 title: LoadChildDocument
 second_title: Справочник по API Aspose.Note для .NET
-description: Добавляет дочерний узел документа. Открывает существующий документ OneNote из файла.
+description: Добавляет узел дочернего документа. Открывает существующий документ OneNote из файла.
 type: docs
 weight: 120
 url: /ru/net/aspose.note/notebook/loadchilddocument/
 ---
 ## LoadChildDocument(string) {#loadchilddocument_2}
 
-Добавляет дочерний узел документа. Открывает существующий документ OneNote из файла.
+Добавляет узел дочернего документа. Открывает существующий документ OneNote из файла.
 
 ```csharp
 public void LoadChildDocument(string filePath)
@@ -70,7 +70,7 @@ public void LoadChildDocument(string filePath, LoadOptions loadOptions)
 
 ## LoadChildDocument(Stream) {#loadchilddocument}
 
-Добавляет дочерний узел документа. Открывает существующий документ OneNote из потока.
+Добавляет узел дочернего документа. Открывает существующий документ OneNote из потока.
 
 ```csharp
 public void LoadChildDocument(Stream stream)

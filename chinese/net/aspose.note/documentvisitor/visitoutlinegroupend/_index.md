@@ -1,14 +1,14 @@
 ---
 title: VisitOutlineGroupEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问OutlineGroupaspose.note/outlinegroup节点
+description: 结束访问OutlineGroupaspose.note/outlinegroup节点.
 type: docs
 weight: 100
 url: /zh/net/aspose.note/documentvisitor/visitoutlinegroupend/
 ---
 ## DocumentVisitor.VisitOutlineGroupEnd method
 
-结束访问[`OutlineGroup`](../../outlinegroup)节点。
+结束访问[`OutlineGroup`](../../outlinegroup)节点.
 
 ```csharp
 public virtual void VisitOutlineGroupEnd(OutlineGroup outlineGroup)
@@ -16,7 +16,7 @@ public virtual void VisitOutlineGroupEnd(OutlineGroup outlineGroup)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| outlineGroup | OutlineGroup | [`OutlineGroup`](../../outlinegroup)节点。 |
+| outlineGroup | OutlineGroup | 的[`OutlineGroup`](../../outlinegroup)节点. |
 
 ### 也可以看看
 

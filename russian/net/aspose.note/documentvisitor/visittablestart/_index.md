@@ -1,14 +1,14 @@
 ---
 title: VisitTableStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелTableaspose.note/table.
+description: Начните посещатьTableaspose.note/table узел.
 type: docs
 weight: 220
 url: /ru/net/aspose.note/documentvisitor/visittablestart/
 ---
 ## DocumentVisitor.VisitTableStart method
 
-Начните посещать узел[`Table`](../../table).
+Начните посещать[`Table`](../../table) узел.
 
 ```csharp
 public virtual void VisitTableStart(Table table)
@@ -16,7 +16,7 @@ public virtual void VisitTableStart(Table table)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | Table | Узел[`Table`](../../table). |
+| table | Table | [`Table`](../../table) узел. |
 
 ### Смотрите также
 

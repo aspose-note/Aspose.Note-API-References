@@ -19,11 +19,11 @@ public int IndexOf(string value, int startIndex, int count, StringComparison com
 | value | String | 值。 |
 | startIndex | Int32 | 起始搜索位置 |
 | count | Int32 | 计数。 |
-| comparisonType | StringComparison | 用于指定字符串 的搜索类型 |
+| comparisonType | StringComparison | 用于指定字符串的搜索类型 |
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public int IndexOf(string value, int startIndex, StringComparison comparisonType
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -75,7 +75,7 @@ public int IndexOf(char value, int startIndex, int count)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -96,11 +96,11 @@ public int IndexOf(string value, StringComparison comparisonType)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | String | 值。 |
-| comparisonType | StringComparison | 用于指定字符串 的搜索类型 |
+| comparisonType | StringComparison | 用于指定字符串的搜索类型 |
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -126,7 +126,7 @@ public int IndexOf(string value, int startIndex, int count)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -151,7 +151,7 @@ public int IndexOf(char value, int startIndex)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -175,7 +175,7 @@ public int IndexOf(string value)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -199,7 +199,7 @@ public int IndexOf(char value)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 
@@ -224,7 +224,7 @@ public int IndexOf(string value, int startIndex)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 

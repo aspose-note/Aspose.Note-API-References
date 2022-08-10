@@ -18,8 +18,8 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor)() | 使用克隆部分的默认高度限制初始化[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm)类的新实例。 |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor_1)(float) | 使用克隆部分的特定高度限制初始化[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm)类的新实例。 |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor)() | 初始化[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm)类，使用克隆部分的默认高度限制。 |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor_1)(float) | 初始化[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm)类，使用克隆部分的特定高度限制。 |
 
 ## 特性
 
@@ -31,56 +31,56 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart) | 克隆部分的默认最大大小。 |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart) | 克隆部分的默认最大尺寸。 |
 
 ### 例子
 
-当长 OneNote 页面以 pdf 格式保存时，它们会在页面之间拆分。该示例展示了如何配置位于分页符上的对象的拆分逻辑。
+当长 OneNote 页面以 pdf 格式保存时，它们会跨页面拆分。该示例展示了如何配置位于分页符上的对象的拆分逻辑。
 
 ```csharp
-// 添加富文本节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 添加 OutlineElement 节点
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
 var pdfSaveOptions = new PdfSaveOptions();
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100);
-// 添加大纲节点
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(400);
 
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
+当长 OneNote 页面以 pdf 格式保存时，它们会跨页面拆分。该示例显示了如何配置位于分页符上的对象的拆分逻辑。
+
 ```csharp
-// 添加页面节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 保存 OneNote 文档
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm();
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(heightLimitOfClonedPart);
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart);
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(100);
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
-
-当长 OneNote 页面以 pdf 格式保存时，它们会在页面之间拆分。该示例显示了如何配置位于分页符上的对象的拆分逻辑。
 
 ### 也可以看看
 

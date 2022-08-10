@@ -1,14 +1,14 @@
 ---
 title: PageSaving
 second_title: Aspose.Note for .NET API 参考
-description: 当 Aspose.Note 保存单独的页面时调用
+description: Aspose.Note 保存单独页面时调用
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving.html/ipagesavingcallback/pagesaving/
 ---
 ## IPageSavingCallback.PageSaving method
 
-当 Aspose.Note 保存单独的页面时调用。
+Aspose.Note 保存单独页面时调用。
 
 ```csharp
 public void PageSaving(PageSavingArgs args)

@@ -1,14 +1,14 @@
 ---
 title: ParagraphStyle
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаParagraphStyleaspose.note/paragraphstyle.
+description: Инициализирует новый экземплярParagraphStyleaspose.note/paragraphstyle класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/paragraphstyle/paragraphstyle/
 ---
 ## ParagraphStyle constructor
 
-Инициализирует новый экземпляр класса[`ParagraphStyle`](../../paragraphstyle).
+Инициализирует новый экземпляр[`ParagraphStyle`](../../paragraphstyle) класс.
 
 ```csharp
 public ParagraphStyle()

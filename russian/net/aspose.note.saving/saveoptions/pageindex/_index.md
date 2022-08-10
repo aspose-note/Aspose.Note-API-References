@@ -38,6 +38,8 @@ dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 oneFile.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в формате pdf.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -60,6 +62,8 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в формате pdf, используя определенные настройки.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -80,6 +84,8 @@ PdfSaveOptions opts = new PdfSaveOptions
 dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
+
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -107,6 +113,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как создать документ с форматированным форматированным текстом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -188,14 +196,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как сохранить документ в формате pdf.
-
-Показывает, как сохранить документ в формате pdf, используя определенные настройки.
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как создать документ с форматированным форматированным текстом.
 
 ### Смотрите также
 

@@ -28,34 +28,36 @@ public enum TiffCompression
 
 ### 例子
 
-展示如何使用 PackBits 压缩将文档保存为 Tiff 格式的图像。
+演示如何使用 PackBits 压缩将文档另存为 Tiff 格式的图像。
 
 ```csharp
-// 初始化 OneNote 文档
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档中所有文本的默认样式。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingPackBitsCompression.tiff");
 
-// 保存为 HTML 格式
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           TiffCompression = TiffCompression.PackBits
                       });
 ```
 
+演示如何使用 Jpeg 压缩将文档保存为 Tiff 格式的图像。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建 Document 类的对象
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingJpegCompression.tiff");
 
-//初始化Page类对象
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           TiffCompression = TiffCompression.Jpeg,
@@ -63,26 +65,24 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+展示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
+
 ```csharp
-// 初始化 Title 类对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 初始化 TextStyle 类对象并设置格式属性
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingCcitt3Compression.tiff");
 
-// 设置页面标题
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           ColorMode = ColorMode.BlackAndWhite,
                           TiffCompression = TiffCompression.Ccitt3
                       });
 ```
-
-展示如何使用 Jpeg 压缩将文档保存为 Tiff 格式的图像。
-
-显示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
 
 ### 也可以看看
 

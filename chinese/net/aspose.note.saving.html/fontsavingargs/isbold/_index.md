@@ -1,14 +1,14 @@
 ---
 title: IsBold
 second_title: Aspose.Note for .NET API 参考
-description: 获取保存下的字体是否为粗体的值
+description: 获取一个值表示保存下的字体是否为粗体
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving.html/fontsavingargs/isbold/
 ---
 ## FontSavingArgs.IsBold property
 
-获取保存下的字体是否为粗体的值。
+获取一个值，表示保存下的字体是否为粗体。
 
 ```csharp
 public bool IsBold { get; }

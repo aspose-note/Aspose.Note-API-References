@@ -1,14 +1,14 @@
 ---
 title: IsItalic
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个值指示文本样式是否为斜体
+description: 获取或设置文本样式是否为斜体的值
 type: docs
 weight: 70
 url: /zh/net/aspose.note/style/isitalic/
 ---
 ## Style.IsItalic property
 
-获取或设置一个值，指示文本样式是否为斜体。
+获取或设置文本样式是否为斜体的值。
 
 ```csharp
 public bool IsItalic { get; set; }

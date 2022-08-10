@@ -18,7 +18,7 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | Имя | Описание |
 | --- | --- |
-| [RichText](richtext#constructor)() | Инициализирует новый экземпляр класса[`RichText`](../richtext). |
+| [RichText](richtext#constructor)() | Инициализирует новый экземпляр[`RichText`](../richtext) класс. |
 
 ## Характеристики
 
@@ -27,19 +27,19 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Получает или задает выравнивание. |
 | [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
 | virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 | [Length](../../aspose.note/richtext/length) { get; } | Получает длину текста. |
 | [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Получает или задает межстрочный интервал. |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
 | [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Получает или задает стиль абзаца. Эти настройки используются, если нет соответствующего объекта TextStyle в коллекцииStylesлибо этот объект не указывает необходимую настройку. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Получает или задает стиль абзаца. Эти настройки используются, если нет соответствующего объекта TextStyle вStyles коллекция, либо этот объект не указывает необходимую настройку. |
 | [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
 | [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Получает или устанавливает минимальное количество места после. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Получает или задает минимальное количество места после . |
 | [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Получает или задает минимальное количество места перед. |
 | [Tags](../../aspose.note/richtext/tags) { get; } | Получает список всех тегов абзаца. |
 | [Text](../../aspose.note/richtext/text) { get; set; } | Получает или задает текст. Строка НЕ ДОЛЖНА содержать символы со значением 10 (перевод строки). |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Получает коллекцию текстов. |
+| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Получает коллекцию текстовых прогонов. |
 
 ## Методы
 
@@ -49,15 +49,15 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [Append](../../aspose.note/richtext/append#append)(string) | Добавляет строку к последнему текстовому диапазону. |
 | [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | Добавляет строку в конец. |
 | [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | Добавляет строку в начало первого текстового диапазона. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Добавляет строку впереди. |
+| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Добавляет строку на передний план. |
 | [Clear](../../aspose.note/richtext/clear)() | Очищает содержимое этого экземпляра. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Возвращает перечислитель, перебирающий символы этого объекта RichText. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Возвращает перечислитель, который перебирает символы этого объекта RichText. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа Unicode в этой строке. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа Unicode в этой строке. Поиск начинается с указанной позиции символа. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. Поиск начинается с указанной позиции символа. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. Параметр указывает тип поиска для указанной строки. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа в этом экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов. |
+| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа в данном экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. Параметры определяют начальную позицию поиска в текущей строке и тип поиска для указанной строки. |
 | [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. |
@@ -65,18 +65,18 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | Вставляет указанную строку с указанным стилем в указанную позицию индекса в этом экземпляре. |
 | [Remove](../../aspose.note/richtext/remove#remove)(int) | Удаляет все символы в текущем экземпляре, начиная с указанной позиции и продолжая до последней позиции. |
 | [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | Удаляет указанное количество символов в текущем экземпляре, начиная с указанной позиции. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Заменяет все вхождения указанного символа Юникода в этом экземпляре другим указанным символом Юникода. |
+| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Заменяет все вхождения указанного символа Unicode в этом экземпляре другим указанным символом Unicode. |
 | [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | Заменяет все вхождения указанной строки в текущем экземпляре другой указанной строкой. |
 | [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | Заменяет все вхождения указанной строки в текущем экземпляре другой указанной строкой в указанном стиле. |
 | [Trim](../../aspose.note/richtext/trim#trim)() | Удаляет все начальные и конечные пробельные символы. |
 | [Trim](../../aspose.note/richtext/trim#trim_1)(char) | Удаляет все начальные и конечные экземпляры символа. |
 | [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | Удаляет все начальные и конечные вхождения набора символов, указанного в массиве. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Удаляет все конечные пробельные символы. |
+| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Удаляет все завершающие пробельные символы. |
 | [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | Удаляет все вхождения символа в конце. |
 | [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | Удаляет все конечные вхождения набора символов, указанного в массиве. |
 | [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | Удаляет все начальные пробельные символы. |
 | [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | Удаляет все начальные вхождения указанного символа. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Удаляет все ведущие вхождения набора символов, указанного в массиве. |
+| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Удаляет все первые вхождения набора символов, указанного в массиве. |
 
 ### Примеры
 
@@ -96,6 +96,8 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 Console.WriteLine(text);
 ```
 
+Показывает, как получить весь текст со страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Text();
@@ -114,6 +116,8 @@ if (page != null)
     Console.WriteLine(text);
 }
 ```
+
+Выделим заголовки страниц среди других заголовков, увеличив размер шрифта.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -136,6 +140,8 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
+
+Показывает, как получить текст из каждой строки таблицы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -160,6 +166,8 @@ foreach (Table table in nodes)
     }
 }
 ```
+
+Показывает, как получить текст из таблицы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -187,6 +195,8 @@ foreach (Table table in nodes)
 }
 ```
 
+Подчеркнем последние изменения текста выделением.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -209,6 +219,8 @@ foreach (var node in richTextNodes)
 
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
+
+Показывает, как установить заголовок для страницы.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -241,6 +253,8 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+Установите язык проверки для текста.
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -259,6 +273,8 @@ document.AppendChildLast(page);
 
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
+
+Показывает, как пройтись по всем страницам и сделать замену в тексте.
 
 ```csharp
 // Путь к каталогу документов.
@@ -288,6 +304,8 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
+Управляйте текстовым форматом, используя стиль абзаца.
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -306,6 +324,8 @@ document.AppendChildLast(page);
 
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
+
+Показывает, как получить текст из ячеек таблицы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -336,6 +356,8 @@ foreach (Table table in nodes)
 }
 ```
 
+Показывает, как пройти через текст страницы и сделать замену.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Text();
@@ -365,6 +387,8 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
+Показывает, как создать документ и сохранить его в формате html, используя параметры по умолчанию.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -386,6 +410,8 @@ page.Title = new Title()
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить новый абзац с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -423,6 +449,8 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -449,6 +477,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как получить доступ к сведениям о теге.
 
 ```csharp
 // Путь к каталогу документов.
@@ -481,6 +511,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+Показывает, как создать документ с текстом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -521,6 +553,8 @@ dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с китайской нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -560,6 +594,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -606,6 +642,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -651,6 +689,8 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как подготовить шаблон для еженедельной встречи.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -688,6 +728,8 @@ foreach (var e in new[] { "First", "Second", "Third" })
 
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -746,48 +788,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как получить весь текст со страницы.
-
-Выделим заголовки страниц среди других заголовков, увеличив размер шрифта.
-
-Показывает, как получить текст из каждой строки таблицы.
-
-Показывает, как получить текст из таблицы.
-
-Подчеркнем последние изменения текста выделением.
-
-Показывает, как задать заголовок для страницы.
-
-Установить язык проверки для текста.
-
-Показывает, как пройти по всем страницам и сделать замену в тексте.
-
-Управление текстовым форматом с использованием стиля абзаца.
-
-Показывает, как получить текст из ячеек таблицы.
-
-Показывает, как пройтись по тексту страницы и произвести замену.
-
-Показывает, как создать документ и сохранить его в формате html с параметрами по умолчанию.
-
-Показывает, как добавить новый абзац с тегом.
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как получить доступ к деталям тега.
-
-Показывает, как создать документ с текстом.
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
-
-Показывает, как подготовить шаблон для еженедельной встречи.
-
-Показывает, как привязать гиперссылку к тексту.
 
 ### Смотрите также
 

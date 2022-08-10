@@ -3,7 +3,7 @@ title: Title
 second_title: Справочник по API Aspose.Note для .NET
 description: Представляет заголовок.
 type: docs
-weight: 960
+weight: 950
 url: /ru/net/aspose.note/title/
 ---
 ## Title class
@@ -18,7 +18,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Имя | Описание |
 | --- | --- |
-| [Title](title#constructor)() | Инициализирует новый экземпляр класса[`Title`](../title). |
+| [Title](title#constructor)() | Инициализирует новый экземпляр[`Title`](../title) класс. |
 
 ## Характеристики
 
@@ -27,7 +27,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 | [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
 | [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Получает или задает смещение по горизонтали. |
 | override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
 | [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
 | [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
@@ -43,7 +43,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 | --- | --- |
 | override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Принимает посетителя узла. |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Получить все дочерние узлы по типу узла. |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`Title`](../title). |
+| [GetEnumerator](../../aspose.note/title/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`Title`](../title) . |
 
 ### Примеры
 
@@ -73,6 +73,8 @@ if (pageHistory.Count > 1)
     document.Save(dataDir + "ModifyPageHistory_out.one");
 }
 ```
+
+Показывает, как установить заголовок для страницы.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -105,6 +107,8 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+Показывает, как создать документ и сохранить его в формате html, используя параметры по умолчанию.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -126,6 +130,8 @@ page.Title = new Title()
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -153,6 +159,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как создать документ с титульной страницей.
 
 ```csharp
 // Путь к каталогу документов.
@@ -182,6 +190,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как сохранить документ в различных форматах.
 
 ```csharp
 // Путь к каталогу документов.
@@ -213,16 +223,6 @@ textStyle.FontSize = 11;
 doc.DetectLayoutChanges();            
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
-
-Показывает, как задать заголовок для страницы.
-
-Показывает, как создать документ и сохранить его в формате html с параметрами по умолчанию.
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как создать документ с титульной страницей.
-
-Показывает, как сохранить документ в разных форматах.
 
 ### Смотрите также
 

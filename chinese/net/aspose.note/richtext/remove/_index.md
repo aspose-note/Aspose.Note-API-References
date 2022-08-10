@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Note for .NET API 参考
-description: 删除当前实例中从指定位置开始的指定数量的字符
+description: 从指定位置开始删除当前实例中指定数量的字符
 type: docs
 weight: 190
 url: /zh/net/aspose.note/richtext/remove/
 ---
 ## Remove(int, int) {#remove_1}
 
-删除当前实例中从指定位置开始的指定数量的字符。
+从指定位置开始删除当前实例中指定数量的字符。
 
 ```csharp
 public RichText Remove(int startIndex, int count)
@@ -21,7 +21,7 @@ public RichText Remove(int startIndex, int count)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例外
 
@@ -51,7 +51,7 @@ public RichText Remove(int startIndex)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例外
 

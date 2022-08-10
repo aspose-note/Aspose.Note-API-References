@@ -16,7 +16,7 @@ public Page Clone(bool cloneHistory = false)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cloneHistory | Boolean | 指定是否应克隆页面的历史记录.. |
+| cloneHistory | Boolean | 指定是否应该克隆页面的历史记录.. |
 
 ### 返回值
 
@@ -41,23 +41,23 @@ pageHistory.Add(page.Clone());
 document.Save(dataDir + "PushCurrentPageVersion_out.one");
 ```
 
+显示如何克隆页面。
+
 ```csharp
-// 默认情况下，冲突页面只是在保存时跳过。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 默认情况下，冲突页面只是在保存时跳过。
+// 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
+// 克隆到没有历史记录的新文档
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// 文档目录的路径。
+// 克隆到具有历史记录的新文档
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
-
-显示如何克隆页面。
 
 ### 也可以看看
 

@@ -25,7 +25,7 @@ public class LoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [DocumentPassword](../../aspose.note/loadoptions/documentpassword) { get; set; } | 获取或设置加密文档内容的密码。如果文档不受密码保护，则忽略该值。 |
-| [LoadHistory](../../aspose.note/loadoptions/loadhistory) { get; set; } | 获取或设置一个值，该值指示文档加载器是否应忽略历史记录。 使用此选项可减少内存和 CPU 使用率。 默认值为` true` 。 |
+| [LoadHistory](../../aspose.note/loadoptions/loadhistory) { get; set; } | 获取或设置一个值，该值指示文档加载器是否应忽略历史记录。 使用此选项可减少内存和 CPU 使用率。 默认值为`真的`. |
 
 ### 例子
 
@@ -39,8 +39,10 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
+显示如何加密笔记本。
+
 ```csharp
-// 创建 Document 类的对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 var notebook = new Notebook(dataDir + "test.onetoc2", new NotebookLoadOptions() { DeferredLoading = true });
 
@@ -49,14 +51,16 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
+显示如何获取页面的历史记录。
+
 ```csharp
-//初始化Page类对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 初始化 Outline 类对象并设置偏移属性
+// 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 初始化 OutlineElement 类对象
+// 获取第一页
 Page firstPage = document.FirstChild;
 foreach (Page pageRevision in document.GetPageHistory(firstPage))
 {
@@ -69,10 +73,6 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
-
-显示如何加密笔记本。
-
-显示如何获取页面的历史记录。
 
 ### 也可以看看
 

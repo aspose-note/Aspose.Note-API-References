@@ -20,7 +20,7 @@ public static NoteTag CreateRedSquare(string label = "Project A")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

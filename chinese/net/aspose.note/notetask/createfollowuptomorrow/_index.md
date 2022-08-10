@@ -1,14 +1,14 @@
 ---
 title: CreateFollowUpTomorrow
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有 FollowUpTomorrowFlag 图标的新笔记任务
+description: 使用 FollowUpTomorrowFlag 图标创建一个新的笔记任务
 type: docs
 weight: 50
 url: /zh/net/aspose.note/notetask/createfollowuptomorrow/
 ---
 ## NoteTask.CreateFollowUpTomorrow method
 
-创建一个带有 FollowUpTomorrowFlag 图标的新笔记任务。
+使用 FollowUpTomorrowFlag 图标创建一个新的笔记任务。
 
 ```csharp
 public static NoteTask CreateFollowUpTomorrow()
@@ -16,7 +16,7 @@ public static NoteTask CreateFollowUpTomorrow()
 
 ### 返回值
 
-[`NoteTask`](../../notetask)。
+的[`NoteTask`](../../notetask).
 
 ### 也可以看看
 

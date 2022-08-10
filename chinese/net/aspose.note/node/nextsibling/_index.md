@@ -16,7 +16,7 @@ public INode NextSibling { get; }
 
 ### 适当的价值
 
-下一个兄弟。
+下一个兄弟姐妹。
 
 ### 也可以看看
 

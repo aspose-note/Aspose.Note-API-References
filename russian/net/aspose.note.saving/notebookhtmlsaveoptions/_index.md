@@ -24,7 +24,7 @@ public class NotebookHtmlSaveOptions : NotebookSaveOptions<HtmlSaveOptions>
 
 | Имя | Описание |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, должны ли дочерние документы сохраняться явно. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, следует ли сохранять дочерние документы явно. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/documentsaveoptions) { get; } |  |
 | [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten) { get; set; } | Получает или задает значение, указывающее, сохраняется ли иерархия дочерних элементов записной книжки в свернутом виде. |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions`1/saveformat) { get; } |  |

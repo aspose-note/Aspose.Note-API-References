@@ -26,7 +26,7 @@ public int InsertAt { get; set; }
 
 ### 例子
 
-显示如何从一组 PDF 文档中导入所有页面同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入。
+演示如何从一组 PDF 文档中导入所有页面，同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

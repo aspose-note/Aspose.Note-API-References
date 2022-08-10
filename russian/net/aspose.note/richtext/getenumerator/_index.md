@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Note для .NET
-description: Возвращает перечислитель перебирающий символы этого объекта RichText.
+description: Возвращает перечислитель который перебирает символы этого объекта RichText.
 type: docs
 weight: 160
 url: /ru/net/aspose.note/richtext/getenumerator/
 ---
 ## RichText.GetEnumerator method
 
-Возвращает перечислитель, перебирающий символы этого объекта RichText.
+Возвращает перечислитель, который перебирает символы этого объекта RichText.
 
 ```csharp
 public IEnumerator<char> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<char> GetEnumerator()
 
 ### Возвращаемое значение
 
-TheIEnumerator.
+IEnumerator .
 
 ### Смотрите также
 

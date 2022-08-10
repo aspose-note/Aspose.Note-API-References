@@ -1,14 +1,14 @@
 ---
 title: IncorrectDocumentStructureException
 second_title: Справочник по API Aspose.Note для .NET
-description: Генерируется если созданный пользователем документ имеет неправильную структуру.
+description: Выдается если созданный пользователем документ имеет неправильную структуру.
 type: docs
 weight: 270
 url: /ru/net/aspose.note/incorrectdocumentstructureexception/
 ---
 ## IncorrectDocumentStructureException class
 
-Генерируется, если созданный пользователем документ имеет неправильную структуру.
+Выдается, если созданный пользователем документ имеет неправильную структуру.
 
 ```csharp
 public class IncorrectDocumentStructureException : Exception

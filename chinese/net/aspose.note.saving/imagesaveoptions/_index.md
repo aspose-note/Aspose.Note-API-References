@@ -18,115 +18,127 @@ public class ImageSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | 初始化[`ImageSaveOptions`](../imagesaveoptions)类的新实例。 |
+| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | 初始化[`ImageSaveOptions`](../imagesaveoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions) { get; set; } | 获取或设置图像二值化选项。 |
-| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode) { get; set; } | 获取或设置[`ColorMode`](./colormode)用于输出图像。 |
+| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode) { get; set; } | 获取或设置[`ColorMode`](./colormode)对于输出图像. |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | 获取或设置保存时要使用的字体设置 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 这意味着将呈现文档的所有页面。 |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0。 |
-| [Quality](../../aspose.note.saving/imagesaveoptions/quality) { get; set; } | 获取或设置确定保存图像质量的值。 此值作为 System.Drawing.Imaging.Encoder.Quality 参数传递给编解码器。 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 表示将呈现文档的所有页面。 |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0. |
+| [Quality](../../aspose.note.saving/imagesaveoptions/quality) { get; set; } | 获取或设置一个确定保存图像质量的值。 该值作为 System.Drawing.Imaging.Encoder.Quality 参数传递给编解码器。 |
 | [Resolution](../../aspose.note.saving/imagesaveoptions/resolution) { get; set; } | 获取或设置生成图像的分辨率，以每英寸点数为单位。 |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | 获取文档保存的格式。 |
 | [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression) { get; set; } | 获取或设置将生成的图像保存为 TIFF 格式时使用的压缩类型。 |
 
 ### 例子
 
-展示如何使用 SaveFormat 将文档保存为 Jpeg 格式的图像。
+演示如何使用 SaveFormat 将文档保存为 Jpeg 格式的图像。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 初始化 OneNote 文档
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 
-// 文档中所有文本的默认样式。
+// 保存文档。
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
+显示将文档另存为 JPEG 格式的图像时如何设置图像质量。
+
 ```csharp
-// 保存为 HTML 格式
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 
-// 'style.css' 文件将在末尾包含以下字符串 "/* 此行由用户手动附加到流 */"
+// 保存文档。
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
+演示如何使用 ImageSaveOptions 将文档保存为 Bmp 格式的图像。
+
 ```csharp
-// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 'style.css' 文件将在末尾包含以下字符串 "/* 此行由用户手动附加到流 */"
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
-// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 保存文档。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
+显示将文档另存为图像时如何设置图像分辨率。
+
 ```csharp
-// 'style.css' 文件将在末尾包含以下字符串 "/* 此行由用户手动附加到流 */"
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 
-// 'style.css' 文件将在末尾包含以下字符串 "/* 此行由用户手动附加到流 */"
+// 保存文档。
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
+显示如何将文档另存为灰度图像。
+
 ```csharp
-// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 'style.css' 文件将在末尾包含以下字符串 "/* 此行由用户手动附加到流 */"
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// 文档目录的路径。
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
 
+演示如何使用 PackBits 压缩将文档另存为 Tiff 格式的图像。
+
 ```csharp
-// 将文档保存为 gif。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档保存为 gif。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingPackBitsCompression.tiff");
 
-// 文档目录的路径。
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           TiffCompression = TiffCompression.PackBits
                       });
 ```
 
+显示如何使用指定选项将笔记本保存为图像。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 将文档保存为 gif。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -137,20 +149,22 @@ documentSaveOptions.Resolution = 400;
 
 dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+演示如何使用 Jpeg 压缩将文档保存为 Tiff 格式的图像。
+
 ```csharp
-// 将文档保存为 gif。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档保存为 gif。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingJpegCompression.tiff");
 
-// 文档目录的路径。
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           TiffCompression = TiffCompression.Jpeg,
@@ -158,11 +172,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+显示如何将展平的笔记本另存为图像。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 将文档保存为 gif。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -174,20 +190,22 @@ notebookSaveOptions.Flatten = true;
 
 dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+展示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
+
 ```csharp
-// 将文档保存为 gif。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档保存为 gif。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingCcitt3Compression.tiff");
 
-// 文档目录的路径。
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           ColorMode = ColorMode.BlackAndWhite,
@@ -195,25 +213,29 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+显示如何以 png 格式保存文档。
+
 ```csharp
-// 保存文档。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 保存文档。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 文档目录的路径。 
+// 初始化 ImageSaveOptions 对象 
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
                             {
-                                // 将文档加载到 Aspose.Note。
+                                // 设置页面索引
                                 PageIndex = 1
                             };
 
 dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 
-// 保存文档。
+// 将文档保存为 PNG。
 oneFile.Save(dataDir, opts);
 ```
+
+展示如何使用 Otsu 的方法将文档保存为二进制图像。
 
 ```csharp
 // 文档目录的路径。
@@ -224,7 +246,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 保存文档。
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -235,6 +257,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+展示如何使用固定阈值将文档保存为二进制图像。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -244,7 +268,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 保存文档。
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -255,30 +279,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-显示将文档保存为 JPEG 格式的图像时如何设置图像质量。
-
-显示如何使用 ImageSaveOptions 将文档保存为 Bmp 格式的图像。
-
-显示如何在将文档另存为图像时设置图像分辨率。
-
-显示如何将文档保存为灰度图像。
-
-展示如何使用 PackBits 压缩将文档保存为 Tiff 格式的图像。
-
-显示如何使用指定选项将笔记本保存为图像。
-
-展示如何使用 Jpeg 压缩将文档保存为 Tiff 格式的图像。
-
-显示如何将扁平笔记本保存为图像。
-
-显示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
-
-显示如何以 png 格式保存文档。
-
-显示如何使用 Otsu 的方法将文档保存为二进制图像。
-
-显示如何使用固定阈值将文档保存为二进制图像。
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public struct Margins : IEquatable<Margins>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Margins](margins)(float, float, float, float) | 用指定的左、右初始化[`Margins`](../margins)struct 的新实例、上边距和下边距。 |
+| [Margins](margins)(float, float, float, float) | 初始化[`Margins`](../margins) struct 具有指定的左、右、上、下边距。 |
 
 ## 特性
 
@@ -33,11 +33,11 @@ public struct Margins : IEquatable<Margins>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.note/margins/equals#equals)(Margins) | 测试两个Margins结构是否相等。 |
-| override [Equals](../../aspose.note/margins/equals#equals_1)(object) | 测试两个Margins结构是否相等。 |
-| override [GetHashCode](../../aspose.note/margins/gethashcode)() | 用作该类型的哈希函数。 |
-| [operator ==](../../aspose.note/margins/op_equality) | 测试两个Margins结构是否相等。 |
-| [operator !=](../../aspose.note/margins/op_inequality) | 测试两个Margins结构是否不相等。 |
+| [Equals](../../aspose.note/margins/equals#equals)(Margins) | 测试是否两个Margins结构是平等的。 |
+| override [Equals](../../aspose.note/margins/equals#equals_1)(object) | 测试是否两个Margins结构是平等的。 |
+| override [GetHashCode](../../aspose.note/margins/gethashcode)() | 用作类型的哈希函数。 |
+| [operator ==](../../aspose.note/margins/op_equality) | 测试是否两个Margins结构是平等的。 |
+| [operator !=](../../aspose.note/margins/op_inequality) | 测试是否两个Margins结构不相等。 |
 
 ## 字段
 

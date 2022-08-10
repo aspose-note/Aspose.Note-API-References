@@ -1,14 +1,14 @@
 ---
 title: VisitTableEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаTableaspose.note/table.
+description: Конец посещенияTableaspose.note/table узел.
 type: docs
 weight: 190
 url: /ru/net/aspose.note/documentvisitor/visittableend/
 ---
 ## DocumentVisitor.VisitTableEnd method
 
-End для посещения узла[`Table`](../../table).
+Конец посещения[`Table`](../../table) узел.
 
 ```csharp
 public virtual void VisitTableEnd(Table table)
@@ -16,7 +16,7 @@ public virtual void VisitTableEnd(Table table)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | Table | Узел[`Table`](../../table). |
+| table | Table | [`Table`](../../table) узел. |
 
 ### Смотрите также
 

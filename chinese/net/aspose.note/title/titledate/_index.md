@@ -16,7 +16,7 @@ public RichText TitleDate { get; set; }
 
 ### 例子
 
-显示如何设置页面标题。
+显示如何为页面设置标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -49,15 +49,17 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+展示如何使用默认选项创建文档并以 html 格式保存。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 初始化新文档
+// 初始化 OneNote 文档
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// 初始化新页面
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -66,21 +68,23 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 文档中所有文本的默认样式。
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
+演示如何创建文档并以 html 格式保存指定范围的页面。
+
 ```csharp
-// 追加页面节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
+// 初始化 OneNote 文档
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// 文档目录的路径。
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -89,7 +93,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 加载 OneNote 文档并获取第一个孩子
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -98,20 +102,22 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
+显示如何创建带有标题页的文档。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 初始化 OneNote 文档
+// 创建 Document 类的对象
 Document doc = new Aspose.Note.Document();
 
-// 保存为 HTML 格式
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 保存为 HTML 格式
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 文档目录的路径。
+// 设置页面标题属性
 page.Title = new Title(doc)
              {
                  TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
@@ -119,25 +125,27 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 初始化 OneNote 文档
+// 在文档中追加 Page 节点
 doc.AppendChildLast(page);
 
-// 文档中所有文本的默认样式。
+// 保存 OneNote 文档
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
+显示如何以不同格式保存文档。
+
 ```csharp
-// 保存为 HTML 格式
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 初始化新文档
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
-// 创建 Document 类的对象
+// 初始化新页面
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-//初始化Page类对象
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title(doc)
              {
@@ -146,10 +154,10 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 文档中所有文本的默认样式。
+// 追加页面节点
 doc.AppendChildLast(page);
 
-// 设置页面标题属性
+// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -157,14 +165,6 @@ textStyle.FontSize = 11;
 doc.DetectLayoutChanges();            
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
-
-显示如何使用默认选项创建文档并将其保存为 html 格式。
-
-显示如何创建文档并以 html 格式保存指定范围的页面。
-
-显示如何创建带有标题页的文档。
-
-显示如何以不同格式保存文档。
 
 ### 也可以看看
 

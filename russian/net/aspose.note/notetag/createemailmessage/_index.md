@@ -20,7 +20,7 @@ public static NoteTag CreateEMailMessage(string label = "Send in email")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

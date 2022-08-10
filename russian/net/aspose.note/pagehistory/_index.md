@@ -1,14 +1,14 @@
 ---
 title: PageHistory
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет историю страниц.
+description: Представляет историю страницы.
 type: docs
 weight: 470
 url: /ru/net/aspose.note/pagehistory/
 ---
 ## PageHistory class
 
-Представляет историю страниц.
+Представляет историю страницы.
 
 ```csharp
 public class PageHistory : IList<Page>
@@ -18,7 +18,7 @@ public class PageHistory : IList<Page>
 
 | Имя | Описание |
 | --- | --- |
-| [PageHistory](pagehistory)(Page) | Инициализирует новый экземпляр класса[`PageHistory`](../pagehistory). |
+| [PageHistory](pagehistory)(Page) | Инициализирует новый экземпляр[`PageHistory`](../pagehistory) класс. |
 
 ## Характеристики
 
@@ -27,23 +27,23 @@ public class PageHistory : IList<Page>
 | [Count](../../aspose.note/pagehistory/count) { get; } | Получает количество версий страницы в истории страниц. |
 | [Current](../../aspose.note/pagehistory/current) { get; } | Получает текущую версию страницы. |
 | [IsReadOnly](../../aspose.note/pagehistory/isreadonly) { get; } | Получает значение, указывающее, доступна ли история страниц только для чтения. |
-| [Item](../../aspose.note/pagehistory/item) { get; set; } | Получает или задает версию страницы по указанному индексу[`PageHistory`](../pagehistory). |
+| [Item](../../aspose.note/pagehistory/item) { get; set; } | Получает или задает версию страницы по указанному индексу[`PageHistory`](../pagehistory) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.note/pagehistory/add)(Page) | Добавляет версию страницы в конец[`PageHistory`](../pagehistory). |
-| [AddRange](../../aspose.note/pagehistory/addrange)(IEnumerable&lt;Page&gt;) | Добавляет версии страниц в конец[`PageHistory`](../pagehistory). |
+| [Add](../../aspose.note/pagehistory/add)(Page) | Добавляет версию страницы в конец[`PageHistory`](../pagehistory) . |
+| [AddRange](../../aspose.note/pagehistory/addrange)(IEnumerable&lt;Page&gt;) | Добавляет версии страниц в конец[`PageHistory`](../pagehistory) . |
 | [Clear](../../aspose.note/pagehistory/clear)() | Очищает историю страниц. |
 | [Contains](../../aspose.note/pagehistory/contains)(Page) | Определяет, содержит ли история страницы версию страницы. |
-| [CopyTo](../../aspose.note/pagehistory/copyto)(Page[], int) | Копирует версии страниц в массив, начиная с самого начала. |
-| [GetEnumerator](../../aspose.note/pagehistory/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`PageHistory`](../pagehistory). |
+| [CopyTo](../../aspose.note/pagehistory/copyto)(Page[], int) | Копирует версии страниц в массив, начиная с начала. |
+| [GetEnumerator](../../aspose.note/pagehistory/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`PageHistory`](../pagehistory) . |
 | [IndexOf](../../aspose.note/pagehistory/indexof)(Page) | Определяет индекс конкретной версии страницы в истории страниц. |
 | [Insert](../../aspose.note/pagehistory/insert)(int, Page) | Вставляет версию страницы в историю страниц. |
-| [Remove](../../aspose.note/pagehistory/remove)(Page) | Удаляет версию страницы из[`PageHistory`](../pagehistory). |
-| [RemoveAt](../../aspose.note/pagehistory/removeat)(int) | Удаляет версию страницы по указанному индексу из[`PageHistory`](../pagehistory). |
-| [RemoveRange](../../aspose.note/pagehistory/removerange)(int, int) | Удаляет диапазон версий страницы из[`PageHistory`](../pagehistory). |
+| [Remove](../../aspose.note/pagehistory/remove)(Page) | Удаляет версию страницы из[`PageHistory`](../pagehistory) . |
+| [RemoveAt](../../aspose.note/pagehistory/removeat)(int) | Удаляет версию страницы по указанному индексу[`PageHistory`](../pagehistory) . |
+| [RemoveRange](../../aspose.note/pagehistory/removerange)(int, int) | Удаляет диапазон версий страницы из[`PageHistory`](../pagehistory) . |
 
 ### Смотрите также
 

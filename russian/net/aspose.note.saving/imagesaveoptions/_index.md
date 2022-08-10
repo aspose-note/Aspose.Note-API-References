@@ -18,21 +18,21 @@ public class ImageSaveOptions : SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | Инициализирует новый экземпляр класса[`ImageSaveOptions`](../imagesaveoptions). |
+| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | Инициализирует новый экземпляр[`ImageSaveOptions`](../imagesaveoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions) { get; set; } | Получает или устанавливает параметры бинаризации изображения. |
-| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode) { get; set; } | Получает или устанавливает[`ColorMode`](./colormode)для выходного изображения. |
+| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions) { get; set; } | Получает или задает параметры бинаризации изображения. |
+| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode) { get; set; } | Получает или устанавливает[`ColorMode`](./colormode) для выходного изображения. |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчанию этоMaxValue что означает, что будут отображаться все страницы документа. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
-| [Quality](../../aspose.note.saving/imagesaveoptions/quality) { get; set; } | Получает или задает значение, определяющее качество сохраняемого изображения. Это значение передается кодеку как параметр System.Drawing.Imaging.Encoder.Quality. |
+| [Quality](../../aspose.note.saving/imagesaveoptions/quality) { get; set; } | Получает или задает значение, определяющее качество сохраненного изображения. Это значение передается кодеку как параметр System.Drawing.Imaging.Encoder.Quality. |
 | [Resolution](../../aspose.note.saving/imagesaveoptions/resolution) { get; set; } | Получает или задает разрешение сгенерированных изображений в точках на дюйм. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Получает формат, в котором сохранен документ. |
-| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression) { get; set; } | Получает или задает тип сжатия, используемый при сохранении сгенерированных изображений в формате TIFF. |
+| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression) { get; set; } | Получает или задает тип сжатия для использования при сохранении сгенерированных изображений в формате TIFF. |
 
 ### Примеры
 
@@ -51,6 +51,8 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
+Показывает, как установить качество изображения при сохранении документа как изображения в формате JPEG.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -63,6 +65,8 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 // Сохраняем документ.
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
+
+Показывает, как сохранить документ как изображение в формате Bmp с помощью ImageSaveOptions.
 
 ```csharp
 // Путь к каталогу документов.
@@ -77,6 +81,8 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
+Показывает, как установить разрешение изображения при сохранении документа как изображения.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -89,6 +95,8 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 // Сохраняем документ.
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
+
+Показывает, как сохранить документ как изображение в градациях серого.
 
 ```csharp
 // Путь к каталогу документов.
@@ -106,6 +114,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия PackBits.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -121,6 +131,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.PackBits
                       });
 ```
+
+Показывает, как сохранить записную книжку как изображение с указанными параметрами.
 
 ```csharp
 // Путь к каталогу документов.
@@ -141,6 +153,8 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -157,6 +171,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           Quality = 93
                       });
 ```
+
+Показывает, как сохранить плоский блокнот как изображение.
 
 ```csharp
 // Путь к каталогу документов.
@@ -178,6 +194,8 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -194,6 +212,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.Ccitt3
                       });
 ```
+
+Показывает, как сохранить документ в формате png.
 
 ```csharp
 // Путь к каталогу документов.
@@ -215,6 +235,8 @@ dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 oneFile.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -234,6 +256,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                   }
                         });
 ```
+
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
 
 ```csharp
 // Путь к каталогу документов.
@@ -255,30 +279,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-Показывает, как установить качество изображения при сохранении документа как изображения в формате JPEG.
-
-Показывает, как сохранить документ как изображение в формате Bmp с помощью ImageSaveOptions.
-
-Показывает, как установить разрешение изображения при сохранении документа как изображения.
-
-Показывает, как сохранить документ как изображение в градациях серого.
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия PackBits.
-
-Показывает, как сохранить блокнот как изображение с указанными параметрами.
-
-Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
-
-Показывает, как сохранить блокнот в виде изображения.
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
-
-Показывает, как сохранить документ в формате png.
-
-Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
 
 ### Смотрите также
 

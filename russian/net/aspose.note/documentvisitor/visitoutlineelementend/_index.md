@@ -1,14 +1,14 @@
 ---
 title: VisitOutlineElementEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаOutlineElementaspose.note/outlineelement.
+description: Конец посещенияOutlineElementaspose.note/outlineelement узел.
 type: docs
 weight: 70
 url: /ru/net/aspose.note/documentvisitor/visitoutlineelementend/
 ---
 ## DocumentVisitor.VisitOutlineElementEnd method
 
-End для посещения узла[`OutlineElement`](../../outlineelement).
+Конец посещения[`OutlineElement`](../../outlineelement) узел.
 
 ```csharp
 public virtual void VisitOutlineElementEnd(OutlineElement outlineElement)
@@ -16,7 +16,7 @@ public virtual void VisitOutlineElementEnd(OutlineElement outlineElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| outlineElement | OutlineElement | Узел[`OutlineElement`](../../outlineelement). |
+| outlineElement | OutlineElement | [`OutlineElement`](../../outlineelement) узел. |
 
 ### Смотрите также
 

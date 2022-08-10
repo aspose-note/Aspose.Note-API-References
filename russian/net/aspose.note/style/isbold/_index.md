@@ -1,14 +1,14 @@
 ---
 title: IsBold
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает значение указывающее является ли стиль текста полужирным.
+description: Получает или задает значение указывающее является ли текст полужирным.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/style/isbold/
 ---
 ## Style.IsBold property
 
-Получает или задает значение, указывающее, является ли стиль текста полужирным.
+Получает или задает значение, указывающее, является ли текст полужирным.
 
 ```csharp
 public bool IsBold { get; set; }
@@ -40,6 +40,8 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
+Подчеркнем последние изменения текста выделением.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -62,8 +64,6 @@ foreach (var node in richTextNodes)
 
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
-
-Подчеркнем последние изменения текста выделением.
 
 ### Смотрите также
 

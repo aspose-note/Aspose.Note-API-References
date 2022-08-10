@@ -21,9 +21,9 @@ public class FontSavingArgs : ResourceSavingArgs
 | [Document](../../aspose.note.saving.html/resourcesavingargs/document) { get; } | 获取保存文档。 |
 | [FileName](../../aspose.note.saving.html/resourcesavingargs/filename) { get; } | 获取文件名。 |
 | [FontFamilyName](../../aspose.note.saving.html/fontsavingargs/fontfamilyname) { get; } | 获取要保存的字体的系列名称。 |
-| [IsBold](../../aspose.note.saving.html/fontsavingargs/isbold) { get; } | 获取保存下的字体是否为粗体的值。 |
+| [IsBold](../../aspose.note.saving.html/fontsavingargs/isbold) { get; } | 获取一个值，表示保存下的字体是否为粗体。 |
 | [IsItalic](../../aspose.note.saving.html/fontsavingargs/isitalic) { get; } | 获取保存下的字体是否为斜体的值。 |
-| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | 获取或设置一个指示是否保持流打开的值。 |
+| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | 获取或设置是否保持流打开的值。 |
 | [Stream](../../aspose.note.saving.html/resourcesavingargs/stream) { get; set; } | 获取或设置用于存储资源的流。 |
 | [Uri](../../aspose.note.saving.html/resourcesavingargs/uri) { get; set; } | 获取或设置访问存储资源的 uri。 |
 

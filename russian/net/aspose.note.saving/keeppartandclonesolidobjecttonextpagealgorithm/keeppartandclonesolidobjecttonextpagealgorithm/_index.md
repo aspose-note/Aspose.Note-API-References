@@ -1,14 +1,14 @@
 ---
 title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаKeepPartAndCloneSolidObjectToNextPageAlgorithmaspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm используя предел высоты клонированной части по умолчанию.
+description: Инициализирует новый экземплярKeepPartAndCloneSolidObjectToNextPageAlgorithmaspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm class используя предел высоты клонированной части по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm() {#constructor}
 
-Инициализирует новый экземпляр класса[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../../keeppartandclonesolidobjecttonextpagealgorithm), используя предел высоты клонированной части по умолчанию.
+Инициализирует новый экземпляр[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../../keeppartandclonesolidobjecttonextpagealgorithm) class, используя предел высоты клонированной части по умолчанию.
 
 ```csharp
 public KeepPartAndCloneSolidObjectToNextPageAlgorithm()
@@ -24,7 +24,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm()
 
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm(float) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../../keeppartandclonesolidobjecttonextpagealgorithm), используя определенный предел высоты клонированной части.
+Инициализирует новый экземпляр[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../../keeppartandclonesolidobjecttonextpagealgorithm) класс, используя определенный предел высоты клонированной части.
 
 ```csharp
 public KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart)

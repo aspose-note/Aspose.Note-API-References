@@ -1,14 +1,14 @@
 ---
 title: LastChild
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает последний дочерний узел данного узла.
+description: Получает последний дочерний узел этого узла.
 type: docs
 weight: 30
 url: /ru/net/aspose.note/compositenode-1/lastchild/
 ---
 ## CompositeNode&lt;T&gt;.LastChild property
 
-Получает последний дочерний узел данного узла.
+Получает последний дочерний узел этого узла.
 
 ```csharp
 public T LastChild { get; }

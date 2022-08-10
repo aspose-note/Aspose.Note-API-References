@@ -1,14 +1,14 @@
 ---
 title: VisitPageEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаPageaspose.note/page.
+description: Конец посещенияPageaspose.note/page узел.
 type: docs
 weight: 130
 url: /ru/net/aspose.note/documentvisitor/visitpageend/
 ---
 ## DocumentVisitor.VisitPageEnd method
 
-End для посещения узла[`Page`](../../page).
+Конец посещения[`Page`](../../page) узел.
 
 ```csharp
 public virtual void VisitPageEnd(Page page)
@@ -16,7 +16,7 @@ public virtual void VisitPageEnd(Page page)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| page | Page | Узел[`Page`](../../page). |
+| page | Page | [`Page`](../../page) узел. |
 
 ### Смотрите также
 

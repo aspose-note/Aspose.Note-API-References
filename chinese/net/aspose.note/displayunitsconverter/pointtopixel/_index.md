@@ -21,7 +21,7 @@ public static int PointToPixel(float points, float dpi)
 
 ### 返回值
 
-Int32。
+的Int32.
 
 ### 也可以看看
 

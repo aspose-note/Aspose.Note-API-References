@@ -25,13 +25,13 @@ public class MergeOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [ImportAsSinglePage](../../aspose.note/mergeoptions/importassinglepage) { get; set; } | 获取或设置一个值，该值指示是否将提供的页面作为单页导入。 |
-| [InsertAsChild](../../aspose.note/mergeoptions/insertaschild) { get; set; } | 获取或设置一个值，该值指示是否应将插入的页面添加为前一页面的子页面。 |
+| [InsertAsChild](../../aspose.note/mergeoptions/insertaschild) { get; set; } | 获取或设置一个值，该值指示是否应将插入的页面添加为上一页的子页面。 |
 | [InsertAt](../../aspose.note/mergeoptions/insertat) { get; set; } | 获取或设置导入页面的插入位置。 |
 | [PageSpacing](../../aspose.note/mergeoptions/pagespacing) { get; set; } | 获取或设置作为单页导入时的页面间距。 |
 
 ### 例子
 
-演示如何将所有页面从 PDF 文档（每 5 页分组）导入到单个 OneNote 页面。
+演示如何将 PDF 文档中的所有页面（每 5 页分组）导入单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -50,6 +50,8 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
+演示如何从一组 PDF 文档中导入所有页面，同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
 
@@ -63,6 +65,8 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
+
+演示如何从一组 PDF 文档中导入所有内容，同时将每个 PDF 文档中的页面合并到单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -78,10 +82,6 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
-
-演示如何从一组 PDF 文档中导入所有页面，同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入。
-
-演示如何从一组 PDF 文档中导入所有内容，同时将每个 PDF 文档中的页面合并到单个 OneNote 页面。
 
 ### 也可以看看
 

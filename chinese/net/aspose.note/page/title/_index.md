@@ -16,17 +16,17 @@ public Title Title { get; set; }
 
 ### 适当的价值
 
-`Title`。
+的`Title`.
 
 ### 例子
 
 显示如何获取有关页面的元信息。
 
 ```csharp
-// 保存 OneNote 文档
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 创建 Document 类的对象
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -40,11 +40,13 @@ foreach (Page page in oneFile)
 }
 ```
 
+显示如何编辑页面的历史记录。
+
 ```csharp
-//初始化Page类对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 初始化大纲类对象           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -64,6 +66,8 @@ if (pageHistory.Count > 1)
     document.Save(dataDir + "ModifyPageHistory_out.one");
 }
 ```
+
+显示如何为页面设置标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -96,14 +100,16 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+显示如何获取页面的历史记录。
+
 ```csharp
-// 初始化 TextStyle 类对象并设置格式属性
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 初始化 OutlineElement 类对象并应用编号
+// 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 同一大纲中的数字会自动递增。
+// 获取第一页
 Page firstPage = document.FirstChild;
 foreach (Page pageRevision in document.GetPageHistory(firstPage))
 {
@@ -117,15 +123,17 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
+展示如何使用默认选项创建文档并以 html 格式保存。
+
 ```csharp
-// 添加轮廓元素
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 添加大纲节点
+// 初始化 OneNote 文档
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// 添加页面节点
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -134,21 +142,23 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 保存 OneNote 文档
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
+
+演示如何创建文档并以 html 格式保存指定范围的页面。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建 Document 类的对象
+// 初始化 OneNote 文档
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// 初始化 Page 类对象并设置它的层级
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -157,7 +167,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 初始化 Page 类对象并设置它的层级
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -166,20 +176,22 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
+显示如何创建带有标题页的文档。
+
 ```csharp
-// 初始化 Page 类对象并设置它的层级
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 加载 OneNote 文档
+// 创建 Document 类的对象
 Document doc = new Aspose.Note.Document();
 
-// 文档目录的路径。
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 加载 OneNote 文档并获取第一个孩子
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 阅读本页的内容修订摘要
+// 设置页面标题属性
 page.Title = new Title(doc)
              {
                  TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
@@ -187,25 +199,27 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 更新此页面的页面修订摘要
+// 在文档中追加 Page 节点
 doc.AppendChildLast(page);
 
-// 加载 OneNote 文档
+// 保存 OneNote 文档
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
+显示如何以不同格式保存文档。
+
 ```csharp
-// 默认情况下，冲突页面只是在保存时跳过。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
+// 初始化新文档
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
-// 文档目录的路径。
+// 初始化新页面
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 将文档加载到 Aspose.Note。
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title(doc)
              {
@@ -214,10 +228,10 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 文档目录的路径。
+// 追加页面节点
 doc.AppendChildLast(page);
 
-// 加载 OneNote 文档并获取第一个孩子
+// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -225,20 +239,6 @@ textStyle.FontSize = 11;
 doc.DetectLayoutChanges();            
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
-
-显示如何编辑页面的历史记录。
-
-显示如何为页面设置标题。
-
-显示如何获取页面的历史记录。
-
-显示如何使用默认选项创建文档并将其保存为 html 格式。
-
-显示如何创建文档并以 html 格式保存指定范围的页面。
-
-显示如何创建带有标题页的文档。
-
-显示如何以不同格式保存文档。
 
 ### 也可以看看
 

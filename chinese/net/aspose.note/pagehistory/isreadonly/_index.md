@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Note for .NET API 参考
-description: 获取页面历史记录是否为只读的值
+description: 获取一个指示页面历史是否为只读的值
 type: docs
 weight: 40
 url: /zh/net/aspose.note/pagehistory/isreadonly/
 ---
 ## PageHistory.IsReadOnly property
 
-获取页面历史记录是否为只读的值。
+获取一个指示页面历史是否为只读的值。
 
 ```csharp
 public bool IsReadOnly { get; }

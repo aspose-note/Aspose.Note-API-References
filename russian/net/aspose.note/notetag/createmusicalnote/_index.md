@@ -20,7 +20,7 @@ public static NoteTag CreateMusicalNote(string label = "Music to listen to")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OutlineGroup
 second_title: Aspose.Note for .NET API 参考
-description: 初始化OutlineGroupaspose.note/outlinegroup类的新实例
+description: 初始化OutlineGroupaspose.note/outlinegroup类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/outlinegroup/outlinegroup/
 ---
 ## OutlineGroup constructor
 
-初始化[`OutlineGroup`](../../outlinegroup)类的新实例。
+初始化[`OutlineGroup`](../../outlinegroup)类.
 
 ```csharp
 public OutlineGroup()

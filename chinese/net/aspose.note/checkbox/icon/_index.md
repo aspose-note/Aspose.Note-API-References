@@ -11,12 +11,12 @@ url: /zh/net/aspose.note/checkbox/icon/
 获取或设置图标。
 
 ```csharp
-public abstract TagIcon Icon { get; set; }
+public abstract TagIcon Icon { get; }
 ```
 
 ### 适当的价值
 
-[`TagIcon`](../../tagicon)。
+的[`TagIcon`](../../tagicon).
 
 ### 也可以看看
 

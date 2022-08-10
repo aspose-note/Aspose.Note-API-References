@@ -20,11 +20,11 @@ public void SetLicense(string licenseName)
 
 ### 评论
 
-尝试在以下位置查找许可证:
+尝试在以下位置查找许可证：
 
 1. 显式路径。
 
-2. 包含 Aspose 组件的文件夹。
+2. 包含 Aspose 组件程序集的文件夹。
 
 3. 包含客户端调用程序集的文件夹。
 
@@ -32,7 +32,7 @@ public void SetLicense(string licenseName)
 
 5. 客户端调用程序集中的嵌入资源。
 
-**注意:** 在 .NET Compact Framework 上，尝试仅在这些位置查找许可证
+**笔记：**在 .NET Compact Framework 上，尝试仅在以下位置查找许可证：
 
 1. 显式路径。
 
@@ -47,15 +47,15 @@ Aspose.Note.License license = new Aspose.Note.License();
 license.SetLicense("Aspose.Note.lic");
 ```
 
+展示如何从嵌入式文件资源加载 Aspose.Note 的许可证。
+
 ```csharp
-// 文档目录的路径。
+// 实例化许可证类
 Aspose.Note.License license = new Aspose.Note.License();
 
-// 创建 Document 类的对象
+// 仅传递嵌入在程序集中的许可文件的名称
 license.SetLicense("Aspose.Note.lic");
 ```
-
-显示如何从嵌入文件资源加载 Aspose.Note 的许可证。
 
 ### 也可以看看
 
@@ -79,11 +79,11 @@ public void SetLicense(Stream stream)
 
 ### 评论
 
-使用此方法从流中加载许可证。
+使用此方法从流加载许可证。
 
 ### 例子
 
-显示如何从流中加载 Aspose.Note 的许可证。
+展示如何从流中加载 Aspose.Note 的许可证。
 
 ```csharp
 Aspose.Note.License license = new Aspose.Note.License();

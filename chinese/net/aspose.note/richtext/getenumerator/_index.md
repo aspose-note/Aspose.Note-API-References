@@ -16,7 +16,7 @@ public IEnumerator<char> GetEnumerator()
 
 ### 返回值
 
-IEnumerator。
+的IEnumerator.
 
 ### 也可以看看
 

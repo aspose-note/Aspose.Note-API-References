@@ -22,14 +22,14 @@ public static bool IsEncrypted(Stream stream, LoadOptions options, out Document 
 
 ### 返回值
 
-如果文档被加密则返回真，否则返回假。
+如果文档被加密，则返回 true，否则返回 false。
 
 ### 例子
 
 显示如何检查文档是否受密码保护。
 
 ```csharp
-/// <总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -44,8 +44,10 @@ else
 }
 ```
 
+显示如何检查文档是否受特定密码的密码保护。
+
 ```csharp
-/// 在文档中遇到 OutlineGroup 节点时调用。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -66,8 +68,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-显示如何检查文档是否受特定密码的密码保护。
 
 ### 也可以看看
 
@@ -94,14 +94,14 @@ public static bool IsEncrypted(Stream stream, string password, out Document docu
 
 ### 返回值
 
-如果文档被加密则返回真，否则返回假。
+如果文档被加密，则返回 true，否则返回 false。
 
 ### 例子
 
 显示如何检查文档是否受密码保护。
 
 ```csharp
-/// </总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -116,8 +116,10 @@ else
 }
 ```
 
+显示如何检查文档是否受特定密码的密码保护。
+
 ```csharp
-/// <总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -138,8 +140,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-显示如何检查文档是否受特定密码的密码保护。
 
 ### 也可以看看
 
@@ -164,14 +164,14 @@ public static bool IsEncrypted(Stream stream, out Document document)
 
 ### 返回值
 
-如果文档被加密则返回真，否则返回假。
+如果文档被加密，则返回 true，否则返回 false。
 
 ### 例子
 
 显示如何检查文档是否受密码保护。
 
 ```csharp
-/// 在文档中遇到大纲节点时调用。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -186,8 +186,10 @@ else
 }
 ```
 
+显示如何检查文档是否受特定密码的密码保护。
+
 ```csharp
-/// </总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -208,8 +210,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-显示如何检查文档是否受特定密码的密码保护。
 
 ### 也可以看看
 
@@ -235,14 +235,14 @@ public static bool IsEncrypted(string filePath, LoadOptions options, out Documen
 
 ### 返回值
 
-如果文档被加密则返回真，否则返回假。
+如果文档被加密，则返回 true，否则返回 false。
 
 ### 例子
 
 显示如何检查文档是否受密码保护。
 
 ```csharp
-/// <总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -257,8 +257,10 @@ else
 }
 ```
 
+显示如何检查文档是否受特定密码的密码保护。
+
 ```csharp
-/// 在文档中遇到 OutlineElement 节点时调用。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -279,8 +281,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-显示如何检查文档是否受特定密码的密码保护。
 
 ### 也可以看看
 
@@ -306,14 +306,14 @@ public static bool IsEncrypted(string filePath, out Document document)
 
 ### 返回值
 
-如果文档被加密则返回真，否则返回假。
+如果文档被加密，则返回 true，否则返回 false。
 
 ### 例子
 
 显示如何检查文档是否受密码保护。
 
 ```csharp
-/// </总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -328,8 +328,10 @@ else
 }
 ```
 
+显示如何检查文档是否受特定密码的密码保护。
+
 ```csharp
-/// <总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -350,8 +352,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-显示如何检查文档是否受特定密码的密码保护。
 
 ### 也可以看看
 
@@ -377,14 +377,14 @@ public static bool IsEncrypted(string filePath, string password, out Document do
 
 ### 返回值
 
-如果文档被加密则返回真，否则返回假。
+如果文档被加密，则返回 true，否则返回 false。
 
 ### 例子
 
 显示如何检查文档是否受密码保护。
 
 ```csharp
-/// 获取Visitor的节点总数
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -399,8 +399,10 @@ else
 }
 ```
 
+显示如何检查文档是否受特定密码的密码保护。
+
 ```csharp
-/// </总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "Aspose.one");
 
@@ -421,8 +423,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-显示如何检查文档是否受特定密码的密码保护。
 
 ### 也可以看看
 

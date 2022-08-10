@@ -18,8 +18,8 @@ public class NumberList
 
 | Имя | Описание |
 | --- | --- |
-| [NumberList](numberlist#constructor_1)(string, string, int) | Инициализирует новый экземпляр класса[`NumberList`](../numberlist). Этот экземпляр представляет собой маркированный список. |
-| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Инициализирует новый экземпляр класса[`NumberList`](../numberlist). Этот экземпляр представляет нумерованный список. |
+| [NumberList](numberlist#constructor_1)(string, string, int) | Инициализирует новый экземпляр[`NumberList`](../numberlist) class. Этот экземпляр представляет собой маркированный список. |
+| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Инициализирует новый экземпляр[`NumberList`](../numberlist)class. Этот экземпляр представляет нумерованный список. |
 
 ## Характеристики
 
@@ -29,10 +29,10 @@ public class NumberList
 | [FontColor](../../aspose.note/numberlist/fontcolor) { get; set; } | Получает или задает цвет шрифта. |
 | [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | Получает или задает размер шрифта. |
 | [Format](../../aspose.note/numberlist/format) { get; set; } | Получает или задает формат заголовка строки. Для маркированных списков представляет собой символ маркера. |
-| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста полужирным. |
+| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
 | [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
-| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Получает или задает числовой формат, используемый для группы автоматически нумерованных объектов. Должен быть нулевым для маркированных списков. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Получает или задает числовой формат, используемый для группы автоматически нумерованных объектов. Должно быть пустым для маркированных списков. |
 | [Restart](../../aspose.note/numberlist/restart) { get; set; } | Получает или задает числовое значение, которое переопределяет автоматическое числовое значение элемента списка. |
 
 ## Методы
@@ -41,7 +41,7 @@ public class NumberList
 | --- | --- |
 | [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | Определяет, равен ли указанный объект текущему объекту. |
 | override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Служит хэш-функцией для типа. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Служит хеш-функцией для типа. |
 | [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Получает заголовок нумерованного списка. |
 
 ### Примеры
@@ -89,6 +89,8 @@ foreach (OutlineElement node in nodes)
 }
 ```
 
+Показывает, как вставить новый список с китайской нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -128,6 +130,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый список с нумерацией.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -173,10 +177,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый список с нумерацией.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ParagraphStyle
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает стиль абзаца. Эти настройки используются если нет соответствующего объекта TextStyle в коллекцииStylesлибо этот объект не указывает необходимую настройку.
+description: Получает или задает стиль абзаца. Эти настройки используются если нет соответствующего объекта TextStyle вStyles коллекция либо этот объект не указывает необходимую настройку.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/richtext/paragraphstyle/
 ---
 ## RichText.ParagraphStyle property
 
-Получает или задает стиль абзаца. Эти настройки используются, если нет соответствующего объекта TextStyle в коллекцииStylesлибо этот объект не указывает необходимую настройку.
+Получает или задает стиль абзаца. Эти настройки используются, если нет соответствующего объекта TextStyle вStyles коллекция, либо этот объект не указывает необходимую настройку.
 
 ```csharp
 public ParagraphStyle ParagraphStyle { get; set; }
@@ -40,6 +40,8 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
+Подчеркнем последние изменения текста выделением.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -62,6 +64,8 @@ foreach (var node in richTextNodes)
 
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
+
+Показывает, как установить заголовок для страницы.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -94,6 +98,8 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+Управляйте текстовым форматом, используя стиль абзаца.
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -112,6 +118,8 @@ document.AppendChildLast(page);
 
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
+
+Показывает, как добавить новый абзац с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -149,6 +157,8 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как получить доступ к сведениям о теге.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -180,6 +190,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+Показывает, как вставить новый список с китайской нумерацией.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -220,6 +232,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -266,6 +280,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -311,6 +327,8 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как подготовить шаблон для еженедельной встречи.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -348,6 +366,8 @@ foreach (var e in new[] { "First", "Second", "Third" })
 
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -406,26 +426,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-Подчеркнем последние изменения текста выделением.
-
-Показывает, как задать заголовок для страницы.
-
-Управление текстовым форматом с использованием стиля абзаца.
-
-Показывает, как добавить новый абзац с тегом.
-
-Показывает, как получить доступ к деталям тега.
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
-
-Показывает, как подготовить шаблон для еженедельной встречи.
-
-Показывает, как привязать гиперссылку к тексту.
 
 ### Смотрите также
 

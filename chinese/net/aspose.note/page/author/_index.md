@@ -19,10 +19,10 @@ public string Author { get; set; }
 显示如何获取有关页面的元信息。
 
 ```csharp
-// 文档中所有文本的默认样式。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 追加页面节点
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -36,14 +36,16 @@ foreach (Page page in oneFile)
 }
 ```
 
+显示如何获取页面的历史记录。
+
 ```csharp
-// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 文档目录的路径。
+// 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 将文档加载到 Aspose.Note。
+// 获取第一页
 Page firstPage = document.FirstChild;
 foreach (Page pageRevision in document.GetPageHistory(firstPage))
 {
@@ -56,8 +58,6 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
-
-显示如何获取页面的历史记录。
 
 ### 也可以看看
 

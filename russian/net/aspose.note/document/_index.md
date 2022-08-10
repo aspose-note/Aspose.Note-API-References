@@ -18,17 +18,17 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | Имя | Описание |
 | --- | --- |
-| [Document](document#constructor)() | Инициализирует новый экземпляр класса[`Document`](../document). Создает пустой документ OneNote. |
-| [Document](document#constructor_1)(Stream) | Инициализирует новый экземпляр класса[`Document`](../document). Открывает существующий документ OneNote из потока. |
-| [Document](document#constructor_3)(string) | Инициализирует новый экземпляр класса[`Document`](../document). Открывает существующий документ OneNote из файла. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | Инициализирует новый экземпляр класса[`Document`](../document). Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
-| [Document](document#constructor_4)(string, LoadOptions) | Инициализирует новый экземпляр класса[`Document`](../document). Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [Document](document#constructor)() | Инициализирует новый экземпляр[`Document`](../document) class. Создает пустой документ OneNote. |
+| [Document](document#constructor_1)(Stream) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из потока. |
+| [Document](document#constructor_3)(string) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из файла. |
+| [Document](document#constructor_2)(Stream, LoadOptions) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [Document](document#constructor_4)(string, LoadOptions) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Получает или задает значение, указывающее, выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчанию:` true` . |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Получает или задает значение, указывающее, выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчанию:`истинный` . |
 | [Color](../../aspose.note/document/color) { get; set; } | Получает или задает цвет. |
 | [CreationTime](../../aspose.note/document/creationtime) { get; set; } | Получает или задает время создания. |
 | [DisplayName](../../aspose.note/document/displayname) { get; set; } | Получает или задает отображаемое имя. |
@@ -50,10 +50,10 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 | override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | Принимает посетителя узла. |
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Обнаруживает все изменения, внесенные в макет документа с момента предыдущего вызова[`DetectLayoutChanges`](./detectlayoutchanges). В случае[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled)установлено значение true, используется автоматически в начале экспорта документа. |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Обнаруживает все изменения, внесенные в макет документа с момента предыдущего[`DetectLayoutChanges`](./detectlayoutchanges) call. В случае[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) установлено значение true, используется автоматически в начале экспорта документа. |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
 | [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Получает[`PageHistory`](../pagehistory), который содержит полную историю для каждой страницы, представленной в документе (самая ранняя с индексом 0) . Текущая версия страницы доступна как[`Current`](../pagehistory/current)и содержится отдельно от набора исторических версий. |
+| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Получает[`PageHistory`](../pagehistory) который содержит полную историю для каждой страницы, представленной в документе (самая ранняя с индексом 0). Доступ к текущей версии страницы можно получить как[`Current`](../pagehistory/current)и содержится отдельно от коллекции исторических версий. |
 | [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | Импортирует набор страниц из предоставленного документа PDF. |
 | [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | Импортирует набор страниц из предоставленного документа PDF. |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
@@ -78,7 +78,7 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 ### Примеры
 
-Показывает, как отправить документ на принтер, используя стандартный диалог Windows с параметрами по умолчанию.
+Показывает, как отправить документ на принтер с помощью стандартного диалогового окна Windows с параметрами по умолчанию.
 
 ```csharp
 // Путь к каталогу документов.
@@ -89,6 +89,8 @@ var document = new Aspose.Note.Document(dataDir + "Aspose.one");
 document.Print();
 ```
 
+Показывает, как сохранить документ.
+
 ```csharp
 string inputFile = "Sample1.one";
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -98,6 +100,8 @@ Document doc = new Document(dataDir + inputFile);
 doc.Save(dataDir + outputFile);
 ```
 
+Показывает, как зашифровать документ.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -106,6 +110,8 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
+Показывает, как сохранить документ с шифрованием.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_NoteBook();
@@ -113,6 +119,8 @@ string dataDir = RunExamples.GetDataDir_NoteBook();
 Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
+
+Показывает, как сохранить документ с помощью перечисления SaveFormat.
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -124,6 +132,8 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
+Показывает, как сохранить документ с помощью OneSaveOptions.
+
 ```csharp
 string inputFile = "Sample1.one";
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -133,6 +143,8 @@ Document document = new Document(dataDir + inputFile);
 
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
+
+Показывает, как получить количество страниц документа.
 
 ```csharp
 // Путь к каталогу документов.
@@ -148,6 +160,8 @@ int count = oneFile.Count();
 Console.WriteLine(count);
 ```
 
+Показывает, как сохранить документ в формате pdf с настройками по умолчанию.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -159,6 +173,8 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
+
+Показывает, как сохранить документ в формате gif.
 
 ```csharp
 // Путь к каталогу документов.
@@ -173,6 +189,8 @@ dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
 
+Показывает, как установить качество изображения при сохранении документа как изображения в формате JPEG.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -186,6 +204,8 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
+Показывает, как установить разрешение изображения при сохранении документа как изображения.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -198,6 +218,8 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 // Сохраняем документ.
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
+
+Показывает, как получить формат файла документа.
 
 ```csharp
 // Путь к каталогу документов.
@@ -214,6 +236,8 @@ switch (document.FileFormat)
         break;
 }
 ```
+
+Показывает, как привязать гиперссылку к изображению.
 
 ```csharp
 // Путь к каталогу документов.
@@ -232,6 +256,8 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
+Показывает, как сохранить документ в поток.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -245,6 +271,8 @@ doc.Save(dstStream, SaveFormat.Pdf);
 // Перемотать позицию потока обратно на ноль, чтобы она была готова для следующего чтения.
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
+
+Показывает, как проверить, защищен ли документ паролем.
 
 ```csharp
 // Путь к каталогу документов.
@@ -262,6 +290,8 @@ else
 }
 ```
 
+Показывает, как добавить новый раздел в записную книжку.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_NoteBook();
@@ -277,6 +307,8 @@ dataDir = dataDir + "AddChildNode_out.onetoc2";
 // Сохраняем блокнот
 notebook.Save(dataDir);
 ```
+
+Показывает, как проверить, не произошла ли загрузка документа из-за того, что формат OneNote 2007 не поддерживается.
 
 ```csharp
 // Путь к каталогу документов.
@@ -298,6 +330,8 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
+Показывает, как восстановить предыдущую версию страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -312,6 +346,8 @@ document.AppendChildLast(previousPageVersion);
 
 document.Save(dataDir + "RollBackRevisions_out.one");
 ```
+
+Показывает, как клонировать страницу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -329,6 +365,8 @@ cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
+Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) в отдельные файлы.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 var document = new Document(Path.Combine(dataDir, "Aspose.one"));
@@ -342,6 +380,8 @@ var options = new HtmlSaveOptions()
              };
 document.Save(dataDir + "document_out.html", options);
 ```
+
+Показывает, как сохранить документ в поток в формате html с встраиванием всех ресурсов (css/шрифты/изображения).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -358,6 +398,8 @@ var options = new HtmlSaveOptions()
 var r = new MemoryStream();
 document.Save(r, options);
 ```
+
+Показывает, как установить текстовое описание для изображения.
 
 ```csharp
 // Путь к каталогу документов.
@@ -377,6 +419,8 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
+Показывает, как получить метаинформацию о странице.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -395,6 +439,8 @@ foreach (Page page in oneFile)
 }
 ```
 
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -411,6 +457,8 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPag
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
+
+Показывает, как сохранить документ в формате png.
 
 ```csharp
 // Путь к каталогу документов.
@@ -431,6 +479,8 @@ dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 // Сохраняем документ в формате PNG.
 oneFile.Save(dataDir, opts);
 ```
+
+Показывает, как редактировать историю страницы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -457,6 +507,8 @@ if (pageHistory.Count > 1)
 }
 ```
 
+Показывает, как проверить, защищен ли документ определенным паролем.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -479,6 +531,8 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
+
+Показывает, как пройти через содержимое записной книжки.
 
 ```csharp
 // Путь к каталогу документов.
@@ -506,6 +560,8 @@ catch (Exception ex)
 }
 ```
 
+Показывает, как получить изображение из документа.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Images();
@@ -529,6 +585,8 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
+Показывает, как сохранить документ в формате pdf.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -551,6 +609,8 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в формате pdf, используя определенные настройки.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -572,6 +632,8 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
+Показывает, как отправить документ на принтер, используя стандартный диалог Windows с заданными параметрами.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -590,6 +652,8 @@ document.Print(new PrintOptions()
                    DocumentName = "Test.one"
                });
 ```
+
+Показывает, как получить метаинформацию изображения.
 
 ```csharp
 // Путь к каталогу документов.
@@ -612,6 +676,8 @@ foreach (Aspose.Note.Image image in images)
     Console.WriteLine();
 }
 ```
+
+Показывает, как получить содержимое вложенного файла.
 
 ```csharp
 // Путь к каталогу документов.
@@ -639,6 +705,8 @@ foreach (AttachedFile file in nodes)
 }
 ```
 
+Показывает, как получить историю страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -659,6 +727,8 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
+
+Показывает, как добавить файл в документ, используя путь к файлу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -695,6 +765,8 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как создать документ и сохранить его в формате html, используя параметры по умолчанию.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -716,6 +788,8 @@ page.Title = new Title()
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
+
+Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -741,6 +815,8 @@ for (int i = 0; i < history.Count; i++)
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
+
+Показывает, как добавить изображение из файла в документ с заданными пользователем свойствами.
 
 ```csharp
 // Путь к каталогу документов.
@@ -770,6 +846,8 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 // Добавляем изображение на страницу.
 page.AppendChildLast(image);
 ```
+
+Показывает, как добавить файл из потока в документ.
 
 ```csharp
 // Путь к каталогу документов.
@@ -809,6 +887,8 @@ dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -834,6 +914,8 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -861,6 +943,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как создать документ с титульной страницей.
 
 ```csharp
 // Путь к каталогу документов.
@@ -890,6 +974,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить изображение из потока в документ.
 
 ```csharp
 // Путь к каталогу документов.
@@ -926,6 +1012,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить изображение из файла в документ.
 
 ```csharp
 // Путь к каталогу документов.
@@ -967,6 +1055,8 @@ dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как создать документ с текстом.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -1006,6 +1096,8 @@ dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как сохранить документ в различных форматах.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -1036,6 +1128,8 @@ textStyle.FontSize = 11;
 doc.DetectLayoutChanges();            
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
+
+Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) с помощью пользовательских обратных вызовов.
 
 ```csharp
 // Код ниже создает папку «documentFolder», содержащую document.html, папку «css» с файлом «style.css», папку «images» с изображениями и папку «fonts» со шрифтами.
@@ -1075,6 +1169,8 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
     writer.WriteLine("/* This line is appended to stream manually by user */");
 }
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -1133,6 +1229,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как получить доступ к содержимому документа с помощью посетителя.
 
 ```csharp
 public static void Run()
@@ -1278,104 +1376,6 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     private Int32 nodecount;
 }
 ```
-
-Показывает, как сохранить документ.
-
-Показывает, как зашифровать документ.
-
-Показывает, как сохранить документ с шифрованием.
-
-Показывает, как сохранить документ с помощью перечисления SaveFormat.
-
-Показывает, как сохранить документ с помощью OneSaveOptions.
-
-Показывает, как получить количество страниц документа.
-
-Показывает, как сохранить документ в формате pdf с настройками по умолчанию.
-
-Показывает, как сохранить документ в формате gif.
-
-Показывает, как установить качество изображения при сохранении документа как изображения в формате JPEG.
-
-Показывает, как установить разрешение изображения при сохранении документа как изображения.
-
-Показывает, как получить формат файла документа.
-
-Показывает, как привязать гиперссылку к изображению.
-
-Показывает, как сохранить документ в поток.
-
-Показывает, как проверить, защищен ли документ паролем.
-
-Показывает, как добавить новый раздел в записную книжку.
-
-Показывает, как проверить, не произошла ли загрузка документа из-за того, что формат OneNote 2007 не поддерживается.
-
-Показывает, как восстановить предыдущую версию страницы.
-
-Показывает, как клонировать страницу.
-
-Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) в отдельные файлы.
-
-Показывает, как сохранить документ в поток в формате html с вложением всех ресурсов (css/шрифты/изображения).
-
-Показывает, как установить текстовое описание для изображения.
-
-Показывает, как получить метаинформацию о странице.
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
-
-Показывает, как сохранить документ в формате png.
-
-Показывает, как редактировать историю страницы.
-
-Показывает, как проверить, защищен ли документ определенным паролем.
-
-Показывает, как просмотреть содержимое записной книжки.
-
-Показывает, как получить изображение из документа.
-
-Показывает, как сохранить документ в формате pdf.
-
-Показывает, как сохранить документ в формате pdf, используя определенные настройки.
-
-Показывает, как отправить документ на принтер, используя стандартный диалог Windows с заданными параметрами.
-
-Показывает, как получить метаинформацию изображения.
-
-Показывает, как получить содержимое прикрепленного файла.
-
-Показывает, как получить историю страницы.
-
-Показывает, как добавить файл в документ, используя путь к файлу.
-
-Показывает, как создать документ и сохранить его в формате html с параметрами по умолчанию.
-
-Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
-
-Показывает, как добавить изображение из файла в документ с заданными пользователем свойствами.
-
-Показывает, как добавить файл из потока в документ.
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как создать документ с титульной страницей.
-
-Показывает, как добавить изображение из потока в документ.
-
-Показывает, как добавить изображение из файла в документ.
-
-Показывает, как создать документ с текстом.
-
-Показывает, как сохранить документ в различных форматах.
-
-Показывает, как сохранить документ в формате html с сохранением всех ресурсов (css/шрифты/изображения) с помощью пользовательских обратных вызовов.
-
-Показывает, как привязать гиперссылку к тексту.
-
-Показывает, как получить доступ к содержимому документа с помощью посетителя.
 
 ### Смотрите также
 

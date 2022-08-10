@@ -1,14 +1,14 @@
 ---
 title: HorizontalAlignment
 second_title: Справочник по API Aspose.Note для .NET
-description: Задает выравнивание.
+description: Указывает выравнивание.
 type: docs
 weight: 130
 url: /ru/net/aspose.note/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-Задает выравнивание.
+Указывает выравнивание.
 
 ```csharp
 public enum HorizontalAlignment
@@ -19,7 +19,7 @@ public enum HorizontalAlignment
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Left | `0` | Текст выровнен по левому краю. |
-| Center | `1` | Текст выравнивается по центру. |
+| Center | `1` | Текст центрирован. |
 | Right | `2` | Текст выровнен по правому краю. |
 
 ### Смотрите также

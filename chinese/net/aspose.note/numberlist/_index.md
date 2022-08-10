@@ -18,8 +18,8 @@ public class NumberList
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NumberList](numberlist#constructor_1)(string, string, int) | 初始化[`NumberList`](../numberlist)类的新实例。 这个实例代表一个项目符号列表。 |
-| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | 初始化[`NumberList`](../numberlist)类的新实例。 这个实例代表一个编号列表。 |
+| [NumberList](numberlist#constructor_1)(string, string, int) | 初始化[`NumberList`](../numberlist) class. 这个实例代表一个项目符号列表。 |
+| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | 初始化[`NumberList`](../numberlist)class. 这个实例代表一个编号列表。 |
 
 ## 特性
 
@@ -30,19 +30,19 @@ public class NumberList
 | [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | 获取或设置字体大小。 |
 | [Format](../../aspose.note/numberlist/format) { get; set; } | 获取或设置行头的格式。对于项目符号列表代表一个项目符号。 |
 | [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | 获取或设置一个值，指示文本样式是否为粗体。 |
-| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | 获取或设置一个值，指示文本样式是否为斜体。 |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | 获取或设置最后修改时间。 |
-| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | 获取或设置用于一组自动编号对象的数字格式。对于项目符号列表，应该为 null。 |
+| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | 获取或设置文本样式是否为斜体的值。 |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | 获取或设置上次修改时间。 |
+| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | 获取或设置用于一组自动编号对象的数字格式。对于项目符号列表应该为空。 |
 | [Restart](../../aspose.note/numberlist/restart) { get; set; } | 获取或设置覆盖列表项自动数值的数值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | 判断指定对象是否等于当前对象。 |
-| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | 用作该类型的哈希函数。 |
-| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | 获取编号列表标题。 |
+| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | 判断指定对象是否等于当前对象 |
+| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | 判断指定对象是否等于当前对象 |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | 用作类型的哈希函数。 |
+| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | 获取编号列表头。 |
 
 ### 例子
 
@@ -89,6 +89,8 @@ foreach (OutlineElement node in nodes)
 }
 ```
 
+显示如何插入带有中文编号的新列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -128,6 +130,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+显示如何插入带有编号的新列表。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -173,10 +177,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
-
-显示如何插入带有中文编号的新列表。
-
-显示如何插入带有编号的新列表。
 
 ### 也可以看看
 

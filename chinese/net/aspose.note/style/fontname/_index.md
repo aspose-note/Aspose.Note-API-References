@@ -16,7 +16,7 @@ public string FontName { get; set; }
 
 ### 例子
 
-使用段落样式按文本格式操作。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -37,65 +37,69 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
+显示如何插入带有中文编号的新列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 设置高亮颜色
+// 初始化 OneNote 文档
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// 设置高亮颜色
+// 初始化 OneNote 页面
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 Outline outline = new Outline(doc);
 
-// 初始化 OneNote 文档
+// 应用文本样式设置
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 初始化 OneNote 页面
+// 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-// 应用文本样式设置
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-// 应用文本样式设置
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 应用文本样式设置
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-//------------------------
+// 保存 OneNote 文档
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
 
+显示如何插入新的项目符号列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-//------------------------
+// 创建 Document 类的对象
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// 添加大纲节点
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 创建 Document 类的对象
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-//初始化Page类对象
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 初始化大纲类对象
+// 初始化 OutlineElement 类对象并应用项目符号
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// 初始化 TextStyle 类对象并设置格式属性
+// 初始化 RichText 类对象并应用文本样式
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -107,38 +111,40 @@ OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 初始化 OutlineElement 类对象并应用项目符号
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 初始化 RichText 类对象并应用文本样式
+// 添加大纲节点
 page.AppendChildLast(outline);
-// 添加轮廓元素
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 添加大纲节点
+// 保存 OneNote 文档
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
+显示如何插入带有编号的新列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 添加轮廓元素
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 添加大纲节点
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 创建 Document 类的对象
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-//初始化Page类对象
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 初始化大纲类对象
-// 初始化 TextStyle 类对象并设置格式属性
+// 初始化 OutlineElement 类对象并应用编号
+// 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -151,27 +157,29 @@ OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 初始化 OutlineElement 类对象并应用编号
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 同一大纲中的数字会自动递增。
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 添加轮廓元素
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 添加大纲节点
+// 保存 OneNote 文档
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
+显示如何将超链接绑定到文本。
+
 ```csharp
-//初始化Page类对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 添加大纲节点
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -205,33 +213,25 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// 文档目录的路径。
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 创建 Document 类的对象
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 添加轮廓元素
+//初始化Page类对象
 Page page = new Note.Page() { Title = title };
 
-// 初始化 Title 类对象
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-//初始化Page类对象
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 添加大纲节点
+// 保存 OneNote 文档
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-显示如何插入带有中文编号的新列表。
-
-显示如何插入新的项目符号列表。
-
-显示如何插入带有编号的新列表。
-
-显示如何将超链接绑定到文本。
 
 ### 也可以看看
 

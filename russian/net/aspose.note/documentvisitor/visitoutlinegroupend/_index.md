@@ -1,14 +1,14 @@
 ---
 title: VisitOutlineGroupEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаOutlineGroupaspose.note/outlinegroup.
+description: Конец посещенияOutlineGroupaspose.note/outlinegroup узел.
 type: docs
 weight: 100
 url: /ru/net/aspose.note/documentvisitor/visitoutlinegroupend/
 ---
 ## DocumentVisitor.VisitOutlineGroupEnd method
 
-End для посещения узла[`OutlineGroup`](../../outlinegroup).
+Конец посещения[`OutlineGroup`](../../outlinegroup) узел.
 
 ```csharp
 public virtual void VisitOutlineGroupEnd(OutlineGroup outlineGroup)
@@ -16,7 +16,7 @@ public virtual void VisitOutlineGroupEnd(OutlineGroup outlineGroup)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| outlineGroup | OutlineGroup | Узел[`OutlineGroup`](../../outlinegroup). |
+| outlineGroup | OutlineGroup | [`OutlineGroup`](../../outlinegroup) узел. |
 
 ### Смотрите также
 

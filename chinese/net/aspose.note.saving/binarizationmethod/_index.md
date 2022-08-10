@@ -19,22 +19,22 @@ public enum BinarizationMethod
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | FixedThreshold | `0` | 使用指定的固定阈值执行图像的二值化。 |
-| Otsu | `1` | 图像的二值化是使用 Otsu 的方法自适应地进行阈值评估。 |
+| Otsu | `1` | 图像的二值化是自适应地使用 Otsu 的方法来评估阈值。 |
 
 ### 例子
 
 展示如何使用 Otsu 的方法将文档保存为二进制图像。
 
 ```csharp
-// 初始化 TextStyle 类对象并设置格式属性
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 设置页面标题
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 添加富文本节点
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -45,16 +45,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+展示如何使用固定阈值将文档保存为二进制图像。
+
 ```csharp
-// 添加 OutlineElement 节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 添加大纲节点
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 添加页面节点
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -65,8 +67,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-显示如何使用固定阈值将文档保存为二进制图像。
 
 ### 也可以看看
 

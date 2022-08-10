@@ -1,14 +1,14 @@
 ---
 title: PointToInch
 second_title: Справочник по API Aspose.Note для .NET
-description: Преобразует точки в дюймы.
+description: Преобразует пункты в дюймы.
 type: docs
 weight: 50
 url: /ru/net/aspose.note/displayunitsconverter/pointtoinch/
 ---
 ## DisplayUnitsConverter.PointToInch method
 
-Преобразует точки в дюймы.
+Преобразует пункты в дюймы.
 
 ```csharp
 public static float PointToInch(float points)
@@ -20,7 +20,7 @@ public static float PointToInch(float points)
 
 ### Возвращаемое значение
 
-TheSingle.
+Single .
 
 ### Смотрите также
 

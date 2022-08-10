@@ -1,14 +1,14 @@
 ---
 title: VisitOutlineElementStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелOutlineElementaspose.note/outlineelement.
+description: Начните посещатьOutlineElementaspose.note/outlineelement узел.
 type: docs
 weight: 80
 url: /ru/net/aspose.note/documentvisitor/visitoutlineelementstart/
 ---
 ## DocumentVisitor.VisitOutlineElementStart method
 
-Начните посещать узел[`OutlineElement`](../../outlineelement).
+Начните посещать[`OutlineElement`](../../outlineelement) узел.
 
 ```csharp
 public virtual void VisitOutlineElementStart(OutlineElement outlineElement)
@@ -16,7 +16,7 @@ public virtual void VisitOutlineElementStart(OutlineElement outlineElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| outlineElement | OutlineElement | Узел[`OutlineElement`](../../outlineelement). |
+| outlineElement | OutlineElement | [`OutlineElement`](../../outlineelement) узел. |
 
 ### Смотрите также
 

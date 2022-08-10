@@ -16,11 +16,11 @@ public DateTime CreationTime { get; set; }
 
 ### 适当的价值
 
-DateTime。
+的DateTime.
 
 ### 例子
 
-显示如何生成包含与“项目 A”相关的所有页面的 pdf。
+展示如何生成包含与“项目 A”相关的所有页面的 pdf。
 
 ```csharp
 // 文档目录的路径。
@@ -41,6 +41,8 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
+展示如何生成一个 pdf，其中包含在上周创建的带有不完整复选框标记的项目的页面。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -59,6 +61,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
+
+演示如何生成包含本周要完成的 Outlook 未完成任务的页面的 pdf。
 
 ```csharp
 // 文档目录的路径。
@@ -79,6 +83,8 @@ foreach (var page in oneFile)
 
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
+
+显示如何访问 Outlook 任务的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -109,6 +115,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+显示如何访问标签的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -141,14 +149,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-展示如何生成一个 pdf，其中包含带有不完整复选框标记并在上周创建的项目的页面。
-
-显示如何生成包含本周要完成的 Outlook 未完成任务的页面的 pdf。
-
-显示如何访问 Outlook 任务的详细信息。
-
-显示如何访问标签的详细信息。
 
 ### 也可以看看
 

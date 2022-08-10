@@ -1,14 +1,14 @@
 ---
 title: RichText
 second_title: Aspose.Note for .NET API 参考
-description: 初始化RichTextaspose.note/richtext类的新实例
+description: 初始化RichTextaspose.note/richtext类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/richtext/richtext/
 ---
 ## RichText constructor
 
-初始化[`RichText`](../../richtext)类的新实例。
+初始化[`RichText`](../../richtext)类.
 
 ```csharp
 public RichText()

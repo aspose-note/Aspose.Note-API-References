@@ -1,14 +1,14 @@
 ---
 title: GetPageHistory
 second_title: Справочник по API Aspose.Note для .NET
-description: ПолучаетPageHistoryaspose.note/pagehistory который содержит полную историю для каждой страницы представленной в документе самая ранняя с индексом 0 . Текущая версия страницы доступна какCurrentaspose.note/pagehistory/currentи содержится отдельно от набора исторических версий.
+description: ПолучаетPageHistoryaspose.note/pagehistory который содержит полную историю для каждой страницы представленной в документе самая ранняя с индексом 0. Доступ к текущей версии страницы можно получить какCurrentaspose.note/pagehistory/currentи содержится отдельно от коллекции исторических версий.
 type: docs
 weight: 100
 url: /ru/net/aspose.note/document/getpagehistory/
 ---
 ## Document.GetPageHistory method
 
-Получает[`PageHistory`](../../pagehistory), который содержит полную историю для каждой страницы, представленной в документе (самая ранняя с индексом 0) . Текущая версия страницы доступна как[`Current`](../../pagehistory/current)и содержится отдельно от набора исторических версий.
+Получает[`PageHistory`](../../pagehistory) который содержит полную историю для каждой страницы, представленной в документе (самая ранняя с индексом 0). Доступ к текущей версии страницы можно получить как[`Current`](../../pagehistory/current)и содержится отдельно от коллекции исторических версий.
 
 ```csharp
 public PageHistory GetPageHistory(Page page)
@@ -20,7 +20,7 @@ public PageHistory GetPageHistory(Page page)
 
 ### Возвращаемое значение
 
-The[`PageHistory`](../../pagehistory).
+[`PageHistory`](../../pagehistory) .
 
 ### Примеры
 
@@ -40,6 +40,8 @@ document.AppendChildLast(previousPageVersion);
 
 document.Save(dataDir + "RollBackRevisions_out.one");
 ```
+
+Показывает, как редактировать историю страницы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -66,6 +68,8 @@ if (pageHistory.Count > 1)
 }
 ```
 
+Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
@@ -90,10 +94,6 @@ for (int i = 0; i < history.Count; i++)
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
-
-Показывает, как редактировать историю страницы.
-
-Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
 
 ### Смотрите также
 
