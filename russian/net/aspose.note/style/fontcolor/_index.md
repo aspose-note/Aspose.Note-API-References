@@ -40,6 +40,8 @@ foreach (var run in richText.TextRuns)
 }
 ```
 
+Показывает, как вставить новый список с китайской нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -79,6 +81,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -125,6 +129,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -169,6 +175,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -227,6 +235,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как составить таблицу с текстом в различных стилях.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -289,16 +299,6 @@ var d = new Document();
 d.AppendChildLast(page);
 d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 ```
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
-
-Показывает, как привязать гиперссылку к тексту.
-
-Показывает, как составить таблицу с текстом в различных стилях.
 
 ### Смотрите также
 

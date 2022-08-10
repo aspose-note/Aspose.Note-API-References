@@ -1,14 +1,14 @@
 ---
 title: VisitTitleEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问Titleaspose.note/title节点
+description: 结束访问Titleaspose.note/title节点.
 type: docs
 weight: 230
 url: /zh/net/aspose.note/documentvisitor/visittitleend/
 ---
 ## DocumentVisitor.VisitTitleEnd method
 
-结束访问[`Title`](../../title)节点。
+结束访问[`Title`](../../title)节点.
 
 ```csharp
 public virtual void VisitTitleEnd(Title title)
@@ -16,7 +16,7 @@ public virtual void VisitTitleEnd(Title title)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| title | Title | [`Title`](../../title)节点。 |
+| title | Title | 的[`Title`](../../title)节点. |
 
 ### 也可以看看
 

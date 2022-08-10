@@ -18,13 +18,13 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | Имя | Описание |
 | --- | --- |
-| [Page](page#constructor)() | Инициализирует новый экземпляр класса[`Page`](../page). |
+| [Page](page#constructor)() | Инициализирует новый экземпляр[`Page`](../page) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Author](../../aspose.note/page/author) { get; set; } | Получает или устанавливает автора. |
+| [Author](../../aspose.note/page/author) { get; set; } | Получает или задает автора. |
 | [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | Получает или устанавливает цвет фона страницы. |
 | [CreationTime](../../aspose.note/page/creationtime) { get; set; } | Получает или задает время создания. |
 | [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
@@ -32,7 +32,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | Получает или задает значение, указывающее, является ли эта страница конфликтующей. |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 | [Level](../../aspose.note/page/level) { get; set; } | Получает или устанавливает уровень. |
 | [Margin](../../aspose.note/page/margin) { get; set; } | Получает или задает поле. |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
@@ -78,6 +78,8 @@ foreach (var page in document)
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
+Показывает, как получить метаинформацию о странице.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -95,6 +97,8 @@ foreach (Page page in oneFile)
     Console.WriteLine();
 }
 ```
+
+Показывает, как установить заголовок для страницы.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -127,6 +131,8 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+Показывает, как получить историю страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -147,6 +153,8 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
+
+Показывает, как редактировать метаинформацию страницы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -170,6 +178,8 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
+
+Показывает, как пройтись по всем страницам и сделать замену в тексте.
 
 ```csharp
 // Путь к каталогу документов.
@@ -198,6 +208,8 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 // Сохраняем в любой поддерживаемый формат файла
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
+
+Показывает, как пройти через текст страницы и сделать замену.
 
 ```csharp
 // Путь к каталогу документов.
@@ -228,6 +240,8 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
+Показывает, как создать документ и сохранить его в формате html, используя параметры по умолчанию.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -249,6 +263,8 @@ page.Title = new Title()
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить новое изображение с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -287,6 +303,8 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
@@ -311,6 +329,8 @@ for (int i = 0; i < history.Count; i++)
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
+
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -338,6 +358,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как создать документ с титульной страницей.
 
 ```csharp
 // Путь к каталогу документов.
@@ -367,6 +389,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как сохранить документ в различных форматах.
 
 ```csharp
 // Путь к каталогу документов.
@@ -398,6 +422,8 @@ textStyle.FontSize = 11;
 doc.DetectLayoutChanges();            
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
+
+Показывает, как вставить новый список с китайской нумерацией.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -438,6 +464,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -484,6 +512,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -528,6 +558,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить страницу с подстраницей.
 
 ```csharp
 // Путь к каталогу документов.
@@ -581,38 +613,6 @@ doc.AppendChildLast(page3);
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как получить метаинформацию о странице.
-
-Показывает, как задать заголовок для страницы.
-
-Показывает, как получить историю страницы.
-
-Показывает, как редактировать метаинформацию страницы.
-
-Показывает, как пройти по всем страницам и сделать замену в тексте.
-
-Показывает, как пройтись по тексту страницы и произвести замену.
-
-Показывает, как создать документ и сохранить его в формате html с параметрами по умолчанию.
-
-Показывает, как добавить новое изображение с тегом.
-
-Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как создать документ с титульной страницей.
-
-Показывает, как сохранить документ в разных форматах.
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
-
-Показывает, как добавить страницу с подстраницей.
 
 ### Смотрите также
 

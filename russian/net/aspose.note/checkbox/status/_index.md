@@ -11,12 +11,12 @@ url: /ru/net/aspose.note/checkbox/status/
 Получает или устанавливает статус.
 
 ```csharp
-public TagStatus Status { get; set; }
+public TagStatus Status { get; }
 ```
 
 ### Стоимость имущества
 
-The[`TagStatus`](../../tagstatus).
+[`TagStatus`](../../tagstatus) .
 
 ### Смотрите также
 

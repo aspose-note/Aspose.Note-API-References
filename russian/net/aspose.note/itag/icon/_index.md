@@ -11,12 +11,12 @@ url: /ru/net/aspose.note/itag/icon/
 Получает или задает значок.
 
 ```csharp
-public TagIcon Icon { get; set; }
+public TagIcon Icon { get; }
 ```
 
 ### Стоимость имущества
 
-The[`TagIcon`](../../tagicon).
+[`TagIcon`](../../tagicon) .
 
 ### Примеры
 
@@ -52,6 +52,8 @@ foreach (RichText richText in nodes)
 }
 ```
 
+Показывает, как получить доступ к сведениям о теге.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -83,8 +85,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-Показывает, как получить доступ к деталям тега.
 
 ### Смотрите также
 

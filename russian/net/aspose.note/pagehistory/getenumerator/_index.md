@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Note для .NET
-description: Возвращает перечислитель который перебирает дочерние узлыPageHistoryaspose.note/pagehistory.
+description: Возвращает перечислитель который перебирает дочерние узлыPageHistoryaspose.note/pagehistory .
 type: docs
 weight: 110
 url: /ru/net/aspose.note/pagehistory/getenumerator/
 ---
 ## PageHistory.GetEnumerator method
 
-Возвращает перечислитель, который перебирает дочерние узлы[`PageHistory`](../../pagehistory).
+Возвращает перечислитель, который перебирает дочерние узлы[`PageHistory`](../../pagehistory) .
 
 ```csharp
 public IEnumerator<Page> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<Page> GetEnumerator()
 
 ### Возвращаемое значение
 
-TheIEnumerator.
+IEnumerator .
 
 ### Смотрите также
 

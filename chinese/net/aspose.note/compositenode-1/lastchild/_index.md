@@ -1,14 +1,14 @@
 ---
 title: LastChild
 second_title: Aspose.Note for .NET API 参考
-description: 获取该节点的最后一个子节点
+description: 获取此节点的最后一个子节点
 type: docs
 weight: 30
 url: /zh/net/aspose.note/compositenode-1/lastchild/
 ---
 ## CompositeNode&lt;T&gt;.LastChild property
 
-获取该节点的最后一个子节点。
+获取此节点的最后一个子节点。
 
 ```csharp
 public T LastChild { get; }

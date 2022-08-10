@@ -24,8 +24,8 @@ public class ImageBinarizationOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BinarizationMethod](../../aspose.note.saving/imagebinarizationoptions/binarizationmethod) { get; set; } | 获取或设置二值化方法。 默认值为FixedThreshold。 |
-| [BinarizationThreshold](../../aspose.note.saving/imagebinarizationoptions/binarizationthreshold) { get; set; } | 获取或设置固定阈值二值化方法的阈值。 默认值为 128。 |
+| [BinarizationMethod](../../aspose.note.saving/imagebinarizationoptions/binarizationmethod) { get; set; } | 获取或设置二值化方法。 默认值为FixedThreshold. |
+| [BinarizationThreshold](../../aspose.note.saving/imagebinarizationoptions/binarizationthreshold) { get; set; } | 获取或设置固定阈值二值化方法的阈值。 默认值为128。 |
 
 ### 例子
 
@@ -51,6 +51,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+展示如何使用固定阈值将文档保存为二进制图像。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -71,8 +73,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-显示如何使用固定阈值将文档保存为二进制图像。
 
 ### 也可以看看
 

@@ -20,7 +20,7 @@ public static NoteTag CreateGreenCircle1(string label = "")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

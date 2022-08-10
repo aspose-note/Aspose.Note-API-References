@@ -1,14 +1,14 @@
 ---
 title: BinarizationOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или устанавливает параметры бинаризации изображения.
+description: Получает или задает параметры бинаризации изображения.
 type: docs
 weight: 20
 url: /ru/net/aspose.note.saving/imagesaveoptions/binarizationoptions/
 ---
 ## ImageSaveOptions.BinarizationOptions property
 
-Получает или устанавливает параметры бинаризации изображения.
+Получает или задает параметры бинаризации изображения.
 
 ```csharp
 public ImageBinarizationOptions BinarizationOptions { get; set; }
@@ -38,6 +38,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -58,8 +60,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
 
 ### Смотрите также
 

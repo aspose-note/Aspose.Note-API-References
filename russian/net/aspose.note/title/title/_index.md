@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаTitleaspose.note/title.
+description: Инициализирует новый экземплярTitleaspose.note/title класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/title/title/
 ---
 ## Title constructor
 
-Инициализирует новый экземпляр класса[`Title`](../../title).
+Инициализирует новый экземпляр[`Title`](../../title) класс.
 
 ```csharp
 public Title()

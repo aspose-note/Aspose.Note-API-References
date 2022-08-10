@@ -20,7 +20,7 @@ public RichText Trim(params char[] trimChars)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -40,11 +40,11 @@ public RichText Trim(char trimChar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| trimChar | Char | Символ обрезки. |
+| trimChar | Char | Обрезка char. |
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -64,7 +64,7 @@ public RichText Trim()
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 

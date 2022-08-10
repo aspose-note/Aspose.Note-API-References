@@ -3,12 +3,12 @@ title: UnsupportedSaveFormatException
 second_title: Aspose.Note for .NET API 参考
 description: 如果请求的保存格式不受支持则抛出
 type: docs
-weight: 980
+weight: 970
 url: /zh/net/aspose.note/unsupportedsaveformatexception/
 ---
 ## UnsupportedSaveFormatException class
 
-如果请求的保存格式不受支持，则抛出。
+如果请求的保存格式不受支持则抛出。
 
 ```csharp
 public class UnsupportedSaveFormatException : Exception

@@ -22,7 +22,7 @@ public void Save(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
@@ -49,7 +49,7 @@ public void Save(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
@@ -77,7 +77,7 @@ public void Save(string fileName, SaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
@@ -106,7 +106,7 @@ public void Save(Stream stream, SaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
@@ -129,13 +129,13 @@ public void Save(string fileName, NotebookSaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Полное имя файла. Если файл с указанным полным именем уже существует, существующий файл перезаписывается. |
-| options | NotebookSaveOptions | Задает параметры сохранения документа в файле. |
+| options | NotebookSaveOptions | Указывает параметры сохранения документа в файле. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
@@ -158,13 +158,13 @@ public void Save(Stream stream, NotebookSaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| options | NotebookSaveOptions | Задает параметры сохранения документа. |
+| options | NotebookSaveOptions | Указывает параметры сохранения документа. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также

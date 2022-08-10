@@ -1,14 +1,14 @@
 ---
 title: Replace
 second_title: Справочник по API Aspose.Note для .NET
-description: Заменяет все вхождения указанного символа Юникода в этом экземпляре другим указанным символом Юникода.
+description: Заменяет все вхождения указанного символа Unicode в этом экземпляре другим указанным символом Unicode.
 type: docs
 weight: 200
 url: /ru/net/aspose.note/richtext/replace/
 ---
 ## Replace(char, char) {#replace}
 
-Заменяет все вхождения указанного символа Юникода в этом экземпляре другим указанным символом Юникода.
+Заменяет все вхождения указанного символа Unicode в этом экземпляре другим указанным символом Unicode.
 
 ```csharp
 public RichText Replace(char oldChar, char newChar)
@@ -21,7 +21,7 @@ public RichText Replace(char oldChar, char newChar)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public RichText Replace(string oldValue, string newValue)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Исключения
 
@@ -57,7 +57,7 @@ The[`RichText`](../../richtext).
 
 ### Примеры
 
-Показывает, как пройти по тексту страницы и произвести замену.
+Показывает, как пройти через текст страницы и сделать замену.
 
 ```csharp
 // Путь к каталогу документов.
@@ -87,6 +87,8 @@ foreach (RichText richText in textNodes)
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
+
+Показывает, как создать новый документ, заменив специальные фрагменты текста в шаблоне.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -118,8 +120,6 @@ foreach (var e in d.GetChildNodes<RichText>())
 d.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ```
 
-Показывает, как создать новый документ, заменив специальные фрагменты текста в шаблоне.
-
 ### Смотрите также
 
 * class [RichText](../../richtext)
@@ -144,7 +144,7 @@ public RichText Replace(string oldValue, string newValue, TextStyle style)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Исключения
 

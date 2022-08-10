@@ -32,7 +32,7 @@ public class NotebookLoadOptions
 显示如何加密笔记本。
 
 ```csharp
-// 遍历它的子节点，寻找想要的子项
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 var notebook = new Notebook(dataDir + "test.onetoc2", new NotebookLoadOptions() { DeferredLoading = true });
 

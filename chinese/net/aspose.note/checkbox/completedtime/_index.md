@@ -11,12 +11,12 @@ url: /zh/net/aspose.note/checkbox/completedtime/
 获取或设置完成时间。
 
 ```csharp
-public DateTime? CompletedTime { get; set; }
+public DateTime? CompletedTime { get; }
 ```
 
 ### 适当的价值
 
-Nullable。
+的Nullable.
 
 ### 也可以看看
 

@@ -18,20 +18,20 @@ public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
 
 | Имя | Описание |
 | --- | --- |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor)() | Инициализирует новый экземпляр класса[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm), используя предел высоты клонированной части по умолчанию. |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor_1)(float) | Инициализирует новый экземпляр класса[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm)с использованием определенного ограничения высоты клонированной части. |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor)() | Инициализирует новый экземпляр[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm) класс, использующий предел высоты клонированной части по умолчанию. |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor_1)(float) | Инициализирует новый экземпляр[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm) класс, использующий определенный предел высоты клонированной части. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [HeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/heightlimitofclonedpart) { get; } | Получает предел высоты клонируемой части. |
+| [HeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/heightlimitofclonedpart) { get; } | Получает предел высоты клонированной детали. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart) | Максимальный размер клонируемой части по умолчанию. |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart) | Максимальный размер клонируемой детали по умолчанию. |
 
 ### Примеры
 
@@ -56,6 +56,8 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+Показывает, как отправить документ на принтер, используя стандартный диалог Windows с заданными параметрами.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -74,6 +76,8 @@ document.Print(new PrintOptions()
                    DocumentName = "Test.one"
                });
 ```
+
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -100,10 +104,6 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
-
-Показывает, как отправить документ на принтер, используя стандартный диалог Windows с заданными параметрами.
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ### Смотрите также
 

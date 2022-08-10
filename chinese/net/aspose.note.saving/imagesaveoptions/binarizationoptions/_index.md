@@ -22,12 +22,12 @@ public ImageBinarizationOptions BinarizationOptions { get; set; }
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 文档目录的路径。
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -38,16 +38,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+展示如何使用固定阈值将文档保存为二进制图像。
+
 ```csharp
-// 保存文档。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 保存文档。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 文档目录的路径。
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -58,8 +60,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-显示如何使用固定阈值将文档保存为二进制图像。
 
 ### 也可以看看
 

@@ -16,11 +16,11 @@ public CultureInfo Language { get; set; }
 
 ### Примечания
 
-ВозвращаетInvariantCulture, если свойство не установлено.
+ВозвращаетInvariantCulture если свойство не установлено.
 
 ### Примеры
 
-Установить язык проверки для текста.
+Установите язык проверки для текста.
 
 ```csharp
 var document = new Document();

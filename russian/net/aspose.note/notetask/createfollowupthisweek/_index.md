@@ -16,7 +16,7 @@ public static NoteTask CreateFollowUpThisWeek()
 
 ### Возвращаемое значение
 
-The[`NoteTask`](../../notetask).
+[`NoteTask`](../../notetask) .
 
 ### Смотрите также
 

@@ -20,7 +20,7 @@ public static NoteCheckBox CreateBlueCheckBox1(string label = "To Do priority 1"
 
 ### 返回值
 
-[`NoteCheckBox`](../../notecheckbox)。
+的[`NoteCheckBox`](../../notecheckbox).
 
 ### 也可以看看
 

@@ -32,6 +32,8 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
+Показывает, как сохранить документ в поток в формате html с встраиванием всех ресурсов (css/шрифты/изображения).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 var document = new Document(Path.Combine(dataDir, "Aspose.one"));
@@ -47,8 +49,6 @@ var options = new HtmlSaveOptions()
 var r = new MemoryStream();
 document.Save(r, options);
 ```
-
-Показывает, как сохранить документ в поток в формате html с вложением всех ресурсов (css/шрифты/изображения).
 
 ### Смотрите также
 

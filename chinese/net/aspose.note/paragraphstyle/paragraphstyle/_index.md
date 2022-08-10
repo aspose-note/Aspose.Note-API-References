@@ -1,14 +1,14 @@
 ---
 title: ParagraphStyle
 second_title: Aspose.Note for .NET API 参考
-description: 初始化ParagraphStyleaspose.note/paragraphstyle类的新实例
+description: 初始化ParagraphStyleaspose.note/paragraphstyle类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/paragraphstyle/paragraphstyle/
 ---
 ## ParagraphStyle constructor
 
-初始化[`ParagraphStyle`](../../paragraphstyle)类的新实例。
+初始化[`ParagraphStyle`](../../paragraphstyle)类.
 
 ```csharp
 public ParagraphStyle()

@@ -18,30 +18,30 @@ public abstract class DocumentVisitor
 
 | Имя | Описание |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | End для посещения узла[`AttachedFile`](../attachedfile). |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | Начните посещать узел[`AttachedFile`](../attachedfile). |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | End для посещения узла[`Document`](../document). |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Начните посещать узел[`Document`](../document). |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | End для посещения узла[`Image`](../image). |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Начните посещать узел[`Image`](../image). |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | End для посещения узла[`OutlineElement`](../outlineelement). |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Начните посещать узел[`OutlineElement`](../outlineelement). |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | End для посещения узла[`Outline`](../outline). |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | End для посещения узла[`OutlineGroup`](../outlinegroup). |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | Начните посещать узел[`OutlineGroup`](../outlinegroup). |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | Начните посещать узел[`Outline`](../outline). |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | End для посещения узла[`Page`](../page). |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | Начните посещать узел[`Page`](../page). |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | End для посещения узла[`RichText`](../richtext). |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | Начните посещать узел[`RichText`](../richtext). |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | End для посещения узла[`TableCell`](../tablecell). |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | Начните посещать узел[`TableCell`](../tablecell). |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | End для посещения узла[`Table`](../table). |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | End для посещения узла[`TableRow`](../tablerow). |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | Начните посещать узел[`TableRow`](../tablerow). |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | Начните посещать узел[`Table`](../table). |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | End для посещения узла[`Title`](../title). |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | Начните посещать узел[`Title`](../title). |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | Конец посещения[`AttachedFile`](../attachedfile) узел. |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | Начните посещать[`AttachedFile`](../attachedfile) узел. |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | Конец посещения[`Document`](../document) узел. |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Начните посещать[`Document`](../document) узел. |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | Конец посещения[`Image`](../image) узел. |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Начните посещать[`Image`](../image) узел. |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | Конец посещения[`OutlineElement`](../outlineelement) узел. |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Начните посещать[`OutlineElement`](../outlineelement) узел. |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | Конец посещения[`Outline`](../outline) узел. |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | Конец посещения[`OutlineGroup`](../outlinegroup) узел. |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | Начните посещать[`OutlineGroup`](../outlinegroup) узел. |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | Начните посещать[`Outline`](../outline) узел. |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | Конец посещения[`Page`](../page) узел. |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | Начните посещать[`Page`](../page) узел. |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | Конец посещения[`RichText`](../richtext) узел. |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | Начните посещать[`RichText`](../richtext) узел. |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | Конец посещения[`TableCell`](../tablecell) узел. |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | Начните посещать[`TableCell`](../tablecell) узел. |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | Конец посещения[`Table`](../table) узел. |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | Конец посещения[`TableRow`](../tablerow) узел. |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | Начните посещать[`TableRow`](../tablerow) узел. |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | Начните посещать[`Table`](../table) узел. |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | Конец посещения[`Title`](../title) узел. |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | Начните посещать[`Title`](../title) узел. |
 
 ### Примеры
 

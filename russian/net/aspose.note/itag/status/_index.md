@@ -11,12 +11,12 @@ url: /ru/net/aspose.note/itag/status/
 Получает или устанавливает статус.
 
 ```csharp
-public TagStatus Status { get; set; }
+public TagStatus Status { get; }
 ```
 
 ### Стоимость имущества
 
-The[`TagStatus`](../../tagstatus).
+[`TagStatus`](../../tagstatus) .
 
 ### Примеры
 
@@ -52,6 +52,8 @@ foreach (RichText richText in nodes)
 }
 ```
 
+Показывает, как получить доступ к сведениям о теге.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -83,8 +85,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-Показывает, как получить доступ к деталям тега.
 
 ### Смотрите также
 

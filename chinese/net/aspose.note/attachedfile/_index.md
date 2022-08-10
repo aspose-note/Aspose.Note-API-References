@@ -18,10 +18,10 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AttachedFile](attachedfile#constructor)() | 初始化[`AttachedFile`](../attachedfile)类的新实例。 |
-| [AttachedFile](attachedfile#constructor_6)(string, Stream) | 初始化[`AttachedFile`](../attachedfile)类的新实例。 |
-| [AttachedFile](attachedfile#constructor_7)(string, Stream, ImageFormat) | 初始化[`AttachedFile`](../attachedfile)类的新实例。 |
-| [AttachedFile](attachedfile#constructor_8)(string, Stream, Stream, ImageFormat) | 初始化[`AttachedFile`](../attachedfile)类的新实例。 |
+| [AttachedFile](attachedfile#constructor)() | 初始化[`AttachedFile`](../attachedfile)类. |
+| [AttachedFile](attachedfile#constructor_6)(string, Stream) | 初始化[`AttachedFile`](../attachedfile)类. |
+| [AttachedFile](attachedfile#constructor_7)(string, Stream, ImageFormat) | 初始化[`AttachedFile`](../attachedfile)类. |
+| [AttachedFile](attachedfile#constructor_8)(string, Stream, Stream, ImageFormat) | 初始化[`AttachedFile`](../attachedfile)类. |
 
 ## 特性
 
@@ -36,20 +36,20 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | [FileName](../../aspose.note/attachedfile/filename) { get; } | 获取嵌入文件的名称。 |
 | [FilePath](../../aspose.note/attachedfile/filepath) { get; } | 获取原始文件的路径。 |
 | [Height](../../aspose.note/attachedfile/height) { get; } | 获取嵌入文件图标的原始高度。 |
-| [HorizontalOffset](../../aspose.note/attachedfile/horizontaloffset) { get; set; } | 获取或设置水平偏移。 |
+| [HorizontalOffset](../../aspose.note/attachedfile/horizontaloffset) { get; set; } | 获取或设置水平偏移量。 |
 | [Icon](../../aspose.note/attachedfile/icon) { get; } | 获取与嵌入文件关联的图标的二进制数据。 |
 | [IconExtension](../../aspose.note/attachedfile/iconextension) { get; } | 获取图标的扩展名。 |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | 获取一个值，该值指示此节点是否为复合节点。如果为 true，则该节点可以有子节点。 |
+| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | 获取一个值，该值指示此节点是否为复合节点。如果为真，则节点可以有子节点。 |
 | [IsPrintout](../../aspose.note/attachedfile/isprintout) { get; set; } | 获取或设置一个值，该值指示文件的视图是否为打印输出。 |
-| [IsSizeSetByUser](../../aspose.note/attachedfile/issizesetbyuser) { get; set; } | 获取或设置一个值，该值指示图标大小的值是否由用户显式更新。 |
-| [LastModifiedTime](../../aspose.note/attachedfile/lastmodifiedtime) { get; set; } | 获取或设置最后修改时间。 |
+| [IsSizeSetByUser](../../aspose.note/attachedfile/issizesetbyuser) { get; set; } | 获取或设置一个值，该值指示图标大小的值是否被用户显式更新。 |
+| [LastModifiedTime](../../aspose.note/attachedfile/lastmodifiedtime) { get; set; } | 获取或设置上次修改时间。 |
 | [MaxHeight](../../aspose.note/attachedfile/maxheight) { get; set; } | 获取或设置显示嵌入文件图标的最大高度。 |
 | [MaxWidth](../../aspose.note/attachedfile/maxwidth) { get; set; } | 获取或设置显示嵌入文件图标的最大宽度。 |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | 获取同一节点树级别的下一个节点。 |
 | [NodeType](../../aspose.note/node/nodetype) { get; } | 获取节点类型。 |
 | [ParentNode](../../aspose.note/node/parentnode) { get; } | 获取父节点。 |
 | [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | 获取同一节点树级别的上一个节点。 |
-| [Tags](../../aspose.note/attachedfile/tags) { get; } | 获取段落所有标签的列表。 |
+| [Tags](../../aspose.note/attachedfile/tags) { get; } | 获取段落的所有标签列表。 |
 | [Text](../../aspose.note/attachedfile/text) { get; set; } | 获取或设置嵌入文件的文本表示。字符串不得包含任何值为 10（换行）或 13（回车）的字符。 |
 | [VerticalOffset](../../aspose.note/attachedfile/verticaloffset) { get; set; } | 获取或设置垂直偏移量。 |
 | [Width](../../aspose.note/attachedfile/width) { get; } | 获取嵌入文件图标的原始宽度。 |
@@ -62,7 +62,7 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 ### 例子
 
-显示如何获取附件的内容。
+显示如何获取附加文件的内容。
 
 ```csharp
 // 文档目录的路径。
@@ -89,6 +89,8 @@ foreach (AttachedFile file in nodes)
     }
 }
 ```
+
+演示如何使用文件路径将文件添加到文档中。
 
 ```csharp
 // 文档目录的路径。
@@ -124,6 +126,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
+
+演示如何将文件从流添加到文档。
 
 ```csharp
 // 文档目录的路径。
@@ -162,10 +166,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
-
-显示如何使用文件路径将文件添加到文档中。
-
-显示如何将文件从流添加到文档。
 
 ### 也可以看看
 

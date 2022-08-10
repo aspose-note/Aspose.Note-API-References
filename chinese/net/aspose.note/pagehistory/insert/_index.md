@@ -16,7 +16,7 @@ public void Insert(int index, Page item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 索引. |
 | item | Page | 页面版本。 |
 
 ### 也可以看看

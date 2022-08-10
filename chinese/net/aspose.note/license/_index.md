@@ -36,6 +36,8 @@ Aspose.Note.License license = new Aspose.Note.License();
 license.SetLicense("Aspose.Note.lic");
 ```
 
+展示如何从流中加载 Aspose.Note 的许可证。
+
 ```csharp
 Aspose.Note.License license = new Aspose.Note.License();
 using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
@@ -44,17 +46,15 @@ using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
 }
 ```
 
+展示如何从嵌入式文件资源加载 Aspose.Note 的许可证。
+
 ```csharp
-s 尺寸根据您的需要（可选）。
+// 实例化许可证类
 Aspose.Note.License license = new Aspose.Note.License();
 
-页面中的位置（可选）。
+// 仅传递嵌入在程序集中的许可文件的名称
 license.SetLicense("Aspose.Note.lic");
 ```
-
-显示如何从流中加载 Aspose.Note 的许可证。
-
-显示如何从嵌入文件资源加载 Aspose.Note 的许可证。
 
 ### 也可以看看
 

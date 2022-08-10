@@ -1,14 +1,14 @@
 ---
 title: DefaultHeightLimitOfClonedPart
 second_title: Справочник по API Aspose.Note для .NET
-description: Максимальный размер клонируемой части по умолчанию.
+description: Максимальный размер клонируемой детали по умолчанию.
 type: docs
 weight: 30
 url: /ru/net/aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart/
 ---
 ## KeepSolidObjectsAlgorithm.DefaultHeightLimitOfClonedPart field
 
-Максимальный размер клонируемой части по умолчанию.
+Максимальный размер клонируемой детали по умолчанию.
 
 ```csharp
 public const float DefaultHeightLimitOfClonedPart;

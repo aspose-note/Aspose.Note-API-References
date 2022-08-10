@@ -1,14 +1,14 @@
 ---
 title: TiffCompression
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает тип сжатия используемый при сохранении сгенерированных изображений в формате TIFF.
+description: Получает или задает тип сжатия для использования при сохранении сгенерированных изображений в формате TIFF.
 type: docs
 weight: 60
 url: /ru/net/aspose.note.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-Получает или задает тип сжатия, используемый при сохранении сгенерированных изображений в формате TIFF.
+Получает или задает тип сжатия для использования при сохранении сгенерированных изображений в формате TIFF.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -16,7 +16,7 @@ public TiffCompression TiffCompression { get; set; }
 
 ### Примеры
 
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия PackBits.
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия PackBits.
 
 ```csharp
 // Путь к каталогу документов.
@@ -33,6 +33,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.PackBits
                       });
 ```
+
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
 
 ```csharp
 // Путь к каталогу документов.
@@ -51,6 +53,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -67,10 +71,6 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.Ccitt3
                       });
 ```
-
-Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CreateBluePersonCheckBox
 second_title: Справочник по API Aspose.Note для .NET
-description: Создает новый флажок для заметки со значком BluePersonCheckBoxEmpty и указанной меткой.
+description: Создает новый флажок для примечания со значком BluePersonCheckBoxEmpty и указанной меткой.
 type: docs
 weight: 70
 url: /ru/net/aspose.note/notecheckbox/createbluepersoncheckbox/
 ---
 ## NoteCheckBox.CreateBluePersonCheckBox method
 
-Создает новый флажок для заметки со значком BluePersonCheckBoxEmpty и указанной меткой.
+Создает новый флажок для примечания со значком BluePersonCheckBoxEmpty и указанной меткой.
 
 ```csharp
 public static NoteCheckBox CreateBluePersonCheckBox(string label = "Discuss with <Person A>")
@@ -20,7 +20,7 @@ public static NoteCheckBox CreateBluePersonCheckBox(string label = "Discuss with
 
 ### Возвращаемое значение
 
-The[`NoteCheckBox`](../../notecheckbox).
+[`NoteCheckBox`](../../notecheckbox) .
 
 ### Смотрите также
 

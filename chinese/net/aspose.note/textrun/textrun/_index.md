@@ -1,14 +1,14 @@
 ---
 title: TextRun
 second_title: Aspose.Note for .NET API 参考
-description: 初始化TextRunaspose.note/textrun类的新实例
+description: 初始化TextRunaspose.note/textrun类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/textrun/textrun/
 ---
 ## TextRun(string, TextStyle) {#constructor_3}
 
-初始化[`TextRun`](../../textrun)类的新实例。
+初始化[`TextRun`](../../textrun)类.
 
 ```csharp
 public TextRun(string text, TextStyle style)
@@ -16,8 +16,8 @@ public TextRun(string text, TextStyle style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 关联的文本。 |
-| style | TextStyle | 样式。 |
+| text | String | 相关文本。 |
+| style | TextStyle | 风格. |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public TextRun(string text, TextStyle style)
 
 ## TextRun(string) {#constructor_2}
 
-使用默认样式初始化[`TextRun`](../../textrun)类的新实例。
+初始化[`TextRun`](../../textrun)具有默认样式的类。
 
 ```csharp
 public TextRun(string text)
@@ -38,7 +38,7 @@ public TextRun(string text)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 关联的文本。 |
+| text | String | 相关文本。 |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public TextRun(string text)
 
 ## TextRun(TextStyle) {#constructor_1}
 
-用空文本初始化[`TextRun`](../../textrun)类的新实例。
+初始化[`TextRun`](../../textrun)带有空文本的类。
 
 ```csharp
 public TextRun(TextStyle style)
@@ -58,7 +58,7 @@ public TextRun(TextStyle style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style | TextStyle | 样式。 |
+| style | TextStyle | 风格. |
 
 ### 也可以看看
 
@@ -71,7 +71,7 @@ public TextRun(TextStyle style)
 
 ## TextRun() {#constructor}
 
-使用空文本和默认样式初始化[`TextRun`](../../textrun)类的新实例。
+初始化[`TextRun`](../../textrun)具有空文本和默认样式的类。
 
 ```csharp
 public TextRun()

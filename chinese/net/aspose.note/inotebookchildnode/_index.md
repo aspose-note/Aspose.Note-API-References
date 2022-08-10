@@ -18,9 +18,9 @@ public interface INotebookChildNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.note/inotebookchildnode/color) { get; } | 获取颜色。默认值为 Color.Empty。 |
+| [Color](../../aspose.note/inotebookchildnode/color) { get; } | 获取颜色。默认值为 Color.Empty. |
 | [DisplayName](../../aspose.note/inotebookchildnode/displayname) { get; } | 获取显示名称。 |
-| [Guid](../../aspose.note/inotebookchildnode/guid) { get; } | 获取对象的全局唯一 ID。 |
+| [Guid](../../aspose.note/inotebookchildnode/guid) { get; } | 获取对象的全局唯一id。 |
 
 ### 也可以看看
 

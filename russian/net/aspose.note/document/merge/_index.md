@@ -25,7 +25,7 @@ public Document Merge(IEnumerable<Page> pages, MergeOptions mergeOptions = null)
 
 ### Примеры
 
-Показывает, как импортировать все страницы из документа PDF, группируя каждые 5 страниц, в одну страницу OneNote.
+Показывает, как импортировать все страницы из документа PDF, группирующего каждые 5 страниц, в одну страницу OneNote.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

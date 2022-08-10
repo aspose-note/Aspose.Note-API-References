@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Aspose.Note for .NET API 参考
-description: 获取对象的全局唯一 ID
+description: 获取对象的全局唯一id
 type: docs
 weight: 60
 url: /zh/net/aspose.note/notebook/guid/
 ---
 ## Notebook.Guid property
 
-获取对象的全局唯一 ID。
+获取对象的全局唯一id。
 
 ```csharp
 public Guid Guid { get; }
@@ -16,7 +16,7 @@ public Guid Guid { get; }
 
 ### 适当的价值
 
-GUID。
+GUID.
 
 ### 也可以看看
 

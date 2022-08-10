@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Справочник по API Aspose.Note для .NET
-description: Задает стиль текста.
+description: Определяет стиль текста.
 type: docs
-weight: 950
+weight: 940
 url: /ru/net/aspose.note/textstyle/
 ---
 ## TextStyle class
 
-Задает стиль текста.
+Определяет стиль текста.
 
 ```csharp
 public sealed class TextStyle : Style
@@ -33,14 +33,14 @@ public sealed class TextStyle : Style
 | [FontSize](../../aspose.note/style/fontsize) { get; set; } | Получает или задает размер шрифта. |
 | [FontStyle](../../aspose.note/style/fontstyle) { get; } | Получает стиль шрифта. |
 | [Highlight](../../aspose.note/style/highlight) { get; set; } | Получает или задает цвет выделения. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | Получает или задает адрес гиперссылки. Должен быть установлен, если значение свойства[`IsHyperlink`](./ishyperlink)равно true. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста полужирным. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | Получает или задает адрес гиперссылки. Должен быть установлен, если значение[`IsHyperlink`](./ishyperlink) свойство истинно. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
 | [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | Получает или задает значение, указывающее, скрыт ли стиль текста. |
 | [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста гиперссылкой. |
 | [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
 | [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста математическим форматированием. |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста зачеркнутым. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста индексом. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подстрочным. |
 | [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста надстрочным. |
 | [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подчеркнутым. |
 | [Language](../../aspose.note/textstyle/language) { get; set; } | Получает или задает язык текста. |
@@ -51,7 +51,7 @@ public sealed class TextStyle : Style
 | --- | --- |
 | override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | Служит хэш-функцией для типа. |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | Служит хеш-функцией для типа. |
 
 ### Примеры
 
@@ -79,6 +79,8 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
+Подчеркнем последние изменения текста выделением.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -102,6 +104,8 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
+Установите язык проверки для текста.
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -121,6 +125,8 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
+Управляйте текстовым форматом, используя стиль абзаца.
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -139,6 +145,8 @@ document.AppendChildLast(page);
 
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -197,14 +205,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-Подчеркнем последние изменения текста выделением.
-
-Установить язык проверки для текста.
-
-Управление текстовым форматом с использованием стиля абзаца.
-
-Показывает, как привязать гиперссылку к тексту.
 
 ### Смотрите также
 

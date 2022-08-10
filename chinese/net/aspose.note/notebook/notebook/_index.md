@@ -1,14 +1,14 @@
 ---
 title: Notebook
 second_title: Aspose.Note for .NET API 参考
-description: 初始化Notebookaspose.note/notebook类的新实例
+description: 初始化Notebookaspose.note/notebook类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/notebook/notebook/
 ---
 ## Notebook() {#constructor}
 
-初始化[`Notebook`](../../notebook)类的新实例。
+初始化[`Notebook`](../../notebook)类.
 
 ```csharp
 public Notebook()
@@ -24,7 +24,7 @@ public Notebook()
 
 ## Notebook(string) {#constructor_3}
 
-初始化[`Notebook`](../../notebook)类的新实例。 从文件中打开现有的 OneNote 笔记本。
+初始化[`Notebook`](../../notebook) class. 从文件中打开现有 OneNote 笔记本。
 
 ```csharp
 public Notebook(string filePath)
@@ -44,7 +44,7 @@ public Notebook(string filePath)
 
 ## Notebook(string, NotebookLoadOptions) {#constructor_4}
 
-初始化[`Notebook`](../../notebook)类的新实例。 从文件中打开现有的 OneNote 笔记本。允许指定其他选项，例如子加载策略（“懒惰”/即时）。
+初始化[`Notebook`](../../notebook)class. 从文件中打开现有的 OneNote 笔记本。允许指定附加选项，例如子加载策略 ("lazy"/instant).
 
 ```csharp
 public Notebook(string filePath, NotebookLoadOptions loadOptions)
@@ -66,7 +66,7 @@ public Notebook(string filePath, NotebookLoadOptions loadOptions)
 
 ## Notebook(Stream) {#constructor_1}
 
-初始化[`Notebook`](../../notebook)类的新实例。 从流中打开现有的 OneNote 笔记本。
+初始化[`Notebook`](../../notebook) class. 从流中打开现有 OneNote 笔记本。
 
 ```csharp
 public Notebook(Stream stream)
@@ -86,7 +86,7 @@ public Notebook(Stream stream)
 
 ## Notebook(Stream, NotebookLoadOptions) {#constructor_2}
 
-初始化[`Notebook`](../../notebook)类的新实例。 从流中打开现有的 OneNote 笔记本。允许指定其他加载选项。
+初始化[`Notebook`](../../notebook) class. 从流中打开现有的 OneNote 笔记本。允许指定其他加载选项。
 
 ```csharp
 public Notebook(Stream stream, NotebookLoadOptions loadOptions)

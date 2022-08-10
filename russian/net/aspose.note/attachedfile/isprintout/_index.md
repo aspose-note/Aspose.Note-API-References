@@ -1,14 +1,14 @@
 ---
 title: IsPrintout
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает значение указывающее является ли представление файла распечатанным.
+description: Получает или задает значение указывающее является ли представление файла распечаткой.
 type: docs
 weight: 130
 url: /ru/net/aspose.note/attachedfile/isprintout/
 ---
 ## AttachedFile.IsPrintout property
 
-Получает или задает значение, указывающее, является ли представление файла распечатанным.
+Получает или задает значение, указывающее, является ли представление файла распечаткой.
 
 ```csharp
 public bool IsPrintout { get; set; }

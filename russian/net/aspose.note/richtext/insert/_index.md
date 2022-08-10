@@ -21,7 +21,7 @@ public RichText Insert(int startIndex, string value)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Исключения
 
@@ -53,7 +53,7 @@ public RichText Insert(int startIndex, string value, TextStyle style)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Исключения
 

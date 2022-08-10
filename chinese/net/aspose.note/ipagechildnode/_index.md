@@ -18,7 +18,7 @@ public interface IPageChildNode : INode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HorizontalOffset](../../aspose.note/ipagechildnode/horizontaloffset) { get; set; } | 获取或设置水平偏移。 |
+| [HorizontalOffset](../../aspose.note/ipagechildnode/horizontaloffset) { get; set; } | 获取或设置水平偏移量。 |
 | [VerticalOffset](../../aspose.note/ipagechildnode/verticaloffset) { get; set; } | 获取或设置垂直偏移量。 |
 
 ### 也可以看看

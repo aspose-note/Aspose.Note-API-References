@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API 参考
-description: 返回一个遍历PageHistoryaspose.note/pagehistory的子节点的枚举器
+description: 返回一个遍历子节点的枚举器PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 110
 url: /zh/net/aspose.note/pagehistory/getenumerator/
 ---
 ## PageHistory.GetEnumerator method
 
-返回一个遍历[`PageHistory`](../../pagehistory)的子节点的枚举器。
+返回一个遍历子节点的枚举器[`PageHistory`](../../pagehistory).
 
 ```csharp
 public IEnumerator<Page> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<Page> GetEnumerator()
 
 ### 返回值
 
-IEnumerator。
+的IEnumerator.
 
 ### 也可以看看
 

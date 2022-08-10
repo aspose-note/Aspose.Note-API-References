@@ -1,14 +1,14 @@
 ---
 title: VisitDocumentEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаDocumentaspose.note/document.
+description: Конец посещенияDocumentaspose.note/document узел.
 type: docs
 weight: 30
 url: /ru/net/aspose.note/documentvisitor/visitdocumentend/
 ---
 ## DocumentVisitor.VisitDocumentEnd method
 
-End для посещения узла[`Document`](../../document).
+Конец посещения[`Document`](../../document) узел.
 
 ```csharp
 public virtual void VisitDocumentEnd(Document document)
@@ -16,7 +16,7 @@ public virtual void VisitDocumentEnd(Document document)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | Document | Узел[`Document`](../../document). |
+| document | Document | [`Document`](../../document) узел. |
 
 ### Смотрите также
 

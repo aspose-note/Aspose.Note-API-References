@@ -11,12 +11,12 @@ url: /ru/net/aspose.note/notetask/icon/
 Получает или задает значок.
 
 ```csharp
-public override TagIcon Icon { get; set; }
+public override TagIcon Icon { get; }
 ```
 
 ### Стоимость имущества
 
-The[`TagIcon`](../../tagicon).
+[`TagIcon`](../../tagicon) .
 
 ### Смотрите также
 

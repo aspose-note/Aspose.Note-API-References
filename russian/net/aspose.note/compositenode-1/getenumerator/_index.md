@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Note для .NET
-description: Возвращает перечислитель который перебирает дочерние узлыCompositeNodeaspose.note/compositenode-1.
+description: Возвращает перечислитель который перебирает дочерние узлыCompositeNodeaspose.note/compositenode-1 .
 type: docs
 weight: 80
 url: /ru/net/aspose.note/compositenode-1/getenumerator/
 ---
 ## CompositeNode&lt;T&gt;.GetEnumerator method
 
-Возвращает перечислитель, который перебирает дочерние узлы[`CompositeNode`](../../compositenode-1).
+Возвращает перечислитель, который перебирает дочерние узлы[`CompositeNode`](../../compositenode-1) .
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<T> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorдля[`CompositeNode`](../../compositenode-1).
+АIEnumerator для[`CompositeNode`](../../compositenode-1) .
 
 ### Смотрите также
 

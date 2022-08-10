@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаPageaspose.note/page.
+description: Инициализирует новый экземплярPageaspose.note/page класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/page/page/
 ---
 ## Page constructor
 
-Инициализирует новый экземпляр класса[`Page`](../../page).
+Инициализирует новый экземпляр[`Page`](../../page) класс.
 
 ```csharp
 public Page()

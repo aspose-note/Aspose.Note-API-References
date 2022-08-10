@@ -20,7 +20,7 @@ public static NoteTag CreateHighPriority(string label = "Critical")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

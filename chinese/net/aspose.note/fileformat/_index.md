@@ -1,14 +1,14 @@
 ---
 title: FileFormat
 second_title: Aspose.Note for .NET API 参考
-description: 表示 OneNote 文件格式
+description: 代表 OneNote 文件格式
 type: docs
 weight: 90
 url: /zh/net/aspose.note/fileformat/
 ---
 ## FileFormat enumeration
 
-表示 OneNote 文件格式。
+代表 OneNote 文件格式。
 
 ```csharp
 public enum FileFormat
@@ -18,17 +18,17 @@ public enum FileFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Unknown | `0` | 未知文件格式。 |
-| OneNote2007 | `1` | OneNote 2010。 |
-| OneNote2010 | `2` | OneNote 2010。 |
-| OneNoteOnline | `3` | OneNote Online。 |
+| Unknown | `0` | 未知的文件格式。 |
+| OneNote2007 | `1` | OneNote 2010. |
+| OneNote2010 | `2` | OneNote 2010. |
+| OneNoteOnline | `3` | OneNote Online. |
 
 ### 例子
 
-显示如何检查文档加载是否因为不支持 OneNote 2007 格式而失败。
+说明如何检查文档加载是否因为不支持 OneNote 2007 格式而失败。
 
 ```csharp
-// 在文档中追加 Page 节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 string fileName = Path.Combine(dataDir, "OneNote2007.one");
 

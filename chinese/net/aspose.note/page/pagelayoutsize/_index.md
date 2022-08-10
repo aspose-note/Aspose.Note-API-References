@@ -16,7 +16,7 @@ public SizeF PageLayoutSize { get; set; }
 
 ### 评论
 
-Microsoft OneNote 应用程序使用此值在打开文档时显示底层页面布局。 无论如何都不影响文档的打印和保存。 当 Page.SizeType 属性设置为 PageSizeType.SizeByContent 时，此属性返回内容的实际大小。
+Microsoft OneNote 应用程序使用此值在打开文档时显示底层页面布局。 无论如何它不影响文档的打印和保存。 当 Page.SizeType 属性设置为 PageSizeType.SizeByContent 时，此属性返回实际大小内容.
 
 ### 也可以看看
 

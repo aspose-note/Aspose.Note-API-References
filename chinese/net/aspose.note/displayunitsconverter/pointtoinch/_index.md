@@ -20,7 +20,7 @@ public static float PointToInch(float points)
 
 ### 返回值
 
-Single。
+的Single.
 
 ### 也可以看看
 

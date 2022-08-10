@@ -1,14 +1,14 @@
 ---
 title: TrimStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Удаляет все ведущие вхождения набора символов указанного в массиве.
+description: Удаляет все первые вхождения набора символов указанного в массиве.
 type: docs
 weight: 230
 url: /ru/net/aspose.note/richtext/trimstart/
 ---
 ## TrimStart(params char[]) {#trimstart_2}
 
-Удаляет все ведущие вхождения набора символов, указанного в массиве.
+Удаляет все первые вхождения набора символов, указанного в массиве.
 
 ```csharp
 public RichText TrimStart(params char[] trimChars)
@@ -20,7 +20,7 @@ public RichText TrimStart(params char[] trimChars)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -40,11 +40,11 @@ public RichText TrimStart(char trimChar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| trimChar | Char | Символ обрезки. |
+| trimChar | Char | Обрезка char. |
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -64,7 +64,7 @@ public RichText TrimStart()
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 

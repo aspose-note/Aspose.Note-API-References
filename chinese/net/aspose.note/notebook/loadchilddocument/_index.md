@@ -1,14 +1,14 @@
 ---
 title: LoadChildDocument
 second_title: Aspose.Note for .NET API 参考
-description: 添加一个子文档节点 从文件中打开现有的 OneNote 文档
+description: 添加子文档节点 从文件中打开现有 OneNote 文档
 type: docs
 weight: 120
 url: /zh/net/aspose.note/notebook/loadchilddocument/
 ---
 ## LoadChildDocument(string) {#loadchilddocument_2}
 
-添加一个子文档节点。 从文件中打开现有的 OneNote 文档。
+添加子文档节点。 从文件中打开现有 OneNote 文档。
 
 ```csharp
 public void LoadChildDocument(string filePath)
@@ -48,7 +48,7 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 
 ## LoadChildDocument(string, LoadOptions) {#loadchilddocument_3}
 
-添加一个子文档节点。 从文件中打开现有的 OneNote 文档。允许指定其他加载选项。
+添加子文档节点。 从文件中打开现有 OneNote 文档。允许指定其他加载选项。
 
 ```csharp
 public void LoadChildDocument(string filePath, LoadOptions loadOptions)
@@ -70,7 +70,7 @@ public void LoadChildDocument(string filePath, LoadOptions loadOptions)
 
 ## LoadChildDocument(Stream) {#loadchilddocument}
 
-添加一个子文档节点。 从流中打开现有 OneNote 文档。
+添加子文档节点。 从流中打开现有 OneNote 文档。
 
 ```csharp
 public void LoadChildDocument(Stream stream)
@@ -85,7 +85,7 @@ public void LoadChildDocument(Stream stream)
 显示如何从流中加载笔记本。
 
 ```csharp
-// 加载 OneNote 笔记本
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
@@ -110,7 +110,7 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 
 ## LoadChildDocument(Stream, LoadOptions) {#loadchilddocument_1}
 
-添加一个子文档节点。 从流中打开现有 OneNote 文档。允许指定其他加载选项。
+添加子文档节点。 从流中打开现有 OneNote 文档。允许指定其他加载选项。
 
 ```csharp
 public void LoadChildDocument(Stream stream, LoadOptions loadOptions)

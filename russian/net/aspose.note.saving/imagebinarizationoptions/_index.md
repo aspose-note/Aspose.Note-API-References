@@ -1,14 +1,14 @@
 ---
 title: ImageBinarizationOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Варианты бинаризации изображения.
+description: Параметры бинаризации изображения.
 type: docs
 weight: 690
 url: /ru/net/aspose.note.saving/imagebinarizationoptions/
 ---
 ## ImageBinarizationOptions class
 
-Варианты бинаризации изображения.
+Параметры бинаризации изображения.
 
 ```csharp
 public class ImageBinarizationOptions
@@ -24,8 +24,8 @@ public class ImageBinarizationOptions
 
 | Имя | Описание |
 | --- | --- |
-| [BinarizationMethod](../../aspose.note.saving/imagebinarizationoptions/binarizationmethod) { get; set; } | Получает или задает метод бинаризации. Значение по умолчанию:FixedThreshold. |
-| [BinarizationThreshold](../../aspose.note.saving/imagebinarizationoptions/binarizationthreshold) { get; set; } | Получает или задает пороговое значение для метода бинаризации с фиксированным порогом. Значение по умолчанию — 128. |
+| [BinarizationMethod](../../aspose.note.saving/imagebinarizationoptions/binarizationmethod) { get; set; } | Получает или задает метод бинаризации. Значение по умолчанию:FixedThreshold . |
+| [BinarizationThreshold](../../aspose.note.saving/imagebinarizationoptions/binarizationthreshold) { get; set; } | Получает или задает пороговое значение для метода бинаризации с фиксированным порогом. Значение по умолчанию: 128. |
 
 ### Примеры
 
@@ -51,6 +51,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -71,8 +73,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
 
 ### Смотрите также
 

@@ -36,6 +36,8 @@ foreach (Page page in oneFile)
 }
 ```
 
+Показывает, как получить историю страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -56,8 +58,6 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
-
-Показывает, как получить историю страницы.
 
 ### Смотрите также
 

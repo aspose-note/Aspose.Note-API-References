@@ -21,7 +21,7 @@ public RichText Append(string value, TextStyle style)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例子
 
@@ -46,6 +46,8 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
+使用段落样式按文本格式进行操作。
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -65,11 +67,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
+显示如何将超链接绑定到文本。
+
 ```csharp
-// 初始化 TextStyle 类对象并设置格式属性
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 初始化 OutlineElement 类对象并应用编号
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -103,40 +107,42 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// 同一大纲中的数字会自动递增。
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 添加轮廓元素
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 文档目录的路径。
+//初始化Page类对象
 Page page = new Note.Page() { Title = title };
 
-// 文档目录的路径。
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 文档目录的路径。
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 文档目录的路径。
+// 保存 OneNote 文档
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
+
+展示如何使用格式化的富文本创建文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 创建 Document 类的对象
+//初始化Page类对象
 Page page = new Page();
 
-// 添加轮廓元素
+// 初始化 Title 类对象
 Title title = new Title();
 
-// 初始化 Title 类对象
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultTextStyle = new ParagraphStyle
                                       {
                                           FontColor = Color.Black,
@@ -184,31 +190,25 @@ RichText text = new RichText() { ParagraphStyle = defaultTextStyle }
 
 title.TitleText = titleText;
 
-//初始化Page类对象
+// 设置页面标题
 page.Title = title;
 
-// 让我们添加一组列和一个标题行
+// 添加富文本节点
 outlineElem.AppendChildLast(text);
 
-// 表格前的摘要文本
+// 添加 OutlineElement 节点
 outline.AppendChildLast(outlineElem);
 
-// 让我们添加一组列和一个标题行
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 表格前的摘要文本
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 让我们添加一组列和一个标题行
+// 保存 OneNote 文档
 dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
-
-使用段落样式按文本格式进行操作。
-
-显示如何将超链接绑定到文本。
-
-展示如何使用格式化的富文本创建文档。
 
 ### 也可以看看
 
@@ -233,11 +233,11 @@ public RichText Append(string value)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例子
 
-使用段落样式按文本格式操作。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -258,11 +258,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
+显示如何将超链接绑定到文本。
+
 ```csharp
-// 让我们 5 个空行。行具有互换的背景颜色
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 让我们为“联系人”列中的内容添加一些模板
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -296,27 +298,25 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-添加一组列和一个标题行
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-5 个空行。行具有互换的背景颜色
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 文档目录的路径。
+//初始化Page类对象
 Page page = new Note.Page() { Title = title };
 
-// 将文档加载到 Aspose.Note。
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 获取所有富文本节点
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 遍历每个节点
+// 保存 OneNote 文档
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-显示如何将超链接绑定到文本。
 
 ### 也可以看看
 

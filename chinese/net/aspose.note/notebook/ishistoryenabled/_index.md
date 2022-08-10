@@ -1,14 +1,14 @@
 ---
 title: IsHistoryEnabled
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置一个指示是否启用历史记录的值
+description: 获取或设置一个值指示是否启用历史记录
 type: docs
 weight: 70
 url: /zh/net/aspose.note/notebook/ishistoryenabled/
 ---
 ## Notebook.IsHistoryEnabled property
 
-获取或设置一个指示是否启用历史记录的值。
+获取或设置一个值，指示是否启用历史记录。
 
 ```csharp
 public bool IsHistoryEnabled { get; set; }

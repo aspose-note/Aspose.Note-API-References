@@ -1,14 +1,14 @@
 ---
 title: VisitPageStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелPageaspose.note/page.
+description: Начните посещатьPageaspose.note/page узел.
 type: docs
 weight: 140
 url: /ru/net/aspose.note/documentvisitor/visitpagestart/
 ---
 ## DocumentVisitor.VisitPageStart method
 
-Начните посещать узел[`Page`](../../page).
+Начните посещать[`Page`](../../page) узел.
 
 ```csharp
 public virtual void VisitPageStart(Page page)
@@ -16,7 +16,7 @@ public virtual void VisitPageStart(Page page)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| page | Page | Узел[`Page`](../../page). |
+| page | Page | [`Page`](../../page) узел. |
 
 ### Смотрите также
 

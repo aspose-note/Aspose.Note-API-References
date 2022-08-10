@@ -46,7 +46,7 @@ public Document Import(string file, PdfImportOptions importOptions = null,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| file | String | Файл с PDF-документом. |
+| file | String | Файл с документом PDF. |
 | importOptions | PdfImportOptions | Указывает параметры импорта страниц из документа PDF. |
 | mergeOptions | MergeOptions | Указывает параметры объединения предоставленных страниц. |
 
@@ -56,7 +56,7 @@ public Document Import(string file, PdfImportOptions importOptions = null,
 
 ### Примеры
 
-Показывает, как постранично импортировать все страницы из набора PDF-документов.
+Показывает, как импортировать все страницы из набора PDF-документов постранично.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -69,6 +69,8 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"))
 
 d.Save(Path.Combine(dataDir, "sample_SimpleMerge.one"));
 ```
+
+Показывает, как импортировать все страницы из набора документов PDF при вставке страниц из каждого документа PDF в качестве дочерних элементов страницы OneNote верхнего уровня.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -84,6 +86,8 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
+Показывает, как импортировать все содержимое из набора документов PDF при объединении страниц из каждого документа PDF в одну страницу OneNote.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
 
@@ -98,10 +102,6 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
-
-Показывает, как импортировать все страницы из набора документов PDF при вставке страниц из каждого документа PDF в качестве дочерних элементов страницы OneNote верхнего уровня.
-
-Показывает, как импортировать все содержимое из набора документов PDF при объединении страниц из каждого документа PDF в одну страницу OneNote.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CreateYellowRightArrowCheckBox
 second_title: Справочник по API Aspose.Note для .NET
-description: Создает новый флажок для заметки со значком YellowRightArrowCheckBoxEmpty и указанной меткой.
+description: Создает новый флажок примечания со значком YellowRightArrowCheckBoxEmpty и указанной меткой.
 type: docs
 weight: 260
 url: /ru/net/aspose.note/notecheckbox/createyellowrightarrowcheckbox/
 ---
 ## NoteCheckBox.CreateYellowRightArrowCheckBox method
 
-Создает новый флажок для заметки со значком YellowRightArrowCheckBoxEmpty и указанной меткой.
+Создает новый флажок примечания со значком YellowRightArrowCheckBoxEmpty и указанной меткой.
 
 ```csharp
 public static NoteCheckBox CreateYellowRightArrowCheckBox(string label = "")
@@ -20,7 +20,7 @@ public static NoteCheckBox CreateYellowRightArrowCheckBox(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteCheckBox`](../../notecheckbox).
+[`NoteCheckBox`](../../notecheckbox) .
 
 ### Смотрите также
 

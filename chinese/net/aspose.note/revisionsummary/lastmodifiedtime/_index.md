@@ -1,14 +1,14 @@
 ---
 title: LastModifiedTime
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置最后修改时间
+description: 获取或设置上次修改时间
 type: docs
 weight: 30
 url: /zh/net/aspose.note/revisionsummary/lastmodifiedtime/
 ---
 ## RevisionSummary.LastModifiedTime property
 
-获取或设置最后修改时间。
+获取或设置上次修改时间。
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
@@ -19,14 +19,14 @@ public DateTime LastModifiedTime { get; set; }
 显示如何编辑页面的元信息。
 
 ```csharp
-// 在输出屏幕上打印文本
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 文档目录的路径。           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// 将文档加载到 Aspose.Note。
+// 阅读本页的内容修订摘要
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -34,17 +34,19 @@ Console.WriteLine(string.Format(
     pageRevisionInfo.AuthorMostRecent,
     pageRevisionInfo.LastModifiedTime.ToString("dd.MM.yyyy HH:mm:ss")));
 
-// 获取所有富文本节点
+// 更新此页面的页面修订摘要
 pageRevisionInfo.AuthorMostRecent = "New Author";
 pageRevisionInfo.LastModifiedTime = DateTime.Now;
 
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
+显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 替换形状的文本
+// 加载 OneNote 文档
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -57,16 +59,14 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 保存为任何支持的文件格式
-    // 文档目录的路径。
+    // 默认情况下，冲突页面只是在保存时跳过。
+    // 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
-
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
 
 ### 也可以看看
 

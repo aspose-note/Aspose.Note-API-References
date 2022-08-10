@@ -1,14 +1,14 @@
 ---
 title: VisitOutlineGroupStart
 second_title: Aspose.Note for .NET API 参考
-description: 开始访问OutlineGroupaspose.note/outlinegroup节点
+description: 开始访问OutlineGroupaspose.note/outlinegroup节点.
 type: docs
 weight: 110
 url: /zh/net/aspose.note/documentvisitor/visitoutlinegroupstart/
 ---
 ## DocumentVisitor.VisitOutlineGroupStart method
 
-开始访问[`OutlineGroup`](../../outlinegroup)节点。
+开始访问[`OutlineGroup`](../../outlinegroup)节点.
 
 ```csharp
 public virtual void VisitOutlineGroupStart(OutlineGroup outlineGroup)
@@ -16,7 +16,7 @@ public virtual void VisitOutlineGroupStart(OutlineGroup outlineGroup)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| outlineGroup | OutlineGroup | [`OutlineGroup`](../../outlinegroup)节点。 |
+| outlineGroup | OutlineGroup | 的[`OutlineGroup`](../../outlinegroup)节点. |
 
 ### 也可以看看
 

@@ -21,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 ### 评论
 
-如果你购买的是计量许可证，这个API应该在应用程序启动时调用，正常情况下就够了. 但是，如果metered在24小时内未能上传消费数据，则License将被设置为评估状态。为了避免这种情况，您应该定期检查许可证状态如果是评估状态，请再次调用此 API。
+如果你购买的是metered license，这个API应该在应用启动时调用，正常情况下就够了。 但是如果metered在24小时内没有上传消费数据，就会将License设置为评估状态。为了避免这种情况，您应该定期检查许可证状态如果是评估状态，请再次调用此 API。
 
 ### 例子
 
@@ -34,10 +34,10 @@ metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 
-// 设置图像对齐
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 保存 OneNote 文档           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));

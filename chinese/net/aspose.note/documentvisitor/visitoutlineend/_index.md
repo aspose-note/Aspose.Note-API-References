@@ -1,14 +1,14 @@
 ---
 title: VisitOutlineEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问Outlineaspose.note/outline节点
+description: 结束访问Outlineaspose.note/outline节点.
 type: docs
 weight: 90
 url: /zh/net/aspose.note/documentvisitor/visitoutlineend/
 ---
 ## DocumentVisitor.VisitOutlineEnd method
 
-结束访问[`Outline`](../../outline)节点。
+结束访问[`Outline`](../../outline)节点.
 
 ```csharp
 public virtual void VisitOutlineEnd(Outline outline)
@@ -16,7 +16,7 @@ public virtual void VisitOutlineEnd(Outline outline)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| outline | Outline | [`Outline`](../../outline)节点。 |
+| outline | Outline | 的[`Outline`](../../outline)节点. |
 
 ### 也可以看看
 

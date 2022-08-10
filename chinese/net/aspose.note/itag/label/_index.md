@@ -39,6 +39,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
+显示如何打开与“项目 C”相关的所有复选框项目。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -59,6 +61,8 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
+
+显示如何访问标签的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -91,10 +95,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-显示如何打开与“项目 C”相关的所有复选框项目。
-
-显示如何访问标签的详细信息。
 
 ### 也可以看看
 

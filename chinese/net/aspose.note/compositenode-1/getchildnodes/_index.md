@@ -17,7 +17,7 @@ public override List<T1> GetChildNodes<T1>()
 
 | 范围 | 描述 |
 | --- | --- |
-| T1 | 返回列表中的元素类型。 |
+| T1 | 返回列表中元素的类型。 |
 
 ### 返回值
 
@@ -50,6 +50,8 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
+显示如何获取图像的元信息。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
@@ -71,8 +73,6 @@ foreach (Aspose.Note.Image image in images)
     Console.WriteLine();
 }
 ```
-
-显示如何获取图像的元信息。
 
 ### 也可以看看
 

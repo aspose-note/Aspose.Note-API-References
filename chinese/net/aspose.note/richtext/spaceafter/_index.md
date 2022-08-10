@@ -1,14 +1,14 @@
 ---
 title: SpaceAfter
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置之后的最小空间量
+description: 获取或设置后的最小空间量
 type: docs
 weight: 70
 url: /zh/net/aspose.note/richtext/spaceafter/
 ---
 ## RichText.SpaceAfter property
 
-获取或设置之后的最小空间量。
+获取或设置后的最小空间量。
 
 ```csharp
 public float? SpaceAfter { get; set; }

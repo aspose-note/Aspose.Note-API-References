@@ -40,6 +40,8 @@ foreach (var run in richText.TextRuns)
 }
 ```
 
+Показывает, как составить таблицу с текстом в различных стилях.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -101,8 +103,6 @@ var d = new Document();
 d.AppendChildLast(page);
 d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 ```
-
-Показывает, как составить таблицу с текстом в различных стилях.
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public interface INotebookChildNode
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.note/inotebookchildnode/color) { get; } | Получает цвет. Значение по умолчанию — Color.Empty. |
+| [Color](../../aspose.note/inotebookchildnode/color) { get; } | Получает цвет. Значение по умолчанию — Color.Empty. . |
 | [DisplayName](../../aspose.note/inotebookchildnode/displayname) { get; } | Получает отображаемое имя. |
 | [Guid](../../aspose.note/inotebookchildnode/guid) { get; } | Получает глобально уникальный идентификатор объекта. |
 

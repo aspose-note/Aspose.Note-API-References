@@ -24,8 +24,8 @@ public class PdfImportOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 这意味着将呈现文档的所有页面。 |
-| [PageIndex](../../aspose.note.importing/pdfimportoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0。 |
+| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 表示将呈现文档的所有页面。 |
+| [PageIndex](../../aspose.note.importing/pdfimportoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0. |
 | [Password](../../aspose.note.importing/pdfimportoptions/password) { get; set; } | 获取或设置用于解密文档内容的密码。 |
 
 ### 也可以看看

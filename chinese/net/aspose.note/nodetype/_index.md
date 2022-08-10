@@ -18,20 +18,20 @@ public enum NodeType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Document | `0` | 指定节点是Document。 |
-| Section | `1` | 指定节点是Section。 |
-| Page | `2` | 指定节点是Page。 |
-| PageSeries | `3` | 指定节点是PageSeries。 |
-| Title | `4` | 指定节点是Title。 |
-| Outline | `5` | 指定节点是Outline。 |
-| OutlineElement | `6` | 指定节点是OutlineElement。 |
-| Image | `7` | 指定节点是Image。 |
-| RichText | `8` | 指定节点是RichText。 |
-| OutlineGroup | `9` | 指定节点是OutlineGroup。 |
-| AttachedFile | `10` | 指定节点是AttachedFile。 |
-| Table | `11` | 指定节点是Table。 |
-| TableRow | `12` | 指定节点是TableRow。 |
-| TableCell | `13` | 指定节点是TableCell。 |
+| Document | `0` | 指定节点是Document. |
+| Section | `1` | 指定节点是Section. |
+| Page | `2` | 指定节点是Page. |
+| PageSeries | `3` | 指定节点是PageSeries. |
+| Title | `4` | 指定节点是Title. |
+| Outline | `5` | 指定节点是Outline. |
+| OutlineElement | `6` | 指定节点是OutlineElement. |
+| Image | `7` | 指定节点是Image. |
+| RichText | `8` | 指定节点是RichText. |
+| OutlineGroup | `9` | 指定节点是OutlineGroup. |
+| AttachedFile | `10` | 指定节点是AttachedFile. |
+| Table | `11` | 指定节点是Table. |
+| TableRow | `12` | 指定节点是TableRow. |
+| TableCell | `13` | 指定节点是TableCell. |
 
 ### 也可以看看
 

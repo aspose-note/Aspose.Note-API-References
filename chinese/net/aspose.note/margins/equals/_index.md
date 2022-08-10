@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Note for .NET API 参考
-description: 测试两个Margins结构是否相等
+description: 测试是否两个Margins结构是平等的
 type: docs
 weight: 70
 url: /zh/net/aspose.note/margins/equals/
 ---
 ## Equals(Margins) {#equals}
 
-测试两个Margins结构是否相等。
+测试是否两个Margins结构是平等的。
 
 ```csharp
 public bool Equals(Margins other)
@@ -16,11 +16,11 @@ public bool Equals(Margins other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Margins | Margins结构。 |
+| other | Margins | 的Margins结构. |
 
 ### 返回值
 
-Boolean。
+的Boolean.
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ Boolean。
 
 ## Equals(object) {#equals_1}
 
-测试两个Margins结构是否相等。
+测试是否两个Margins结构是平等的。
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-Boolean。
+的Boolean.
 
 ### 也可以看看
 

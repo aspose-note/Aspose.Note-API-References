@@ -1,14 +1,14 @@
 ---
 title: Extension
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает расширение встроенного файла.
+description: Получает расширение внедренного файла.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/attachedfile/extension/
 ---
 ## AttachedFile.Extension property
 
-Получает расширение встроенного файла.
+Получает расширение внедренного файла.
 
 ```csharp
 public string Extension { get; }

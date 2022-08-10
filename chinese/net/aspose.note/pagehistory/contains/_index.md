@@ -20,7 +20,7 @@ public bool Contains(Page item)
 
 ### 返回值
 
-Boolean。
+的Boolean.
 
 ### 也可以看看
 

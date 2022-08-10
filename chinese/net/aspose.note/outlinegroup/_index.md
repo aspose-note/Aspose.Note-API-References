@@ -19,7 +19,7 @@ public sealed class OutlineGroup : CompositeNode<IOutlineChildNode>, IOutlineChi
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OutlineGroup](outlinegroup#constructor)() | 初始化[`OutlineGroup`](../outlinegroup)类的新实例。 |
+| [OutlineGroup](outlinegroup#constructor)() | 初始化[`OutlineGroup`](../outlinegroup)类. |
 
 ## 特性
 

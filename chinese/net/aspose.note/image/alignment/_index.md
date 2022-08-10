@@ -16,45 +16,47 @@ public HorizontalAlignment Alignment { get; set; }
 
 ### 例子
 
-显示如何将图像从文件添加到具有用户定义属性的文档。
+演示如何将图像从文件添加到具有用户定义属性的文档。
 
 ```csharp
-// 获取所有图像节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 文档目录的路径。
+// 从流中加载文档。
 Document doc = new Document(dataDir + "Aspose.one");
 
-s 尺寸根据您的需要（可选）。
+// 获取文档的第一页。
 Aspose.Note.Page page = doc.FirstChild;
 
-页面中的位置（可选）。
+// 从文件中加载图像。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // 文档目录的路径。
+                              // 根据您的需要更改图像的大小（可选）。
                               Width = 100,
                               Height = 100,
 
-                              // 将文档加载到 Aspose.Note。
+                              // 设置图片在页面中的位置（可选）。
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // 获取所有图像节点
+                              // 设置图像对齐
                               Alignment = HorizontalAlignment.Right
                           };
 
-// 文档目录的路径。
+// 将图像添加到页面。
 page.AppendChildLast(image);
 ```
 
+演示如何将图像从流添加到文档。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 获取所有图像节点
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 将图像字节保存到文件中
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Outline outline1 = new Outline(doc);
@@ -63,10 +65,10 @@ OutlineElement outlineElem1 = new OutlineElement(doc);
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // 文档目录的路径。
+    // 使用图像名称、扩展名和流加载第二张图像。
     Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
                                    {
-                                       // 创建 Document 类的对象
+                                       // 设置图像对齐
                                        Alignment = HorizontalAlignment.Right
                                    };
 
@@ -78,54 +80,52 @@ page.AppendChildLast(outline1);
 
 doc.AppendChildLast(page);
 
-//初始化Page类对象
+// 保存 OneNote 文档
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
 
+显示如何将图像从文件添加到文档。
+
 ```csharp
-// 初始化大纲类对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 添加大纲元素节点
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 加载一张图片
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 在文档节点中插入图片
+// 初始化 Outline 类对象并设置偏移属性
 Outline outline = new Outline(doc);
 
-// 添加大纲元素节点
+// 初始化 OutlineElement 类对象
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// 从流中加载文档。
+// 通过文件路径加载图片。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // 获取文档的第一页。
+                              // 设置图像对齐
                               Alignment = HorizontalAlignment.Right
                           };
 
-// 从文件中加载图像。
+// 添加图片
 outlineElem.AppendChildLast(image);
 
-// 文档目录的路径。
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 从流中加载文档。
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 获取文档的第一页。
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 从文件中加载图像。
+// 保存 OneNote 文档
 dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
-
-显示如何将图像从流添加到文档。
-
-显示如何将图像从文件添加到文档。
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/numberlist/equals/
 ---
 ## Equals(object) {#equals_1}
 
-判断指定对象是否等于当前对象。
+判断指定对象是否等于当前对象
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-Boolean。
+的Boolean.
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ Boolean。
 
 ## Equals(NumberList) {#equals}
 
-判断指定对象是否等于当前对象。
+判断指定对象是否等于当前对象
 
 ```csharp
 public bool Equals(NumberList other)
@@ -44,7 +44,7 @@ public bool Equals(NumberList other)
 
 ### 返回值
 
-Boolean。
+的Boolean.
 
 ### 也可以看看
 

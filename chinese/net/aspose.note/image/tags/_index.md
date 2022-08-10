@@ -1,14 +1,14 @@
 ---
 title: Tags
 second_title: Aspose.Note for .NET API 参考
-description: 获取段落所有标签的列表
+description: 获取段落的所有标签列表
 type: docs
 weight: 160
 url: /zh/net/aspose.note/image/tags/
 ---
 ## Image.Tags property
 
-获取段落所有标签的列表。
+获取段落的所有标签列表。
 
 ```csharp
 public List<ITag> Tags { get; }
@@ -19,38 +19,38 @@ public List<ITag> Tags { get; }
 显示如何添加带有标签的新图像。
 
 ```csharp
-// 设置图片在页面中的位置（可选）。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 设置图像对齐
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 将图像添加到页面。
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-s 尺寸根据您的需要（可选）。
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-页面中的位置（可选）。
+// 初始化 OutlineElement 类对象
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// 文档目录的路径。
+// 加载一张图片
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 
-// 从流中加载文档。
+// 在文档节点中插入图片
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// 获取文档的第一页。
+// 添加大纲元素节点
 outline.AppendChildLast(outlineElem);
 
-// 从文件中加载图像。
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 根据您的需要更改图像的大小（可选）。
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 设置图片在页面中的位置（可选）。
+// 保存 OneNote 文档
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```

@@ -1,14 +1,14 @@
 ---
 title: LastModifiedTime
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает время последнего изменения.
+description: Получает или устанавливает время последнего изменения.
 type: docs
 weight: 30
 url: /ru/net/aspose.note/revisionsummary/lastmodifiedtime/
 ---
 ## RevisionSummary.LastModifiedTime property
 
-Получает или задает время последнего изменения.
+Получает или устанавливает время последнего изменения.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
@@ -41,6 +41,8 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
+Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
@@ -65,8 +67,6 @@ for (int i = 0; i < history.Count; i++)
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
-
-Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
 
 ### Смотрите также
 

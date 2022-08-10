@@ -1,14 +1,14 @@
 ---
 title: OutlineGroup
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаOutlineGroupaspose.note/outlinegroup.
+description: Инициализирует новый экземплярOutlineGroupaspose.note/outlinegroup класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/outlinegroup/outlinegroup/
 ---
 ## OutlineGroup constructor
 
-Инициализирует новый экземпляр класса[`OutlineGroup`](../../outlinegroup).
+Инициализирует новый экземпляр[`OutlineGroup`](../../outlinegroup) класс.
 
 ```csharp
 public OutlineGroup()

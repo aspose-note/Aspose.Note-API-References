@@ -1,14 +1,14 @@
 ---
 title: Level
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置级别
+description: 获取或设置关卡
 type: docs
 weight: 70
 url: /zh/net/aspose.note/page/level/
 ---
 ## Page.Level property
 
-获取或设置级别。
+获取或设置关卡。
 
 ```csharp
 public byte Level { get; set; }
@@ -19,10 +19,10 @@ public byte Level { get; set; }
 显示如何获取有关页面的元信息。
 
 ```csharp
-// 保存为 HTML 格式
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -36,14 +36,16 @@ foreach (Page page in oneFile)
 }
 ```
 
+显示如何获取页面的历史记录。
+
 ```csharp
-// 创建 Document 类的对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-//初始化Page类对象
+// 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 文档中所有文本的默认样式。
+// 获取第一页
 Page firstPage = document.FirstChild;
 foreach (Page pageRevision in document.GetPageHistory(firstPage))
 {
@@ -57,20 +59,22 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
+显示如何添加带有子页面的页面。
+
 ```csharp
-// 设置页面标题属性
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 在文档中追加 Page 节点
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化新页面
+// 初始化 Page 类对象并设置它的层级
 Aspose.Note.Page page1 = new Aspose.Note.Page(doc) { Level = 1 };
 
-// 初始化新页面
+// 初始化 Page 类对象并设置它的层级
 Aspose.Note.Page page2 = new Aspose.Note.Page(doc) { Level = 2 };
 
-// 初始化新页面
+// 初始化 Page 类对象并设置它的层级
 Aspose.Note.Page page3 = new Aspose.Note.Page(doc) { Level = 1 };
 
 /*---------- Adding nodes to first Page ----------*/
@@ -105,14 +109,10 @@ doc.AppendChildLast(page1);
 doc.AppendChildLast(page2);
 doc.AppendChildLast(page3);
 
-// 初始化新页面
+// 保存 OneNote 文档
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
-
-显示如何获取页面的历史记录。
-
-显示如何添加带有子页面的页面。
 
 ### 也可以看看
 

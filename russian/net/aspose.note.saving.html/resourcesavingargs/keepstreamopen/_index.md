@@ -1,14 +1,14 @@
 ---
 title: KeepStreamOpen
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает значение указывающее следует ли держать поток открытым.
+description: Получает или задает значение указывающее следует ли оставить поток открытым.
 type: docs
 weight: 30
 url: /ru/net/aspose.note.saving.html/resourcesavingargs/keepstreamopen/
 ---
 ## ResourceSavingArgs.KeepStreamOpen property
 
-Получает или задает значение, указывающее, следует ли держать поток открытым.
+Получает или задает значение, указывающее, следует ли оставить поток открытым.
 
 ```csharp
 public bool KeepStreamOpen { get; set; }

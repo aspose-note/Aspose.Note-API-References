@@ -19,7 +19,7 @@ public sealed class OutlineGroup : CompositeNode<IOutlineChildNode>, IOutlineChi
 
 | Имя | Описание |
 | --- | --- |
-| [OutlineGroup](outlinegroup#constructor)() | Инициализирует новый экземпляр класса[`OutlineGroup`](../outlinegroup). |
+| [OutlineGroup](outlinegroup#constructor)() | Инициализирует новый экземпляр[`OutlineGroup`](../outlinegroup) класс. |
 
 ## Характеристики
 

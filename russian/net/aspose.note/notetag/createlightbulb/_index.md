@@ -20,7 +20,7 @@ public static NoteTag CreateLightBulb(string label = "Idea")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по API Aspose.Note для .NET
-description: Удаляет версию страницы по указанному индексу изPageHistoryaspose.note/pagehistory.
+description: Удаляет версию страницы по указанному индексуPageHistoryaspose.note/pagehistory .
 type: docs
 weight: 150
 url: /ru/net/aspose.note/pagehistory/removeat/
 ---
 ## PageHistory.RemoveAt method
 
-Удаляет версию страницы по указанному индексу из[`PageHistory`](../../pagehistory).
+Удаляет версию страницы по указанному индексу[`PageHistory`](../../pagehistory) .
 
 ```csharp
 public void RemoveAt(int index)

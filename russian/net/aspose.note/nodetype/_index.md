@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Note для .NET
-description: Указывает тип узла.
+description: Определяет тип узла.
 type: docs
 weight: 350
 url: /ru/net/aspose.note/nodetype/
 ---
 ## NodeType enumeration
 
-Указывает тип узла.
+Определяет тип узла.
 
 ```csharp
 public enum NodeType
@@ -18,20 +18,20 @@ public enum NodeType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Document | `0` | Указывает, что узел являетсяDocument. |
-| Section | `1` | Указывает, что узел являетсяSection. |
-| Page | `2` | Указывает, что узел являетсяPage. |
-| PageSeries | `3` | Указывает, что узел являетсяPageSeries. |
-| Title | `4` | Указывает, что узел являетсяTitle. |
-| Outline | `5` | Указывает, что узел являетсяOutline. |
-| OutlineElement | `6` | Указывает, что узел являетсяOutlineElement. |
-| Image | `7` | Указывает, что узел являетсяImage. |
-| RichText | `8` | Указывает, что узел являетсяRichText. |
-| OutlineGroup | `9` | Указывает, что узел являетсяOutlineGroup. |
-| AttachedFile | `10` | Указывает, что узел являетсяAttachedFile. |
-| Table | `11` | Указывает, что узел являетсяTable. |
-| TableRow | `12` | Указывает, что узел являетсяTableRow. |
-| TableCell | `13` | Указывает, что узел являетсяTableCell. |
+| Document | `0` | Указывает, что узел являетсяDocument . |
+| Section | `1` | Указывает, что узел являетсяSection . |
+| Page | `2` | Указывает, что узел являетсяPage . |
+| PageSeries | `3` | Указывает, что узел являетсяPageSeries . |
+| Title | `4` | Указывает, что узел являетсяTitle . |
+| Outline | `5` | Указывает, что узел являетсяOutline . |
+| OutlineElement | `6` | Указывает, что узел являетсяOutlineElement . |
+| Image | `7` | Указывает, что узел являетсяImage . |
+| RichText | `8` | Указывает, что узел являетсяRichText . |
+| OutlineGroup | `9` | Указывает, что узел являетсяOutlineGroup . |
+| AttachedFile | `10` | Указывает, что узел являетсяAttachedFile . |
+| Table | `11` | Указывает, что узел являетсяTable . |
+| TableRow | `12` | Указывает, что узел являетсяTableRow . |
+| TableCell | `13` | Указывает, что узел являетсяTableCell . |
 
 ### Смотрите также
 

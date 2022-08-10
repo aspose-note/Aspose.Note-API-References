@@ -1,0 +1,177 @@
+---
+title: Accept
+second_title: Référence de l'API Aspose.Note pour .NET
+description: Accepte le visiteur du nœud.
+type: docs
+weight: 80
+url: /fr/net/aspose.note/document/accept/
+---
+## Document.Accept method
+
+Accepte le visiteur du nœud.
+
+```csharp
+public override void Accept(DocumentVisitor visitor)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| visitor | DocumentVisitor | L'objet d'une classe dérivée de la[`DocumentVisitor`](../../documentvisitor) . |
+
+### Exemples
+
+Montre comment accéder au contenu d'un document à l'aide de visiteur.
+
+```csharp
+public static void Run()
+{
+    // Le chemin d'accès au répertoire des documents.
+    string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+    // Ouvre le document que nous voulons convertir.
+    Document doc = new Document(dataDir + "Aspose.one");
+
+    // Crée un objet qui hérite de la classe DocumentVisitor.
+    MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
+
+    // Il s'agit du modèle de visiteur bien connu. Obtenez le modèle pour accepter un visiteur.
+    // Le modèle va itérer sur lui-même en appelant les méthodes correspondantes
+    // sur l'objet visiteur (c'est ce qu'on appelle visiter).
+    //
+    // Notez que chaque nœud dans le modèle d'objet a la méthode Accept donc la visite
+    // peut être exécuté non seulement pour l'ensemble du document, mais pour n'importe quel nœud du document.
+    doc.Accept(myConverter);
+
+    // Une fois la visite terminée, on peut récupérer le résultat de l'opération,
+    // qui, dans cet exemple, s'est accumulé dans le visiteur.
+    Console.WriteLine(myConverter.GetText());
+    Console.WriteLine(myConverter.NodeCount);            
+}
+
+/// <summary>
+/// Implémentation simple de l'enregistrement d'un document au format texte brut. Implémenté en tant que visiteur.
+/// </summary>
+public class MyOneNoteToTxtWriter : DocumentVisitor
+{
+    public MyOneNoteToTxtWriter()
+    {
+        nodecount = 0;
+        mIsSkipText = false;
+        mBuilder = new StringBuilder();
+    }
+
+    /// <summary>
+    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    /// <summary>
+    /// Ajoute du texte à la sortie actuelle. Honore le drapeau de sortie activé/désactivé.
+    /// </summary>
+    private void AppendText(string text)
+    {
+        if (!mIsSkipText)
+        {
+            mBuilder.AppendLine(text);
+        }
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud RichText est rencontré dans le document.
+    /// </summary>
+    public override void VisitRichTextStart(RichText run)
+    {
+        ++nodecount;
+        AppendText(run.Text);
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud Document est rencontré dans le document.
+    /// </summary>
+    public override void VisitDocumentStart(Document document)
+    {
+        ++nodecount;
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud Page est rencontré dans le document.
+    /// </summary>
+    public override void VisitPageStart(Page page)
+    {
+        ++nodecount;
+        this.AppendText($"*** Page '{page.Title?.TitleText?.Text ?? "(no title)"}' ***");
+    }
+
+    /// <summary>
+    /// Appelé lorsque le traitement d'un nœud Page est terminé.
+    /// </summary>
+    public override void VisitPageEnd(Page page)
+    {
+        this.AppendText(string.Empty);
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud Title est rencontré dans le document.
+    /// </summary>
+    public override void VisitTitleStart(Title title)
+    {
+        ++nodecount;
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud Image est rencontré dans le document.
+    /// </summary>
+    public override void VisitImageStart(Image image)
+    {
+        ++nodecount;
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud OutlineGroup est rencontré dans le document.
+    /// </summary>
+    public override void VisitOutlineGroupStart(OutlineGroup outlineGroup)
+    {
+        ++nodecount;
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud Outline est rencontré dans le document.
+    /// </summary>
+    public override void VisitOutlineStart(Outline outline)
+    {
+        ++nodecount;
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud OutlineElement est rencontré dans le document.
+    /// </summary>
+    public override void VisitOutlineElementStart(OutlineElement outlineElement)
+    {
+        ++nodecount;
+    }
+
+    /// <summary>
+    /// Obtient le nombre total de nœuds par le visiteur
+    /// </summary>
+    public Int32 NodeCount
+    {
+        get { return this.nodecount; }
+    }
+
+    private readonly StringBuilder mBuilder;
+    private bool mIsSkipText;
+    private Int32 nodecount;
+}
+```
+
+### Voir également
+
+* class [DocumentVisitor](../../documentvisitor)
+* class [Document](../../document)
+* espace de noms [Aspose.Note](../../document)
+* Assemblée [Aspose.Note](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->

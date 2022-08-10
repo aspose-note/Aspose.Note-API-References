@@ -1,14 +1,14 @@
 ---
 title: CssSavingCallback
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置为创建存储 CSS 的资源而调用的回调
+description: 获取或设置为创建资源存储CSS而调用的回调
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/htmlsaveoptions/csssavingcallback/
 ---
 ## HtmlSaveOptions.CssSavingCallback property
 
-获取或设置为创建存储 CSS 的资源而调用的回调。
+获取或设置为创建资源存储CSS而调用的回调。
 
 ```csharp
 public ICssSavingCallback CssSavingCallback { get; set; }
@@ -19,8 +19,8 @@ public ICssSavingCallback CssSavingCallback { get; set; }
 展示如何使用用户定义的回调将文档保存为 html 格式并存储所有资源（css/fonts/images）。
 
 ```csharp
-// 或者
-// 或者
+// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 'style.css' 文件将在末尾包含以下字符串“/* 此行由用户手动附加到流 */”
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",

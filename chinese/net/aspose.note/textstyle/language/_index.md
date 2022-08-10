@@ -16,7 +16,7 @@ public CultureInfo Language { get; set; }
 
 ### 评论
 
-如果未设置该属性，则返回InvariantCulture。
+退货InvariantCulture如果没有设置属性。
 
 ### 例子
 

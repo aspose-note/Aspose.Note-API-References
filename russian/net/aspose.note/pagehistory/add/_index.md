@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Note для .NET
-description: Добавляет версию страницы в конецPageHistoryaspose.note/pagehistory.
+description: Добавляет версию страницы в конецPageHistoryaspose.note/pagehistory .
 type: docs
 weight: 60
 url: /ru/net/aspose.note/pagehistory/add/
 ---
 ## PageHistory.Add method
 
-Добавляет версию страницы в конец[`PageHistory`](../../pagehistory).
+Добавляет версию страницы в конец[`PageHistory`](../../pagehistory) .
 
 ```csharp
 public void Add(Page item)

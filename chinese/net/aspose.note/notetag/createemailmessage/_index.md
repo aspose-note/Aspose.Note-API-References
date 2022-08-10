@@ -1,14 +1,14 @@
 ---
 title: CreateEMailMessage
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有 EMailMessage 图标和指定标签的新笔记标签
+description: 创建一个带有 EMailMessage 图标和指定标签的新便笺标签
 type: docs
 weight: 330
 url: /zh/net/aspose.note/notetag/createemailmessage/
 ---
 ## NoteTag.CreateEMailMessage method
 
-创建一个带有 EMailMessage 图标和指定标签的新笔记标签。
+创建一个带有 EMailMessage 图标和指定标签的新便笺标签。
 
 ```csharp
 public static NoteTag CreateEMailMessage(string label = "Send in email")
@@ -20,7 +20,7 @@ public static NoteTag CreateEMailMessage(string label = "Send in email")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

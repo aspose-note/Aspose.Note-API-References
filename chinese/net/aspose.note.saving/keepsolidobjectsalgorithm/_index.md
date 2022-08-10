@@ -18,8 +18,8 @@ public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
 
 | 姓名 | 描述 |
 | --- | --- |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor)() | 使用克隆部分的默认高度限制初始化[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm)类的新实例。 |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor_1)(float) | 使用克隆部分的特定高度限制初始化[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm)类的新实例。 |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor)() | 初始化[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm)使用克隆部分的默认高度限制的类。 |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm#constructor_1)(float) | 初始化[`KeepSolidObjectsAlgorithm`](../keepsolidobjectsalgorithm)使用克隆部分的特定高度限制的类。 |
 
 ## 特性
 
@@ -31,17 +31,17 @@ public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart) | 克隆部分的默认最大大小。 |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart) | 克隆部分的默认最大尺寸。 |
 
 ### 例子
 
 显示如何使用指定选项以 pdf 格式保存笔记本。
 
 ```csharp
-// 设置页数
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 将文档保存为 PDF
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -52,12 +52,14 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+显示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 var document = new Aspose.Note.Document(dataDir + "Aspose.one");
@@ -75,35 +77,33 @@ document.Print(new PrintOptions()
                });
 ```
 
+当长 OneNote 页面以 pdf 格式保存时，它们会跨页面拆分。该示例显示了如何配置位于分页符上的对象的拆分逻辑。
+
 ```csharp
-// 初始化 PdfSaveOptions 对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 使用 Jpeg 压缩
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
-// JPEG 压缩的质量
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm();
-// JPEG 压缩的质量
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(heightLimitOfClonedPart);
-// JPEG 压缩的质量
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart);
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(100);
-// JPEG 压缩的质量
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
-
-显示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
-
-当长 OneNote 页面以 pdf 格式保存时，它们会在页面之间拆分。该示例显示了如何配置位于分页符上的对象的拆分逻辑。
 
 ### 也可以看看
 

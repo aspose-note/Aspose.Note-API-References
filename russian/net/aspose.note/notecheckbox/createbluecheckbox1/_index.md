@@ -20,7 +20,7 @@ public static NoteCheckBox CreateBlueCheckBox1(string label = "To Do priority 1"
 
 ### Возвращаемое значение
 
-The[`NoteCheckBox`](../../notecheckbox).
+[`NoteCheckBox`](../../notecheckbox) .
 
 ### Смотрите также
 

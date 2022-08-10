@@ -1,14 +1,14 @@
 ---
 title: DetectLayoutChanges
 second_title: Aspose.Note for .NET API 参考
-description: 检测自上次DetectLayoutChangesaspose.note/document/detectlayoutchanges调用以来对文档布局所做的所有更改 如果AutomaticLayoutChangesDetectionEnabledaspose.note/document/automaticlayoutchangesdetectionenabled设置为 true则在文档导出开始时自动使用
+description: 检测自上次以来对文档布局所做的所有更改DetectLayoutChangesaspose.note/document/detectlayoutchangescall. 以防万一AutomaticLayoutChangesDetectionEnabledaspose.note/document/automaticlayoutchangesdetectionenabled设置为 true在文档导出开始时自动使用
 type: docs
 weight: 90
 url: /zh/net/aspose.note/document/detectlayoutchanges/
 ---
 ## Document.DetectLayoutChanges method
 
-检测自上次`DetectLayoutChanges`调用以来对文档布局所做的所有更改。 如果[`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled)设置为 true，则在文档导出开始时自动使用。
+检测自上次以来对文档布局所做的所有更改`DetectLayoutChanges`call. 以防万一[`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled)设置为 true，在文档导出开始时自动使用。
 
 ```csharp
 public void DetectLayoutChanges()
@@ -19,16 +19,16 @@ public void DetectLayoutChanges()
 显示如何以不同格式保存文档。
 
 ```csharp
-// 将文档保存为 gif。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 初始化新文档
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
-// 将文档加载到 Aspose.Note。
+// 初始化新页面
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 将文档保存为 PDF
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title(doc)
              {
@@ -37,10 +37,10 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 文档目录的路径。
+// 追加页面节点
 doc.AppendChildLast(page);
 
-// 将文档加载到 Aspose.Note。
+// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            

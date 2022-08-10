@@ -18,40 +18,42 @@ public enum ColorMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Normal | `0` | 全彩图像 |
+| Normal | `0` | 全彩色图像 |
 | GrayScale | `1` | 灰度图像 |
-| BlackAndWhite | `2` | 二进制图像:仅使用黑色和白色 |
+| BlackAndWhite | `2` | 二进制图像：只使用黑白颜色 |
 
 ### 例子
 
-显示如何将文档保存为灰度图像。
+显示如何将文档另存为灰度图像。
 
 ```csharp
-// 保存 OneNote 文档
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// 创建 Document 类的对象
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
 
+展示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
+
 ```csharp
-// 添加轮廓元素
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 初始化 Title 类对象
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingCcitt3Compression.tiff");
 
-//初始化Page类对象
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           ColorMode = ColorMode.BlackAndWhite,
@@ -59,16 +61,18 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+展示如何使用 Otsu 的方法将文档保存为二进制图像。
+
 ```csharp
-// 添加大纲节点
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 添加页面节点
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 保存 OneNote 文档
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -79,6 +83,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+展示如何使用固定阈值将文档保存为二进制图像。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -88,7 +94,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 获取所有富文本节点
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -99,12 +105,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-显示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
-
-显示如何使用 Otsu 的方法将文档保存为二进制图像。
-
-显示如何使用固定阈值将文档保存为二进制图像。
 
 ### 也可以看看
 

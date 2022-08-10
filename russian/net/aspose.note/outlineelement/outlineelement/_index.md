@@ -1,14 +1,14 @@
 ---
 title: OutlineElement
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаOutlineElementaspose.note/outlineelement.
+description: Инициализирует новый экземплярOutlineElementaspose.note/outlineelement класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/outlineelement/outlineelement/
 ---
 ## OutlineElement constructor
 
-Инициализирует новый экземпляр класса[`OutlineElement`](../../outlineelement).
+Инициализирует новый экземпляр[`OutlineElement`](../../outlineelement) класс.
 
 ```csharp
 public OutlineElement()

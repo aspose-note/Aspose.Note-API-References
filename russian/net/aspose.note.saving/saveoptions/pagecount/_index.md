@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает количество сохраняемых страниц. По умолчанию этоMaxValue что означает что будут отображаться все страницы документа.
+description: Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает что будут отображены все страницы документа.
 type: docs
 weight: 20
 url: /ru/net/aspose.note.saving/saveoptions/pagecount/
 ---
 ## SaveOptions.PageCount property
 
-Получает или задает количество сохраняемых страниц. По умолчанию этоMaxValue что означает, что будут отображаться все страницы документа.
+Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа.
 
 ```csharp
 public int PageCount { get; set; }
@@ -40,6 +40,8 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в формате pdf, используя определенные настройки.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -60,6 +62,8 @@ PdfSaveOptions opts = new PdfSaveOptions
 dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
+
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -87,10 +91,6 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
-
-Показывает, как сохранить документ в формате pdf, используя определенные настройки.
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
 
 ### Смотрите также
 

@@ -21,7 +21,7 @@ public static List<Page> Import(Stream stream, PdfImportOptions options = null)
 
 ### Возвращаемое значение
 
-The[`PdfImporter`](../../pdfimporter).
+[`PdfImporter`](../../pdfimporter) .
 
 ### Смотрите также
 
@@ -48,11 +48,11 @@ public static List<Page> Import(string file, PdfImportOptions options = null)
 
 ### Возвращаемое значение
 
-The[`PdfImporter`](../../pdfimporter).
+[`PdfImporter`](../../pdfimporter) .
 
 ### Примеры
 
-Показывает, как импортировать все страницы из документа PDF, группируя каждые 5 страниц, в одну страницу OneNote.
+Показывает, как импортировать все страницы из документа PDF, группирующего каждые 5 страниц, в одну страницу OneNote.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

@@ -1,14 +1,14 @@
 ---
 title: LastModifiedTime
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置最后修改时间
+description: 获取或设置上次修改时间
 type: docs
 weight: 60
 url: /zh/net/aspose.note/page/lastmodifiedtime/
 ---
 ## Page.LastModifiedTime property
 
-获取或设置最后修改时间。
+获取或设置上次修改时间。
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
@@ -22,7 +22,7 @@ public DateTime LastModifiedTime { get; set; }
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -36,14 +36,16 @@ foreach (Page page in oneFile)
 }
 ```
 
+显示如何获取页面的历史记录。
+
 ```csharp
-// 初始化 OneNote 文档
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 文档目录的路径。
+// 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 初始化 OneNote 文档
+// 获取第一页
 Page firstPage = document.FirstChild;
 foreach (Page pageRevision in document.GetPageHistory(firstPage))
 {
@@ -56,8 +58,6 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
-
-显示如何获取页面的历史记录。
 
 ### 也可以看看
 

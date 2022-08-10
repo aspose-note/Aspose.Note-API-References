@@ -1,14 +1,14 @@
 ---
 title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Справочник по API Aspose.Note для .NET
-description: Добавляет верхнюю часть объекта к нижней части страницы и клонирует весь объект на следующую страницу если он не помещается на исходной странице.
+description: Добавляет верхнюю часть объекта в нижнюю часть страницы и полностью клонирует объект на следующую страницу если он не помещается на исходной странице.
 type: docs
 weight: 710
 url: /ru/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm class
 
-Добавляет верхнюю часть объекта к нижней части страницы и клонирует весь объект на следующую страницу, если он не помещается на исходной странице.
+Добавляет верхнюю часть объекта в нижнюю часть страницы и полностью клонирует объект на следующую страницу, если он не помещается на исходной странице.
 
 ```csharp
 public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgorithm
@@ -18,24 +18,24 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 
 | Имя | Описание |
 | --- | --- |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor)() | Инициализирует новый экземпляр класса[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm), используя предел высоты клонированной части по умолчанию. |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor_1)(float) | Инициализирует новый экземпляр класса[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm), используя определенный предел высоты клонированной части. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor)() | Инициализирует новый экземпляр[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) class, используя предел высоты клонированной части по умолчанию. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor_1)(float) | Инициализирует новый экземпляр[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) класс, используя определенный предел высоты клонированной части. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart) { get; } | Получает предел высоты клонируемой части. |
+| [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart) { get; } | Получает предел высоты клонированной детали. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart) | Максимальный размер клонируемой части по умолчанию. |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart) | Максимальный размер клонируемой детали по умолчанию. |
 
 ### Примеры
 
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -53,6 +53,8 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPag
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
+
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -79,8 +81,6 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ### Смотрите также
 

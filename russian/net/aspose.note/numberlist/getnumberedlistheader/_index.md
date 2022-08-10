@@ -16,7 +16,7 @@ public string GetNumberedListHeader(int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер в пронумерованном списке. |
+| sequenceNumber | Int32 | Порядковый номер в нумерованном списке. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: CreateGreenCheckBox2
 second_title: Справочник по API Aspose.Note для .NET
-description: Создает новый флажок для примечания со значком GreenCheckBox2Empty и указанной меткой.
+description: Создает новый флажок примечания со значком GreenCheckBox2Empty и указанной меткой.
 type: docs
 weight: 120
 url: /ru/net/aspose.note/notecheckbox/creategreencheckbox2/
 ---
 ## NoteCheckBox.CreateGreenCheckBox2 method
 
-Создает новый флажок для примечания со значком GreenCheckBox2Empty и указанной меткой.
+Создает новый флажок примечания со значком GreenCheckBox2Empty и указанной меткой.
 
 ```csharp
 public static NoteCheckBox CreateGreenCheckBox2(string label = "")
@@ -20,7 +20,7 @@ public static NoteCheckBox CreateGreenCheckBox2(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteCheckBox`](../../notecheckbox).
+[`NoteCheckBox`](../../notecheckbox) .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает количество элементов содержащихся вNotebookaspose.note/notebook.
+description: Получает количество элементов содержащихся вNotebookaspose.note/notebook .
 type: docs
 weight: 30
 url: /ru/net/aspose.note/notebook/count/
 ---
 ## Notebook.Count property
 
-Получает количество элементов, содержащихся в[`Notebook`](../../notebook).
+Получает количество элементов, содержащихся в[`Notebook`](../../notebook) .
 
 ```csharp
 public int Count { get; }

@@ -20,7 +20,7 @@ public static NoteTag CreateOpenBook(string label = "Book to read")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

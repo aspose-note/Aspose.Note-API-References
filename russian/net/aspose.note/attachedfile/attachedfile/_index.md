@@ -1,14 +1,14 @@
 ---
 title: AttachedFile
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаAttachedFileaspose.note/attachedfile.
+description: Инициализирует новый экземплярAttachedFileaspose.note/attachedfile класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/attachedfile/attachedfile/
 ---
 ## AttachedFile(string, Stream, ImageFormat) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`AttachedFile`](../../attachedfile).
+Инициализирует новый экземпляр[`AttachedFile`](../../attachedfile) класс.
 
 ```csharp
 public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
@@ -16,9 +16,9 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Строка, содержащая путь к файлу, из которого создается[`AttachedFile`](../../attachedfile). |
+| path | String | Строка, содержащая путь к файлу, из которого создается[`AttachedFile`](../../attachedfile) . |
 | icon | Stream | Иконка прикрепленного файла. |
-| iconFormat | ImageFormat | Формат значка прикрепленного файла. |
+| iconFormat | ImageFormat | Формат значка вложенного файла. |
 
 ### Смотрите также
 
@@ -30,7 +30,7 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 ## AttachedFile(string, Stream) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`AttachedFile`](../../attachedfile).
+Инициализирует новый экземпляр[`AttachedFile`](../../attachedfile) класс.
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream)
@@ -38,7 +38,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя прикрепленного файла. |
+| fileName | String | Имя вложенного файла. |
 | attachedFileStream | Stream | Поток, содержащий байты прикрепленного файла. |
 
 ### Смотрите также
@@ -51,7 +51,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 
 ## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`AttachedFile`](../../attachedfile).
+Инициализирует новый экземпляр[`AttachedFile`](../../attachedfile) класс.
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, ImageFormat iconFormat)
@@ -59,10 +59,10 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя прикрепленного файла. |
+| fileName | String | Имя вложенного файла. |
 | attachedFileStream | Stream | Поток, содержащий байты прикрепленного файла. |
 | icon | Stream | Иконка прикрепленного файла. |
-| iconFormat | ImageFormat | Формат значка прикрепленного файла. |
+| iconFormat | ImageFormat | Формат значка вложенного файла. |
 
 ### Смотрите также
 
@@ -74,7 +74,7 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 
 ## AttachedFile() {#constructor}
 
-Инициализирует новый экземпляр класса[`AttachedFile`](../../attachedfile).
+Инициализирует новый экземпляр[`AttachedFile`](../../attachedfile) класс.
 
 ```csharp
 public AttachedFile()

@@ -26,7 +26,7 @@ public sealed class OneSaveOptions : SaveOptions
 | --- | --- |
 | [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword) { get; set; } | Получает или задает пароль для шифрования содержимого документа. |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчанию этоMaxValue что означает, что будут отображаться все страницы документа. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Получает формат, в котором сохранен документ. |
 
@@ -42,6 +42,8 @@ Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
 
+Показывает, как сохранить документ с помощью OneSaveOptions.
+
 ```csharp
 string inputFile = "Sample1.one";
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -51,8 +53,6 @@ Document document = new Document(dataDir + inputFile);
 
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
-
-Показывает, как сохранить документ с помощью OneSaveOptions.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API 参考
-description: 返回一个遍历Notebookaspose.note/notebook的子节点的枚举器
+description: 返回一个遍历子节点的枚举器Notebookaspose.note/notebook.
 type: docs
 weight: 110
 url: /zh/net/aspose.note/notebook/getenumerator/
 ---
 ## Notebook.GetEnumerator method
 
-返回一个遍历[`Notebook`](../../notebook)的子节点的枚举器。
+返回一个遍历子节点的枚举器[`Notebook`](../../notebook).
 
 ```csharp
 public IEnumerator<INotebookChildNode> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<INotebookChildNode> GetEnumerator()
 
 ### 返回值
 
-AIEnumerator。
+一个IEnumerator.
 
 ### 也可以看看
 

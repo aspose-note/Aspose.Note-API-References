@@ -1,14 +1,14 @@
 ---
 title: ICssSavingCallback
 second_title: Справочник по API Aspose.Note для .NET
-description: Реализуйте этот интерфейс если хотите управлять тем как Aspose.Note сохраняет CSS каскадную таблицу стилей при сохранении документа в HTML.
+description: Реализуйте этот интерфейс если хотите управлять тем как Aspose.Note сохраняет CSS каскадную таблицу стилей при сохранении документа в формате HTML.
 type: docs
 weight: 600
 url: /ru/net/aspose.note.saving.html/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
 
-Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет CSS (каскадную таблицу стилей) при сохранении документа в HTML.
+Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет CSS (каскадную таблицу стилей) при сохранении документа в формате HTML.
 
 ```csharp
 public interface ICssSavingCallback

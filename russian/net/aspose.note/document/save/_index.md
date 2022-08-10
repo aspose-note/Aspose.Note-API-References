@@ -22,7 +22,7 @@ public void Save(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Примеры
@@ -62,7 +62,7 @@ public void Save(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
@@ -90,7 +90,7 @@ public void Save(string fileName, SaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Примеры
@@ -107,6 +107,8 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
+Показывает, как сохранить документ в формате gif.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -119,8 +121,6 @@ dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 // Сохраняем документ как gif.
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
-
-Показывает, как сохранить документ в формате gif.
 
 ### Смотрите также
 
@@ -148,7 +148,7 @@ public void Save(Stream stream, SaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Примеры
@@ -167,6 +167,8 @@ dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
+Показывает, как сохранить документ в поток.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -180,8 +182,6 @@ doc.Save(dstStream, SaveFormat.Pdf);
 // Перемотать позицию потока обратно на ноль, чтобы она была готова для следующего чтения.
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
-
-Показывает, как сохранить документ в поток.
 
 ### Смотрите также
 
@@ -203,13 +203,13 @@ public void Save(string fileName, SaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Полное имя файла. Если файл с указанным полным именем уже существует, существующий файл перезаписывается. |
-| options | SaveOptions | Задает параметры сохранения документа в файле. |
+| options | SaveOptions | Указывает параметры сохранения документа в файле. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Примеры
@@ -226,6 +226,8 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
+Показывает, как сохранить документ как изображение в формате Jpeg с помощью SaveFormat.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -239,6 +241,8 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
+Показывает, как сохранить документ как изображение в формате Bmp с помощью ImageSaveOptions.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -251,6 +255,8 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 // Сохраняем документ.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
+
+Показывает, как сохранить документ как изображение в градациях серого.
 
 ```csharp
 // Путь к каталогу документов.
@@ -268,6 +274,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия PackBits.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -283,6 +291,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.PackBits
                       });
 ```
+
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
 
 ```csharp
 // Путь к каталогу документов.
@@ -301,6 +311,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -317,6 +329,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.Ccitt3
                       });
 ```
+
+Показывает, как сохранить документ в формате pdf.
 
 ```csharp
 // Путь к каталогу документов.
@@ -340,6 +354,8 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в формате pdf, используя определенные настройки.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -361,6 +377,8 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -380,6 +398,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                   }
                         });
 ```
+
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
 
 ```csharp
 // Путь к каталогу документов.
@@ -402,26 +422,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-Показывает, как сохранить документ как изображение в формате Jpeg с помощью SaveFormat.
-
-Показывает, как сохранить документ как изображение в формате Bmp с помощью ImageSaveOptions.
-
-Показывает, как сохранить документ как изображение в градациях серого.
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия PackBits.
-
-Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
-
-Показывает, как сохранить документ в формате pdf.
-
-Показывает, как сохранить документ в формате pdf, используя определенные настройки.
-
-Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
-
 ### Смотрите также
 
 * class [SaveOptions](../../../aspose.note.saving/saveoptions)
@@ -442,13 +442,13 @@ public void Save(Stream stream, SaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | System.IO.Stream, в котором будет сохранен документ. |
-| options | SaveOptions | Задает параметры сохранения документа в потоке. |
+| options | SaveOptions | Указывает параметры сохранения документа в потоке. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа не соответствует спецификации. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
 
 ### Примеры
@@ -470,6 +470,8 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
+Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из файла.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -486,6 +488,8 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                               FontsSubsystem = DocumentFontsSubsystem.UsingDefaultFontFromFile(fontFile)
                           });
 ```
+
+Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из потока.
 
 ```csharp
 // Путь к каталогу документов.
@@ -507,10 +511,6 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
                               });
 }
 ```
-
-Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из файла.
-
-Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из потока.
 
 ### Смотрите также
 

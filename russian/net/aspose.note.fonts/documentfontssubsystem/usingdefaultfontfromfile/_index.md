@@ -1,14 +1,14 @@
 ---
 title: UsingDefaultFontFromFile
 second_title: Справочник по API Aspose.Note для .NET
-description: Создать новый экземпляр DocumentFontsSubsystem используя по умолчанию шрифт из указанного файла.
+description: Создать новый экземпляр DocumentFontsSubsystem используя шрифт из указанного файла по умолчанию.
 type: docs
 weight: 40
 url: /ru/net/aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/
 ---
 ## DocumentFontsSubsystem.UsingDefaultFontFromFile method
 
-Создать новый экземпляр DocumentFontsSubsystem, используя по умолчанию шрифт из указанного файла.
+Создать новый экземпляр DocumentFontsSubsystem, используя шрифт из указанного файла по умолчанию.
 
 ```csharp
 public static DocumentFontsSubsystem UsingDefaultFontFromFile(string filePath, 
@@ -22,7 +22,7 @@ public static DocumentFontsSubsystem UsingDefaultFontFromFile(string filePath,
 
 ### Возвращаемое значение
 
-Подсистема[`DocumentFontsSubsystem`](../../documentfontssubsystem).
+[`DocumentFontsSubsystem`](../../documentfontssubsystem) .
 
 ### Примеры
 

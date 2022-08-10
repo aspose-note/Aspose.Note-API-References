@@ -1,14 +1,14 @@
 ---
 title: PageSizeType
 second_title: Справочник по API Aspose.Note для .NET
-description: Задает размер типа узла страницы.
+description: Определяет размер типа узла страницы.
 type: docs
 weight: 480
 url: /ru/net/aspose.note/pagesizetype/
 ---
 ## PageSizeType enumeration
 
-Задает размер типа узла страницы.
+Определяет размер типа узла страницы.
 
 ```csharp
 public enum PageSizeType
@@ -22,7 +22,7 @@ public enum PageSizeType
 | USStatement | `1` | Заявление США (5,5" x 8,5"). |
 | ANSILetter | `2` | Буква ANSI (8,5" x 11"). |
 | ANSITabloid | `3` | Таблоид ANSI (11 x 17 дюймов). |
-| USLegal | `4` | Закон США (8,5 x 14 дюймов). |
+| USLegal | `4` | Юридический размер США (8,5" x 14"). |
 | ISOA3 | `5` | ISO A3 (297 мм x 420 мм). |
 | ISOA4 | `6` | ISO A4 (210 мм x 297 мм). |
 | ISOA5 | `7` | ISO A5 (148 мм x 210 мм). |
@@ -31,9 +31,9 @@ public enum PageSizeType
 | JISB5 | `10` | JIS B5 (182 мм x 257 мм). |
 | JISB6 | `11` | JIS B6 (128 мм x 182 мм). |
 | JapanesePostcard | `12` | Японская открытка (100 мм x 148 мм). |
-| IndexCard | `13` | Каталожная карточка (3" x 5"). |
+| IndexCard | `13` | Каталожная карточка (3 x 5 дюймов). |
 | Billfold | `14` | Бумажник (3,75" x 6,75"). |
-| Custom | `15` | Нестандартный размер. |
+| Custom | `15` | Пользовательский размер. |
 
 ### Смотрите также
 

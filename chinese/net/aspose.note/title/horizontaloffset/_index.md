@@ -1,14 +1,14 @@
 ---
 title: HorizontalOffset
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置水平偏移
+description: 获取或设置水平偏移量
 type: docs
 weight: 20
 url: /zh/net/aspose.note/title/horizontaloffset/
 ---
 ## Title.HorizontalOffset property
 
-获取或设置水平偏移。
+获取或设置水平偏移量。
 
 ```csharp
 public float HorizontalOffset { get; set; }

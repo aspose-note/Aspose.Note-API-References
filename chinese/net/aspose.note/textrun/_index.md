@@ -3,7 +3,7 @@ title: TextRun
 second_title: Aspose.Note for .NET API 参考
 description: 表示具有关联样式的一段文本的类
 type: docs
-weight: 940
+weight: 930
 url: /zh/net/aspose.note/textrun/
 ---
 ## TextRun class
@@ -18,10 +18,10 @@ public class TextRun
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextRun](textrun#constructor)() | 使用空文本和默认样式初始化[`TextRun`](../textrun)类的新实例。 |
-| [TextRun](textrun#constructor_2)(string) | 使用默认样式初始化[`TextRun`](../textrun)类的新实例。 |
-| [TextRun](textrun#constructor_1)(TextStyle) | 用空文本初始化[`TextRun`](../textrun)类的新实例。 |
-| [TextRun](textrun#constructor_3)(string, TextStyle) | 初始化[`TextRun`](../textrun)类的新实例。 |
+| [TextRun](textrun#constructor)() | 初始化[`TextRun`](../textrun)具有空文本和默认样式的类。 |
+| [TextRun](textrun#constructor_2)(string) | 初始化[`TextRun`](../textrun)具有默认样式的类。 |
+| [TextRun](textrun#constructor_1)(TextStyle) | 初始化[`TextRun`](../textrun)带有空文本的类。 |
+| [TextRun](textrun#constructor_3)(string, TextStyle) | 初始化[`TextRun`](../textrun)类. |
 
 ## 特性
 

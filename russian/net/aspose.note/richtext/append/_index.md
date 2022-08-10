@@ -21,11 +21,11 @@ public RichText Append(string value, TextStyle style)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Примеры
 
-Установить язык проверки для текста.
+Установите язык проверки для текста.
 
 ```csharp
 var document = new Document();
@@ -46,6 +46,8 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
+Управляйте текстовым форматом, используя стиль абзаца.
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -64,6 +66,8 @@ document.AppendChildLast(page);
 
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -122,6 +126,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать документ с форматированным форматированным текстом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -204,12 +210,6 @@ dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
 
-Управление текстовым форматом с использованием стиля абзаца.
-
-Показывает, как привязать гиперссылку к тексту.
-
-Показывает, как создать документ с форматированным форматированным текстом.
-
 ### Смотрите также
 
 * class [TextStyle](../../textstyle)
@@ -233,11 +233,11 @@ public RichText Append(string value)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Примеры
 
-Управление текстовым форматом с использованием стиля абзаца.
+Управляйте текстовым форматом, используя стиль абзаца.
 
 ```csharp
 var document = new Document();
@@ -257,6 +257,8 @@ document.AppendChildLast(page);
 
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
+
+Показывает, как привязать гиперссылку к тексту.
 
 ```csharp
 // Путь к каталогу документов.
@@ -315,8 +317,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как привязать гиперссылку к тексту.
 
 ### Смотрите также
 

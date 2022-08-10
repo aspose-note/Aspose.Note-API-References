@@ -1,22 +1,22 @@
 ---
 title: CompletedTime
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает завершенное время.
+description: Получает или устанавливает завершенное время.
 type: docs
 weight: 1130
 url: /ru/net/aspose.note/notetag/completedtime/
 ---
 ## NoteTag.CompletedTime property
 
-Получает или задает завершенное время.
+Получает или устанавливает завершенное время.
 
 ```csharp
-public DateTime? CompletedTime { get; set; }
+public DateTime? CompletedTime { get; }
 ```
 
 ### Стоимость имущества
 
-TheNullable.
+Nullable .
 
 ### Смотрите также
 

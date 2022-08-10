@@ -1,14 +1,14 @@
 ---
 title: AppendChildLast
 second_title: Справочник по API Aspose.Note для .NET
-description: Добавляет узел в конец списка дочерних узлов для данного узла.
+description: Добавляет узел в конец списка дочерних узлов для этого узла.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/compositenode-1/appendchildlast/
 ---
 ## CompositeNode&lt;T&gt;.AppendChildLast&lt;T1&gt; method
 
-Добавляет узел в конец списка дочерних узлов для данного узла.
+Добавляет узел в конец списка дочерних узлов для этого узла.
 
 ```csharp
 public virtual T1 AppendChildLast<T1>(T1 newChild)

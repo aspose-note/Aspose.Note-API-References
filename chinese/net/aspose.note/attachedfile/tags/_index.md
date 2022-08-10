@@ -1,14 +1,14 @@
 ---
 title: Tags
 second_title: Aspose.Note for .NET API 参考
-description: 获取段落所有标签的列表
+description: 获取段落的所有标签列表
 type: docs
 weight: 180
 url: /zh/net/aspose.note/attachedfile/tags/
 ---
 ## AttachedFile.Tags property
 
-获取段落所有标签的列表。
+获取段落的所有标签列表。
 
 ```csharp
 public List<ITag> Tags { get; }

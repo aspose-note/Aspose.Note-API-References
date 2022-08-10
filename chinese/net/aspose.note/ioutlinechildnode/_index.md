@@ -1,14 +1,14 @@
 ---
 title: IOutlineChildNode
 second_title: Aspose.Note for .NET API 参考
-description: 大纲节点的所有子节点的接口
+description: 一个大纲节点的所有子节点的接口
 type: docs
 weight: 190
 url: /zh/net/aspose.note/ioutlinechildnode/
 ---
 ## IOutlineChildNode interface
 
-大纲节点的所有子节点的接口。
+一个大纲节点的所有子节点的接口。
 
 ```csharp
 public interface IOutlineChildNode : INode

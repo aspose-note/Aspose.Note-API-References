@@ -1,14 +1,14 @@
 ---
 title: PrinterSettings
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает параметры принтера.
+description: Получает или устанавливает параметры принтера.
 type: docs
 weight: 40
 url: /ru/net/aspose.note.saving/printoptions/printersettings/
 ---
 ## PrintOptions.PrinterSettings property
 
-Получает или задает параметры принтера.
+Получает или устанавливает параметры принтера.
 
 ```csharp
 public PrinterSettings PrinterSettings { get; set; }

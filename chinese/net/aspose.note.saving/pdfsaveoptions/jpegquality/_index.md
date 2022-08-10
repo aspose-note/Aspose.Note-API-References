@@ -16,26 +16,26 @@ public int JpegQuality { get; set; }
 
 ### 评论
 
-默认值为 90。
+默认值为 90.
 
 ### 例子
 
-显示如何使用特定设置将文档保存为 pdf 格式。
+显示如何使用特定设置以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
-// 加载 OneNote 笔记本
+// 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 保存笔记本
+                              // 使用 Jpeg 压缩
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
-                              // 文档目录的路径。
+                              // JPEG 压缩的质量
                               JpegQuality = 90
                           };
 

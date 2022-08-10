@@ -18,7 +18,7 @@ public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NotebookImageSaveOptions](notebookimagesaveoptions)(SaveFormat) | 初始化[`NotebookImageSaveOptions`](../notebookimagesaveoptions)类的新实例。 |
+| [NotebookImageSaveOptions](notebookimagesaveoptions)(SaveFormat) | 初始化[`NotebookImageSaveOptions`](../notebookimagesaveoptions)类. |
 
 ## 特性
 
@@ -37,16 +37,16 @@ public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
 
 ### 例子
 
-显示如何以 pdf 格式保存扁平笔记本。
+展示如何以 pdf 格式保存扁平化的笔记本。
 
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 保存文档。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
-// 文档目录的路径。
+// 保存笔记本
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
 notebook.Save(
     dataDir,
@@ -56,11 +56,13 @@ notebook.Save(
     });
 ```
 
+显示如何使用指定选项将笔记本保存为图像。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 将文档保存为 gif。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -71,15 +73,17 @@ documentSaveOptions.Resolution = 400;
 
 dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+显示如何将展平的笔记本另存为图像。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 保存文档。
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -91,13 +95,9 @@ notebookSaveOptions.Flatten = true;
 
 dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
-
-显示如何使用指定选项将笔记本保存为图像。
-
-显示如何将扁平笔记本保存为图像。
 
 ### 也可以看看
 

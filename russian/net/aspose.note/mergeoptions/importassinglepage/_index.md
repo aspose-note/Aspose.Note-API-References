@@ -16,7 +16,7 @@ public bool ImportAsSinglePage { get; set; }
 
 ### Примеры
 
-Показывает, как импортировать все страницы из документа PDF, группируя каждые 5 страниц, в одну страницу OneNote.
+Показывает, как импортировать все страницы из документа PDF, группирующего каждые 5 страниц, в одну страницу OneNote.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -35,6 +35,8 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
+Показывает, как импортировать все содержимое из набора документов PDF при объединении страниц из каждого документа PDF в одну страницу OneNote.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
 
@@ -49,8 +51,6 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
-
-Показывает, как импортировать все содержимое из набора документов PDF при объединении страниц из каждого документа PDF в одну страницу OneNote.
 
 ### Смотрите также
 

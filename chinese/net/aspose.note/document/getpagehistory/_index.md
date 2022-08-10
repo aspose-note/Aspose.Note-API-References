@@ -1,14 +1,14 @@
 ---
 title: GetPageHistory
 second_title: Aspose.Note for .NET API 参考
-description: 获取PageHistoryaspose.note/pagehistory包含文档中呈现的每个页面的完整历史记录最早在索引 0 处 . 当前页面修订可以通过Currentaspose.note/pagehistory/current访问并且与历史版本的集合分开包含
+description: 获取PageHistoryaspose.note/pagehistory其中包含文档中呈现的每个页面的完整历史记录最早在索引 0 处 当前页面修订可以通过以下方式访问Currentaspose.note/pagehistory/current并与历史版本的集合分开包含
 type: docs
 weight: 100
 url: /zh/net/aspose.note/document/getpagehistory/
 ---
 ## Document.GetPageHistory method
 
-获取[`PageHistory`](../../pagehistory)包含文档中呈现的每个页面的完整历史记录（最早在索引 0 处） . 当前页面修订可以通过[`Current`](../../pagehistory/current)访问，并且与历史版本的集合分开包含。
+获取[`PageHistory`](../../pagehistory)其中包含文档中呈现的每个页面的完整历史记录（最早在索引 0 处）。 当前页面修订可以通过以下方式访问[`Current`](../../pagehistory/current)并与历史版本的集合分开包含。
 
 ```csharp
 public PageHistory GetPageHistory(Page page)
@@ -20,17 +20,17 @@ public PageHistory GetPageHistory(Page page)
 
 ### 返回值
 
-[`PageHistory`](../../pagehistory)。
+的[`PageHistory`](../../pagehistory).
 
 ### 例子
 
 显示如何恢复页面的先前版本。
 
 ```csharp
-/// <总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-/// 在文档中遇到 OutlineGroup 节点时调用。           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -41,11 +41,13 @@ document.AppendChildLast(previousPageVersion);
 document.Save(dataDir + "RollBackRevisions_out.one");
 ```
 
+显示如何编辑页面的历史记录。
+
 ```csharp
-/// </总结>
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-/// <总结>           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -66,10 +68,12 @@ if (pageHistory.Count > 1)
 }
 ```
 
+显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-/// 在文档中遇到大纲节点时调用。
+// 加载 OneNote 文档
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -82,18 +86,14 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    /// </总结>
-    /// <总结>
+    // 默认情况下，冲突页面只是在保存时跳过。
+    // 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
-
-显示如何编辑页面的历史记录。
-
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
 
 ### 也可以看看
 

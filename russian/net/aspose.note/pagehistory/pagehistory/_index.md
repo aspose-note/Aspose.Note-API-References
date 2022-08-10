@@ -1,14 +1,14 @@
 ---
 title: PageHistory
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаPageHistoryaspose.note/pagehistory.
+description: Инициализирует новый экземплярPageHistoryaspose.note/pagehistory класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/pagehistory/pagehistory/
 ---
 ## PageHistory constructor
 
-Инициализирует новый экземпляр класса[`PageHistory`](../../pagehistory).
+Инициализирует новый экземпляр[`PageHistory`](../../pagehistory) класс.
 
 ```csharp
 public PageHistory(Page page)

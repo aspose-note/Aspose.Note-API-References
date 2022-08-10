@@ -1,14 +1,14 @@
 ---
 title: IPageSavingCallback
 second_title: Справочник по API Aspose.Note для .NET
-description: Реализуйте этот интерфейс если хотите контролировать как Aspose.Note сохраняет отдельные страницы.
+description: Реализуйте этот интерфейс если хотите управлять тем как Aspose.Note сохраняет отдельные страницы.
 type: docs
 weight: 630
 url: /ru/net/aspose.note.saving.html/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
 
-Реализуйте этот интерфейс, если хотите контролировать, как Aspose.Note сохраняет отдельные страницы.
+Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет отдельные страницы.
 
 ```csharp
 public interface IPageSavingCallback

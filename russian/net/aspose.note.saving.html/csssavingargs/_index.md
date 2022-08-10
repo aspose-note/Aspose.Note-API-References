@@ -20,7 +20,7 @@ public class CssSavingArgs : ResourceSavingArgs
 | --- | --- |
 | [Document](../../aspose.note.saving.html/resourcesavingargs/document) { get; } | Получает сохраняемый документ. |
 | [FileName](../../aspose.note.saving.html/resourcesavingargs/filename) { get; } | Получает имя файла. |
-| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | Получает или задает значение, указывающее, следует ли держать поток открытым. |
+| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen) { get; set; } | Получает или задает значение, указывающее, следует ли оставить поток открытым. |
 | [Stream](../../aspose.note.saving.html/resourcesavingargs/stream) { get; set; } | Получает или задает поток, используемый для хранения ресурса. |
 | [Uri](../../aspose.note.saving.html/resourcesavingargs/uri) { get; set; } | Получает или задает uri для доступа к сохраненному ресурсу. |
 

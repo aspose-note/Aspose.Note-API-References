@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果已存在具有指定全名的文件，则覆盖现有文件。 |
+| fileName | String | 文件的全名。如果指定全名的文件已经存在，则覆盖现有文件。 |
 
 ### 例外
 
@@ -83,7 +83,7 @@ public void Save(string fileName, SaveFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果已存在具有指定全名的文件，则覆盖现有文件。 |
+| fileName | String | 文件的全名。如果指定全名的文件已经存在，则覆盖现有文件。 |
 | format | SaveFormat | 保存文档的格式。 |
 
 ### 例外
@@ -95,7 +95,7 @@ public void Save(string fileName, SaveFormat format)
 
 ### 例子
 
-显示如何使用 SaveFormat 枚举保存文档。
+演示如何使用 SaveFormat 枚举保存文档。
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -107,20 +107,20 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
+显示如何以 gif 格式保存文档。
+
 ```csharp
-/// 在文档中遇到 OutlineElement 节点时调用。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-/// </总结>
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 
-/// <总结>
+// 将文档保存为 gif。
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
-
-显示如何以 gif 格式保存文档。
 
 ### 也可以看看
 
@@ -156,32 +156,32 @@ public void Save(Stream stream, SaveFormat format)
 显示如何使用默认设置以 pdf 格式保存文档。
 
 ```csharp
-/// 获取Visitor的节点总数
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-/// </总结>
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 文档目录的路径。
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
+显示如何将文档保存到流中。
+
 ```csharp
-// 加载 OneNote 文档并获取第一个孩子
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// 加载 OneNote 文档并获取第一个孩子
+// 将流位置倒回零，以便为下一个阅读器做好准备。
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
-
-显示如何将文档保存到流中。
 
 ### 也可以看看
 
@@ -202,7 +202,7 @@ public void Save(string fileName, SaveOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果已存在具有指定全名的文件，则覆盖现有文件。 |
+| fileName | String | 文件的全名。如果指定全名的文件已经存在，则覆盖现有文件。 |
 | options | SaveOptions | 指定文档如何保存在文件中的选项。 |
 
 ### 例外
@@ -214,7 +214,7 @@ public void Save(string fileName, SaveOptions options)
 
 ### 例子
 
-显示如何使用 OneSaveOptions 保存文档。
+演示如何使用 OneSaveOptions 保存文档。
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -226,18 +226,22 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
+演示如何使用 SaveFormat 将文档保存为 Jpeg 格式的图像。
+
 ```csharp
-// 加载 OneNote 文档
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 默认情况下，冲突页面只是在保存时跳过。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 
-// 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
+// 保存文档。
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
+
+演示如何使用 ImageSaveOptions 将文档保存为 Bmp 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -248,9 +252,11 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
-// 将文档保存为 gif。
+// 保存文档。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
+
+显示如何将文档另存为灰度图像。
 
 ```csharp
 // 文档目录的路径。
@@ -261,12 +267,14 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// 将文档保存为 PDF
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
+
+演示如何使用 PackBits 压缩将文档另存为 Tiff 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -277,12 +285,14 @@ Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingPackBitsCompression.tiff");
 
-// 将流位置倒回零，以便为下一个阅读器做好准备。
+// 保存文档。
 oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       {
                           TiffCompression = TiffCompression.PackBits
                       });
 ```
+
+演示如何使用 Jpeg 压缩将文档保存为 Tiff 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -301,6 +311,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+展示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -318,6 +330,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+显示如何以 pdf 格式保存文档。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -325,20 +339,22 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 将文档保存为 gif。
+// 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 文档目录的路径。
+                              // 设置要保存的第一页的页索引
                               PageIndex = 0,
 
-                              // 将文档加载到 Aspose.Note。
+                              // 设置页数
                               PageCount = 1,
                           };
 
-// 保存文档。
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
+
+显示如何使用特定设置以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -347,13 +363,13 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
-// 保存文档。
+// 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 文档目录的路径。
+                              // 使用 Jpeg 压缩
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
-                              // 将文档加载到 Aspose.Note。
+                              // JPEG 压缩的质量
                               JpegQuality = 90
                           };
 
@@ -361,16 +377,18 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
+展示如何使用 Otsu 的方法将文档保存为二进制图像。
+
 ```csharp
-// 保存文档。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 将文档加载到 Aspose.Note。
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -381,16 +399,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+展示如何使用固定阈值将文档保存为二进制图像。
+
 ```csharp
-// 初始化 PdfSaveOptions 对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 设置要保存的第一页的页索引
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 设置页数
+// 将文档保存为 gif。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -401,26 +421,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-展示如何使用 SaveFormat 将文档保存为 Jpeg 格式的图像。
-
-显示如何使用 ImageSaveOptions 将文档保存为 Bmp 格式的图像。
-
-显示如何将文档保存为灰度图像。
-
-展示如何使用 PackBits 压缩将文档保存为 Tiff 格式的图像。
-
-展示如何使用 Jpeg 压缩将文档保存为 Tiff 格式的图像。
-
-显示如何使用 CCITT Group 3 传真压缩将文档保存为 Tiff 格式的图像。
-
-显示如何以 pdf 格式保存文档。
-
-显示如何使用特定设置以 pdf 格式保存文档。
-
-显示如何使用 Otsu 的方法将文档保存为二进制图像。
-
-显示如何使用固定阈值将文档保存为二进制图像。
 
 ### 也可以看看
 
@@ -453,16 +453,16 @@ public void Save(Stream stream, SaveOptions options)
 
 ### 例子
 
-显示如何使用指定的默认字体以 pdf 格式保存文档。
+展示如何使用指定的默认字体以 pdf 格式保存文档。
 
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// 将文档加载到 Aspose.Note。
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions() 
                       {
@@ -470,22 +470,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-```csharp
-// 初始化 PdfSaveOptions 对象
-string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
-
-string fontFile = Path.Combine(dataDir, "geo_1.ttf");
-
-// 使用 Jpeg 压缩
-Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
-
-// JPEG 压缩的质量
-dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf";
-oneFile.Save(dataDir, new PdfSaveOptions()
-                          {
-                              FontsSubsystem = DocumentFontsSubsystem.UsingDefaultFontFromFile(fontFile)
-                          });
-```
+演示如何使用文件中的默认字体将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -496,7 +481,26 @@ string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 // 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// 将文档保存为 gif。
+// 将文档保存为 PDF
+dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf";
+oneFile.Save(dataDir, new PdfSaveOptions()
+                          {
+                              FontsSubsystem = DocumentFontsSubsystem.UsingDefaultFontFromFile(fontFile)
+                          });
+```
+
+演示如何使用流中的默认字体以 pdf 格式保存文档。
+
+```csharp
+// 文档目录的路径。
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+string fontFile = Path.Combine(dataDir, "geo_1.ttf");
+
+// 将文档加载到 Aspose.Note。
+Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
+
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf";
 
 using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShare.Read))
@@ -507,10 +511,6 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
                               });
 }
 ```
-
-显示如何使用文件中的默认字体将文档保存为 pdf 格式。
-
-显示如何使用流中的默认字体将文档保存为 pdf 格式。
 
 ### 也可以看看
 

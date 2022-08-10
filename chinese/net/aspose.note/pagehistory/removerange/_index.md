@@ -1,14 +1,14 @@
 ---
 title: RemoveRange
 second_title: Aspose.Note for .NET API 参考
-description: 从PageHistoryaspose.note/pagehistory中删除一系列页面版本
+description: 从PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 160
 url: /zh/net/aspose.note/pagehistory/removerange/
 ---
 ## PageHistory.RemoveRange method
 
-从[`PageHistory`](../../pagehistory)中删除一系列页面版本。
+从[`PageHistory`](../../pagehistory).
 
 ```csharp
 public void RemoveRange(int index, int count)
@@ -16,7 +16,7 @@ public void RemoveRange(int index, int count)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 索引. |
 | count | Int32 | 计数。 |
 
 ### 也可以看看

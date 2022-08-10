@@ -56,7 +56,7 @@ public Document Import(string file, PdfImportOptions importOptions = null,
 
 ### 例子
 
-显示如何从一组 PDF 文档中逐页导入所有页面。
+显示如何逐页导入一组 PDF 文档中的所有页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -69,6 +69,8 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"))
 
 d.Save(Path.Combine(dataDir, "sample_SimpleMerge.one"));
 ```
+
+演示如何从一组 PDF 文档中导入所有页面，同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -84,6 +86,8 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
+演示如何从一组 PDF 文档中导入所有内容，同时将每个 PDF 文档中的页面合并到单个 OneNote 页面。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
 
@@ -98,10 +102,6 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
-
-演示如何从一组 PDF 文档中导入所有页面，同时将每个 PDF 文档中的页面作为顶级 OneNote 页面的子级插入。
-
-演示如何从一组 PDF 文档中导入所有内容，同时将每个 PDF 文档中的页面合并到单个 OneNote 页面。
 
 ### 也可以看看
 

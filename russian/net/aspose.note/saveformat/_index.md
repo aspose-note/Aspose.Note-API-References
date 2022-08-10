@@ -18,14 +18,14 @@ public enum SaveFormat
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Png | `1` | Указывает, что выходным файлом является PNG-файл. |
-| Bmp | `2` | Указывает, что выходным файлом является файл BMP. |
+| Png | `1` | Указывает, что на выходе будет файл PNG. |
+| Bmp | `2` | Указывает, что на выходе будет файл BMP. |
 | Jpeg | `3` | Указывает, что выходным файлом является файл JPEG. |
-| Gif | `4` | Указывает, что выходным файлом является файл GIF. |
+| Gif | `4` | Указывает, что на выходе будет файл GIF. |
 | Tiff | `5` | Указывает, что выходным файлом является файл TIFF. |
-| Pdf | `6` | Указывает, что выходным файлом является PDF-файл. |
-| One | `7` | Указывает, что выходным файлом является файл OneNote. |
-| Html | `8` | Указывает, что результатом является HTML-файл. |
+| Pdf | `6` | Указывает, что выходным файлом является файл PDF. |
+| One | `7` | Указывает, что выходные данные представляют собой файл OneNote. |
+| Html | `8` | Указывает, что вывод представляет собой файл HTML. |
 
 ### Примеры
 
@@ -41,6 +41,8 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
+Показывает, как сохранить документ в формате pdf с настройками по умолчанию.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -52,6 +54,8 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
+
+Показывает, как сохранить документ как изображение в формате Jpeg с помощью SaveFormat.
 
 ```csharp
 // Путь к каталогу документов.
@@ -66,6 +70,8 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
+Показывает, как сохранить документ в формате gif.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -78,6 +84,8 @@ dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 // Сохраняем документ как gif.
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
+
+Показывает, как установить качество изображения при сохранении документа как изображения в формате JPEG.
 
 ```csharp
 // Путь к каталогу документов.
@@ -92,6 +100,8 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
+Показывает, как сохранить документ как изображение в формате Bmp с помощью ImageSaveOptions.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -105,6 +115,8 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
+Показывает, как установить разрешение изображения при сохранении документа как изображения.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -117,6 +129,8 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 // Сохраняем документ.
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
+
+Показывает, как сохранить документ как изображение в градациях серого.
 
 ```csharp
 // Путь к каталогу документов.
@@ -134,6 +148,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия PackBits.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -149,6 +165,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.PackBits
                       });
 ```
+
+Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
 
 ```csharp
 // Путь к каталогу документов.
@@ -167,6 +185,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
+Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -183,6 +203,8 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                           TiffCompression = TiffCompression.Ccitt3
                       });
 ```
+
+Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -204,6 +226,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -224,30 +248,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-Показывает, как сохранить документ в формате pdf с настройками по умолчанию.
-
-Показывает, как сохранить документ как изображение в формате Jpeg с помощью SaveFormat.
-
-Показывает, как сохранить документ в формате gif.
-
-Показывает, как установить качество изображения при сохранении документа как изображения в формате JPEG.
-
-Показывает, как сохранить документ как изображение в формате Bmp с помощью ImageSaveOptions.
-
-Показывает, как установить разрешение изображения при сохранении документа как изображения.
-
-Показывает, как сохранить документ как изображение в градациях серого.
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия PackBits.
-
-Показывает, как сохранить документ как изображение в формате Tiff с использованием сжатия Jpeg.
-
-Показывает, как сохранить документ в виде изображения в формате Tiff с использованием сжатия факсов CCITT Group 3.
-
-Показывает, как сохранить документ в виде двоичного изображения с помощью метода Оцу.
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
 
 ### Смотрите также
 

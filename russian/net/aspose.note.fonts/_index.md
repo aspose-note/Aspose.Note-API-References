@@ -1,19 +1,19 @@
 ---
 title: Aspose.Note.Fonts
 second_title: Справочник по API Aspose.Note для .NET
-description: Пространство именFontsсодержит классы предоставляющие функциональные возможности для управления средой шрифта для документа.
+description: Fonts пространство имен содержит классы которые обеспечивают функциональность для управления средой шрифта для документа.
 type: docs
 weight: 20
 url: /ru/net/aspose.note.fonts/
 ---
-Пространство именFontsсодержит классы, предоставляющие функциональные возможности для управления средой шрифта для документа.
+Fonts пространство имен содержит классы, которые обеспечивают функциональность для управления средой шрифта для документа.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
-| [DocumentFontsSubsystem](./documentfontssubsystem) | Простая реализация Aspose.Note.Fonts.FontsSubsystem. Извлекает объектFontFamilyиз ОС. |
-| [FontsSubsystem](./fontssubsystem) | Базовый класс, реализующий интерфейс Aspose.Note.Fonts.IFontsSubsystem. Предоставляет функциональные возможности для шрифта по умолчанию и замены шрифта. Переопределить защищенную функцию-член Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily в производном классе для реализации логики извлечения объектаFontFamily. |
+| [DocumentFontsSubsystem](./documentfontssubsystem) | Простая реализация Aspose.Note.Fonts.FontsSubsystem. ИзвлекаетFontFamily объект из ОС. |
+| [FontsSubsystem](./fontssubsystem) | Базовый класс, реализующий интерфейс Aspose.Note.Fonts.IFontsSubsystem. Предоставляет функциональные возможности для шрифта по умолчанию и замены шрифта. Переопределить защищенную функцию-член Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily в производном классе для реализации логики для полученияFontFamily объект. |
 ## Интерфейсы
 
 | Интерфейс | Описание |

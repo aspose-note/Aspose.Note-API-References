@@ -20,7 +20,7 @@ public static NoteCheckBox CreateBlueRightArrowCheckBox(string label = "Call bac
 
 ### Возвращаемое значение
 
-The[`NoteCheckBox`](../../notecheckbox).
+[`NoteCheckBox`](../../notecheckbox) .
 
 ### Смотрите также
 

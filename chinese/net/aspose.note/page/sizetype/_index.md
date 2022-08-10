@@ -16,7 +16,7 @@ public PageSizeType SizeType { get; set; }
 
 ### 评论
 
-默认情况下，页面会自动调整大小。默认值为SizeByContent。
+默认情况下，页面会自动调整大小。默认值为SizeByContent.
 
 ### 也可以看看
 

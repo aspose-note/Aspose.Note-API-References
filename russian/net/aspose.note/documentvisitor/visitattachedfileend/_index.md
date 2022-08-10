@@ -1,14 +1,14 @@
 ---
 title: VisitAttachedFileEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаAttachedFileaspose.note/attachedfile.
+description: Конец посещенияAttachedFileaspose.note/attachedfile узел.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/documentvisitor/visitattachedfileend/
 ---
 ## DocumentVisitor.VisitAttachedFileEnd method
 
-End для посещения узла[`AttachedFile`](../../attachedfile).
+Конец посещения[`AttachedFile`](../../attachedfile) узел.
 
 ```csharp
 public virtual void VisitAttachedFileEnd(AttachedFile attachedFile)
@@ -16,7 +16,7 @@ public virtual void VisitAttachedFileEnd(AttachedFile attachedFile)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| attachedFile | AttachedFile | Узел[`AttachedFile`](../../attachedfile). |
+| attachedFile | AttachedFile | [`AttachedFile`](../../attachedfile) узел. |
 
 ### Смотрите также
 

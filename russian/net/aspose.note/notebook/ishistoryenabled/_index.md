@@ -1,14 +1,14 @@
 ---
 title: IsHistoryEnabled
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает значение указывающее включен ли журнал.
+description: Получает или задает значение указывающее включена ли история.
 type: docs
 weight: 70
 url: /ru/net/aspose.note/notebook/ishistoryenabled/
 ---
 ## Notebook.IsHistoryEnabled property
 
-Получает или задает значение, указывающее, включен ли журнал.
+Получает или задает значение, указывающее, включена ли история.
 
 ```csharp
 public bool IsHistoryEnabled { get; set; }

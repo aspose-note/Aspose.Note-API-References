@@ -1,14 +1,14 @@
 ---
 title: PageIndex
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置要保存的第一页的索引默认为 0
+description: 获取或设置要保存的第一页的索引默认为 0.
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/saveoptions/pageindex/
 ---
 ## SaveOptions.PageIndex property
 
-获取或设置要保存的第一页的索引。默认为 0。
+获取或设置要保存的第一页的索引。默认为 0.
 
 ```csharp
 public int PageIndex { get; set; }
@@ -19,61 +19,65 @@ public int PageIndex { get; set; }
 显示如何以 png 格式保存文档。
 
 ```csharp
-// 初始化 PdfSaveOptions 对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 使用 Jpeg 压缩
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// JPEG 压缩的质量 
+// 初始化 ImageSaveOptions 对象 
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
                             {
-                                // 文档目录的路径。
+                                // 设置页面索引
                                 PageIndex = 1
                             };
 
 dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 
-// 加载 OneNote 笔记本
+// 将文档保存为 PNG。
 oneFile.Save(dataDir, opts);
 ```
 
+显示如何以 pdf 格式保存文档。
+
 ```csharp
-// 保存笔记本
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 将文档加载到 Aspose.Note。
+// 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 或者
+                              // 设置要保存的第一页的页索引
                               PageIndex = 0,
 
-                              // 文档目录的路径。
+                              // 设置页数
                               PageCount = 1,
                           };
 
-// 将文档加载到 Aspose.Note。
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
+显示如何使用特定设置以 pdf 格式保存文档。
+
 ```csharp
-// 或者
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 或者
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
-// 或者
+// 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 或者
+                              // 使用 Jpeg 压缩
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
-                              // 文档目录的路径。
+                              // JPEG 压缩的质量
                               JpegQuality = 90
                           };
 
@@ -81,16 +85,18 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
+演示如何创建文档并以 html 格式保存指定范围的页面。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 文档目录的路径。
+// 初始化 OneNote 文档
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// 文档目录的路径。
+// 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -99,7 +105,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 文档目录的路径。
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -108,20 +114,22 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
+展示如何使用格式化的富文本创建文档。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 将文档保存为 PDF
+//初始化Page类对象
 Page page = new Page();
 
-// 文档目录的路径。
+// 初始化 Title 类对象
 Title title = new Title();
 
-// 将文档加载到 Aspose.Note。
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultTextStyle = new ParagraphStyle
                                       {
                                           FontColor = Color.Black,
@@ -169,33 +177,25 @@ RichText text = new RichText() { ParagraphStyle = defaultTextStyle }
 
 title.TitleText = titleText;
 
-// 将文档保存为 PDF
+// 设置页面标题
 page.Title = title;
 
-// 文档目录的路径。
+// 添加富文本节点
 outlineElem.AppendChildLast(text);
 
-// 将文档加载到 Aspose.Note。
+// 添加 OutlineElement 节点
 outline.AppendChildLast(outlineElem);
 
-// 将文档保存为 PDF
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 文档目录的路径。
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 将文档加载到 Aspose.Note。
+// 保存 OneNote 文档
 dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
-
-显示如何以 pdf 格式保存文档。
-
-显示如何使用特定设置以 pdf 格式保存文档。
-
-显示如何创建文档并以 html 格式保存指定范围的页面。
-
-展示如何使用格式化的富文本创建文档。
 
 ### 也可以看看
 

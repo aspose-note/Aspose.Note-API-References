@@ -1,14 +1,14 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Note for .NET API 参考
-description: 在文档加载期间当文档似乎已损坏且无法加载时抛出
+description: 在文档加载期间抛出当文档似乎已损坏且无法加载时
 type: docs
 weight: 80
 url: /zh/net/aspose.note/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-在文档加载期间，当文档似乎已损坏且无法加载时抛出。
+在文档加载期间抛出，当文档似乎已损坏且无法加载时。
 
 ```csharp
 public class FileCorruptedException : Exception

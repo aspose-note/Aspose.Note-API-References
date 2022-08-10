@@ -18,9 +18,9 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Имя | Описание |
 | --- | --- |
-| [Image](image#constructor)() | Инициализирует новый экземпляр класса[`Image`](../image). |
-| [Image](image#constructor_4)(string, Stream) | Инициализирует новый экземпляр класса[`Image`](../image). |
-| [Image](image#constructor_5)(string, string, string) | Инициализирует новый экземпляр класса[`Image`](../image). |
+| [Image](image#constructor)() | Инициализирует новый экземпляр[`Image`](../image) класс. |
+| [Image](image#constructor_4)(string, Stream) | Инициализирует новый экземпляр[`Image`](../image) класс. |
+| [Image](image#constructor_5)(string, string, string) | Инициализирует новый экземпляр[`Image`](../image) класс. |
 
 ## Характеристики
 
@@ -37,7 +37,7 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | [Height](../../aspose.note/image/height) { get; set; } | Получает или задает высоту. Это реальная высота изображения в документе MS OneNote. |
 | [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Получает или задает смещение по горизонтали. |
 | [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Получает или задает гиперссылку, связанную с изображением. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Получает, является ли изображение фоновым. |
+| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Получает, является ли изображение фоновым изображением. |
 | virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
 | [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
@@ -77,6 +77,8 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
+Показывает, как установить текстовое описание для изображения.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Images();
@@ -94,6 +96,8 @@ document.AppendChildLast(page);
 dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
+
+Показывает, как получить изображение из документа.
 
 ```csharp
 // Путь к каталогу документов.
@@ -118,6 +122,8 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
+Показывает, как получить метаинформацию изображения.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Images();
@@ -139,6 +145,8 @@ foreach (Aspose.Note.Image image in images)
     Console.WriteLine();
 }
 ```
+
+Показывает, как добавить новое изображение с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -177,6 +185,8 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как добавить изображение из файла в документ с заданными пользователем свойствами.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Images();
@@ -205,6 +215,8 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 // Добавляем изображение на страницу.
 page.AppendChildLast(image);
 ```
+
+Показывает, как добавить изображение из потока в документ.
 
 ```csharp
 // Путь к каталогу документов.
@@ -241,6 +253,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как добавить изображение из файла в документ.
 
 ```csharp
 // Путь к каталогу документов.
@@ -281,20 +295,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как установить текстовое описание для изображения.
-
-Показывает, как получить изображение из документа.
-
-Показывает, как получить метаинформацию изображения.
-
-Показывает, как добавить новое изображение с тегом.
-
-Показывает, как добавить изображение из файла в документ с заданными пользователем свойствами.
-
-Показывает, как добавить изображение из потока в документ.
-
-Показывает, как добавить изображение из файла в документ.
 
 ### Смотрите также
 

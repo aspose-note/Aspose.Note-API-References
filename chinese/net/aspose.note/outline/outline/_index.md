@@ -1,14 +1,14 @@
 ---
 title: Outline
 second_title: Aspose.Note for .NET API 参考
-description: 初始化Outlineaspose.note/outline类的新实例
+description: 初始化Outlineaspose.note/outline类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/outline/outline/
 ---
 ## Outline constructor
 
-初始化[`Outline`](../../outline)类的新实例。
+初始化[`Outline`](../../outline)类.
 
 ```csharp
 public Outline()

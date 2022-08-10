@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаImageSaveOptionsaspose.note.saving/imagesaveoptions.
+description: Инициализирует новый экземплярImageSaveOptionsaspose.note.saving/imagesaveoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`ImageSaveOptions`](../../imagesaveoptions).
+Инициализирует новый экземпляр[`ImageSaveOptions`](../../imagesaveoptions) класс.
 
 ```csharp
 public ImageSaveOptions(SaveFormat format)

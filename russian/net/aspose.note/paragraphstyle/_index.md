@@ -1,14 +1,14 @@
 ---
 title: ParagraphStyle
 second_title: Справочник по API Aspose.Note для .NET
-description: Настройки стиля текста которые будут использоваться если нет соответствующего объекта TextStyle в коллекцииStylesлибо этот объект не указывает необходимый параметр.
+description: Настройки стиля текста которые будут использоваться если нет соответствующего объекта TextStyle вStyles коллекция либо этот объект не указывает необходимую настройку.
 type: docs
 weight: 490
 url: /ru/net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
 
-Настройки стиля текста, которые будут использоваться, если нет соответствующего объекта TextStyle в коллекцииStylesлибо этот объект не указывает необходимый параметр.
+Настройки стиля текста, которые будут использоваться, если нет соответствующего объекта TextStyle вStyles коллекция, либо этот объект не указывает необходимую настройку.
 
 ```csharp
 public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
@@ -18,7 +18,7 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | Имя | Описание |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle)() | Инициализирует новый экземпляр класса[`ParagraphStyle`](../paragraphstyle). |
+| [ParagraphStyle](paragraphstyle)() | Инициализирует новый экземпляр[`ParagraphStyle`](../paragraphstyle) класс. |
 
 ## Характеристики
 
@@ -30,10 +30,10 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 | [FontSize](../../aspose.note/style/fontsize) { get; set; } | Получает или задает размер шрифта. |
 | [FontStyle](../../aspose.note/style/fontstyle) { get; } | Получает стиль шрифта. |
 | [Highlight](../../aspose.note/style/highlight) { get; set; } | Получает или задает цвет выделения. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста полужирным. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
 | [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста зачеркнутым. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста индексом. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подстрочным. |
 | [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста надстрочным. |
 | [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подчеркнутым. |
 
@@ -43,7 +43,7 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 | --- | --- |
 | override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/style/gethashcode)() | Служит хэш-функцией для типа. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode)() | Служит хеш-функцией для типа. |
 
 ### Примеры
 
@@ -71,6 +71,8 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
+Подчеркнем последние изменения текста выделением.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -94,6 +96,8 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
+Управляйте текстовым форматом, используя стиль абзаца.
+
 ```csharp
 var document = new Document();
 var page = new Page();
@@ -112,6 +116,8 @@ document.AppendChildLast(page);
 
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
+
+Показывает, как вставить новый список с китайской нумерацией.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -152,6 +158,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -198,6 +206,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -242,16 +252,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
-
-Подчеркнем последние изменения текста выделением.
-
-Управление текстовым форматом с использованием стиля абзаца.
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
 
 ### Смотрите также
 

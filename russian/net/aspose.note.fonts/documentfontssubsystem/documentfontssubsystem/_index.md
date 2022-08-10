@@ -1,14 +1,14 @@
 ---
 title: DocumentFontsSubsystem
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаDocumentFontsSubsystemaspose.note.fonts/documentfontssubsystem.
+description: Инициализирует новый экземплярDocumentFontsSubsystemaspose.note.fonts/documentfontssubsystem класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note.fonts/documentfontssubsystem/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem(Stream, Dictionary&lt;string, string&gt;) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DocumentFontsSubsystem`](../../documentfontssubsystem).
+Инициализирует новый экземпляр[`DocumentFontsSubsystem`](../../documentfontssubsystem) класс.
 
 ```csharp
 public DocumentFontsSubsystem(Stream defaultFontStream, 
@@ -30,7 +30,7 @@ public DocumentFontsSubsystem(Stream defaultFontStream,
 
 ## DocumentFontsSubsystem(string, Dictionary&lt;string, string&gt;) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`DocumentFontsSubsystem`](../../documentfontssubsystem).
+Инициализирует новый экземпляр[`DocumentFontsSubsystem`](../../documentfontssubsystem) класс.
 
 ```csharp
 public DocumentFontsSubsystem(string defaultFontFile, 
@@ -52,7 +52,7 @@ public DocumentFontsSubsystem(string defaultFontFile,
 
 ## DocumentFontsSubsystem(Dictionary&lt;string, string&gt;) {#constructor}
 
-Инициализирует новый экземпляр класса[`DocumentFontsSubsystem`](../../documentfontssubsystem).
+Инициализирует новый экземпляр[`DocumentFontsSubsystem`](../../documentfontssubsystem) класс.
 
 ```csharp
 public DocumentFontsSubsystem(Dictionary<string, string> fontsSubstitutions = null)

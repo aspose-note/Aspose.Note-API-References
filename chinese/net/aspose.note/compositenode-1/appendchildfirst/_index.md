@@ -1,14 +1,14 @@
 ---
 title: AppendChildFirst
 second_title: Aspose.Note for .NET API 参考
-description: 将节点添加到该节点的子节点列表的前面
+description: 将该节点添加到该节点的子节点列表的前面
 type: docs
 weight: 50
 url: /zh/net/aspose.note/compositenode-1/appendchildfirst/
 ---
 ## CompositeNode&lt;T&gt;.AppendChildFirst&lt;T1&gt; method
 
-将节点添加到该节点的子节点列表的前面。
+将该节点添加到该节点的子节点列表的前面。
 
 ```csharp
 public virtual T1 AppendChildFirst<T1>(T1 newChild)

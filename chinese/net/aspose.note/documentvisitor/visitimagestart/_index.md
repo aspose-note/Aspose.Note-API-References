@@ -1,14 +1,14 @@
 ---
 title: VisitImageStart
 second_title: Aspose.Note for .NET API 参考
-description: 开始访问Imageaspose.note/image节点
+description: 开始访问Imageaspose.note/image节点.
 type: docs
 weight: 60
 url: /zh/net/aspose.note/documentvisitor/visitimagestart/
 ---
 ## DocumentVisitor.VisitImageStart method
 
-开始访问[`Image`](../../image)节点。
+开始访问[`Image`](../../image)节点.
 
 ```csharp
 public virtual void VisitImageStart(Image image)
@@ -16,7 +16,7 @@ public virtual void VisitImageStart(Image image)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Image | [`Image`](../../image)节点。 |
+| image | Image | 的[`Image`](../../image)节点. |
 
 ### 也可以看看
 

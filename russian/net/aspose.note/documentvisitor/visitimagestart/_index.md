@@ -1,14 +1,14 @@
 ---
 title: VisitImageStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелImageaspose.note/image.
+description: Начните посещатьImageaspose.note/image узел.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/documentvisitor/visitimagestart/
 ---
 ## DocumentVisitor.VisitImageStart method
 
-Начните посещать узел[`Image`](../../image).
+Начните посещать[`Image`](../../image) узел.
 
 ```csharp
 public virtual void VisitImageStart(Image image)
@@ -16,7 +16,7 @@ public virtual void VisitImageStart(Image image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Узел[`Image`](../../image). |
+| image | Image | [`Image`](../../image) узел. |
 
 ### Смотрите также
 

@@ -24,7 +24,7 @@ public class NotebookLoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DeferredLoading](../../aspose.note/notebookloadoptions/deferredloading) { get; set; } | Получает или задает значение, указывающее, должны ли дочерние документы загружаться позже явно. |
+| [DeferredLoading](../../aspose.note/notebookloadoptions/deferredloading) { get; set; } | Получает или задает значение, указывающее, следует ли явно загружать дочерние документы позже. |
 | [InstantLoading](../../aspose.note/notebookloadoptions/instantloading) { get; set; } | Получает или задает значение, указывающее, следует ли загружать дочерние документы во время загрузки родительского документа. |
 
 ### Примеры

@@ -20,7 +20,7 @@ public RichText AppendFront(string value)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ The[`RichText`](../../richtext).
 
 ## AppendFront(string, TextStyle) {#appendfront_1}
 
-Добавляет строку впереди.
+Добавляет строку на передний план.
 
 ```csharp
 public RichText AppendFront(string value, TextStyle style)
@@ -45,7 +45,7 @@ public RichText AppendFront(string value, TextStyle style)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Смотрите также
 

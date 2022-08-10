@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Note для .NET
-description: Проверяет равны ли две структурыMargins.
+description: Проверяет являются ли дваMargins структуры равны.
 type: docs
 weight: 70
 url: /ru/net/aspose.note/margins/equals/
 ---
 ## Equals(Margins) {#equals}
 
-Проверяет, равны ли две структурыMargins.
+Проверяет, являются ли дваMargins структуры равны.
 
 ```csharp
 public bool Equals(Margins other)
@@ -16,11 +16,11 @@ public bool Equals(Margins other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Margins | СтруктураMargins. |
+| other | Margins | Margins структура. |
 
 ### Возвращаемое значение
 
-TheBoolean.
+Boolean .
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ TheBoolean.
 
 ## Equals(object) {#equals_1}
 
-Проверяет, равны ли две структурыMargins.
+Проверяет, являются ли дваMargins структуры равны.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-TheBoolean.
+Boolean .
 
 ### Смотрите также
 

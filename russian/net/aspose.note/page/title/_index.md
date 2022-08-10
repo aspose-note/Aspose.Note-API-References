@@ -16,7 +16,7 @@ public Title Title { get; set; }
 
 ### Стоимость имущества
 
-The`Title`.
+`Title` .
 
 ### Примеры
 
@@ -39,6 +39,8 @@ foreach (Page page in oneFile)
     Console.WriteLine();
 }
 ```
+
+Показывает, как редактировать историю страницы.
 
 ```csharp
 // Путь к каталогу документов.
@@ -64,6 +66,8 @@ if (pageHistory.Count > 1)
     document.Save(dataDir + "ModifyPageHistory_out.one");
 }
 ```
+
+Показывает, как установить заголовок для страницы.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -96,6 +100,8 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
+Показывает, как получить историю страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -116,6 +122,8 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
     Console.WriteLine();
 }
 ```
+
+Показывает, как создать документ и сохранить его в формате html, используя параметры по умолчанию.
 
 ```csharp
 // Путь к каталогу документов.
@@ -138,6 +146,8 @@ page.Title = new Title()
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать документ и сохранить в формате html заданный диапазон страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -165,6 +175,8 @@ doc.Save(dataDir, new HtmlSaveOptions
                       PageIndex = 0
                   });
 ```
+
+Показывает, как создать документ с титульной страницей.
 
 ```csharp
 // Путь к каталогу документов.
@@ -194,6 +206,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как сохранить документ в различных форматах.
 
 ```csharp
 // Путь к каталогу документов.
@@ -225,20 +239,6 @@ textStyle.FontSize = 11;
 doc.DetectLayoutChanges();            
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
-
-Показывает, как редактировать историю страницы.
-
-Показывает, как задать заголовок для страницы.
-
-Показывает, как получить историю страницы.
-
-Показывает, как создать документ и сохранить его в формате html с параметрами по умолчанию.
-
-Показывает, как создать документ и сохранить в формате html указанный диапазон страниц.
-
-Показывает, как создать документ с титульной страницей.
-
-Показывает, как сохранить документ в различных форматах.
 
 ### Смотрите также
 

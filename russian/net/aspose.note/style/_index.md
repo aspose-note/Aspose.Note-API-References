@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Справочник по API Aspose.Note для .NET
-description: Этот класс содержит общие свойстваParagraphStyle./paragraphstyleиTextStyle./textstyleзанятия.
+description: Этот класс содержит общие свойстваParagraphStyle./paragraphstyleа такжеTextStyle./textstyle классы.
 type: docs
 weight: 860
 url: /ru/net/aspose.note/style/
 ---
 ## Style class
 
-Этот класс содержит общие свойства[`ParagraphStyle`](../paragraphstyle)и[`TextStyle`](../textstyle)занятия.
+Этот класс содержит общие свойства[`ParagraphStyle`](../paragraphstyle)а также[`TextStyle`](../textstyle) классы.
 
 ```csharp
 public class Style
@@ -23,10 +23,10 @@ public class Style
 | [FontSize](../../aspose.note/style/fontsize) { get; set; } | Получает или задает размер шрифта. |
 | [FontStyle](../../aspose.note/style/fontstyle) { get; } | Получает стиль шрифта. |
 | [Highlight](../../aspose.note/style/highlight) { get; set; } | Получает или задает цвет выделения. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста полужирным. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
 | [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста зачеркнутым. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста индексом. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подстрочным. |
 | [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста надстрочным. |
 | [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подчеркнутым. |
 
@@ -34,7 +34,7 @@ public class Style
 
 | Имя | Описание |
 | --- | --- |
-| override [GetHashCode](../../aspose.note/style/gethashcode)() | Служит хэш-функцией для типа. |
+| override [GetHashCode](../../aspose.note/style/gethashcode)() | Служит хеш-функцией для типа. |
 
 ### Смотрите также
 

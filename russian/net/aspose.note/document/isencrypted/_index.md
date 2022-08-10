@@ -44,6 +44,8 @@ else
 }
 ```
 
+Показывает, как проверить, защищен ли документ определенным паролем.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -67,8 +69,6 @@ else
 }
 ```
 
-Показывает, как проверить, защищен ли документ определенным паролем.
-
 ### Смотрите также
 
 * class [LoadOptions](../../loadoptions)
@@ -89,7 +89,7 @@ public static bool IsEncrypted(Stream stream, string password, out Document docu
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| пароль | String | Пароль для расшифровки документа. |
+| password | String | Пароль для расшифровки документа. |
 | document | Document& | Загруженный документ. |
 
 ### Возвращаемое значение
@@ -116,6 +116,8 @@ else
 }
 ```
 
+Показывает, как проверить, защищен ли документ определенным паролем.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -138,8 +140,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-Показывает, как проверить, защищен ли документ определенным паролем.
 
 ### Смотрите также
 
@@ -186,6 +186,8 @@ else
 }
 ```
 
+Показывает, как проверить, защищен ли документ определенным паролем.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -208,8 +210,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-Показывает, как проверить, защищен ли документ определенным паролем.
 
 ### Смотрите также
 
@@ -257,6 +257,8 @@ else
 }
 ```
 
+Показывает, как проверить, защищен ли документ определенным паролем.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -279,8 +281,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-Показывает, как проверить, защищен ли документ определенным паролем.
 
 ### Смотрите также
 
@@ -328,6 +328,8 @@ else
 }
 ```
 
+Показывает, как проверить, защищен ли документ определенным паролем.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -351,8 +353,6 @@ else
 }
 ```
 
-Показывает, как проверить, защищен ли документ определенным паролем.
-
 ### Смотрите также
 
 * class [Document](../../document)
@@ -372,7 +372,7 @@ public static bool IsEncrypted(string filePath, string password, out Document do
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу. |
-| пароль | String | Пароль для расшифровки документа. |
+| password | String | Пароль для расшифровки документа. |
 | document | Document& | Загруженный документ. |
 
 ### Возвращаемое значение
@@ -399,6 +399,8 @@ else
 }
 ```
 
+Показывает, как проверить, защищен ли документ определенным паролем.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -421,8 +423,6 @@ else
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
 ```
-
-Показывает, как проверить, защищен ли документ определенным паролем.
 
 ### Смотрите также
 

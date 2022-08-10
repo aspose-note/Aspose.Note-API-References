@@ -1,14 +1,14 @@
 ---
 title: IsBold
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает значение указывающее является ли стиль текста полужирным.
+description: Получает или задает значение указывающее является ли текст полужирным.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/numberlist/isbold/
 ---
 ## NumberList.IsBold property
 
-Получает или задает значение, указывающее, является ли стиль текста полужирным.
+Получает или задает значение, указывающее, является ли текст полужирным.
 
 ```csharp
 public bool IsBold { get; set; }

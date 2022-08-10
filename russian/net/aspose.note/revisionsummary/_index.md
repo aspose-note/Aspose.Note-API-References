@@ -1,14 +1,14 @@
 ---
 title: RevisionSummary
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет сводку по ревизии узла.
+description: Представляет сводку по версии узла.
 type: docs
 weight: 500
 url: /ru/net/aspose.note/revisionsummary/
 ---
 ## RevisionSummary class
 
-Представляет сводку по ревизии узла.
+Представляет сводку по версии узла.
 
 ```csharp
 public class RevisionSummary
@@ -25,7 +25,7 @@ public class RevisionSummary
 | Имя | Описание |
 | --- | --- |
 | [AuthorMostRecent](../../aspose.note/revisionsummary/authormostrecent) { get; set; } | Получает или устанавливает самого последнего автора. |
-| [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
+| [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 
 ### Примеры
 
@@ -54,6 +54,8 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
+Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
@@ -78,8 +80,6 @@ for (int i = 0; i < history.Count; i++)
 
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
-
-Показывает, как проверить, является ли страница конфликтующей (т. е. имеет ли она изменения, которые OneNote не может автоматически объединить).
 
 ### Смотрите также
 

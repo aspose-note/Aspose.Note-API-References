@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置宽度这是 MS OneNote 文档中图像的实际宽度
+description: 获取或设置宽度这是MS OneNote文档中图片的真实宽度
 type: docs
 weight: 180
 url: /zh/net/aspose.note/image/width/
 ---
 ## Image.Width property
 
-获取或设置宽度。这是 MS OneNote 文档中图像的实际宽度。
+获取或设置宽度。这是MS OneNote文档中图片的真实宽度。
 
 ```csharp
 public float Width { get; set; }
@@ -19,13 +19,13 @@ public float Width { get; set; }
 显示如何获取图像的元信息。
 
 ```csharp
-// 创建 Document 类的对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-//初始化Page类对象
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 初始化 Outline 类对象并设置偏移属性
+// 获取所有图像节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,36 +40,36 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
+演示如何将图像从文件添加到具有用户定义属性的文档。
+
 ```csharp
-// 初始化 OutlineElement 类对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 通过文件路径加载图片。
+// 从流中加载文档。
 Document doc = new Document(dataDir + "Aspose.one");
 
-// 添加页面节点
+// 获取文档的第一页。
 Aspose.Note.Page page = doc.FirstChild;
 
-// 添加图片
+// 从文件中加载图像。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // 添加轮廓元素
+                              // 根据您的需要更改图像的大小（可选）。
                               Width = 100,
                               Height = 100,
 
-                              // 添加大纲节点
+                              // 设置图片在页面中的位置（可选）。
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // 添加页面节点
+                              // 设置图像对齐
                               Alignment = HorizontalAlignment.Right
                           };
 
-// 保存 OneNote 文档
+// 将图像添加到页面。
 page.AppendChildLast(image);
 ```
-
-显示如何将图像从文件添加到具有用户定义属性的文档。
 
 ### 也可以看看
 

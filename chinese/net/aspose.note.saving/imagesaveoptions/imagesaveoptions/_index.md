@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Note for .NET API 参考
-description: 初始化ImageSaveOptionsaspose.note.saving/imagesaveoptions类的新实例
+description: 初始化ImageSaveOptionsaspose.note.saving/imagesaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-初始化[`ImageSaveOptions`](../../imagesaveoptions)类的新实例。
+初始化[`ImageSaveOptions`](../../imagesaveoptions)类.
 
 ```csharp
 public ImageSaveOptions(SaveFormat format)
@@ -16,7 +16,7 @@ public ImageSaveOptions(SaveFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| format | SaveFormat | 保存文档的格式。 |
+| format | SaveFormat | 文档保存的格式。 |
 
 ### 也可以看看
 

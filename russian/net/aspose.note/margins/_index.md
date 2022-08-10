@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: Справочник по API Aspose.Note для .NET
-description: Задает размеры полей узла.
+description: Определяет размеры полей узла.
 type: docs
 weight: 310
 url: /ru/net/aspose.note/margins/
 ---
 ## Margins structure
 
-Задает размеры полей узла.
+Определяет размеры полей узла.
 
 ```csharp
 public struct Margins : IEquatable<Margins>
@@ -18,7 +18,7 @@ public struct Margins : IEquatable<Margins>
 
 | Имя | Описание |
 | --- | --- |
-| [Margins](margins)(float, float, float, float) | Инициализирует новый экземпляр[`Margins`](../margins)struct с указанными левым, правым , верхнее и нижнее поля. |
+| [Margins](margins)(float, float, float, float) | Инициализирует новый экземпляр[`Margins`](../margins) struct с указанными левым, правым, верхним и нижним полями. |
 
 ## Характеристики
 
@@ -33,11 +33,11 @@ public struct Margins : IEquatable<Margins>
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.note/margins/equals#equals)(Margins) | Проверяет, равны ли две структурыMargins. |
-| override [Equals](../../aspose.note/margins/equals#equals_1)(object) | Проверяет, равны ли две структурыMargins. |
-| override [GetHashCode](../../aspose.note/margins/gethashcode)() | Служит хэш-функцией для типа. |
-| [operator ==](../../aspose.note/margins/op_equality) | Проверяет, равны ли две структурыMargins. |
-| [operator !=](../../aspose.note/margins/op_inequality) | Проверяет, не равны ли две структурыMargins. |
+| [Equals](../../aspose.note/margins/equals#equals)(Margins) | Проверяет, являются ли дваMargins структуры равны. |
+| override [Equals](../../aspose.note/margins/equals#equals_1)(object) | Проверяет, являются ли дваMargins структуры равны. |
+| override [GetHashCode](../../aspose.note/margins/gethashcode)() | Служит хеш-функцией для типа. |
+| [operator ==](../../aspose.note/margins/op_equality) | Проверяет, являются ли дваMargins структуры равны. |
+| [operator !=](../../aspose.note/margins/op_inequality) | Проверяет, являются ли дваMargins структуры не равны. |
 
 ## Поля
 

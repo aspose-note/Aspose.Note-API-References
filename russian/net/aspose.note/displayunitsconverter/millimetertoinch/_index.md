@@ -20,7 +20,7 @@ public static float MillimeterToInch(float mm)
 
 ### Возвращаемое значение
 
-TheSingle.
+Single .
 
 ### Смотрите также
 

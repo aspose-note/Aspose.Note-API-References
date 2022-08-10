@@ -1,14 +1,14 @@
 ---
 title: GetDocumentSaveOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает параметры сохранения для всех дочерних документов блокнота.
+description: Получает параметры сохранения для всех дочерних документов записной книжки.
 type: docs
 weight: 30
 url: /ru/net/aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/
 ---
 ## NotebookSaveOptions&lt;TDocumentSaveOptions&gt;.GetDocumentSaveOptions method
 
-Получает параметры сохранения для всех дочерних документов блокнота.
+Получает параметры сохранения для всех дочерних документов записной книжки.
 
 ```csharp
 public override SaveOptions GetDocumentSaveOptions()
@@ -16,7 +16,7 @@ public override SaveOptions GetDocumentSaveOptions()
 
 ### Возвращаемое значение
 
-The[`SaveOptions`](../../saveoptions).
+[`SaveOptions`](../../saveoptions) .
 
 ### Смотрите также
 

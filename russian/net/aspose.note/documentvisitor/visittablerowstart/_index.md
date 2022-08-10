@@ -1,14 +1,14 @@
 ---
 title: VisitTableRowStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелTableRowaspose.note/tablerow.
+description: Начните посещатьTableRowaspose.note/tablerow узел.
 type: docs
 weight: 210
 url: /ru/net/aspose.note/documentvisitor/visittablerowstart/
 ---
 ## DocumentVisitor.VisitTableRowStart method
 
-Начните посещать узел[`TableRow`](../../tablerow).
+Начните посещать[`TableRow`](../../tablerow) узел.
 
 ```csharp
 public virtual void VisitTableRowStart(TableRow tableRow)
@@ -16,7 +16,7 @@ public virtual void VisitTableRowStart(TableRow tableRow)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tableRow | TableRow | Узел[`TableRow`](../../tablerow). |
+| tableRow | TableRow | [`TableRow`](../../tablerow) узел. |
 
 ### Смотрите также
 

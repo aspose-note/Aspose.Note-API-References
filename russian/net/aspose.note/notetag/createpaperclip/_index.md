@@ -20,7 +20,7 @@ public static NoteTag CreatePaperClip(string label = "")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

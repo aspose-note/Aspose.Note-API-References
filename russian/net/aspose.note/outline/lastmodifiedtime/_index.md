@@ -1,14 +1,14 @@
 ---
 title: LastModifiedTime
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает время последнего изменения.
+description: Получает или устанавливает время последнего изменения.
 type: docs
 weight: 50
 url: /ru/net/aspose.note/outline/lastmodifiedtime/
 ---
 ## Outline.LastModifiedTime property
 
-Получает или задает время последнего изменения.
+Получает или устанавливает время последнего изменения.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Note.Saving
 second_title: Aspose.Note for .NET API 参考
-description: Saving命名空间包含执行保存为不同格式的类
+description: 的Saving命名空间包含执行保存为不同格式的类
 type: docs
 weight: 40
 url: /zh/net/aspose.note.saving/
 ---
-Saving命名空间包含执行保存为不同格式的类。
+的Saving命名空间包含执行保存为不同格式的类。
 
 ## 课程
 
@@ -25,7 +25,7 @@ Saving命名空间包含执行保存为不同格式的类。
 | [NotebookSaveOptions](./notebooksaveoptions) | 一个抽象基类，代表特定格式的笔记本保存选项。 |
 | [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](./notebooksaveoptions-1) | 一个抽象基类，代表特定格式的笔记本保存选项 并为所有文档子节点提供通用保存选项。 |
 | [OneSaveOptions](./onesaveoptions) | 允许在将文档保存为 OneNote 格式时指定其他选项。 |
-| [PageSplittingAlgorithm](./pagesplittingalgorithm) | 用于分割对象的基类，以防它不适合原始页面。 |
+| [PageSplittingAlgorithm](./pagesplittingalgorithm) | 用于拆分对象的基类，以防它不适合原始页面。 |
 | [PdfSaveOptions](./pdfsaveoptions) | 允许在将文档页面呈现为 PDF 时指定其他选项。 |
 | [PrintOptions](./printoptions) | 用于打印文档的选项。 |
 | [SaveOptions](./saveoptions) | 一个抽象基类，代表特定格式的文档保存选项。 |

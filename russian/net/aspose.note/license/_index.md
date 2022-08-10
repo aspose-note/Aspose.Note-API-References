@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: Справочник по API Aspose.Note для .NET
-description: Предоставляет методы для лицензирования компонента.
+description: Предоставляет методы лицензирования компонента.
 type: docs
 weight: 290
 url: /ru/net/aspose.note/license/
 ---
 ## License class
 
-Предоставляет методы для лицензирования компонента.
+Предоставляет методы лицензирования компонента.
 
 ```csharp
 public class License
@@ -36,6 +36,8 @@ Aspose.Note.License license = new Aspose.Note.License();
 license.SetLicense("Aspose.Note.lic");
 ```
 
+Показывает, как загрузить лицензию для Aspose.Note из потока.
+
 ```csharp
 Aspose.Note.License license = new Aspose.Note.License();
 using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
@@ -44,6 +46,8 @@ using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
 }
 ```
 
+Показывает, как загрузить лицензию для Aspose.Note из встроенного файлового ресурса.
+
 ```csharp
 // Создаем экземпляр класса License
 Aspose.Note.License license = new Aspose.Note.License();
@@ -51,10 +55,6 @@ Aspose.Note.License license = new Aspose.Note.License();
 // Передаем только имя файла лицензии, встроенного в сборку
 license.SetLicense("Aspose.Note.lic");
 ```
-
-Показывает, как загрузить лицензию для Aspose.Note из потока.
-
-Показывает, как загрузить лицензию для Aspose.Note из встроенного файлового ресурса.
 
 ### Смотрите также
 

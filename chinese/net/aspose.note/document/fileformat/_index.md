@@ -26,10 +26,10 @@ var document = new Aspose.Note.Document(dataDir + "Aspose.one");
 switch (document.FileFormat)
 {
     case FileFormat.OneNote2010:
-        // 文档目录的路径。
+        // 处理 OneNote 2010
         break;
     case FileFormat.OneNoteOnline:
-        // 文档目录的路径。
+        // 在线处理 OneNote
         break;
 }
 ```

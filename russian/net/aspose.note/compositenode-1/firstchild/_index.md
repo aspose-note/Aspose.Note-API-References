@@ -1,14 +1,14 @@
 ---
 title: FirstChild
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает первый дочерний узел данного узла.
+description: Получает первый дочерний узел этого узла.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/compositenode-1/firstchild/
 ---
 ## CompositeNode&lt;T&gt;.FirstChild property
 
-Получает первый дочерний узел данного узла.
+Получает первый дочерний узел этого узла.
 
 ```csharp
 public T FirstChild { get; }

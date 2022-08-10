@@ -41,6 +41,8 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 Console.WriteLine(text);
 ```
 
+Показывает, как получить весь текст со страницы.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Text();
@@ -59,6 +61,8 @@ if (page != null)
     Console.WriteLine(text);
 }
 ```
+
+Показывает, как пройтись по всем страницам и сделать замену в тексте.
 
 ```csharp
 // Путь к каталогу документов.
@@ -88,6 +92,8 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
+Показывает, как пройти через текст страницы и сделать замену.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Text();
@@ -116,12 +122,6 @@ foreach (RichText richText in textNodes)
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
-
-Показывает, как получить весь текст со страницы.
-
-Показывает, как пройти по всем страницам и сделать замену в тексте.
-
-Показывает, как пройтись по тексту страницы и произвести замену.
 
 ### Смотрите также
 

@@ -50,6 +50,8 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
+Показывает, как получить метаинформацию изображения.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Images();
@@ -71,8 +73,6 @@ foreach (Aspose.Note.Image image in images)
     Console.WriteLine();
 }
 ```
-
-Показывает, как получить метаинформацию изображения.
 
 ### Смотрите также
 

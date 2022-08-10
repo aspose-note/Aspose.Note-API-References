@@ -1,14 +1,14 @@
 ---
 title: CssSaving
 second_title: Aspose.Note for .NET API 参考
-description: 当 Aspose.Note 保存 CSS层叠样式表时调用
+description: 在 Aspose.Note 保存 CSS层叠样式表时调用
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving.html/icsssavingcallback/csssaving/
 ---
 ## ICssSavingCallback.CssSaving method
 
-当 Aspose.Note 保存 CSS（层叠样式表）时调用。
+在 Aspose.Note 保存 CSS（层叠样式表）时调用。
 
 ```csharp
 public void CssSaving(CssSavingArgs args)

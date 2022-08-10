@@ -20,7 +20,7 @@ public static NoteTag CreateHighPriority(string label = "Critical")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

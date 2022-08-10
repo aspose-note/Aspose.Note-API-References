@@ -20,7 +20,7 @@ public static NoteTag CreateYellowStar(string label = "Important")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

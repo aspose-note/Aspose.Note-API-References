@@ -16,17 +16,17 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 
 ### 适当的价值
 
-`PageSplittingAlgorithm`.
+的`PageSplittingAlgorithm`.
 
 ### 例子
 
 显示如何使用指定选项以 pdf 格式保存笔记本。
 
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 或者
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -37,56 +37,56 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// 文档目录的路径。
+// 保存笔记本
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+当长 OneNote 页面以 pdf 格式保存时，它们会跨页面拆分。该示例展示了如何配置位于分页符上的对象的拆分逻辑。
+
 ```csharp
-// 初始化 PdfSaveOptions 对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 初始化 PdfSaveOptions 对象
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 
 var pdfSaveOptions = new PdfSaveOptions();
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100);
-// 设置要保存的第一页的页索引
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(400);
 
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
+当长 OneNote 页面以 pdf 格式保存时，它们会跨页面拆分。该示例显示了如何配置位于分页符上的对象的拆分逻辑。
+
 ```csharp
-// 设置页数
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档保存为 PDF
+// 将文档加载到 Aspose.Note。
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm();
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(heightLimitOfClonedPart);
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart);
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(100);
-// 文档目录的路径。
+// 或者
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
-
-当长 OneNote 页面以 pdf 格式保存时，它们会在页面之间拆分。该示例展示了如何配置位于分页符上的对象的拆分逻辑。
-
-当长 OneNote 页面以 pdf 格式保存时，它们会在页面之间拆分。该示例显示了如何配置位于分页符上的对象的拆分逻辑。
 
 ### 也可以看看
 

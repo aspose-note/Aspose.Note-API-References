@@ -20,7 +20,7 @@ public static NoteTag CreateMovieClip(string label = "Movie to see")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

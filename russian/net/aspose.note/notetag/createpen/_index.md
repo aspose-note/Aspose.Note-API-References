@@ -20,7 +20,7 @@ public static NoteTag CreatePen(string label = "Highlight")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

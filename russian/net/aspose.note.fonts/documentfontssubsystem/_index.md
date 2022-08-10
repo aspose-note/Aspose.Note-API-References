@@ -1,14 +1,14 @@
 ---
 title: DocumentFontsSubsystem
 second_title: Справочник по API Aspose.Note для .NET
-description: Простая реализация Aspose.Note.Fonts.FontsSubsystem. Извлекает объектFontFamilyиз ОС.
+description: Простая реализация Aspose.Note.Fonts.FontsSubsystem. ИзвлекаетFontFamily объект из ОС.
 type: docs
 weight: 100
 url: /ru/net/aspose.note.fonts/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem class
 
-Простая реализация Aspose.Note.Fonts.FontsSubsystem. Извлекает объектFontFamilyиз ОС.
+Простая реализация Aspose.Note.Fonts.FontsSubsystem. ИзвлекаетFontFamily объект из ОС.
 
 ```csharp
 public class DocumentFontsSubsystem : FontsSubsystem
@@ -18,9 +18,9 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | Имя | Описание |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor)(Dictionary&lt;string, string&gt;) | Инициализирует новый экземпляр класса[`DocumentFontsSubsystem`](../documentfontssubsystem). |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Инициализирует новый экземпляр класса[`DocumentFontsSubsystem`](../documentfontssubsystem). |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_2)(string, Dictionary&lt;string, string&gt;) | Инициализирует новый экземпляр класса[`DocumentFontsSubsystem`](../documentfontssubsystem). |
+| [DocumentFontsSubsystem](documentfontssubsystem#constructor)(Dictionary&lt;string, string&gt;) | Инициализирует новый экземпляр[`DocumentFontsSubsystem`](../documentfontssubsystem) класс. |
+| [DocumentFontsSubsystem](documentfontssubsystem#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Инициализирует новый экземпляр[`DocumentFontsSubsystem`](../documentfontssubsystem) класс. |
+| [DocumentFontsSubsystem](documentfontssubsystem#constructor_2)(string, Dictionary&lt;string, string&gt;) | Инициализирует новый экземпляр[`DocumentFontsSubsystem`](../documentfontssubsystem) класс. |
 
 ## Характеристики
 
@@ -34,11 +34,11 @@ public class DocumentFontsSubsystem : FontsSubsystem
 | Имя | Описание |
 | --- | --- |
 | static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont)(string, Dictionary&lt;string, string&gt;) | Создать новый экземпляр DocumentFontsSubsystem, используя указанное имя шрифта по умолчанию. |
-| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Создать новый экземпляр DocumentFontsSubsystem, используя по умолчанию шрифт из указанного файла. |
-| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Создать новый экземпляр DocumentFontsSubsystem, используя по умолчанию шрифт из указанного потока. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Добавить шрифт. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Добавить шрифт. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Добавить шрифт. |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Создать новый экземпляр DocumentFontsSubsystem, используя шрифт из указанного файла по умолчанию. |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Создать новый экземпляр DocumentFontsSubsystem, используя шрифт из указанного потока по умолчанию. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Добавьте шрифт. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Добавьте шрифт. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Добавьте шрифт. |
 | [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | Добавляет замену шрифта. |
 | virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | Получает семейство шрифтов. |
 | [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | Загружает все шрифты TrueType из указанной папки во внутреннюю коллекцию. |
@@ -62,6 +62,8 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
+Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из файла.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -78,6 +80,8 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                               FontsSubsystem = DocumentFontsSubsystem.UsingDefaultFontFromFile(fontFile)
                           });
 ```
+
+Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из потока.
 
 ```csharp
 // Путь к каталогу документов.
@@ -99,10 +103,6 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
                               });
 }
 ```
-
-Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из файла.
-
-Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из потока.
 
 ### Смотрите также
 

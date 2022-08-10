@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果已存在具有指定全名的文件，则覆盖现有文件。 |
+| fileName | String | 文件的全名。如果指定全名的文件已经存在，则覆盖现有文件。 |
 
 ### 例外
 
@@ -70,7 +70,7 @@ public void Save(string fileName, SaveFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果已存在具有指定全名的文件，则覆盖现有文件。 |
+| fileName | String | 文件的全名。如果指定全名的文件已经存在，则覆盖现有文件。 |
 | format | SaveFormat | 保存文档的格式。 |
 
 ### 例外
@@ -128,7 +128,7 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果已存在具有指定全名的文件，则覆盖现有文件。 |
+| fileName | String | 文件的全名。如果指定全名的文件已经存在，则覆盖现有文件。 |
 | options | NotebookSaveOptions | 指定文档如何保存在文件中的选项。 |
 
 ### 例外

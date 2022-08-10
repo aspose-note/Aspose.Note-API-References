@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Note for .NET API 参考
-description: 将页面版本添加到PageHistoryaspose.note/pagehistory的末尾
+description: 将页面版本添加到末尾PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 60
 url: /zh/net/aspose.note/pagehistory/add/
 ---
 ## PageHistory.Add method
 
-将页面版本添加到[`PageHistory`](../../pagehistory)的末尾。
+将页面版本添加到末尾[`PageHistory`](../../pagehistory).
 
 ```csharp
 public void Add(Page item)

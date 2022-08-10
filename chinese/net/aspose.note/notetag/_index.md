@@ -18,13 +18,13 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompletedTime](../../aspose.note/notetag/completedtime) { get; set; } | 获取或设置完成时间。 |
+| [CompletedTime](../../aspose.note/notetag/completedtime) { get; } | 获取或设置完成时间。 |
 | [CreationTime](../../aspose.note/notetag/creationtime) { get; set; } | 获取或设置创建时间。 |
 | [FontColor](../../aspose.note/notetag/fontcolor) { get; set; } | 获取或设置字体颜色。 |
 | [Highlight](../../aspose.note/notetag/highlight) { get; set; } | 获取或设置高亮颜色。 |
 | [Icon](../../aspose.note/notetag/icon) { get; set; } | 获取或设置图标。 |
 | [Label](../../aspose.note/notetag/label) { get; set; } | 获取或设置标签文本。 |
-| [Status](../../aspose.note/notetag/status) { get; set; } | 获取或设置状态。 |
+| [Status](../../aspose.note/notetag/status) { get; } | 获取或设置状态。 |
 
 ## 方法
 
@@ -54,18 +54,18 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateBlueXNo](../../aspose.note/notetag/createbluexno)(string) | 创建一个带有 BlueXNo 图标和指定标签的新笔记标签。 |
 | static [CreateBlueXWithDots](../../aspose.note/notetag/createbluexwithdots)(string) | 创建一个带有 BlueXWithDots 图标和指定标签的新笔记标签。 |
 | static [CreateCalendarDateWithClock](../../aspose.note/notetag/createcalendardatewithclock)(string) | 创建一个带有 CalendarDateWithClock 图标和指定标签的新笔记标签。 |
-| static [CreateCar](../../aspose.note/notetag/createcar)(string) | 创建一个带有汽车图标和指定标签的新笔记标签。 |
+| static [CreateCar](../../aspose.note/notetag/createcar)(string) | 创建一个带有汽车图标和指定标签的新注释标签。 |
 | static [CreateClosedEnvelope](../../aspose.note/notetag/createclosedenvelope)(string) | 创建一个带有 ClosedEnvelope 图标和指定标签的新笔记标签。 |
 | static [CreateCloud](../../aspose.note/notetag/createcloud)(string) | 创建一个带有云图标和指定标签的新笔记标签。 |
 | static [CreateCoinsWithWindowBackdrop](../../aspose.note/notetag/createcoinswithwindowbackdrop)(string) | 创建一个带有 CoinsWithWindowBackdrop 图标和指定标签的新笔记标签。 |
-| static [CreateCommentBubble](../../aspose.note/notetag/createcommentbubble)(string) | 创建一个带有 CommentBubble 图标和指定标签的新笔记标签。 |
+| static [CreateCommentBubble](../../aspose.note/notetag/createcommentbubble)(string) | 创建一个带有 CommentBubble 图标和指定标签的新注释标签。 |
 | static [CreateContactInformation](../../aspose.note/notetag/createcontactinformation)(string) | 创建一个带有 ContactInformation 图标和指定标签的新笔记标签。 |
 | static [CreateContactPersonOnCard](../../aspose.note/notetag/createcontactpersononcard)(string) | 创建一个带有 ContactPersonOnCard 图标和指定标签的新笔记标签。 |
 | static [CreateDollarSign](../../aspose.note/notetag/createdollarsign)(string) | 创建一个带有 DollarSign 图标和指定标签的新笔记标签。 |
-| static [CreateEMailMessage](../../aspose.note/notetag/createemailmessage)(string) | 创建一个带有 EMailMessage 图标和指定标签的新笔记标签。 |
+| static [CreateEMailMessage](../../aspose.note/notetag/createemailmessage)(string) | 创建一个带有 EMailMessage 图标和指定标签的新便笺标签。 |
 | static [CreateFrowningFace](../../aspose.note/notetag/createfrowningface)(string) | 创建一个带有 FrowningFace 图标和指定标签的新笔记标签。 |
 | static [CreateGlobe](../../aspose.note/notetag/createglobe)(string) | 创建一个带有地球图标和指定标签的新笔记标签。 |
-| static [CreateGreenCheckMark](../../aspose.note/notetag/creategreencheckmark)(string) | 创建一个带有 GreenCheckMark 图标和指定标签的新笔记标签。 |
+| static [CreateGreenCheckMark](../../aspose.note/notetag/creategreencheckmark)(string) | 创建一个带有 GreenCheckMark 图标和指定标签的新注释标签。 |
 | static [CreateGreenCircle](../../aspose.note/notetag/creategreencircle)(string) | 创建一个带有 GreenCircle 图标和指定标签的新笔记标签。 |
 | static [CreateGreenCircle1](../../aspose.note/notetag/creategreencircle1)(string) | 创建一个带有 GreenCircle1 图标和指定标签的新笔记标签。 |
 | static [CreateGreenCircle2](../../aspose.note/notetag/creategreencircle2)(string) | 创建一个带有 GreenCircle2 图标和指定标签的新笔记标签。 |
@@ -84,7 +84,7 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateGreenUpArrow](../../aspose.note/notetag/creategreenuparrow)(string) | 创建一个带有 GreenUpArrow 图标和指定标签的新笔记标签。 |
 | static [CreateGreenXNo](../../aspose.note/notetag/creategreenxno)(string) | 创建一个带有 GreenXNo 图标和指定标签的新笔记标签。 |
 | static [CreateGreenXWithDots](../../aspose.note/notetag/creategreenxwithdots)(string) | 创建一个带有 GreenXWithDots 图标和指定标签的新笔记标签。 |
-| static [CreateHeart](../../aspose.note/notetag/createheart)(string) | 创建一个带有心形图标和指定标签的新音符标签。 |
+| static [CreateHeart](../../aspose.note/notetag/createheart)(string) | 创建一个带有心形图标和指定标签的新笔记标签。 |
 | static [CreateHighPriority](../../aspose.note/notetag/createhighpriority)(string) | 创建一个带有 HighPriority 图标和指定标签的新笔记标签。 |
 | static [CreateHome](../../aspose.note/notetag/createhome)(string) | 创建一个带有主页图标和指定标签的新笔记标签。 |
 | static [CreateHyperlinkGlobe](../../aspose.note/notetag/createhyperlinkglobe)(string) | 创建一个带有 HyperlinkGlobe 图标和指定标签的新笔记标签。 |
@@ -94,7 +94,7 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateLightningBolt](../../aspose.note/notetag/createlightningbolt)(string) | 创建一个带有 LightningBolt 图标和指定标签的新笔记标签。 |
 | static [CreateMeeting](../../aspose.note/notetag/createmeeting)(string) | 创建一个带有会议图标和指定标签的新笔记标签。 |
 | static [CreateMobilePhone](../../aspose.note/notetag/createmobilephone)(string) | 创建一个带有手机图标和指定标签的新笔记标签。 |
-| static [CreateMovieClip](../../aspose.note/notetag/createmovieclip)(string) | 创建一个带有 MovieClip 图标和指定标签的新笔记标签。 |
+| static [CreateMovieClip](../../aspose.note/notetag/createmovieclip)(string) | 创建一个带有 MovieClip 图标和指定标签的新注释标签。 |
 | static [CreateMusicalNote](../../aspose.note/notetag/createmusicalnote)(string) | 创建一个带有 MusicalNote 图标和指定标签的新音符标签。 |
 | static [CreateNoIcon](../../aspose.note/notetag/createnoicon)(string) | 创建一个没有图标和指定标签的新笔记标签。 |
 | static [CreateNotebookWithClock](../../aspose.note/notetag/createnotebookwithclock)(string) | 创建一个带有 NotebookWithClock 图标和指定标签的新笔记标签。 |
@@ -102,7 +102,7 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateOpenEnvelope](../../aspose.note/notetag/createopenenvelope)(string) | 创建一个带有 OpenEnvelope 图标和指定标签的新笔记标签。 |
 | static [CreateOrangeSquare](../../aspose.note/notetag/createorangesquare)(string) | 创建一个带有 OrangeSquare 图标和指定标签的新笔记标签。 |
 | static [CreatePadlock](../../aspose.note/notetag/createpadlock)(string) | 创建一个带有挂锁图标和指定标签的新笔记标签。 |
-| static [CreatePaperClip](../../aspose.note/notetag/createpaperclip)(string) | 创建一个带有 PaperClip 图标和指定标签的新笔记标签。 |
+| static [CreatePaperClip](../../aspose.note/notetag/createpaperclip)(string) | 创建一个带有回形针图标和指定标签的新笔记标签。 |
 | static [CreatePen](../../aspose.note/notetag/createpen)(string) | 创建一个带有钢笔图标和指定标签的新笔记标签。 |
 | static [CreatePersonWithExclamationMark](../../aspose.note/notetag/createpersonwithexclamationmark)(string) | 创建一个带有 PersonWithExclamationMark 图标和指定标签的新笔记标签。 |
 | static [CreatePinkSquare](../../aspose.note/notetag/createpinksquare)(string) | 创建一个带有 PinkSquare 图标和指定标签的新笔记标签。 |
@@ -111,9 +111,9 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreatePushpin](../../aspose.note/notetag/createpushpin)(string) | 创建一个带有图钉图标和指定标签的新笔记标签。 |
 | static [CreateQuestionBalloon](../../aspose.note/notetag/createquestionballoon)(string) | 创建一个带有 QuestionBalloon 图标和指定标签的新笔记标签。 |
 | static [CreateQuestionMark](../../aspose.note/notetag/createquestionmark)(string) | 创建一个带有问号图标和指定标签的新笔记标签。 |
-| static [CreateQuotationMark](../../aspose.note/notetag/createquotationmark)(string) | 创建一个带有引号图标和指定标签的新笔记标签。 |
+| static [CreateQuotationMark](../../aspose.note/notetag/createquotationmark)(string) | 创建一个带有引号图标和指定标签的新注释标签。 |
 | static [CreateRedSquare](../../aspose.note/notetag/createredsquare)(string) | 创建一个带有 RedSquare 图标和指定标签的新笔记标签。 |
-| static [CreateReminderBell](../../aspose.note/notetag/createreminderbell)(string) | 创建一个带有 ReminderBell 图标和指定标签的新笔记标签。 |
+| static [CreateReminderBell](../../aspose.note/notetag/createreminderbell)(string) | 创建一个带有提醒铃图标和指定标签的新笔记标签。 |
 | static [CreateResearch](../../aspose.note/notetag/createresearch)(string) | 创建一个带有研究图标和指定标签的新笔记标签。 |
 | static [CreateRoseOnStem](../../aspose.note/notetag/createroseonstem)(string) | 创建一个带有 RoseOnStem 图标和指定标签的新笔记标签。 |
 | static [CreateScheduledTask](../../aspose.note/notetag/createscheduledtask)(string) | 创建一个带有 ScheduledTask 图标和指定标签的新笔记标签。 |
@@ -140,11 +140,11 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 | static [CreateYellowTriangle](../../aspose.note/notetag/createyellowtriangle)(string) | 创建一个带有 YellowTriangle 图标和指定标签的新笔记标签。 |
 | static [CreateYellowUmbrella](../../aspose.note/notetag/createyellowumbrella)(string) | 创建一个带有 YellowUmbrella 图标和指定标签的新笔记标签。 |
 | static [CreateYellowUpArrow](../../aspose.note/notetag/createyellowuparrow)(string) | 创建一个带有 YellowUpArrow 图标和指定标签的新笔记标签。 |
-| static [CreateYellowX](../../aspose.note/notetag/createyellowx)(string) | 创建一个带有 YellowX 图标和指定标签的新笔记标签。 |
+| static [CreateYellowX](../../aspose.note/notetag/createyellowx)(string) | 创建一个带有 YellowX 图标和指定标签的新注释标签。 |
 | static [CreateYellowXWithDots](../../aspose.note/notetag/createyellowxwithdots)(string) | 创建一个带有 YellowXWithDots 图标和指定标签的新笔记标签。 |
-| [Equals](../../aspose.note/notetag/equals#equals)(NoteTag) | 判断指定对象是否等于当前对象。 |
-| override [Equals](../../aspose.note/notetag/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
-| override [GetHashCode](../../aspose.note/notetag/gethashcode)() | 用作该类型的哈希函数。 |
+| [Equals](../../aspose.note/notetag/equals#equals)(NoteTag) | 判断指定对象是否等于当前对象 |
+| override [Equals](../../aspose.note/notetag/equals#equals_1)(object) | 判断指定对象是否等于当前对象 |
+| override [GetHashCode](../../aspose.note/notetag/gethashcode)() | 用作类型的哈希函数。 |
 
 ### 例子
 
@@ -187,6 +187,8 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+显示如何添加带有标签的新段落。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -223,6 +225,8 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+显示如何访问标签的详细信息。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -254,6 +258,8 @@ foreach (RichText richText in nodes)
     }
 }
 ```
+
+显示如何添加带有标签的新表。
 
 ```csharp
 // 文档目录的路径。
@@ -306,6 +312,8 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+展示如何为每周会议准备模板。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -343,14 +351,6 @@ foreach (var e in new[] { "First", "Second", "Third" })
 
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
-
-显示如何添加带有标签的新段落。
-
-显示如何访问标签的详细信息。
-
-显示如何添加带有标签的新表。
-
-展示如何为周会准备模板。
 
 ### 也可以看看
 

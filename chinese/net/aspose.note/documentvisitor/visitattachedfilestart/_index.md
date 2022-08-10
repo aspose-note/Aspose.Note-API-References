@@ -1,14 +1,14 @@
 ---
 title: VisitAttachedFileStart
 second_title: Aspose.Note for .NET API 参考
-description: 开始访问AttachedFileaspose.note/attachedfile节点
+description: 开始访问AttachedFileaspose.note/attachedfile节点.
 type: docs
 weight: 20
 url: /zh/net/aspose.note/documentvisitor/visitattachedfilestart/
 ---
 ## DocumentVisitor.VisitAttachedFileStart method
 
-开始访问[`AttachedFile`](../../attachedfile)节点。
+开始访问[`AttachedFile`](../../attachedfile)节点.
 
 ```csharp
 public virtual void VisitAttachedFileStart(AttachedFile attachedFile)
@@ -16,7 +16,7 @@ public virtual void VisitAttachedFileStart(AttachedFile attachedFile)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| attachedFile | AttachedFile | [`AttachedFile`](../../attachedfile)节点。 |
+| attachedFile | AttachedFile | 的[`AttachedFile`](../../attachedfile)节点. |
 
 ### 也可以看看
 

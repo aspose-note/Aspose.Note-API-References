@@ -24,7 +24,7 @@ public sealed class TableColumn
 
 | Имя | Описание |
 | --- | --- |
-| [LockedWidth](../../aspose.note/tablecolumn/lockedwidth) { get; set; } | Получает или задает значение, указывающее, имеет ли столбец таблицы заблокированную ширину и не изменяет ли он автоматически размер в соответствии с содержимым таблицы. По умолчанию ширина столбца не заблокирована. |
+| [LockedWidth](../../aspose.note/tablecolumn/lockedwidth) { get; set; } | Получает или задает значение, указывающее, имеет ли столбец таблицы заблокированную ширину и не изменяет ли размер автоматически в соответствии с содержимым таблицы. По умолчанию ширина столбца не заблокирована. |
 | [Width](../../aspose.note/tablecolumn/width) { get; set; } | Получает или задает ширину. |
 
 ### Примеры
@@ -65,6 +65,8 @@ doc.AppendChildLast(page);
 
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
+
+Показывает, как добавить новую таблицу с тегом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -116,6 +118,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать таблицу с заблокированным столбцом.
 
 ```csharp
 // Путь к каталогу документов.
@@ -171,6 +175,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);
 ```
+
+Показывает, как создать новую таблицу.
 
 ```csharp
 // Путь к каталогу документов.
@@ -249,12 +255,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
-
-Показывает, как добавить новую таблицу с тегом.
-
-Показывает, как создать таблицу с заблокированным столбцом.
-
-Показывает, как создать новую таблицу.
 
 ### Смотрите также
 

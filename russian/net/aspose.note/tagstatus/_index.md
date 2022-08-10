@@ -1,14 +1,14 @@
 ---
 title: TagStatus
 second_title: Справочник по API Aspose.Note для .NET
-description: Указывает состояние узла тега примечания.
+description: Определяет статус узла тега заметки.
 type: docs
 weight: 920
 url: /ru/net/aspose.note/tagstatus/
 ---
 ## TagStatus enumeration
 
-Указывает состояние узла тега примечания.
+Определяет статус узла тега заметки.
 
 ```csharp
 public enum TagStatus
@@ -19,8 +19,8 @@ public enum TagStatus
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Open | `0` | Тег заметки открыт. |
-| Completed | `1` | Тег примечания закончен. |
-| Disabled | `2` | Тег примечания отключен. |
+| Completed | `1` | Тег заметки завершен. |
+| Disabled | `2` | Тег заметки отключен. |
 
 ### Смотрите также
 

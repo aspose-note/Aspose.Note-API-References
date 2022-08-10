@@ -1,14 +1,14 @@
 ---
 title: VisitTableCellStart
 second_title: Справочник по API Aspose.Note для .NET
-description: Начните посещать узелTableCellaspose.note/tablecell.
+description: Начните посещатьTableCellaspose.note/tablecell узел.
 type: docs
 weight: 180
 url: /ru/net/aspose.note/documentvisitor/visittablecellstart/
 ---
 ## DocumentVisitor.VisitTableCellStart method
 
-Начните посещать узел[`TableCell`](../../tablecell).
+Начните посещать[`TableCell`](../../tablecell) узел.
 
 ```csharp
 public virtual void VisitTableCellStart(TableCell tableCell)
@@ -16,7 +16,7 @@ public virtual void VisitTableCellStart(TableCell tableCell)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tableCell | TableCell | Узел[`TableCell`](../../tablecell). |
+| tableCell | TableCell | [`TableCell`](../../tablecell) узел. |
 
 ### Смотрите также
 

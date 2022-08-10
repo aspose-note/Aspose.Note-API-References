@@ -11,12 +11,12 @@ url: /zh/net/aspose.note/itag/completedtime/
 获取或设置完成时间。
 
 ```csharp
-public DateTime? CompletedTime { get; set; }
+public DateTime? CompletedTime { get; }
 ```
 
 ### 适当的价值
 
-Nullable。
+的Nullable.
 
 ### 例子
 
@@ -52,6 +52,8 @@ foreach (RichText richText in nodes)
 }
 ```
 
+显示如何访问标签的详细信息。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -83,8 +85,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-显示如何访问标签的详细信息。
 
 ### 也可以看看
 

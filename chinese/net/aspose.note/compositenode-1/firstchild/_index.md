@@ -1,14 +1,14 @@
 ---
 title: FirstChild
 second_title: Aspose.Note for .NET API 参考
-description: 获取该节点的第一个子节点
+description: 获取此节点的第一个子节点
 type: docs
 weight: 10
 url: /zh/net/aspose.note/compositenode-1/firstchild/
 ---
 ## CompositeNode&lt;T&gt;.FirstChild property
 
-获取该节点的第一个子节点。
+获取此节点的第一个子节点。
 
 ```csharp
 public T FirstChild { get; }

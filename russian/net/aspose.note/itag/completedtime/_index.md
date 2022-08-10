@@ -1,22 +1,22 @@
 ---
 title: CompletedTime
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает завершенное время.
+description: Получает или устанавливает завершенное время.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/itag/completedtime/
 ---
 ## ITag.CompletedTime property
 
-Получает или задает завершенное время.
+Получает или устанавливает завершенное время.
 
 ```csharp
-public DateTime? CompletedTime { get; set; }
+public DateTime? CompletedTime { get; }
 ```
 
 ### Стоимость имущества
 
-TheNullable.
+Nullable .
 
 ### Примеры
 
@@ -52,6 +52,8 @@ foreach (RichText richText in nodes)
 }
 ```
 
+Показывает, как получить доступ к сведениям о теге.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Tags();
@@ -83,8 +85,6 @@ foreach (RichText richText in nodes)
     }
 }
 ```
-
-Показывает, как получить доступ к деталям тега.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置用于一组自动编号对象的数字格式对于项目符号列表应该为 null
+description: 获取或设置用于一组自动编号对象的数字格式对于项目符号列表应该为空
 type: docs
 weight: 90
 url: /zh/net/aspose.note/numberlist/numberformat/
 ---
 ## NumberList.NumberFormat property
 
-获取或设置用于一组自动编号对象的数字格式。对于项目符号列表，应该为 null。
+获取或设置用于一组自动编号对象的数字格式。对于项目符号列表应该为空。
 
 ```csharp
 public NumberFormat? NumberFormat { get; set; }

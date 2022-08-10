@@ -1,14 +1,14 @@
 ---
 title: IImageSavingCallback
 second_title: Справочник по API Aspose.Note для .NET
-description: Реализуйте этот интерфейс если хотите управлять тем как Aspose.Note сохраняет изображения при сохранении документа в HTML.
+description: Реализуйте этот интерфейс если хотите управлять тем как Aspose.Note сохраняет изображения при сохранении документа в формате HTML.
 type: docs
 weight: 620
 url: /ru/net/aspose.note.saving.html/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет изображения при сохранении документа в HTML.
+Реализуйте этот интерфейс, если хотите управлять тем, как Aspose.Note сохраняет изображения при сохранении документа в формате HTML.
 
 ```csharp
 public interface IImageSavingCallback

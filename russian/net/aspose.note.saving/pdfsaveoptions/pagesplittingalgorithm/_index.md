@@ -1,14 +1,14 @@
 ---
 title: PageSplittingAlgorithm
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает алгоритм используемый для разделения страниц.
+description: Получает или задает алгоритм используемый для разбиения страницы.
 type: docs
 weight: 40
 url: /ru/net/aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/
 ---
 ## PdfSaveOptions.PageSplittingAlgorithm property
 
-Получает или задает алгоритм, используемый для разделения страниц.
+Получает или задает алгоритм, используемый для разбиения страницы.
 
 ```csharp
 public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
@@ -16,7 +16,7 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 
 ### Стоимость имущества
 
-`PageSplittingAlgorithm`.
+`PageSplittingAlgorithm` .
 
 ### Примеры
 
@@ -41,6 +41,8 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -57,6 +59,8 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPag
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
+
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -83,10 +87,6 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: VisitRichTextEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаRichTextaspose.note/richtext.
+description: Конец посещенияRichTextaspose.note/richtext узел.
 type: docs
 weight: 150
 url: /ru/net/aspose.note/documentvisitor/visitrichtextend/
 ---
 ## DocumentVisitor.VisitRichTextEnd method
 
-End для посещения узла[`RichText`](../../richtext).
+Конец посещения[`RichText`](../../richtext) узел.
 
 ```csharp
 public virtual void VisitRichTextEnd(RichText richText)
@@ -16,7 +16,7 @@ public virtual void VisitRichTextEnd(RichText richText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| richText | RichText | Узел[`RichText`](../../richtext). |
+| richText | RichText | [`RichText`](../../richtext) узел. |
 
 ### Смотрите также
 

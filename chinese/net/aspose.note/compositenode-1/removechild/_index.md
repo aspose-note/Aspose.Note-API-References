@@ -1,14 +1,14 @@
 ---
 title: RemoveChild
 second_title: Aspose.Note for .NET API 参考
-description: 删除子节点
+description: 移除子节点
 type: docs
 weight: 110
 url: /zh/net/aspose.note/compositenode-1/removechild/
 ---
 ## CompositeNode&lt;T&gt;.RemoveChild&lt;T1&gt; method
 
-删除子节点。
+移除子节点。
 
 ```csharp
 public T1 RemoveChild<T1>(T1 oldChild)
@@ -18,7 +18,7 @@ public T1 RemoveChild<T1>(T1 oldChild)
 | 范围 | 描述 |
 | --- | --- |
 | T1 | 移除节点的确切类型。 |
-| oldChild | 要删除的节点。 |
+| oldChild | 要移除的节点。 |
 
 ### 返回值
 

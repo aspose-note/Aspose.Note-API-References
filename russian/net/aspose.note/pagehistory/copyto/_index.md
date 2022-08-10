@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Справочник по API Aspose.Note для .NET
-description: Копирует версии страниц в массив начиная с самого начала.
+description: Копирует версии страниц в массив начиная с начала.
 type: docs
 weight: 100
 url: /ru/net/aspose.note/pagehistory/copyto/
 ---
 ## PageHistory.CopyTo method
 
-Копирует версии страниц в массив, начиная с самого начала.
+Копирует версии страниц в массив, начиная с начала.
 
 ```csharp
 public void CopyTo(Page[] array, int arrayIndex)

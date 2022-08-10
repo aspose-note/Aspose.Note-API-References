@@ -1,14 +1,14 @@
 ---
 title: VisitPageEnd
 second_title: Aspose.Note for .NET API 参考
-description: 结束访问Pageaspose.note/page节点
+description: 结束访问Pageaspose.note/page节点.
 type: docs
 weight: 130
 url: /zh/net/aspose.note/documentvisitor/visitpageend/
 ---
 ## DocumentVisitor.VisitPageEnd method
 
-结束访问[`Page`](../../page)节点。
+结束访问[`Page`](../../page)节点.
 
 ```csharp
 public virtual void VisitPageEnd(Page page)
@@ -16,7 +16,7 @@ public virtual void VisitPageEnd(Page page)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| page | Page | [`Page`](../../page)节点。 |
+| page | Page | 的[`Page`](../../page)节点. |
 
 ### 也可以看看
 

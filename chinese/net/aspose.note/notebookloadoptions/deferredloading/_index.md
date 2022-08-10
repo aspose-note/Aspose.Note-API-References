@@ -16,14 +16,14 @@ public bool DeferredLoading { get; set; }
 
 ### 评论
 
-默认值为` false` ，因此子文档将被隐式加载。 Value` true` 表示用户应该调用[`LoadChildDocument`](../../notebook/loadchilddocument)或 在笔记本本身加载后每个笔记本的子节点。 如果值为` true` ,[`InstantLoading`](../instantloading)选项将被忽略。 如果笔记本从流中加载，则该值始终为` true` 尽管用户明确设置为` 假` 。
+默认值为`错误的` ，因此子文档将被隐式加载。 值`真的`表示用户应该调用[`LoadChildDocument`](../../notebook/loadchilddocument)或者 为每个笔记本本身加载后的子节点。 如果值为`真的`,[`InstantLoading`](../instantloading)选项将被忽略。 如果笔记本是从流中加载的，则该值始终为`真的`尽管被用户明确设置为`错误的`.
 
 ### 例子
 
 显示如何加密笔记本。
 
 ```csharp
-// 从笔记本中删除子项
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 var notebook = new Notebook(dataDir + "test.onetoc2", new NotebookLoadOptions() { DeferredLoading = true });
 

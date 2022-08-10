@@ -1,14 +1,14 @@
 ---
 title: AppendChildLast
 second_title: Aspose.Note for .NET API 参考
-description: 将节点添加到该节点的子节点列表的末尾
+description: 将节点添加到此节点的子节点列表的末尾
 type: docs
 weight: 60
 url: /zh/net/aspose.note/compositenode-1/appendchildlast/
 ---
 ## CompositeNode&lt;T&gt;.AppendChildLast&lt;T1&gt; method
 
-将节点添加到该节点的子节点列表的末尾。
+将节点添加到此节点的子节点列表的末尾。
 
 ```csharp
 public virtual T1 AppendChildLast<T1>(T1 newChild)

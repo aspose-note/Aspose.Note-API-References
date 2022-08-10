@@ -1,14 +1,14 @@
 ---
 title: INode
 second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note 文档的所有节点的接口
+description: Aspose.Note 文档所有节点的接口
 type: docs
 weight: 160
 url: /zh/net/aspose.note/inode/
 ---
 ## INode interface
 
-Aspose.Note 文档的所有节点的接口。
+Aspose.Note 文档所有节点的接口。
 
 ```csharp
 public interface INode

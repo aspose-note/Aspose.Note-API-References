@@ -1,14 +1,14 @@
 ---
 title: AlternativeTextDescription
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает тело альтернативного текста для иконки вложенного файла.
+description: Получает или задает текст альтернативного текста для значка вложенного файла.
 type: docs
 weight: 30
 url: /ru/net/aspose.note/attachedfile/alternativetextdescription/
 ---
 ## AttachedFile.AlternativeTextDescription property
 
-Получает или задает тело альтернативного текста для иконки вложенного файла.
+Получает или задает текст альтернативного текста для значка вложенного файла.
 
 ```csharp
 public string AlternativeTextDescription { get; set; }

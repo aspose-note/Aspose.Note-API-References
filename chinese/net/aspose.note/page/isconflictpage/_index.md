@@ -16,20 +16,20 @@ public bool IsConflictPage { get; set; }
 
 ### 评论
 
-当两个用户尝试更新相同的页面时会出现冲突页面内容。 在这种情况下，第一个用户的更改照常写入。 但是不能合并其他用户的更改。 所以只创建了一个页面副本并将其标记为冲突。
+当两个用户尝试更新相同的内容时，会出现冲突页面。 在这种情况下，第一个用户的更改照常写入。 但是无法合并另一个用户的更改。 所以只创建了一个页面副本并标记为冲突。
 
-在此版本中，冲突已解决，有利于第一个用户的更改。 因此，如果文档有冲突页面，那么它们将显示在历史记录中，但在保存时将被跳过。 可以重置此标志以将此页面保存在历史记录中。
+在此版本中，冲突已解决，有利于第一个用户的更改。 因此，如果文档有冲突页面，则它们将显示在历史记录中，但在保存时将被跳过。 可以重置此标志以保存此页面在历史上和往常一样。
 
 冲突页面操作的详细示例可以在在线文档中找到。
 
 ### 例子
 
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法进行的更改'不会自动合并）。
+显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 获取第一页
+// 加载 OneNote 文档
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -42,8 +42,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 文档目录的路径。
-    // 将文档加载到 Aspose.Note。
+    // 默认情况下，冲突页面只是在保存时跳过。
+    // 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }

@@ -21,7 +21,7 @@ public RichText Insert(int startIndex, string value)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例外
 
@@ -49,11 +49,11 @@ public RichText Insert(int startIndex, string value, TextStyle style)
 | --- | --- | --- |
 | startIndex | Int32 | 起始索引。 |
 | value | String | 值。 |
-| style | TextStyle | 样式。 |
+| style | TextStyle | 风格. |
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 例外
 

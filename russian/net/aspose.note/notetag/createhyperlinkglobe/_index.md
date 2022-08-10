@@ -20,7 +20,7 @@ public static NoteTag CreateHyperlinkGlobe(string label = "Web site to visit")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

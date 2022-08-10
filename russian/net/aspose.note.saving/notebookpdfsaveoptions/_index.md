@@ -1,14 +1,14 @@
 ---
 title: NotebookPdfSaveOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Позволяет указать дополнительные параметры при рендеринге страниц блокнота в PDF.
+description: Позволяет указать дополнительные параметры при рендеринге страниц записной книжки в PDF.
 type: docs
 weight: 760
 url: /ru/net/aspose.note.saving/notebookpdfsaveoptions/
 ---
 ## NotebookPdfSaveOptions class
 
-Позволяет указать дополнительные параметры при рендеринге страниц блокнота в PDF.
+Позволяет указать дополнительные параметры при рендеринге страниц записной книжки в PDF.
 
 ```csharp
 public class NotebookPdfSaveOptions : NotebookSaveOptions<PdfSaveOptions>
@@ -24,7 +24,7 @@ public class NotebookPdfSaveOptions : NotebookSaveOptions<PdfSaveOptions>
 
 | Имя | Описание |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, должны ли дочерние документы сохраняться явно. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving) { get; set; } | Получает или задает значение, указывающее, следует ли сохранять дочерние документы явно. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions`1/documentsaveoptions) { get; } |  |
 | [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten) { get; set; } | Получает или задает значение, указывающее, сохраняется ли иерархия дочерних элементов записной книжки в свернутом виде. |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions`1/saveformat) { get; } |  |

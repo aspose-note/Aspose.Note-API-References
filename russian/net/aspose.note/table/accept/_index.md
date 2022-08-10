@@ -16,7 +16,7 @@ public override void Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Объект класса, производного отДокументПосетитель. |
+| visitor | DocumentVisitor | Объект класса, производного от[`DocumentVisitor`](../../documentvisitor) . |
 
 ### Смотрите также
 

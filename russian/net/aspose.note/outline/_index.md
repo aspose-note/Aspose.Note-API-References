@@ -18,20 +18,20 @@ public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
 
 | Имя | Описание |
 | --- | --- |
-| [Outline](outline#constructor)() | Инициализирует новый экземпляр класса[`Outline`](../outline). |
+| [Outline](outline#constructor)() | Инициализирует новый экземпляр[`Outline`](../outline) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved) { get; set; } | Получает, можно ли перемещать потомков контура. |
+| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved) { get; set; } | Указывает, можно ли перемещать потомков контура. |
 | [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
 | [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
 | [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | Получает или задает смещение по горизонтали. |
 | [IndentPosition](../../aspose.note/outline/indentposition) { get; set; } | Получает или задает позицию отступа. |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | Получает или задает время последнего изменения. |
+| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
 | [MaxHeight](../../aspose.note/outline/maxheight) { get; set; } | Получает или задает максимальную высоту. |
 | [MaxWidth](../../aspose.note/outline/maxwidth) { get; set; } | Получает или задает максимальную ширину. |
 | [MinWidth](../../aspose.note/outline/minwidth) { get; set; } | Получает или задает минимальную ширину. |
@@ -39,7 +39,7 @@ public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
 | [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
 | [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
 | [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
-| [ReservedWidth](../../aspose.note/outline/reservedwidth) { get; set; } | Получает или задает зарезервированную ширину. |
+| [ReservedWidth](../../aspose.note/outline/reservedwidth) { get; set; } | Получает или устанавливает зарезервированную ширину. |
 | [VerticalOffset](../../aspose.note/outline/verticaloffset) { get; set; } | Получает или задает вертикальное смещение. |
 
 ## Методы
@@ -97,6 +97,8 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с китайской нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -136,6 +138,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -182,6 +186,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -226,12 +232,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
 
 ### Смотрите также
 

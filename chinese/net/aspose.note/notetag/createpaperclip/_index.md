@@ -1,14 +1,14 @@
 ---
 title: CreatePaperClip
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有 PaperClip 图标和指定标签的新笔记标签
+description: 创建一个带有回形针图标和指定标签的新笔记标签
 type: docs
 weight: 730
 url: /zh/net/aspose.note/notetag/createpaperclip/
 ---
 ## NoteTag.CreatePaperClip method
 
-创建一个带有 PaperClip 图标和指定标签的新笔记标签。
+创建一个带有回形针图标和指定标签的新笔记标签。
 
 ```csharp
 public static NoteTag CreatePaperClip(string label = "")
@@ -20,7 +20,7 @@ public static NoteTag CreatePaperClip(string label = "")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

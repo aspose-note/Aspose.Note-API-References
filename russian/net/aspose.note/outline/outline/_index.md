@@ -1,14 +1,14 @@
 ---
 title: Outline
 second_title: Справочник по API Aspose.Note для .NET
-description: Инициализирует новый экземпляр классаOutlineaspose.note/outline.
+description: Инициализирует новый экземплярOutlineaspose.note/outline класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.note/outline/outline/
 ---
 ## Outline constructor
 
-Инициализирует новый экземпляр класса[`Outline`](../../outline).
+Инициализирует новый экземпляр[`Outline`](../../outline) класс.
 
 ```csharp
 public Outline()

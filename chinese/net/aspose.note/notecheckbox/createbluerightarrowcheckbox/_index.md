@@ -20,7 +20,7 @@ public static NoteCheckBox CreateBlueRightArrowCheckBox(string label = "Call bac
 
 ### 返回值
 
-[`NoteCheckBox`](../../notecheckbox)。
+的[`NoteCheckBox`](../../notecheckbox).
 
 ### 也可以看看
 

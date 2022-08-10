@@ -27,9 +27,9 @@ public sealed class PdfSaveOptions : SaveOptions
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
 | [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression) { get; set; } | Получает или задает тип сжатия, применяемый к изображениям в файле PDF. |
 | [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality) { get; set; } | Получает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Значение может варьироваться от 0 до 100, где 0 означает худшее качество, но максимальное сжатие, а 100 означает лучшее качество, но минимальное сжатие. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчанию этоMaxValue что означает, что будут отображаться все страницы документа. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm) { get; set; } | Получает или задает алгоритм, используемый для разделения страниц. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm) { get; set; } | Получает или задает алгоритм, используемый для разбиения страницы. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Получает формат, в котором сохранен документ. |
 
 ### Примеры
@@ -55,6 +55,8 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -71,6 +73,8 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPag
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
+
+Показывает, как сохранить документ в формате pdf.
 
 ```csharp
 // Путь к каталогу документов.
@@ -94,6 +98,8 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
+Показывает, как сохранить документ в формате pdf, используя определенные настройки.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -114,6 +120,8 @@ PdfSaveOptions opts = new PdfSaveOptions
 dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
+
+Когда длинные страницы OneNote сохраняются в формате PDF, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ```csharp
 // Путь к каталогу документов.
@@ -140,14 +148,6 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
-
-Показывает, как сохранить документ в формате pdf.
-
-Показывает, как сохранить документ в формате pdf, используя определенные настройки.
-
-Когда длинные страницы OneNote сохраняются в формате pdf, они разбиваются на страницы. В примере показано, как настроить логику разделения объектов, расположенных на разрывах страниц.
 
 ### Смотрите также
 

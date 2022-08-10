@@ -16,8 +16,8 @@ public void AddFontSubstitution(string substituted, string substitution)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| submitted | String | 被替换的字体名称。 |
-| substitution | String | 替代字体名称。 |
+| substituted | String | 替换的字体名称。 |
+| substitution | String | 替换字体名称。 |
 
 ### 也可以看看
 

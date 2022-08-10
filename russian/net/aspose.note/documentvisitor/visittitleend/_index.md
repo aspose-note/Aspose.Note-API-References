@@ -1,14 +1,14 @@
 ---
 title: VisitTitleEnd
 second_title: Справочник по API Aspose.Note для .NET
-description: End для посещения узлаTitleaspose.note/title.
+description: Конец посещенияTitleaspose.note/title узел.
 type: docs
 weight: 230
 url: /ru/net/aspose.note/documentvisitor/visittitleend/
 ---
 ## DocumentVisitor.VisitTitleEnd method
 
-End для посещения узла[`Title`](../../title).
+Конец посещения[`Title`](../../title) узел.
 
 ```csharp
 public virtual void VisitTitleEnd(Title title)
@@ -16,7 +16,7 @@ public virtual void VisitTitleEnd(Title title)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| title | Title | Узел[`Title`](../../title). |
+| title | Title | [`Title`](../../title) узел. |
 
 ### Смотрите также
 

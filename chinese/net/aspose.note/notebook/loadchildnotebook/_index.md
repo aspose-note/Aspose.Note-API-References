@@ -1,14 +1,14 @@
 ---
 title: LoadChildNotebook
 second_title: Aspose.Note for .NET API 参考
-description: 添加一个子笔记本节点 从文件中打开现有的 OneNote 笔记本
+description: 添加子笔记本节点 从文件打开现有 OneNote 笔记本
 type: docs
 weight: 130
 url: /zh/net/aspose.note/notebook/loadchildnotebook/
 ---
 ## LoadChildNotebook(string) {#loadchildnotebook_2}
 
-添加一个子笔记本节点。 从文件中打开现有的 OneNote 笔记本。
+添加子笔记本节点。 从文件打开现有 OneNote 笔记本。
 
 ```csharp
 public void LoadChildNotebook(string filePath)
@@ -28,7 +28,7 @@ public void LoadChildNotebook(string filePath)
 
 ## LoadChildNotebook(string, NotebookLoadOptions) {#loadchildnotebook_3}
 
-添加一个子笔记本节点。 从文件中打开现有的 OneNote 笔记本。允许指定其他加载选项。
+添加子笔记本节点。 从文件打开现有 OneNote 笔记本。允许指定其他加载选项。
 
 ```csharp
 public void LoadChildNotebook(string filePath, NotebookLoadOptions loadOptions)
@@ -50,7 +50,7 @@ public void LoadChildNotebook(string filePath, NotebookLoadOptions loadOptions)
 
 ## LoadChildNotebook(Stream) {#loadchildnotebook}
 
-添加一个子笔记本节点。 从流中打开现有的 OneNote 笔记本。
+添加子笔记本节点。 从流中打开现有 OneNote 笔记本。
 
 ```csharp
 public void LoadChildNotebook(Stream stream)
@@ -70,7 +70,7 @@ public void LoadChildNotebook(Stream stream)
 
 ## LoadChildNotebook(Stream, NotebookLoadOptions) {#loadchildnotebook_1}
 
-添加一个子笔记本节点。 从流中打开现有的 OneNote 笔记本。允许指定其他加载选项。
+添加子笔记本节点。 从流中打开现有 OneNote 笔记本。允许指定其他加载选项。
 
 ```csharp
 public void LoadChildNotebook(Stream stream, NotebookLoadOptions loadOptions)

@@ -20,7 +20,7 @@ public INotebookChildNode this[int index] { get; }
 
 ### 返回值
 
-*index*位置上的子节点。
+上的子节点*index*位置.
 
 ### 也可以看看
 

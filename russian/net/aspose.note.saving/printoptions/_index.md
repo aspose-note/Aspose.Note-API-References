@@ -25,8 +25,8 @@ public class PrintOptions
 | Имя | Описание |
 | --- | --- |
 | [DocumentName](../../aspose.note.saving/printoptions/documentname) { get; set; } | Получает или задает имя документа для отображения (например, в диалоговом окне состояния печати или в очереди печати) при печати документа. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm) { get; set; } | Получает или задает алгоритм, используемый для разделения страниц. |
-| [PrinterSettings](../../aspose.note.saving/printoptions/printersettings) { get; set; } | Получает или задает параметры принтера. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm) { get; set; } | Получает или задает алгоритм, используемый для разбиения страницы. |
+| [PrinterSettings](../../aspose.note.saving/printoptions/printersettings) { get; set; } | Получает или устанавливает параметры принтера. |
 | [Resolution](../../aspose.note.saving/printoptions/resolution) { get; set; } | Получает или задает разрешение сгенерированных изображений в точках на дюйм. |
 
 ### Примеры

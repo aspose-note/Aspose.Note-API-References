@@ -16,41 +16,41 @@ public override void Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 派生自DocumentVisitor。 |
+| visitor | DocumentVisitor | 派生自的类的对象[`DocumentVisitor`](../../documentvisitor). |
 
 ### 例子
 
-显示如何使用访问者访问文档的内容。
+展示如何使用访问者访问文档的内容。
 
 ```csharp
 public static void Run()
 {
-    // 文档中所有文本的默认样式。 文档目录的路径。
+    // 文档目录的路径。
     string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-    // 文档中所有文本的默认样式。 文档目录的路径。
+    // 打开我们要转换的文档。
     Document doc = new Document(dataDir + "Aspose.one");
 
-    // 文档中所有文本的默认样式。 文档目录的路径。
+    // 创建一个继承自 DocumentVisitor 类的对象。
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // 文档中所有文本的默认样式。 文档目录的路径。
-    // 文档中所有文本的默认样式。 初始化新文档
-    // 文档中所有文本的默认样式。 初始化新页面
-    // 文档中所有文本的默认样式。
-    // 文档中所有文本的默认样式。 注意对象模型中的每个节点都有 Accept 方法，所以访问
-    // 文档中所有文本的默认样式。 不仅可以对整个文档执行，还可以对文档中的任何节点执行。
+    // 这是众所周知的访问者模式。让模型接受访客。
+    // 模型会通过调用相应的方法来遍历自己
+    // 在访问者对象上（这称为访问）。
+    //
+    // 注意对象模型中的每个节点都有 Accept 方法，所以访问
+    // 不仅可以对整个文档执行，还可以对文档中的任何节点执行。
     doc.Accept(myConverter);
 
-    // 文档中所有文本的默认样式。 一旦访问完成，我们可以检索操作的结果，
-    // 文档中所有文本的默认样式。 在此示例中，已在访问者中累积。
+    // 一旦访问完成，我们可以检索操作的结果，
+    // 在此示例中，已在访问者中累积。
     Console.WriteLine(myConverter.GetText());
     Console.WriteLine(myConverter.NodeCount);            
 }
 
-// 文档中所有文本的默认样式。/ <summary>
-// 文档中所有文本的默认样式。/ 以纯文本格式保存文档的简单实现。作为访客实现。
-// 文档中所有文本的默认样式。/ </summary>
+/// <summary>
+/// 以纯文本格式保存文档的简单实现。作为访客实现。
+/// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
     public MyOneNoteToTxtWriter()
@@ -60,17 +60,17 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
         mBuilder = new StringBuilder();
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 获取访问者积累的文档的纯文本。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 获取访问者积累的文档的纯文本。
+    /// </summary>
     public string GetText()
     {
         return mBuilder.ToString();
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 将文本添加到当前输出。尊重启用/禁用的输出标志。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 将文本添加到当前输出。尊重启用/禁用的输出标志。
+    /// </summary>
     private void AppendText(string text)
     {
         if (!mIsSkipText)
@@ -79,83 +79,83 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
         }
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到 RichText 节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到 RichText 节点时调用。
+    /// </summary>
     public override void VisitRichTextStart(RichText run)
     {
         ++nodecount;
         AppendText(run.Text);
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到 Document 节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到 Document 节点时调用。
+    /// </summary>
     public override void VisitDocumentStart(Document document)
     {
         ++nodecount;
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到 Page 节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到 Page 节点时调用。
+    /// </summary>
     public override void VisitPageStart(Page page)
     {
         ++nodecount;
         this.AppendText($"*** Page '{page.Title?.TitleText?.Text ?? "(no title)"}' ***");
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ Page 节点处理完成时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// Page 节点处理完成时调用。
+    /// </summary>
     public override void VisitPageEnd(Page page)
     {
         this.AppendText(string.Empty);
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到 Title 节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到 Title 节点时调用。
+    /// </summary>
     public override void VisitTitleStart(Title title)
     {
         ++nodecount;
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到 Image 节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到 Image 节点时调用。
+    /// </summary>
     public override void VisitImageStart(Image image)
     {
         ++nodecount;
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到 OutlineGroup 节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到 OutlineGroup 节点时调用。
+    /// </summary>
     public override void VisitOutlineGroupStart(OutlineGroup outlineGroup)
     {
         ++nodecount;
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到大纲节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到大纲节点时调用。
+    /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
         ++nodecount;
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 在文档中遇到 OutlineElement 节点时调用。
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 在文档中遇到 OutlineElement 节点时调用。
+    /// </summary>
     public override void VisitOutlineElementStart(OutlineElement outlineElement)
     {
         ++nodecount;
     }
 
-    // 文档中所有文本的默认样式。/ <summary>
-    // 文档中所有文本的默认样式。/ 获取Visitor的节点总数
-    // 文档中所有文本的默认样式。/ </summary>
+    /// <summary>
+    /// 获取Visitor的节点总数
+    /// </summary>
     public Int32 NodeCount
     {
         get { return this.nodecount; }

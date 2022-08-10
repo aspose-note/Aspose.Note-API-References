@@ -16,10 +16,10 @@ public string AlternativeTextDescription { get; set; }
 
 ### 例子
 
-显示如何设置图像的文本描述。
+显示如何为图像设置文本描述。
 
 ```csharp
-// 设置图片在页面中的位置（可选）。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();

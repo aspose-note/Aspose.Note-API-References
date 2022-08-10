@@ -16,7 +16,7 @@ public float PageSpacing { get; set; }
 
 ### 例子
 
-演示如何将所有页面从 PDF 文档（每 5 页分组）导入到单个 OneNote 页面。
+演示如何将 PDF 文档中的所有页面（每 5 页分组）导入单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -35,6 +35,8 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
+演示如何从一组 PDF 文档中导入所有内容，同时将每个 PDF 文档中的页面合并到单个 OneNote 页面。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
 
@@ -49,8 +51,6 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
-
-演示如何从一组 PDF 文档中导入所有内容，同时将每个 PDF 文档中的页面合并到单个 OneNote 页面。
 
 ### 也可以看看
 

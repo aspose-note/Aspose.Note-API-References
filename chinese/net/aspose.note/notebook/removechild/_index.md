@@ -1,14 +1,14 @@
 ---
 title: RemoveChild
 second_title: Aspose.Note for .NET API 参考
-description: 删除子节点
+description: 移除子节点
 type: docs
 weight: 140
 url: /zh/net/aspose.note/notebook/removechild/
 ---
 ## Notebook.RemoveChild method
 
-删除子节点。
+移除子节点。
 
 ```csharp
 public INotebookChildNode RemoveChild(INotebookChildNode oldChild)
@@ -16,7 +16,7 @@ public INotebookChildNode RemoveChild(INotebookChildNode oldChild)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChild | INotebookChildNode | 要删除的节点。 |
+| oldChild | INotebookChildNode | 要移除的节点。 |
 
 ### 返回值
 
@@ -39,6 +39,8 @@ foreach (Document document in allDocuments)
 }
 ```
 
+显示如何从笔记本中删除部分。
+
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
@@ -46,24 +48,26 @@ string dataDir = RunExamples.GetDataDir_NoteBook();
 // 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "test.onetoc2");
 
-// 加载 OneNote 笔记本
+// 遍历它的子节点，寻找想要的子项
 foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // 文档目录的路径。
+        // 从笔记本中删除子项
         notebook.RemoveChild(child);
     }
 }
 
 dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 
-// 加载 OneNote 笔记本
+// 保存笔记本
 notebook.Save(dataDir);
 ```
 
+显示如何保存笔记本。
+
 ```csharp
-// 保存笔记本
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 var notebook = new Notebook(dataDir + "test.onetoc2", new NotebookLoadOptions() { DeferredLoading = false });
@@ -85,10 +89,6 @@ if (notebook.Any())
     childDocument2.Save(dataDir + "Locked Pass2_out.one", new OneSaveOptions() { DocumentPassword = "pass2" });
 }
 ```
-
-显示如何从笔记本中删除部分。
-
-显示如何保存笔记本。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IncorrectPasswordException
 second_title: Справочник по API Aspose.Note для .NET
-description: Выбрасывается если документ зашифрован паролем и указанный при открытии документа пароль неверен или отсутствует.
+description: Возникает если документ зашифрован паролем а пароль указанный при открытии документа неверный или отсутствует.
 type: docs
 weight: 280
 url: /ru/net/aspose.note/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
 
-Выбрасывается, если документ зашифрован паролем и указанный при открытии документа пароль неверен или отсутствует.
+Возникает, если документ зашифрован паролем, а пароль, указанный при открытии документа, неверный или отсутствует.
 
 ```csharp
 public class IncorrectPasswordException : Exception

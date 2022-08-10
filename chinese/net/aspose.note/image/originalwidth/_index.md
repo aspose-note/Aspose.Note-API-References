@@ -19,13 +19,13 @@ public float OriginalWidth { get; }
 显示如何获取图像的元信息。
 
 ```csharp
-// 设置图片在页面中的位置（可选）。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 设置图像对齐
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 将图像添加到页面。
+// 获取所有图像节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)

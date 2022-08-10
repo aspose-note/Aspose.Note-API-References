@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置PageHistoryaspose.note/pagehistory指定索引处的页面版本
+description: 获取或设置指定索引处的页面版本PageHistoryaspose.note/pagehistory.
 type: docs
 weight: 50
 url: /zh/net/aspose.note/pagehistory/item/
 ---
 ## PageHistory indexer
 
-获取或设置[`PageHistory`](../../pagehistory)指定索引处的页面版本。
+获取或设置指定索引处的页面版本[`PageHistory`](../../pagehistory).
 
 ```csharp
 public Page this[int index] { get; set; }
@@ -16,7 +16,7 @@ public Page this[int index] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 索引. |
 
 ### 返回值
 

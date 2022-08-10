@@ -19,8 +19,8 @@ public abstract class SaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | 获取或设置保存时要使用的字体设置 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 这意味着将呈现文档的所有页面。 |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0。 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 表示将呈现文档的所有页面。 |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | 获取文档保存的格式。 |
 
 ### 也可以看看

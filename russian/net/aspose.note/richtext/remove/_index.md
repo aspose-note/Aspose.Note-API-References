@@ -17,11 +17,11 @@ public RichText Remove(int startIndex, int count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | startIndex | Int32 | Начальный индекс. |
-| count | Int32 | Счетчик. |
+| count | Int32 | Количество. |
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Исключения
 
@@ -51,7 +51,7 @@ public RichText Remove(int startIndex)
 
 ### Возвращаемое значение
 
-The[`RichText`](../../richtext).
+[`RichText`](../../richtext) .
 
 ### Исключения
 

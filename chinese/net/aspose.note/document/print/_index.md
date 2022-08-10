@@ -27,8 +27,10 @@ var document = new Aspose.Note.Document(dataDir + "Aspose.one");
 document.Print();
 ```
 
+显示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
+
 ```csharp
-// 将文档加载到 Aspose.Note。
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 var document = new Aspose.Note.Document(dataDir + "Aspose.one");
@@ -45,8 +47,6 @@ document.Print(new PrintOptions()
                    DocumentName = "Test.one"
                });
 ```
-
-显示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ### 也可以看看
 

@@ -24,10 +24,10 @@ public sealed class OneSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword) { get; set; } | 获取或设置用于加密文档内容的密码。 |
+| [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword) { get; set; } | 获取或设置密码以加密文档内容。 |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | 获取或设置保存时要使用的字体设置 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 这意味着将呈现文档的所有页面。 |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0。 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 表示将呈现文档的所有页面。 |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | 获取文档保存的格式。 |
 
 ### 例子
@@ -35,12 +35,14 @@ public sealed class OneSaveOptions : SaveOptions
 显示如何使用加密保存文档。
 
 ```csharp
-// 加载 OneNote 笔记本
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
+
+演示如何使用 OneSaveOptions 保存文档。
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -51,8 +53,6 @@ Document document = new Document(dataDir + inputFile);
 
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
-
-显示如何使用 OneSaveOptions 保存文档。
 
 ### 也可以看看
 

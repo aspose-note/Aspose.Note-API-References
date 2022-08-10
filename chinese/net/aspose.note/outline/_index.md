@@ -18,7 +18,7 @@ public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Outline](outline#constructor)() | 初始化[`Outline`](../outline)类的新实例。 |
+| [Outline](outline#constructor)() | 初始化[`Outline`](../outline)类. |
 
 ## 特性
 
@@ -27,11 +27,11 @@ public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
 | [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved) { get; set; } | 获取大纲的后代是否可以移动。 |
 | [Document](../../aspose.note/node/document) { get; } | 获取节点的文档。 |
 | [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | 获取或设置水平偏移。 |
+| [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | 获取或设置水平偏移量。 |
 | [IndentPosition](../../aspose.note/outline/indentposition) { get; set; } | 获取或设置缩进位置。 |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | 获取或设置最后修改时间。 |
+| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | 获取或设置上次修改时间。 |
 | [MaxHeight](../../aspose.note/outline/maxheight) { get; set; } | 获取或设置最大高度。 |
 | [MaxWidth](../../aspose.note/outline/maxwidth) { get; set; } | 获取或设置最大宽度。 |
 | [MinWidth](../../aspose.note/outline/minwidth) { get; set; } | 获取或设置最小宽度。 |
@@ -61,101 +61,105 @@ public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
 显示如何添加带有标签的新图像。
 
 ```csharp
-// 保存笔记本
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 默认情况下，子加载是“惰性的”。
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 因此对于即时加载已经发生，
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 需要设置 NotebookLoadOptions.InstantLoading 标志。
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-// 所有子文档都已加载。
+// 初始化 OutlineElement 类对象
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// 对子文档做一些事情
+// 加载一张图片
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 
-// 文档目录的路径。
+// 在文档节点中插入图片
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// 对子文档做一些事情
+// 添加大纲元素节点
 outline.AppendChildLast(outlineElem);
 
-// 对子笔记本做一些事情
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 文档目录的路径。
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 加载 OneNote 笔记本
+// 保存 OneNote 文档
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
+显示如何插入带有中文编号的新列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 遍历它的子节点，寻找想要的子项
+// 初始化 OneNote 文档
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// 从笔记本中删除子项
+// 初始化 OneNote 页面
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 Outline outline = new Outline(doc);
 
-// 保存笔记本
+// 应用文本样式设置
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 文档目录的路径。
+// 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-// 加载 OneNote 笔记本
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-// 加载 OneNote 笔记本
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 加载 OneNote 笔记本
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// 保存笔记本
+// 保存 OneNote 文档
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
 
+显示如何插入新的项目符号列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 文档目录的路径。
+// 创建 Document 类的对象
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// 文档目录的路径。
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 文档目录的路径。
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-// 文档目录的路径。
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 文档目录的路径。
+// 初始化 OutlineElement 类对象并应用项目符号
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// 文档目录的路径。
+// 初始化 RichText 类对象并应用文本样式
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -167,37 +171,39 @@ OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 创建 Document 类的对象
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//初始化Page类对象
+// 添加大纲节点
 page.AppendChildLast(outline);
-// 初始化大纲类对象
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 初始化 OutlineElement 类对象
+// 保存 OneNote 文档
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
+显示如何插入带有编号的新列表。
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 加载一张图片
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 在文档节点中插入图片
+//初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 添加大纲元素节点
+// 初始化大纲类对象
 Outline outline = new Outline(doc);
 
-// 初始化 OneNote 页面
+// 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 应用文本样式设置
+// 初始化 OutlineElement 类对象并应用编号
 // 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
@@ -211,27 +217,21 @@ OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 初始化 OneNote 文档
+// 添加轮廓元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 初始化 OneNote 页面
+// 添加大纲节点
 page.AppendChildLast(outline);
 
-// 应用文本样式设置
+// 添加页面节点
 doc.AppendChildLast(page);
 
-// 同一大纲中的数字会自动递增。
+// 保存 OneNote 文档
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
-
-显示如何插入带有中文编号的新列表。
-
-显示如何插入新的项目符号列表。
-
-显示如何插入带有编号的新列表。
 
 ### 也可以看看
 

@@ -20,7 +20,7 @@ public RichText Trim(params char[] trimChars)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public RichText Trim(params char[] trimChars)
 
 ## Trim(char) {#trim_1}
 
-删除字符的所有前导和尾随实例。
+删除一个字符的所有前导和尾随实例。
 
 ```csharp
 public RichText Trim(char trimChar)
@@ -44,7 +44,7 @@ public RichText Trim(char trimChar)
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public RichText Trim()
 
 ### 返回值
 
-[`RichText`](../../richtext)。
+的[`RichText`](../../richtext).
 
 ### 也可以看看
 

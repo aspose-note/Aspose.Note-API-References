@@ -1,14 +1,14 @@
 ---
 title: TextRun
 second_title: Справочник по API Aspose.Note для .NET
-description: Класс представляющий фрагмент текста с соответствующим стилем.
+description: Класс представляющий фрагмент текста со связанным стилем.
 type: docs
-weight: 940
+weight: 930
 url: /ru/net/aspose.note/textrun/
 ---
 ## TextRun class
 
-Класс, представляющий фрагмент текста с соответствующим стилем.
+Класс, представляющий фрагмент текста со связанным стилем.
 
 ```csharp
 public class TextRun
@@ -18,10 +18,10 @@ public class TextRun
 
 | Имя | Описание |
 | --- | --- |
-| [TextRun](textrun#constructor)() | Инициализирует новый экземпляр класса[`TextRun`](../textrun)с пустым текстом и стилем по умолчанию. |
-| [TextRun](textrun#constructor_2)(string) | Инициализирует новый экземпляр класса[`TextRun`](../textrun)со стилем по умолчанию. |
-| [TextRun](textrun#constructor_1)(TextStyle) | Инициализирует новый экземпляр класса[`TextRun`](../textrun)с пустым текстом. |
-| [TextRun](textrun#constructor_3)(string, TextStyle) | Инициализирует новый экземпляр класса[`TextRun`](../textrun). |
+| [TextRun](textrun#constructor)() | Инициализирует новый экземпляр[`TextRun`](../textrun) класс с пустым текстом и стилем по умолчанию. |
+| [TextRun](textrun#constructor_2)(string) | Инициализирует новый экземпляр[`TextRun`](../textrun) класс со стилем по умолчанию. |
+| [TextRun](textrun#constructor_1)(TextStyle) | Инициализирует новый экземпляр[`TextRun`](../textrun) класс с пустым текстом. |
+| [TextRun](textrun#constructor_3)(string, TextStyle) | Инициализирует новый экземпляр[`TextRun`](../textrun) класс. |
 
 ## Характеристики
 

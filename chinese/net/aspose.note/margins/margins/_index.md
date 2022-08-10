@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: Aspose.Note for .NET API 参考
-description: 用指定的左右初始化Marginsaspose.note/marginsstruct 的新实例上边距和下边距
+description: 初始化Marginsaspose.note/margins struct 具有指定的左右上下边距
 type: docs
 weight: 10
 url: /zh/net/aspose.note/margins/margins/
 ---
 ## Margins constructor
 
-用指定的左、右初始化[`Margins`](../../margins)struct 的新实例、上边距和下边距。
+初始化[`Margins`](../../margins) struct 具有指定的左、右、上、下边距。
 
 ```csharp
 public Margins(float left, float right, float top, float bottom)
@@ -19,7 +19,7 @@ public Margins(float left, float right, float top, float bottom)
 | left | Single | 左边距宽度。 |
 | right | Single | 右边距宽度。 |
 | top | Single | 上边距宽度。 |
-| bottom | Single | 底部边距宽度。 |
+| bottom | Single | 下边距宽度。 |
 
 ### 也可以看看
 

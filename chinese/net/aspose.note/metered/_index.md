@@ -31,7 +31,7 @@ public class Metered
 
 ### 例子
 
-在本例中，将尝试设置计量公钥和私钥
+在此示例中，将尝试设置计量的公钥和私钥
 
 ```csharp
 [C#]
@@ -46,6 +46,8 @@ Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
+显示如何设置计量许可证。
+
 ```csharp
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
@@ -53,10 +55,10 @@ metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 
-//初始化Page类对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 使用图像名称、扩展名和流加载第二张图像。           
+// 加载 OneNote 文档并获取第一个孩子           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
@@ -64,8 +66,6 @@ document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
-
-显示如何设置计量许可证。
 
 ### 也可以看看
 

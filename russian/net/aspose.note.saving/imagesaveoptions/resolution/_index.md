@@ -16,7 +16,7 @@ public float Resolution { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:96.
+Значение по умолчанию: 96.
 
 ### Примеры
 
@@ -34,6 +34,8 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 // Сохраняем документ.
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
+
+Показывает, как сохранить записную книжку как изображение с указанными параметрами.
 
 ```csharp
 // Путь к каталогу документов.
@@ -54,6 +56,8 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
+Показывает, как сохранить плоский блокнот как изображение.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_NoteBook();
@@ -73,10 +77,6 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 // Сохраняем блокнот
 notebook.Save(dataDir, notebookSaveOptions);
 ```
-
-Показывает, как сохранить блокнот как изображение с указанными параметрами.
-
-Показывает, как сохранить блокнот в виде изображения.
 
 ### Смотрите также
 

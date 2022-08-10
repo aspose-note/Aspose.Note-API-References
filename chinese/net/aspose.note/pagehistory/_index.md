@@ -1,14 +1,14 @@
 ---
 title: PageHistory
 second_title: Aspose.Note for .NET API 参考
-description: 表示页面历史
+description: 代表页面历史记录
 type: docs
 weight: 470
 url: /zh/net/aspose.note/pagehistory/
 ---
 ## PageHistory class
 
-表示页面历史。
+代表页面历史记录。
 
 ```csharp
 public class PageHistory : IList<Page>
@@ -18,32 +18,32 @@ public class PageHistory : IList<Page>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageHistory](pagehistory)(Page) | 初始化[`PageHistory`](../pagehistory)类的新实例。 |
+| [PageHistory](pagehistory)(Page) | 初始化[`PageHistory`](../pagehistory)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.note/pagehistory/count) { get; } | 获取页面历史中页面版本的计数。 |
+| [Count](../../aspose.note/pagehistory/count) { get; } | 获取页面历史记录中的页面版本计数。 |
 | [Current](../../aspose.note/pagehistory/current) { get; } | 获取当前页面版本。 |
-| [IsReadOnly](../../aspose.note/pagehistory/isreadonly) { get; } | 获取页面历史记录是否为只读的值。 |
-| [Item](../../aspose.note/pagehistory/item) { get; set; } | 获取或设置[`PageHistory`](../pagehistory)指定索引处的页面版本。 |
+| [IsReadOnly](../../aspose.note/pagehistory/isreadonly) { get; } | 获取一个指示页面历史是否为只读的值。 |
+| [Item](../../aspose.note/pagehistory/item) { get; set; } | 获取或设置指定索引处的页面版本[`PageHistory`](../pagehistory). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.note/pagehistory/add)(Page) | 将页面版本添加到[`PageHistory`](../pagehistory)的末尾。 |
-| [AddRange](../../aspose.note/pagehistory/addrange)(IEnumerable&lt;Page&gt;) | 将页面版本添加到[`PageHistory`](../pagehistory)的末尾。 |
+| [Add](../../aspose.note/pagehistory/add)(Page) | 将页面版本添加到末尾[`PageHistory`](../pagehistory). |
+| [AddRange](../../aspose.note/pagehistory/addrange)(IEnumerable&lt;Page&gt;) | 将页面版本添加到末尾[`PageHistory`](../pagehistory). |
 | [Clear](../../aspose.note/pagehistory/clear)() | 清除页面历史记录。 |
 | [Contains](../../aspose.note/pagehistory/contains)(Page) | 判断页面历史是否包含页面版本。 |
 | [CopyTo](../../aspose.note/pagehistory/copyto)(Page[], int) | 将页面版本复制到数组中，从开头开始。 |
-| [GetEnumerator](../../aspose.note/pagehistory/getenumerator)() | 返回一个遍历[`PageHistory`](../pagehistory)的子节点的枚举器。 |
+| [GetEnumerator](../../aspose.note/pagehistory/getenumerator)() | 返回一个遍历子节点的枚举器[`PageHistory`](../pagehistory). |
 | [IndexOf](../../aspose.note/pagehistory/indexof)(Page) | 确定页面历史中特定页面版本的索引。 |
 | [Insert](../../aspose.note/pagehistory/insert)(int, Page) | 将页面版本插入页面历史记录。 |
-| [Remove](../../aspose.note/pagehistory/remove)(Page) | 从[`PageHistory`](../pagehistory)中删除页面版本。 |
-| [RemoveAt](../../aspose.note/pagehistory/removeat)(int) | 删除[`PageHistory`](../pagehistory)指定索引处的页面版本。 |
-| [RemoveRange](../../aspose.note/pagehistory/removerange)(int, int) | 从[`PageHistory`](../pagehistory)中删除一系列页面版本。 |
+| [Remove](../../aspose.note/pagehistory/remove)(Page) | 从[`PageHistory`](../pagehistory). |
+| [RemoveAt](../../aspose.note/pagehistory/removeat)(int) | 删除指定索引处的页面版本[`PageHistory`](../pagehistory). |
+| [RemoveRange](../../aspose.note/pagehistory/removerange)(int, int) | 从[`PageHistory`](../pagehistory). |
 
 ### 也可以看看
 

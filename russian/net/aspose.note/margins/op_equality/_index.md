@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по API Aspose.Note для .NET
-description: Проверяет равны ли две структурыMargins.
+description: Проверяет являются ли дваMargins структуры равны.
 type: docs
 weight: 90
 url: /ru/net/aspose.note/margins/op_equality/
 ---
 ## Margins Equality operator
 
-Проверяет, равны ли две структурыMargins.
+Проверяет, являются ли дваMargins структуры равны.
 
 ```csharp
 public static bool operator ==(Margins lhs, Margins rhs)
@@ -16,12 +16,12 @@ public static bool operator ==(Margins lhs, Margins rhs)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| lhs | Margins | СтруктураMargins. |
-| rhs | Margins | СтруктураMarginsдля сравнения. |
+| lhs | Margins | Margins структура. |
+| rhs | Margins | Margins структура для сравнения с . |
 
 ### Возвращаемое значение
 
-TheBoolean.
+Boolean .
 
 ### Смотрите также
 

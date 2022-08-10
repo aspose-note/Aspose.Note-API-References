@@ -20,7 +20,7 @@ public static NoteTag CreateCommentBubble(string label = "Remember for blog")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

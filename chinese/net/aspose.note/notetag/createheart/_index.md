@@ -1,14 +1,14 @@
 ---
 title: CreateHeart
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有心形图标和指定标签的新音符标签
+description: 创建一个带有心形图标和指定标签的新笔记标签
 type: docs
 weight: 550
 url: /zh/net/aspose.note/notetag/createheart/
 ---
 ## NoteTag.CreateHeart method
 
-创建一个带有心形图标和指定标签的新音符标签。
+创建一个带有心形图标和指定标签的新笔记标签。
 
 ```csharp
 public static NoteTag CreateHeart(string label = "")
@@ -20,7 +20,7 @@ public static NoteTag CreateHeart(string label = "")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

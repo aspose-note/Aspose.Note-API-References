@@ -19,8 +19,8 @@ public enum TagStatus
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Open | `0` | 注释标签已打开。 |
-| Completed | `1` | note 标签完成。 |
-| Disabled | `2` | 注释标签被禁用。 |
+| Completed | `1` | 笔记标签已完成。 |
+| Disabled | `2` | 注释标签已禁用。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Aspose.Note for .NET API 参考
-description: 初始化Imageaspose.note/image类的新实例
+description: 初始化Imageaspose.note/image类.
 type: docs
 weight: 10
 url: /zh/net/aspose.note/image/image/
 ---
 ## Image(string, string, string) {#constructor_5}
 
-初始化[`Image`](../../image)类的新实例。
+初始化[`Image`](../../image)类.
 
 ```csharp
 public Image(string path, string altTitle = null, string altDescription = null)
@@ -16,7 +16,7 @@ public Image(string path, string altTitle = null, string altDescription = null)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 包含创建 [`Image`](../../image) 的文件路径的字符串。 |
+| path | String | 一个字符串，其中包含要从中创建文件的路径[`Image`](../../image). |
 | altTitle | String | 替代标题。 |
 | altDescription | String | 替代描述。 |
 
@@ -30,7 +30,7 @@ public Image(string path, string altTitle = null, string altDescription = null)
 
 ## Image(string, Stream) {#constructor_4}
 
-初始化[`Image`](../../image)类的新实例。
+初始化[`Image`](../../image)类.
 
 ```csharp
 public Image(string fileName, Stream imageStream)
@@ -51,7 +51,7 @@ public Image(string fileName, Stream imageStream)
 
 ## Image() {#constructor}
 
-初始化[`Image`](../../image)类的新实例。
+初始化[`Image`](../../image)类.
 
 ```csharp
 public Image()

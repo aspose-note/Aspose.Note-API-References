@@ -33,6 +33,8 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
+Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из файла.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -49,6 +51,8 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                               FontsSubsystem = DocumentFontsSubsystem.UsingDefaultFontFromFile(fontFile)
                           });
 ```
+
+Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из потока.
 
 ```csharp
 // Путь к каталогу документов.
@@ -70,10 +74,6 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
                               });
 }
 ```
-
-Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из файла.
-
-Показывает, как сохранить документ в формате pdf, используя шрифт по умолчанию из потока.
 
 ### Смотрите также
 

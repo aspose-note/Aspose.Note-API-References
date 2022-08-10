@@ -1,14 +1,14 @@
 ---
 title: CreateYellowX
 second_title: Aspose.Note for .NET API 参考
-description: 创建一个带有 YellowX 图标和指定标签的新笔记标签
+description: 创建一个带有 YellowX 图标和指定标签的新注释标签
 type: docs
 weight: 1110
 url: /zh/net/aspose.note/notetag/createyellowx/
 ---
 ## NoteTag.CreateYellowX method
 
-创建一个带有 YellowX 图标和指定标签的新笔记标签。
+创建一个带有 YellowX 图标和指定标签的新注释标签。
 
 ```csharp
 public static NoteTag CreateYellowX(string label = "")
@@ -20,7 +20,7 @@ public static NoteTag CreateYellowX(string label = "")
 
 ### 返回值
 
-[`NoteTag`](../../notetag)。
+的[`NoteTag`](../../notetag).
 
 ### 也可以看看
 

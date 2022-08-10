@@ -1,14 +1,14 @@
 ---
 title: BinarizationMethod
 second_title: Справочник по API Aspose.Note для .NET
-description: Получает или задает метод бинаризации. Значение по умолчаниюFixedThreshold.
+description: Получает или задает метод бинаризации. Значение по умолчаниюFixedThreshold .
 type: docs
 weight: 20
 url: /ru/net/aspose.note.saving/imagebinarizationoptions/binarizationmethod/
 ---
 ## ImageBinarizationOptions.BinarizationMethod property
 
-Получает или задает метод бинаризации. Значение по умолчанию:FixedThreshold.
+Получает или задает метод бинаризации. Значение по умолчанию:FixedThreshold .
 
 ```csharp
 public BinarizationMethod BinarizationMethod { get; set; }
@@ -38,6 +38,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
+Показывает, как сохранить документ как бинарное изображение, используя фиксированный порог.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -58,8 +60,6 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                                                         }
                           });
 ```
-
-Показывает, как сохранить документ как бинарное изображение с использованием фиксированного порога.
 
 ### Смотрите также
 

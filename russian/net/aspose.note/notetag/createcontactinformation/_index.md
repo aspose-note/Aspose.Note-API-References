@@ -20,7 +20,7 @@ public static NoteTag CreateContactInformation(string label = "Phone number")
 
 ### Возвращаемое значение
 
-The[`NoteTag`](../../notetag).
+[`NoteTag`](../../notetag) .
 
 ### Смотрите также
 

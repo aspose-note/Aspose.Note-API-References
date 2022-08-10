@@ -19,21 +19,21 @@ public enum PageSizeType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SizeByContent | `0` | 页面没有固定大小。它会自动调整大小以适应其中的所有内容。 |
-| USStatement | `1` | 美国声明 (5.5" x 8.5")。 |
-| ANSILetter | `2` | ANSI 字母 (8.5" x 11")。 |
-| ANSITabloid | `3` | ANSI 小报 (11" x 17")。 |
-| USLegal | `4` | 美国合法 (8.5" x 14")。 |
-| ISOA3 | `5` | ISO A3 (297mm x 420mm)。 |
-| ISOA4 | `6` | ISO A4 (210mm x 297mm)。 |
-| ISOA5 | `7` | ISO A5 (148mm x 210mm)。 |
-| ISOA6 | `8` | ISO A6 (105mm x 148mm)。 |
-| JISB4 | `9` | JIS B4 (257mm x 364mm)。 |
-| JISB5 | `10` | JIS B5 (182mm x 257mm)。 |
-| JISB6 | `11` | JIS B6 (128mm x 182mm)。 |
-| JapanesePostcard | `12` | 日本明信片（100mm x 148mm）。 |
-| IndexCard | `13` | 索引卡 (3" x 5")。 |
-| Billfold | `14` | Billfold (3.75" x 6.75")。 |
-| Custom | `15` | 自定义大小。 |
+| USStatement | `1` | 美国声明 (5.5" x 8.5"). |
+| ANSILetter | `2` | ANSI 字母 (8.5" x 11"). |
+| ANSITabloid | `3` | ANSI 小报 (11" x 17"). |
+| USLegal | `4` | 美国法律 (8.5" x 14"). |
+| ISOA3 | `5` | ISO A3 (297mm x 420mm). |
+| ISOA4 | `6` | ISO A4 (210mm x 297mm). |
+| ISOA5 | `7` | ISO A5 (148mm x 210mm). |
+| ISOA6 | `8` | ISO A6 (105mm x 148mm). |
+| JISB4 | `9` | JIS B4 (257mm x 364mm). |
+| JISB5 | `10` | JIS B5 (182mm x 257mm). |
+| JISB6 | `11` | JIS B6 (128mm x 182mm). |
+| JapanesePostcard | `12` | 日本明信片 (100mm x 148mm). |
+| IndexCard | `13` | 索引卡 (3" x 5"). |
+| Billfold | `14` | 皮夹 (3.75" x 6.75"). |
+| Custom | `15` | 自定义尺寸。 |
 
 ### 也可以看看
 

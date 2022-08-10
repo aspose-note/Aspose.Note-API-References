@@ -16,16 +16,16 @@ public FontsSubsystem FontsSubsystem { get; set; }
 
 ### 例子
 
-显示如何使用指定的默认字体以 pdf 格式保存文档。
+展示如何使用指定的默认字体以 pdf 格式保存文档。
 
 ```csharp
-// 或者
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 或者
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// 文档目录的路径。
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions() 
                       {
@@ -33,16 +33,18 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
+演示如何使用文件中的默认字体将文档保存为 pdf 格式。
+
 ```csharp
-// 初始化 PdfSaveOptions 对象
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
-// 初始化 PdfSaveOptions 对象
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// 使用 Jpeg 压缩
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions()
                           {
@@ -50,16 +52,18 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
+演示如何使用流中的默认字体以 pdf 格式保存文档。
+
 ```csharp
-// JPEG 压缩的质量
+// 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
-// 文档目录的路径。
+// 将文档加载到 Aspose.Note。
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// 将文档加载到 Aspose.Note。
+// 将文档保存为 PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf";
 
 using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShare.Read))
@@ -70,10 +74,6 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
                               });
 }
 ```
-
-显示如何使用文件中的默认字体将文档保存为 pdf 格式。
-
-显示如何使用流中的默认字体将文档保存为 pdf 格式。
 
 ### 也可以看看
 

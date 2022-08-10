@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Note for .NET API 参考
-description: 此类包含ParagraphStyle./paragraphstyle和TextStyle的公共属性课程
+description: 此类包含ParagraphStyle./paragraphstyle和TextStyle./textstyle类.
 type: docs
 weight: 860
 url: /zh/net/aspose.note/style/
 ---
 ## Style class
 
-此类包含[`ParagraphStyle`](../paragraphstyle)和TextStyle的公共属性课程。
+此类包含[`ParagraphStyle`](../paragraphstyle)和[`TextStyle`](../textstyle)类.
 
 ```csharp
 public class Style
@@ -24,17 +24,17 @@ public class Style
 | [FontStyle](../../aspose.note/style/fontstyle) { get; } | 获取字体样式。 |
 | [Highlight](../../aspose.note/style/highlight) { get; set; } | 获取或设置高亮颜色。 |
 | [IsBold](../../aspose.note/style/isbold) { get; set; } | 获取或设置一个值，指示文本样式是否为粗体。 |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | 获取或设置一个值，指示文本样式是否为斜体。 |
+| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | 获取或设置文本样式是否为斜体的值。 |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | 获取或设置一个值，该值指示文本样式是否为删除线。 |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | 获取或设置一个值，该值指示文本样式是否为下标。 |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | 获取或设置一个值，指示文本样式是否为上标。 |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | 获取或设置一个值，指示文本样式是否为下划线。 |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | 获取或设置文本样式是否为下标的值。 |
+| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | 获取或设置文本样式是否为上标的值。 |
+| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | 获取或设置文本样式是否为下划线的值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [GetHashCode](../../aspose.note/style/gethashcode)() | 用作该类型的哈希函数。 |
+| override [GetHashCode](../../aspose.note/style/gethashcode)() | 用作类型的哈希函数。 |
 
 ### 也可以看看
 

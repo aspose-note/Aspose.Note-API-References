@@ -1,14 +1,14 @@
 ---
 title: DisplayUnitsConverter
 second_title: Aspose.Note for .NET API 参考
-description: 该类包含用于转换值的方法
+description: 该类包含转换值的方法
 type: docs
 weight: 50
 url: /zh/net/aspose.note/displayunitsconverter/
 ---
 ## DisplayUnitsConverter class
 
-该类包含用于转换值的方法。
+该类包含转换值的方法。
 
 ```csharp
 public static class DisplayUnitsConverter

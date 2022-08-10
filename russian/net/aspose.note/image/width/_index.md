@@ -40,6 +40,8 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
+Показывает, как добавить изображение из файла в документ с заданными пользователем свойствами.
+
 ```csharp
 // Путь к каталогу документов.
 string dataDir = RunExamples.GetDataDir_Images();
@@ -68,8 +70,6 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 // Добавляем изображение на страницу.
 page.AppendChildLast(image);
 ```
-
-Показывает, как добавить изображение из файла в документ с заданными пользователем свойствами.
 
 ### Смотрите также
 

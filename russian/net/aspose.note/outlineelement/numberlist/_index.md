@@ -59,6 +59,8 @@ foreach (OutlineElement node in nodes)
 }
 ```
 
+Показывает, как вставить новый список с китайской нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -98,6 +100,8 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
+
+Показывает, как вставить новый маркированный список.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -144,6 +148,8 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
+Показывает, как вставить новый список с нумерацией.
+
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
@@ -188,12 +194,6 @@ doc.AppendChildLast(page);
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
-
-Показывает, как вставить новый список с китайской нумерацией.
-
-Показывает, как вставить новый маркированный список.
-
-Показывает, как вставить новый список с нумерацией.
 
 ### Смотрите также
 
