@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Allows to specify additional options when rendering document pages to PDF.
 type: docs
-weight: 820
+weight: 830
 url: /net/aspose.note.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -29,10 +29,41 @@ public sealed class PdfSaveOptions : SaveOptions
 | [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality) { get; set; } | Gets or sets a value determining the quality of the JPEG images inside PDF document. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. |
 | [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
+| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings) { get; set; } | Gets or sets the page settings for each page in document. By default depends on CurrentUICulture, *US cultures have letter setting, other have A4 settings. |
 | [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm) { get; set; } | Gets or sets algorithm used for page splitting. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Gets the format in which the document is saved. |
 
 ### Examples
+
+Shows how to save a document in Pdf format with Letter page layout.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Load the document into Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Save the document.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Shows how to save a document in Pdf format with A4 page layout without height limit.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Load the document into Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Save the document.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
+```
 
 Shows how to save notebook in pdf format with specified options.
 

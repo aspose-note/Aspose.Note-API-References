@@ -11,7 +11,7 @@ url: /net/aspose.note/notetask/icon/
 Gets or sets the icon.
 
 ```csharp
-public override TagIcon Icon { get; set; }
+public override TagIcon Icon { get; }
 ```
 
 ### Property Value

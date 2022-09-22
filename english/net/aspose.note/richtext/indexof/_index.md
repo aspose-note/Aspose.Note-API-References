@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Note for .NET API Reference
-description: Returns the zero-based index of the first occurrence of the specified string in the current instance.
+description: Returns the zerobased index of the first occurrence of the specified string in the current instance.
 type: docs
 weight: 170
 url: /net/aspose.note/richtext/indexof/

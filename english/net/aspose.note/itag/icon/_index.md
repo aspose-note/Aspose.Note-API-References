@@ -11,7 +11,7 @@ url: /net/aspose.note/itag/icon/
 Gets or sets the icon.
 
 ```csharp
-public TagIcon Icon { get; set; }
+public TagIcon Icon { get; }
 ```
 
 ### Property Value

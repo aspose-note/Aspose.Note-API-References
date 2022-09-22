@@ -19,11 +19,11 @@ public abstract class CheckBox : ITag
 | Name | Description |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked) { get; } | Gets a value indicating whether the CheckBox is in the checked state. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; set; } | Gets or sets the completed time. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Gets or sets the completed time. |
 | [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Gets or sets the creation time. |
-| abstract [Icon](../../aspose.note/checkbox/icon) { get; set; } | Gets or sets the icon. |
+| abstract [Icon](../../aspose.note/checkbox/icon) { get; } | Gets or sets the icon. |
 | [Label](../../aspose.note/checkbox/label) { get; } | Gets the label text. |
-| [Status](../../aspose.note/checkbox/status) { get; set; } | Gets or sets the status. |
+| [Status](../../aspose.note/checkbox/status) { get; } | Gets or sets the status. |
 
 ## Methods
 

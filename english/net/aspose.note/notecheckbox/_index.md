@@ -19,13 +19,13 @@ public sealed class NoteCheckBox : CheckBox, IEquatable<NoteCheckBox>, INoteTag
 | Name | Description |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked) { get; } | Gets a value indicating whether the CheckBox is in the checked state. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; set; } | Gets or sets the completed time. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Gets or sets the completed time. |
 | [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Gets or sets the creation time. |
 | [FontColor](../../aspose.note/notecheckbox/fontcolor) { get; set; } | Gets or sets the font color. |
 | [Highlight](../../aspose.note/notecheckbox/highlight) { get; set; } | Gets or sets the highlight color. |
-| override [Icon](../../aspose.note/notecheckbox/icon) { get; set; } | Gets or sets the icon. |
+| override [Icon](../../aspose.note/notecheckbox/icon) { get; } | Gets or sets the icon. |
 | [Label](../../aspose.note/notecheckbox/label) { get; set; } | Gets or sets the label text. |
-| [Status](../../aspose.note/checkbox/status) { get; set; } | Gets or sets the status. |
+| [Status](../../aspose.note/checkbox/status) { get; } | Gets or sets the status. |
 
 ## Methods
 

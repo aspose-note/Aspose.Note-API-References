@@ -19,12 +19,12 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 | Name | Description |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked) { get; } | Gets a value indicating whether the CheckBox is in the checked state. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; set; } | Gets or sets the completed time. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Gets or sets the completed time. |
 | [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Gets or sets the creation time. |
 | [DueDate](../../aspose.note/notetask/duedate) { get; set; } | Gets or sets the due date. |
-| override [Icon](../../aspose.note/notetask/icon) { get; set; } | Gets or sets the icon. |
+| override [Icon](../../aspose.note/notetask/icon) { get; } | Gets or sets the icon. |
 | [Label](../../aspose.note/checkbox/label) { get; } | Gets the label text. |
-| [Status](../../aspose.note/checkbox/status) { get; set; } | Gets or sets the status. |
+| [Status](../../aspose.note/checkbox/status) { get; } | Gets or sets the status. |
 
 ## Methods
 

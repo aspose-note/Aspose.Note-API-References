@@ -18,13 +18,13 @@ public sealed class NoteTag : IEquatable<NoteTag>, INoteTag
 
 | Name | Description |
 | --- | --- |
-| [CompletedTime](../../aspose.note/notetag/completedtime) { get; set; } | Gets or sets the completed time. |
+| [CompletedTime](../../aspose.note/notetag/completedtime) { get; } | Gets or sets the completed time. |
 | [CreationTime](../../aspose.note/notetag/creationtime) { get; set; } | Gets or sets the creation time. |
 | [FontColor](../../aspose.note/notetag/fontcolor) { get; set; } | Gets or sets the font color. |
 | [Highlight](../../aspose.note/notetag/highlight) { get; set; } | Gets or sets the highlight color. |
 | [Icon](../../aspose.note/notetag/icon) { get; set; } | Gets or sets the icon. |
 | [Label](../../aspose.note/notetag/label) { get; set; } | Gets or sets the label text. |
-| [Status](../../aspose.note/notetag/status) { get; set; } | Gets or sets the status. |
+| [Status](../../aspose.note/notetag/status) { get; } | Gets or sets the status. |
 
 ## Methods
 

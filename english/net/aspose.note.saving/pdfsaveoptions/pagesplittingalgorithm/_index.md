@@ -3,7 +3,7 @@ title: PageSplittingAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: Gets or sets algorithm used for page splitting.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/
 ---
 ## PdfSaveOptions.PageSplittingAlgorithm property

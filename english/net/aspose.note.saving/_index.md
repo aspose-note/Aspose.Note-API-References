@@ -25,6 +25,7 @@ The Saving namespace contains classes which perform saving to different formats.
 | [NotebookSaveOptions](./notebooksaveoptions) | An abstract base class which represents notebook saving options for a particular format. |
 | [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](./notebooksaveoptions-1) | An abstract base class which represents notebook saving options for a particular format and provides common saving options for all document child nodes. |
 | [OneSaveOptions](./onesaveoptions) | Allows to specify additional options when saving document to OneNote format. |
+| [PageSettings](./pagesettings) | Represents the layout settings for a page. |
 | [PageSplittingAlgorithm](./pagesplittingalgorithm) | Base class for splitting an object in case it doesn't fit in original page. |
 | [PdfSaveOptions](./pdfsaveoptions) | Allows to specify additional options when rendering document pages to PDF. |
 | [PrintOptions](./printoptions) | Options used to print a document. |

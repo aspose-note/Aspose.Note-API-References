@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Aspose.Note for .NET API Reference
-description: Gets default style for title text in MS OneNote.
+description: Gets the style with enUS culture.
 type: docs
 weight: 20
 url: /net/aspose.note/textstyle/default/
 ---
 ## TextStyle.Default property
 
-Gets default style for title text in MS OneNote.
+Gets the style with "en-US" culture.
 
 ```csharp
 public static TextStyle Default { get; }

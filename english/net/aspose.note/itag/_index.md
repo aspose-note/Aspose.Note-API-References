@@ -18,11 +18,11 @@ public interface ITag
 
 | Name | Description |
 | --- | --- |
-| [CompletedTime](../../aspose.note/itag/completedtime) { get; set; } | Gets or sets the completed time. |
+| [CompletedTime](../../aspose.note/itag/completedtime) { get; } | Gets or sets the completed time. |
 | [CreationTime](../../aspose.note/itag/creationtime) { get; set; } | Gets or sets the creation time. |
-| [Icon](../../aspose.note/itag/icon) { get; set; } | Gets or sets the icon. |
+| [Icon](../../aspose.note/itag/icon) { get; } | Gets or sets the icon. |
 | [Label](../../aspose.note/itag/label) { get; } | Gets the label text. |
-| [Status](../../aspose.note/itag/status) { get; set; } | Gets or sets the status. |
+| [Status](../../aspose.note/itag/status) { get; } | Gets or sets the status. |
 
 ### Examples
 

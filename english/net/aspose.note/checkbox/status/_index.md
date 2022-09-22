@@ -11,7 +11,7 @@ url: /net/aspose.note/checkbox/status/
 Gets or sets the status.
 
 ```csharp
-public TagStatus Status { get; set; }
+public TagStatus Status { get; }
 ```
 
 ### Property Value
