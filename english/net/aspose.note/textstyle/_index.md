@@ -24,7 +24,7 @@ public sealed class TextStyle : Style
 
 | Name | Description |
 | --- | --- |
-| static [Default](../../aspose.note/textstyle/default) { get; } | Gets default style for title text in MS OneNote. |
+| static [Default](../../aspose.note/textstyle/default) { get; } | Gets the style with "en-US" culture. |
 | static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle) { get; } | Gets default style for title date in MS OneNote. |
 | static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle) { get; } | Gets default style for title text in MS OneNote. |
 | static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle) { get; } | Gets default style for title time in MS OneNote. |

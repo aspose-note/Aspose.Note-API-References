@@ -532,6 +532,32 @@ else
 }
 ```
 
+Shows how to apply Dark theme style to a Document.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Load the document into Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 Shows how to pass through content of a notebook.
 
 ```csharp
@@ -653,30 +679,6 @@ document.Print(new PrintOptions()
                });
 ```
 
-Shows how to get image's meta information.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_Images();
-
-// Load the document into Aspose.Note.
-Document oneFile = new Document(dataDir + "Aspose.one");
-
-// Get all Image nodes
-IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
-
-foreach (Aspose.Note.Image image in images)
-{
-    Console.WriteLine("Width: {0}", image.Width);
-    Console.WriteLine("Height: {0}", image.Height);
-    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
-    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
-    Console.WriteLine("FileName: {0}", image.FileName);
-    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
-    Console.WriteLine();
-}
-```
-
 Shows how to get content of an attached file.
 
 ```csharp
@@ -702,6 +704,30 @@ foreach (AttachedFile file in nodes)
             CopyStream(outputStream, fileStream);
         }
     }
+}
+```
+
+Shows how to get image's meta information.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Images();
+
+// Load the document into Aspose.Note.
+Document oneFile = new Document(dataDir + "Aspose.one");
+
+// Get all Image nodes
+IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
+
+foreach (Aspose.Note.Image image in images)
+{
+    Console.WriteLine("Width: {0}", image.Width);
+    Console.WriteLine("Height: {0}", image.Height);
+    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
+    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
+    Console.WriteLine("FileName: {0}", image.FileName);
+    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
+    Console.WriteLine();
 }
 ```
 

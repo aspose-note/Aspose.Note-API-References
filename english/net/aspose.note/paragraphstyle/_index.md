@@ -43,7 +43,7 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 | --- | --- |
 | override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
 | [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](../../aspose.note/style/gethashcode)() | Serves as a hash function for the type. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode)() | Serves as a hash function for the type. |
 
 ### Examples
 

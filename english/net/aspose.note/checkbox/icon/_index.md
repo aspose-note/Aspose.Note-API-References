@@ -11,7 +11,7 @@ url: /net/aspose.note/checkbox/icon/
 Gets or sets the icon.
 
 ```csharp
-public abstract TagIcon Icon { get; set; }
+public abstract TagIcon Icon { get; }
 ```
 
 ### Property Value

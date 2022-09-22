@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Note for .NET API Reference
-description: Returns an enumerator that iterates through child nodes of the CompositeNodeaspose.note/compositenode-1.
+description: Returns an enumerator that iterates through child nodes of the CompositeNodeaspose.note/compositenode1.
 type: docs
 weight: 80
 url: /net/aspose.note/compositenode-1/getenumerator/

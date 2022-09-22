@@ -3,7 +3,7 @@ title: TagStatus
 second_title: Aspose.Note for .NET API Reference
 description: Specifies the status of the note tag node.
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.note/tagstatus/
 ---
 ## TagStatus enumeration

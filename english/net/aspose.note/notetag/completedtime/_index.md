@@ -11,7 +11,7 @@ url: /net/aspose.note/notetag/completedtime/
 Gets or sets the completed time.
 
 ```csharp
-public DateTime? CompletedTime { get; set; }
+public DateTime? CompletedTime { get; }
 ```
 
 ### Property Value
