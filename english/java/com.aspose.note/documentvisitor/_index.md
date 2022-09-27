@@ -1,0 +1,367 @@
+---
+title: DocumentVisitor
+second_title: Aspose.Note for Java API Reference
+description: The abstract class for iterating through subtree with root at the specified node.
+type: docs
+weight: 21
+url: /java/com.aspose.note/documentvisitor/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public abstract class DocumentVisitor
+```
+
+The abstract class for iterating through subtree with root at the specified node.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DocumentVisitor()](#DocumentVisitor--) |  |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [visitDocumentStart(Document document)](#visitDocumentStart-com.aspose.note.Document-) | Start to visit the  Document  node. |
+| [visitDocumentEnd(Document document)](#visitDocumentEnd-com.aspose.note.Document-) | End to visit the  Document  node. |
+| [visitImageStart(Image image)](#visitImageStart-com.aspose.note.Image-) | Start to visit the  Image  node. |
+| [visitImageEnd(Image image)](#visitImageEnd-com.aspose.note.Image-) | End to visit the  Image  node. |
+| [visitOutlineStart(Outline outline)](#visitOutlineStart-com.aspose.note.Outline-) | Start to visit the  Outline  node. |
+| [visitOutlineEnd(Outline outline)](#visitOutlineEnd-com.aspose.note.Outline-) | End to visit the  Outline  node. |
+| [visitOutlineElementStart(OutlineElement outlineElement)](#visitOutlineElementStart-com.aspose.note.OutlineElement-) | Start to visit the  OutlineElement  node. |
+| [visitOutlineElementEnd(OutlineElement outlineElement)](#visitOutlineElementEnd-com.aspose.note.OutlineElement-) | End to visit the  OutlineElement  node. |
+| [visitOutlineGroupStart(OutlineGroup outlineGroup)](#visitOutlineGroupStart-com.aspose.note.OutlineGroup-) | Start to visit the  OutlineGroup  node. |
+| [visitOutlineGroupEnd(OutlineGroup outlineGroup)](#visitOutlineGroupEnd-com.aspose.note.OutlineGroup-) | End to visit the  OutlineGroup  node. |
+| [visitPageStart(Page page)](#visitPageStart-com.aspose.note.Page-) | Start to visit the  Page  node. |
+| [visitPageEnd(Page page)](#visitPageEnd-com.aspose.note.Page-) | End to visit the  Page  node. |
+| [visitRichTextStart(RichText richText)](#visitRichTextStart-com.aspose.note.RichText-) | Start to visit the  RichText  node. |
+| [visitRichTextEnd(RichText richText)](#visitRichTextEnd-com.aspose.note.RichText-) | End to visit the  RichText  node. |
+| [visitTitleStart(Title title)](#visitTitleStart-com.aspose.note.Title-) | Start to visit the  Title  node. |
+| [visitTitleEnd(Title title)](#visitTitleEnd-com.aspose.note.Title-) | End to visit the  Title  node. |
+| [visitAttachedFileStart(AttachedFile attachedFile)](#visitAttachedFileStart-com.aspose.note.AttachedFile-) | Start to visit the  AttachedFile  node. |
+| [visitAttachedFileEnd(AttachedFile attachedFile)](#visitAttachedFileEnd-com.aspose.note.AttachedFile-) | End to visit the  AttachedFile  node. |
+| [visitTableStart(Table table)](#visitTableStart-com.aspose.note.Table-) | Start to visit the  Table  node. |
+| [visitTableEnd(Table table)](#visitTableEnd-com.aspose.note.Table-) | End to visit the  Table  node. |
+| [visitTableCellStart(TableCell tableCell)](#visitTableCellStart-com.aspose.note.TableCell-) | Start to visit the  TableCell  node. |
+| [visitTableCellEnd(TableCell tableCell)](#visitTableCellEnd-com.aspose.note.TableCell-) | End to visit the  TableCell  node. |
+| [visitTableRowStart(TableRow tableRow)](#visitTableRowStart-com.aspose.note.TableRow-) | Start to visit the  TableRow  node. |
+| [visitTableRowEnd(TableRow tableRow)](#visitTableRowEnd-com.aspose.note.TableRow-) | End to visit the  TableRow  node. |
+### DocumentVisitor() {#DocumentVisitor--}
+```
+public DocumentVisitor()
+```
+
+
+### visitDocumentStart(Document document) {#visitDocumentStart-com.aspose.note.Document-}
+```
+public void visitDocumentStart(Document document)
+```
+
+
+Start to visit the  Document  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | [Document](../../com.aspose.note/document) | The  Document  node. |
+
+### visitDocumentEnd(Document document) {#visitDocumentEnd-com.aspose.note.Document-}
+```
+public void visitDocumentEnd(Document document)
+```
+
+
+End to visit the  Document  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | [Document](../../com.aspose.note/document) | The  Document  node. |
+
+### visitImageStart(Image image) {#visitImageStart-com.aspose.note.Image-}
+```
+public void visitImageStart(Image image)
+```
+
+
+Start to visit the  Image  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [Image](../../com.aspose.note/image) | The  Image  node. |
+
+### visitImageEnd(Image image) {#visitImageEnd-com.aspose.note.Image-}
+```
+public void visitImageEnd(Image image)
+```
+
+
+End to visit the  Image  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [Image](../../com.aspose.note/image) | The  Image  node. |
+
+### visitOutlineStart(Outline outline) {#visitOutlineStart-com.aspose.note.Outline-}
+```
+public void visitOutlineStart(Outline outline)
+```
+
+
+Start to visit the  Outline  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outline | [Outline](../../com.aspose.note/outline) | The  Outline  node. |
+
+### visitOutlineEnd(Outline outline) {#visitOutlineEnd-com.aspose.note.Outline-}
+```
+public void visitOutlineEnd(Outline outline)
+```
+
+
+End to visit the  Outline  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outline | [Outline](../../com.aspose.note/outline) | The  Outline  node. |
+
+### visitOutlineElementStart(OutlineElement outlineElement) {#visitOutlineElementStart-com.aspose.note.OutlineElement-}
+```
+public void visitOutlineElementStart(OutlineElement outlineElement)
+```
+
+
+Start to visit the  OutlineElement  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outlineElement | [OutlineElement](../../com.aspose.note/outlineelement) | The  OutlineElement  node. |
+
+### visitOutlineElementEnd(OutlineElement outlineElement) {#visitOutlineElementEnd-com.aspose.note.OutlineElement-}
+```
+public void visitOutlineElementEnd(OutlineElement outlineElement)
+```
+
+
+End to visit the  OutlineElement  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outlineElement | [OutlineElement](../../com.aspose.note/outlineelement) | The  OutlineElement  node. |
+
+### visitOutlineGroupStart(OutlineGroup outlineGroup) {#visitOutlineGroupStart-com.aspose.note.OutlineGroup-}
+```
+public void visitOutlineGroupStart(OutlineGroup outlineGroup)
+```
+
+
+Start to visit the  OutlineGroup  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outlineGroup | [OutlineGroup](../../com.aspose.note/outlinegroup) | The  OutlineGroup  node. |
+
+### visitOutlineGroupEnd(OutlineGroup outlineGroup) {#visitOutlineGroupEnd-com.aspose.note.OutlineGroup-}
+```
+public void visitOutlineGroupEnd(OutlineGroup outlineGroup)
+```
+
+
+End to visit the  OutlineGroup  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outlineGroup | [OutlineGroup](../../com.aspose.note/outlinegroup) | The  OutlineGroup  node. |
+
+### visitPageStart(Page page) {#visitPageStart-com.aspose.note.Page-}
+```
+public void visitPageStart(Page page)
+```
+
+
+Start to visit the  Page  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| page | [Page](../../com.aspose.note/page) | The  Page  node. |
+
+### visitPageEnd(Page page) {#visitPageEnd-com.aspose.note.Page-}
+```
+public void visitPageEnd(Page page)
+```
+
+
+End to visit the  Page  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| page | [Page](../../com.aspose.note/page) | The  Page  node. |
+
+### visitRichTextStart(RichText richText) {#visitRichTextStart-com.aspose.note.RichText-}
+```
+public void visitRichTextStart(RichText richText)
+```
+
+
+Start to visit the  RichText  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| richText | [RichText](../../com.aspose.note/richtext) | The  RichText  node. |
+
+### visitRichTextEnd(RichText richText) {#visitRichTextEnd-com.aspose.note.RichText-}
+```
+public void visitRichTextEnd(RichText richText)
+```
+
+
+End to visit the  RichText  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| richText | [RichText](../../com.aspose.note/richtext) | The  RichText  node. |
+
+### visitTitleStart(Title title) {#visitTitleStart-com.aspose.note.Title-}
+```
+public void visitTitleStart(Title title)
+```
+
+
+Start to visit the  Title  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| title | [Title](../../com.aspose.note/title) | The  Title  node. |
+
+### visitTitleEnd(Title title) {#visitTitleEnd-com.aspose.note.Title-}
+```
+public void visitTitleEnd(Title title)
+```
+
+
+End to visit the  Title  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| title | [Title](../../com.aspose.note/title) | The  Title  node. |
+
+### visitAttachedFileStart(AttachedFile attachedFile) {#visitAttachedFileStart-com.aspose.note.AttachedFile-}
+```
+public void visitAttachedFileStart(AttachedFile attachedFile)
+```
+
+
+Start to visit the  AttachedFile  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| attachedFile | [AttachedFile](../../com.aspose.note/attachedfile) | The  AttachedFile  node. |
+
+### visitAttachedFileEnd(AttachedFile attachedFile) {#visitAttachedFileEnd-com.aspose.note.AttachedFile-}
+```
+public void visitAttachedFileEnd(AttachedFile attachedFile)
+```
+
+
+End to visit the  AttachedFile  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| attachedFile | [AttachedFile](../../com.aspose.note/attachedfile) | The  AttachedFile  node. |
+
+### visitTableStart(Table table) {#visitTableStart-com.aspose.note.Table-}
+```
+public void visitTableStart(Table table)
+```
+
+
+Start to visit the  Table  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| table | [Table](../../com.aspose.note/table) | The  Table  node. |
+
+### visitTableEnd(Table table) {#visitTableEnd-com.aspose.note.Table-}
+```
+public void visitTableEnd(Table table)
+```
+
+
+End to visit the  Table  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| table | [Table](../../com.aspose.note/table) | The  Table  node. |
+
+### visitTableCellStart(TableCell tableCell) {#visitTableCellStart-com.aspose.note.TableCell-}
+```
+public void visitTableCellStart(TableCell tableCell)
+```
+
+
+Start to visit the  TableCell  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableCell | [TableCell](../../com.aspose.note/tablecell) | The  TableCell  node. |
+
+### visitTableCellEnd(TableCell tableCell) {#visitTableCellEnd-com.aspose.note.TableCell-}
+```
+public void visitTableCellEnd(TableCell tableCell)
+```
+
+
+End to visit the  TableCell  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableCell | [TableCell](../../com.aspose.note/tablecell) | The  TableCell  node. |
+
+### visitTableRowStart(TableRow tableRow) {#visitTableRowStart-com.aspose.note.TableRow-}
+```
+public void visitTableRowStart(TableRow tableRow)
+```
+
+
+Start to visit the  TableRow  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableRow | [TableRow](../../com.aspose.note/tablerow) | The  TableRow  node. |
+
+### visitTableRowEnd(TableRow tableRow) {#visitTableRowEnd-com.aspose.note.TableRow-}
+```
+public void visitTableRowEnd(TableRow tableRow)
+```
+
+
+End to visit the  TableRow  node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableRow | [TableRow](../../com.aspose.note/tablerow) | The  TableRow  node. |
+
