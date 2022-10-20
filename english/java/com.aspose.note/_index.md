@@ -8,7 +8,7 @@ url: /java/com.aspose.note/
 ---
 
 
-The  com.aspose.note  namespace contains classes which represent document structure.
+The **com.aspose.note** namespace contains classes which represent document structure.
 
 
 ## Classes
