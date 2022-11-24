@@ -3,7 +3,7 @@ title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: Adds objects top part to the bottom of the page and clones full object to the next page in case it doesnt fit in original page.
 type: docs
-weight: 710
+weight: 730
 url: /net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm class

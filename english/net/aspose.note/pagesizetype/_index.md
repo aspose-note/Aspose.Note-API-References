@@ -3,7 +3,7 @@ title: PageSizeType
 second_title: Aspose.Note for .NET API Reference
 description: Specifies the size of the page node type.
 type: docs
-weight: 480
+weight: 500
 url: /net/aspose.note/pagesizetype/
 ---
 ## PageSizeType enumeration

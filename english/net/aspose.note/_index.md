@@ -23,6 +23,7 @@ The Note namespace contains classes which represent document structure.
 | [Image](./image) | Represents an Image. |
 | [IncorrectDocumentStructureException](./incorrectdocumentstructureexception) | Thrown if a user created document has incorrect structure. |
 | [IncorrectPasswordException](./incorrectpasswordexception) | Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. |
+| [IndentatedNode&lt;T&gt;](./indentatednode-1) | The base class for nodes with relative indentation for child nodes. |
 | [License](./license) | Provides methods to license the component. |
 | [LoadOptions](./loadoptions) | Options used to load a document. |
 | [MergeOptions](./mergeoptions) | The options for merging a collection of pages. |
@@ -58,6 +59,7 @@ The Note namespace contains classes which represent document structure.
 | --- | --- |
 | [ICompositeNode](./icompositenode) | The interface for nodes that can contain other nodes. |
 | [ICompositeNode&lt;T&gt;](./icompositenode-1) | The interface for nodes that can contain other nodes. |
+| [IIndentatedNode](./iindentatednode) | The interface for nodes with relative indentation for child nodes. |
 | [INode](./inode) | The interface for all nodes of an Aspose.Note document. |
 | [INotebookChildNode](./inotebookchildnode) | Represents an Aspose.Note notebook's child. |
 | [INoteTag](./inotetag) | The interface for note tags(i.e. tags that are not associated with Outlook tasks). |

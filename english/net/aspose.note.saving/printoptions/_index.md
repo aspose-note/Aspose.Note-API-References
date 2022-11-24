@@ -3,7 +3,7 @@ title: PrintOptions
 second_title: Aspose.Note for .NET API Reference
 description: Options used to print a document.
 type: docs
-weight: 840
+weight: 860
 url: /net/aspose.note.saving/printoptions/
 ---
 ## PrintOptions class

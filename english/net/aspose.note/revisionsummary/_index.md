@@ -3,7 +3,7 @@ title: RevisionSummary
 second_title: Aspose.Note for .NET API Reference
 description: Represents a summary for nodes revision.
 type: docs
-weight: 500
+weight: 520
 url: /net/aspose.note/revisionsummary/
 ---
 ## RevisionSummary class

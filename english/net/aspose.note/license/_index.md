@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Note for .NET API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 290
+weight: 310
 url: /net/aspose.note/license/
 ---
 ## License class

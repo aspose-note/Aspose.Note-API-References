@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Note for .NET API Reference
 description: Implement this interface if you want to control how Aspose.Note saves separate pages.
 type: docs
-weight: 630
+weight: 650
 url: /net/aspose.note.saving.html/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

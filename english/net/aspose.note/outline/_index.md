@@ -3,7 +3,7 @@ title: Outline
 second_title: Aspose.Note for .NET API Reference
 description: Represents a Outline.
 type: docs
-weight: 430
+weight: 450
 url: /net/aspose.note/outline/
 ---
 ## Outline class
@@ -11,7 +11,7 @@ url: /net/aspose.note/outline/
 Represents a Outline.
 
 ```csharp
-public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
+public sealed class Outline : IndentatedNode<IOutlineChildNode>, IPageChildNode
 ```
 
 ## Constructors
@@ -28,7 +28,7 @@ public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
 | [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
 | [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
 | [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
-| [IndentPosition](../../aspose.note/outline/indentposition) { get; set; } | Gets or sets the indent position. |
+| [IndentPosition](../../aspose.note/indentatednode`1/indentposition) { get; set; } |  |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
 | [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
@@ -235,7 +235,7 @@ doc.Save(dataDir);
 
 ### See Also
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1)
 * interface [IOutlineChildNode](../ioutlinechildnode)
 * interface [IPageChildNode](../ipagechildnode)
 * namespace [Aspose.Note](../../aspose.note)

@@ -1,25 +1,23 @@
 ---
-title: OutlineGroup
+title: IndentatedNodeT
 second_title: Aspose.Note for .NET API Reference
-description: Represents a OutlineGroup.
+description: The base class for nodes with relative indentation for child nodes.
 type: docs
-weight: 470
-url: /net/aspose.note/outlinegroup/
+weight: 300
+url: /net/aspose.note/indentatednode-1/
 ---
-## OutlineGroup class
+## IndentatedNode&lt;T&gt; class
 
-Represents a OutlineGroup.
+The base class for nodes with relative indentation for child nodes.
 
 ```csharp
-public sealed class OutlineGroup : IndentatedNode<IOutlineChildNode>, IOutlineChildNode, 
-    IOutlineElementChildNode
+public class IndentatedNode<T> : CompositeNode<T>, IIndentatedNode
+    where T : INode
 ```
 
-## Constructors
-
-| Name | Description |
+| Parameter | Description |
 | --- | --- |
-| [OutlineGroup](outlinegroup#constructor)() | Initializes a new instance of the [`OutlineGroup`](../outlinegroup) class. |
+| T | The type of elements in the composite node. |
 
 ## Properties
 
@@ -27,7 +25,7 @@ public sealed class OutlineGroup : IndentatedNode<IOutlineChildNode>, IOutlineCh
 | --- | --- |
 | [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
 | [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IndentPosition](../../aspose.note/indentatednode`1/indentposition) { get; set; } |  |
+| [IndentPosition](../../aspose.note/indentatednode`1/indentposition) { get; set; } | Gets or sets the indent position. |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
 | [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
@@ -39,21 +37,21 @@ public sealed class OutlineGroup : IndentatedNode<IOutlineChildNode>, IOutlineCh
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.note/outlinegroup/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [Accept](../../aspose.note/compositenode`1/accept)(DocumentVisitor) |  |
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
 | [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineChildNode[]) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;T&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params T[]) |  |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
 
 ### See Also
 
-* class [IndentatedNode&lt;T&gt;](../indentatednode-1)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
+* class [CompositeNode&lt;T&gt;](../compositenode-1)
+* interface [IIndentatedNode](../iindentatednode)
+* interface [INode](../inode)
 * namespace [Aspose.Note](../../aspose.note)
 * assembly [Aspose.Note](../../)
 

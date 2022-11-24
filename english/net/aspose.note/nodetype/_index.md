@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Note for .NET API Reference
 description: Specifies the type of the node.
 type: docs
-weight: 350
+weight: 370
 url: /net/aspose.note/nodetype/
 ---
 ## NodeType enumeration

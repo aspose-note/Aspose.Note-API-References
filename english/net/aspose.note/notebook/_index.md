@@ -3,7 +3,7 @@ title: Notebook
 second_title: Aspose.Note for .NET API Reference
 description: Represents an Aspose.Note notebook.
 type: docs
-weight: 390
+weight: 410
 url: /net/aspose.note/notebook/
 ---
 ## Notebook class

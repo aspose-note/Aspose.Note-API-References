@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Note for .NET API Reference
 description: Implement this interface if you want to control how Aspose.Note saves fonts when saving a document to HTML.
 type: docs
-weight: 610
+weight: 630
 url: /net/aspose.note.saving.html/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
