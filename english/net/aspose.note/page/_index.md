@@ -3,7 +3,7 @@ title: Page
 second_title: Aspose.Note for .NET API Reference
 description: Represents a page.
 type: docs
-weight: 460
+weight: 480
 url: /net/aspose.note/page/
 ---
 ## Page class

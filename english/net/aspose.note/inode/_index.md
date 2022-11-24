@@ -3,7 +3,7 @@ title: INode
 second_title: Aspose.Note for .NET API Reference
 description: The interface for all nodes of an Aspose.Note document.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.note/inode/
 ---
 ## INode interface

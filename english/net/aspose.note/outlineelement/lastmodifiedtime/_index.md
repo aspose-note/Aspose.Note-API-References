@@ -3,7 +3,7 @@ title: LastModifiedTime
 second_title: Aspose.Note for .NET API Reference
 description: Gets or sets the last modified time.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.note/outlineelement/lastmodifiedtime/
 ---
 ## OutlineElement.LastModifiedTime property

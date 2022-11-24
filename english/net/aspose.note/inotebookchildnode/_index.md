@@ -3,7 +3,7 @@ title: INotebookChildNode
 second_title: Aspose.Note for .NET API Reference
 description: Represents an Aspose.Note notebooks child.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.note/inotebookchildnode/
 ---
 ## INotebookChildNode interface

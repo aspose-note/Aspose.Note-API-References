@@ -3,7 +3,7 @@ title: TableCell
 second_title: Aspose.Note for .NET API Reference
 description: Represents a table cell.
 type: docs
-weight: 890
+weight: 910
 url: /net/aspose.note/tablecell/
 ---
 ## TableCell class
@@ -11,7 +11,7 @@ url: /net/aspose.note/tablecell/
 Represents a table cell.
 
 ```csharp
-public sealed class TableCell : CompositeNode<OutlineElement>
+public sealed class TableCell : CompositeNode<IOutlineChildNode>
 ```
 
 ## Constructors
@@ -46,8 +46,8 @@ public sealed class TableCell : CompositeNode<OutlineElement>
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
 | [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;OutlineElement&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params OutlineElement[]) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineChildNode[]) |  |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
 
 ### Examples
@@ -313,7 +313,7 @@ doc.Save(dataDir);
 ### See Also
 
 * class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [OutlineElement](../outlineelement)
+* interface [IOutlineChildNode](../ioutlinechildnode)
 * namespace [Aspose.Note](../../aspose.note)
 * assembly [Aspose.Note](../../)
 

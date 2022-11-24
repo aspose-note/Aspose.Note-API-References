@@ -3,7 +3,7 @@ title: ReservedWidth
 second_title: Aspose.Note for .NET API Reference
 description: Gets or sets the reserved width.
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.note/outline/reservedwidth/
 ---
 ## Outline.ReservedWidth property

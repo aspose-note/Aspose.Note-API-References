@@ -3,7 +3,7 @@ title: MaxHeight
 second_title: Aspose.Note for .NET API Reference
 description: Gets or sets the max height.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.note/outline/maxheight/
 ---
 ## Outline.MaxHeight property

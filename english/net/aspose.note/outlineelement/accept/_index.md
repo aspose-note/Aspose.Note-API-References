@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Note for .NET API Reference
 description: Accepts the visitor of the node.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.note/outlineelement/accept/
 ---
 ## OutlineElement.Accept method

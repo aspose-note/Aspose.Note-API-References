@@ -3,7 +3,7 @@ title: OneSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Allows to specify additional options when saving document to OneNote format.
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.note.saving/onesaveoptions/
 ---
 ## OneSaveOptions class

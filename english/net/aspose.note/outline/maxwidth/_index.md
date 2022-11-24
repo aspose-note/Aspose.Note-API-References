@@ -3,7 +3,7 @@ title: MaxWidth
 second_title: Aspose.Note for .NET API Reference
 description: Gets or sets the max width.
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.note/outline/maxwidth/
 ---
 ## Outline.MaxWidth property

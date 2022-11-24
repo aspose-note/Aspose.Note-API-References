@@ -3,7 +3,7 @@ title: BinarizationMethod
 second_title: Aspose.Note for .NET API Reference
 description: Specifies binarization method for an image.
 type: docs
-weight: 540
+weight: 560
 url: /net/aspose.note.saving/binarizationmethod/
 ---
 ## BinarizationMethod enumeration
