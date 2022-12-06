@@ -3,7 +3,7 @@ title: TextRun
 second_title: Aspose.Note for Java API Reference
 description: The class representing a piece of text with associated style.
 type: docs
-weight: 76
+weight: 77
 url: /java/com.aspose.note/textrun/
 ---
 

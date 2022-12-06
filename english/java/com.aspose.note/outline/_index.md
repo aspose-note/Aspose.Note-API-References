@@ -3,17 +3,17 @@ title: Outline
 second_title: Aspose.Note for Java API Reference
 description: Represents a Outline.
 type: docs
-weight: 51
+weight: 52
 url: /java/com.aspose.note/outline/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode
+java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode, com.aspose.note.IndentatedNode
 
 **All Implemented Interfaces:**
 [com.aspose.note.IPageChildNode](../../com.aspose.note/ipagechildnode)
 ```
-public final class Outline extends CompositeNode<IOutlineChildNode> implements IPageChildNode
+public final class Outline extends IndentatedNode<IOutlineChildNode,Outline> implements IPageChildNode
 ```
 
 Represents a Outline.
@@ -27,8 +27,6 @@ Represents a Outline.
 
 | Method | Description |
 | --- | --- |
-| [getIndentPosition()](#getIndentPosition--) | Gets or sets the indent position. |
-| [setIndentPosition(byte value)](#setIndentPosition-byte-) | Gets or sets the indent position. |
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 | [getMaxWidth()](#getMaxWidth--) | Gets or sets the max width. |
@@ -66,29 +64,6 @@ public Outline()
 
 
 Initializes a new instance of the [Outline](../../com.aspose.note/outline) class.
-
-### getIndentPosition() {#getIndentPosition--}
-```
-public byte getIndentPosition()
-```
-
-
-Gets or sets the indent position.
-
-**Returns:**
-byte
-### setIndentPosition(byte value) {#setIndentPosition-byte-}
-```
-public void setIndentPosition(byte value)
-```
-
-
-Gets or sets the indent position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte |  |
 
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```

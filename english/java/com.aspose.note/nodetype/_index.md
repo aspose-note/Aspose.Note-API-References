@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Note for Java API Reference
 description: Specifies the type of the node.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.aspose.note/nodetype/
 ---
 

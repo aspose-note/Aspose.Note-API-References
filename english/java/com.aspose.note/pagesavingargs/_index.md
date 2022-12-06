@@ -3,7 +3,7 @@ title: PageSavingArgs
 second_title: Aspose.Note for Java API Reference
 description: Provides data for PageSaving event.
 type: docs
-weight: 56
+weight: 57
 url: /java/com.aspose.note/pagesavingargs/
 ---
 

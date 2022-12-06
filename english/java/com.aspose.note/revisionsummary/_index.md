@@ -3,7 +3,7 @@ title: RevisionSummary
 second_title: Aspose.Note for Java API Reference
 description: Represents a summary for nodes revision.
 type: docs
-weight: 66
+weight: 67
 url: /java/com.aspose.note/revisionsummary/
 ---
 

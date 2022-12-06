@@ -3,7 +3,7 @@ title: NotebookSaveOptionsGeneric
 second_title: Aspose.Note for Java API Reference
 description: An abstract base class which represents notebook saving options for a particular format and provides common saving options for all document child nodes.
 type: docs
-weight: 47
+weight: 48
 url: /java/com.aspose.note/notebooksaveoptionsgeneric/
 ---
 

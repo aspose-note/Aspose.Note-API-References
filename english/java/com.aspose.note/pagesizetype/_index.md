@@ -3,7 +3,7 @@ title: PageSizeType
 second_title: Aspose.Note for Java API Reference
 description: Specifies the size of the page node type.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.note/pagesizetype/
 ---
 

@@ -3,7 +3,7 @@ title: KeepSolidObjectsAlgorithm
 second_title: Aspose.Note for Java API Reference
 description: Shifts full object to the next page in case it doesnt fit in original page.
 type: docs
-weight: 30
+weight: 31
 url: /java/com.aspose.note/keepsolidobjectsalgorithm/
 ---
 

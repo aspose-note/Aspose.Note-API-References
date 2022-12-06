@@ -8,7 +8,7 @@ url: /java/com.aspose.note.fonts/
 ---
 
 
-The **com.aspose.note.fonts** namespace contains classes which provides functionality to manipulate by font's environment for a document.
+The  com.aspose.note.fonts  namespace contains classes which provides functionality to manipulate by font's environment for a document.
 
 
 ## Classes

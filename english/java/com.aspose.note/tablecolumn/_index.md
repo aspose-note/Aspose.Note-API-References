@@ -3,7 +3,7 @@ title: TableColumn
 second_title: Aspose.Note for Java API Reference
 description: Represents a table column.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.note/tablecolumn/
 ---
 

@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Note for Java API Reference
 description: Specifies the text style.
 type: docs
-weight: 77
+weight: 78
 url: /java/com.aspose.note/textstyle/
 ---
 

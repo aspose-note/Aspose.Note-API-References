@@ -3,7 +3,7 @@ title: Page
 second_title: Aspose.Note for Java API Reference
 description: Represents a page.
 type: docs
-weight: 54
+weight: 55
 url: /java/com.aspose.note/page/
 ---
 

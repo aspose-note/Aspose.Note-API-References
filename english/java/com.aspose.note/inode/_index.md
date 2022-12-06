@@ -3,7 +3,7 @@ title: INode
 second_title: Aspose.Note for Java API Reference
 description: The interface for all nodes of an Aspose.Note document.
 type: docs
-weight: 85
+weight: 87
 url: /java/com.aspose.note/inode/
 ---
 ```

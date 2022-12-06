@@ -8,7 +8,7 @@ url: /java/com.aspose.note/
 ---
 
 
-The **com.aspose.note** namespace contains classes which represent document structure.
+The  com.aspose.note  namespace contains classes which represent document structure.
 
 
 ## Classes
@@ -34,6 +34,7 @@ The **com.aspose.note** namespace contains classes which represent document stru
 | [ImageBinarizationOptions](../com.aspose.note/imagebinarizationoptions) | Options for image's binarization. |
 | [ImageSaveOptions](../com.aspose.note/imagesaveoptions) | Allows to specify additional options when rendering document pages to images. |
 | [ImageSavingArgs](../com.aspose.note/imagesavingargs) | Provides data for ImageSaving event. |
+| [IndentatedNode<T,Self>](../com.aspose.note/indentatednode) | The base class for nodes with relative indentation for child nodes. |
 | [KeepPartAndCloneSolidObjectToNextPageAlgorithm](../com.aspose.note/keeppartandclonesolidobjecttonextpagealgorithm) | Adds object's top part to the bottom of the page and clones full object to the next page in case it doesn't fit in original page. |
 | [KeepSolidObjectsAlgorithm](../com.aspose.note/keepsolidobjectsalgorithm) | Shifts full object to the next page in case it doesn't fit in original page. |
 | [License](../com.aspose.note/license) | Provides methods to license the component. |
@@ -95,6 +96,7 @@ The **com.aspose.note** namespace contains classes which represent document stru
 | [ICssSavingCallback](../com.aspose.note/icsssavingcallback) | Implement this interface if you want to control how Aspose.Note saves CSS (Cascading Style Sheet) when saving a document to HTML. |
 | [IFontSavingCallback](../com.aspose.note/ifontsavingcallback) | Implement this interface if you want to control how Aspose.Note saves fonts when saving a document to HTML. |
 | [IImageSavingCallback](../com.aspose.note/iimagesavingcallback) | Implement this interface if you want to control how Aspose.Note saves images when saving a document to HTML. |
+| [IIndentatedNode](../com.aspose.note/iindentatednode) | The interface for nodes with relative indentation for child nodes. |
 | [INode](../com.aspose.note/inode) | The interface for all nodes of an Aspose.Note document. |
 | [INoteTag](../com.aspose.note/inotetag) | The interface for note tags(i.e. tags that are not associated with Outlook tasks). |
 | [INotebookChildNode](../com.aspose.note/inotebookchildnode) | Represents an Aspose.Note notebook's child. |

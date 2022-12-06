@@ -3,7 +3,7 @@ title: TableRow
 second_title: Aspose.Note for Java API Reference
 description: Represents a table row.
 type: docs
-weight: 74
+weight: 75
 url: /java/com.aspose.note/tablerow/
 ---
 

@@ -3,7 +3,7 @@ title: INoteTag
 second_title: Aspose.Note for Java API Reference
 description: The interface for note tagsi.e. tags that are not associated with Outlook tasks.
 type: docs
-weight: 86
+weight: 88
 url: /java/com.aspose.note/inotetag/
 ---
 

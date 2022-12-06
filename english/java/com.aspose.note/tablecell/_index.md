@@ -3,14 +3,14 @@ title: TableCell
 second_title: Aspose.Note for Java API Reference
 description: Represents a table cell.
 type: docs
-weight: 72
+weight: 73
 url: /java/com.aspose.note/tablecell/
 ---
 
 **Inheritance:**
 java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode
 ```
-public final class TableCell extends CompositeNode<OutlineElement>
+public final class TableCell extends CompositeNode<IOutlineChildNode>
 ```
 
 Represents a table cell.

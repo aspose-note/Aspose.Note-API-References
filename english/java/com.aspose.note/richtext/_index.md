@@ -3,7 +3,7 @@ title: RichText
 second_title: Aspose.Note for Java API Reference
 description: Represents a rich text.
 type: docs
-weight: 67
+weight: 68
 url: /java/com.aspose.note/richtext/
 ---
 
