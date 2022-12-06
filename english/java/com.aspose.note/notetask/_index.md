@@ -3,7 +3,7 @@ title: NoteTask
 second_title: Aspose.Note for Java API Reference
 description: Represents a note task.
 type: docs
-weight: 40
+weight: 41
 url: /java/com.aspose.note/notetask/
 ---
 

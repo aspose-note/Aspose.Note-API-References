@@ -3,7 +3,7 @@ title: NumberList
 second_title: Aspose.Note for Java API Reference
 description: Represents the numbered or bulleted list.
 type: docs
-weight: 49
+weight: 50
 url: /java/com.aspose.note/numberlist/
 ---
 

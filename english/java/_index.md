@@ -10,5 +10,5 @@ is_root: true
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.note](./com.aspose.note) | The **com.aspose.note** namespace contains classes which represent document structure. |
-| [com.aspose.note.fonts](./com.aspose.note.fonts) | The **com.aspose.note.fonts** namespace contains classes which provides functionality to manipulate by font's environment for a document. |
+| [com.aspose.note](./com.aspose.note) | The \`\`\` com.aspose.note \`\`\` namespace contains classes which represent document structure. |
+| [com.aspose.note.fonts](./com.aspose.note.fonts) | The \`\`\` com.aspose.note.fonts \`\`\` namespace contains classes which provides functionality to manipulate by font's environment for a document. |

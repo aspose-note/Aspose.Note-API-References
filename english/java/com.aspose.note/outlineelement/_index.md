@@ -3,17 +3,17 @@ title: OutlineElement
 second_title: Aspose.Note for Java API Reference
 description: Represents a OutlineElement.
 type: docs
-weight: 52
+weight: 53
 url: /java/com.aspose.note/outlineelement/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode
+java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode, com.aspose.note.IndentatedNode
 
 **All Implemented Interfaces:**
 [com.aspose.note.IOutlineChildNode](../../com.aspose.note/ioutlinechildnode), [com.aspose.note.IOutlineElementChildNode](../../com.aspose.note/ioutlineelementchildnode)
 ```
-public final class OutlineElement extends CompositeNode<IOutlineElementChildNode> implements IOutlineChildNode, IOutlineElementChildNode
+public final class OutlineElement extends IndentatedNode<IOutlineElementChildNode,OutlineElement> implements IOutlineChildNode, IOutlineElementChildNode
 ```
 
 Represents a OutlineElement.
@@ -27,8 +27,6 @@ Represents a OutlineElement.
 
 | Method | Description |
 | --- | --- |
-| [getIndentPosition()](#getIndentPosition--) | Gets or sets the indent position. |
-| [setIndentPosition(byte value)](#setIndentPosition-byte-) | Gets or sets the indent position. |
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 | [getCreationTime()](#getCreationTime--) | Gets or sets the creation time. |
@@ -56,29 +54,6 @@ public OutlineElement()
 
 
 Initializes a new instance of the  OutlineElement  class.
-
-### getIndentPosition() {#getIndentPosition--}
-```
-public byte getIndentPosition()
-```
-
-
-Gets or sets the indent position.
-
-**Returns:**
-byte
-### setIndentPosition(byte value) {#setIndentPosition-byte-}
-```
-public void setIndentPosition(byte value)
-```
-
-
-Gets or sets the indent position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte |  |
 
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```

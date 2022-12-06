@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Note for Java API Reference
 description: Allows to specify additional options when rendering document pages to PDF.
 type: docs
-weight: 62
+weight: 63
 url: /java/com.aspose.note/pdfsaveoptions/
 ---
 

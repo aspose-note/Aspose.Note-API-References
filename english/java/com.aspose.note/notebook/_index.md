@@ -3,7 +3,7 @@ title: Notebook
 second_title: Aspose.Note for Java API Reference
 description: Represents an Aspose.Note notebook.
 type: docs
-weight: 41
+weight: 42
 url: /java/com.aspose.note/notebook/
 ---
 

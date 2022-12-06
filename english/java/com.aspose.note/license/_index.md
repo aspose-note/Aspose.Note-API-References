@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Note for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 31
+weight: 32
 url: /java/com.aspose.note/license/
 ---
 

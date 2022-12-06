@@ -3,7 +3,7 @@ title: INotebookChildNode
 second_title: Aspose.Note for Java API Reference
 description: Represents an Aspose.Note notebooks child.
 type: docs
-weight: 87
+weight: 89
 url: /java/com.aspose.note/inotebookchildnode/
 ---
 ```

@@ -3,7 +3,7 @@ title: ITaggable
 second_title: Aspose.Note for Java API Reference
 description: The interface for nodes that can be marked by tags.
 type: docs
-weight: 93
+weight: 95
 url: /java/com.aspose.note/itaggable/
 ---
 

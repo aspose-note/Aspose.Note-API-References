@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Note for Java API Reference
 description: Implement this interface if you want to control how Aspose.Note saves separate pages.
 type: docs
-weight: 91
+weight: 93
 url: /java/com.aspose.note/ipagesavingcallback/
 ---
 ```

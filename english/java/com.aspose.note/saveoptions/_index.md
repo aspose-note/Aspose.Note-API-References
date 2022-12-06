@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Note for Java API Reference
 description: An abstract base class which represents document saving options for a particular format.
 type: docs
-weight: 69
+weight: 70
 url: /java/com.aspose.note/saveoptions/
 ---
 

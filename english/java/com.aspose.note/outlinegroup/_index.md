@@ -3,17 +3,17 @@ title: OutlineGroup
 second_title: Aspose.Note for Java API Reference
 description: Represents a OutlineGroup.
 type: docs
-weight: 53
+weight: 54
 url: /java/com.aspose.note/outlinegroup/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode
+java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode, com.aspose.note.IndentatedNode
 
 **All Implemented Interfaces:**
 [com.aspose.note.IOutlineChildNode](../../com.aspose.note/ioutlinechildnode), [com.aspose.note.IOutlineElementChildNode](../../com.aspose.note/ioutlineelementchildnode)
 ```
-public final class OutlineGroup extends CompositeNode<IOutlineChildNode> implements IOutlineChildNode, IOutlineElementChildNode
+public final class OutlineGroup extends IndentatedNode<IOutlineChildNode,OutlineGroup> implements IOutlineChildNode, IOutlineElementChildNode
 ```
 
 Represents a OutlineGroup.
@@ -27,8 +27,6 @@ Represents a OutlineGroup.
 
 | Method | Description |
 | --- | --- |
-| [getIndentPosition()](#getIndentPosition--) | Gets or sets the indent position. |
-| [setIndentPosition(byte value)](#setIndentPosition-byte-) | Gets or sets the indent position. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 ### OutlineGroup(Document document) {#OutlineGroup-com.aspose.note.Document-}
 ```
@@ -50,29 +48,6 @@ public OutlineGroup()
 
 
 Initializes a new instance of the  OutlineGroup  class.
-
-### getIndentPosition() {#getIndentPosition--}
-```
-public byte getIndentPosition()
-```
-
-
-Gets or sets the indent position.
-
-**Returns:**
-byte
-### setIndentPosition(byte value) {#setIndentPosition-byte-}
-```
-public void setIndentPosition(byte value)
-```
-
-
-Gets or sets the indent position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte |  |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```

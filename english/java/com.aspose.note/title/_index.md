@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Note for Java API Reference
 description: Represents a title.
 type: docs
-weight: 79
+weight: 80
 url: /java/com.aspose.note/title/
 ---
 

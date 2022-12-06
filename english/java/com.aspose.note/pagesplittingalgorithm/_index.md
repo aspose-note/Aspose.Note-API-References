@@ -3,7 +3,7 @@ title: PageSplittingAlgorithm
 second_title: Aspose.Note for Java API Reference
 description: Base class for splitting an object in case it doesnt fit in original page.
 type: docs
-weight: 59
+weight: 60
 url: /java/com.aspose.note/pagesplittingalgorithm/
 ---
 
