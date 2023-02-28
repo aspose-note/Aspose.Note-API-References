@@ -1,7 +1,7 @@
 ---
-title: DocumentVisitor
+title: Class DocumentVisitor
 second_title: Aspose.Note لمرجع NET API
-description: فئة مجردة للتكرار خلال الشجرة الفرعية مع الجذر في العقدة المحددة.
+description: Aspose.Note.DocumentVisitor فصل. فئة مجردة للتكرار خلال الشجرة الفرعية مع الجذر في العقدة المحددة.
 type: docs
 weight: 70
 url: /ar/net/aspose.note/documentvisitor/
@@ -18,30 +18,30 @@ public abstract class DocumentVisitor
 
 | اسم | وصف |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | نهاية لزيارة[`AttachedFile`](../attachedfile) العقدة . |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | ابدأ بزيارة موقع[`AttachedFile`](../attachedfile) العقدة . |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | نهاية لزيارة[`Document`](../document) العقدة . |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | ابدأ بزيارة موقع[`Document`](../document) العقدة . |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | نهاية لزيارة[`Image`](../image) العقدة . |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | ابدأ بزيارة موقع[`Image`](../image) العقدة . |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | نهاية لزيارة[`OutlineElement`](../outlineelement) العقدة . |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | ابدأ بزيارة موقع[`OutlineElement`](../outlineelement) العقدة . |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | نهاية لزيارة[`Outline`](../outline) العقدة . |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | نهاية لزيارة[`OutlineGroup`](../outlinegroup) العقدة . |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | ابدأ بزيارة موقع[`OutlineGroup`](../outlinegroup) العقدة . |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | ابدأ بزيارة موقع[`Outline`](../outline) العقدة . |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | نهاية لزيارة[`Page`](../page) العقدة . |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | ابدأ بزيارة موقع[`Page`](../page) العقدة . |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | نهاية لزيارة[`RichText`](../richtext) العقدة . |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | ابدأ بزيارة موقع[`RichText`](../richtext) العقدة . |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | نهاية لزيارة[`TableCell`](../tablecell) العقدة . |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | ابدأ بزيارة موقع[`TableCell`](../tablecell) العقدة . |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | نهاية لزيارة[`Table`](../table) العقدة . |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | نهاية لزيارة[`TableRow`](../tablerow) العقدة . |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | ابدأ بزيارة موقع[`TableRow`](../tablerow) العقدة . |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | ابدأ بزيارة موقع[`Table`](../table) العقدة . |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | نهاية لزيارة[`Title`](../title) العقدة . |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | ابدأ بزيارة موقع[`Title`](../title) العقدة . |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend/)(AttachedFile) | نهاية لزيارة[`AttachedFile`](../attachedfile/) العقدة . |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart/)(AttachedFile) | ابدأ بزيارة موقع[`AttachedFile`](../attachedfile/) العقدة . |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend/)(Document) | نهاية لزيارة[`Document`](../document/) العقدة . |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart/)(Document) | ابدأ بزيارة موقع[`Document`](../document/) العقدة . |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend/)(Image) | نهاية لزيارة[`Image`](../image/) العقدة . |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart/)(Image) | ابدأ بزيارة موقع[`Image`](../image/) العقدة . |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend/)(OutlineElement) | نهاية لزيارة[`OutlineElement`](../outlineelement/) العقدة . |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart/)(OutlineElement) | ابدأ بزيارة موقع[`OutlineElement`](../outlineelement/) العقدة . |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend/)(Outline) | نهاية لزيارة[`Outline`](../outline/) العقدة . |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend/)(OutlineGroup) | نهاية لزيارة[`OutlineGroup`](../outlinegroup/) العقدة . |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart/)(OutlineGroup) | ابدأ بزيارة موقع[`OutlineGroup`](../outlinegroup/) العقدة . |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart/)(Outline) | ابدأ بزيارة موقع[`Outline`](../outline/) العقدة . |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend/)(Page) | نهاية لزيارة[`Page`](../page/) العقدة . |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart/)(Page) | ابدأ بزيارة موقع[`Page`](../page/) العقدة . |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend/)(RichText) | نهاية لزيارة[`RichText`](../richtext/) العقدة . |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart/)(RichText) | ابدأ بزيارة موقع[`RichText`](../richtext/) العقدة . |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend/)(TableCell) | نهاية لزيارة[`TableCell`](../tablecell/) العقدة . |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart/)(TableCell) | ابدأ بزيارة موقع[`TableCell`](../tablecell/) العقدة . |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend/)(Table) | نهاية لزيارة[`Table`](../table/) العقدة . |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend/)(TableRow) | نهاية لزيارة[`TableRow`](../tablerow/) العقدة . |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart/)(TableRow) | ابدأ بزيارة موقع[`TableRow`](../tablerow/) العقدة . |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart/)(Table) | ابدأ بزيارة موقع[`Table`](../table/) العقدة . |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend/)(Title) | نهاية لزيارة[`Title`](../title/) العقدة . |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart/)(Title) | ابدأ بزيارة موقع[`Title`](../title/) العقدة . |
 
 ### أمثلة
 
@@ -122,7 +122,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة الصفحة في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة الصفحة في المستند.
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -147,7 +147,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة صورة في المستند.
+    /// يتم الاستدعاء عند مواجهة عقدة صورة في المستند.
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -163,7 +163,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة مخطط تفصيلي في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة مخطط تفصيلي في المستند.
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -194,7 +194,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

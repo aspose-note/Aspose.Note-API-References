@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Document.Save
 second_title: Aspose.Note لمرجع NET API
-description: يحفظ مستند OneNote في ملف.
+description: Document طريقة. يحفظ مستند OneNote في ملف.
 type: docs
 weight: 140
 url: /ar/net/aspose.note/document/save/
@@ -16,14 +16,14 @@ public void Save(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فسيتم استبدال الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أمثلة
 
@@ -40,8 +40,8 @@ doc.Save(dataDir + outputFile);
 
 ### أنظر أيضا
 
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -62,13 +62,13 @@ public void Save(Stream stream)
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أنظر أيضا
 
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -83,15 +83,15 @@ public void Save(string fileName, SaveFormat format)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فسيتم استبدال الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
 | format | SaveFormat | التنسيق المراد حفظ المستند به. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أمثلة
 
@@ -124,9 +124,9 @@ oneFile.Save(dataDir, SaveFormat.Gif);
 
 ### أنظر أيضا
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -148,8 +148,8 @@ public void Save(Stream stream, SaveFormat format)
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أمثلة
 
@@ -183,11 +183,37 @@ doc.Save(dstStream, SaveFormat.Pdf);
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
+يوضح كيفية تطبيق نمط النسق الداكن على مستند.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// قم بتحميل المستند في Aspose.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 ### أنظر أيضا
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -202,15 +228,15 @@ public void Save(string fileName, SaveOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فسيتم استبدال الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
 | options | SaveOptions | يحدد الخيارات كيفية حفظ المستند في ملف. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أمثلة
 
@@ -254,6 +280,36 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
 // احفظ المستند.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
+```
+
+يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة الرسالة.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// قم بتحميل المستند في Aspose.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// احفظ المستند.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 بدون حد للارتفاع.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// قم بتحميل المستند في Aspose.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// احفظ المستند.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
 يوضح كيفية حفظ مستند كصورة ذات تدرج رمادي.
@@ -424,9 +480,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### أنظر أيضا
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -448,8 +504,8 @@ public void Save(Stream stream, SaveOptions options)
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أمثلة
 
@@ -514,9 +570,9 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### أنظر أيضا
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

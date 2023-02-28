@@ -1,9 +1,9 @@
 ---
-title: TextStyle
+title: Class TextStyle
 second_title: Aspose.Note لمرجع NET API
-description: يحدد نمط النص .
+description: Aspose.Note.TextStyle فصل. يحدد نمط النص .
 type: docs
-weight: 940
+weight: 970
 url: /ar/net/aspose.note/textstyle/
 ---
 ## TextStyle class
@@ -18,40 +18,40 @@ public sealed class TextStyle : Style
 
 | اسم | وصف |
 | --- | --- |
-| [TextStyle](textstyle)() | Default_Constructor |
+| [TextStyle](textstyle/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| static [Default](../../aspose.note/textstyle/default) { get; } | الحصول على النمط الافتراضي لنص العنوان في MS OneNote . |
-| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle) { get; } | الحصول على النمط الافتراضي لتاريخ العنوان في MS OneNote . |
-| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle) { get; } | الحصول على النمط الافتراضي لنص العنوان في MS OneNote . |
-| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle) { get; } | الحصول على النمط الافتراضي لوقت العنوان في MS OneNote . |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | الحصول على لون الخط أو تعيينه. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | الحصول على اسم الخط أو تحديده. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | الحصول على حجم الخط أو تحديده. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | يحصل على نمط الخط . |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | الحصول على لون التمييز أو تعيينه. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | الحصول على عنوان الارتباط التشعبي أو تعيينه. يجب تعيين إذا كانت قيمة[`IsHyperlink`](./ishyperlink) الخاصية صحيحة . |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص غامقًا . |
-| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مخفيًا. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص ارتباطًا تشعبيًا. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مائلاً. |
-| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان نمط النص يتوسطه خط أم لا. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص تحته خط أم لا. |
-| [Language](../../aspose.note/textstyle/language) { get; set; } | الحصول على لغة النص أو تحديدها . |
+| static [Default](../../aspose.note/textstyle/default/) { get; } | يحصل على النمط مع ثقافة "en-US" . |
+| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle/) { get; } | الحصول على النمط الافتراضي لتاريخ العنوان في MS OneNote . |
+| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | الحصول على النمط الافتراضي لنص العنوان في MS OneNote . |
+| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | الحصول على النمط الافتراضي لوقت العنوان في MS OneNote . |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | الحصول على لون الخط أو تعيينه. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | الحصول على اسم الخط أو تحديده. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | الحصول على حجم الخط أو تحديده. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | يحصل على نمط الخط . |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | الحصول على لون التمييز أو تعيينه. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | الحصول على عنوان الارتباط التشعبي أو تعيينه. يجب تعيين إذا كانت قيمة[`IsHyperlink`](./ishyperlink/) الخاصية صحيحة . |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص غامقًا . |
+| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مخفيًا. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص ارتباطًا تشعبيًا. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مائلاً. |
+| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص يتوسطه خط أم لا. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص تحته خط أم لا. |
+| [Language](../../aspose.note/textstyle/language/) { get; set; } | الحصول على لغة النص أو تحديدها . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
-| [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | يعمل كدالة تجزئة للنوع. |
+| override [Equals](../../aspose.note/textstyle/equals/#equals_1)(object) | تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [Equals](../../aspose.note/textstyle/equals/#equals)(TextStyle) | تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode/)() | يعمل كدالة تجزئة للنوع. |
 
 ### أمثلة
 
@@ -208,8 +208,8 @@ doc.Save(dataDir);
 
 ### أنظر أيضا
 
-* class [Style](../style)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

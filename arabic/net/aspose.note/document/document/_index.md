@@ -1,14 +1,14 @@
 ---
-title: Document
+title: Document.Document
 second_title: Aspose.Note لمرجع NET API
-description: يقوم بتهيئة مثيل جديد لملفDocumentaspose.note/document class. ينشئ مستند OneNote فارغًا.
+description: Document البناء. يقوم بتهيئة مثيل جديد لملفDocument class. ينشئ مستند OneNote فارغًا.
 type: docs
 weight: 10
 url: /ar/net/aspose.note/document/document/
 ---
 ## Document() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Document`](../../document) class. ينشئ مستند OneNote فارغًا.
+يقوم بتهيئة مثيل جديد لملف[`Document`](../) class. ينشئ مستند OneNote فارغًا.
 
 ```csharp
 public Document()
@@ -16,15 +16,15 @@ public Document()
 
 ### أنظر أيضا
 
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
 
 ## Document(string) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Document`](../../document) class. يفتح مستند OneNote موجود من ملف.
+يقوم بتهيئة مثيل جديد لملف[`Document`](../) class. يفتح مستند OneNote موجود من ملف.
 
 ```csharp
 public Document(string filePath)
@@ -38,23 +38,23 @@ public Document(string filePath)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Note بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
 
 ### أنظر أيضا
 
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`Document`](../../document) class. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يقوم بتهيئة مثيل جديد لملف[`Document`](../)class. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 ```csharp
 public Document(string filePath, LoadOptions loadOptions)
@@ -69,24 +69,24 @@ public Document(string filePath, LoadOptions loadOptions)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Note بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
 
 ### أنظر أيضا
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
 
 ## Document(Stream) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Document`](../../document) class. يفتح مستند OneNote موجود من دفق.
+يقوم بتهيئة مثيل جديد لملف[`Document`](../) class. يفتح مستند OneNote موجود من دفق.
 
 ```csharp
 public Document(Stream inStream)
@@ -100,24 +100,24 @@ public Document(Stream inStream)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Note بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
-| ArgumentException | الدفق لا يدعم القراءة ، أو أنه فارغ ، أو مغلق بالفعل. |
+| ArgumentException | الدفق لا يدعم القراءة أو أنه فارغ أو مغلق بالفعل. |
 
 ### أنظر أيضا
 
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
 ---
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Document`](../../document) class. يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يقوم بتهيئة مثيل جديد لملف[`Document`](../) class. يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 ```csharp
 public Document(Stream inStream, LoadOptions loadOptions)
@@ -132,18 +132,18 @@ public Document(Stream inStream, LoadOptions loadOptions)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Note بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
-| ArgumentException | الدفق لا يدعم القراءة ، أو أنه فارغ ، أو مغلق بالفعل. |
+| ArgumentException | الدفق لا يدعم القراءة أو أنه فارغ أو مغلق بالفعل. |
 
 ### أنظر أيضا
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* مساحة الاسم [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* مساحة الاسم [Aspose.Note](../../document/)
 * المجسم [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

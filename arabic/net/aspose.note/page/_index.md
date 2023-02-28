@@ -1,9 +1,9 @@
 ---
-title: Page
+title: Class Page
 second_title: Aspose.Note لمرجع NET API
-description: يمثل صفحة .
+description: Aspose.Note.Page فصل. يمثل صفحة .
 type: docs
-weight: 460
+weight: 480
 url: /ar/net/aspose.note/page/
 ---
 ## Page class
@@ -18,46 +18,46 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | اسم | وصف |
 | --- | --- |
-| [Page](page#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Page`](../page) فئة . |
+| [Page](page/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Page` فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Author](../../aspose.note/page/author) { get; set; } | الحصول على أو تعيين المؤلف. |
-| [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | الحصول على لون خلفية الصفحة أو تعيينه. |
-| [CreationTime](../../aspose.note/page/creationtime) { get; set; } | الحصول على وقت الإنشاء أو تعيينه. |
-| [Document](../../aspose.note/node/document) { get; } | يحصل على مستند العقدة . |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت هذه الصفحة عبارة عن صفحة تعارض. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [Level](../../aspose.note/page/level) { get; set; } | الحصول على المستوى أو تحديده . |
-| [Margin](../../aspose.note/page/margin) { get; set; } | الحصول على الهامش أو تحديده . |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | يحصل على نوع العقدة . |
-| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary) { get; set; } | الحصول على أو تعيين ملخص المراجعة للصفحة والعقد الفرعية. |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize) { get; set; } | الحصول على أو تعيين حجم تخطيط الصفحة المعروض في المحرر. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
-| [SizeType](../../aspose.note/page/sizetype) { get; set; } | الحصول على نوع حجم الصفحة أو تحديده. |
-| [Title](../../aspose.note/page/title) { get; set; } | الحصول على العنوان أو تعيينه . |
+| [Author](../../aspose.note/page/author/) { get; set; } | الحصول على أو تعيين المؤلف. |
+| [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | الحصول على لون خلفية الصفحة أو تعيينه. |
+| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | الحصول على وقت الإنشاء أو تعيينه. |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت هذه الصفحة عبارة عن صفحة تعارض. |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
+| [Level](../../aspose.note/page/level/) { get; set; } | الحصول على المستوى أو تحديده . |
+| [Margin](../../aspose.note/page/margin/) { get; set; } | الحصول على الهامش أو تحديده . |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
+| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | الحصول على أو تعيين ملخص المراجعة للصفحة والعقد الفرعية. |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | الحصول على أو تعيين حجم تخطيط الصفحة المعروض في المحرر. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [SizeType](../../aspose.note/page/sizetype/) { get; set; } | الحصول على نوع حجم الصفحة أو تحديده. |
+| [Title](../../aspose.note/page/title/) { get; set; } | الحصول على العنوان أو تعيينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.note/page/accept)(DocumentVisitor) | يقبل زائر العقدة . |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [Clone](../../aspose.note/page/clone)(bool) | استنساخ الصفحة . |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | احصل على جميع العقد الفرعية للصفحة حسب نوع العقدة. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IPageChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [Clone](../../aspose.note/page/clone/)(bool) | استنساخ الصفحة . |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | احصل على جميع العقد الفرعية للصفحة حسب نوع العقدة. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### أمثلة
 
@@ -98,7 +98,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-يوضح كيفية تعيين عنوان لصفحة.
+يوضح كيفية تعيين عنوان للصفحة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -616,9 +616,9 @@ doc.Save(dataDir);
 
 ### أنظر أيضا
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IPageChildNode](../ipagechildnode)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IPageChildNode](../ipagechildnode/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

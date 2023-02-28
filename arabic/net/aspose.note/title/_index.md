@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Aspose.Note لمرجع NET API
-description: يمثل عنوانًا .
+description: Aspose.Note.Title فصل. يمثل عنوانًا .
 type: docs
-weight: 950
+weight: 980
 url: /ar/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | اسم | وصف |
 | --- | --- |
-| [Title](title#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Title`](../title) فئة . |
+| [Title](title/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Title` فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | يحصل على مستند العقدة . |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | يحصل على نوع العقدة . |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | الحصول على أو تعيين سلسلة تمثيل التاريخ في العنوان. |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | الحصول على نص العنوان أو تحديده. |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | الحصول على أو تعيين سلسلة تمثيل للوقت في العنوان. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | الحصول على أو تعيين سلسلة تمثيل التاريخ في العنوان. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | الحصول على نص العنوان أو تحديده. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | الحصول على أو تعيين سلسلة تمثيل للوقت في العنوان. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | يقبل زائر العقدة . |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | احصل على جميع العقد الفرعية حسب نوع العقدة . |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | إرجاع العداد الذي يتكرر خلال العقد التابعة لملف[`Title`](../title) . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | احصل على جميع العقد الفرعية حسب نوع العقدة . |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | إرجاع العداد الذي يتكرر خلال العقد التابعة لملف`Title` . |
 
 ### أمثلة
 
@@ -74,7 +74,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-يوضح كيفية تعيين عنوان لصفحة.
+يوضح كيفية تعيين عنوان للصفحة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### أنظر أيضا
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
