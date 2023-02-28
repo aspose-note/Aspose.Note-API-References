@@ -1,9 +1,9 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Aspose.Note for .NET API Referansı
-description: Zengin bir metni temsil eder.
+description: Aspose.Note.RichText sınıf. Zengin bir metni temsil eder.
 type: docs
-weight: 510
+weight: 530
 url: /tr/net/aspose.note/richtext/
 ---
 ## RichText class
@@ -18,69 +18,69 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | İsim | Tanım |
 | --- | --- |
-| [RichText](richtext#constructor)() | Yeni bir örneğini başlatır[`RichText`](../richtext) sınıf. |
+| [RichText](richtext/#constructor)() | Yeni bir örneğini başlatır.`RichText` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Hizalamayı alır veya ayarlar. |
-| [Document](../../aspose.note/node/document) { get; } | Düğümün belgesini alır. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Bu düğümün bileşik olup olmadığını gösteren bir değer alır. Doğruysa, düğümün alt düğümleri olabilir. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
-| [Length](../../aspose.note/richtext/length) { get; } | Metnin uzunluğunu alır. |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Satır aralığını alır veya ayarlar. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Aynı düğüm ağacı düzeyinde bir sonraki düğümü alır. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Düğüm türünü alır. |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Paragraf stilini alır veya ayarlar. Bu ayarlar, içinde eşleşen bir TextStyle nesnesi yoksa kullanılır.Styles koleksiyon ya bu nesne gerekli bir ayarı belirtmiyor. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Üst düğümü alır. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Aynı düğüm ağacı düzeyinde önceki düğümü alır. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Minimum alan miktarını alır veya ayarlar. |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Öncesindeki minimum alan miktarını alır veya ayarlar. |
-| [Tags](../../aspose.note/richtext/tags) { get; } | Bir paragrafın tüm etiketlerinin listesini alır. |
-| [Text](../../aspose.note/richtext/text) { get; set; } | Metni alır veya ayarlar. Dize, 10 (satır besleme) değerinde herhangi bir karakter İÇERMEMELİDİR. |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Metin çalıştırmalarının koleksiyonunu alır. |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | Hizalamayı alır veya ayarlar. |
+| [Document](../../aspose.note/node/document/) { get; } | Düğümün belgesini alır. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Bu düğümün bileşik olup olmadığını gösteren bir değer alır. Doğruysa, düğümün alt düğümleri olabilir. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
+| [Length](../../aspose.note/richtext/length/) { get; } | Metnin uzunluğunu alır. |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | Satır aralığını alır veya ayarlar. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Aynı düğüm ağacı seviyesindeki bir sonraki düğümü alır. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Düğüm türünü alır. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | Paragraf stilini alır veya ayarlar. Bu ayarlar, içinde eşleşen bir TextStyle nesnesi yoksa kullanılır.Styles koleksiyon ya bu nesne gerekli bir ayarı belirtmiyor. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Üst düğümü alır. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Aynı düğüm ağacı seviyesindeki önceki düğümü alır. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | . sonrasındaki minimum alan miktarını alır veya ayarlar. |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | Önceki minimum alan miktarını alır veya ayarlar. |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | Bir paragrafın tüm etiketlerinin listesini alır. |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | Metni alır veya ayarlar. Dize, 10 (satır besleme). değerinde herhangi bir karakter İÇERMEZ OLMALIDIR |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | Metin çalıştırmalarının koleksiyonunu alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
-| [Append](../../aspose.note/richtext/append#append)(string) | Son metin aralığına bir dize ekler. |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | Sona bir dize ekler. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | İlk metin aralığının önüne bir dize ekler. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Öne bir dize ekler. |
-| [Clear](../../aspose.note/richtext/clear)() | Bu örneğin içeriğini temizler. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Bu RichText nesnesinin karakterleri arasında yinelenen bir numaralandırıcı döndürür. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | Bu dizede belirtilen Unicode karakterinin ilk oluşumunun sıfır tabanlı dizinini döndürür. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | Bu örnekte belirtilen dizenin ilk oluşumunun sıfır tabanlı dizinini döndürür. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | Bu dizede belirtilen Unicode karakterinin ilk oluşumunun sıfır tabanlı dizinini döndürür. Arama, belirtilen bir karakter konumunda başlar. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | Bu örnekte belirtilen dizenin ilk oluşumunun sıfır tabanlı dizinini döndürür. Arama, belirtilen bir karakter konumunda başlar. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | Geçerli örnekte belirtilen dizenin ilk oluşumunun sıfır tabanlı dizinini döndürür. Bir parametre, belirtilen dize için kullanılacak arama türünü belirtir. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Bu örnekte belirtilen karakterin ilk oluşumunun sıfır tabanlı dizinini döndürür. Arama, belirli bir karakter konumunda başlar ve belirtilen sayıda karakter konumunu inceler. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | Bu örnekte belirtilen dizenin ilk oluşumunun sıfır tabanlı dizinini döndürür. Arama, belirli bir karakter konumunda başlar ve belirtilen sayıda karakter konumunu inceler. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | Geçerli örnekte belirtilen dizenin ilk oluşumunun sıfır tabanlı dizinini döndürür. Parametreler, geçerli dizedeki başlangıç arama konumunu ve belirtilen dize için kullanılacak arama türünü belirtir. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | Geçerli örnekte belirtilen dizenin ilk oluşumunun sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | Bu örnekte belirtilen bir dizin konumuna belirtilen bir dize ekler. |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | Bu örnekte belirtilen bir dizin konumunda belirtilen stille belirtilen bir dize ekler. |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | Belirtilen bir konumdan başlayıp son konuma kadar devam ederek geçerli örnekteki tüm karakterleri kaldırır. |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | Geçerli örnekte belirtilen konumdan başlayarak belirtilen sayıda karakteri kaldırır. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Bu örnekte belirtilen bir Unicode karakterinin tüm oluşumlarını başka bir belirtilen Unicode karakteriyle değiştirir. |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | Geçerli örnekte belirtilen bir dizenin tüm oluşumlarını başka bir belirtilen dizeyle değiştirir. |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | Geçerli örnekte belirtilen bir dizenin tüm oluşumlarını, belirtilen stilde belirtilen başka bir dizeyle değiştirir. |
-| [Trim](../../aspose.note/richtext/trim#trim)() | Baştaki ve sondaki tüm boşluk karakterlerini kaldırır. |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | Bir karakterin tüm önde gelen ve sondaki örneklerini kaldırır. |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | Bir dizide belirtilen karakter kümesinin tüm baştaki ve sondaki tekrarlarını kaldırır. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Sondaki tüm boşluk karakterlerini kaldırır. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | Bir karakterin sondaki tüm tekrarlarını kaldırır. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | Bir dizide belirtilen karakter kümesinin tüm sondaki tekrarlarını kaldırır. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | Baştaki tüm boşluk karakterlerini kaldırır. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | Belirtilen karakterin baştaki tüm tekrarlarını kaldırır. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Bir dizide belirtilen karakter kümesinin baştaki tüm tekrarlarını kaldırır. |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
+| [Append](../../aspose.note/richtext/append/#append)(string) | Son metin aralığına bir dize ekler. |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | Sonuna bir dize ekler. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | İlk metin aralığının önüne bir dize ekler. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | Öne bir dize ekler. |
+| [Clear](../../aspose.note/richtext/clear/)() | Bu örneğin içeriğini temizler. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | Bu RichText nesnesinin karakterlerini yineleyen bir numaralandırıcı döndürür. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | Bu dizgede belirtilen Unicode karakterinin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | Bu örnekte belirtilen dizenin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | Bu dizgede belirtilen Unicode karakterinin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. Arama belirtilen karakter konumunda başlar. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | Bu örnekte belirtilen dizenin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. Arama belirtilen karakter konumunda başlar. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | Geçerli örnekte belirtilen dizenin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. Bir parametre, belirtilen dize için kullanılacak arama türünü belirtir. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | Bu örnekte belirtilen karakterin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. Arama belirli bir karakter konumunda başlar ve belirtilen sayıda karakter konumunu inceler. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | Bu örnekte belirtilen dizenin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. Arama belirli bir karakter konumunda başlar ve belirtilen sayıda karakter konumunu inceler. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | Geçerli örnekte belirtilen dizenin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. Parametreler, geçerli dizide başlangıç arama konumunu ve belirtilen dizi için kullanılacak arama türünü belirtir. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | Geçerli örnekte belirtilen dizenin ilk geçtiği yerin sıfır tabanlı dizinini döndürür. |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | Belirtilen dizini bu örnekte belirtilen dizin konumuna ekler. |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | Bu örnekte belirtilen dizin konumuna belirtilen stilde belirtilen bir dize ekler. |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | Belirli bir konumdan başlayıp son konuma kadar devam ederek geçerli örnekteki tüm karakterleri kaldırır. |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | Belirli bir konumdan başlayarak geçerli örnekte belirtilen sayıda karakteri kaldırır. |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | Belirtilen bir Unicode karakterinin bu örnekteki tüm oluşumlarını belirtilen başka bir Unicode karakteriyle değiştirir. |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | Geçerli örnekte belirtilen bir dizenin tüm oluşumlarını belirtilen başka bir dizeyle değiştirir. |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | Geçerli örnekte belirtilen bir dizenin tüm oluşumlarını belirtilen stilde belirtilen başka bir dizeyle değiştirir. |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | Baştaki ve sondaki tüm boşluk karakterlerini kaldırır. |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | Bir karakterin tüm baştaki ve sondaki örneklerini kaldırır. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | Bir dizide belirtilen bir dizi karakterin tüm baştaki ve sondaki oluşumlarını kaldırır. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | Sondaki tüm boşluk karakterlerini kaldırır. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | Bir karakterin sonundaki tüm oluşumlarını kaldırır. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | Bir dizide belirtilen bir dizi karakterin sonundaki tüm oluşumlarını kaldırır. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | Öndeki tüm boşluk karakterlerini kaldırır. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | Belirli bir karakterin başta gelen tüm oluşumlarını kaldırır. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | Bir dizide belirtilen bir dizi karakterin başta gelen tüm oluşumlarını kaldırır. |
 
 ### Örnekler
 
-Belgeden tüm metnin nasıl alınacağını gösterir.
+Tüm metnin belgeden nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -96,7 +96,7 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 Console.WriteLine(text);
 ```
 
-Sayfadan tüm metnin nasıl alınacağını gösterir.
+Sayfadaki tüm metnin nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -117,7 +117,7 @@ if (page != null)
 }
 ```
 
-Yazı tipi boyutunu artırarak diğer başlıklar arasında sayfa başlıklarını vurgulayalım.
+Font boyutunu büyüterek sayfa başlıklarını diğer başlıklar arasında öne çıkaralım.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -141,7 +141,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-Her tablonun satırından nasıl metin alınacağını gösterir.
+Her tablo satırından nasıl metin alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -150,12 +150,12 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Tablo satırları arasında yineleme
+    // Tablo satırlarını yinele
     foreach (TableRow row in table)
     {
         // Metni al
@@ -176,7 +176,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 // Tablo sayısını ayarla
@@ -195,7 +195,7 @@ foreach (Table table in nodes)
 }
 ```
 
-En son metnin değişikliklerini vurgulayarak vurgulayalım.
+En son metin değişikliklerini vurgulayarak vurgulayalım.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -203,7 +203,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Geçen hafta değiştirilen RichText düğümlerini al.
+// RichText düğümlerinin geçen hafta değiştirilmesini sağlayın.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -220,7 +220,7 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-Bir sayfa için nasıl başlık ayarlanacağını gösterir.
+Bir sayfa için bir başlığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -274,7 +274,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-Tüm sayfalardan nasıl geçileceğini ve metinde nasıl bir değişiklik yapılacağını gösterir.
+Tüm sayfaların nasıl geçileceğini ve metinde nasıl değiştirileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -300,7 +300,7 @@ foreach (RichText richText in textNodes)
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
-// Desteklenen herhangi bir dosya biçimine kaydet
+// Desteklenen herhangi bir dosya biçiminde kaydedin
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
@@ -334,16 +334,16 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();        
 
 foreach (Table table in nodes)
 {
-    // Tablo satırları arasında yineleme
+    // Tablo satırlarını yinele
     foreach (TableRow row in table)
     {
         // TableCell düğümlerinin listesini al
-        // Tablo hücreleri arasında yineleme
+        // Tablo hücrelerini yinele
         foreach (TableCell cell in row)
         {
             // Metni al
@@ -356,7 +356,7 @@ foreach (Table table in nodes)
 }
 ```
 
-Sayfa metninin nasıl geçileceğini ve nasıl değiştirileceğini gösterir.
+Sayfa metninin nasıl geçileceğini ve değiştirileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -382,12 +382,12 @@ foreach (RichText richText in textNodes)
     }
 }
 
-// Desteklenen herhangi bir dosya biçimine kaydet
+// Desteklenen herhangi bir dosya biçiminde kaydedin
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-Varsayılan seçenekleri kullanarak bir belgenin nasıl oluşturulacağını ve html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve varsayılan seçenekleri kullanarak html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -397,7 +397,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -406,18 +406,18 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-etiketiyle nasıl yeni paragraf ekleneceğini gösterir.
+Etiketli yeni paragrafın nasıl ekleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -435,7 +435,7 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // Metin düğümü ekle
 outlineElem.AppendChildLast(text);
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -449,7 +449,7 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığının html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığında html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -460,7 +460,7 @@ Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -469,7 +469,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -490,7 +490,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // Tüm RichText düğümlerini al
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// Her düğümde yineleme
+// Her düğümü yinele
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -518,7 +518,7 @@ Metin içeren bir belgenin nasıl oluşturulacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -533,7 +533,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // RichText düğümü ekle
@@ -568,7 +568,7 @@ Outline outline = new Outline(doc);
 // Metin stili ayarlarını uygula
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -600,7 +600,7 @@ Yeni madde işaretli listelerin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -612,10 +612,10 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıfı nesnelerini başlat ve madde işaretlerini uygula
+// OutlineElement sınıf nesnelerini başlat ve madde işaretlerini uygula
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -647,7 +647,7 @@ Numaralandırma ile yeni listenin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -659,8 +659,8 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıf nesnelerini başlat ve numaralandırma uygula
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// OutlineElement sınıf nesnelerini başlat ve numaralandırmayı uygula
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -695,7 +695,7 @@ Haftalık toplantı için bir şablonun nasıl hazırlanacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -729,13 +729,13 @@ foreach (var e in new[] { "First", "Second", "Third" })
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
 
-Bir metne bir köprünün nasıl bağlanacağını gösterir.
+Bir metne köprünün nasıl bağlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -772,7 +772,7 @@ outlineElem.AppendChildLast(text);
 // Anahat öğeleri ekle
 outline.AppendChildLast(outlineElem);
 
-// Title sınıf nesnesini başlat
+// Başlık sınıfı nesnesini başlat
 Title title = new Title() { TitleText = titleText };
 
 // Sayfa sınıfı nesnesini başlat
@@ -791,10 +791,10 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* ad alanı [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

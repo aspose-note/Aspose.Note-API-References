@@ -1,14 +1,14 @@
 ---
-title: ImageSaveOptions
+title: Class ImageSaveOptions
 second_title: Aspose.Note for .NET API Referansı
-description: Belge sayfalarını resimlere dönüştürürken ek seçenekleri belirlemeye izin verir.
+description: Aspose.Note.Saving.ImageSaveOptions sınıf. Belge sayfalarını görüntülere dönüştürürken ek seçenekler belirlemeye izin verir.
 type: docs
-weight: 700
+weight: 720
 url: /tr/net/aspose.note.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
 
-Belge sayfalarını resimlere dönüştürürken ek seçenekleri belirlemeye izin verir.
+Belge sayfalarını görüntülere dönüştürürken ek seçenekler belirlemeye izin verir.
 
 ```csharp
 public class ImageSaveOptions : SaveOptions
@@ -18,25 +18,25 @@ public class ImageSaveOptions : SaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | Yeni bir örneğini başlatır[`ImageSaveOptions`](../imagesaveoptions) sınıf. |
+| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | Yeni bir örneğini başlatır.`ImageSaveOptions` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions) { get; set; } | Görüntünün ikilileştirilmesi için seçenekleri alır veya ayarlar. |
-| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode) { get; set; } | Alır veya ayarlar[`ColorMode`](./colormode) çıktı görüntüsü için. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Kaydederken kullanılacak yazı tipi ayarlarını alır veya ayarlar |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Kaydedilecek sayfaların sayısını alır veya ayarlar. Varsayılan olarakMaxValue bu, belgenin tüm sayfalarının oluşturulacağı anlamına gelir. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Kaydedilecek ilk sayfanın dizinini alır veya ayarlar. Varsayılan olarak 0. |
-| [Quality](../../aspose.note.saving/imagesaveoptions/quality) { get; set; } | Kaydedilen görüntünün kalitesini belirleyen bir değer alır veya ayarlar. Bu değer codec bileşenine System.Drawing.Imaging.Encoder.Quality parametresi olarak iletilir. |
-| [Resolution](../../aspose.note.saving/imagesaveoptions/resolution) { get; set; } | Oluşturulan görüntülerin çözünürlüğünü inç başına nokta olarak alır veya ayarlar. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Belgenin kaydedildiği biçimi alır. |
-| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression) { get; set; } | Oluşturulan görüntüleri TIFF biçiminde kaydederken kullanılacak sıkıştırma türünü alır veya ayarlar. |
+| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions/) { get; set; } | Görüntünün ikilileştirilmesi için seçenekleri alır veya ayarlar. |
+| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode/) { get; set; } | Alır veya ayarlar[`ColorMode`](./colormode/) çıktı görüntüsü için. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Kaydederken kullanılacak yazı tipi ayarlarını alır veya ayarlar |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Kaydedilecek sayfa sayısını alır veya ayarlar. varsayılan olarakMaxValue , bu, belgenin tüm sayfalarının oluşturulacağı anlamına gelir. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Kaydedilecek ilk sayfanın dizinini alır veya ayarlar. Varsayılan olarak 0. |
+| [Quality](../../aspose.note.saving/imagesaveoptions/quality/) { get; set; } | Kaydedilen görüntünün kalitesini belirleyen bir değer alır veya ayarlar. Bu değer codec'e System.Drawing.Imaging.Encoder.Quality parametresi olarak iletilir. |
+| [Resolution](../../aspose.note.saving/imagesaveoptions/resolution/) { get; set; } | Oluşturulan görüntülerin çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Belgenin kaydedildiği biçimi alır. |
+| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression/) { get; set; } | Oluşturulan görüntüleri TIFF biçiminde kaydederken kullanılacak sıkıştırma türünü alır veya ayarlar. |
 
 ### Örnekler
 
-SaveFormat kullanılarak bir belgenin Jpeg formatında nasıl görüntü olarak kaydedileceğini gösterir.
+Bir belgenin SaveFormat kullanılarak Jpeg formatında resim olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -66,7 +66,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
-ImageSaveOptions kullanılarak bir belgenin Bmp formatında görüntü olarak nasıl kaydedileceğini gösterir.
+ImageSaveOptions kullanılarak bir belgenin Bmp biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -81,7 +81,7 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
-Belgeyi resim olarak kaydederken bir resim çözünürlüğünün nasıl ayarlanacağını gösterir.
+Belgeyi görüntü olarak kaydederken görüntü çözünürlüğünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -114,7 +114,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-PackBits sıkıştırması kullanılarak bir belgenin Tiff formatında nasıl görüntü olarak kaydedileceğini gösterir.
+PackBits sıkıştırması kullanılarak bir belgenin Tiff biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -132,13 +132,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-Belirtilen seçeneklerle not defterinin resim olarak nasıl kaydedileceğini gösterir.
+Not defterini belirtilen seçeneklerle resim olarak nasıl kaydedeceğinizi gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -153,7 +153,7 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-Jpeg sıkıştırması kullanılarak bir belgenin Tiff formatında görüntü olarak nasıl kaydedileceğini gösterir.
+Jpeg sıkıştırması kullanılarak bir belgenin Tiff biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -178,7 +178,7 @@ Düzleştirilmiş not defterinin resim olarak nasıl kaydedileceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -194,7 +194,7 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-CCITT Group 3 faks sıkıştırması kullanılarak bir belgenin Tiff formatında görüntü olarak nasıl kaydedileceğini gösterir.
+CCITT Grup 3 faks sıkıştırması kullanılarak bir belgenin Tiff biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -225,7 +225,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // ImageSaveOptions nesnesini başlat 
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
                             {
-                                // Sayfa indeksini ayarla
+                                // Sayfa dizinini ayarla
                                 PageIndex = 1
                             };
 
@@ -282,8 +282,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### Ayrıca bakınız
 
-* class [SaveOptions](../saveoptions)
-* ad alanı [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* ad alanı [Aspose.Note.Saving](../../aspose.note.saving/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

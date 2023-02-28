@@ -1,14 +1,14 @@
 ---
-title: NumberList
+title: OutlineElement.NumberList
 second_title: Aspose.Note for .NET API Referansı
-description: Numaralandırılmış liste başlığının stilini alır veya ayarlar.
+description: OutlineElement mülk. Numaralı liste başlığının stilini alır veya ayarlar.
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/aspose.note/outlineelement/numberlist/
 ---
 ## OutlineElement.NumberList property
 
-Numaralandırılmış liste başlığının stilini alır veya ayarlar.
+Numaralı liste başlığının stilini alır veya ayarlar.
 
 ```csharp
 public NumberList NumberList { get; set; }
@@ -24,10 +24,10 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Belgeyi Aspose.Note'a yükleyin.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// Anahat öğesinin bir koleksiyon düğümünü alın
+// Anahat öğesinin toplama düğümlerini alın
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
-// Her düğümde yineleme
+// Her düğümü yinele
 foreach (OutlineElement node in nodes)
 {
     if (node.NumberList != null)
@@ -37,22 +37,22 @@ foreach (OutlineElement node in nodes)
         // Yazı tipi adını al
         Console.WriteLine("Font Name: " + list.Font);
 
-        // Yazı tipi uzunluğunu al
+        // yazı tipi uzunluğunu al
         Console.WriteLine("Font Length: " + list.Font.Length);
 
         // Yazı tipi boyutunu al
         Console.WriteLine("Font Size: " + list.FontSize);
 
-        // Yazı tipi rengini al
+        // yazı tipi rengini al
         Console.WriteLine("Font Color: " + list.FontColor);
 
-        // Biçimi al
+        // formatı al
         Console.WriteLine("Font format: " + list.Format);
 
-        // Kalınlığı kontrol et
+        // kalın işaretle
         Console.WriteLine("Is bold: " + list.IsBold);
 
-        // italik kontrol edin
+        // italik kontrol et
         Console.WriteLine("Is italic: " + list.IsItalic);
         Console.WriteLine();
     }
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 // Metin stili ayarlarını uygula
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -106,7 +106,7 @@ Yeni madde işaretli listelerin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -118,10 +118,10 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıfı nesnelerini başlat ve madde işaretlerini uygula
+// OutlineElement sınıf nesnelerini başlat ve madde işaretlerini uygula
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -153,7 +153,7 @@ Numaralandırma ile yeni listenin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -165,8 +165,8 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıf nesnelerini başlat ve numaralandırma uygula
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// OutlineElement sınıf nesnelerini başlat ve numaralandırmayı uygula
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -197,9 +197,9 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [NumberList](../../numberlist)
-* class [OutlineElement](../../outlineelement)
-* ad alanı [Aspose.Note](../../outlineelement)
+* class [NumberList](../../numberlist/)
+* class [OutlineElement](../)
+* ad alanı [Aspose.Note](../../outlineelement/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

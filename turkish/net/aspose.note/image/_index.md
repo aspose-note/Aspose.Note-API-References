@@ -1,9 +1,9 @@
 ---
-title: Image
+title: Class Image
 second_title: Aspose.Note for .NET API Referansı
-description: Bir Görüntüyü Temsil Eder.
+description: Aspose.Note.Image sınıf. Bir Görüntüyü Temsil Eder.
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/aspose.note/image/
 ---
 ## Image class
@@ -18,47 +18,47 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | İsim | Tanım |
 | --- | --- |
-| [Image](image#constructor)() | Yeni bir örneğini başlatır[`Image`](../image) sınıf. |
-| [Image](image#constructor_4)(string, Stream) | Yeni bir örneğini başlatır[`Image`](../image) sınıf. |
-| [Image](image#constructor_5)(string, string, string) | Yeni bir örneğini başlatır[`Image`](../image) sınıf. |
+| [Image](image/#constructor)() | Yeni bir örneğini başlatır.`Image` sınıf. |
+| [Image](image/#constructor_4)(string, Stream) | Yeni bir örneğini başlatır.`Image` sınıf. |
+| [Image](image/#constructor_5)(string, string, string) | Yeni bir örneğini başlatır.`Image` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment) { get; set; } | Hizalamayı alır veya ayarlar. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | Resim için alternatif bir metin gövdesi alır veya ayarlar. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | Resim için alternatif bir metin başlığı alır veya ayarlar. |
-| [Bytes](../../aspose.note/image/bytes) { get; } | Görüntü veri deposunu alır. |
-| [Document](../../aspose.note/node/document) { get; } | Düğümün belgesini alır. |
-| [FileName](../../aspose.note/image/filename) { get; } | Dosya adını alır. |
-| [FilePath](../../aspose.note/image/filepath) { get; } | Görüntü dosyasının yolunu alır. |
-| [Format](../../aspose.note/image/format) { get; } | Resmin biçimini alır. |
-| [Height](../../aspose.note/image/height) { get; set; } | Yüksekliği alır veya ayarlar. Bu, MS OneNote belgesindeki görüntünün gerçek yüksekliğidir. |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Yatay ofseti alır veya ayarlar. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Görüntüyle ilişkili köprüyü alır veya ayarlar. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Resmin bir arka plan resmi olup olmadığını alır. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Bu düğümün bileşik olup olmadığını gösteren bir değer alır. Doğruysa, düğümün alt düğümleri olabilir. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Aynı düğüm ağacı düzeyinde bir sonraki düğümü alır. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Düğüm türünü alır. |
-| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | Orijinal yüksekliği alır. Bu, resmin yeniden boyutlandırmadan önceki orijinal genişliğidir. |
-| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | Orijinal genişliği alır. Bu, resmin yeniden boyutlandırmadan önceki orijinal genişliğidir. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Üst düğümü alır. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Aynı düğüm ağacı düzeyinde önceki düğümü alır. |
-| [Tags](../../aspose.note/image/tags) { get; } | Bir paragrafın tüm etiketlerinin listesini alır. |
-| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | Dikey ofseti alır veya ayarlar. |
-| [Width](../../aspose.note/image/width) { get; set; } | Genişliği alır veya ayarlar. Bu, MS OneNote belgesindeki görüntünün gerçek genişliğidir. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | Hizalamayı alır veya ayarlar. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | Görüntü için alternatif bir metin gövdesi alır veya ayarlar. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | Görüntü için alternatif metin başlığı alır veya ayarlar. |
+| [Bytes](../../aspose.note/image/bytes/) { get; } | Görüntü veri deposunu alır. |
+| [Document](../../aspose.note/node/document/) { get; } | Düğümün belgesini alır. |
+| [FileName](../../aspose.note/image/filename/) { get; } | Dosya adını alır. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | Resim dosyasının yolunu alır. |
+| [Format](../../aspose.note/image/format/) { get; } | Görüntünün biçimini alır. |
+| [Height](../../aspose.note/image/height/) { get; set; } | Yüksekliği alır veya ayarlar. Bu, MS OneNote belgesindeki görüntünün gerçek yüksekliğidir. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | Yatay ofseti alır veya ayarlar. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | Görüntüyle ilişkili köprüyü alır veya ayarlar. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | Görüntünün arka plan görüntüsü olup olmadığını alır. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Bu düğümün bileşik olup olmadığını gösteren bir değer alır. Doğruysa, düğümün alt düğümleri olabilir. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Aynı düğüm ağacı seviyesindeki bir sonraki düğümü alır. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Düğüm türünü alır. |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | Orijinal yüksekliği alır. Bu, resmin yeniden boyutlandırmadan önceki orijinal genişliğidir. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | Orijinal genişliği alır. Bu, resmin yeniden boyutlandırmadan önceki orijinal genişliğidir. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Üst düğümü alır. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Aynı düğüm ağacı seviyesindeki önceki düğümü alır. |
+| [Tags](../../aspose.note/image/tags/) { get; } | Bir paragrafın tüm etiketlerinin listesini alır. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | Dikey ofseti alır veya ayarlar. |
+| [Width](../../aspose.note/image/width/) { get; set; } | Genişliği alır veya ayarlar. Bu, MS OneNote belgesindeki görüntünün gerçek genişliğidir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
 
 ### Örnekler
 
-Bir görüntüye bir köprünün nasıl bağlanacağını gösterir.
+Bir görüntüye köprünün nasıl bağlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -97,7 +97,7 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-Bir belgeden nasıl görüntü alınacağını gösterir.
+Bir belgeden nasıl resim alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -122,7 +122,7 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
-Resmin meta bilgilerinin nasıl alınacağını gösterir.
+Görüntünün meta bilgilerinin nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -152,7 +152,7 @@ Etiketli yeni resmin nasıl ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -171,7 +171,7 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -191,20 +191,20 @@ Kullanıcı tanımlı özelliklere sahip bir belgeye dosyadan nasıl resim eklen
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// Akıştan belge yükle.
+// Belgeyi akıştan yükleyin.
 Document doc = new Document(dataDir + "Aspose.one");
 
-// Belgenin ilk sayfasını al.
+// Belgenin ilk sayfasını alın.
 Aspose.Note.Page page = doc.FirstChild;
 
 // Dosyadan bir resim yükleyin.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // Resmin boyutunu ihtiyaçlarınıza göre değiştirin (isteğe bağlı).
+                              // Görüntünün boyutunu ihtiyaçlarınıza göre değiştirin (isteğe bağlı).
                               Width = 100,
                               Height = 100,
 
-                              // Resmin sayfadaki konumunu ayarlayın (isteğe bağlı).
+                              // Görüntünün sayfadaki konumunu ayarlayın (isteğe bağlı).
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
@@ -222,7 +222,7 @@ Akıştan bir belgeye nasıl resim ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -234,7 +234,7 @@ OutlineElement outlineElem1 = new OutlineElement(doc);
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // Görüntü adını, uzantısını ve akışını kullanarak ikinci görüntüyü yükleyin.
+    // Resim adını, uzantısını ve akışını kullanarak ikinci resmi yükleyin.
     Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
                                    {
                                        // Görüntü hizalamasını ayarla
@@ -260,7 +260,7 @@ Dosyadan belgeye nasıl resim ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -298,11 +298,11 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* ad alanı [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

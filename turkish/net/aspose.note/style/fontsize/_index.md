@@ -1,7 +1,7 @@
 ---
-title: FontSize
+title: Style.FontSize
 second_title: Aspose.Note for .NET API Referansı
-description: Yazı tipi boyutunu alır veya ayarlar.
+description: Style mülk. Yazı tipi boyutunu alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.note/style/fontsize/
@@ -16,7 +16,7 @@ public int? FontSize { get; set; }
 
 ### Örnekler
 
-Bir metnin stilinin nasıl değiştirileceğini gösterir.
+Bir metin için stilin nasıl değiştirileceğini gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -29,7 +29,7 @@ RichText richText = document.GetChildNodes<RichText>().First();
 
 foreach (var run in richText.TextRuns)
 {
-    // Yazı tipi rengini ayarla
+    // yazı tipi rengini ayarla
     run.Style.FontColor = Color.Yellow;
 
     // Vurgu rengini ayarla
@@ -40,7 +40,7 @@ foreach (var run in richText.TextRuns)
 }
 ```
 
-Yazı tipi boyutunu artırarak diğer başlıklar arasında sayfa başlıklarını vurgulayalım.
+Font boyutunu büyüterek sayfa başlıklarını diğer başlıklar arasında öne çıkaralım.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -64,7 +64,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-En son metnin değişikliklerini vurgulayarak vurgulayalım.
+En son metin değişikliklerini vurgulayarak vurgulayalım.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -72,7 +72,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Geçen hafta değiştirilen RichText düğümlerini al.
+// RichText düğümlerinin geçen hafta değiştirilmesini sağlayın.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -125,7 +125,7 @@ Outline outline = new Outline(doc);
 // Metin stili ayarlarını uygula
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -157,7 +157,7 @@ Yeni madde işaretli listelerin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -169,10 +169,10 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıfı nesnelerini başlat ve madde işaretlerini uygula
+// OutlineElement sınıf nesnelerini başlat ve madde işaretlerini uygula
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -204,7 +204,7 @@ Numaralandırma ile yeni listenin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -216,8 +216,8 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıf nesnelerini başlat ve numaralandırma uygula
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// OutlineElement sınıf nesnelerini başlat ve numaralandırmayı uygula
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -246,13 +246,13 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-Bir metne bir köprünün nasıl bağlanacağını gösterir.
+Bir metne köprünün nasıl bağlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -289,7 +289,7 @@ outlineElem.AppendChildLast(text);
 // Anahat öğeleri ekle
 outline.AppendChildLast(outlineElem);
 
-// Title sınıf nesnesini başlat
+// Başlık sınıfı nesnesini başlat
 Title title = new Title() { TitleText = titleText };
 
 // Sayfa sınıfı nesnesini başlat
@@ -306,7 +306,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-Çeşitli stillerde metin içeren bir tablonun nasıl oluşturulacağını gösterir.
+Çeşitli stillerde metne sahip bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -339,7 +339,7 @@ foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Sc
                 .Append(header);
 }
 
-// 5 boş satır yapalım. Satırlar birbirinin yerine geçen arka plan rengine sahip
+// 5 satır boş bırakalım. Satırların değişen arka plan rengi var
 for (int i = 0; i < 5; i++)
 {
     backGroundColor = backGroundColor.IsEmpty ? Color.LightGray : Color.Empty;
@@ -372,8 +372,8 @@ d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 
 ### Ayrıca bakınız
 
-* class [Style](../../style)
-* ad alanı [Aspose.Note](../../style)
+* class [Style](../)
+* ad alanı [Aspose.Note](../../style/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

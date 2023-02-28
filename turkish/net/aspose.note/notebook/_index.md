@@ -1,9 +1,9 @@
 ---
-title: Notebook
+title: Class Notebook
 second_title: Aspose.Note for .NET API Referansı
-description: Bir Aspose.Note not defterini temsil eder.
+description: Aspose.Note.Notebook sınıf. Bir Aspose.Note not defterini temsil eder.
 type: docs
-weight: 390
+weight: 410
 url: /tr/net/aspose.note/notebook/
 ---
 ## Notebook class
@@ -18,46 +18,46 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | İsim | Tanım |
 | --- | --- |
-| [Notebook](notebook#constructor)() | Yeni bir örneğini başlatır[`Notebook`](../notebook) sınıf. |
-| [Notebook](notebook#constructor_1)(Stream) | Yeni bir örneğini başlatır[`Notebook`](../notebook) class. Bir akıştan mevcut bir OneNote not defterini açar. |
-| [Notebook](notebook#constructor_3)(string) | Yeni bir örneğini başlatır[`Notebook`](../notebook) class. Bir dosyadan mevcut bir OneNote not defterini açar. |
-| [Notebook](notebook#constructor_2)(Stream, NotebookLoadOptions) | Yeni bir örneğini başlatır[`Notebook`](../notebook) class. Bir akıştan mevcut bir OneNote not defterini açar. Ek yükleme seçenekleri belirlemeye izin verir. |
-| [Notebook](notebook#constructor_4)(string, NotebookLoadOptions) | Yeni bir örneğini başlatır[`Notebook`](../notebook)class. Bir dosyadan var olan bir OneNote not defterini açar. Alt yükleme stratejisi ("tembel"/anında) gibi ek seçeneklerin belirtilmesine izin verir. |
+| [Notebook](notebook/#constructor)() | Yeni bir örneğini başlatır.`Notebook` sınıf. |
+| [Notebook](notebook/#constructor_1)(Stream) | Yeni bir örneğini başlatır.`Notebook` class. Mevcut bir OneNote not defterini akıştan açar. |
+| [Notebook](notebook/#constructor_3)(string) | Yeni bir örneğini başlatır.`Notebook` class. Bir dosyadan mevcut bir OneNote not defterini açar. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | Yeni bir örneğini başlatır.`Notebook` class. Bir akıştan mevcut bir OneNote not defterini açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | Yeni bir örneğini başlatır.`Notebook` class. Bir dosyadan mevcut bir OneNote not defterini açar. Alt yükleme stratejisi ("tembel"/anında) gibi ek seçeneklerin belirtilmesine izin verir. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color) { get; set; } | Rengi alır veya ayarlar. |
-| [Count](../../aspose.note/notebook/count) { get; } | İçinde bulunan öğelerin sayısını alır[`Notebook`](../notebook) . |
-| [DisplayName](../../aspose.note/notebook/displayname) { get; set; } | Görünen adı alır veya ayarlar. |
-| [FileFormat](../../aspose.note/notebook/fileformat) { get; } | Dosya biçimini alır (OneNote 2010, OneNote Online). |
-| [Guid](../../aspose.note/notebook/guid) { get; } | Nesnenin global olarak benzersiz kimliğini alır. |
-| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled) { get; set; } | Geçmişin etkinleştirilip etkinleştirilmediğini gösteren bir değer alır veya ayarlar. |
-| [Item](../../aspose.note/notebook/item) { get; } | Verilen dizine göre not defteri alt düğümünü alır. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | Rengi alır veya ayarlar. |
+| [Count](../../aspose.note/notebook/count/) { get; } | İçinde bulunan öğelerin sayısını alır.`Notebook` . |
+| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | Görünen adı alır veya ayarlar. |
+| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | Dosya biçimini alır (OneNote 2010, OneNote Çevrimiçi). |
+| [Guid](../../aspose.note/notebook/guid/) { get; } | Nesnenin küresel olarak benzersiz kimliğini alır. |
+| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | Geçmişin etkin olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [Item](../../aspose.note/notebook/item/) { get; } | Verilen dizine göre not defteri alt düğümünü alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [AppendChild](../../aspose.note/notebook/appendchild)(INotebookChildNode) | Düğümü listenin sonuna ekler. |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes)() | Tüm alt düğümleri düğüm türüne göre alın. |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator)() | Alt düğümler arasında yinelenen bir Numaralandırıcı döndürür.[`Notebook`](../notebook) . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument)(Stream) | Bir alt belge düğümü ekler. Bir akıştan mevcut bir OneNote belgesini açar. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_2)(string) | Bir alt belge düğümü ekler. Bir dosyadan var olan bir OneNote belgesini açar. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_1)(Stream, LoadOptions) | Bir alt belge düğümü ekler. Bir akıştan var olan bir OneNote belgesini açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_3)(string, LoadOptions) | Bir alt belge düğümü ekler. Bir dosyadan var olan bir OneNote belgesini açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook)(Stream) | Bir alt not defteri düğümü ekler. Bir akıştan mevcut bir OneNote not defterini açar. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_2)(string) | Bir alt not defteri düğümü ekler. Bir dosyadan mevcut bir OneNote not defterini açar. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Bir alt not defteri düğümü ekler. Bir akıştan mevcut bir OneNote not defterini açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_3)(string, NotebookLoadOptions) | Bir alt not defteri düğümü ekler. Bir dosyadan var olan bir OneNote not defterini açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
-| [RemoveChild](../../aspose.note/notebook/removechild)(INotebookChildNode) | Alt düğümü kaldırır. |
-| [Save](../../aspose.note/notebook/save#save)(Stream) | OneNote belgesini bir akışa kaydeder. |
-| [Save](../../aspose.note/notebook/save#save_3)(string) | OneNote belgesini bir dosyaya kaydeder. |
-| [Save](../../aspose.note/notebook/save#save_2)(Stream, NotebookSaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir akışa kaydeder. |
-| [Save](../../aspose.note/notebook/save#save_1)(Stream, SaveFormat) | OneNote belgesini belirtilen biçimde bir akışa kaydeder. |
-| [Save](../../aspose.note/notebook/save#save_5)(string, NotebookSaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir dosyaya kaydeder. |
-| [Save](../../aspose.note/notebook/save#save_4)(string, SaveFormat) | OneNote belgesini belirtilen biçimde bir dosyaya kaydeder. |
+| [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | Düğümü listenin sonuna ekler. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | Tüm alt düğümleri, düğüm türüne göre alın. |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | Alt düğümler aracılığıyla yinelenen bir numaralandırıcı döndürür.`Notebook` . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | Bir alt belge düğümü ekler. Bir akıştan mevcut bir OneNote belgesini açar. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | Bir alt belge düğümü ekler. Bir dosyadan mevcut bir OneNote belgesini açar. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | Bir alt belge düğümü ekler. Bir akıştan mevcut bir OneNote belgesini açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | Bir alt belge düğümü ekler. Mevcut bir OneNote belgesini bir dosyadan açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | Bir alt not defteri düğümü ekler. Bir akıştan mevcut bir OneNote not defterini açar. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | Bir alt not defteri düğümü ekler. Mevcut bir OneNote not defterini bir dosyadan açar. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Bir alt not defteri düğümü ekler. Bir akıştan mevcut bir OneNote not defterini açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | Bir alt not defteri düğümü ekler. Mevcut bir OneNote not defterini bir dosyadan açar. Ek yükleme seçeneklerini belirlemeye izin verir. |
+| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | Alt düğümü kaldırır. |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | OneNote belgesini bir akışa kaydeder. |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | OneNote belgesini bir dosyaya kaydeder. |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir akışa kaydeder. |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | OneNote belgesini belirtilen biçimde bir akışa kaydeder. |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir dosyaya kaydeder. |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | OneNote belgesini belirtilen biçimde bir dosyaya kaydeder. |
 
 ### Örnekler
 
@@ -81,7 +81,7 @@ Not defterinin pdf formatında nasıl kaydedileceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
@@ -90,13 +90,13 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir);
 ```
 
-Not defterinin resim olarak nasıl kaydedileceğini gösterir.
+Not defterinin görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
@@ -126,7 +126,7 @@ Düzleştirilmiş not defterinin pdf formatında nasıl kaydedileceğini göster
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 // Not Defterini Kaydet
@@ -139,32 +139,32 @@ notebook.Save(
     });
 ```
 
-Onları tembelce yükleyen bir not defterinin belgeleri arasında nasıl yineleme yapılacağını gösterir.
+Tembel bir şekilde yükleyen bir not defterinin belgelerini nasıl yineleyeceğinizi gösterir.
 
 ```csharp
 string inputFile = "Notizbuch öffnen.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// Varsayılan olarak çocuk yüklemesi "tembel"dir.
+// Varsayılan olarak çocukların yüklenmesi "tembel"dir.
 Notebook notebook = new Notebook(dataDir + inputFile);
 
 foreach (var notebookChildNode in notebook.OfType<Document>()) 
 {
-    // Alt belgenin fiili yüklemesi yalnızca burada gerçekleşir.
-    // Alt belgeyle bir şeyler yap
+    // Alt belgenin asıl yüklenmesi yalnızca burada gerçekleşir.
+    // alt belge ile bir şeyler yap
 }
 ```
 
-Bir not defterine nasıl yeni bölüm ekleneceğini gösterir.
+Not defterine nasıl yeni bölüm ekleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
-// Defter'e yeni bir çocuk ekle
+// Not Defterine yeni bir alt öğe ekleyin
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
 
 dataDir = dataDir + "AddChildNode_out.onetoc2";
@@ -173,7 +173,7 @@ dataDir = dataDir + "AddChildNode_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-Bir akıştan not defterinin nasıl yükleneceğini gösterir.
+Not defterinin bir akıştan nasıl yükleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -191,7 +191,7 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-Şifreli bir not defterinin nasıl yapıldığını gösterir.
+Not defterinin nasıl şifreleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -203,13 +203,13 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-Belirtilen seçeneklerle not defterinin resim olarak nasıl kaydedileceğini gösterir.
+Not defterini belirtilen seçeneklerle resim olarak nasıl kaydedeceğinizi gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -230,7 +230,7 @@ Düzleştirilmiş not defterinin resim olarak nasıl kaydedileceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -252,10 +252,10 @@ Not defterinden bir bölümün nasıl kaldırılacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "test.onetoc2");
 
-// İstenen alt öğeyi aramak için alt düğümleri arasında gezin
+// İstenen alt öğeyi aramak için alt düğümleri arasında gezinin
 foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
@@ -271,11 +271,11 @@ dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-Bir not defterinin önceden yüklenmiş belgeleri arasında nasıl yineleme yapılacağını gösterir.
+Bir not defterinin önceden yüklenmiş belgelerinin nasıl yineleneceğini gösterir.
 
 ```csharp
-// Varsayılan olarak çocuk yüklemesi "tembel"dir.
-// Bu nedenle anlık yükleme için gerçekleşmiş,
+// Varsayılan olarak çocukların yüklenmesi "tembel"dir.
+// Bu nedenle anında yükleme gerçekleşti,
 // NotebookLoadOptions.InstantLoading bayrağını ayarlamak gerekiyor.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
@@ -283,14 +283,14 @@ String inputFile = "Notizbuch öffnen.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 
-// Tüm alt belgeler zaten yüklendi.
+// Tüm alt belgeler zaten yüklenmiştir.
 foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>()) 
 {
-   // Alt belgeyle bir şeyler yap
+   // alt belge ile bir şeyler yap
 }
 ```
 
-Bir not defterinin içeriğinden nasıl geçileceğini gösterir.
+Not defteri içeriğinden nasıl geçileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -304,11 +304,11 @@ try
         Console.WriteLine(notebookChildNode.DisplayName);
         if (notebookChildNode is Document)
         {
-            // Alt belgeyle bir şeyler yap
+            // alt belge ile bir şeyler yap
         }
         else if (notebookChildNode is Notebook)
         {
-            // Alt not defteriyle bir şeyler yap
+            // Alt not defteri ile bir şeyler yapın
         }
     }
 }
@@ -320,8 +320,8 @@ catch (Exception ex)
 
 ### Ayrıca bakınız
 
-* interface [INotebookChildNode](../inotebookchildnode)
-* ad alanı [Aspose.Note](../../aspose.note)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

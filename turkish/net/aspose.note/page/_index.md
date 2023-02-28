@@ -1,9 +1,9 @@
 ---
-title: Page
+title: Class Page
 second_title: Aspose.Note for .NET API Referansı
-description: Bir sayfayı temsil eder.
+description: Aspose.Note.Page sınıf. Bir sayfayı temsil eder.
 type: docs
-weight: 460
+weight: 480
 url: /tr/net/aspose.note/page/
 ---
 ## Page class
@@ -18,46 +18,46 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | İsim | Tanım |
 | --- | --- |
-| [Page](page#constructor)() | Yeni bir örneğini başlatır[`Page`](../page) sınıf. |
+| [Page](page/#constructor)() | Yeni bir örneğini başlatır.`Page` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Author](../../aspose.note/page/author) { get; set; } | Yazarı alır veya ayarlar. |
-| [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | Sayfanın arka plan rengini alır veya ayarlar. |
-| [CreationTime](../../aspose.note/page/creationtime) { get; set; } | Oluşturma zamanını alır veya ayarlar. |
-| [Document](../../aspose.note/node/document) { get; } | Düğümün belgesini alır. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | Bu sayfanın bir çakışma sayfası olup olmadığını belirten bir değer alır veya ayarlar. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
-| [Level](../../aspose.note/page/level) { get; set; } | Düzeyi alır veya ayarlar. |
-| [Margin](../../aspose.note/page/margin) { get; set; } | Kenar boşluğunu alır veya ayarlar. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Aynı düğüm ağacı düzeyinde bir sonraki düğümü alır. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Düğüm türünü alır. |
-| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary) { get; set; } | Sayfanın ve alt düğümlerinin revizyon özetini alır veya ayarlar. |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize) { get; set; } | Düzenleyicide görüntülenen sayfa düzeni boyutunu alır veya ayarlar. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Üst düğümü alır. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Aynı düğüm ağacı düzeyinde önceki düğümü alır. |
-| [SizeType](../../aspose.note/page/sizetype) { get; set; } | Bir sayfanın boyut türünü alır veya ayarlar. |
-| [Title](../../aspose.note/page/title) { get; set; } | Başlığı alır veya ayarlar. |
+| [Author](../../aspose.note/page/author/) { get; set; } | Yazarı alır veya ayarlar. |
+| [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | Sayfanın arka plan rengini alır veya ayarlar. |
+| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | Oluşturma zamanını alır veya ayarlar. |
+| [Document](../../aspose.note/node/document/) { get; } | Düğümün belgesini alır. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | Bu sayfanın bir çakışma sayfası olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
+| [Level](../../aspose.note/page/level/) { get; set; } | Düzeyi alır veya ayarlar. |
+| [Margin](../../aspose.note/page/margin/) { get; set; } | Kenar boşluğunu alır veya ayarlar. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Aynı düğüm ağacı seviyesindeki bir sonraki düğümü alır. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Düğüm türünü alır. |
+| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | Sayfa ve alt düğümleri için revizyon özetini alır veya ayarlar. |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | Düzenleyicide görüntülenen sayfanın düzen boyutunu alır veya ayarlar. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Üst düğümü alır. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Aynı düğüm ağacı seviyesindeki önceki düğümü alır. |
+| [SizeType](../../aspose.note/page/sizetype/) { get; set; } | Bir sayfanın boyut türünü alır veya ayarlar. |
+| [Title](../../aspose.note/page/title/) { get; set; } | Başlığı alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.note/page/accept)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [Clone](../../aspose.note/page/clone)(bool) | Sayfayı klonlar. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | Sayfanın tüm alt düğümlerini düğüm türüne göre alın. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IPageChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [Clone](../../aspose.note/page/clone/)(bool) | Sayfayı klonlar. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | Sayfanın tüm alt düğümlerini düğüm türüne göre alın. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Örnekler
 
@@ -67,7 +67,7 @@ Sayfanın arka plan renginin nasıl ayarlanacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle ve ilk çocuğu al           
+// OneNote belgesini yükleyin ve ilk çocuğu alın           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -98,7 +98,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-Bir sayfa için nasıl başlık ayarlanacağını gösterir.
+Bir sayfa için bir başlığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -131,13 +131,13 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-Sayfanın geçmişinin nasıl alınacağını gösterir.
+Sayfa geçmişinin nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle
+// OneNote belgesini yükleyin
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // İlk sayfayı al
@@ -160,11 +160,11 @@ Sayfanın meta bilgilerinin nasıl düzenleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle ve ilk çocuğu al           
+// OneNote belgesini yükleyin ve ilk çocuğu alın           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// Bu sayfa için İçerik Revizyon Özeti Okuma
+// Bu sayfa için İçerik Revizyon Özeti okunuyor
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -179,7 +179,7 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-Tüm sayfalardan nasıl geçileceğini ve metinde nasıl bir değişiklik yapılacağını gösterir.
+Tüm sayfaların nasıl geçileceğini ve metinde nasıl değiştirileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -205,11 +205,11 @@ foreach (RichText richText in textNodes)
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
-// Desteklenen herhangi bir dosya biçimine kaydet
+// Desteklenen herhangi bir dosya biçiminde kaydedin
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-Sayfa metninin nasıl geçileceğini ve nasıl değiştirileceğini gösterir.
+Sayfa metninin nasıl geçileceğini ve değiştirileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -235,12 +235,12 @@ foreach (RichText richText in textNodes)
     }
 }
 
-// Desteklenen herhangi bir dosya biçimine kaydet
+// Desteklenen herhangi bir dosya biçiminde kaydedin
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-Varsayılan seçenekleri kullanarak bir belgenin nasıl oluşturulacağını ve html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve varsayılan seçenekleri kullanarak html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -250,7 +250,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -259,7 +259,7 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
@@ -270,7 +270,7 @@ Etiketli yeni resmin nasıl ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -289,7 +289,7 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -303,12 +303,12 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-Bir sayfanın çakışma sayfası olup olmadığının nasıl kontrol edileceğini gösterir (yani, OneNote'un otomatik olarak birleştiremeyeceği değişikliklere sahiptir).
+Bir sayfanın çakışma sayfası olup olmadığının nasıl kontrol edileceğini gösterir (yani, OneNote'un otomatik olarak birleştiremediği değişiklikler içerir).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle
+// OneNote belgesini yükleyin
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -321,8 +321,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // Varsayılan olarak çakışan sayfalar kaydedilirken atlanır.
-    // Çakışmaz olarak işaretlerseniz, tarihte her zamanki gibi kaydedilecektir.
+    // Varsayılan olarak çakışma sayfaları kaydedilirken atlanır.
+    // Çakışmasız olarak işaretlerseniz, geçmişe her zamanki gibi kaydedilecektir.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -330,7 +330,7 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığının html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığında html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -341,7 +341,7 @@ Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -350,7 +350,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -359,19 +359,19 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Başlık sayfası olan bir belgenin nasıl oluşturulacağını gösterir.
+Başlıklı sayfalı bir belgenin nasıl oluşturulacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Sayfa başlığı özelliklerini ayarla
@@ -382,7 +382,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// Belgeye Sayfa düğümü ekle
+// Sayfa düğümünü belgeye ekle
 doc.AppendChildLast(page);
 
 // OneNote belgesini kaydet
@@ -402,7 +402,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 // Yeni Sayfayı başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title(doc)
              {
@@ -411,7 +411,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// Sayfa düğümü ekle
+// Sayfa düğümünü ekle
 doc.AppendChildLast(page);
 
 // OneNote belgesini farklı biçimlerde kaydedin, metin yazı tipi boyutunu ayarlayın ve düzen değişikliklerini manuel olarak algılayın.
@@ -438,7 +438,7 @@ Outline outline = new Outline(doc);
 // Metin stili ayarlarını uygula
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -470,7 +470,7 @@ Yeni madde işaretli listelerin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -482,10 +482,10 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıfı nesnelerini başlat ve madde işaretlerini uygula
+// OutlineElement sınıf nesnelerini başlat ve madde işaretlerini uygula
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -517,7 +517,7 @@ Numaralandırma ile yeni listenin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -529,8 +529,8 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıf nesnelerini başlat ve numaralandırma uygula
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// OutlineElement sınıf nesnelerini başlat ve numaralandırmayı uygula
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -559,13 +559,13 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-Alt sayfa içeren bir sayfanın nasıl ekleneceğini gösterir.
+Alt sayfalı bir sayfanın nasıl ekleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat ve seviyesini ayarla
@@ -616,9 +616,9 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IPageChildNode](../ipagechildnode)
-* ad alanı [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IPageChildNode](../ipagechildnode/)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

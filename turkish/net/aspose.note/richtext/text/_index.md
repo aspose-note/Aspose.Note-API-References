@@ -1,14 +1,14 @@
 ---
-title: Text
+title: RichText.Text
 second_title: Aspose.Note for .NET API Referansı
-description: Metni alır veya ayarlar. Dize 10 satır besleme değerinde herhangi bir karakter İÇERMEMELİDİR.
+description: RichText mülk. Metni alır veya ayarlar. Dize 10 satır besleme. değerinde herhangi bir karakter İÇERMEZ OLMALIDIR
 type: docs
 weight: 100
 url: /tr/net/aspose.note/richtext/text/
 ---
 ## RichText.Text property
 
-Metni alır veya ayarlar. Dize, 10 (satır besleme) değerinde herhangi bir karakter İÇERMEMELİDİR.
+Metni alır veya ayarlar. Dize, 10 (satır besleme). değerinde herhangi bir karakter İÇERMEZ OLMALIDIR
 
 ```csharp
 public string Text { get; set; }
@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Örnekler
 
-Belgeden tüm metnin nasıl alınacağını gösterir.
+Tüm metnin belgeden nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -32,7 +32,7 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 Console.WriteLine(text);
 ```
 
-Sayfadan tüm metnin nasıl alınacağını gösterir.
+Sayfadaki tüm metnin nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -53,7 +53,7 @@ if (page != null)
 }
 ```
 
-Her tablonun satırından nasıl metin alınacağını gösterir.
+Her tablo satırından nasıl metin alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -62,12 +62,12 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Tablo satırları arasında yineleme
+    // Tablo satırlarını yinele
     foreach (TableRow row in table)
     {
         // Metni al
@@ -88,7 +88,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 // Tablo sayısını ayarla
@@ -107,7 +107,7 @@ foreach (Table table in nodes)
 }
 ```
 
-Bir sayfa için nasıl başlık ayarlanacağını gösterir.
+Bir sayfa için bir başlığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -140,7 +140,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-Tüm sayfalardan nasıl geçileceğini ve metinde nasıl bir değişiklik yapılacağını gösterir.
+Tüm sayfaların nasıl geçileceğini ve metinde nasıl değiştirileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -166,7 +166,7 @@ foreach (RichText richText in textNodes)
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
-// Desteklenen herhangi bir dosya biçimine kaydet
+// Desteklenen herhangi bir dosya biçiminde kaydedin
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
@@ -179,16 +179,16 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();        
 
 foreach (Table table in nodes)
 {
-    // Tablo satırları arasında yineleme
+    // Tablo satırlarını yinele
     foreach (TableRow row in table)
     {
         // TableCell düğümlerinin listesini al
-        // Tablo hücreleri arasında yineleme
+        // Tablo hücrelerini yinele
         foreach (TableCell cell in row)
         {
             // Metni al
@@ -201,7 +201,7 @@ foreach (Table table in nodes)
 }
 ```
 
-Varsayılan seçenekleri kullanarak bir belgenin nasıl oluşturulacağını ve html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve varsayılan seçenekleri kullanarak html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -211,7 +211,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -220,18 +220,18 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-etiketiyle nasıl yeni paragraf ekleneceğini gösterir.
+Etiketli yeni paragrafın nasıl ekleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -249,7 +249,7 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // Metin düğümü ekle
 outlineElem.AppendChildLast(text);
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -263,7 +263,7 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığının html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığında html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -274,7 +274,7 @@ Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -283,7 +283,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -304,7 +304,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // Tüm RichText düğümlerini al
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// Her düğümde yineleme
+// Her düğümü yinele
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -332,7 +332,7 @@ Metin içeren bir belgenin nasıl oluşturulacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -347,7 +347,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // RichText düğümü ekle
@@ -382,7 +382,7 @@ Outline outline = new Outline(doc);
 // Metin stili ayarlarını uygula
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -414,7 +414,7 @@ Yeni madde işaretli listelerin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -426,10 +426,10 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıfı nesnelerini başlat ve madde işaretlerini uygula
+// OutlineElement sınıf nesnelerini başlat ve madde işaretlerini uygula
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -461,7 +461,7 @@ Numaralandırma ile yeni listenin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -473,8 +473,8 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıf nesnelerini başlat ve numaralandırma uygula
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// OutlineElement sınıf nesnelerini başlat ve numaralandırmayı uygula
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -509,7 +509,7 @@ Haftalık toplantı için bir şablonun nasıl hazırlanacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -543,13 +543,13 @@ foreach (var e in new[] { "First", "Second", "Third" })
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
 
-Bir metne bir köprünün nasıl bağlanacağını gösterir.
+Bir metne köprünün nasıl bağlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -586,7 +586,7 @@ outlineElem.AppendChildLast(text);
 // Anahat öğeleri ekle
 outline.AppendChildLast(outlineElem);
 
-// Title sınıf nesnesini başlat
+// Başlık sınıfı nesnesini başlat
 Title title = new Title() { TitleText = titleText };
 
 // Sayfa sınıfı nesnesini başlat
@@ -605,8 +605,8 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [RichText](../../richtext)
-* ad alanı [Aspose.Note](../../richtext)
+* class [RichText](../)
+* ad alanı [Aspose.Note](../../richtext/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

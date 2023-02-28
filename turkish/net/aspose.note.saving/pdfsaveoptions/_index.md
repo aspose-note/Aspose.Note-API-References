@@ -1,14 +1,14 @@
 ---
-title: PdfSaveOptions
+title: Class PdfSaveOptions
 second_title: Aspose.Note for .NET API Referansı
-description: Belge sayfalarını PDFye dönüştürürken ek seçenekleri belirlemeye izin verir.
+description: Aspose.Note.Saving.PdfSaveOptions sınıf. Belge sayfalarını PDFye dönüştürürken ek seçenekler belirlemeye izin verir.
 type: docs
-weight: 820
+weight: 850
 url: /tr/net/aspose.note.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
 
-Belge sayfalarını PDF'ye dönüştürürken ek seçenekleri belirlemeye izin verir.
+Belge sayfalarını PDF'ye dönüştürürken ek seçenekler belirlemeye izin verir.
 
 ```csharp
 public sealed class PdfSaveOptions : SaveOptions
@@ -18,29 +18,60 @@ public sealed class PdfSaveOptions : SaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions)() | Default_Constructor |
+| [PdfSaveOptions](pdfsaveoptions/)() | Default_Constructor |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Kaydederken kullanılacak yazı tipi ayarlarını alır veya ayarlar |
-| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression) { get; set; } | PDF dosyasındaki görüntülere uygulanan sıkıştırma türünü alır veya ayarlar. |
-| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality) { get; set; } | PDF belgesi içindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar. Değer 0 ile 100 arasında değişebilir; burada 0, en kötü kaliteyi ancak maksimum sıkıştırmayı ve 100, en iyi kaliteyi ancak minimum sıkıştırmayı ifade eder. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Kaydedilecek sayfaların sayısını alır veya ayarlar. Varsayılan olarakMaxValue bu, belgenin tüm sayfalarının oluşturulacağı anlamına gelir. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Kaydedilecek ilk sayfanın dizinini alır veya ayarlar. Varsayılan olarak 0. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm) { get; set; } | Sayfa bölme için kullanılan algoritmayı alır veya ayarlar. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Belgenin kaydedildiği biçimi alır. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Kaydederken kullanılacak yazı tipi ayarlarını alır veya ayarlar |
+| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression/) { get; set; } | PDF dosyasındaki görüntülere uygulanan sıkıştırma türünü alır veya ayarlar. |
+| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality/) { get; set; } | PDF belgesindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar. Değer 0 ile 100 arasında değişebilir; burada 0, en kötü kalite ancak maksimum sıkıştırma anlamına gelir ve 100, en iyi kalite ancak minimum sıkıştırma anlamına gelir. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Kaydedilecek sayfa sayısını alır veya ayarlar. varsayılan olarakMaxValue , bu, belgenin tüm sayfalarının oluşturulacağı anlamına gelir. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Kaydedilecek ilk sayfanın dizinini alır veya ayarlar. Varsayılan olarak 0. |
+| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings/) { get; set; } | Belgedeki her sayfa için sayfa ayarlarını alır veya ayarlar. Varsayılan olarak CurrentUICulture'a bağlıdır, *ABD kültürlerinin harf ayarı vardır, diğerlerinin A4 ayarları vardır. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/) { get; set; } | Sayfa bölme için kullanılan algoritmayı alır veya ayarlar. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Belgenin kaydedildiği biçimi alır. |
 
 ### Örnekler
 
-Belirtilen seçeneklerle not defterinin pdf formatında nasıl kaydedileceğini gösterir.
+Bir belgenin Letter sayfa düzeniyle PDF formatında nasıl kaydedileceğini gösterir.
+
+```csharp
+// Belgeler dizininin yolu.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Belgeyi Aspose.Note'a yükleyin.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Belgeyi kaydedin.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Bir belgenin A4 sayfa düzeninde yükseklik sınırı olmaksızın PDF formatında nasıl kaydedileceğini gösterir.
+
+```csharp
+// Belgeler dizininin yolu.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Belgeyi Aspose.Note'a yükleyin.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Belgeyi kaydedin.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
+```
+
+Not defterinin belirtilen seçeneklerle pdf formatında nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -55,7 +86,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalara bölünür. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
+Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalar arasında bölünürler. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -86,7 +117,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // PdfSaveOptions nesnesini başlat
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Kaydedilecek ilk sayfanın sayfa indeksini ayarla
+                              // Kaydedilecek ilk sayfanın sayfa dizinini ayarla
                               PageIndex = 0,
 
                               // Sayfa sayısını ayarla
@@ -110,10 +141,10 @@ Document doc = new Document(dataDir + "Aspose.one");
 // PdfSaveOptions nesnesini başlat
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Jpeg sıkıştırmasını kullan
+                              // Jpeg sıkıştırmayı kullan
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
-                              // JPEG sıkıştırması için kalite
+                              // JPEG sıkıştırma kalitesi
                               JpegQuality = 90
                           };
 
@@ -121,7 +152,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalara bölünür. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
+Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalar arasında bölünürler. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -151,8 +182,8 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [SaveOptions](../saveoptions)
-* ad alanı [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* ad alanı [Aspose.Note.Saving](../../aspose.note.saving/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: IsEncrypted
+title: Document.IsEncrypted
 second_title: Aspose.Note for .NET API Referansı
-description: Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir.
+description: Document yöntem. Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir.
 type: docs
 weight: 150
 url: /tr/net/aspose.note/document/isencrypted/
 ---
 ## IsEncrypted(Stream, LoadOptions, out Document) {#isencrypted_1}
 
-Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir.
+Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir.
 
 ```csharp
 public static bool IsEncrypted(Stream stream, LoadOptions options, out Document document)
@@ -22,7 +22,7 @@ public static bool IsEncrypted(Stream stream, LoadOptions options, out Document 
 
 ### Geri dönüş değeri
 
-Belge şifrelenmişse true döndürür, aksi takdirde false.
+Belge şifrelenmişse doğru, aksi takdirde yanlış döndürür.
 
 ### Örnekler
 
@@ -44,7 +44,7 @@ else
 }
 ```
 
-Bir belgenin belirli bir parolayla parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir belgenin belirli bir parola ile parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -71,16 +71,16 @@ else
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## IsEncrypted(Stream, string, out Document) {#isencrypted_2}
 
-Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir.
+Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir.
 
 ```csharp
 public static bool IsEncrypted(Stream stream, string password, out Document document)
@@ -89,12 +89,12 @@ public static bool IsEncrypted(Stream stream, string password, out Document docu
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | stream | Stream | Akış. |
-| password | String | Bir belgenin şifresini çözmek için kullanılan parola. |
+| password | String | Bir belgenin şifresini çözmek için parola. |
 | document | Document& | Yüklenen belge. |
 
 ### Geri dönüş değeri
 
-Belge şifrelenmişse true döndürür, aksi takdirde false.
+Belge şifrelenmişse doğru, aksi takdirde yanlış döndürür.
 
 ### Örnekler
 
@@ -116,7 +116,7 @@ else
 }
 ```
 
-Bir belgenin belirli bir parolayla parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir belgenin belirli bir parola ile parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -143,15 +143,15 @@ else
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## IsEncrypted(Stream, out Document) {#isencrypted}
 
-Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir.
+Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir.
 
 ```csharp
 public static bool IsEncrypted(Stream stream, out Document document)
@@ -164,7 +164,7 @@ public static bool IsEncrypted(Stream stream, out Document document)
 
 ### Geri dönüş değeri
 
-Belge şifrelenmişse true döndürür, aksi takdirde false.
+Belge şifrelenmişse doğru, aksi takdirde yanlış döndürür.
 
 ### Örnekler
 
@@ -186,7 +186,7 @@ else
 }
 ```
 
-Bir belgenin belirli bir parolayla parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir belgenin belirli bir parola ile parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -213,15 +213,15 @@ else
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## IsEncrypted(string, LoadOptions, out Document) {#isencrypted_4}
 
-Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir.
+Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir.
 
 ```csharp
 public static bool IsEncrypted(string filePath, LoadOptions options, out Document document)
@@ -235,7 +235,7 @@ public static bool IsEncrypted(string filePath, LoadOptions options, out Documen
 
 ### Geri dönüş değeri
 
-Belge şifrelenmişse true döndürür, aksi takdirde false.
+Belge şifrelenmişse doğru, aksi takdirde yanlış döndürür.
 
 ### Örnekler
 
@@ -257,7 +257,7 @@ else
 }
 ```
 
-Bir belgenin belirli bir parolayla parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir belgenin belirli bir parola ile parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -284,16 +284,16 @@ else
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## IsEncrypted(string, out Document) {#isencrypted_3}
 
-Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir.
+Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir.
 
 ```csharp
 public static bool IsEncrypted(string filePath, out Document document)
@@ -306,7 +306,7 @@ public static bool IsEncrypted(string filePath, out Document document)
 
 ### Geri dönüş değeri
 
-Belge şifrelenmişse true döndürür, aksi takdirde false.
+Belge şifrelenmişse doğru, aksi takdirde yanlış döndürür.
 
 ### Örnekler
 
@@ -328,7 +328,7 @@ else
 }
 ```
 
-Bir belgenin belirli bir parolayla parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir belgenin belirli bir parola ile parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -355,15 +355,15 @@ else
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## IsEncrypted(string, string, out Document) {#isencrypted_5}
 
-Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir.
+Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir.
 
 ```csharp
 public static bool IsEncrypted(string filePath, string password, out Document document)
@@ -372,12 +372,12 @@ public static bool IsEncrypted(string filePath, string password, out Document do
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Dosya yolu. |
-| password | String | Bir belgenin şifresini çözmek için kullanılan parola. |
+| password | String | Bir belgenin şifresini çözmek için parola. |
 | document | Document& | Yüklenen belge. |
 
 ### Geri dönüş değeri
 
-Belge şifrelenmişse true döndürür, aksi takdirde false.
+Belge şifrelenmişse doğru, aksi takdirde yanlış döndürür.
 
 ### Örnekler
 
@@ -399,7 +399,7 @@ else
 }
 ```
 
-Bir belgenin belirli bir parolayla parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir belgenin belirli bir parola ile parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -426,8 +426,8 @@ else
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
