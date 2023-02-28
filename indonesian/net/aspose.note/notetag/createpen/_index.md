@@ -1,0 +1,31 @@
+---
+title: NoteTag.CreatePen
+second_title: Aspose.Note untuk Referensi .NET API
+description: NoteTag metode. Membuat tag catatan baru dengan ikon Pena dan label tertentu.
+type: docs
+weight: 740
+url: /id/net/aspose.note/notetag/createpen/
+---
+## NoteTag.CreatePen method
+
+Membuat tag catatan baru dengan ikon Pena dan label tertentu.
+
+```csharp
+public static NoteTag CreatePen(string label = "Highlight")
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| label | String | Label tag. |
+
+### Nilai Pengembalian
+
+Itu[`NoteTag`](../) .
+
+### Lihat juga
+
+* class [NoteTag](../)
+* ruang nama [Aspose.Note](../../notetag/)
+* perakitan [Aspose.Note](../../../)
+
+
