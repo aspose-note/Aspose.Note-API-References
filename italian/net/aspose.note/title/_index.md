@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta un titolo.
+description: Aspose.Note.Title classe. Rappresenta un titolo.
 type: docs
-weight: 950
+weight: 980
 url: /it/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Nome | Descrizione |
 | --- | --- |
-| [Title](title#constructor)() | Inizializza una nuova istanza di[`Title`](../title) classe. |
+| [Title](title/#constructor)() | Inizializza una nuova istanza di`Title` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Ottiene il documento del nodo. |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Ottiene o imposta l'offset orizzontale. |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Ottiene un valore che indica se questo nodo è composto. Se true il nodo può avere nodi figlio. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Ottiene o imposta l'ultima ora modificata. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ottiene il tipo di nodo. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ottiene il nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ottiene il nodo precedente allo stesso livello di albero dei nodi. |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | Ottiene o imposta una rappresentazione di stringa della data nel titolo. |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | Ottiene o imposta il testo del titolo. |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | Ottiene o imposta una rappresentazione di stringa dell'ora nel titolo. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | Ottiene o imposta l'offset verticale. |
+| [Document](../../aspose.note/node/document/) { get; } | Ottiene il documento del nodo. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | Ottiene o imposta l'offset orizzontale. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | Ottiene un valore che indica se questo nodo è composto. Se vero il nodo può avere nodi figli. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | Ottiene o imposta l'ora dell'ultima modifica. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ottiene il tipo di nodo. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ottiene il nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ottiene il nodo precedente allo stesso livello dell'albero dei nodi. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | Ottiene o imposta una rappresentazione di stringa della data nel titolo. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | Ottiene o imposta il testo del titolo. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | Ottiene o imposta una rappresentazione di stringa dell'ora nel titolo. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | Ottiene o imposta l'offset verticale. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Accetta il visitatore del nodo. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Ottieni tutti i nodi figlio in base al tipo di nodo. |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | Restituisce un enumeratore che scorre i nodi figlio di[`Title`](../title) . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | Accetta il visitatore del nodo. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | Ottieni tutti i nodi figli in base al tipo di nodo. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | Restituisce un enumeratore che itera attraverso i nodi figlio di`Title` . |
 
 ### Esempi
 
@@ -131,7 +131,7 @@ dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-Mostra come creare un documento e salvare in formato html l'intervallo di pagine specificato.
+Mostra come creare un documento e salvarlo in un intervallo di pagine specificato in formato html.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -160,7 +160,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Mostra come creare un documento con una pagina intitolata.
+Mostra come creare un documento con pagina titolata.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -169,7 +169,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // Crea un oggetto della classe Document
 Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Stile predefinito per tutto il testo nel documento.
@@ -186,7 +186,7 @@ page.Title = new Title(doc)
 // Aggiungi il nodo Pagina nel documento
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### Guarda anche
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: ParagraphStyle
+title: RichText.ParagraphStyle
 second_title: Aspose.Note per .NET API Reference
-description: Ottiene o imposta lo stile del paragrafo. Queste impostazioni vengono utilizzate se non ci sono oggetti TextStyle corrispondenti inStyles raccolta o questo oggetto non specifica unimpostazione necessaria.
+description: RichText proprietà. Ottiene o imposta lo stile di paragrafo. Queste impostazioni vengono utilizzate se non esiste un oggetto TextStyle corrispondente inStyles collection o questo oggetto non specifica unimpostazione necessaria.
 type: docs
 weight: 60
 url: /it/net/aspose.note/richtext/paragraphstyle/
 ---
 ## RichText.ParagraphStyle property
 
-Ottiene o imposta lo stile del paragrafo. Queste impostazioni vengono utilizzate se non ci sono oggetti TextStyle corrispondenti inStyles raccolta o questo oggetto non specifica un'impostazione necessaria.
+Ottiene o imposta lo stile di paragrafo. Queste impostazioni vengono utilizzate se non esiste un oggetto TextStyle corrispondente inStyles collection o questo oggetto non specifica un'impostazione necessaria.
 
 ```csharp
 public ParagraphStyle ParagraphStyle { get; set; }
@@ -16,7 +16,7 @@ public ParagraphStyle ParagraphStyle { get; set; }
 
 ### Esempi
 
-Sottolineiamo i titoli delle pagine tra le altre intestazioni aumentando la dimensione del carattere.
+Mettiamo in risalto i titoli delle pagine tra le altre intestazioni aumentando la dimensione del carattere.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -24,7 +24,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Scorri i titoli delle pagine.
+// Itera attraverso i titoli della pagina.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -40,7 +40,33 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-Sottolineiamo le ultime modifiche al testo evidenziandole.
+Mostra come applicare lo stile del tema scuro a un documento.
+
+```csharp
+// Il percorso della directory dei documenti.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Carica il documento in Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
+Sottolineiamo le ultime modifiche al testo evidenziando.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -48,7 +74,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Ottieni nodi RichText modificati la scorsa settimana.
+// Ottieni i nodi RichText modificati la scorsa settimana.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -98,7 +124,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-Manipola in base al formato del testo usando lo stile di paragrafo.
+Manipolare in base al formato del testo utilizzando lo stile di paragrafo.
 
 ```csharp
 var document = new Document();
@@ -128,13 +154,13 @@ string dataDir = RunExamples.GetDataDir_Tags();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
@@ -143,16 +169,16 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // Aggiungi nodo di testo
 outlineElem.AppendChildLast(text);
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
@@ -169,7 +195,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // Ottieni tutti i nodi RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// Scorri ogni nodo
+// Itera attraverso ogni nodo
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -211,24 +237,24 @@ OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-//---------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -241,13 +267,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica i punti elenco
@@ -270,12 +296,12 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -288,13 +314,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica la numerazione
@@ -316,18 +342,18 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-Mostra come preparare un modello per la riunione settimanale.
+Mostra come preparare un modello per una riunione settimanale.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -413,25 +439,25 @@ outline.AppendChildLast(outlineElem);
 // Inizializza l'oggetto della classe Title
 Title title = new Title() { TitleText = titleText };
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Note.Page() { Title = title };
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* class [ParagraphStyle](../../paragraphstyle)
-* class [RichText](../../richtext)
-* spazio dei nomi [Aspose.Note](../../richtext)
+* class [ParagraphStyle](../../paragraphstyle/)
+* class [RichText](../)
+* spazio dei nomi [Aspose.Note](../../richtext/)
 * assemblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

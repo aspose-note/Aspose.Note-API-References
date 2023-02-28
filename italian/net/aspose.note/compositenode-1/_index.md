@@ -1,7 +1,7 @@
 ---
-title: CompositeNodeT
+title: Class CompositeNodeT
 second_title: Aspose.Note per .NET API Reference
-description: La classe generica di base per i nodi che possono contenere altri nodi.
+description: Aspose.Note.CompositeNode1T classe. La classe generica di base per i nodi che possono contenere altri nodi.
 type: docs
 weight: 40
 url: /it/net/aspose.note/compositenode-1/
@@ -23,35 +23,35 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Ottiene il documento del nodo. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } | Ottiene il primo nodo figlio di questo nodo. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } | Verifica se il nodo è composto. Se true, il nodo può avere nodi figlio. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } | Ottiene l'ultimo nodo figlio di questo nodo. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ottiene il tipo di nodo. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ottiene il nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ottiene il nodo precedente allo stesso livello di albero dei nodi. |
+| [Document](../../aspose.note/node/document/) { get; } | Ottiene il documento del nodo. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } | Ottiene il primo nodo figlio di questo nodo. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } | Controlla se il nodo è composto. Se vero, il nodo può avere nodi figli. |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } | Ottiene l'ultimo nodo figlio di questo nodo. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ottiene il tipo di nodo. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ottiene il nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ottiene il nodo precedente allo stesso livello dell'albero dei nodi. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.note/compositenode`1/accept)(DocumentVisitor) | Accetta il visitatore del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) | Aggiunge il nodo in primo piano nell'elenco dei nodi figlio per questo nodo. |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) | Aggiunge il nodo alla fine dell'elenco dei nodi figlio per questo nodo. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes#getchildnodes_1)() | Ottieni tutti i nodi figlio in base al tipo di nodo. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() | Restituisce un enumeratore che scorre i nodi figlio di[`CompositeNode`](../compositenode-1) . |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) | Inserisce il nodo nella posizione specificata nell'elenco dei nodi figlio per questo nodo. |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Inserisce la sequenza del nodo a partire dalla posizione specificata nell'elenco dei nodi figli per questo nodo. |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange#insertchildrenrange_1)(int, params T[]) | Inserisce la sequenza del nodo a partire dalla posizione specificata nell'elenco dei nodi figli per questo nodo. |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) | Rimuove il nodo figlio. |
+| override [Accept](../../aspose.note/compositenode-1/accept/)(DocumentVisitor) | Accetta il visitatore del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) | Aggiunge il nodo all'inizio dell'elenco dei nodi figlio per questo nodo. |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) | Aggiunge il nodo alla fine dell'elenco dei nodi figlio per questo nodo. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/#getchildnodes_1)() | Ottieni tutti i nodi figli in base al tipo di nodo. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() | Restituisce un enumeratore che itera attraverso i nodi figlio di`CompositeNode` . |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) | Inserisce il nodo nella posizione specificata nell'elenco dei nodi figlio per questo nodo. |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | Inserisce la sequenza del nodo a partire dalla posizione specificata nell'elenco dei nodi figlio per questo nodo. |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange_1)(int, params T[]) | Inserisce la sequenza del nodo a partire dalla posizione specificata nell'elenco dei nodi figlio per questo nodo. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) | Rimuove il nodo figlio. |
 
 ### Guarda anche
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* interface [INode](../inode)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* interface [INode](../inode/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

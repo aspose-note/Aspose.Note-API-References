@@ -1,14 +1,14 @@
 ---
-title: Save
+title: Document.Save
 second_title: Aspose.Note per .NET API Reference
-description: Salva il documento di OneNote in un file.
+description: Document metodo. Salva il documento OneNote in un file.
 type: docs
 weight: 140
 url: /it/net/aspose.note/document/save/
 ---
 ## Save(string) {#save_3}
 
-Salva il documento di OneNote in un file.
+Salva il documento OneNote in un file.
 
 ```csharp
 public void Save(string fileName)
@@ -22,8 +22,8 @@ public void Save(string fileName)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Esempi
 
@@ -40,15 +40,15 @@ doc.Save(dataDir + outputFile);
 
 ### Guarda anche
 
-* class [Document](../../document)
-* spazio dei nomi [Aspose.Note](../../document)
+* class [Document](../)
+* spazio dei nomi [Aspose.Note](../../document/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream) {#save}
 
-Salva il documento di OneNote in un flusso.
+Salva il documento OneNote in un flusso.
 
 ```csharp
 public void Save(Stream stream)
@@ -56,26 +56,26 @@ public void Save(Stream stream)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Il System.IO.Stream in cui verrà salvato il documento. |
+| stream | Stream | System.IO.Stream in cui verrà salvato il documento. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Guarda anche
 
-* class [Document](../../document)
-* spazio dei nomi [Aspose.Note](../../document)
+* class [Document](../)
+* spazio dei nomi [Aspose.Note](../../document/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveFormat) {#save_4}
 
-Salva il documento di OneNote in un file nel formato specificato.
+Salva il documento OneNote in un file nel formato specificato.
 
 ```csharp
 public void Save(string fileName, SaveFormat format)
@@ -90,8 +90,8 @@ public void Save(string fileName, SaveFormat format)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Esempi
 
@@ -124,16 +124,16 @@ oneFile.Save(dataDir, SaveFormat.Gif);
 
 ### Guarda anche
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* spazio dei nomi [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* spazio dei nomi [Aspose.Note](../../document/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Salva il documento di OneNote in un flusso nel formato specificato.
+Salva il documento OneNote in un flusso nel formato specificato.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -141,15 +141,15 @@ public void Save(Stream stream, SaveFormat format)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Il System.IO.Stream in cui verrà salvato il documento. |
+| stream | Stream | System.IO.Stream in cui verrà salvato il documento. |
 | format | SaveFormat | Il formato in cui salvare il documento. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Esempi
 
@@ -167,7 +167,7 @@ dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-Mostra come salvare un documento in uno stream.
+Mostra come salvare un documento in un flusso.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -179,22 +179,48 @@ Document doc = new Document(dataDir + "Aspose.one");
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// Riavvolgi la posizione del flusso a zero in modo che sia pronto per il prossimo lettore.
+// Riavvolge la posizione dello stream a zero in modo che sia pronta per il prossimo lettore.
 dstStream.Seek(0, SeekOrigin.Begin);
+```
+
+Mostra come applicare lo stile del tema scuro a un documento.
+
+```csharp
+// Il percorso della directory dei documenti.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Carica il documento in Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
 ### Guarda anche
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* spazio dei nomi [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* spazio dei nomi [Aspose.Note](../../document/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveOptions) {#save_5}
 
-Salva il documento di OneNote in un file utilizzando le opzioni di salvataggio specificate.
+Salva il documento OneNote in un file utilizzando le opzioni di salvataggio specificate.
 
 ```csharp
 public void Save(string fileName, SaveOptions options)
@@ -209,8 +235,8 @@ public void Save(string fileName, SaveOptions options)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Esempi
 
@@ -226,7 +252,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-Mostra come salvare un documento come immagine in formato Jpeg usando SaveFormat.
+Mostra come salvare un documento come immagine in formato Jpeg utilizzando SaveFormat.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -256,6 +282,36 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
+Mostra come salvare un documento in formato Pdf con layout di pagina Lettera.
+
+```csharp
+// Il percorso della directory dei documenti.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Carica il documento in Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Salva il documento.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Mostra come salvare un documento in formato Pdf con layout di pagina A4 senza limiti di altezza.
+
+```csharp
+// Il percorso della directory dei documenti.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Carica il documento in Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Salva il documento.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
+```
+
 Mostra come salvare un documento come immagine in scala di grigi.
 
 ```csharp
@@ -274,7 +330,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-Mostra come salvare un documento come immagine in formato Tiff usando la compressione PackBits.
+Mostra come salvare un documento come immagine in formato Tiff utilizzando la compressione PackBits.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -292,7 +348,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-Mostra come salvare un documento come immagine in formato Tiff usando la compressione Jpeg.
+Mostra come salvare un documento come immagine in formato Tiff utilizzando la compressione Jpeg.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -366,7 +422,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 // Inizializza l'oggetto PdfSaveOptions
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Usa la compressione JPEG
+                              // Usa la compressione Jpeg
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
                               // Qualità per la compressione JPEG
@@ -424,16 +480,16 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### Guarda anche
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* spazio dei nomi [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* spazio dei nomi [Aspose.Note](../../document/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions) {#save_2}
 
-Salva il documento di OneNote in un flusso utilizzando le opzioni di salvataggio specificate.
+Salva il documento OneNote in un flusso utilizzando le opzioni di salvataggio specificate.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options)
@@ -441,15 +497,15 @@ public void Save(Stream stream, SaveOptions options)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Il System.IO.Stream in cui verrà salvato il documento. |
+| stream | Stream | System.IO.Stream in cui verrà salvato il documento. |
 | options | SaveOptions | Specifica le opzioni di salvataggio del documento nello stream. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Esempi
 
@@ -489,7 +545,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-Mostra come salvare un documento in formato pdf utilizzando il carattere predefinito da uno stream.
+Mostra come salvare un documento in formato pdf utilizzando il carattere predefinito da un flusso.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -514,9 +570,9 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Guarda anche
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* spazio dei nomi [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* spazio dei nomi [Aspose.Note](../../document/)
 * assemblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

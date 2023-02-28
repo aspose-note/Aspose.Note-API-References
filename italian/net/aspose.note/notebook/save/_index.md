@@ -1,14 +1,14 @@
 ---
-title: Save
+title: Notebook.Save
 second_title: Aspose.Note per .NET API Reference
-description: Salva il documento di OneNote in un file.
+description: Notebook metodo. Salva il documento OneNote in un file.
 type: docs
 weight: 150
 url: /it/net/aspose.note/notebook/save/
 ---
 ## Save(string) {#save_3}
 
-Salva il documento di OneNote in un file.
+Salva il documento OneNote in un file.
 
 ```csharp
 public void Save(string fileName)
@@ -22,20 +22,20 @@ public void Save(string fileName)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Guarda anche
 
-* class [Notebook](../../notebook)
-* spazio dei nomi [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* spazio dei nomi [Aspose.Note](../../notebook/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream) {#save}
 
-Salva il documento di OneNote in un flusso.
+Salva il documento OneNote in un flusso.
 
 ```csharp
 public void Save(Stream stream)
@@ -49,20 +49,20 @@ public void Save(Stream stream)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Guarda anche
 
-* class [Notebook](../../notebook)
-* spazio dei nomi [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* spazio dei nomi [Aspose.Note](../../notebook/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveFormat) {#save_4}
 
-Salva il documento di OneNote in un file nel formato specificato.
+Salva il documento OneNote in un file nel formato specificato.
 
 ```csharp
 public void Save(string fileName, SaveFormat format)
@@ -77,21 +77,21 @@ public void Save(string fileName, SaveFormat format)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Guarda anche
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* spazio dei nomi [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* spazio dei nomi [Aspose.Note](../../notebook/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Salva il documento di OneNote in un flusso nel formato specificato.
+Salva il documento OneNote in un flusso nel formato specificato.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -106,21 +106,21 @@ public void Save(Stream stream, SaveFormat format)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Guarda anche
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* spazio dei nomi [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* spazio dei nomi [Aspose.Note](../../notebook/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, NotebookSaveOptions) {#save_5}
 
-Salva il documento di OneNote in un file utilizzando le opzioni di salvataggio specificate.
+Salva il documento OneNote in un file utilizzando le opzioni di salvataggio specificate.
 
 ```csharp
 public void Save(string fileName, NotebookSaveOptions options)
@@ -135,21 +135,21 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Guarda anche
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* spazio dei nomi [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* spazio dei nomi [Aspose.Note](../../notebook/)
 * assemblea [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, NotebookSaveOptions) {#save_2}
 
-Salva il documento di OneNote in un flusso utilizzando le opzioni di salvataggio specificate.
+Salva il documento OneNote in un flusso utilizzando le opzioni di salvataggio specificate.
 
 ```csharp
 public void Save(Stream stream, NotebookSaveOptions options)
@@ -164,14 +164,14 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | eccezione | condizione |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La struttura del documento viola le specifiche. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Il formato di salvataggio richiesto non è supportato. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La struttura del documento viola le specifiche. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Il formato di salvataggio richiesto non è supportato. |
 
 ### Guarda anche
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* spazio dei nomi [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* spazio dei nomi [Aspose.Note](../../notebook/)
 * assemblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
