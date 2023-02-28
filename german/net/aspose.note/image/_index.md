@@ -1,9 +1,9 @@
 ---
-title: Image
+title: Class Image
 second_title: Aspose.Note für .NET-API-Referenz
-description: steht für ein Bild.
+description: Aspose.Note.Image klas. steht für ein Bild.
 type: docs
-weight: 240
+weight: 250
 url: /de/net/aspose.note/image/
 ---
 ## Image class
@@ -18,43 +18,43 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Name | Beschreibung |
 | --- | --- |
-| [Image](image#constructor)() | Initialisiert eine neue Instanz von[`Image`](../image) Klasse. |
-| [Image](image#constructor_4)(string, Stream) | Initialisiert eine neue Instanz von[`Image`](../image) Klasse. |
-| [Image](image#constructor_5)(string, string, string) | Initialisiert eine neue Instanz von[`Image`](../image) Klasse. |
+| [Image](image/#constructor)() | Initialisiert eine neue Instanz von`Image` Klasse. |
+| [Image](image/#constructor_4)(string, Stream) | Initialisiert eine neue Instanz von`Image` Klasse. |
+| [Image](image/#constructor_5)(string, string, string) | Initialisiert eine neue Instanz von`Image` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment) { get; set; } | Ruft die Ausrichtung ab oder legt sie fest. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | Holt oder setzt einen Body oder alternativen Text für das Bild. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | Ruft einen alternativen Texttitel für das Bild ab oder legt ihn fest. |
-| [Bytes](../../aspose.note/image/bytes) { get; } | Ruft den Bilddatenspeicher ab. |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| [FileName](../../aspose.note/image/filename) { get; } | Ruft den Dateinamen ab. |
-| [FilePath](../../aspose.note/image/filepath) { get; } | Ruft den Pfad zur Bilddatei ab. |
-| [Format](../../aspose.note/image/format) { get; } | Ruft das Format des Bildes ab. |
-| [Height](../../aspose.note/image/height) { get; set; } | Holt oder setzt die Höhe. Dies ist die tatsächliche Höhe des Bildes im MS OneNote-Dokument. |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Ruft den horizontalen Versatz ab oder legt ihn fest. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Ruft den dem Bild zugeordneten Hyperlink ab oder legt ihn fest. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Ruft ab, ob das Bild ein Hintergrundbild ist. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Ruft einen Wert ab, der angibt, ob dieser Knoten zusammengesetzt ist. Wenn wahr, kann der Knoten untergeordnete Knoten haben. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Ruft die letzte Änderungszeit ab oder legt sie fest. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | Ruft die ursprüngliche Höhe ab. Dies ist die ursprüngliche Breite des Bildes vor der Größenänderung. |
-| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | Ruft die ursprüngliche Breite ab. Dies ist die ursprüngliche Breite des Bildes vor der Größenänderung. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
-| [Tags](../../aspose.note/image/tags) { get; } | Ruft die Liste aller Tags eines Absatzes ab. |
-| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | Ruft den vertikalen Offset ab oder legt ihn fest. |
-| [Width](../../aspose.note/image/width) { get; set; } | Holt oder setzt die Breite. Dies ist die tatsächliche Breite des Bilds im MS OneNote-Dokument. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | Ruft die Ausrichtung ab oder legt sie fest. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | Holt oder setzt einen Body oder alternativen Text für das Bild. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | Ruft einen alternativen Texttitel für das Bild ab oder legt ihn fest. |
+| [Bytes](../../aspose.note/image/bytes/) { get; } | Ruft den Bilddatenspeicher ab. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| [FileName](../../aspose.note/image/filename/) { get; } | Ruft den Dateinamen ab. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | Ruft den Pfad zur Bilddatei ab. |
+| [Format](../../aspose.note/image/format/) { get; } | Ruft das Format des Bildes ab. |
+| [Height](../../aspose.note/image/height/) { get; set; } | Holt oder setzt die Höhe. Dies ist die tatsächliche Höhe des Bildes im MS OneNote-Dokument. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | Ruft den horizontalen Versatz ab oder legt ihn fest. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | Ruft den dem Bild zugeordneten Hyperlink ab oder legt ihn fest. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | Ruft ab, ob das Bild ein Hintergrundbild ist. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Ruft einen Wert ab, der angibt, ob dieser Knoten zusammengesetzt ist. Wenn wahr, kann der Knoten untergeordnete Knoten haben. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | Ruft die letzte Änderungszeit ab oder legt sie fest. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | Ruft die ursprüngliche Höhe ab. Dies ist die ursprüngliche Breite des Bildes vor der Größenänderung. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | Ruft die ursprüngliche Breite ab. Dies ist die ursprüngliche Breite des Bildes vor der Größenänderung. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [Tags](../../aspose.note/image/tags/) { get; } | Ruft die Liste aller Tags eines Absatzes ab. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | Ruft den vertikalen Offset ab oder legt ihn fest. |
+| [Width](../../aspose.note/image/width/) { get; set; } | Holt oder setzt die Breite. Dies ist die tatsächliche Breite des Bilds im MS OneNote-Dokument. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
 
 ### Beispiele
 
@@ -298,11 +298,11 @@ doc.Save(dataDir);
 
 ### Siehe auch
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

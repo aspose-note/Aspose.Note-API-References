@@ -1,7 +1,7 @@
 ---
-title: DocumentVisitor
+title: Class DocumentVisitor
 second_title: Aspose.Note für .NET-API-Referenz
-description: Die abstrakte Klasse zum Iterieren durch den Teilbaum mit Wurzel am angegebenen Knoten.
+description: Aspose.Note.DocumentVisitor klas. Die abstrakte Klasse zum Iterieren durch den Teilbaum mit Wurzel am angegebenen Knoten.
 type: docs
 weight: 70
 url: /de/net/aspose.note/documentvisitor/
@@ -18,30 +18,30 @@ public abstract class DocumentVisitor
 
 | Name | Beschreibung |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | Ende zu besuchen[`AttachedFile`](../attachedfile) Knoten. |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | Beginnen Sie mit dem Besuch der[`AttachedFile`](../attachedfile) Knoten. |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | Ende zu besuchen[`Document`](../document) Knoten. |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Beginnen Sie mit dem Besuch der[`Document`](../document) Knoten. |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | Ende zu besuchen[`Image`](../image) Knoten. |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Beginnen Sie mit dem Besuch der[`Image`](../image) Knoten. |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | Ende zu besuchen[`OutlineElement`](../outlineelement) Knoten. |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Beginnen Sie mit dem Besuch der[`OutlineElement`](../outlineelement) Knoten. |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | Ende zu besuchen[`Outline`](../outline) Knoten. |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | Ende zu besuchen[`OutlineGroup`](../outlinegroup) Knoten. |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | Beginnen Sie mit dem Besuch der[`OutlineGroup`](../outlinegroup) Knoten. |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | Beginnen Sie mit dem Besuch der[`Outline`](../outline) Knoten. |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | Ende zu besuchen[`Page`](../page) Knoten. |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | Beginnen Sie mit dem Besuch der[`Page`](../page) Knoten. |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | Ende zu besuchen[`RichText`](../richtext) Knoten. |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | Beginnen Sie mit dem Besuch der[`RichText`](../richtext) Knoten. |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | Ende zu besuchen[`TableCell`](../tablecell) Knoten. |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | Beginnen Sie mit dem Besuch der[`TableCell`](../tablecell) Knoten. |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | Ende zu besuchen[`Table`](../table) Knoten. |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | Ende zu besuchen[`TableRow`](../tablerow) Knoten. |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | Beginnen Sie mit dem Besuch der[`TableRow`](../tablerow) Knoten. |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | Beginnen Sie mit dem Besuch der[`Table`](../table) Knoten. |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | Ende zu besuchen[`Title`](../title) Knoten. |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | Beginnen Sie mit dem Besuch der[`Title`](../title) Knoten. |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend/)(AttachedFile) | Ende zu besuchen[`AttachedFile`](../attachedfile/) Knoten. |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart/)(AttachedFile) | Beginnen Sie mit dem Besuch der[`AttachedFile`](../attachedfile/) Knoten. |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend/)(Document) | Ende zu besuchen[`Document`](../document/) Knoten. |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart/)(Document) | Beginnen Sie mit dem Besuch der[`Document`](../document/) Knoten. |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend/)(Image) | Ende zu besuchen[`Image`](../image/) Knoten. |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart/)(Image) | Beginnen Sie mit dem Besuch der[`Image`](../image/) Knoten. |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend/)(OutlineElement) | Ende zu besuchen[`OutlineElement`](../outlineelement/) Knoten. |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart/)(OutlineElement) | Beginnen Sie mit dem Besuch der[`OutlineElement`](../outlineelement/) Knoten. |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend/)(Outline) | Ende zu besuchen[`Outline`](../outline/) Knoten. |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend/)(OutlineGroup) | Ende zu besuchen[`OutlineGroup`](../outlinegroup/) Knoten. |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart/)(OutlineGroup) | Beginnen Sie mit dem Besuch der[`OutlineGroup`](../outlinegroup/) Knoten. |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart/)(Outline) | Beginnen Sie mit dem Besuch der[`Outline`](../outline/) Knoten. |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend/)(Page) | Ende zu besuchen[`Page`](../page/) Knoten. |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart/)(Page) | Beginnen Sie mit dem Besuch der[`Page`](../page/) Knoten. |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend/)(RichText) | Ende zu besuchen[`RichText`](../richtext/) Knoten. |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart/)(RichText) | Beginnen Sie mit dem Besuch der[`RichText`](../richtext/) Knoten. |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend/)(TableCell) | Ende zu besuchen[`TableCell`](../tablecell/) Knoten. |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart/)(TableCell) | Beginnen Sie mit dem Besuch der[`TableCell`](../tablecell/) Knoten. |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend/)(Table) | Ende zu besuchen[`Table`](../table/) Knoten. |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend/)(TableRow) | Ende zu besuchen[`TableRow`](../tablerow/) Knoten. |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart/)(TableRow) | Beginnen Sie mit dem Besuch der[`TableRow`](../tablerow/) Knoten. |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart/)(Table) | Beginnen Sie mit dem Besuch der[`Table`](../table/) Knoten. |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend/)(Title) | Ende zu besuchen[`Title`](../title/) Knoten. |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart/)(Title) | Beginnen Sie mit dem Besuch der[`Title`](../title/) Knoten. |
 
 ### Beispiele
 
@@ -194,7 +194,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Siehe auch
 
-* namensraum [Aspose.Note](../../aspose.note)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

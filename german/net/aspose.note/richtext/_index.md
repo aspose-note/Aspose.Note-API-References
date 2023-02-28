@@ -1,9 +1,9 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Aspose.Note für .NET-API-Referenz
-description: Stellt einen Rich-Text dar.
+description: Aspose.Note.RichText klas. Stellt einen RichText dar.
 type: docs
-weight: 510
+weight: 530
 url: /de/net/aspose.note/richtext/
 ---
 ## RichText class
@@ -18,65 +18,65 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | Name | Beschreibung |
 | --- | --- |
-| [RichText](richtext#constructor)() | Initialisiert eine neue Instanz von[`RichText`](../richtext) Klasse. |
+| [RichText](richtext/#constructor)() | Initialisiert eine neue Instanz von`RichText` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Ruft die Ausrichtung ab oder legt sie fest. |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Ruft einen Wert ab, der angibt, ob dieser Knoten zusammengesetzt ist. Wenn wahr, kann der Knoten untergeordnete Knoten haben. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
-| [Length](../../aspose.note/richtext/length) { get; } | Ruft die Länge des Textes ab. |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Ruft den Zeilenabstand ab oder legt ihn fest. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Ruft den Absatzstil ab oder legt ihn fest. Diese Einstellungen werden verwendet, wenn kein passendes TextStyle-Objekt vorhanden istStyles entweder dieses Objekt gibt keine erforderliche Einstellung an. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Ruft den Mindestabstand nach ab oder legt ihn fest. |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Ruft die minimale Menge an Speicherplatz ab oder legt sie fest. |
-| [Tags](../../aspose.note/richtext/tags) { get; } | Ruft die Liste aller Tags eines Absatzes ab. |
-| [Text](../../aspose.note/richtext/text) { get; set; } | Holt oder setzt den Text. Der String DARF KEINE Zeichen des Wertes 10 (Zeilenvorschub) enthalten. |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Ruft die Sammlung von Textläufen ab. |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | Ruft die Ausrichtung ab oder legt sie fest. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Ruft einen Wert ab, der angibt, ob dieser Knoten zusammengesetzt ist. Wenn wahr, kann der Knoten untergeordnete Knoten haben. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
+| [Length](../../aspose.note/richtext/length/) { get; } | Ruft die Länge des Textes ab. |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | Ruft den Zeilenabstand ab oder legt ihn fest. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | Ruft den Absatzstil ab oder legt ihn fest. Diese Einstellungen werden verwendet, wenn kein passendes TextStyle-Objekt vorhanden istStyles entweder dieses Objekt gibt keine erforderliche Einstellung an. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | Ruft den Mindestabstand nach ab oder legt ihn fest. |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | Ruft die minimale Menge an Speicherplatz ab oder legt sie fest. |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | Ruft die Liste aller Tags eines Absatzes ab. |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | Holt oder setzt den Text. Der String DARF KEINE Zeichen des Wertes 10 (Zeilenvorschub) enthalten. |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | Ruft die Sammlung von Textläufen ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
-| [Append](../../aspose.note/richtext/append#append)(string) | Fügt dem letzten Textbereich eine Zeichenfolge hinzu. |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | Fügt am Ende eine Zeichenfolge hinzu. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | Fügt eine Zeichenfolge am Anfang des ersten Textbereichs hinzu. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Fügt vorne eine Zeichenfolge hinzu. |
-| [Clear](../../aspose.note/richtext/clear)() | Löscht den Inhalt dieser Instanz. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Gibt einen Enumerator zurück, der die Zeichen dieses RichText-Objekts durchläuft. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | Gibt den nullbasierten Index des ersten Vorkommens des angegebenen Unicode-Zeichens in dieser Zeichenfolge zurück. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in dieser Instanz zurück. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | Gibt den nullbasierten Index des ersten Vorkommens des angegebenen Unicode-Zeichens in dieser Zeichenfolge zurück. Die Suche beginnt an einer bestimmten Zeichenposition. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in dieser Instanz zurück. Die Suche beginnt an einer bestimmten Zeichenposition. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in der aktuellen Instanz zurück. Ein Parameter gibt den Suchtyp an, der für die angegebene Zeichenfolge verwendet werden soll. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Gibt den nullbasierten Index des ersten Vorkommens des angegebenen Zeichens in dieser Instanz zurück. Die Suche beginnt an einer bestimmten Zeichenposition und untersucht eine bestimmte Anzahl von Zeichenpositionen. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in dieser Instanz zurück. Die Suche beginnt an einer bestimmten Zeichenposition und untersucht eine bestimmte Anzahl von Zeichenpositionen. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in der aktuellen Instanz zurück. Parameter geben die Startposition der Suche in der aktuellen Zeichenfolge und den Suchtyp an, der für die angegebene Zeichenfolge verwendet werden soll. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in der aktuellen Instanz zurück. |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | Fügt in dieser Instanz eine angegebene Zeichenfolge an einer angegebenen Indexposition ein. |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | Fügt eine angegebene Zeichenfolge mit angegebenem Stil an einer angegebenen Indexposition in dieser Instanz ein. |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | Entfernt alle Zeichen in der aktuellen Instanz, beginnend an einer bestimmten Position und fortgesetzt bis zur letzten Position. |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | Entfernt die angegebene Anzahl von Zeichen in der aktuellen Instanz, beginnend an einer angegebenen Position. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Ersetzt alle Vorkommen eines angegebenen Unicode-Zeichens in dieser Instanz durch ein anderes angegebenes Unicode-Zeichen. |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | Ersetzt alle Vorkommen einer angegebenen Zeichenfolge in der aktuellen Instanz durch eine andere angegebene Zeichenfolge. |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | Ersetzt alle Vorkommen einer angegebenen Zeichenfolge in der aktuellen Instanz durch eine andere angegebene Zeichenfolge im angegebenen Stil. |
-| [Trim](../../aspose.note/richtext/trim#trim)() | Entfernt alle führenden und abschließenden Leerzeichen. |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | Entfernt alle führenden und abschließenden Instanzen eines Zeichens. |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | Entfernt alle führenden und nachgestellten Vorkommen einer in einem Array angegebenen Zeichengruppe. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Entfernt alle abschließenden Leerzeichen. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | Entfernt alle nachfolgenden Vorkommen eines Zeichens. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | Entfernt alle nachgestellten Vorkommen einer Reihe von Zeichen, die in einem Array angegeben sind. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | Entfernt alle führenden Leerzeichen. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | Entfernt alle führenden Vorkommen eines angegebenen Zeichens. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Entfernt alle führenden Vorkommen einer Reihe von Zeichen, die in einem Array angegeben sind. |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| [Append](../../aspose.note/richtext/append/#append)(string) | Fügt dem letzten Textbereich eine Zeichenfolge hinzu. |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | Fügt am Ende eine Zeichenfolge hinzu. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | Fügt eine Zeichenfolge am Anfang des ersten Textbereichs hinzu. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | Fügt vorne eine Zeichenfolge hinzu. |
+| [Clear](../../aspose.note/richtext/clear/)() | Löscht den Inhalt dieser Instanz. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | Gibt einen Enumerator zurück, der die Zeichen dieses RichText-Objekts durchläuft. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | Gibt den nullbasierten Index des ersten Vorkommens des angegebenen Unicode-Zeichens in dieser Zeichenfolge zurück. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in dieser Instanz zurück. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | Gibt den nullbasierten Index des ersten Vorkommens des angegebenen Unicode-Zeichens in dieser Zeichenfolge zurück. Die Suche beginnt an einer bestimmten Zeichenposition. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in dieser Instanz zurück. Die Suche beginnt an einer bestimmten Zeichenposition. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in der aktuellen Instanz zurück. Ein Parameter gibt den Suchtyp an, der für die angegebene Zeichenfolge verwendet werden soll. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | Gibt den nullbasierten Index des ersten Vorkommens des angegebenen Zeichens in dieser Instanz zurück. Die Suche beginnt an einer bestimmten Zeichenposition und untersucht eine bestimmte Anzahl von Zeichenpositionen. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in dieser Instanz zurück. Die Suche beginnt an einer bestimmten Zeichenposition und untersucht eine bestimmte Anzahl von Zeichenpositionen. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in der aktuellen Instanz zurück. Parameter geben die Startposition der Suche in der aktuellen Zeichenfolge und den Suchtyp an, der für die angegebene Zeichenfolge verwendet werden soll. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | Gibt den nullbasierten Index des ersten Vorkommens der angegebenen Zeichenfolge in der aktuellen Instanz zurück. |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | Fügt in dieser Instanz eine angegebene Zeichenfolge an einer angegebenen Indexposition ein. |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | Fügt eine angegebene Zeichenfolge mit angegebenem Stil an einer angegebenen Indexposition in dieser Instanz ein. |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | Entfernt alle Zeichen in der aktuellen Instanz, beginnend an einer bestimmten Position und fortgesetzt bis zur letzten Position. |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | Entfernt die angegebene Anzahl von Zeichen in der aktuellen Instanz, beginnend an einer angegebenen Position. |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | Ersetzt alle Vorkommen eines angegebenen Unicode-Zeichens in dieser Instanz durch ein anderes angegebenes Unicode-Zeichen. |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | Ersetzt alle Vorkommen einer angegebenen Zeichenfolge in der aktuellen Instanz durch eine andere angegebene Zeichenfolge. |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | Ersetzt alle Vorkommen einer angegebenen Zeichenfolge in der aktuellen Instanz durch eine andere angegebene Zeichenfolge im angegebenen Stil. |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | Entfernt alle führenden und abschließenden Leerzeichen. |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | Entfernt alle führenden und abschließenden Instanzen eines Zeichens. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | Entfernt alle führenden und nachgestellten Vorkommen einer in einem Array angegebenen Zeichengruppe. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | Entfernt alle abschließenden Leerzeichen. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | Entfernt alle nachfolgenden Vorkommen eines Zeichens. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | Entfernt alle nachgestellten Vorkommen einer Reihe von Zeichen, die in einem Array angegeben sind. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | Entfernt alle führenden Leerzeichen. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | Entfernt alle führenden Vorkommen eines angegebenen Zeichens. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | Entfernt alle führenden Vorkommen einer Reihe von Zeichen, die in einem Array angegeben sind. |
 
 ### Beispiele
 
@@ -791,10 +791,10 @@ doc.Save(dataDir);
 
 ### Siehe auch
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Aspose.Note für .NET-API-Referenz
-description: steht für einen Titel.
+description: Aspose.Note.Title klas. steht für einen Titel.
 type: docs
-weight: 950
+weight: 980
 url: /de/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Name | Beschreibung |
 | --- | --- |
-| [Title](title#constructor)() | Initialisiert eine neue Instanz von[`Title`](../title) Klasse. |
+| [Title](title/#constructor)() | Initialisiert eine neue Instanz von`Title` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Ruft den horizontalen Versatz ab oder legt ihn fest. |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Ruft einen Wert ab, der angibt, ob dieser Knoten zusammengesetzt ist. Wenn wahr, kann der Knoten untergeordnete Knoten haben. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | Ruft eine Zeichenfolgendarstellung des Datums im Titel ab oder legt diese fest. |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | Liest oder setzt den Text des Titels. |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | Ruft eine Zeichenfolgendarstellung der Uhrzeit im Titel ab oder legt sie fest. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | Ruft den vertikalen Offset ab oder legt ihn fest. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | Ruft den horizontalen Versatz ab oder legt ihn fest. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | Ruft einen Wert ab, der angibt, ob dieser Knoten zusammengesetzt ist. Wenn wahr, kann der Knoten untergeordnete Knoten haben. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | Ruft eine Zeichenfolgendarstellung des Datums im Titel ab oder legt diese fest. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | Liest oder setzt den Text des Titels. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | Ruft eine Zeichenfolgendarstellung der Uhrzeit im Titel ab oder legt sie fest. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | Ruft den vertikalen Offset ab oder legt ihn fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Alle untergeordneten Knoten nach Knotentyp abrufen. |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | Gibt einen Enumerator zurück, der die untergeordneten Knoten von iteriert[`Title`](../title) . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | Alle untergeordneten Knoten nach Knotentyp abrufen. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | Gibt einen Enumerator zurück, der die untergeordneten Knoten von iteriert`Title` . |
 
 ### Beispiele
 
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### Siehe auch
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

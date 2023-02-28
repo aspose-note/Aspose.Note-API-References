@@ -1,9 +1,9 @@
 ---
-title: Outline
+title: Class Outline
 second_title: Aspose.Note für .NET-API-Referenz
-description: steht für eine Gliederung.
+description: Aspose.Note.Outline klas. steht für eine Gliederung.
 type: docs
-weight: 430
+weight: 450
 url: /de/net/aspose.note/outline/
 ---
 ## Outline class
@@ -11,50 +11,50 @@ url: /de/net/aspose.note/outline/
 steht für eine Gliederung.
 
 ```csharp
-public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
+public sealed class Outline : IndentatedNode<IOutlineChildNode>, IPageChildNode
 ```
 
 ## Konstrukteure
 
 | Name | Beschreibung |
 | --- | --- |
-| [Outline](outline#constructor)() | Initialisiert eine neue Instanz von[`Outline`](../outline) Klasse. |
+| [Outline](outline/#constructor)() | Initialisiert eine neue Instanz von`Outline` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved) { get; set; } | Ruft ab, ob Nachkommen der Gliederung verschoben werden können. |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | Ruft den horizontalen Versatz ab oder legt ihn fest. |
-| [IndentPosition](../../aspose.note/outline/indentposition) { get; set; } | Ruft die Einzugsposition ab oder legt sie fest. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
-| [MaxHeight](../../aspose.note/outline/maxheight) { get; set; } | Ruft die maximale Höhe ab oder legt sie fest. |
-| [MaxWidth](../../aspose.note/outline/maxwidth) { get; set; } | Ruft die maximale Breite ab oder legt sie fest. |
-| [MinWidth](../../aspose.note/outline/minwidth) { get; set; } | Ruft die Mindestbreite ab oder legt sie fest. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
-| [ReservedWidth](../../aspose.note/outline/reservedwidth) { get; set; } | Ruft die reservierte Breite ab oder legt sie fest. |
-| [VerticalOffset](../../aspose.note/outline/verticaloffset) { get; set; } | Ruft den vertikalen Offset ab oder legt ihn fest. |
+| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved/) { get; set; } | Ruft ab, ob Nachkommen der Gliederung verschoben werden können. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [HorizontalOffset](../../aspose.note/outline/horizontaloffset/) { get; set; } | Ruft den horizontalen Versatz ab oder legt ihn fest. |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime/) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
+| [MaxHeight](../../aspose.note/outline/maxheight/) { get; set; } | Ruft die maximale Höhe ab oder legt sie fest. |
+| [MaxWidth](../../aspose.note/outline/maxwidth/) { get; set; } | Ruft die maximale Breite ab oder legt sie fest. |
+| [MinWidth](../../aspose.note/outline/minwidth/) { get; set; } | Ruft die Mindestbreite ab oder legt sie fest. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [ReservedWidth](../../aspose.note/outline/reservedwidth/) { get; set; } | Ruft die reservierte Breite ab oder legt sie fest. |
+| [VerticalOffset](../../aspose.note/outline/verticaloffset/) { get; set; } | Ruft den vertikalen Offset ab oder legt ihn fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/outline/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outline/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Beispiele
 
@@ -235,10 +235,10 @@ doc.Save(dataDir);
 
 ### Siehe auch
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

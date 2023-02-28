@@ -1,7 +1,7 @@
 ---
-title: Document
+title: Class Document
 second_title: Aspose.Note für .NET-API-Referenz
-description: Stellt ein Aspose.Note-Dokument dar.
+description: Aspose.Note.Document klas. Stellt ein Aspose.NoteDokument dar.
 type: docs
 weight: 60
 url: /de/net/aspose.note/document/
@@ -18,63 +18,63 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | Name | Beschreibung |
 | --- | --- |
-| [Document](document#constructor)() | Initialisiert eine neue Instanz von[`Document`](../document) class. Erstellt ein leeres OneNote-Dokument. |
-| [Document](document#constructor_1)(Stream) | Initialisiert eine neue Instanz von[`Document`](../document) class. Öffnet ein vorhandenes OneNote-Dokument aus einem Stream. |
-| [Document](document#constructor_3)(string) | Initialisiert eine neue Instanz von[`Document`](../document) class. Öffnet ein vorhandenes OneNote-Dokument aus einer Datei. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | Initialisiert eine neue Instanz von[`Document`](../document) class. Öffnet ein vorhandenes OneNote-Dokument aus einem Stream. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
-| [Document](document#constructor_4)(string, LoadOptions) | Initialisiert eine neue Instanz von[`Document`](../document) class. Öffnet ein vorhandenes OneNote-Dokument aus einer Datei. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
+| [Document](document/#constructor)() | Initialisiert eine neue Instanz von`Document` class. Erstellt ein leeres OneNote-Dokument. |
+| [Document](document/#constructor_1)(Stream) | Initialisiert eine neue Instanz von`Document` class. Öffnet ein vorhandenes OneNote-Dokument aus einem Stream. |
+| [Document](document/#constructor_3)(string) | Initialisiert eine neue Instanz von`Document` class. Öffnet ein vorhandenes OneNote-Dokument aus einer Datei. |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | Initialisiert eine neue Instanz von`Document` class. Öffnet ein vorhandenes OneNote-Dokument aus einem Stream. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
+| [Document](document/#constructor_4)(string, LoadOptions) | Initialisiert eine neue Instanz von`Document`class. Öffnet ein vorhandenes OneNote-Dokument aus einer Datei. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Aspose.Note die Erkennung von Layoutänderungen automatisch durchführt. Der Standardwert ist`Stimmt` . |
-| [Color](../../aspose.note/document/color) { get; set; } | Ruft die Farbe ab oder legt sie fest. |
-| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
-| [DisplayName](../../aspose.note/document/displayname) { get; set; } | Ruft den Anzeigenamen ab oder legt ihn fest. |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| [FileFormat](../../aspose.note/document/fileformat) { get; } | Ruft das Dateiformat ab (OneNote 2010, OneNote Online). |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [Guid](../../aspose.note/document/guid) { get; } | Ruft die global eindeutige ID des Objekts ab. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Aspose.Note die Erkennung von Layoutänderungen automatisch durchführt. Der Standardwert ist`WAHR` . |
+| [Color](../../aspose.note/document/color/) { get; set; } | Ruft die Farbe ab oder legt sie fest. |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
+| [DisplayName](../../aspose.note/document/displayname/) { get; set; } | Ruft den Anzeigenamen ab oder legt ihn fest. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| [FileFormat](../../aspose.note/document/fileformat/) { get; } | Ruft das Dateiformat ab (OneNote 2010, OneNote Online). |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Guid](../../aspose.note/document/guid/) { get; } | Ruft die global eindeutige ID des Objekts ab. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Erkennt alle Änderungen, die seit dem vorherigen am Dokumentlayout vorgenommen wurden[`DetectLayoutChanges`](./detectlayoutchanges) call. Falls[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) auf true gesetzt, wird automatisch zu Beginn des Dokumentexports verwendet. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Ruft die ab[`PageHistory`](../pagehistory) die den vollständigen Verlauf für jede Seite enthält, die in einem Dokument präsentiert wird (die früheste bei Index 0). Auf die aktuelle Seitenrevision kann zugegriffen werden als[`Current`](../pagehistory/current)und getrennt von der Sammlung historischer Versionen enthalten. |
-| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | Importiert eine Reihe von Seiten aus dem bereitgestellten PDF-Dokument. |
-| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | Importiert eine Reihe von Seiten aus dem bereitgestellten PDF-Dokument. |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | Führt eine Reihe von Seiten mit dem Dokument zusammen. |
-| [Print](../../aspose.note/document/print#print)() | Druckt das Dokument mit dem Standarddrucker. |
-| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | Druckt das Dokument mit dem Standarddrucker. |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save#save)(Stream) | Speichert das OneNote-Dokument in einem Stream. |
-| [Save](../../aspose.note/document/save#save_3)(string) | Speichert das OneNote-Dokument in einer Datei. |
-| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | Speichert das OneNote-Dokument in einem Stream im angegebenen Format. |
-| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | Speichert das OneNote-Dokument unter Verwendung der angegebenen Speicheroptionen in einem Stream. |
-| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | Speichert das OneNote-Dokument in einer Datei im angegebenen Format. |
-| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | Speichert das OneNote-Dokument unter Verwendung der angegebenen Speicheroptionen in einer Datei. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | Überprüft, ob ein Dokument aus einem Stream verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | Überprüft, ob ein Dokument aus einer Datei verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | Überprüft, ob ein Dokument aus einem Stream verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | Überprüft, ob ein Dokument aus einem Stream verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | Überprüft, ob ein Dokument aus einer Datei verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | Überprüft, ob ein Dokument aus einer Datei verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
+| override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | Erkennt alle Änderungen, die seit dem vorherigen am Dokumentlayout vorgenommen wurden[`DetectLayoutChanges`](./detectlayoutchanges/) call. Falls[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) auf true gesetzt, wird automatisch zu Beginn des Dokumentexports verwendet. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | Ruft die ab[`PageHistory`](../pagehistory/) die den vollständigen Verlauf für jede Seite enthält, die in einem Dokument präsentiert wird (die früheste bei Index 0). Auf die aktuelle Seitenrevision kann zugegriffen werden als[`Current`](../pagehistory/current/) und getrennt von der Sammlung historischer Versionen enthalten. |
+| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | Importiert eine Reihe von Seiten aus dem bereitgestellten PDF-Dokument. |
+| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | Importiert eine Reihe von Seiten aus dem bereitgestellten PDF-Dokument. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
+| [Merge](../../aspose.note/document/merge/)(IEnumerable&lt;Page&gt;, MergeOptions) | Führt eine Reihe von Seiten mit dem Dokument zusammen. |
+| [Print](../../aspose.note/document/print/#print)() | Druckt das Dokument mit dem Standarddrucker. |
+| [Print](../../aspose.note/document/print/#print_1)(PrintOptions) | Druckt das Dokument mit dem Standarddrucker. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Save](../../aspose.note/document/save/#save)(Stream) | Speichert das OneNote-Dokument in einem Stream. |
+| [Save](../../aspose.note/document/save/#save_3)(string) | Speichert das OneNote-Dokument in einer Datei. |
+| [Save](../../aspose.note/document/save/#save_1)(Stream, SaveFormat) | Speichert das OneNote-Dokument in einem Stream im angegebenen Format. |
+| [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | Speichert das OneNote-Dokument unter Verwendung der angegebenen Speicheroptionen in einem Stream. |
+| [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | Speichert das OneNote-Dokument in einer Datei im angegebenen Format. |
+| [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | Speichert das OneNote-Dokument unter Verwendung der angegebenen Speicheroptionen in einer Datei. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | Überprüft, ob ein Dokument aus einem Stream verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | Überprüft, ob ein Dokument aus einer Datei verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | Überprüft, ob ein Dokument aus einem Stream verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | Überprüft, ob ein Dokument aus einem Stream verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | Überprüft, ob ein Dokument aus einer Datei verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | Überprüft, ob ein Dokument aus einer Datei verschlüsselt ist. Um dies zu überprüfen, müssen wir dieses Dokument vollständig laden. Diese Methode kann also zu Leistungseinbußen führen. |
 
 ### Beispiele
 
@@ -532,6 +532,32 @@ else
 }
 ```
 
+Zeigt, wie man den dunklen Designstil auf ein Dokument anwendet.
+
+```csharp
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Laden Sie das Dokument in Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 Zeigt, wie der Inhalt eines Notizbuchs übergeben wird.
 
 ```csharp
@@ -653,30 +679,6 @@ document.Print(new PrintOptions()
                });
 ```
 
-Zeigt, wie die Metainformationen des Bildes abgerufen werden.
-
-```csharp
-// Der Pfad zum Dokumentenverzeichnis.
-string dataDir = RunExamples.GetDataDir_Images();
-
-// Laden Sie das Dokument in Aspose.Note.
-Document oneFile = new Document(dataDir + "Aspose.one");
-
-// Alle Image-Knoten abrufen
-IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
-
-foreach (Aspose.Note.Image image in images)
-{
-    Console.WriteLine("Width: {0}", image.Width);
-    Console.WriteLine("Height: {0}", image.Height);
-    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
-    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
-    Console.WriteLine("FileName: {0}", image.FileName);
-    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
-    Console.WriteLine();
-}
-```
-
 Zeigt, wie der Inhalt einer angehängten Datei abgerufen wird.
 
 ```csharp
@@ -698,10 +700,34 @@ foreach (AttachedFile file in nodes)
         // Erstellen Sie eine lokale Datei
         using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
         {
-            // Dateistrom kopieren
+            // Dateistream kopieren
             CopyStream(outputStream, fileStream);
         }
     }
+}
+```
+
+Zeigt, wie die Metainformationen des Bildes abgerufen werden.
+
+```csharp
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = RunExamples.GetDataDir_Images();
+
+// Laden Sie das Dokument in Aspose.Note.
+Document oneFile = new Document(dataDir + "Aspose.one");
+
+// Alle Image-Knoten abrufen
+IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
+
+foreach (Aspose.Note.Image image in images)
+{
+    Console.WriteLine("Width: {0}", image.Width);
+    Console.WriteLine("Height: {0}", image.Height);
+    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
+    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
+    Console.WriteLine("FileName: {0}", image.FileName);
+    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
+    Console.WriteLine();
 }
 ```
 
@@ -1379,10 +1405,10 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Siehe auch
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [Page](../page)
-* interface [INotebookChildNode](../inotebookchildnode)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Page](../page/)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
