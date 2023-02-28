@@ -1,9 +1,9 @@
 ---
-title: Table
+title: Class Table
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Representa una tabla.
+description: Aspose.Note.Table clase. Representa una tabla.
 type: docs
-weight: 870
+weight: 900
 url: /es/net/aspose.note/table/
 ---
 ## Table class
@@ -18,38 +18,38 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 | Nombre | Descripción |
 | --- | --- |
-| [Table](table#constructor)() | Inicializa una nueva instancia del[`Table`](../table) clase. |
+| [Table](table/#constructor)() | Inicializa una nueva instancia del`Table` clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Columns](../../aspose.note/table/columns) { get; } | Obtiene las columnas de la tabla. |
-| [Document](../../aspose.note/node/document) { get; } | Obtiene el documento del nodo. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsBordersVisible](../../aspose.note/table/isbordersvisible) { get; set; } | Obtiene o establece un valor que indica si el borde de la tabla está visible. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/table/lastmodifiedtime) { get; set; } | Obtiene o establece la hora de última modificación. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtiene el tipo de nodo. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtiene el nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
-| [Tags](../../aspose.note/table/tags) { get; } | Obtiene la lista de todas las etiquetas de un párrafo. |
+| [Columns](../../aspose.note/table/columns/) { get; } | Obtiene las columnas de la tabla. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtiene el documento del nodo. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsBordersVisible](../../aspose.note/table/isbordersvisible/) { get; set; } | Obtiene o establece un valor que indica si el borde de la tabla está visible. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/table/lastmodifiedtime/) { get; set; } | Obtiene o establece la hora de última modificación. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtiene el tipo de nodo. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtiene el nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
+| [Tags](../../aspose.note/table/tags/) { get; } | Obtiene la lista de todas las etiquetas de un párrafo. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.note/table/accept)(DocumentVisitor) | Acepta al visitante del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;TableRow&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params TableRow[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/table/accept/)(DocumentVisitor) | Acepta al visitante del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;TableRow&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params TableRow[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Ejemplos
 
@@ -263,7 +263,7 @@ Table table = new Table(doc)
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
               };
 
-// Añadir filas
+// Agregar filas
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
@@ -273,10 +273,10 @@ OutlineElement outlineElem = new OutlineElement(doc);
 // Agregar nodo de tabla
 outlineElem.AppendChildLast(table);
 
-// Agregar nodo de elemento de esquema
+// Agregar nodo de elemento de contorno
 outline.AppendChildLast(outlineElem);
 
-// Agregar nodo de esquema
+// Agregar nodo de contorno
 page.AppendChildLast(outline);
 
 // Añadir nodo de página
@@ -350,7 +350,7 @@ Outline outline = new Outline(doc);
 // Inicializa el objeto OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Agregar tabla al nodo del elemento de contorno
+// Agregar tabla al nodo del elemento de esquema
 outlineElem.AppendChildLast(table);
 
 // Agregar elemento de contorno al contorno
@@ -367,11 +367,11 @@ doc.Save(dataDir);
 
 ### Ver también
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [TableRow](../tablerow)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* espacio de nombres [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [TableRow](../tablerow/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* espacio de nombres [Aspose.Note](../../aspose.note/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Representa un título.
+description: Aspose.Note.Title clase. Representa un título.
 type: docs
-weight: 950
+weight: 980
 url: /es/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Nombre | Descripción |
 | --- | --- |
-| [Title](title#constructor)() | Inicializa una nueva instancia del[`Title`](../title) clase. |
+| [Title](title/#constructor)() | Inicializa una nueva instancia del`Title` clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Obtiene el documento del nodo. |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Obtiene o establece el desplazamiento horizontal. |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Obtiene un valor que indica si este nodo es compuesto. Si es verdadero, el nodo puede tener nodos secundarios. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Obtiene o establece la hora de última modificación. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtiene el tipo de nodo. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtiene el nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | Obtiene o establece una representación de cadena de la fecha en el título. |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | Obtiene o establece el texto del título. |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | Obtiene o establece una representación de cadena de la hora en el título. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | Obtiene o establece el desplazamiento vertical. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtiene el documento del nodo. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | Obtiene o establece el desplazamiento horizontal. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | Obtiene un valor que indica si este nodo es compuesto. Si es verdadero, el nodo puede tener nodos secundarios. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | Obtiene o establece la hora de última modificación. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtiene el tipo de nodo. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtiene el nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | Obtiene o establece una representación de cadena de la fecha en el título. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | Obtiene o establece el texto del título. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | Obtiene o establece una representación de cadena de la hora en el título. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | Obtiene o establece el desplazamiento vertical. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Acepta al visitante del nodo. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Obtener todos los nodos secundarios por tipo de nodo. |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | Devuelve un enumerador que itera a través de los nodos secundarios del[`Title`](../title) . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | Acepta al visitante del nodo. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | Obtener todos los nodos secundarios por tipo de nodo. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | Devuelve un enumerador que itera a través de los nodos secundarios del`Title` . |
 
 ### Ejemplos
 
@@ -215,7 +215,7 @@ page.Title = new Title(doc)
 // Agregar nodo de página
 doc.AppendChildLast(page);
 
-// Guarde el documento de OneNote en diferentes formatos, configure el tamaño de fuente del texto y detecte los cambios de diseño manualmente.
+// Guarde el documento de OneNote en diferentes formatos, establezca el tamaño de fuente del texto y detecte los cambios de diseño manualmente.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### Ver también
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* espacio de nombres [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* espacio de nombres [Aspose.Note](../../aspose.note/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

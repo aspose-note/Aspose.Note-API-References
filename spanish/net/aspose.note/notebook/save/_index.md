@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Notebook.Save
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Guarda el documento de OneNote en un archivo.
+description: Notebook método. Guarda el documento de OneNote en un archivo.
 type: docs
 weight: 150
 url: /es/net/aspose.note/notebook/save/
@@ -22,13 +22,13 @@ public void Save(string fileName)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ver también
 
-* class [Notebook](../../notebook)
-* espacio de nombres [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* espacio de nombres [Aspose.Note](../../notebook/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -49,13 +49,13 @@ public void Save(Stream stream)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ver también
 
-* class [Notebook](../../notebook)
-* espacio de nombres [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* espacio de nombres [Aspose.Note](../../notebook/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -77,14 +77,14 @@ public void Save(string fileName, SaveFormat format)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ver también
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* espacio de nombres [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* espacio de nombres [Aspose.Note](../../notebook/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -106,14 +106,14 @@ public void Save(Stream stream, SaveFormat format)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ver también
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* espacio de nombres [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* espacio de nombres [Aspose.Note](../../notebook/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -135,14 +135,14 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ver también
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* espacio de nombres [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* espacio de nombres [Aspose.Note](../../notebook/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -164,14 +164,14 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ver también
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* espacio de nombres [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* espacio de nombres [Aspose.Note](../../notebook/)
 * asamblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

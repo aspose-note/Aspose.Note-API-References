@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Document.Save
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Guarda el documento de OneNote en un archivo.
+description: Document método. Guarda el documento de OneNote en un archivo.
 type: docs
 weight: 140
 url: /es/net/aspose.note/document/save/
@@ -22,8 +22,8 @@ public void Save(string fileName)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ejemplos
 
@@ -40,8 +40,8 @@ doc.Save(dataDir + outputFile);
 
 ### Ver también
 
-* class [Document](../../document)
-* espacio de nombres [Aspose.Note](../../document)
+* class [Document](../)
+* espacio de nombres [Aspose.Note](../../document/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -62,13 +62,13 @@ public void Save(Stream stream)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ver también
 
-* class [Document](../../document)
-* espacio de nombres [Aspose.Note](../../document)
+* class [Document](../)
+* espacio de nombres [Aspose.Note](../../document/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -90,8 +90,8 @@ public void Save(string fileName, SaveFormat format)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ejemplos
 
@@ -124,9 +124,9 @@ oneFile.Save(dataDir, SaveFormat.Gif);
 
 ### Ver también
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* espacio de nombres [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* espacio de nombres [Aspose.Note](../../document/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -148,8 +148,8 @@ public void Save(Stream stream, SaveFormat format)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ejemplos
 
@@ -183,11 +183,37 @@ doc.Save(dstStream, SaveFormat.Pdf);
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
+Muestra cómo aplicar el estilo de tema oscuro a un documento.
+
+```csharp
+// La ruta al directorio de documentos.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Cargue el documento en Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 ### Ver también
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* espacio de nombres [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* espacio de nombres [Aspose.Note](../../document/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -209,8 +235,8 @@ public void Save(string fileName, SaveOptions options)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ejemplos
 
@@ -254,6 +280,36 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
 // Guarda el documento.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
+```
+
+Muestra cómo guardar un documento en formato PDF con diseño de página Carta.
+
+```csharp
+// La ruta al directorio de documentos.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Cargue el documento en Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Guarda el documento.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Muestra cómo guardar un documento en formato PDF con diseño de página A4 sin límite de altura.
+
+```csharp
+// La ruta al directorio de documentos.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Cargue el documento en Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Guarda el documento.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
 Muestra cómo guardar un documento como imagen en escala de grises.
@@ -424,9 +480,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### Ver también
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* espacio de nombres [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* espacio de nombres [Aspose.Note](../../document/)
 * asamblea [Aspose.Note](../../../)
 
 ---
@@ -448,8 +504,8 @@ public void Save(Stream stream, SaveOptions options)
 
 | excepción | condición |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | La estructura del documento infringe la especificación. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | El formato de guardado solicitado no es compatible. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | La estructura del documento infringe la especificación. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | El formato de guardado solicitado no es compatible. |
 
 ### Ejemplos
 
@@ -514,9 +570,9 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Ver también
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* espacio de nombres [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* espacio de nombres [Aspose.Note](../../document/)
 * asamblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
