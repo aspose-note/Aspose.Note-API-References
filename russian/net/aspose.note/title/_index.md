@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет заголовок.
+description: Aspose.Note.Title сорт. Представляет заголовок.
 type: docs
-weight: 950
+weight: 980
 url: /ru/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Имя | Описание |
 | --- | --- |
-| [Title](title#constructor)() | Инициализирует новый экземпляр[`Title`](../title) класс. |
+| [Title](title/#constructor)() | Инициализирует новый экземпляр`Title` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Получает или задает смещение по горизонтали. |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | Получает или задает строковое представление даты в заголовке. |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | Получает или задает текст заголовка. |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | Получает или задает строковое представление времени в заголовке. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | Получает или задает вертикальное смещение. |
+| [Document](../../aspose.note/node/document/) { get; } | Получает документ узла. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | Получает или задает смещение по горизонтали. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Получает следующий узел на том же уровне дерева узлов. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Получает тип узла. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Получает родительский узел. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | Получает или задает строковое представление даты в заголовке. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | Получает или задает текст заголовка. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | Получает или задает строковое представление времени в заголовке. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | Получает или задает вертикальное смещение. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Принимает посетителя узла. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Получить все дочерние узлы по типу узла. |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`Title`](../title) . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | Принимает посетителя узла. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | Получить все дочерние узлы по типу узла. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | Возвращает перечислитель, который перебирает дочерние узлы`Title` . |
 
 ### Примеры
 
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### Смотрите также
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

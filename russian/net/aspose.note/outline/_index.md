@@ -1,9 +1,9 @@
 ---
-title: Outline
+title: Class Outline
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет схему.
+description: Aspose.Note.Outline сорт. Представляет схему.
 type: docs
-weight: 430
+weight: 450
 url: /ru/net/aspose.note/outline/
 ---
 ## Outline class
@@ -11,50 +11,50 @@ url: /ru/net/aspose.note/outline/
 Представляет схему.
 
 ```csharp
-public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
+public sealed class Outline : IndentatedNode<IOutlineChildNode>, IPageChildNode
 ```
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [Outline](outline#constructor)() | Инициализирует новый экземпляр[`Outline`](../outline) класс. |
+| [Outline](outline/#constructor)() | Инициализирует новый экземпляр`Outline` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved) { get; set; } | Указывает, можно ли перемещать потомков контура. |
-| [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | Получает или задает смещение по горизонтали. |
-| [IndentPosition](../../aspose.note/outline/indentposition) { get; set; } | Получает или задает позицию отступа. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
-| [MaxHeight](../../aspose.note/outline/maxheight) { get; set; } | Получает или задает максимальную высоту. |
-| [MaxWidth](../../aspose.note/outline/maxwidth) { get; set; } | Получает или задает максимальную ширину. |
-| [MinWidth](../../aspose.note/outline/minwidth) { get; set; } | Получает или задает минимальную ширину. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
-| [ReservedWidth](../../aspose.note/outline/reservedwidth) { get; set; } | Получает или устанавливает зарезервированную ширину. |
-| [VerticalOffset](../../aspose.note/outline/verticaloffset) { get; set; } | Получает или задает вертикальное смещение. |
+| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved/) { get; set; } | Указывает, можно ли перемещать потомков контура. |
+| [Document](../../aspose.note/node/document/) { get; } | Получает документ узла. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [HorizontalOffset](../../aspose.note/outline/horizontaloffset/) { get; set; } | Получает или задает смещение по горизонтали. |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime/) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [MaxHeight](../../aspose.note/outline/maxheight/) { get; set; } | Получает или задает максимальную высоту. |
+| [MaxWidth](../../aspose.note/outline/maxwidth/) { get; set; } | Получает или задает максимальную ширину. |
+| [MinWidth](../../aspose.note/outline/minwidth/) { get; set; } | Получает или задает минимальную ширину. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Получает следующий узел на том же уровне дерева узлов. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Получает тип узла. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Получает родительский узел. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
+| [ReservedWidth](../../aspose.note/outline/reservedwidth/) { get; set; } | Получает или устанавливает зарезервированную ширину. |
+| [VerticalOffset](../../aspose.note/outline/verticaloffset/) { get; set; } | Получает или задает вертикальное смещение. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.note/outline/accept)(DocumentVisitor) | Принимает посетителя узла. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outline/accept/)(DocumentVisitor) | Принимает посетителя узла. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Примеры
 
@@ -235,10 +235,10 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

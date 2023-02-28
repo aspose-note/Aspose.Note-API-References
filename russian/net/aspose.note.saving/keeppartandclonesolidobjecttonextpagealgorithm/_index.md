@@ -1,14 +1,14 @@
 ---
-title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
+title: Class KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Справочник по API Aspose.Note для .NET
-description: Добавляет верхнюю часть объекта в нижнюю часть страницы и полностью клонирует объект на следующую страницу если он не помещается на исходной странице.
+description: Aspose.Note.Saving.KeepPartAndCloneSolidObjectToNextPageAlgorithm сорт. Добавляет верхнюю часть объекта в нижнюю часть страницы и клонирует весь объект на следующую страницу если он не помещается на исходной странице.
 type: docs
-weight: 710
+weight: 730
 url: /ru/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm class
 
-Добавляет верхнюю часть объекта в нижнюю часть страницы и полностью клонирует объект на следующую страницу, если он не помещается на исходной странице.
+Добавляет верхнюю часть объекта в нижнюю часть страницы и клонирует весь объект на следующую страницу, если он не помещается на исходной странице.
 
 ```csharp
 public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgorithm
@@ -18,20 +18,20 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 
 | Имя | Описание |
 | --- | --- |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor)() | Инициализирует новый экземпляр[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) class, используя предел высоты клонированной части по умолчанию. |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm#constructor_1)(float) | Инициализирует новый экземпляр[`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../keeppartandclonesolidobjecttonextpagealgorithm) класс, используя определенный предел высоты клонированной части. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm/#constructor)() | Инициализирует новый экземпляр`KeepPartAndCloneSolidObjectToNextPageAlgorithm` class, используя предел высоты клонированной части по умолчанию. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm/#constructor_1)(float) | Инициализирует новый экземпляр`KeepPartAndCloneSolidObjectToNextPageAlgorithm` класс, используя определенный предел высоты клонированной части. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart) { get; } | Получает предел высоты клонированной детали. |
+| [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart/) { get; } | Получает предел высоты клонированной детали. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart) | Максимальный размер клонируемой детали по умолчанию. |
+| const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart/) | Максимальный размер клонируемой детали по умолчанию. |
 
 ### Примеры
 
@@ -47,7 +47,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100);
-// или же
+// или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(400);
 
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
@@ -64,18 +64,18 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm();
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(heightLimitOfClonedPart);
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart);
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(100);
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
@@ -84,8 +84,8 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [PageSplittingAlgorithm](../pagesplittingalgorithm)
-* пространство имен [Aspose.Note.Saving](../../aspose.note.saving)
+* class [PageSplittingAlgorithm](../pagesplittingalgorithm/)
+* пространство имен [Aspose.Note.Saving](../../aspose.note.saving/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

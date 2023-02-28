@@ -1,9 +1,9 @@
 ---
-title: NoteTask
+title: Class NoteTask
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет задачу заметки.
+description: Aspose.Note.NoteTask сорт. Представляет задачу заметки.
 type: docs
-weight: 380
+weight: 400
 url: /ru/net/aspose.note/notetask/
 ---
 ## NoteTask class
@@ -18,30 +18,30 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 
 | Имя | Описание |
 | --- | --- |
-| [Checked](../../aspose.note/checkbox/checked) { get; } | Получает значение, указывающее, находится ли CheckBox в проверенном состоянии. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Получает или устанавливает завершенное время. |
-| [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Получает или задает время создания. |
-| [DueDate](../../aspose.note/notetask/duedate) { get; set; } | Получает или задает срок выполнения. |
-| override [Icon](../../aspose.note/notetask/icon) { get; } | Получает или задает значок. |
-| [Label](../../aspose.note/checkbox/label) { get; } | Получает текст метки. |
-| [Status](../../aspose.note/checkbox/status) { get; } | Получает или устанавливает статус. |
+| [Checked](../../aspose.note/checkbox/checked/) { get; } | Получает значение, указывающее, находится ли CheckBox в проверенном состоянии. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | Получает или устанавливает завершенное время. |
+| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | Получает или задает время создания. |
+| [DueDate](../../aspose.note/notetask/duedate/) { get; set; } | Получает или задает срок выполнения. |
+| override [Icon](../../aspose.note/notetask/icon/) { get; } | Получает или задает значок. |
+| [Label](../../aspose.note/checkbox/label/) { get; } | Получает текст метки. |
+| [Status](../../aspose.note/checkbox/status/) { get; } | Получает или устанавливает статус. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate)(DateTime) | Создает новую задачу для заметок со значком NoFollowUpDateFlag и указанной датой выполнения. |
-| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek)() | Создает новую задачу заметки со значком FollowUpNextWeekFlag. |
-| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek)() | Создает новую задачу заметки со значком FollowUpThisWeekFlag. |
-| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday)() | Создает новую задачу заметки со значком FollowUpTodayFlag. |
-| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow)() | Создает новую задачу заметки со значком FollowUpTomorrowFlag. |
-| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate)() | Создает новую задачу заметки со значком NoFollowUpDateFlag. |
-| [Equals](../../aspose.note/notetask/equals#equals)(NoteTask) | Определяет, равен ли указанный объект текущему объекту. |
-| override [Equals](../../aspose.note/notetask/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/notetask/gethashcode)() | Служит хеш-функцией для типа. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Устанавливает тег в завершенное состояние, используя текущее время как завершенное время. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Устанавливает тег в завершенное состояние. |
-| override [SetOpen](../../aspose.note/notetask/setopen)() | Устанавливает тег в открытое состояние. |
+| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate/)(DateTime) | Создает новую задачу для заметок со значком NoFollowUpDateFlag и указанной датой выполнения. |
+| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek/)() | Создает новую задачу заметки со значком FollowUpNextWeekFlag. |
+| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek/)() | Создает новую задачу заметки со значком FollowUpThisWeekFlag. |
+| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday/)() | Создает новую задачу заметки со значком FollowUpTodayFlag. |
+| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow/)() | Создает новую задачу заметки со значком FollowUpTomorrowFlag. |
+| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate/)() | Создает новую задачу заметки со значком NoFollowUpDateFlag. |
+| [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | Определяет, равен ли указанный объект текущему объекту. |
+| override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
+| override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | Служит хэш-функцией для типа. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | Устанавливает тег в завершенное состояние, используя текущее время как завершенное время. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | Устанавливает тег в завершенное состояние. |
+| override [SetOpen](../../aspose.note/notetask/setopen/)() | Устанавливает тег в открытое состояние. |
 
 ### Примеры
 
@@ -100,8 +100,8 @@ foreach (RichText richText in nodes)
 
 ### Смотрите также
 
-* class [CheckBox](../checkbox)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [CheckBox](../checkbox/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: PdfSaveOptions
+title: Class PdfSaveOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Позволяет указать дополнительные параметры при рендеринге страниц документа в PDF.
+description: Aspose.Note.Saving.PdfSaveOptions сорт. Позволяет указать дополнительные параметры при рендеринге страниц документа в PDF.
 type: docs
-weight: 820
+weight: 850
 url: /ru/net/aspose.note.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -18,21 +18,52 @@ public sealed class PdfSaveOptions : SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions)() | Конструктор по умолчанию. |
+| [PdfSaveOptions](pdfsaveoptions/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
-| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression) { get; set; } | Получает или задает тип сжатия, применяемый к изображениям в файле PDF. |
-| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality) { get; set; } | Получает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Значение может варьироваться от 0 до 100, где 0 означает худшее качество, но максимальное сжатие, а 100 означает лучшее качество, но минимальное сжатие. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm) { get; set; } | Получает или задает алгоритм, используемый для разбиения страницы. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Получает формат, в котором сохранен документ. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
+| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression/) { get; set; } | Получает или задает тип сжатия, применяемый к изображениям в файле PDF. |
+| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality/) { get; set; } | Получает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Значение может варьироваться от 0 до 100, где 0 означает худшее качество, но максимальное сжатие, а 100 означает лучшее качество, но минимальное сжатие. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
+| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings/) { get; set; } | Получает или задает параметры страницы для каждой страницы в документе. По умолчанию зависит от CurrentUICulture. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/) { get; set; } | Получает или задает алгоритм, используемый для разбиения страницы. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Получает формат, в котором сохранен документ. |
 
 ### Примеры
+
+Показывает, как сохранить документ в формате Pdf с макетом страницы Letter.
+
+```csharp
+// Путь к каталогу документов.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Загрузите документ в Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Сохраняем документ.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Показывает, как сохранить документ в формате Pdf с макетом страницы A4 без ограничения высоты.
+
+```csharp
+// Путь к каталогу документов.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Загрузите документ в Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Сохраняем документ.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
+```
 
 Показывает, как сохранить блокнот в формате pdf с указанными параметрами.
 
@@ -67,7 +98,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100);
-// или же
+// или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(400);
 
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
@@ -131,18 +162,18 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm();
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(heightLimitOfClonedPart);
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart);
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(100);
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
@@ -151,8 +182,8 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [SaveOptions](../saveoptions)
-* пространство имен [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* пространство имен [Aspose.Note.Saving](../../aspose.note.saving/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

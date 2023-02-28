@@ -1,9 +1,9 @@
 ---
-title: ParagraphStyle
+title: Class ParagraphStyle
 second_title: Справочник по API Aspose.Note для .NET
-description: Настройки стиля текста которые будут использоваться если нет соответствующего объекта TextStyle вStyles коллекция либо этот объект не указывает необходимую настройку.
+description: Aspose.Note.ParagraphStyle сорт. Настройки стиля текста которые будут использоваться если нет соответствующего объекта TextStyle вStyles коллекция либо этот объект не указывает необходимую настройку.
 type: docs
-weight: 490
+weight: 510
 url: /ru/net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
@@ -18,32 +18,32 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | Имя | Описание |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle)() | Инициализирует новый экземпляр[`ParagraphStyle`](../paragraphstyle) класс. |
+| [ParagraphStyle](paragraphstyle/)() | Инициализирует новый экземпляр`ParagraphStyle` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Default](../../aspose.note/paragraphstyle/default) { get; } | Получает ParagraphStyle с настройками по умолчанию. |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Получает или задает цвет шрифта. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | Получает или задает имя шрифта. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Получает или задает размер шрифта. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Получает стиль шрифта. |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | Получает или задает цвет выделения. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста зачеркнутым. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подстрочным. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста надстрочным. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подчеркнутым. |
+| static [Default](../../aspose.note/paragraphstyle/default/) { get; } | Получает ParagraphStyle с настройками по умолчанию. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Получает или задает цвет шрифта. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | Получает или задает имя шрифта. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Получает или задает размер шрифта. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Получает стиль шрифта. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Получает или задает цвет выделения. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста зачеркнутым. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подстрочным. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста надстрочным. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подчеркнутым. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode)() | Служит хеш-функцией для типа. |
+| override [Equals](../../aspose.note/paragraphstyle/equals/#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
+| [Equals](../../aspose.note/paragraphstyle/equals/#equals)(ParagraphStyle) | Определяет, равен ли указанный объект текущему объекту. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode/)() | Служит хэш-функцией для типа. |
 
 ### Примеры
 
@@ -255,8 +255,8 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [Style](../style)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

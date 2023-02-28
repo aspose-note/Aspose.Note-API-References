@@ -1,9 +1,9 @@
 ---
-title: TableCell
+title: Class TableCell
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет ячейку таблицы.
+description: Aspose.Note.TableCell сорт. Представляет ячейку таблицы.
 type: docs
-weight: 880
+weight: 910
 url: /ru/net/aspose.note/tablecell/
 ---
 ## TableCell class
@@ -11,44 +11,44 @@ url: /ru/net/aspose.note/tablecell/
 Представляет ячейку таблицы.
 
 ```csharp
-public sealed class TableCell : CompositeNode<OutlineElement>
+public sealed class TableCell : CompositeNode<IOutlineChildNode>
 ```
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [TableCell](tablecell#constructor)() | Инициализирует новый экземпляр[`TableCell`](../tablecell) класс. |
+| [TableCell](tablecell/#constructor)() | Инициализирует новый экземпляр`TableCell` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundColor](../../aspose.note/tablecell/backgroundcolor) { get; set; } | Получает или задает цвет фона. |
-| [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/tablecell/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
-| [MaxWidth](../../aspose.note/tablecell/maxwidth) { get; } | Получает максимальную ширину. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
+| [BackgroundColor](../../aspose.note/tablecell/backgroundcolor/) { get; set; } | Получает или задает цвет фона. |
+| [Document](../../aspose.note/node/document/) { get; } | Получает документ узла. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/tablecell/lastmodifiedtime/) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [MaxWidth](../../aspose.note/tablecell/maxwidth/) { get; } | Получает максимальную ширину. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Получает следующий узел на том же уровне дерева узлов. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Получает тип узла. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Получает родительский узел. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.note/tablecell/accept)(DocumentVisitor) | Принимает посетителя узла. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;OutlineElement&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params OutlineElement[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/tablecell/accept/)(DocumentVisitor) | Принимает посетителя узла. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Примеры
 
@@ -312,9 +312,9 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [OutlineElement](../outlineelement)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

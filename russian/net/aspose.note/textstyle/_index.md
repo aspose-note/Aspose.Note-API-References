@@ -1,9 +1,9 @@
 ---
-title: TextStyle
+title: Class TextStyle
 second_title: Справочник по API Aspose.Note для .NET
-description: Определяет стиль текста.
+description: Aspose.Note.TextStyle сорт. Определяет стиль текста.
 type: docs
-weight: 940
+weight: 970
 url: /ru/net/aspose.note/textstyle/
 ---
 ## TextStyle class
@@ -18,40 +18,40 @@ public sealed class TextStyle : Style
 
 | Имя | Описание |
 | --- | --- |
-| [TextStyle](textstyle)() | Конструктор по умолчанию. |
+| [TextStyle](textstyle/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Default](../../aspose.note/textstyle/default) { get; } | Получает стиль по умолчанию для текста заголовка в MS OneNote. |
-| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle) { get; } | Получает стиль по умолчанию для даты заголовка в MS OneNote. |
-| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle) { get; } | Получает стиль по умолчанию для текста заголовка в MS OneNote. |
-| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle) { get; } | Получает стиль по умолчанию для времени заголовка в MS OneNote. |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Получает или задает цвет шрифта. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | Получает или задает имя шрифта. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Получает или задает размер шрифта. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Получает стиль шрифта. |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | Получает или задает цвет выделения. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | Получает или задает адрес гиперссылки. Должен быть установлен, если значение[`IsHyperlink`](./ishyperlink) свойство истинно. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
-| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | Получает или задает значение, указывающее, скрыт ли стиль текста. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста гиперссылкой. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
-| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста математическим форматированием. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста зачеркнутым. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подстрочным. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста надстрочным. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подчеркнутым. |
-| [Language](../../aspose.note/textstyle/language) { get; set; } | Получает или задает язык текста. |
+| static [Default](../../aspose.note/textstyle/default/) { get; } | Получает стиль с культурой "en-US". |
+| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle/) { get; } | Получает стиль по умолчанию для даты заголовка в MS OneNote. |
+| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | Получает стиль по умолчанию для текста заголовка в MS OneNote. |
+| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | Получает стиль по умолчанию для времени заголовка в MS OneNote. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Получает или задает цвет шрифта. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | Получает или задает имя шрифта. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Получает или задает размер шрифта. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Получает стиль шрифта. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Получает или задает цвет выделения. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Получает или задает адрес гиперссылки. Должен быть установлен, если значение[`IsHyperlink`](./ishyperlink/) свойство истинно. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
+| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | Получает или задает значение, указывающее, скрыт ли стиль текста. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста гиперссылкой. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
+| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста математическим форматированием. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста зачеркнутым. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подстрочным. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста надстрочным. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста подчеркнутым. |
+| [Language](../../aspose.note/textstyle/language/) { get; set; } | Получает или задает язык текста. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | Служит хеш-функцией для типа. |
+| override [Equals](../../aspose.note/textstyle/equals/#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
+| [Equals](../../aspose.note/textstyle/equals/#equals)(TextStyle) | Определяет, равен ли указанный объект текущему объекту. |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode/)() | Служит хэш-функцией для типа. |
 
 ### Примеры
 
@@ -208,8 +208,8 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [Style](../style)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

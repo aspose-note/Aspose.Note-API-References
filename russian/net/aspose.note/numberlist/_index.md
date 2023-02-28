@@ -1,9 +1,9 @@
 ---
-title: NumberList
+title: Class NumberList
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет нумерованный или маркированный список.
+description: Aspose.Note.NumberList сорт. Представляет нумерованный или маркированный список.
 type: docs
-weight: 420
+weight: 440
 url: /ru/net/aspose.note/numberlist/
 ---
 ## NumberList class
@@ -18,31 +18,31 @@ public class NumberList
 
 | Имя | Описание |
 | --- | --- |
-| [NumberList](numberlist#constructor_1)(string, string, int) | Инициализирует новый экземпляр[`NumberList`](../numberlist) class. Этот экземпляр представляет собой маркированный список. |
-| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Инициализирует новый экземпляр[`NumberList`](../numberlist)class. Этот экземпляр представляет нумерованный список. |
+| [NumberList](numberlist/#constructor_1)(string, string, int) | Инициализирует новый экземпляр`NumberList`class. Этот экземпляр представляет собой маркированный список. |
+| [NumberList](numberlist/#constructor)(string, NumberFormat, string, int) | Инициализирует новый экземпляр`NumberList` class. Этот экземпляр представляет нумерованный список. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Font](../../aspose.note/numberlist/font) { get; set; } | Получает или задает имя шрифта. |
-| [FontColor](../../aspose.note/numberlist/fontcolor) { get; set; } | Получает или задает цвет шрифта. |
-| [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | Получает или задает размер шрифта. |
-| [Format](../../aspose.note/numberlist/format) { get; set; } | Получает или задает формат заголовка строки. Для маркированных списков представляет собой символ маркера. |
-| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
-| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
-| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Получает или задает числовой формат, используемый для группы автоматически нумерованных объектов. Должно быть пустым для маркированных списков. |
-| [Restart](../../aspose.note/numberlist/restart) { get; set; } | Получает или задает числовое значение, которое переопределяет автоматическое числовое значение элемента списка. |
+| [Font](../../aspose.note/numberlist/font/) { get; set; } | Получает или задает имя шрифта. |
+| [FontColor](../../aspose.note/numberlist/fontcolor/) { get; set; } | Получает или задает цвет шрифта. |
+| [FontSize](../../aspose.note/numberlist/fontsize/) { get; set; } | Получает или задает размер шрифта. |
+| [Format](../../aspose.note/numberlist/format/) { get; set; } | Получает или задает формат заголовка строки. Для маркированных списков представляет собой символ маркера. |
+| [IsBold](../../aspose.note/numberlist/isbold/) { get; set; } | Получает или задает значение, указывающее, является ли текст полужирным. |
+| [IsItalic](../../aspose.note/numberlist/isitalic/) { get; set; } | Получает или задает значение, указывающее, является ли стиль текста курсивом. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime/) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [NumberFormat](../../aspose.note/numberlist/numberformat/) { get; set; } | Получает или задает числовой формат, используемый для группы автоматически нумерованных объектов. Должно быть пустым для маркированных списков. |
+| [Restart](../../aspose.note/numberlist/restart/) { get; set; } | Получает или задает числовое значение, которое переопределяет автоматическое числовое значение элемента списка. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | Определяет, равен ли указанный объект текущему объекту. |
-| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Служит хеш-функцией для типа. |
-| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Получает заголовок нумерованного списка. |
+| [Equals](../../aspose.note/numberlist/equals/#equals)(NumberList) | Определяет, равен ли указанный объект текущему объекту. |
+| override [Equals](../../aspose.note/numberlist/equals/#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode/)() | Служит хэш-функцией для типа. |
+| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader/)(int) | Получает заголовок нумерованного списка. |
 
 ### Примеры
 
@@ -180,7 +180,7 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* пространство имен [Aspose.Note](../../aspose.note)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

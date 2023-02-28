@@ -1,9 +1,9 @@
 ---
-title: Notebook
+title: Class Notebook
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет записную книжку Aspose.Note.
+description: Aspose.Note.Notebook сорт. Представляет записную книжку Aspose.Note.
 type: docs
-weight: 390
+weight: 410
 url: /ru/net/aspose.note/notebook/
 ---
 ## Notebook class
@@ -18,46 +18,46 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | Имя | Описание |
 | --- | --- |
-| [Notebook](notebook#constructor)() | Инициализирует новый экземпляр[`Notebook`](../notebook) класс. |
-| [Notebook](notebook#constructor_1)(Stream) | Инициализирует новый экземпляр[`Notebook`](../notebook) class. Открывает существующую записную книжку OneNote из потока. |
-| [Notebook](notebook#constructor_3)(string) | Инициализирует новый экземпляр[`Notebook`](../notebook) class. Открывает существующую записную книжку OneNote из файла. |
-| [Notebook](notebook#constructor_2)(Stream, NotebookLoadOptions) | Инициализирует новый экземпляр[`Notebook`](../notebook) class. Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки. |
-| [Notebook](notebook#constructor_4)(string, NotebookLoadOptions) | Инициализирует новый экземпляр[`Notebook`](../notebook)class. Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры, такие как стратегия загрузки детей («ленивый»/мгновенный). |
+| [Notebook](notebook/#constructor)() | Инициализирует новый экземпляр`Notebook` класс. |
+| [Notebook](notebook/#constructor_1)(Stream) | Инициализирует новый экземпляр`Notebook` class. Открывает существующую записную книжку OneNote из потока. |
+| [Notebook](notebook/#constructor_3)(string) | Инициализирует новый экземпляр`Notebook` class. Открывает существующую записную книжку OneNote из файла. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | Инициализирует новый экземпляр`Notebook` class. Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | Инициализирует новый экземпляр`Notebook` class. Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры, такие как стратегия загрузки детей («ленивый»/мгновенный). |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color) { get; set; } | Получает или задает цвет. |
-| [Count](../../aspose.note/notebook/count) { get; } | Получает количество элементов, содержащихся в[`Notebook`](../notebook) . |
-| [DisplayName](../../aspose.note/notebook/displayname) { get; set; } | Получает или задает отображаемое имя. |
-| [FileFormat](../../aspose.note/notebook/fileformat) { get; } | Получает формат файла (OneNote 2010, OneNote Online). |
-| [Guid](../../aspose.note/notebook/guid) { get; } | Получает глобально уникальный идентификатор объекта. |
-| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled) { get; set; } | Получает или задает значение, указывающее, включена ли история. |
-| [Item](../../aspose.note/notebook/item) { get; } | Получает дочерний узел ноутбука по заданному индексу. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | Получает или задает цвет. |
+| [Count](../../aspose.note/notebook/count/) { get; } | Получает количество элементов, содержащихся в`Notebook` . |
+| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | Получает или задает отображаемое имя. |
+| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | Получает формат файла (OneNote 2010, OneNote Online). |
+| [Guid](../../aspose.note/notebook/guid/) { get; } | Получает глобально уникальный идентификатор объекта. |
+| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | Получает или задает значение, указывающее, включена ли история. |
+| [Item](../../aspose.note/notebook/item/) { get; } | Получает дочерний узел ноутбука по заданному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AppendChild](../../aspose.note/notebook/appendchild)(INotebookChildNode) | Добавляет узел в конец списка. |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes)() | Получить все дочерние узлы по типу узла. |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator)() | Возвращает перечислитель, который перебирает дочерние узлы[`Notebook`](../notebook) . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument)(Stream) | Добавляет узел дочернего документа. Открывает существующий документ OneNote из потока. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_2)(string) | Добавляет узел дочернего документа. Открывает существующий документ OneNote из файла. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_1)(Stream, LoadOptions) | Добавляет дочерний узел документа. Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры загрузки. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_3)(string, LoadOptions) | Добавляет дочерний узел документа. Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры загрузки. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook)(Stream) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из потока. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_2)(string) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из файла. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_3)(string, NotebookLoadOptions) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры загрузки. |
-| [RemoveChild](../../aspose.note/notebook/removechild)(INotebookChildNode) | Удаляет дочерний узел. |
-| [Save](../../aspose.note/notebook/save#save)(Stream) | Сохраняет документ OneNote в поток. |
-| [Save](../../aspose.note/notebook/save#save_3)(string) | Сохраняет документ OneNote в файл. |
-| [Save](../../aspose.note/notebook/save#save_2)(Stream, NotebookSaveOptions) | Сохраняет документ OneNote в поток, используя указанные параметры сохранения. |
-| [Save](../../aspose.note/notebook/save#save_1)(Stream, SaveFormat) | Сохраняет документ OneNote в поток в указанном формате. |
-| [Save](../../aspose.note/notebook/save#save_5)(string, NotebookSaveOptions) | Сохраняет документ OneNote в файл, используя указанные параметры сохранения. |
-| [Save](../../aspose.note/notebook/save#save_4)(string, SaveFormat) | Сохраняет документ OneNote в файл в указанном формате. |
+| [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | Добавляет узел в конец списка. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | Получить все дочерние узлы по типу узла. |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | Возвращает перечислитель, который перебирает дочерние узлы`Notebook` . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | Добавляет узел дочернего документа. Открывает существующий документ OneNote из потока. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | Добавляет узел дочернего документа. Открывает существующий документ OneNote из файла. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | Добавляет дочерний узел документа. Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры загрузки. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | Добавляет дочерний узел документа. Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры загрузки. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из потока. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из файла. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из потока. Позволяет указать дополнительные параметры загрузки. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | Добавляет узел дочерней записной книжки. Открывает существующую записную книжку OneNote из файла. Позволяет указать дополнительные параметры загрузки. |
+| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | Удаляет дочерний узел. |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | Сохраняет документ OneNote в поток. |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | Сохраняет документ OneNote в файл. |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | Сохраняет документ OneNote в поток, используя указанные параметры сохранения. |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | Сохраняет документ OneNote в поток в указанном формате. |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | Сохраняет документ OneNote в файл, используя указанные параметры сохранения. |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | Сохраняет документ OneNote в файл в указанном формате. |
 
 ### Примеры
 
@@ -320,8 +320,8 @@ catch (Exception ex)
 
 ### Смотрите также
 
-* interface [INotebookChildNode](../inotebookchildnode)
-* пространство имен [Aspose.Note](../../aspose.note)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: Page
+title: Class Page
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет страницу.
+description: Aspose.Note.Page сорт. Представляет страницу.
 type: docs
-weight: 460
+weight: 480
 url: /ru/net/aspose.note/page/
 ---
 ## Page class
@@ -18,46 +18,46 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | Имя | Описание |
 | --- | --- |
-| [Page](page#constructor)() | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page/#constructor)() | Инициализирует новый экземпляр`Page` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Author](../../aspose.note/page/author) { get; set; } | Получает или задает автора. |
-| [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | Получает или устанавливает цвет фона страницы. |
-| [CreationTime](../../aspose.note/page/creationtime) { get; set; } | Получает или задает время создания. |
-| [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | Получает или задает значение, указывающее, является ли эта страница конфликтующей. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
-| [Level](../../aspose.note/page/level) { get; set; } | Получает или устанавливает уровень. |
-| [Margin](../../aspose.note/page/margin) { get; set; } | Получает или задает поле. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary) { get; set; } | Получает или задает сводку изменений для страницы и ее дочерних узлов. |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize) { get; set; } | Получает или задает размер макета страницы, отображаемый в редакторе. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
-| [SizeType](../../aspose.note/page/sizetype) { get; set; } | Получает или задает тип размера страницы. |
-| [Title](../../aspose.note/page/title) { get; set; } | Получает или устанавливает заголовок. |
+| [Author](../../aspose.note/page/author/) { get; set; } | Получает или задает автора. |
+| [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | Получает или устанавливает цвет фона страницы. |
+| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | Получает или задает время создания. |
+| [Document](../../aspose.note/node/document/) { get; } | Получает документ узла. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | Получает или задает значение, указывающее, является ли эта страница конфликтующей. |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [Level](../../aspose.note/page/level/) { get; set; } | Получает или устанавливает уровень. |
+| [Margin](../../aspose.note/page/margin/) { get; set; } | Получает или задает поле. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Получает следующий узел на том же уровне дерева узлов. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Получает тип узла. |
+| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | Получает или задает сводку изменений для страницы и ее дочерних узлов. |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | Получает или задает размер макета страницы, отображаемый в редакторе. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Получает родительский узел. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
+| [SizeType](../../aspose.note/page/sizetype/) { get; set; } | Получает или задает тип размера страницы. |
+| [Title](../../aspose.note/page/title/) { get; set; } | Получает или устанавливает заголовок. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.note/page/accept)(DocumentVisitor) | Принимает посетителя узла. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [Clone](../../aspose.note/page/clone)(bool) | Клонирует страницу. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | Получить все дочерние узлы страницы по типу узла. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IPageChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | Принимает посетителя узла. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [Clone](../../aspose.note/page/clone/)(bool) | Клонирует страницу. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | Получить все дочерние узлы страницы по типу узла. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Примеры
 
@@ -616,9 +616,9 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IPageChildNode](../ipagechildnode)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IPageChildNode](../ipagechildnode/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
