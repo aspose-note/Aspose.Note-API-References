@@ -1,0 +1,31 @@
+---
+title: NoteTag.CreateGreenSolidArrow
+second_title: Aspose.Note .NET API संदर्भ के लिए
+description: NoteTag तरक. ग्रनसलडएर आइकन और नर्दष्ट लेबल के सथ एक नय नट टैग बनत है
+type: docs
+weight: 450
+url: /hi/net/aspose.note/notetag/creategreensolidarrow/
+---
+## NoteTag.CreateGreenSolidArrow method
+
+ग्रीनसॉलिडएरो आइकन और निर्दिष्ट लेबल के साथ एक नया नोट टैग बनाता है।
+
+```csharp
+public static NoteTag CreateGreenSolidArrow(string label = "")
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| label | String | टैग का लेबल. |
+
+### प्रतिलाभ की मात्रा
+
+द[`NoteTag`](../) .
+
+### यह सभी देखें
+
+* class [NoteTag](../)
+* नाम स्थान [Aspose.Note](../../notetag/)
+* सभा [Aspose.Note](../../../)
+
+
