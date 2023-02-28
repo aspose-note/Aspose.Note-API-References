@@ -1,14 +1,14 @@
 ---
-title: ParagraphStyle
+title: RichText.ParagraphStyle
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置段落样式 如果没有匹配的 TextStyle 对象则使用这些设置Styles收集此对象未指定所需设置
+description: RichText 财产. 获取或设置段落样式 如果在中没有匹配的 TextStyle 对象则使用这些设置Styles收集此对象未指定所需的设置
 type: docs
 weight: 60
 url: /zh/net/aspose.note/richtext/paragraphstyle/
 ---
 ## RichText.ParagraphStyle property
 
-获取或设置段落样式。 如果没有匹配的 TextStyle 对象，则使用这些设置Styles收集此对象未指定所需设置。
+获取或设置段落样式。 如果在中没有匹配的 TextStyle 对象，则使用这些设置Styles收集此对象未指定所需的设置。
 
 ```csharp
 public ParagraphStyle ParagraphStyle { get; set; }
@@ -16,12 +16,12 @@ public ParagraphStyle ParagraphStyle { get; set; }
 
 ### 例子
 
-让我们通过增加字体大小来在其他标题中强调页面标题。
+让我们通过增加字体大小在其他标题中强调页面的标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Aspose.one");
 
 // 遍历页面的标题。
@@ -40,12 +40,38 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-让我们通过突出显示来强调最新文本的变化。
+展示如何将深色主题样式应用于文档。
+
+```csharp
+// 文档目录的路径。
+string dataDir = RunExamples.GetDataDir_Text();
+
+// 将文档加载到 Aspose.Note 中。
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
+让我们通过突出显示来强调最新文本的更改。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Aspose.one");
 
 // 获取上周修改的 RichText 节点。
@@ -125,10 +151,10 @@ document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphSt
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -143,10 +169,10 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // 添加文本节点
 outlineElem.AppendChildLast(text);
 
-// 添加大纲元素节点
+// 添加轮廓元素节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -163,13 +189,13 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "TagFile.one");
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// 遍历每个节点
+//遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -178,7 +204,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // 获取属性
+            // 检索属性
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -206,7 +232,7 @@ Outline outline = new Outline(doc);
 // 应用文本样式设置
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 同一大纲中的数字会自动递增。
+// 同一轮廓内的数字自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -238,10 +264,10 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -270,7 +296,7 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 // 添加页面节点
 doc.AppendChildLast(page);
@@ -285,10 +311,10 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -298,7 +324,7 @@ Outline outline = new Outline(doc);
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // 初始化 OutlineElement 类对象并应用编号
-// 同一大纲中的数字会自动递增。
+// 同一轮廓内的数字自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -316,7 +342,7 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -333,7 +359,7 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -373,7 +399,7 @@ d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -410,13 +436,13 @@ outlineElem.AppendChildLast(text);
 // 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化 Title 类对象
+// 初始化标题类对象
 Title title = new Title() { TitleText = titleText };
 
-//初始化Page类对象
+// 初始化页面类对象
 Page page = new Note.Page() { Title = title };
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -429,9 +455,9 @@ doc.Save(dataDir);
 
 ### 也可以看看
 
-* class [ParagraphStyle](../../paragraphstyle)
-* class [RichText](../../richtext)
-* 命名空间 [Aspose.Note](../../richtext)
+* class [ParagraphStyle](../../paragraphstyle/)
+* class [RichText](../)
+* 命名空间 [Aspose.Note](../../richtext/)
 * 部件 [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

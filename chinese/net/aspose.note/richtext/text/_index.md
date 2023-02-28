@@ -1,14 +1,14 @@
 ---
-title: Text
+title: RichText.Text
 second_title: Aspose.Note for .NET API 参考
-description: 获取或设置文本字符串不得包含任何值为 10 的字符换行
+description: RichText 财产. 获取或设置文本该字符串不得包含任何值为 10换行的字符
 type: docs
 weight: 100
 url: /zh/net/aspose.note/richtext/text/
 ---
 ## RichText.Text property
 
-获取或设置文本。字符串不得包含任何值为 10 的字符（换行）。
+获取或设置文本。该字符串不得包含任何值为 10（换行）的字符。
 
 ```csharp
 public string Text { get; set; }
@@ -22,23 +22,23 @@ public string Text { get; set; }
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取文本
+// 检索文本
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
 // 在输出屏幕上打印文本
 Console.WriteLine(text);
 ```
 
-显示如何从页面中获取所有文本。
+显示如何从页面获取所有文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // 获取页面节点列表
@@ -46,7 +46,7 @@ var page = oneFile.GetChildNodes<Page>().FirstOrDefault();
 
 if (page != null)
 {
-    // 获取文本
+    // 检索文本
     string text = string.Join(Environment.NewLine, page.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
     // 在输出屏幕上打印文本
     Console.WriteLine(text);
@@ -59,7 +59,7 @@ if (page != null)
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
 // 获取表节点列表
@@ -67,10 +67,10 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // 遍历表行
+    //遍历表行
     foreach (TableRow row in table)
     {
-        // 获取文本
+        // 检索文本
         string text = string.Join(Environment.NewLine, row.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
         // 在输出屏幕上打印文本
@@ -79,13 +79,13 @@ foreach (Table table in nodes)
 }
 ```
 
-显示如何从表格中获取文本。
+演示如何从表中获取文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
 // 获取表节点列表
@@ -99,7 +99,7 @@ foreach (Table table in nodes)
     tblCount++;
     Console.WriteLine("table # " + tblCount);
 
-    // 获取文本
+    // 检索文本
     string text = string.Join(Environment.NewLine, table.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
     // 在输出屏幕上打印文本
@@ -140,7 +140,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-显示如何通过所有页面并在文本中进行替换。
+显示如何遍历所有页面并在文本中进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -149,10 +149,10 @@ string dataDir = RunExamples.GetDataDir_Text();
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("Some task here", "New Text Here");
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> textNodes = oneFile.GetChildNodes<RichText>();
 
 foreach (RichText richText in textNodes)
@@ -170,13 +170,13 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-显示如何从表格的单元格中获取文本。
+演示如何从表格的单元格中获取文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
 // 获取表节点列表
@@ -184,14 +184,14 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // 遍历表行
+    //遍历表行
     foreach (TableRow row in table)
     {
         // 获取 TableCell 节点列表
-        // 遍历表格单元格
+        //遍历表格单元格
         foreach (TableCell cell in row)
         {
-            // 获取文本
+            // 检索文本
             string text = string.Join(Environment.NewLine, cell.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
             // 在输出屏幕上打印文本
@@ -201,7 +201,7 @@ foreach (Table table in nodes)
 }
 ```
 
-展示如何使用默认选项创建文档并以 html 格式保存。
+显示如何使用默认选项创建文档并将其保存为 html 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -220,7 +220,7 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
@@ -231,10 +231,10 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -249,10 +249,10 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // 添加文本节点
 outlineElem.AppendChildLast(text);
 
-// 添加大纲元素节点
+// 添加轮廓元素节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -263,7 +263,7 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-演示如何创建文档并以 html 格式保存指定范围的页面。
+显示如何创建文档并以 html 格式保存指定范围的页面。
 
 ```csharp
 // 文档目录的路径。
@@ -283,7 +283,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -298,13 +298,13 @@ doc.Save(dataDir, new HtmlSaveOptions
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "TagFile.one");
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// 遍历每个节点
+//遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -313,7 +313,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // 获取属性
+            // 检索属性
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -326,16 +326,16 @@ foreach (RichText richText in nodes)
 }
 ```
 
-演示如何创建带有文本的文档。
+显示如何创建带有文本的文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Page page = new Page(doc);
 
 // 初始化大纲类对象
@@ -350,13 +350,13 @@ ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontNam
 // 初始化 RichText 类对象并应用文本样式
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
-// 添加富文本节点
+// 添加 RichText 节点
 outlineElem.AppendChildLast(text);
 
 // 添加 OutlineElement 节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -382,7 +382,7 @@ Outline outline = new Outline(doc);
 // 应用文本样式设置
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 同一大纲中的数字会自动递增。
+// 同一轮廓内的数字自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -414,10 +414,10 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -446,7 +446,7 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 // 添加页面节点
 doc.AppendChildLast(page);
@@ -461,10 +461,10 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -474,7 +474,7 @@ Outline outline = new Outline(doc);
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // 初始化 OutlineElement 类对象并应用编号
-// 同一大纲中的数字会自动递增。
+// 同一轮廓内的数字自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -492,7 +492,7 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -509,7 +509,7 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -549,7 +549,7 @@ d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -586,13 +586,13 @@ outlineElem.AppendChildLast(text);
 // 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化 Title 类对象
+// 初始化标题类对象
 Title title = new Title() { TitleText = titleText };
 
-//初始化Page类对象
+// 初始化页面类对象
 Page page = new Note.Page() { Title = title };
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -605,8 +605,8 @@ doc.Save(dataDir);
 
 ### 也可以看看
 
-* class [RichText](../../richtext)
-* 命名空间 [Aspose.Note](../../richtext)
+* class [RichText](../)
+* 命名空间 [Aspose.Note](../../richtext/)
 * 部件 [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

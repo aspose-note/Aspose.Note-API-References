@@ -1,9 +1,9 @@
 ---
-title: ITag
+title: Interface ITag
 second_title: Aspose.Note for .NET API 参考
-description: 各种标签的接口
+description: Aspose.Note.ITag 界面. 各种标签的接口
 type: docs
-weight: 220
+weight: 230
 url: /zh/net/aspose.note/itag/
 ---
 ## ITag interface
@@ -18,21 +18,21 @@ public interface ITag
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompletedTime](../../aspose.note/itag/completedtime) { get; } | 获取或设置完成时间。 |
-| [CreationTime](../../aspose.note/itag/creationtime) { get; set; } | 获取或设置创建时间。 |
-| [Icon](../../aspose.note/itag/icon) { get; } | 获取或设置图标。 |
-| [Label](../../aspose.note/itag/label) { get; } | 获取标签文本。 |
-| [Status](../../aspose.note/itag/status) { get; } | 获取或设置状态。 |
+| [CompletedTime](../../aspose.note/itag/completedtime/) { get; } | 获取或设置完成时间。 |
+| [CreationTime](../../aspose.note/itag/creationtime/) { get; set; } | 获取或设置创建时间。 |
+| [Icon](../../aspose.note/itag/icon/) { get; } | 获取或设置图标。 |
+| [Label](../../aspose.note/itag/label/) { get; } | 获取标签文本。 |
+| [Status](../../aspose.note/itag/status/) { get; } | 获取或设置状态。 |
 
 ### 例子
 
-展示如何生成包含与“项目 A”相关的所有页面的 pdf。
+显示如何生成包含与“项目 A”相关的所有页面的 pdf。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 var report = new Document();
@@ -53,7 +53,7 @@ report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -76,7 +76,7 @@ oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 var oneFile = new Document(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -93,13 +93,13 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-展示如何生成一个 pdf，其中包含在上周创建的带有不完整复选框标记的项目的页面。
+展示如何生成一个 pdf，其中包含带有未完成复选框标记的项目和上周创建的页面。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
 
 var report = new Document();
@@ -114,13 +114,13 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
 
-演示如何生成包含本周要完成的 Outlook 未完成任务的页面的 pdf。
+展示如何生成一个 pdf，其中包含本周要完成的 Outlook 未完成任务的页面。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
 
 var report = new Document();
@@ -136,19 +136,19 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
 
-显示如何访问 Outlook 任务的详细信息。
+显示如何访问 outlook 任务的详细信息。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// 遍历每个节点
+//遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -157,7 +157,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Task: {richText.Text}");
         foreach (var noteTask in tasks)
         {
-            // 获取属性
+            // 检索属性
             Console.WriteLine($"    Completed Time: {noteTask.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTask.CreationTime}");
             Console.WriteLine($"    Due Date: {noteTask.DueDate}");
@@ -174,13 +174,13 @@ foreach (RichText richText in nodes)
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "TagFile.one");
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// 遍历每个节点
+//遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -189,7 +189,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // 获取属性
+            // 检索属性
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -204,7 +204,7 @@ foreach (RichText richText in nodes)
 
 ### 也可以看看
 
-* 命名空间 [Aspose.Note](../../aspose.note)
+* 命名空间 [Aspose.Note](../../aspose.note/)
 * 部件 [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
