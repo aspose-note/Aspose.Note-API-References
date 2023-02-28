@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Référence de l'API Aspose.Note pour .NET
-description: Représente un titre.
+description: Aspose.Note.Title classe. Représente un titre.
 type: docs
-weight: 950
+weight: 980
 url: /fr/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Nom | La description |
 | --- | --- |
-| [Title](title#constructor)() | Initialise une nouvelle instance du[`Title`](../title) classe. |
+| [Title](title/#constructor)() | Initialise une nouvelle instance du`Title` classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Obtient le document du nœud. |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Obtient ou définit le décalage horizontal. |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Obtient une valeur indiquant si ce nœud est composite. Si vrai, le nœud peut avoir des nœuds enfants. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtient le nœud suivant au même niveau d'arborescence de nœuds. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtient le type de nœud. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtient le nœud parent. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtient le nœud précédent au même niveau d'arborescence de nœuds. |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | Obtient ou définit une représentation sous forme de chaîne de la date dans le titre. |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | Obtient ou définit le texte du titre. |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | Obtient ou définit une représentation sous forme de chaîne de l'heure dans le titre. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | Obtient ou définit le décalage vertical. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtient le document du nœud. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | Obtient ou définit le décalage horizontal. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | Obtient une valeur indiquant si ce nœud est composite. Si vrai, le nœud peut avoir des nœuds enfants. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtient le nœud suivant au même niveau d'arborescence de nœuds. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtient le type de nœud. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtient le nœud parent. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtient le nœud précédent au même niveau d'arborescence de nœuds. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | Obtient ou définit une représentation sous forme de chaîne de la date dans le titre. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | Obtient ou définit le texte du titre. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | Obtient ou définit une représentation sous forme de chaîne de l'heure dans le titre. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | Obtient ou définit le décalage vertical. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Accepte le visiteur du nœud. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Obtenir tous les nœuds enfants par le type de nœud. |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | Renvoie un énumérateur qui parcourt les nœuds enfants du[`Title`](../title) . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | Accepte le visiteur du nœud. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | Obtenir tous les nœuds enfants par le type de nœud. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | Renvoie un énumérateur qui parcourt les nœuds enfants du`Title` . |
 
 ### Exemples
 
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### Voir également
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* espace de noms [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* espace de noms [Aspose.Note](../../aspose.note/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

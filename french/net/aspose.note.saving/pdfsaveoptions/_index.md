@@ -1,9 +1,9 @@
 ---
-title: PdfSaveOptions
+title: Class PdfSaveOptions
 second_title: Référence de l'API Aspose.Note pour .NET
-description: Permet de spécifier des options supplémentaires lors du rendu des pages de document au format PDF.
+description: Aspose.Note.Saving.PdfSaveOptions classe. Permet de spécifier des options supplémentaires lors du rendu des pages de document au format PDF.
 type: docs
-weight: 820
+weight: 850
 url: /fr/net/aspose.note.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -18,21 +18,52 @@ public sealed class PdfSaveOptions : SaveOptions
 
 | Nom | La description |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions)() | Default_Constructor |
+| [PdfSaveOptions](pdfsaveoptions/)() | Default_Constructor |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Obtient ou définit les paramètres de police à utiliser lors de l'enregistrement |
-| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression) { get; set; } | Obtient ou définit le type de compression appliqué aux images dans le fichier PDF. |
-| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality) { get; set; } | Obtient ou définit une valeur déterminant la qualité des images JPEG dans le document PDF. La valeur peut varier de 0 à 100, où 0 signifie la pire qualité mais une compression maximale et 100 signifie la meilleure qualité mais une compression minimale. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Obtient ou définit le nombre de pages à enregistrer. Par défaut estMaxValue ce qui signifie que toutes les pages du document seront rendues. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Obtient ou définit l'index de la première page à enregistrer. Par défaut est 0. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm) { get; set; } | Obtient ou définit l'algorithme utilisé pour le fractionnement de page. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Obtient le format dans lequel le document est enregistré. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Obtient ou définit les paramètres de police à utiliser lors de l'enregistrement |
+| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression/) { get; set; } | Obtient ou définit le type de compression appliqué aux images dans le fichier PDF. |
+| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality/) { get; set; } | Obtient ou définit une valeur déterminant la qualité des images JPEG dans le document PDF. La valeur peut varier de 0 à 100, où 0 signifie la pire qualité mais une compression maximale et 100 signifie la meilleure qualité mais une compression minimale. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Obtient ou définit le nombre de pages à enregistrer. Par défaut estMaxValue ce qui signifie que toutes les pages du document seront rendues. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Obtient ou définit l'index de la première page à enregistrer. Par défaut est 0. |
+| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings/) { get; set; } | Obtient ou définit les paramètres de page pour chaque page du document. Par défaut, dépend de CurrentUICulture, *les cultures américaines ont un paramètre de lettre, les autres ont des paramètres A4. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/) { get; set; } | Obtient ou définit l'algorithme utilisé pour le fractionnement de page. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Obtient le format dans lequel le document est enregistré. |
 
 ### Exemples
+
+Montre comment enregistrer un document au format Pdf avec une mise en page Lettre.
+
+```csharp
+// Le chemin d'accès au répertoire des documents.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Charge le document dans Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Enregistre le document.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Montre comment enregistrer un document au format Pdf avec une mise en page A4 sans limite de hauteur.
+
+```csharp
+// Le chemin d'accès au répertoire des documents.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Charge le document dans Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Enregistre le document.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
+```
 
 Montre comment enregistrer un bloc-notes au format pdf avec les options spécifiées.
 
@@ -151,8 +182,8 @@ doc.Save(dataDir);
 
 ### Voir également
 
-* class [SaveOptions](../saveoptions)
-* espace de noms [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* espace de noms [Aspose.Note.Saving](../../aspose.note.saving/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

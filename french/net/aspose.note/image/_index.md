@@ -1,9 +1,9 @@
 ---
-title: Image
+title: Class Image
 second_title: Référence de l'API Aspose.Note pour .NET
-description: Représente une image.
+description: Aspose.Note.Image classe. Représente une image.
 type: docs
-weight: 240
+weight: 250
 url: /fr/net/aspose.note/image/
 ---
 ## Image class
@@ -18,43 +18,43 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Nom | La description |
 | --- | --- |
-| [Image](image#constructor)() | Initialise une nouvelle instance du[`Image`](../image) classe. |
-| [Image](image#constructor_4)(string, Stream) | Initialise une nouvelle instance du[`Image`](../image) classe. |
-| [Image](image#constructor_5)(string, string, string) | Initialise une nouvelle instance du[`Image`](../image) classe. |
+| [Image](image/#constructor)() | Initialise une nouvelle instance du`Image` classe. |
+| [Image](image/#constructor_4)(string, Stream) | Initialise une nouvelle instance du`Image` classe. |
+| [Image](image/#constructor_5)(string, string, string) | Initialise une nouvelle instance du`Image` classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment) { get; set; } | Obtient ou définit l'alignement. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | Obtient ou définit un corps un texte alternatif pour l'image. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | Obtient ou définit un titre de texte alternatif pour l'image. |
-| [Bytes](../../aspose.note/image/bytes) { get; } | Obtient le magasin de données d'image. |
-| [Document](../../aspose.note/node/document) { get; } | Obtient le document du nœud. |
-| [FileName](../../aspose.note/image/filename) { get; } | Récupère le nom du fichier. |
-| [FilePath](../../aspose.note/image/filepath) { get; } | Obtient le chemin d'accès au fichier image. |
-| [Format](../../aspose.note/image/format) { get; } | Obtient le format de l'image. |
-| [Height](../../aspose.note/image/height) { get; set; } | Obtient ou définit la hauteur. Il s'agit de la hauteur réelle de l'image dans le document MS OneNote. |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Obtient ou définit le décalage horizontal. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Obtient ou définit le lien hypertexte associé à l'image. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Obtient si l'image est une image d'arrière-plan. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Obtient une valeur indiquant si ce nœud est composite. Si vrai, le nœud peut avoir des nœuds enfants. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtient le nœud suivant au même niveau d'arborescence de nœuds. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtient le type de nœud. |
-| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | Obtient la hauteur d'origine. Il s'agit de la largeur d'origine de l'image, avant redimensionnement. |
-| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | Obtient la largeur d'origine. Il s'agit de la largeur d'origine de l'image, avant redimensionnement. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtient le nœud parent. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtient le nœud précédent au même niveau d'arborescence de nœuds. |
-| [Tags](../../aspose.note/image/tags) { get; } | Obtient la liste de toutes les balises d'un paragraphe. |
-| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | Obtient ou définit le décalage vertical. |
-| [Width](../../aspose.note/image/width) { get; set; } | Obtient ou définit la largeur. Il s'agit de la largeur réelle de l'image dans le document MS OneNote. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | Obtient ou définit l'alignement. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | Obtient ou définit un corps un texte alternatif pour l'image. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | Obtient ou définit un titre de texte alternatif pour l'image. |
+| [Bytes](../../aspose.note/image/bytes/) { get; } | Obtient le magasin de données d'image. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtient le document du nœud. |
+| [FileName](../../aspose.note/image/filename/) { get; } | Récupère le nom du fichier. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | Obtient le chemin d'accès au fichier image. |
+| [Format](../../aspose.note/image/format/) { get; } | Obtient le format de l'image. |
+| [Height](../../aspose.note/image/height/) { get; set; } | Obtient ou définit la hauteur. Il s'agit de la hauteur réelle de l'image dans le document MS OneNote. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | Obtient ou définit le décalage horizontal. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | Obtient ou définit le lien hypertexte associé à l'image. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | Obtient si l'image est une image d'arrière-plan. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Obtient une valeur indiquant si ce nœud est composite. Si vrai, le nœud peut avoir des nœuds enfants. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtient le nœud suivant au même niveau d'arborescence de nœuds. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtient le type de nœud. |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | Obtient la hauteur d'origine. Il s'agit de la largeur d'origine de l'image, avant redimensionnement. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | Obtient la largeur d'origine. Il s'agit de la largeur d'origine de l'image, avant redimensionnement. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtient le nœud parent. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtient le nœud précédent au même niveau d'arborescence de nœuds. |
+| [Tags](../../aspose.note/image/tags/) { get; } | Obtient la liste de toutes les balises d'un paragraphe. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | Obtient ou définit le décalage vertical. |
+| [Width](../../aspose.note/image/width/) { get; set; } | Obtient ou définit la largeur. Il s'agit de la largeur réelle de l'image dans le document MS OneNote. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | Accepte le visiteur du nœud. |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Accepte le visiteur du nœud. |
 
 ### Exemples
 
@@ -298,11 +298,11 @@ doc.Save(dataDir);
 
 ### Voir également
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* espace de noms [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* espace de noms [Aspose.Note](../../aspose.note/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

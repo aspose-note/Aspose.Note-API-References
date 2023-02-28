@@ -1,7 +1,7 @@
 ---
-title: DocumentFontsSubsystem
+title: Class DocumentFontsSubsystem
 second_title: Référence de l'API Aspose.Note pour .NET
-description: Implémentation simple de Aspose.Note.Fonts.FontsSubsystem. RécupèreFontFamily objet du système dexploitation.
+description: Aspose.Note.Fonts.DocumentFontsSubsystem classe. Implémentation simple de Aspose.Note.Fonts.FontsSubsystem. RécupèreFontFamily objet du système dexploitation.
 type: docs
 weight: 100
 url: /fr/net/aspose.note.fonts/documentfontssubsystem/
@@ -18,30 +18,30 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | Nom | La description |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor)(Dictionary&lt;string, string&gt;) | Initialise une nouvelle instance du[`DocumentFontsSubsystem`](../documentfontssubsystem) classe. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Initialise une nouvelle instance du[`DocumentFontsSubsystem`](../documentfontssubsystem) classe. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_2)(string, Dictionary&lt;string, string&gt;) | Initialise une nouvelle instance du[`DocumentFontsSubsystem`](../documentfontssubsystem) classe. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | Initialise une nouvelle instance du`DocumentFontsSubsystem` classe. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Initialise une nouvelle instance du`DocumentFontsSubsystem` classe. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | Initialise une nouvelle instance du`DocumentFontsSubsystem` classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| static [Default](../../aspose.note.fonts/documentfontssubsystem/default) { get; set; } | Obtient ou définit l'instance statique par défaut. |
-| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont) { get; } | Obtient ou définit la police par défaut. |
+| static [Default](../../aspose.note.fonts/documentfontssubsystem/default/) { get; set; } | Obtient ou définit l'instance statique par défaut. |
+| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont/) { get; } | Obtient ou définit la police par défaut. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont)(string, Dictionary&lt;string, string&gt;) | Créer une nouvelle instance DocumentFontsSubsystem en utilisant le nom de police par défaut spécifié. |
-| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Créer une nouvelle instance DocumentFontsSubsystem en utilisant une police du fichier spécifié par défaut. |
-| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Créer une nouvelle instance DocumentFontsSubsystem en utilisant une police du flux spécifié par défaut. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Ajouter la police. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Ajouter la police. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Ajouter la police. |
-| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | Ajoute une substitution de police. |
-| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | Obtient la famille de polices. |
-| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | Charge toutes les polices TrueType du dossier spécifié dans la collection interne. |
+| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont/)(string, Dictionary&lt;string, string&gt;) | Créer une nouvelle instance DocumentFontsSubsystem en utilisant le nom de police par défaut spécifié. |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | Créer une nouvelle instance DocumentFontsSubsystem en utilisant une police du fichier spécifié par défaut. |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | Créer une nouvelle instance DocumentFontsSubsystem en utilisant une police du flux spécifié par défaut. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream) | Ajouter la police. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(string) | Ajouter la police. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream, string) | Ajouter la police. |
+| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution/)(string, string) | Ajoute une substitution de police. |
+| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily/)(string) | Obtient la famille de polices. |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | Charge toutes les polices TrueType du dossier spécifié dans la collection interne. |
 
 ### Exemples
 
@@ -106,8 +106,8 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Voir également
 
-* class [FontsSubsystem](../fontssubsystem)
-* espace de noms [Aspose.Note.Fonts](../../aspose.note.fonts)
+* class [FontsSubsystem](../fontssubsystem/)
+* espace de noms [Aspose.Note.Fonts](../../aspose.note.fonts/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

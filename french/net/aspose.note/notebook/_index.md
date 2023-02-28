@@ -1,9 +1,9 @@
 ---
-title: Notebook
+title: Class Notebook
 second_title: Référence de l'API Aspose.Note pour .NET
-description: Représente un carnet Aspose.Note.
+description: Aspose.Note.Notebook classe. Représente un carnet Aspose.Note.
 type: docs
-weight: 390
+weight: 410
 url: /fr/net/aspose.note/notebook/
 ---
 ## Notebook class
@@ -18,46 +18,46 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | Nom | La description |
 | --- | --- |
-| [Notebook](notebook#constructor)() | Initialise une nouvelle instance du[`Notebook`](../notebook) classe. |
-| [Notebook](notebook#constructor_1)(Stream) | Initialise une nouvelle instance du[`Notebook`](../notebook) class. Ouvre un bloc-notes OneNote existant à partir d'un flux. |
-| [Notebook](notebook#constructor_3)(string) | Initialise une nouvelle instance du[`Notebook`](../notebook) class. Ouvre un bloc-notes OneNote existant à partir d'un fichier. |
-| [Notebook](notebook#constructor_2)(Stream, NotebookLoadOptions) | Initialise une nouvelle instance du[`Notebook`](../notebook) class. Ouvre un bloc-notes OneNote existant à partir d'un flux. Permet de spécifier des options de chargement supplémentaires. |
-| [Notebook](notebook#constructor_4)(string, NotebookLoadOptions) | Initialise une nouvelle instance du[`Notebook`](../notebook)class. Ouvre un bloc-notes OneNote existant à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'une stratégie de chargement des enfants ("paresseux"/instantané). |
+| [Notebook](notebook/#constructor)() | Initialise une nouvelle instance du`Notebook` classe. |
+| [Notebook](notebook/#constructor_1)(Stream) | Initialise une nouvelle instance du`Notebook` class. Ouvre un bloc-notes OneNote existant à partir d'un flux. |
+| [Notebook](notebook/#constructor_3)(string) | Initialise une nouvelle instance du`Notebook` class. Ouvre un bloc-notes OneNote existant à partir d'un fichier. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | Initialise une nouvelle instance du`Notebook` class. Ouvre un bloc-notes OneNote existant à partir d'un flux. Permet de spécifier des options de chargement supplémentaires. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | Initialise une nouvelle instance du`Notebook` class. Ouvre un bloc-notes OneNote existant à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'une stratégie de chargement des enfants ("paresseux"/instantané). |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color) { get; set; } | Obtient ou définit la couleur. |
-| [Count](../../aspose.note/notebook/count) { get; } | Obtient le nombre d'éléments contenus dans le[`Notebook`](../notebook) . |
-| [DisplayName](../../aspose.note/notebook/displayname) { get; set; } | Obtient ou définit le nom d'affichage. |
-| [FileFormat](../../aspose.note/notebook/fileformat) { get; } | Obtient le format de fichier (OneNote 2010, OneNote Online). |
-| [Guid](../../aspose.note/notebook/guid) { get; } | Obtient l'identifiant global unique de l'objet. |
-| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled) { get; set; } | Obtient ou définit une valeur indiquant si l'historique est activé. |
-| [Item](../../aspose.note/notebook/item) { get; } | Obtient le nœud enfant du bloc-notes par l'index donné. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | Obtient ou définit la couleur. |
+| [Count](../../aspose.note/notebook/count/) { get; } | Obtient le nombre d'éléments contenus dans le`Notebook` . |
+| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | Obtient ou définit le nom d'affichage. |
+| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | Obtient le format de fichier (OneNote 2010, OneNote Online). |
+| [Guid](../../aspose.note/notebook/guid/) { get; } | Obtient l'identifiant global unique de l'objet. |
+| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | Obtient ou définit une valeur indiquant si l'historique est activé. |
+| [Item](../../aspose.note/notebook/item/) { get; } | Obtient le nœud enfant du bloc-notes par l'index donné. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [AppendChild](../../aspose.note/notebook/appendchild)(INotebookChildNode) | Ajoute le nœud à la fin de la liste. |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes)() | Obtenir tous les nœuds enfants par le type de nœud. |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator)() | Renvoie un énumérateur qui parcourt les nœuds enfants du[`Notebook`](../notebook) . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument)(Stream) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un flux. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_2)(string) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un fichier. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_1)(Stream, LoadOptions) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un flux. Permet de spécifier des options de chargement supplémentaires. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_3)(string, LoadOptions) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un fichier. Permet de spécifier des options de chargement supplémentaires. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook)(Stream) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un flux. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_2)(string) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un fichier. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un flux. Permet de spécifier des options de chargement supplémentaires. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_3)(string, NotebookLoadOptions) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un fichier. Permet de spécifier des options de chargement supplémentaires. |
-| [RemoveChild](../../aspose.note/notebook/removechild)(INotebookChildNode) | Supprime le nœud enfant. |
-| [Save](../../aspose.note/notebook/save#save)(Stream) | Enregistre le document OneNote dans un flux. |
-| [Save](../../aspose.note/notebook/save#save_3)(string) | Enregistre le document OneNote dans un fichier. |
-| [Save](../../aspose.note/notebook/save#save_2)(Stream, NotebookSaveOptions) | Enregistre le document OneNote dans un flux à l'aide des options d'enregistrement spécifiées. |
-| [Save](../../aspose.note/notebook/save#save_1)(Stream, SaveFormat) | Enregistre le document OneNote dans un flux au format spécifié. |
-| [Save](../../aspose.note/notebook/save#save_5)(string, NotebookSaveOptions) | Enregistre le document OneNote dans un fichier à l'aide des options d'enregistrement spécifiées. |
-| [Save](../../aspose.note/notebook/save#save_4)(string, SaveFormat) | Enregistre le document OneNote dans un fichier au format spécifié. |
+| [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | Ajoute le nœud à la fin de la liste. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | Obtenir tous les nœuds enfants par le type de nœud. |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | Renvoie un énumérateur qui parcourt les nœuds enfants du`Notebook` . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un flux. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un fichier. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un flux. Permet de spécifier des options de chargement supplémentaires. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | Ajoute un nœud de document enfant. Ouvre un document OneNote existant à partir d'un fichier. Permet de spécifier des options de chargement supplémentaires. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un flux. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un fichier. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un flux. Permet de spécifier des options de chargement supplémentaires. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | Ajoute un nœud de bloc-notes enfant. Ouvre un bloc-notes OneNote existant à partir d'un fichier. Permet de spécifier des options de chargement supplémentaires. |
+| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | Supprime le nœud enfant. |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | Enregistre le document OneNote dans un flux. |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | Enregistre le document OneNote dans un fichier. |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | Enregistre le document OneNote dans un flux à l'aide des options d'enregistrement spécifiées. |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | Enregistre le document OneNote dans un flux au format spécifié. |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | Enregistre le document OneNote dans un fichier à l'aide des options d'enregistrement spécifiées. |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | Enregistre le document OneNote dans un fichier au format spécifié. |
 
 ### Exemples
 
@@ -320,8 +320,8 @@ catch (Exception ex)
 
 ### Voir également
 
-* interface [INotebookChildNode](../inotebookchildnode)
-* espace de noms [Aspose.Note](../../aspose.note)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* espace de noms [Aspose.Note](../../aspose.note/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

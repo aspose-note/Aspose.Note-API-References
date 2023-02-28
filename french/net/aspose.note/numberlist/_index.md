@@ -1,9 +1,9 @@
 ---
-title: NumberList
+title: Class NumberList
 second_title: Référence de l'API Aspose.Note pour .NET
-description: Représente la liste numérotée ou à puces.
+description: Aspose.Note.NumberList classe. Représente la liste numérotée ou à puces.
 type: docs
-weight: 420
+weight: 440
 url: /fr/net/aspose.note/numberlist/
 ---
 ## NumberList class
@@ -18,31 +18,31 @@ public class NumberList
 
 | Nom | La description |
 | --- | --- |
-| [NumberList](numberlist#constructor_1)(string, string, int) | Initialise une nouvelle instance du[`NumberList`](../numberlist) class. Cette instance représente une liste à puces. |
-| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Initialise une nouvelle instance du[`NumberList`](../numberlist)class. Cette instance représente une liste numérotée. |
+| [NumberList](numberlist/#constructor_1)(string, string, int) | Initialise une nouvelle instance du`NumberList`class. Cette instance représente une liste à puces. |
+| [NumberList](numberlist/#constructor)(string, NumberFormat, string, int) | Initialise une nouvelle instance du`NumberList` class. Cette instance représente une liste numérotée. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Font](../../aspose.note/numberlist/font) { get; set; } | Obtient ou définit le nom de la police. |
-| [FontColor](../../aspose.note/numberlist/fontcolor) { get; set; } | Obtient ou définit la couleur de la police. |
-| [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | Obtient ou définit la taille de la police. |
-| [Format](../../aspose.note/numberlist/format) { get; set; } | Obtient ou définit le format de l'en-tête de ligne. Pour les listes à puces, représente un symbole de puce. |
-| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Obtient ou définit une valeur indiquant si le style de texte est en gras. |
-| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | Obtient ou définit une valeur indiquant si le style de texte est en italique. |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
-| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Obtient ou définit le format numérique utilisé pour un groupe d'objets numérotés automatiquement. Doit être nul pour les listes à puces. |
-| [Restart](../../aspose.note/numberlist/restart) { get; set; } | Obtient ou définit la valeur numérique qui remplace la valeur numérique automatique de l'élément de liste. |
+| [Font](../../aspose.note/numberlist/font/) { get; set; } | Obtient ou définit le nom de la police. |
+| [FontColor](../../aspose.note/numberlist/fontcolor/) { get; set; } | Obtient ou définit la couleur de la police. |
+| [FontSize](../../aspose.note/numberlist/fontsize/) { get; set; } | Obtient ou définit la taille de la police. |
+| [Format](../../aspose.note/numberlist/format/) { get; set; } | Obtient ou définit le format de l'en-tête de ligne. Pour les listes à puces, représente un symbole de puce. |
+| [IsBold](../../aspose.note/numberlist/isbold/) { get; set; } | Obtient ou définit une valeur indiquant si le style de texte est en gras. |
+| [IsItalic](../../aspose.note/numberlist/isitalic/) { get; set; } | Obtient ou définit une valeur indiquant si le style de texte est en italique. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime/) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
+| [NumberFormat](../../aspose.note/numberlist/numberformat/) { get; set; } | Obtient ou définit le format numérique utilisé pour un groupe d'objets numérotés automatiquement. Doit être nul pour les listes à puces. |
+| [Restart](../../aspose.note/numberlist/restart/) { get; set; } | Obtient ou définit la valeur numérique qui remplace la valeur numérique automatique de l'élément de liste. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | Détermine si l'objet spécifié est égal à l'objet actuel. |
-| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | Détermine si l'objet spécifié est égal à l'objet actuel. |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Sert de fonction de hachage pour le type. |
-| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Obtient l'en-tête de la liste numérotée. |
+| [Equals](../../aspose.note/numberlist/equals/#equals)(NumberList) | Détermine si l'objet spécifié est égal à l'objet actuel. |
+| override [Equals](../../aspose.note/numberlist/equals/#equals_1)(object) | Détermine si l'objet spécifié est égal à l'objet actuel. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode/)() | Sert de fonction de hachage pour le type. |
+| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader/)(int) | Obtient l'en-tête de la liste numérotée. |
 
 ### Exemples
 
@@ -180,7 +180,7 @@ doc.Save(dataDir);
 
 ### Voir également
 
-* espace de noms [Aspose.Note](../../aspose.note)
+* espace de noms [Aspose.Note](../../aspose.note/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
