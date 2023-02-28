@@ -1,9 +1,9 @@
 ---
-title: TextStyle
+title: Class TextStyle
 second_title: Aspose.Note för .NET API-referens
-description: Anger textstilen.
+description: Aspose.Note.TextStyle klass. Anger textstilen.
 type: docs
-weight: 940
+weight: 970
 url: /sv/net/aspose.note/textstyle/
 ---
 ## TextStyle class
@@ -18,40 +18,40 @@ public sealed class TextStyle : Style
 
 | namn | Beskrivning |
 | --- | --- |
-| [TextStyle](textstyle)() | Default_Constructor |
+| [TextStyle](textstyle/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| static [Default](../../aspose.note/textstyle/default) { get; } | Får standardstil för titeltext i MS OneNote. |
-| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle) { get; } | Får standardstil för titeldatum i MS OneNote. |
-| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle) { get; } | Får standardstil för titeltext i MS OneNote. |
-| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle) { get; } | Får standardstil för titeltid i MS OneNote. |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Hämtar eller ställer in teckensnittsfärgen. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | Hämtar eller ställer in teckensnittsnamnet. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Hämtar eller ställer in teckenstorleken. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Hämtar teckensnittsstilen. |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | Hämtar eller ställer in högdagerfärgen. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | Hämtar eller ställer in hyperlänkadressen. Måste ställas in om värdet på[`IsHyperlink`](./ishyperlink) egenskapen är sann. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är fetstil. |
-| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är dold. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är hyperlänk. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är kursiv. |
-| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är matematisk formatering. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är genomstruken. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är nedsänkt. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är upphöjd. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är understruken. |
-| [Language](../../aspose.note/textstyle/language) { get; set; } | Hämtar eller ställer in språket för texten. |
+| static [Default](../../aspose.note/textstyle/default/) { get; } | Får stilen med "en-US" kultur. |
+| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle/) { get; } | Får standardstil för titeldatum i MS OneNote. |
+| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | Får standardstil för titeltext i MS OneNote. |
+| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | Får standardstil för titeltid i MS OneNote. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Hämtar eller ställer in teckensnittsfärgen. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | Hämtar eller ställer in teckensnittsnamnet. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Hämtar eller ställer in teckenstorleken. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Hämtar teckensnittsstilen. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Hämtar eller ställer in högdagerfärgen. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Hämtar eller ställer in hyperlänkadressen. Måste ställas in om värdet på[`IsHyperlink`](./ishyperlink/) egenskapen är sann. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är fetstil. |
+| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är dold. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är hyperlänk. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är kursiv. |
+| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är matematisk formatering. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är genomstruken. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är nedsänkt. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är upphöjd. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är understruken. |
+| [Language](../../aspose.note/textstyle/language/) { get; set; } | Hämtar eller ställer in språket för texten. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | Fungerar som en hashfunktion för typen. |
+| override [Equals](../../aspose.note/textstyle/equals/#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| [Equals](../../aspose.note/textstyle/equals/#equals)(TextStyle) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode/)() | Fungerar som en hashfunktion för typen. |
 
 ### Exempel
 
@@ -208,8 +208,8 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [Style](../style)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

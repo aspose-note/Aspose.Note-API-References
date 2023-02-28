@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Document.Save
 second_title: Aspose.Note för .NET API-referens
-description: Sparar OneNote-dokumentet till en fil.
+description: Document metod. Sparar OneNotedokumentet till en fil.
 type: docs
 weight: 140
 url: /sv/net/aspose.note/document/save/
@@ -22,8 +22,8 @@ public void Save(string fileName)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Exempel
 
@@ -40,8 +40,8 @@ doc.Save(dataDir + outputFile);
 
 ### Se även
 
-* class [Document](../../document)
-* namnutrymme [Aspose.Note](../../document)
+* class [Document](../)
+* namnutrymme [Aspose.Note](../../document/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -62,13 +62,13 @@ public void Save(Stream stream)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Se även
 
-* class [Document](../../document)
-* namnutrymme [Aspose.Note](../../document)
+* class [Document](../)
+* namnutrymme [Aspose.Note](../../document/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -90,8 +90,8 @@ public void Save(string fileName, SaveFormat format)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Exempel
 
@@ -124,9 +124,9 @@ oneFile.Save(dataDir, SaveFormat.Gif);
 
 ### Se även
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* namnutrymme [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* namnutrymme [Aspose.Note](../../document/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -148,8 +148,8 @@ public void Save(Stream stream, SaveFormat format)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Exempel
 
@@ -183,11 +183,37 @@ doc.Save(dstStream, SaveFormat.Pdf);
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
+Visar hur man tillämpar mörkt temastil på ett dokument.
+
+```csharp
+// Sökvägen till dokumentkatalogen.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Ladda dokumentet i Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 ### Se även
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* namnutrymme [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* namnutrymme [Aspose.Note](../../document/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -209,8 +235,8 @@ public void Save(string fileName, SaveOptions options)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Exempel
 
@@ -254,6 +280,36 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
 // Spara dokumentet.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
+```
+
+Visar hur man sparar ett dokument i pdf-format med Letter-sidlayout.
+
+```csharp
+// Sökvägen till dokumentkatalogen.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Ladda dokumentet i Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Spara dokumentet.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Visar hur man sparar ett dokument i pdf-format med A4 sidlayout utan höjdbegränsning.
+
+```csharp
+// Sökvägen till dokumentkatalogen.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Ladda dokumentet i Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Spara dokumentet.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
 Visar hur man sparar ett dokument som gråskalebild.
@@ -345,7 +401,7 @@ PdfSaveOptions opts = new PdfSaveOptions
                               // Ställ in sidindex för första sidan som ska sparas
                               PageIndex = 0,
 
-                              // Ställ in sidantal
+                              // Ställ in antal sidor
                               PageCount = 1,
                           };
 
@@ -424,9 +480,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### Se även
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* namnutrymme [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* namnutrymme [Aspose.Note](../../document/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -448,8 +504,8 @@ public void Save(Stream stream, SaveOptions options)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Exempel
 
@@ -514,9 +570,9 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Se även
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* namnutrymme [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* namnutrymme [Aspose.Note](../../document/)
 * hopsättning [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

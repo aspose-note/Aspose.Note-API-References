@@ -1,7 +1,7 @@
 ---
-title: DocumentVisitor
+title: Class DocumentVisitor
 second_title: Aspose.Note för .NET API-referens
-description: Den abstrakta klassen för iterering genom underträd med rot vid den angivna noden.
+description: Aspose.Note.DocumentVisitor klass. Den abstrakta klassen för iterering genom underträd med rot vid den angivna noden.
 type: docs
 weight: 70
 url: /sv/net/aspose.note/documentvisitor/
@@ -18,30 +18,30 @@ public abstract class DocumentVisitor
 
 | namn | Beskrivning |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | Avsluta för att besöka[`AttachedFile`](../attachedfile) nod. |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | Börja besöka[`AttachedFile`](../attachedfile) nod. |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | Avsluta för att besöka[`Document`](../document) nod. |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Börja besöka[`Document`](../document) nod. |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | Avsluta för att besöka[`Image`](../image) nod. |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Börja besöka[`Image`](../image) nod. |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | Avsluta för att besöka[`OutlineElement`](../outlineelement) nod. |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Börja besöka[`OutlineElement`](../outlineelement) nod. |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | Avsluta för att besöka[`Outline`](../outline) nod. |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | Avsluta för att besöka[`OutlineGroup`](../outlinegroup) nod. |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | Börja besöka[`OutlineGroup`](../outlinegroup) nod. |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | Börja besöka[`Outline`](../outline) nod. |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | Avsluta för att besöka[`Page`](../page) nod. |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | Börja besöka[`Page`](../page) nod. |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | Avsluta för att besöka[`RichText`](../richtext) nod. |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | Börja besöka[`RichText`](../richtext) nod. |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | Avsluta för att besöka[`TableCell`](../tablecell) nod. |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | Börja besöka[`TableCell`](../tablecell) nod. |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | Avsluta för att besöka[`Table`](../table) nod. |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | Avsluta för att besöka[`TableRow`](../tablerow) nod. |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | Börja besöka[`TableRow`](../tablerow) nod. |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | Börja besöka[`Table`](../table) nod. |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | Avsluta för att besöka[`Title`](../title) nod. |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | Börja besöka[`Title`](../title) nod. |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend/)(AttachedFile) | Avsluta för att besöka[`AttachedFile`](../attachedfile/) nod. |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart/)(AttachedFile) | Börja besöka[`AttachedFile`](../attachedfile/) nod. |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend/)(Document) | Avsluta för att besöka[`Document`](../document/) nod. |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart/)(Document) | Börja besöka[`Document`](../document/) nod. |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend/)(Image) | Avsluta för att besöka[`Image`](../image/) nod. |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart/)(Image) | Börja besöka[`Image`](../image/) nod. |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend/)(OutlineElement) | Avsluta för att besöka[`OutlineElement`](../outlineelement/) nod. |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart/)(OutlineElement) | Börja besöka[`OutlineElement`](../outlineelement/) nod. |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend/)(Outline) | Avsluta för att besöka[`Outline`](../outline/) nod. |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend/)(OutlineGroup) | Avsluta för att besöka[`OutlineGroup`](../outlinegroup/) nod. |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart/)(OutlineGroup) | Börja besöka[`OutlineGroup`](../outlinegroup/) nod. |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart/)(Outline) | Börja besöka[`Outline`](../outline/) nod. |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend/)(Page) | Avsluta för att besöka[`Page`](../page/) nod. |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart/)(Page) | Börja besöka[`Page`](../page/) nod. |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend/)(RichText) | Avsluta för att besöka[`RichText`](../richtext/) nod. |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart/)(RichText) | Börja besöka[`RichText`](../richtext/) nod. |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend/)(TableCell) | Avsluta för att besöka[`TableCell`](../tablecell/) nod. |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart/)(TableCell) | Börja besöka[`TableCell`](../tablecell/) nod. |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend/)(Table) | Avsluta för att besöka[`Table`](../table/) nod. |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend/)(TableRow) | Avsluta för att besöka[`TableRow`](../tablerow/) nod. |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart/)(TableRow) | Börja besöka[`TableRow`](../tablerow/) nod. |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart/)(Table) | Börja besöka[`Table`](../table/) nod. |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend/)(Title) | Avsluta för att besöka[`Title`](../title/) nod. |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart/)(Title) | Börja besöka[`Title`](../title/) nod. |
 
 ### Exempel
 
@@ -194,7 +194,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Se även
 
-* namnutrymme [Aspose.Note](../../aspose.note)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: Notebook
+title: Class Notebook
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en Aspose.Note-anteckningsbok.
+description: Aspose.Note.Notebook klass. Representerar en Aspose.Noteanteckningsbok.
 type: docs
-weight: 390
+weight: 410
 url: /sv/net/aspose.note/notebook/
 ---
 ## Notebook class
@@ -18,46 +18,46 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [Notebook](notebook#constructor)() | Initierar en ny instans av[`Notebook`](../notebook) class. |
-| [Notebook](notebook#constructor_1)(Stream) | Initierar en ny instans av[`Notebook`](../notebook) class. Öppnar en befintlig OneNote-anteckningsbok från en ström. |
-| [Notebook](notebook#constructor_3)(string) | Initierar en ny instans av[`Notebook`](../notebook) class. Öppnar en befintlig OneNote-anteckningsbok från en fil. |
-| [Notebook](notebook#constructor_2)(Stream, NotebookLoadOptions) | Initierar en ny instans av[`Notebook`](../notebook) class. Öppnar en befintlig OneNote-anteckningsbok från en ström. Tillåter att ange ytterligare laddningsalternativ. |
-| [Notebook](notebook#constructor_4)(string, NotebookLoadOptions) | Initierar en ny instans av[`Notebook`](../notebook)class. Öppnar en befintlig OneNote-anteckningsbok från en fil. Tillåter att ange ytterligare alternativ såsom en laddningsstrategi för barn ("lata"/instant). |
+| [Notebook](notebook/#constructor)() | Initierar en ny instans av`Notebook` class. |
+| [Notebook](notebook/#constructor_1)(Stream) | Initierar en ny instans av`Notebook` class. Öppnar en befintlig OneNote-anteckningsbok från en ström. |
+| [Notebook](notebook/#constructor_3)(string) | Initierar en ny instans av`Notebook` class. Öppnar en befintlig OneNote-anteckningsbok från en fil. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | Initierar en ny instans av`Notebook` class. Öppnar en befintlig OneNote-anteckningsbok från en ström. Tillåter att ange ytterligare laddningsalternativ. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | Initierar en ny instans av`Notebook` class. Öppnar en befintlig OneNote-anteckningsbok från en fil. Tillåter att ange ytterligare alternativ såsom en laddningsstrategi för barn ("lata"/instant). |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color) { get; set; } | Hämtar eller ställer in färgen. |
-| [Count](../../aspose.note/notebook/count) { get; } | Får antalet element som finns i[`Notebook`](../notebook) . |
-| [DisplayName](../../aspose.note/notebook/displayname) { get; set; } | Hämtar eller ställer in visningsnamnet. |
-| [FileFormat](../../aspose.note/notebook/fileformat) { get; } | Hämtar filformat (OneNote 2010, OneNote Online). |
-| [Guid](../../aspose.note/notebook/guid) { get; } | Får objektets globalt unika id. |
-| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled) { get; set; } | Hämtar eller ställer in ett värde som anger om historiken är aktiverad. |
-| [Item](../../aspose.note/notebook/item) { get; } | Hämtar anteckningsbokens underordnade nod av det givna indexet. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | Hämtar eller ställer in färgen. |
+| [Count](../../aspose.note/notebook/count/) { get; } | Får antalet element som finns i`Notebook` . |
+| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | Hämtar eller ställer in visningsnamnet. |
+| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | Hämtar filformat (OneNote 2010, OneNote Online). |
+| [Guid](../../aspose.note/notebook/guid/) { get; } | Får objektets globalt unika id. |
+| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | Hämtar eller ställer in ett värde som anger om historiken är aktiverad. |
+| [Item](../../aspose.note/notebook/item/) { get; } | Hämtar anteckningsbokens underordnade nod av det givna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [AppendChild](../../aspose.note/notebook/appendchild)(INotebookChildNode) | Lägger till noden i slutet av listan. |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes)() | Hämta alla underordnade noder efter nodtyp. |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator)() | Returnerar en enumerator som itererar genom underordnade noder av[`Notebook`](../notebook) . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument)(Stream) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en ström. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_2)(string) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en fil. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_1)(Stream, LoadOptions) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en ström. Tillåter att ange ytterligare laddningsalternativ. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_3)(string, LoadOptions) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en fil. Tillåter att ange ytterligare laddningsalternativ. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook)(Stream) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en ström. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_2)(string) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en fil. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en ström. Tillåter att ange ytterligare laddningsalternativ. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_3)(string, NotebookLoadOptions) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en fil. Tillåter att ange ytterligare laddningsalternativ. |
-| [RemoveChild](../../aspose.note/notebook/removechild)(INotebookChildNode) | Tar bort den underordnade noden. |
-| [Save](../../aspose.note/notebook/save#save)(Stream) | Sparar OneNote-dokumentet i en ström. |
-| [Save](../../aspose.note/notebook/save#save_3)(string) | Sparar OneNote-dokumentet till en fil. |
-| [Save](../../aspose.note/notebook/save#save_2)(Stream, NotebookSaveOptions) | Sparar OneNote-dokumentet i en ström med de angivna sparalternativen. |
-| [Save](../../aspose.note/notebook/save#save_1)(Stream, SaveFormat) | Sparar OneNote-dokumentet i en ström i det angivna formatet. |
-| [Save](../../aspose.note/notebook/save#save_5)(string, NotebookSaveOptions) | Sparar OneNote-dokumentet till en fil med de angivna sparalternativen. |
-| [Save](../../aspose.note/notebook/save#save_4)(string, SaveFormat) | Sparar OneNote-dokumentet till en fil i det angivna formatet. |
+| [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | Lägger till noden i slutet av listan. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | Hämta alla underordnade noder efter nodtyp. |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | Returnerar en enumerator som itererar genom underordnade noder av`Notebook` . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en ström. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en fil. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en ström. Tillåter att ange ytterligare laddningsalternativ. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | Lägger till en underordnad dokumentnod. Öppnar ett befintligt OneNote-dokument från en fil. Tillåter att ange ytterligare laddningsalternativ. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en ström. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en fil. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en ström. Tillåter att ange ytterligare laddningsalternativ. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | Lägger till en underordnad anteckningsboknod. Öppnar en befintlig OneNote-anteckningsbok från en fil. Tillåter att ange ytterligare laddningsalternativ. |
+| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | Tar bort den underordnade noden. |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | Sparar OneNote-dokumentet i en ström. |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | Sparar OneNote-dokumentet till en fil. |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | Sparar OneNote-dokumentet i en ström med de angivna sparalternativen. |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | Sparar OneNote-dokumentet i en ström i det angivna formatet. |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | Sparar OneNote-dokumentet till en fil med de angivna sparalternativen. |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | Sparar OneNote-dokumentet till en fil i det angivna formatet. |
 
 ### Exempel
 
@@ -275,7 +275,7 @@ Visar hur man itererar genom förinstallerade dokument i en anteckningsbok.
 
 ```csharp
 // Som standard är barnladdning "lat".
-// Därför har för omedelbar laddning skett,
+// Därför har för omedelbar laddning ägt rum,
 // det är nödvändigt att ställa in flaggan NotebookLoadOptions.InstantLoading.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
@@ -320,8 +320,8 @@ catch (Exception ex)
 
 ### Se även
 
-* interface [INotebookChildNode](../inotebookchildnode)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

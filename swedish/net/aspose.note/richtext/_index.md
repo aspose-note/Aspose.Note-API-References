@@ -1,9 +1,9 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en rik text.
+description: Aspose.Note.RichText klass. Representerar en rik text.
 type: docs
-weight: 510
+weight: 530
 url: /sv/net/aspose.note/richtext/
 ---
 ## RichText class
@@ -18,65 +18,65 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [RichText](richtext#constructor)() | Initierar en ny instans av[`RichText`](../richtext) class. |
+| [RichText](richtext/#constructor)() | Initierar en ny instans av`RichText` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Hämtar eller ställer in justeringen. |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Får ett värde som indikerar om denna nod är sammansatt. Om sant kan noden ha underordnade noder. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
-| [Length](../../aspose.note/richtext/length) { get; } | Får längden på texten. |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Hämtar eller ställer in radavståndet. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Hämtar eller ställer in styckeformatet. Dessa inställningar används om det inte finns något matchande TextStyle-objekt iStyles samling antingen anger detta objekt inte en nödvändig inställning. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Hämtar eller ställer in minsta möjliga utrymme efter. |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Hämtar eller ställer in minsta möjliga utrymme innan. |
-| [Tags](../../aspose.note/richtext/tags) { get; } | Hämtar listan över alla taggar i ett stycke. |
-| [Text](../../aspose.note/richtext/text) { get; set; } | Hämtar eller ställer in texten. Strängen FÅR INTE innehålla några tecken med värdet 10 (radmatning). |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Hämtar samlingen av textkörningar. |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | Hämtar eller ställer in justeringen. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Får ett värde som indikerar om denna nod är sammansatt. Om sant kan noden ha underordnade noder. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
+| [Length](../../aspose.note/richtext/length/) { get; } | Får längden på texten. |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | Hämtar eller ställer in radavståndet. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | Hämtar eller ställer in styckeformatet. Dessa inställningar används om det inte finns något matchande TextStyle-objekt iStyles samling antingen anger detta objekt inte en nödvändig inställning. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | Hämtar eller ställer in minsta möjliga utrymme efter. |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | Hämtar eller ställer in minsta möjliga utrymme innan. |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | Hämtar listan över alla taggar i ett stycke. |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | Hämtar eller ställer in texten. Strängen FÅR INTE innehålla några tecken med värdet 10 (radmatning). |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | Hämtar samlingen av textkörningar. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
-| [Append](../../aspose.note/richtext/append#append)(string) | Lägger till en sträng till det sista textintervallet. |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | Lägger till en sträng i slutet. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | Lägger till en sträng längst fram i det första textintervallet. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Lägger till en sträng på framsidan. |
-| [Clear](../../aspose.note/richtext/clear)() | Rensar innehållet i denna instans. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Returnerar en uppräkning som itererar genom tecken i detta RichText-objekt. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | Returnerar det nollbaserade indexet för den första förekomsten av det angivna Unicode-tecknet i denna sträng. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i denna instans. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | Returnerar det nollbaserade indexet för den första förekomsten av det angivna Unicode-tecknet i denna sträng. Sökningen startar vid en angiven teckenposition. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i det här fallet. Sökningen startar vid en angiven teckenposition. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i den aktuella instansen. En parameter anger vilken typ av sökning som ska användas för den angivna strängen. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Returnerar det nollbaserade indexet för den första förekomsten av det angivna tecknet i den här instansen. Sökningen startar vid en angiven teckenposition och undersöker ett specificerat antal teckenpositioner. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i det här fallet. Sökningen startar vid en angiven teckenposition och undersöker ett specificerat antal teckenpositioner. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i den aktuella instansen. Parametrar anger startsökningspositionen i den aktuella strängen och vilken typ av sökning som ska användas för den angivna strängen. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i den aktuella instansen. |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | Infogar en specificerad sträng vid en angiven indexposition i den här instansen. |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | Infogar en specificerad sträng med specificerad stil vid en angiven indexposition i denna instans. |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | Tar bort alla tecken i den aktuella instansen, börjar på en angiven position och fortsätter genom den sista positionen. |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | Tar bort specificerat antal tecken i den aktuella instansen som börjar på en angiven position. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Ersätter alla förekomster av ett specificerat Unicode-tecken i det här fallet med ett annat specificerat Unicode-tecken. |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | Ersätter alla förekomster av en angiven sträng i den aktuella instansen med en annan specificerad sträng. |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | Ersätter alla förekomster av en angiven sträng i den aktuella instansen med en annan specificerad sträng i angiven stil. |
-| [Trim](../../aspose.note/richtext/trim#trim)() | Tar bort alla inledande och efterföljande blanktecken. |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | Tar bort alla inledande och efterföljande förekomster av en karaktär. |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | Tar bort alla inledande och efterföljande förekomster av en uppsättning tecken som anges i en array. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Tar bort alla efterföljande blanktecken. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | Tar bort alla efterföljande förekomster av en karaktär. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | Tar bort alla efterföljande förekomster av en uppsättning tecken som anges i en array. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | Tar bort alla inledande blanktecken. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | Tar bort alla inledande förekomster av ett angivet tecken. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Tar bort alla inledande förekomster av en uppsättning tecken som anges i en array. |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
+| [Append](../../aspose.note/richtext/append/#append)(string) | Lägger till en sträng till det sista textintervallet. |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | Lägger till en sträng i slutet. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | Lägger till en sträng längst fram i det första textintervallet. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | Lägger till en sträng på framsidan. |
+| [Clear](../../aspose.note/richtext/clear/)() | Rensar innehållet i denna instans. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | Returnerar en uppräkning som itererar genom tecken i detta RichText-objekt. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | Returnerar det nollbaserade indexet för den första förekomsten av det angivna Unicode-tecknet i denna sträng. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i denna instans. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | Returnerar det nollbaserade indexet för den första förekomsten av det angivna Unicode-tecknet i denna sträng. Sökningen startar vid en angiven teckenposition. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i det här fallet. Sökningen startar vid en angiven teckenposition. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i den aktuella instansen. En parameter anger vilken typ av sökning som ska användas för den angivna strängen. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | Returnerar det nollbaserade indexet för den första förekomsten av det angivna tecknet i den här instansen. Sökningen startar vid en angiven teckenposition och undersöker ett specificerat antal teckenpositioner. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i det här fallet. Sökningen startar vid en angiven teckenposition och undersöker ett specificerat antal teckenpositioner. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i den aktuella instansen. Parametrar anger startsökningspositionen i den aktuella strängen och vilken typ av sökning som ska användas för den angivna strängen. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | Returnerar det nollbaserade indexet för den första förekomsten av den angivna strängen i den aktuella instansen. |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | Infogar en specificerad sträng vid en angiven indexposition i den här instansen. |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | Infogar en specificerad sträng med specificerad stil vid en angiven indexposition i denna instans. |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | Tar bort alla tecken i den aktuella instansen, börjar på en angiven position och fortsätter genom den sista positionen. |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | Tar bort specificerat antal tecken i den aktuella instansen som börjar på en angiven position. |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | Ersätter alla förekomster av ett specificerat Unicode-tecken i det här fallet med ett annat specificerat Unicode-tecken. |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | Ersätter alla förekomster av en angiven sträng i den aktuella instansen med en annan specificerad sträng. |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | Ersätter alla förekomster av en angiven sträng i den aktuella instansen med en annan specificerad sträng i angiven stil. |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | Tar bort alla inledande och efterföljande blanktecken. |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | Tar bort alla inledande och efterföljande förekomster av en karaktär. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | Tar bort alla inledande och efterföljande förekomster av en uppsättning tecken som anges i en array. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | Tar bort alla efterföljande blanktecken. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | Tar bort alla efterföljande förekomster av en karaktär. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | Tar bort alla efterföljande förekomster av en uppsättning tecken som anges i en array. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | Tar bort alla inledande blanktecken. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | Tar bort alla inledande förekomster av ett angivet tecken. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | Tar bort alla inledande förekomster av en uppsättning tecken som anges i en array. |
 
 ### Exempel
 
@@ -179,7 +179,7 @@ Document document = new Document(dataDir + "Sample1.one");
 // Få en lista över tabellnoder
 IList<Table> nodes = document.GetChildNodes<Table>();
 
-// Ställ tabellräkning
+// Ange tabellräkning
 int tblCount = 0;
 
 foreach (Table table in nodes)
@@ -791,10 +791,10 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

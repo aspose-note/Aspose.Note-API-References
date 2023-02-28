@@ -1,9 +1,9 @@
 ---
-title: Page
+title: Class Page
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en sida.
+description: Aspose.Note.Page klass. Representerar en sida.
 type: docs
-weight: 460
+weight: 480
 url: /sv/net/aspose.note/page/
 ---
 ## Page class
@@ -18,46 +18,46 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Page](page#constructor)() | Initierar en ny instans av[`Page`](../page) class. |
+| [Page](page/#constructor)() | Initierar en ny instans av`Page` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Author](../../aspose.note/page/author) { get; set; } | Hämtar eller ställer in författaren. |
-| [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | Hämtar eller ställer in sidans bakgrundsfärg. |
-| [CreationTime](../../aspose.note/page/creationtime) { get; set; } | Hämtar eller ställer in skapelsetiden. |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | Hämtar eller ställer in ett värde som anger om den här sidan är en konfliktsida. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
-| [Level](../../aspose.note/page/level) { get; set; } | Hämtar eller ställer in nivån. |
-| [Margin](../../aspose.note/page/margin) { get; set; } | Hämtar eller ställer in marginalen. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary) { get; set; } | Hämtar eller ställer in revisionssammanfattningen för sidan och dess undernoder. |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize) { get; set; } | Får eller ställer in sidans layoutstorlek som visas i redigeraren. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
-| [SizeType](../../aspose.note/page/sizetype) { get; set; } | Hämtar eller ställer in storlekstypen för en sida. |
-| [Title](../../aspose.note/page/title) { get; set; } | Hämtar eller ställer in titeln. |
+| [Author](../../aspose.note/page/author/) { get; set; } | Hämtar eller ställer in författaren. |
+| [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | Hämtar eller ställer in sidans bakgrundsfärg. |
+| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | Hämtar eller ställer in skapelsetiden. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | Hämtar eller ställer in ett värde som anger om den här sidan är en konfliktsida. |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
+| [Level](../../aspose.note/page/level/) { get; set; } | Hämtar eller ställer in nivån. |
+| [Margin](../../aspose.note/page/margin/) { get; set; } | Hämtar eller ställer in marginalen. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | Hämtar eller ställer in revisionssammanfattningen för sidan och dess undernoder. |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | Får eller ställer in sidans layoutstorlek som visas i redigeraren. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [SizeType](../../aspose.note/page/sizetype/) { get; set; } | Hämtar eller ställer in storlekstypen för en sida. |
+| [Title](../../aspose.note/page/title/) { get; set; } | Hämtar eller ställer in titeln. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/page/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [Clone](../../aspose.note/page/clone)(bool) | Klonar sidan. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | Hämta alla underordnade noder på sidan efter nodtyp. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IPageChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [Clone](../../aspose.note/page/clone/)(bool) | Klonar sidan. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | Hämta alla underordnade noder på sidan efter nodtyp. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Exempel
 
@@ -172,7 +172,7 @@ Console.WriteLine(string.Format(
     pageRevisionInfo.AuthorMostRecent,
     pageRevisionInfo.LastModifiedTime.ToString("dd.MM.yyyy HH:mm:ss")));
 
-// Uppdatera översikt över versionen av sidan för den här sidan
+// Uppdatera översikt över versioner av sidan för den här sidan
 pageRevisionInfo.AuthorMostRecent = "New Author";
 pageRevisionInfo.LastModifiedTime = DateTime.Now;
 
@@ -616,9 +616,9 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IPageChildNode](../ipagechildnode)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IPageChildNode](../ipagechildnode/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

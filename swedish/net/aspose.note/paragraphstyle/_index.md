@@ -1,9 +1,9 @@
 ---
-title: ParagraphStyle
+title: Class ParagraphStyle
 second_title: Aspose.Note för .NET API-referens
-description: Textstilsinställningar som ska användas om det inte finns något matchande TextStyle-objekt iStyles samling antingen anger detta objekt inte en nödvändig inställning.
+description: Aspose.Note.ParagraphStyle klass. Textstilsinställningar som ska användas om det inte finns något matchande TextStyleobjekt iStyles samling antingen anger detta objekt inte en nödvändig inställning.
 type: docs
-weight: 490
+weight: 510
 url: /sv/net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
@@ -18,32 +18,32 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | namn | Beskrivning |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle)() | Initierar en ny instans av[`ParagraphStyle`](../paragraphstyle) class. |
+| [ParagraphStyle](paragraphstyle/)() | Initierar en ny instans av`ParagraphStyle` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| static [Default](../../aspose.note/paragraphstyle/default) { get; } | Hämtar ParagraphStyle med standardinställningar. |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Hämtar eller ställer in teckensnittsfärgen. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | Hämtar eller ställer in teckensnittsnamnet. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Hämtar eller ställer in teckenstorleken. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Hämtar teckensnittsstilen. |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | Hämtar eller ställer in högdagerfärgen. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är fetstil. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är kursiv. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är genomstruken. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är nedsänkt. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är upphöjd. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är understruken. |
+| static [Default](../../aspose.note/paragraphstyle/default/) { get; } | Hämtar ParagraphStyle med standardinställningar. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Hämtar eller ställer in teckensnittsfärgen. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | Hämtar eller ställer in teckensnittsnamnet. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Hämtar eller ställer in teckenstorleken. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Hämtar teckensnittsstilen. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Hämtar eller ställer in högdagerfärgen. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är fetstil. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är kursiv. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är genomstruken. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är nedsänkt. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är upphöjd. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är understruken. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode)() | Fungerar som en hashfunktion för typen. |
+| override [Equals](../../aspose.note/paragraphstyle/equals/#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| [Equals](../../aspose.note/paragraphstyle/equals/#equals)(ParagraphStyle) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode/)() | Fungerar som en hashfunktion för typen. |
 
 ### Exempel
 
@@ -255,8 +255,8 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [Style](../style)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
