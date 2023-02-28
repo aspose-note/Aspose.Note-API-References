@@ -1,7 +1,7 @@
 ---
-title: AttachedFile
+title: Class AttachedFile
 second_title: Aspose.Note لمرجع NET API
-description: يمثل ملف مرفق.
+description: Aspose.Note.AttachedFile فصل. يمثل ملف مرفق.
 type: docs
 weight: 10
 url: /ar/net/aspose.note/attachedfile/
@@ -18,47 +18,47 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | اسم | وصف |
 | --- | --- |
-| [AttachedFile](attachedfile#constructor)() | يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../attachedfile) فئة . |
-| [AttachedFile](attachedfile#constructor_6)(string, Stream) | يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../attachedfile) فئة . |
-| [AttachedFile](attachedfile#constructor_7)(string, Stream, ImageFormat) | يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../attachedfile) فئة . |
-| [AttachedFile](attachedfile#constructor_8)(string, Stream, Stream, ImageFormat) | يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../attachedfile) فئة . |
+| [AttachedFile](attachedfile/#constructor)() | يقوم بتهيئة مثيل جديد لملف`AttachedFile` فئة . |
+| [AttachedFile](attachedfile/#constructor_6)(string, Stream) | يقوم بتهيئة مثيل جديد لملف`AttachedFile` فئة . |
+| [AttachedFile](attachedfile/#constructor_7)(string, Stream, ImageFormat) | يقوم بتهيئة مثيل جديد لملف`AttachedFile` فئة . |
+| [AttachedFile](attachedfile/#constructor_8)(string, Stream, Stream, ImageFormat) | يقوم بتهيئة مثيل جديد لملف`AttachedFile` فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Alignment](../../aspose.note/attachedfile/alignment) { get; set; } | الحصول على المحاذاة أو تعيينها. |
-| [AlternativeTextDescription](../../aspose.note/attachedfile/alternativetextdescription) { get; set; } | الحصول على نص بديل لأيقونة الملف المرفق أو تعيينه. |
-| [AlternativeTextTitle](../../aspose.note/attachedfile/alternativetexttitle) { get; set; } | الحصول على أو تحديد عنوان نص بديل لرمز الملف المرفق. |
-| [Bytes](../../aspose.note/attachedfile/bytes) { get; } | يحصل على البيانات الثنائية لملف مضمن. |
-| [Document](../../aspose.note/node/document) { get; } | يحصل على مستند العقدة . |
-| [Extension](../../aspose.note/attachedfile/extension) { get; } | يحصل على امتداد الملف المضمن. |
-| [FileName](../../aspose.note/attachedfile/filename) { get; } | يحصل على اسم الملف المضمن. |
-| [FilePath](../../aspose.note/attachedfile/filepath) { get; } | يحصل على المسار للملف الأصلي. |
-| [Height](../../aspose.note/attachedfile/height) { get; } | الحصول على الارتفاع الأصلي لرمز الملف المضمن. |
-| [HorizontalOffset](../../aspose.note/attachedfile/horizontaloffset) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
-| [Icon](../../aspose.note/attachedfile/icon) { get; } | الحصول على البيانات الثنائية للرمز المرتبط بالملف المضمن. |
-| [IconExtension](../../aspose.note/attachedfile/iconextension) { get; } | يحصل على امتداد الأيقونة . |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
-| [IsPrintout](../../aspose.note/attachedfile/isprintout) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان عرض الملف مطبوعًا. |
-| [IsSizeSetByUser](../../aspose.note/attachedfile/issizesetbyuser) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا تم تحديث قيمة حجم الرمز بشكل صريح من قبل المستخدم. |
-| [LastModifiedTime](../../aspose.note/attachedfile/lastmodifiedtime) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [MaxHeight](../../aspose.note/attachedfile/maxheight) { get; set; } | الحصول على أو تعيين أقصى ارتفاع لعرض رمز الملف المضمن. |
-| [MaxWidth](../../aspose.note/attachedfile/maxwidth) { get; set; } | الحصول على أو تعيين الحد الأقصى للعرض لعرض رمز الملف المضمن. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | يحصل على نوع العقدة . |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
-| [Tags](../../aspose.note/attachedfile/tags) { get; } | يحصل على قائمة بكافة علامات الفقرة . |
-| [Text](../../aspose.note/attachedfile/text) { get; set; } | الحصول على أو تعيين التمثيل النصي للملف المضمن. يجب ألا تحتوي السلسلة على أي أحرف بالقيمة 10 (تغذية السطر) أو 13 (إرجاع السطر) . |
-| [VerticalOffset](../../aspose.note/attachedfile/verticaloffset) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
-| [Width](../../aspose.note/attachedfile/width) { get; } | الحصول على العرض الأصلي لرمز الملف المضمن. |
+| [Alignment](../../aspose.note/attachedfile/alignment/) { get; set; } | الحصول على المحاذاة أو تعيينها. |
+| [AlternativeTextDescription](../../aspose.note/attachedfile/alternativetextdescription/) { get; set; } | الحصول على نص بديل لأيقونة الملف المرفق أو تعيينه. |
+| [AlternativeTextTitle](../../aspose.note/attachedfile/alternativetexttitle/) { get; set; } | الحصول على أو تحديد عنوان نص بديل لرمز الملف المرفق. |
+| [Bytes](../../aspose.note/attachedfile/bytes/) { get; } | يحصل على البيانات الثنائية لملف مضمن. |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| [Extension](../../aspose.note/attachedfile/extension/) { get; } | يحصل على امتداد الملف المضمن. |
+| [FileName](../../aspose.note/attachedfile/filename/) { get; } | يحصل على اسم الملف المضمن. |
+| [FilePath](../../aspose.note/attachedfile/filepath/) { get; } | يحصل على المسار للملف الأصلي. |
+| [Height](../../aspose.note/attachedfile/height/) { get; } | الحصول على الارتفاع الأصلي لرمز الملف المضمن. |
+| [HorizontalOffset](../../aspose.note/attachedfile/horizontaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
+| [Icon](../../aspose.note/attachedfile/icon/) { get; } | الحصول على البيانات الثنائية للرمز المرتبط بالملف المضمن. |
+| [IconExtension](../../aspose.note/attachedfile/iconextension/) { get; } | يحصل على امتداد الأيقونة . |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
+| [IsPrintout](../../aspose.note/attachedfile/isprintout/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان عرض الملف مطبوعًا. |
+| [IsSizeSetByUser](../../aspose.note/attachedfile/issizesetbyuser/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان قد تم تحديث قيمة حجم الرمز بشكل صريح من قبل المستخدم. |
+| [LastModifiedTime](../../aspose.note/attachedfile/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
+| [MaxHeight](../../aspose.note/attachedfile/maxheight/) { get; set; } | الحصول على أو تعيين أقصى ارتفاع لعرض رمز الملف المضمن. |
+| [MaxWidth](../../aspose.note/attachedfile/maxwidth/) { get; set; } | الحصول على أو تعيين الحد الأقصى للعرض لعرض رمز الملف المضمن. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [Tags](../../aspose.note/attachedfile/tags/) { get; } | يحصل على قائمة بكافة علامات الفقرة . |
+| [Text](../../aspose.note/attachedfile/text/) { get; set; } | الحصول على أو تعيين التمثيل النصي للملف المضمن. يجب ألا تحتوي السلسلة على أي أحرف بالقيمة 10 (تغذية السطر) أو 13 (إرجاع السطر) . |
+| [VerticalOffset](../../aspose.note/attachedfile/verticaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
+| [Width](../../aspose.note/attachedfile/width/) { get; } | الحصول على العرض الأصلي لرمز الملف المضمن. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.note/attachedfile/accept)(DocumentVisitor) | يقبل زائر العقدة . |
+| override [Accept](../../aspose.note/attachedfile/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
 
 ### أمثلة
 
@@ -169,11 +169,11 @@ doc.Save(dataDir);
 
 ### أنظر أيضا
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

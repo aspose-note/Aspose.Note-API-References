@@ -1,9 +1,9 @@
 ---
-title: HtmlSaveOptions
+title: Class HtmlSaveOptions
 second_title: Справочник по API Aspose.Note для .NET
-description: Позволяет указать дополнительные параметры при сохранении документа в формате HTML.
+description: Aspose.Note.Saving.HtmlSaveOptions сорт. Позволяет указать дополнительные параметры при сохранении документа в формате HTML.
 type: docs
-weight: 680
+weight: 700
 url: /ru/net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -18,26 +18,26 @@ public class HtmlSaveOptions : SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions)() | Конструктор по умолчанию. |
+| [HtmlSaveOptions](htmlsaveoptions/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration) { get; set; } | Получает или задает, будет ли файл таблицы стилей создаваться для каждой новой страницы отдельно. |
-| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения CSS. |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration) { get; set; } | Получает или задает значение, указывающее, включено ли создание документа на странице. |
-| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss) { get; set; } | Получает или задает способ экспорта css. |
-| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts) { get; set; } | Получает или задает способ экспорта шрифтов. |
-| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages) { get; set; } | Получает или задает способ экспорта изображений. |
-| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes) { get; set; } | Получает или задает типы шрифта. |
-| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения шрифта. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
-| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения изображения. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
-| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения страницы. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Получает формат, в котором сохранен документ. |
+| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | Получает или задает, будет ли файл таблицы стилей создаваться для каждой новой страницы отдельно. |
+| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения CSS. |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | Получает или задает значение, указывающее, включено ли создание документа на странице. |
+| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | Получает или задает способ экспорта css. |
+| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | Получает или задает способ экспорта шрифтов. |
+| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | Получает или задает способ экспорта изображений. |
+| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes/) { get; set; } | Получает или задает типы шрифта. |
+| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения шрифта. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Получает или задает настройки шрифта, которые будут использоваться при сохранении |
+| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения изображения. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Получает или задает количество сохраняемых страниц. По умолчаниюMaxValue означает, что будут отображены все страницы документа. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Получает или задает индекс первой страницы для сохранения. По умолчанию 0. |
+| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | Получает или задает обратный вызов, который вызывается для создания ресурса для хранения страницы. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Получает формат, в котором сохранен документ. |
 
 ### Примеры
 
@@ -147,8 +147,8 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 
 ### Смотрите также
 
-* class [SaveOptions](../saveoptions)
-* пространство имен [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* пространство имен [Aspose.Note.Saving](../../aspose.note.saving/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

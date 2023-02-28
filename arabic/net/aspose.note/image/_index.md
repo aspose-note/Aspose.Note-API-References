@@ -1,9 +1,9 @@
 ---
-title: Image
+title: Class Image
 second_title: Aspose.Note لمرجع NET API
-description: يمثل صورة .
+description: Aspose.Note.Image فصل. يمثل صورة .
 type: docs
-weight: 240
+weight: 250
 url: /ar/net/aspose.note/image/
 ---
 ## Image class
@@ -18,47 +18,47 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | اسم | وصف |
 | --- | --- |
-| [Image](image#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Image`](../image) فئة . |
-| [Image](image#constructor_4)(string, Stream) | يقوم بتهيئة مثيل جديد لملف[`Image`](../image) فئة . |
-| [Image](image#constructor_5)(string, string, string) | يقوم بتهيئة مثيل جديد لملف[`Image`](../image) فئة . |
+| [Image](image/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Image` فئة . |
+| [Image](image/#constructor_4)(string, Stream) | يقوم بتهيئة مثيل جديد لملف`Image` فئة . |
+| [Image](image/#constructor_5)(string, string, string) | يقوم بتهيئة مثيل جديد لملف`Image` فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment) { get; set; } | الحصول على المحاذاة أو تعيينها. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | الحصول على نص بديل للصورة أو تعيينه. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | الحصول على عنوان نص بديل للصورة أو تعيينه. |
-| [Bytes](../../aspose.note/image/bytes) { get; } | يحصل على مخزن بيانات الصورة. |
-| [Document](../../aspose.note/node/document) { get; } | يحصل على مستند العقدة . |
-| [FileName](../../aspose.note/image/filename) { get; } | يحصل على اسم الملف. |
-| [FilePath](../../aspose.note/image/filepath) { get; } | يحصل على المسار لملف الصورة. |
-| [Format](../../aspose.note/image/format) { get; } | الحصول على تنسيق الصورة. |
-| [Height](../../aspose.note/image/height) { get; set; } | الحصول على الارتفاع أو تحديده. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote . |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | الحصول على أو تعيين الارتباط التشعبي المرتبط بالصورة. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | تحديد ما إذا كانت الصورة صورة خلفية . |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | يحصل على نوع العقدة . |
-| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | الحصول على الارتفاع الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم. |
-| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | يحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
-| [Tags](../../aspose.note/image/tags) { get; } | يحصل على قائمة بكافة علامات الفقرة . |
-| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
-| [Width](../../aspose.note/image/width) { get; set; } | الحصول على العرض أو تحديده. هذا هو العرض الحقيقي للصورة في مستند MS OneNote. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | الحصول على المحاذاة أو تعيينها. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | الحصول على نص بديل للصورة أو تعيينه. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | الحصول على عنوان نص بديل للصورة أو تعيينه. |
+| [Bytes](../../aspose.note/image/bytes/) { get; } | يحصل على مخزن بيانات الصورة. |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| [FileName](../../aspose.note/image/filename/) { get; } | يحصل على اسم الملف. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | يحصل على المسار لملف الصورة. |
+| [Format](../../aspose.note/image/format/) { get; } | الحصول على تنسيق الصورة. |
+| [Height](../../aspose.note/image/height/) { get; set; } | الحصول على الارتفاع أو تحديده. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote . |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | الحصول على أو تعيين الارتباط التشعبي المرتبط بالصورة. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | تحديد ما إذا كانت الصورة صورة خلفية . |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | الحصول على الارتفاع الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | يحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [Tags](../../aspose.note/image/tags/) { get; } | يحصل على قائمة بكافة علامات الفقرة . |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
+| [Width](../../aspose.note/image/width/) { get; set; } | الحصول على العرض أو تحديده. هذا هو العرض الحقيقي للصورة في مستند MS OneNote. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | يقبل زائر العقدة . |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
 
 ### أمثلة
 
-يوضح كيفية ربط ارتباط تشعبي بصورة.
+يوضح كيفية ربط ارتباط تشعبي بصورة ما.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -122,7 +122,7 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
-يوضح كيفية الحصول على المعلومات الوصفية للصورة.
+يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -197,7 +197,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 // احصل على الصفحة الأولى من المستند.
 Aspose.Note.Page page = doc.FirstChild;
 
-// قم بتحميل صورة من الملف.
+// تحميل صورة من الملف.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
                               // قم بتغيير حجم الصورة وفقًا لاحتياجاتك (اختياري).
@@ -298,11 +298,11 @@ doc.Save(dataDir);
 
 ### أنظر أيضا
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

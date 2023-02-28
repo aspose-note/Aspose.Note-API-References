@@ -1,9 +1,9 @@
 ---
-title: Page
+title: Class Page
 second_title: Aspose.Note für .NET-API-Referenz
-description: steht für eine Seite.
+description: Aspose.Note.Page klas. steht für eine Seite.
 type: docs
-weight: 460
+weight: 480
 url: /de/net/aspose.note/page/
 ---
 ## Page class
@@ -18,46 +18,46 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Page](page#constructor)() | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page/#constructor)() | Initialisiert eine neue Instanz von`Page` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Author](../../aspose.note/page/author) { get; set; } | Ruft den Autor ab oder legt ihn fest. |
-| [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | Ruft die Hintergrundfarbe der Seite ab oder legt sie fest. |
-| [CreationTime](../../aspose.note/page/creationtime) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob diese Seite eine Konfliktseite ist. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
-| [Level](../../aspose.note/page/level) { get; set; } | Ruft den Pegel ab oder setzt ihn. |
-| [Margin](../../aspose.note/page/margin) { get; set; } | Ruft den Spielraum ab oder legt ihn fest. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary) { get; set; } | Ruft die Überarbeitungszusammenfassung für die Seite und ihre untergeordneten Knoten ab oder legt sie fest. |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize) { get; set; } | Ruft die im Editor angezeigte Layoutgröße der Seite ab oder legt sie fest. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
-| [SizeType](../../aspose.note/page/sizetype) { get; set; } | Ruft den Größentyp einer Seite ab oder legt ihn fest. |
-| [Title](../../aspose.note/page/title) { get; set; } | Ruft den Titel ab oder legt ihn fest. |
+| [Author](../../aspose.note/page/author/) { get; set; } | Ruft den Autor ab oder legt ihn fest. |
+| [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | Ruft die Hintergrundfarbe der Seite ab oder legt sie fest. |
+| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob diese Seite eine Konfliktseite ist. |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
+| [Level](../../aspose.note/page/level/) { get; set; } | Ruft den Pegel ab oder setzt ihn. |
+| [Margin](../../aspose.note/page/margin/) { get; set; } | Ruft den Spielraum ab oder legt ihn fest. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | Ruft die Überarbeitungszusammenfassung für die Seite und ihre untergeordneten Knoten ab oder legt sie fest. |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | Ruft die im Editor angezeigte Layoutgröße der Seite ab oder legt sie fest. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [SizeType](../../aspose.note/page/sizetype/) { get; set; } | Ruft den Größentyp einer Seite ab oder legt ihn fest. |
+| [Title](../../aspose.note/page/title/) { get; set; } | Ruft den Titel ab oder legt ihn fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/page/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [Clone](../../aspose.note/page/clone)(bool) | Klont die Seite. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | Alle untergeordneten Knoten der Seite nach Knotentyp abrufen. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IPageChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [Clone](../../aspose.note/page/clone/)(bool) | Klont die Seite. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | Alle untergeordneten Knoten der Seite nach Knotentyp abrufen. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Beispiele
 
@@ -616,9 +616,9 @@ doc.Save(dataDir);
 
 ### Siehe auch
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IPageChildNode](../ipagechildnode)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IPageChildNode](../ipagechildnode/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

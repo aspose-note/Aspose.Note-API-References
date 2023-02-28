@@ -1,9 +1,9 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Référence de l'API Aspose.Note pour .NET
-description: Représente un texte enrichi.
+description: Aspose.Note.RichText classe. Représente un texte enrichi.
 type: docs
-weight: 510
+weight: 530
 url: /fr/net/aspose.note/richtext/
 ---
 ## RichText class
@@ -18,65 +18,65 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | Nom | La description |
 | --- | --- |
-| [RichText](richtext#constructor)() | Initialise une nouvelle instance du[`RichText`](../richtext) classe. |
+| [RichText](richtext/#constructor)() | Initialise une nouvelle instance du`RichText` classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Obtient ou définit l'alignement. |
-| [Document](../../aspose.note/node/document) { get; } | Obtient le document du nœud. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Obtient une valeur indiquant si ce nœud est composite. Si vrai, le nœud peut avoir des nœuds enfants. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
-| [Length](../../aspose.note/richtext/length) { get; } | Obtient la longueur du texte. |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Obtient ou définit l'interligne. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtient le nœud suivant au même niveau d'arborescence de nœuds. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtient le type de nœud. |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Obtient ou définit le style de paragraphe. Ces paramètres sont utilisés s'il n'y a pas d'objet TextStyle correspondant dansStyles collection soit cet objet ne spécifie pas un paramètre nécessaire. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtient le nœud parent. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtient le nœud précédent au même niveau d'arborescence de nœuds. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Obtient ou définit la quantité minimale d'espace après. |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Obtient ou définit la quantité minimale d'espace avant. |
-| [Tags](../../aspose.note/richtext/tags) { get; } | Obtient la liste de toutes les balises d'un paragraphe. |
-| [Text](../../aspose.note/richtext/text) { get; set; } | Obtient ou définit le texte. La chaîne NE DOIT PAS contenir de caractères de la valeur 10 (saut de ligne). |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Obtient la collection d'exécutions de texte. |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | Obtient ou définit l'alignement. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtient le document du nœud. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Obtient une valeur indiquant si ce nœud est composite. Si vrai, le nœud peut avoir des nœuds enfants. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | Obtient ou définit l'heure de la dernière modification. |
+| [Length](../../aspose.note/richtext/length/) { get; } | Obtient la longueur du texte. |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | Obtient ou définit l'interligne. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtient le nœud suivant au même niveau d'arborescence de nœuds. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtient le type de nœud. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | Obtient ou définit le style de paragraphe. Ces paramètres sont utilisés s'il n'y a pas d'objet TextStyle correspondant dansStyles collection soit cet objet ne spécifie pas un paramètre nécessaire. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtient le nœud parent. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtient le nœud précédent au même niveau d'arborescence de nœuds. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | Obtient ou définit la quantité minimale d'espace après. |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | Obtient ou définit la quantité minimale d'espace avant. |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | Obtient la liste de toutes les balises d'un paragraphe. |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | Obtient ou définit le texte. La chaîne NE DOIT PAS contenir de caractères de la valeur 10 (saut de ligne). |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | Obtient la collection d'exécutions de texte. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | Accepte le visiteur du nœud. |
-| [Append](../../aspose.note/richtext/append#append)(string) | Ajoute une chaîne à la dernière plage de texte. |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | Ajoute une chaîne à la fin. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | Ajoute une chaîne au début de la première plage de texte. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Ajoute une chaîne devant. |
-| [Clear](../../aspose.note/richtext/clear)() | Efface le contenu de cette instance. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Renvoie un énumérateur qui parcourt les caractères de cet objet RichText. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | Renvoie l'index de base zéro de la première occurrence du caractère Unicode spécifié dans cette chaîne. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans cette instance. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | Renvoie l'index de base zéro de la première occurrence du caractère Unicode spécifié dans cette chaîne. La recherche commence à une position de caractère spécifiée. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans cette instance. La recherche commence à une position de caractère spécifiée. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans l'instance actuelle. Un paramètre spécifie le type de recherche à utiliser pour la chaîne spécifiée. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Renvoie l'index de base zéro de la première occurrence du caractère spécifié dans cette instance. La recherche commence à une position de caractère spécifiée et examine un nombre spécifié de positions de caractère. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans cette instance. La recherche commence à une position de caractère spécifiée et examine un nombre spécifié de positions de caractère. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans l'instance actuelle. Les paramètres spécifient la position de recherche de départ dans la chaîne actuelle et le type de recherche à utiliser pour la chaîne spécifiée. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans l'instance actuelle. |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | Insère une chaîne spécifiée à une position d'index spécifiée dans cette instance. |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | Insère une chaîne spécifiée avec un style spécifié à une position d'index spécifiée dans cette instance. |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | Supprime tous les caractères de l'instance actuelle, en commençant à une position spécifiée et en continuant jusqu'à la dernière position. |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | Supprime le nombre spécifié de caractères dans l'instance actuelle en commençant à une position spécifiée. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Remplace toutes les occurrences d'un caractère Unicode spécifié dans cette instance par un autre caractère Unicode spécifié. |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | Remplace toutes les occurrences d'une chaîne spécifiée dans l'instance actuelle par une autre chaîne spécifiée. |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | Remplace toutes les occurrences d'une chaîne spécifiée dans l'instance actuelle par une autre chaîne spécifiée dans le style spécifié. |
-| [Trim](../../aspose.note/richtext/trim#trim)() | Supprime tous les espaces blancs de début et de fin. |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | Supprime toutes les instances de début et de fin d'un caractère. |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | Supprime toutes les occurrences de début et de fin d'un ensemble de caractères spécifié dans un tableau. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Supprime tous les caractères d'espace blanc de fin. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | Supprime toutes les occurrences de fin d'un caractère. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | Supprime toutes les occurrences de fin d'un ensemble de caractères spécifié dans un tableau. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | Supprime tous les premiers caractères d'espace blanc. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | Supprime toutes les occurrences principales d'un caractère spécifié. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Supprime toutes les occurrences principales d'un ensemble de caractères spécifié dans un tableau. |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | Accepte le visiteur du nœud. |
+| [Append](../../aspose.note/richtext/append/#append)(string) | Ajoute une chaîne à la dernière plage de texte. |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | Ajoute une chaîne à la fin. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | Ajoute une chaîne au début de la première plage de texte. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | Ajoute une chaîne devant. |
+| [Clear](../../aspose.note/richtext/clear/)() | Efface le contenu de cette instance. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | Renvoie un énumérateur qui parcourt les caractères de cet objet RichText. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | Renvoie l'index de base zéro de la première occurrence du caractère Unicode spécifié dans cette chaîne. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans cette instance. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | Renvoie l'index de base zéro de la première occurrence du caractère Unicode spécifié dans cette chaîne. La recherche commence à une position de caractère spécifiée. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans cette instance. La recherche commence à une position de caractère spécifiée. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans l'instance actuelle. Un paramètre spécifie le type de recherche à utiliser pour la chaîne spécifiée. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | Renvoie l'index de base zéro de la première occurrence du caractère spécifié dans cette instance. La recherche commence à une position de caractère spécifiée et examine un nombre spécifié de positions de caractère. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans cette instance. La recherche commence à une position de caractère spécifiée et examine un nombre spécifié de positions de caractère. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans l'instance actuelle. Les paramètres spécifient la position de recherche de départ dans la chaîne actuelle et le type de recherche à utiliser pour la chaîne spécifiée. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | Renvoie l'index de base zéro de la première occurrence de la chaîne spécifiée dans l'instance actuelle. |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | Insère une chaîne spécifiée à une position d'index spécifiée dans cette instance. |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | Insère une chaîne spécifiée avec un style spécifié à une position d'index spécifiée dans cette instance. |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | Supprime tous les caractères de l'instance actuelle, en commençant à une position spécifiée et en continuant jusqu'à la dernière position. |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | Supprime le nombre spécifié de caractères dans l'instance actuelle en commençant à une position spécifiée. |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | Remplace toutes les occurrences d'un caractère Unicode spécifié dans cette instance par un autre caractère Unicode spécifié. |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | Remplace toutes les occurrences d'une chaîne spécifiée dans l'instance actuelle par une autre chaîne spécifiée. |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | Remplace toutes les occurrences d'une chaîne spécifiée dans l'instance actuelle par une autre chaîne spécifiée dans le style spécifié. |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | Supprime tous les espaces blancs de début et de fin. |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | Supprime toutes les instances de début et de fin d'un caractère. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | Supprime toutes les occurrences de début et de fin d'un ensemble de caractères spécifié dans un tableau. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | Supprime tous les caractères d'espace blanc de fin. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | Supprime toutes les occurrences de fin d'un caractère. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | Supprime toutes les occurrences de fin d'un ensemble de caractères spécifié dans un tableau. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | Supprime tous les premiers caractères d'espace blanc. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | Supprime toutes les occurrences principales d'un caractère spécifié. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | Supprime toutes les occurrences principales d'un ensemble de caractères spécifié dans un tableau. |
 
 ### Exemples
 
@@ -791,10 +791,10 @@ doc.Save(dataDir);
 
 ### Voir également
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* espace de noms [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* espace de noms [Aspose.Note](../../aspose.note/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

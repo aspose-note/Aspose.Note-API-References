@@ -1,9 +1,9 @@
 ---
-title: HtmlSaveOptions
+title: Class HtmlSaveOptions
 second_title: Aspose.Note لمرجع NET API
-description: يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML .
+description: Aspose.Note.Saving.HtmlSaveOptions فصل. يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML .
 type: docs
-weight: 680
+weight: 700
 url: /ar/net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -18,26 +18,26 @@ public class HtmlSaveOptions : SaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions)() | Default_Constructor |
+| [HtmlSaveOptions](htmlsaveoptions/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration) { get; set; } | يحصل أو يحدد ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
-| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين CSS. |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان إنشاء مستند لكل صفحة ممكّنًا . |
-| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss) { get; set; } | الحصول على طريقة تصدير css أو تعيينها. |
-| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts) { get; set; } | الحصول على أو تحديد طريقة تصدير الخطوط . |
-| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages) { get; set; } | الحصول على أو تحديد الطريقة التي يتم بها تصدير الصور. |
-| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes) { get; set; } | الحصول على أنواع وجه الخط أو تعيينها. |
-| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الخط. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | الحصول على أو تعيين إعدادات الخط لاستخدامها أثناء الحفظ |
-| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصورة. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0. |
-| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصفحة. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | يحصل على التنسيق الذي تم حفظ المستند به. |
+| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | يحصل أو يحدد ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
+| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين CSS. |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان إنشاء مستند لكل صفحة ممكّنًا . |
+| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | الحصول على طريقة تصدير css أو تعيينها. |
+| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | الحصول على أو تحديد طريقة تصدير الخطوط . |
+| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | الحصول على أو تحديد الطريقة التي يتم بها تصدير الصور. |
+| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes/) { get; set; } | الحصول على أنواع وجه الخط أو تعيينها. |
+| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الخط. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | الحصول على أو تعيين إعدادات الخط لاستخدامها أثناء الحفظ |
+| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصورة. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0. |
+| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصفحة. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على التنسيق الذي تم حفظ المستند به. |
 
 ### أمثلة
 
@@ -147,8 +147,8 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 
 ### أنظر أيضا
 
-* class [SaveOptions](../saveoptions)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

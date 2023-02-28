@@ -1,7 +1,7 @@
 ---
-title: Columns
+title: Table.Columns
 second_title: Aspose.Note for .NET API Referansı
-description: Tablonun sütunlarını alır.
+description: Table mülk. Tablonun sütunlarını alır.
 type: docs
 weight: 20
 url: /tr/net/aspose.note/table/columns/
@@ -19,7 +19,7 @@ public IList<TableColumn> Columns { get; }
 Bir hücre için arka plan renginin nasıl ayarlanacağını gösterir.
 
 ```csharp
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // TableCell sınıf nesnesini başlat ve metin içeriğini ayarla
@@ -59,7 +59,7 @@ Etiketli yeni tablonun nasıl ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -84,7 +84,7 @@ Table table = new Table(doc)
                   Columns = { new TableColumn { Width = 70 } }
               };
 
-// Tabloya satır düğümü ekle
+// tabloya satır düğümü ekle
 table.AppendChildLast(row);
 
 // Bu tablo düğümüne etiket ekle
@@ -112,7 +112,7 @@ Kilitli sütunlu bir tablonun nasıl oluşturulacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -134,14 +134,14 @@ TableCell cell21 = new TableCell(doc);
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
-// Tablo sınıfı nesnesini başlat
+// Table sınıfı nesnesini başlat
 Table table = new Table(doc)
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
               };
 
-// Satır ekle
+// Satırları ekle
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
@@ -151,7 +151,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 // Tablo düğümü ekle
 outlineElem.AppendChildLast(table);
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -169,7 +169,7 @@ Yeni bir tablonun nasıl oluşturulacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -183,12 +183,12 @@ TableCell cell11 = new TableCell(doc);
 TableCell cell12 = new TableCell(doc);
 TableCell cell13 = new TableCell(doc);
 
-// Tablo hücresine anahat öğeleri ekle
+// Tablo hücresindeki anahat öğelerini ekleyin
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
 cell12.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.2"));
 cell13.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.3"));
 
-// Tablo hücrelerini satırlara
+// Hücreleri satırlara tablola
 row1.AppendChildLast(cell11);
 row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
@@ -201,7 +201,7 @@ TableCell cell21 = new TableCell(doc);
 TableCell cell22 = new TableCell(doc);
 TableCell cell23 = new TableCell(doc);
 
-// Tablo hücresine anahat öğeleri ekle
+// Tablo hücresindeki anahat öğelerini ekleyin
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
 cell22.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.2"));
 cell23.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.3"));
@@ -211,14 +211,14 @@ row2.AppendChildLast(cell21);
 row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
-// Tablo sınıfı nesnesini başlat ve sütun genişliklerini ayarla
+// Table sınıfı nesnesini başlat ve sütun genişliklerini ayarla
 Table table = new Table(doc)
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
               };
 
-// Tablo satırlarını tabloya ekle
+// Tablo satırlarını tabloya ekleyin
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
@@ -228,13 +228,13 @@ Outline outline = new Outline(doc);
 // OutlineElement nesnesini başlat
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Öğe düğümünü ana hatlarıyla belirtmek için tablo ekle
+// Eleman düğümünün dış hatlarını çizmek için tablo ekle
 outlineElem.AppendChildLast(table);
 
-// Anahat için anahat öğesi ekle
+// Ana hatlara ana hat öğesi ekleyin
 outline.AppendChildLast(outlineElem);
 
-// Sayfa düğümüne anahat ekle
+// Sayfa düğümüne ana hat ekle
 page.AppendChildLast(outline);
 
 // Belge düğümüne sayfa ekle
@@ -245,9 +245,9 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [TableColumn](../../tablecolumn)
-* class [Table](../../table)
-* ad alanı [Aspose.Note](../../table)
+* class [TableColumn](../../tablecolumn/)
+* class [Table](../)
+* ad alanı [Aspose.Note](../../table/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

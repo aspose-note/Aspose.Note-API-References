@@ -1,9 +1,9 @@
 ---
-title: Image
+title: Class Image
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Representa una Imagen.
+description: Aspose.Note.Image clase. Representa una Imagen.
 type: docs
-weight: 240
+weight: 250
 url: /es/net/aspose.note/image/
 ---
 ## Image class
@@ -18,43 +18,43 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Nombre | Descripción |
 | --- | --- |
-| [Image](image#constructor)() | Inicializa una nueva instancia del[`Image`](../image) clase. |
-| [Image](image#constructor_4)(string, Stream) | Inicializa una nueva instancia del[`Image`](../image) clase. |
-| [Image](image#constructor_5)(string, string, string) | Inicializa una nueva instancia del[`Image`](../image) clase. |
+| [Image](image/#constructor)() | Inicializa una nueva instancia del`Image` clase. |
+| [Image](image/#constructor_4)(string, Stream) | Inicializa una nueva instancia del`Image` clase. |
+| [Image](image/#constructor_5)(string, string, string) | Inicializa una nueva instancia del`Image` clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment) { get; set; } | Obtiene o establece la alineación. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | Obtiene o establece un cuerpo de texto alternativo para la imagen. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | Obtiene o establece un título de texto alternativo para la imagen. |
-| [Bytes](../../aspose.note/image/bytes) { get; } | Obtiene el almacén de datos de imágenes. |
-| [Document](../../aspose.note/node/document) { get; } | Obtiene el documento del nodo. |
-| [FileName](../../aspose.note/image/filename) { get; } | Obtiene el nombre del archivo. |
-| [FilePath](../../aspose.note/image/filepath) { get; } | Obtiene la ruta al archivo de imagen. |
-| [Format](../../aspose.note/image/format) { get; } | Obtiene el formato de la imagen. |
-| [Height](../../aspose.note/image/height) { get; set; } | Obtiene o establece la altura. Esta es la altura real de la imagen en el documento de MS OneNote. |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Obtiene o establece el desplazamiento horizontal. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Obtiene o establece el hipervínculo asociado a la imagen. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Obtiene si la imagen es una imagen de fondo. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Obtiene un valor que indica si este nodo es compuesto. Si es verdadero, el nodo puede tener nodos secundarios. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Obtiene o establece la hora de la última modificación. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtiene el tipo de nodo. |
-| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | Obtiene la altura original. Este es el ancho original de la imagen, antes de cambiar el tamaño. |
-| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | Obtiene el ancho original. Este es el ancho original de la imagen, antes de cambiar el tamaño. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtiene el nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
-| [Tags](../../aspose.note/image/tags) { get; } | Obtiene la lista de todas las etiquetas de un párrafo. |
-| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | Obtiene o establece el desplazamiento vertical. |
-| [Width](../../aspose.note/image/width) { get; set; } | Obtiene o establece el ancho. Este es el ancho real de la imagen en el documento de MS OneNote. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | Obtiene o establece la alineación. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | Obtiene o establece un cuerpo de texto alternativo para la imagen. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | Obtiene o establece un título de texto alternativo para la imagen. |
+| [Bytes](../../aspose.note/image/bytes/) { get; } | Obtiene el almacén de datos de imágenes. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtiene el documento del nodo. |
+| [FileName](../../aspose.note/image/filename/) { get; } | Obtiene el nombre del archivo. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | Obtiene la ruta al archivo de imagen. |
+| [Format](../../aspose.note/image/format/) { get; } | Obtiene el formato de la imagen. |
+| [Height](../../aspose.note/image/height/) { get; set; } | Obtiene o establece la altura. Esta es la altura real de la imagen en el documento de MS OneNote. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | Obtiene o establece el desplazamiento horizontal. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | Obtiene o establece el hipervínculo asociado a la imagen. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | Obtiene si la imagen es una imagen de fondo. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Obtiene un valor que indica si este nodo es compuesto. Si es verdadero, el nodo puede tener nodos secundarios. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | Obtiene o establece la hora de la última modificación. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtiene el tipo de nodo. |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | Obtiene la altura original. Este es el ancho original de la imagen, antes de cambiar el tamaño. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | Obtiene el ancho original. Este es el ancho original de la imagen, antes de cambiar el tamaño. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtiene el nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
+| [Tags](../../aspose.note/image/tags/) { get; } | Obtiene la lista de todas las etiquetas de un párrafo. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | Obtiene o establece el desplazamiento vertical. |
+| [Width](../../aspose.note/image/width/) { get; set; } | Obtiene o establece el ancho. Este es el ancho real de la imagen en el documento de MS OneNote. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | Acepta al visitante del nodo. |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Acepta al visitante del nodo. |
 
 ### Ejemplos
 
@@ -171,10 +171,10 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// Agregar nodo de elemento de esquema
+// Agregar nodo de elemento de contorno
 outline.AppendChildLast(outlineElem);
 
-// Agregar nodo de esquema
+// Agregar nodo de contorno
 page.AppendChildLast(outline);
 
 // Añadir nodo de página
@@ -298,11 +298,11 @@ doc.Save(dataDir);
 
 ### Ver también
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* espacio de nombres [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* espacio de nombres [Aspose.Note](../../aspose.note/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

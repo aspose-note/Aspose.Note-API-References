@@ -1,9 +1,9 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Aspose.Note لمرجع NET API
-description: يمثل نصًا غنيًا .
+description: Aspose.Note.RichText فصل. يمثل نصًا غنيًا .
 type: docs
-weight: 510
+weight: 530
 url: /ar/net/aspose.note/richtext/
 ---
 ## RichText class
@@ -18,65 +18,65 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | اسم | وصف |
 | --- | --- |
-| [RichText](richtext#constructor)() | يقوم بتهيئة مثيل جديد لملف[`RichText`](../richtext) فئة . |
+| [RichText](richtext/#constructor)() | يقوم بتهيئة مثيل جديد لملف`RichText` فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | الحصول على المحاذاة أو تعيينها. |
-| [Document](../../aspose.note/node/document) { get; } | يحصل على مستند العقدة . |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [Length](../../aspose.note/richtext/length) { get; } | الحصول على طول النص. |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | الحصول على تباعد الأسطر أو تعيينه. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | يحصل على نوع العقدة . |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | الحصول على نمط الفقرة أو تعيينه. يتم استخدام هذه الإعدادات في حالة عدم وجود كائن TextStyle مطابق فيStyles مجموعة إما أن هذا الكائن لا يحدد الإعداد المطلوب. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | الحصول على أو تعيين الحد الأدنى من المساحة بعد . |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | الحصول على أو تعيين الحد الأدنى من المساحة قبل . |
-| [Tags](../../aspose.note/richtext/tags) { get; } | يحصل على قائمة بكافة علامات الفقرة . |
-| [Text](../../aspose.note/richtext/text) { get; set; } | الحصول على النص أو تعيينه. يجب ألا تحتوي السلسلة على أي أحرف بالقيمة 10 (تغذية السطر) . |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | يحصل على مجموعة من تشغيلات النص. |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | الحصول على المحاذاة أو تعيينها. |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
+| [Length](../../aspose.note/richtext/length/) { get; } | يحصل على طول النص. |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | الحصول على تباعد الأسطر أو تعيينه. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | الحصول على نمط الفقرة أو تعيينه. يتم استخدام هذه الإعدادات في حالة عدم وجود كائن TextStyle مطابق فيStyles مجموعة إما أن هذا الكائن لا يحدد الإعداد المطلوب. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | الحصول على أو تحديد الحد الأدنى من المساحة بعد . |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | الحصول على أو تعيين الحد الأدنى من المساحة قبل . |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | يحصل على قائمة بكافة علامات الفقرة . |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | الحصول على النص أو تحديده. يجب ألا تحتوي السلسلة على أي أحرف بالقيمة 10 (تغذية السطر) . |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | يحصل على مجموعة من تشغيلات النص. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | يقبل زائر العقدة . |
-| [Append](../../aspose.note/richtext/append#append)(string) | يضيف سلسلة إلى آخر نطاق نصي. |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | يضيف سلسلة إلى النهاية . |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | يضيف سلسلة إلى مقدمة نطاق النص الأول. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | يضيف سلسلة للأمام . |
-| [Clear](../../aspose.note/richtext/clear)() | يمحو محتوى هذا المثال . |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | إرجاع عداد يتكرر خلال أحرف كائن RichText هذا. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | إرجاع الفهرس الصفري لأول تكرار لحرف Unicode المحدد في هذه السلسلة. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | إرجاع الفهرس الصفري لأول تكرار للسلسلة المحددة في هذا المثال. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | إرجاع الفهرس الصفري للتواجد الأول لحرف Unicode المحدد في هذه السلسلة. يبدأ البحث في موضع حرف محدد. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | إرجاع الفهرس الصفري للتواجد الأول للسلسلة المحددة في هذا المثيل. يبدأ البحث في موضع حرف محدد. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | إرجاع الفهرس الصفري للتواجد الأول للسلسلة المحددة في المثيل الحالي. تحدد المعلمة نوع البحث الذي سيتم استخدامه للسلسلة المحددة. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | إرجاع الفهرس الصفري لأول تكرار للحرف المحدد في هذا المثيل. يبدأ البحث في موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | إرجاع الفهرس الصفري للتواجد الأول للسلسلة المحددة في هذا المثيل. يبدأ البحث في موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | إرجاع الفهرس الصفري للتواجد الأول للسلسلة المحددة في المثيل الحالي. تحدد المعلمات موضع بدء البحث في السلسلة الحالية ونوع البحث المراد استخدامه للسلسلة المحددة. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | إرجاع الفهرس الصفري للتواجد الأول للسلسلة المحددة في المثيل الحالي. |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | لإدراج سلسلة محددة في موضع فهرس محدد في هذه الحالة. |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | لإدراج سلسلة محددة بنمط محدد في موضع فهرس محدد في هذه الحالة. |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | يزيل جميع الأحرف في المثال الحالي ، بدءًا من الموضع المحدد ويستمر حتى آخر موضع. |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | يزيل عددًا محددًا من الأحرف في المثيل الحالي الذي يبدأ من الموضع المحدد. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | يستبدل جميع تكرارات حرف Unicode المحدد في هذه الحالة بحرف Unicode آخر محدد. |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | يستبدل كل تكرارات سلسلة محددة في المثيل الحالي بسلسلة أخرى محددة. |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | يستبدل كل تكرارات سلسلة محددة في المثيل الحالي بسلسلة أخرى محددة في النمط المحدد. |
-| [Trim](../../aspose.note/richtext/trim#trim)() | يزيل كل أحرف المسافات البيضاء البادئة واللاحقة . |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | يزيل كافة المثيلات السابقة والتابعة للحرف. |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | يزيل كل التكرارات السابقة والتالية لمجموعة من الأحرف المحددة في مصفوفة. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | يزيل كل أحرف المسافات البيضاء اللاحقة. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | يزيل كل التكرارات اللاحقة للحرف. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | يزيل كل التكرارات اللاحقة لمجموعة من الأحرف المحددة في مصفوفة. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | يزيل كافة أحرف المسافات البيضاء البادئة . |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | يزيل جميع التكرارات البادئة للحرف المحدد. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | يزيل كل التكرارات البادئة لمجموعة من الأحرف المحددة في مصفوفة. |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| [Append](../../aspose.note/richtext/append/#append)(string) | يضيف سلسلة إلى آخر نطاق نصي. |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | يضيف سلسلة إلى النهاية . |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | يضيف سلسلة إلى مقدمة نطاق النص الأول. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | يضيف سلسلة للأمام . |
+| [Clear](../../aspose.note/richtext/clear/)() | يمحو محتوى هذا المثال . |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | إرجاع عداد يتكرر خلال أحرف كائن RichText هذا. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | إرجاع الفهرس الصفري لأول تكرار لحرف Unicode المحدد في هذه السلسلة. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | إرجاع الفهرس الصفري لأول تكرار للسلسلة المحددة في هذا المثال. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | إرجاع الفهرس الصفري للتواجد الأول لحرف Unicode المحدد في هذه السلسلة. يبدأ البحث في موضع حرف محدد. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | إرجاع الفهرس الصفري لأول تكرار للسلسلة المحددة في هذا المثيل. يبدأ البحث في موضع حرف محدد. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | إرجاع الفهرس الصفري لأول تكرار للسلسلة المحددة في المثيل الحالي. تحدد المعلمة نوع البحث المراد استخدامه للسلسلة المحددة. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | إرجاع الفهرس الصفري لأول تكرار للحرف المحدد في هذا المثيل. يبدأ البحث في موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | إرجاع الفهرس الصفري لأول تكرار للسلسلة المحددة في هذا المثيل. يبدأ البحث في موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | إرجاع الفهرس الصفري لأول تكرار للسلسلة المحددة في المثيل الحالي. تحدد المعلمات موضع بدء البحث في السلسلة الحالية ونوع البحث المراد استخدامه للسلسلة المحددة. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | إرجاع الفهرس الصفري للتواجد الأول للسلسلة المحددة في المثيل الحالي. |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | لإدراج سلسلة محددة في موضع فهرس محدد في هذه الحالة. |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | لإدراج سلسلة محددة بنمط محدد في موضع فهرس محدد في هذه الحالة. |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | يزيل جميع الأحرف في المثال الحالي ، بدءًا من الموضع المحدد ويستمر حتى آخر موضع. |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | يزيل عددًا محددًا من الأحرف في المثيل الحالي الذي يبدأ من الموضع المحدد. |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | يستبدل جميع تكرارات حرف Unicode المحدد في هذه الحالة بحرف Unicode آخر محدد. |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | يستبدل كل تكرارات سلسلة محددة في المثيل الحالي بسلسلة أخرى محددة. |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | يستبدل كل تكرارات سلسلة محددة في المثيل الحالي بسلسلة أخرى محددة في النمط المحدد. |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | يزيل كل أحرف المسافات البيضاء البادئة واللاحقة . |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | يزيل كافة المثيلات السابقة والتابعة للحرف. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | يزيل كل التكرارات السابقة والتالية لمجموعة من الأحرف المحددة في مصفوفة. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | يزيل كل أحرف المسافات البيضاء اللاحقة. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | يزيل كل التكرارات اللاحقة للحرف. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | يزيل كل التكرارات اللاحقة لمجموعة من الأحرف المحددة في مصفوفة. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | يزيل كافة أحرف المسافات البيضاء البادئة . |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | يزيل جميع التكرارات البادئة للحرف المحدد. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | يزيل كل التكرارات البادئة لمجموعة من الأحرف المحددة في مصفوفة. |
 
 ### أمثلة
 
@@ -220,7 +220,7 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-يوضح كيفية تعيين عنوان لصفحة.
+يوضح كيفية تعيين عنوان للصفحة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -343,7 +343,7 @@ foreach (Table table in nodes)
     foreach (TableRow row in table)
     {
         // احصل على قائمة بعقد TableCell
-        // التكرار من خلال خلايا الجدول
+        // كرر خلال خلايا الجدول
         foreach (TableCell cell in row)
         {
             // استرداد النص
@@ -791,10 +791,10 @@ doc.Save(dataDir);
 
 ### أنظر أيضا
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

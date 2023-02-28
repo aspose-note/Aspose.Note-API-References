@@ -1,14 +1,14 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta un testo RTF.
+description: Aspose.Note.RichText classe. Rappresenta un rich text.
 type: docs
-weight: 510
+weight: 530
 url: /it/net/aspose.note/richtext/
 ---
 ## RichText class
 
-Rappresenta un testo RTF.
+Rappresenta un rich text.
 
 ```csharp
 public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode, ITaggable
@@ -18,65 +18,65 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | Nome | Descrizione |
 | --- | --- |
-| [RichText](richtext#constructor)() | Inizializza una nuova istanza di[`RichText`](../richtext) classe. |
+| [RichText](richtext/#constructor)() | Inizializza una nuova istanza di`RichText` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Ottiene o imposta l'allineamento. |
-| [Document](../../aspose.note/node/document) { get; } | Ottiene il documento del nodo. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Ottiene un valore che indica se questo nodo è composto. Se true il nodo può avere nodi figlio. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Ottiene o imposta l'ultima ora modificata. |
-| [Length](../../aspose.note/richtext/length) { get; } | Ottiene la lunghezza del testo. |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Ottiene o imposta l'interlinea. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ottiene il tipo di nodo. |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Ottiene o imposta lo stile del paragrafo. Queste impostazioni vengono utilizzate se non ci sono oggetti TextStyle corrispondenti inStyles raccolta o questo oggetto non specifica un'impostazione necessaria. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ottiene il nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ottiene il nodo precedente allo stesso livello di albero dei nodi. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Ottiene o imposta la quantità minima di spazio dopo. |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Ottiene o imposta la quantità minima di spazio prima. |
-| [Tags](../../aspose.note/richtext/tags) { get; } | Ottiene l'elenco di tutti i tag di un paragrafo. |
-| [Text](../../aspose.note/richtext/text) { get; set; } | Ottiene o imposta il testo. La stringa NON DEVE contenere caratteri di valore 10 (avanzamento riga). |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Ottiene la raccolta di esecuzioni di testo. |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | Ottiene o imposta l'allineamento. |
+| [Document](../../aspose.note/node/document/) { get; } | Ottiene il documento del nodo. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Ottiene un valore che indica se questo nodo è composto. Se vero il nodo può avere nodi figli. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | Ottiene o imposta l'ora dell'ultima modifica. |
+| [Length](../../aspose.note/richtext/length/) { get; } | Ottiene la lunghezza del testo. |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | Ottiene o imposta l'interlinea. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ottiene il tipo di nodo. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | Ottiene o imposta lo stile di paragrafo. Queste impostazioni vengono utilizzate se non esiste un oggetto TextStyle corrispondente inStyles collection o questo oggetto non specifica un'impostazione necessaria. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ottiene il nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ottiene il nodo precedente allo stesso livello dell'albero dei nodi. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | Ottiene o imposta la quantità minima di spazio dopo. |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | Ottiene o imposta la quantità minima di spazio prima di. |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | Ottiene l'elenco di tutti i tag di un paragrafo. |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | Ottiene o imposta il testo. La stringa NON DEVE contenere caratteri con valore 10 (line feed). |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | Ottiene la raccolta di sequenze di testo. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | Accetta il visitatore del nodo. |
-| [Append](../../aspose.note/richtext/append#append)(string) | Aggiunge una stringa all'ultimo intervallo di testo. |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | Aggiunge una stringa alla fine. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | Aggiunge una stringa all'inizio del primo intervallo di testo. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Aggiunge una stringa in primo piano. |
-| [Clear](../../aspose.note/richtext/clear)() | Cancella il contenuto di questa istanza. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Restituisce un enumeratore che scorre i caratteri di questo oggetto RichText. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | Restituisce l'indice in base zero della prima occorrenza del carattere Unicode specificato in questa stringa. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata in questa istanza. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | Restituisce l'indice in base zero della prima occorrenza del carattere Unicode specificato in questa stringa. La ricerca inizia in una posizione del carattere specificata. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata in questa istanza. La ricerca inizia in una posizione del carattere specificata. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata nell'istanza corrente. Un parametro specifica il tipo di ricerca da utilizzare per la stringa specificata. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Restituisce l'indice in base zero della prima occorrenza del carattere specificato in questa istanza. La ricerca inizia in una posizione di carattere specificata ed esamina un numero specificato di posizioni di carattere. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata in questa istanza. La ricerca inizia in una posizione di carattere specificata ed esamina un numero specificato di posizioni di carattere. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata nell'istanza corrente. I parametri specificano la posizione di ricerca iniziale nella stringa corrente e il tipo di ricerca da utilizzare per la stringa specificata. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata nell'istanza corrente. |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | Inserisce una stringa specificata in una posizione di indice specificata in questa istanza. |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | Inserisce una stringa specificata con uno stile specificato in una posizione di indice specificata in questa istanza. |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | Rimuove tutti i caratteri nell'istanza corrente, iniziando da una posizione specificata e proseguendo fino all'ultima posizione. |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | Rimuove il numero specificato di caratteri nell'istanza corrente a partire da una posizione specificata. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Sostituisce tutte le occorrenze di un carattere Unicode specificato in questa istanza con un altro carattere Unicode specificato. |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | Sostituisce tutte le occorrenze di una stringa specificata nell'istanza corrente con un'altra stringa specificata. |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | Sostituisce tutte le occorrenze di una stringa specificata nell'istanza corrente con un'altra stringa specificata nello stile specificato. |
-| [Trim](../../aspose.note/richtext/trim#trim)() | Rimuove tutti gli spazi vuoti iniziali e finali. |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | Rimuove tutte le istanze iniziali e finali di un carattere. |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | Rimuove tutte le occorrenze iniziali e finali di un set di caratteri specificato in una matrice. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Rimuove tutti gli spazi vuoti finali. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | Rimuove tutte le occorrenze finali di un carattere. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | Rimuove tutte le occorrenze finali di un set di caratteri specificato in un array. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | Rimuove tutti gli spazi vuoti iniziali. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | Rimuove tutte le occorrenze iniziali di un carattere specificato. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Rimuove tutte le occorrenze iniziali di un insieme di caratteri specificato in un array. |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | Accetta il visitatore del nodo. |
+| [Append](../../aspose.note/richtext/append/#append)(string) | Aggiunge una stringa all'ultimo intervallo di testo. |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | Aggiunge una stringa alla fine. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | Aggiunge una stringa all'inizio del primo intervallo di testo. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | Aggiunge una stringa in primo piano. |
+| [Clear](../../aspose.note/richtext/clear/)() | Cancella il contenuto di questa istanza. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | Restituisce un enumeratore che scorre i caratteri di questo oggetto RichText. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | Restituisce l'indice in base zero della prima occorrenza del carattere Unicode specificato in questa stringa. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata in questa istanza. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | Restituisce l'indice in base zero della prima occorrenza del carattere Unicode specificato in questa stringa. La ricerca inizia in una posizione di carattere specificata. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata in questa istanza. La ricerca inizia in una posizione di carattere specificata. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata nell'istanza corrente. Un parametro specifica il tipo di ricerca da utilizzare per la stringa specificata. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | Restituisce l'indice in base zero della prima occorrenza del carattere specificato in questa istanza. La ricerca inizia da una posizione di carattere specificata ed esamina un numero specificato di posizioni di carattere. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata in questa istanza. La ricerca inizia da una posizione di carattere specificata ed esamina un numero specificato di posizioni di carattere. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata nell'istanza corrente. I parametri specificano la posizione iniziale della ricerca nella stringa corrente e il tipo di ricerca da utilizzare per la stringa specificata. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | Restituisce l'indice in base zero della prima occorrenza della stringa specificata nell'istanza corrente. |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | Inserisce una stringa specificata in una posizione di indice specificata in questa istanza. |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | Inserisce una stringa specificata con uno stile specificato in una posizione di indice specificata in questa istanza. |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | Rimuove tutti i caratteri nell'istanza corrente, iniziando da una posizione specificata e proseguendo fino all'ultima posizione. |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | Rimuove il numero specificato di caratteri nell'istanza corrente a partire da una posizione specificata. |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | Sostituisce tutte le occorrenze di un carattere Unicode specificato in questa istanza con un altro carattere Unicode specificato. |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | Sostituisce tutte le occorrenze di una stringa specificata nell'istanza corrente con un'altra stringa specificata. |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | Sostituisce tutte le occorrenze di una stringa specificata nell'istanza corrente con un'altra stringa specificata nello stile specificato. |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | Rimuove tutti gli spazi bianchi iniziali e finali. |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | Rimuove tutte le istanze iniziali e finali di un carattere. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | Rimuove tutte le occorrenze iniziali e finali di un set di caratteri specificato in un array. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | Rimuove tutti gli spazi vuoti finali. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | Rimuove tutte le occorrenze finali di un carattere. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | Rimuove tutte le occorrenze finali di un set di caratteri specificato in un array. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | Rimuove tutti gli spazi bianchi iniziali. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | Rimuove tutte le occorrenze iniziali di un carattere specificato. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | Rimuove tutte le occorrenze iniziali di un set di caratteri specificato in un array. |
 
 ### Esempi
 
@@ -92,7 +92,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // Recupera il testo
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-// Stampa il testo sulla schermata di output
+// Stampa il testo sullo schermo di output
 Console.WriteLine(text);
 ```
 
@@ -112,12 +112,12 @@ if (page != null)
 {
     // Recupera il testo
     string text = string.Join(Environment.NewLine, page.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
-    // Stampa il testo sulla schermata di output
+    // Stampa il testo sullo schermo di output
     Console.WriteLine(text);
 }
 ```
 
-Sottolineiamo i titoli delle pagine tra le altre intestazioni aumentando la dimensione del carattere.
+Mettiamo in risalto i titoli delle pagine tra le altre intestazioni aumentando la dimensione del carattere.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -125,7 +125,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Scorri i titoli delle pagine.
+// Itera attraverso i titoli della pagina.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -141,7 +141,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-Mostra come ottenere testo da ogni riga di tabella.
+Mostra come ottenere il testo da ogni riga della tabella.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -155,13 +155,13 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Scorri le righe della tabella
+    // Itera attraverso le righe della tabella
     foreach (TableRow row in table)
     {
         // Recupera il testo
         string text = string.Join(Environment.NewLine, row.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-        // Stampa il testo sulla schermata di output
+        // Stampa il testo sullo schermo di output
         Console.WriteLine(text);
     }
 }
@@ -179,7 +179,7 @@ Document document = new Document(dataDir + "Sample1.one");
 // Ottieni un elenco di nodi della tabella
 IList<Table> nodes = document.GetChildNodes<Table>();
 
-// Imposta il conteggio delle tabelle
+// Imposta il conteggio della tabella
 int tblCount = 0;
 
 foreach (Table table in nodes)
@@ -190,12 +190,12 @@ foreach (Table table in nodes)
     // Recupera il testo
     string text = string.Join(Environment.NewLine, table.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-    // Stampa il testo sulla schermata di output
+    // Stampa il testo sullo schermo di output
     Console.WriteLine(text);
 }
 ```
 
-Sottolineiamo le ultime modifiche al testo evidenziandole.
+Sottolineiamo le ultime modifiche al testo evidenziando.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -203,7 +203,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Ottieni nodi RichText modificati la scorsa settimana.
+// Ottieni i nodi RichText modificati la scorsa settimana.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -274,7 +274,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-Mostra come scorrere tutte le pagine ed effettuare una sostituzione nel testo.
+Mostra come scorrere tutte le pagine e fare una sostituzione nel testo.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -304,7 +304,7 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-Manipola in base al formato del testo usando lo stile di paragrafo.
+Manipolare in base al formato del testo utilizzando lo stile di paragrafo.
 
 ```csharp
 var document = new Document();
@@ -339,24 +339,24 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Scorri le righe della tabella
+    // Itera attraverso le righe della tabella
     foreach (TableRow row in table)
     {
         // Ottieni l'elenco dei nodi TableCell
-        // Scorri le celle della tabella
+        // Itera attraverso le celle della tabella
         foreach (TableCell cell in row)
         {
             // Recupera il testo
             string text = string.Join(Environment.NewLine, cell.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-            // Stampa il testo sulla schermata di output
+            // Stampa il testo sullo schermo di output
             Console.WriteLine(text);
         }
     }
 }
 ```
 
-Mostra come passare il testo della pagina e fare una sostituzione.
+Mostra come passare attraverso il testo della pagina ed effettuare una sostituzione.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -420,13 +420,13 @@ string dataDir = RunExamples.GetDataDir_Tags();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
@@ -435,21 +435,21 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // Aggiungi nodo di testo
 outlineElem.AppendChildLast(text);
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-Mostra come creare un documento e salvare in formato html l'intervallo di pagine specificato.
+Mostra come creare un documento e salvarlo in un intervallo di pagine specificato in formato html.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -490,7 +490,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // Ottieni tutti i nodi RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// Scorri ogni nodo
+// Itera attraverso ogni nodo
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -521,34 +521,34 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza l'oggetto della classe RichText e applica lo stile del testo
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
-// Aggiunge il nodo RichText
+// Aggiungi nodo RichText
 outlineElem.AppendChildLast(text);
 
-// Aggiunge il nodo OutlineElement
+// Aggiungi nodo OutlineElement
 outline.AppendChildLast(outlineElem);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
@@ -573,24 +573,24 @@ OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-//---------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -603,13 +603,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica i punti elenco
@@ -632,12 +632,12 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -650,13 +650,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica la numerazione
@@ -678,18 +678,18 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-Mostra come preparare un modello per la riunione settimanale.
+Mostra come preparare un modello per una riunione settimanale.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -775,26 +775,26 @@ outline.AppendChildLast(outlineElem);
 // Inizializza l'oggetto della classe Title
 Title title = new Title() { TitleText = titleText };
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Note.Page() { Title = title };
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

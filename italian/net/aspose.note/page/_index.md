@@ -1,9 +1,9 @@
 ---
-title: Page
+title: Class Page
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta una pagina.
+description: Aspose.Note.Page classe. Rappresenta una pagina.
 type: docs
-weight: 460
+weight: 480
 url: /it/net/aspose.note/page/
 ---
 ## Page class
@@ -18,46 +18,46 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Page](page#constructor)() | Inizializza una nuova istanza di[`Page`](../page) classe. |
+| [Page](page/#constructor)() | Inizializza una nuova istanza di`Page` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../aspose.note/page/author) { get; set; } | Ottiene o imposta l'autore. |
-| [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | Ottiene o imposta il colore di sfondo della pagina. |
-| [CreationTime](../../aspose.note/page/creationtime) { get; set; } | Ottiene o imposta l'ora di creazione. |
-| [Document](../../aspose.note/node/document) { get; } | Ottiene il documento del nodo. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | Ottiene o imposta un valore che indica se questa pagina è una pagina in conflitto. |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Ottiene o imposta l'ultima ora modificata. |
-| [Level](../../aspose.note/page/level) { get; set; } | Ottiene o imposta il livello. |
-| [Margin](../../aspose.note/page/margin) { get; set; } | Ottiene o imposta il margine. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ottiene il tipo di nodo. |
-| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary) { get; set; } | Ottiene o imposta il riepilogo della revisione per la pagina e i suoi nodi figlio. |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize) { get; set; } | Ottiene o imposta la dimensione del layout della pagina visualizzata nell'editor. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ottiene il nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ottiene il nodo precedente allo stesso livello di albero dei nodi. |
-| [SizeType](../../aspose.note/page/sizetype) { get; set; } | Ottiene o imposta il tipo di dimensione di una pagina. |
-| [Title](../../aspose.note/page/title) { get; set; } | Ottiene o imposta il titolo. |
+| [Author](../../aspose.note/page/author/) { get; set; } | Ottiene o imposta l'autore. |
+| [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | Ottiene o imposta il colore di sfondo della pagina. |
+| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | Ottiene o imposta l'ora di creazione. |
+| [Document](../../aspose.note/node/document/) { get; } | Ottiene il documento del nodo. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | Ottiene o imposta un valore che indica se questa pagina è una pagina in conflitto. |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | Ottiene o imposta l'ora dell'ultima modifica. |
+| [Level](../../aspose.note/page/level/) { get; set; } | Ottiene o imposta il livello. |
+| [Margin](../../aspose.note/page/margin/) { get; set; } | Ottiene o imposta il margine. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ottiene il tipo di nodo. |
+| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | Ottiene o imposta il riepilogo della revisione per la pagina e i relativi nodi figlio. |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | Ottiene o imposta la dimensione del layout della pagina visualizzata nell'editor. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ottiene il nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ottiene il nodo precedente allo stesso livello dell'albero dei nodi. |
+| [SizeType](../../aspose.note/page/sizetype/) { get; set; } | Ottiene o imposta il tipo di dimensione di una pagina. |
+| [Title](../../aspose.note/page/title/) { get; set; } | Ottiene o imposta il titolo. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.note/page/accept)(DocumentVisitor) | Accetta il visitatore del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [Clone](../../aspose.note/page/clone)(bool) | Clona la pagina. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | Ottieni tutti i nodi figlio della pagina in base al tipo di nodo. |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IPageChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | Accetta il visitatore del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [Clone](../../aspose.note/page/clone/)(bool) | Clona la pagina. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | Ottieni tutti i nodi figli della pagina in base al tipo di nodo. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Esempi
 
@@ -154,7 +154,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-Mostra come modificare le metainformazioni della pagina.
+Mostra come modificare le meta informazioni della pagina.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -179,7 +179,7 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-Mostra come scorrere tutte le pagine ed effettuare una sostituzione nel testo.
+Mostra come scorrere tutte le pagine e fare una sostituzione nel testo.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -209,7 +209,7 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-Mostra come passare il testo della pagina e fare una sostituzione.
+Mostra come passare attraverso il testo della pagina ed effettuare una sostituzione.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -273,37 +273,37 @@ string dataDir = RunExamples.GetDataDir_Tags();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
 // Carica un'immagine
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 
-// Inserisce l'immagine nel nodo del documento
+// Inserisci l'immagine nel nodo del documento
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-Mostra come verificare se una pagina è una pagina in conflitto (ad es. contiene modifiche che OneNote non è stato in grado di unire automaticamente).
+Mostra come verificare se una pagina è una pagina in conflitto (ovvero presenta modifiche che OneNote non è in grado di unire automaticamente).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -321,7 +321,7 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // Per impostazione predefinita, le pagine di conflitto vengono semplicemente saltate durante il salvataggio.
+    // Per impostazione predefinita, le pagine in conflitto vengono semplicemente saltate al salvataggio.
     // Se contrassegnalo come non in conflitto, verrà salvato come al solito nella cronologia.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
@@ -330,7 +330,7 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-Mostra come creare un documento e salvare in formato html l'intervallo di pagine specificato.
+Mostra come creare un documento e salvarlo in un intervallo di pagine specificato in formato html.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -359,7 +359,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Mostra come creare un documento con una pagina intitolata.
+Mostra come creare un documento con pagina titolata.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -368,7 +368,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // Crea un oggetto della classe Document
 Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Stile predefinito per tutto il testo nel documento.
@@ -385,7 +385,7 @@ page.Title = new Title(doc)
 // Aggiungi il nodo Pagina nel documento
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
@@ -443,24 +443,24 @@ OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-//---------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -473,13 +473,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica i punti elenco
@@ -502,12 +502,12 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -520,13 +520,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica la numerazione
@@ -548,13 +548,13 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -609,16 +609,16 @@ doc.AppendChildLast(page1);
 doc.AppendChildLast(page2);
 doc.AppendChildLast(page3);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IPageChildNode](../ipagechildnode)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IPageChildNode](../ipagechildnode/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

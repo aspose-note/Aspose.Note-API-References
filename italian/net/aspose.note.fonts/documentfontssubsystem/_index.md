@@ -1,14 +1,14 @@
 ---
-title: DocumentFontsSubsystem
+title: Class DocumentFontsSubsystem
 second_title: Aspose.Note per .NET API Reference
-description: Semplice implementazione di Aspose.Note.Fonts.FontsSubsystem. RecuperaFontFamily oggetto dal sistema operativo.
+description: Aspose.Note.Fonts.DocumentFontsSubsystem classe. Semplice implementazione di Aspose.Note.Fonts.FontsSubsystem. RecuperaFontFamily oggetto da OS.
 type: docs
 weight: 100
 url: /it/net/aspose.note.fonts/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem class
 
-Semplice implementazione di Aspose.Note.Fonts.FontsSubsystem. RecuperaFontFamily oggetto dal sistema operativo.
+Semplice implementazione di Aspose.Note.Fonts.FontsSubsystem. RecuperaFontFamily oggetto da OS.
 
 ```csharp
 public class DocumentFontsSubsystem : FontsSubsystem
@@ -18,30 +18,30 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | Nome | Descrizione |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor)(Dictionary&lt;string, string&gt;) | Inizializza una nuova istanza di[`DocumentFontsSubsystem`](../documentfontssubsystem) classe. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Inizializza una nuova istanza di[`DocumentFontsSubsystem`](../documentfontssubsystem) classe. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_2)(string, Dictionary&lt;string, string&gt;) | Inizializza una nuova istanza di[`DocumentFontsSubsystem`](../documentfontssubsystem) classe. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | Inizializza una nuova istanza di`DocumentFontsSubsystem` classe. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Inizializza una nuova istanza di`DocumentFontsSubsystem` classe. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | Inizializza una nuova istanza di`DocumentFontsSubsystem` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| static [Default](../../aspose.note.fonts/documentfontssubsystem/default) { get; set; } | Ottiene o imposta l'istanza predefinita statica. |
-| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont) { get; } | Ottiene o imposta il carattere predefinito. |
+| static [Default](../../aspose.note.fonts/documentfontssubsystem/default/) { get; set; } | Ottiene o imposta l'istanza statica predefinita. |
+| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont/) { get; } | Ottiene o imposta il carattere predefinito. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont)(string, Dictionary&lt;string, string&gt;) | Crea una nuova istanza DocumentFontsSubsystem utilizzando il nome del carattere predefinito specificato. |
-| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Crea una nuova istanza DocumentFontsSubsystem utilizzando un font dal file specificato come predefinito. |
-| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Crea una nuova istanza DocumentFontsSubsystem utilizzando un font dal flusso specificato come predefinito. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Aggiungi il carattere. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Aggiungi il carattere. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Aggiungi il carattere. |
-| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | Aggiunge la sostituzione del carattere. |
-| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | Ottiene la famiglia di caratteri. |
-| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | Carica tutti i font TrueType dalla cartella specificata alla raccolta interna. |
+| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont/)(string, Dictionary&lt;string, string&gt;) | Crea una nuova istanza DocumentFontsSubsystem utilizzando il nome del carattere predefinito specificato. |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | Crea una nuova istanza DocumentFontsSubsystem utilizzando un font dal file specificato come predefinito. |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | Crea una nuova istanza DocumentFontsSubsystem utilizzando un font dallo stream specificato come predefinito. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream) | Aggiungi il carattere. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(string) | Aggiungi il carattere. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream, string) | Aggiungi il carattere. |
+| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution/)(string, string) | Aggiunge la sostituzione dei caratteri. |
+| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily/)(string) | Ottiene la famiglia di caratteri. |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | Carica tutti i font TrueType dalla cartella specificata alla raccolta interna. |
 
 ### Esempi
 
@@ -81,7 +81,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-Mostra come salvare un documento in formato pdf utilizzando il carattere predefinito da uno stream.
+Mostra come salvare un documento in formato pdf utilizzando il carattere predefinito da un flusso.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -106,8 +106,8 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Guarda anche
 
-* class [FontsSubsystem](../fontssubsystem)
-* spazio dei nomi [Aspose.Note.Fonts](../../aspose.note.fonts)
+* class [FontsSubsystem](../fontssubsystem/)
+* spazio dei nomi [Aspose.Note.Fonts](../../aspose.note.fonts/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

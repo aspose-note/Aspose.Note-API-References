@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Document.Save
 second_title: Aspose.Note für .NET-API-Referenz
-description: Speichert das OneNote-Dokument in einer Datei.
+description: Document methode. Speichert das OneNoteDokument in einer Datei.
 type: docs
 weight: 140
 url: /de/net/aspose.note/document/save/
@@ -22,8 +22,8 @@ public void Save(string fileName)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Beispiele
 
@@ -40,8 +40,8 @@ doc.Save(dataDir + outputFile);
 
 ### Siehe auch
 
-* class [Document](../../document)
-* namensraum [Aspose.Note](../../document)
+* class [Document](../)
+* namensraum [Aspose.Note](../../document/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -62,13 +62,13 @@ public void Save(Stream stream)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Siehe auch
 
-* class [Document](../../document)
-* namensraum [Aspose.Note](../../document)
+* class [Document](../)
+* namensraum [Aspose.Note](../../document/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -90,8 +90,8 @@ public void Save(string fileName, SaveFormat format)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Beispiele
 
@@ -124,9 +124,9 @@ oneFile.Save(dataDir, SaveFormat.Gif);
 
 ### Siehe auch
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* namensraum [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* namensraum [Aspose.Note](../../document/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -148,8 +148,8 @@ public void Save(Stream stream, SaveFormat format)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Beispiele
 
@@ -183,11 +183,37 @@ doc.Save(dstStream, SaveFormat.Pdf);
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
+Zeigt, wie man den dunklen Designstil auf ein Dokument anwendet.
+
+```csharp
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Laden Sie das Dokument in Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 ### Siehe auch
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* namensraum [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* namensraum [Aspose.Note](../../document/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -209,8 +235,8 @@ public void Save(string fileName, SaveOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Beispiele
 
@@ -254,6 +280,36 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
 // Speichern Sie das Dokument.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
+```
+
+Zeigt, wie ein Dokument im PDF-Format mit dem Seitenlayout "Letter" gespeichert wird.
+
+```csharp
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Laden Sie das Dokument in Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Speichern Sie das Dokument.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Zeigt, wie Sie ein Dokument im Pdf-Format mit A4-Seitenlayout ohne Höhenbegrenzung speichern.
+
+```csharp
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Laden Sie das Dokument in Aspose.Note.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Speichern Sie das Dokument.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
 Zeigt, wie ein Dokument als Graustufenbild gespeichert wird.
@@ -424,9 +480,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### Siehe auch
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* namensraum [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* namensraum [Aspose.Note](../../document/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -448,8 +504,8 @@ public void Save(Stream stream, SaveOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Beispiele
 
@@ -514,9 +570,9 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Siehe auch
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* namensraum [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* namensraum [Aspose.Note](../../document/)
 * Montage [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

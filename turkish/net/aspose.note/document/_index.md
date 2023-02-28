@@ -1,7 +1,7 @@
 ---
-title: Document
+title: Class Document
 second_title: Aspose.Note for .NET API Referansı
-description: Bir Aspose.Note belgesini temsil eder.
+description: Aspose.Note.Document sınıf. Bir Aspose.Note belgesini temsil eder.
 type: docs
 weight: 60
 url: /tr/net/aspose.note/document/
@@ -18,63 +18,63 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | İsim | Tanım |
 | --- | --- |
-| [Document](document#constructor)() | Yeni bir örneğini başlatır[`Document`](../document) class. Boş bir OneNote belgesi oluşturur. |
-| [Document](document#constructor_1)(Stream) | Yeni bir örneğini başlatır[`Document`](../document) class. Bir akıştan mevcut bir OneNote belgesini açar. |
-| [Document](document#constructor_3)(string) | Yeni bir örneğini başlatır[`Document`](../document) class. Bir dosyadan mevcut bir OneNote belgesini açar. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | Yeni bir örneğini başlatır[`Document`](../document) class. Bir akıştan var olan bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir. |
-| [Document](document#constructor_4)(string, LoadOptions) | Yeni bir örneğini başlatır[`Document`](../document) class. Bir dosyadan var olan bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir. |
+| [Document](document/#constructor)() | Yeni bir örneğini başlatır.`Document` class. Boş bir OneNote belgesi oluşturur. |
+| [Document](document/#constructor_1)(Stream) | Yeni bir örneğini başlatır.`Document` class. Akıştan mevcut bir OneNote belgesini açar. |
+| [Document](document/#constructor_3)(string) | Yeni bir örneğini başlatır.`Document` class. Bir dosyadan mevcut bir OneNote belgesini açar. |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | Yeni bir örneğini başlatır.`Document` class. Akıştan mevcut bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirtilmesine izin verir. |
+| [Document](document/#constructor_4)(string, LoadOptions) | Yeni bir örneğini başlatır.`Document`class. Bir dosyadan mevcut bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirtilmesine izin verir. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Aspose.Note'un mizanpaj değişikliklerini otomatik olarak tespit edip etmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer`doğru` . |
-| [Color](../../aspose.note/document/color) { get; set; } | Rengi alır veya ayarlar. |
-| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | Oluşturma zamanını alır veya ayarlar. |
-| [DisplayName](../../aspose.note/document/displayname) { get; set; } | Görünen adı alır veya ayarlar. |
-| [Document](../../aspose.note/node/document) { get; } | Düğümün belgesini alır. |
-| [FileFormat](../../aspose.note/document/fileformat) { get; } | Dosya biçimini alır (OneNote 2010, OneNote Online). |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [Guid](../../aspose.note/document/guid) { get; } | Nesnenin global olarak benzersiz kimliğini alır. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Aynı düğüm ağacı düzeyinde bir sonraki düğümü alır. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Düğüm türünü alır. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Üst düğümü alır. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Aynı düğüm ağacı düzeyinde önceki düğümü alır. |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | Aspose.Note'un düzen değişikliklerini otomatik olarak tespit edip etmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`doğru` . |
+| [Color](../../aspose.note/document/color/) { get; set; } | Rengi alır veya ayarlar. |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | Oluşturma zamanını alır veya ayarlar. |
+| [DisplayName](../../aspose.note/document/displayname/) { get; set; } | Görünen adı alır veya ayarlar. |
+| [Document](../../aspose.note/node/document/) { get; } | Düğümün belgesini alır. |
+| [FileFormat](../../aspose.note/document/fileformat/) { get; } | Dosya biçimini alır (OneNote 2010, OneNote Çevrimiçi). |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Guid](../../aspose.note/document/guid/) { get; } | Nesnenin küresel olarak benzersiz kimliğini alır. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Aynı düğüm ağacı seviyesindeki bir sonraki düğümü alır. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Düğüm türünü alır. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Üst düğümü alır. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Aynı düğüm ağacı seviyesindeki önceki düğümü alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Bir öncekinden bu yana belge düzeninde yapılan tüm değişiklikleri algılar.[`DetectLayoutChanges`](./detectlayoutchanges) call. Duruma göre[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) true olarak ayarlanır, belge dışa aktarımının başlangıcında otomatik olarak kullanılır. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | [`PageHistory`](../pagehistory) bir belgede sunulan her sayfanın tam geçmişini içerir (en erken dizin 0'da). Geçerli sayfa revizyonuna şu şekilde erişilebilir:[`Current`](../pagehistory/current)ve geçmiş sürümler koleksiyonundan ayrı olarak bulunur. |
-| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | Sağlanan PDF belgesinden bir dizi sayfayı içe aktarır. |
-| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | Sağlanan PDF belgesinden bir dizi sayfayı içe aktarır. |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | Bir dizi sayfayı belgeyle birleştirir. |
-| [Print](../../aspose.note/document/print#print)() | Belgeyi varsayılan yazıcıyı kullanarak yazdırır. |
-| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | Belgeyi varsayılan yazıcıyı kullanarak yazdırır. |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save#save)(Stream) | OneNote belgesini bir akışa kaydeder. |
-| [Save](../../aspose.note/document/save#save_3)(string) | OneNote belgesini bir dosyaya kaydeder. |
-| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | OneNote belgesini belirtilen biçimde bir akışa kaydeder. |
-| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir akışa kaydeder. |
-| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | OneNote belgesini belirtilen biçimde bir dosyaya kaydeder. |
-| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir dosyaya kaydeder. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına neden olabilir. |
+| override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | Öncekinden bu yana belge düzeninde yapılan tüm değişiklikleri algılar.[`DetectLayoutChanges`](./detectlayoutchanges/) call. Durumda[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) true olarak ayarlandı, belge dışa aktarımının başlangıcında otomatik olarak kullanıldı. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | Şunu alır:[`PageHistory`](../pagehistory/) bir belgede sunulan her sayfa için tam geçmişi içeren (en erken dizin 0). Geçerli sayfa revizyonuna şu şekilde erişilebilir:[`Current`](../pagehistory/current/) ve geçmiş sürümlerin koleksiyonundan ayrı olarak yer alır. |
+| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | Sağlanan PDF belgesinden bir dizi sayfayı içe aktarır. |
+| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | Sağlanan PDF belgesinden bir dizi sayfayı içe aktarır. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
+| [Merge](../../aspose.note/document/merge/)(IEnumerable&lt;Page&gt;, MergeOptions) | Bir dizi sayfayı belgeyle birleştirir. |
+| [Print](../../aspose.note/document/print/#print)() | Varsayılan yazıcıyı kullanarak belgeyi yazdırır. |
+| [Print](../../aspose.note/document/print/#print_1)(PrintOptions) | Varsayılan yazıcıyı kullanarak belgeyi yazdırır. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Save](../../aspose.note/document/save/#save)(Stream) | OneNote belgesini bir akışa kaydeder. |
+| [Save](../../aspose.note/document/save/#save_3)(string) | OneNote belgesini bir dosyaya kaydeder. |
+| [Save](../../aspose.note/document/save/#save_1)(Stream, SaveFormat) | OneNote belgesini belirtilen biçimde bir akışa kaydeder. |
+| [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir akışa kaydeder. |
+| [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | OneNote belgesini belirtilen biçimde bir dosyaya kaydeder. |
+| [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak OneNote belgesini bir dosyaya kaydeder. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | Bir akıştaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | Bir dosyadaki belgenin şifrelenip şifrelenmediğini kontrol eder. Bunu kontrol etmek için bu belgeyi tamamen yüklememiz gerekir. Dolayısıyla bu yöntem performans cezasına yol açabilir. |
 
 ### Örnekler
 
@@ -100,7 +100,7 @@ Document doc = new Document(dataDir + inputFile);
 doc.Save(dataDir + outputFile);
 ```
 
-Şifrelenmiş bir belgenin nasıl yapıldığını gösterir.
+Bir belgenin nasıl şifreleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -110,7 +110,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-Belgenin şifreleme ile nasıl kaydedileceğini gösterir.
+Dokümanın şifreli olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -120,7 +120,7 @@ Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
 
-SaveFormat numaralandırma kullanılarak bir belgenin nasıl kaydedileceğini gösterir.
+SaveFormat numaralandırmayı kullanarak bir belgenin nasıl kaydedileceğini gösterir.
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -156,7 +156,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // Sayfa sayısını al
 int count = oneFile.Count();
 
-// Çıktı ekranında sayıyı yazdır
+// Çıkış ekranında baskı sayısı
 Console.WriteLine(count);
 ```
 
@@ -204,7 +204,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
-Belgeyi resim olarak kaydederken bir resim çözünürlüğünün nasıl ayarlanacağını gösterir.
+Belgeyi görüntü olarak kaydederken görüntü çözünürlüğünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -219,7 +219,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
-Bir belgenin dosya biçiminin nasıl alınacağını gösterir.
+Bir belgenin dosya formatının nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -237,7 +237,7 @@ switch (document.FileFormat)
 }
 ```
 
-Bir görüntüye bir köprünün nasıl bağlanacağını gösterir.
+Bir görüntüye köprünün nasıl bağlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -290,16 +290,16 @@ else
 }
 ```
 
-Bir not defterine nasıl yeni bölüm ekleneceğini gösterir.
+Not defterine nasıl yeni bölüm ekleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// OneNote Not Defterini Yükle
+// Bir OneNote Not Defteri yükleyin
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
-// Defter'e yeni bir çocuk ekle
+// Not Defterine yeni bir alt öğe ekleyin
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
 
 dataDir = dataDir + "AddChildNode_out.onetoc2";
@@ -308,7 +308,7 @@ dataDir = dataDir + "AddChildNode_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-OneNote 2007 biçimi desteklenmediği için belge yüklemesinin başarısız olup olmadığının nasıl kontrol edileceğini gösterir.
+OneNote 2007 formatı desteklenmediği için belge yüklemenin başarısız olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -336,7 +336,7 @@ Bir sayfanın önceki sürümünün nasıl geri yükleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle ve ilk çocuğu al           
+// OneNote belgesini yükleyin ve ilk çocuğu alın           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -347,25 +347,25 @@ document.AppendChildLast(previousPageVersion);
 document.Save(dataDir + "RollBackRevisions_out.one");
 ```
 
-Bir sayfanın nasıl klonlanacağını gösterir.
+Bir sayfanın nasıl kopyalanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle
+// OneNote belgesini yükleyin
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// Geçmiş olmadan yeni belgeye klonla
+// Geçmiş olmadan yeni belgeye kopyala
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// Geçmişi olan yeni belgeye klonla
+// Geçmişi olan yeni belgeye kopyala
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
-Tüm kaynakları (css/fonts/images) ayrı bir dosyaya depolayarak bir belgenin html formatında nasıl kaydedileceğini gösterir.
+Tüm kaynakları (css/fonts/images) ayrı bir dosyaya kaydederek bir belgenin html formatında nasıl kaydedileceğini gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -381,7 +381,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-Tüm kaynakların (css/fonts/images) gömülmesiyle bir belgenin html formatında bir akışa nasıl kaydedileceğini gösterir.
+Tüm kaynakların (css/fonts/images) gömülmesiyle bir belgenin html biçiminde bir akışa nasıl kaydedileceğini gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -439,7 +439,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalara bölünür. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
+Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalar arasında bölünürler. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -470,7 +470,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // ImageSaveOptions nesnesini başlat 
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
                             {
-                                // Sayfa indeksini ayarla
+                                // Sayfa dizinini ayarla
                                 PageIndex = 1
                             };
 
@@ -480,13 +480,13 @@ dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 oneFile.Save(dataDir, opts);
 ```
 
-Sayfanın geçmişinin nasıl düzenleneceğini gösterir.
+Sayfa geçmişinin nasıl düzenleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle ve ilk çocuğu al           
+// OneNote belgesini yükleyin ve ilk çocuğu alın           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -507,7 +507,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-Bir belgenin belirli bir parolayla parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir belgenin belirli bir parola ile parola korumalı olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -532,7 +532,33 @@ else
 }
 ```
 
-Bir not defterinin içeriğinden nasıl geçileceğini gösterir.
+Koyu tema stilinin bir Belgeye nasıl uygulanacağını gösterir.
+
+```csharp
+// Belgeler dizininin yolu.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Belgeyi Aspose.Note'a yükleyin.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
+Not defteri içeriğinden nasıl geçileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -546,11 +572,11 @@ try
         Console.WriteLine(notebookChildNode.DisplayName);
         if (notebookChildNode is Document)
         {
-            // Alt belgeyle bir şeyler yap
+            // alt belge ile bir şeyler yap
         }
         else if (notebookChildNode is Notebook)
         {
-            // Alt not defteriyle bir şeyler yap
+            // Alt not defteri ile bir şeyler yapın
         }
     }
 }
@@ -560,7 +586,7 @@ catch (Exception ex)
 }
 ```
 
-Bir belgeden nasıl görüntü alınacağını gösterir.
+Bir belgeden nasıl resim alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -597,7 +623,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // PdfSaveOptions nesnesini başlat
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Kaydedilecek ilk sayfanın sayfa indeksini ayarla
+                              // Kaydedilecek ilk sayfanın sayfa dizinini ayarla
                               PageIndex = 0,
 
                               // Sayfa sayısını ayarla
@@ -621,10 +647,10 @@ Document doc = new Document(dataDir + "Aspose.one");
 // PdfSaveOptions nesnesini başlat
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Jpeg sıkıştırmasını kullan
+                              // Jpeg sıkıştırmayı kullan
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
-                              // JPEG sıkıştırması için kalite
+                              // JPEG sıkıştırma kalitesi
                               JpegQuality = 90
                           };
 
@@ -653,7 +679,35 @@ document.Print(new PrintOptions()
                });
 ```
 
-Resmin meta bilgilerinin nasıl alınacağını gösterir.
+Ekli bir dosyanın içeriğinin nasıl alınacağını gösterir.
+
+```csharp
+// Belgeler dizininin yolu.
+string dataDir = RunExamples.GetDataDir_Attachments();
+
+// Belgeyi Aspose.Note'a yükleyin.
+Document oneFile = new Document(dataDir + "Sample1.one");
+
+// Ekli dosya düğümlerinin bir listesini alın
+IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
+
+// Tüm düğümleri yinele
+foreach (AttachedFile file in nodes)
+{
+    // Ekli dosyayı bir akış nesnesine yükleyin
+    using (Stream outputStream = new MemoryStream(file.Bytes))
+    {
+        // Yerel bir dosya oluştur
+        using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
+        {
+            // Dosya akışını kopyala
+            CopyStream(outputStream, fileStream);
+        }
+    }
+}
+```
+
+Görüntünün meta bilgilerinin nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -677,41 +731,13 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-Ekli bir dosyanın içeriğinin nasıl alınacağını gösterir.
-
-```csharp
-// Belgeler dizininin yolu.
-string dataDir = RunExamples.GetDataDir_Attachments();
-
-// Belgeyi Aspose.Note'a yükleyin.
-Document oneFile = new Document(dataDir + "Sample1.one");
-
-// Ekli dosya düğümlerinin bir listesini alın
-IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
-
-// Tüm düğümler arasında yineleme
-foreach (AttachedFile file in nodes)
-{
-    // Ekli dosyayı bir akış nesnesine yükle
-    using (Stream outputStream = new MemoryStream(file.Bytes))
-    {
-        // yerel bir dosya oluştur
-        using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
-        {
-            // Dosya akışını kopyala
-            CopyStream(outputStream, fileStream);
-        }
-    }
-}
-```
-
-Sayfanın geçmişinin nasıl alınacağını gösterir.
+Sayfa geçmişinin nasıl alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle
+// OneNote belgesini yükleyin
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // İlk sayfayı al
@@ -734,7 +760,7 @@ Dosya yolunu kullanarak bir belgeye nasıl dosya ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Attachments();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -752,7 +778,7 @@ AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 // Ekli dosyayı ekle
 outlineElem.AppendChildLast(attachedFile);
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -765,7 +791,7 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
-Varsayılan seçenekleri kullanarak bir belgenin nasıl oluşturulacağını ve html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve varsayılan seçenekleri kullanarak html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -775,7 +801,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -784,17 +810,17 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-Bir sayfanın çakışma sayfası olup olmadığının nasıl kontrol edileceğini gösterir (yani, OneNote'un otomatik olarak birleştiremeyeceği değişikliklere sahiptir).
+Bir sayfanın çakışma sayfası olup olmadığının nasıl kontrol edileceğini gösterir (yani, OneNote'un otomatik olarak birleştiremediği değişiklikler içerir).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle
+// OneNote belgesini yükleyin
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -807,8 +833,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // Varsayılan olarak çakışan sayfalar kaydedilirken atlanır.
-    // Çakışmaz olarak işaretlerseniz, tarihte her zamanki gibi kaydedilecektir.
+    // Varsayılan olarak çakışma sayfaları kaydedilirken atlanır.
+    // Çakışmasız olarak işaretlerseniz, geçmişe her zamanki gibi kaydedilecektir.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -822,20 +848,20 @@ Kullanıcı tanımlı özelliklere sahip bir belgeye dosyadan nasıl resim eklen
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// Akıştan belge yükle.
+// Belgeyi akıştan yükleyin.
 Document doc = new Document(dataDir + "Aspose.one");
 
-// Belgenin ilk sayfasını al.
+// Belgenin ilk sayfasını alın.
 Aspose.Note.Page page = doc.FirstChild;
 
 // Dosyadan bir resim yükleyin.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // Resmin boyutunu ihtiyaçlarınıza göre değiştirin (isteğe bağlı).
+                              // Görüntünün boyutunu ihtiyaçlarınıza göre değiştirin (isteğe bağlı).
                               Width = 100,
                               Height = 100,
 
-                              // Resmin sayfadaki konumunu ayarlayın (isteğe bağlı).
+                              // Görüntünün sayfadaki konumunu ayarlayın (isteğe bağlı).
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
@@ -853,7 +879,7 @@ Bir akıştan bir belgeye nasıl dosya ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Attachments();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -867,14 +893,14 @@ OutlineElement outlineElem = new OutlineElement(doc);
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    // AttachedFile sınıf nesnesini başlatın ve ayrıca simge yolunu iletin
+    // AttachedFile sınıf nesnesini başlat ve simge yolunu da ilet
     AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // Ekli dosyayı ekle
     outlineElem.AppendChildLast(attachedFile);
 }
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -887,7 +913,7 @@ dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalara bölünür. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
+Uzun OneNote sayfaları pdf biçiminde kaydedildiğinde, sayfalar arasında bölünürler. Örnek, sayfa sonlarında bulunan nesnelerin bölme mantığının nasıl yapılandırılacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -915,7 +941,7 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığının html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığında html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -926,7 +952,7 @@ Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -935,7 +961,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -944,19 +970,19 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Başlık sayfası olan bir belgenin nasıl oluşturulacağını gösterir.
+Başlıklı sayfalı bir belgenin nasıl oluşturulacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Sayfa başlığı özelliklerini ayarla
@@ -967,7 +993,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// Belgeye Sayfa düğümü ekle
+// Sayfa düğümünü belgeye ekle
 doc.AppendChildLast(page);
 
 // OneNote belgesini kaydet
@@ -981,7 +1007,7 @@ Akıştan bir belgeye nasıl resim ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -993,7 +1019,7 @@ OutlineElement outlineElem1 = new OutlineElement(doc);
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // Görüntü adını, uzantısını ve akışını kullanarak ikinci görüntüyü yükleyin.
+    // Resim adını, uzantısını ve akışını kullanarak ikinci resmi yükleyin.
     Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
                                    {
                                        // Görüntü hizalamasını ayarla
@@ -1019,7 +1045,7 @@ Dosyadan belgeye nasıl resim ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -1061,7 +1087,7 @@ Metin içeren bir belgenin nasıl oluşturulacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -1076,7 +1102,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // RichText düğümü ekle
@@ -1108,7 +1134,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 // Yeni Sayfayı başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title(doc)
              {
@@ -1117,7 +1143,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// Sayfa düğümü ekle
+// Sayfa düğümünü ekle
 doc.AppendChildLast(page);
 
 // OneNote belgesini farklı biçimlerde kaydedin, metin yazı tipi boyutunu ayarlayın ve düzen değişikliklerini manuel olarak algılayın.
@@ -1129,11 +1155,11 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-Kullanıcı tanımlı geri aramaları kullanarak tüm kaynakları (css/fonts/images) depolayarak bir belgenin html formatında nasıl kaydedileceğini gösterir.
+Kullanıcı tanımlı geri aramalar kullanarak tüm kaynakları (css/fonts/images) depolayarak bir belgenin html formatında nasıl kaydedileceğini gösterir.
 
 ```csharp
-// Aşağıdaki kod, document.html dosyasını içeren 'documentFolder' klasörünü, 'style.css' dosyasını içeren 'css' klasörünü, görüntüleri içeren 'images' klasörünü ve yazı tiplerini içeren 'fonts' klasörünü oluşturur.
-// 'style.css' dosyasının sonunda aşağıdaki dizeyi içerecektir "/* Bu satır, kullanıcı tarafından manuel olarak akışa eklenir */"
+// Aşağıdaki kod, document.html'yi içeren 'documentFolder' klasörünü, 'style.css' dosyasını içeren 'css' klasörünü, resimleri içeren 'images' klasörünü ve fontları içeren 'fonts' klasörünü oluşturur.
+// 'style.css' dosyası sonunda şu dizeyi içerecektir "/* Bu satır akışa kullanıcı tarafından manuel olarak eklenmiştir */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",
@@ -1170,13 +1196,13 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 }
 ```
 
-Bir metne bir köprünün nasıl bağlanacağını gösterir.
+Bir metne köprünün nasıl bağlanacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -1213,7 +1239,7 @@ outlineElem.AppendChildLast(text);
 // Anahat öğeleri ekle
 outline.AppendChildLast(outlineElem);
 
-// Title sınıf nesnesini başlat
+// Başlık sınıfı nesnesini başlat
 Title title = new Title() { TitleText = titleText };
 
 // Sayfa sınıfı nesnesini başlat
@@ -1238,22 +1264,22 @@ public static void Run()
     // Belgeler dizininin yolu.
     string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-    // Dönüştürmek istediğimiz belgeyi açıyoruz.
+    // Dönüştürmek istediğimiz belgeyi açın.
     Document doc = new Document(dataDir + "Aspose.one");
 
     // DocumentVisitor sınıfından miras alan bir nesne oluşturun.
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // Bu, iyi bilinen Ziyaretçi kalıbıdır. Bir ziyaretçiyi kabul etmek için modeli alın.
-    // Model, ilgili yöntemleri çağırarak kendi içinde yinelenir
+    // Bu, iyi bilinen Ziyaretçi modelidir. Modelin bir ziyaretçiyi kabul etmesini sağlayın.
+    // Model, karşılık gelen yöntemleri çağırarak kendi içinde yinelenir
     // ziyaretçi nesnesinde (buna ziyaret denir).
     //
-    // Nesne modelindeki her düğümün Kabul Et yöntemine sahip olduğuna dikkat edin, bu nedenle ziyaret
-    // yalnızca belgenin tamamı için değil, belgedeki herhangi bir düğüm için yürütülebilir.
+    // Nesne modelindeki her düğümün Kabul yöntemine sahip olduğuna dikkat edin, böylece ziyaret
+    // sadece tüm belge için değil, belgedeki herhangi bir düğüm için yürütülebilir.
     doc.Accept(myConverter);
 
-    // Ziyaret tamamlandıktan sonra işlemin sonucunu alabiliriz,
-    // bu örnekte, ziyaretçide biriken.
+    // Ziyaret tamamlandığında işlemin sonucunu alabiliriz,
+    // bu örnekte ziyaretçide birikmiş olan.
     Console.WriteLine(myConverter.GetText());
     Console.WriteLine(myConverter.NodeCount);            
 }
@@ -1279,7 +1305,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Mevcut çıktıya metin ekler. Etkin/devre dışı çıkış bayrağını onurlandırır.
+    ///Mevcut çıktıya metin ekler. Etkin/devre dışı çıkış bayrağını onurlandırır.
     /// </summary>
     private void AppendText(string text)
     {
@@ -1348,7 +1374,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Outline düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir Ana Hat düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -1379,10 +1405,10 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Ayrıca bakınız
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [Page](../page)
-* interface [INotebookChildNode](../inotebookchildnode)
-* ad alanı [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Page](../page/)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

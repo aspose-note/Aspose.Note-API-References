@@ -1,7 +1,7 @@
 ---
-title: DocumentFontsSubsystem
+title: Class DocumentFontsSubsystem
 second_title: Aspose.Note for .NET API Referansı
-description: Aspose.Note.Fonts.FontsSubsystemın basit uygulaması. alırFontFamily OS. den nesne
+description: Aspose.Note.Fonts.DocumentFontsSubsystem sınıf. Aspose.Note.Fonts.FontsSubsystemın basit uygulaması. alırFontFamily OS. den nesne
 type: docs
 weight: 100
 url: /tr/net/aspose.note.fonts/documentfontssubsystem/
@@ -18,34 +18,34 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | İsim | Tanım |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor)(Dictionary&lt;string, string&gt;) | Yeni bir örneğini başlatır[`DocumentFontsSubsystem`](../documentfontssubsystem) sınıf. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Yeni bir örneğini başlatır[`DocumentFontsSubsystem`](../documentfontssubsystem) sınıf. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_2)(string, Dictionary&lt;string, string&gt;) | Yeni bir örneğini başlatır[`DocumentFontsSubsystem`](../documentfontssubsystem) sınıf. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | Yeni bir örneğini başlatır.`DocumentFontsSubsystem` sınıf. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Yeni bir örneğini başlatır.`DocumentFontsSubsystem` sınıf. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | Yeni bir örneğini başlatır.`DocumentFontsSubsystem` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| static [Default](../../aspose.note.fonts/documentfontssubsystem/default) { get; set; } | Statik varsayılan örneği alır veya ayarlar. |
-| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont) { get; } | Varsayılan yazı tipini alır veya ayarlar. |
+| static [Default](../../aspose.note.fonts/documentfontssubsystem/default/) { get; set; } | Statik varsayılan örneği alır veya ayarlar. |
+| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont/) { get; } | Varsayılan yazı tipini alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont)(string, Dictionary&lt;string, string&gt;) | Belirtilen varsayılan yazı tipi adını kullanarak yeni DocumentFontsSubsystem örneği oluşturun. |
-| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Varsayılan olarak belirtilen dosyadan bir yazı tipi kullanarak yeni DocumentFontsSubsystem örneği oluşturun. |
-| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Varsayılan olarak belirtilen akıştan bir yazı tipi kullanarak yeni DocumentFontsSubsystem örneği oluşturun. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Yazı tipini ekleyin. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Yazı tipini ekleyin. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Yazı tipini ekleyin. |
-| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | Yazı tipi değişikliği ekler. |
-| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | Yazı tipi ailesini alır. |
-| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | Belirtilen klasördeki tüm TrueType yazı tiplerini dahili koleksiyona yükler. |
+| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont/)(string, Dictionary&lt;string, string&gt;) | Belirtilen varsayılan yazı tipi adını kullanarak yeni DocumentFontsSubsystem örneği oluşturun. |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | Belirtilen dosyadaki bir yazı tipini varsayılan olarak kullanarak yeni DocumentFontsSubsystem örneği oluşturun. |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | Varsayılan olarak belirtilen akıştan bir yazı tipi kullanarak yeni DocumentFontsSubsystem örneği oluşturun. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream) | Yazı tipini ekleyin. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(string) | Yazı tipini ekleyin. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream, string) | Yazı tipini ekleyin. |
+| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution/)(string, string) | Yazı tipi değişikliğini ekler. |
+| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily/)(string) | Yazı tipi ailesini alır. |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | Belirtilen klasördeki tüm TrueType yazı tiplerini dahili koleksiyona yükler. |
 
 ### Örnekler
 
-Belirtilen varsayılan yazı tipini kullanarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
+Belirtilen varsayılan yazı tipi kullanılarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -62,7 +62,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-Bir dosyadan varsayılan yazı tipini kullanarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
+Bir dosyadan varsayılan yazı tipini kullanarak bir belgeyi pdf biçiminde nasıl kaydedeceğinizi gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -81,7 +81,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-Bir akıştan varsayılan yazı tipini kullanarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
+Bir akıştan varsayılan yazı tipi kullanılarak bir belgenin pdf biçiminde nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -106,8 +106,8 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Ayrıca bakınız
 
-* class [FontsSubsystem](../fontssubsystem)
-* ad alanı [Aspose.Note.Fonts](../../aspose.note.fonts)
+* class [FontsSubsystem](../fontssubsystem/)
+* ad alanı [Aspose.Note.Fonts](../../aspose.note.fonts/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

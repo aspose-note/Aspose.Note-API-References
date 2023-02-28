@@ -1,9 +1,9 @@
 ---
-title: NumberList
+title: Class NumberList
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Representa la lista numerada o con viñetas.
+description: Aspose.Note.NumberList clase. Representa la lista numerada o con viñetas.
 type: docs
-weight: 420
+weight: 440
 url: /es/net/aspose.note/numberlist/
 ---
 ## NumberList class
@@ -18,31 +18,31 @@ public class NumberList
 
 | Nombre | Descripción |
 | --- | --- |
-| [NumberList](numberlist#constructor_1)(string, string, int) | Inicializa una nueva instancia del[`NumberList`](../numberlist) class. Esta instancia representa una lista con viñetas. |
-| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Inicializa una nueva instancia del[`NumberList`](../numberlist)class. Esta instancia representa una lista numerada. |
+| [NumberList](numberlist/#constructor_1)(string, string, int) | Inicializa una nueva instancia del`NumberList`class. Esta instancia representa una lista con viñetas. |
+| [NumberList](numberlist/#constructor)(string, NumberFormat, string, int) | Inicializa una nueva instancia del`NumberList` class. Esta instancia representa una lista numerada. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Font](../../aspose.note/numberlist/font) { get; set; } | Obtiene o establece el nombre de la fuente. |
-| [FontColor](../../aspose.note/numberlist/fontcolor) { get; set; } | Obtiene o establece el color de la fuente. |
-| [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | Obtiene o establece el tamaño de fuente. |
-| [Format](../../aspose.note/numberlist/format) { get; set; } | Obtiene o establece el formato del encabezado de línea. Para listas con viñetas representa un símbolo de viñeta. |
-| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Obtiene o establece un valor que indica si el estilo de texto está en negrita. |
-| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | Obtiene o establece un valor que indica si el estilo del texto es cursiva. |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Obtiene o establece la hora de última modificación. |
-| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Obtiene o establece el formato de número utilizado para un grupo de objetos numerados automáticamente. Debería ser nulo para listas con viñetas. |
-| [Restart](../../aspose.note/numberlist/restart) { get; set; } | Obtiene o establece el valor numérico que anula el valor numérico automático del elemento de la lista. |
+| [Font](../../aspose.note/numberlist/font/) { get; set; } | Obtiene o establece el nombre de la fuente. |
+| [FontColor](../../aspose.note/numberlist/fontcolor/) { get; set; } | Obtiene o establece el color de la fuente. |
+| [FontSize](../../aspose.note/numberlist/fontsize/) { get; set; } | Obtiene o establece el tamaño de fuente. |
+| [Format](../../aspose.note/numberlist/format/) { get; set; } | Obtiene o establece el formato del encabezado de línea. Para listas con viñetas representa un símbolo de viñeta. |
+| [IsBold](../../aspose.note/numberlist/isbold/) { get; set; } | Obtiene o establece un valor que indica si el estilo de texto está en negrita. |
+| [IsItalic](../../aspose.note/numberlist/isitalic/) { get; set; } | Obtiene o establece un valor que indica si el estilo del texto es cursiva. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime/) { get; set; } | Obtiene o establece la hora de última modificación. |
+| [NumberFormat](../../aspose.note/numberlist/numberformat/) { get; set; } | Obtiene o establece el formato de número utilizado para un grupo de objetos numerados automáticamente. Debería ser nulo para listas con viñetas. |
+| [Restart](../../aspose.note/numberlist/restart/) { get; set; } | Obtiene o establece el valor numérico que anula el valor numérico automático del elemento de la lista. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | Determina si el objeto especificado es igual al objeto actual. |
-| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | Determina si el objeto especificado es igual al objeto actual. |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Sirve como función hash para el tipo. |
-| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Obtiene el encabezado de la lista numerada. |
+| [Equals](../../aspose.note/numberlist/equals/#equals)(NumberList) | Determina si el objeto especificado es igual al objeto actual. |
+| override [Equals](../../aspose.note/numberlist/equals/#equals_1)(object) | Determina si el objeto especificado es igual al objeto actual. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode/)() | Sirve como función hash para el tipo. |
+| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader/)(int) | Obtiene el encabezado de la lista numerada. |
 
 ### Ejemplos
 
@@ -54,7 +54,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Cargue el documento en Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// Recuperar una colección de nodos del elemento de esquema
+// Recuperar una colección de nodos del elemento de contorno
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
 // Iterar a través de cada nodo
@@ -180,7 +180,7 @@ doc.Save(dataDir);
 
 ### Ver también
 
-* espacio de nombres [Aspose.Note](../../aspose.note)
+* espacio de nombres [Aspose.Note](../../aspose.note/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

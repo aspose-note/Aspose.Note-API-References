@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Aspose.Note for .NET API 参考
-description: 代表一个标题
+description: Aspose.Note.Title 班级. 代表一个标题
 type: docs
-weight: 950
+weight: 980
 url: /zh/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Title](title#constructor)() | 初始化[`Title`](../title)类. |
+| [Title](title/#constructor)() | 初始化一个新的实例`Title`类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | 获取节点的文档。 |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | 获取或设置水平偏移量。 |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | 获取一个值，该值指示此节点是否为复合节点。如果为真，则节点可以有子节点。 |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | 获取或设置上次修改时间。 |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | 获取同一节点树级别的下一个节点。 |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | 获取节点类型。 |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | 获取父节点。 |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | 获取同一节点树级别的上一个节点。 |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | 获取或设置标题中日期的字符串表示形式。 |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | 获取或设置标题的文本。 |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | 获取或设置标题中时间的字符串表示形式。 |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | 获取或设置垂直偏移量。 |
+| [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | 获取或设置水平偏移量。 |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为真，节点可以有子节点。 |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | 获取同一节点树级别的下一个节点。 |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | 获取节点类型。 |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | 获取父节点。 |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | 获取同一节点树级别的前一个节点。 |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | 获取或设置标题中日期的字符串表示。 |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | 获取或设置标题的文本。 |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | 获取或设置标题中时间的字符串表示。 |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | 获取或设置垂直偏移量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | 接受节点的访问者。 |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | 按节点类型获取所有子节点。 |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | 返回一个遍历子节点的枚举器[`Title`](../title). |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | 接受节点的访问者。 |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | 根据节点类型获取所有子节点。 |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | 返回一个遍历子节点的枚举器`Title`. |
 
 ### 例子
 
@@ -53,7 +53,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个孩子           
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -107,7 +107,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-展示如何使用默认选项创建文档并以 html 格式保存。
+显示如何使用默认选项创建文档并将其保存为 html 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -126,12 +126,12 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-演示如何创建文档并以 html 格式保存指定范围的页面。
+显示如何创建文档并以 html 格式保存指定范围的页面。
 
 ```csharp
 // 文档目录的路径。
@@ -151,7 +151,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -160,16 +160,16 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-显示如何创建带有标题页的文档。
+显示如何创建带标题页面的文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Aspose.Note.Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 文档中所有文本的默认样式。
@@ -183,7 +183,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 在文档中追加 Page 节点
+// 在文档中追加页面节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -212,10 +212,10 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 追加页面节点
+//追加页面节点
 doc.AppendChildLast(page);
 
-// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
+// 以不同格式保存 OneNote 文档，手动设置文本字体大小和检测布局变化。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### 也可以看看
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* 命名空间 [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* 命名空间 [Aspose.Note](../../aspose.note/)
 * 部件 [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

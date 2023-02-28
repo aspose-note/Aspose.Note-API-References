@@ -1,9 +1,9 @@
 ---
-title: Outline
+title: Class Outline
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Representa un esquema.
+description: Aspose.Note.Outline clase. Representa un esquema.
 type: docs
-weight: 430
+weight: 450
 url: /es/net/aspose.note/outline/
 ---
 ## Outline class
@@ -11,50 +11,50 @@ url: /es/net/aspose.note/outline/
 Representa un esquema.
 
 ```csharp
-public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
+public sealed class Outline : IndentatedNode<IOutlineChildNode>, IPageChildNode
 ```
 
 ## Constructores
 
 | Nombre | Descripción |
 | --- | --- |
-| [Outline](outline#constructor)() | Inicializa una nueva instancia del[`Outline`](../outline) clase. |
+| [Outline](outline/#constructor)() | Inicializa una nueva instancia del`Outline` clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved) { get; set; } | Obtiene si los descendientes del contorno se pueden mover. |
-| [Document](../../aspose.note/node/document) { get; } | Obtiene el documento del nodo. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | Obtiene o establece el desplazamiento horizontal. |
-| [IndentPosition](../../aspose.note/outline/indentposition) { get; set; } | Obtiene o establece la posición de la sangría. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | Obtiene o establece la hora de última modificación. |
-| [MaxHeight](../../aspose.note/outline/maxheight) { get; set; } | Obtiene o establece la altura máxima. |
-| [MaxWidth](../../aspose.note/outline/maxwidth) { get; set; } | Obtiene o establece el ancho máximo. |
-| [MinWidth](../../aspose.note/outline/minwidth) { get; set; } | Obtiene o establece el ancho mínimo. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtiene el tipo de nodo. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtiene el nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
-| [ReservedWidth](../../aspose.note/outline/reservedwidth) { get; set; } | Obtiene o establece el ancho reservado. |
-| [VerticalOffset](../../aspose.note/outline/verticaloffset) { get; set; } | Obtiene o establece el desplazamiento vertical. |
+| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved/) { get; set; } | Obtiene si los descendientes del contorno se pueden mover. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtiene el documento del nodo. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [HorizontalOffset](../../aspose.note/outline/horizontaloffset/) { get; set; } | Obtiene o establece el desplazamiento horizontal. |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime/) { get; set; } | Obtiene o establece la hora de última modificación. |
+| [MaxHeight](../../aspose.note/outline/maxheight/) { get; set; } | Obtiene o establece la altura máxima. |
+| [MaxWidth](../../aspose.note/outline/maxwidth/) { get; set; } | Obtiene o establece el ancho máximo. |
+| [MinWidth](../../aspose.note/outline/minwidth/) { get; set; } | Obtiene o establece el ancho mínimo. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtiene el tipo de nodo. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtiene el nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
+| [ReservedWidth](../../aspose.note/outline/reservedwidth/) { get; set; } | Obtiene o establece el ancho reservado. |
+| [VerticalOffset](../../aspose.note/outline/verticaloffset/) { get; set; } | Obtiene o establece el desplazamiento vertical. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.note/outline/accept)(DocumentVisitor) | Acepta al visitante del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outline/accept/)(DocumentVisitor) | Acepta al visitante del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Ejemplos
 
@@ -83,10 +83,10 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// Agregar nodo de elemento de esquema
+// Agregar nodo de elemento de contorno
 outline.AppendChildLast(outlineElem);
 
-// Agregar nodo de esquema
+// Agregar nodo de contorno
 page.AppendChildLast(outline);
 
 // Añadir nodo de página
@@ -235,10 +235,10 @@ doc.Save(dataDir);
 
 ### Ver también
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* espacio de nombres [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* espacio de nombres [Aspose.Note](../../aspose.note/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Notebook.Save
 second_title: Справочник по API Aspose.Note для .NET
-description: Сохраняет документ OneNote в файл.
+description: Notebook метод. Сохраняет документ OneNote в файл.
 type: docs
 weight: 150
 url: /ru/net/aspose.note/notebook/save/
@@ -22,13 +22,13 @@ public void Save(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Структура документа нарушает спецификацию. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
 
-* class [Notebook](../../notebook)
-* пространство имен [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* пространство имен [Aspose.Note](../../notebook/)
 * сборка [Aspose.Note](../../../)
 
 ---
@@ -49,13 +49,13 @@ public void Save(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Структура документа нарушает спецификацию. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
 
-* class [Notebook](../../notebook)
-* пространство имен [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* пространство имен [Aspose.Note](../../notebook/)
 * сборка [Aspose.Note](../../../)
 
 ---
@@ -77,14 +77,14 @@ public void Save(string fileName, SaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Структура документа нарушает спецификацию. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* пространство имен [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* пространство имен [Aspose.Note](../../notebook/)
 * сборка [Aspose.Note](../../../)
 
 ---
@@ -106,14 +106,14 @@ public void Save(Stream stream, SaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Структура документа нарушает спецификацию. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* пространство имен [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* пространство имен [Aspose.Note](../../notebook/)
 * сборка [Aspose.Note](../../../)
 
 ---
@@ -135,14 +135,14 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Структура документа нарушает спецификацию. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* пространство имен [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* пространство имен [Aspose.Note](../../notebook/)
 * сборка [Aspose.Note](../../../)
 
 ---
@@ -164,14 +164,14 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | исключение | условие |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Структура документа нарушает спецификацию. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Запрошенный формат сохранения не поддерживается. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Структура документа нарушает спецификацию. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Запрошенный формат сохранения не поддерживается. |
 
 ### Смотрите также
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* пространство имен [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* пространство имен [Aspose.Note](../../notebook/)
 * сборка [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: OutlineElement
+title: Class OutlineElement
 second_title: Aspose.Note för .NET API-referens
-description: Representerar ett konturelement.
+description: Aspose.Note.OutlineElement klass. Representerar ett konturelement.
 type: docs
-weight: 440
+weight: 460
 url: /sv/net/aspose.note/outlineelement/
 ---
 ## OutlineElement class
@@ -11,7 +11,7 @@ url: /sv/net/aspose.note/outlineelement/
 Representerar ett konturelement.
 
 ```csharp
-public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IOutlineChildNode, 
+public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, IOutlineChildNode, 
     IOutlineElementChildNode
 ```
 
@@ -19,38 +19,38 @@ public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IO
 
 | namn | Beskrivning |
 | --- | --- |
-| [OutlineElement](outlineelement#constructor)() | Initierar en ny instans av[`OutlineElement`](../outlineelement) class. |
+| [OutlineElement](outlineelement/#constructor)() | Initierar en ny instans av`OutlineElement` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [CreationTime](../../aspose.note/outlineelement/creationtime) { get; set; } | Hämtar eller ställer in skapelsetiden. |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IndentPosition](../../aspose.note/outlineelement/indentposition) { get; set; } | Hämtar eller ställer in indragspositionen. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [NumberList](../../aspose.note/outlineelement/numberlist) { get; set; } | Hämtar eller ställer in stilen för den numrerade listhuvudet. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [CreationTime](../../aspose.note/outlineelement/creationtime/) { get; set; } | Hämtar eller ställer in skapelsetiden. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [NumberList](../../aspose.note/outlineelement/numberlist/) { get; set; } | Hämtar eller ställer in stilen för den numrerade listhuvudet. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/outlineelement/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineElementChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outlineelement/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineElementChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Exempel
 
@@ -274,10 +274,10 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

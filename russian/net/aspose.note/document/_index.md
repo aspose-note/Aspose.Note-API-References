@@ -1,7 +1,7 @@
 ---
-title: Document
+title: Class Document
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет документ Aspose.Note.
+description: Aspose.Note.Document сорт. Представляет документ Aspose.Note.
 type: docs
 weight: 60
 url: /ru/net/aspose.note/document/
@@ -18,63 +18,63 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | Имя | Описание |
 | --- | --- |
-| [Document](document#constructor)() | Инициализирует новый экземпляр[`Document`](../document) class. Создает пустой документ OneNote. |
-| [Document](document#constructor_1)(Stream) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из потока. |
-| [Document](document#constructor_3)(string) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из файла. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
-| [Document](document#constructor_4)(string, LoadOptions) | Инициализирует новый экземпляр[`Document`](../document) class. Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [Document](document/#constructor)() | Инициализирует новый экземпляр`Document` class. Создает пустой документ OneNote. |
+| [Document](document/#constructor_1)(Stream) | Инициализирует новый экземпляр`Document` class. Открывает существующий документ OneNote из потока. |
+| [Document](document/#constructor_3)(string) | Инициализирует новый экземпляр`Document` class. Открывает существующий документ OneNote из файла. |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | Инициализирует новый экземпляр`Document` class. Открывает существующий документ OneNote из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [Document](document/#constructor_4)(string, LoadOptions) | Инициализирует новый экземпляр`Document`class. Открывает существующий документ OneNote из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Получает или задает значение, указывающее, выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчанию:`истинный` . |
-| [Color](../../aspose.note/document/color) { get; set; } | Получает или задает цвет. |
-| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | Получает или задает время создания. |
-| [DisplayName](../../aspose.note/document/displayname) { get; set; } | Получает или задает отображаемое имя. |
-| [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| [FileFormat](../../aspose.note/document/fileformat) { get; } | Получает формат файла (OneNote 2010, OneNote Online). |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [Guid](../../aspose.note/document/guid) { get; } | Получает глобально уникальный идентификатор объекта. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | Получает или задает значение, указывающее, выполняет ли Aspose.Note автоматическое обнаружение изменений макета. Значение по умолчанию:`истинный` . |
+| [Color](../../aspose.note/document/color/) { get; set; } | Получает или задает цвет. |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | Получает или задает время создания. |
+| [DisplayName](../../aspose.note/document/displayname/) { get; set; } | Получает или задает отображаемое имя. |
+| [Document](../../aspose.note/node/document/) { get; } | Получает документ узла. |
+| [FileFormat](../../aspose.note/document/fileformat/) { get; } | Получает формат файла (OneNote 2010, OneNote Online). |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Guid](../../aspose.note/document/guid/) { get; } | Получает глобально уникальный идентификатор объекта. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Получает следующий узел на том же уровне дерева узлов. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Получает тип узла. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Получает родительский узел. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | Принимает посетителя узла. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Обнаруживает все изменения, внесенные в макет документа с момента предыдущего[`DetectLayoutChanges`](./detectlayoutchanges) call. В случае[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) установлено значение true, используется автоматически в начале экспорта документа. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Получает[`PageHistory`](../pagehistory) который содержит полную историю для каждой страницы, представленной в документе (самая ранняя с индексом 0). Доступ к текущей версии страницы можно получить как[`Current`](../pagehistory/current)и содержится отдельно от коллекции исторических версий. |
-| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | Импортирует набор страниц из предоставленного документа PDF. |
-| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | Импортирует набор страниц из предоставленного документа PDF. |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | Объединяет набор страниц в документ. |
-| [Print](../../aspose.note/document/print#print)() | Печать документа на принтере по умолчанию. |
-| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | Печать документа на принтере по умолчанию. |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save#save)(Stream) | Сохраняет документ OneNote в поток. |
-| [Save](../../aspose.note/document/save#save_3)(string) | Сохраняет документ OneNote в файл. |
-| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | Сохраняет документ OneNote в поток в указанном формате. |
-| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | Сохраняет документ OneNote в поток, используя указанные параметры сохранения. |
-| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | Сохраняет документ OneNote в файл в указанном формате. |
-| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | Сохраняет документ OneNote в файл, используя указанные параметры сохранения. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | Проверяет, зашифрован ли документ из потока. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | Проверяет, зашифрован ли документ из файла. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | Проверяет, зашифрован ли документ из потока. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | Проверяет, зашифрован ли документ из потока. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | Проверяет, зашифрован ли документ из файла. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | Проверяет, зашифрован ли документ из файла. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
+| override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | Принимает посетителя узла. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | Обнаруживает все изменения, внесенные в макет документа с момента предыдущего[`DetectLayoutChanges`](./detectlayoutchanges/) call. В случае[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) установлено значение true, используется автоматически в начале экспорта документа. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | Получает[`PageHistory`](../pagehistory/) который содержит полную историю для каждой страницы, представленной в документе (самая ранняя с индексом 0). Доступ к текущей версии страницы можно получить как[`Current`](../pagehistory/current/) и содержится отдельно от коллекции исторических версий. |
+| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | Импортирует набор страниц из предоставленного документа PDF. |
+| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | Импортирует набор страниц из предоставленного документа PDF. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
+| [Merge](../../aspose.note/document/merge/)(IEnumerable&lt;Page&gt;, MergeOptions) | Объединяет набор страниц в документ. |
+| [Print](../../aspose.note/document/print/#print)() | Печать документа на принтере по умолчанию. |
+| [Print](../../aspose.note/document/print/#print_1)(PrintOptions) | Печать документа на принтере по умолчанию. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Save](../../aspose.note/document/save/#save)(Stream) | Сохраняет документ OneNote в поток. |
+| [Save](../../aspose.note/document/save/#save_3)(string) | Сохраняет документ OneNote в файл. |
+| [Save](../../aspose.note/document/save/#save_1)(Stream, SaveFormat) | Сохраняет документ OneNote в поток в указанном формате. |
+| [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | Сохраняет документ OneNote в поток, используя указанные параметры сохранения. |
+| [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | Сохраняет документ OneNote в файл в указанном формате. |
+| [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | Сохраняет документ OneNote в файл, используя указанные параметры сохранения. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | Проверяет, зашифрован ли документ из потока. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | Проверяет, зашифрован ли документ из файла. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | Проверяет, зашифрован ли документ из потока. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | Проверяет, зашифрован ли документ из потока. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | Проверяет, зашифрован ли документ из файла. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | Проверяет, зашифрован ли документ из файла. Для проверки нам нужно полностью загрузить этот документ. Таким образом, этот метод может привести к снижению производительности. |
 
 ### Примеры
 
@@ -451,7 +451,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100);
-// или же
+// или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(400);
 
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
@@ -530,6 +530,32 @@ else
 {
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
+```
+
+Показывает, как применить стиль темной темы к документу.
+
+```csharp
+// Путь к каталогу документов.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Загрузите документ в Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
 Показывает, как пройти через содержимое записной книжки.
@@ -653,30 +679,6 @@ document.Print(new PrintOptions()
                });
 ```
 
-Показывает, как получить метаинформацию изображения.
-
-```csharp
-// Путь к каталогу документов.
-string dataDir = RunExamples.GetDataDir_Images();
-
-// Загрузите документ в Aspose.Note.
-Document oneFile = new Document(dataDir + "Aspose.one");
-
-// Получить все узлы изображения
-IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
-
-foreach (Aspose.Note.Image image in images)
-{
-    Console.WriteLine("Width: {0}", image.Width);
-    Console.WriteLine("Height: {0}", image.Height);
-    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
-    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
-    Console.WriteLine("FileName: {0}", image.FileName);
-    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
-    Console.WriteLine();
-}
-```
-
 Показывает, как получить содержимое вложенного файла.
 
 ```csharp
@@ -702,6 +704,30 @@ foreach (AttachedFile file in nodes)
             CopyStream(outputStream, fileStream);
         }
     }
+}
+```
+
+Показывает, как получить метаинформацию изображения.
+
+```csharp
+// Путь к каталогу документов.
+string dataDir = RunExamples.GetDataDir_Images();
+
+// Загрузите документ в Aspose.Note.
+Document oneFile = new Document(dataDir + "Aspose.one");
+
+// Получить все узлы изображения
+IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
+
+foreach (Aspose.Note.Image image in images)
+{
+    Console.WriteLine("Width: {0}", image.Width);
+    Console.WriteLine("Height: {0}", image.Height);
+    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
+    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
+    Console.WriteLine("FileName: {0}", image.FileName);
+    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
+    Console.WriteLine();
 }
 ```
 
@@ -897,18 +923,18 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm();
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(heightLimitOfClonedPart);
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart);
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(100);
-// Или же
+// Или
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
@@ -1379,10 +1405,10 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Смотрите также
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [Page](../page)
-* interface [INotebookChildNode](../inotebookchildnode)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Page](../page/)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

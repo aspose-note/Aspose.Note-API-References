@@ -1,14 +1,14 @@
 ---
-title: FontName
+title: Style.FontName
 second_title: Aspose.Note per .NET API Reference
-description: Ottiene o imposta il nome del carattere.
+description: Style proprietà. Ottiene o imposta il nome del font.
 type: docs
 weight: 20
 url: /it/net/aspose.note/style/fontname/
 ---
 ## Style.FontName property
 
-Ottiene o imposta il nome del carattere.
+Ottiene o imposta il nome del font.
 
 ```csharp
 public string FontName { get; set; }
@@ -16,7 +16,7 @@ public string FontName { get; set; }
 
 ### Esempi
 
-Manipola in base al formato del testo usando lo stile di paragrafo.
+Manipolare in base al formato del testo utilizzando lo stile di paragrafo.
 
 ```csharp
 var document = new Document();
@@ -57,24 +57,24 @@ OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-//---------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -87,13 +87,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica i punti elenco
@@ -116,12 +116,12 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -134,13 +134,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica la numerazione
@@ -162,13 +162,13 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -219,24 +219,24 @@ outline.AppendChildLast(outlineElem);
 // Inizializza l'oggetto della classe Title
 Title title = new Title() { TitleText = titleText };
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Note.Page() { Title = title };
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* class [Style](../../style)
-* spazio dei nomi [Aspose.Note](../../style)
+* class [Style](../)
+* spazio dei nomi [Aspose.Note](../../style/)
 * assemblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

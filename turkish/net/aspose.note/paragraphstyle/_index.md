@@ -1,9 +1,9 @@
 ---
-title: ParagraphStyle
+title: Class ParagraphStyle
 second_title: Aspose.Note for .NET API Referansı
-description: İçinde eşleşen bir TextStyle nesnesi yoksa kullanılacak metin stili ayarlarıStyles koleksiyon ya bu nesne gerekli bir ayarı belirtmiyor.
+description: Aspose.Note.ParagraphStyle sınıf. İçinde eşleşen bir TextStyle nesnesi yoksa kullanılacak metin stili ayarlarıStyles koleksiyon ya bu nesne gerekli bir ayarı belirtmiyor.
 type: docs
-weight: 490
+weight: 510
 url: /tr/net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
@@ -18,36 +18,36 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | İsim | Tanım |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle)() | Yeni bir örneğini başlatır[`ParagraphStyle`](../paragraphstyle) sınıf. |
+| [ParagraphStyle](paragraphstyle/)() | Yeni bir örneğini başlatır.`ParagraphStyle` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| static [Default](../../aspose.note/paragraphstyle/default) { get; } | Varsayılan ayarlarla ParagraphStyle'ı alır. |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Yazı tipi rengini alır veya ayarlar. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | Yazı tipi adını alır veya ayarlar. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Yazı tipi boyutunu alır veya ayarlar. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Yazı tipi stilini alır. |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | Vurgu rengini alır veya ayarlar. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Metin stilinin kalın olup olmadığını belirten bir değer alır veya ayarlar. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Metin stilinin italik olup olmadığını belirten bir değer alır veya ayarlar. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Metin stilinin üstü çizili olup olmadığını belirten bir değer alır veya ayarlar. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Metin stilinin alt simge olup olmadığını belirten bir değer alır veya ayarlar. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Metin stilinin üst simge olup olmadığını belirten bir değer alır veya ayarlar. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Metin stilinin altı çizili olup olmadığını belirten bir değer alır veya ayarlar. |
+| static [Default](../../aspose.note/paragraphstyle/default/) { get; } | ParagraphStyle'ı varsayılan ayarlarla alır. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Yazı tipi rengini alır veya ayarlar. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | Yazı tipi adını alır veya ayarlar. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Yazı tipi boyutunu alır veya ayarlar. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Yazı tipi stilini alır. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Vurgu rengini alır veya ayarlar. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Metin stilinin kalın olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Metin stilinin italik olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Metin stilinin üstü çizili olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Metin stilinin alt simge olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Metin stilinin üst simge olup olmadığını gösteren bir değer alır veya ayarlar. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Metin stilinin altı çizili olup olmadığını gösteren bir değer alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Belirtilen nesnenin geçerli nesneye eşit olup olmadığını belirler. |
-| [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Belirtilen nesnenin geçerli nesneye eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode)() | type. için bir karma işlevi olarak hizmet eder |
+| override [Equals](../../aspose.note/paragraphstyle/equals/#equals_1)(object) | Belirtilen nesnenin geçerli nesneye eşit olup olmadığını belirler. |
+| [Equals](../../aspose.note/paragraphstyle/equals/#equals)(ParagraphStyle) | Belirtilen nesnenin geçerli nesneye eşit olup olmadığını belirler. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode/)() | type. için bir hash işlevi olarak hizmet eder |
 
 ### Örnekler
 
-Yazı tipi boyutunu artırarak diğer başlıklar arasında sayfa başlıklarını vurgulayalım.
+Font boyutunu büyüterek sayfa başlıklarını diğer başlıklar arasında öne çıkaralım.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -71,7 +71,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-En son metnin değişikliklerini vurgulayarak vurgulayalım.
+En son metin değişikliklerini vurgulayarak vurgulayalım.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -79,7 +79,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Geçen hafta değiştirilen RichText düğümlerini al.
+// RichText düğümlerinin geçen hafta değiştirilmesini sağlayın.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -132,7 +132,7 @@ Outline outline = new Outline(doc);
 // Metin stili ayarlarını uygula
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -164,7 +164,7 @@ Yeni madde işaretli listelerin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -176,10 +176,10 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıfı nesnelerini başlat ve madde işaretlerini uygula
+// OutlineElement sınıf nesnelerini başlat ve madde işaretlerini uygula
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
 
-// RichText sınıf nesnesini başlat ve metin stili uygula
+// RichText sınıf nesnesini başlat ve metin stilini uygula
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -211,7 +211,7 @@ Numaralandırma ile yeni listenin nasıl ekleneceğini gösterir.
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -223,8 +223,8 @@ Outline outline = new Outline(doc);
 // TextStyle sınıf nesnesini başlat ve biçimlendirme özelliklerini ayarla
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// OutlineElement sınıf nesnelerini başlat ve numaralandırma uygula
-// Aynı anahattaki sayılar otomatik olarak artırılır.
+// OutlineElement sınıf nesnelerini başlat ve numaralandırmayı uygula
+// Aynı çerçevedeki sayılar otomatik olarak artırılır.
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -255,8 +255,8 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [Style](../style)
-* ad alanı [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

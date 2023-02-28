@@ -1,9 +1,9 @@
 ---
-title: NumberList
+title: Class NumberList
 second_title: Aspose.Note för .NET API-referens
-description: Representerar den numrerade eller punktlista.
+description: Aspose.Note.NumberList klass. Representerar den numrerade eller punktlista.
 type: docs
-weight: 420
+weight: 440
 url: /sv/net/aspose.note/numberlist/
 ---
 ## NumberList class
@@ -18,31 +18,31 @@ public class NumberList
 
 | namn | Beskrivning |
 | --- | --- |
-| [NumberList](numberlist#constructor_1)(string, string, int) | Initierar en ny instans av[`NumberList`](../numberlist) class. Den här instansen representerar en punktlista. |
-| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Initierar en ny instans av[`NumberList`](../numberlist)class. Denna instans representerar en numrerad lista. |
+| [NumberList](numberlist/#constructor_1)(string, string, int) | Initierar en ny instans av`NumberList`class. Den här instansen representerar en punktlista. |
+| [NumberList](numberlist/#constructor)(string, NumberFormat, string, int) | Initierar en ny instans av`NumberList` class. Denna instans representerar en numrerad lista. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Font](../../aspose.note/numberlist/font) { get; set; } | Hämtar eller ställer in namnet på teckensnittet. |
-| [FontColor](../../aspose.note/numberlist/fontcolor) { get; set; } | Hämtar eller ställer in teckensnittsfärgen. |
-| [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | Hämtar eller ställer in teckenstorleken. |
-| [Format](../../aspose.note/numberlist/format) { get; set; } | Hämtar eller ställer in formatet på radhuvudet. För punktlistor representerar en punktsymbol. |
-| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är fetstil. |
-| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är kursiv. |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
-| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Hämtar eller ställer in talformatet som används för en grupp av automatiskt numrerade objekt. Bör vara null för punktlistor. |
-| [Restart](../../aspose.note/numberlist/restart) { get; set; } | Hämtar eller ställer in det numeriska värdet som åsidosätter det automatiska siffervärdet för listobjektet. |
+| [Font](../../aspose.note/numberlist/font/) { get; set; } | Hämtar eller ställer in namnet på teckensnittet. |
+| [FontColor](../../aspose.note/numberlist/fontcolor/) { get; set; } | Hämtar eller ställer in teckensnittsfärgen. |
+| [FontSize](../../aspose.note/numberlist/fontsize/) { get; set; } | Hämtar eller ställer in teckenstorleken. |
+| [Format](../../aspose.note/numberlist/format/) { get; set; } | Hämtar eller ställer in formatet på radhuvudet. För punktlistor representerar en punktsymbol. |
+| [IsBold](../../aspose.note/numberlist/isbold/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är fetstil. |
+| [IsItalic](../../aspose.note/numberlist/isitalic/) { get; set; } | Hämtar eller ställer in ett värde som anger om textstilen är kursiv. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
+| [NumberFormat](../../aspose.note/numberlist/numberformat/) { get; set; } | Hämtar eller ställer in talformatet som används för en grupp av automatiskt numrerade objekt. Bör vara null för punktlistor. |
+| [Restart](../../aspose.note/numberlist/restart/) { get; set; } | Hämtar eller ställer in det numeriska värdet som åsidosätter det automatiska siffervärdet för listobjektet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Fungerar som en hashfunktion för typen. |
-| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Hämtar den numrerade listhuvudet. |
+| [Equals](../../aspose.note/numberlist/equals/#equals)(NumberList) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| override [Equals](../../aspose.note/numberlist/equals/#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode/)() | Fungerar som en hashfunktion för typen. |
+| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader/)(int) | Hämtar den numrerade listhuvudet. |
 
 ### Exempel
 
@@ -180,7 +180,7 @@ doc.Save(dataDir);
 
 ### Se även
 
-* namnutrymme [Aspose.Note](../../aspose.note)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

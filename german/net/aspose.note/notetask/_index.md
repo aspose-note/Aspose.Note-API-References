@@ -1,9 +1,9 @@
 ---
-title: NoteTask
+title: Class NoteTask
 second_title: Aspose.Note für .NET-API-Referenz
-description: Stellt eine Notizaufgabe dar.
+description: Aspose.Note.NoteTask klas. Stellt eine Notizaufgabe dar.
 type: docs
-weight: 380
+weight: 400
 url: /de/net/aspose.note/notetask/
 ---
 ## NoteTask class
@@ -18,30 +18,30 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Checked](../../aspose.note/checkbox/checked) { get; } | Ruft einen Wert ab, der angibt, ob sich die CheckBox im aktivierten Zustand befindet. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Ruft die abgeschlossene Zeit ab oder legt sie fest. |
-| [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
-| [DueDate](../../aspose.note/notetask/duedate) { get; set; } | Ruft das Fälligkeitsdatum ab oder legt es fest. |
-| override [Icon](../../aspose.note/notetask/icon) { get; } | Ruft das Symbol ab oder legt es fest. |
-| [Label](../../aspose.note/checkbox/label) { get; } | Ruft den Beschriftungstext ab. |
-| [Status](../../aspose.note/checkbox/status) { get; } | Ruft den Status ab oder setzt ihn. |
+| [Checked](../../aspose.note/checkbox/checked/) { get; } | Ruft einen Wert ab, der angibt, ob sich die CheckBox im aktivierten Zustand befindet. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | Ruft die abgeschlossene Zeit ab oder legt sie fest. |
+| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
+| [DueDate](../../aspose.note/notetask/duedate/) { get; set; } | Ruft das Fälligkeitsdatum ab oder legt es fest. |
+| override [Icon](../../aspose.note/notetask/icon/) { get; } | Ruft das Symbol ab oder legt es fest. |
+| [Label](../../aspose.note/checkbox/label/) { get; } | Ruft den Beschriftungstext ab. |
+| [Status](../../aspose.note/checkbox/status/) { get; } | Ruft den Status ab oder setzt ihn. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate)(DateTime) | Erstellt eine neue Notizaufgabe mit NoFollowUpDateFlag-Symbol und angegebenem Fälligkeitsdatum. |
-| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek)() | Erstellt eine neue Notizaufgabe mit FollowUpNextWeekFlag-Symbol. |
-| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek)() | Erstellt eine neue Notizaufgabe mit FollowUpThisWeekFlag-Symbol. |
-| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday)() | Erstellt eine neue Notizaufgabe mit FollowUpTodayFlag-Symbol. |
-| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow)() | Erstellt eine neue Notizaufgabe mit FollowUpTomorrowFlag-Symbol. |
-| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate)() | Erstellt eine neue Notizaufgabe mit NoFollowUpDateFlag-Symbol. |
-| [Equals](../../aspose.note/notetask/equals#equals)(NoteTask) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
-| override [Equals](../../aspose.note/notetask/equals#equals_1)(object) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
-| override [GetHashCode](../../aspose.note/notetask/gethashcode)() | dient als Hash-Funktion für den Typ. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Versetzt das Tag in den abgeschlossenen Zustand, wobei die aktuelle Zeit als abgeschlossene Zeit verwendet wird. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Versetzt das Tag in den abgeschlossenen Zustand. |
-| override [SetOpen](../../aspose.note/notetask/setopen)() | Versetzt das Tag in den offenen Zustand. |
+| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate/)(DateTime) | Erstellt eine neue Notizaufgabe mit NoFollowUpDateFlag-Symbol und angegebenem Fälligkeitsdatum. |
+| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek/)() | Erstellt eine neue Notizaufgabe mit FollowUpNextWeekFlag-Symbol. |
+| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek/)() | Erstellt eine neue Notizaufgabe mit FollowUpThisWeekFlag-Symbol. |
+| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday/)() | Erstellt eine neue Notizaufgabe mit FollowUpTodayFlag-Symbol. |
+| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow/)() | Erstellt eine neue Notizaufgabe mit FollowUpTomorrowFlag-Symbol. |
+| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate/)() | Erstellt eine neue Notizaufgabe mit NoFollowUpDateFlag-Symbol. |
+| [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
+| override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
+| override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | dient als Hash-Funktion für den Typ. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | Versetzt das Tag in den abgeschlossenen Zustand, wobei die aktuelle Zeit als abgeschlossene Zeit verwendet wird. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | Versetzt das Tag in den abgeschlossenen Zustand. |
+| override [SetOpen](../../aspose.note/notetask/setopen/)() | Versetzt das Tag in den offenen Zustand. |
 
 ### Beispiele
 
@@ -100,8 +100,8 @@ foreach (RichText richText in nodes)
 
 ### Siehe auch
 
-* class [CheckBox](../checkbox)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [CheckBox](../checkbox/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

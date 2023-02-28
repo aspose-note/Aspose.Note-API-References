@@ -1,7 +1,7 @@
 ---
-title: Document
+title: Class Document
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta un documento Aspose.Note.
+description: Aspose.Note.Document classe. Rappresenta un documento Aspose.Note.
 type: docs
 weight: 60
 url: /it/net/aspose.note/document/
@@ -18,63 +18,63 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](document#constructor)() | Inizializza una nuova istanza di[`Document`](../document) class. Crea un documento OneNote vuoto. |
-| [Document](document#constructor_1)(Stream) | Inizializza una nuova istanza di[`Document`](../document) class. Apre un documento OneNote esistente da uno stream. |
-| [Document](document#constructor_3)(string) | Inizializza una nuova istanza di[`Document`](../document) class. Apre un documento OneNote esistente da un file. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | Inizializza una nuova istanza di[`Document`](../document) class. Apre un documento OneNote esistente da uno stream. Consente di specificare opzioni aggiuntive come una password di crittografia. |
-| [Document](document#constructor_4)(string, LoadOptions) | Inizializza una nuova istanza di[`Document`](../document) class. Apre un documento OneNote esistente da un file. Consente di specificare opzioni aggiuntive come una password di crittografia. |
+| [Document](document/#constructor)() | Inizializza una nuova istanza di`Document` class. Crea un documento OneNote vuoto. |
+| [Document](document/#constructor_1)(Stream) | Inizializza una nuova istanza di`Document` class. Apre un documento OneNote esistente da uno stream. |
+| [Document](document/#constructor_3)(string) | Inizializza una nuova istanza di`Document` class. Apre un documento OneNote esistente da un file. |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | Inizializza una nuova istanza di`Document` class. Apre un documento OneNote esistente da un flusso. Consente di specificare opzioni aggiuntive come una password di crittografia. |
+| [Document](document/#constructor_4)(string, LoadOptions) | Inizializza una nuova istanza di`Document`class. Apre un documento OneNote esistente da un file. Consente di specificare opzioni aggiuntive come una password di crittografia. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Ottiene o imposta un valore che indica se Aspose.Note esegue il rilevamento automatico delle modifiche al layout. Il valore predefinito è`VERO` . |
-| [Color](../../aspose.note/document/color) { get; set; } | Ottiene o imposta il colore. |
-| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | Ottiene o imposta l'ora di creazione. |
-| [DisplayName](../../aspose.note/document/displayname) { get; set; } | Ottiene o imposta il nome visualizzato. |
-| [Document](../../aspose.note/node/document) { get; } | Ottiene il documento del nodo. |
-| [FileFormat](../../aspose.note/document/fileformat) { get; } | Ottiene il formato file (OneNote 2010, OneNote Online). |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [Guid](../../aspose.note/document/guid) { get; } | Ottiene l'ID univoco globale dell'oggetto. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ottiene il tipo di nodo. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ottiene il nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ottiene il nodo precedente allo stesso livello di albero dei nodi. |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | Ottiene o imposta un valore che indica se Aspose.Note esegue automaticamente il rilevamento delle modifiche al layout. Il valore predefinito è`VERO` . |
+| [Color](../../aspose.note/document/color/) { get; set; } | Ottiene o imposta il colore. |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | Ottiene o imposta l'ora di creazione. |
+| [DisplayName](../../aspose.note/document/displayname/) { get; set; } | Ottiene o imposta il nome visualizzato. |
+| [Document](../../aspose.note/node/document/) { get; } | Ottiene il documento del nodo. |
+| [FileFormat](../../aspose.note/document/fileformat/) { get; } | Ottiene il formato file (OneNote 2010, OneNote Online). |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Guid](../../aspose.note/document/guid/) { get; } | Ottiene l'ID univoco globale dell'oggetto. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ottiene il tipo di nodo. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ottiene il nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ottiene il nodo precedente allo stesso livello dell'albero dei nodi. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | Accetta il visitatore del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Rileva tutte le modifiche apportate al layout del documento rispetto al precedente[`DetectLayoutChanges`](./detectlayoutchanges) call. Nel caso[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) impostato su true, utilizzato automaticamente all'inizio dell'esportazione del documento. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Ottiene il[`PageHistory`](../pagehistory) che contiene la cronologia completa per ogni pagina presentata in un documento (la prima all'indice 0). È possibile accedere alla revisione della pagina corrente come[`Current`](../pagehistory/current) contenuto separatamente dalla raccolta delle versioni storiche. |
-| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | Importa una serie di pagine dal documento PDF fornito. |
-| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | Importa una serie di pagine dal documento PDF fornito. |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | Unisce un insieme di pagine al documento. |
-| [Print](../../aspose.note/document/print#print)() | Stampa il documento utilizzando la stampante predefinita. |
-| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | Stampa il documento utilizzando la stampante predefinita. |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save#save)(Stream) | Salva il documento di OneNote in un flusso. |
-| [Save](../../aspose.note/document/save#save_3)(string) | Salva il documento di OneNote in un file. |
-| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | Salva il documento di OneNote in un flusso nel formato specificato. |
-| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | Salva il documento di OneNote in un flusso utilizzando le opzioni di salvataggio specificate. |
-| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | Salva il documento di OneNote in un file nel formato specificato. |
-| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | Salva il documento di OneNote in un file utilizzando le opzioni di salvataggio specificate. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | Verifica se un documento da un flusso è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può comportare una riduzione delle prestazioni. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | Verifica se un documento da un file è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può comportare una riduzione delle prestazioni. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | Verifica se un documento da un flusso è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può comportare una riduzione delle prestazioni. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | Verifica se un documento da un flusso è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può comportare una riduzione delle prestazioni. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | Verifica se un documento da un file è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può comportare una riduzione delle prestazioni. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | Verifica se un documento da un file è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può comportare una riduzione delle prestazioni. |
+| override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | Accetta il visitatore del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | Rileva tutte le modifiche apportate al layout del documento dalla precedente[`DetectLayoutChanges`](./detectlayoutchanges/) chiama. Nel caso[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) impostato su true, utilizzato automaticamente all'inizio dell'esportazione del documento. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | Ottiene il[`PageHistory`](../pagehistory/) che contiene la cronologia completa per ogni pagina presentata in un documento (la prima all'indice 0). È possibile accedere alla revisione della pagina corrente come[`Current`](../pagehistory/current/) e contenuto separatamente dalla raccolta delle versioni storiche. |
+| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | Importa un insieme di pagine dal documento PDF fornito. |
+| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | Importa un insieme di pagine dal documento PDF fornito. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
+| [Merge](../../aspose.note/document/merge/)(IEnumerable&lt;Page&gt;, MergeOptions) | Unisce un insieme di pagine al documento. |
+| [Print](../../aspose.note/document/print/#print)() | Stampa il documento utilizzando la stampante predefinita. |
+| [Print](../../aspose.note/document/print/#print_1)(PrintOptions) | Stampa il documento utilizzando la stampante predefinita. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Save](../../aspose.note/document/save/#save)(Stream) | Salva il documento OneNote in un flusso. |
+| [Save](../../aspose.note/document/save/#save_3)(string) | Salva il documento OneNote in un file. |
+| [Save](../../aspose.note/document/save/#save_1)(Stream, SaveFormat) | Salva il documento OneNote in un flusso nel formato specificato. |
+| [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | Salva il documento OneNote in un flusso utilizzando le opzioni di salvataggio specificate. |
+| [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | Salva il documento OneNote in un file nel formato specificato. |
+| [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | Salva il documento OneNote in un file utilizzando le opzioni di salvataggio specificate. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | Verifica se un documento da uno stream è crittografato. Per verificarlo, dobbiamo caricare completamente questo documento. Quindi questo metodo può portare a una riduzione delle prestazioni. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | Controlla se un documento da un file è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può portare a una riduzione delle prestazioni. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | Verifica se un documento da uno stream è crittografato. Per verificarlo, dobbiamo caricare completamente questo documento. Quindi questo metodo può portare a una riduzione delle prestazioni. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | Verifica se un documento da uno stream è crittografato. Per verificarlo, dobbiamo caricare completamente questo documento. Quindi questo metodo può portare a una riduzione delle prestazioni. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | Controlla se un documento da un file è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può portare a una riduzione delle prestazioni. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | Controlla se un documento da un file è crittografato. Per verificarlo dobbiamo caricare completamente questo documento. Quindi questo metodo può portare a una riduzione delle prestazioni. |
 
 ### Esempi
 
@@ -110,7 +110,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-Mostra come salvare il documento con la crittografia.
+Mostra come salvare il documento con crittografia.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -156,7 +156,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // Ottieni il numero di pagine
 int count = oneFile.Count();
 
-// Stampa il conteggio sulla schermata di output
+// Stampa il conteggio sullo schermo di output
 Console.WriteLine(count);
 ```
 
@@ -204,7 +204,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
-Mostra come impostare una risoluzione dell'immagine durante il salvataggio del documento come immagine.
+Mostra come impostare una risoluzione dell'immagine quando si salva il documento come immagine.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -232,7 +232,7 @@ switch (document.FileFormat)
         // Elabora OneNote 2010
         break;
     case FileFormat.OneNoteOnline:
-        // Elabora OneNote in linea
+        // Elabora OneNote online
         break;
 }
 ```
@@ -247,7 +247,7 @@ var document = new Document();
 
 var page = new Page(document);
 
-var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://immagine.com" };
+var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
 
 page.AppendChildLast(image);
 
@@ -256,7 +256,7 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
-Mostra come salvare un documento in uno stream.
+Mostra come salvare un documento in un flusso.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -268,7 +268,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// Riavvolgi la posizione del flusso a zero in modo che sia pronto per il prossimo lettore.
+// Riavvolge la posizione dello stream a zero in modo che sia pronta per il prossimo lettore.
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
@@ -290,7 +290,7 @@ else
 }
 ```
 
-Mostra come aggiungere una nuova sezione a un taccuino.
+Mostra come aggiungere una nuova sezione a un blocco appunti.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -299,7 +299,7 @@ string dataDir = RunExamples.GetDataDir_NoteBook();
 // Carica un blocco appunti di OneNote
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
-// Aggiunge un nuovo figlio al taccuino
+// Aggiungi un nuovo figlio al Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
 
 dataDir = dataDir + "AddChildNode_out.onetoc2";
@@ -360,12 +360,12 @@ Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadH
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// Clona in un nuovo documento con la cronologia
+// Clona in un nuovo documento con cronologia
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
-Mostra come salvare un documento in formato html con la memorizzazione di tutte le risorse (css/fonts/images) in un file separato.
+Mostra come salvare un documento in formato html memorizzando tutte le risorse (css/font/immagini) in file separati.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -381,7 +381,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-Mostra come salvare un documento in un flusso in formato html con l'incorporamento di tutte le risorse (css/fonts/images).
+Mostra come salvare un documento in uno stream in formato html con l'incorporamento di tutte le risorse (css/font/immagini).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -439,7 +439,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-Quando le pagine lunghe di OneNote vengono salvate in formato pdf, vengono suddivise in pagine. L'esempio mostra come configurare la logica di suddivisione degli oggetti che si trovano nelle interruzioni di pagina.
+Quando le pagine lunghe di OneNote vengono salvate in formato pdf, vengono suddivise tra le pagine. L'esempio mostra come configurare la logica di suddivisione degli oggetti posizionati sulle interruzioni di pagina.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -451,7 +451,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100);
-// o
+// O
 pdfSaveOptions.PageSplittingAlgorithm = new KeepPartAndCloneSolidObjectToNextPageAlgorithm(400);
 
 dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorithm_out.pdf";
@@ -507,7 +507,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-Mostra come verificare se un documento è protetto da una password specifica.
+Mostra come controllare se un documento è protetto da una password specifica.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -530,6 +530,32 @@ else
 {
     Console.WriteLine("The document is NOT encrypted. It is loaded and ready to be processed.");
 }
+```
+
+Mostra come applicare lo stile del tema scuro a un documento.
+
+```csharp
+// Il percorso della directory dei documenti.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Carica il documento in Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
 Mostra come passare attraverso il contenuto di un taccuino.
@@ -621,7 +647,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 // Inizializza l'oggetto PdfSaveOptions
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Usa la compressione JPEG
+                              // Usa la compressione Jpeg
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
                               // Qualità per la compressione JPEG
@@ -653,7 +679,35 @@ document.Print(new PrintOptions()
                });
 ```
 
-Mostra come ottenere le metainformazioni dell'immagine.
+Mostra come ottenere il contenuto di un file allegato.
+
+```csharp
+// Il percorso della directory dei documenti.
+string dataDir = RunExamples.GetDataDir_Attachments();
+
+// Carica il documento in Aspose.Note.
+Document oneFile = new Document(dataDir + "Sample1.one");
+
+// Ottieni un elenco di nodi di file allegati
+IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
+
+// Itera attraverso tutti i nodi
+foreach (AttachedFile file in nodes)
+{
+    // Carica il file allegato a un oggetto stream
+    using (Stream outputStream = new MemoryStream(file.Bytes))
+    {
+        // Crea un file locale
+        using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
+        {
+            // Copia il flusso di file
+            CopyStream(outputStream, fileStream);
+        }
+    }
+}
+```
+
+Mostra come ottenere le meta informazioni dell'immagine.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -674,34 +728,6 @@ foreach (Aspose.Note.Image image in images)
     Console.WriteLine("FileName: {0}", image.FileName);
     Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
     Console.WriteLine();
-}
-```
-
-Mostra come ottenere il contenuto di un file allegato.
-
-```csharp
-// Il percorso della directory dei documenti.
-string dataDir = RunExamples.GetDataDir_Attachments();
-
-// Carica il documento in Aspose.Note.
-Document oneFile = new Document(dataDir + "Sample1.one");
-
-// Ottieni un elenco di nodi file allegati
-IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
-
-// Scorre tutti i nodi
-foreach (AttachedFile file in nodes)
-{
-    // Carica il file allegato su un oggetto stream
-    using (Stream outputStream = new MemoryStream(file.Bytes))
-    {
-        // Crea un file locale
-        using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
-        {
-            // Copia il flusso di file
-            CopyStream(outputStream, fileStream);
-        }
-    }
 }
 ```
 
@@ -728,7 +754,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-Mostra come aggiungere un file a un documento utilizzando filepath.
+Mostra come aggiungere un file a un documento usando filepath.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -737,25 +763,25 @@ string dataDir = RunExamples.GetDataDir_Attachments();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Inizializza oggetto classe AttachedFile
+// Inizializza l'oggetto della classe AttachedFile
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 
 // Aggiungi file allegato
 outlineElem.AppendChildLast(attachedFile);
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
@@ -789,7 +815,7 @@ dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-Mostra come verificare se una pagina è una pagina in conflitto (ad es. contiene modifiche che OneNote non è stato in grado di unire automaticamente).
+Mostra come verificare se una pagina è una pagina in conflitto (ovvero presenta modifiche che OneNote non è in grado di unire automaticamente).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -807,7 +833,7 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // Per impostazione predefinita, le pagine di conflitto vengono semplicemente saltate durante il salvataggio.
+    // Per impostazione predefinita, le pagine in conflitto vengono semplicemente saltate al salvataggio.
     // Se contrassegnalo come non in conflitto, verrà salvato come al solito nella cronologia.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
@@ -822,7 +848,7 @@ Mostra come aggiungere un'immagine da un file a un documento con proprietà defi
 // Il percorso della directory dei documenti.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// Carica il documento dallo stream.
+// Carica il documento dal flusso.
 Document doc = new Document(dataDir + "Aspose.one");
 
 // Ottieni la prima pagina del documento.
@@ -856,28 +882,28 @@ string dataDir = RunExamples.GetDataDir_Attachments();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    // Inizializza l'oggetto classe AttachedFile e passa anche il percorso dell'icona
+    // Inizializza l'oggetto della classe AttachedFile e passa anche il suo percorso dell'icona
     AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // Aggiungi file allegato
     outlineElem.AppendChildLast(attachedFile);
 }
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
@@ -887,7 +913,7 @@ dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-Quando le pagine lunghe di OneNote vengono salvate in formato pdf, vengono suddivise in pagine. L'esempio mostra come configurare la logica di suddivisione degli oggetti che si trovano nelle interruzioni di pagina.
+Quando le pagine lunghe di OneNote vengono salvate in formato pdf, vengono suddivise tra le pagine. L'esempio mostra come configurare la logica di suddivisione degli oggetti posti sulle interruzioni di pagina.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -915,7 +941,7 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-Mostra come creare un documento e salvare in formato html l'intervallo di pagine specificato.
+Mostra come creare un documento e salvarlo in un intervallo di pagine specificato in formato html.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -944,7 +970,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Mostra come creare un documento con una pagina intitolata.
+Mostra come creare un documento con pagina titolata.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -953,7 +979,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // Crea un oggetto della classe Document
 Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Stile predefinito per tutto il testo nel documento.
@@ -970,7 +996,7 @@ page.Title = new Title(doc)
 // Aggiungi il nodo Pagina nel documento
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
@@ -984,7 +1010,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Outline outline1 = new Outline(doc);
@@ -993,7 +1019,7 @@ OutlineElement outlineElem1 = new OutlineElement(doc);
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // Carica la seconda immagine utilizzando il nome dell'immagine, l'estensione e lo stream.
+    // Carica la seconda immagine utilizzando il nome, l'estensione e il flusso dell'immagine.
     Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
                                    {
                                        // Imposta l'allineamento dell'immagine
@@ -1008,7 +1034,7 @@ page.AppendChildLast(outline1);
 
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
@@ -1022,13 +1048,13 @@ string dataDir = RunExamples.GetDataDir_Images();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline e imposta le proprietà di offset
+// Inizializza l'oggetto della classe Outline e imposta le proprietà di offset
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
 // Carica un'immagine dal percorso del file.
@@ -1044,13 +1070,13 @@ outlineElem.AppendChildLast(image);
 // Aggiungi elementi di contorno
 outline.AppendChildLast(outlineElem);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
@@ -1064,34 +1090,34 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza l'oggetto della classe RichText e applica lo stile del testo
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
-// Aggiunge il nodo RichText
+// Aggiungi nodo RichText
 outlineElem.AppendChildLast(text);
 
-// Aggiunge il nodo OutlineElement
+// Aggiungi nodo OutlineElement
 outline.AppendChildLast(outlineElem);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
@@ -1129,10 +1155,10 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-Mostra come salvare un documento in formato html con la memorizzazione di tutte le risorse (css/fonts/images) utilizzando i callback definiti dall'utente.
+Mostra come salvare un documento in formato html con l'archiviazione di tutte le risorse (css/caratteri/immagini) utilizzando i callback definiti dall'utente.
 
 ```csharp
-// Il codice seguente crea la cartella 'documentFolder' contenente document.html, la cartella 'css' con il file 'style.css', la cartella 'images' con le immagini e la cartella 'fonts' con i caratteri.
+// Il codice seguente crea la cartella "documentFolder" contenente document.html, la cartella "css" con il file "style.css", la cartella "images" con le immagini e la cartella "fonts" con i caratteri.
 // Il file 'style.css' conterrà alla fine la seguente stringa "/* Questa riga viene aggiunta allo streaming manualmente dall'utente */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
@@ -1216,16 +1242,16 @@ outline.AppendChildLast(outlineElem);
 // Inizializza l'oggetto della classe Title
 Title title = new Title() { TitleText = titleText };
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Note.Page() { Title = title };
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
@@ -1238,17 +1264,17 @@ public static void Run()
     // Il percorso della directory dei documenti.
     string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-    // Apri il documento che vogliamo convertire.
+    // Apre il documento che vogliamo convertire.
     Document doc = new Document(dataDir + "Aspose.one");
 
     // Crea un oggetto che eredita dalla classe DocumentVisitor.
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // Questo è il noto modello Visitor. Ottieni il modello per accettare un visitatore.
-    // Il modello eseguirà un'iterazione su se stesso chiamando i metodi corrispondenti
-    // sull'oggetto visitatore (questo è chiamato visita).
+    // Questo è il noto pattern Visitor. Fai in modo che il modello accetti un visitatore.
+    // Il modello ripeterà se stesso chiamando i metodi corrispondenti
+    // sull'oggetto visitatore (questo si chiama visiting).
     //
-    // Nota che ogni nodo nel modello a oggetti ha il metodo Accept, quindi la visita
+    // Si noti che ogni nodo nel modello a oggetti ha il metodo Accept, quindi visiting
     // può essere eseguito non solo per l'intero documento, ma per qualsiasi nodo nel documento.
     doc.Accept(myConverter);
 
@@ -1259,7 +1285,7 @@ public static void Run()
 }
 
 /// <summary>
-/// Semplice implementazione del salvataggio di un documento in formato testo normale. Implementato come visitatore.
+/// Semplice implementazione del salvataggio di un documento nel formato testo normale. Implementato come visitatore.
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -1279,7 +1305,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge testo all'output corrente. Rispetta il flag di uscita abilitato/disabilitato.
+    /// Aggiunge testo all'output corrente. Rispetta il flag di output abilitato/disabilitato.
     /// </summary>
     private void AppendText(string text)
     {
@@ -1290,7 +1316,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo RichText nel documento.
+    /// Chiamato quando si incontra un nodo RichText nel documento.
     /// </summary>
     public override void VisitRichTextStart(RichText run)
     {
@@ -1299,7 +1325,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Document nel documento.
+    /// Chiamato quando si incontra un nodo Documento nel documento.
     /// </summary>
     public override void VisitDocumentStart(Document document)
     {
@@ -1307,7 +1333,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Pagina nel documento.
+    /// Chiamato quando si incontra un nodo Page nel documento.
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -1316,7 +1342,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando l'elaborazione di un nodo Pagina è terminata.
+    /// Chiamato quando l'elaborazione di un nodo Page è terminata.
     /// </summary>
     public override void VisitPageEnd(Page page)
     {
@@ -1324,7 +1350,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Titolo nel documento.
+    /// Chiamato quando si incontra un nodo Title nel documento.
     /// </summary>
     public override void VisitTitleStart(Title title)
     {
@@ -1332,7 +1358,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Immagine nel documento.
+    /// Chiamato quando si incontra un nodo Image nel documento.
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -1340,7 +1366,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo OutlineGroup nel documento.
+    /// Chiamato quando si incontra un nodo OutlineGroup nel documento.
     /// </summary>
     public override void VisitOutlineGroupStart(OutlineGroup outlineGroup)
     {
@@ -1348,7 +1374,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Struttura nel documento.
+    /// Chiamato quando si incontra un nodo Struttura nel documento.
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -1364,7 +1390,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il conteggio totale dei nodi dal Visitatore
+    /// Ottiene il conteggio totale dei nodi del visitatore
     /// </summary>
     public Int32 NodeCount
     {
@@ -1379,10 +1405,10 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Guarda anche
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [Page](../page)
-* interface [INotebookChildNode](../inotebookchildnode)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Page](../page/)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

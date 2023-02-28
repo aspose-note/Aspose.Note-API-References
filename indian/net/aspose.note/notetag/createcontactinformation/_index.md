@@ -1,0 +1,31 @@
+---
+title: NoteTag.CreateContactInformation
+second_title: Aspose.Note .NET API संदर्भ के लिए
+description: NoteTag तरक. संपर्क सूचन आइकन और नर्दष्ट लेबल के सथ एक नय नट टैग बनत है
+type: docs
+weight: 300
+url: /hi/net/aspose.note/notetag/createcontactinformation/
+---
+## NoteTag.CreateContactInformation method
+
+संपर्क सूचना आइकन और निर्दिष्ट लेबल के साथ एक नया नोट टैग बनाता है।
+
+```csharp
+public static NoteTag CreateContactInformation(string label = "Phone number")
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| label | String | टैग का लेबल. |
+
+### प्रतिलाभ की मात्रा
+
+द[`NoteTag`](../) .
+
+### यह सभी देखें
+
+* class [NoteTag](../)
+* नाम स्थान [Aspose.Note](../../notetag/)
+* सभा [Aspose.Note](../../../)
+
+

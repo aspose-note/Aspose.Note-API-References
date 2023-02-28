@@ -1,9 +1,9 @@
 ---
-title: ImageSaveOptions
+title: Class ImageSaveOptions
 second_title: Aspose.Note per .NET API Reference
-description: Consente di specificare opzioni aggiuntive durante il rendering delle pagine del documento in immagini.
+description: Aspose.Note.Saving.ImageSaveOptions classe. Consente di specificare opzioni aggiuntive durante il rendering delle pagine del documento in immagini.
 type: docs
-weight: 700
+weight: 720
 url: /it/net/aspose.note.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -18,25 +18,25 @@ public class ImageSaveOptions : SaveOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | Inizializza una nuova istanza di[`ImageSaveOptions`](../imagesaveoptions) classe. |
+| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | Inizializza una nuova istanza di`ImageSaveOptions` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions) { get; set; } | Ottiene o imposta le opzioni per la binarizzazione dell'immagine. |
-| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode) { get; set; } | Ottiene o imposta[`ColorMode`](./colormode) per l'immagine di output. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Ottiene o imposta le impostazioni del carattere da utilizzare durante il salvataggio |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Ottiene o imposta il numero di pagine da salvare. Per impostazione predefinita èMaxValue il che significa che tutte le pagine del documento verranno renderizzate. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Ottiene o imposta l'indice della prima pagina da salvare. Per impostazione predefinita è 0. |
-| [Quality](../../aspose.note.saving/imagesaveoptions/quality) { get; set; } | Ottiene o imposta un valore che determina la qualità dell'immagine salvata. Questo valore viene passato al codec come parametro System.Drawing.Imaging.Encoder.Quality. |
-| [Resolution](../../aspose.note.saving/imagesaveoptions/resolution) { get; set; } | Ottiene o imposta la risoluzione per le immagini generate, in punti per pollice. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Ottiene il formato in cui viene salvato il documento. |
-| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression) { get; set; } | Ottiene o imposta il tipo di compressione da utilizzare quando si salvano le immagini generate nel formato TIFF. |
+| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions/) { get; set; } | Ottiene o imposta le opzioni per la binarizzazione dell'immagine. |
+| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode/) { get; set; } | Ottiene o imposta[`ColorMode`](./colormode/) per l'immagine di output. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Ottiene o imposta le impostazioni del carattere da utilizzare durante il salvataggio |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Ottiene o imposta il numero di pagine da salvare. Per impostazione predefinita èMaxValue che significa che verranno visualizzate tutte le pagine del documento. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Ottiene o imposta l'indice della prima pagina da salvare. Di default è 0. |
+| [Quality](../../aspose.note.saving/imagesaveoptions/quality/) { get; set; } | Ottiene o imposta un valore che determina la qualità dell'immagine salvata. Questo valore viene passato al codec come parametro System.Drawing.Imaging.Encoder.Quality. |
+| [Resolution](../../aspose.note.saving/imagesaveoptions/resolution/) { get; set; } | Ottiene o imposta la risoluzione per le immagini generate, in punti per pollice. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Ottiene il formato in cui viene salvato il documento. |
+| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression/) { get; set; } | Ottiene o imposta il tipo di compressione da utilizzare quando si salvano le immagini generate nel formato TIFF. |
 
 ### Esempi
 
-Mostra come salvare un documento come immagine in formato Jpeg usando SaveFormat.
+Mostra come salvare un documento come immagine in formato Jpeg utilizzando SaveFormat.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -81,7 +81,7 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
-Mostra come impostare una risoluzione dell'immagine durante il salvataggio del documento come immagine.
+Mostra come impostare una risoluzione dell'immagine quando si salva il documento come immagine.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -114,7 +114,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-Mostra come salvare un documento come immagine in formato Tiff usando la compressione PackBits.
+Mostra come salvare un documento come immagine in formato Tiff utilizzando la compressione PackBits.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -132,7 +132,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-Mostra come salvare il taccuino come immagine con le opzioni specificate.
+Mostra come salvare il notebook come immagine con le opzioni specificate.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -153,7 +153,7 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-Mostra come salvare un documento come immagine in formato Tiff usando la compressione Jpeg.
+Mostra come salvare un documento come immagine in formato Tiff utilizzando la compressione Jpeg.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -282,8 +282,8 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### Guarda anche
 
-* class [SaveOptions](../saveoptions)
-* spazio dei nomi [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* spazio dei nomi [Aspose.Note.Saving](../../aspose.note.saving/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

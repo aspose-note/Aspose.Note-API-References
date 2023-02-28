@@ -1,7 +1,7 @@
 ---
-title: Document
+title: Class Document
 second_title: Aspose.Note لمرجع NET API
-description: يمثل وثيقة Aspose.Note .
+description: Aspose.Note.Document فصل. يمثل وثيقة Aspose.Note .
 type: docs
 weight: 60
 url: /ar/net/aspose.note/document/
@@ -18,63 +18,63 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | اسم | وصف |
 | --- | --- |
-| [Document](document#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Document`](../document) class. ينشئ مستند OneNote فارغًا. |
-| [Document](document#constructor_1)(Stream) | يقوم بتهيئة مثيل جديد لملف[`Document`](../document) class. يفتح مستند OneNote موجود من دفق. |
-| [Document](document#constructor_3)(string) | يقوم بتهيئة مثيل جديد لملف[`Document`](../document) class. يفتح مستند OneNote موجود من ملف. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | يقوم بتهيئة مثيل جديد لملف[`Document`](../document) class. يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
-| [Document](document#constructor_4)(string, LoadOptions) | يقوم بتهيئة مثيل جديد لملف[`Document`](../document) class. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
+| [Document](document/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Document` class. ينشئ مستند OneNote فارغًا. |
+| [Document](document/#constructor_1)(Stream) | يقوم بتهيئة مثيل جديد لملف`Document` class. يفتح مستند OneNote موجود من دفق. |
+| [Document](document/#constructor_3)(string) | يقوم بتهيئة مثيل جديد لملف`Document` class. يفتح مستند OneNote موجود من ملف. |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | يقوم بتهيئة مثيل جديد لملف`Document` class. يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
+| [Document](document/#constructor_4)(string, LoadOptions) | يقوم بتهيئة مثيل جديد لملف`Document`class. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان Aspose.Note يقوم باكتشاف تغييرات التخطيط تلقائيًا. القيمة الافتراضية هي`حقيقي` . |
-| [Color](../../aspose.note/document/color) { get; set; } | الحصول على اللون أو تحديده . |
-| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | الحصول على وقت الإنشاء أو تعيينه. |
-| [DisplayName](../../aspose.note/document/displayname) { get; set; } | الحصول على أو تحديد اسم العرض . |
-| [Document](../../aspose.note/node/document) { get; } | يحصل على مستند العقدة . |
-| [FileFormat](../../aspose.note/document/fileformat) { get; } | الحصول على تنسيق الملف (OneNote 2010 ، OneNote Online) . |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [Guid](../../aspose.note/document/guid) { get; } | يحصل على معرف الكائن الفريد عالميًا . |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | يحصل على نوع العقدة . |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان Aspose.Note يقوم باكتشاف تغييرات التخطيط تلقائيًا. القيمة الافتراضية هي`حقيقي` . |
+| [Color](../../aspose.note/document/color/) { get; set; } | الحصول على اللون أو تحديده . |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | الحصول على وقت الإنشاء أو تعيينه. |
+| [DisplayName](../../aspose.note/document/displayname/) { get; set; } | الحصول على أو تحديد اسم العرض . |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| [FileFormat](../../aspose.note/document/fileformat/) { get; } | الحصول على تنسيق الملف (OneNote 2010 ، OneNote Online) . |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Guid](../../aspose.note/document/guid/) { get; } | يحصل على معرف الكائن الفريد عالميًا . |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | يقبل زائر العقدة . |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | يكتشف جميع التغييرات التي تم إجراؤها على تخطيط المستند منذ السابق[`DetectLayoutChanges`](./detectlayoutchanges) call. في حالة[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) اضبط على "صحيح" ، ويستخدم تلقائيًا في بداية تصدير المستند. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | يحصل على ملف[`PageHistory`](../pagehistory) الذي يحتوي على التاريخ الكامل لكل صفحة معروضة في مستند (الأقدم في الفهرس 0) . يمكن الوصول إلى مراجعة الصفحة الحالية كـ[`Current`](../pagehistory/current)ومضمنة بشكل منفصل عن مجموعة الإصدارات التاريخية. |
-| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | يستورد مجموعة من الصفحات من مستند PDF المقدم. |
-| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | يستورد مجموعة من الصفحات من مستند PDF المقدم. |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | يدمج مجموعة من الصفحات في المستند. |
-| [Print](../../aspose.note/document/print#print)() | طباعة المستند باستخدام الطابعة الافتراضية. |
-| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | طباعة المستند باستخدام الطابعة الافتراضية. |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save#save)(Stream) | يحفظ مستند OneNote في دفق. |
-| [Save](../../aspose.note/document/save#save_3)(string) | يحفظ مستند OneNote في ملف. |
-| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | يحفظ مستند OneNote في دفق بالتنسيق المحدد. |
-| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | يحفظ مستند OneNote في دفق باستخدام خيارات الحفظ المحددة. |
-| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | يحفظ مستند OneNote في ملف بالتنسيق المحدد. |
-| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | يحفظ مستند OneNote في ملف باستخدام خيارات الحفظ المحددة. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | للتحقق مما إذا كان مستند من دفق مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | للتحقق مما إذا كان مستند من ملف مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | للتحقق مما إذا كان مستند من دفق مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | للتحقق مما إذا كان مستند من دفق مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | للتحقق مما إذا كان مستند من ملف مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | للتحقق مما إذا كان مستند من ملف مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
+| override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | يكتشف كل التغييرات التي تم إجراؤها على تخطيط المستند منذ السابق[`DetectLayoutChanges`](./detectlayoutchanges/) call. في حالة[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) اضبط على "صحيح" ، ويستخدم تلقائيًا في بداية تصدير المستند. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | يحصل على ملف[`PageHistory`](../pagehistory/) الذي يحتوي على التاريخ الكامل لكل صفحة معروضة في مستند (الأقدم في الفهرس 0) . يمكن الوصول إلى مراجعة الصفحة الحالية كـ[`Current`](../pagehistory/current/) ومضمنة بشكل منفصل عن مجموعة الإصدارات التاريخية. |
+| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | يستورد مجموعة من الصفحات من مستند PDF المقدم. |
+| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | يستورد مجموعة من الصفحات من مستند PDF المقدم. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
+| [Merge](../../aspose.note/document/merge/)(IEnumerable&lt;Page&gt;, MergeOptions) | يدمج مجموعة من الصفحات في المستند. |
+| [Print](../../aspose.note/document/print/#print)() | طباعة المستند باستخدام الطابعة الافتراضية. |
+| [Print](../../aspose.note/document/print/#print_1)(PrintOptions) | طباعة المستند باستخدام الطابعة الافتراضية. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Save](../../aspose.note/document/save/#save)(Stream) | يحفظ مستند OneNote في دفق. |
+| [Save](../../aspose.note/document/save/#save_3)(string) | يحفظ مستند OneNote في ملف. |
+| [Save](../../aspose.note/document/save/#save_1)(Stream, SaveFormat) | يحفظ مستند OneNote في دفق بالتنسيق المحدد. |
+| [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | يحفظ مستند OneNote في دفق باستخدام خيارات الحفظ المحددة. |
+| [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | يحفظ مستند OneNote في ملف بالتنسيق المحدد. |
+| [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | يحفظ مستند OneNote في ملف باستخدام خيارات الحفظ المحددة. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | للتحقق مما إذا كان مستند من دفق مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | للتحقق مما إذا كان مستند من ملف مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | للتحقق مما إذا كان مستند من دفق مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | للتحقق مما إذا كان مستند من دفق مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | للتحقق مما إذا كان مستند من ملف مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | للتحقق مما إذا كان مستند من ملف مشفر . للتحقق من ذلك ، نحتاج إلى تحميل هذا المستند بالكامل. لذلك يمكن أن تؤدي هذه الطريقة إلى عقوبة الأداء. |
 
 ### أمثلة
 
@@ -219,7 +219,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
-يوضح كيفية الحصول على تنسيق ملف للمستند.
+يوضح كيفية الحصول على تنسيق ملف لمستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -237,7 +237,7 @@ switch (document.FileFormat)
 }
 ```
 
-يوضح كيفية ربط ارتباط تشعبي بصورة.
+يوضح كيفية ربط ارتباط تشعبي بصورة ما.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -532,6 +532,32 @@ else
 }
 ```
 
+يوضح كيفية تطبيق نمط النسق الداكن على مستند.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// قم بتحميل المستند في Aspose.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 يوضح كيفية المرور عبر محتوى دفتر ملاحظات.
 
 ```csharp
@@ -632,7 +658,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع خيارات محددة.
+يوضح كيفية إرسال المستند إلى الطابعة باستخدام مربع حوار Windows القياسي مع خيارات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -651,30 +677,6 @@ document.Print(new PrintOptions()
                    PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(),
                    DocumentName = "Test.one"
                });
-```
-
-يوضح كيفية الحصول على المعلومات الوصفية للصورة.
-
-```csharp
-// المسار إلى دليل المستندات.
-string dataDir = RunExamples.GetDataDir_Images();
-
-// قم بتحميل المستند في Aspose.
-Document oneFile = new Document(dataDir + "Aspose.one");
-
-// احصل على جميع عُقد الصور
-IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
-
-foreach (Aspose.Note.Image image in images)
-{
-    Console.WriteLine("Width: {0}", image.Width);
-    Console.WriteLine("Height: {0}", image.Height);
-    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
-    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
-    Console.WriteLine("FileName: {0}", image.FileName);
-    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
-    Console.WriteLine();
-}
 ```
 
 يوضح كيفية الحصول على محتوى ملف مرفق.
@@ -702,6 +704,30 @@ foreach (AttachedFile file in nodes)
             CopyStream(outputStream, fileStream);
         }
     }
+}
+```
+
+يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = RunExamples.GetDataDir_Images();
+
+// قم بتحميل المستند في Aspose.
+Document oneFile = new Document(dataDir + "Aspose.one");
+
+// احصل على جميع عُقد الصور
+IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
+
+foreach (Aspose.Note.Image image in images)
+{
+    Console.WriteLine("Width: {0}", image.Width);
+    Console.WriteLine("Height: {0}", image.Height);
+    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
+    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
+    Console.WriteLine("FileName: {0}", image.FileName);
+    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
+    Console.WriteLine();
 }
 ```
 
@@ -828,7 +854,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 // احصل على الصفحة الأولى من المستند.
 Aspose.Note.Page page = doc.FirstChild;
 
-// قم بتحميل صورة من الملف.
+// تحميل صورة من الملف.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
                               // قم بتغيير حجم الصورة وفقًا لاحتياجاتك (اختياري).
@@ -1307,7 +1333,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة الصفحة في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة الصفحة في المستند.
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -1332,7 +1358,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة صورة في المستند.
+    /// يتم الاستدعاء عند مواجهة عقدة صورة في المستند.
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -1348,7 +1374,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة مخطط تفصيلي في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة مخطط تفصيلي في المستند.
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -1379,10 +1405,10 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### أنظر أيضا
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [Page](../page)
-* interface [INotebookChildNode](../inotebookchildnode)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Page](../page/)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

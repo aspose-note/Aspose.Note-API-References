@@ -1,9 +1,9 @@
 ---
-title: TableCell
+title: Class TableCell
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en tabellcell.
+description: Aspose.Note.TableCell klass. Representerar en tabellcell.
 type: docs
-weight: 880
+weight: 910
 url: /sv/net/aspose.note/tablecell/
 ---
 ## TableCell class
@@ -11,44 +11,44 @@ url: /sv/net/aspose.note/tablecell/
 Representerar en tabellcell.
 
 ```csharp
-public sealed class TableCell : CompositeNode<OutlineElement>
+public sealed class TableCell : CompositeNode<IOutlineChildNode>
 ```
 
 ## Konstruktörer
 
 | namn | Beskrivning |
 | --- | --- |
-| [TableCell](tablecell#constructor)() | Initierar en ny instans av[`TableCell`](../tablecell) class. |
+| [TableCell](tablecell/#constructor)() | Initierar en ny instans av`TableCell` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [BackgroundColor](../../aspose.note/tablecell/backgroundcolor) { get; set; } | Hämtar eller ställer in bakgrundsfärgen. |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/tablecell/lastmodifiedtime) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
-| [MaxWidth](../../aspose.note/tablecell/maxwidth) { get; } | Får maxbredden. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [BackgroundColor](../../aspose.note/tablecell/backgroundcolor/) { get; set; } | Hämtar eller ställer in bakgrundsfärgen. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/tablecell/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
+| [MaxWidth](../../aspose.note/tablecell/maxwidth/) { get; } | Får maxbredden. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/tablecell/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;OutlineElement&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params OutlineElement[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/tablecell/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Exempel
 
@@ -312,9 +312,9 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [OutlineElement](../outlineelement)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

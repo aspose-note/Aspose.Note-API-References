@@ -1,9 +1,9 @@
 ---
-title: OutlineElement
+title: Class OutlineElement
 second_title: Aspose.Note für .NET-API-Referenz
-description: Repräsentiert ein OutlineElement.
+description: Aspose.Note.OutlineElement klas. Repräsentiert ein OutlineElement.
 type: docs
-weight: 440
+weight: 460
 url: /de/net/aspose.note/outlineelement/
 ---
 ## OutlineElement class
@@ -11,7 +11,7 @@ url: /de/net/aspose.note/outlineelement/
 Repräsentiert ein OutlineElement.
 
 ```csharp
-public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IOutlineChildNode, 
+public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, IOutlineChildNode, 
     IOutlineElementChildNode
 ```
 
@@ -19,38 +19,38 @@ public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IO
 
 | Name | Beschreibung |
 | --- | --- |
-| [OutlineElement](outlineelement#constructor)() | Initialisiert eine neue Instanz von[`OutlineElement`](../outlineelement) Klasse. |
+| [OutlineElement](outlineelement/#constructor)() | Initialisiert eine neue Instanz von`OutlineElement` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreationTime](../../aspose.note/outlineelement/creationtime) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IndentPosition](../../aspose.note/outlineelement/indentposition) { get; set; } | Ruft die Einzugsposition ab oder legt sie fest. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [NumberList](../../aspose.note/outlineelement/numberlist) { get; set; } | Ruft den Stil für die Überschrift der nummerierten Liste ab oder legt ihn fest. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [CreationTime](../../aspose.note/outlineelement/creationtime/) { get; set; } | Ruft die Erstellungszeit ab oder legt sie fest. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime/) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [NumberList](../../aspose.note/outlineelement/numberlist/) { get; set; } | Ruft den Stil für die Überschrift der nummerierten Liste ab oder legt ihn fest. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/outlineelement/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineElementChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outlineelement/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineElementChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Beispiele
 
@@ -274,10 +274,10 @@ doc.Save(dataDir);
 
 ### Siehe auch
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

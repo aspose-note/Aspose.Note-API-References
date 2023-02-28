@@ -1,14 +1,14 @@
 ---
-title: TableRow
+title: Class TableRow
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta una riga di tabella.
+description: Aspose.Note.TableRow classe. Rappresenta una riga della tabella.
 type: docs
-weight: 900
+weight: 930
 url: /it/net/aspose.note/tablerow/
 ---
 ## TableRow class
 
-Rappresenta una riga di tabella.
+Rappresenta una riga della tabella.
 
 ```csharp
 public sealed class TableRow : CompositeNode<TableCell>
@@ -18,39 +18,39 @@ public sealed class TableRow : CompositeNode<TableCell>
 
 | Nome | Descrizione |
 | --- | --- |
-| [TableRow](tablerow#constructor)() | Inizializza una nuova istanza di[`TableRow`](../tablerow) classe. |
+| [TableRow](tablerow/#constructor)() | Inizializza una nuova istanza di`TableRow` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Ottiene il documento del nodo. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime) { get; set; } | Ottiene o imposta l'ultima ora modificata. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ottiene il tipo di nodo. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ottiene il nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ottiene il nodo precedente allo stesso livello di albero dei nodi. |
+| [Document](../../aspose.note/node/document/) { get; } | Ottiene il documento del nodo. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime/) { get; set; } | Ottiene o imposta l'ora dell'ultima modifica. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ottiene il tipo di nodo. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ottiene il nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ottiene il nodo precedente allo stesso livello dell'albero dei nodi. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.note/tablerow/accept)(DocumentVisitor) | Accetta il visitatore del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;TableCell&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params TableCell[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/tablerow/accept/)(DocumentVisitor) | Accetta il visitatore del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;TableCell&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params TableCell[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Esempi
 
-Mostra come ottenere testo da ogni riga di tabella.
+Mostra come ottenere il testo da ogni riga della tabella.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -64,13 +64,13 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Scorri le righe della tabella
+    // Itera attraverso le righe della tabella
     foreach (TableRow row in table)
     {
         // Recupera il testo
         string text = string.Join(Environment.NewLine, row.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-        // Stampa il testo sulla schermata di output
+        // Stampa il testo sullo schermo di output
         Console.WriteLine(text);
     }
 }
@@ -90,17 +90,17 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Scorri le righe della tabella
+    // Itera attraverso le righe della tabella
     foreach (TableRow row in table)
     {
         // Ottieni l'elenco dei nodi TableCell
-        // Scorri le celle della tabella
+        // Itera attraverso le celle della tabella
         foreach (TableCell cell in row)
         {
             // Recupera il testo
             string text = string.Join(Environment.NewLine, cell.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-            // Stampa il testo sulla schermata di output
+            // Stampa il testo sullo schermo di output
             Console.WriteLine(text);
         }
     }
@@ -113,12 +113,12 @@ Mostra come impostare un colore di sfondo per una cella.
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto classe TableCell e imposta il contenuto del testo
+// Inizializza l'oggetto della classe TableCell e imposta il contenuto del testo
 TableCell cell11 = new TableCell(doc);
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
-// Inizializza l'oggetto classe TableRow
+// Inizializza l'oggetto della classe TableRow
 TableRow row = new TableRow(doc);
 row.AppendChildLast(cell11);
 
@@ -135,7 +135,7 @@ oe.AppendChildLast(table);
 Outline o = new Outline(doc);
 o.AppendChildLast(oe);
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Page(doc);
 page.AppendChildLast(o);
 
@@ -153,13 +153,13 @@ string dataDir = RunExamples.GetDataDir_Tags();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe TableRow
+// Inizializza l'oggetto della classe TableRow
 TableRow row = new TableRow(doc);
 
-// Inizializza l'oggetto classe TableCell
+// Inizializza l'oggetto della classe TableCell
 TableCell cell = new TableCell(doc);
 
 // Inserisci il contenuto della cella
@@ -175,7 +175,7 @@ Table table = new Table(doc)
                   Columns = { new TableColumn { Width = 70 } }
               };
 
-// Inserisce il nodo riga nella tabella
+// Inserisci il nodo riga nella tabella
 table.AppendChildLast(row);
 
 // Aggiungi tag a questo nodo della tabella
@@ -184,7 +184,7 @@ table.Tags.Add(NoteTag.CreateQuestionMark());
 Outline outline = new Outline(doc);
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Aggiungi nodo tabella
+// Aggiungi il nodo della tabella
 outlineElem.AppendChildLast(table);
 
 // Aggiungi elementi di contorno
@@ -192,7 +192,7 @@ outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
@@ -206,26 +206,26 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe TableRow
+// Inizializza l'oggetto della classe TableRow
 TableRow row1 = new TableRow(doc);
 
-// Inizializza l'oggetto classe TableCell e imposta il contenuto del testo
+// Inizializza l'oggetto della classe TableCell e imposta il contenuto del testo
 TableCell cell11 = new TableCell(doc);
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
-// Inizializza l'oggetto classe TableRow
+// Inizializza l'oggetto della classe TableRow
 TableRow row2 = new TableRow(doc);
 
-// Inizializza l'oggetto classe TableCell e imposta il contenuto del testo
+// Inizializza l'oggetto della classe TableCell e imposta il contenuto del testo
 TableCell cell21 = new TableCell(doc);
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
-// Inizializza l'oggetto classe Table
+// Inizializza l'oggetto della classe Table
 Table table = new Table(doc)
               {
                   IsBordersVisible = true,
@@ -239,13 +239,13 @@ table.AppendChildLast(row2);
 Outline outline = new Outline(doc);
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Aggiungi nodo tabella
+// Aggiungi il nodo della tabella
 outlineElem.AppendChildLast(table);
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
@@ -263,10 +263,10 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe TableRow
+// Inizializza l'oggetto della classe TableRow
 TableRow row1 = new TableRow(doc);
 
 // Inizializza gli oggetti della classe TableCell
@@ -284,7 +284,7 @@ row1.AppendChildLast(cell11);
 row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
-// Inizializza l'oggetto classe TableRow
+// Inizializza l'oggetto della classe TableRow
 TableRow row2 = new TableRow(doc);
 
 // inizializza gli oggetti della classe TableCell
@@ -297,12 +297,12 @@ cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
 cell22.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.2"));
 cell23.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.3"));
 
-// Aggiunge le celle della tabella alle righe
+// Accoda le celle della tabella alle righe
 row2.AppendChildLast(cell21);
 row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
-// Inizializza l'oggetto classe Table e imposta la larghezza delle colonne
+// Inizializza l'oggetto della classe Table e imposta la larghezza delle colonne
 Table table = new Table(doc)
               {
                   IsBordersVisible = true,
@@ -313,22 +313,22 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-// Inizializza l'oggetto Struttura
+// Inizializza l'oggetto Outline
 Outline outline = new Outline(doc);
 
 // Inizializza l'oggetto OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Aggiunge una tabella al nodo dell'elemento struttura
+// Aggiungi tabella al nodo elemento contorno
 outlineElem.AppendChildLast(table);
 
 // Aggiungi un elemento di contorno al contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi struttura al nodo della pagina
+// Aggiungi contorno al nodo della pagina
 page.AppendChildLast(outline);
 
-// Aggiungi la pagina al nodo del documento
+// Aggiungi pagina al nodo del documento
 doc.AppendChildLast(page);
 dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
@@ -336,9 +336,9 @@ doc.Save(dataDir);
 
 ### Guarda anche
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [TableCell](../tablecell)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [TableCell](../tablecell/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: Document
+title: Document.Document
 second_title: Aspose.Note for .NET API Referansı
-description: Yeni bir örneğini başlatırDocumentaspose.note/document class. Boş bir OneNote belgesi oluşturur.
+description: Document inşaatçı. Yeni bir örneğini başlatır.Document class. Boş bir OneNote belgesi oluşturur.
 type: docs
 weight: 10
 url: /tr/net/aspose.note/document/document/
 ---
 ## Document() {#constructor}
 
-Yeni bir örneğini başlatır[`Document`](../../document) class. Boş bir OneNote belgesi oluşturur.
+Yeni bir örneğini başlatır.[`Document`](../) class. Boş bir OneNote belgesi oluşturur.
 
 ```csharp
 public Document()
@@ -16,15 +16,15 @@ public Document()
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## Document(string) {#constructor_3}
 
-Yeni bir örneğini başlatır[`Document`](../../document) class. Bir dosyadan mevcut bir OneNote belgesini açar.
+Yeni bir örneğini başlatır.[`Document`](../) class. Bir dosyadan mevcut bir OneNote belgesini açar.
 
 ```csharp
 public Document(string filePath)
@@ -38,23 +38,23 @@ public Document(string filePath)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
-| InvalidOperationException | Belgeyle ilgili bir sorun var ve Aspose.Note geliştiricilerine bildirilmelidir. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açılması için parola gerekiyor, ancak parolayı yanlış girdiniz. |
+| InvalidOperationException | Belgede bir sorun var ve Aspose.Note geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-Yeni bir örneğini başlatır[`Document`](../../document) class. Bir dosyadan var olan bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir.
+Yeni bir örneğini başlatır.[`Document`](../)class. Bir dosyadan mevcut bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirtilmesine izin verir.
 
 ```csharp
 public Document(string filePath, LoadOptions loadOptions)
@@ -63,30 +63,30 @@ public Document(string filePath, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Dosya yolu. |
-| loadOptions | LoadOptions | Bir belgeyi yüklemek için kullanılan seçenekler. null. olabilir |
+| loadOptions | LoadOptions | Belge yüklemek için kullanılan seçenekler. Boş olabilir. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
-| InvalidOperationException | Belgeyle ilgili bir sorun var ve Aspose.Note geliştiricilerine bildirilmelidir. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açılması için parola gerekiyor, ancak parolayı yanlış girdiniz. |
+| InvalidOperationException | Belgede bir sorun var ve Aspose.Note geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## Document(Stream) {#constructor_1}
 
-Yeni bir örneğini başlatır[`Document`](../../document) class. Bir akıştan mevcut bir OneNote belgesini açar.
+Yeni bir örneğini başlatır.[`Document`](../) class. Akıştan mevcut bir OneNote belgesini açar.
 
 ```csharp
 public Document(Stream inStream)
@@ -100,24 +100,24 @@ public Document(Stream inStream)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
-| InvalidOperationException | Belgeyle ilgili bir sorun var ve Aspose.Note geliştiricilerine bildirilmelidir. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açılması için parola gerekiyor, ancak parolayı yanlış girdiniz. |
+| InvalidOperationException | Belgede bir sorun var ve Aspose.Note geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
 | ArgumentException | Akış okumayı desteklemiyor, boş veya zaten kapalı. |
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-Yeni bir örneğini başlatır[`Document`](../../document) class. Bir akıştan var olan bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir.
+Yeni bir örneğini başlatır.[`Document`](../) class. Akıştan mevcut bir OneNote belgesini açar. Şifreleme parolası gibi ek seçeneklerin belirtilmesine izin verir.
 
 ```csharp
 public Document(Stream inStream, LoadOptions loadOptions)
@@ -126,24 +126,24 @@ public Document(Stream inStream, LoadOptions loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | inStream | Stream | Akış. |
-| loadOptions | LoadOptions | Bir belgeyi yüklemek için kullanılan seçenekler. null. olabilir |
+| loadOptions | LoadOptions | Belge yüklemek için kullanılan seçenekler. Boş olabilir. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
-| InvalidOperationException | Belgeyle ilgili bir sorun var ve Aspose.Note geliştiricilerine bildirilmelidir. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açılması için parola gerekiyor, ancak parolayı yanlış girdiniz. |
+| InvalidOperationException | Belgede bir sorun var ve Aspose.Note geliştiricilerine bildirilmesi gerekiyor. |
 | IOException | Bir giriş/çıkış istisnası var. |
 | ArgumentException | Akış okumayı desteklemiyor, boş veya zaten kapalı. |
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

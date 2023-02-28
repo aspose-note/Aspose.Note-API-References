@@ -1,9 +1,9 @@
 ---
-title: OutlineElement
+title: Class OutlineElement
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Representa un elemento de esquema.
+description: Aspose.Note.OutlineElement clase. Representa un elemento de esquema.
 type: docs
-weight: 440
+weight: 460
 url: /es/net/aspose.note/outlineelement/
 ---
 ## OutlineElement class
@@ -11,7 +11,7 @@ url: /es/net/aspose.note/outlineelement/
 Representa un elemento de esquema.
 
 ```csharp
-public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IOutlineChildNode, 
+public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, IOutlineChildNode, 
     IOutlineElementChildNode
 ```
 
@@ -19,38 +19,38 @@ public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IO
 
 | Nombre | Descripción |
 | --- | --- |
-| [OutlineElement](outlineelement#constructor)() | Inicializa una nueva instancia del[`OutlineElement`](../outlineelement) clase. |
+| [OutlineElement](outlineelement/#constructor)() | Inicializa una nueva instancia del`OutlineElement` clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreationTime](../../aspose.note/outlineelement/creationtime) { get; set; } | Obtiene o establece la hora de creación. |
-| [Document](../../aspose.note/node/document) { get; } | Obtiene el documento del nodo. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IndentPosition](../../aspose.note/outlineelement/indentposition) { get; set; } | Obtiene o establece la posición de la sangría. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime) { get; set; } | Obtiene o establece la hora de última modificación. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Obtiene el tipo de nodo. |
-| [NumberList](../../aspose.note/outlineelement/numberlist) { get; set; } | Obtiene o establece el estilo del encabezado de la lista numerada. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Obtiene el nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
+| [CreationTime](../../aspose.note/outlineelement/creationtime/) { get; set; } | Obtiene o establece la hora de creación. |
+| [Document](../../aspose.note/node/document/) { get; } | Obtiene el documento del nodo. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime/) { get; set; } | Obtiene o establece la hora de última modificación. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Obtiene el siguiente nodo en el mismo nivel de árbol de nodos. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Obtiene el tipo de nodo. |
+| [NumberList](../../aspose.note/outlineelement/numberlist/) { get; set; } | Obtiene o establece el estilo del encabezado de la lista numerada. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Obtiene el nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Obtiene el nodo anterior en el mismo nivel de árbol de nodos. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.note/outlineelement/accept)(DocumentVisitor) | Acepta al visitante del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineElementChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outlineelement/accept/)(DocumentVisitor) | Acepta al visitante del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineElementChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Ejemplos
 
@@ -79,10 +79,10 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// Agregar nodo de elemento de esquema
+// Agregar nodo de elemento de contorno
 outline.AppendChildLast(outlineElem);
 
-// Agregar nodo de esquema
+// Agregar nodo de contorno
 page.AppendChildLast(outline);
 
 // Añadir nodo de página
@@ -101,7 +101,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Cargue el documento en Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// Recuperar una colección de nodos del elemento de esquema
+// Recuperar una colección de nodos del elemento de contorno
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
 // Iterar a través de cada nodo
@@ -274,10 +274,10 @@ doc.Save(dataDir);
 
 ### Ver también
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* espacio de nombres [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* espacio de nombres [Aspose.Note](../../aspose.note/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

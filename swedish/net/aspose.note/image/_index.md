@@ -1,9 +1,9 @@
 ---
-title: Image
+title: Class Image
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en bild.
+description: Aspose.Note.Image klass. Representerar en bild.
 type: docs
-weight: 240
+weight: 250
 url: /sv/net/aspose.note/image/
 ---
 ## Image class
@@ -18,43 +18,43 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | namn | Beskrivning |
 | --- | --- |
-| [Image](image#constructor)() | Initierar en ny instans av[`Image`](../image) class. |
-| [Image](image#constructor_4)(string, Stream) | Initierar en ny instans av[`Image`](../image) class. |
-| [Image](image#constructor_5)(string, string, string) | Initierar en ny instans av[`Image`](../image) class. |
+| [Image](image/#constructor)() | Initierar en ny instans av`Image` class. |
+| [Image](image/#constructor_4)(string, Stream) | Initierar en ny instans av`Image` class. |
+| [Image](image/#constructor_5)(string, string, string) | Initierar en ny instans av`Image` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment) { get; set; } | Hämtar eller ställer in justeringen. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | Hämtar eller ställer in en text till en alternativ text för bilden. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | Hämtar eller ställer in en titel på alternativ text för bilden. |
-| [Bytes](../../aspose.note/image/bytes) { get; } | Hämtar bilddatalagret. |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| [FileName](../../aspose.note/image/filename) { get; } | Hämtar filnamnet. |
-| [FilePath](../../aspose.note/image/filepath) { get; } | Hämtar sökvägen till bildfilen. |
-| [Format](../../aspose.note/image/format) { get; } | Hämtar bildens format. |
-| [Height](../../aspose.note/image/height) { get; set; } | Hämtar eller ställer in höjden. Detta är den verkliga höjden på bilden i MS OneNote-dokumentet. |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Hämtar eller ställer in den horisontella offseten. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Hämtar eller ställer in hyperlänken som är kopplad till bilden. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Hämtar om bilden är en bakgrundsbild. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Får ett värde som indikerar om denna nod är sammansatt. Om sant kan noden ha underordnade noder. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Hämtar eller ställer in senast ändrade tid. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | Får den ursprungliga höjden. Detta är bildens ursprungliga bredd innan storleksändring. |
-| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | Får den ursprungliga bredden. Detta är bildens ursprungliga bredd innan storleksändring. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
-| [Tags](../../aspose.note/image/tags) { get; } | Hämtar listan över alla taggar i ett stycke. |
-| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | Hämtar eller ställer in den vertikala offseten. |
-| [Width](../../aspose.note/image/width) { get; set; } | Hämtar eller ställer in bredden. Detta är den verkliga bredden på bilden i MS OneNote-dokumentet. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | Hämtar eller ställer in justeringen. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | Hämtar eller ställer in en text till en alternativ text för bilden. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | Hämtar eller ställer in en titel på alternativ text för bilden. |
+| [Bytes](../../aspose.note/image/bytes/) { get; } | Hämtar bilddatalagret. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| [FileName](../../aspose.note/image/filename/) { get; } | Hämtar filnamnet. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | Hämtar sökvägen till bildfilen. |
+| [Format](../../aspose.note/image/format/) { get; } | Hämtar bildens format. |
+| [Height](../../aspose.note/image/height/) { get; set; } | Hämtar eller ställer in höjden. Detta är den verkliga höjden på bilden i MS OneNote-dokumentet. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | Hämtar eller ställer in den horisontella offseten. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | Hämtar eller ställer in hyperlänken som är kopplad till bilden. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | Hämtar om bilden är en bakgrundsbild. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Får ett värde som indikerar om denna nod är sammansatt. Om sant kan noden ha underordnade noder. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in senast ändrade tid. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | Får den ursprungliga höjden. Detta är bildens ursprungliga bredd innan storleksändring. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | Får den ursprungliga bredden. Detta är bildens ursprungliga bredd innan storleksändring. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [Tags](../../aspose.note/image/tags/) { get; } | Hämtar listan över alla taggar i ett stycke. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | Hämtar eller ställer in den vertikala offseten. |
+| [Width](../../aspose.note/image/width/) { get; set; } | Hämtar eller ställer in bredden. Detta är den verkliga bredden på bilden i MS OneNote-dokumentet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
 
 ### Exempel
 
@@ -298,11 +298,11 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: DocumentVisitor
+title: Class DocumentVisitor
 second_title: Aspose.Note for .NET API Referansı
-description: Belirtilen düğümde kök ile alt ağaç üzerinden yineleme için soyut sınıf.
+description: Aspose.Note.DocumentVisitor sınıf. Belirtilen düğümde kök ile alt ağaçta yineleme yapmak için soyut sınıf.
 type: docs
 weight: 70
 url: /tr/net/aspose.note/documentvisitor/
 ---
 ## DocumentVisitor class
 
-Belirtilen düğümde kök ile alt ağaç üzerinden yineleme için soyut sınıf.
+Belirtilen düğümde kök ile alt ağaçta yineleme yapmak için soyut sınıf.
 
 ```csharp
 public abstract class DocumentVisitor
@@ -18,30 +18,30 @@ public abstract class DocumentVisitor
 
 | İsim | Tanım |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | Ziyaret etmeyi bitirin[`AttachedFile`](../attachedfile) düğüm. |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | Ziyaret etmeye başlayın[`AttachedFile`](../attachedfile) düğüm. |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | Ziyaret etmeyi bitirin[`Document`](../document) düğüm. |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Ziyaret etmeye başlayın[`Document`](../document) düğüm. |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | Ziyaret etmeyi bitirin[`Image`](../image) düğüm. |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Ziyaret etmeye başlayın[`Image`](../image) düğüm. |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | Ziyaret etmeyi bitirin[`OutlineElement`](../outlineelement) düğüm. |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Ziyaret etmeye başlayın[`OutlineElement`](../outlineelement) düğüm. |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | Ziyaret etmeyi bitirin[`Outline`](../outline) düğüm. |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | Ziyaret etmeyi bitirin[`OutlineGroup`](../outlinegroup) düğüm. |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | Ziyaret etmeye başlayın[`OutlineGroup`](../outlinegroup) düğüm. |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | Ziyaret etmeye başlayın[`Outline`](../outline) düğüm. |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | Ziyaret etmeyi bitirin[`Page`](../page) düğüm. |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | Ziyaret etmeye başlayın[`Page`](../page) düğüm. |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | Ziyaret etmeyi bitirin[`RichText`](../richtext) düğüm. |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | Ziyaret etmeye başlayın[`RichText`](../richtext) düğüm. |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | Ziyaret etmeyi bitirin[`TableCell`](../tablecell) düğüm. |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | Ziyaret etmeye başlayın[`TableCell`](../tablecell) düğüm. |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | Ziyaret etmeyi bitirin[`Table`](../table) düğüm. |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | Ziyaret etmeyi bitirin[`TableRow`](../tablerow) düğüm. |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | Ziyaret etmeye başlayın[`TableRow`](../tablerow) düğüm. |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | Ziyaret etmeye başlayın[`Table`](../table) düğüm. |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | Ziyaret etmeyi bitirin[`Title`](../title) düğüm. |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | Ziyaret etmeye başlayın[`Title`](../title) düğüm. |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend/)(AttachedFile) | Ziyaret etmek için son[`AttachedFile`](../attachedfile/) düğüm. |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart/)(AttachedFile) | Ziyaret etmeye başlayın[`AttachedFile`](../attachedfile/) düğüm. |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend/)(Document) | Ziyaret etmek için son[`Document`](../document/) düğüm. |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart/)(Document) | Ziyaret etmeye başlayın[`Document`](../document/) düğüm. |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend/)(Image) | Ziyaret etmek için son[`Image`](../image/) düğüm. |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart/)(Image) | Ziyaret etmeye başlayın[`Image`](../image/) düğüm. |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend/)(OutlineElement) | Ziyaret etmek için son[`OutlineElement`](../outlineelement/) düğüm. |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart/)(OutlineElement) | Ziyaret etmeye başlayın[`OutlineElement`](../outlineelement/) düğüm. |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend/)(Outline) | Ziyaret etmek için son[`Outline`](../outline/) düğüm. |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend/)(OutlineGroup) | Ziyaret etmek için son[`OutlineGroup`](../outlinegroup/) düğüm. |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart/)(OutlineGroup) | Ziyaret etmeye başlayın[`OutlineGroup`](../outlinegroup/) düğüm. |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart/)(Outline) | Ziyaret etmeye başlayın[`Outline`](../outline/) düğüm. |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend/)(Page) | Ziyaret etmek için son[`Page`](../page/) düğüm. |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart/)(Page) | Ziyaret etmeye başlayın[`Page`](../page/) düğüm. |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend/)(RichText) | Ziyaret etmek için son[`RichText`](../richtext/) düğüm. |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart/)(RichText) | Ziyaret etmeye başlayın[`RichText`](../richtext/) düğüm. |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend/)(TableCell) | Ziyaret etmek için son[`TableCell`](../tablecell/) düğüm. |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart/)(TableCell) | Ziyaret etmeye başlayın[`TableCell`](../tablecell/) düğüm. |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend/)(Table) | Ziyaret etmek için son[`Table`](../table/) düğüm. |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend/)(TableRow) | Ziyaret etmek için son[`TableRow`](../tablerow/) düğüm. |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart/)(TableRow) | Ziyaret etmeye başlayın[`TableRow`](../tablerow/) düğüm. |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart/)(Table) | Ziyaret etmeye başlayın[`Table`](../table/) düğüm. |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend/)(Title) | Ziyaret etmek için son[`Title`](../title/) düğüm. |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart/)(Title) | Ziyaret etmeye başlayın[`Title`](../title/) düğüm. |
 
 ### Örnekler
 
@@ -53,22 +53,22 @@ public static void Run()
     // Belgeler dizininin yolu.
     string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-    // Dönüştürmek istediğimiz belgeyi açıyoruz.
+    // Dönüştürmek istediğimiz belgeyi açın.
     Document doc = new Document(dataDir + "Aspose.one");
 
     // DocumentVisitor sınıfından miras alan bir nesne oluşturun.
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // Bu, iyi bilinen Ziyaretçi kalıbıdır. Bir ziyaretçiyi kabul etmek için modeli alın.
-    // Model, ilgili yöntemleri çağırarak kendi içinde yinelenir
+    // Bu, iyi bilinen Ziyaretçi modelidir. Modelin bir ziyaretçiyi kabul etmesini sağlayın.
+    // Model, karşılık gelen yöntemleri çağırarak kendi içinde yinelenir
     // ziyaretçi nesnesinde (buna ziyaret denir).
     //
-    // Nesne modelindeki her düğümün Kabul Et yöntemine sahip olduğuna dikkat edin, bu nedenle ziyaret
-    // yalnızca belgenin tamamı için değil, belgedeki herhangi bir düğüm için yürütülebilir.
+    // Nesne modelindeki her düğümün Kabul yöntemine sahip olduğuna dikkat edin, böylece ziyaret
+    // sadece tüm belge için değil, belgedeki herhangi bir düğüm için yürütülebilir.
     doc.Accept(myConverter);
 
-    // Ziyaret tamamlandıktan sonra işlemin sonucunu alabiliriz,
-    // bu örnekte, ziyaretçide biriken.
+    // Ziyaret tamamlandığında işlemin sonucunu alabiliriz,
+    // bu örnekte ziyaretçide birikmiş olan.
     Console.WriteLine(myConverter.GetText());
     Console.WriteLine(myConverter.NodeCount);            
 }
@@ -94,7 +94,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Mevcut çıktıya metin ekler. Etkin/devre dışı çıkış bayrağını onurlandırır.
+    ///Mevcut çıktıya metin ekler. Etkin/devre dışı çıkış bayrağını onurlandırır.
     /// </summary>
     private void AppendText(string text)
     {
@@ -163,7 +163,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Outline düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir Ana Hat düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -194,7 +194,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Note](../../aspose.note)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

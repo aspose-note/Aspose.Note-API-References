@@ -1,9 +1,9 @@
 ---
-title: NoteTask
+title: Class NoteTask
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en anteckningsuppgift.
+description: Aspose.Note.NoteTask klass. Representerar en anteckningsuppgift.
 type: docs
-weight: 380
+weight: 400
 url: /sv/net/aspose.note/notetask/
 ---
 ## NoteTask class
@@ -18,30 +18,30 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Checked](../../aspose.note/checkbox/checked) { get; } | Får ett värde som indikerar om CheckBox är i markerat tillstånd. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Hämtar eller ställer in den slutförda tiden. |
-| [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Hämtar eller ställer in skapelsetiden. |
-| [DueDate](../../aspose.note/notetask/duedate) { get; set; } | Hämtar eller ställer in förfallodatum. |
-| override [Icon](../../aspose.note/notetask/icon) { get; } | Hämtar eller ställer in ikonen. |
-| [Label](../../aspose.note/checkbox/label) { get; } | Hämtar etiketttexten. |
-| [Status](../../aspose.note/checkbox/status) { get; } | Hämtar eller ställer in status. |
+| [Checked](../../aspose.note/checkbox/checked/) { get; } | Får ett värde som indikerar om CheckBox är i markerat tillstånd. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | Hämtar eller ställer in den slutförda tiden. |
+| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | Hämtar eller ställer in skapelsetiden. |
+| [DueDate](../../aspose.note/notetask/duedate/) { get; set; } | Hämtar eller ställer in förfallodatum. |
+| override [Icon](../../aspose.note/notetask/icon/) { get; } | Hämtar eller ställer in ikonen. |
+| [Label](../../aspose.note/checkbox/label/) { get; } | Hämtar etiketttexten. |
+| [Status](../../aspose.note/checkbox/status/) { get; } | Hämtar eller ställer in status. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate)(DateTime) | Skapar en ny anteckningsuppgift med NoFollowUpDateFlag-ikonen och angivet förfallodatum. |
-| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek)() | Skapar en ny anteckningsuppgift med FollowUpNextWeekFlag-ikonen. |
-| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek)() | Skapar en ny anteckningsuppgift med FollowUpThisWeekFlag-ikonen. |
-| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday)() | Skapar en ny anteckningsuppgift med FollowUpTodayFlag-ikonen. |
-| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow)() | Skapar en ny anteckningsuppgift med FollowUpTomorrowFlag-ikonen. |
-| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate)() | Skapar en ny anteckningsuppgift med NoFollowUpDateFlag-ikonen. |
-| [Equals](../../aspose.note/notetask/equals#equals)(NoteTask) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| override [Equals](../../aspose.note/notetask/equals#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
-| override [GetHashCode](../../aspose.note/notetask/gethashcode)() | Fungerar som en hashfunktion för typen. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Ställer in taggen till slutfört läge med aktuell tid som slutförd tid. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Ställer in taggen till färdigt tillstånd. |
-| override [SetOpen](../../aspose.note/notetask/setopen)() | Ställer in taggen till öppet läge. |
+| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate/)(DateTime) | Skapar en ny anteckningsuppgift med NoFollowUpDateFlag-ikonen och angivet förfallodatum. |
+| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek/)() | Skapar en ny anteckningsuppgift med FollowUpNextWeekFlag-ikonen. |
+| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek/)() | Skapar en ny anteckningsuppgift med FollowUpThisWeekFlag-ikonen. |
+| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday/)() | Skapar en ny anteckningsuppgift med FollowUpTodayFlag-ikonen. |
+| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow/)() | Skapar en ny anteckningsuppgift med FollowUpTomorrowFlag-ikonen. |
+| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate/)() | Skapar en ny anteckningsuppgift med NoFollowUpDateFlag-ikonen. |
+| [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | Bestämmer om det angivna objektet är lika med det aktuella objektet. |
+| override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | Fungerar som en hashfunktion för typen. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | Ställer in taggen till slutfört läge med aktuell tid som slutförd tid. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | Ställer in taggen till färdigt tillstånd. |
+| override [SetOpen](../../aspose.note/notetask/setopen/)() | Ställer in taggen till öppet läge. |
 
 ### Exempel
 
@@ -100,8 +100,8 @@ foreach (RichText richText in nodes)
 
 ### Se även
 
-* class [CheckBox](../checkbox)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [CheckBox](../checkbox/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

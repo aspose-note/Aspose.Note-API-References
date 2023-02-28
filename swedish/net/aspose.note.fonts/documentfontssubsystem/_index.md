@@ -1,7 +1,7 @@
 ---
-title: DocumentFontsSubsystem
+title: Class DocumentFontsSubsystem
 second_title: Aspose.Note för .NET API-referens
-description: Enkel implementering av Aspose.Note.Fonts.FontsSubsystem. HämtarFontFamily objekt från OS.
+description: Aspose.Note.Fonts.DocumentFontsSubsystem klass. Enkel implementering av Aspose.Note.Fonts.FontsSubsystem. HämtarFontFamily objekt från OS.
 type: docs
 weight: 100
 url: /sv/net/aspose.note.fonts/documentfontssubsystem/
@@ -18,30 +18,30 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | namn | Beskrivning |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor)(Dictionary&lt;string, string&gt;) | Initierar en ny instans av[`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Initierar en ny instans av[`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
-| [DocumentFontsSubsystem](documentfontssubsystem#constructor_2)(string, Dictionary&lt;string, string&gt;) | Initierar en ny instans av[`DocumentFontsSubsystem`](../documentfontssubsystem) class. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | Initierar en ny instans av`DocumentFontsSubsystem` class. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | Initierar en ny instans av`DocumentFontsSubsystem` class. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | Initierar en ny instans av`DocumentFontsSubsystem` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| static [Default](../../aspose.note.fonts/documentfontssubsystem/default) { get; set; } | Hämtar eller ställer in den statiska standardinstansen. |
-| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont) { get; } | Hämtar eller ställer in standardteckensnitt. |
+| static [Default](../../aspose.note.fonts/documentfontssubsystem/default/) { get; set; } | Hämtar eller ställer in den statiska standardinstansen. |
+| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont/) { get; } | Hämtar eller ställer in standardteckensnitt. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont)(string, Dictionary&lt;string, string&gt;) | Skapa ny DocumentFontsSubsystem-instans med det angivna standardteckensnittsnamnet. |
-| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile)(string, Dictionary&lt;string, string&gt;) | Skapa ny DocumentFontsSubsystem-instans med ett typsnitt från angiven fil som standard. |
-| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream)(Stream, Dictionary&lt;string, string&gt;) | Skapa ny DocumentFontsSubsystem-instans med ett teckensnitt från angiven ström som standard. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream) | Lägg till typsnittet. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(string) | Lägg till typsnittet. |
-| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont)(Stream, string) | Lägg till typsnittet. |
-| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution)(string, string) | Lägger till teckensnittsersättning. |
-| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily)(string) | Får teckensnittsfamilj. |
-| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder)(string) | Laddar alla TrueType-teckensnitt från angiven mapp till intern samling. |
+| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont/)(string, Dictionary&lt;string, string&gt;) | Skapa ny DocumentFontsSubsystem-instans med det angivna standardteckensnittsnamnet. |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | Skapa ny DocumentFontsSubsystem-instans med ett typsnitt från angiven fil som standard. |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | Skapa ny DocumentFontsSubsystem-instans med ett teckensnitt från angiven ström som standard. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream) | Lägg till typsnittet. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(string) | Lägg till typsnittet. |
+| [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream, string) | Lägg till typsnittet. |
+| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution/)(string, string) | Lägger till teckensnittsersättning. |
+| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily/)(string) | Får teckensnittsfamilj. |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | Laddar alla TrueType-teckensnitt från angiven mapp till intern samling. |
 
 ### Exempel
 
@@ -106,8 +106,8 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Se även
 
-* class [FontsSubsystem](../fontssubsystem)
-* namnutrymme [Aspose.Note.Fonts](../../aspose.note.fonts)
+* class [FontsSubsystem](../fontssubsystem/)
+* namnutrymme [Aspose.Note.Fonts](../../aspose.note.fonts/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

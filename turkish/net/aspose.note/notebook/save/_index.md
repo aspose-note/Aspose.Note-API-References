@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Notebook.Save
 second_title: Aspose.Note for .NET API Referansı
-description: OneNote belgesini bir dosyaya kaydeder.
+description: Notebook yöntem. OneNote belgesini bir dosyaya kaydeder.
 type: docs
 weight: 150
 url: /tr/net/aspose.note/notebook/save/
@@ -16,19 +16,19 @@ public void Save(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa, mevcut dosyanın üzerine yazılır. |
+| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa mevcut dosyanın üzerine yazılır. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Ayrıca bakınız
 
-* class [Notebook](../../notebook)
-* ad alanı [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* ad alanı [Aspose.Note](../../notebook/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -49,13 +49,13 @@ public void Save(Stream stream)
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Ayrıca bakınız
 
-* class [Notebook](../../notebook)
-* ad alanı [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* ad alanı [Aspose.Note](../../notebook/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -70,21 +70,21 @@ public void Save(string fileName, SaveFormat format)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa, mevcut dosyanın üzerine yazılır. |
+| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa mevcut dosyanın üzerine yazılır. |
 | format | SaveFormat | Belgenin kaydedileceği biçim. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Ayrıca bakınız
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* ad alanı [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* ad alanı [Aspose.Note](../../notebook/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -106,14 +106,14 @@ public void Save(Stream stream, SaveFormat format)
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Ayrıca bakınız
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* ad alanı [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* ad alanı [Aspose.Note](../../notebook/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -128,21 +128,21 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa, mevcut dosyanın üzerine yazılır. |
-| options | NotebookSaveOptions | Belgenin dosyaya nasıl kaydedileceği seçeneklerini belirtir. |
+| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa mevcut dosyanın üzerine yazılır. |
+| options | NotebookSaveOptions | Belgenin file. dosyasına nasıl kaydedileceği seçeneklerini belirtir. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Ayrıca bakınız
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* ad alanı [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* ad alanı [Aspose.Note](../../notebook/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -164,14 +164,14 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Ayrıca bakınız
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* ad alanı [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* ad alanı [Aspose.Note](../../notebook/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

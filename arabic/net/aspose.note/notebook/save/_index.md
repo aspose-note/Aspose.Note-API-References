@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Notebook.Save
 second_title: Aspose.Note لمرجع NET API
-description: يحفظ مستند OneNote في ملف.
+description: Notebook طريقة. يحفظ مستند OneNote في ملف.
 type: docs
 weight: 150
 url: /ar/net/aspose.note/notebook/save/
@@ -16,19 +16,19 @@ public void Save(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فسيتم استبدال الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أنظر أيضا
 
-* class [Notebook](../../notebook)
-* مساحة الاسم [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* مساحة الاسم [Aspose.Note](../../notebook/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -49,13 +49,13 @@ public void Save(Stream stream)
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أنظر أيضا
 
-* class [Notebook](../../notebook)
-* مساحة الاسم [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* مساحة الاسم [Aspose.Note](../../notebook/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -70,21 +70,21 @@ public void Save(string fileName, SaveFormat format)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فسيتم استبدال الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
 | format | SaveFormat | التنسيق المراد حفظ المستند به. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أنظر أيضا
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* مساحة الاسم [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* مساحة الاسم [Aspose.Note](../../notebook/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -106,14 +106,14 @@ public void Save(Stream stream, SaveFormat format)
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أنظر أيضا
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* مساحة الاسم [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* مساحة الاسم [Aspose.Note](../../notebook/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -128,21 +128,21 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فسيتم استبدال الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
 | options | NotebookSaveOptions | يحدد الخيارات كيفية حفظ المستند في ملف. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أنظر أيضا
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* مساحة الاسم [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* مساحة الاسم [Aspose.Note](../../notebook/)
 * المجسم [Aspose.Note](../../../)
 
 ---
@@ -164,14 +164,14 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | استثناء | حالة |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | هيكل الوثيقة ينتهك المواصفات. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | تنسيق الحفظ المطلوب غير مدعوم. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
 ### أنظر أيضا
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* مساحة الاسم [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* مساحة الاسم [Aspose.Note](../../notebook/)
 * المجسم [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

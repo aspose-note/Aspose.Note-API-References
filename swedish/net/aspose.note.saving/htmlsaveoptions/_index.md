@@ -1,9 +1,9 @@
 ---
-title: HtmlSaveOptions
+title: Class HtmlSaveOptions
 second_title: Aspose.Note för .NET API-referens
-description: Gör det möjligt att ange ytterligare alternativ när du sparar dokument i HTML-format.
+description: Aspose.Note.Saving.HtmlSaveOptions klass. Gör det möjligt att ange ytterligare alternativ när du sparar dokument i HTMLformat.
 type: docs
-weight: 680
+weight: 700
 url: /sv/net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -18,26 +18,26 @@ public class HtmlSaveOptions : SaveOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions)() | Default_Constructor |
+| [HtmlSaveOptions](htmlsaveoptions/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration) { get; set; } | Hämtar eller ställer in om StyleSheet-filen ska genereras för varje ny sida separat. |
-| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs för att lagra CSS. |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration) { get; set; } | Hämtar eller ställer in ett värde som anger om generering av dokument per sida är aktiverat. |
-| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss) { get; set; } | Hämtar eller ställer in hur css exporteras. |
-| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts) { get; set; } | Hämtar eller ställer in hur teckensnitt exporteras. |
-| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages) { get; set; } | Hämtar eller ställer in hur bilder exporteras. |
-| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes) { get; set; } | Hämtar eller ställer in teckensnittstyper. |
-| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs för att lagra teckensnitt. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Hämtar eller ställer in teckensnittets inställningar som ska användas medan de sparas |
-| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs för att lagra bild. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Hämtar eller ställer in antalet sidor som ska sparas. Som standard ärMaxValue vilket innebär att alla sidor i dokumentet kommer att renderas. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Hämtar eller ställer in indexet för den första sidan som ska sparas. Som standard är 0. |
-| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs till butikssida. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Hämtar formatet som dokumentet sparas i. |
+| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | Hämtar eller ställer in om StyleSheet-filen ska genereras för varje ny sida separat. |
+| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs för att lagra CSS. |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | Hämtar eller ställer in ett värde som anger om generering av dokument per sida är aktiverat. |
+| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | Hämtar eller ställer in hur css exporteras. |
+| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | Hämtar eller ställer in hur teckensnitt exporteras. |
+| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | Hämtar eller ställer in hur bilder exporteras. |
+| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes/) { get; set; } | Hämtar eller ställer in teckensnittstyper. |
+| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs för att lagra teckensnitt. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Hämtar eller ställer in teckensnittets inställningar som ska användas medan de sparas |
+| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs för att lagra bild. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Hämtar eller ställer in antalet sidor som ska sparas. Som standard ärMaxValue vilket innebär att alla sidor i dokumentet kommer att renderas. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Hämtar eller ställer in indexet för den första sidan som ska sparas. Som standard är 0. |
+| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | Hämtar eller ställer in återuppringningen som anropas för att skapa resurs till butikssida. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Hämtar formatet som dokumentet sparas i. |
 
 ### Exempel
 
@@ -147,8 +147,8 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 
 ### Se även
 
-* class [SaveOptions](../saveoptions)
-* namnutrymme [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* namnutrymme [Aspose.Note.Saving](../../aspose.note.saving/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

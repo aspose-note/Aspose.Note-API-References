@@ -1,9 +1,9 @@
 ---
-title: ParagraphStyle
+title: Class ParagraphStyle
 second_title: Aspose.Note für .NET-API-Referenz
-description: Zu verwendende Textstileinstellungen wenn kein passendes TextStyle-Objekt vorhanden istStyles entweder dieses Objekt gibt keine erforderliche Einstellung an.
+description: Aspose.Note.ParagraphStyle klas. Zu verwendende Textstileinstellungen wenn kein passendes TextStyleObjekt vorhanden istStyles entweder dieses Objekt gibt keine erforderliche Einstellung an.
 type: docs
-weight: 490
+weight: 510
 url: /de/net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
@@ -18,32 +18,32 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | Name | Beschreibung |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle)() | Initialisiert eine neue Instanz von[`ParagraphStyle`](../paragraphstyle) Klasse. |
+| [ParagraphStyle](paragraphstyle/)() | Initialisiert eine neue Instanz von`ParagraphStyle` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Default](../../aspose.note/paragraphstyle/default) { get; } | Ruft den ParagraphStyle mit Standardeinstellungen ab. |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Ruft die Schriftfarbe ab oder legt sie fest. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | Ruft den Schriftartnamen ab oder legt ihn fest. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Ruft die Schriftgröße ab oder legt sie fest. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Ruft den Schriftstil ab. |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | Ruft die Hervorhebungsfarbe ab oder legt sie fest. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil fett ist. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil kursiv ist. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil durchgestrichen ist. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil tiefgestellt ist. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil hochgestellt ist. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil unterstrichen ist. |
+| static [Default](../../aspose.note/paragraphstyle/default/) { get; } | Ruft den ParagraphStyle mit Standardeinstellungen ab. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Ruft die Schriftfarbe ab oder legt sie fest. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | Ruft den Schriftartnamen ab oder legt ihn fest. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Ruft die Schriftgröße ab oder legt sie fest. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Ruft den Schriftstil ab. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Ruft die Hervorhebungsfarbe ab oder legt sie fest. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil fett ist. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil kursiv ist. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil durchgestrichen ist. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil tiefgestellt ist. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil hochgestellt ist. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Textstil unterstrichen ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
-| [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
-| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode)() | dient als Hash-Funktion für den Typ. |
+| override [Equals](../../aspose.note/paragraphstyle/equals/#equals_1)(object) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
+| [Equals](../../aspose.note/paragraphstyle/equals/#equals)(ParagraphStyle) | Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode/)() | dient als Hash-Funktion für den Typ. |
 
 ### Beispiele
 
@@ -255,8 +255,8 @@ doc.Save(dataDir);
 
 ### Siehe auch
 
-* class [Style](../style)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

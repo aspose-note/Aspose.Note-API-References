@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Document.Save
 second_title: Aspose.Note for .NET API Referansı
-description: OneNote belgesini bir dosyaya kaydeder.
+description: Document yöntem. OneNote belgesini bir dosyaya kaydeder.
 type: docs
 weight: 140
 url: /tr/net/aspose.note/document/save/
@@ -16,14 +16,14 @@ public void Save(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa, mevcut dosyanın üzerine yazılır. |
+| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa mevcut dosyanın üzerine yazılır. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Örnekler
 
@@ -40,8 +40,8 @@ doc.Save(dataDir + outputFile);
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -62,13 +62,13 @@ public void Save(Stream stream)
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Ayrıca bakınız
 
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -83,19 +83,19 @@ public void Save(string fileName, SaveFormat format)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa, mevcut dosyanın üzerine yazılır. |
+| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa mevcut dosyanın üzerine yazılır. |
 | format | SaveFormat | Belgenin kaydedileceği biçim. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Örnekler
 
-SaveFormat numaralandırma kullanılarak bir belgenin nasıl kaydedileceğini gösterir.
+SaveFormat numaralandırmayı kullanarak bir belgenin nasıl kaydedileceğini gösterir.
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -124,9 +124,9 @@ oneFile.Save(dataDir, SaveFormat.Gif);
 
 ### Ayrıca bakınız
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -148,8 +148,8 @@ public void Save(Stream stream, SaveFormat format)
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Örnekler
 
@@ -183,11 +183,37 @@ doc.Save(dstStream, SaveFormat.Pdf);
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
+Koyu tema stilinin bir Belgeye nasıl uygulanacağını gösterir.
+
+```csharp
+// Belgeler dizininin yolu.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Belgeyi Aspose.Note'a yükleyin.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 ### Ayrıca bakınız
 
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* enum [SaveFormat](../../saveformat/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -202,15 +228,15 @@ public void Save(string fileName, SaveOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa, mevcut dosyanın üzerine yazılır. |
-| options | SaveOptions | Belgenin dosyaya nasıl kaydedileceği seçeneklerini belirtir. |
+| fileName | String | Dosyanın tam adı. Belirtilen tam ada sahip bir dosya zaten varsa mevcut dosyanın üzerine yazılır. |
+| options | SaveOptions | Belgenin file. dosyasına nasıl kaydedileceği seçeneklerini belirtir. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Örnekler
 
@@ -226,7 +252,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-SaveFormat kullanılarak bir belgenin Jpeg formatında nasıl görüntü olarak kaydedileceğini gösterir.
+Bir belgenin SaveFormat kullanılarak Jpeg formatında resim olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -241,7 +267,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
-ImageSaveOptions kullanılarak bir belgenin Bmp formatında görüntü olarak nasıl kaydedileceğini gösterir.
+ImageSaveOptions kullanılarak bir belgenin Bmp biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -254,6 +280,36 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 
 // Belgeyi kaydedin.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
+```
+
+Bir belgenin Letter sayfa düzeniyle PDF formatında nasıl kaydedileceğini gösterir.
+
+```csharp
+// Belgeler dizininin yolu.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Belgeyi Aspose.Note'a yükleyin.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
+
+// Belgeyi kaydedin.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
+```
+
+Bir belgenin A4 sayfa düzeninde yükseklik sınırı olmaksızın PDF formatında nasıl kaydedileceğini gösterir.
+
+```csharp
+// Belgeler dizininin yolu.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Belgeyi Aspose.Note'a yükleyin.
+Document oneFile = new Document(dataDir + "OneNote.one");
+
+var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
+
+// Belgeyi kaydedin.
+oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
 Bir belgenin gri tonlamalı görüntü olarak nasıl kaydedileceğini gösterir.
@@ -274,7 +330,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-PackBits sıkıştırması kullanılarak bir belgenin Tiff formatında nasıl görüntü olarak kaydedileceğini gösterir.
+PackBits sıkıştırması kullanılarak bir belgenin Tiff biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -292,7 +348,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-Jpeg sıkıştırması kullanılarak bir belgenin Tiff formatında görüntü olarak nasıl kaydedileceğini gösterir.
+Jpeg sıkıştırması kullanılarak bir belgenin Tiff biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -311,7 +367,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-CCITT Group 3 faks sıkıştırması kullanılarak bir belgenin Tiff formatında görüntü olarak nasıl kaydedileceğini gösterir.
+CCITT Grup 3 faks sıkıştırması kullanılarak bir belgenin Tiff biçiminde görüntü olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -342,7 +398,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // PdfSaveOptions nesnesini başlat
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Kaydedilecek ilk sayfanın sayfa indeksini ayarla
+                              // Kaydedilecek ilk sayfanın sayfa dizinini ayarla
                               PageIndex = 0,
 
                               // Sayfa sayısını ayarla
@@ -366,10 +422,10 @@ Document doc = new Document(dataDir + "Aspose.one");
 // PdfSaveOptions nesnesini başlat
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // Jpeg sıkıştırmasını kullan
+                              // Jpeg sıkıştırmayı kullan
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
-                              // JPEG sıkıştırması için kalite
+                              // JPEG sıkıştırma kalitesi
                               JpegQuality = 90
                           };
 
@@ -424,9 +480,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 
 ### Ayrıca bakınız
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
 ---
@@ -448,12 +504,12 @@ public void Save(Stream stream, SaveOptions options)
 
 | istisna | şart |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Belge yapısı belirtimi ihlal ediyor. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | İstenen kaydetme biçimi desteklenmiyor. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Belge yapısı belirtimi ihlal ediyor. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | İstenen kaydetme biçimi desteklenmiyor. |
 
 ### Örnekler
 
-Belirtilen varsayılan yazı tipini kullanarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
+Belirtilen varsayılan yazı tipi kullanılarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -470,7 +526,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-Bir dosyadan varsayılan yazı tipini kullanarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
+Bir dosyadan varsayılan yazı tipini kullanarak bir belgeyi pdf biçiminde nasıl kaydedeceğinizi gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -489,7 +545,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-Bir akıştan varsayılan yazı tipini kullanarak bir belgenin pdf formatında nasıl kaydedileceğini gösterir.
+Bir akıştan varsayılan yazı tipi kullanılarak bir belgenin pdf biçiminde nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -514,9 +570,9 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 
 ### Ayrıca bakınız
 
-* class [SaveOptions](../../../aspose.note.saving/saveoptions)
-* class [Document](../../document)
-* ad alanı [Aspose.Note](../../document)
+* class [SaveOptions](../../../aspose.note.saving/saveoptions/)
+* class [Document](../)
+* ad alanı [Aspose.Note](../../document/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

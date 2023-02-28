@@ -1,9 +1,9 @@
 ---
-title: TableRow
+title: Class TableRow
 second_title: Aspose.Note for .NET API Referansı
-description: Bir tablo satırını temsil eder.
+description: Aspose.Note.TableRow sınıf. Bir tablo satırını temsil eder.
 type: docs
-weight: 900
+weight: 930
 url: /tr/net/aspose.note/tablerow/
 ---
 ## TableRow class
@@ -18,39 +18,39 @@ public sealed class TableRow : CompositeNode<TableCell>
 
 | İsim | Tanım |
 | --- | --- |
-| [TableRow](tablerow#constructor)() | Yeni bir örneğini başlatır[`TableRow`](../tablerow) sınıf. |
+| [TableRow](tablerow/#constructor)() | Yeni bir örneğini başlatır.`TableRow` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Düğümün belgesini alır. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Aynı düğüm ağacı düzeyinde bir sonraki düğümü alır. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Düğüm türünü alır. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Üst düğümü alır. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Aynı düğüm ağacı düzeyinde önceki düğümü alır. |
+| [Document](../../aspose.note/node/document/) { get; } | Düğümün belgesini alır. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime/) { get; set; } | Son değiştirilme zamanını alır veya ayarlar. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Aynı düğüm ağacı seviyesindeki bir sonraki düğümü alır. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Düğüm türünü alır. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Üst düğümü alır. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Aynı düğüm ağacı seviyesindeki önceki düğümü alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.note/tablerow/accept)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;TableCell&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params TableCell[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/tablerow/accept/)(DocumentVisitor) | Düğümün ziyaretçisini kabul eder. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;TableCell&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params TableCell[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Örnekler
 
-Her tablonun satırından nasıl metin alınacağını gösterir.
+Her tablo satırından nasıl metin alınacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -59,12 +59,12 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Tablo satırları arasında yineleme
+    // Tablo satırlarını yinele
     foreach (TableRow row in table)
     {
         // Metni al
@@ -85,16 +85,16 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // Belgeyi Aspose.Note'a yükleyin.
 Document document = new Document(dataDir + "Sample1.one");
 
-// Tablo düğümlerinin bir listesini alın
+// tablo düğümlerinin bir listesini al
 IList<Table> nodes = document.GetChildNodes<Table>();        
 
 foreach (Table table in nodes)
 {
-    // Tablo satırları arasında yineleme
+    // Tablo satırlarını yinele
     foreach (TableRow row in table)
     {
         // TableCell düğümlerinin listesini al
-        // Tablo hücreleri arasında yineleme
+        // Tablo hücrelerini yinele
         foreach (TableCell cell in row)
         {
             // Metni al
@@ -110,7 +110,7 @@ foreach (Table table in nodes)
 Bir hücre için arka plan renginin nasıl ayarlanacağını gösterir.
 
 ```csharp
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // TableCell sınıf nesnesini başlat ve metin içeriğini ayarla
@@ -150,7 +150,7 @@ Etiketli yeni tablonun nasıl ekleneceğini gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -175,7 +175,7 @@ Table table = new Table(doc)
                   Columns = { new TableColumn { Width = 70 } }
               };
 
-// Tabloya satır düğümü ekle
+// tabloya satır düğümü ekle
 table.AppendChildLast(row);
 
 // Bu tablo düğümüne etiket ekle
@@ -203,7 +203,7 @@ Kilitli sütunlu bir tablonun nasıl oluşturulacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -225,14 +225,14 @@ TableCell cell21 = new TableCell(doc);
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
-// Tablo sınıfı nesnesini başlat
+// Table sınıfı nesnesini başlat
 Table table = new Table(doc)
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
               };
 
-// Satır ekle
+// Satırları ekle
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
@@ -242,7 +242,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 // Tablo düğümü ekle
 outlineElem.AppendChildLast(table);
 
-// Anahat öğesi düğümü ekle
+// Ana hat öğesi düğümü ekle
 outline.AppendChildLast(outlineElem);
 
 // Anahat düğümü ekle
@@ -260,7 +260,7 @@ Yeni bir tablonun nasıl oluşturulacağını gösterir.
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Document();
 
 // Sayfa sınıfı nesnesini başlat
@@ -274,12 +274,12 @@ TableCell cell11 = new TableCell(doc);
 TableCell cell12 = new TableCell(doc);
 TableCell cell13 = new TableCell(doc);
 
-// Tablo hücresine anahat öğeleri ekle
+// Tablo hücresindeki anahat öğelerini ekleyin
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
 cell12.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.2"));
 cell13.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.3"));
 
-// Tablo hücrelerini satırlara
+// Hücreleri satırlara tablola
 row1.AppendChildLast(cell11);
 row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
@@ -292,7 +292,7 @@ TableCell cell21 = new TableCell(doc);
 TableCell cell22 = new TableCell(doc);
 TableCell cell23 = new TableCell(doc);
 
-// Tablo hücresine anahat öğeleri ekle
+// Tablo hücresindeki anahat öğelerini ekleyin
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
 cell22.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.2"));
 cell23.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.3"));
@@ -302,14 +302,14 @@ row2.AppendChildLast(cell21);
 row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
-// Tablo sınıfı nesnesini başlat ve sütun genişliklerini ayarla
+// Table sınıfı nesnesini başlat ve sütun genişliklerini ayarla
 Table table = new Table(doc)
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
               };
 
-// Tablo satırlarını tabloya ekle
+// Tablo satırlarını tabloya ekleyin
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
@@ -319,13 +319,13 @@ Outline outline = new Outline(doc);
 // OutlineElement nesnesini başlat
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Öğe düğümünü ana hatlarıyla belirtmek için tablo ekle
+// Eleman düğümünün dış hatlarını çizmek için tablo ekle
 outlineElem.AppendChildLast(table);
 
-// Anahat için anahat öğesi ekle
+// Ana hatlara ana hat öğesi ekleyin
 outline.AppendChildLast(outlineElem);
 
-// Sayfa düğümüne anahat ekle
+// Sayfa düğümüne ana hat ekle
 page.AppendChildLast(outline);
 
 // Belge düğümüne sayfa ekle
@@ -336,9 +336,9 @@ doc.Save(dataDir);
 
 ### Ayrıca bakınız
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [TableCell](../tablecell)
-* ad alanı [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [TableCell](../tablecell/)
+* ad alanı [Aspose.Note](../../aspose.note/)
 * toplantı [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

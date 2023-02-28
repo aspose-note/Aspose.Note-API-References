@@ -1,9 +1,9 @@
 ---
-title: Notebook
+title: Class Notebook
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Representa un cuaderno Aspose.Note.
+description: Aspose.Note.Notebook clase. Representa un cuaderno Aspose.Note.
 type: docs
-weight: 390
+weight: 410
 url: /es/net/aspose.note/notebook/
 ---
 ## Notebook class
@@ -18,46 +18,46 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | Nombre | Descripción |
 | --- | --- |
-| [Notebook](notebook#constructor)() | Inicializa una nueva instancia del[`Notebook`](../notebook) clase. |
-| [Notebook](notebook#constructor_1)(Stream) | Inicializa una nueva instancia del[`Notebook`](../notebook) class. Abre un bloc de notas de OneNote existente desde una secuencia. |
-| [Notebook](notebook#constructor_3)(string) | Inicializa una nueva instancia del[`Notebook`](../notebook) class. Abre un bloc de notas de OneNote existente desde un archivo. |
-| [Notebook](notebook#constructor_2)(Stream, NotebookLoadOptions) | Inicializa una nueva instancia del[`Notebook`](../notebook) class. Abre un bloc de notas de OneNote existente desde una secuencia. Permite especificar opciones de carga adicionales. |
-| [Notebook](notebook#constructor_4)(string, NotebookLoadOptions) | Inicializa una nueva instancia del[`Notebook`](../notebook)class. Abre un bloc de notas de OneNote existente desde un archivo. Permite especificar opciones adicionales, como una estrategia de carga de niños ("lazy"/instant). |
+| [Notebook](notebook/#constructor)() | Inicializa una nueva instancia del`Notebook` clase. |
+| [Notebook](notebook/#constructor_1)(Stream) | Inicializa una nueva instancia del`Notebook` class. Abre un bloc de notas de OneNote existente desde una secuencia. |
+| [Notebook](notebook/#constructor_3)(string) | Inicializa una nueva instancia del`Notebook` class. Abre un bloc de notas de OneNote existente desde un archivo. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | Inicializa una nueva instancia del`Notebook` class. Abre un bloc de notas de OneNote existente desde una secuencia. Permite especificar opciones de carga adicionales. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | Inicializa una nueva instancia del`Notebook` class. Abre un bloc de notas de OneNote existente desde un archivo. Permite especificar opciones adicionales, como una estrategia de carga de niños ("lazy"/instant). |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color) { get; set; } | Obtiene o establece el color. |
-| [Count](../../aspose.note/notebook/count) { get; } | Obtiene el número de elementos contenidos en el[`Notebook`](../notebook) . |
-| [DisplayName](../../aspose.note/notebook/displayname) { get; set; } | Obtiene o establece el nombre para mostrar. |
-| [FileFormat](../../aspose.note/notebook/fileformat) { get; } | Obtiene el formato de archivo (OneNote 2010, OneNote Online). |
-| [Guid](../../aspose.note/notebook/guid) { get; } | Obtiene la identificación única global del objeto. |
-| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled) { get; set; } | Obtiene o establece un valor que indica si el historial está habilitado. |
-| [Item](../../aspose.note/notebook/item) { get; } | Obtiene el nodo secundario del cuaderno por el índice dado. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | Obtiene o establece el color. |
+| [Count](../../aspose.note/notebook/count/) { get; } | Obtiene el número de elementos contenidos en el`Notebook` . |
+| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | Obtiene o establece el nombre para mostrar. |
+| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | Obtiene el formato de archivo (OneNote 2010, OneNote Online). |
+| [Guid](../../aspose.note/notebook/guid/) { get; } | Obtiene la identificación única global del objeto. |
+| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | Obtiene o establece un valor que indica si el historial está habilitado. |
+| [Item](../../aspose.note/notebook/item/) { get; } | Obtiene el nodo secundario del cuaderno por el índice dado. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AppendChild](../../aspose.note/notebook/appendchild)(INotebookChildNode) | Agrega el nodo al final de la lista. |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes)() | Obtener todos los nodos secundarios por tipo de nodo. |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator)() | Devuelve un enumerador que itera a través de los nodos secundarios del[`Notebook`](../notebook) . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument)(Stream) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde una secuencia. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_2)(string) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde un archivo. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_1)(Stream, LoadOptions) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde una secuencia. Permite especificar opciones de carga adicionales. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_3)(string, LoadOptions) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde un archivo. Permite especificar opciones de carga adicionales. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook)(Stream) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde una secuencia. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_2)(string) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde un archivo. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde una secuencia. Permite especificar opciones de carga adicionales. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_3)(string, NotebookLoadOptions) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde un archivo. Permite especificar opciones de carga adicionales. |
-| [RemoveChild](../../aspose.note/notebook/removechild)(INotebookChildNode) | Elimina el nodo secundario. |
-| [Save](../../aspose.note/notebook/save#save)(Stream) | Guarda el documento de OneNote en una secuencia. |
-| [Save](../../aspose.note/notebook/save#save_3)(string) | Guarda el documento de OneNote en un archivo. |
-| [Save](../../aspose.note/notebook/save#save_2)(Stream, NotebookSaveOptions) | Guarda el documento de OneNote en una secuencia con las opciones de guardado especificadas. |
-| [Save](../../aspose.note/notebook/save#save_1)(Stream, SaveFormat) | Guarda el documento de OneNote en una secuencia en el formato especificado. |
-| [Save](../../aspose.note/notebook/save#save_5)(string, NotebookSaveOptions) | Guarda el documento de OneNote en un archivo usando las opciones de guardado especificadas. |
-| [Save](../../aspose.note/notebook/save#save_4)(string, SaveFormat) | Guarda el documento de OneNote en un archivo con el formato especificado. |
+| [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | Agrega el nodo al final de la lista. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | Obtener todos los nodos secundarios por tipo de nodo. |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | Devuelve un enumerador que itera a través de los nodos secundarios del`Notebook` . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde una secuencia. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde un archivo. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde una secuencia. Permite especificar opciones de carga adicionales. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | Agrega un nodo de documento secundario. Abre un documento de OneNote existente desde un archivo. Permite especificar opciones de carga adicionales. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde una secuencia. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde un archivo. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde una secuencia. Permite especificar opciones de carga adicionales. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | Agrega un nodo de bloc de notas secundario. Abre un bloc de notas de OneNote existente desde un archivo. Permite especificar opciones de carga adicionales. |
+| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | Elimina el nodo secundario. |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | Guarda el documento de OneNote en una secuencia. |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | Guarda el documento de OneNote en un archivo. |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | Guarda el documento de OneNote en una secuencia con las opciones de guardado especificadas. |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | Guarda el documento de OneNote en una secuencia en el formato especificado. |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | Guarda el documento de OneNote en un archivo usando las opciones de guardado especificadas. |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | Guarda el documento de OneNote en un archivo con el formato especificado. |
 
 ### Ejemplos
 
@@ -320,8 +320,8 @@ catch (Exception ex)
 
 ### Ver también
 
-* interface [INotebookChildNode](../inotebookchildnode)
-* espacio de nombres [Aspose.Note](../../aspose.note)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* espacio de nombres [Aspose.Note](../../aspose.note/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

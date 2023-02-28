@@ -1,14 +1,14 @@
 ---
-title: Text
+title: RichText.Text
 second_title: Aspose.Note per .NET API Reference
-description: Ottiene o imposta il testo. La stringa NON DEVE contenere caratteri di valore 10 avanzamento riga.
+description: RichText proprietà. Ottiene o imposta il testo. La stringa NON DEVE contenere caratteri con valore 10 line feed.
 type: docs
 weight: 100
 url: /it/net/aspose.note/richtext/text/
 ---
 ## RichText.Text property
 
-Ottiene o imposta il testo. La stringa NON DEVE contenere caratteri di valore 10 (avanzamento riga).
+Ottiene o imposta il testo. La stringa NON DEVE contenere caratteri con valore 10 (line feed).
 
 ```csharp
 public string Text { get; set; }
@@ -28,7 +28,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // Recupera il testo
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-// Stampa il testo sulla schermata di output
+// Stampa il testo sullo schermo di output
 Console.WriteLine(text);
 ```
 
@@ -48,12 +48,12 @@ if (page != null)
 {
     // Recupera il testo
     string text = string.Join(Environment.NewLine, page.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
-    // Stampa il testo sulla schermata di output
+    // Stampa il testo sullo schermo di output
     Console.WriteLine(text);
 }
 ```
 
-Mostra come ottenere testo da ogni riga di tabella.
+Mostra come ottenere il testo da ogni riga della tabella.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -67,13 +67,13 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Scorri le righe della tabella
+    // Itera attraverso le righe della tabella
     foreach (TableRow row in table)
     {
         // Recupera il testo
         string text = string.Join(Environment.NewLine, row.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-        // Stampa il testo sulla schermata di output
+        // Stampa il testo sullo schermo di output
         Console.WriteLine(text);
     }
 }
@@ -91,7 +91,7 @@ Document document = new Document(dataDir + "Sample1.one");
 // Ottieni un elenco di nodi della tabella
 IList<Table> nodes = document.GetChildNodes<Table>();
 
-// Imposta il conteggio delle tabelle
+// Imposta il conteggio della tabella
 int tblCount = 0;
 
 foreach (Table table in nodes)
@@ -102,7 +102,7 @@ foreach (Table table in nodes)
     // Recupera il testo
     string text = string.Join(Environment.NewLine, table.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-    // Stampa il testo sulla schermata di output
+    // Stampa il testo sullo schermo di output
     Console.WriteLine(text);
 }
 ```
@@ -140,7 +140,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-Mostra come scorrere tutte le pagine ed effettuare una sostituzione nel testo.
+Mostra come scorrere tutte le pagine e fare una sostituzione nel testo.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -184,17 +184,17 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // Scorri le righe della tabella
+    // Itera attraverso le righe della tabella
     foreach (TableRow row in table)
     {
         // Ottieni l'elenco dei nodi TableCell
-        // Scorri le celle della tabella
+        // Itera attraverso le celle della tabella
         foreach (TableCell cell in row)
         {
             // Recupera il testo
             string text = string.Join(Environment.NewLine, cell.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
-            // Stampa il testo sulla schermata di output
+            // Stampa il testo sullo schermo di output
             Console.WriteLine(text);
         }
     }
@@ -234,13 +234,13 @@ string dataDir = RunExamples.GetDataDir_Tags();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
@@ -249,21 +249,21 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // Aggiungi nodo di testo
 outlineElem.AppendChildLast(text);
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-Mostra come creare un documento e salvare in formato html l'intervallo di pagine specificato.
+Mostra come creare un documento e salvarlo in un intervallo di pagine specificato in formato html.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -304,7 +304,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // Ottieni tutti i nodi RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// Scorri ogni nodo
+// Itera attraverso ogni nodo
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -335,34 +335,34 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza l'oggetto della classe RichText e applica lo stile del testo
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
-// Aggiunge il nodo RichText
+// Aggiungi nodo RichText
 outlineElem.AppendChildLast(text);
 
-// Aggiunge il nodo OutlineElement
+// Aggiungi nodo OutlineElement
 outline.AppendChildLast(outlineElem);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
@@ -387,24 +387,24 @@ OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-//---------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -417,13 +417,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica i punti elenco
@@ -446,12 +446,12 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -464,13 +464,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica la numerazione
@@ -492,18 +492,18 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-Mostra come preparare un modello per la riunione settimanale.
+Mostra come preparare un modello per una riunione settimanale.
 
 ```csharp
 // Il percorso della directory dei documenti.
@@ -589,24 +589,24 @@ outline.AppendChildLast(outlineElem);
 // Inizializza l'oggetto della classe Title
 Title title = new Title() { TitleText = titleText };
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Note.Page() { Title = title };
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* class [RichText](../../richtext)
-* spazio dei nomi [Aspose.Note](../../richtext)
+* class [RichText](../)
+* spazio dei nomi [Aspose.Note](../../richtext/)
 * assemblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: Outline
+title: Class Outline
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en disposition.
+description: Aspose.Note.Outline klass. Representerar en disposition.
 type: docs
-weight: 430
+weight: 450
 url: /sv/net/aspose.note/outline/
 ---
 ## Outline class
@@ -11,50 +11,50 @@ url: /sv/net/aspose.note/outline/
 Representerar en disposition.
 
 ```csharp
-public sealed class Outline : CompositeNode<IOutlineChildNode>, IPageChildNode
+public sealed class Outline : IndentatedNode<IOutlineChildNode>, IPageChildNode
 ```
 
 ## Konstruktörer
 
 | namn | Beskrivning |
 | --- | --- |
-| [Outline](outline#constructor)() | Initierar en ny instans av[`Outline`](../outline) class. |
+| [Outline](outline/#constructor)() | Initierar en ny instans av`Outline` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved) { get; set; } | Hämtar om ättlingar till konturen kan flyttas. |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [HorizontalOffset](../../aspose.note/outline/horizontaloffset) { get; set; } | Hämtar eller ställer in den horisontella offseten. |
-| [IndentPosition](../../aspose.note/outline/indentposition) { get; set; } | Hämtar eller ställer in indragspositionen. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
-| [MaxHeight](../../aspose.note/outline/maxheight) { get; set; } | Hämtar eller ställer in maxhöjden. |
-| [MaxWidth](../../aspose.note/outline/maxwidth) { get; set; } | Hämtar eller ställer in maxbredden. |
-| [MinWidth](../../aspose.note/outline/minwidth) { get; set; } | Hämtar eller ställer in min bredd. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
-| [ReservedWidth](../../aspose.note/outline/reservedwidth) { get; set; } | Hämtar eller ställer in den reserverade bredden. |
-| [VerticalOffset](../../aspose.note/outline/verticaloffset) { get; set; } | Hämtar eller ställer in den vertikala offseten. |
+| [DescendantsCannotBeMoved](../../aspose.note/outline/descendantscannotbemoved/) { get; set; } | Hämtar om ättlingar till konturen kan flyttas. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [HorizontalOffset](../../aspose.note/outline/horizontaloffset/) { get; set; } | Hämtar eller ställer in den horisontella offseten. |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outline/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
+| [MaxHeight](../../aspose.note/outline/maxheight/) { get; set; } | Hämtar eller ställer in maxhöjden. |
+| [MaxWidth](../../aspose.note/outline/maxwidth/) { get; set; } | Hämtar eller ställer in maxbredden. |
+| [MinWidth](../../aspose.note/outline/minwidth/) { get; set; } | Hämtar eller ställer in min bredd. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [ReservedWidth](../../aspose.note/outline/reservedwidth/) { get; set; } | Hämtar eller ställer in den reserverade bredden. |
+| [VerticalOffset](../../aspose.note/outline/verticaloffset/) { get; set; } | Hämtar eller ställer in den vertikala offseten. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/outline/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outline/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Exempel
 
@@ -235,10 +235,10 @@ doc.Save(dataDir);
 
 ### Se även
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

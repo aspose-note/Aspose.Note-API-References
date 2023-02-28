@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Notebook.Save
 second_title: Aspose.Note för .NET API-referens
-description: Sparar OneNote-dokumentet till en fil.
+description: Notebook metod. Sparar OneNotedokumentet till en fil.
 type: docs
 weight: 150
 url: /sv/net/aspose.note/notebook/save/
@@ -22,13 +22,13 @@ public void Save(string fileName)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Se även
 
-* class [Notebook](../../notebook)
-* namnutrymme [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* namnutrymme [Aspose.Note](../../notebook/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -49,13 +49,13 @@ public void Save(Stream stream)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Se även
 
-* class [Notebook](../../notebook)
-* namnutrymme [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* namnutrymme [Aspose.Note](../../notebook/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -77,14 +77,14 @@ public void Save(string fileName, SaveFormat format)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Se även
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* namnutrymme [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* namnutrymme [Aspose.Note](../../notebook/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -106,14 +106,14 @@ public void Save(Stream stream, SaveFormat format)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Se även
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* namnutrymme [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* namnutrymme [Aspose.Note](../../notebook/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -135,14 +135,14 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Se även
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* namnutrymme [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* namnutrymme [Aspose.Note](../../notebook/)
 * hopsättning [Aspose.Note](../../../)
 
 ---
@@ -164,14 +164,14 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | undantag | skick |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Dokumentstrukturen bryter mot specifikationerna. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Det begärda sparformatet stöds inte. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Dokumentstrukturen bryter mot specifikationerna. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Det begärda sparformatet stöds inte. |
 
 ### Se även
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* namnutrymme [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* namnutrymme [Aspose.Note](../../notebook/)
 * hopsättning [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: DocumentVisitor
+title: Class DocumentVisitor
 second_title: Référence de l'API Aspose.Note pour .NET
-description: La classe abstraite pour parcourir le sous-arbre avec la racine au nœud spécifié.
+description: Aspose.Note.DocumentVisitor classe. La classe abstraite pour parcourir le sousarbre avec la racine au nœud spécifié.
 type: docs
 weight: 70
 url: /fr/net/aspose.note/documentvisitor/
@@ -18,30 +18,30 @@ public abstract class DocumentVisitor
 
 | Nom | La description |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | Fin pour visiter le[`AttachedFile`](../attachedfile) nœud. |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | Commencez à visiter le[`AttachedFile`](../attachedfile) nœud. |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | Fin pour visiter le[`Document`](../document) nœud. |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Commencez à visiter le[`Document`](../document) nœud. |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | Fin pour visiter le[`Image`](../image) nœud. |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Commencez à visiter le[`Image`](../image) nœud. |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | Fin pour visiter le[`OutlineElement`](../outlineelement) nœud. |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Commencez à visiter le[`OutlineElement`](../outlineelement) nœud. |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | Fin pour visiter le[`Outline`](../outline) nœud. |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | Fin pour visiter le[`OutlineGroup`](../outlinegroup) nœud. |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | Commencez à visiter le[`OutlineGroup`](../outlinegroup) nœud. |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | Commencez à visiter le[`Outline`](../outline) nœud. |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | Fin pour visiter le[`Page`](../page) nœud. |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | Commencez à visiter le[`Page`](../page) nœud. |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | Fin pour visiter le[`RichText`](../richtext) nœud. |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | Commencez à visiter le[`RichText`](../richtext) nœud. |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | Fin pour visiter le[`TableCell`](../tablecell) nœud. |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | Commencez à visiter le[`TableCell`](../tablecell) nœud. |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | Fin pour visiter le[`Table`](../table) nœud. |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | Fin pour visiter le[`TableRow`](../tablerow) nœud. |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | Commencez à visiter le[`TableRow`](../tablerow) nœud. |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | Commencez à visiter le[`Table`](../table) nœud. |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | Fin pour visiter le[`Title`](../title) nœud. |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | Commencez à visiter le[`Title`](../title) nœud. |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend/)(AttachedFile) | Fin pour visiter le[`AttachedFile`](../attachedfile/) nœud. |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart/)(AttachedFile) | Commencez à visiter le[`AttachedFile`](../attachedfile/) nœud. |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend/)(Document) | Fin pour visiter le[`Document`](../document/) nœud. |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart/)(Document) | Commencez à visiter le[`Document`](../document/) nœud. |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend/)(Image) | Fin pour visiter le[`Image`](../image/) nœud. |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart/)(Image) | Commencez à visiter le[`Image`](../image/) nœud. |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend/)(OutlineElement) | Fin pour visiter le[`OutlineElement`](../outlineelement/) nœud. |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart/)(OutlineElement) | Commencez à visiter le[`OutlineElement`](../outlineelement/) nœud. |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend/)(Outline) | Fin pour visiter le[`Outline`](../outline/) nœud. |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend/)(OutlineGroup) | Fin pour visiter le[`OutlineGroup`](../outlinegroup/) nœud. |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart/)(OutlineGroup) | Commencez à visiter le[`OutlineGroup`](../outlinegroup/) nœud. |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart/)(Outline) | Commencez à visiter le[`Outline`](../outline/) nœud. |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend/)(Page) | Fin pour visiter le[`Page`](../page/) nœud. |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart/)(Page) | Commencez à visiter le[`Page`](../page/) nœud. |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend/)(RichText) | Fin pour visiter le[`RichText`](../richtext/) nœud. |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart/)(RichText) | Commencez à visiter le[`RichText`](../richtext/) nœud. |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend/)(TableCell) | Fin pour visiter le[`TableCell`](../tablecell/) nœud. |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart/)(TableCell) | Commencez à visiter le[`TableCell`](../tablecell/) nœud. |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend/)(Table) | Fin pour visiter le[`Table`](../table/) nœud. |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend/)(TableRow) | Fin pour visiter le[`TableRow`](../tablerow/) nœud. |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart/)(TableRow) | Commencez à visiter le[`TableRow`](../tablerow/) nœud. |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart/)(Table) | Commencez à visiter le[`Table`](../table/) nœud. |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend/)(Title) | Fin pour visiter le[`Title`](../title/) nœud. |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart/)(Title) | Commencez à visiter le[`Title`](../title/) nœud. |
 
 ### Exemples
 
@@ -194,7 +194,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Voir également
 
-* espace de noms [Aspose.Note](../../aspose.note)
+* espace de noms [Aspose.Note](../../aspose.note/)
 * Assemblée [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

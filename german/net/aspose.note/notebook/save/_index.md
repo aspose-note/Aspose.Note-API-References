@@ -1,7 +1,7 @@
 ---
-title: Save
+title: Notebook.Save
 second_title: Aspose.Note für .NET-API-Referenz
-description: Speichert das OneNote-Dokument in einer Datei.
+description: Notebook methode. Speichert das OneNoteDokument in einer Datei.
 type: docs
 weight: 150
 url: /de/net/aspose.note/notebook/save/
@@ -22,13 +22,13 @@ public void Save(string fileName)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Siehe auch
 
-* class [Notebook](../../notebook)
-* namensraum [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* namensraum [Aspose.Note](../../notebook/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -49,13 +49,13 @@ public void Save(Stream stream)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Siehe auch
 
-* class [Notebook](../../notebook)
-* namensraum [Aspose.Note](../../notebook)
+* class [Notebook](../)
+* namensraum [Aspose.Note](../../notebook/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -77,14 +77,14 @@ public void Save(string fileName, SaveFormat format)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Siehe auch
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* namensraum [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* namensraum [Aspose.Note](../../notebook/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -106,14 +106,14 @@ public void Save(Stream stream, SaveFormat format)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Siehe auch
 
-* enum [SaveFormat](../../saveformat)
-* class [Notebook](../../notebook)
-* namensraum [Aspose.Note](../../notebook)
+* enum [SaveFormat](../../saveformat/)
+* class [Notebook](../)
+* namensraum [Aspose.Note](../../notebook/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -135,14 +135,14 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Siehe auch
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* namensraum [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* namensraum [Aspose.Note](../../notebook/)
 * Montage [Aspose.Note](../../../)
 
 ---
@@ -164,14 +164,14 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
-| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception) | Das angeforderte Speicherformat wird nicht unterstützt. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | Die Dokumentstruktur verstößt gegen die Spezifikation. |
+| [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | Das angeforderte Speicherformat wird nicht unterstützt. |
 
 ### Siehe auch
 
-* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions)
-* class [Notebook](../../notebook)
-* namensraum [Aspose.Note](../../notebook)
+* class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
+* class [Notebook](../)
+* namensraum [Aspose.Note](../../notebook/)
 * Montage [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

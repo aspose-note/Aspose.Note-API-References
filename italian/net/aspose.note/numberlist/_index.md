@@ -1,9 +1,9 @@
 ---
-title: NumberList
+title: Class NumberList
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta lelenco numerato o puntato.
+description: Aspose.Note.NumberList classe. Rappresenta lelenco numerato o puntato.
 type: docs
-weight: 420
+weight: 440
 url: /it/net/aspose.note/numberlist/
 ---
 ## NumberList class
@@ -18,31 +18,31 @@ public class NumberList
 
 | Nome | Descrizione |
 | --- | --- |
-| [NumberList](numberlist#constructor_1)(string, string, int) | Inizializza una nuova istanza di[`NumberList`](../numberlist) class. Questa istanza rappresenta un elenco puntato. |
-| [NumberList](numberlist#constructor)(string, NumberFormat, string, int) | Inizializza una nuova istanza di[`NumberList`](../numberlist)class. Questa istanza rappresenta un elenco numerato. |
+| [NumberList](numberlist/#constructor_1)(string, string, int) | Inizializza una nuova istanza di`NumberList`class. Questa istanza rappresenta un elenco puntato. |
+| [NumberList](numberlist/#constructor)(string, NumberFormat, string, int) | Inizializza una nuova istanza di`NumberList` class. Questa istanza rappresenta un elenco numerato. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Font](../../aspose.note/numberlist/font) { get; set; } | Ottiene o imposta il nome del font. |
-| [FontColor](../../aspose.note/numberlist/fontcolor) { get; set; } | Ottiene o imposta il colore del carattere. |
-| [FontSize](../../aspose.note/numberlist/fontsize) { get; set; } | Ottiene o imposta la dimensione del carattere. |
-| [Format](../../aspose.note/numberlist/format) { get; set; } | Ottiene o imposta il formato dell'intestazione della riga. Per gli elenchi puntati rappresenta un simbolo di punto elenco. |
-| [IsBold](../../aspose.note/numberlist/isbold) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è grassetto. |
-| [IsItalic](../../aspose.note/numberlist/isitalic) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è corsivo. |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime) { get; set; } | Ottiene o imposta l'ultima ora modificata. |
-| [NumberFormat](../../aspose.note/numberlist/numberformat) { get; set; } | Ottiene o imposta il formato numerico utilizzato per un gruppo di oggetti numerati automaticamente. Dovrebbe essere nullo per gli elenchi puntati. |
-| [Restart](../../aspose.note/numberlist/restart) { get; set; } | Ottiene o imposta il valore numerico che sostituisce il valore numerico automatico dell'elemento dell'elenco. |
+| [Font](../../aspose.note/numberlist/font/) { get; set; } | Ottiene o imposta il nome del font. |
+| [FontColor](../../aspose.note/numberlist/fontcolor/) { get; set; } | Ottiene o imposta il colore del carattere. |
+| [FontSize](../../aspose.note/numberlist/fontsize/) { get; set; } | Ottiene o imposta la dimensione del carattere. |
+| [Format](../../aspose.note/numberlist/format/) { get; set; } | Ottiene o imposta il formato dell'intestazione della riga. Per gli elenchi puntati rappresenta un simbolo di punto elenco. |
+| [IsBold](../../aspose.note/numberlist/isbold/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è in grassetto. |
+| [IsItalic](../../aspose.note/numberlist/isitalic/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è corsivo. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime/) { get; set; } | Ottiene o imposta l'ora dell'ultima modifica. |
+| [NumberFormat](../../aspose.note/numberlist/numberformat/) { get; set; } | Ottiene o imposta il formato numerico utilizzato per un gruppo di oggetti numerati automaticamente. Dovrebbe essere nullo per gli elenchi puntati. |
+| [Restart](../../aspose.note/numberlist/restart/) { get; set; } | Ottiene o imposta il valore numerico che sostituisce il valore numerico automatico dell'elemento dell'elenco. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals#equals)(NumberList) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
-| override [Equals](../../aspose.note/numberlist/equals#equals_1)(object) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode)() | Serve come funzione hash per il tipo. |
-| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader)(int) | Ottiene l'intestazione dell'elenco numerato. |
+| [Equals](../../aspose.note/numberlist/equals/#equals)(NumberList) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
+| override [Equals](../../aspose.note/numberlist/equals/#equals_1)(object) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode/)() | Funge da funzione hash per il tipo. |
+| [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader/)(int) | Ottiene l'intestazione dell'elenco numerato. |
 
 ### Esempi
 
@@ -54,10 +54,10 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// Recupera i nodi di una raccolta dell'elemento struttura
+// Recupera i nodi di una raccolta dell'elemento di contorno
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
-// Scorri ogni nodo
+// Itera attraverso ogni nodo
 foreach (OutlineElement node in nodes)
 {
     if (node.NumberList != null)
@@ -79,7 +79,7 @@ foreach (OutlineElement node in nodes)
         // Recupera il formato
         Console.WriteLine("Font format: " + list.Format);
 
-        // Spunta il grassetto
+        // Seleziona il grassetto
         Console.WriteLine("Is bold: " + list.IsBold);
 
         // Controlla il corsivo
@@ -109,24 +109,24 @@ OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-//---------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -139,13 +139,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica la numerazione
@@ -167,20 +167,20 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

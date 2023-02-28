@@ -1,9 +1,9 @@
 ---
-title: OutlineElement
+title: Class OutlineElement
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta un OutlineElement.
+description: Aspose.Note.OutlineElement classe. Rappresenta un OutlineElement.
 type: docs
-weight: 440
+weight: 460
 url: /it/net/aspose.note/outlineelement/
 ---
 ## OutlineElement class
@@ -11,7 +11,7 @@ url: /it/net/aspose.note/outlineelement/
 Rappresenta un OutlineElement.
 
 ```csharp
-public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IOutlineChildNode, 
+public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, IOutlineChildNode, 
     IOutlineElementChildNode
 ```
 
@@ -19,38 +19,38 @@ public sealed class OutlineElement : CompositeNode<IOutlineElementChildNode>, IO
 
 | Nome | Descrizione |
 | --- | --- |
-| [OutlineElement](outlineelement#constructor)() | Inizializza una nuova istanza di[`OutlineElement`](../outlineelement) classe. |
+| [OutlineElement](outlineelement/#constructor)() | Inizializza una nuova istanza di`OutlineElement` classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreationTime](../../aspose.note/outlineelement/creationtime) { get; set; } | Ottiene o imposta l'ora di creazione. |
-| [Document](../../aspose.note/node/document) { get; } | Ottiene il documento del nodo. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IndentPosition](../../aspose.note/outlineelement/indentposition) { get; set; } | Ottiene o imposta la posizione del rientro. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime) { get; set; } | Ottiene o imposta l'ultima ora modificata. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ottiene il tipo di nodo. |
-| [NumberList](../../aspose.note/outlineelement/numberlist) { get; set; } | Ottiene o imposta lo stile per l'intestazione dell'elenco numerato. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ottiene il nodo padre. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ottiene il nodo precedente allo stesso livello di albero dei nodi. |
+| [CreationTime](../../aspose.note/outlineelement/creationtime/) { get; set; } | Ottiene o imposta l'ora di creazione. |
+| [Document](../../aspose.note/node/document/) { get; } | Ottiene il documento del nodo. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime/) { get; set; } | Ottiene o imposta l'ora dell'ultima modifica. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ottiene il nodo successivo allo stesso livello di albero dei nodi. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ottiene il tipo di nodo. |
+| [NumberList](../../aspose.note/outlineelement/numberlist/) { get; set; } | Ottiene o imposta lo stile per l'intestazione dell'elenco numerato. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ottiene il nodo padre. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ottiene il nodo precedente allo stesso livello dell'albero dei nodi. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.note/outlineelement/accept)(DocumentVisitor) | Accetta il visitatore del nodo. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IOutlineElementChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/outlineelement/accept/)(DocumentVisitor) | Accetta il visitatore del nodo. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IOutlineElementChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineElementChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Esempi
 
@@ -63,32 +63,32 @@ string dataDir = RunExamples.GetDataDir_Tags();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe OutlineElement
+// Inizializza l'oggetto della classe OutlineElement
 OutlineElement outlineElem = new OutlineElement(doc);
 
 // Carica un'immagine
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
 
-// Inserisce l'immagine nel nodo del documento
+// Inserisci l'immagine nel nodo del documento
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// Aggiunge il nodo dell'elemento struttura
+// Aggiungi nodo elemento contorno
 outline.AppendChildLast(outlineElem);
 
-// Aggiungi nodo struttura
+// Aggiungi nodo di contorno
 page.AppendChildLast(outline);
 
 // Aggiungi il nodo della pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
@@ -101,10 +101,10 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// Recupera i nodi di una raccolta dell'elemento struttura
+// Recupera i nodi di una raccolta dell'elemento di contorno
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
-// Scorri ogni nodo
+// Itera attraverso ogni nodo
 foreach (OutlineElement node in nodes)
 {
     if (node.NumberList != null)
@@ -126,7 +126,7 @@ foreach (OutlineElement node in nodes)
         // Recupera il formato
         Console.WriteLine("Font format: " + list.Format);
 
-        // Spunta il grassetto
+        // Seleziona il grassetto
         Console.WriteLine("Is bold: " + list.IsBold);
 
         // Controlla il corsivo
@@ -156,24 +156,24 @@ OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberL
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-//---------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-//---------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -186,13 +186,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica i punti elenco
@@ -215,12 +215,12 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -233,13 +233,13 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Crea un oggetto della classe Document
 Document doc = new Document();
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Inizializza l'oggetto classe Outline
+// Inizializza l'oggetto della classe Outline
 Outline outline = new Outline(doc);
 
-// Inizializza l'oggetto classe TextStyle e imposta le proprietà di formattazione
+// Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza gli oggetti della classe OutlineElement e applica la numerazione
@@ -261,23 +261,23 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IOutlineChildNode](../ioutlinechildnode)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IOutlineChildNode](../ioutlinechildnode/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

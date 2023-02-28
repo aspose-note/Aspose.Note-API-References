@@ -1,7 +1,7 @@
 ---
-title: Document
+title: Class Document
 second_title: Aspose.Note för .NET API-referens
-description: Representerar ett Aspose.Note-dokument.
+description: Aspose.Note.Document klass. Representerar ett Aspose.Notedokument.
 type: docs
 weight: 60
 url: /sv/net/aspose.note/document/
@@ -18,63 +18,63 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [Document](document#constructor)() | Initierar en ny instans av[`Document`](../document) class. Skapar ett tomt OneNote-dokument. |
-| [Document](document#constructor_1)(Stream) | Initierar en ny instans av[`Document`](../document) class. Öppnar ett befintligt OneNote-dokument från en ström. |
-| [Document](document#constructor_3)(string) | Initierar en ny instans av[`Document`](../document) class. Öppnar ett befintligt OneNote-dokument från en fil. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | Initierar en ny instans av[`Document`](../document) class. Öppnar ett befintligt OneNote-dokument från en ström. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
-| [Document](document#constructor_4)(string, LoadOptions) | Initierar en ny instans av[`Document`](../document) class. Öppnar ett befintligt OneNote-dokument från en fil. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
+| [Document](document/#constructor)() | Initierar en ny instans av`Document` class. Skapar ett tomt OneNote-dokument. |
+| [Document](document/#constructor_1)(Stream) | Initierar en ny instans av`Document` class. Öppnar ett befintligt OneNote-dokument från en ström. |
+| [Document](document/#constructor_3)(string) | Initierar en ny instans av`Document` class. Öppnar ett befintligt OneNote-dokument från en fil. |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | Initierar en ny instans av`Document` class. Öppnar ett befintligt OneNote-dokument från en ström. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
+| [Document](document/#constructor_4)(string, LoadOptions) | Initierar en ny instans av`Document`class. Öppnar ett befintligt OneNote-dokument från en fil. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | Hämtar eller ställer in ett värde som anger om Aspose.Note utför detektering av layoutändringar automatiskt. Standardvärdet är`Sann` . |
-| [Color](../../aspose.note/document/color) { get; set; } | Hämtar eller ställer in färgen. |
-| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | Hämtar eller ställer in skapelsetiden. |
-| [DisplayName](../../aspose.note/document/displayname) { get; set; } | Hämtar eller ställer in visningsnamnet. |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| [FileFormat](../../aspose.note/document/fileformat) { get; } | Hämtar filformat (OneNote 2010, OneNote Online). |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [Guid](../../aspose.note/document/guid) { get; } | Får objektets globalt unika id. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | Hämtar eller ställer in ett värde som anger om Aspose.Note utför detektering av layoutändringar automatiskt. Standardvärdet är`Sann` . |
+| [Color](../../aspose.note/document/color/) { get; set; } | Hämtar eller ställer in färgen. |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | Hämtar eller ställer in skapelsetiden. |
+| [DisplayName](../../aspose.note/document/displayname/) { get; set; } | Hämtar eller ställer in visningsnamnet. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| [FileFormat](../../aspose.note/document/fileformat/) { get; } | Hämtar filformat (OneNote 2010, OneNote Online). |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Guid](../../aspose.note/document/guid/) { get; } | Får objektets globalt unika id. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | Upptäcker alla ändringar som gjorts i dokumentlayouten sedan föregående[`DetectLayoutChanges`](./detectlayoutchanges) ring. I fall[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled) inställd på sant, används automatiskt i början av dokumentexporten. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | Får[`PageHistory`](../pagehistory) som innehåller fullständig historik för varje sida som presenteras i ett dokument (tidigast vid index 0). Den aktuella sidversionen kan nås som[`Current`](../pagehistory/current)och finns separat från samlingen av historiska versioner. |
-| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | Importerar en uppsättning sidor från medföljande PDF-dokument. |
-| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | Importerar en uppsättning sidor från medföljande PDF-dokument. |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | Slår samman en uppsättning sidor till dokumentet. |
-| [Print](../../aspose.note/document/print#print)() | Skriver ut dokumentet med standardskrivaren. |
-| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | Skriver ut dokumentet med standardskrivaren. |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save#save)(Stream) | Sparar OneNote-dokumentet i en ström. |
-| [Save](../../aspose.note/document/save#save_3)(string) | Sparar OneNote-dokumentet till en fil. |
-| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | Sparar OneNote-dokumentet i en ström i det angivna formatet. |
-| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | Sparar OneNote-dokumentet i en ström med de angivna sparalternativen. |
-| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | Sparar OneNote-dokumentet till en fil i det angivna formatet. |
-| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | Sparar OneNote-dokumentet till en fil med de angivna sparalternativen. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | Kontrollerar om ett dokument från en ström är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | Kontrollerar om ett dokument från en fil är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | Kontrollerar om ett dokument från en ström är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | Kontrollerar om ett dokument från en ström är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | Kontrollerar om ett dokument från en fil är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | Kontrollerar om ett dokument från en fil är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
+| override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | Upptäcker alla ändringar som gjorts i dokumentlayouten sedan föregående[`DetectLayoutChanges`](./detectlayoutchanges/) ring. I fall[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) inställd på sant, används automatiskt i början av dokumentexporten. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | Får[`PageHistory`](../pagehistory/) som innehåller fullständig historik för varje sida som presenteras i ett dokument (tidigast vid index 0). Den aktuella sidversionen kan nås som[`Current`](../pagehistory/current/) och finns separat från samlingen av historiska versioner. |
+| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | Importerar en uppsättning sidor från medföljande PDF-dokument. |
+| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | Importerar en uppsättning sidor från medföljande PDF-dokument. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
+| [Merge](../../aspose.note/document/merge/)(IEnumerable&lt;Page&gt;, MergeOptions) | Slår samman en uppsättning sidor till dokumentet. |
+| [Print](../../aspose.note/document/print/#print)() | Skriver ut dokumentet med standardskrivaren. |
+| [Print](../../aspose.note/document/print/#print_1)(PrintOptions) | Skriver ut dokumentet med standardskrivaren. |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Save](../../aspose.note/document/save/#save)(Stream) | Sparar OneNote-dokumentet i en ström. |
+| [Save](../../aspose.note/document/save/#save_3)(string) | Sparar OneNote-dokumentet till en fil. |
+| [Save](../../aspose.note/document/save/#save_1)(Stream, SaveFormat) | Sparar OneNote-dokumentet i en ström i det angivna formatet. |
+| [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | Sparar OneNote-dokumentet i en ström med de angivna sparalternativen. |
+| [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | Sparar OneNote-dokumentet till en fil i det angivna formatet. |
+| [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | Sparar OneNote-dokumentet till en fil med de angivna sparalternativen. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | Kontrollerar om ett dokument från en ström är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | Kontrollerar om ett dokument från en fil är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | Kontrollerar om ett dokument från en ström är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | Kontrollerar om ett dokument från en ström är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | Kontrollerar om ett dokument från en fil är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | Kontrollerar om ett dokument från en fil är krypterat. För att kontrollera det måste vi ladda det här dokumentet helt. Så den här metoden kan leda till prestationsstraff. |
 
 ### Exempel
 
@@ -360,7 +360,7 @@ Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadH
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// Klona in i ett nytt dokument med historik
+// Klona till nytt dokument med historik
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
@@ -532,6 +532,32 @@ else
 }
 ```
 
+Visar hur man tillämpar mörkt temastil på ett dokument.
+
+```csharp
+// Sökvägen till dokumentkatalogen.
+string dataDir = RunExamples.GetDataDir_Text();
+
+// Ladda dokumentet i Aspose.Note.
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 Visar hur man går igenom innehållet i en anteckningsbok.
 
 ```csharp
@@ -600,7 +626,7 @@ PdfSaveOptions opts = new PdfSaveOptions
                               // Ställ in sidindex för första sidan som ska sparas
                               PageIndex = 0,
 
-                              // Ställ in sidantal
+                              // Ställ in antal sidor
                               PageCount = 1,
                           };
 
@@ -653,30 +679,6 @@ document.Print(new PrintOptions()
                });
 ```
 
-Visar hur man får bildens metainformation.
-
-```csharp
-// Sökvägen till dokumentkatalogen.
-string dataDir = RunExamples.GetDataDir_Images();
-
-// Ladda dokumentet i Aspose.Note.
-Document oneFile = new Document(dataDir + "Aspose.one");
-
-// Hämta alla bildnoder
-IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
-
-foreach (Aspose.Note.Image image in images)
-{
-    Console.WriteLine("Width: {0}", image.Width);
-    Console.WriteLine("Height: {0}", image.Height);
-    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
-    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
-    Console.WriteLine("FileName: {0}", image.FileName);
-    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
-    Console.WriteLine();
-}
-```
-
 Visar hur man får innehållet i en bifogad fil.
 
 ```csharp
@@ -702,6 +704,30 @@ foreach (AttachedFile file in nodes)
             CopyStream(outputStream, fileStream);
         }
     }
+}
+```
+
+Visar hur man får bildens metainformation.
+
+```csharp
+// Sökvägen till dokumentkatalogen.
+string dataDir = RunExamples.GetDataDir_Images();
+
+// Ladda dokumentet i Aspose.Note.
+Document oneFile = new Document(dataDir + "Aspose.one");
+
+// Hämta alla bildnoder
+IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
+
+foreach (Aspose.Note.Image image in images)
+{
+    Console.WriteLine("Width: {0}", image.Width);
+    Console.WriteLine("Height: {0}", image.Height);
+    Console.WriteLine("OriginalWidth: {0}", image.OriginalWidth);
+    Console.WriteLine("OriginalHeight: {0}", image.OriginalHeight);
+    Console.WriteLine("FileName: {0}", image.FileName);
+    Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
+    Console.WriteLine();
 }
 ```
 
@@ -1379,10 +1405,10 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Se även
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [Page](../page)
-* interface [INotebookChildNode](../inotebookchildnode)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Page](../page/)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: Table
+title: Class Table
 second_title: Aspose.Note für .NET-API-Referenz
-description: Stellt eine Tabelle dar.
+description: Aspose.Note.Table klas. Stellt eine Tabelle dar.
 type: docs
-weight: 870
+weight: 900
 url: /de/net/aspose.note/table/
 ---
 ## Table class
@@ -18,38 +18,38 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 | Name | Beschreibung |
 | --- | --- |
-| [Table](table#constructor)() | Initialisiert eine neue Instanz von[`Table`](../table) Klasse. |
+| [Table](table/#constructor)() | Initialisiert eine neue Instanz von`Table` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Columns](../../aspose.note/table/columns) { get; } | Ruft die Spalten der Tabelle ab. |
-| [Document](../../aspose.note/node/document) { get; } | Ruft das Dokument des Knotens ab. |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [IsBordersVisible](../../aspose.note/table/isbordersvisible) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Tabellenrahmen sichtbar ist. |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [LastModifiedTime](../../aspose.note/table/lastmodifiedtime) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Ruft den Knotentyp ab. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Ruft den übergeordneten Knoten ab. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
-| [Tags](../../aspose.note/table/tags) { get; } | Ruft die Liste aller Tags eines Absatzes ab. |
+| [Columns](../../aspose.note/table/columns/) { get; } | Ruft die Spalten der Tabelle ab. |
+| [Document](../../aspose.note/node/document/) { get; } | Ruft das Dokument des Knotens ab. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [IsBordersVisible](../../aspose.note/table/isbordersvisible/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Tabellenrahmen sichtbar ist. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/table/lastmodifiedtime/) { get; set; } | Ruft die letzte Änderungszeit ab oder setzt sie. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Ruft den nächsten Knoten auf derselben Knotenbaumebene ab. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Ruft den Knotentyp ab. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Ruft den übergeordneten Knoten ab. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Ruft den vorherigen Knoten auf derselben Knotenbaumebene ab. |
+| [Tags](../../aspose.note/table/tags/) { get; } | Ruft die Liste aller Tags eines Absatzes ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.note/table/accept)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;TableRow&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params TableRow[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
+| override [Accept](../../aspose.note/table/accept/)(DocumentVisitor) | Akzeptiert den Besucher des Knotens. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;TableRow&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params TableRow[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
 ### Beispiele
 
@@ -367,11 +367,11 @@ doc.Save(dataDir);
 
 ### Siehe auch
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [TableRow](../tablerow)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* namensraum [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [TableRow](../tablerow/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* namensraum [Aspose.Note](../../aspose.note/)
 * Montage [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

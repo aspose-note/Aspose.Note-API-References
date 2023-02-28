@@ -1,9 +1,9 @@
 ---
-title: Title
+title: Class Title
 second_title: Aspose.Note för .NET API-referens
-description: Representerar en titel.
+description: Aspose.Note.Title klass. Representerar en titel.
 type: docs
-weight: 950
+weight: 980
 url: /sv/net/aspose.note/title/
 ---
 ## Title class
@@ -18,32 +18,32 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | namn | Beskrivning |
 | --- | --- |
-| [Title](title#constructor)() | Initierar en ny instans av[`Title`](../title) class. |
+| [Title](title/#constructor)() | Initierar en ny instans av`Title` class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Document](../../aspose.note/node/document) { get; } | Hämtar dokumentet för noden. |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset) { get; set; } | Hämtar eller ställer in den horisontella offseten. |
-| override [IsComposite](../../aspose.note/title/iscomposite) { get; } | Får ett värde som indikerar om denna nod är sammansatt. Om sant kan noden ha underordnade noder. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Hämtar nodtypen. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Hämtar den överordnade noden. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
-| [TitleDate](../../aspose.note/title/titledate) { get; set; } | Hämtar eller ställer in en strängrepresentation av datumet i titeln. |
-| [TitleText](../../aspose.note/title/titletext) { get; set; } | Hämtar eller ställer in texten i titeln. |
-| [TitleTime](../../aspose.note/title/titletime) { get; set; } | Hämtar eller ställer in en strängrepresentation av tiden i titeln. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset) { get; set; } | Hämtar eller ställer in den vertikala offseten. |
+| [Document](../../aspose.note/node/document/) { get; } | Hämtar dokumentet för noden. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | Hämtar eller ställer in den horisontella offseten. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | Får ett värde som indikerar om denna nod är sammansatt. Om sant kan noden ha underordnade noder. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | Hämtar eller ställer in den senast ändrade tiden. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Hämtar nästa nod på samma nodträdsnivå. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Hämtar nodtypen. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Hämtar den överordnade noden. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Hämtar föregående nod på samma nodträdsnivå. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | Hämtar eller ställer in en strängrepresentation av datumet i titeln. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | Hämtar eller ställer in texten i titeln. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | Hämtar eller ställer in en strängrepresentation av tiden i titeln. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | Hämtar eller ställer in den vertikala offseten. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept)(DocumentVisitor) | Accepterar besökaren av noden. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes#getchildnodes_1)() | Hämta alla underordnade noder efter nodtyp. |
-| [GetEnumerator](../../aspose.note/title/getenumerator)() | Returnerar en enumerator som itererar genom underordnade noder av[`Title`](../title) . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | Accepterar besökaren av noden. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | Hämta alla underordnade noder efter nodtyp. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | Returnerar en enumerator som itererar genom underordnade noder av`Title` . |
 
 ### Exempel
 
@@ -226,11 +226,11 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### Se även
 
-* class [CompositeNodeBase](../compositenodebase)
-* interface [ICompositeNode&lt;T&gt;](../icompositenode-1)
-* class [RichText](../richtext)
-* interface [IPageChildNode](../ipagechildnode)
-* namnutrymme [Aspose.Note](../../aspose.note)
+* class [CompositeNodeBase](../compositenodebase/)
+* interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
+* class [RichText](../richtext/)
+* interface [IPageChildNode](../ipagechildnode/)
+* namnutrymme [Aspose.Note](../../aspose.note/)
 * hopsättning [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

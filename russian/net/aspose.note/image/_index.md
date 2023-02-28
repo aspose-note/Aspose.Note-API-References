@@ -1,9 +1,9 @@
 ---
-title: Image
+title: Class Image
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет изображение.
+description: Aspose.Note.Image сорт. Представляет изображение.
 type: docs
-weight: 240
+weight: 250
 url: /ru/net/aspose.note/image/
 ---
 ## Image class
@@ -18,43 +18,43 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Имя | Описание |
 | --- | --- |
-| [Image](image#constructor)() | Инициализирует новый экземпляр[`Image`](../image) класс. |
-| [Image](image#constructor_4)(string, Stream) | Инициализирует новый экземпляр[`Image`](../image) класс. |
-| [Image](image#constructor_5)(string, string, string) | Инициализирует новый экземпляр[`Image`](../image) класс. |
+| [Image](image/#constructor)() | Инициализирует новый экземпляр`Image` класс. |
+| [Image](image/#constructor_4)(string, Stream) | Инициализирует новый экземпляр`Image` класс. |
+| [Image](image/#constructor_5)(string, string, string) | Инициализирует новый экземпляр`Image` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment) { get; set; } | Получает или задает выравнивание. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription) { get; set; } | Получает или задает текст альтернативного текста для изображения. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle) { get; set; } | Получает или задает заголовок альтернативного текста для изображения. |
-| [Bytes](../../aspose.note/image/bytes) { get; } | Получает хранилище данных изображения. |
-| [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| [FileName](../../aspose.note/image/filename) { get; } | Получает имя файла. |
-| [FilePath](../../aspose.note/image/filepath) { get; } | Получает путь к файлу изображения. |
-| [Format](../../aspose.note/image/format) { get; } | Получает формат изображения. |
-| [Height](../../aspose.note/image/height) { get; set; } | Получает или задает высоту. Это реальная высота изображения в документе MS OneNote. |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset) { get; set; } | Получает или задает смещение по горизонтали. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl) { get; set; } | Получает или задает гиперссылку, связанную с изображением. |
-| [IsBackground](../../aspose.note/image/isbackground) { get; set; } | Получает, является ли изображение фоновым изображением. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [OriginalHeight](../../aspose.note/image/originalheight) { get; } | Получает исходную высоту. Это исходная ширина изображения до изменения размера. |
-| [OriginalWidth](../../aspose.note/image/originalwidth) { get; } | Получает исходную ширину. Это исходная ширина изображения до изменения размера. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
-| [Tags](../../aspose.note/image/tags) { get; } | Получает список всех тегов абзаца. |
-| [VerticalOffset](../../aspose.note/image/verticaloffset) { get; set; } | Получает или задает вертикальное смещение. |
-| [Width](../../aspose.note/image/width) { get; set; } | Получает или задает ширину. Это реальная ширина изображения в документе MS OneNote. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | Получает или задает выравнивание. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | Получает или задает текст альтернативного текста для изображения. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | Получает или задает заголовок альтернативного текста для изображения. |
+| [Bytes](../../aspose.note/image/bytes/) { get; } | Получает хранилище данных изображения. |
+| [Document](../../aspose.note/node/document/) { get; } | Получает документ узла. |
+| [FileName](../../aspose.note/image/filename/) { get; } | Получает имя файла. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | Получает путь к файлу изображения. |
+| [Format](../../aspose.note/image/format/) { get; } | Получает формат изображения. |
+| [Height](../../aspose.note/image/height/) { get; set; } | Получает или задает высоту. Это реальная высота изображения в документе MS OneNote. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | Получает или задает смещение по горизонтали. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | Получает или задает гиперссылку, связанную с изображением. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | Получает, является ли изображение фоновым изображением. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Получает следующий узел на том же уровне дерева узлов. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Получает тип узла. |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | Получает исходную высоту. Это исходная ширина изображения до изменения размера. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | Получает исходную ширину. Это исходная ширина изображения до изменения размера. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Получает родительский узел. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
+| [Tags](../../aspose.note/image/tags/) { get; } | Получает список всех тегов абзаца. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | Получает или задает вертикальное смещение. |
+| [Width](../../aspose.note/image/width/) { get; set; } | Получает или задает ширину. Это реальная ширина изображения в документе MS OneNote. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept)(DocumentVisitor) | Принимает посетителя узла. |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Принимает посетителя узла. |
 
 ### Примеры
 
@@ -298,11 +298,11 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [IPageChildNode](../ipagechildnode)
-* interface [ITaggable](../itaggable)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [IPageChildNode](../ipagechildnode/)
+* interface [ITaggable](../itaggable/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

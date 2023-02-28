@@ -1,9 +1,9 @@
 ---
-title: HtmlSaveOptions
+title: Class HtmlSaveOptions
 second_title: Aspose.Note para la referencia de la API de .NET
-description: Permite especificar opciones adicionales al guardar el documento en formato HTML.
+description: Aspose.Note.Saving.HtmlSaveOptions clase. Permite especificar opciones adicionales al guardar el documento en formato HTML.
 type: docs
-weight: 680
+weight: 700
 url: /es/net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -18,26 +18,26 @@ public class HtmlSaveOptions : SaveOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions)() | Constructor predeterminado |
+| [HtmlSaveOptions](htmlsaveoptions/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration) { get; set; } | Obtiene o establece si el archivo StyleSheet se generará para cada nueva página por separado. |
-| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar CSS. |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration) { get; set; } | Obtiene o establece un valor que indica si la generación de documentos por página está habilitada. |
-| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss) { get; set; } | Obtiene o establece la forma en que se exporta css. |
-| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts) { get; set; } | Obtiene o establece la forma en que se exportan las fuentes. |
-| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages) { get; set; } | Obtiene o establece la forma en que se exportan las imágenes. |
-| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes) { get; set; } | Obtiene o establece los tipos de letra de la fuente. |
-| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar la fuente. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Obtiene o establece la configuración de la fuente que se usará al guardar |
-| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar la imagen. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Obtiene o establece el número de páginas a guardar. Por defecto esMaxValue lo que significa que se procesarán todas las páginas del documento. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Obtiene o establece el índice de la primera página a guardar. Por defecto es 0. |
-| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar la página. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Obtiene el formato en el que se guarda el documento. |
+| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | Obtiene o establece si el archivo StyleSheet se generará para cada nueva página por separado. |
+| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar CSS. |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | Obtiene o establece un valor que indica si la generación de documentos por página está habilitada. |
+| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | Obtiene o establece la forma en que se exporta css. |
+| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | Obtiene o establece la forma en que se exportan las fuentes. |
+| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | Obtiene o establece la forma en que se exportan las imágenes. |
+| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes/) { get; set; } | Obtiene o establece los tipos de letra de la fuente. |
+| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar la fuente. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Obtiene o establece la configuración de la fuente que se usará al guardar |
+| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar la imagen. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Obtiene o establece el número de páginas a guardar. Por defecto esMaxValue lo que significa que se procesarán todas las páginas del documento. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Obtiene o establece el índice de la primera página a guardar. Por defecto es 0. |
+| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | Obtiene o establece la devolución de llamada que se llama para crear un recurso para almacenar la página. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Obtiene el formato en el que se guarda el documento. |
 
 ### Ejemplos
 
@@ -147,8 +147,8 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 
 ### Ver también
 
-* class [SaveOptions](../saveoptions)
-* espacio de nombres [Aspose.Note.Saving](../../aspose.note.saving)
+* class [SaveOptions](../saveoptions/)
+* espacio de nombres [Aspose.Note.Saving](../../aspose.note.saving/)
 * asamblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: Document
+title: Class Document
 second_title: Aspose.Note for .NET API 参考
-description: 代表一个 Aspose.Note 文档
+description: Aspose.Note.Document 班级. 代表一个Aspose.Note文档
 type: docs
 weight: 60
 url: /zh/net/aspose.note/document/
 ---
 ## Document class
 
-代表一个 Aspose.Note 文档。
+代表一个Aspose.Note文档。
 
 ```csharp
 public class Document : CompositeNode<Page>, INotebookChildNode
@@ -18,63 +18,63 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Document](document#constructor)() | 初始化[`Document`](../document) class. 创建一个空白的 OneNote 文档。 |
-| [Document](document#constructor_1)(Stream) | 初始化[`Document`](../document) class. 从流中打开现有 OneNote 文档。 |
-| [Document](document#constructor_3)(string) | 初始化[`Document`](../document) class. 从文件中打开现有 OneNote 文档。 |
-| [Document](document#constructor_2)(Stream, LoadOptions) | 初始化[`Document`](../document) class. 从流中打开现有 OneNote 文档。允许指定其他选项，例如加密密码。 |
-| [Document](document#constructor_4)(string, LoadOptions) | 初始化[`Document`](../document) class. 从文件中打开现有的 OneNote 文档。允许指定其他选项，例如加密密码。 |
+| [Document](document/#constructor)() | 初始化一个新的实例`Document` class. 创建一个空白的 OneNote 文档。 |
+| [Document](document/#constructor_1)(Stream) | 初始化一个新的实例`Document` class. 从流中打开现有的 OneNote 文档。 |
+| [Document](document/#constructor_3)(string) | 初始化一个新的实例`Document` class. 从文件中打开现有的 OneNote 文档。 |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | 初始化一个新的实例`Document` class. 从流中打开现有的 OneNote 文档。允许指定其他选项，例如加密密码。 |
+| [Document](document/#constructor_4)(string, LoadOptions) | 初始化一个新的实例`Document`class. 从文件中打开现有的 OneNote 文档。允许指定其他选项，例如加密密码。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled) { get; set; } | 获取或设置一个值，表示Aspose.Note是否自动检测布局变化。 默认值为`真的`. |
-| [Color](../../aspose.note/document/color) { get; set; } | 获取或设置颜色。 |
-| [CreationTime](../../aspose.note/document/creationtime) { get; set; } | 获取或设置创建时间。 |
-| [DisplayName](../../aspose.note/document/displayname) { get; set; } | 获取或设置显示名称。 |
-| [Document](../../aspose.note/node/document) { get; } | 获取节点的文档。 |
-| [FileFormat](../../aspose.note/document/fileformat) { get; } | 获取文件格式（OneNote 2010、OneNote Online）。 |
-| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
-| [Guid](../../aspose.note/document/guid) { get; } | 获取对象的全局唯一id。 |
-| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
-| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | 获取同一节点树级别的下一个节点。 |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | 获取节点类型。 |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | 获取父节点。 |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | 获取同一节点树级别的上一个节点。 |
+| [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | 获取或设置一个值，表示Aspose.Note是否自动检测布局变化。 默认值为`真的`. |
+| [Color](../../aspose.note/document/color/) { get; set; } | 获取或设置颜色。 |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | 获取或设置创建时间。 |
+| [DisplayName](../../aspose.note/document/displayname/) { get; set; } | 获取或设置显示名称。 |
+| [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
+| [FileFormat](../../aspose.note/document/fileformat/) { get; } | 获取文件格式（OneNote 2010、OneNote Online）。 |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Guid](../../aspose.note/document/guid/) { get; } | 获取对象的全局唯一id。 |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | 获取同一节点树级别的下一个节点。 |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | 获取节点类型。 |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | 获取父节点。 |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | 获取同一节点树级别的前一个节点。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.note/document/accept)(DocumentVisitor) | 接受节点的访问者。 |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges)() | 检测自上次以来对文档布局所做的所有更改[`DetectLayoutChanges`](./detectlayoutchanges)call. 以防万一[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled)设置为 true，在文档导出开始时自动使用。 |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode`1/getchildnodes)() |  |
-| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory)(Page) | 获取[`PageHistory`](../pagehistory)其中包含文档中呈现的每个页面的完整历史记录（最早在索引 0 处）。 当前页面修订可以通过以下方式访问[`Current`](../pagehistory/current)并与历史版本的集合分开包含。 |
-| [Import](../../aspose.note/document/import#import)(Stream, PdfImportOptions, MergeOptions) | 从提供的 PDF 文档中导入一组页面。 |
-| [Import](../../aspose.note/document/import#import_1)(string, PdfImportOptions, MergeOptions) | 从提供的 PDF 文档中导入一组页面。 |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;Page&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params Page[]) |  |
-| [Merge](../../aspose.note/document/merge)(IEnumerable&lt;Page&gt;, MergeOptions) | 将一组页面合并到文档中。 |
-| [Print](../../aspose.note/document/print#print)() | 使用默认打印机打印文档。 |
-| [Print](../../aspose.note/document/print#print_1)(PrintOptions) | 使用默认打印机打印文档。 |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
-| [Save](../../aspose.note/document/save#save)(Stream) | 将 OneNote 文档保存到流中。 |
-| [Save](../../aspose.note/document/save#save_3)(string) | 将 OneNote 文档保存到文件中。 |
-| [Save](../../aspose.note/document/save#save_1)(Stream, SaveFormat) | 将 OneNote 文档以指定格式保存到流中。 |
-| [Save](../../aspose.note/document/save#save_2)(Stream, SaveOptions) | 使用指定的保存选项将 OneNote 文档保存到流中。 |
-| [Save](../../aspose.note/document/save#save_4)(string, SaveFormat) | 将 OneNote 文档保存到指定格式的文件中。 |
-| [Save](../../aspose.note/document/save#save_5)(string, SaveOptions) | 使用指定的保存选项将 OneNote 文档保存到文件中。 |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted)(Stream, out Document) | 检查流中的文档是否已加密。 要检查它，我们需要完全加载此文档。所以这种方法会导致性能损失。 |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_3)(string, out Document) | 检查文件中的文档是否已加密。 要检查它，我们需要完全加载此文档。所以这种方法会导致性能损失。 |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_1)(Stream, LoadOptions, out Document) | 检查流中的文档是否已加密。 要检查它，我们需要完全加载此文档。所以这种方法会导致性能损失。 |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_2)(Stream, string, out Document) | 检查流中的文档是否已加密。 要检查它，我们需要完全加载此文档。所以这种方法会导致性能损失。 |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_4)(string, LoadOptions, out Document) | 检查文件中的文档是否已加密。 要检查它，我们需要完全加载此文档。所以这种方法会导致性能损失。 |
-| static [IsEncrypted](../../aspose.note/document/isencrypted#isencrypted_5)(string, string, out Document) | 检查文件中的文档是否已加密。 要检查它，我们需要完全加载此文档。所以这种方法会导致性能损失。 |
+| override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | 接受节点的访问者。 |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | 检测自上次以来对文档布局所做的所有更改[`DetectLayoutChanges`](./detectlayoutchanges/)call. 万一[`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/)设置为 true，在文档导出开始时自动使用。 |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | 获取[`PageHistory`](../pagehistory/)其中包含文档中出现的每个页面的完整历史记录（最早的索引为 0）。 当前页面修订可以访问为[`Current`](../pagehistory/current/)并与历史版本的集合分开包含。 |
+| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | 从提供的 PDF 文档中导入一组页面。 |
+| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | 从提供的 PDF 文档中导入一组页面。 |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
+| [Merge](../../aspose.note/document/merge/)(IEnumerable&lt;Page&gt;, MergeOptions) | 将一组页面合并到文档中。 |
+| [Print](../../aspose.note/document/print/#print)() | 使用默认打印机打印文档。 |
+| [Print](../../aspose.note/document/print/#print_1)(PrintOptions) | 使用默认打印机打印文档。 |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Save](../../aspose.note/document/save/#save)(Stream) | 将 OneNote 文档保存到流中。 |
+| [Save](../../aspose.note/document/save/#save_3)(string) | 将 OneNote 文档保存到文件中。 |
+| [Save](../../aspose.note/document/save/#save_1)(Stream, SaveFormat) | 以指定格式将 OneNote 文档保存到流中。 |
+| [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | 使用指定的保存选项将 OneNote 文档保存到流中。 |
+| [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | 将 OneNote 文档保存为指定格式的文件。 |
+| [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | 使用指定的保存选项将 OneNote 文档保存到文件。 |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | 检查流中的文档是否已加密。 要检查它，我们需要完全加载该文档。所以这种方法会导致性能下降。 |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | 检查文件中的文档是否已加密。 要检查它，我们需要完全加载该文档。所以这种方法会导致性能下降。 |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | 检查流中的文档是否已加密。 要检查它，我们需要完全加载该文档。所以这种方法会导致性能下降。 |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | 检查流中的文档是否已加密。 要检查它，我们需要完全加载该文档。所以这种方法会导致性能下降。 |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | 检查文件中的文档是否已加密。 要检查它，我们需要完全加载该文档。所以这种方法会导致性能下降。 |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | 检查文件中的文档是否已加密。 要检查它，我们需要完全加载该文档。所以这种方法会导致性能下降。 |
 
 ### 例子
 
@@ -144,13 +144,13 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-显示如何获取文档的页面计数。
+显示如何获取文档的页数。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // 获取页数
@@ -160,13 +160,13 @@ int count = oneFile.Count();
 Console.WriteLine(count);
 ```
 
-显示如何使用默认设置以 pdf 格式保存文档。
+显示如何使用默认设置将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // 将文档保存为 PDF
@@ -180,7 +180,7 @@ oneFile.Save(dataDir, SaveFormat.Pdf);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
@@ -189,13 +189,13 @@ dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
 
-显示将文档另存为 JPEG 格式的图像时如何设置图像质量。
+显示将文档另存为 JPEG 格式图像时如何设置图像质量。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document doc = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SetOutputImageResolution_out.jpg";
@@ -210,7 +210,7 @@ doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document doc = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SetOutputImageResolution_out.jpg";
@@ -262,13 +262,13 @@ document.Save(dataDir + "Image with Hyperlink_out.one");
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document doc = new Document(dataDir + "Aspose.one");
 
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// 将流位置倒回零，以便为下一个阅读器做好准备。
+// 将流位置倒回到零，以便为下一个读者做好准备。
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
@@ -290,16 +290,16 @@ else
 }
 ```
 
-显示如何将新部分添加到笔记本。
+演示如何向笔记本添加新部分。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 加载 OneNote 笔记本
+// 加载一个 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
-// 添加一个新的子节点到 Notebook
+// 添加一个新的孩子到笔记本
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
 
 dataDir = dataDir + "AddChildNode_out.onetoc2";
@@ -308,7 +308,7 @@ dataDir = dataDir + "AddChildNode_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-说明如何检查文档加载是否因为不支持 OneNote 2007 格式而失败。
+显示如何检查文档加载是否因不支持 OneNote 2007 格式而失败。
 
 ```csharp
 // 文档目录的路径。
@@ -336,7 +336,7 @@ catch (UnsupportedFileFormatException e)
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个孩子           
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -356,7 +356,7 @@ string dataDir = RunExamples.GetDataDir_Pages();
 // 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 克隆到没有历史记录的新文档
+//克隆到没有历史记录的新文档
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
@@ -365,7 +365,7 @@ cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
-展示如何以 html 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
+显示如何将文档保存为 html 格式，并将所有资源（css/字体/图像）存储到单独的文件中。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -381,7 +381,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-展示如何通过嵌入所有资源（css/fonts/images）将文档保存到 html 格式的流中。
+显示如何将文档保存到 html 格式的流中，并嵌入所有资源（css/字体/图像）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -425,7 +425,7 @@ document.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -439,13 +439,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-当长 OneNote 页面以 pdf 格式保存时，它们会跨页面拆分。该示例展示了如何配置位于分页符上的对象的拆分逻辑。
+当 OneNote 长页面以 pdf 格式保存时，它们会被拆分成多个页面。该示例展示了如何配置位于分页符处的对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document doc = new Document(dataDir + "Aspose.one");
 
 var pdfSaveOptions = new PdfSaveOptions();
@@ -464,7 +464,7 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // 初始化 ImageSaveOptions 对象 
@@ -486,7 +486,7 @@ oneFile.Save(dataDir, opts);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个孩子           
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -532,6 +532,32 @@ else
 }
 ```
 
+展示如何将深色主题样式应用于文档。
+
+```csharp
+// 文档目录的路径。
+string dataDir = RunExamples.GetDataDir_Text();
+
+// 将文档加载到 Aspose.Note 中。
+Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
+
+foreach (var page in doc)
+{
+    page.BackgroundColor = Color.Black;
+}
+
+foreach (var node in doc.GetChildNodes<RichText>())
+{
+    var c = node.ParagraphStyle.FontColor;
+    if (c.IsEmpty || Math.Abs(c.R - Color.Black.R) + Math.Abs(c.G - Color.Black.G) + Math.Abs(c.B - Color.Black.B) <= 30)
+    {
+        node.ParagraphStyle.FontColor = Color.White;
+    }
+}
+
+doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
+```
+
 显示如何传递笔记本的内容。
 
 ```csharp
@@ -550,7 +576,7 @@ try
         }
         else if (notebookChildNode is Notebook)
         {
-            // 对子笔记本做一些事情
+            // 用子笔记本做点什么
         }
     }
 }
@@ -560,16 +586,16 @@ catch (Exception ex)
 }
 ```
 
-显示如何从文档中获取图像。
+演示如何从文档中获取图像。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有图像节点
+// 获取所有Image节点
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -578,7 +604,7 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // 将图像字节保存到文件中
+            // 将图像字节保存到文件
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
@@ -591,7 +617,7 @@ foreach (Aspose.Note.Image image in nodes)
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // 初始化 PdfSaveOptions 对象
@@ -609,13 +635,13 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-显示如何使用特定设置以 pdf 格式保存文档。
+显示如何使用特定设置将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document doc = new Document(dataDir + "Aspose.one");
 
 // 初始化 PdfSaveOptions 对象
@@ -624,7 +650,7 @@ PdfSaveOptions opts = new PdfSaveOptions
                               // 使用 Jpeg 压缩
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
-                              // JPEG 压缩的质量
+                              // JPEG 压缩质量
                               JpegQuality = 90
                           };
 
@@ -632,7 +658,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-显示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
+显示如何使用具有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -653,16 +679,44 @@ document.Print(new PrintOptions()
                });
 ```
 
+显示如何获取附加文件的内容。
+
+```csharp
+// 文档目录的路径。
+string dataDir = RunExamples.GetDataDir_Attachments();
+
+// 将文档加载到 Aspose.Note 中。
+Document oneFile = new Document(dataDir + "Sample1.one");
+
+// 获取附加文件节点列表
+IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
+
+//遍历所有节点
+foreach (AttachedFile file in nodes)
+{
+    // 将附加文件加载到流对象
+    using (Stream outputStream = new MemoryStream(file.Bytes))
+    {
+        // 创建本地文件
+        using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
+        {
+            // 复制文件流
+            CopyStream(outputStream, fileStream);
+        }
+    }
+}
+```
+
 显示如何获取图像的元信息。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有图像节点
+// 获取所有Image节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -674,34 +728,6 @@ foreach (Aspose.Note.Image image in images)
     Console.WriteLine("FileName: {0}", image.FileName);
     Console.WriteLine("LastModifiedTime: {0}", image.LastModifiedTime);
     Console.WriteLine();
-}
-```
-
-显示如何获取附加文件的内容。
-
-```csharp
-// 文档目录的路径。
-string dataDir = RunExamples.GetDataDir_Attachments();
-
-// 将文档加载到 Aspose.Note。
-Document oneFile = new Document(dataDir + "Sample1.one");
-
-// 获取附件节点列表
-IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
-
-// 遍历所有节点
-foreach (AttachedFile file in nodes)
-{
-    // 将附件加载到流对象
-    using (Stream outputStream = new MemoryStream(file.Bytes))
-    {
-        // 创建本地文件
-        using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
-        {
-            // 复制文件流
-            CopyStream(outputStream, fileStream);
-        }
-    }
 }
 ```
 
@@ -728,16 +754,16 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-演示如何使用文件路径将文件添加到文档中。
+演示如何使用文件路径将文件添加到文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Attachments();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -752,10 +778,10 @@ AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 // 添加附件
 outlineElem.AppendChildLast(attachedFile);
 
-// 添加大纲元素节点
+// 添加轮廓元素节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -765,7 +791,7 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何使用默认选项创建文档并以 html 格式保存。
+显示如何使用默认选项创建文档并将其保存为 html 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -784,7 +810,7 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
@@ -807,8 +833,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 默认情况下，冲突页面只是在保存时跳过。
-    // 如果将其标记为非冲突，那么它将像往常一样保存在历史记录中。
+    // 默认情况下，冲突页面只是在保存时被跳过。
+    // 如果将其标记为非冲突，则它将照常保存在历史记录中。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -816,7 +842,7 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-演示如何将图像从文件添加到具有用户定义属性的文档。
+显示如何将图像从文件添加到具有用户定义属性的文档。
 
 ```csharp
 // 文档目录的路径。
@@ -831,11 +857,11 @@ Aspose.Note.Page page = doc.FirstChild;
 // 从文件中加载图像。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
-                              // 根据您的需要更改图像的大小（可选）。
+                              // 根据需要更改图像的大小（可选）。
                               Width = 100,
                               Height = 100,
 
-                              // 设置图片在页面中的位置（可选）。
+                              // 设置图像在页面中的位置（可选）。
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
@@ -853,10 +879,10 @@ page.AppendChildLast(image);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Attachments();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -874,10 +900,10 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
     outlineElem.AppendChildLast(attachedFile);
 }
 
-// 添加大纲元素节点
+// 添加轮廓元素节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -887,13 +913,13 @@ dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-当长 OneNote 页面以 pdf 格式保存时，它们会跨页面拆分。该示例显示了如何配置位于分页符上的对象的拆分逻辑。
+当 OneNote 长页面以 pdf 格式保存时，它们会被拆分成多个页面。该示例显示如何配置位于分页符处的对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
@@ -915,7 +941,7 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-演示如何创建文档并以 html 格式保存指定范围的页面。
+显示如何创建文档并以 html 格式保存指定范围的页面。
 
 ```csharp
 // 文档目录的路径。
@@ -935,7 +961,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -944,16 +970,16 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-显示如何创建带有标题页的文档。
+显示如何创建带标题页面的文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Aspose.Note.Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 文档中所有文本的默认样式。
@@ -967,7 +993,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 在文档中追加 Page 节点
+// 在文档中追加页面节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -975,16 +1001,16 @@ dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
-演示如何将图像从流添加到文档。
+显示如何将图像从流添加到文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Outline outline1 = new Outline(doc);
@@ -993,7 +1019,7 @@ OutlineElement outlineElem1 = new OutlineElement(doc);
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // 使用图像名称、扩展名和流加载第二张图像。
+    // 使用图片名称、扩展名和流加载第二张图片。
     Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
                                    {
                                        // 设置图像对齐
@@ -1019,19 +1045,19 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// 初始化 Outline 类对象并设置偏移属性
+// 初始化 Outline 类对象并设置偏移量属性
 Outline outline = new Outline(doc);
 
 // 初始化 OutlineElement 类对象
 OutlineElement outlineElem = new OutlineElement(doc);
 
-// 通过文件路径加载图片。
+// 通过文件路径加载图像。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                           {
                               // 设置图像对齐
@@ -1044,7 +1070,7 @@ outlineElem.AppendChildLast(image);
 // 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -1055,16 +1081,16 @@ dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
 
-演示如何创建带有文本的文档。
+显示如何创建带有文本的文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Page page = new Page(doc);
 
 // 初始化大纲类对象
@@ -1079,13 +1105,13 @@ ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontNam
 // 初始化 RichText 类对象并应用文本样式
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
-// 添加富文本节点
+// 添加 RichText 节点
 outlineElem.AppendChildLast(text);
 
 // 添加 OutlineElement 节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -1117,10 +1143,10 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 追加页面节点
+//追加页面节点
 doc.AppendChildLast(page);
 
-// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局变化。
+// 以不同格式保存 OneNote 文档，手动设置文本字体大小和检测布局变化。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -1129,11 +1155,11 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-展示如何使用用户定义的回调将文档保存为 html 格式并存储所有资源（css/fonts/images）。
+显示如何使用用户定义的回调以 html 格式保存文档并存储所有资源（css/字体/图像）。
 
 ```csharp
-// 下面的代码创建包含 document.html 的“documentFolder”文件夹，包含“style.css”文件的“css”文件夹，包含图像的“images”文件夹和包含字体的“fonts”文件夹。
-// 'style.css' 文件将在末尾包含以下字符串“/* 此行由用户手动附加到流 */”
+// 下面的代码创建包含 document.html 的“documentFolder”文件夹、包含“style.css”文件的“css”文件夹、包含图像的“images”文件夹和包含字体的“fonts”文件夹。
+// 'style.css' 文件将在末尾包含以下字符串“/* This line is appended to stream manually by user */”
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",
@@ -1176,7 +1202,7 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -1213,13 +1239,13 @@ outlineElem.AppendChildLast(text);
 // 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化 Title 类对象
+// 初始化标题类对象
 Title title = new Title() { TitleText = titleText };
 
-//初始化Page类对象
+// 初始化页面类对象
 Page page = new Note.Page() { Title = title };
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -1230,7 +1256,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何使用访问者访问文档的内容。
+显示如何使用访问者访问文档的内容。
 
 ```csharp
 public static void Run()
@@ -1244,22 +1270,22 @@ public static void Run()
     // 创建一个继承自 DocumentVisitor 类的对象。
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // 这是众所周知的访问者模式。让模型接受访客。
-    // 模型会通过调用相应的方法来遍历自己
+    // 这是众所周知的访客模式。让模型接受访客。
+    // 模型将通过调用相应的方法来遍历自身
     // 在访问者对象上（这称为访问）。
     //
-    // 注意对象模型中的每个节点都有 Accept 方法，所以访问
+    // 请注意，对象模型中的每个节点都有 Accept 方法，因此访问
     // 不仅可以对整个文档执行，还可以对文档中的任何节点执行。
     doc.Accept(myConverter);
 
-    // 一旦访问完成，我们可以检索操作的结果，
-    // 在此示例中，已在访问者中累积。
+    // 一旦访问完成，我们就可以检索操作的结果，
+    // 在此示例中，已在访问者中积累。
     Console.WriteLine(myConverter.GetText());
     Console.WriteLine(myConverter.NodeCount);            
 }
 
 /// <summary>
-/// 以纯文本格式保存文档的简单实现。作为访客实现。
+/// 以纯文本格式保存文档的简单实现。作为访客实施。
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -1299,7 +1325,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Document 节点时调用。
+    /// 在文档中遇到文档节点时调用。
     /// </summary>
     public override void VisitDocumentStart(Document document)
     {
@@ -1307,7 +1333,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Page 节点时调用。
+    /// 在文档中遇到页面节点时调用。
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -1316,7 +1342,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Page 节点处理完成时调用。
+    /// 当页面节点的处理完成时调用。
     /// </summary>
     public override void VisitPageEnd(Page page)
     {
@@ -1324,7 +1350,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Title 节点时调用。
+    /// 在文档中遇到标题节点时调用。
     /// </summary>
     public override void VisitTitleStart(Title title)
     {
@@ -1332,7 +1358,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Image 节点时调用。
+    /// 在文档中遇到图像节点时调用。
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -1364,7 +1390,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 获取Visitor的节点总数
+    /// 获取访问者的节点总数
     /// </summary>
     public Int32 NodeCount
     {
@@ -1379,10 +1405,10 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### 也可以看看
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
-* class [Page](../page)
-* interface [INotebookChildNode](../inotebookchildnode)
-* 命名空间 [Aspose.Note](../../aspose.note)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Page](../page/)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* 命名空间 [Aspose.Note](../../aspose.note/)
 * 部件 [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

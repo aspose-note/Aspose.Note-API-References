@@ -1,7 +1,7 @@
 ---
-title: TitleText
+title: Title.TitleText
 second_title: Aspose.Note for .NET API Referansı
-description: Başlığın metnini alır veya ayarlar.
+description: Title mülk. Başlığın metnini alır veya ayarlar.
 type: docs
 weight: 60
 url: /tr/net/aspose.note/title/titletext/
@@ -16,13 +16,13 @@ public RichText TitleText { get; set; }
 
 ### Örnekler
 
-Sayfanın geçmişinin nasıl düzenleneceğini gösterir.
+Sayfa geçmişinin nasıl düzenleneceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// OneNote belgesini yükle ve ilk çocuğu al           
+// OneNote belgesini yükleyin ve ilk çocuğu alın           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -43,7 +43,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-Bir sayfa için nasıl başlık ayarlanacağını gösterir.
+Bir sayfa için bir başlığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -76,7 +76,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-Varsayılan seçenekleri kullanarak bir belgenin nasıl oluşturulacağını ve html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve varsayılan seçenekleri kullanarak html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -86,7 +86,7 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -95,12 +95,12 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığının html biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin nasıl oluşturulacağını ve belirtilen sayfa aralığında html formatında kaydedileceğini gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
@@ -111,7 +111,7 @@ Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -120,7 +120,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// HTML biçiminde kaydet
+// HTML formatında kaydet
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -129,19 +129,19 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Başlık sayfası olan bir belgenin nasıl oluşturulacağını gösterir.
+Başlıklı sayfalı bir belgenin nasıl oluşturulacağını gösterir.
 
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// Document sınıfının bir nesnesini oluşturun
+// Document sınıfından bir nesne oluşturun
 Document doc = new Aspose.Note.Document();
 
 // Sayfa sınıfı nesnesini başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Sayfa başlığı özelliklerini ayarla
@@ -152,7 +152,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// Belgeye Sayfa düğümü ekle
+// Sayfa düğümünü belgeye ekle
 doc.AppendChildLast(page);
 
 // OneNote belgesini kaydet
@@ -172,7 +172,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 // Yeni Sayfayı başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-// Belgedeki tüm metinler için varsayılan stil.
+// Belgedeki tüm metin için varsayılan stil.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title(doc)
              {
@@ -181,7 +181,7 @@ page.Title = new Title(doc)
                  TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// Sayfa düğümü ekle
+// Sayfa düğümünü ekle
 doc.AppendChildLast(page);
 
 // OneNote belgesini farklı biçimlerde kaydedin, metin yazı tipi boyutunu ayarlayın ve düzen değişikliklerini manuel olarak algılayın.
@@ -195,9 +195,9 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ### Ayrıca bakınız
 
-* class [RichText](../../richtext)
-* class [Title](../../title)
-* ad alanı [Aspose.Note](../../title)
+* class [RichText](../../richtext/)
+* class [Title](../)
+* ad alanı [Aspose.Note](../../title/)
 * toplantı [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

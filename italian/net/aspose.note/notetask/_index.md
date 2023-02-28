@@ -1,14 +1,14 @@
 ---
-title: NoteTask
+title: Class NoteTask
 second_title: Aspose.Note per .NET API Reference
-description: Rappresenta unattività di nota.
+description: Aspose.Note.NoteTask classe. Rappresenta unattività nota.
 type: docs
-weight: 380
+weight: 400
 url: /it/net/aspose.note/notetask/
 ---
 ## NoteTask class
 
-Rappresenta un'attività di nota.
+Rappresenta un'attività nota.
 
 ```csharp
 public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
@@ -18,30 +18,30 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Checked](../../aspose.note/checkbox/checked) { get; } | Ottiene un valore che indica se CheckBox è nello stato selezionato. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Ottiene o imposta il tempo di completamento. |
-| [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Ottiene o imposta l'ora di creazione. |
-| [DueDate](../../aspose.note/notetask/duedate) { get; set; } | Ottiene o imposta la data di scadenza. |
-| override [Icon](../../aspose.note/notetask/icon) { get; } | Ottiene o imposta l'icona. |
-| [Label](../../aspose.note/checkbox/label) { get; } | Ottiene il testo dell'etichetta. |
-| [Status](../../aspose.note/checkbox/status) { get; } | Ottiene o imposta lo stato. |
+| [Checked](../../aspose.note/checkbox/checked/) { get; } | Ottiene un valore che indica se CheckBox è nello stato selezionato. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | Ottiene o imposta il tempo di completamento. |
+| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | Ottiene o imposta l'ora di creazione. |
+| [DueDate](../../aspose.note/notetask/duedate/) { get; set; } | Ottiene o imposta la data di scadenza. |
+| override [Icon](../../aspose.note/notetask/icon/) { get; } | Ottiene o imposta l'icona. |
+| [Label](../../aspose.note/checkbox/label/) { get; } | Ottiene il testo dell'etichetta. |
+| [Status](../../aspose.note/checkbox/status/) { get; } | Ottiene o imposta lo stato. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate)(DateTime) | Crea una nuova attività nota con l'icona NoFollowUpDateFlag e la data di scadenza specificata. |
-| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek)() | Crea una nuova attività nota con l'icona FollowUpNextWeekFlag. |
-| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek)() | Crea una nuova attività nota con l'icona FollowUpThisWeekFlag. |
-| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday)() | Crea una nuova attività nota con l'icona FollowUpTodayFlag. |
-| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow)() | Crea una nuova attività nota con l'icona FollowUpTomorrowFlag. |
-| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate)() | Crea una nuova attività nota con l'icona NoFollowUpDateFlag. |
-| [Equals](../../aspose.note/notetask/equals#equals)(NoteTask) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
-| override [Equals](../../aspose.note/notetask/equals#equals_1)(object) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
-| override [GetHashCode](../../aspose.note/notetask/gethashcode)() | Serve come funzione hash per il tipo. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Imposta il tag sullo stato completato utilizzando l'ora corrente come ora completata. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Imposta il tag sullo stato completato. |
-| override [SetOpen](../../aspose.note/notetask/setopen)() | Imposta il tag per aprire lo stato. |
+| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate/)(DateTime) | Crea una nuova attività nota con l'icona NoFollowUpDateFlag e la data di scadenza specificata. |
+| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek/)() | Crea una nuova attività nota con l'icona FollowUpNextWeekFlag. |
+| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek/)() | Crea una nuova attività nota con l'icona FollowUpThisWeekFlag. |
+| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday/)() | Crea una nuova attività nota con l'icona FollowUpTodayFlag. |
+| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow/)() | Crea una nuova attività nota con l'icona FollowUpTomorrowFlag. |
+| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate/)() | Crea una nuova attività nota con l'icona NoFollowUpDateFlag. |
+| [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
+| override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
+| override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | Funge da funzione hash per il tipo. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | Imposta il tag sullo stato completato utilizzando l'ora corrente come ora completata. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | Imposta il tag sullo stato completato. |
+| override [SetOpen](../../aspose.note/notetask/setopen/)() | Imposta il tag sullo stato aperto. |
 
 ### Esempi
 
@@ -78,7 +78,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // Ottieni tutti i nodi RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// Scorri ogni nodo
+// Itera attraverso ogni nodo
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -100,8 +100,8 @@ foreach (RichText richText in nodes)
 
 ### Guarda anche
 
-* class [CheckBox](../checkbox)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [CheckBox](../checkbox/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

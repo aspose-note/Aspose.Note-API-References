@@ -1,9 +1,9 @@
 ---
-title: Notebook
+title: Class Notebook
 second_title: Aspose.Note لمرجع NET API
-description: يمثل Aspose.Note note .
+description: Aspose.Note.Notebook فصل. يمثل Aspose.Note note .
 type: docs
-weight: 390
+weight: 410
 url: /ar/net/aspose.note/notebook/
 ---
 ## Notebook class
@@ -18,46 +18,46 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | اسم | وصف |
 | --- | --- |
-| [Notebook](notebook#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Notebook`](../notebook) فئة . |
-| [Notebook](notebook#constructor_1)(Stream) | يقوم بتهيئة مثيل جديد لملف[`Notebook`](../notebook) class. فتح دفتر ملاحظات OneNote موجود من دفق. |
-| [Notebook](notebook#constructor_3)(string) | يقوم بتهيئة مثيل جديد لملف[`Notebook`](../notebook) class. فتح دفتر ملاحظات OneNote موجود من ملف. |
-| [Notebook](notebook#constructor_2)(Stream, NotebookLoadOptions) | يقوم بتهيئة مثيل جديد لملف[`Notebook`](../notebook) class. يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [Notebook](notebook#constructor_4)(string, NotebookLoadOptions) | يقوم بتهيئة مثيل جديد لملف[`Notebook`](../notebook)class. يفتح دفتر ملاحظات OneNote من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل الأطفال ("كسول" / فوري) . |
+| [Notebook](notebook/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Notebook` فئة . |
+| [Notebook](notebook/#constructor_1)(Stream) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. فتح دفتر ملاحظات OneNote موجود من دفق. |
+| [Notebook](notebook/#constructor_3)(string) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. فتح دفتر ملاحظات OneNote موجود من ملف. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. يفتح دفتر ملاحظات OneNote من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل الأطفال ("كسول" / فوري) . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color) { get; set; } | الحصول على اللون أو تحديده . |
-| [Count](../../aspose.note/notebook/count) { get; } | الحصول على عدد العناصر الموجودة في ملف[`Notebook`](../notebook) . |
-| [DisplayName](../../aspose.note/notebook/displayname) { get; set; } | الحصول على أو تحديد اسم العرض . |
-| [FileFormat](../../aspose.note/notebook/fileformat) { get; } | الحصول على تنسيق الملف (OneNote 2010 ، OneNote Online) . |
-| [Guid](../../aspose.note/notebook/guid) { get; } | يحصل على معرف الكائن الفريد عالميًا . |
-| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان السجل ممكّنًا أم لا. |
-| [Item](../../aspose.note/notebook/item) { get; } | يحصل على العقدة الفرعية للمفكرة بواسطة الفهرس المحدد. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | الحصول على اللون أو تحديده . |
+| [Count](../../aspose.note/notebook/count/) { get; } | الحصول على عدد العناصر الموجودة في ملف`Notebook` . |
+| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | الحصول على أو تحديد اسم العرض . |
+| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | الحصول على تنسيق الملف (OneNote 2010 ، OneNote Online) . |
+| [Guid](../../aspose.note/notebook/guid/) { get; } | يحصل على معرف الكائن الفريد عالميًا . |
+| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان السجل ممكّنًا أم لا. |
+| [Item](../../aspose.note/notebook/item/) { get; } | يحصل على العقدة الفرعية للمفكرة بواسطة الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [AppendChild](../../aspose.note/notebook/appendchild)(INotebookChildNode) | يضيف العقدة إلى نهاية القائمة. |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes)() | احصل على جميع العقد الفرعية حسب نوع العقدة . |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator)() | إرجاع العداد الذي يتكرر خلال العقد التابعة لملف[`Notebook`](../notebook) . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument)(Stream) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_2)(string) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_1)(Stream, LoadOptions) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument#loadchilddocument_3)(string, LoadOptions) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook)(Stream) | إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من دفق . |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_2)(string) | إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من ملف. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_1)(Stream, NotebookLoadOptions) | يضيف عقدة دفتر ملاحظات فرعية . يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook#loadchildnotebook_3)(string, NotebookLoadOptions) | إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
-| [RemoveChild](../../aspose.note/notebook/removechild)(INotebookChildNode) | يزيل العقدة الفرعية . |
-| [Save](../../aspose.note/notebook/save#save)(Stream) | يحفظ مستند OneNote في دفق. |
-| [Save](../../aspose.note/notebook/save#save_3)(string) | يحفظ مستند OneNote في ملف. |
-| [Save](../../aspose.note/notebook/save#save_2)(Stream, NotebookSaveOptions) | يحفظ مستند OneNote في دفق باستخدام خيارات الحفظ المحددة. |
-| [Save](../../aspose.note/notebook/save#save_1)(Stream, SaveFormat) | يحفظ مستند OneNote في دفق بالتنسيق المحدد. |
-| [Save](../../aspose.note/notebook/save#save_5)(string, NotebookSaveOptions) | يحفظ مستند OneNote في ملف باستخدام خيارات الحفظ المحددة. |
-| [Save](../../aspose.note/notebook/save#save_4)(string, SaveFormat) | يحفظ مستند OneNote في ملف بالتنسيق المحدد. |
+| [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | يضيف العقدة إلى نهاية القائمة. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | احصل على جميع العقد الفرعية حسب نوع العقدة . |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | إرجاع العداد الذي يتكرر خلال العقد التابعة لملف`Notebook` . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف . |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من دفق . |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من ملف. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | يضيف عقدة دفتر ملاحظات فرعية . يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | يضيف عقدة دفتر ملاحظات فرعية . يفتح دفتر ملاحظات OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
+| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | يزيل العقدة الفرعية . |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | يحفظ مستند OneNote في دفق. |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | يحفظ مستند OneNote في ملف. |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | يحفظ مستند OneNote في دفق باستخدام خيارات الحفظ المحددة. |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | يحفظ مستند OneNote في دفق بالتنسيق المحدد. |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | يحفظ مستند OneNote في ملف باستخدام خيارات الحفظ المحددة. |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | يحفظ مستند OneNote في ملف بالتنسيق المحدد. |
 
 ### أمثلة
 
@@ -320,8 +320,8 @@ catch (Exception ex)
 
 ### أنظر أيضا
 
-* interface [INotebookChildNode](../inotebookchildnode)
-* مساحة الاسم [Aspose.Note](../../aspose.note)
+* interface [INotebookChildNode](../inotebookchildnode/)
+* مساحة الاسم [Aspose.Note](../../aspose.note/)
 * المجسم [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: TextStyle
+title: Class TextStyle
 second_title: Aspose.Note per .NET API Reference
-description: Specifica lo stile del testo.
+description: Aspose.Note.TextStyle classe. Specifica lo stile del testo.
 type: docs
-weight: 940
+weight: 970
 url: /it/net/aspose.note/textstyle/
 ---
 ## TextStyle class
@@ -18,44 +18,44 @@ public sealed class TextStyle : Style
 
 | Nome | Descrizione |
 | --- | --- |
-| [TextStyle](textstyle)() | Default_Costruttore |
+| [TextStyle](textstyle/)() | Default_Costruttore |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| static [Default](../../aspose.note/textstyle/default) { get; } | Ottiene lo stile predefinito per il testo del titolo in MS OneNote. |
-| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle) { get; } | Ottiene lo stile predefinito per la data del titolo in MS OneNote. |
-| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle) { get; } | Ottiene lo stile predefinito per il testo del titolo in MS OneNote. |
-| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle) { get; } | Ottiene lo stile predefinito per l'ora del titolo in MS OneNote. |
-| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Ottiene o imposta il colore del carattere. |
-| [FontName](../../aspose.note/style/fontname) { get; set; } | Ottiene o imposta il nome del carattere. |
-| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Ottiene o imposta la dimensione del carattere. |
-| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Ottiene lo stile del carattere. |
-| [Highlight](../../aspose.note/style/highlight) { get; set; } | Ottiene o imposta il colore di evidenziazione. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | Ottiene o imposta l'indirizzo del collegamento ipertestuale. Deve essere impostato se il valore di[`IsHyperlink`](./ishyperlink) la proprietà è vera. |
-| [IsBold](../../aspose.note/style/isbold) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è grassetto. |
-| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è nascosto. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è un collegamento ipertestuale. |
-| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è corsivo. |
-| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è di formattazione matematica. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è barrato. |
-| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è pedice. |
-| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è apice. |
-| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è sottolineato. |
-| [Language](../../aspose.note/textstyle/language) { get; set; } | Ottiene o imposta la lingua del testo. |
+| static [Default](../../aspose.note/textstyle/default/) { get; } | Ottiene lo stile con la cultura "en-US". |
+| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle/) { get; } | Ottiene lo stile predefinito per la data del titolo in MS OneNote. |
+| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | Ottiene lo stile predefinito per il testo del titolo in MS OneNote. |
+| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | Ottiene lo stile predefinito per l'ora del titolo in MS OneNote. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Ottiene o imposta il colore del carattere. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | Ottiene o imposta il nome del font. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Ottiene o imposta la dimensione del carattere. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Ottiene lo stile del carattere. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Ottiene o imposta il colore di evidenziazione. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Ottiene o imposta l'indirizzo del collegamento ipertestuale. Deve essere impostato se il valore di[`IsHyperlink`](./ishyperlink/) proprietà è true. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è in grassetto. |
+| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è nascosto. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è collegamento ipertestuale. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è corsivo. |
+| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è di formattazione matematica. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è barrato. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è pedice. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è apice. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Ottiene o imposta un valore che indica se lo stile del testo è sottolineato. |
+| [Language](../../aspose.note/textstyle/language/) { get; set; } | Ottiene o imposta la lingua del testo. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
-| [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | Serve come funzione hash per il tipo. |
+| override [Equals](../../aspose.note/textstyle/equals/#equals_1)(object) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
+| [Equals](../../aspose.note/textstyle/equals/#equals)(TextStyle) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode/)() | Funge da funzione hash per il tipo. |
 
 ### Esempi
 
-Sottolineiamo i titoli delle pagine tra le altre intestazioni aumentando la dimensione del carattere.
+Mettiamo in risalto i titoli delle pagine tra le altre intestazioni aumentando la dimensione del carattere.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -63,7 +63,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Scorri i titoli delle pagine.
+// Itera attraverso i titoli della pagina.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -79,7 +79,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-Sottolineiamo le ultime modifiche al testo evidenziandole.
+Sottolineiamo le ultime modifiche al testo evidenziando.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -87,7 +87,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // Carica il documento in Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Ottieni nodi RichText modificati la scorsa settimana.
+// Ottieni i nodi RichText modificati la scorsa settimana.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -125,7 +125,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-Manipola in base al formato del testo usando lo stile di paragrafo.
+Manipolare in base al formato del testo utilizzando lo stile di paragrafo.
 
 ```csharp
 var document = new Document();
@@ -192,24 +192,24 @@ outline.AppendChildLast(outlineElem);
 // Inizializza l'oggetto della classe Title
 Title title = new Title() { TitleText = titleText };
 
-// Inizializza l'oggetto della classe Pagina
+// Inizializza l'oggetto della classe Page
 Page page = new Note.Page() { Title = title };
 
-//Aggiungi nodo Struttura
+// Aggiungi nodo Struttura
 page.AppendChildLast(outline);
 
-// Aggiungi il nodo Pagina
+// Aggiungi nodo Pagina
 doc.AppendChildLast(page);
 
-// Salva il documento di OneNote
+// Salva documento OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
 ### Guarda anche
 
-* class [Style](../style)
-* spazio dei nomi [Aspose.Note](../../aspose.note)
+* class [Style](../style/)
+* spazio dei nomi [Aspose.Note](../../aspose.note/)
 * assemblea [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Aspose.Note for .NET API 参考
-description: 表示富文本
+description: Aspose.Note.RichText 班级. 代表富文本
 type: docs
-weight: 510
+weight: 530
 url: /zh/net/aspose.note/richtext/
 ---
 ## RichText class
 
-表示富文本。
+代表富文本。
 
 ```csharp
 public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode, ITaggable
@@ -18,65 +18,65 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RichText](richtext#constructor)() | 初始化[`RichText`](../richtext)类. |
+| [RichText](richtext/#constructor)() | 初始化一个新的实例`RichText`类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | 获取或设置对齐方式。 |
-| [Document](../../aspose.note/node/document) { get; } | 获取节点的文档。 |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | 获取一个值，该值指示此节点是否为复合节点。如果为真，则节点可以有子节点。 |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | 获取或设置上次修改时间。 |
-| [Length](../../aspose.note/richtext/length) { get; } | 获取文本的长度。 |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | 获取或设置行距。 |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | 获取同一节点树级别的下一个节点。 |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | 获取节点类型。 |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | 获取或设置段落样式。 如果没有匹配的 TextStyle 对象，则使用这些设置Styles收集此对象未指定所需设置。 |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | 获取父节点。 |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | 获取同一节点树级别的上一个节点。 |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | 获取或设置后的最小空间量。 |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | 获取或设置之前的最小空间量。 |
-| [Tags](../../aspose.note/richtext/tags) { get; } | 获取段落的所有标签列表。 |
-| [Text](../../aspose.note/richtext/text) { get; set; } | 获取或设置文本。字符串不得包含任何值为 10 的字符（换行）。 |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | 获取文本运行的集合。 |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | 获取或设置对齐方式。 |
+| [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为真，节点可以有子节点。 |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
+| [Length](../../aspose.note/richtext/length/) { get; } | 获取文本的长度。 |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | 获取或设置行距。 |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | 获取同一节点树级别的下一个节点。 |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | 获取节点类型。 |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | 获取或设置段落样式。 如果在中没有匹配的 TextStyle 对象，则使用这些设置Styles收集此对象未指定所需的设置。 |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | 获取父节点。 |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | 获取同一节点树级别的前一个节点。 |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | 获取或设置 . 之后的最小空间量 |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | 获取或设置之前的最小空间量。 |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | 获取段落的所有标签列表。 |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | 获取或设置文本。该字符串不得包含任何值为 10（换行）的字符。 |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | 获取文本运行的集合。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | 接受节点的访问者。 |
-| [Append](../../aspose.note/richtext/append#append)(string) | 将字符串添加到最后一个文本范围。 |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | 在末尾添加一个字符串。 |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | 在第一个文本范围的前面添加一个字符串。 |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | 在前面添加一个字符串。 |
-| [Clear](../../aspose.note/richtext/clear)() | 清除此实例的内容。 |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | 返回一个遍历此 RichText 对象的字符的枚举器。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | 返回此字符串中指定 Unicode 字符第一次出现的从零开始的索引。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | 返回此实例中指定字符串第一次出现的从零开始的索引。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | 返回此字符串中指定 Unicode 字符第一次出现的从零开始的索引。搜索从指定的字符位置开始。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | 返回此实例中指定字符串第一次出现的从零开始的索引。搜索从指定的字符位置开始。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | 返回当前实例中指定字符串第一次出现的从零开始的索引。参数指定用于指定字符串的搜索类型。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | 返回此实例中指定字符第一次出现的从零开始的索引。搜索从指定的字符位置开始并检查指定数量的字符位置。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | 返回此实例中指定字符串第一次出现的从零开始的索引。搜索从指定的字符位置开始并检查指定数量的字符位置。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | 返回当前实例中指定字符串第一次出现的从零开始的索引。参数指定当前字符串中的起始搜索位置以及用于指定字符串的搜索类型。 |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | 返回当前实例中指定字符串第一次出现的从零开始的索引。 |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | 在此实例中的指定索引位置插入指定字符串。 |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | 在此实例中的指定索引位置插入具有指定样式的指定字符串。 |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | 删除当前实例中的所有字符，从指定位置开始一直到最后一个位置。 |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | 从指定位置开始删除当前实例中指定数量的字符。 |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | 将此实例中出现的所有指定 Unicode 字符替换为另一个指定的 Unicode 字符。 |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | 将当前实例中出现的所有指定字符串替换为另一个指定字符串。 |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | 用指定样式中的另一个指定字符串替换当前实例中出现的所有指定字符串。 |
-| [Trim](../../aspose.note/richtext/trim#trim)() | 删除所有前导和尾随空白字符。 |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | 删除一个字符的所有前导和尾随实例。 |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | 删除数组中指定的一组字符的所有前导和尾随出现。 |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | 删除所有尾随空白字符。 |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | 删除所有尾随出现的字符。 |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | 删除数组中指定的一组字符的所有尾随出现。 |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | 删除所有前导空白字符。 |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | 删除指定字符的所有前导匹配项。 |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | 删除数组中指定的一组字符的所有前导匹配项。 |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | 接受节点的访问者。 |
+| [Append](../../aspose.note/richtext/append/#append)(string) | 添加一个字符串到最后一个文本范围。 |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | 在末尾添加一个字符串。 |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | 在第一个文本范围的前面添加一个字符串。 |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | 在前面添加一个字符串。 |
+| [Clear](../../aspose.note/richtext/clear/)() | 清除此实例的内容。 |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | 返回一个遍历此 RichText 对象的字符的枚举器。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | 返回此字符串中指定 Unicode 字符第一次出现的从零开始的索引。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | 返回指定字符串在此实例中第一次出现的从零开始的索引。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | 返回此字符串中指定 Unicode 字符第一次出现的从零开始的索引。搜索从指定的字符位置开始。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | 返回指定字符串在此实例中第一次出现的从零开始的索引。搜索从指定的字符位置开始。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | 返回指定字符串在当前实例中第一次出现的从零开始的索引。参数指定用于指定字符串的搜索类型。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | 返回指定字符在此实例中第一次出现的从零开始的索引。搜索从指定的字符位置开始并检查指定数量的字符位置。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | 返回指定字符串在此实例中第一次出现的从零开始的索引。搜索从指定的字符位置开始并检查指定数量的字符位置。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | 返回指定字符串在当前实例中第一次出现的从零开始的索引。参数指定当前字符串中的起始搜索位置以及用于指定字符串的搜索类型。 |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | 返回指定字符串在当前实例中第一次出现的从零开始的索引。 |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | 在此实例中的指定索引位置插入指定的字符串。 |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | 在本实例的指定索引位置插入指定样式的指定字符串。 |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | 删除当前实例中的所有字符，从指定位置开始并继续到最后一个位置。 |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | 从指定位置开始删除当前实例中指定数量的字符。 |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | 将此实例中所有出现的指定 Unicode 字符替换为另一个指定的 Unicode 字符。 |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | 用另一个指定的字符串替换当前实例中所有出现的指定字符串。 |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | 用指定样式的另一个指定字符串替换当前实例中所有出现的指定字符串。 |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | 删除所有前导和尾随空白字符。 |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | 删除字符的所有前导和尾随实例。 |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | 删除数组中指定的一组字符的所有前导和尾随出现。 |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | 删除所有尾随空白字符。 |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | 删除字符的所有尾随出现。 |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | 删除数组中指定的一组字符的所有尾随出现。 |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | 删除所有前导空白字符。 |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | 删除指定字符的所有前导出现。 |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | 删除数组中指定的一组字符的所有前导出现。 |
 
 ### 例子
 
@@ -86,23 +86,23 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取文本
+// 检索文本
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
 // 在输出屏幕上打印文本
 Console.WriteLine(text);
 ```
 
-显示如何从页面中获取所有文本。
+显示如何从页面获取所有文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // 获取页面节点列表
@@ -110,19 +110,19 @@ var page = oneFile.GetChildNodes<Page>().FirstOrDefault();
 
 if (page != null)
 {
-    // 获取文本
+    // 检索文本
     string text = string.Join(Environment.NewLine, page.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
     // 在输出屏幕上打印文本
     Console.WriteLine(text);
 }
 ```
 
-让我们通过增加字体大小来在其他标题中强调页面标题。
+让我们通过增加字体大小在其他标题中强调页面的标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Aspose.one");
 
 // 遍历页面的标题。
@@ -147,7 +147,7 @@ document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
 // 获取表节点列表
@@ -155,10 +155,10 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // 遍历表行
+    //遍历表行
     foreach (TableRow row in table)
     {
-        // 获取文本
+        // 检索文本
         string text = string.Join(Environment.NewLine, row.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
         // 在输出屏幕上打印文本
@@ -167,13 +167,13 @@ foreach (Table table in nodes)
 }
 ```
 
-显示如何从表格中获取文本。
+演示如何从表中获取文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
 // 获取表节点列表
@@ -187,7 +187,7 @@ foreach (Table table in nodes)
     tblCount++;
     Console.WriteLine("table # " + tblCount);
 
-    // 获取文本
+    // 检索文本
     string text = string.Join(Environment.NewLine, table.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
     // 在输出屏幕上打印文本
@@ -195,12 +195,12 @@ foreach (Table table in nodes)
 }
 ```
 
-让我们通过突出显示来强调最新文本的变化。
+让我们通过突出显示来强调最新文本的更改。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Aspose.one");
 
 // 获取上周修改的 RichText 节点。
@@ -253,7 +253,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-设置文本的校对语言。
+为文本设置校对语言。
 
 ```csharp
 var document = new Document();
@@ -274,7 +274,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-显示如何通过所有页面并在文本中进行替换。
+显示如何遍历所有页面并在文本中进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -283,10 +283,10 @@ string dataDir = RunExamples.GetDataDir_Text();
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("Some task here", "New Text Here");
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> textNodes = oneFile.GetChildNodes<RichText>();
 
 foreach (RichText richText in textNodes)
@@ -325,13 +325,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-显示如何从表格的单元格中获取文本。
+演示如何从表格的单元格中获取文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
 // 获取表节点列表
@@ -339,14 +339,14 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // 遍历表行
+    //遍历表行
     foreach (TableRow row in table)
     {
         // 获取 TableCell 节点列表
-        // 遍历表格单元格
+        //遍历表格单元格
         foreach (TableCell cell in row)
         {
-            // 获取文本
+            // 检索文本
             string text = string.Join(Environment.NewLine, cell.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
             // 在输出屏幕上打印文本
@@ -356,7 +356,7 @@ foreach (Table table in nodes)
 }
 ```
 
-显示如何通过页面的文本并进行替换。
+显示如何传递页面文本并进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -365,12 +365,12 @@ string dataDir = RunExamples.GetDataDir_Text();
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("voice over", "voice over new text");
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 IList<Page> pageNodes = oneFile.GetChildNodes<Page>();
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> textNodes = pageNodes[0].GetChildNodes<RichText>();
 
 foreach (RichText richText in textNodes)
@@ -387,7 +387,7 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-展示如何使用默认选项创建文档并以 html 格式保存。
+显示如何使用默认选项创建文档并将其保存为 html 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -406,7 +406,7 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
@@ -417,10 +417,10 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -435,10 +435,10 @@ text.Tags.Add(NoteTag.CreateYellowStar());
 // 添加文本节点
 outlineElem.AppendChildLast(text);
 
-// 添加大纲元素节点
+// 添加轮廓元素节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -449,7 +449,7 @@ dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-演示如何创建文档并以 html 格式保存指定范围的页面。
+显示如何创建文档并以 html 格式保存指定范围的页面。
 
 ```csharp
 // 文档目录的路径。
@@ -469,7 +469,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 保存为 HTML 格式
+// 保存成HTML格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -484,13 +484,13 @@ doc.Save(dataDir, new HtmlSaveOptions
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 将文档加载到 Aspose.Note。
+// 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "TagFile.one");
 
-// 获取所有富文本节点
+// 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// 遍历每个节点
+//遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -499,7 +499,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // 获取属性
+            // 检索属性
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -512,16 +512,16 @@ foreach (RichText richText in nodes)
 }
 ```
 
-演示如何创建带有文本的文档。
+显示如何创建带有文本的文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Page page = new Page(doc);
 
 // 初始化大纲类对象
@@ -536,13 +536,13 @@ ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontNam
 // 初始化 RichText 类对象并应用文本样式
 RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
-// 添加富文本节点
+// 添加 RichText 节点
 outlineElem.AppendChildLast(text);
 
 // 添加 OutlineElement 节点
 outline.AppendChildLast(outlineElem);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -568,7 +568,7 @@ Outline outline = new Outline(doc);
 // 应用文本样式设置
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 同一大纲中的数字会自动递增。
+// 同一轮廓内的数字自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -600,10 +600,10 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Aspose.Note.Document doc = new Aspose.Note.Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -632,7 +632,7 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 // 添加页面节点
 doc.AppendChildLast(page);
@@ -647,10 +647,10 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
-//初始化Page类对象
+// 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
@@ -660,7 +660,7 @@ Outline outline = new Outline(doc);
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // 初始化 OutlineElement 类对象并应用编号
-// 同一大纲中的数字会自动递增。
+// 同一轮廓内的数字自动递增。
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -678,7 +678,7 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -695,7 +695,7 @@ doc.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -735,7 +735,7 @@ d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 创建 Document 类的对象
+// 创建文档类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -772,13 +772,13 @@ outlineElem.AppendChildLast(text);
 // 添加轮廓元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化 Title 类对象
+// 初始化标题类对象
 Title title = new Title() { TitleText = titleText };
 
-//初始化Page类对象
+// 初始化页面类对象
 Page page = new Note.Page() { Title = title };
 
-// 添加大纲节点
+// 添加轮廓节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -791,10 +791,10 @@ doc.Save(dataDir);
 
 ### 也可以看看
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* 命名空间 [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* 命名空间 [Aspose.Note](../../aspose.note/)
 * 部件 [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

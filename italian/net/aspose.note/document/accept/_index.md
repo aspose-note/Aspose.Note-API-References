@@ -1,7 +1,7 @@
 ---
-title: Accept
+title: Document.Accept
 second_title: Aspose.Note per .NET API Reference
-description: Accetta il visitatore del nodo.
+description: Document metodo. Accetta il visitatore del nodo.
 type: docs
 weight: 80
 url: /it/net/aspose.note/document/accept/
@@ -16,7 +16,7 @@ public override void Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | L'oggetto di una classe derivata da[`DocumentVisitor`](../../documentvisitor) . |
+| visitor | DocumentVisitor | L'oggetto di una classe derivata da[`DocumentVisitor`](../../documentvisitor/) . |
 
 ### Esempi
 
@@ -28,17 +28,17 @@ public static void Run()
     // Il percorso della directory dei documenti.
     string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-    // Apri il documento che vogliamo convertire.
+    // Apre il documento che vogliamo convertire.
     Document doc = new Document(dataDir + "Aspose.one");
 
     // Crea un oggetto che eredita dalla classe DocumentVisitor.
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // Questo è il noto modello Visitor. Ottieni il modello per accettare un visitatore.
-    // Il modello eseguirà un'iterazione su se stesso chiamando i metodi corrispondenti
-    // sull'oggetto visitatore (questo è chiamato visita).
+    // Questo è il noto pattern Visitor. Fai in modo che il modello accetti un visitatore.
+    // Il modello ripeterà se stesso chiamando i metodi corrispondenti
+    // sull'oggetto visitatore (questo si chiama visiting).
     //
-    // Nota che ogni nodo nel modello a oggetti ha il metodo Accept, quindi la visita
+    // Si noti che ogni nodo nel modello a oggetti ha il metodo Accept, quindi visiting
     // può essere eseguito non solo per l'intero documento, ma per qualsiasi nodo nel documento.
     doc.Accept(myConverter);
 
@@ -49,7 +49,7 @@ public static void Run()
 }
 
 /// <summary>
-/// Semplice implementazione del salvataggio di un documento in formato testo normale. Implementato come visitatore.
+/// Semplice implementazione del salvataggio di un documento nel formato testo normale. Implementato come visitatore.
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -69,7 +69,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge testo all'output corrente. Rispetta il flag di uscita abilitato/disabilitato.
+    /// Aggiunge testo all'output corrente. Rispetta il flag di output abilitato/disabilitato.
     /// </summary>
     private void AppendText(string text)
     {
@@ -80,7 +80,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo RichText nel documento.
+    /// Chiamato quando si incontra un nodo RichText nel documento.
     /// </summary>
     public override void VisitRichTextStart(RichText run)
     {
@@ -89,7 +89,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Document nel documento.
+    /// Chiamato quando si incontra un nodo Documento nel documento.
     /// </summary>
     public override void VisitDocumentStart(Document document)
     {
@@ -97,7 +97,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Pagina nel documento.
+    /// Chiamato quando si incontra un nodo Page nel documento.
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -106,7 +106,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando l'elaborazione di un nodo Pagina è terminata.
+    /// Chiamato quando l'elaborazione di un nodo Page è terminata.
     /// </summary>
     public override void VisitPageEnd(Page page)
     {
@@ -114,7 +114,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Titolo nel documento.
+    /// Chiamato quando si incontra un nodo Title nel documento.
     /// </summary>
     public override void VisitTitleStart(Title title)
     {
@@ -122,7 +122,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Immagine nel documento.
+    /// Chiamato quando si incontra un nodo Image nel documento.
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -130,7 +130,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo OutlineGroup nel documento.
+    /// Chiamato quando si incontra un nodo OutlineGroup nel documento.
     /// </summary>
     public override void VisitOutlineGroupStart(OutlineGroup outlineGroup)
     {
@@ -138,7 +138,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Struttura nel documento.
+    /// Chiamato quando si incontra un nodo Struttura nel documento.
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -154,7 +154,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il conteggio totale dei nodi dal Visitatore
+    /// Ottiene il conteggio totale dei nodi del visitatore
     /// </summary>
     public Int32 NodeCount
     {
@@ -169,9 +169,9 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### Guarda anche
 
-* class [DocumentVisitor](../../documentvisitor)
-* class [Document](../../document)
-* spazio dei nomi [Aspose.Note](../../document)
+* class [DocumentVisitor](../../documentvisitor/)
+* class [Document](../)
+* spazio dei nomi [Aspose.Note](../../document/)
 * assemblea [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

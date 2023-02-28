@@ -1,9 +1,9 @@
 ---
-title: RichText
+title: Class RichText
 second_title: Справочник по API Aspose.Note для .NET
-description: Представляет форматированный текст.
+description: Aspose.Note.RichText сорт. Представляет форматированный текст.
 type: docs
-weight: 510
+weight: 530
 url: /ru/net/aspose.note/richtext/
 ---
 ## RichText class
@@ -18,65 +18,65 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | Имя | Описание |
 | --- | --- |
-| [RichText](richtext#constructor)() | Инициализирует новый экземпляр[`RichText`](../richtext) класс. |
+| [RichText](richtext/#constructor)() | Инициализирует новый экземпляр`RichText` класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.note/richtext/alignment) { get; set; } | Получает или задает выравнивание. |
-| [Document](../../aspose.note/node/document) { get; } | Получает документ узла. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime) { get; set; } | Получает или устанавливает время последнего изменения. |
-| [Length](../../aspose.note/richtext/length) { get; } | Получает длину текста. |
-| [LineSpacing](../../aspose.note/richtext/linespacing) { get; set; } | Получает или задает межстрочный интервал. |
-| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Получает следующий узел на том же уровне дерева узлов. |
-| [NodeType](../../aspose.note/node/nodetype) { get; } | Получает тип узла. |
-| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle) { get; set; } | Получает или задает стиль абзаца. Эти настройки используются, если нет соответствующего объекта TextStyle вStyles коллекция, либо этот объект не указывает необходимую настройку. |
-| [ParentNode](../../aspose.note/node/parentnode) { get; } | Получает родительский узел. |
-| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter) { get; set; } | Получает или задает минимальное количество места после . |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore) { get; set; } | Получает или задает минимальное количество места перед. |
-| [Tags](../../aspose.note/richtext/tags) { get; } | Получает список всех тегов абзаца. |
-| [Text](../../aspose.note/richtext/text) { get; set; } | Получает или задает текст. Строка НЕ ДОЛЖНА содержать символы со значением 10 (перевод строки). |
-| [TextRuns](../../aspose.note/richtext/textruns) { get; } | Получает коллекцию текстовых прогонов. |
+| [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | Получает или задает выравнивание. |
+| [Document](../../aspose.note/node/document/) { get; } | Получает документ узла. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Получает значение, указывающее, является ли этот узел составным. Если true, узел может иметь дочерние узлы. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | Получает или устанавливает время последнего изменения. |
+| [Length](../../aspose.note/richtext/length/) { get; } | Получает длину текста. |
+| [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | Получает или задает межстрочный интервал. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Получает следующий узел на том же уровне дерева узлов. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | Получает тип узла. |
+| [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | Получает или задает стиль абзаца. Эти настройки используются, если нет соответствующего объекта TextStyle вStyles коллекция, либо этот объект не указывает необходимую настройку. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Получает родительский узел. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Получает предыдущий узел на том же уровне дерева узлов. |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | Получает или задает минимальное количество места после . |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | Получает или задает минимальное количество места перед. |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | Получает список всех тегов абзаца. |
+| [Text](../../aspose.note/richtext/text/) { get; set; } | Получает или задает текст. Строка НЕ ДОЛЖНА содержать символы со значением 10 (перевод строки). |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | Получает коллекцию текстовых прогонов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.note/richtext/accept)(DocumentVisitor) | Принимает посетителя узла. |
-| [Append](../../aspose.note/richtext/append#append)(string) | Добавляет строку к последнему текстовому диапазону. |
-| [Append](../../aspose.note/richtext/append#append_1)(string, TextStyle) | Добавляет строку в конец. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront)(string) | Добавляет строку в начало первого текстового диапазона. |
-| [AppendFront](../../aspose.note/richtext/appendfront#appendfront_1)(string, TextStyle) | Добавляет строку на передний план. |
-| [Clear](../../aspose.note/richtext/clear)() | Очищает содержимое этого экземпляра. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator)() | Возвращает перечислитель, который перебирает символы этого объекта RichText. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof)(char) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа Unicode в этой строке. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_3)(string) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_1)(char, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа Unicode в этой строке. Поиск начинается с указанной позиции символа. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_4)(string, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. Поиск начинается с указанной позиции символа. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_8)(string, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. Параметр указывает тип поиска для указанной строки. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_2)(char, int, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа в данном экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_5)(string, int, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_7)(string, int, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. Параметры определяют начальную позицию поиска в текущей строке и тип поиска для указанной строки. |
-| [IndexOf](../../aspose.note/richtext/indexof#indexof_6)(string, int, int, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. |
-| [Insert](../../aspose.note/richtext/insert#insert)(int, string) | Вставляет указанную строку в указанную позицию индекса в этом экземпляре. |
-| [Insert](../../aspose.note/richtext/insert#insert_1)(int, string, TextStyle) | Вставляет указанную строку с указанным стилем в указанную позицию индекса в этом экземпляре. |
-| [Remove](../../aspose.note/richtext/remove#remove)(int) | Удаляет все символы в текущем экземпляре, начиная с указанной позиции и продолжая до последней позиции. |
-| [Remove](../../aspose.note/richtext/remove#remove_1)(int, int) | Удаляет указанное количество символов в текущем экземпляре, начиная с указанной позиции. |
-| [Replace](../../aspose.note/richtext/replace#replace)(char, char) | Заменяет все вхождения указанного символа Unicode в этом экземпляре другим указанным символом Unicode. |
-| [Replace](../../aspose.note/richtext/replace#replace_1)(string, string) | Заменяет все вхождения указанной строки в текущем экземпляре другой указанной строкой. |
-| [Replace](../../aspose.note/richtext/replace#replace_2)(string, string, TextStyle) | Заменяет все вхождения указанной строки в текущем экземпляре другой указанной строкой в указанном стиле. |
-| [Trim](../../aspose.note/richtext/trim#trim)() | Удаляет все начальные и конечные пробельные символы. |
-| [Trim](../../aspose.note/richtext/trim#trim_1)(char) | Удаляет все начальные и конечные экземпляры символа. |
-| [Trim](../../aspose.note/richtext/trim#trim_2)(params char[]) | Удаляет все начальные и конечные вхождения набора символов, указанного в массиве. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend)() | Удаляет все завершающие пробельные символы. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_1)(char) | Удаляет все вхождения символа в конце. |
-| [TrimEnd](../../aspose.note/richtext/trimend#trimend_2)(params char[]) | Удаляет все конечные вхождения набора символов, указанного в массиве. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart)() | Удаляет все начальные пробельные символы. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_1)(char) | Удаляет все начальные вхождения указанного символа. |
-| [TrimStart](../../aspose.note/richtext/trimstart#trimstart_2)(params char[]) | Удаляет все первые вхождения набора символов, указанного в массиве. |
+| override [Accept](../../aspose.note/richtext/accept/)(DocumentVisitor) | Принимает посетителя узла. |
+| [Append](../../aspose.note/richtext/append/#append)(string) | Добавляет строку к последнему текстовому диапазону. |
+| [Append](../../aspose.note/richtext/append/#append_1)(string, TextStyle) | Добавляет строку в конец. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | Добавляет строку в начало первого текстового диапазона. |
+| [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | Добавляет строку на передний план. |
+| [Clear](../../aspose.note/richtext/clear/)() | Очищает содержимое этого экземпляра. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | Возвращает перечислитель, который перебирает символы этого объекта RichText. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа Unicode в этой строке. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа Unicode в этой строке. Поиск начинается с указанной позиции символа. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. Поиск начинается с указанной позиции символа. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. Параметр указывает тип поиска для указанной строки. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанного символа в данном экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в данном экземпляре. Поиск начинается с указанной позиции символа и проверяет указанное количество позиций символов. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. Параметры определяют начальную позицию поиска в текущей строке и тип поиска для указанной строки. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | Возвращает отсчитываемый от нуля индекс первого вхождения указанной строки в текущем экземпляре. |
+| [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | Вставляет указанную строку в указанную позицию индекса в этом экземпляре. |
+| [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | Вставляет указанную строку с указанным стилем в указанную позицию индекса в этом экземпляре. |
+| [Remove](../../aspose.note/richtext/remove/#remove)(int) | Удаляет все символы в текущем экземпляре, начиная с указанной позиции и продолжая до последней позиции. |
+| [Remove](../../aspose.note/richtext/remove/#remove_1)(int, int) | Удаляет указанное количество символов в текущем экземпляре, начиная с указанной позиции. |
+| [Replace](../../aspose.note/richtext/replace/#replace)(char, char) | Заменяет все вхождения указанного символа Unicode в этом экземпляре другим указанным символом Unicode. |
+| [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | Заменяет все вхождения указанной строки в текущем экземпляре другой указанной строкой. |
+| [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | Заменяет все вхождения указанной строки в текущем экземпляре другой указанной строкой в указанном стиле. |
+| [Trim](../../aspose.note/richtext/trim/#trim)() | Удаляет все начальные и конечные пробельные символы. |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | Удаляет все начальные и конечные экземпляры символа. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | Удаляет все начальные и конечные вхождения набора символов, указанного в массиве. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | Удаляет все завершающие пробельные символы. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | Удаляет все вхождения символа в конце. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | Удаляет все конечные вхождения набора символов, указанного в массиве. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | Удаляет все начальные пробельные символы. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | Удаляет все начальные вхождения указанного символа. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | Удаляет все первые вхождения набора символов, указанного в массиве. |
 
 ### Примеры
 
@@ -791,10 +791,10 @@ doc.Save(dataDir);
 
 ### Смотрите также
 
-* class [Node](../node)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
-* interface [ITaggable](../itaggable)
-* пространство имен [Aspose.Note](../../aspose.note)
+* class [Node](../node/)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
+* interface [ITaggable](../itaggable/)
+* пространство имен [Aspose.Note](../../aspose.note/)
 * сборка [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
