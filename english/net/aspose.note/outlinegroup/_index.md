@@ -3,7 +3,7 @@ title: OutlineGroup
 second_title: Aspose.Note for .NET API Reference
 description: Represents a OutlineGroup.
 type: docs
-weight: 470
+weight: 510
 url: /net/aspose.note/outlinegroup/
 ---
 ## OutlineGroup class

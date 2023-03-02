@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Note for .NET API Reference
 description: Specifies the numbering format that can be used for a group of automatically numbered objects. Full list is specified on MSDNhttps//msdn.microsoft.com/enus/library/dd923798voffice.12.aspx
 type: docs
-weight: 430
+weight: 470
 url: /net/aspose.note/numberformat/
 ---
 ## NumberFormat enumeration

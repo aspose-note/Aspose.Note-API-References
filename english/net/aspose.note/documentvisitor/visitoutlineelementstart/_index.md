@@ -3,7 +3,7 @@ title: VisitOutlineElementStart
 second_title: Aspose.Note for .NET API Reference
 description: Start to visit the OutlineElementaspose.note/outlineelement node.
 type: docs
-weight: 80
+weight: 140
 url: /net/aspose.note/documentvisitor/visitoutlineelementstart/
 ---
 ## DocumentVisitor.VisitOutlineElementStart method

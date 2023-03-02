@@ -24,6 +24,12 @@ public abstract class DocumentVisitor
 | virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Start to visit the [`Document`](../document) node. |
 | virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | End to visit the [`Image`](../image) node. |
 | virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Start to visit the [`Image`](../image) node. |
+| virtual [VisitInkDrawingEnd](../../aspose.note/documentvisitor/visitinkdrawingend)(InkDrawing) | End to visit the [`InkDrawing`](../inkdrawing) node. |
+| virtual [VisitInkDrawingStart](../../aspose.note/documentvisitor/visitinkdrawingstart)(InkDrawing) | Start to visit the [`InkDrawing`](../inkdrawing) node. |
+| virtual [VisitInkParagraphEnd](../../aspose.note/documentvisitor/visitinkparagraphend)(InkParagraph) | End to visit the [`InkParagraph`](../inkparagraph) node. |
+| virtual [VisitInkParagraphStart](../../aspose.note/documentvisitor/visitinkparagraphstart)(InkParagraph) | Start to visit the [`InkParagraph`](../inkparagraph) node. |
+| virtual [VisitInkWordEnd](../../aspose.note/documentvisitor/visitinkwordend)(InkWord) | End to visit the [`InkWord`](../inkword) node. |
+| virtual [VisitInkWordStart](../../aspose.note/documentvisitor/visitinkwordstart)(InkWord) | Start to visit the [`InkWord`](../inkword) node. |
 | virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | End to visit the [`OutlineElement`](../outlineelement) node. |
 | virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Start to visit the [`OutlineElement`](../outlineelement) node. |
 | virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | End to visit the [`Outline`](../outline) node. |

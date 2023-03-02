@@ -24,6 +24,10 @@ The Note namespace contains classes which represent document structure.
 | [IncorrectDocumentStructureException](./incorrectdocumentstructureexception) | Thrown if a user created document has incorrect structure. |
 | [IncorrectPasswordException](./incorrectpasswordexception) | Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. |
 | [IndentatedNode&lt;T&gt;](./indentatednode-1) | The base class for nodes with relative indentation for child nodes. |
+| [InkDrawing](./inkdrawing) | Represents a ink node containing any drawn content. |
+| [InkNode](./inknode) | Represents a common interface for all ink nodes. |
+| [InkParagraph](./inkparagraph) | Represents a ink node containing handwritten text with additional properties like slanted writing. |
+| [InkWord](./inkword) | Represents a ink node containing handwritten text. |
 | [License](./license) | Provides methods to license the component. |
 | [LoadOptions](./loadoptions) | Options used to load a document. |
 | [MergeOptions](./mergeoptions) | The options for merging a collection of pages. |

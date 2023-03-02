@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Allows to specify additional options when saving document to HTML format.
 type: docs
-weight: 700
+weight: 740
 url: /net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

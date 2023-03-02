@@ -3,7 +3,7 @@ title: UnsupportedSaveFormatException
 second_title: Aspose.Note for .NET API Reference
 description: Thrown if requested save format is not supported.
 type: docs
-weight: 1000
+weight: 1040
 url: /net/aspose.note/unsupportedsaveformatexception/
 ---
 ## UnsupportedSaveFormatException class
