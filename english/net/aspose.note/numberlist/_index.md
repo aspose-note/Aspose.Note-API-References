@@ -3,7 +3,7 @@ title: NumberList
 second_title: Aspose.Note for .NET API Reference
 description: Represents the numbered or bulleted list.
 type: docs
-weight: 440
+weight: 480
 url: /net/aspose.note/numberlist/
 ---
 ## NumberList class

@@ -3,7 +3,7 @@ title: TagIcon
 second_title: Aspose.Note for .NET API Reference
 description: Specifies the icon of tag or task icon.
 type: docs
-weight: 940
+weight: 980
 url: /net/aspose.note/tagicon/
 ---
 ## TagIcon enumeration

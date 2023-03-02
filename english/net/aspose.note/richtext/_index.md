@@ -3,7 +3,7 @@ title: RichText
 second_title: Aspose.Note for .NET API Reference
 description: Represents a rich text.
 type: docs
-weight: 530
+weight: 570
 url: /net/aspose.note/richtext/
 ---
 ## RichText class

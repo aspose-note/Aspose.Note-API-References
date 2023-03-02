@@ -3,7 +3,7 @@ title: NoteTask
 second_title: Aspose.Note for .NET API Reference
 description: Represents a note task.
 type: docs
-weight: 400
+weight: 440
 url: /net/aspose.note/notetask/
 ---
 ## NoteTask class

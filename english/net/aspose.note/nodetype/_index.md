@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Note for .NET API Reference
 description: Specifies the type of the node.
 type: docs
-weight: 370
+weight: 410
 url: /net/aspose.note/nodetype/
 ---
 ## NodeType enumeration
@@ -32,6 +32,9 @@ public enum NodeType
 | Table | `11` | Specifies that the node is a Table. |
 | TableRow | `12` | Specifies that the node is a TableRow. |
 | TableCell | `13` | Specifies that the node is a TableCell. |
+| InkDrawing | `14` | Specifies that the node is a InkDrawing. |
+| InkParagraph | `15` | Specifies that the node is a InkParagraph. |
+| InkWord | `16` | Specifies that the node is a InkWord. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: VisitRichTextStart
 second_title: Aspose.Note for .NET API Reference
 description: Start to visit the RichTextaspose.note/richtext node.
 type: docs
-weight: 160
+weight: 220
 url: /net/aspose.note/documentvisitor/visitrichtextstart/
 ---
 ## DocumentVisitor.VisitRichTextStart method
