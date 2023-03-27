@@ -18,7 +18,7 @@ public sealed class Outline : IndentatedNode<IOutlineChildNode>, IPageChildNode
 
 | Name | Description |
 | --- | --- |
-| [Outline](outline#constructor)() | Initializes a new instance of the [`Outline`](../outline) class. |
+| [Outline](outline)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | Name | Description |
 | --- | --- |
-| [RichText](richtext#constructor)() | Initializes a new instance of the [`RichText`](../richtext) class. |
+| [RichText](richtext)() | Initializes a new instance of the [`RichText`](../richtext) class. |
 
 ## Properties
 

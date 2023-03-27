@@ -6,7 +6,27 @@ type: docs
 weight: 10
 url: /net/aspose.note/attachedfile/attachedfile/
 ---
-## AttachedFile(string, Stream, ImageFormat) {#constructor_7}
+## AttachedFile(string) {#constructor_1}
+
+Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
+
+```csharp
+public AttachedFile(string path)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | A string that contains the path to the file from which to create the [`AttachedFile`](../../attachedfile). |
+
+### See Also
+
+* class [AttachedFile](../../attachedfile)
+* namespace [Aspose.Note](../../attachedfile)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## AttachedFile(string, Stream, ImageFormat) {#constructor_3}
 
 Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
 
@@ -28,7 +48,7 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 ---
 
-## AttachedFile(string, Stream) {#constructor_6}
+## AttachedFile(string, Stream) {#constructor_2}
 
 Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
 
@@ -49,7 +69,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 
 ---
 
-## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_8}
+## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_4}
 
 Initializes a new instance of the [`AttachedFile`](../../attachedfile) class.
 

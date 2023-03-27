@@ -18,7 +18,7 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 | Name | Description |
 | --- | --- |
-| [Table](table#constructor)() | Initializes a new instance of the [`Table`](../table) class. |
+| [Table](table)() | The default constructor. |
 
 ## Properties
 
