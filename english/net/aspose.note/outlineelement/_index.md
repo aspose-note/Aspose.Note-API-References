@@ -19,7 +19,7 @@ public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, I
 
 | Name | Description |
 | --- | --- |
-| [OutlineElement](outlineelement#constructor)() | Initializes a new instance of the [`OutlineElement`](../outlineelement) class. |
+| [OutlineElement](outlineelement)() | The default constructor. |
 
 ## Properties
 

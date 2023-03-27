@@ -1,14 +1,14 @@
 ---
 title: TableRow
 second_title: Aspose.Note for .NET API Reference
-description: Initializes a new instance of the TableRowaspose.note/tablerow class.
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.note/tablerow/tablerow/
 ---
 ## TableRow constructor
 
-Initializes a new instance of the [`TableRow`](../../tablerow) class.
+The default constructor.
 
 ```csharp
 public TableRow()

@@ -18,7 +18,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | Name | Description |
 | --- | --- |
-| [Page](page#constructor)() | Initializes a new instance of the [`Page`](../page) class. |
+| [Page](page)() | Initializes a new instance of the [`Page`](../page) class. |
 
 ## Properties
 

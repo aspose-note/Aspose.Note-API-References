@@ -19,9 +19,10 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | Name | Description |
 | --- | --- |
 | [AttachedFile](attachedfile#constructor)() | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
-| [AttachedFile](attachedfile#constructor_6)(string, Stream) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
-| [AttachedFile](attachedfile#constructor_7)(string, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
-| [AttachedFile](attachedfile#constructor_8)(string, Stream, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_1)(string) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_2)(string, Stream) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_3)(string, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_4)(string, Stream, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
 
 ## Properties
 

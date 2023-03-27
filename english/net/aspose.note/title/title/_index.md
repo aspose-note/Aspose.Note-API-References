@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Note for .NET API Reference
-description: Initializes a new instance of the Titleaspose.note/title class.
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.note/title/title/
 ---
 ## Title constructor
 
-Initializes a new instance of the [`Title`](../../title) class.
+The default constructor.
 
 ```csharp
 public Title()

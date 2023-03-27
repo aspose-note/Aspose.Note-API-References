@@ -19,8 +19,9 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | Name | Description |
 | --- | --- |
 | [Image](image#constructor)() | Initializes a new instance of the [`Image`](../image) class. |
-| [Image](image#constructor_4)(string, Stream) | Initializes a new instance of the [`Image`](../image) class. |
-| [Image](image#constructor_5)(string, string, string) | Initializes a new instance of the [`Image`](../image) class. |
+| [Image](image#constructor_1)(string) | Initializes a new instance of the [`Image`](../image) class. |
+| [Image](image#constructor_2)(string, Stream) | Initializes a new instance of the [`Image`](../image) class. |
+| [Image](image#constructor_3)(string, string, string) | Initializes a new instance of the [`Image`](../image) class. |
 
 ## Properties
 

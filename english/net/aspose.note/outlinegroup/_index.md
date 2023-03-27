@@ -19,7 +19,7 @@ public sealed class OutlineGroup : IndentatedNode<IOutlineChildNode>, IOutlineCh
 
 | Name | Description |
 | --- | --- |
-| [OutlineGroup](outlinegroup#constructor)() | Initializes a new instance of the [`OutlineGroup`](../outlinegroup) class. |
+| [OutlineGroup](outlinegroup)() | The default constructor. |
 
 ## Properties
 

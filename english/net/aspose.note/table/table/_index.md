@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Aspose.Note for .NET API Reference
-description: Initializes a new instance of the Tableaspose.note/table class.
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.note/table/table/
 ---
 ## Table constructor
 
-Initializes a new instance of the [`Table`](../../table) class.
+The default constructor.
 
 ```csharp
 public Table()

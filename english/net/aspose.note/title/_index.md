@@ -18,7 +18,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | Name | Description |
 | --- | --- |
-| [Title](title#constructor)() | Initializes a new instance of the [`Title`](../title) class. |
+| [Title](title)() | The default constructor. |
 
 ## Properties
 

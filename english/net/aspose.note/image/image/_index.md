@@ -6,7 +6,27 @@ type: docs
 weight: 10
 url: /net/aspose.note/image/image/
 ---
-## Image(string, string, string) {#constructor_5}
+## Image(string) {#constructor_1}
+
+Initializes a new instance of the [`Image`](../../image) class.
+
+```csharp
+public Image(string path)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | A string that contains the path to the file from which to create the [`Image`](../../image). |
+
+### See Also
+
+* class [Image](../../image)
+* namespace [Aspose.Note](../../image)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## Image(string, string, string) {#constructor_3}
 
 Initializes a new instance of the [`Image`](../../image) class.
 
@@ -28,7 +48,7 @@ public Image(string path, string altTitle = null, string altDescription = null)
 
 ---
 
-## Image(string, Stream) {#constructor_4}
+## Image(string, Stream) {#constructor_2}
 
 Initializes a new instance of the [`Image`](../../image) class.
 

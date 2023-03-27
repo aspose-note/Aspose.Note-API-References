@@ -18,7 +18,7 @@ public sealed class TableRow : CompositeNode<TableCell>
 
 | Name | Description |
 | --- | --- |
-| [TableRow](tablerow#constructor)() | Initializes a new instance of the [`TableRow`](../tablerow) class. |
+| [TableRow](tablerow)() | The default constructor. |
 
 ## Properties
 

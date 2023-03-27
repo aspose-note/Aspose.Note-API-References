@@ -11,14 +11,14 @@ url: /net/aspose.note/tablecell/
 Represents a table cell.
 
 ```csharp
-public sealed class TableCell : CompositeNode<IOutlineChildNode>
+public sealed class TableCell : IndentatedNode<IOutlineChildNode>
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [TableCell](tablecell#constructor)() | Initializes a new instance of the [`TableCell`](../tablecell) class. |
+| [TableCell](tablecell)() | The default constructor. |
 
 ## Properties
 
@@ -27,6 +27,7 @@ public sealed class TableCell : CompositeNode<IOutlineChildNode>
 | [BackgroundColor](../../aspose.note/tablecell/backgroundcolor) { get; set; } | Gets or sets the background color. |
 | [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
 | [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
+| [IndentPosition](../../aspose.note/indentatednode`1/indentposition) { get; set; } |  |
 | [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
 | [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
 | [LastModifiedTime](../../aspose.note/tablecell/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
@@ -312,7 +313,7 @@ doc.Save(dataDir);
 
 ### See Also
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1)
+* class [IndentatedNode&lt;T&gt;](../indentatednode-1)
 * interface [IOutlineChildNode](../ioutlinechildnode)
 * namespace [Aspose.Note](../../aspose.note)
 * assembly [Aspose.Note](../../)

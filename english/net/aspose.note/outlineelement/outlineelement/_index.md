@@ -1,14 +1,14 @@
 ---
 title: OutlineElement
 second_title: Aspose.Note for .NET API Reference
-description: Initializes a new instance of the OutlineElementaspose.note/outlineelement class.
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.note/outlineelement/outlineelement/
 ---
 ## OutlineElement constructor
 
-Initializes a new instance of the [`OutlineElement`](../../outlineelement) class.
+The default constructor.
 
 ```csharp
 public OutlineElement()
