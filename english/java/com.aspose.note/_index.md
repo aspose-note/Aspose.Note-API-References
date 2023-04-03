@@ -35,6 +35,10 @@ The  com.aspose.note  namespace contains classes which represent document struct
 | [ImageSaveOptions](../com.aspose.note/imagesaveoptions) | Allows to specify additional options when rendering document pages to images. |
 | [ImageSavingArgs](../com.aspose.note/imagesavingargs) | Provides data for ImageSaving event. |
 | [IndentatedNode<T,Self>](../com.aspose.note/indentatednode) | The base class for nodes with relative indentation for child nodes. |
+| [InkDrawing](../com.aspose.note/inkdrawing) | Represents a ink node containing any drawn content. |
+| [InkNode](../com.aspose.note/inknode) | Represents a common interface for all ink nodes. |
+| [InkParagraph](../com.aspose.note/inkparagraph) | Represents a ink node containing handwritten text with additional properties like slanted writing. |
+| [InkWord](../com.aspose.note/inkword) | Represents a ink node containing handwritten text. |
 | [KeepPartAndCloneSolidObjectToNextPageAlgorithm](../com.aspose.note/keeppartandclonesolidobjecttonextpagealgorithm) | Adds object's top part to the bottom of the page and clones full object to the next page in case it doesn't fit in original page. |
 | [KeepSolidObjectsAlgorithm](../com.aspose.note/keepsolidobjectsalgorithm) | Shifts full object to the next page in case it doesn't fit in original page. |
 | [License](../com.aspose.note/license) | Provides methods to license the component. |

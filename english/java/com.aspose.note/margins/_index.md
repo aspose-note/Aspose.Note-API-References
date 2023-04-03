@@ -3,7 +3,7 @@ title: Margins
 second_title: Aspose.Note for Java API Reference
 description: Specifies the dimensions of the margins of a node.
 type: docs
-weight: 35
+weight: 39
 url: /java/com.aspose.note/margins/
 ---
 

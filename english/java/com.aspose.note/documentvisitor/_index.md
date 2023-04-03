@@ -47,6 +47,12 @@ The abstract class for iterating through subtree with root at the specified node
 | [visitTableCellEnd(TableCell tableCell)](#visitTableCellEnd-com.aspose.note.TableCell-) | End to visit the  TableCell  node. |
 | [visitTableRowStart(TableRow tableRow)](#visitTableRowStart-com.aspose.note.TableRow-) | Start to visit the  TableRow  node. |
 | [visitTableRowEnd(TableRow tableRow)](#visitTableRowEnd-com.aspose.note.TableRow-) | End to visit the  TableRow  node. |
+| [visitInkDrawingStart(InkDrawing inkDrawing)](#visitInkDrawingStart-com.aspose.note.InkDrawing-) | Start to visit the [InkDrawing](../../com.aspose.note/inkdrawing) node. |
+| [visitInkDrawingEnd(InkDrawing inkDrawing)](#visitInkDrawingEnd-com.aspose.note.InkDrawing-) | End to visit the [InkDrawing](../../com.aspose.note/inkdrawing) node. |
+| [visitInkWordStart(InkWord inkWord)](#visitInkWordStart-com.aspose.note.InkWord-) | Start to visit the [InkWord](../../com.aspose.note/inkword) node. |
+| [visitInkWordEnd(InkWord inkWord)](#visitInkWordEnd-com.aspose.note.InkWord-) | End to visit the [InkWord](../../com.aspose.note/inkword) node. |
+| [visitInkParagraphStart(InkParagraph inkParagraph)](#visitInkParagraphStart-com.aspose.note.InkParagraph-) | Start to visit the [InkParagraph](../../com.aspose.note/inkparagraph) node. |
+| [visitInkParagraphEnd(InkParagraph inkParagraph)](#visitInkParagraphEnd-com.aspose.note.InkParagraph-) | End to visit the [InkParagraph](../../com.aspose.note/inkparagraph) node. |
 ### DocumentVisitor() {#DocumentVisitor--}
 ```
 public DocumentVisitor()
@@ -364,4 +370,82 @@ End to visit the  TableRow  node.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tableRow | [TableRow](../../com.aspose.note/tablerow) | The  TableRow  node. |
+
+### visitInkDrawingStart(InkDrawing inkDrawing) {#visitInkDrawingStart-com.aspose.note.InkDrawing-}
+```
+public void visitInkDrawingStart(InkDrawing inkDrawing)
+```
+
+
+Start to visit the [InkDrawing](../../com.aspose.note/inkdrawing) node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inkDrawing | [InkDrawing](../../com.aspose.note/inkdrawing) | The [InkDrawing](../../com.aspose.note/inkdrawing) node. |
+
+### visitInkDrawingEnd(InkDrawing inkDrawing) {#visitInkDrawingEnd-com.aspose.note.InkDrawing-}
+```
+public void visitInkDrawingEnd(InkDrawing inkDrawing)
+```
+
+
+End to visit the [InkDrawing](../../com.aspose.note/inkdrawing) node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inkDrawing | [InkDrawing](../../com.aspose.note/inkdrawing) | The [InkDrawing](../../com.aspose.note/inkdrawing) node. |
+
+### visitInkWordStart(InkWord inkWord) {#visitInkWordStart-com.aspose.note.InkWord-}
+```
+public void visitInkWordStart(InkWord inkWord)
+```
+
+
+Start to visit the [InkWord](../../com.aspose.note/inkword) node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inkWord | [InkWord](../../com.aspose.note/inkword) | The [InkWord](../../com.aspose.note/inkword) node. |
+
+### visitInkWordEnd(InkWord inkWord) {#visitInkWordEnd-com.aspose.note.InkWord-}
+```
+public void visitInkWordEnd(InkWord inkWord)
+```
+
+
+End to visit the [InkWord](../../com.aspose.note/inkword) node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inkWord | [InkWord](../../com.aspose.note/inkword) | The [InkWord](../../com.aspose.note/inkword) node. |
+
+### visitInkParagraphStart(InkParagraph inkParagraph) {#visitInkParagraphStart-com.aspose.note.InkParagraph-}
+```
+public void visitInkParagraphStart(InkParagraph inkParagraph)
+```
+
+
+Start to visit the [InkParagraph](../../com.aspose.note/inkparagraph) node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inkParagraph | [InkParagraph](../../com.aspose.note/inkparagraph) | The [InkParagraph](../../com.aspose.note/inkparagraph) node. |
+
+### visitInkParagraphEnd(InkParagraph inkParagraph) {#visitInkParagraphEnd-com.aspose.note.InkParagraph-}
+```
+public void visitInkParagraphEnd(InkParagraph inkParagraph)
+```
+
+
+End to visit the [InkParagraph](../../com.aspose.note/inkparagraph) node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inkParagraph | [InkParagraph](../../com.aspose.note/inkparagraph) | The [InkParagraph](../../com.aspose.note/inkparagraph) node. |
 

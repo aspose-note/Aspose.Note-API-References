@@ -3,7 +3,7 @@ title: ResourceExportType
 second_title: Aspose.Note for Java API Reference
 description: 
 type: docs
-weight: 65
+weight: 69
 url: /java/com.aspose.note/resourceexporttype/
 ---
 

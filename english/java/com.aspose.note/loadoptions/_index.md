@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Note for Java API Reference
 description: Options used to load a document.
 type: docs
-weight: 33
+weight: 37
 url: /java/com.aspose.note/loadoptions/
 ---
 

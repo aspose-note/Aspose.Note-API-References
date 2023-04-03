@@ -3,7 +3,7 @@ title: NotebookPdfSaveOptions
 second_title: Aspose.Note for Java API Reference
 description: Allows to specify additional options when rendering notebook pages to PDF.
 type: docs
-weight: 46
+weight: 50
 url: /java/com.aspose.note/notebookpdfsaveoptions/
 ---
 

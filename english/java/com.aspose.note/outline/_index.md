@@ -3,7 +3,7 @@ title: Outline
 second_title: Aspose.Note for Java API Reference
 description: Represents a Outline.
 type: docs
-weight: 52
+weight: 56
 url: /java/com.aspose.note/outline/
 ---
 
@@ -21,7 +21,6 @@ Represents a Outline.
 
 | Constructor | Description |
 | --- | --- |
-| [Outline(Document document)](#Outline-com.aspose.note.Document-) | Initializes a new instance of the [Outline](../../com.aspose.note/outline) class. |
 | [Outline()](#Outline--) | Initializes a new instance of the [Outline](../../com.aspose.note/outline) class. |
 ## Methods
 
@@ -43,20 +42,8 @@ Represents a Outline.
 | [setReservedWidth(float value)](#setReservedWidth-float-) | Gets or sets the reserved width. |
 | [getDescendantsCannotBeMoved()](#getDescendantsCannotBeMoved--) | Gets whether descendants of the outline can be moved. |
 | [setDescendantsCannotBeMoved(boolean value)](#setDescendantsCannotBeMoved-boolean-) | Gets whether descendants of the outline can be moved. |
+| [getInternalIndentPosition()](#getInternalIndentPosition--) |  |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-### Outline(Document document) {#Outline-com.aspose.note.Document-}
-```
-public Outline(Document document)
-```
-
-
-Initializes a new instance of the [Outline](../../com.aspose.note/outline) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the outline. |
-
 ### Outline() {#Outline--}
 ```
 public Outline()
@@ -249,6 +236,16 @@ Gets whether descendants of the outline can be moved.
 | --- | --- | --- |
 | value | boolean |  |
 
+### getInternalIndentPosition() {#getInternalIndentPosition--}
+```
+public int getInternalIndentPosition()
+```
+
+
+Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size.
+
+**Returns:**
+int
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
 public void accept(DocumentVisitor visitor)

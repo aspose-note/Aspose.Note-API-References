@@ -3,7 +3,7 @@ title: PrintOptions
 second_title: Aspose.Note for Java API Reference
 description: Options used to print a document.
 type: docs
-weight: 64
+weight: 68
 url: /java/com.aspose.note/printoptions/
 ---
 

@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Note for Java API Reference
 description: Represents a title.
 type: docs
-weight: 80
+weight: 84
 url: /java/com.aspose.note/title/
 ---
 
@@ -21,7 +21,6 @@ Represents a title.
 
 | Constructor | Description |
 | --- | --- |
-| [Title(Document document)](#Title-com.aspose.note.Document-) | Initializes a new instance of the  Title  class. |
 | [Title()](#Title--) | Initializes a new instance of the  Title  class. |
 ## Methods
 
@@ -44,19 +43,6 @@ Represents a title.
 | [getChildNodes(int type)](#getChildNodes-int-) |  |
 | [<T1>getChildNodes(Class<T1> typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | Get all child nodes by the node type. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the [Title](../../com.aspose.note/title). |
-### Title(Document document) {#Title-com.aspose.note.Document-}
-```
-public Title(Document document)
-```
-
-
-Initializes a new instance of the  Title  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the title. |
-
 ### Title() {#Title--}
 ```
 public Title()

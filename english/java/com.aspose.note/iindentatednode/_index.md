@@ -3,7 +3,7 @@ title: IIndentatedNode
 second_title: Aspose.Note for Java API Reference
 description: The interface for nodes with relative indentation for child nodes.
 type: docs
-weight: 86
+weight: 90
 url: /java/com.aspose.note/iindentatednode/
 ---
 ```

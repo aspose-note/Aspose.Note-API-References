@@ -3,14 +3,14 @@ title: TableCell
 second_title: Aspose.Note for Java API Reference
 description: Represents a table cell.
 type: docs
-weight: 73
+weight: 77
 url: /java/com.aspose.note/tablecell/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode
+java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode, com.aspose.note.IndentatedNode
 ```
-public final class TableCell extends CompositeNode<IOutlineChildNode>
+public final class TableCell extends IndentatedNode<IOutlineChildNode,TableCell>
 ```
 
 Represents a table cell.
@@ -18,7 +18,6 @@ Represents a table cell.
 
 | Constructor | Description |
 | --- | --- |
-| [TableCell(Document document)](#TableCell-com.aspose.note.Document-) | Initializes a new instance of the  TableCell  class. |
 | [TableCell()](#TableCell--) | Initializes a new instance of the  TableCell  class. |
 ## Methods
 
@@ -30,19 +29,7 @@ Represents a table cell.
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-java.awt.Color-) | Sets the background color. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-### TableCell(Document document) {#TableCell-com.aspose.note.Document-}
-```
-public TableCell(Document document)
-```
-
-
-Initializes a new instance of the  TableCell  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the table cell. |
-
+| [getInternalIndentPosition()](#getInternalIndentPosition--) |  |
 ### TableCell() {#TableCell--}
 ```
 public TableCell()
@@ -120,3 +107,13 @@ Accepts the visitor of the node.
 | --- | --- | --- |
 | visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
 
+### getInternalIndentPosition() {#getInternalIndentPosition--}
+```
+public int getInternalIndentPosition()
+```
+
+
+Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size.
+
+**Returns:**
+int

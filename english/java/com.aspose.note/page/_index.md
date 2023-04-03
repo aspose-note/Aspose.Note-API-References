@@ -3,7 +3,7 @@ title: Page
 second_title: Aspose.Note for Java API Reference
 description: Represents a page.
 type: docs
-weight: 55
+weight: 59
 url: /java/com.aspose.note/page/
 ---
 
@@ -18,7 +18,6 @@ Represents a page.
 
 | Constructor | Description |
 | --- | --- |
-| [Page(Document document)](#Page-com.aspose.note.Document-) | Initializes a new instance of the  Page  class. |
 | [Page()](#Page--) | Initializes a new instance of the  Page  class. |
 ## Methods
 
@@ -49,19 +48,6 @@ Represents a page.
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 | [deepClone(boolean cloneHistory)](#deepClone-boolean-) | Clones the page. |
 | [deepClone()](#deepClone--) | Clones the page. |
-### Page(Document document) {#Page-com.aspose.note.Document-}
-```
-public Page(Document document)
-```
-
-
-Initializes a new instance of the  Page  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the page. |
-
 ### Page() {#Page--}
 ```
 public Page()

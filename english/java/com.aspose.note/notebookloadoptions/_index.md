@@ -3,7 +3,7 @@ title: NotebookLoadOptions
 second_title: Aspose.Note for Java API Reference
 description: Options used to load a notebook.
 type: docs
-weight: 44
+weight: 48
 url: /java/com.aspose.note/notebookloadoptions/
 ---
 

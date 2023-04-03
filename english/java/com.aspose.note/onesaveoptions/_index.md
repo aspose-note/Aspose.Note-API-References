@@ -3,7 +3,7 @@ title: OneSaveOptions
 second_title: Aspose.Note for Java API Reference
 description: Allows to specify additional options when saving document to OneNote format.
 type: docs
-weight: 51
+weight: 55
 url: /java/com.aspose.note/onesaveoptions/
 ---
 

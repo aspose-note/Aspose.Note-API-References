@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Note for Java API Reference
 description: Implement this interface if you want to control how Aspose.Note saves fonts when saving a document to HTML.
 type: docs
-weight: 84
+weight: 88
 url: /java/com.aspose.note/ifontsavingcallback/
 ---
 ```

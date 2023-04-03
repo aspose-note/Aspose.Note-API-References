@@ -3,7 +3,7 @@ title: NoteTag
 second_title: Aspose.Note for Java API Reference
 description: Represents a note tag.
 type: docs
-weight: 40
+weight: 44
 url: /java/com.aspose.note/notetag/
 ---
 

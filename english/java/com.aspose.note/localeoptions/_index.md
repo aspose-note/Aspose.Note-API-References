@@ -3,7 +3,7 @@ title: LocaleOptions
 second_title: Aspose.Note for Java API Reference
 description: LocaleOptions type specifies locale configuration for Aspose.Note.
 type: docs
-weight: 34
+weight: 38
 url: /java/com.aspose.note/localeoptions/
 ---
 

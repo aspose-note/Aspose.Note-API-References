@@ -3,7 +3,7 @@ title: ITag
 second_title: Aspose.Note for Java API Reference
 description: The interface for tags of all kinds.
 type: docs
-weight: 94
+weight: 98
 url: /java/com.aspose.note/itag/
 ---
 ```
