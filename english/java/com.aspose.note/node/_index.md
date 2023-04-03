@@ -3,7 +3,7 @@ title: Node
 second_title: Aspose.Note for Java API Reference
 description: The base class for all nodes of an Aspose.Note document.
 type: docs
-weight: 37
+weight: 41
 url: /java/com.aspose.note/node/
 ---
 

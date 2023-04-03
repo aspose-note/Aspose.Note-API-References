@@ -3,7 +3,7 @@ title: TableRow
 second_title: Aspose.Note for Java API Reference
 description: Represents a table row.
 type: docs
-weight: 75
+weight: 79
 url: /java/com.aspose.note/tablerow/
 ---
 
@@ -18,7 +18,6 @@ Represents a table row.
 
 | Constructor | Description |
 | --- | --- |
-| [TableRow(Document document)](#TableRow-com.aspose.note.Document-) | Initializes a new instance of the  TableRow  class. |
 | [TableRow()](#TableRow--) | Initializes a new instance of the  TableRow  class. |
 ## Methods
 
@@ -27,19 +26,6 @@ Represents a table row.
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-### TableRow(Document document) {#TableRow-com.aspose.note.Document-}
-```
-public TableRow(Document document)
-```
-
-
-Initializes a new instance of the  TableRow  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the table row. |
-
 ### TableRow() {#TableRow--}
 ```
 public TableRow()

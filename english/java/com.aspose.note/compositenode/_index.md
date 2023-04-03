@@ -26,7 +26,6 @@ The base generic class for nodes that can contain other nodes.
 | [isComposite()](#isComposite--) | Checks whether the node is composite. |
 | [getFirstChild()](#getFirstChild--) | Gets the first child node of this node. |
 | [getLastChild()](#getLastChild--) | Gets the last child node of this node. |
-| [getChildren()](#getChildren--) | Gets all child nodes of this node as an enumerable collection. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the  CompositeNode\{T\} . |
 | [<T1>insertChild(int i, T1 newChild)](#-T1-insertChild-int-T1-) | Inserts the node to the specified position in the list of child nodes for this node. |
 | [insertChildrenRange(int i, Iterable<T> newChildren)](#insertChildrenRange-int-java.lang.Iterable-T--) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
@@ -66,16 +65,6 @@ Gets the last child node of this node.
 
 **Returns:**
 T
-### getChildren() {#getChildren--}
-```
-public List<T> getChildren()
-```
-
-
-Gets all child nodes of this node as an enumerable collection.
-
-**Returns:**
-java.util.List<T>
 ### iterator() {#iterator--}
 ```
 public System.Collections.Generic.IGenericEnumerator<T> iterator()

@@ -3,7 +3,7 @@ title: PageHistory
 second_title: Aspose.Note for Java API Reference
 description: Represents the page history.
 type: docs
-weight: 56
+weight: 60
 url: /java/com.aspose.note/pagehistory/
 ---
 

@@ -21,15 +21,11 @@ Represents an attached file.
 
 | Constructor | Description |
 | --- | --- |
-| [AttachedFile(Document document, String path)](#AttachedFile-com.aspose.note.Document-java.lang.String-) | Initializes a new instance of the  AttachedFile  class. |
-| [AttachedFile(Document document, String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-com.aspose.note.Document-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the  AttachedFile  class. |
-| [AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class. |
-| [AttachedFile(Document document, String fileName, InputStream attachedFileStream)](#AttachedFile-com.aspose.note.Document-java.lang.String-java.io.InputStream-) | Initializes a new instance of the  AttachedFile  class. |
-| [AttachedFile(String fileName, InputStream attachedFileStream)](#AttachedFile-java.lang.String-java.io.InputStream-) | Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class. |
-| [AttachedFile(Document document, String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-com.aspose.note.Document-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the  AttachedFile  class. |
-| [AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class. |
-| [AttachedFile(Document document)](#AttachedFile-com.aspose.note.Document-) | Initializes a new instance of the  AttachedFile  class. |
-| [AttachedFile()](#AttachedFile--) | Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class. |
+| [AttachedFile(String path)](#AttachedFile-java.lang.String-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile(String fileName, InputStream attachedFileStream)](#AttachedFile-java.lang.String-java.io.InputStream-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile()](#AttachedFile--) | Initializes a new instance of the  AttachedFile  class. |
 ## Methods
 
 | Method | Description |
@@ -66,23 +62,9 @@ Represents an attached file.
 | [setPrintout(boolean value)](#setPrintout-boolean-) | Sets a value indicating whether the view of the file is printout. |
 | [getTags()](#getTags--) | Gets the list of tags of an attached file. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-### AttachedFile(Document document, String path) {#AttachedFile-com.aspose.note.Document-java.lang.String-}
+### AttachedFile(String path) {#AttachedFile-java.lang.String-}
 ```
-public AttachedFile(Document document, String path)
-```
-
-
-Initializes a new instance of the  AttachedFile  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | A parent document of the attached file. |
-| path | java.lang.String | A string that contains the path to the file from which to create the  AttachedFile . |
-
-### AttachedFile(Document document, String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-com.aspose.note.Document-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
-```
-public AttachedFile(Document document, String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)
+public AttachedFile(String path)
 ```
 
 
@@ -91,10 +73,7 @@ Initializes a new instance of the  AttachedFile  class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | A parent document of the attached file. |
 | path | java.lang.String | A string that contains the path to the file from which to create the  AttachedFile . |
-| icon | java.io.InputStream | An icon for the attached file. |
-| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat | A format of the attached file icon. |
 
 ### AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
 ```
@@ -102,29 +81,14 @@ public AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageF
 ```
 
 
-Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | java.lang.String | A string that contains the path to the file from which to create the [AttachedFile](../../com.aspose.note/attachedfile). |
-| icon | java.io.InputStream | An icon for the attached file. |
-| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat | A format of the attached file icon. |
-
-### AttachedFile(Document document, String fileName, InputStream attachedFileStream) {#AttachedFile-com.aspose.note.Document-java.lang.String-java.io.InputStream-}
-```
-public AttachedFile(Document document, String fileName, InputStream attachedFileStream)
-```
-
-
 Initializes a new instance of the  AttachedFile  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | A parent document of the attached file. |
-| fileName | java.lang.String | A name of the attached file. |
-| attachedFileStream | java.io.InputStream | A stream which contains the attached file bytes. |
+| path | java.lang.String | A string that contains the path to the file from which to create the  AttachedFile . |
+| icon | java.io.InputStream | An icon for the attached file. |
+| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat |  |
 
 ### AttachedFile(String fileName, InputStream attachedFileStream) {#AttachedFile-java.lang.String-java.io.InputStream-}
 ```
@@ -132,30 +96,13 @@ public AttachedFile(String fileName, InputStream attachedFileStream)
 ```
 
 
-Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | A name of the attached file. |
-| attachedFileStream | java.io.InputStream | A stream which contains the attached file bytes. |
-
-### AttachedFile(Document document, String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-com.aspose.note.Document-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
-```
-public AttachedFile(Document document, String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)
-```
-
-
 Initializes a new instance of the  AttachedFile  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | A parent document of the attached file. |
 | fileName | java.lang.String | A name of the attached file. |
 | attachedFileStream | java.io.InputStream | A stream which contains the attached file bytes. |
-| icon | java.io.InputStream | An icon for the attached file. |
-| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat | A format of the attached file icon. |
 
 ### AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
 ```
@@ -163,7 +110,7 @@ public AttachedFile(String fileName, InputStream attachedFileStream, InputStream
 ```
 
 
-Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class.
+Initializes a new instance of the  AttachedFile  class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -173,26 +120,13 @@ Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedf
 | icon | java.io.InputStream | An icon for the attached file. |
 | iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat | A format of the attached file icon. |
 
-### AttachedFile(Document document) {#AttachedFile-com.aspose.note.Document-}
-```
-public AttachedFile(Document document)
-```
-
-
-Initializes a new instance of the  AttachedFile  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The document of the composite node. |
-
 ### AttachedFile() {#AttachedFile--}
 ```
 public AttachedFile()
 ```
 
 
-Initializes a new instance of the [AttachedFile](../../com.aspose.note/attachedfile) class.
+Initializes a new instance of the  AttachedFile  class.
 
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```

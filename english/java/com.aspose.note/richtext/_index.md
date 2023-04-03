@@ -3,7 +3,7 @@ title: RichText
 second_title: Aspose.Note for Java API Reference
 description: Represents a rich text.
 type: docs
-weight: 68
+weight: 72
 url: /java/com.aspose.note/richtext/
 ---
 
@@ -21,7 +21,6 @@ Represents a rich text.
 
 | Constructor | Description |
 | --- | --- |
-| [RichText(Document document)](#RichText-com.aspose.note.Document-) | Initializes a new instance of the [RichText](../../com.aspose.note/richtext) class. |
 | [RichText()](#RichText--) | Initializes a new instance of the [RichText](../../com.aspose.note/richtext) class. |
 ## Methods
 
@@ -80,19 +79,6 @@ Represents a rich text.
 | [indexOf(String value, int startIndex)](#indexOf-java.lang.String-int-) | Returns the zero-based index of the first occurrence of the specified string in this instance. |
 | [clear()](#clear--) | Clears content of this instance. |
 | [iterator()](#iterator--) |  |
-### RichText(Document document) {#RichText-com.aspose.note.Document-}
-```
-public RichText(Document document)
-```
-
-
-Initializes a new instance of the [RichText](../../com.aspose.note/richtext) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the rich text. |
-
 ### RichText() {#RichText--}
 ```
 public RichText()

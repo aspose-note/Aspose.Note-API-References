@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Note for Java API Reference
 description: This class contains common properties of  and  classes.
 type: docs
-weight: 71
+weight: 75
 url: /java/com.aspose.note/style/
 ---
 

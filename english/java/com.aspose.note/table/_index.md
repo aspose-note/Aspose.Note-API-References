@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Note for Java API Reference
 description: Represents a table.
 type: docs
-weight: 72
+weight: 76
 url: /java/com.aspose.note/table/
 ---
 
@@ -21,7 +21,6 @@ Represents a table.
 
 | Constructor | Description |
 | --- | --- |
-| [Table(Document document)](#Table-com.aspose.note.Document-) | Initializes a new instance of the  Table  class. |
 | [Table()](#Table--) | Initializes a new instance of the  Table  class. |
 ## Methods
 
@@ -34,19 +33,6 @@ Represents a table.
 | [getColumns()](#getColumns--) | Gets the columns of the table. |
 | [getTags()](#getTags--) | Gets the list of all tags of a table. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-### Table(Document document) {#Table-com.aspose.note.Document-}
-```
-public Table(Document document)
-```
-
-
-Initializes a new instance of the  Table  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the table. |
-
 ### Table() {#Table--}
 ```
 public Table()

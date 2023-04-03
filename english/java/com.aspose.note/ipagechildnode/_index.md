@@ -3,7 +3,7 @@ title: IPageChildNode
 second_title: Aspose.Note for Java API Reference
 description: The interface for all child nodes of a page node.
 type: docs
-weight: 92
+weight: 96
 url: /java/com.aspose.note/ipagechildnode/
 ---
 

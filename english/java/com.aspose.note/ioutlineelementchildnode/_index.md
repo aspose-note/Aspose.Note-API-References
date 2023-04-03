@@ -3,7 +3,7 @@ title: IOutlineElementChildNode
 second_title: Aspose.Note for Java API Reference
 description: The interface for all child nodes of an outline element node.
 type: docs
-weight: 91
+weight: 95
 url: /java/com.aspose.note/ioutlineelementchildnode/
 ---
 

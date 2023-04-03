@@ -3,7 +3,7 @@ title: TagStatus
 second_title: Aspose.Note for Java API Reference
 description: Specifies the status of the note tag node.
 type: docs
-weight: 76
+weight: 80
 url: /java/com.aspose.note/tagstatus/
 ---
 

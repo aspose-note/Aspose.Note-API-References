@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Note for Java API Reference
 description: Specifies the type of the node.
 type: docs
-weight: 38
+weight: 42
 url: /java/com.aspose.note/nodetype/
 ---
 
@@ -32,6 +32,9 @@ Specifies the type of the node.
 | [Table](#Table) | Specifies that the node is a  Table . |
 | [TableRow](#TableRow) | Specifies that the node is a  TableRow . |
 | [TableCell](#TableCell) | Specifies that the node is a  TableCell . |
+| [InkDrawing](#InkDrawing) | Specifies that the node is a [InkDrawing](../../com.aspose.note/nodetype\#InkDrawing). |
+| [InkParagraph](#InkParagraph) | Specifies that the node is a [InkParagraph](../../com.aspose.note/nodetype\#InkParagraph). |
+| [InkWord](#InkWord) | Specifies that the node is a [InkWord](../../com.aspose.note/nodetype\#InkWord). |
 ### Document {#Document}
 ```
 public static final int Document
@@ -143,4 +146,28 @@ public static final int TableCell
 
 
 Specifies that the node is a  TableCell .
+
+### InkDrawing {#InkDrawing}
+```
+public static final int InkDrawing
+```
+
+
+Specifies that the node is a [InkDrawing](../../com.aspose.note/nodetype\#InkDrawing).
+
+### InkParagraph {#InkParagraph}
+```
+public static final int InkParagraph
+```
+
+
+Specifies that the node is a [InkParagraph](../../com.aspose.note/nodetype\#InkParagraph).
+
+### InkWord {#InkWord}
+```
+public static final int InkWord
+```
+
+
+Specifies that the node is a [InkWord](../../com.aspose.note/nodetype\#InkWord).
 

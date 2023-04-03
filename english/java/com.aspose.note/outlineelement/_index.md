@@ -3,7 +3,7 @@ title: OutlineElement
 second_title: Aspose.Note for Java API Reference
 description: Represents a OutlineElement.
 type: docs
-weight: 53
+weight: 57
 url: /java/com.aspose.note/outlineelement/
 ---
 
@@ -21,7 +21,6 @@ Represents a OutlineElement.
 
 | Constructor | Description |
 | --- | --- |
-| [OutlineElement(Document document)](#OutlineElement-com.aspose.note.Document-) | Initializes a new instance of the  OutlineElement  class. |
 | [OutlineElement()](#OutlineElement--) | Initializes a new instance of the  OutlineElement  class. |
 ## Methods
 
@@ -34,19 +33,6 @@ Represents a OutlineElement.
 | [getNumberList()](#getNumberList--) | Gets or sets the style for the numbered list header. |
 | [setNumberList(NumberList value)](#setNumberList-com.aspose.note.NumberList-) | Gets or sets the style for the numbered list header. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-### OutlineElement(Document document) {#OutlineElement-com.aspose.note.Document-}
-```
-public OutlineElement(Document document)
-```
-
-
-Initializes a new instance of the  OutlineElement  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | The parent document of the outline element. |
-
 ### OutlineElement() {#OutlineElement--}
 ```
 public OutlineElement()

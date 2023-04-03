@@ -3,7 +3,7 @@ title: NoteCheckBox
 second_title: Aspose.Note for Java API Reference
 description: Represents a note tag that can toggle their state between complete and incomplete.
 type: docs
-weight: 39
+weight: 43
 url: /java/com.aspose.note/notecheckbox/
 ---
 

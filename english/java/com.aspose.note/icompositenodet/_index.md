@@ -3,7 +3,7 @@ title: ICompositeNodeT
 second_title: Aspose.Note for Java API Reference
 description: The interface for nodes that can contain other nodes.
 type: docs
-weight: 82
+weight: 86
 url: /java/com.aspose.note/icompositenodet/
 ---
 

@@ -11,9 +11,9 @@ url: /java/com.aspose.note/indentatednode/
 java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspose.note.CompositeNodeBase](../../com.aspose.note/compositenodebase), com.aspose.note.CompositeNode
 
 **All Implemented Interfaces:**
-[com.aspose.note.IIndentatedNode](../../com.aspose.note/iindentatednode)
+com.aspose.note.IIndentatedNodeExtended
 ```
-public class IndentatedNode<T,Self> extends CompositeNode<T> implements IIndentatedNode
+public class IndentatedNode<T,Self> extends CompositeNode<T> implements IIndentatedNodeExtended
 ```
 
 The base class for nodes with relative indentation for child nodes.
@@ -26,6 +26,7 @@ The base class for nodes with relative indentation for child nodes.
 | [getIndentPosition()](#getIndentPosition--) | Gets or sets the indent position. |
 | [setIndentPosition(byte value)](#setIndentPosition-byte-) | Gets or sets the indent position. |
 | [setIndentPosition(int value)](#setIndentPosition-int-) |  |
+| [getInternalIndentPosition()](#getInternalIndentPosition--) | Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size. |
 ### getIndentPosition() {#getIndentPosition--}
 ```
 public final byte getIndentPosition()
@@ -66,3 +67,13 @@ public final Self setIndentPosition(int value)
 
 **Returns:**
 Self
+### getInternalIndentPosition() {#getInternalIndentPosition--}
+```
+public int getInternalIndentPosition()
+```
+
+
+Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size.
+
+**Returns:**
+int

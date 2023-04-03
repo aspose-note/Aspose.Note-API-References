@@ -21,11 +21,9 @@ Represents an Image.
 
 | Constructor | Description |
 | --- | --- |
-| [Image(Document document, String path)](#Image-com.aspose.note.Document-java.lang.String-) | Initializes a new instance of the  Image  class. |
-| [Image(Document document, String fileName, InputStream imageStream)](#Image-com.aspose.note.Document-java.lang.String-java.io.InputStream-) | Initializes a new instance of the  Image  class. |
-| [Image(String fileName, InputStream imageStream)](#Image-java.lang.String-java.io.InputStream-) | Initializes a new instance of the [Image](../../com.aspose.note/image) class. |
-| [Image(Document document)](#Image-com.aspose.note.Document-) | Initializes a new instance of the  Image  class. |
-| [Image()](#Image--) | Initializes a new instance of the [Image](../../com.aspose.note/image) class. |
+| [Image(String path)](#Image-java.lang.String-) | Initializes a new instance of the  Image  class. |
+| [Image(String fileName, InputStream imageStream)](#Image-java.lang.String-java.io.InputStream-) | Initializes a new instance of the  Image  class. |
+| [Image()](#Image--) | Initializes a new instance of the  Image  class. |
 ## Methods
 
 | Method | Description |
@@ -58,9 +56,9 @@ Represents an Image.
 | [getHyperlinkUrl()](#getHyperlinkUrl--) | Gets the hyperlink associated with the image. |
 | [setHyperlinkUrl(String value)](#setHyperlinkUrl-java.lang.String-) | Sets the hyperlink associated with the image. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-### Image(Document document, String path) {#Image-com.aspose.note.Document-java.lang.String-}
+### Image(String path) {#Image-java.lang.String-}
 ```
-public Image(Document document, String path)
+public Image(String path)
 ```
 
 
@@ -69,23 +67,7 @@ Initializes a new instance of the  Image  class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | A parent document of the image. |
 | path | java.lang.String | A string that contains the path to the file from which to create the  Image . |
-
-### Image(Document document, String fileName, InputStream imageStream) {#Image-com.aspose.note.Document-java.lang.String-java.io.InputStream-}
-```
-public Image(Document document, String fileName, InputStream imageStream)
-```
-
-
-Initializes a new instance of the  Image  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | A parent document of the image. |
-| fileName | java.lang.String | A name of the image. |
-| imageStream | java.io.InputStream | A stream which contains the image. |
 
 ### Image(String fileName, InputStream imageStream) {#Image-java.lang.String-java.io.InputStream-}
 ```
@@ -93,7 +75,7 @@ public Image(String fileName, InputStream imageStream)
 ```
 
 
-Initializes a new instance of the [Image](../../com.aspose.note/image) class.
+Initializes a new instance of the  Image  class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -101,26 +83,13 @@ Initializes a new instance of the [Image](../../com.aspose.note/image) class.
 | fileName | java.lang.String | A name of the image. |
 | imageStream | java.io.InputStream | A stream which contains the image. |
 
-### Image(Document document) {#Image-com.aspose.note.Document-}
-```
-public Image(Document document)
-```
-
-
-Initializes a new instance of the  Image  class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.note/document) | A parent document of the image. |
-
 ### Image() {#Image--}
 ```
 public Image()
 ```
 
 
-Initializes a new instance of the [Image](../../com.aspose.note/image) class.
+Initializes a new instance of the  Image  class.
 
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```

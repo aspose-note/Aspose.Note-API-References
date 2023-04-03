@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Note for Java API Reference
 description: Specifies the numbering format that can be used for a group of automatically numbered objects.
 type: docs
-weight: 49
+weight: 53
 url: /java/com.aspose.note/numberformat/
 ---
 

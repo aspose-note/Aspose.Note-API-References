@@ -3,7 +3,7 @@ title: ParagraphStyle
 second_title: Aspose.Note for Java API Reference
 description: Text style settings to be used if there is no matching TextStyle object in  collection either this object doesnt specify a needed setting.
 type: docs
-weight: 61
+weight: 65
 url: /java/com.aspose.note/paragraphstyle/
 ---
 
