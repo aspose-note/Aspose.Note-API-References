@@ -1,14 +1,14 @@
 ---
-title: Document
+title: Document.Document
 second_title: Aspose.Note for .NET API Reference
-description: Initializes a new instance of the Documentaspose.note/document class. Creates a blank OneNote document.
+description: Document constructor. Initializes a new instance of the Document class. Creates a blank OneNote document
 type: docs
 weight: 10
 url: /net/aspose.note/document/document/
 ---
 ## Document() {#constructor}
 
-Initializes a new instance of the [`Document`](../../document) class. Creates a blank OneNote document.
+Initializes a new instance of the [`Document`](../) class. Creates a blank OneNote document.
 
 ```csharp
 public Document()
@@ -16,15 +16,15 @@ public Document()
 
 ### See Also
 
-* class [Document](../../document)
-* namespace [Aspose.Note](../../document)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
 * assembly [Aspose.Note](../../../)
 
 ---
 
 ## Document(string) {#constructor_3}
 
-Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a file.
+Initializes a new instance of the [`Document`](../) class. Opens an existing OneNote document from a file.
 
 ```csharp
 public Document(string filePath)
@@ -38,23 +38,23 @@ public Document(string filePath)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | InvalidOperationException | There is a problem with the document and it should be reported to Aspose.Note developers. |
 | IOException | There is an input/output exception. |
 
 ### See Also
 
-* class [Document](../../document)
-* namespace [Aspose.Note](../../document)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
 * assembly [Aspose.Note](../../../)
 
 ---
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a file. Allows to specify additional options such as an encryption password.
+Initializes a new instance of the [`Document`](../) class. Opens an existing OneNote document from a file. Allows to specify additional options such as an encryption password.
 
 ```csharp
 public Document(string filePath, LoadOptions loadOptions)
@@ -69,24 +69,24 @@ public Document(string filePath, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | InvalidOperationException | There is a problem with the document and it should be reported to Aspose.Note developers. |
 | IOException | There is an input/output exception. |
 
 ### See Also
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* namespace [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
 * assembly [Aspose.Note](../../../)
 
 ---
 
 ## Document(Stream) {#constructor_1}
 
-Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a stream.
+Initializes a new instance of the [`Document`](../) class. Opens an existing OneNote document from a stream.
 
 ```csharp
 public Document(Stream inStream)
@@ -100,24 +100,24 @@ public Document(Stream inStream)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | InvalidOperationException | There is a problem with the document and it should be reported to Aspose.Note developers. |
 | IOException | There is an input/output exception. |
 | ArgumentException | The stream does not support reading, is null, or is already closed. |
 
 ### See Also
 
-* class [Document](../../document)
-* namespace [Aspose.Note](../../document)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
 * assembly [Aspose.Note](../../../)
 
 ---
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-Initializes a new instance of the [`Document`](../../document) class. Opens an existing OneNote document from a stream. Allows to specify additional options such as an encryption password.
+Initializes a new instance of the [`Document`](../) class. Opens an existing OneNote document from a stream. Allows to specify additional options such as an encryption password.
 
 ```csharp
 public Document(Stream inStream, LoadOptions loadOptions)
@@ -132,18 +132,18 @@ public Document(Stream inStream, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | InvalidOperationException | There is a problem with the document and it should be reported to Aspose.Note developers. |
 | IOException | There is an input/output exception. |
 | ArgumentException | The stream does not support reading, is null, or is already closed. |
 
 ### See Also
 
-* class [LoadOptions](../../loadoptions)
-* class [Document](../../document)
-* namespace [Aspose.Note](../../document)
+* class [LoadOptions](../../loadoptions/)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
 * assembly [Aspose.Note](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+

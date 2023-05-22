@@ -1,7 +1,7 @@
 ---
-title: DocumentVisitor
+title: Class DocumentVisitor
 second_title: Aspose.Note for .NET API Reference
-description: The abstract class for iterating through subtree with root at the specified node.
+description: Aspose.Note.DocumentVisitor class. The abstract class for iterating through subtree with root at the specified node
 type: docs
 weight: 70
 url: /net/aspose.note/documentvisitor/
@@ -18,38 +18,38 @@ public abstract class DocumentVisitor
 
 | Name | Description |
 | --- | --- |
-| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend)(AttachedFile) | End to visit the [`AttachedFile`](../attachedfile) node. |
-| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart)(AttachedFile) | Start to visit the [`AttachedFile`](../attachedfile) node. |
-| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend)(Document) | End to visit the [`Document`](../document) node. |
-| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart)(Document) | Start to visit the [`Document`](../document) node. |
-| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend)(Image) | End to visit the [`Image`](../image) node. |
-| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart)(Image) | Start to visit the [`Image`](../image) node. |
-| virtual [VisitInkDrawingEnd](../../aspose.note/documentvisitor/visitinkdrawingend)(InkDrawing) | End to visit the [`InkDrawing`](../inkdrawing) node. |
-| virtual [VisitInkDrawingStart](../../aspose.note/documentvisitor/visitinkdrawingstart)(InkDrawing) | Start to visit the [`InkDrawing`](../inkdrawing) node. |
-| virtual [VisitInkParagraphEnd](../../aspose.note/documentvisitor/visitinkparagraphend)(InkParagraph) | End to visit the [`InkParagraph`](../inkparagraph) node. |
-| virtual [VisitInkParagraphStart](../../aspose.note/documentvisitor/visitinkparagraphstart)(InkParagraph) | Start to visit the [`InkParagraph`](../inkparagraph) node. |
-| virtual [VisitInkWordEnd](../../aspose.note/documentvisitor/visitinkwordend)(InkWord) | End to visit the [`InkWord`](../inkword) node. |
-| virtual [VisitInkWordStart](../../aspose.note/documentvisitor/visitinkwordstart)(InkWord) | Start to visit the [`InkWord`](../inkword) node. |
-| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend)(OutlineElement) | End to visit the [`OutlineElement`](../outlineelement) node. |
-| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart)(OutlineElement) | Start to visit the [`OutlineElement`](../outlineelement) node. |
-| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend)(Outline) | End to visit the [`Outline`](../outline) node. |
-| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend)(OutlineGroup) | End to visit the [`OutlineGroup`](../outlinegroup) node. |
-| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart)(OutlineGroup) | Start to visit the [`OutlineGroup`](../outlinegroup) node. |
-| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart)(Outline) | Start to visit the [`Outline`](../outline) node. |
-| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend)(Page) | End to visit the [`Page`](../page) node. |
-| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart)(Page) | Start to visit the [`Page`](../page) node. |
-| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend)(RichText) | End to visit the [`RichText`](../richtext) node. |
-| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart)(RichText) | Start to visit the [`RichText`](../richtext) node. |
-| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend)(TableCell) | End to visit the [`TableCell`](../tablecell) node. |
-| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart)(TableCell) | Start to visit the [`TableCell`](../tablecell) node. |
-| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend)(Table) | End to visit the [`Table`](../table) node. |
-| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend)(TableRow) | End to visit the [`TableRow`](../tablerow) node. |
-| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart)(TableRow) | Start to visit the [`TableRow`](../tablerow) node. |
-| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart)(Table) | Start to visit the [`Table`](../table) node. |
-| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend)(Title) | End to visit the [`Title`](../title) node. |
-| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart)(Title) | Start to visit the [`Title`](../title) node. |
+| virtual [VisitAttachedFileEnd](../../aspose.note/documentvisitor/visitattachedfileend/)(AttachedFile) | End to visit the [`AttachedFile`](../attachedfile/) node. |
+| virtual [VisitAttachedFileStart](../../aspose.note/documentvisitor/visitattachedfilestart/)(AttachedFile) | Start to visit the [`AttachedFile`](../attachedfile/) node. |
+| virtual [VisitDocumentEnd](../../aspose.note/documentvisitor/visitdocumentend/)(Document) | End to visit the [`Document`](../document/) node. |
+| virtual [VisitDocumentStart](../../aspose.note/documentvisitor/visitdocumentstart/)(Document) | Start to visit the [`Document`](../document/) node. |
+| virtual [VisitImageEnd](../../aspose.note/documentvisitor/visitimageend/)(Image) | End to visit the [`Image`](../image/) node. |
+| virtual [VisitImageStart](../../aspose.note/documentvisitor/visitimagestart/)(Image) | Start to visit the [`Image`](../image/) node. |
+| virtual [VisitInkDrawingEnd](../../aspose.note/documentvisitor/visitinkdrawingend/)(InkDrawing) | End to visit the [`InkDrawing`](../inkdrawing/) node. |
+| virtual [VisitInkDrawingStart](../../aspose.note/documentvisitor/visitinkdrawingstart/)(InkDrawing) | Start to visit the [`InkDrawing`](../inkdrawing/) node. |
+| virtual [VisitInkParagraphEnd](../../aspose.note/documentvisitor/visitinkparagraphend/)(InkParagraph) | End to visit the [`InkParagraph`](../inkparagraph/) node. |
+| virtual [VisitInkParagraphStart](../../aspose.note/documentvisitor/visitinkparagraphstart/)(InkParagraph) | Start to visit the [`InkParagraph`](../inkparagraph/) node. |
+| virtual [VisitInkWordEnd](../../aspose.note/documentvisitor/visitinkwordend/)(InkWord) | End to visit the [`InkWord`](../inkword/) node. |
+| virtual [VisitInkWordStart](../../aspose.note/documentvisitor/visitinkwordstart/)(InkWord) | Start to visit the [`InkWord`](../inkword/) node. |
+| virtual [VisitOutlineElementEnd](../../aspose.note/documentvisitor/visitoutlineelementend/)(OutlineElement) | End to visit the [`OutlineElement`](../outlineelement/) node. |
+| virtual [VisitOutlineElementStart](../../aspose.note/documentvisitor/visitoutlineelementstart/)(OutlineElement) | Start to visit the [`OutlineElement`](../outlineelement/) node. |
+| virtual [VisitOutlineEnd](../../aspose.note/documentvisitor/visitoutlineend/)(Outline) | End to visit the [`Outline`](../outline/) node. |
+| virtual [VisitOutlineGroupEnd](../../aspose.note/documentvisitor/visitoutlinegroupend/)(OutlineGroup) | End to visit the [`OutlineGroup`](../outlinegroup/) node. |
+| virtual [VisitOutlineGroupStart](../../aspose.note/documentvisitor/visitoutlinegroupstart/)(OutlineGroup) | Start to visit the [`OutlineGroup`](../outlinegroup/) node. |
+| virtual [VisitOutlineStart](../../aspose.note/documentvisitor/visitoutlinestart/)(Outline) | Start to visit the [`Outline`](../outline/) node. |
+| virtual [VisitPageEnd](../../aspose.note/documentvisitor/visitpageend/)(Page) | End to visit the [`Page`](../page/) node. |
+| virtual [VisitPageStart](../../aspose.note/documentvisitor/visitpagestart/)(Page) | Start to visit the [`Page`](../page/) node. |
+| virtual [VisitRichTextEnd](../../aspose.note/documentvisitor/visitrichtextend/)(RichText) | End to visit the [`RichText`](../richtext/) node. |
+| virtual [VisitRichTextStart](../../aspose.note/documentvisitor/visitrichtextstart/)(RichText) | Start to visit the [`RichText`](../richtext/) node. |
+| virtual [VisitTableCellEnd](../../aspose.note/documentvisitor/visittablecellend/)(TableCell) | End to visit the [`TableCell`](../tablecell/) node. |
+| virtual [VisitTableCellStart](../../aspose.note/documentvisitor/visittablecellstart/)(TableCell) | Start to visit the [`TableCell`](../tablecell/) node. |
+| virtual [VisitTableEnd](../../aspose.note/documentvisitor/visittableend/)(Table) | End to visit the [`Table`](../table/) node. |
+| virtual [VisitTableRowEnd](../../aspose.note/documentvisitor/visittablerowend/)(TableRow) | End to visit the [`TableRow`](../tablerow/) node. |
+| virtual [VisitTableRowStart](../../aspose.note/documentvisitor/visittablerowstart/)(TableRow) | Start to visit the [`TableRow`](../tablerow/) node. |
+| virtual [VisitTableStart](../../aspose.note/documentvisitor/visittablestart/)(Table) | Start to visit the [`Table`](../table/) node. |
+| virtual [VisitTitleEnd](../../aspose.note/documentvisitor/visittitleend/)(Title) | End to visit the [`Title`](../title/) node. |
+| virtual [VisitTitleStart](../../aspose.note/documentvisitor/visittitlestart/)(Title) | Start to visit the [`Title`](../title/) node. |
 
-### Examples
+## Examples
 
 Shows how to access content of a document using visitor.
 
@@ -200,7 +200,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 
 ### See Also
 
-* namespace [Aspose.Note](../../aspose.note)
+* namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
