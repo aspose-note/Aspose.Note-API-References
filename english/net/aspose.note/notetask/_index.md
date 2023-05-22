@@ -1,7 +1,7 @@
 ---
-title: NoteTask
+title: Class NoteTask
 second_title: Aspose.Note for .NET API Reference
-description: Represents a note task.
+description: Aspose.Note.NoteTask class. Represents a note task
 type: docs
 weight: 440
 url: /net/aspose.note/notetask/
@@ -18,32 +18,32 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 
 | Name | Description |
 | --- | --- |
-| [Checked](../../aspose.note/checkbox/checked) { get; } | Gets a value indicating whether the CheckBox is in the checked state. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime) { get; } | Gets or sets the completed time. |
-| [CreationTime](../../aspose.note/checkbox/creationtime) { get; set; } | Gets or sets the creation time. |
-| [DueDate](../../aspose.note/notetask/duedate) { get; set; } | Gets or sets the due date. |
-| override [Icon](../../aspose.note/notetask/icon) { get; } | Gets or sets the icon. |
-| [Label](../../aspose.note/checkbox/label) { get; } | Gets the label text. |
-| [Status](../../aspose.note/checkbox/status) { get; } | Gets or sets the status. |
+| [Checked](../../aspose.note/checkbox/checked/) { get; } | Gets a value indicating whether the CheckBox is in the checked state. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | Gets or sets the completed time. |
+| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | Gets or sets the creation time. |
+| [DueDate](../../aspose.note/notetask/duedate/) { get; set; } | Gets or sets the due date. |
+| override [Icon](../../aspose.note/notetask/icon/) { get; } | Gets or sets the icon. |
+| [Label](../../aspose.note/checkbox/label/) { get; } | Gets the label text. |
+| [Status](../../aspose.note/checkbox/status/) { get; } | Gets or sets the status. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate)(DateTime) | Creates a new note task with NoFollowUpDateFlag icon and specified due date. |
-| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek)() | Creates a new note task with FollowUpNextWeekFlag icon. |
-| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek)() | Creates a new note task with FollowUpThisWeekFlag icon. |
-| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday)() | Creates a new note task with FollowUpTodayFlag icon. |
-| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow)() | Creates a new note task with FollowUpTomorrowFlag icon. |
-| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate)() | Creates a new note task with NoFollowUpDateFlag icon. |
-| [Equals](../../aspose.note/notetask/equals#equals)(NoteTask) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.note/notetask/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](../../aspose.note/notetask/gethashcode)() | Serves as a hash function for the type. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)() | Sets the tag to completed state using current time as completed time. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted)(DateTime) | Sets the tag to completed state. |
-| override [SetOpen](../../aspose.note/notetask/setopen)() | Sets the tag to open state. |
+| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate/)(DateTime) | Creates a new note task with NoFollowUpDateFlag icon and specified due date. |
+| static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek/)() | Creates a new note task with FollowUpNextWeekFlag icon. |
+| static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek/)() | Creates a new note task with FollowUpThisWeekFlag icon. |
+| static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday/)() | Creates a new note task with FollowUpTodayFlag icon. |
+| static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow/)() | Creates a new note task with FollowUpTomorrowFlag icon. |
+| static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate/)() | Creates a new note task with NoFollowUpDateFlag icon. |
+| [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | Serves as a hash function for the type. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | Sets the tag to completed state using current time as completed time. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | Sets the tag to completed state. |
+| override [SetOpen](../../aspose.note/notetask/setopen/)() | Sets the tag to open state. |
 
-### Examples
+## Examples
 
 Shows how to generate a pdf containing all pages related to 'Project A'.
 
@@ -100,8 +100,8 @@ foreach (RichText richText in nodes)
 
 ### See Also
 
-* class [CheckBox](../checkbox)
-* namespace [Aspose.Note](../../aspose.note)
+* class [CheckBox](../checkbox/)
+* namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
+
