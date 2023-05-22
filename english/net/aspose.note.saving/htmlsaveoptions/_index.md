@@ -1,9 +1,9 @@
 ---
-title: Class HtmlSaveOptions
+title: HtmlSaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: Aspose.Note.Saving.HtmlSaveOptions class. Allows to specify additional options when saving document to HTML format
+description: Allows to specify additional options when saving document to HTML format.
 type: docs
-weight: 590
+weight: 740
 url: /net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -18,28 +18,28 @@ public class HtmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions/)() | The default constructor. |
+| [HtmlSaveOptions](htmlsaveoptions)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | Gets or sets whether the StyleSheet file will be generated for each new page separately. |
-| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | Gets or sets the callback that is called to create resource to store CSS. |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | Gets or sets a value indicating whether document per page generation is enabled. |
-| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | Gets or sets the way css is exported. |
-| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | Gets or sets the way fonts are exported. |
-| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | Gets or sets the way images are exported. |
-| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes/) { get; set; } | Gets or sets the font face types. |
-| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | Gets or sets the callback that is called to create resource to store font. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Gets or sets font's settings to be used while saving |
-| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | Gets or sets the callback that is called to create resource to store image. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
-| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | Gets or sets the callback that is called to create resource to store page. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Gets the format in which the document is saved. |
+| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration) { get; set; } | Gets or sets whether the StyleSheet file will be generated for each new page separately. |
+| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback) { get; set; } | Gets or sets the callback that is called to create resource to store CSS. |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration) { get; set; } | Gets or sets a value indicating whether document per page generation is enabled. |
+| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss) { get; set; } | Gets or sets the way css is exported. |
+| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts) { get; set; } | Gets or sets the way fonts are exported. |
+| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages) { get; set; } | Gets or sets the way images are exported. |
+| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes) { get; set; } | Gets or sets the font face types. |
+| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | Gets or sets the callback that is called to create resource to store font. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem) { get; set; } | Gets or sets font's settings to be used while saving |
+| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback) { get; set; } | Gets or sets the callback that is called to create resource to store image. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
+| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback) { get; set; } | Gets or sets the callback that is called to create resource to store page. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat) { get; } | Gets the format in which the document is saved. |
 
-## Examples
+### Examples
 
 Shows how to save a document in html format with storing all resources(css/fonts/images) to a separate files.
 
@@ -147,8 +147,8 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 
 ### See Also
 
-* class [SaveOptions](../saveoptions/)
-* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* class [SaveOptions](../saveoptions)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving)
 * assembly [Aspose.Note](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->

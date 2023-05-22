@@ -1,7 +1,7 @@
 ---
-title: Class AttachedFile
+title: AttachedFile
 second_title: Aspose.Note for .NET API Reference
-description: Aspose.Note.AttachedFile class. Represents an attached file
+description: Represents an attached file.
 type: docs
 weight: 10
 url: /net/aspose.note/attachedfile/
@@ -18,51 +18,50 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 
 | Name | Description |
 | --- | --- |
-| [AttachedFile](attachedfile/#constructor)() | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile](attachedfile/#constructor_1)(string) | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile](attachedfile/#constructor_2)(string, Stream) | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile](attachedfile/#constructor_3)(string, Stream, ImageFormat) | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile](attachedfile/#constructor_4)(string, Stream, Stream, ImageFormat) | Initializes a new instance of the `AttachedFile` class. |
+| [AttachedFile](attachedfile#constructor)() | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_1)(string) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_2)(string, Stream) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_3)(string, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
+| [AttachedFile](attachedfile#constructor_4)(string, Stream, Stream, ImageFormat) | Initializes a new instance of the [`AttachedFile`](../attachedfile) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.note/attachedfile/alignment/) { get; set; } | Gets or sets the alignment. |
-| [AlternativeTextDescription](../../aspose.note/attachedfile/alternativetextdescription/) { get; set; } | Gets or sets a body an alternative text for the icon of the attached file. |
-| [AlternativeTextTitle](../../aspose.note/attachedfile/alternativetexttitle/) { get; set; } | Gets or sets a title of alternative text for the icon of the attached file. |
-| [Bytes](../../aspose.note/attachedfile/bytes/) { get; } | Gets the binary data for an embedded file. |
-| [Document](../../aspose.note/node/document/) { get; } | Gets the document of the node. |
-| [Extension](../../aspose.note/attachedfile/extension/) { get; } | Gets the extension of an embedded file. |
-| [FileName](../../aspose.note/attachedfile/filename/) { get; } | Gets the name of the embedded file. |
-| [FilePath](../../aspose.note/attachedfile/filepath/) { get; } | Gets the path to the original file. |
-| [Height](../../aspose.note/attachedfile/height/) { get; } | Gets the original height of the embedded file icon. |
-| [HorizontalOffset](../../aspose.note/attachedfile/horizontaloffset/) { get; set; } | Gets or sets the horizontal offset. |
-| [Icon](../../aspose.note/attachedfile/icon/) { get; } | Gets the binary data for the icon that is associated with the embedded file. |
-| [IconExtension](../../aspose.note/attachedfile/iconextension/) { get; } | Gets the extension of the icon. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
-| [IsPrintout](../../aspose.note/attachedfile/isprintout/) { get; set; } | Gets or sets a value indicating whether the view of the file is printout. |
-| [IsSizeSetByUser](../../aspose.note/attachedfile/issizesetbyuser/) { get; set; } | Gets or sets a value indicating whether the value of the size of the icon was explicitly updated by the user. |
-| [LastModifiedTime](../../aspose.note/attachedfile/lastmodifiedtime/) { get; set; } | Gets or sets the last modified time. |
-| [MaxHeight](../../aspose.note/attachedfile/maxheight/) { get; set; } | Gets or sets the maximum height to display the embedded file icon. |
-| [MaxWidth](../../aspose.note/attachedfile/maxwidth/) { get; set; } | Gets or sets the maximum width to display the embedded file icon. |
-| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Gets the next node at the same node tree level. |
-| [NodeType](../../aspose.note/node/nodetype/) { get; } | Gets the node type. |
-| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Gets the parent node. |
-| [ParsingErrorInfo](../../aspose.note/attachedfile/parsingerrorinfo/) { get; } | Gets the data about error that occurred while accessing the file. |
-| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Gets the previous node at the same node tree level. |
-| [Tags](../../aspose.note/attachedfile/tags/) { get; } | Gets the list of all tags of a paragraph. |
-| [Text](../../aspose.note/attachedfile/text/) { get; set; } | Gets or sets the text representation of the embedded file. The string MUST NOT contain any characters of the value 10 (line feed) or 13 (carriage return). |
-| [VerticalOffset](../../aspose.note/attachedfile/verticaloffset/) { get; set; } | Gets or sets the vertical offset. |
-| [Width](../../aspose.note/attachedfile/width/) { get; } | Gets the original width of the embedded file icon. |
+| [Alignment](../../aspose.note/attachedfile/alignment) { get; set; } | Gets or sets the alignment. |
+| [AlternativeTextDescription](../../aspose.note/attachedfile/alternativetextdescription) { get; set; } | Gets or sets a body an alternative text for the icon of the attached file. |
+| [AlternativeTextTitle](../../aspose.note/attachedfile/alternativetexttitle) { get; set; } | Gets or sets a title of alternative text for the icon of the attached file. |
+| [Bytes](../../aspose.note/attachedfile/bytes) { get; } | Gets the binary data for an embedded file. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [Extension](../../aspose.note/attachedfile/extension) { get; } | Gets the extension of an embedded file. |
+| [FileName](../../aspose.note/attachedfile/filename) { get; } | Gets the name of the embedded file. |
+| [FilePath](../../aspose.note/attachedfile/filepath) { get; } | Gets the path to the original file. |
+| [Height](../../aspose.note/attachedfile/height) { get; } | Gets the original height of the embedded file icon. |
+| [HorizontalOffset](../../aspose.note/attachedfile/horizontaloffset) { get; set; } | Gets or sets the horizontal offset. |
+| [Icon](../../aspose.note/attachedfile/icon) { get; } | Gets the binary data for the icon that is associated with the embedded file. |
+| [IconExtension](../../aspose.note/attachedfile/iconextension) { get; } | Gets the extension of the icon. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
+| [IsPrintout](../../aspose.note/attachedfile/isprintout) { get; set; } | Gets or sets a value indicating whether the view of the file is printout. |
+| [IsSizeSetByUser](../../aspose.note/attachedfile/issizesetbyuser) { get; set; } | Gets or sets a value indicating whether the value of the size of the icon was explicitly updated by the user. |
+| [LastModifiedTime](../../aspose.note/attachedfile/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [MaxHeight](../../aspose.note/attachedfile/maxheight) { get; set; } | Gets or sets the maximum height to display the embedded file icon. |
+| [MaxWidth](../../aspose.note/attachedfile/maxwidth) { get; set; } | Gets or sets the maximum width to display the embedded file icon. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [Tags](../../aspose.note/attachedfile/tags) { get; } | Gets the list of all tags of a paragraph. |
+| [Text](../../aspose.note/attachedfile/text) { get; set; } | Gets or sets the text representation of the embedded file. The string MUST NOT contain any characters of the value 10 (line feed) or 13 (carriage return). |
+| [VerticalOffset](../../aspose.note/attachedfile/verticaloffset) { get; set; } | Gets or sets the vertical offset. |
+| [Width](../../aspose.note/attachedfile/width) { get; } | Gets the original width of the embedded file icon. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.note/attachedfile/accept/)(DocumentVisitor) | Accepts the visitor of the node. |
+| override [Accept](../../aspose.note/attachedfile/accept)(DocumentVisitor) | Accepts the visitor of the node. |
 
-## Examples
+### Examples
 
 Shows how to get content of an attached file.
 
@@ -171,11 +170,11 @@ doc.Save(dataDir);
 
 ### See Also
 
-* class [Node](../node/)
-* interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
-* interface [IPageChildNode](../ipagechildnode/)
-* interface [ITaggable](../itaggable/)
-* namespace [Aspose.Note](../../aspose.note/)
+* class [Node](../node)
+* interface [IOutlineElementChildNode](../ioutlineelementchildnode)
+* interface [IPageChildNode](../ipagechildnode)
+* interface [ITaggable](../itaggable)
+* namespace [Aspose.Note](../../aspose.note)
 * assembly [Aspose.Note](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->

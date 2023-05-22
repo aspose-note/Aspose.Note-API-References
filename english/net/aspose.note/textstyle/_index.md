@@ -1,9 +1,9 @@
 ---
-title: Class TextStyle
+title: TextStyle
 second_title: Aspose.Note for .NET API Reference
-description: Aspose.Note.TextStyle class. Specifies the text style
+description: Specifies the text style.
 type: docs
-weight: 260
+weight: 1010
 url: /net/aspose.note/textstyle/
 ---
 ## TextStyle class
@@ -18,42 +18,42 @@ public sealed class TextStyle : Style
 
 | Name | Description |
 | --- | --- |
-| [TextStyle](textstyle/)() | The default constructor. |
+| [TextStyle](textstyle)() | The default constructor. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| static [Default](../../aspose.note/textstyle/default/) { get; } | Gets the style with "en-US" culture. |
-| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle/) { get; } | Gets default style for title date in MS OneNote. |
-| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | Gets default style for title text in MS OneNote. |
-| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | Gets default style for title time in MS OneNote. |
-| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Gets or sets the font color. |
-| [FontName](../../aspose.note/style/fontname/) { get; set; } | Gets or sets the font name. |
-| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Gets or sets the font size. |
-| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Gets the font style. |
-| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Gets or sets the highlight color. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Gets or sets the hyperlink address. Must be set if the value of the [`IsHyperlink`](./ishyperlink/) property is true. |
-| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
-| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | Gets or sets a value indicating whether the text style is hidden. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Gets or sets a value indicating whether the text style is hyperlink. |
-| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
-| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | Gets or sets a value indicating whether the text style is math-formatting. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
-| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
-| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
-| [Language](../../aspose.note/textstyle/language/) { get; set; } | Gets or sets the language of the text. |
+| static [Default](../../aspose.note/textstyle/default) { get; } | Gets the style with "en-US" culture. |
+| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle) { get; } | Gets default style for title date in MS OneNote. |
+| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle) { get; } | Gets default style for title text in MS OneNote. |
+| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle) { get; } | Gets default style for title time in MS OneNote. |
+| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Gets or sets the font color. |
+| [FontName](../../aspose.note/style/fontname) { get; set; } | Gets or sets the font name. |
+| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Gets or sets the font size. |
+| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Gets the font style. |
+| [Highlight](../../aspose.note/style/highlight) { get; set; } | Gets or sets the highlight color. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress) { get; set; } | Gets or sets the hyperlink address. Must be set if the value of the [`IsHyperlink`](./ishyperlink) property is true. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
+| [IsHidden](../../aspose.note/textstyle/ishidden) { get; set; } | Gets or sets a value indicating whether the text style is hidden. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink) { get; set; } | Gets or sets a value indicating whether the text style is hyperlink. |
+| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
+| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting) { get; set; } | Gets or sets a value indicating whether the text style is math-formatting. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
+| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
+| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
+| [Language](../../aspose.note/textstyle/language) { get; set; } | Gets or sets the language of the text. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.note/textstyle/equals/#equals_1)(object) | Determines whether the specified object is equal to the current object. |
-| [Equals](../../aspose.note/textstyle/equals/#equals)(TextStyle) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode/)() | Serves as a hash function for the type. |
+| override [Equals](../../aspose.note/textstyle/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/textstyle/equals#equals)(TextStyle) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode)() | Serves as a hash function for the type. |
 
-## Examples
+### Examples
 
 Let's emphasize page's titles among other headers by increasing font's size.
 
@@ -208,8 +208,8 @@ doc.Save(dataDir);
 
 ### See Also
 
-* class [Style](../style/)
-* namespace [Aspose.Note](../../aspose.note/)
+* class [Style](../style)
+* namespace [Aspose.Note](../../aspose.note)
 * assembly [Aspose.Note](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->

@@ -1,9 +1,9 @@
 ---
-title: Class ParagraphStyle
+title: ParagraphStyle
 second_title: Aspose.Note for .NET API Reference
-description: Aspose.Note.ParagraphStyle class. Text style settings to be used if there is no matching TextStyle object in Styles collection either this object doesnt specify a needed setting
+description: Text style settings to be used if there is no matching TextStyle object in Styles collection either this object doesnt specify a needed setting.
 type: docs
-weight: 230
+weight: 550
 url: /net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
@@ -18,34 +18,34 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | Name | Description |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle/)() | Initializes a new instance of the `ParagraphStyle` class. |
+| [ParagraphStyle](paragraphstyle)() | Initializes a new instance of the [`ParagraphStyle`](../paragraphstyle) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| static [Default](../../aspose.note/paragraphstyle/default/) { get; } | Gets the ParagraphStyle with default settings. |
-| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | Gets or sets the font color. |
-| [FontName](../../aspose.note/style/fontname/) { get; set; } | Gets or sets the font name. |
-| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Gets or sets the font size. |
-| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Gets the font style. |
-| [Highlight](../../aspose.note/style/highlight/) { get; set; } | Gets or sets the highlight color. |
-| [IsBold](../../aspose.note/style/isbold/) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
-| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
-| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
-| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
+| static [Default](../../aspose.note/paragraphstyle/default) { get; } | Gets the ParagraphStyle with default settings. |
+| [FontColor](../../aspose.note/style/fontcolor) { get; set; } | Gets or sets the font color. |
+| [FontName](../../aspose.note/style/fontname) { get; set; } | Gets or sets the font name. |
+| [FontSize](../../aspose.note/style/fontsize) { get; set; } | Gets or sets the font size. |
+| [FontStyle](../../aspose.note/style/fontstyle) { get; } | Gets the font style. |
+| [Highlight](../../aspose.note/style/highlight) { get; set; } | Gets or sets the highlight color. |
+| [IsBold](../../aspose.note/style/isbold) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
+| [IsItalic](../../aspose.note/style/isitalic) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |
+| [IsSubscript](../../aspose.note/style/issubscript) { get; set; } | Gets or sets a value indicating whether the text style is subscript. |
+| [IsSuperscript](../../aspose.note/style/issuperscript) { get; set; } | Gets or sets a value indicating whether the text style is superscript. |
+| [IsUnderline](../../aspose.note/style/isunderline) { get; set; } | Gets or sets a value indicating whether the text style is underline. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.note/paragraphstyle/equals/#equals_1)(object) | Determines whether the specified object is equal to the current object. |
-| [Equals](../../aspose.note/paragraphstyle/equals/#equals)(ParagraphStyle) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode/)() | Serves as a hash function for the type. |
+| override [Equals](../../aspose.note/paragraphstyle/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
+| [Equals](../../aspose.note/paragraphstyle/equals#equals)(ParagraphStyle) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode)() | Serves as a hash function for the type. |
 
-## Examples
+### Examples
 
 Let's emphasize page's titles among other headers by increasing font's size.
 
@@ -255,8 +255,8 @@ doc.Save(dataDir);
 
 ### See Also
 
-* class [Style](../style/)
-* namespace [Aspose.Note](../../aspose.note/)
+* class [Style](../style)
+* namespace [Aspose.Note](../../aspose.note)
 * assembly [Aspose.Note](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->

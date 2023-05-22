@@ -1,9 +1,9 @@
 ---
-title: Class Page
+title: Page
 second_title: Aspose.Note for .NET API Reference
-description: Aspose.Note.Page class. Represents a page
+description: Represents a page.
 type: docs
-weight: 460
+weight: 520
 url: /net/aspose.note/page/
 ---
 ## Page class
@@ -18,48 +18,48 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | Name | Description |
 | --- | --- |
-| [Page](page/)() | Initializes a new instance of the `Page` class. |
+| [Page](page)() | Initializes a new instance of the [`Page`](../page) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Author](../../aspose.note/page/author/) { get; set; } | Gets or sets the author. |
-| [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | Gets or sets page's background color. |
-| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | Gets or sets the creation time. |
-| [Document](../../aspose.note/node/document/) { get; } | Gets the document of the node. |
-| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
-| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | Gets or sets a value indicating whether this page is a conflict page. |
-| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | Gets or sets the last modified time. |
-| [Level](../../aspose.note/page/level/) { get; set; } | Gets or sets the level. |
-| [Margin](../../aspose.note/page/margin/) { get; set; } | Gets or sets the margin. |
-| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Gets the next node at the same node tree level. |
-| [NodeType](../../aspose.note/node/nodetype/) { get; } | Gets the node type. |
-| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | Gets or sets the revision summary for the page and it's child nodes. |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | Gets or sets page's layout size displayed in the editor. |
-| [ParentNode](../../aspose.note/node/parentnode/) { get; } | Gets the parent node. |
-| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | Gets the previous node at the same node tree level. |
-| [SizeType](../../aspose.note/page/sizetype/) { get; set; } | Gets or sets the size type of a page. |
-| [Title](../../aspose.note/page/title/) { get; set; } | Gets or sets the title. |
+| [Author](../../aspose.note/page/author) { get; set; } | Gets or sets the author. |
+| [BackgroundColor](../../aspose.note/page/backgroundcolor) { get; set; } | Gets or sets page's background color. |
+| [CreationTime](../../aspose.note/page/creationtime) { get; set; } | Gets or sets the creation time. |
+| [Document](../../aspose.note/node/document) { get; } | Gets the document of the node. |
+| [FirstChild](../../aspose.note/compositenode`1/firstchild) { get; } |  |
+| [IsComposite](../../aspose.note/compositenode`1/iscomposite) { get; } |  |
+| [IsConflictPage](../../aspose.note/page/isconflictpage) { get; set; } | Gets or sets a value indicating whether this page is a conflict page. |
+| [LastChild](../../aspose.note/compositenode`1/lastchild) { get; } |  |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime) { get; set; } | Gets or sets the last modified time. |
+| [Level](../../aspose.note/page/level) { get; set; } | Gets or sets the level. |
+| [Margin](../../aspose.note/page/margin) { get; set; } | Gets or sets the margin. |
+| [NextSibling](../../aspose.note/node/nextsibling) { get; } | Gets the next node at the same node tree level. |
+| [NodeType](../../aspose.note/node/nodetype) { get; } | Gets the node type. |
+| [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary) { get; set; } | Gets or sets the revision summary for the page and it's child nodes. |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize) { get; set; } | Gets or sets page's layout size displayed in the editor. |
+| [ParentNode](../../aspose.note/node/parentnode) { get; } | Gets the parent node. |
+| [PreviousSibling](../../aspose.note/node/previoussibling) { get; } | Gets the previous node at the same node tree level. |
+| [SizeType](../../aspose.note/page/sizetype) { get; set; } | Gets or sets the size type of a page. |
+| [Title](../../aspose.note/page/title) { get; set; } | Gets or sets the title. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | Accepts the visitor of the node. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
-| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
-| [Clone](../../aspose.note/page/clone/)(bool) | Clones the page. |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | Get all child nodes of the page by the node type. |
-| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
-| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
-| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| override [Accept](../../aspose.note/page/accept)(DocumentVisitor) | Accepts the visitor of the node. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildfirst)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode`1/appendchildlast)(T1) |  |
+| [Clone](../../aspose.note/page/clone)(bool) | Clones the page. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes#getchildnodes_1)() | Get all child nodes of the page by the node type. |
+| [GetEnumerator](../../aspose.note/compositenode`1/getenumerator)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode`1/insertchild)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode`1/insertchildrenrange)(int, params IPageChildNode[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode`1/removechild)(T1) |  |
 
-## Examples
+### Examples
 
 Shows how to set page's background color.
 
@@ -616,9 +616,9 @@ doc.Save(dataDir);
 
 ### See Also
 
-* class [CompositeNode&lt;T&gt;](../compositenode-1/)
-* interface [IPageChildNode](../ipagechildnode/)
-* namespace [Aspose.Note](../../aspose.note/)
+* class [CompositeNode&lt;T&gt;](../compositenode-1)
+* interface [IPageChildNode](../ipagechildnode)
+* namespace [Aspose.Note](../../aspose.note)
 * assembly [Aspose.Note](../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Note.dll -->
