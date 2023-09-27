@@ -25,6 +25,8 @@ public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, I
 
 | Name | Description |
 | --- | --- |
+| [AuthorMostRecent](../../aspose.note/outlineelement/authormostrecent/) { get; } | Gets the most recent author of an outline element. |
+| [AuthorOriginal](../../aspose.note/outlineelement/authororiginal/) { get; } | Gets the original author of an outline element. |
 | [CreationTime](../../aspose.note/outlineelement/creationtime/) { get; set; } | Gets or sets the creation time. |
 | [Document](../../aspose.note/node/document/) { get; } | Gets the document of the node. |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
