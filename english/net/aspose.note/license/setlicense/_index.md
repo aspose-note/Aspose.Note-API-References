@@ -40,6 +40,15 @@ Tries to find the license in the following locations:
 
 ## Examples
 
+In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly.
+
+```csharp
+[C#]
+
+License license = new License();
+license.SetLicense("MyLicense.lic");
+```
+
 Shows how to load a license for Aspose.Note from a file.
 
 ```csharp
@@ -82,6 +91,19 @@ public void SetLicense(Stream stream)
 Use this method to load a license from a stream.
 
 ## Examples
+
+```csharp
+[C#]
+
+License license = new License();
+license.SetLicense(myStream);
+
+
+[Visual Basic]
+
+Dim license as License = new License
+license.SetLicense(myStream)
+```
 
 Shows how to load a license for Aspose.Note from a stream.
 

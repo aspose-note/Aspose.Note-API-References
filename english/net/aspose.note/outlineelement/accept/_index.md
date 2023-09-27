@@ -3,7 +3,7 @@ title: OutlineElement.Accept
 second_title: Aspose.Note for .NET API Reference
 description: OutlineElement method. Accepts the visitor of the node
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.note/outlineelement/accept/
 ---
 ## OutlineElement.Accept method
