@@ -26,6 +26,8 @@ Represents a OutlineElement.
 
 | Method | Description |
 | --- | --- |
+| [getAuthorMostRecent()](#getAuthorMostRecent--) | Gets the most recent author of an outline element. |
+| [getAuthorOriginal()](#getAuthorOriginal--) | Gets the original author of an outline element. |
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 | [getCreationTime()](#getCreationTime--) | Gets or sets the creation time. |
@@ -40,6 +42,28 @@ public OutlineElement()
 
 
 Initializes a new instance of the  OutlineElement  class.
+
+### getAuthorMostRecent() {#getAuthorMostRecent--}
+```
+public String getAuthorMostRecent()
+```
+
+
+Gets the most recent author of an outline element.
+
+**Returns:**
+java.lang.String
+
+### getAuthorOriginal() {#getAuthorOriginal--}
+```
+public String getAuthorOriginal()
+```
+
+
+Gets the original author of an outline element.
+
+**Returns:**
+java.lang.String
 
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```
