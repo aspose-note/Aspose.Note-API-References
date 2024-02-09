@@ -21,6 +21,7 @@ Aspose.Note for .NET هي مكتبة فئة تمكّن تطبيقات .NET من 
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Note لمرجع NET API](/note/ar/net/)
+- [Aspose.Note لبرامج .NET API التعليمية](/tutorials/note/ar/net/)
 
 ## Aspose.Note لجافا
 

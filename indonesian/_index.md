@@ -21,6 +21,7 @@ Dengan Aspose.Note untuk .NET, dimungkinkan untuk memprogram dengan file Microso
 
 Ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Aspose.Note untuk Referensi .NET API](/note/id/net/)
+- [Aspose.Catatan untuk Tutorial .NET API](/tutorials/note/id/net/)
 
 ## Aspose.Note untuk Java
 

@@ -21,6 +21,7 @@ Aspose.Note for .NET ile Microsoft Office Otomasyonu olmadan Microsoft OneNote d
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Note for .NET API Referansı](/note/tr/net/)
+- [.NET API Eğitimleri için Aspose.Note](/tutorials/note/tr/net/)
 
 ## Java için Aspose.Note
 

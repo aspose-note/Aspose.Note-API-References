@@ -21,6 +21,7 @@ Aspose.Note для .NET — это библиотека классов, кото
 
 Это ссылки на некоторые полезные ресурсы:
 - [Справочник по API Aspose.Note для .NET](/note/ru/net/)
+- [Учебные пособия по Aspose.Note для .NET API](/tutorials/note/ru/net/)
 
 ## Aspose.Note для Java
 

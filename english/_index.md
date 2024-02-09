@@ -21,6 +21,7 @@ With Aspose.Note for .NET, it is possible to program with Microsoft OneNote file
 
 These are links to some useful resources:
 - [Aspose.Note for .NET API Reference](/note/net/)
+- [Aspose.Note for .NET API Tutorials](/tutorials/note/net/)
 
 ## Aspose.Note for Java
 

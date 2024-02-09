@@ -21,6 +21,7 @@ Aspose.Note for .NET を使用すると、Microsoft Office Automation を使用�
 
 これらは、いくつかの有用なリソースへのリンクです。
 - [Aspose.Note for .NET API リファレンス](/note/ja/net/)
+- [Aspose.Note for .NET API チュートリアル](/tutorials/note/ja/net/)
 
 ## Aspose.Note for Java
 

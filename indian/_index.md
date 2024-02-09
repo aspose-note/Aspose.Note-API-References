@@ -21,6 +21,7 @@ url: /hi/
 
 ये कुछ उपयोगी संसाधनों के लिंक हैं:
 - [Aspose.Note .NET API संदर्भ के लिए](/note/hi/net/)
+- [.NET एपीआई ट्यूटोरियल के लिए Aspose.Note](/tutorials/note/hi/net/)
 
 ## जावा के लिए Aspose.Note
 
