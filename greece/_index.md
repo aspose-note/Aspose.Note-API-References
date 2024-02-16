@@ -37,3 +37,4 @@ url: /el/
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 - [Aspose.Note for Java API Reference](/note/java/)
+- [Aspose.Note for Java API Tutorials](/tutorials/note/el/java/)

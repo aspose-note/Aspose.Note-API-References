@@ -37,3 +37,4 @@ Avec Aspose.Note pour Java, il est possible de programmer avec des fichiers Micr
 
 Voici des liens vers des ressources utiles :
 - [Aspose.Note pour la référence de l'API Java](/note/java/)
+- [Aspose.Note pour les didacticiels de l'API Java](/tutorials/note/fr/java/)

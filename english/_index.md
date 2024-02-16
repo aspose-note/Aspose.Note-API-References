@@ -37,3 +37,4 @@ With Aspose.Note for Java, it is possible to program with Microsoft OneNote file
 
 These are links to some useful resources:
 - [Aspose.Note for Java API Reference](/note/java/)
+- [Aspose.Note for Java API Tutorials](/tutorials/note/java/)

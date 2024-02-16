@@ -37,3 +37,4 @@ Dengan Aspose.Note untuk Java, dimungkinkan untuk memprogram dengan file Microso
 
 Ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Aspose.Note untuk Referensi Java API](/note/java/)
+- [Aspose.Catatan untuk Tutorial Java API](/tutorials/note/id/java/)

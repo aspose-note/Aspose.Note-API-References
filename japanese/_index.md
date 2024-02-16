@@ -37,3 +37,4 @@ Aspose.Note for Java を使用すると、Microsoft Office Automation を使用�
 
 これらは、いくつかの有用なリソースへのリンクです。
 - [Aspose.Note for Java API リファレンス](/note/java/)
+- [Aspose.Note for Java API チュートリアル](/tutorials/note/ja/java/)

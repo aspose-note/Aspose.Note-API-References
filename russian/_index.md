@@ -37,3 +37,4 @@ Aspose.Note для Java — это библиотека классов, кото
 
 Это ссылки на некоторые полезные ресурсы:
 - [Справочник по API Aspose.Note для Java](/note/java/)
+- [Учебные пособия по Aspose.Note для Java API](/tutorials/note/ru/java/)

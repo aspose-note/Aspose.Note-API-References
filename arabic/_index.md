@@ -37,3 +37,4 @@ Aspose.Note for Java عبارة عن مكتبة فئة تتيح لتطبيقات
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Note لمرجع Java API](/note/java/)
+- [Aspose.Note لبرامج Java API التعليمية](/tutorials/note/ar/java/)

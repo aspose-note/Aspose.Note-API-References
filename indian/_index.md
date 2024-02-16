@@ -37,3 +37,4 @@ Aspose.Note for Java के साथ, Microsoft Office Automation के बि
 
 ये कुछ उपयोगी संसाधनों के लिंक हैं:
 - [जावा एपीआई संदर्भ के लिए Aspose.Note](/note/java/)
+- [जावा एपीआई ट्यूटोरियल के लिए Aspose.Note](/tutorials/note/hi/java/)

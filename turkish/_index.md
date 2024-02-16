@@ -37,3 +37,4 @@ Aspose.Note for Java ile Microsoft Office Otomasyonu olmadan Microsoft OneNote d
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Java API Referansı için Aspose.Note](/note/java/)
+- [Java API Eğitimleri için Aspose.Note](/tutorials/note/tr/java/)
