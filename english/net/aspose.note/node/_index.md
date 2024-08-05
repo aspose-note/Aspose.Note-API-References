@@ -3,7 +3,7 @@ title: Class Node
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Node class. The base class for all nodes of an Aspose.Note document
 type: docs
-weight: 400
+weight: 420
 url: /net/aspose.note/node/
 ---
 ## Node class

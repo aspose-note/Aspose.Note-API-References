@@ -3,7 +3,7 @@ title: RichText.Replace
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Replaces all occurrences of a specified Unicode character in this instance with another specified Unicode character
 type: docs
-weight: 200
+weight: 230
 url: /net/aspose.note/richtext/replace/
 ---
 ## Replace(char, char) {#replace}

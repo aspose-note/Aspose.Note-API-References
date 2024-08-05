@@ -3,7 +3,7 @@ title: Class NotebookPdfSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.NotebookPdfSaveOptions class. Allows to specify additional options when rendering notebook pages to PDF
 type: docs
-weight: 830
+weight: 850
 url: /net/aspose.note.saving/notebookpdfsaveoptions/
 ---
 ## NotebookPdfSaveOptions class

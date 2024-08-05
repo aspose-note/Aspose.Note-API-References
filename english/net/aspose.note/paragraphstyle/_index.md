@@ -3,7 +3,7 @@ title: Class ParagraphStyle
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.ParagraphStyle class. Text style settings to be used if there is no matching TextStyle object in Styles collection either this object doesnt specify a needed setting
 type: docs
-weight: 550
+weight: 570
 url: /net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class

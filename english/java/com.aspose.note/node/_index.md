@@ -24,6 +24,7 @@ The base class for all nodes of an Aspose.Note document.
 | [getDocument()](#getDocument--) | Gets the document of the node. |
 | [isComposite()](#isComposite--) | Gets a value indicating whether this node is composite. |
 | [getNodeType()](#getNodeType--) | Gets the node type. |
+| [getNodeId()](#getNodeId--) | Gets the node ID. |
 | [getParentNode()](#getParentNode--) | Gets the parent node. |
 | [getPreviousSibling()](#getPreviousSibling--) | Gets the previous node at the same node tree level. |
 | [getNextSibling()](#getNextSibling--) | Gets the next node at the same node tree level. |
@@ -60,6 +61,16 @@ Gets the node type.
 
 **Returns:**
 int
+### getNodeId() {#getNodeId--}
+```
+public ExtendedGuid getNodeId()
+```
+
+
+Gets the node ID.
+
+**Returns:**
+[ExtendedGuid](../../com.aspose.note/icompositenode)
 ### getParentNode() {#getParentNode--}
 ```
 public ICompositeNode getParentNode()

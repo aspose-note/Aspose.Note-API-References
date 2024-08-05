@@ -3,7 +3,7 @@ title: Enum HtmlImageType
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.Html.HtmlImageType enum. Represents HTML image type
 type: docs
-weight: 660
+weight: 680
 url: /net/aspose.note.saving.html/htmlimagetype/
 ---
 ## HtmlImageType enumeration

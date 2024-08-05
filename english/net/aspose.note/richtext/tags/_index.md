@@ -3,7 +3,7 @@ title: RichText.Tags
 second_title: Aspose.Note for .NET API Reference
 description: RichText property. Gets the list of all tags of a paragraph
 type: docs
-weight: 90
+weight: 120
 url: /net/aspose.note/richtext/tags/
 ---
 ## RichText.Tags property

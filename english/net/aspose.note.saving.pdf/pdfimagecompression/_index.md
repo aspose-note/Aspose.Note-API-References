@@ -3,7 +3,7 @@ title: Enum PdfImageCompression
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.Pdf.PdfImageCompression enum. Specifies the type of compression applied to images in the PDF file
 type: docs
-weight: 890
+weight: 910
 url: /net/aspose.note.saving.pdf/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration

@@ -3,7 +3,7 @@ title: Class PdfImportOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Importing.PdfImportOptions class. Allows to specify options when importing content from PDF document
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.note.importing/pdfimportoptions/
 ---
 ## PdfImportOptions class

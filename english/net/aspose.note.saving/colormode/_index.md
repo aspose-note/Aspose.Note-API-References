@@ -3,7 +3,7 @@ title: Enum ColorMode
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.ColorMode enum. The color mode of the image
 type: docs
-weight: 620
+weight: 640
 url: /net/aspose.note.saving/colormode/
 ---
 ## ColorMode enumeration

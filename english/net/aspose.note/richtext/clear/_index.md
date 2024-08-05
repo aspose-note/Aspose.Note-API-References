@@ -3,7 +3,7 @@ title: RichText.Clear
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Clears content of this instance
 type: docs
-weight: 150
+weight: 180
 url: /net/aspose.note/richtext/clear/
 ---
 ## RichText.Clear method

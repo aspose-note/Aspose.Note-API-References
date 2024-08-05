@@ -3,7 +3,7 @@ title: Class InkWord
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.InkWord class. Represents a ink node containing handwritten text
 type: docs
-weight: 340
+weight: 360
 url: /net/aspose.note/inkword/
 ---
 ## InkWord class

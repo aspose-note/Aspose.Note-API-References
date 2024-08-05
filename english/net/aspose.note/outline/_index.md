@@ -3,7 +3,7 @@ title: Class Outline
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Outline class. Represents a Outline
 type: docs
-weight: 490
+weight: 510
 url: /net/aspose.note/outline/
 ---
 ## Outline class

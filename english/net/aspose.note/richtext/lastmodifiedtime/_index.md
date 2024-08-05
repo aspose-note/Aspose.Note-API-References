@@ -3,7 +3,7 @@ title: RichText.LastModifiedTime
 second_title: Aspose.Note for .NET API Reference
 description: RichText property. Gets or sets the last modified time
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.note/richtext/lastmodifiedtime/
 ---
 ## RichText.LastModifiedTime property

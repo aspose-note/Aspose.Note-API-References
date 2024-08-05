@@ -3,7 +3,7 @@ title: RichText.AppendFront
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Adds a string to the front of the first text range
 type: docs
-weight: 140
+weight: 170
 url: /net/aspose.note/richtext/appendfront/
 ---
 ## AppendFront(string) {#appendfront}

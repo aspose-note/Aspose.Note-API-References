@@ -3,7 +3,7 @@ title: RichText.TextRuns
 second_title: Aspose.Note for .NET API Reference
 description: RichText property. Gets the collection of text runs
 type: docs
-weight: 110
+weight: 140
 url: /net/aspose.note/richtext/textruns/
 ---
 ## RichText.TextRuns property
