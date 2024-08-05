@@ -3,7 +3,7 @@ title: Class ParsingErrorInfo
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.ParsingErrorInfo class. Information about the error that occurred during parsing
 type: docs
-weight: 560
+weight: 580
 url: /net/aspose.note/parsingerrorinfo/
 ---
 ## ParsingErrorInfo class

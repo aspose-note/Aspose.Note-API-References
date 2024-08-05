@@ -3,7 +3,7 @@ title: Class InkParagraph
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.InkParagraph class. Represents a ink node containing handwritten text with additional properties like slanted writing
 type: docs
-weight: 330
+weight: 350
 url: /net/aspose.note/inkparagraph/
 ---
 ## InkParagraph class

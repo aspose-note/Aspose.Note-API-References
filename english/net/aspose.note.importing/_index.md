@@ -12,6 +12,8 @@ The Importing namespace contains classes providing api to import content from do
 
 | Class | Description |
 | --- | --- |
+| [HtmlImporter](./htmlimporter/) | The class providing api to import content from documents in HTML format. The api allows to import from HTML document located either in a file or in a stream using specified options. The import options are passed using [`HtmlImportOptions`](../aspose.note.importing/htmlimportoptions/). |
+| [HtmlImportOptions](./htmlimportoptions/) | Allows to specify options when importing content from HTML document. |
 | [PdfImporter](./pdfimporter/) | The class providing api to import content from documents in PDF format. The api allows to import from PDF document located either in a file or in a stream using specified options. The import options are passed using [`PdfImportOptions`](../aspose.note.importing/pdfimportoptions/). |
 | [PdfImportOptions](./pdfimportoptions/) | Allows to specify options when importing content from PDF document. |
 

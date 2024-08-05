@@ -3,7 +3,7 @@ title: RichText.TrimStart
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Removes all the leading occurrences of a set of characters specified in an array
 type: docs
-weight: 230
+weight: 260
 url: /net/aspose.note/richtext/trimstart/
 ---
 ## TrimStart(params char[]) {#trimstart_2}

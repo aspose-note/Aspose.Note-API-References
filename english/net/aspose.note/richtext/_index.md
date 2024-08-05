@@ -3,7 +3,7 @@ title: Class RichText
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.RichText class. Represents a rich text
 type: docs
-weight: 580
+weight: 600
 url: /net/aspose.note/richtext/
 ---
 ## RichText class
@@ -27,6 +27,9 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | Gets or sets the alignment. |
 | [Document](../../aspose.note/node/document/) { get; } | Gets the document of the node. |
 | virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
+| [IsTitleDate](../../aspose.note/richtext/istitledate/) { get; } | Gets a value indicating whether the RichText element contains the date in the page title. |
+| [IsTitleText](../../aspose.note/richtext/istitletext/) { get; } | Gets a value indicating whether the RichText element contains the text of the page title. |
+| [IsTitleTime](../../aspose.note/richtext/istitletime/) { get; } | Gets a value indicating whether the RichText element contains the time in the page title. |
 | [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | Gets or sets the last modified time. |
 | [Length](../../aspose.note/richtext/length/) { get; } | Gets the length of the text. |
 | [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | Gets or sets the line spacing. |

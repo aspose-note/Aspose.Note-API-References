@@ -3,7 +3,7 @@ title: RichText.Length
 second_title: Aspose.Note for .NET API Reference
 description: RichText property. Gets the length of the text
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.note/richtext/length/
 ---
 ## RichText.Length property

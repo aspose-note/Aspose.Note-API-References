@@ -3,7 +3,7 @@ title: Class NoteCheckBox
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.NoteCheckBox class. Represents a note tag that can toggle their state between complete and incomplete
 type: docs
-weight: 420
+weight: 440
 url: /net/aspose.note/notecheckbox/
 ---
 ## NoteCheckBox class

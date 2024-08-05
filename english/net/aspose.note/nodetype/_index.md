@@ -3,7 +3,7 @@ title: Enum NodeType
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.NodeType enum. Specifies the type of the node
 type: docs
-weight: 410
+weight: 430
 url: /net/aspose.note/nodetype/
 ---
 ## NodeType enumeration

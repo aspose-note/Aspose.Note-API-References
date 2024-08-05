@@ -3,7 +3,7 @@ title: Enum BinarizationMethod
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.BinarizationMethod enum. Specifies binarization method for an image
 type: docs
-weight: 610
+weight: 630
 url: /net/aspose.note.saving/binarizationmethod/
 ---
 ## BinarizationMethod enumeration

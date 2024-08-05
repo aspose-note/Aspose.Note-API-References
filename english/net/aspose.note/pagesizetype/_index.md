@@ -3,7 +3,7 @@ title: Enum PageSizeType
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.PageSizeType enum. Specifies the size of the page node type
 type: docs
-weight: 540
+weight: 560
 url: /net/aspose.note/pagesizetype/
 ---
 ## PageSizeType enumeration

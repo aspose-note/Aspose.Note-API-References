@@ -56,6 +56,7 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Accepts the visitor of the node. |
+| [Replace](../../aspose.note/image/replace/)(Image) | Replaces the current image data with the data from the provided Image object. |
 
 ## Examples
 

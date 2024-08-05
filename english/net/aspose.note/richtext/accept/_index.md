@@ -3,7 +3,7 @@ title: RichText.Accept
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Accepts the visitor of the node
 type: docs
-weight: 120
+weight: 150
 url: /net/aspose.note/richtext/accept/
 ---
 ## RichText.Accept method

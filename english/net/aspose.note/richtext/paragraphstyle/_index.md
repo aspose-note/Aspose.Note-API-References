@@ -3,7 +3,7 @@ title: RichText.ParagraphStyle
 second_title: Aspose.Note for .NET API Reference
 description: RichText property. Gets or sets the paragraph style. These settings are used if there is no matching TextStyle object in Styles collection either this object doesnt specify a needed setting
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.note/richtext/paragraphstyle/
 ---
 ## RichText.ParagraphStyle property

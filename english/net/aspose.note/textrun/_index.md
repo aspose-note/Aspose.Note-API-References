@@ -3,7 +3,7 @@ title: Class TextRun
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TextRun class. The class representing a piece of text with associated style
 type: docs
-weight: 1010
+weight: 1030
 url: /net/aspose.note/textrun/
 ---
 ## TextRun class

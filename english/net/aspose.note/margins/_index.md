@@ -3,7 +3,7 @@ title: Struct Margins
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Margins struct. Specifies the dimensions of the margins of a node
 type: docs
-weight: 370
+weight: 390
 url: /net/aspose.note/margins/
 ---
 ## Margins structure

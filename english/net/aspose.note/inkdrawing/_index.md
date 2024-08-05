@@ -3,7 +3,7 @@ title: Class InkDrawing
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.InkDrawing class. Represents a ink node containing any drawn content
 type: docs
-weight: 310
+weight: 330
 url: /net/aspose.note/inkdrawing/
 ---
 ## InkDrawing class

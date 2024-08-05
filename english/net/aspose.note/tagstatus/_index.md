@@ -3,7 +3,7 @@ title: Enum TagStatus
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TagStatus enum. Specifies the status of the note tag node
 type: docs
-weight: 1000
+weight: 1020
 url: /net/aspose.note/tagstatus/
 ---
 ## TagStatus enumeration

@@ -3,7 +3,7 @@ title: RichText.Insert
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Inserts a specified string at a specified index position in this instance
 type: docs
-weight: 180
+weight: 210
 url: /net/aspose.note/richtext/insert/
 ---
 ## Insert(int, string) {#insert}

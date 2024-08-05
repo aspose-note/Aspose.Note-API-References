@@ -3,7 +3,7 @@ title: Class PageSplittingAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.PageSplittingAlgorithm class. Base class for splitting an object in case it doesnt fit in original page
 type: docs
-weight: 880
+weight: 900
 url: /net/aspose.note.saving/pagesplittingalgorithm/
 ---
 ## PageSplittingAlgorithm class

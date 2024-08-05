@@ -3,7 +3,7 @@ title: Class TableRow
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TableRow class. Represents a table row
 type: docs
-weight: 980
+weight: 1000
 url: /net/aspose.note/tablerow/
 ---
 ## TableRow class

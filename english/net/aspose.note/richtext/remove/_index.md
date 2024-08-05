@@ -3,7 +3,7 @@ title: RichText.Remove
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Removes specified number of characters in the current instance beginning at a specified position
 type: docs
-weight: 190
+weight: 220
 url: /net/aspose.note/richtext/remove/
 ---
 ## Remove(int, int) {#remove_1}

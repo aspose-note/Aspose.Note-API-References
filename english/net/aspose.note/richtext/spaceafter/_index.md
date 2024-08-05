@@ -3,7 +3,7 @@ title: RichText.SpaceAfter
 second_title: Aspose.Note for .NET API Reference
 description: RichText property. Gets or sets the minimum amount of space after
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.note/richtext/spaceafter/
 ---
 ## RichText.SpaceAfter property

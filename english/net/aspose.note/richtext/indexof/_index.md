@@ -3,7 +3,7 @@ title: RichText.IndexOf
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Returns the zerobased index of the first occurrence of the specified string in the current instance
 type: docs
-weight: 170
+weight: 200
 url: /net/aspose.note/richtext/indexof/
 ---
 ## IndexOf(string, int, int, StringComparison) {#indexof_6}

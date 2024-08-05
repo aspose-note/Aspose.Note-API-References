@@ -3,7 +3,7 @@ title: RichText.Append
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Adds a string to the end
 type: docs
-weight: 130
+weight: 160
 url: /net/aspose.note/richtext/append/
 ---
 ## Append(string, TextStyle) {#append_1}

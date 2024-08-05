@@ -3,7 +3,7 @@ title: RichText.TrimEnd
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Removes all the trailing occurrences of a set of characters specified in an array
 type: docs
-weight: 220
+weight: 250
 url: /net/aspose.note/richtext/trimend/
 ---
 ## TrimEnd(params char[]) {#trimend_2}

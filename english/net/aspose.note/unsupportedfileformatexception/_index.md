@@ -3,7 +3,7 @@ title: Class UnsupportedFileFormatException
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.UnsupportedFileFormatException class. Thrown during document load when the file format is not recognized or not supported by Aspose.Note
 type: docs
-weight: 1040
+weight: 1060
 url: /net/aspose.note/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class

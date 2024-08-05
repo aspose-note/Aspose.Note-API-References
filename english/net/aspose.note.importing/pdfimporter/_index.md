@@ -3,7 +3,7 @@ title: Class PdfImporter
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Importing.PdfImporter class. The class providing api to import content from documents in PDF format. The api allows to import from PDF document located either in a file or in a stream using specified options. The import options are passed using PdfImportOptions
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.note.importing/pdfimporter/
 ---
 ## PdfImporter class

@@ -3,7 +3,7 @@ title: RichText.Trim
 second_title: Aspose.Note for .NET API Reference
 description: RichText method. Removes all leading and trailing occurrences of a set of characters specified in an array
 type: docs
-weight: 210
+weight: 240
 url: /net/aspose.note/richtext/trim/
 ---
 ## Trim(params char[]) {#trim_2}

@@ -3,7 +3,7 @@ title: RichText.Text
 second_title: Aspose.Note for .NET API Reference
 description: RichText property. Gets or sets the text. The string MUST NOT contain any characters of the value 10 line feed
 type: docs
-weight: 100
+weight: 130
 url: /net/aspose.note/richtext/text/
 ---
 ## RichText.Text property

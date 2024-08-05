@@ -3,7 +3,7 @@ title: Enum TagIcon
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TagIcon enum. Specifies the icon of tag or task icon
 type: docs
-weight: 990
+weight: 1010
 url: /net/aspose.note/tagicon/
 ---
 ## TagIcon enumeration
