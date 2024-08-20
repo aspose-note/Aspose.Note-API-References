@@ -54,8 +54,10 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
 | [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
 | [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | Gets the [`PageHistory`](../pagehistory/) which contains full history for each page presented in a document (the earliest at index 0). The current page revision can be accessed as [`Current`](../pagehistory/current/) and contained separately from collection of historical versions. |
-| [Import](../../aspose.note/document/import/#import)(Stream, PdfImportOptions, MergeOptions) | Imports a set of pages from provided PDF document. |
-| [Import](../../aspose.note/document/import/#import_1)(string, PdfImportOptions, MergeOptions) | Imports a set of pages from provided PDF document. |
+| [Import](../../aspose.note/document/import/#import)(Stream, HtmlImportOptions, MergeOptions) | Imports a set of pages from provided HTML document. |
+| [Import](../../aspose.note/document/import/#import_1)(Stream, PdfImportOptions, MergeOptions) | Imports a set of pages from provided PDF document. |
+| [Import](../../aspose.note/document/import/#import_2)(string, HtmlImportOptions, MergeOptions) | Imports a set of pages from provided HTML document. |
+| [Import](../../aspose.note/document/import/#import_3)(string, PdfImportOptions, MergeOptions) | Imports a set of pages from provided PDF document. |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
 | [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Page&gt;) |  |
 | [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Page[]) |  |
