@@ -20,12 +20,6 @@ public class HtmlImportOptions
 | --- | --- |
 | [HtmlImportOptions](htmlimportoptions/)() | The default constructor. |
 
-## Properties
-
-| Name | Description |
-| --- | --- |
-| [Password](../../aspose.note.importing/htmlimportoptions/password/) { get; set; } | Gets or sets a password to decrypt the document content. |
-
 ### See Also
 
 * namespace [Aspose.Note.Importing](../../aspose.note.importing/)

@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /net/aspose.note/document/import/
 ---
-## Import(Stream, PdfImportOptions, MergeOptions) {#import}
+## Import(Stream, PdfImportOptions, MergeOptions) {#import_1}
 
 Imports a set of pages from provided PDF document.
 
@@ -35,7 +35,7 @@ Returns the reference to the document.
 
 ---
 
-## Import(string, PdfImportOptions, MergeOptions) {#import_1}
+## Import(string, PdfImportOptions, MergeOptions) {#import_3}
 
 Imports a set of pages from provided PDF document.
 
@@ -106,6 +106,64 @@ d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ### See Also
 
 * class [PdfImportOptions](../../../aspose.note.importing/pdfimportoptions/)
+* class [MergeOptions](../../mergeoptions/)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## Import(Stream, HtmlImportOptions, MergeOptions) {#import}
+
+Imports a set of pages from provided HTML document.
+
+```csharp
+public Document Import(Stream stream, HtmlImportOptions importOptions, 
+    MergeOptions mergeOptions = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | A stream with HTML document. |
+| importOptions | HtmlImportOptions | Specifies the options how to import pages from HTML document. |
+| mergeOptions | MergeOptions | Specifies the options how to merge provided pages. |
+
+### Return Value
+
+Returns the reference to the document.
+
+### See Also
+
+* class [HtmlImportOptions](../../../aspose.note.importing/htmlimportoptions/)
+* class [MergeOptions](../../mergeoptions/)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## Import(string, HtmlImportOptions, MergeOptions) {#import_2}
+
+Imports a set of pages from provided HTML document.
+
+```csharp
+public Document Import(string file, HtmlImportOptions importOptions, 
+    MergeOptions mergeOptions = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | A file with HTML document. |
+| importOptions | HtmlImportOptions | Specifies the options how to import pages from HTML document. |
+| mergeOptions | MergeOptions | Specifies the options how to merge provided pages. |
+
+### Return Value
+
+Returns the reference to the document.
+
+### See Also
+
+* class [HtmlImportOptions](../../../aspose.note.importing/htmlimportoptions/)
 * class [MergeOptions](../../mergeoptions/)
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
