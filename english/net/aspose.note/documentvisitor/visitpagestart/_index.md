@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitPageStart
 second_title: Aspose.Note for .NET API Reference
 description: DocumentVisitor method. Start to visit the Page node
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.note/documentvisitor/visitpagestart/
 ---
 ## DocumentVisitor.VisitPageStart method

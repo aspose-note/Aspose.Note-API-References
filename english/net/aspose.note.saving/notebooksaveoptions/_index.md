@@ -3,7 +3,7 @@ title: Class NotebookSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.NotebookSaveOptions class. An abstract base class which represents notebook saving options for a particular format
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.note.saving/notebooksaveoptions/
 ---
 ## NotebookSaveOptions class

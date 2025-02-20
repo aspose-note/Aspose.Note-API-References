@@ -3,7 +3,7 @@ title: Enum ResourceExportType
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.Html.ResourceExportType enum. Enumerates ways a resource can be exported
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.note.saving.html/resourceexporttype/
 ---
 ## ResourceExportType enumeration

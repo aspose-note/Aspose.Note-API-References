@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitOutlineGroupEnd
 second_title: Aspose.Note for .NET API Reference
 description: DocumentVisitor method. End to visit the OutlineGroup node
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.note/documentvisitor/visitoutlinegroupend/
 ---
 ## DocumentVisitor.VisitOutlineGroupEnd method

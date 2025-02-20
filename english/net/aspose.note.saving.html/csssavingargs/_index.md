@@ -3,7 +3,7 @@ title: Class CssSavingArgs
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.Html.CssSavingArgs class. Provides data for CssSaving event
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.note.saving.html/csssavingargs/
 ---
 ## CssSavingArgs class

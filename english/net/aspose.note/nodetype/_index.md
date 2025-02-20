@@ -3,7 +3,7 @@ title: Enum NodeType
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.NodeType enum. Specifies the type of the node
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.note/nodetype/
 ---
 ## NodeType enumeration
@@ -35,6 +35,7 @@ public enum NodeType
 | InkDrawing | `14` | Specifies that the node is a InkDrawing. |
 | InkParagraph | `15` | Specifies that the node is a InkParagraph. |
 | InkWord | `16` | Specifies that the node is a InkWord. |
+| Loop | `17` | Specifies that the node is a Loop. |
 
 ### See Also
 
