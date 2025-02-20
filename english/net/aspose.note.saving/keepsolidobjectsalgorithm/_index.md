@@ -3,7 +3,7 @@ title: Class KeepSolidObjectsAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.KeepSolidObjectsAlgorithm class. Shifts full object to the next page in case it doesnt fit in original page
 type: docs
-weight: 810
+weight: 820
 url: /net/aspose.note.saving/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm class

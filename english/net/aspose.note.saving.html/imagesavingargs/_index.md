@@ -3,7 +3,7 @@ title: Class ImageSavingArgs
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.Html.ImageSavingArgs class. Provides data for ImageSaving event
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.note.saving.html/imagesavingargs/
 ---
 ## ImageSavingArgs class

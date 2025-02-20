@@ -3,7 +3,7 @@ title: Class Table
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Table class. Represents a table
 type: docs
-weight: 970
+weight: 980
 url: /net/aspose.note/table/
 ---
 ## Table class

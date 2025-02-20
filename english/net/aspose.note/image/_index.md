@@ -11,7 +11,7 @@ url: /net/aspose.note/image/
 Represents an Image.
 
 ```csharp
-public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITaggable
+public sealed class Image : CompositeNode<Loop>, IOutlineElementChildNode, IPageChildNode, ITaggable
 ```
 
 ## Constructors
@@ -34,12 +34,14 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | [Document](../../aspose.note/node/document/) { get; } | Gets the document of the node. |
 | [FileName](../../aspose.note/image/filename/) { get; } | Gets the file name. |
 | [FilePath](../../aspose.note/image/filepath/) { get; } | Gets the path to the image file. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
 | [Format](../../aspose.note/image/format/) { get; } | Gets the image's format. |
 | [Height](../../aspose.note/image/height/) { get; set; } | Gets or sets the height. This is the real height of the image in the MS OneNote document. |
 | [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | Gets or sets the horizontal offset. |
 | [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | Gets or sets the hyperlink associated with the image. |
 | [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | Gets whether the image is a background image. |
-| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | Gets a value indicating whether this node is composite. If true the node can have child nodes. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
 | [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | Gets or sets last modified time. |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | Gets the next node at the same node tree level. |
 | [NodeType](../../aspose.note/node/nodetype/) { get; } | Gets the node type. |
@@ -56,6 +58,14 @@ public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | Name | Description |
 | --- | --- |
 | override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | Accepts the visitor of the node. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Loop&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Loop[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 | [Replace](../../aspose.note/image/replace/)(Image) | Replaces the current image data with the data from the provided Image object. |
 
 ## Examples
@@ -300,7 +310,8 @@ doc.Save(dataDir);
 
 ### See Also
 
-* class [Node](../node/)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Loop](../loop/)
 * interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
 * interface [IPageChildNode](../ipagechildnode/)
 * interface [ITaggable](../itaggable/)

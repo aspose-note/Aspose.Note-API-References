@@ -3,7 +3,7 @@ title: Class PageSettings
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.PageSettings class. Represents the layout settings for a page
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.note.saving/pagesettings/
 ---
 ## PageSettings class

@@ -3,7 +3,7 @@ title: Class AlwaysSplitObjectsAlgorithm
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.AlwaysSplitObjectsAlgorithm class. Splits an object into several parts in case it doesnt fit in original page
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.note.saving/alwayssplitobjectsalgorithm/
 ---
 ## AlwaysSplitObjectsAlgorithm class

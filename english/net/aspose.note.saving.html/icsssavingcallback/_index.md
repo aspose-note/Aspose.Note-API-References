@@ -3,7 +3,7 @@ title: Interface ICssSavingCallback
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.Html.ICssSavingCallback interface. Implement this interface if you want to control how Aspose.Note saves CSS Cascading Style Sheet when saving a document to HTML
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.note.saving.html/icsssavingcallback/
 ---
 ## ICssSavingCallback interface

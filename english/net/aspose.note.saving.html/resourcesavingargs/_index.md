@@ -3,7 +3,7 @@ title: Class ResourceSavingArgs
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.Html.ResourceSavingArgs class. Provides data for ResourceSaving event
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.note.saving.html/resourcesavingargs/
 ---
 ## ResourceSavingArgs class

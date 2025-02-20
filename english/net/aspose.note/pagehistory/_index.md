@@ -3,7 +3,7 @@ title: Class PageHistory
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.PageHistory class. Represents the page history
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.note/pagehistory/
 ---
 ## PageHistory class

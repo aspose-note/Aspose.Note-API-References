@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitOutlineElementEnd
 second_title: Aspose.Note for .NET API Reference
 description: DocumentVisitor method. End to visit the OutlineElement node
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.note/documentvisitor/visitoutlineelementend/
 ---
 ## DocumentVisitor.VisitOutlineElementEnd method

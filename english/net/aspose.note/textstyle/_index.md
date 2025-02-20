@@ -3,7 +3,7 @@ title: Class TextStyle
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TextStyle class. Specifies the text style
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.note/textstyle/
 ---
 ## TextStyle class

@@ -30,6 +30,7 @@ The Note namespace contains classes which represent document structure.
 | [InkWord](./inkword/) | Represents a ink node containing handwritten text. |
 | [License](./license/) | Provides methods to license the component. |
 | [LoadOptions](./loadoptions/) | Options used to load a document. |
+| [Loop](./loop/) | Represents a loop. |
 | [MergeOptions](./mergeoptions/) | The options for merging a collection of pages. |
 | [Metered](./metered/) | Provides methods to set metered key. |
 | [Node](./node/) | The base class for all nodes of an Aspose.Note document. |

@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitOutlineGroupStart
 second_title: Aspose.Note for .NET API Reference
 description: DocumentVisitor method. Start to visit the OutlineGroup node
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.note/documentvisitor/visitoutlinegroupstart/
 ---
 ## DocumentVisitor.VisitOutlineGroupStart method

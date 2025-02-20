@@ -3,7 +3,7 @@ title: Class NotebookOneSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.NotebookOneSaveOptions class. Allows to specify additional options when saving notebook to OneNote format
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.note.saving/notebookonesaveoptions/
 ---
 ## NotebookOneSaveOptions class

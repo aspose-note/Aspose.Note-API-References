@@ -3,7 +3,7 @@ title: Enum SaveFormat
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.SaveFormat enum. Indicates the format in which the document is saved
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.note/saveformat/
 ---
 ## SaveFormat enumeration
