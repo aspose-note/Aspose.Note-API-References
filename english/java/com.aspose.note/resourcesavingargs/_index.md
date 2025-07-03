@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Note for Java API Reference
 description: Provides data for ResourceSaving event.
 type: docs
-weight: 70
+weight: 80
 url: /java/com.aspose.note/resourcesavingargs/
 ---
 
@@ -20,11 +20,11 @@ Provides data for ResourceSaving event.
 | --- | --- |
 | [getDocument()](#getDocument--) | Gets the saving document. |
 | [getFileName()](#getFileName--) | Gets the file name. |
-| [getStream()](#getStream--) | Gets or sets the stream used to store the resource. |
-| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | Gets or sets the stream used to store the resource. |
 | [getKeepStreamOpen()](#getKeepStreamOpen--) | Gets or sets a value indicating whether keep stream open. |
-| [setKeepStreamOpen(boolean value)](#setKeepStreamOpen-boolean-) | Gets or sets a value indicating whether keep stream open. |
+| [getStream()](#getStream--) | Gets or sets the stream used to store the resource. |
 | [getUri()](#getUri--) | Gets or sets the uri to access stored resource. |
+| [setKeepStreamOpen(boolean value)](#setKeepStreamOpen-boolean-) | Gets or sets a value indicating whether keep stream open. |
+| [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | Gets or sets the stream used to store the resource. |
 | [setUri(String value)](#setUri-java.lang.String-) | Gets or sets the uri to access stored resource. |
 ### getDocument() {#getDocument--}
 ```
@@ -46,29 +46,6 @@ Gets the file name.
 
 **Returns:**
 java.lang.String
-### getStream() {#getStream--}
-```
-public final OutputStream getStream()
-```
-
-
-Gets or sets the stream used to store the resource.
-
-**Returns:**
-java.io.OutputStream
-### setStream(OutputStream value) {#setStream-java.io.OutputStream-}
-```
-public final void setStream(OutputStream value)
-```
-
-
-Gets or sets the stream used to store the resource.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.io.OutputStream |  |
-
 ### getKeepStreamOpen() {#getKeepStreamOpen--}
 ```
 public final boolean getKeepStreamOpen()
@@ -79,6 +56,26 @@ Gets or sets a value indicating whether keep stream open.
 
 **Returns:**
 boolean
+### getStream() {#getStream--}
+```
+public final OutputStream getStream()
+```
+
+
+Gets or sets the stream used to store the resource.
+
+**Returns:**
+java.io.OutputStream
+### getUri() {#getUri--}
+```
+public final String getUri()
+```
+
+
+Gets or sets the uri to access stored resource.
+
+**Returns:**
+java.lang.String
 ### setKeepStreamOpen(boolean value) {#setKeepStreamOpen-boolean-}
 ```
 public final void setKeepStreamOpen(boolean value)
@@ -92,16 +89,19 @@ Gets or sets a value indicating whether keep stream open.
 | --- | --- | --- |
 | value | boolean |  |
 
-### getUri() {#getUri--}
+### setStream(OutputStream value) {#setStream-java.io.OutputStream-}
 ```
-public final String getUri()
+public final void setStream(OutputStream value)
 ```
 
 
-Gets or sets the uri to access stored resource.
+Gets or sets the stream used to store the resource.
 
-**Returns:**
-java.lang.String
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.io.OutputStream |  |
+
 ### setUri(String value) {#setUri-java.lang.String-}
 ```
 public final void setUri(String value)

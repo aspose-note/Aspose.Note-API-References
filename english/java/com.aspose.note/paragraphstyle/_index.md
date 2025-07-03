@@ -3,7 +3,7 @@ title: ParagraphStyle
 second_title: Aspose.Note for Java API Reference
 description: Text style settings to be used if there is no matching TextStyle object in  collection either this object doesnt specify a needed setting.
 type: docs
-weight: 65
+weight: 75
 url: /java/com.aspose.note/paragraphstyle/
 ---
 
@@ -26,9 +26,9 @@ Text style settings to be used if there is no matching TextStyle object in [Rich
 
 | Method | Description |
 | --- | --- |
-| [getDefault()](#getDefault--) | Gets the ParagraphStyle with default settings. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
 | [equals(ParagraphStyle other)](#equals-com.aspose.note.ParagraphStyle-) | Determines whether the specified object is equal to the current object. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [getDefault()](#getDefault--) | Gets the ParagraphStyle with default settings. |
 | [hashCode()](#hashCode--) | Serves as a hash function for the type. |
 ### ParagraphStyle() {#ParagraphStyle--}
 ```
@@ -38,31 +38,6 @@ public ParagraphStyle()
 
 Initializes a new instance of the [ParagraphStyle](../../com.aspose.note/paragraphstyle) class.
 
-### getDefault() {#getDefault--}
-```
-public static ParagraphStyle getDefault()
-```
-
-
-Gets the ParagraphStyle with default settings.
-
-**Returns:**
-[ParagraphStyle](../../com.aspose.note/paragraphstyle)
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Determines whether the specified object is equal to the current object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | The object. |
-
-**Returns:**
-boolean - The  boolean .
 ### equals(ParagraphStyle other) {#equals-com.aspose.note.ParagraphStyle-}
 ```
 public final boolean equals(ParagraphStyle other)
@@ -77,7 +52,32 @@ Determines whether the specified object is equal to the current object.
 | other | [ParagraphStyle](../../com.aspose.note/paragraphstyle) | The object. |
 
 **Returns:**
-boolean - The  boolean .
+boolean - The `boolean`.
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified object is equal to the current object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The object. |
+
+**Returns:**
+boolean - The `boolean`.
+### getDefault() {#getDefault--}
+```
+public static ParagraphStyle getDefault()
+```
+
+
+Gets the ParagraphStyle with default settings.
+
+**Returns:**
+[ParagraphStyle](../../com.aspose.note/paragraphstyle)
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -87,4 +87,4 @@ public int hashCode()
 Serves as a hash function for the type.
 
 **Returns:**
-int - The  int .
+int - The `int`.

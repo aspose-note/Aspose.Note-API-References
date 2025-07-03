@@ -18,16 +18,16 @@ The color mode of the image.
 
 | Field | Description |
 | --- | --- |
-| [Normal](#Normal) | Full color image |
-| [GrayScale](#GrayScale) | Gray scale image |
 | [BlackAndWhite](#BlackAndWhite) | Binary image: only black and white colors are used |
-### Normal {#Normal}
+| [GrayScale](#GrayScale) | Gray scale image |
+| [Normal](#Normal) | Full color image |
+### BlackAndWhite {#BlackAndWhite}
 ```
-public static final int Normal
+public static final int BlackAndWhite
 ```
 
 
-Full color image
+Binary image: only black and white colors are used
 
 ### GrayScale {#GrayScale}
 ```
@@ -37,11 +37,11 @@ public static final int GrayScale
 
 Gray scale image
 
-### BlackAndWhite {#BlackAndWhite}
+### Normal {#Normal}
 ```
-public static final int BlackAndWhite
+public static final int Normal
 ```
 
 
-Binary image: only black and white colors are used
+Full color image
 

@@ -8,7 +8,7 @@ url: /java/com.aspose.note/
 ---
 
 
-The  com.aspose.note  namespace contains classes which represent document structure.
+The `com.aspose.note` namespace contains classes which represent document structure.
 
 
 ## Classes
@@ -20,13 +20,21 @@ The  com.aspose.note  namespace contains classes which represent document struct
 | [BinarizationMethod](../com.aspose.note/binarizationmethod) | Specifies binarization method for an image. |
 | [CheckBox](../com.aspose.note/checkbox) | The base class for tags that can toggle their state between complete and incomplete. |
 | [ColorMode](../com.aspose.note/colormode) | The color mode of the image. |
-| [CompositeNode<T>](../com.aspose.note/compositenode) | The base generic class for nodes that can contain other nodes. |
+| [CompositeNode&lt;T&gt;](../com.aspose.note/compositenode) | The base generic class for nodes that can contain other nodes. |
 | [CompositeNodeBase](../com.aspose.note/compositenodebase) | The non-generic class for nodes that can contain other nodes. |
 | [CssSavingArgs](../com.aspose.note/csssavingargs) | Provides data for CssSaving event. |
+| [DefaultMsOneNoteValuesAccessor](../com.aspose.note/defaultmsonenotevaluesaccessor) |  |
 | [DisplayUnitsConverter](../com.aspose.note/displayunitsconverter) | The class contains the methods for converting values. |
 | [Document](../com.aspose.note/document) | Represents an Aspose.Note document. |
 | [DocumentPrintAttributeSet](../com.aspose.note/documentprintattributeset) | Represents helper class with user-friednly interface to with AttributeSet. |
 | [DocumentVisitor](../com.aspose.note/documentvisitor) | The abstract class for iterating through subtree with root at the specified node. |
+| [ExtendedApsDocument](../com.aspose.note/extendedapsdocument) | Represents a full one-note document, consisted from Pages translated into page sets. |
+| [ExtendedApsGlyphs](../com.aspose.note/extendedapsglyphs) | Represents wrapper for standard ApsGlyphs, which extends some of the drawing behavior. |
+| [ExtendedApsImage](../com.aspose.note/extendedapsimage) | Represents a wrapper for the standard ApsImage, which extends some of the drawing behavior. |
+| [ExtendedApsNode](../com.aspose.note/extendedapsnode) | Represents wrapper for a standard ApsNode, which extends some of the drawing behavior. |
+| [ExtendedApsPage](../com.aspose.note/extendedapspage) | Represents a wrapper for the standard ApsGlyphs, which extends some of the drawing behavior. |
+| [ExtendedApsPath](../com.aspose.note/extendedapspath) | Represents a wrapper for the standard ApsPath, which extends some of the drawing behavior. |
+| [ExtendedCompositeNode](../com.aspose.note/extendedcompositenode) | Combines several `IExtendedApsNode` instances. |
 | [FileFormat](../com.aspose.note/fileformat) | Represents OneNote file format. |
 | [FontSavingArgs](../com.aspose.note/fontsavingargs) | Provides data for FontSaving event. |
 | [HtmlSaveOptions](../com.aspose.note/htmlsaveoptions) | Allows to specify additional options when saving document to HTML format. |
@@ -34,7 +42,7 @@ The  com.aspose.note  namespace contains classes which represent document struct
 | [ImageBinarizationOptions](../com.aspose.note/imagebinarizationoptions) | Options for image's binarization. |
 | [ImageSaveOptions](../com.aspose.note/imagesaveoptions) | Allows to specify additional options when rendering document pages to images. |
 | [ImageSavingArgs](../com.aspose.note/imagesavingargs) | Provides data for ImageSaving event. |
-| [IndentatedNode<T,Self>](../com.aspose.note/indentatednode) | The base class for nodes with relative indentation for child nodes. |
+| [IndentatedNode&lt;T,Self&gt;](../com.aspose.note/indentatednode) | The base class for nodes with relative indentation for child nodes. |
 | [InkDrawing](../com.aspose.note/inkdrawing) | Represents a ink node containing any drawn content. |
 | [InkNode](../com.aspose.note/inknode) | Represents a common interface for all ink nodes. |
 | [InkParagraph](../com.aspose.note/inkparagraph) | Represents a ink node containing handwritten text with additional properties like slanted writing. |
@@ -42,8 +50,10 @@ The  com.aspose.note  namespace contains classes which represent document struct
 | [KeepPartAndCloneSolidObjectToNextPageAlgorithm](../com.aspose.note/keeppartandclonesolidobjecttonextpagealgorithm) | Adds object's top part to the bottom of the page and clones full object to the next page in case it doesn't fit in original page. |
 | [KeepSolidObjectsAlgorithm](../com.aspose.note/keepsolidobjectsalgorithm) | Shifts full object to the next page in case it doesn't fit in original page. |
 | [License](../com.aspose.note/license) | Provides methods to license the component. |
+| [LicenseExceptions](../com.aspose.note/licenseexceptions) |  |
 | [LoadOptions](../com.aspose.note/loadoptions) | Options used to load a document. |
 | [LocaleOptions](../com.aspose.note/localeoptions) | LocaleOptions type specifies locale configuration for Aspose.Note. |
+| [Loop](../com.aspose.note/loop) | Represents a loop. |
 | [Margins](../com.aspose.note/margins) | Specifies the dimensions of the margins of a node. |
 | [Metered](../com.aspose.note/metered) | Provides methods to set metered key. |
 | [Node](../com.aspose.note/node) | The base class for all nodes of an Aspose.Note document. |
@@ -57,7 +67,7 @@ The  com.aspose.note  namespace contains classes which represent document struct
 | [NotebookOneSaveOptions](../com.aspose.note/notebookonesaveoptions) | Allows to specify additional options when saving notebook to OneNote format. |
 | [NotebookPdfSaveOptions](../com.aspose.note/notebookpdfsaveoptions) | Allows to specify additional options when rendering notebook pages to PDF. |
 | [NotebookSaveOptions](../com.aspose.note/notebooksaveoptions) | An abstract base class which represents notebook saving options for a particular format. |
-| [NotebookSaveOptionsGeneric<TDocumentSaveOptions>](../com.aspose.note/notebooksaveoptionsgeneric) | An abstract base class which represents notebook saving options for a particular format and provides common saving options for all document child nodes. |
+| [NotebookSaveOptionsGeneric&lt;TDocumentSaveOptions&gt;](../com.aspose.note/notebooksaveoptionsgeneric) | An abstract base class which represents notebook saving options for a particular format and provides common saving options for all document child nodes. |
 | [NumberFormat](../com.aspose.note/numberformat) | Specifies the numbering format that can be used for a group of automatically numbered objects. |
 | [NumberList](../com.aspose.note/numberlist) | Represents the numbered or bulleted list. |
 | [OneSaveOptions](../com.aspose.note/onesaveoptions) | Allows to specify additional options when saving document to OneNote format. |
@@ -79,8 +89,9 @@ The  com.aspose.note  namespace contains classes which represent document struct
 | [RevisionSummary](../com.aspose.note/revisionsummary) | Represents a summary for node's revision. |
 | [RichText](../com.aspose.note/richtext) | Represents a rich text. |
 | [SaveFormat](../com.aspose.note/saveformat) | Indicates the format in which the document is saved. |
+| [SaveFormatConverter](../com.aspose.note/saveformatconverter) | The save format converter. |
 | [SaveOptions](../com.aspose.note/saveoptions) | An abstract base class which represents document saving options for a particular format. |
-| [Style<T>](../com.aspose.note/style) | This class contains common properties of [ParagraphStyle](../com.aspose.note/paragraphstyle) and [TextStyle](../com.aspose.note/textstyle) classes. |
+| [Style&lt;T&gt;](../com.aspose.note/style) | This class contains common properties of [ParagraphStyle](../com.aspose.note/paragraphstyle) and [TextStyle](../com.aspose.note/textstyle) classes. |
 | [Table](../com.aspose.note/table) | Represents a table. |
 | [TableCell](../com.aspose.note/tablecell) | Represents a table cell. |
 | [TableColumn](../com.aspose.note/tablecolumn) | Represents a table column. |
@@ -96,13 +107,13 @@ The  com.aspose.note  namespace contains classes which represent document struct
 | Interface | Description |
 | --- | --- |
 | [ICompositeNode](../com.aspose.note/icompositenode) | The interface for nodes that can contain other nodes. |
-| [ICompositeNodeT<T>](../com.aspose.note/icompositenodet) | The interface for nodes that can contain other nodes. |
+| [ICompositeNodeT&lt;T&gt;](../com.aspose.note/icompositenodet) | The interface for nodes that can contain other nodes. |
 | [ICssSavingCallback](../com.aspose.note/icsssavingcallback) | Implement this interface if you want to control how Aspose.Note saves CSS (Cascading Style Sheet) when saving a document to HTML. |
 | [IFontSavingCallback](../com.aspose.note/ifontsavingcallback) | Implement this interface if you want to control how Aspose.Note saves fonts when saving a document to HTML. |
 | [IImageSavingCallback](../com.aspose.note/iimagesavingcallback) | Implement this interface if you want to control how Aspose.Note saves images when saving a document to HTML. |
 | [IIndentatedNode](../com.aspose.note/iindentatednode) | The interface for nodes with relative indentation for child nodes. |
 | [INode](../com.aspose.note/inode) | The interface for all nodes of an Aspose.Note document. |
-| [INoteTag](../com.aspose.note/inotetag) | The interface for note tags(i.e. tags that are not associated with Outlook tasks). |
+| [INoteTag](../com.aspose.note/inotetag) | The interface for note tags(i.e. |
 | [INotebookChildNode](../com.aspose.note/inotebookchildnode) | Represents an Aspose.Note notebook's child. |
 | [IOutlineChildNode](../com.aspose.note/ioutlinechildnode) | The interface for all child nodes of an outline node. |
 | [IOutlineElementChildNode](../com.aspose.note/ioutlineelementchildnode) | The interface for all child nodes of an outline element node. |

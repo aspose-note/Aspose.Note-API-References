@@ -3,7 +3,7 @@ title: ImageSavingArgs
 second_title: Aspose.Note for Java API Reference
 description: Provides data for ImageSaving event.
 type: docs
-weight: 28
+weight: 36
 url: /java/com.aspose.note/imagesavingargs/
 ---
 

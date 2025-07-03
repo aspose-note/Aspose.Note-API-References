@@ -3,7 +3,7 @@ title: TableRow
 second_title: Aspose.Note for Java API Reference
 description: Represents a table row.
 type: docs
-weight: 79
+weight: 90
 url: /java/com.aspose.note/tablerow/
 ---
 
@@ -18,21 +18,34 @@ Represents a table row.
 
 | Constructor | Description |
 | --- | --- |
-| [TableRow()](#TableRow--) | Initializes a new instance of the  TableRow  class. |
+| [TableRow()](#TableRow--) | Initializes a new instance of the `TableRow` class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 ### TableRow() {#TableRow--}
 ```
 public TableRow()
 ```
 
 
-Initializes a new instance of the  TableRow  class.
+Initializes a new instance of the `TableRow` class.
+
+### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
+```
+public void accept(DocumentVisitor visitor)
+```
+
+
+Accepts the visitor of the node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
 
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```
@@ -56,17 +69,4 @@ Gets or sets the last modified time.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
-
-### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
-```
-public void accept(DocumentVisitor visitor)
-```
-
-
-Accepts the visitor of the node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
 

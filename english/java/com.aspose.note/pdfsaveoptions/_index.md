@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Note for Java API Reference
 description: Allows to specify additional options when rendering document pages to PDF.
 type: docs
-weight: 67
+weight: 77
 url: /java/com.aspose.note/pdfsaveoptions/
 ---
 
@@ -18,26 +18,26 @@ Allows to specify additional options when rendering document pages to PDF.
 
 | Constructor | Description |
 | --- | --- |
-| [PdfSaveOptions()](#PdfSaveOptions--) | Initializes a new instance of the  PdfSaveOptions  class. |
+| [PdfSaveOptions()](#PdfSaveOptions--) | Initializes a new instance of the `PdfSaveOptions` class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getImageCompression()](#getImageCompression--) | Gets the type of compression applied to images in the PDF file. |
-| [setImageCompression(int value)](#setImageCompression-int-) | Sets the type of compression applied to images in the PDF file. |
 | [getJpegQuality()](#getJpegQuality--) | Gets a value determining the quality of the JPEG images inside PDF document. |
-| [setJpegQuality(int value)](#setJpegQuality-int-) | Sets a value determining the quality of the JPEG images inside PDF document. |
-| [getPageSplittingAlgorithm()](#getPageSplittingAlgorithm--) | Gets or sets algorithm used for page splitting. |
-| [setPageSplittingAlgorithm(PageSplittingAlgorithm value)](#setPageSplittingAlgorithm-com.aspose.note.PageSplittingAlgorithm-) | Gets or sets algorithm used for page splitting. |
 | [getPageSettings()](#getPageSettings--) | Gets or sets the page settings for each page in document. |
+| [getPageSplittingAlgorithm()](#getPageSplittingAlgorithm--) | Gets or sets algorithm used for page splitting. |
+| [setImageCompression(int value)](#setImageCompression-int-) | Sets the type of compression applied to images in the PDF file. |
+| [setJpegQuality(int value)](#setJpegQuality-int-) | Sets a value determining the quality of the JPEG images inside PDF document. |
 | [setPageSettings(PageSettings value)](#setPageSettings-com.aspose.note.PageSettings-) | Gets or sets the page settings for each page in document. |
+| [setPageSplittingAlgorithm(PageSplittingAlgorithm value)](#setPageSplittingAlgorithm-com.aspose.note.PageSplittingAlgorithm-) | Gets or sets algorithm used for page splitting. |
 ### PdfSaveOptions() {#PdfSaveOptions--}
 ```
 public PdfSaveOptions()
 ```
 
 
-Initializes a new instance of the  PdfSaveOptions  class.
+Initializes a new instance of the `PdfSaveOptions` class.
 
 ### getImageCompression() {#getImageCompression--}
 ```
@@ -49,19 +49,6 @@ Gets the type of compression applied to images in the PDF file.
 
 **Returns:**
 int
-### setImageCompression(int value) {#setImageCompression-int-}
-```
-public final void setImageCompression(int value)
-```
-
-
-Sets the type of compression applied to images in the PDF file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### getJpegQuality() {#getJpegQuality--}
 ```
 public final int getJpegQuality()
@@ -76,6 +63,41 @@ The default value is 90.
 
 **Returns:**
 int
+### getPageSettings() {#getPageSettings--}
+```
+public PageSettings getPageSettings()
+```
+
+
+Gets or sets the page settings for each page in document. By default depends on CurrentUICulture, \*US cultures have letter setting, other have A4 settings.
+
+**Returns:**
+[PageSettings](../../com.aspose.note/pagesettings)
+### getPageSplittingAlgorithm() {#getPageSplittingAlgorithm--}
+```
+public PageSplittingAlgorithm getPageSplittingAlgorithm()
+```
+
+
+Gets or sets algorithm used for page splitting.
+
+Value: The `PageSplittingAlgorithm`.
+
+**Returns:**
+[PageSplittingAlgorithm](../../com.aspose.note/pagesplittingalgorithm)
+### setImageCompression(int value) {#setImageCompression-int-}
+```
+public final void setImageCompression(int value)
+```
+
+
+Sets the type of compression applied to images in the PDF file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setJpegQuality(int value) {#setJpegQuality-int-}
 ```
 public final void setJpegQuality(int value)
@@ -93,43 +115,6 @@ The default value is 90.
 | --- | --- | --- |
 | value | int |  |
 
-### getPageSplittingAlgorithm() {#getPageSplittingAlgorithm--}
-```
-public PageSplittingAlgorithm getPageSplittingAlgorithm()
-```
-
-
-Gets or sets algorithm used for page splitting.
-
-Value: The  PageSplittingAlgorithm .
-
-**Returns:**
-[PageSplittingAlgorithm](../../com.aspose.note/pagesplittingalgorithm)
-### setPageSplittingAlgorithm(PageSplittingAlgorithm value) {#setPageSplittingAlgorithm-com.aspose.note.PageSplittingAlgorithm-}
-```
-public void setPageSplittingAlgorithm(PageSplittingAlgorithm value)
-```
-
-
-Gets or sets algorithm used for page splitting.
-
-Value: The  PageSplittingAlgorithm .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [PageSplittingAlgorithm](../../com.aspose.note/pagesplittingalgorithm) |  |
-
-### getPageSettings() {#getPageSettings--}
-```
-public PageSettings getPageSettings()
-```
-
-
-Gets or sets the page settings for each page in document. By default depends on CurrentUICulture, \*US cultures have letter setting, other have A4 settings.
-
-**Returns:**
-[PageSettings](../../com.aspose.note/pagesettings)
 ### setPageSettings(PageSettings value) {#setPageSettings-com.aspose.note.PageSettings-}
 ```
 public void setPageSettings(PageSettings value)
@@ -142,4 +127,19 @@ Gets or sets the page settings for each page in document. By default depends on 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PageSettings](../../com.aspose.note/pagesettings) |  |
+
+### setPageSplittingAlgorithm(PageSplittingAlgorithm value) {#setPageSplittingAlgorithm-com.aspose.note.PageSplittingAlgorithm-}
+```
+public void setPageSplittingAlgorithm(PageSplittingAlgorithm value)
+```
+
+
+Gets or sets algorithm used for page splitting.
+
+Value: The `PageSplittingAlgorithm`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PageSplittingAlgorithm](../../com.aspose.note/pagesplittingalgorithm) |  |
 

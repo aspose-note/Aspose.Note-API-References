@@ -3,7 +3,7 @@ title: KeepPartAndCloneSolidObjectToNextPageAlgorithm
 second_title: Aspose.Note for Java API Reference
 description: Adds objects top part to the bottom of the page and clones full object to the next page in case it doesnt fit in original page.
 type: docs
-weight: 34
+weight: 42
 url: /java/com.aspose.note/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 
@@ -18,8 +18,8 @@ Adds object's top part to the bottom of the page and clones full object to the n
 
 | Constructor | Description |
 | --- | --- |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm()](#KeepPartAndCloneSolidObjectToNextPageAlgorithm--) | Initializes a new instance of the  KeepPartAndCloneSolidObjectToNextPageAlgorithm  class, using default height limit of cloned part. |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart)](#KeepPartAndCloneSolidObjectToNextPageAlgorithm-float-) | Initializes a new instance of the  KeepPartAndCloneSolidObjectToNextPageAlgorithm  class, using specific height limit of cloned part. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm()](#KeepPartAndCloneSolidObjectToNextPageAlgorithm--) | Initializes a new instance of the `KeepPartAndCloneSolidObjectToNextPageAlgorithm` class, using default height limit of cloned part. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart)](#KeepPartAndCloneSolidObjectToNextPageAlgorithm-float-) | Initializes a new instance of the `KeepPartAndCloneSolidObjectToNextPageAlgorithm` class, using specific height limit of cloned part. |
 ## Fields
 
 | Field | Description |
@@ -36,7 +36,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm()
 ```
 
 
-Initializes a new instance of the  KeepPartAndCloneSolidObjectToNextPageAlgorithm  class, using default height limit of cloned part.
+Initializes a new instance of the `KeepPartAndCloneSolidObjectToNextPageAlgorithm` class, using default height limit of cloned part.
 
 ### KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart) {#KeepPartAndCloneSolidObjectToNextPageAlgorithm-float-}
 ```
@@ -44,7 +44,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedP
 ```
 
 
-Initializes a new instance of the  KeepPartAndCloneSolidObjectToNextPageAlgorithm  class, using specific height limit of cloned part.
+Initializes a new instance of the `KeepPartAndCloneSolidObjectToNextPageAlgorithm` class, using specific height limit of cloned part.
 
 **Parameters:**
 | Parameter | Type | Description |

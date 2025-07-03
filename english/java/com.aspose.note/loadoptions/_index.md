@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Note for Java API Reference
 description: Options used to load a document.
 type: docs
-weight: 37
+weight: 46
 url: /java/com.aspose.note/loadoptions/
 ---
 
@@ -18,45 +18,22 @@ Options used to load a document.
 
 | Constructor | Description |
 | --- | --- |
-| [LoadOptions()](#LoadOptions--) | Initializes a new instance of the  LoadOptions  class. |
+| [LoadOptions()](#LoadOptions--) | Initializes a new instance of the `LoadOptions` class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLoadHistory()](#getLoadHistory--) | Gets or sets a value indicating whether a document loader should ignore the history. |
-| [setLoadHistory(boolean value)](#setLoadHistory-boolean-) | Gets or sets a value indicating whether a document loader should ignore the history. |
 | [getDocumentPassword()](#getDocumentPassword--) | Gets or sets a password for the encrypted document content. |
+| [getLoadHistory()](#getLoadHistory--) | Gets or sets a value indicating whether a document loader should ignore the history. |
 | [setDocumentPassword(String value)](#setDocumentPassword-java.lang.String-) | Gets or sets a password for the encrypted document content. |
+| [setLoadHistory(boolean value)](#setLoadHistory-boolean-) | Gets or sets a value indicating whether a document loader should ignore the history. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
 ```
 
 
-Initializes a new instance of the  LoadOptions  class.
-
-### getLoadHistory() {#getLoadHistory--}
-```
-public boolean getLoadHistory()
-```
-
-
-Gets or sets a value indicating whether a document loader should ignore the history. Use this option to decrease memory and CPU usage. Default value is  true .
-
-**Returns:**
-boolean
-### setLoadHistory(boolean value) {#setLoadHistory-boolean-}
-```
-public void setLoadHistory(boolean value)
-```
-
-
-Gets or sets a value indicating whether a document loader should ignore the history. Use this option to decrease memory and CPU usage. Default value is  true .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
+Initializes a new instance of the `LoadOptions` class.
 
 ### getDocumentPassword() {#getDocumentPassword--}
 ```
@@ -68,6 +45,16 @@ Gets or sets a password for the encrypted document content. Value is ignored in 
 
 **Returns:**
 java.lang.String
+### getLoadHistory() {#getLoadHistory--}
+```
+public boolean getLoadHistory()
+```
+
+
+Gets or sets a value indicating whether a document loader should ignore the history. Use this option to decrease memory and CPU usage. Default value is `true`.
+
+**Returns:**
+boolean
 ### setDocumentPassword(String value) {#setDocumentPassword-java.lang.String-}
 ```
 public void setDocumentPassword(String value)
@@ -80,4 +67,17 @@ Gets or sets a password for the encrypted document content. Value is ignored in 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setLoadHistory(boolean value) {#setLoadHistory-boolean-}
+```
+public void setLoadHistory(boolean value)
+```
+
+
+Gets or sets a value indicating whether a document loader should ignore the history. Use this option to decrease memory and CPU usage. Default value is `true`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

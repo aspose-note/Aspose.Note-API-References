@@ -3,7 +3,7 @@ title: Document
 second_title: Aspose.Note for Java API Reference
 description: Represents an Aspose.Note document.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.note/document/
 ---
 
@@ -21,52 +21,52 @@ Represents an Aspose.Note document.
 
 | Constructor | Description |
 | --- | --- |
-| [Document()](#Document--) | Initializes a new instance of the  Document  class. |
-| [Document(String filePath)](#Document-java.lang.String-) | Initializes a new instance of the  Document  class. |
-| [Document(String filePath, LoadOptions loadOptions)](#Document-java.lang.String-com.aspose.note.LoadOptions-) | Initializes a new instance of the  Document  class. |
-| [Document(InputStream inStream)](#Document-java.io.InputStream-) | Initializes a new instance of the  Document  class. |
-| [Document(InputStream inStream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.aspose.note.LoadOptions-) | Initializes a new instance of the  Document  class. |
+| [Document()](#Document--) | Initializes a new instance of the `Document` class. |
+| [Document(String filePath)](#Document-java.lang.String-) | Initializes a new instance of the `Document` class. |
+| [Document(String filePath, LoadOptions loadOptions)](#Document-java.lang.String-com.aspose.note.LoadOptions-) | Initializes a new instance of the `Document` class. |
+| [Document(InputStream inStream)](#Document-java.io.InputStream-) | Initializes a new instance of the `Document` class. |
+| [Document(InputStream inStream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.aspose.note.LoadOptions-) | Initializes a new instance of the `Document` class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isEncrypted(InputStream stream, LoadOptions options, Document[] document)](#isEncrypted-java.io.InputStream-com.aspose.note.LoadOptions-com.aspose.note.Document---) | Checks whether a document from a stream is encrypted. |
-| [isEncrypted(InputStream stream, String password, Document[] document)](#isEncrypted-java.io.InputStream-java.lang.String-com.aspose.note.Document---) | Checks whether a document from a stream is encrypted. |
-| [isEncrypted(InputStream stream, Document[] document)](#isEncrypted-java.io.InputStream-com.aspose.note.Document---) | Checks whether a document from a stream is encrypted. |
-| [isEncrypted(String filePath, LoadOptions options, Document[] document)](#isEncrypted-java.lang.String-com.aspose.note.LoadOptions-com.aspose.note.Document---) | Checks whether a document from a file is encrypted. |
-| [isEncrypted(String filePath, Document[] document)](#isEncrypted-java.lang.String-com.aspose.note.Document---) | Checks whether a document from a file is encrypted. |
-| [isEncrypted(String filePath, String password, Document[] document)](#isEncrypted-java.lang.String-java.lang.String-com.aspose.note.Document---) | Checks whether a document from a file is encrypted. |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
+| [detectLayoutChanges()](#detectLayoutChanges--) | Detects all changes made to the document layout since the previous `DetectLayoutChanges` call. |
 | [getAutomaticLayoutChangesDetectionEnabled()](#getAutomaticLayoutChangesDetectionEnabled--) | Gets a value indicating whether Aspose.Note performs detection of layout changes automatically. |
-| [setAutomaticLayoutChangesDetectionEnabled(boolean value)](#setAutomaticLayoutChangesDetectionEnabled-boolean-) | Sets a value indicating whether Aspose.Note performs detection of layout changes automatically. |
-| [getCreationTime()](#getCreationTime--) | Gets the creation time. |
-| [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | Sets the creation time. |
 | [getColor()](#getColor--) | Gets the color. |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the color. |
+| [getCreationTime()](#getCreationTime--) | Gets the creation time. |
 | [getDisplayName()](#getDisplayName--) | Gets the display name. |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the display name. |
+| [getFileFormat()](#getFileFormat--) | Gets file format (OneNote 2010, OneNote Online). |
 | [getGuid()](#getGuid--) | Gets the object's globally unique id. |
 | [getGuidInternal()](#getGuidInternal--) |  |
-| [getFileFormat()](#getFileFormat--) | Gets file format (OneNote 2010, OneNote Online). |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-| [getPageHistory(Page page)](#getPageHistory-com.aspose.note.Page-) | Gets the  PageHistory  which contains full history for each page presented in a document (the earliest at index 0). |
-| [save(String fileName)](#save-java.lang.String-) | Saves the OneNote document to a file. |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the OneNote document to a stream. |
-| [save(String fileName, int format)](#save-java.lang.String-int-) | Saves the OneNote document to a file in the specified format. |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Saves the OneNote document to a stream in the specified format. |
-| [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.note.SaveOptions-) | Saves the OneNote document to a file using the specified save options. |
-| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.note.SaveOptions-) | Saves the OneNote document to a stream using the specified save options. |
+| [getPageHistory(Page page)](#getPageHistory-com.aspose.note.Page-) | Gets the `PageHistory` which contains full history for each page presented in a document (the earliest at index 0). |
+| [isEncrypted(InputStream stream, Document[] document)](#isEncrypted-java.io.InputStream-com.aspose.note.Document---) | Checks whether a document from a stream is encrypted. |
+| [isEncrypted(InputStream stream, LoadOptions options, Document[] document)](#isEncrypted-java.io.InputStream-com.aspose.note.LoadOptions-com.aspose.note.Document---) | Checks whether a document from a stream is encrypted. |
+| [isEncrypted(InputStream stream, String password, Document[] document)](#isEncrypted-java.io.InputStream-java.lang.String-com.aspose.note.Document---) | Checks whether a document from a stream is encrypted. |
+| [isEncrypted(String filePath, Document[] document)](#isEncrypted-java.lang.String-com.aspose.note.Document---) | Checks whether a document from a file is encrypted. |
+| [isEncrypted(String filePath, LoadOptions options, Document[] document)](#isEncrypted-java.lang.String-com.aspose.note.LoadOptions-com.aspose.note.Document---) | Checks whether a document from a file is encrypted. |
+| [isEncrypted(String filePath, String password, Document[] document)](#isEncrypted-java.lang.String-java.lang.String-com.aspose.note.Document---) | Checks whether a document from a file is encrypted. |
 | [print()](#print--) | Prints the document using the default printer. |
+| [print(PrintOptions options)](#print-com.aspose.note.PrintOptions-) | Prints the document using the default printer. |
 | [print(String printerName)](#print-java.lang.String-) | Prints the document using the default printer. |
 | [print(AttributeSet printSettings)](#print-javax.print.attribute.AttributeSet-) | Prints the document using the default printer. |
-| [print(PrintOptions options)](#print-com.aspose.note.PrintOptions-) | Prints the document using the default printer. |
-| [detectLayoutChanges()](#detectLayoutChanges--) | Detects all changes made to the document layout since the previous  DetectLayoutChanges  call. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the OneNote document to a stream. |
+| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.note.SaveOptions-) | Saves the OneNote document to a stream using the specified save options. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Saves the OneNote document to a stream in the specified format. |
+| [save(String fileName)](#save-java.lang.String-) | Saves the OneNote document to a file. |
+| [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.note.SaveOptions-) | Saves the OneNote document to a file using the specified save options. |
+| [save(String fileName, int format)](#save-java.lang.String-int-) | Saves the OneNote document to a file in the specified format. |
+| [setAutomaticLayoutChangesDetectionEnabled(boolean value)](#setAutomaticLayoutChangesDetectionEnabled-boolean-) | Sets a value indicating whether Aspose.Note performs detection of layout changes automatically. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the color. |
+| [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | Sets the creation time. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets the display name. |
 ### Document() {#Document--}
 ```
 public Document()
 ```
 
 
-Initializes a new instance of the  Document  class. Creates a blank OneNote document.
+Initializes a new instance of the `Document` class. Creates a blank OneNote document.
 
 ### Document(String filePath) {#Document-java.lang.String-}
 ```
@@ -74,7 +74,7 @@ public Document(String filePath)
 ```
 
 
-Initializes a new instance of the  Document  class. Opens an existing OneNote document from a file.
+Initializes a new instance of the `Document` class. Opens an existing OneNote document from a file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -87,7 +87,7 @@ public Document(String filePath, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the  Document  class. Opens an existing OneNote document from a file. Allows to specify additional options such as an encryption password.
+Initializes a new instance of the `Document` class. Opens an existing OneNote document from a file. Allows to specify additional options such as an encryption password.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -101,7 +101,7 @@ public Document(InputStream inStream)
 ```
 
 
-Initializes a new instance of the  Document  class. Opens an existing OneNote document from a stream.
+Initializes a new instance of the `Document` class. Opens an existing OneNote document from a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -114,7 +114,7 @@ public Document(InputStream inStream, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the  Document  class. Opens an existing OneNote document from a stream. Allows to specify additional options such as an encryption password.
+Initializes a new instance of the `Document` class. Opens an existing OneNote document from a stream. Allows to specify additional options such as an encryption password.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -122,6 +122,128 @@ Initializes a new instance of the  Document  class. Opens an existing OneNote do
 | inStream | java.io.InputStream | The stream. |
 | loadOptions | [LoadOptions](../../com.aspose.note/loadoptions) | Options used to load a document. Can be null. |
 
+### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
+```
+public void accept(DocumentVisitor visitor)
+```
+
+
+Accepts the visitor of the node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
+
+### detectLayoutChanges() {#detectLayoutChanges--}
+```
+public void detectLayoutChanges()
+```
+
+
+Detects all changes made to the document layout since the previous `DetectLayoutChanges` call. In case `AutomaticLayoutChangesDetectionEnabled` set to true, used automatically in the beginning of document export.
+
+### getAutomaticLayoutChangesDetectionEnabled() {#getAutomaticLayoutChangesDetectionEnabled--}
+```
+public boolean getAutomaticLayoutChangesDetectionEnabled()
+```
+
+
+Gets a value indicating whether Aspose.Note performs detection of layout changes automatically. Default value is `true`.
+
+**Returns:**
+boolean
+### getColor() {#getColor--}
+```
+public Color getColor()
+```
+
+
+Gets the color.
+
+**Returns:**
+java.awt.Color
+### getCreationTime() {#getCreationTime--}
+```
+public Date getCreationTime()
+```
+
+
+Gets the creation time.
+
+**Returns:**
+java.util.Date
+### getDisplayName() {#getDisplayName--}
+```
+public String getDisplayName()
+```
+
+
+Gets the display name.
+
+**Returns:**
+java.lang.String
+### getFileFormat() {#getFileFormat--}
+```
+public int getFileFormat()
+```
+
+
+Gets file format (OneNote 2010, OneNote Online).
+
+**Returns:**
+int
+### getGuid() {#getGuid--}
+```
+public UUID getGuid()
+```
+
+
+Gets the object's globally unique id.
+
+**Returns:**
+java.util.UUID
+### getGuidInternal() {#getGuidInternal--}
+```
+public System.Guid getGuidInternal()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.Guid
+### getPageHistory(Page page) {#getPageHistory-com.aspose.note.Page-}
+```
+public PageHistory getPageHistory(Page page)
+```
+
+
+Gets the `PageHistory` which contains full history for each page presented in a document (the earliest at index 0). The current page revision can be accessed as `PageHistory.current` and contained separately from collection of historical versions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| page | [Page](../../com.aspose.note/page) | The current revision of a page. |
+
+**Returns:**
+[PageHistory](../../com.aspose.note/pagehistory) - The `PageHistory`.
+### isEncrypted(InputStream stream, Document[] document) {#isEncrypted-java.io.InputStream-com.aspose.note.Document---}
+```
+public static boolean isEncrypted(InputStream stream, Document[] document)
+```
+
+
+Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream. |
+| document | [Document\[\]](../../com.aspose.note/document) | The loaded document. |
+
+**Returns:**
+boolean - Returns true if the document is encrypted otherwise false.
 ### isEncrypted(InputStream stream, LoadOptions options, Document[] document) {#isEncrypted-java.io.InputStream-com.aspose.note.LoadOptions-com.aspose.note.Document---}
 ```
 public static boolean isEncrypted(InputStream stream, LoadOptions options, Document[] document)
@@ -156,18 +278,18 @@ Checks whether a document from a stream is encrypted. To check it we need to com
 
 **Returns:**
 boolean - Returns true if the document is encrypted otherwise false.
-### isEncrypted(InputStream stream, Document[] document) {#isEncrypted-java.io.InputStream-com.aspose.note.Document---}
+### isEncrypted(String filePath, Document[] document) {#isEncrypted-java.lang.String-com.aspose.note.Document---}
 ```
-public static boolean isEncrypted(InputStream stream, Document[] document)
+public static boolean isEncrypted(String filePath, Document[] document)
 ```
 
 
-Checks whether a document from a stream is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
+Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The stream. |
+| filePath | java.lang.String | The file path. |
 | document | [Document\[\]](../../com.aspose.note/document) | The loaded document. |
 
 **Returns:**
@@ -189,22 +311,6 @@ Checks whether a document from a file is encrypted. To check it we need to compl
 
 **Returns:**
 boolean - Returns true if the document is encrypted otherwise false.
-### isEncrypted(String filePath, Document[] document) {#isEncrypted-java.lang.String-com.aspose.note.Document---}
-```
-public static boolean isEncrypted(String filePath, Document[] document)
-```
-
-
-Checks whether a document from a file is encrypted. To check it we need to completely load this document. So this method can lead to performance penalty.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | The file path. |
-| document | [Document\[\]](../../com.aspose.note/document) | The loaded document. |
-
-**Returns:**
-boolean - Returns true if the document is encrypted otherwise false.
 ### isEncrypted(String filePath, String password, Document[] document) {#isEncrypted-java.lang.String-java.lang.String-com.aspose.note.Document---}
 ```
 public static boolean isEncrypted(String filePath, String password, Document[] document)
@@ -222,238 +328,6 @@ Checks whether a document from a file is encrypted. To check it we need to compl
 
 **Returns:**
 boolean - Returns true if the document is encrypted otherwise false.
-### getAutomaticLayoutChangesDetectionEnabled() {#getAutomaticLayoutChangesDetectionEnabled--}
-```
-public boolean getAutomaticLayoutChangesDetectionEnabled()
-```
-
-
-Gets a value indicating whether Aspose.Note performs detection of layout changes automatically. Default value is  true .
-
-**Returns:**
-boolean
-### setAutomaticLayoutChangesDetectionEnabled(boolean value) {#setAutomaticLayoutChangesDetectionEnabled-boolean-}
-```
-public void setAutomaticLayoutChangesDetectionEnabled(boolean value)
-```
-
-
-Sets a value indicating whether Aspose.Note performs detection of layout changes automatically.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | New value. Can be null. |
-
-### getCreationTime() {#getCreationTime--}
-```
-public Date getCreationTime()
-```
-
-
-Gets the creation time.
-
-**Returns:**
-java.util.Date
-### setCreationTime(Date value) {#setCreationTime-java.util.Date-}
-```
-public void setCreationTime(Date value)
-```
-
-
-Sets the creation time.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date | DateTime's value. |
-
-### getColor() {#getColor--}
-```
-public Color getColor()
-```
-
-
-Gets the color.
-
-**Returns:**
-java.awt.Color
-### setColor(Color value) {#setColor-java.awt.Color-}
-```
-public void setColor(Color value)
-```
-
-
-Sets the color.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.awt.Color | Color's value. |
-
-### getDisplayName() {#getDisplayName--}
-```
-public String getDisplayName()
-```
-
-
-Gets the display name.
-
-**Returns:**
-java.lang.String
-### setDisplayName(String value) {#setDisplayName-java.lang.String-}
-```
-public void setDisplayName(String value)
-```
-
-
-Sets the display name.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | DateTime's value. |
-
-### getGuid() {#getGuid--}
-```
-public UUID getGuid()
-```
-
-
-Gets the object's globally unique id.
-
-**Returns:**
-java.util.UUID
-### getGuidInternal() {#getGuidInternal--}
-```
-public System.Guid getGuidInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Guid
-### getFileFormat() {#getFileFormat--}
-```
-public int getFileFormat()
-```
-
-
-Gets file format (OneNote 2010, OneNote Online).
-
-**Returns:**
-int
-### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
-```
-public void accept(DocumentVisitor visitor)
-```
-
-
-Accepts the visitor of the node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
-
-### getPageHistory(Page page) {#getPageHistory-com.aspose.note.Page-}
-```
-public PageHistory getPageHistory(Page page)
-```
-
-
-Gets the  PageHistory  which contains full history for each page presented in a document (the earliest at index 0). The current page revision can be accessed as  PageHistory.current  and contained separately from collection of historical versions.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| page | [Page](../../com.aspose.note/page) | The current revision of a page. |
-
-**Returns:**
-[PageHistory](../../com.aspose.note/pagehistory) - The  PageHistory .
-### save(String fileName) {#save-java.lang.String-}
-```
-public void save(String fileName)
-```
-
-
-Saves the OneNote document to a file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The full name for the file. If a file with the specified full name already exists, the existing file is overwritten. |
-
-### save(OutputStream stream) {#save-java.io.OutputStream-}
-```
-public void save(OutputStream stream)
-```
-
-
-Saves the OneNote document to a stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.OutputStream | The System.iO.stream where the document will be saved. |
-
-### save(String fileName, int format) {#save-java.lang.String-int-}
-```
-public void save(String fileName, int format)
-```
-
-
-Saves the OneNote document to a file in the specified format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The full name for the file. If a file with the specified full name already exists, the existing file is overwritten. |
-| format | int | The format in which to save the document. |
-
-### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
-```
-public void save(OutputStream stream, int format)
-```
-
-
-Saves the OneNote document to a stream in the specified format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.OutputStream | The System.iO.stream where the document will be saved. |
-| format | int | The format in which to save the document. |
-
-### save(String fileName, SaveOptions options) {#save-java.lang.String-com.aspose.note.SaveOptions-}
-```
-public void save(String fileName, SaveOptions options)
-```
-
-
-Saves the OneNote document to a file using the specified save options.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The full name for the file. If a file with the specified full name already exists, the existing file is overwritten. |
-| options | [SaveOptions](../../com.aspose.note/saveoptions) | Specifies the options how the document is saved in file. |
-
-### save(OutputStream stream, SaveOptions options) {#save-java.io.OutputStream-com.aspose.note.SaveOptions-}
-```
-public void save(OutputStream stream, SaveOptions options)
-```
-
-
-Saves the OneNote document to a stream using the specified save options.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.OutputStream | The System.iO.stream where the document will be saved. |
-| options | [SaveOptions](../../com.aspose.note/saveoptions) | Specifies the options how the document is saved in stream. |
-
 ### print() {#print--}
 ```
 public void print()
@@ -461,6 +335,19 @@ public void print()
 
 
 Prints the document using the default printer.
+
+### print(PrintOptions options) {#print-com.aspose.note.PrintOptions-}
+```
+public void print(PrintOptions options)
+```
+
+
+Prints the document using the default printer.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [PrintOptions](../../com.aspose.note/printoptions) | Options used to print a document. Can be null. |
 
 ### print(String printerName) {#print-java.lang.String-}
 ```
@@ -488,24 +375,137 @@ Prints the document using the default printer.
 | --- | --- | --- |
 | printSettings | javax.print.attribute.AttributeSet |  |
 
-### print(PrintOptions options) {#print-com.aspose.note.PrintOptions-}
+### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
-public void print(PrintOptions options)
+public void save(OutputStream stream)
 ```
 
 
-Prints the document using the default printer.
+Saves the OneNote document to a stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [PrintOptions](../../com.aspose.note/printoptions) | Options used to print a document. Can be null. |
+| stream | java.io.OutputStream | The System.iO.stream where the document will be saved. |
 
-### detectLayoutChanges() {#detectLayoutChanges--}
+### save(OutputStream stream, SaveOptions options) {#save-java.io.OutputStream-com.aspose.note.SaveOptions-}
 ```
-public void detectLayoutChanges()
+public void save(OutputStream stream, SaveOptions options)
 ```
 
 
-Detects all changes made to the document layout since the previous  DetectLayoutChanges  call. In case  AutomaticLayoutChangesDetectionEnabled  set to true, used automatically in the beginning of document export.
+Saves the OneNote document to a stream using the specified save options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | The System.iO.stream where the document will be saved. |
+| options | [SaveOptions](../../com.aspose.note/saveoptions) | Specifies the options how the document is saved in stream. |
+
+### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
+```
+public void save(OutputStream stream, int format)
+```
+
+
+Saves the OneNote document to a stream in the specified format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | The System.iO.stream where the document will be saved. |
+| format | int | The format in which to save the document. |
+
+### save(String fileName) {#save-java.lang.String-}
+```
+public void save(String fileName)
+```
+
+
+Saves the OneNote document to a file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The full name for the file. If a file with the specified full name already exists, the existing file is overwritten. |
+
+### save(String fileName, SaveOptions options) {#save-java.lang.String-com.aspose.note.SaveOptions-}
+```
+public void save(String fileName, SaveOptions options)
+```
+
+
+Saves the OneNote document to a file using the specified save options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The full name for the file. If a file with the specified full name already exists, the existing file is overwritten. |
+| options | [SaveOptions](../../com.aspose.note/saveoptions) | Specifies the options how the document is saved in file. |
+
+### save(String fileName, int format) {#save-java.lang.String-int-}
+```
+public void save(String fileName, int format)
+```
+
+
+Saves the OneNote document to a file in the specified format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The full name for the file. If a file with the specified full name already exists, the existing file is overwritten. |
+| format | int | The format in which to save the document. |
+
+### setAutomaticLayoutChangesDetectionEnabled(boolean value) {#setAutomaticLayoutChangesDetectionEnabled-boolean-}
+```
+public void setAutomaticLayoutChangesDetectionEnabled(boolean value)
+```
+
+
+Sets a value indicating whether Aspose.Note performs detection of layout changes automatically.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | New value. Can be null. |
+
+### setColor(Color value) {#setColor-java.awt.Color-}
+```
+public void setColor(Color value)
+```
+
+
+Sets the color.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color | Color's value. |
+
+### setCreationTime(Date value) {#setCreationTime-java.util.Date-}
+```
+public void setCreationTime(Date value)
+```
+
+
+Sets the creation time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date | DateTime's value. |
+
+### setDisplayName(String value) {#setDisplayName-java.lang.String-}
+```
+public void setDisplayName(String value)
+```
+
+
+Sets the display name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | DateTime's value. |
 

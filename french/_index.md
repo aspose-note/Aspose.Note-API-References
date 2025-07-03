@@ -21,6 +21,7 @@ Avec Aspose.Note pour .NET, il est possible de programmer avec des fichiers Micr
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Note pour .NET](/note/fr/net/)
+- [Aspose.Note pour les didacticiels de l'API .NET](/tutorials/note/fr/net/)
 
 ## Aspose.Note pour Java
 
@@ -36,3 +37,4 @@ Avec Aspose.Note pour Java, il est possible de programmer avec des fichiers Micr
 
 Voici des liens vers des ressources utiles :
 - [Aspose.Note pour la référence de l'API Java](/note/java/)
+- [Aspose.Note pour les didacticiels de l'API Java](/tutorials/note/fr/java/)

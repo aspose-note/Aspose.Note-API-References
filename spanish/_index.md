@@ -21,6 +21,7 @@ Con Aspose.Note para .NET, es posible programar con archivos de Microsoft OneNot
 
 Estos son enlaces a algunos recursos útiles:
 - [Aspose.Note para la referencia de la API de .NET](/note/es/net/)
+- [Aspose.Note para tutoriales de API .NET](/tutorials/note/es/net/)
 
 ## Aspose.Note para Java
 
@@ -36,3 +37,4 @@ Con Aspose.Note para Java, es posible programar con archivos de Microsoft OneNot
 
 Estos son enlaces a algunos recursos útiles:
 - [Aspose.Note para la referencia de la API de Java](/note/java/)
+- [Aspose.Note para tutoriales de API Java](/tutorials/note/es/java/)

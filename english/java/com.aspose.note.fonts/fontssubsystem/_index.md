@@ -21,36 +21,12 @@ Base class implementing com.aspose.note.IFontsSubsystem interface. Provides func
 
 | Method | Description |
 | --- | --- |
-| [getDefaultFont()](#getDefaultFont--) | Gets default font. |
-| [addFontSubstitution(String substituted, String substitution)](#addFontSubstitution-java.lang.String-java.lang.String-) | Adds font substitution. |
 | [addFont(InputStream stream)](#addFont-java.io.InputStream-) | Adds the font. |
 | [addFont(String file)](#addFont-java.lang.String-) | Adds the font. |
-| [loadFontsFromFolder(String folder)](#loadFontsFromFolder-java.lang.String-) | Loads all TrueType fonts from specified folder to internal collection. |
+| [addFontSubstitution(String substituted, String substitution)](#addFontSubstitution-java.lang.String-java.lang.String-) | Adds font substitution. |
+| [getDefaultFont()](#getDefaultFont--) | Gets default font. |
 | [getFontFamily(String fontName)](#getFontFamily-java.lang.String-) | Gets font. |
-### getDefaultFont() {#getDefaultFont--}
-```
-public Font getDefaultFont()
-```
-
-
-Gets default font.
-
-**Returns:**
-java.awt.Font
-### addFontSubstitution(String substituted, String substitution) {#addFontSubstitution-java.lang.String-java.lang.String-}
-```
-public final void addFontSubstitution(String substituted, String substitution)
-```
-
-
-Adds font substitution.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| substituted | java.lang.String | The substituted font name. |
-| substitution | java.lang.String | The substitution font name. |
-
+| [loadFontsFromFolder(String folder)](#loadFontsFromFolder-java.lang.String-) | Loads all TrueType fonts from specified folder to internal collection. |
 ### addFont(InputStream stream) {#addFont-java.io.InputStream-}
 ```
 public final void addFont(InputStream stream)
@@ -77,19 +53,30 @@ Adds the font.
 | --- | --- | --- |
 | file | java.lang.String | The path to the file containing the font. |
 
-### loadFontsFromFolder(String folder) {#loadFontsFromFolder-java.lang.String-}
+### addFontSubstitution(String substituted, String substitution) {#addFontSubstitution-java.lang.String-java.lang.String-}
 ```
-public final void loadFontsFromFolder(String folder)
+public final void addFontSubstitution(String substituted, String substitution)
 ```
 
 
-Loads all TrueType fonts from specified folder to internal collection.
+Adds font substitution.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folder | java.lang.String | The folder containing fonts. |
+| substituted | java.lang.String | The substituted font name. |
+| substitution | java.lang.String | The substitution font name. |
 
+### getDefaultFont() {#getDefaultFont--}
+```
+public Font getDefaultFont()
+```
+
+
+Gets default font.
+
+**Returns:**
+java.awt.Font
 ### getFontFamily(String fontName) {#getFontFamily-java.lang.String-}
 ```
 public Font getFontFamily(String fontName)
@@ -105,3 +92,16 @@ Gets font.
 
 **Returns:**
 java.awt.Font - The Font.
+### loadFontsFromFolder(String folder) {#loadFontsFromFolder-java.lang.String-}
+```
+public final void loadFontsFromFolder(String folder)
+```
+
+
+Loads all TrueType fonts from specified folder to internal collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | java.lang.String | The folder containing fonts. |
+

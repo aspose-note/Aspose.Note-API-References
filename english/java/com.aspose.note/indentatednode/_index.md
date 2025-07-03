@@ -3,7 +3,7 @@ title: IndentatedNode
 second_title: Aspose.Note for Java API Reference
 description: The base class for nodes with relative indentation for child nodes.
 type: docs
-weight: 29
+weight: 37
 url: /java/com.aspose.note/indentatednode/
 ---
 
@@ -18,15 +18,18 @@ public class IndentatedNode<T,Self> extends CompositeNode<T> implements IIndenta
 
 The base class for nodes with relative indentation for child nodes.
 
- T : The type of elements in the composite node.
+`T`: The type of elements in the composite node.
+
+ T : 
+ Self : 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getIndentPosition()](#getIndentPosition--) | Gets or sets the indent position. |
+| [getInternalIndentPosition()](#getInternalIndentPosition--) | Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size. |
 | [setIndentPosition(byte value)](#setIndentPosition-byte-) | Gets or sets the indent position. |
 | [setIndentPosition(int value)](#setIndentPosition-int-) |  |
-| [getInternalIndentPosition()](#getInternalIndentPosition--) | Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size. |
 ### getIndentPosition() {#getIndentPosition--}
 ```
 public final byte getIndentPosition()
@@ -37,6 +40,16 @@ Gets or sets the indent position.
 
 **Returns:**
 byte
+### getInternalIndentPosition() {#getInternalIndentPosition--}
+```
+public int getInternalIndentPosition()
+```
+
+
+Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size.
+
+**Returns:**
+int
 ### setIndentPosition(byte value) {#setIndentPosition-byte-}
 ```
 public final Self setIndentPosition(byte value)
@@ -67,13 +80,3 @@ public final Self setIndentPosition(int value)
 
 **Returns:**
 Self
-### getInternalIndentPosition() {#getInternalIndentPosition--}
-```
-public int getInternalIndentPosition()
-```
-
-
-Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size.
-
-**Returns:**
-int

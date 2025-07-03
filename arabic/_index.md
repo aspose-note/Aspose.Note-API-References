@@ -21,6 +21,7 @@ Aspose.Note for .NET هي مكتبة فئة تمكّن تطبيقات .NET من 
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Note لمرجع NET API](/note/ar/net/)
+- [Aspose.Note لبرامج .NET API التعليمية](/tutorials/note/ar/net/)
 
 ## Aspose.Note لجافا
 
@@ -36,3 +37,4 @@ Aspose.Note for Java عبارة عن مكتبة فئة تتيح لتطبيقات
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Note لمرجع Java API](/note/java/)
+- [Aspose.Note لبرامج Java API التعليمية](/tutorials/note/ar/java/)

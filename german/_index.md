@@ -21,6 +21,7 @@ Mit Aspose.Note für .NET ist es möglich, mit Microsoft OneNote-Dateien ohne Mi
 
 Dies sind Links zu einigen nützlichen Ressourcen:
 - [Aspose.Note für .NET-API-Referenz](/note/de/net/)
+- [Aspose.Note für .NET API-Tutorials](/tutorials/note/de/net/)
 
 ## Aspose.Note für Java
 
@@ -36,3 +37,4 @@ Mit Aspose.Note for Java ist es möglich mit Microsoft OneNote Dateien ohne Micr
 
 Dies sind Links zu einigen nützlichen Ressourcen:
 - [Aspose.Note für Java-API-Referenz](/note/java/)
+- [Aspose.Note für Java API-Tutorials](/tutorials/note/de/java/)

@@ -3,7 +3,7 @@ title: ResourceExportType
 second_title: Aspose.Note for Java API Reference
 description: 
 type: docs
-weight: 69
+weight: 79
 url: /java/com.aspose.note/resourceexporttype/
 ---
 
@@ -16,15 +16,9 @@ public final class ResourceExportType extends System.Enum
 
 | Field | Description |
 | --- | --- |
-| [NoExport](#NoExport) |  |
 | [ExportAsStream](#ExportAsStream) |  |
 | [ExportEmbedded](#ExportEmbedded) |  |
-### NoExport {#NoExport}
-```
-public static final int NoExport
-```
-
-
+| [NoExport](#NoExport) |  |
 ### ExportAsStream {#ExportAsStream}
 ```
 public static final int ExportAsStream
@@ -34,6 +28,12 @@ public static final int ExportAsStream
 ### ExportEmbedded {#ExportEmbedded}
 ```
 public static final int ExportEmbedded
+```
+
+
+### NoExport {#NoExport}
+```
+public static final int NoExport
 ```
 
 

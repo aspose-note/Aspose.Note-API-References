@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Note for Java API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 40
+weight: 50
 url: /java/com.aspose.note/metered/
 ---
 
@@ -17,30 +17,30 @@ Provides methods to set metered key.
 
 --------------------
 
-> ```
-> In this example, an attempt will be made to set metered public and private key
->   
->   ```
-> 
->   [C#]
-> 
->   Metered metered = new Metered();
->   metered.SetMeteredKey("PublicKey", "PrivateKey");
->   [Visual Basic]
->   Dim metered As Metered = New Metered
->   metered.SetMeteredKey("PublicKey", "PrivateKey")
->   
-> ```
->   
->   
->   the component jar file:
->   ```
-> 
->   Metered metered = new Metered();
->   metered.setMeteredKey("PublicKey", "PrivateKey");
->   
-> ```
-> ```
+&gt; ```
+&gt; In this example, an attempt will be made to set metered public and private key
+&gt; ``````
+
+  [C#]
+
+  Metered metered = new Metered();
+  metered.SetMeteredKey("PublicKey", "PrivateKey");
+  [Visual Basic]
+  Dim metered As Metered = New Metered
+  metered.SetMeteredKey("PublicKey", "PrivateKey")
+  
+```
+
+the component jar file:
+
+```
+
+  Metered metered = new Metered();
+  metered.setMeteredKey("PublicKey", "PrivateKey");
+  
+```
+
+
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: InkNode
 second_title: Aspose.Note for Java API Reference
 description: Represents a common interface for all ink nodes.
 type: docs
-weight: 31
+weight: 39
 url: /java/com.aspose.note/inknode/
 ---
 

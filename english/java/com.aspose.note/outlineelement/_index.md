@@ -3,7 +3,7 @@ title: OutlineElement
 second_title: Aspose.Note for Java API Reference
 description: Represents a OutlineElement.
 type: docs
-weight: 57
+weight: 67
 url: /java/com.aspose.note/outlineelement/
 ---
 
@@ -21,73 +21,65 @@ Represents a OutlineElement.
 
 | Constructor | Description |
 | --- | --- |
-| [OutlineElement()](#OutlineElement--) | Initializes a new instance of the  OutlineElement  class. |
+| [OutlineElement()](#OutlineElement--) | Initializes a new instance of the `OutlineElement` class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 | [getAuthorMostRecent()](#getAuthorMostRecent--) | Gets the most recent author of an outline element. |
 | [getAuthorOriginal()](#getAuthorOriginal--) | Gets the original author of an outline element. |
-| [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 | [getCreationTime()](#getCreationTime--) | Gets or sets the creation time. |
-| [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | Gets or sets the creation time. |
+| [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
 | [getNumberList()](#getNumberList--) | Gets or sets the style for the numbered list header. |
+| [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | Gets or sets the creation time. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 | [setNumberList(NumberList value)](#setNumberList-com.aspose.note.NumberList-) | Gets or sets the style for the numbered list header. |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 ### OutlineElement() {#OutlineElement--}
 ```
 public OutlineElement()
 ```
 
 
-Initializes a new instance of the  OutlineElement  class.
+Initializes a new instance of the `OutlineElement` class.
+
+### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
+```
+public void accept(DocumentVisitor visitor)
+```
+
+
+Accepts the visitor of the node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
 
 ### getAuthorMostRecent() {#getAuthorMostRecent--}
 ```
-public String getAuthorMostRecent()
+public final String getAuthorMostRecent()
 ```
 
 
 Gets the most recent author of an outline element.
 
+Value: The author most recent.
+
 **Returns:**
 java.lang.String
-
 ### getAuthorOriginal() {#getAuthorOriginal--}
 ```
-public String getAuthorOriginal()
+public final String getAuthorOriginal()
 ```
 
 
 Gets the original author of an outline element.
 
+Value: The author original.
+
 **Returns:**
 java.lang.String
-
-### getLastModifiedTime() {#getLastModifiedTime--}
-```
-public Date getLastModifiedTime()
-```
-
-
-Gets or sets the last modified time.
-
-**Returns:**
-java.util.Date
-### setLastModifiedTime(Date value) {#setLastModifiedTime-java.util.Date-}
-```
-public void setLastModifiedTime(Date value)
-```
-
-
-Gets or sets the last modified time.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
 ### getCreationTime() {#getCreationTime--}
 ```
 public Date getCreationTime()
@@ -98,6 +90,26 @@ Gets or sets the creation time.
 
 **Returns:**
 java.util.Date
+### getLastModifiedTime() {#getLastModifiedTime--}
+```
+public Date getLastModifiedTime()
+```
+
+
+Gets or sets the last modified time.
+
+**Returns:**
+java.util.Date
+### getNumberList() {#getNumberList--}
+```
+public NumberList getNumberList()
+```
+
+
+Gets or sets the style for the numbered list header.
+
+**Returns:**
+[NumberList](../../com.aspose.note/numberlist)
 ### setCreationTime(Date value) {#setCreationTime-java.util.Date-}
 ```
 public void setCreationTime(Date value)
@@ -111,16 +123,19 @@ Gets or sets the creation time.
 | --- | --- | --- |
 | value | java.util.Date |  |
 
-### getNumberList() {#getNumberList--}
+### setLastModifiedTime(Date value) {#setLastModifiedTime-java.util.Date-}
 ```
-public NumberList getNumberList()
+public void setLastModifiedTime(Date value)
 ```
 
 
-Gets or sets the style for the numbered list header.
+Gets or sets the last modified time.
 
-**Returns:**
-[NumberList](../../com.aspose.note/numberlist)
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
 ### setNumberList(NumberList value) {#setNumberList-com.aspose.note.NumberList-}
 ```
 public void setNumberList(NumberList value)
@@ -133,17 +148,4 @@ Gets or sets the style for the numbered list header.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [NumberList](../../com.aspose.note/numberlist) |  |
-
-### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
-```
-public void accept(DocumentVisitor visitor)
-```
-
-
-Accepts the visitor of the node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
 

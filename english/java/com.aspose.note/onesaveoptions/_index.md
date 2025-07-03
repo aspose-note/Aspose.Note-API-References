@@ -3,7 +3,7 @@ title: OneSaveOptions
 second_title: Aspose.Note for Java API Reference
 description: Allows to specify additional options when saving document to OneNote format.
 type: docs
-weight: 55
+weight: 65
 url: /java/com.aspose.note/onesaveoptions/
 ---
 
@@ -18,7 +18,7 @@ Allows to specify additional options when saving document to OneNote format.
 
 | Constructor | Description |
 | --- | --- |
-| [OneSaveOptions()](#OneSaveOptions--) | Initializes a new instance of the  OneSaveOptions  class. |
+| [OneSaveOptions()](#OneSaveOptions--) | Initializes a new instance of the `OneSaveOptions` class. |
 ## Methods
 
 | Method | Description |
@@ -31,7 +31,7 @@ public OneSaveOptions()
 ```
 
 
-Initializes a new instance of the  OneSaveOptions  class.
+Initializes a new instance of the `OneSaveOptions` class.
 
 ### getDocumentPassword() {#getDocumentPassword--}
 ```

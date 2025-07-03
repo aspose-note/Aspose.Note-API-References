@@ -3,7 +3,7 @@ title: OutlineGroup
 second_title: Aspose.Note for Java API Reference
 description: Represents a OutlineGroup.
 type: docs
-weight: 58
+weight: 68
 url: /java/com.aspose.note/outlinegroup/
 ---
 
@@ -21,7 +21,7 @@ Represents a OutlineGroup.
 
 | Constructor | Description |
 | --- | --- |
-| [OutlineGroup()](#OutlineGroup--) | Initializes a new instance of the  OutlineGroup  class. |
+| [OutlineGroup()](#OutlineGroup--) | Initializes a new instance of the `OutlineGroup` class. |
 ## Methods
 
 | Method | Description |
@@ -33,7 +33,7 @@ public OutlineGroup()
 ```
 
 
-Initializes a new instance of the  OutlineGroup  class.
+Initializes a new instance of the `OutlineGroup` class.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -46,5 +46,5 @@ Accepts the visitor of the node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
 

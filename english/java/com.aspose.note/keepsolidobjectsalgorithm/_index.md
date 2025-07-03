@@ -3,7 +3,7 @@ title: KeepSolidObjectsAlgorithm
 second_title: Aspose.Note for Java API Reference
 description: Shifts full object to the next page in case it doesnt fit in original page.
 type: docs
-weight: 35
+weight: 43
 url: /java/com.aspose.note/keepsolidobjectsalgorithm/
 ---
 
@@ -18,8 +18,8 @@ Shifts full object to the next page in case it doesn't fit in original page.
 
 | Constructor | Description |
 | --- | --- |
-| [KeepSolidObjectsAlgorithm()](#KeepSolidObjectsAlgorithm--) | Initializes a new instance of the  KeepSolidObjectsAlgorithm  class using default height limit of cloned part. |
-| [KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)](#KeepSolidObjectsAlgorithm-float-) | Initializes a new instance of the  KeepSolidObjectsAlgorithm  class using specific height limit of cloned part. |
+| [KeepSolidObjectsAlgorithm()](#KeepSolidObjectsAlgorithm--) | Initializes a new instance of the `KeepSolidObjectsAlgorithm` class using default height limit of cloned part. |
+| [KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)](#KeepSolidObjectsAlgorithm-float-) | Initializes a new instance of the `KeepSolidObjectsAlgorithm` class using specific height limit of cloned part. |
 ## Fields
 
 | Field | Description |
@@ -36,7 +36,7 @@ public KeepSolidObjectsAlgorithm()
 ```
 
 
-Initializes a new instance of the  KeepSolidObjectsAlgorithm  class using default height limit of cloned part.
+Initializes a new instance of the `KeepSolidObjectsAlgorithm` class using default height limit of cloned part.
 
 ### KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart) {#KeepSolidObjectsAlgorithm-float-}
 ```
@@ -44,7 +44,7 @@ public KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)
 ```
 
 
-Initializes a new instance of the  KeepSolidObjectsAlgorithm  class using specific height limit of cloned part.
+Initializes a new instance of the `KeepSolidObjectsAlgorithm` class using specific height limit of cloned part.
 
 **Parameters:**
 | Parameter | Type | Description |

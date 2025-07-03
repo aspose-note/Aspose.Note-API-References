@@ -3,7 +3,7 @@ title: ICompositeNodeT
 second_title: Aspose.Note for Java API Reference
 description: The interface for nodes that can contain other nodes.
 type: docs
-weight: 86
+weight: 97
 url: /java/com.aspose.note/icompositenodet/
 ---
 
@@ -15,4 +15,6 @@ public interface ICompositeNodeT<T> extends ICompositeNode, System.Collections.G
 
 The interface for nodes that can contain other nodes.
 
- T : Type of child nodes
+`T`: Type of child nodes
+
+ T : 

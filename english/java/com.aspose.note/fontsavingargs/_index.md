@@ -3,7 +3,7 @@ title: FontSavingArgs
 second_title: Aspose.Note for Java API Reference
 description: Provides data for FontSaving event.
 type: docs
-weight: 23
+weight: 31
 url: /java/com.aspose.note/fontsavingargs/
 ---
 

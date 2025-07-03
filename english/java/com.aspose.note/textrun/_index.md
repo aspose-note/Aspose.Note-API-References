@@ -3,7 +3,7 @@ title: TextRun
 second_title: Aspose.Note for Java API Reference
 description: The class representing a piece of text with associated style.
 type: docs
-weight: 81
+weight: 92
 url: /java/com.aspose.note/textrun/
 ---
 
@@ -26,11 +26,11 @@ The class representing a piece of text with associated style.
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) | Gets the text. |
-| [setText(String value)](#setText-java.lang.String-) | Sets the text. |
-| [getStyle()](#getStyle--) | Gets the style. |
-| [setStyle(TextStyle value)](#setStyle-com.aspose.note.TextStyle-) | Sets the style. |
 | [getLength()](#getLength--) | Gets the length of the associated text. |
+| [getStyle()](#getStyle--) | Gets the style. |
+| [getText()](#getText--) | Gets the text. |
+| [setStyle(TextStyle value)](#setStyle-com.aspose.note.TextStyle-) | Sets the style. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text. |
 ### TextRun(String text, TextStyle style) {#TextRun-java.lang.String-com.aspose.note.TextStyle-}
 ```
 public TextRun(String text, TextStyle style)
@@ -79,29 +79,16 @@ public TextRun()
 
 Initializes a new instance of the [TextRun](../../com.aspose.note/textrun) class with empty text and default style.
 
-### getText() {#getText--}
+### getLength() {#getLength--}
 ```
-public final String getText()
+public final int getLength()
 ```
 
 
-Gets the text.
+Gets the length of the associated text.
 
 **Returns:**
-java.lang.String
-### setText(String value) {#setText-java.lang.String-}
-```
-public final void setText(String value)
-```
-
-
-Sets the text.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
+int
 ### getStyle() {#getStyle--}
 ```
 public final TextStyle getStyle()
@@ -112,6 +99,16 @@ Gets the style.
 
 **Returns:**
 [TextStyle](../../com.aspose.note/textstyle)
+### getText() {#getText--}
+```
+public final String getText()
+```
+
+
+Gets the text.
+
+**Returns:**
+java.lang.String
 ### setStyle(TextStyle value) {#setStyle-com.aspose.note.TextStyle-}
 ```
 public final void setStyle(TextStyle value)
@@ -125,13 +122,16 @@ Sets the style.
 | --- | --- | --- |
 | value | [TextStyle](../../com.aspose.note/textstyle) |  |
 
-### getLength() {#getLength--}
+### setText(String value) {#setText-java.lang.String-}
 ```
-public final int getLength()
+public final void setText(String value)
 ```
 
 
-Gets the length of the associated text.
+Sets the text.
 
-**Returns:**
-int
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+

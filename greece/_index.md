@@ -21,6 +21,7 @@ url: /el/
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 - [Aspose.Note for .NET API Reference](/note/el/net/)
+- [Aspose.Note for .NET API Tutorials](/tutorials/note/el/net/)
 
 ## Aspose.Note για Java
 
@@ -36,3 +37,4 @@ url: /el/
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 - [Aspose.Note for Java API Reference](/note/java/)
+- [Aspose.Note for Java API Tutorials](/tutorials/note/el/java/)

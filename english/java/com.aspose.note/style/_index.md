@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Note for Java API Reference
 description: This class contains common properties of  and  classes.
 type: docs
-weight: 75
+weight: 86
 url: /java/com.aspose.note/style/
 ---
 
@@ -14,6 +14,8 @@ public class Style<T>
 ```
 
 This class contains common properties of [ParagraphStyle](../../com.aspose.note/paragraphstyle) and [TextStyle](../../com.aspose.note/textstyle) classes.
+
+ T : 
 ## Constructors
 
 | Constructor | Description |
@@ -23,34 +25,94 @@ This class contains common properties of [ParagraphStyle](../../com.aspose.note/
 
 | Method | Description |
 | --- | --- |
-| [isBold()](#isBold--) | Gets or sets a value indicating whether the text style is bold. |
-| [setBold(boolean value)](#setBold-boolean-) | Gets or sets a value indicating whether the text style is bold. |
-| [isItalic()](#isItalic--) | Gets or sets a value indicating whether the text style is italic. |
-| [setItalic(boolean value)](#setItalic-boolean-) | Gets or sets a value indicating whether the text style is italic. |
-| [isUnderline()](#isUnderline--) | Gets or sets a value indicating whether the text style is underline. |
-| [setUnderline(boolean value)](#setUnderline-boolean-) | Gets or sets a value indicating whether the text style is underline. |
-| [isStrikethrough()](#isStrikethrough--) | Gets or sets a value indicating whether the text style is strikethrough. |
-| [setStrikethrough(boolean value)](#setStrikethrough-boolean-) | Gets or sets a value indicating whether the text style is strikethrough. |
-| [isSuperscript()](#isSuperscript--) | Gets or sets a value indicating whether the text style is superscript. |
-| [setSuperscript(boolean value)](#setSuperscript-boolean-) | Gets or sets a value indicating whether the text style is superscript. |
-| [isSubscript()](#isSubscript--) | Gets or sets a value indicating whether the text style is subscript. |
-| [setSubscript(boolean value)](#setSubscript-boolean-) | Gets or sets a value indicating whether the text style is subscript. |
-| [getFontName()](#getFontName--) | Gets or sets the font name. |
-| [setFontName(String value)](#setFontName-java.lang.String-) | Gets or sets the font name. |
-| [getFontSize()](#getFontSize--) | Gets or sets the font size. |
-| [setFontSize(Integer value)](#setFontSize-java.lang.Integer-) | Gets or sets the font size. |
 | [getFontColor()](#getFontColor--) | Gets or sets the font color. |
-| [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Gets or sets the font color. |
-| [getHighlight()](#getHighlight--) | Gets or sets the highlight color. |
-| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | Gets or sets the highlight color. |
+| [getFontName()](#getFontName--) | Gets or sets the font name. |
+| [getFontSize()](#getFontSize--) | Gets or sets the font size. |
 | [getFontStyle()](#getFontStyle--) | Gets the font style. |
+| [getHighlight()](#getHighlight--) | Gets or sets the highlight color. |
 | [hashCode()](#hashCode--) | Serves as a hash function for the type. |
+| [isBold()](#isBold--) | Gets or sets a value indicating whether the text style is bold. |
+| [isItalic()](#isItalic--) | Gets or sets a value indicating whether the text style is italic. |
+| [isStrikethrough()](#isStrikethrough--) | Gets or sets a value indicating whether the text style is strikethrough. |
+| [isSubscript()](#isSubscript--) | Gets or sets a value indicating whether the text style is subscript. |
+| [isSuperscript()](#isSuperscript--) | Gets or sets a value indicating whether the text style is superscript. |
+| [isUnderline()](#isUnderline--) | Gets or sets a value indicating whether the text style is underline. |
+| [setBold(boolean value)](#setBold-boolean-) | Gets or sets a value indicating whether the text style is bold. |
+| [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Gets or sets the font color. |
+| [setFontName(String value)](#setFontName-java.lang.String-) | Gets or sets the font name. |
+| [setFontSize(Integer value)](#setFontSize-java.lang.Integer-) | Gets or sets the font size. |
+| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | Gets or sets the highlight color. |
+| [setItalic(boolean value)](#setItalic-boolean-) | Gets or sets a value indicating whether the text style is italic. |
+| [setStrikethrough(boolean value)](#setStrikethrough-boolean-) | Gets or sets a value indicating whether the text style is strikethrough. |
+| [setSubscript(boolean value)](#setSubscript-boolean-) | Gets or sets a value indicating whether the text style is subscript. |
+| [setSuperscript(boolean value)](#setSuperscript-boolean-) | Gets or sets a value indicating whether the text style is superscript. |
+| [setUnderline(boolean value)](#setUnderline-boolean-) | Gets or sets a value indicating whether the text style is underline. |
 ### Style() {#Style--}
 ```
 public Style()
 ```
 
 
+### getFontColor() {#getFontColor--}
+```
+public final Color getFontColor()
+```
+
+
+Gets or sets the font color.
+
+**Returns:**
+java.awt.Color
+### getFontName() {#getFontName--}
+```
+public final String getFontName()
+```
+
+
+Gets or sets the font name.
+
+**Returns:**
+java.lang.String
+### getFontSize() {#getFontSize--}
+```
+public final Integer getFontSize()
+```
+
+
+Gets or sets the font size.
+
+**Returns:**
+java.lang.Integer
+### getFontStyle() {#getFontStyle--}
+```
+public final int getFontStyle()
+```
+
+
+Gets the font style.
+
+**Returns:**
+int
+### getHighlight() {#getHighlight--}
+```
+public final Color getHighlight()
+```
+
+
+Gets or sets the highlight color.
+
+**Returns:**
+java.awt.Color
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Serves as a hash function for the type.
+
+**Returns:**
+int - The `int`.
 ### isBold() {#isBold--}
 ```
 public final boolean isBold()
@@ -58,6 +120,56 @@ public final boolean isBold()
 
 
 Gets or sets a value indicating whether the text style is bold.
+
+**Returns:**
+boolean
+### isItalic() {#isItalic--}
+```
+public final boolean isItalic()
+```
+
+
+Gets or sets a value indicating whether the text style is italic.
+
+**Returns:**
+boolean
+### isStrikethrough() {#isStrikethrough--}
+```
+public final boolean isStrikethrough()
+```
+
+
+Gets or sets a value indicating whether the text style is strikethrough.
+
+**Returns:**
+boolean
+### isSubscript() {#isSubscript--}
+```
+public final boolean isSubscript()
+```
+
+
+Gets or sets a value indicating whether the text style is subscript.
+
+**Returns:**
+boolean
+### isSuperscript() {#isSuperscript--}
+```
+public final boolean isSuperscript()
+```
+
+
+Gets or sets a value indicating whether the text style is superscript.
+
+**Returns:**
+boolean
+### isUnderline() {#isUnderline--}
+```
+public final boolean isUnderline()
+```
+
+
+Gets or sets a value indicating whether the text style is underline.
 
 **Returns:**
 boolean
@@ -76,191 +188,6 @@ Gets or sets a value indicating whether the text style is bold.
 
 **Returns:**
 T
-### isItalic() {#isItalic--}
-```
-public final boolean isItalic()
-```
-
-
-Gets or sets a value indicating whether the text style is italic.
-
-**Returns:**
-boolean
-### setItalic(boolean value) {#setItalic-boolean-}
-```
-public final T setItalic(boolean value)
-```
-
-
-Gets or sets a value indicating whether the text style is italic.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-**Returns:**
-T
-### isUnderline() {#isUnderline--}
-```
-public final boolean isUnderline()
-```
-
-
-Gets or sets a value indicating whether the text style is underline.
-
-**Returns:**
-boolean
-### setUnderline(boolean value) {#setUnderline-boolean-}
-```
-public final T setUnderline(boolean value)
-```
-
-
-Gets or sets a value indicating whether the text style is underline.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-**Returns:**
-T
-### isStrikethrough() {#isStrikethrough--}
-```
-public final boolean isStrikethrough()
-```
-
-
-Gets or sets a value indicating whether the text style is strikethrough.
-
-**Returns:**
-boolean
-### setStrikethrough(boolean value) {#setStrikethrough-boolean-}
-```
-public final T setStrikethrough(boolean value)
-```
-
-
-Gets or sets a value indicating whether the text style is strikethrough.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-**Returns:**
-T
-### isSuperscript() {#isSuperscript--}
-```
-public final boolean isSuperscript()
-```
-
-
-Gets or sets a value indicating whether the text style is superscript.
-
-**Returns:**
-boolean
-### setSuperscript(boolean value) {#setSuperscript-boolean-}
-```
-public final T setSuperscript(boolean value)
-```
-
-
-Gets or sets a value indicating whether the text style is superscript.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-**Returns:**
-T
-### isSubscript() {#isSubscript--}
-```
-public final boolean isSubscript()
-```
-
-
-Gets or sets a value indicating whether the text style is subscript.
-
-**Returns:**
-boolean
-### setSubscript(boolean value) {#setSubscript-boolean-}
-```
-public final T setSubscript(boolean value)
-```
-
-
-Gets or sets a value indicating whether the text style is subscript.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-**Returns:**
-T
-### getFontName() {#getFontName--}
-```
-public final String getFontName()
-```
-
-
-Gets or sets the font name.
-
-**Returns:**
-java.lang.String
-### setFontName(String value) {#setFontName-java.lang.String-}
-```
-public final T setFontName(String value)
-```
-
-
-Gets or sets the font name.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-**Returns:**
-T
-### getFontSize() {#getFontSize--}
-```
-public final Integer getFontSize()
-```
-
-
-Gets or sets the font size.
-
-**Returns:**
-java.lang.Integer
-### setFontSize(Integer value) {#setFontSize-java.lang.Integer-}
-```
-public final T setFontSize(Integer value)
-```
-
-
-Gets or sets the font size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.Integer |  |
-
-**Returns:**
-T
-### getFontColor() {#getFontColor--}
-```
-public final Color getFontColor()
-```
-
-
-Gets or sets the font color.
-
-**Returns:**
-java.awt.Color
 ### setFontColor(Color value) {#setFontColor-java.awt.Color-}
 ```
 public final T setFontColor(Color value)
@@ -276,16 +203,36 @@ Gets or sets the font color.
 
 **Returns:**
 T
-### getHighlight() {#getHighlight--}
+### setFontName(String value) {#setFontName-java.lang.String-}
 ```
-public final Color getHighlight()
+public final T setFontName(String value)
 ```
 
 
-Gets or sets the highlight color.
+Gets or sets the font name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 **Returns:**
-java.awt.Color
+T
+### setFontSize(Integer value) {#setFontSize-java.lang.Integer-}
+```
+public final T setFontSize(Integer value)
+```
+
+
+Gets or sets the font size.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.Integer |  |
+
+**Returns:**
+T
 ### setHighlight(Color value) {#setHighlight-java.awt.Color-}
 ```
 public final T setHighlight(Color value)
@@ -301,23 +248,78 @@ Gets or sets the highlight color.
 
 **Returns:**
 T
-### getFontStyle() {#getFontStyle--}
+### setItalic(boolean value) {#setItalic-boolean-}
 ```
-public final int getFontStyle()
+public final T setItalic(boolean value)
 ```
 
 
-Gets the font style.
+Gets or sets a value indicating whether the text style is italic.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 **Returns:**
-int
-### hashCode() {#hashCode--}
+T
+### setStrikethrough(boolean value) {#setStrikethrough-boolean-}
 ```
-public int hashCode()
+public final T setStrikethrough(boolean value)
 ```
 
 
-Serves as a hash function for the type.
+Gets or sets a value indicating whether the text style is strikethrough.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 **Returns:**
-int - The  int .
+T
+### setSubscript(boolean value) {#setSubscript-boolean-}
+```
+public final T setSubscript(boolean value)
+```
+
+
+Gets or sets a value indicating whether the text style is subscript.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+**Returns:**
+T
+### setSuperscript(boolean value) {#setSuperscript-boolean-}
+```
+public final T setSuperscript(boolean value)
+```
+
+
+Gets or sets a value indicating whether the text style is superscript.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+**Returns:**
+T
+### setUnderline(boolean value) {#setUnderline-boolean-}
+```
+public final T setUnderline(boolean value)
+```
+
+
+Gets or sets a value indicating whether the text style is underline.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+**Returns:**
+T

@@ -3,7 +3,7 @@ title: NotebookImageSaveOptions
 second_title: Aspose.Note for Java API Reference
 description: Allows to specify additional options when rendering notebook pages to images.
 type: docs
-weight: 47
+weight: 57
 url: /java/com.aspose.note/notebookimagesaveoptions/
 ---
 
@@ -18,14 +18,14 @@ Allows to specify additional options when rendering notebook pages to images.
 
 | Constructor | Description |
 | --- | --- |
-| [NotebookImageSaveOptions(int format)](#NotebookImageSaveOptions-int-) | Initializes a new instance of the  NotebookImageSaveOptions  class. |
+| [NotebookImageSaveOptions(int format)](#NotebookImageSaveOptions-int-) | Initializes a new instance of the `NotebookImageSaveOptions` class. |
 ### NotebookImageSaveOptions(int format) {#NotebookImageSaveOptions-int-}
 ```
 public NotebookImageSaveOptions(int format)
 ```
 
 
-Initializes a new instance of the  NotebookImageSaveOptions  class.
+Initializes a new instance of the `NotebookImageSaveOptions` class.
 
 **Parameters:**
 | Parameter | Type | Description |

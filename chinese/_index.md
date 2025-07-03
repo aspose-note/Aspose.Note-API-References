@@ -21,6 +21,7 @@ Aspose.Note for .NET 是一个类库，它使 .NET 应用程序能够以编程�
 
 这些是一些有用资源的链接：
 - [Aspose.Note for .NET API 参考](/note/zh/net/)
+- [Aspose.Note for .NET API 教程](/tutorials/note/zh/net/)
 
 ## Aspose.Note for Java
 
@@ -36,3 +37,4 @@ Aspose.Note for Java 是一个类库，它使 Java 应用程序能够以编程�
 
 这些是一些有用资源的链接：
 - [Aspose.Note for Java API 参考](/note/java/)
+- [Aspose.Note for Java API 教程](/tutorials/note/zh/java/)
