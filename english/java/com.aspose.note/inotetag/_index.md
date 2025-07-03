@@ -1,9 +1,9 @@
 ---
 title: INoteTag
 second_title: Aspose.Note for Java API Reference
-description: The interface for note tagsi.e. tags that are not associated with Outlook tasks.
+description: The interface for note tagsi.e.
 type: docs
-weight: 92
+weight: 103
 url: /java/com.aspose.note/inotetag/
 ---
 
@@ -18,24 +18,11 @@ The interface for note tags(i.e. tags that are not associated with Outlook tasks
 
 | Method | Description |
 | --- | --- |
-| [setLabel(String value)](#setLabel-java.lang.String-) | Sets the label text. |
 | [getFontColor()](#getFontColor--) | Gets the font color. |
-| [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Sets the font color. |
 | [getHighlight()](#getHighlight--) | Gets the highlight color. |
+| [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Sets the font color. |
 | [setHighlight(Color value)](#setHighlight-java.awt.Color-) | Sets the highlight color. |
-### setLabel(String value) {#setLabel-java.lang.String-}
-```
-public abstract void setLabel(String value)
-```
-
-
-Sets the label text.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
+| [setLabel(String value)](#setLabel-java.lang.String-) | Sets the label text. |
 ### getFontColor() {#getFontColor--}
 ```
 public abstract Color getFontColor()
@@ -43,6 +30,16 @@ public abstract Color getFontColor()
 
 
 Gets the font color.
+
+**Returns:**
+java.awt.Color
+### getHighlight() {#getHighlight--}
+```
+public abstract Color getHighlight()
+```
+
+
+Gets the highlight color.
 
 **Returns:**
 java.awt.Color
@@ -59,16 +56,6 @@ Sets the font color.
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
-### getHighlight() {#getHighlight--}
-```
-public abstract Color getHighlight()
-```
-
-
-Gets the highlight color.
-
-**Returns:**
-java.awt.Color
 ### setHighlight(Color value) {#setHighlight-java.awt.Color-}
 ```
 public abstract void setHighlight(Color value)
@@ -81,4 +68,17 @@ Sets the highlight color.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color |  |
+
+### setLabel(String value) {#setLabel-java.lang.String-}
+```
+public abstract void setLabel(String value)
+```
+
+
+Sets the label text.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 

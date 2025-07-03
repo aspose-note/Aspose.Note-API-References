@@ -3,7 +3,7 @@ title: INotebookChildNode
 second_title: Aspose.Note for Java API Reference
 description: Represents an Aspose.Note notebooks child.
 type: docs
-weight: 93
+weight: 104
 url: /java/com.aspose.note/inotebookchildnode/
 ---
 ```
@@ -15,20 +15,10 @@ Represents an Aspose.Note notebook's child.
 
 | Method | Description |
 | --- | --- |
-| [getDisplayName()](#getDisplayName--) |  |
 | [getColor()](#getColor--) |  |
+| [getDisplayName()](#getDisplayName--) |  |
 | [getGuid()](#getGuid--) |  |
 | [getGuidInternal()](#getGuidInternal--) |  |
-### getDisplayName() {#getDisplayName--}
-```
-public abstract String getDisplayName()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### getColor() {#getColor--}
 ```
 public abstract Color getColor()
@@ -39,6 +29,16 @@ public abstract Color getColor()
 
 **Returns:**
 java.awt.Color
+### getDisplayName() {#getDisplayName--}
+```
+public abstract String getDisplayName()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### getGuid() {#getGuid--}
 ```
 public abstract UUID getGuid()

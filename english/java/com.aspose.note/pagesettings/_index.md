@@ -3,7 +3,7 @@ title: PageSettings
 second_title: Aspose.Note for Java API Reference
 description: Represents the layout settings for a page.
 type: docs
-weight: 62
+weight: 72
 url: /java/com.aspose.note/pagesettings/
 ---
 

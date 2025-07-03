@@ -18,64 +18,73 @@ public abstract class CompositeNode<T> extends CompositeNodeBase implements ICom
 
 The base generic class for nodes that can contain other nodes.
 
- T : The type of elements in the composite node.
+`T`: The type of elements in the composite node.
+
+ T : 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isComposite()](#isComposite--) | Checks whether the node is composite. |
+| [&lt;T1&gt;appendChildFirst(T1 newChild)](#-T1-appendChildFirst-T1-) | Adds the node to the front of the list of child nodes for this node. |
+| [&lt;T1&gt;appendChildLast(T1 newChild)](#-T1-appendChildLast-T1-) | Adds the node to the end of the list of child nodes for this node. |
+| [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | Get all child nodes by the node type. |
+| [&lt;T1&gt;insertChild(int i, T1 newChild)](#-T1-insertChild-int-T1-) | Inserts the node to the specified position in the list of child nodes for this node. |
+| [&lt;T1&gt;removeChild(T1 oldChild)](#-T1-removeChild-T1-) | Removes the child node. |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 | [getFirstChild()](#getFirstChild--) | Gets the first child node of this node. |
 | [getLastChild()](#getLastChild--) | Gets the last child node of this node. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the  CompositeNode\{T\} . |
-| [<T1>insertChild(int i, T1 newChild)](#-T1-insertChild-int-T1-) | Inserts the node to the specified position in the list of child nodes for this node. |
-| [insertChildrenRange(int i, Iterable<T> newChildren)](#insertChildrenRange-int-java.lang.Iterable-T--) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
 | [insertChildrenRange(int i, T[] newChildren)](#insertChildrenRange-int-T...-) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
-| [<T1>appendChildFirst(T1 newChild)](#-T1-appendChildFirst-T1-) | Adds the node to the front of the list of child nodes for this node. |
-| [<T1>appendChildLast(T1 newChild)](#-T1-appendChildLast-T1-) | Adds the node to the end of the list of child nodes for this node. |
-| [<T1>removeChild(T1 oldChild)](#-T1-removeChild-T1-) | Removes the child node. |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
-| [<T1>getChildNodes(Class<T1> typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | Get all child nodes by the node type. |
-### isComposite() {#isComposite--}
+| [insertChildrenRange(int i, Iterable&lt;T&gt; newChildren)](#insertChildrenRange-int-java.lang.Iterable-T--) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
+| [isComposite()](#isComposite--) | Checks whether the node is composite. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the `CompositeNode\{T\}`. |
+### &lt;T1&gt;appendChildFirst(T1 newChild) {#-T1-appendChildFirst-T1-}
 ```
-public final boolean isComposite()
+public T1 <T1>appendChildFirst(T1 newChild)
 ```
 
 
-Checks whether the node is composite. If true then the node can have child nodes.
+Adds the node to the front of the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | T1 | The node to add. |
 
 **Returns:**
-boolean
-### getFirstChild() {#getFirstChild--}
+T1 - The added node.
+### &lt;T1&gt;appendChildLast(T1 newChild) {#-T1-appendChildLast-T1-}
 ```
-public T getFirstChild()
+public T1 <T1>appendChildLast(T1 newChild)
 ```
 
 
-Gets the first child node of this node.
+Adds the node to the end of the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | T1 | The node to add. |
 
 **Returns:**
-T
-### getLastChild() {#getLastChild--}
+T1 - The added node.
+### &lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
 ```
-public T getLastChild()
+public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 ```
 
 
-Gets the last child node of this node.
+Get all child nodes by the node type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| typeParameterClass | java.lang.Class&lt;T1&gt; |  |
 
 **Returns:**
-T
-### iterator() {#iterator--}
-```
-public System.Collections.Generic.IGenericEnumerator<T> iterator()
-```
+java.util.List&lt;T1&gt; - A list of child nodes.
 
-
-Returns an enumerator that iterates through child nodes of the  CompositeNode\{T\} .
-
-**Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<T> - A  T:IEnumerator1  for the  CompositeNode\{T\} .
-### <T1>insertChild(int i, T1 newChild) {#-T1-insertChild-int-T1-}
+`T1`: The type of elements in the returned list.
+### &lt;T1&gt;insertChild(int i, T1 newChild) {#-T1-insertChild-int-T1-}
 ```
 public T1 <T1>insertChild(int i, T1 newChild)
 ```
@@ -91,65 +100,7 @@ Inserts the node to the specified position in the list of child nodes for this n
 
 **Returns:**
 T1 - The added node.
-### insertChildrenRange(int i, Iterable<T> newChildren) {#insertChildrenRange-int-java.lang.Iterable-T--}
-```
-public final void insertChildrenRange(int i, Iterable<T> newChildren)
-```
-
-
-Inserts the node's sequence starting from specified position in the list of child nodes for this node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| i | int | Position to insert |
-| newChildren | java.lang.Iterable<T> | The sequence of nodes to be inserted. |
-
-### insertChildrenRange(int i, T[] newChildren) {#insertChildrenRange-int-T...-}
-```
-public final void insertChildrenRange(int i, T[] newChildren)
-```
-
-
-Inserts the node's sequence starting from specified position in the list of child nodes for this node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| i | int | Position to insert |
-| newChildren | T[] | The sequence of nodes to be inserted. |
-
-### <T1>appendChildFirst(T1 newChild) {#-T1-appendChildFirst-T1-}
-```
-public T1 <T1>appendChildFirst(T1 newChild)
-```
-
-
-Adds the node to the front of the list of child nodes for this node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | T1 | The node to add. |
-
-**Returns:**
-T1 - The added node.
-### <T1>appendChildLast(T1 newChild) {#-T1-appendChildLast-T1-}
-```
-public T1 <T1>appendChildLast(T1 newChild)
-```
-
-
-Adds the node to the end of the list of child nodes for this node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | T1 | The node to add. |
-
-**Returns:**
-T1 - The added node.
-### <T1>removeChild(T1 oldChild) {#-T1-removeChild-T1-}
+### &lt;T1&gt;removeChild(T1 oldChild) {#-T1-removeChild-T1-}
 ```
 public T1 <T1>removeChild(T1 oldChild)
 ```
@@ -175,22 +126,73 @@ Accepts the visitor of the node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
 
-### <T1>getChildNodes(Class<T1> typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
+### getFirstChild() {#getFirstChild--}
 ```
-public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
+public T getFirstChild()
 ```
 
 
-Get all child nodes by the node type.
+Gets the first child node of this node.
+
+**Returns:**
+T
+### getLastChild() {#getLastChild--}
+```
+public T getLastChild()
+```
+
+
+Gets the last child node of this node.
+
+**Returns:**
+T
+### insertChildrenRange(int i, T[] newChildren) {#insertChildrenRange-int-T...-}
+```
+public final void insertChildrenRange(int i, T[] newChildren)
+```
+
+
+Inserts the node's sequence starting from specified position in the list of child nodes for this node.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| typeParameterClass | java.lang.Class<T1> |  |
+| i | int | Position to insert |
+| newChildren | T[] | The sequence of nodes to be inserted. |
+
+### insertChildrenRange(int i, Iterable&lt;T&gt; newChildren) {#insertChildrenRange-int-java.lang.Iterable-T--}
+```
+public final void insertChildrenRange(int i, Iterable<T> newChildren)
+```
+
+
+Inserts the node's sequence starting from specified position in the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| i | int | Position to insert |
+| newChildren | java.lang.Iterable&lt;T&gt; | The sequence of nodes to be inserted. |
+
+### isComposite() {#isComposite--}
+```
+public final boolean isComposite()
+```
+
+
+Checks whether the node is composite. If true then the node can have child nodes.
 
 **Returns:**
-java.util.List<T1> - A list of child nodes.
+boolean
+### iterator() {#iterator--}
+```
+public System.Collections.Generic.IGenericEnumerator<T> iterator()
+```
 
- T1 : The type of elements in the returned list.
+
+Returns an enumerator that iterates through child nodes of the `CompositeNode\{T\}`.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;T&gt; - A `T:IEnumerator`1` for the `CompositeNode\{T\}`.

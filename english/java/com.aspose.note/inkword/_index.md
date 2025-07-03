@@ -3,7 +3,7 @@ title: InkWord
 second_title: Aspose.Note for Java API Reference
 description: Represents a ink node containing handwritten text.
 type: docs
-weight: 33
+weight: 41
 url: /java/com.aspose.note/inkword/
 ---
 

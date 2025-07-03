@@ -3,7 +3,7 @@ title: NotebookOneSaveOptions
 second_title: Aspose.Note for Java API Reference
 description: Allows to specify additional options when saving notebook to OneNote format.
 type: docs
-weight: 49
+weight: 59
 url: /java/com.aspose.note/notebookonesaveoptions/
 ---
 
@@ -18,12 +18,12 @@ Allows to specify additional options when saving notebook to OneNote format.
 
 | Constructor | Description |
 | --- | --- |
-| [NotebookOneSaveOptions()](#NotebookOneSaveOptions--) | Initializes a new instance of the  NotebookOneSaveOptions  class. |
+| [NotebookOneSaveOptions()](#NotebookOneSaveOptions--) | Initializes a new instance of the `NotebookOneSaveOptions` class. |
 ### NotebookOneSaveOptions() {#NotebookOneSaveOptions--}
 ```
 public NotebookOneSaveOptions()
 ```
 
 
-Initializes a new instance of the  NotebookOneSaveOptions  class.
+Initializes a new instance of the `NotebookOneSaveOptions` class.
 

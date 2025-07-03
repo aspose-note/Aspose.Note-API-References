@@ -3,7 +3,7 @@ title: InkParagraph
 second_title: Aspose.Note for Java API Reference
 description: Represents a ink node containing handwritten text with additional properties like slanted writing.
 type: docs
-weight: 32
+weight: 40
 url: /java/com.aspose.note/inkparagraph/
 ---
 

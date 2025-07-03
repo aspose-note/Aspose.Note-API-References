@@ -3,7 +3,7 @@ title: TagStatus
 second_title: Aspose.Note for Java API Reference
 description: Specifies the status of the note tag node.
 type: docs
-weight: 80
+weight: 91
 url: /java/com.aspose.note/tagstatus/
 ---
 
@@ -18,17 +18,9 @@ Specifies the status of the note tag node.
 
 | Field | Description |
 | --- | --- |
-| [Open](#Open) | The note tag is open. |
 | [Completed](#Completed) | The note tag is finished. |
 | [Disabled](#Disabled) | The note tag is disabled. |
-### Open {#Open}
-```
-public static final int Open
-```
-
-
-The note tag is open.
-
+| [Open](#Open) | The note tag is open. |
 ### Completed {#Completed}
 ```
 public static final int Completed
@@ -44,4 +36,12 @@ public static final int Disabled
 
 
 The note tag is disabled.
+
+### Open {#Open}
+```
+public static final int Open
+```
+
+
+The note tag is open.
 

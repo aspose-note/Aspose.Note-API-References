@@ -3,7 +3,7 @@ title: Node
 second_title: Aspose.Note for Java API Reference
 description: The base class for all nodes of an Aspose.Note document.
 type: docs
-weight: 41
+weight: 51
 url: /java/com.aspose.note/node/
 ---
 
@@ -21,14 +21,27 @@ The base class for all nodes of an Aspose.Note document.
 
 | Method | Description |
 | --- | --- |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 | [getDocument()](#getDocument--) | Gets the document of the node. |
-| [isComposite()](#isComposite--) | Gets a value indicating whether this node is composite. |
+| [getNextSibling()](#getNextSibling--) | Gets the next node at the same node tree level. |
+| [getNodeId()](#getNodeId--) | Gets the node's ID. |
 | [getNodeType()](#getNodeType--) | Gets the node type. |
-| [getNodeId()](#getNodeId--) | Gets the node ID. |
 | [getParentNode()](#getParentNode--) | Gets the parent node. |
 | [getPreviousSibling()](#getPreviousSibling--) | Gets the previous node at the same node tree level. |
-| [getNextSibling()](#getNextSibling--) | Gets the next node at the same node tree level. |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
+| [isComposite()](#isComposite--) | Gets a value indicating whether this node is composite. |
+### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
+```
+public abstract void accept(DocumentVisitor visitor)
+```
+
+
+Accepts the visitor of the node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
+
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
@@ -41,16 +54,28 @@ Value: The document.
 
 **Returns:**
 [Document](../../com.aspose.note/document)
-### isComposite() {#isComposite--}
+### getNextSibling() {#getNextSibling--}
 ```
-public boolean isComposite()
+public INode getNextSibling()
 ```
 
 
-Gets a value indicating whether this node is composite. If true the node can have child nodes.
+Gets the next node at the same node tree level.
+
+Value: The next sibling.
 
 **Returns:**
-boolean
+[INode](../../com.aspose.note/inode)
+### getNodeId() {#getNodeId--}
+```
+public ExtendedGuid getNodeId()
+```
+
+
+Gets the node's ID.
+
+**Returns:**
+[ExtendedGuid](../../com.aspose.note.revision.types/extendedguid)
 ### getNodeType() {#getNodeType--}
 ```
 public int getNodeType()
@@ -61,16 +86,6 @@ Gets the node type.
 
 **Returns:**
 int
-### getNodeId() {#getNodeId--}
-```
-public ExtendedGuid getNodeId()
-```
-
-
-Gets the node ID.
-
-**Returns:**
-[ExtendedGuid](../../com.aspose.note/icompositenode)
 ### getParentNode() {#getParentNode--}
 ```
 public ICompositeNode getParentNode()
@@ -93,28 +108,13 @@ Value: The previous sibling.
 
 **Returns:**
 [INode](../../com.aspose.note/inode)
-### getNextSibling() {#getNextSibling--}
+### isComposite() {#isComposite--}
 ```
-public INode getNextSibling()
+public boolean isComposite()
 ```
 
 
-Gets the next node at the same node tree level.
-
-Value: The next sibling.
+Gets a value indicating whether this node is composite. If true the node can have child nodes.
 
 **Returns:**
-[INode](../../com.aspose.note/inode)
-### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
-```
-public abstract void accept(DocumentVisitor visitor)
-```
-
-
-Accepts the visitor of the node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
-
+boolean

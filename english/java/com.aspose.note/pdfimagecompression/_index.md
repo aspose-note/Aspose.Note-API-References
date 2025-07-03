@@ -3,7 +3,7 @@ title: PdfImageCompression
 second_title: Aspose.Note for Java API Reference
 description: Specifies the type of compression applied to images in the PDF file.
 type: docs
-weight: 66
+weight: 76
 url: /java/com.aspose.note/pdfimagecompression/
 ---
 
@@ -18,18 +18,10 @@ Specifies the type of compression applied to images in the PDF file.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | No compression is used when saving images. |
 | [Auto](#Auto) | Automatically selects the most appropriate compression for each image. |
-| [Jpeg](#Jpeg) | Jpeg compression. |
 | [Flate](#Flate) | Flate compression(lossless). |
-### None {#None}
-```
-public static final int None
-```
-
-
-No compression is used when saving images.
-
+| [Jpeg](#Jpeg) | Jpeg compression. |
+| [None](#None) | No compression is used when saving images. |
 ### Auto {#Auto}
 ```
 public static final int Auto
@@ -37,6 +29,14 @@ public static final int Auto
 
 
 Automatically selects the most appropriate compression for each image.
+
+### Flate {#Flate}
+```
+public static final int Flate
+```
+
+
+Flate compression(lossless).
 
 ### Jpeg {#Jpeg}
 ```
@@ -46,11 +46,11 @@ public static final int Jpeg
 
 Jpeg compression. Does not support transparency.
 
-### Flate {#Flate}
+### None {#None}
 ```
-public static final int Flate
+public static final int None
 ```
 
 
-Flate compression(lossless).
+No compression is used when saving images.
 

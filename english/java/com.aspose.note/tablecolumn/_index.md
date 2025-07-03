@@ -3,7 +3,7 @@ title: TableColumn
 second_title: Aspose.Note for Java API Reference
 description: Represents a table column.
 type: docs
-weight: 78
+weight: 89
 url: /java/com.aspose.note/tablecolumn/
 ---
 
@@ -23,38 +23,15 @@ Represents a table column.
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | Gets the width. |
-| [setWidth(float value)](#setWidth-float-) | Sets the width. |
 | [getLockedWidth()](#getLockedWidth--) | Gets a value indicating whether a table column has locked width and does not resize automatically to fit table content. |
+| [getWidth()](#getWidth--) | Gets the width. |
 | [setLockedWidth(boolean value)](#setLockedWidth-boolean-) | Sets a value indicating whether a table column has locked width and does not resize automatically to fit table content. |
+| [setWidth(float value)](#setWidth-float-) | Sets the width. |
 ### TableColumn() {#TableColumn--}
 ```
 public TableColumn()
 ```
 
-
-### getWidth() {#getWidth--}
-```
-public float getWidth()
-```
-
-
-Gets the width.
-
-**Returns:**
-float
-### setWidth(float value) {#setWidth-float-}
-```
-public void setWidth(float value)
-```
-
-
-Sets the width.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | float |  |
 
 ### getLockedWidth() {#getLockedWidth--}
 ```
@@ -66,6 +43,16 @@ Gets a value indicating whether a table column has locked width and does not res
 
 **Returns:**
 boolean
+### getWidth() {#getWidth--}
+```
+public float getWidth()
+```
+
+
+Gets the width.
+
+**Returns:**
+float
 ### setLockedWidth(boolean value) {#setLockedWidth-boolean-}
 ```
 public void setLockedWidth(boolean value)
@@ -78,4 +65,17 @@ Sets a value indicating whether a table column has locked width and does not res
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setWidth(float value) {#setWidth-float-}
+```
+public void setWidth(float value)
+```
+
+
+Sets the width.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
 

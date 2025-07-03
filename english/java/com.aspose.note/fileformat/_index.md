@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Aspose.Note for Java API Reference
 description: Represents OneNote file format.
 type: docs
-weight: 22
+weight: 30
 url: /java/com.aspose.note/fileformat/
 ---
 
@@ -18,18 +18,10 @@ Represents OneNote file format.
 
 | Field | Description |
 | --- | --- |
-| [Unknown](#Unknown) | Unknown file format. |
 | [OneNote2007](#OneNote2007) | OneNote 2010. |
 | [OneNote2010](#OneNote2010) | OneNote 2010. |
 | [OneNoteOnline](#OneNoteOnline) | OneNote Online. |
-### Unknown {#Unknown}
-```
-public static final int Unknown
-```
-
-
-Unknown file format.
-
+| [Unknown](#Unknown) | Unknown file format. |
 ### OneNote2007 {#OneNote2007}
 ```
 public static final int OneNote2007
@@ -53,4 +45,12 @@ public static final int OneNoteOnline
 
 
 OneNote Online.
+
+### Unknown {#Unknown}
+```
+public static final int Unknown
+```
+
+
+Unknown file format.
 

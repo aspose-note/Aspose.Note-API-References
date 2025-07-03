@@ -3,7 +3,7 @@ title: ITaggable
 second_title: Aspose.Note for Java API Reference
 description: The interface for nodes that can be marked by tags.
 type: docs
-weight: 99
+weight: 110
 url: /java/com.aspose.note/itaggable/
 ---
 
@@ -28,4 +28,4 @@ public abstract System.Collections.Generic.List<ITag> getTags()
 Gets the list of all tags.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.List<com.aspose.note.ITag>
+com.aspose.ms.System.Collections.Generic.List&lt;com.aspose.note.ITag&gt;

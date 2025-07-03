@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Note for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 36
+weight: 44
 url: /java/com.aspose.note/license/
 ---
 
@@ -23,10 +23,10 @@ Provides methods to license the component.
 
 | Method | Description |
 | --- | --- |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licenses the component. |
-| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
-| [setLicense(File licenseFile)](#setLicense-java.io.File-) | Licenses the component. |
 | [resetThreadContext()](#resetThreadContext--) | Resets a license context for curent thread. |
+| [setLicense(File licenseFile)](#setLicense-java.io.File-) | Licenses the component. |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
+| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licenses the component. |
 | [setThreadContext(InputStream stream)](#setThreadContext-java.io.InputStream-) | Sets a license context for current thread. |
 ### License() {#License--}
 ```
@@ -36,9 +36,17 @@ public License()
 
 Initializes a new instance of this class.
 
-### setLicense(String licenseName) {#setLicense-java.lang.String-}
+### resetThreadContext() {#resetThreadContext--}
 ```
-public final void setLicense(String licenseName)
+public static void resetThreadContext()
+```
+
+
+Resets a license context for curent thread.
+
+### setLicense(File licenseFile) {#setLicense-java.io.File-}
+```
+public void setLicense(File licenseFile)
 ```
 
 
@@ -47,41 +55,7 @@ Licenses the component.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name  or name of an embedded resource . Use an empty string to switch to evaluation mode.
-
---------------------
-
-
-
-Tries to find the license in the following locations:
-
- 
-
-1. Explicit path.
-
- 
-
-2. The folder that contains the Aspose component assembly.
-
-3. The folder that contains the client's calling assembly.
-
-4. The folder that contains the entry (startup) assembly.
-
-5. An embedded resource in the client's calling assembly.
-
-**Note:**On the .NET Compact Framework, tries to find the license only in these locations:
-
-1. Explicit path.
-
-2. An embedded resource in the client's calling assembly.
-
- 
-
-2. The folder that contains the Aspose component JAR file.
-
-3. The folder that contains the client's calling JAR file.
-
- |
+| licenseFile | java.io.File | File of license`System.IO.FileInfo`. |
 
 ### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
 ```
@@ -98,17 +72,17 @@ Licenses the component.
 
 --------------------
 
-
+`
 
 Use this method to load a license from a stream.
 
+`
 
+`void setLicense(java.io.InputStream stream)` |
 
- void setLicense(java.io.InputStream stream)  |
-
-### setLicense(File licenseFile) {#setLicense-java.io.File-}
+### setLicense(String licenseName) {#setLicense-java.lang.String-}
 ```
-public void setLicense(File licenseFile)
+public final void setLicense(String licenseName)
 ```
 
 
@@ -117,15 +91,41 @@ Licenses the component.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseFile | java.io.File | File of license System.IO.FileInfo . |
+| licenseName | java.lang.String | Can be a full or short file name` or name of an embedded resource`. Use an empty string to switch to evaluation mode.
 
-### resetThreadContext() {#resetThreadContext--}
-```
-public static void resetThreadContext()
-```
+--------------------
 
+`
 
-Resets a license context for curent thread.
+Tries to find the license in the following locations:
+
+` `
+
+1. Explicit path.
+
+` `
+
+2. The folder that contains the Aspose component assembly.
+
+3. The folder that contains the client's calling assembly.
+
+4. The folder that contains the entry (startup) assembly.
+
+5. An embedded resource in the client's calling assembly.
+
+**Note:**On the .NET Compact Framework, tries to find the license only in these locations:
+
+1. Explicit path.
+
+2. An embedded resource in the client's calling assembly.
+
+` `
+
+2. The folder that contains the Aspose component JAR file.
+
+3. The folder that contains the client's calling JAR file.
+
+` |
 
 ### setThreadContext(InputStream stream) {#setThreadContext-java.io.InputStream-}
 ```

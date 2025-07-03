@@ -3,7 +3,7 @@ title: TableCell
 second_title: Aspose.Note for Java API Reference
 description: Represents a table cell.
 type: docs
-weight: 77
+weight: 88
 url: /java/com.aspose.note/tablecell/
 ---
 
@@ -18,59 +18,39 @@ Represents a table cell.
 
 | Constructor | Description |
 | --- | --- |
-| [TableCell()](#TableCell--) | Initializes a new instance of the  TableCell  class. |
+| [TableCell()](#TableCell--) | Initializes a new instance of the `TableCell` class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
-| [getMaxWidth()](#getMaxWidth--) | Gets the max width. |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-java.awt.Color-) | Sets the background color. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
+| [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
 | [getInternalIndentPosition()](#getInternalIndentPosition--) |  |
+| [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
+| [getMaxWidth()](#getMaxWidth--) | Gets the max width. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-java.awt.Color-) | Sets the background color. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 ### TableCell() {#TableCell--}
 ```
 public TableCell()
 ```
 
 
-Initializes a new instance of the  TableCell  class.
+Initializes a new instance of the `TableCell` class.
 
-### getLastModifiedTime() {#getLastModifiedTime--}
+### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
-public Date getLastModifiedTime()
-```
-
-
-Gets or sets the last modified time.
-
-**Returns:**
-java.util.Date
-### setLastModifiedTime(Date value) {#setLastModifiedTime-java.util.Date-}
-```
-public void setLastModifiedTime(Date value)
+public void accept(DocumentVisitor visitor)
 ```
 
 
-Gets or sets the last modified time.
+Accepts the visitor of the node.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
 
-### getMaxWidth() {#getMaxWidth--}
-```
-public float getMaxWidth()
-```
-
-
-Gets the max width.
-
-**Returns:**
-float
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Color getBackgroundColor()
@@ -81,6 +61,36 @@ Gets the background color.
 
 **Returns:**
 java.awt.Color
+### getInternalIndentPosition() {#getInternalIndentPosition--}
+```
+public int getInternalIndentPosition()
+```
+
+
+Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size.
+
+**Returns:**
+int
+### getLastModifiedTime() {#getLastModifiedTime--}
+```
+public Date getLastModifiedTime()
+```
+
+
+Gets or sets the last modified time.
+
+**Returns:**
+java.util.Date
+### getMaxWidth() {#getMaxWidth--}
+```
+public float getMaxWidth()
+```
+
+
+Gets the max width.
+
+**Returns:**
+float
 ### setBackgroundColor(Color value) {#setBackgroundColor-java.awt.Color-}
 ```
 public void setBackgroundColor(Color value)
@@ -94,26 +104,16 @@ Sets the background color.
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
-### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
+### setLastModifiedTime(Date value) {#setLastModifiedTime-java.util.Date-}
 ```
-public void accept(DocumentVisitor visitor)
+public void setLastModifiedTime(Date value)
 ```
 
 
-Accepts the visitor of the node.
+Gets or sets the last modified time.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
+| value | java.util.Date |  |
 
-### getInternalIndentPosition() {#getInternalIndentPosition--}
-```
-public int getInternalIndentPosition()
-```
-
-
-Gets the amount of items to sum up in RgOutlineIndentDistance array to get indent size.
-
-**Returns:**
-int
