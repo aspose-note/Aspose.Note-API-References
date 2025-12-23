@@ -158,16 +158,16 @@ string dataDir = RunExamples.GetDataDir_Tags();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Load an image
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
+Image image = new Image(dataDir + "icon.jpg");
 
 // Insert image in the document node
 outlineElem.AppendChildLast(image);
@@ -197,15 +197,15 @@ string dataDir = RunExamples.GetDataDir_Tags();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // Add text node
@@ -269,22 +269,22 @@ string dataDir = RunExamples.GetDataDir_Tags();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize TableRow class object
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // Initialize TableCell class object
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Insert cell content
-cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
+cell.AppendChildLast(InsertTable.GetOutlineElementWithText("Single cell."));
 
 // Add cell to row node
 row.AppendChildLast(cell);
 
 // Initialize table node
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -296,8 +296,8 @@ table.AppendChildLast(row);
 // Add tag to this table node
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Add table node
 outlineElem.AppendChildLast(table);

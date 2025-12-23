@@ -114,21 +114,21 @@ string dataDir = RunExamples.GetDataDir_Text();
 string outputPath = dataDir + "CreateTitleMsStyle_out.one";
 
 var doc = new Document();
-var page = new Page(doc);
+var page = new Page();
 
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc)
+    TitleText = new RichText()
     {
         Text = "Title text.",
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleDate = new RichText(doc)
+    TitleDate = new RichText()
     {
         Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture),
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleTime = new RichText(doc)
+    TitleTime = new RichText()
     {
         Text = "12:34",
         ParagraphStyle = ParagraphStyle.Default
@@ -235,15 +235,15 @@ string dataDir = RunExamples.GetDataDir_Tags();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // Add text node
@@ -336,19 +336,19 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 
 // Initialize Page class object
-Page page = new Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Initialize TextStyle class object and set formatting properties
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Initialize RichText class object and apply text style
-RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // Add RichText node
 outlineElem.AppendChildLast(text);
@@ -373,28 +373,28 @@ Shows how to insert new list with chinese numbering.
 string dataDir = RunExamples.GetDataDir_Text();
 
 // Initialize OneNote document
-Aspose.Note.Document doc = new Aspose.Note.Document();
+Document doc = new Document();
 
 // Initialize OneNote page
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Page page = new Page();
+Outline outline = new Outline();
 
 // Apply text style settings
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Numbers in the same outline are automatically incremented.
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
 //------------------------
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
 //------------------------
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
 //------------------------
@@ -415,30 +415,30 @@ Shows how to insert new bulleted lis.
 string dataDir = RunExamples.GetDataDir_Text();
 
 // Create an object of the Document class
-Aspose.Note.Document doc = new Aspose.Note.Document();
+Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Initialize OutlineElement class objects and apply bullets
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
 // Initialize RichText class object and apply text style
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text2 = new RichText(  ) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
 // Add outline elements
@@ -465,26 +465,26 @@ string dataDir = RunExamples.GetDataDir_Text();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Initialize OutlineElement class objects and apply numbering
 // Numbers in the same outline are automatically incremented.
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
 // Add outline elements

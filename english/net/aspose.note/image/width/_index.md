@@ -50,10 +50,10 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // Get the first page of the document.
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
 // Load an image from the file.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+Image image = new Image(dataDir + "image.jpg")
                           {
                               // Change the image's size according to your needs (optional).
                               Width = 100,
