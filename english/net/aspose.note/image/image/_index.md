@@ -31,7 +31,7 @@ public Image(string path)
 Initializes a new instance of the [`Image`](../) class.
 
 ```csharp
-public Image(string path, string altTitle = null, string altDescription = null)
+public Image(string path, string altTitle, string altDescription = null)
 ```
 
 | Parameter | Type | Description |

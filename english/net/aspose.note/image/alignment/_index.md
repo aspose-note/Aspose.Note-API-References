@@ -26,10 +26,10 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // Get the first page of the document.
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
 // Load an image from the file.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+Image image = new Image(dataDir + "image.jpg")
                           {
                               // Change the image's size according to your needs (optional).
                               Width = 100,
@@ -57,16 +57,16 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
     // Load the second image using the image name, extension and stream.
-    Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
+    Image image1 = new Image("Penguins.jpg", fs)
                                    {
                                        // Set image alignment
                                        Alignment = HorizontalAlignment.Right
@@ -95,16 +95,16 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object and set offset properties
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Load an image by the file path.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+Image image = new Image(dataDir + "image.jpg")
                           {
                               // Set image alignment
                               Alignment = HorizontalAlignment.Right

@@ -70,6 +70,21 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"))
 d.Save(Path.Combine(dataDir, "sample_SimpleMerge.one"));
 ```
 
+Shows how to import a PDF file into a OneNote document.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Pdf();
+
+// Specify paths
+var pdfFilePath = Path.Combine(dataDir, "sample.pdf");
+var oneFilePath = Path.Combine(dataDir, "output.one");
+
+// Import PDF into OneNote
+var document = new Document();
+document.Import(pdfFilePath);
+document.Save(oneFilePath);
+```
+
 Shows how to import all pages from a set of PDF documents while inserting pages from every PDF document as children of a top level OneNote page.
 
 ```csharp
@@ -160,6 +175,42 @@ public Document Import(string file, HtmlImportOptions importOptions,
 ### Return Value
 
 Returns the reference to the document.
+
+## Examples
+
+Shows how to import an HTML file into a OneNote document.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Html();
+
+var htmlFilePath = Path.Combine(dataDir, "sample.html");
+var oneFilePath = Path.Combine(dataDir, "output.one");
+
+// Import HTML into OneNote
+var doc = new Document();
+doc.Import(htmlFilePath, new HtmlImportOptions());
+doc.Save(oneFilePath);
+```
+
+Shows how to import a Markdown file into a OneNote document.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Markdown();
+
+var mdFilePath = Path.Combine(dataDir, "sample.md");
+var htmlFilePath = Path.Combine(dataDir, "temp.html");
+var oneFilePath = Path.Combine(dataDir, "output.one");
+
+// Convert Markdown to HTML
+Converter.ConvertMarkdown(mdFilePath, htmlFilePath);
+
+// Import HTML into OneNote
+var document = new Document();
+document.Import(htmlFilePath, new HtmlImportOptions());
+document.Save(oneFilePath);
+
+Console.WriteLine("\nMarkdown document imported into OneNote successfully.");
+```
 
 ### See Also
 

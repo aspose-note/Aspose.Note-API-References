@@ -221,6 +221,25 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
+Shows how to bind a hyperlink to an image.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Images(); 
+
+var document = new Document();
+
+var page = new Page();
+
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
+
+page.AppendChildLast(image);
+
+document.AppendChildLast(page);
+
+document.Save(dataDir + "Image with Hyperlink_out.one");
+```
+
 Shows how to get file format of a document.
 
 ```csharp
@@ -237,25 +256,6 @@ switch (document.FileFormat)
         // Process OneNote Online
         break;
 }
-```
-
-Shows how to bind a hyperlink to an image.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_Images(); 
-
-var document = new Document();
-
-var page = new Page(document);
-
-var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
-
-page.AppendChildLast(image);
-
-document.AppendChildLast(page);
-
-document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
 Shows how to save a document to a stream.
@@ -408,8 +408,8 @@ Shows how to set text description for an image.
 string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
-var page = new Page(document);
-var image = new Image(document, dataDir + "image.jpg")
+var page = new Page();
+var image = new Image(dataDir + "image.jpg")
             {
                 AlternativeTextTitle = "This is an image's title!",
                 AlternativeTextDescription = "And this is an image's description!"
@@ -496,14 +496,14 @@ var pageHistory = document.GetPageHistory(page);
 
 pageHistory.RemoveRange(0, 1);
 
-pageHistory[0] = new Page(document);
+pageHistory[0] = new Page();
 if (pageHistory.Count > 1)
 {
     pageHistory[1].Title.TitleText.Text = "New Title";
 
-    pageHistory.Add(new Page(document));
+    pageHistory.Add(new Page());
 
-    pageHistory.Insert(1, new Page(document));
+    pageHistory.Insert(1, new Page());
 
     document.Save(dataDir + "ModifyPageHistory_out.one");
 }
@@ -766,16 +766,16 @@ string dataDir = RunExamples.GetDataDir_Attachments();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Initialize AttachedFile class object
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // Add attached file
 outlineElem.AppendChildLast(attachedFile);
@@ -854,10 +854,10 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // Get the first page of the document.
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
 // Load an image from the file.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+Image image = new Image(dataDir + "image.jpg")
                           {
                               // Change the image's size according to your needs (optional).
                               Width = 100,
@@ -885,18 +885,18 @@ string dataDir = RunExamples.GetDataDir_Attachments();
 Document doc = new Document();
 
 // Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // Initialize AttachedFile class object and also pass its icon path
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // Add attached file
     outlineElem.AppendChildLast(attachedFile);
@@ -912,6 +912,75 @@ page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
+doc.Save(dataDir);
+```
+
+Shows how to add an image from stream to a document.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Images();
+
+// Create an object of the Document class
+Document doc = new Document();
+
+// Initialize Page class object
+Page page = new Page();
+
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
+
+using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
+{
+
+    // Load the second image using the image name, extension and stream.
+    Image image1 = new Image("Penguins.jpg", fs)
+                                   {
+                                       // Set image alignment
+                                       Alignment = HorizontalAlignment.Right
+                                   };
+
+    outlineElem1.AppendChildLast(image1);
+}
+
+outline1.AppendChildLast(outlineElem1);
+page.AppendChildLast(outline1);
+
+doc.AppendChildLast(page);
+
+// Save OneNote document
+dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
+doc.Save(dataDir);
+```
+
+Shows how to create a document with titled page.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Create an object of the Document class
+Document doc = new Document();
+
+// Initialize Page class object
+Page page = new Page();
+
+// Default style for all text in the document.
+ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+
+// Set page title properties
+page.Title = new Title()
+             {
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
+             };
+
+// Append Page node in the document
+doc.AppendChildLast(page);
+
+// Save OneNote document
+dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
@@ -940,6 +1009,48 @@ pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(100);
 pdfSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm(400);
 
 dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
+doc.Save(dataDir);
+```
+
+Shows how to add an image from file to a document.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Images();
+
+// Create an object of the Document class
+Document doc = new Document();
+
+// Initialize Page class object
+Page page = new Page();
+
+// Initialize Outline class object and set offset properties
+Outline outline = new Outline();
+
+// Initialize OutlineElement class object
+OutlineElement outlineElem = new OutlineElement();
+
+// Load an image by the file path.
+Image image = new Image(dataDir + "image.jpg")
+                          {
+                              // Set image alignment
+                              Alignment = HorizontalAlignment.Right
+                          };
+
+// Add image
+outlineElem.AppendChildLast(image);
+
+// Add outline elements
+outline.AppendChildLast(outlineElem);
+
+// Add Outline node
+page.AppendChildLast(outline);
+
+// Add Page node
+doc.AppendChildLast(page);
+
+// Save OneNote document
+dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
 
@@ -972,117 +1083,6 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Shows how to create a document with titled page.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
-
-// Create an object of the Document class
-Document doc = new Aspose.Note.Document();
-
-// Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-
-// Default style for all text in the document.
-ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-
-// Set page title properties
-page.Title = new Title(doc)
-             {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
-             };
-
-// Append Page node in the document
-doc.AppendChildLast(page);
-
-// Save OneNote document
-dataDir = dataDir + "CreateDocWithPageTitle_out.one";
-doc.Save(dataDir);
-```
-
-Shows how to add an image from stream to a document.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_Images();
-
-// Create an object of the Document class
-Document doc = new Document();
-
-// Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
-
-using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
-{
-
-    // Load the second image using the image name, extension and stream.
-    Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
-                                   {
-                                       // Set image alignment
-                                       Alignment = HorizontalAlignment.Right
-                                   };
-
-    outlineElem1.AppendChildLast(image1);
-}
-
-outline1.AppendChildLast(outlineElem1);
-page.AppendChildLast(outline1);
-
-doc.AppendChildLast(page);
-
-// Save OneNote document
-dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
-doc.Save(dataDir);
-```
-
-Shows how to add an image from file to a document.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_Images();
-
-// Create an object of the Document class
-Document doc = new Document();
-
-// Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-
-// Initialize Outline class object and set offset properties
-Outline outline = new Outline(doc);
-
-// Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
-
-// Load an image by the file path.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
-                          {
-                              // Set image alignment
-                              Alignment = HorizontalAlignment.Right
-                          };
-
-// Add image
-outlineElem.AppendChildLast(image);
-
-// Add outline elements
-outline.AppendChildLast(outlineElem);
-
-// Add Outline node
-page.AppendChildLast(outline);
-
-// Add Page node
-doc.AppendChildLast(page);
-
-// Save OneNote document
-dataDir = dataDir + "BuildDocAndInsertImage_out.one";
-doc.Save(dataDir);
-```
-
 Shows how to create a document with a text.
 
 ```csharp
@@ -1093,19 +1093,19 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 
 // Initialize Page class object
-Page page = new Page(doc);
+Page page = new Page();
 
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialize OutlineElement class object
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Initialize TextStyle class object and set formatting properties
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Initialize RichText class object and apply text style
-RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // Add RichText node
 outlineElem.AppendChildLast(text);
@@ -1134,15 +1134,15 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // Initialize the new Page
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Default style for all text in the document.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-page.Title = new Title(doc)
+page.Title = new Title()
              {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
 // Append page node
