@@ -153,6 +153,19 @@ public void Save(Stream stream, SaveFormat format)
 
 ## Examples
 
+Shows how to convert a OneNote document to HTML format.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Html();
+
+var oneFilePath = Path.Combine(dataDir, "sample.one");
+var htmlFilePath = Path.Combine(dataDir, "output.html");
+
+// Convert OneNote to HTML
+var doc = new Document(oneFilePath);
+doc.Save(htmlFilePath, SaveFormat.Html);
+```
+
 Shows how to save a document in pdf format using default settings.
 
 ```csharp
@@ -181,6 +194,25 @@ doc.Save(dstStream, SaveFormat.Pdf);
 
 // Rewind the stream position back to zero so it is ready for next reader.
 dstStream.Seek(0, SeekOrigin.Begin);
+```
+
+Shows how to convert a OneNote document to Markdown format.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Markdown();
+
+var oneFilePath = Path.Combine(dataDir, "sample.one");
+var mdFilePath = Path.Combine(dataDir, "output.md");
+var htmlFilePath = Path.Combine(dataDir, "temp.html");
+
+// Convert OneNote to HTML
+var document = new Document(oneFilePath);
+document.Save(htmlFilePath, SaveFormat.Html);
+
+// Convert HTML to Markdown
+Converter.ConvertHTML(htmlFilePath, new MarkdownSaveOptions(), mdFilePath);
+
+Console.WriteLine("\nOneNote document converted to Markdown successfully.");
 ```
 
 Shows how to apply Dark theme style to a Document.

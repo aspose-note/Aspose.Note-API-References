@@ -23,21 +23,21 @@ string dataDir = RunExamples.GetDataDir_Text();
 string outputPath = dataDir + "CreateTitleMsStyle_out.one";
 
 var doc = new Document();
-var page = new Page(doc);
+var page = new Page();
 
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc)
+    TitleText = new RichText()
     {
         Text = "Title text.",
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleDate = new RichText(doc)
+    TitleDate = new RichText()
     {
         Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture),
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleTime = new RichText(doc)
+    TitleTime = new RichText()
     {
         Text = "12:34",
         ParagraphStyle = ParagraphStyle.Default
@@ -73,6 +73,37 @@ dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
+Shows how to create a document with titled page.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// Create an object of the Document class
+Document doc = new Document();
+
+// Initialize Page class object
+Page page = new Page();
+
+// Default style for all text in the document.
+ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+
+// Set page title properties
+page.Title = new Title()
+             {
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
+             };
+
+// Append Page node in the document
+doc.AppendChildLast(page);
+
+// Save OneNote document
+dataDir = dataDir + "CreateDocWithPageTitle_out.one";
+doc.Save(dataDir);
+```
+
 Shows how to create a document and save in html format specified range of pages.
 
 ```csharp
@@ -102,37 +133,6 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-Shows how to create a document with titled page.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
-
-// Create an object of the Document class
-Document doc = new Aspose.Note.Document();
-
-// Initialize Page class object
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-
-// Default style for all text in the document.
-ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-
-// Set page title properties
-page.Title = new Title(doc)
-             {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
-             };
-
-// Append Page node in the document
-doc.AppendChildLast(page);
-
-// Save OneNote document
-dataDir = dataDir + "CreateDocWithPageTitle_out.one";
-doc.Save(dataDir);
-```
-
 Shows how to save a document in different formats.
 
 ```csharp
@@ -143,15 +143,15 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // Initialize the new Page
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // Default style for all text in the document.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-page.Title = new Title(doc)
+page.Title = new Title()
              {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
 // Append page node
