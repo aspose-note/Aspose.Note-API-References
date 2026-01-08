@@ -22,13 +22,22 @@ The base class for all nodes of an Aspose.Note document.
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | Gets the document of the node. |
 | [getNextSibling()](#getNextSibling--) | Gets the next node at the same node tree level. |
 | [getNodeId()](#getNodeId--) | Gets the node's ID. |
 | [getNodeType()](#getNodeType--) | Gets the node type. |
 | [getParentNode()](#getParentNode--) | Gets the parent node. |
 | [getPreviousSibling()](#getPreviousSibling--) | Gets the previous node at the same node tree level. |
+| [hashCode()](#hashCode--) |  |
 | [isComposite()](#isComposite--) | Gets a value indicating whether this node is composite. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
 public abstract void accept(DocumentVisitor visitor)
@@ -40,8 +49,33 @@ Accepts the visitor of the node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
@@ -108,6 +142,16 @@ Value: The previous sibling.
 
 **Returns:**
 [INode](../../com.aspose.note/inode)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
@@ -118,3 +162,64 @@ Gets a value indicating whether this node is composite. If true the node can hav
 
 **Returns:**
 boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
