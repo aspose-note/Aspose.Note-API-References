@@ -1,6 +1,5 @@
 T:com.aspose.metered.Metered
 M:com.aspose.metered.Metered.#ctor
-M:com.aspose.metered.Metered.getConsumptionCredit
 M:com.aspose.metered.Metered.getConsumptionQuantity
 M:com.aspose.metered.Metered.setMeteredKey(java.lang.String,java.lang.String)
 T:com.aspose.metered.MeteredLicenseManager
