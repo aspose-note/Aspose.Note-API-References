@@ -21,34 +21,43 @@ Represents the page history.
 
 | Constructor | Description |
 | --- | --- |
-| [PageHistory(Page page)](#PageHistory-com.aspose.note.Page-) | Initializes a new instance of the `PageHistory` class. |
+| [PageHistory(Page page)](#PageHistory-com.aspose.note.Page-) | Initializes a new instance of the  PageHistory  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addItem(Page item)](#addItem-com.aspose.note.Page-) | Adds the page version to the end of the `PageHistory`. |
-| [addRange(System.Collections.Generic.IGenericEnumerable&lt;Page&gt; items)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.note.Page--) | Adds the page versions to the end of the `PageHistory`. |
+| [addItem(Page item)](#addItem-com.aspose.note.Page-) | Adds the page version to the end of the  PageHistory . |
+| [addRange(System.Collections.Generic.IGenericEnumerable<Page> items)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.note.Page--) | Adds the page versions to the end of the  PageHistory . |
 | [clear()](#clear--) | Clears the page history. |
 | [containsItem(Page item)](#containsItem-com.aspose.note.Page-) | Determines whether the page history contains the page version. |
 | [copyToTArray(Page[] array, int arrayIndex)](#copyToTArray-com.aspose.note.Page---int-) | Copies the page versions to an array, starting at a particular index.. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getCurrent()](#getCurrent--) | Gets the current page version. |
-| [get_Item(int index)](#get-Item-int-) | Gets or sets the page version at the specified index of the `PageHistory`. |
+| [get_Item(int index)](#get-Item-int-) | Gets or sets the page version at the specified index of the  PageHistory . |
+| [hashCode()](#hashCode--) |  |
 | [indexOfItem(Page item)](#indexOfItem-com.aspose.note.Page-) | Determines the index of a specific page version in the page history. |
 | [insertItem(int index, Page item)](#insertItem-int-com.aspose.note.Page-) | Inserts a page version into the page history. |
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the page history is read only. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the `PageHistory`. |
-| [removeAt(int index)](#removeAt-int-) | Removes the page version at the specified index of the `PageHistory`. |
-| [removeItem(Page item)](#removeItem-com.aspose.note.Page-) | Removes the page version from the `PageHistory`. |
-| [removeRange(int index, int count)](#removeRange-int-int-) | Removes a range of the page versions from the `PageHistory`. |
-| [set_Item(int index, Page value)](#set-Item-int-com.aspose.note.Page-) | Gets or sets the page version at the specified index of the `PageHistory`. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the  PageHistory . |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeAt(int index)](#removeAt-int-) | Removes the page version at the specified index of the  PageHistory . |
+| [removeItem(Page item)](#removeItem-com.aspose.note.Page-) | Removes the page version from the  PageHistory . |
+| [removeRange(int index, int count)](#removeRange-int-int-) | Removes a range of the page versions from the  PageHistory . |
+| [set_Item(int index, Page value)](#set-Item-int-com.aspose.note.Page-) | Gets or sets the page version at the specified index of the  PageHistory . |
 | [size()](#size--) | Gets the count of the page versions in the page history. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### PageHistory(Page page) {#PageHistory-com.aspose.note.Page-}
 ```
 public PageHistory(Page page)
 ```
 
 
-Initializes a new instance of the `PageHistory` class.
+Initializes a new instance of the  PageHistory  class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -61,25 +70,25 @@ public void addItem(Page item)
 ```
 
 
-Adds the page version to the end of the `PageHistory`.
+Adds the page version to the end of the  PageHistory .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | [Page](../../com.aspose.note/page) | The page version. |
 
-### addRange(System.Collections.Generic.IGenericEnumerable&lt;Page&gt; items) {#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.note.Page--}
+### addRange(System.Collections.Generic.IGenericEnumerable<Page> items) {#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.note.Page--}
 ```
 public void addRange(System.Collections.Generic.IGenericEnumerable<Page> items)
 ```
 
 
-Adds the page versions to the end of the `PageHistory`.
+Adds the page versions to the end of the  PageHistory .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| items | com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.note.Page&gt; | The `IEnumerable\{Page\}` collection of page versions. |
+| items | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.note.Page> | The  IEnumerable\{Page\}  collection of page versions. |
 
 ### clear() {#clear--}
 ```
@@ -103,7 +112,7 @@ Determines whether the page history contains the page version.
 | item | [Page](../../com.aspose.note/page) | The page version. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
 ### copyToTArray(Page[] array, int arrayIndex) {#copyToTArray-com.aspose.note.Page---int-}
 ```
 public void copyToTArray(Page[] array, int arrayIndex)
@@ -118,6 +127,31 @@ Copies the page versions to an array, starting at a particular index..
 | array | [Page\[\]](../../com.aspose.note/page) | The target array. |
 | arrayIndex | int | The array index. |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCurrent() {#getCurrent--}
 ```
 public Page getCurrent()
@@ -134,7 +168,7 @@ public Page get_Item(int index)
 ```
 
 
-Gets or sets the page version at the specified index of the `PageHistory`.
+Gets or sets the page version at the specified index of the  PageHistory .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,6 +177,16 @@ Gets or sets the page version at the specified index of the `PageHistory`.
 
 **Returns:**
 [Page](../../com.aspose.note/page) - The page version.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### indexOfItem(Page item) {#indexOfItem-com.aspose.note.Page-}
 ```
 public int indexOfItem(Page item)
@@ -157,7 +201,7 @@ Determines the index of a specific page version in the page history.
 | item | [Page](../../com.aspose.note/page) | The page version. |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### insertItem(int index, Page item) {#insertItem-int-com.aspose.note.Page-}
 ```
 public void insertItem(int index, Page item)
@@ -188,17 +232,33 @@ public System.Collections.Generic.IGenericEnumerator<Page> iterator()
 ```
 
 
-Returns an enumerator that iterates through child nodes of the `PageHistory`.
+Returns an enumerator that iterates through child nodes of the  PageHistory .
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.note.Page&gt; - The `IEnumerator`.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.note.Page> - The  IEnumerator .
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### removeAt(int index) {#removeAt-int-}
 ```
 public void removeAt(int index)
 ```
 
 
-Removes the page version at the specified index of the `PageHistory`.
+Removes the page version at the specified index of the  PageHistory .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -211,7 +271,7 @@ public boolean removeItem(Page item)
 ```
 
 
-Removes the page version from the `PageHistory`.
+Removes the page version from the  PageHistory .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,14 +279,14 @@ Removes the page version from the `PageHistory`.
 | item | [Page](../../com.aspose.note/page) | The page version. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
 ### removeRange(int index, int count) {#removeRange-int-int-}
 ```
 public void removeRange(int index, int count)
 ```
 
 
-Removes a range of the page versions from the `PageHistory`.
+Removes a range of the page versions from the  PageHistory .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -240,7 +300,7 @@ public void set_Item(int index, Page value)
 ```
 
 
-Gets or sets the page version at the specified index of the `PageHistory`.
+Gets or sets the page version at the specified index of the  PageHistory .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,3 +318,48 @@ Gets the count of the page versions in the page history.
 
 **Returns:**
 int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
