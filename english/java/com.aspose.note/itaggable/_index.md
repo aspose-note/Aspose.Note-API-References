@@ -28,4 +28,4 @@ public abstract System.Collections.Generic.List<ITag> getTags()
 Gets the list of all tags.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.List&lt;com.aspose.note.ITag&gt;
+com.aspose.ms.System.Collections.Generic.List<com.aspose.note.ITag>

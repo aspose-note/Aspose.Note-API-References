@@ -29,7 +29,7 @@ public abstract Date getCompletedTime()
 
 Gets the completed time.
 
-Value: The `Nullable\{DateTime\}`.
+Value: The  Nullable\{DateTime\} .
 
 **Returns:**
 java.util.Date

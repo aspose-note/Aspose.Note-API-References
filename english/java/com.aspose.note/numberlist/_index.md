@@ -18,14 +18,15 @@ Represents the numbered or bulleted list.
 
 | Constructor | Description |
 | --- | --- |
-| [NumberList(String bulletedSymbol, String font, int fontSize)](#NumberList-java.lang.String-java.lang.String-int-) | Initializes a new instance of the `NumberList` class. |
-| [NumberList(String format, byte numberFormat, String font, int fontSize)](#NumberList-java.lang.String-byte-java.lang.String-int-) | Initializes a new instance of the `NumberList` class. |
+| [NumberList(String bulletedSymbol, String font, int fontSize)](#NumberList-java.lang.String-java.lang.String-int-) | Initializes a new instance of the  NumberList  class. |
+| [NumberList(String format, byte numberFormat, String font, int fontSize)](#NumberList-java.lang.String-byte-java.lang.String-int-) | Initializes a new instance of the  NumberList  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(NumberList other)](#equals-com.aspose.note.NumberList-) | Determines whether the specified object is equal to the current object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [getClass()](#getClass--) |  |
 | [getFont()](#getFont--) | Gets or sets the name of the font. |
 | [getFontColor()](#getFontColor--) | Gets or sets the font color. |
 | [getFontSize()](#getFontSize--) | Gets or sets the font size. |
@@ -37,6 +38,8 @@ Represents the numbered or bulleted list.
 | [hashCode()](#hashCode--) | Serves as a hash function for the type. |
 | [isBold()](#isBold--) | Gets or sets a value indicating whether the text style is bold. |
 | [isItalic()](#isItalic--) | Gets or sets a value indicating whether the text style is italic. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setBold(boolean value)](#setBold-boolean-) | Gets or sets a value indicating whether the text style is bold. |
 | [setFont(String value)](#setFont-java.lang.String-) | Gets or sets the name of the font. |
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Gets or sets the font color. |
@@ -46,13 +49,17 @@ Represents the numbered or bulleted list.
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | Gets or sets the last modified time. |
 | [setNumberFormat(Byte value)](#setNumberFormat-java.lang.Byte-) | Gets or sets the number format used for a group of automatically numbered objects. |
 | [setRestart(int value)](#setRestart-int-) | Gets or sets the numeric value that overrides the automatic number value of the list item. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### NumberList(String bulletedSymbol, String font, int fontSize) {#NumberList-java.lang.String-java.lang.String-int-}
 ```
 public NumberList(String bulletedSymbol, String font, int fontSize)
 ```
 
 
-Initializes a new instance of the `NumberList` class. This instance represents a bulleted list.
+Initializes a new instance of the  NumberList  class. This instance represents a bulleted list.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -67,7 +74,7 @@ public NumberList(String format, byte numberFormat, String font, int fontSize)
 ```
 
 
-Initializes a new instance of the `NumberList` class. This instance represents a numbered list.
+Initializes a new instance of the  NumberList  class. This instance represents a numbered list.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -91,7 +98,7 @@ Determines whether the specified object is equal to the current object.
 | other | [NumberList](../../com.aspose.note/numberlist) | The object. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -106,7 +113,17 @@ Determines whether the specified object is equal to the current object.
 | obj | java.lang.Object | The object. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getFont() {#getFont--}
 ```
 public String getFont()
@@ -201,7 +218,7 @@ public int hashCode()
 Serves as a hash function for the type.
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### isBold() {#isBold--}
 ```
 public boolean isBold()
@@ -222,6 +239,22 @@ Gets or sets a value indicating whether the text style is italic.
 
 **Returns:**
 boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setBold(boolean value) {#setBold-boolean-}
 ```
 public void setBold(boolean value)
@@ -338,4 +371,49 @@ Gets or sets the numeric value that overrides the automatic number value of the 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

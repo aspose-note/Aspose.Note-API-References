@@ -14,8 +14,6 @@ public class Style<T>
 ```
 
 This class contains common properties of [ParagraphStyle](../../com.aspose.note/paragraphstyle) and [TextStyle](../../com.aspose.note/textstyle) classes.
-
- T : 
 ## Constructors
 
 | Constructor | Description |
@@ -25,6 +23,8 @@ This class contains common properties of [ParagraphStyle](../../com.aspose.note/
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getFontColor()](#getFontColor--) | Gets or sets the font color. |
 | [getFontName()](#getFontName--) | Gets or sets the font name. |
 | [getFontSize()](#getFontSize--) | Gets or sets the font size. |
@@ -37,6 +37,8 @@ This class contains common properties of [ParagraphStyle](../../com.aspose.note/
 | [isSubscript()](#isSubscript--) | Gets or sets a value indicating whether the text style is subscript. |
 | [isSuperscript()](#isSuperscript--) | Gets or sets a value indicating whether the text style is superscript. |
 | [isUnderline()](#isUnderline--) | Gets or sets a value indicating whether the text style is underline. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setBold(boolean value)](#setBold-boolean-) | Gets or sets a value indicating whether the text style is bold. |
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Gets or sets the font color. |
 | [setFontName(String value)](#setFontName-java.lang.String-) | Gets or sets the font name. |
@@ -47,12 +49,41 @@ This class contains common properties of [ParagraphStyle](../../com.aspose.note/
 | [setSubscript(boolean value)](#setSubscript-boolean-) | Gets or sets a value indicating whether the text style is subscript. |
 | [setSuperscript(boolean value)](#setSuperscript-boolean-) | Gets or sets a value indicating whether the text style is superscript. |
 | [setUnderline(boolean value)](#setUnderline-boolean-) | Gets or sets a value indicating whether the text style is underline. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Style() {#Style--}
 ```
 public Style()
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getFontColor() {#getFontColor--}
 ```
 public final Color getFontColor()
@@ -112,7 +143,7 @@ public int hashCode()
 Serves as a hash function for the type.
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### isBold() {#isBold--}
 ```
 public final boolean isBold()
@@ -173,6 +204,22 @@ Gets or sets a value indicating whether the text style is underline.
 
 **Returns:**
 boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setBold(boolean value) {#setBold-boolean-}
 ```
 public final T setBold(boolean value)
@@ -323,3 +370,48 @@ Gets or sets a value indicating whether the text style is underline.
 
 **Returns:**
 T
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
