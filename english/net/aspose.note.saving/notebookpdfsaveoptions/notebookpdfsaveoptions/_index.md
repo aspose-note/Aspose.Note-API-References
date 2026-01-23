@@ -1,14 +1,14 @@
 ---
 title: NotebookPdfSaveOptions.NotebookPdfSaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: NotebookPdfSaveOptions constructor. The default constructor
+description: NotebookPdfSaveOptions constructor. Initializes a new instance of the NotebookPdfSaveOptions class
 type: docs
 weight: 10
 url: /net/aspose.note.saving/notebookpdfsaveoptions/notebookpdfsaveoptions/
 ---
 ## NotebookPdfSaveOptions constructor
 
-The default constructor.
+Initializes a new instance of the [`NotebookPdfSaveOptions`](../) class.
 
 ```csharp
 public NotebookPdfSaveOptions()

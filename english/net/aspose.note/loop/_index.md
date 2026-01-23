@@ -18,7 +18,7 @@ public sealed class Loop : Node, IOutlineElementChildNode
 
 | Name | Description |
 | --- | --- |
-| [Loop](loop/)() | The default constructor. |
+| [Loop](loop/)() | Initializes a new instance of the `Loop` class. |
 
 ## Properties
 

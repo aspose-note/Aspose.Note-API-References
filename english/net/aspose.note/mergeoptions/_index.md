@@ -18,7 +18,7 @@ public class MergeOptions
 
 | Name | Description |
 | --- | --- |
-| [MergeOptions](mergeoptions/)() | The default constructor. |
+| [MergeOptions](mergeoptions/)() | Initializes a new instance of the `MergeOptions` class. |
 
 ## Properties
 

@@ -46,6 +46,13 @@ Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
+the component jar file:
+
+```csharp
+Metered metered = new Metered();
+metered.setMeteredKey("PublicKey", "PrivateKey");
+```
+
 Shows how to set metered license.
 
 ```csharp

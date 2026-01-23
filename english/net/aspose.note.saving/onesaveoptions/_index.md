@@ -18,7 +18,7 @@ public sealed class OneSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [OneSaveOptions](onesaveoptions/)() | The default constructor. |
+| [OneSaveOptions](onesaveoptions/)() | Initializes a new instance of the `OneSaveOptions` class. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LoadOptions](loadoptions/)() | The default constructor. |
+| [LoadOptions](loadoptions/)() | Initializes a new instance of the `LoadOptions` class. |
 
 ## Properties
 

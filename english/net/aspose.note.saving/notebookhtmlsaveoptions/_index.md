@@ -18,7 +18,7 @@ public class NotebookHtmlSaveOptions : NotebookSaveOptions<HtmlSaveOptions>
 
 | Name | Description |
 | --- | --- |
-| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | The default constructor. |
+| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | Initializes a new instance of the `NotebookHtmlSaveOptions` class. |
 
 ## Properties
 

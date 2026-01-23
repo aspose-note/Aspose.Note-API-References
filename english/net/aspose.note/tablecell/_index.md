@@ -18,7 +18,7 @@ public sealed class TableCell : IndentatedNode<IOutlineChildNode>
 
 | Name | Description |
 | --- | --- |
-| [TableCell](tablecell/)() | The default constructor. |
+| [TableCell](tablecell/)() | Initializes a new instance of the `TableCell` class. |
 
 ## Properties
 

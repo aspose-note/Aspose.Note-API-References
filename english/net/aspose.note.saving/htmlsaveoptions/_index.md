@@ -18,7 +18,7 @@ public class HtmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions/)() | The default constructor. |
+| [HtmlSaveOptions](htmlsaveoptions/)() | Initializes a new instance of the `HtmlSaveOptions` class. |
 
 ## Properties
 

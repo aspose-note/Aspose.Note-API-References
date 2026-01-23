@@ -18,7 +18,7 @@ public sealed class TextStyle : Style
 
 | Name | Description |
 | --- | --- |
-| [TextStyle](textstyle/)() | The default constructor. |
+| [TextStyle](textstyle/)() | Initializes a new instance of the `TextStyle` class. |
 
 ## Properties
 

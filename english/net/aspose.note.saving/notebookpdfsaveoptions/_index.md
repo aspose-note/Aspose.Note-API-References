@@ -18,7 +18,7 @@ public class NotebookPdfSaveOptions : NotebookSaveOptions<PdfSaveOptions>
 
 | Name | Description |
 | --- | --- |
-| [NotebookPdfSaveOptions](notebookpdfsaveoptions/)() | The default constructor. |
+| [NotebookPdfSaveOptions](notebookpdfsaveoptions/)() | Initializes a new instance of the `NotebookPdfSaveOptions` class. |
 
 ## Properties
 

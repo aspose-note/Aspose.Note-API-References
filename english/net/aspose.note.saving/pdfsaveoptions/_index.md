@@ -18,7 +18,7 @@ public sealed class PdfSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions/)() | The default constructor. |
+| [PdfSaveOptions](pdfsaveoptions/)() | Initializes a new instance of the `PdfSaveOptions` class. |
 
 ## Properties
 

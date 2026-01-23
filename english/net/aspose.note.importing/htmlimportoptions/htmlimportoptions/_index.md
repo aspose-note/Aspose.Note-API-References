@@ -1,14 +1,14 @@
 ---
 title: HtmlImportOptions.HtmlImportOptions
 second_title: Aspose.Note for .NET API Reference
-description: HtmlImportOptions constructor. The default constructor
+description: HtmlImportOptions constructor. Initializes a new instance of the HtmlImportOptions class
 type: docs
 weight: 10
 url: /net/aspose.note.importing/htmlimportoptions/htmlimportoptions/
 ---
 ## HtmlImportOptions constructor
 
-The default constructor.
+Initializes a new instance of the [`HtmlImportOptions`](../) class.
 
 ```csharp
 public HtmlImportOptions()

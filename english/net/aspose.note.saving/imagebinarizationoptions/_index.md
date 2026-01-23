@@ -18,7 +18,7 @@ public class ImageBinarizationOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageBinarizationOptions](imagebinarizationoptions/)() | The default constructor. |
+| [ImageBinarizationOptions](imagebinarizationoptions/)() | Initializes a new instance of the `ImageBinarizationOptions` class. |
 
 ## Properties
 

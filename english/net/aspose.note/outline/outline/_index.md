@@ -1,14 +1,14 @@
 ---
 title: Outline.Outline
 second_title: Aspose.Note for .NET API Reference
-description: Outline constructor. The default constructor
+description: Outline constructor. Initializes a new instance of the Outline class
 type: docs
 weight: 10
 url: /net/aspose.note/outline/outline/
 ---
 ## Outline constructor
 
-The default constructor.
+Initializes a new instance of the [`Outline`](../) class.
 
 ```csharp
 public Outline()

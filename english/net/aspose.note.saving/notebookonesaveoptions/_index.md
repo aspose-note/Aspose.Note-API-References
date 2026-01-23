@@ -18,7 +18,7 @@ public class NotebookOneSaveOptions : NotebookSaveOptions<OneSaveOptions>
 
 | Name | Description |
 | --- | --- |
-| [NotebookOneSaveOptions](notebookonesaveoptions/)() | The default constructor. |
+| [NotebookOneSaveOptions](notebookonesaveoptions/)() | Initializes a new instance of the `NotebookOneSaveOptions` class. |
 
 ## Properties
 

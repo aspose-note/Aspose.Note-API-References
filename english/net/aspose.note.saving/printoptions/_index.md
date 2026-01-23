@@ -18,7 +18,7 @@ public class PrintOptions
 
 | Name | Description |
 | --- | --- |
-| [PrintOptions](printoptions/)() | The default constructor. |
+| [PrintOptions](printoptions/)() | Initializes a new instance of the `PrintOptions` class. |
 
 ## Properties
 
