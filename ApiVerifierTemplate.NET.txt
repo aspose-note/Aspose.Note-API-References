@@ -1,3 +1,4 @@
+T:Aspose.Note.AttachedFile
 M:Aspose.Note.AttachedFile.#ctor(System.String)
 M:Aspose.Note.AttachedFile.#ctor(System.String,System.IO.Stream,System.Drawing.Imaging.ImageFormat)
 M:Aspose.Note.AttachedFile.#ctor(System.String,System.IO.Stream)
@@ -1084,4 +1085,5 @@ M:Aspose.Note.UnsupportedFileFormatException.#ctor(System.Runtime.Serialization.
 P:Aspose.Note.UnsupportedFileFormatException.FileFormat
 T:Aspose.Note.UnsupportedSaveFormatException
 M:Aspose.Note.UnsupportedSaveFormatException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+
 
