@@ -18,25 +18,47 @@ Represents a page.
 
 | Constructor | Description |
 | --- | --- |
-| [Page()](#Page--) | Initializes a new instance of the `Page` class. |
+| [Page()](#Page--) | Initializes a new instance of the  Page  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [<T1>appendChildFirst(T1 newChild)](#-T1-appendChildFirst-T1-) | Adds the node to the front of the list of child nodes for this node. |
+| [<T1>appendChildLast(T1 newChild)](#-T1-appendChildLast-T1-) | Adds the node to the end of the list of child nodes for this node. |
+| [<T1>getChildNodes(Class<T1> typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | Get all child nodes by the node type. |
+| [<T1>insertChild(int i, T1 newChild)](#-T1-insertChild-int-T1-) | Inserts the node to the specified position in the list of child nodes for this node. |
+| [<T1>removeChild(T1 oldChild)](#-T1-removeChild-T1-) | Removes the child node. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
 | [deepClone()](#deepClone--) | Clones the page. |
 | [deepClone(boolean cloneHistory)](#deepClone-boolean-) | Clones the page. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | Gets or sets the author. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets or sets page's background color. |
+| [getClass()](#getClass--) |  |
 | [getCreationTime()](#getCreationTime--) | Gets or sets the creation time. |
+| [getDocument()](#getDocument--) | Gets the document of the node. |
+| [getFirstChild()](#getFirstChild--) | Gets the first child node of this node. |
+| [getLastChild()](#getLastChild--) | Gets the last child node of this node. |
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets or sets the last modified time. |
 | [getLevel()](#getLevel--) | Gets or sets the level. |
 | [getMargin()](#getMargin--) | Gets or sets the margin. |
+| [getNextSibling()](#getNextSibling--) | Gets the next node at the same node tree level. |
+| [getNodeId()](#getNodeId--) | Gets the node's ID. |
+| [getNodeType()](#getNodeType--) | Gets the node type. |
 | [getPageContentRevisionSummary()](#getPageContentRevisionSummary--) | Gets or sets the revision summary for the page and it's child nodes. |
 | [getPageLayoutSize()](#getPageLayoutSize--) | Gets page's layout size displayed in the editor. |
+| [getParentNode()](#getParentNode--) | Gets the parent node. |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the previous node at the same node tree level. |
 | [getSizeType()](#getSizeType--) | Gets or sets the size type of a page. |
 | [getTitle()](#getTitle--) | Gets or sets the title. |
+| [hashCode()](#hashCode--) |  |
+| [insertChildrenRange(int i, T[] newChildren)](#insertChildrenRange-int-T...-) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
+| [insertChildrenRange(int i, Iterable<T> newChildren)](#insertChildrenRange-int-java.lang.Iterable-T--) | Inserts the node's sequence starting from specified position in the list of child nodes for this node. |
+| [isComposite()](#isComposite--) | Checks whether the node is composite. |
 | [isConflictPage()](#isConflictPage--) | Gets or sets a value indicating whether this page is a conflict page. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the  CompositeNode\{T\} . |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | Gets or sets the author. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-java.awt.Color-) | Gets or sets page's background color. |
 | [setConflictPage(boolean value)](#setConflictPage-boolean-) | Gets or sets a value indicating whether this page is a conflict page. |
@@ -48,14 +70,96 @@ Represents a page.
 | [setPageLayoutSize(Dimension2D value)](#setPageLayoutSize-java.awt.geom.Dimension2D-) | Sets page's layout size displayed in the editor. |
 | [setSizeType(int value)](#setSizeType-int-) | Gets or sets the size type of a page. |
 | [setTitle(Title value)](#setTitle-com.aspose.note.Title-) | Gets or sets the title. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Page() {#Page--}
 ```
 public Page()
 ```
 
 
-Initializes a new instance of the `Page` class.
+Initializes a new instance of the  Page  class.
 
+### <T1>appendChildFirst(T1 newChild) {#-T1-appendChildFirst-T1-}
+```
+public T1 <T1>appendChildFirst(T1 newChild)
+```
+
+
+Adds the node to the front of the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | T1 | The node to add. |
+
+**Returns:**
+T1 - The added node.
+### <T1>appendChildLast(T1 newChild) {#-T1-appendChildLast-T1-}
+```
+public T1 <T1>appendChildLast(T1 newChild)
+```
+
+
+Adds the node to the end of the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | T1 | The node to add. |
+
+**Returns:**
+T1 - The added node.
+### <T1>getChildNodes(Class<T1> typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
+```
+public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
+```
+
+
+Get all child nodes by the node type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| typeParameterClass | java.lang.Class<T1> |  |
+
+**Returns:**
+java.util.List<T1> - A list of child nodes.
+
+ T1 : The type of elements in the returned list.
+### <T1>insertChild(int i, T1 newChild) {#-T1-insertChild-int-T1-}
+```
+public T1 <T1>insertChild(int i, T1 newChild)
+```
+
+
+Inserts the node to the specified position in the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| i | int | Position to insert |
+| newChild | T1 | The node to insert. |
+
+**Returns:**
+T1 - The added node.
+### <T1>removeChild(T1 oldChild) {#-T1-removeChild-T1-}
+```
+public T1 <T1>removeChild(T1 oldChild)
+```
+
+
+Removes the child node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldChild | T1 | The node to remove. |
+
+**Returns:**
+T1 - The removed node.
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
 public void accept(DocumentVisitor visitor)
@@ -67,7 +171,7 @@ Accepts the visitor of the node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
 
 ### deepClone() {#deepClone--}
 ```
@@ -94,6 +198,21 @@ Clones the page.
 
 **Returns:**
 [Page](../../com.aspose.note/page) - A clone of the page.
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
@@ -114,6 +233,16 @@ Gets or sets page's background color.
 
 **Returns:**
 java.awt.Color
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCreationTime() {#getCreationTime--}
 ```
 public Date getCreationTime()
@@ -124,6 +253,38 @@ Gets or sets the creation time.
 
 **Returns:**
 java.util.Date
+### getDocument() {#getDocument--}
+```
+public Document getDocument()
+```
+
+
+Gets the document of the node.
+
+Value: The document.
+
+**Returns:**
+[Document](../../com.aspose.note/document)
+### getFirstChild() {#getFirstChild--}
+```
+public T getFirstChild()
+```
+
+
+Gets the first child node of this node.
+
+**Returns:**
+T
+### getLastChild() {#getLastChild--}
+```
+public T getLastChild()
+```
+
+
+Gets the last child node of this node.
+
+**Returns:**
+T
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```
 public Date getLastModifiedTime()
@@ -154,6 +315,38 @@ Gets or sets the margin.
 
 **Returns:**
 [Margins](../../com.aspose.note/margins)
+### getNextSibling() {#getNextSibling--}
+```
+public INode getNextSibling()
+```
+
+
+Gets the next node at the same node tree level.
+
+Value: The next sibling.
+
+**Returns:**
+[INode](../../com.aspose.note/inode)
+### getNodeId() {#getNodeId--}
+```
+public ExtendedGuid getNodeId()
+```
+
+
+Gets the node's ID.
+
+**Returns:**
+[ExtendedGuid](../../com.aspose.note.revision.types/extendedguid)
+### getNodeType() {#getNodeType--}
+```
+public int getNodeType()
+```
+
+
+Gets the node type.
+
+**Returns:**
+int
 ### getPageContentRevisionSummary() {#getPageContentRevisionSummary--}
 ```
 public RevisionSummary getPageContentRevisionSummary()
@@ -178,6 +371,28 @@ This value is used by Microsoft OneNote application to display underlying page l
 
 **Returns:**
 java.awt.geom.Dimension2D
+### getParentNode() {#getParentNode--}
+```
+public ICompositeNode getParentNode()
+```
+
+
+Gets the parent node.
+
+**Returns:**
+[ICompositeNode](../../com.aspose.note/icompositenode)
+### getPreviousSibling() {#getPreviousSibling--}
+```
+public INode getPreviousSibling()
+```
+
+
+Gets the previous node at the same node tree level.
+
+Value: The previous sibling.
+
+**Returns:**
+[INode](../../com.aspose.note/inode)
 ### getSizeType() {#getSizeType--}
 ```
 public final int getSizeType()
@@ -200,10 +415,58 @@ public Title getTitle()
 
 Gets or sets the title.
 
-Value: The `Title`.
+Value: The  Title .
 
 **Returns:**
 [Title](../../com.aspose.note/title)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### insertChildrenRange(int i, T[] newChildren) {#insertChildrenRange-int-T...-}
+```
+public final void insertChildrenRange(int i, T[] newChildren)
+```
+
+
+Inserts the node's sequence starting from specified position in the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| i | int | Position to insert |
+| newChildren | T[] | The sequence of nodes to be inserted. |
+
+### insertChildrenRange(int i, Iterable<T> newChildren) {#insertChildrenRange-int-java.lang.Iterable-T--}
+```
+public final void insertChildrenRange(int i, Iterable<T> newChildren)
+```
+
+
+Inserts the node's sequence starting from specified position in the list of child nodes for this node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| i | int | Position to insert |
+| newChildren | java.lang.Iterable<T> | The sequence of nodes to be inserted. |
+
+### isComposite() {#isComposite--}
+```
+public final boolean isComposite()
+```
+
+
+Checks whether the node is composite. If true then the node can have child nodes.
+
+**Returns:**
+boolean
 ### isConflictPage() {#isConflictPage--}
 ```
 public final boolean isConflictPage()
@@ -222,6 +485,32 @@ Detailed sample of manipulating by conflict page can be found in the online docu
 
 **Returns:**
 boolean
+### iterator() {#iterator--}
+```
+public System.Collections.Generic.IGenericEnumerator<T> iterator()
+```
+
+
+Returns an enumerator that iterates through child nodes of the  CompositeNode\{T\} .
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<T> - A  T:IEnumerator1  for the  CompositeNode\{T\} .
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
 public void setAuthor(String value)
@@ -376,10 +665,55 @@ public void setTitle(Title value)
 
 Gets or sets the title.
 
-Value: The `Title`.
+Value: The  Title .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Title](../../com.aspose.note/title) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

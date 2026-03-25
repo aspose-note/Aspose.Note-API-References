@@ -21,20 +21,23 @@ Represents an attached file.
 
 | Constructor | Description |
 | --- | --- |
-| [AttachedFile(String path)](#AttachedFile-java.lang.String-) | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile(String fileName, InputStream attachedFileStream)](#AttachedFile-java.lang.String-java.io.InputStream-) | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the `AttachedFile` class. |
-| [AttachedFile()](#AttachedFile--) | Initializes a new instance of the `AttachedFile` class. |
+| [AttachedFile(String path)](#AttachedFile-java.lang.String-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile(String fileName, InputStream attachedFileStream)](#AttachedFile-java.lang.String-java.io.InputStream-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | Initializes a new instance of the  AttachedFile  class. |
+| [AttachedFile()](#AttachedFile--) | Initializes a new instance of the  AttachedFile  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | Accepts the visitor of the node. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlignment()](#getAlignment--) | Gets the alignment. |
 | [getAlternativeTextDescription()](#getAlternativeTextDescription--) | Gets or sets a body an alternative text for the icon of the attached file. |
 | [getAlternativeTextTitle()](#getAlternativeTextTitle--) | Gets or sets a title of alternative text for the icon of the attached file. |
 | [getBytes()](#getBytes--) | Gets the binary data for an embedded file. |
+| [getClass()](#getClass--) |  |
+| [getDocument()](#getDocument--) | Gets the document of the node. |
 | [getExtension()](#getExtension--) | Gets the extension of an embedded file. |
 | [getFileName()](#getFileName--) | Gets the name of the embedded file. |
 | [getFilePath()](#getFilePath--) | Gets the path to the original file. |
@@ -45,13 +48,22 @@ Represents an attached file.
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets the last modified time. |
 | [getMaxHeight()](#getMaxHeight--) | Gets the maximum height to display the embedded file icon. |
 | [getMaxWidth()](#getMaxWidth--) | Gets the maximum width to display the embedded file icon. |
+| [getNextSibling()](#getNextSibling--) | Gets the next node at the same node tree level. |
+| [getNodeId()](#getNodeId--) | Gets the node's ID. |
+| [getNodeType()](#getNodeType--) | Gets the node type. |
+| [getParentNode()](#getParentNode--) | Gets the parent node. |
 | [getParsingErrorInfo()](#getParsingErrorInfo--) | Gets the data about error that occurred while accessing the file. |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the previous node at the same node tree level. |
 | [getTags()](#getTags--) | Gets the list of tags of an attached file. |
 | [getText()](#getText--) | Gets the text representation of the embedded file. |
 | [getVerticalOffset()](#getVerticalOffset--) | Gets the vertical offset. |
 | [getWidth()](#getWidth--) | Gets the original width of the embedded file icon. |
+| [hashCode()](#hashCode--) |  |
+| [isComposite()](#isComposite--) | Gets a value indicating whether this node is composite. |
 | [isPrintout()](#isPrintout--) | Gets a value indicating whether the view of the file is printout. |
 | [isSizeSetByUser()](#isSizeSetByUser--) | Gets a value indicating whether the value of the size of the icon was explicitly updated by the user. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setAlignment(int value)](#setAlignment-int-) | Sets the alignment. |
 | [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | Gets or sets a body an alternative text for the icon of the attached file. |
 | [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | Gets or sets a title of alternative text for the icon of the attached file. |
@@ -63,18 +75,22 @@ Represents an attached file.
 | [setSizeSetByUser(boolean value)](#setSizeSetByUser-boolean-) | Sets a value indicating whether the value of the size of the icon was explicitly updated by the user. |
 | [setText(String value)](#setText-java.lang.String-) | Sets the text representation of the embedded file. |
 | [setVerticalOffset(float value)](#setVerticalOffset-float-) | Sets the vertical offset. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AttachedFile(String path) {#AttachedFile-java.lang.String-}
 ```
 public AttachedFile(String path)
 ```
 
 
-Initializes a new instance of the `AttachedFile` class.
+Initializes a new instance of the  AttachedFile  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | A string that contains the path to the file from which to create the `AttachedFile`. |
+| path | java.lang.String | A string that contains the path to the file from which to create the  AttachedFile . |
 
 ### AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
 ```
@@ -82,12 +98,12 @@ public AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageF
 ```
 
 
-Initializes a new instance of the `AttachedFile` class.
+Initializes a new instance of the  AttachedFile  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | A string that contains the path to the file from which to create the `AttachedFile`. |
+| path | java.lang.String | A string that contains the path to the file from which to create the  AttachedFile . |
 | icon | java.io.InputStream | An icon for the attached file. |
 | iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat |  |
 
@@ -97,7 +113,7 @@ public AttachedFile(String fileName, InputStream attachedFileStream)
 ```
 
 
-Initializes a new instance of the `AttachedFile` class.
+Initializes a new instance of the  AttachedFile  class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,7 +127,7 @@ public AttachedFile(String fileName, InputStream attachedFileStream, InputStream
 ```
 
 
-Initializes a new instance of the `AttachedFile` class.
+Initializes a new instance of the  AttachedFile  class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -127,7 +143,7 @@ public AttachedFile()
 ```
 
 
-Initializes a new instance of the `AttachedFile` class.
+Initializes a new instance of the  AttachedFile  class.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -140,8 +156,23 @@ Accepts the visitor of the node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the `DocumentVisitor`. |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | The object of a class derived from the  DocumentVisitor . |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
@@ -182,6 +213,28 @@ Gets the binary data for an embedded file.
 
 **Returns:**
 byte[]
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDocument() {#getDocument--}
+```
+public Document getDocument()
+```
+
+
+Gets the document of the node.
+
+Value: The document.
+
+**Returns:**
+[Document](../../com.aspose.note/document)
 ### getExtension() {#getExtension--}
 ```
 public String getExtension()
@@ -282,6 +335,48 @@ Gets the maximum width to display the embedded file icon.
 
 **Returns:**
 float
+### getNextSibling() {#getNextSibling--}
+```
+public INode getNextSibling()
+```
+
+
+Gets the next node at the same node tree level.
+
+Value: The next sibling.
+
+**Returns:**
+[INode](../../com.aspose.note/inode)
+### getNodeId() {#getNodeId--}
+```
+public ExtendedGuid getNodeId()
+```
+
+
+Gets the node's ID.
+
+**Returns:**
+[ExtendedGuid](../../com.aspose.note.revision.types/extendedguid)
+### getNodeType() {#getNodeType--}
+```
+public int getNodeType()
+```
+
+
+Gets the node type.
+
+**Returns:**
+int
+### getParentNode() {#getParentNode--}
+```
+public ICompositeNode getParentNode()
+```
+
+
+Gets the parent node.
+
+**Returns:**
+[ICompositeNode](../../com.aspose.note/icompositenode)
 ### getParsingErrorInfo() {#getParsingErrorInfo--}
 ```
 public final ParsingErrorInfo getParsingErrorInfo()
@@ -292,6 +387,18 @@ Gets the data about error that occurred while accessing the file.
 
 **Returns:**
 [ParsingErrorInfo](../../com.aspose.note.infrastructure/parsingerrorinfo)
+### getPreviousSibling() {#getPreviousSibling--}
+```
+public INode getPreviousSibling()
+```
+
+
+Gets the previous node at the same node tree level.
+
+Value: The previous sibling.
+
+**Returns:**
+[INode](../../com.aspose.note/inode)
 ### getTags() {#getTags--}
 ```
 public final System.Collections.Generic.List<ITag> getTags()
@@ -301,7 +408,7 @@ public final System.Collections.Generic.List<ITag> getTags()
 Gets the list of tags of an attached file.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.List&lt;com.aspose.note.ITag&gt;
+com.aspose.ms.System.Collections.Generic.List<com.aspose.note.ITag>
 ### getText() {#getText--}
 ```
 public String getText()
@@ -332,6 +439,26 @@ Gets the original width of the embedded file icon.
 
 **Returns:**
 float
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isComposite() {#isComposite--}
+```
+public boolean isComposite()
+```
+
+
+Gets a value indicating whether this node is composite. If true the node can have child nodes.
+
+**Returns:**
+boolean
 ### isPrintout() {#isPrintout--}
 ```
 public boolean isPrintout()
@@ -352,6 +479,22 @@ Gets a value indicating whether the value of the size of the icon was explicitly
 
 **Returns:**
 boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setAlignment(int value) {#setAlignment-int-}
 ```
 public void setAlignment(int value)
@@ -494,4 +637,49 @@ Sets the vertical offset.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float | Offset's value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 
