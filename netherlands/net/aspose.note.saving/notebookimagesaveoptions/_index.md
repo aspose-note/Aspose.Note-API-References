@@ -44,7 +44,7 @@ Laat zien hoe u een afgeplat notitieboek in pdf-formaat kunt opslaan.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Sla het notitieblok op
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -63,7 +63,7 @@ Laat zien hoe u een notitieblok kunt opslaan als afbeelding met opgegeven opties
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

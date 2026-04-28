@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note voor .NET API-referentie
-description: TextStyle eigendom. Haalt of stelt het hyperlinkadres in. Moet worden ingesteld als de waarde van deIsHyperlink eigenschap is waar.
+description: TextStyle-eigenschap. Haalt het hyperlinkadres op of stelt het in. Het instellen van deze eigenschap is voldoende om een hyperlink te maken.
 type: docs
 weight: 60
 url: /nl/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Haalt of stelt het hyperlinkadres in. Moet worden ingesteld als de waarde van de[`IsHyperlink`](../ishyperlink/) eigenschap is waar.
+Haalt het hyperlinkadres op of stelt het in. Het instellen van deze eigenschap is voldoende om een hyperlink te maken.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

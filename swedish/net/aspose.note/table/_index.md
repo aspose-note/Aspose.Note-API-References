@@ -145,29 +145,29 @@ Visar hur man ställer in en bakgrundsfärg för en cell.
 Document doc = new Document();
 
 // Initiera TableCell-klassobjekt och ställ in textinnehåll
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // Initiera TableRow-klassobjekt
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Initiera Sidklassobjekt
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -188,10 +188,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initiera TableRow-klassobjekt
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // Initiera TableCell-klassobjekt
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Infoga cellinnehåll
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -200,7 +200,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Initiera tabellnod
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -212,8 +212,8 @@ table.AppendChildLast(row);
 // Lägg till tagg till denna tabellnod
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Lägg till tabellnod
 outlineElem.AppendChildLast(table);
@@ -241,23 +241,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initiera TableRow-klassobjekt
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Initiera TableCell-klassobjekt och ställ in textinnehåll
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // Initiera TableRow-klassobjekt
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // Initiera TableCell-klassobjekt och ställ in textinnehåll
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Initiera Table-klassobjekt
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -267,8 +267,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Lägg till tabellnod
 outlineElem.AppendChildLast(table);
@@ -298,12 +298,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initiera TableRow-klassobjekt
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Initiera TableCell-klassobjekt
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // Lägg till dispositionselement i tabellcellen
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -316,12 +316,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // Initiera TableRow-klassobjekt
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // initiera TableCell-klassobjekt
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // Lägg till dispositionselement i tabellcellen
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -334,7 +334,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Initiera Table-klassobjekt och ange kolumnbredder
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -345,10 +345,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // Initiera Outline-objekt
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initiera OutlineElement-objekt
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Lägg till tabell till konturelementnoden
 outlineElem.AppendChildLast(table);

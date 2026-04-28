@@ -33,10 +33,10 @@ public sealed class TextStyle : Style
 | [FontSize](../../aspose.note/style/fontsize/) { get; set; } | 글꼴 크기를 가져오거나 설정합니다. |
 | [FontStyle](../../aspose.note/style/fontstyle/) { get; } | 글꼴 스타일을 가져옵니다. |
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | 하이라이트 색상을 가져오거나 설정합니다. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | 하이퍼링크 주소를 가져오거나 설정합니다. 값이 다음과 같은 경우 설정해야 합니다.[`IsHyperlink`](./ishyperlink/) 속성은 true입니다. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | 하이퍼링크 주소를 가져오거나 설정합니다. 이 속성을 설정하는 것만으로 하이퍼링크를 만들 수 있습니다. |
 | [IsBold](../../aspose.note/style/isbold/) { get; set; } | 텍스트 스타일이 굵게 표시되는지 여부를 나타내는 값을 가져오거나 설정합니다. |
 | [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | 텍스트 스타일이 숨겨져 있는지 여부를 나타내는 값을 가져오거나 설정합니다. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | 텍스트 스타일이 하이퍼링크인지 여부를 나타내는 값을 가져오거나 설정합니다. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | 22.5 버전부터 사용되지 않습니다. 대신 [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/)를 사용하세요. |
 | [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | 텍스트 스타일이 기울임꼴인지 여부를 나타내는 값을 가져오거나 설정합니다. |
 | [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | 텍스트 스타일이 수학 형식인지 여부를 나타내는 값을 가져오거나 설정합니다. |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 텍스트 스타일이 취소선인지 여부를 나타내는 값을 가져오거나 설정합니다. |
@@ -174,8 +174,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

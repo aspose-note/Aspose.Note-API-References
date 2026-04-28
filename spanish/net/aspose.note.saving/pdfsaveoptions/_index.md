@@ -72,7 +72,7 @@ Muestra cómo guardar un cuaderno en formato pdf con opciones específicas.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

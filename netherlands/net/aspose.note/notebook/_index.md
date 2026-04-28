@@ -82,7 +82,7 @@ Laat zien hoe je een notitieboek opslaat in pdf-formaat.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Laat zien hoe je een notitieboek opslaat als afbeelding.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Laat zien hoe u een afgeplat notitieboek in pdf-formaat kunt opslaan.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Sla het notitieblok op
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Laat zien hoe je een nieuwe sectie toevoegt aan een notitieblok.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Voeg een nieuw kind toe aan de Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Laat zien hoe u een notitieblok kunt opslaan als afbeelding met opgegeven opties
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

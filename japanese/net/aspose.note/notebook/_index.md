@@ -82,7 +82,7 @@ notebook.Save(dataDir);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ notebook.Save(dataDir);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ foreach (RichText richTextNode in allRichTextNodes)
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // ノートブックを保存します
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Notebook に新しい子を追加します
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { Doc
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

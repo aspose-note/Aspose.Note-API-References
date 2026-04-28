@@ -29,10 +29,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Инициализировать объект класса Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Инициализировать объект класса OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Загружаем изображение
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");

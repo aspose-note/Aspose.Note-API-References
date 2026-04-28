@@ -114,29 +114,29 @@ Bir hücre için arka plan renginin nasıl ayarlanacağını gösterir.
 Document doc = new Document();
 
 // TableCell sınıf nesnesini başlat ve metin içeriğini ayarla
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // TableRow sınıf nesnesini başlat
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Sayfa sınıfı nesnesini başlat
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -157,10 +157,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow sınıf nesnesini başlat
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // TableCell sınıf nesnesini başlat
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Hücre içeriğini ekle
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -169,7 +169,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Tablo düğümünü başlat
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -181,8 +181,8 @@ table.AppendChildLast(row);
 // Bu tablo düğümüne etiket ekle
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tablo düğümü ekle
 outlineElem.AppendChildLast(table);
@@ -210,23 +210,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow sınıf nesnesini başlat
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // TableCell sınıf nesnesini başlat ve metin içeriğini ayarla
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // TableRow sınıf nesnesini başlat
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // TableCell sınıf nesnesini başlat ve metin içeriğini ayarla
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Table sınıfı nesnesini başlat
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -236,8 +236,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tablo düğümü ekle
 outlineElem.AppendChildLast(table);
@@ -267,12 +267,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow sınıf nesnesini başlat
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // TableCell sınıf nesnelerini başlat
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // Tablo hücresindeki anahat öğelerini ekleyin
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -285,12 +285,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // TableRow sınıf nesnesini başlat
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // TableCell sınıf nesnelerini başlat
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // Tablo hücresindeki anahat öğelerini ekleyin
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -303,7 +303,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Table sınıfı nesnesini başlat ve sütun genişliklerini ayarla
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -314,10 +314,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // Outline nesnesini başlat
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement nesnesini başlat
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Eleman düğümünün dış hatlarını çizmek için tablo ekle
 outlineElem.AppendChildLast(table);

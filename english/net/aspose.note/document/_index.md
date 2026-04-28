@@ -231,7 +231,7 @@ var document = new Document();
 
 var page = new Page();
 
-var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com" };
 
 page.AppendChildLast(image);
 
@@ -299,7 +299,7 @@ Shows how to add new section to a notebook.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Append a new child to the Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -1226,8 +1226,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

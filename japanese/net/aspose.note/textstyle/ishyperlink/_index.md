@@ -1,14 +1,14 @@
 ---
 title: TextStyle.IsHyperlink
 second_title: Aspose.Note for .NET API リファレンス
-description: TextStyle 財産. テキスト スタイルがハイパーリンクかどうかを示す値を取得または設定します
+description: TextStyle プロパティ。 22.5 以降は廃止されています。代わりに HyperlinkAddress を使用してください。
 type: docs
 weight: 80
 url: /ja/net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-テキスト スタイルがハイパーリンクかどうかを示す値を取得または設定します。
+22.5 以降は廃止されています。代わりに `HyperlinkAddress` を使用してください。
 
 ```csharp
 public bool IsHyperlink { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

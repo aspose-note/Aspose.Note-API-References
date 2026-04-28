@@ -23,7 +23,7 @@ public bool Flatten { get; set; }
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote 전자 필기장 로드
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // 노트북 저장
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";

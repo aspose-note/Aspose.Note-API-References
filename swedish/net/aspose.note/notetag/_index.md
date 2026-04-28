@@ -161,10 +161,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initiera Outline-klassobjekt
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initiera OutlineElement-klassobjekt
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Ladda en bild
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -200,12 +200,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initiera Outline-klassobjekt
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initiera OutlineElement-klassobjekt
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // Lägg till textnod
@@ -272,10 +272,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initiera TableRow-klassobjekt
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // Initiera TableCell-klassobjekt
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Infoga cellinnehåll
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -284,7 +284,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Initiera tabellnod
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -296,8 +296,8 @@ table.AppendChildLast(row);
 // Lägg till tagg till denna tabellnod
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Lägg till tabellnod
 outlineElem.AppendChildLast(table);

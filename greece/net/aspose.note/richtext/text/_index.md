@@ -114,21 +114,21 @@ string dataDir = RunExamples.GetDataDir_Text();
 string outputPath = dataDir + "CreateTitleMsStyle_out.one";
 
 var doc = new Document();
-var page = new Page(doc);
+var page = new Page();
 
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc)
+    TitleText = new RichText()
     {
         Text = "Title text.",
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleDate = new RichText(doc)
+    TitleDate = new RichText()
     {
         Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture),
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleTime = new RichText(doc)
+    TitleTime = new RichText()
     {
         Text = "12:34",
         ParagraphStyle = ParagraphStyle.Default
@@ -238,12 +238,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Αρχικοποίηση αντικειμένου κλάσης OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // Προσθήκη κόμβου κειμένου
@@ -336,19 +336,19 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 
 // Αρχικοποίηση αντικειμένου κλάσης σελίδας
-Page page = new Page(doc);
+Page page = new Page();
 
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Αρχικοποίηση αντικειμένου κλάσης OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Εκκίνηση αντικειμένου κλάσης TextStyle και ορισμός ιδιοτήτων μορφοποίησης
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Αρχικοποίηση αντικειμένου κλάσης RichText και εφαρμογή στυλ κειμένου
-RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // Προσθήκη κόμβου εμπλουτισμένου κειμένου
 outlineElem.AppendChildLast(text);
@@ -377,24 +377,24 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 
 // Αρχικοποίηση σελίδας OneNote
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Εφαρμογή ρυθμίσεων στυλ κειμένου
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Οι αριθμοί στο ίδιο περίγραμμα προσαυξάνονται αυτόματα.
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
 //---------------------------
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
 //---------------------------
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
 //---------------------------
@@ -421,24 +421,24 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Εκκίνηση αντικειμένου κλάσης TextStyle και ορισμός ιδιοτήτων μορφοποίησης
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Εκκίνηση αντικειμένων κλάσης OutlineElement και εφαρμογή κουκκίδων
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
 // Αρχικοποίηση αντικειμένου κλάσης RichText και εφαρμογή στυλ κειμένου
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
 // Προσθήκη στοιχείων περιγράμματος
@@ -468,23 +468,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Εκκίνηση αντικειμένου κλάσης TextStyle και ορισμός ιδιοτήτων μορφοποίησης
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Αρχικοποίηση αντικειμένων κλάσης OutlineElement και εφαρμογή αρίθμησης
 // Οι αριθμοί στο ίδιο περίγραμμα προσαυξάνονται αυτόματα.
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
 // Προσθήκη στοιχείων περιγράμματος
@@ -571,8 +571,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

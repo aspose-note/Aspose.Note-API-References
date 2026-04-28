@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note untuk Referensi .NET API
-description: TextStyle Properti. Mendapat atau menetapkan alamat hyperlink. Harus ditetapkan jika nilai dariIsHyperlink properti benar.
+description: Properti TextStyle. Mendapatkan atau menetapkan alamat hyperlink. Menetapkan properti ini sudah cukup untuk membuat hyperlink.
 type: docs
 weight: 60
 url: /id/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Mendapat atau menetapkan alamat hyperlink. Harus ditetapkan jika nilai dari[`IsHyperlink`](../ishyperlink/) properti benar.
+Mendapatkan atau menetapkan alamat hyperlink. Menetapkan properti ini sudah cukup untuk membuat hyperlink.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

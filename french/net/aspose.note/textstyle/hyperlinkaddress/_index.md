@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Référence de l'API Aspose.Note pour .NET
-description: TextStyle propriété. Obtient ou définit ladresse du lien hypertexte. Doit être défini si la valeur deIsHyperlink la propriété est vraie.
+description: Propriété TextStyle. Obtient ou définit l’adresse du lien hypertexte. Définir cette propriété suffit pour créer un lien hypertexte.
 type: docs
 weight: 60
 url: /fr/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Obtient ou définit l'adresse du lien hypertexte. Doit être défini si la valeur de[`IsHyperlink`](../ishyperlink/) la propriété est vraie.
+Obtient ou définit l’adresse du lien hypertexte. Définir cette propriété suffit pour créer un lien hypertexte.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

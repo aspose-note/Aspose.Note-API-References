@@ -59,8 +59,8 @@ Document doc = new Document();
 // Initialiseer het paginaklasse-object
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initialiseer het Outline-klasseobject en stel offset-eigenschappen in
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialiseer het klasseobject OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Laad een afbeelding via het bestandspad.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

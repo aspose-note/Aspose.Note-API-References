@@ -82,7 +82,7 @@ Not defterinin pdf formatında nasıl kaydedileceğini gösterir.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Not defterinin görüntü olarak nasıl kaydedileceğini gösterir.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Düzleştirilmiş not defterinin pdf formatında nasıl kaydedileceğini göster
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Not Defterini Kaydet
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Not defterine nasıl yeni bölüm ekleneceğini gösterir.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Not Defterine yeni bir alt öğe ekleyin
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Not defterini belirtilen seçeneklerle resim olarak nasıl kaydedeceğinizi gös
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

@@ -103,13 +103,13 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // आउटलाइन क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // आउटलाइन एलिमेंट क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // अटैच्डफाइल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // संलग्न फ़ाइल जोड़ें
 outlineElem.AppendChildLast(attachedFile);
@@ -140,15 +140,15 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // आउटलाइन क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // आउटलाइन एलिमेंट क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // अटैच्डफाइल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें और इसके आइकन पाथ को भी पास करें
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // संलग्न फ़ाइल जोड़ें
     outlineElem.AppendChildLast(attachedFile);

@@ -161,10 +161,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 아웃라인 클래스 객체 초기화
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 클래스 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 이미지 로드
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -200,12 +200,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 아웃라인 클래스 객체 초기화
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 클래스 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // 텍스트 노드 추가
@@ -272,10 +272,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow 클래스 객체 초기화
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // TableCell 클래스 객체 초기화
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // 셀 내용 삽입
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -284,7 +284,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // 테이블 노드 초기화
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -296,8 +296,8 @@ table.AppendChildLast(row);
 // 이 테이블 노드에 태그 추가
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // 테이블 노드 추가
 outlineElem.AppendChildLast(table);

@@ -23,7 +23,7 @@ Zeigt, wie ein reduziertes Notizbuch im PDF-Format gespeichert wird.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Speichern Sie das Notizbuch
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";

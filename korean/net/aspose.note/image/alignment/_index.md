@@ -59,8 +59,8 @@ Document doc = new Document();
 // 페이지 클래스 객체 초기화
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline 클래스 객체 초기화 및 오프셋 속성 설정
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 클래스 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 파일 경로로 이미지를 로드합니다.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

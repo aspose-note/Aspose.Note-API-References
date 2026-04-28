@@ -59,8 +59,8 @@ Document doc = new Document();
 // Page クラス オブジェクトを初期化します
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline クラス オブジェクトを初期化し、オフセット プロパティを設定します
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement クラス オブジェクトを初期化します
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // ファイル パスで画像を読み込みます。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

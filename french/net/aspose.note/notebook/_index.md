@@ -82,7 +82,7 @@ Montre comment enregistrer un cahier au format pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Montre comment enregistrer le bloc-notes en tant qu'image.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Montre comment enregistrer un cahier aplati au format pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Enregistrer le bloc-notes
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Montre comment ajouter une nouvelle section à un bloc-notes.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Ajoute un nouvel enfant au Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Montre comment enregistrer le bloc-notes en tant qu'image avec les options spéc
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

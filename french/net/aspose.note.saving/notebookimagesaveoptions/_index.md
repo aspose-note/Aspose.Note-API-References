@@ -44,7 +44,7 @@ Montre comment enregistrer un cahier aplati au format pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Enregistrer le bloc-notes
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -63,7 +63,7 @@ Montre comment enregistrer le bloc-notes en tant qu'image avec les options spéc
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

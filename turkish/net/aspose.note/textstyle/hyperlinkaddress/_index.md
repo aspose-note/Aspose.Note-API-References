@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note for .NET API Referansı
-description: TextStyle mülk. Köprü adresini alır veya ayarlar. değeri ise ayarlanmalıdır.IsHyperlink özellik true.
+description: TextStyle özelliği. Köprü adresini alır veya ayarlar. Köprü oluşturmak için bu özelliği ayarlamak yeterlidir.
 type: docs
 weight: 60
 url: /tr/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Köprü adresini alır veya ayarlar. değeri ise ayarlanmalıdır.[`IsHyperlink`](../ishyperlink/) özellik true.
+Köprü adresini alır veya ayarlar. Köprü oluşturmak için bu özelliği ayarlamak yeterlidir.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

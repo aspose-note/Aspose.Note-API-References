@@ -161,10 +161,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline sınıf nesnesini başlat
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement sınıf nesnesini başlat
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Bir resim yükle
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -200,12 +200,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline sınıf nesnesini başlat
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement sınıf nesnesini başlat
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // Metin düğümü ekle
@@ -272,10 +272,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow sınıf nesnesini başlat
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // TableCell sınıf nesnesini başlat
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Hücre içeriğini ekle
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -284,7 +284,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Tablo düğümünü başlat
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -296,8 +296,8 @@ table.AppendChildLast(row);
 // Bu tablo düğümüne etiket ekle
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tablo düğümü ekle
 outlineElem.AppendChildLast(table);

@@ -59,8 +59,8 @@ Document doc = new Document();
 // 初始化页面类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化 Outline 类对象并设置偏移量属性
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // 初始化 OutlineElement 类对象
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 通过文件路径加载图像。
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

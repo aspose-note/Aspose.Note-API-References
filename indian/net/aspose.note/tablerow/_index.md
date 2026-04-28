@@ -114,29 +114,29 @@ foreach (Table table in nodes)
 Document doc = new Document();
 
 // टेबलसेल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें और टेक्स्ट कंटेंट सेट करें
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // TableRow क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // पेज क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -157,10 +157,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // टेबलसेल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // सेल सामग्री डालें
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -169,7 +169,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // टेबल नोड को इनिशियलाइज़ करें
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -181,8 +181,8 @@ table.AppendChildLast(row);
 // इस टेबल नोड में टैग जोड़ें
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // टेबल नोड जोड़ें
 outlineElem.AppendChildLast(table);
@@ -210,23 +210,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // टेबलसेल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें और टेक्स्ट कंटेंट सेट करें
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // TableRow क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // टेबलसेल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें और टेक्स्ट कंटेंट सेट करें
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // टेबल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -236,8 +236,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // टेबल नोड जोड़ें
 outlineElem.AppendChildLast(table);
@@ -267,12 +267,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // टेबलसेल क्लास ऑब्जेक्ट्स को इनिशियलाइज़ करें
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // टेबल सेल में आउटलाइन एलिमेंट्स जोड़ें
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -285,12 +285,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // TableRow क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // टेबलसेल क्लास ऑब्जेक्ट्स को इनिशियलाइज़ करें
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // टेबल सेल में आउटलाइन एलिमेंट्स जोड़ें
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -303,7 +303,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // टेबल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें और कॉलम की चौड़ाई सेट करें
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -314,10 +314,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // आउटलाइन ऑब्जेक्ट को इनिशियलाइज़ करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // आउटलाइन एलिमेंट ऑब्जेक्ट को इनिशियलाइज़ करें
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // एलिमेंट नोड को आउटलाइन करने के लिए टेबल जोड़ें
 outlineElem.AppendChildLast(table);

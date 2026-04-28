@@ -29,10 +29,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline クラス オブジェクトの初期化
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement クラス オブジェクトを初期化します
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 画像を読み込む
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");

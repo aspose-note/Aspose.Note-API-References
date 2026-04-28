@@ -27,7 +27,7 @@ Not defterinin belirtilen seçeneklerle pdf formatında nasıl kaydedileceğini 
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

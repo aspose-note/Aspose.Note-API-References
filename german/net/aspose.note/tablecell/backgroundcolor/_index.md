@@ -23,29 +23,29 @@ Zeigt, wie eine Hintergrundfarbe für eine Zelle festgelegt wird.
 Document doc = new Document();
 
 // Objekt der TableCell-Klasse initialisieren und Textinhalt festlegen
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // TableRow-Klassenobjekt initialisieren
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Seitenklassenobjekt initialisieren
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);

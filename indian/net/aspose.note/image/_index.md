@@ -66,9 +66,9 @@ string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
 
-var page = new Page(document);
+var page = new Page();
 
-var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com" };
 
 page.AppendChildLast(image);
 
@@ -84,8 +84,8 @@ document.Save(dataDir + "Image with Hyperlink_out.one");
 string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
-var page = new Page(document);
-var image = new Image(document, dataDir + "image.jpg")
+var page = new Page();
+var image = new Image(dataDir + "image.jpg")
             {
                 AlternativeTextTitle = "This is an image's title!",
                 AlternativeTextDescription = "And this is an image's description!"
@@ -159,10 +159,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // आउटलाइन क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // आउटलाइन एलिमेंट क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // छवि लोड करें
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -228,8 +228,8 @@ Document doc = new Document();
 // पेज क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -267,10 +267,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // आउटलाइन क्लास ऑब्जेक्ट को इनिशियलाइज़ करें और ऑफ़सेट प्रॉपर्टी सेट करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // आउटलाइन एलिमेंट क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // फ़ाइल पथ द्वारा एक छवि लोड करें।
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

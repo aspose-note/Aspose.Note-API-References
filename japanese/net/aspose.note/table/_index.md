@@ -145,29 +145,29 @@ foreach (Table table in nodes)
 Document doc = new Document();
 
 // TableCell クラス オブジェクトを初期化し、テキスト コンテンツを設定します
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // TableRow クラス オブジェクトを初期化します
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Page クラス オブジェクトを初期化します
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -188,10 +188,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow クラス オブジェクトを初期化します
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // TableCell クラス オブジェクトを初期化します
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // セルの内容を挿入
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -200,7 +200,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // テーブルノードを初期化
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -212,8 +212,8 @@ table.AppendChildLast(row);
 // このテーブル ノードにタグを追加します
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // テーブルノードを追加
 outlineElem.AppendChildLast(table);
@@ -241,23 +241,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow クラス オブジェクトを初期化します
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // TableCell クラス オブジェクトを初期化し、テキスト コンテンツを設定します
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // TableRow クラス オブジェクトを初期化します
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // TableCell クラス オブジェクトを初期化し、テキスト コンテンツを設定します
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Table クラス オブジェクトを初期化します
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -267,8 +267,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // テーブルノードを追加
 outlineElem.AppendChildLast(table);
@@ -298,12 +298,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow クラス オブジェクトを初期化します
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // TableCell クラス オブジェクトを初期化します
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // 表のセルにアウトライン要素を追加します
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -316,12 +316,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // TableRow クラス オブジェクトを初期化します
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // TableCell クラス オブジェクトを初期化します
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // 表のセルにアウトライン要素を追加します
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -334,7 +334,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Table クラス オブジェクトを初期化し、列幅を設定します
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -345,10 +345,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // Outline オブジェクトを初期化します
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement オブジェクトを初期化します
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // アウトライン要素ノードにテーブルを追加
 outlineElem.AppendChildLast(table);

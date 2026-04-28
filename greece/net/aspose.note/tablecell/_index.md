@@ -90,29 +90,29 @@ foreach (Table table in nodes)
 Document doc = new Document();
 
 // Αρχικοποίηση αντικειμένου κλάσης TableCell και ορισμός περιεχομένου κειμένου
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // Αρχικοποίηση αντικειμένου κλάσης TableRow
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Αρχικοποίηση αντικειμένου κλάσης σελίδας
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -133,10 +133,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης TableRow
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // Αρχικοποίηση αντικειμένου κλάσης TableCell
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Εισαγωγή περιεχομένου κελιού
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -145,7 +145,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Αρχικοποίηση κόμβου πίνακα
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -157,8 +157,8 @@ table.AppendChildLast(row);
 // Προσθήκη ετικέτας σε αυτόν τον κόμβο πίνακα
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Προσθήκη κόμβου πίνακα
 outlineElem.AppendChildLast(table);
@@ -186,23 +186,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης TableRow
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Αρχικοποίηση αντικειμένου κλάσης TableCell και ορισμός περιεχομένου κειμένου
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // Αρχικοποίηση αντικειμένου κλάσης TableRow
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // Αρχικοποίηση αντικειμένου κλάσης TableCell και ορισμός περιεχομένου κειμένου
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Αρχικοποίηση αντικειμένου κλάσης πίνακα
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -212,8 +212,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Προσθήκη κόμβου πίνακα
 outlineElem.AppendChildLast(table);
@@ -243,12 +243,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης TableRow
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Εκκίνηση αντικειμένων κλάσης TableCell
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // Προσθήκη στοιχείων περιγράμματος στο κελί του πίνακα
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -261,12 +261,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // Αρχικοποίηση αντικειμένου κλάσης TableRow
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // αρχικοποίηση αντικειμένων κλάσης TableCell
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // Προσθήκη στοιχείων περιγράμματος στο κελί του πίνακα
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -279,7 +279,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Αρχικοποίηση αντικειμένου κλάσης πίνακα και ορισμός πλάτη στηλών
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -290,10 +290,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // Αρχικοποίηση αντικειμένου Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Αρχικοποίηση αντικειμένου OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Προσθήκη πίνακα στον κόμβο στοιχείου περιγράμματος
 outlineElem.AppendChildLast(table);

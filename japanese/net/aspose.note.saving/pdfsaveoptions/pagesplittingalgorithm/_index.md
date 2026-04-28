@@ -27,7 +27,7 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

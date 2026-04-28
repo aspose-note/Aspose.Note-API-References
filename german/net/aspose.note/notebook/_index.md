@@ -82,7 +82,7 @@ Zeigt, wie Notizbücher im PDF-Format gespeichert werden.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Zeigt, wie Notizbuch als Bild gespeichert wird.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Zeigt, wie ein reduziertes Notizbuch im PDF-Format gespeichert wird.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Speichern Sie das Notizbuch
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Zeigt, wie Sie einem Notizbuch einen neuen Abschnitt hinzufügen.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Ein neues untergeordnetes Element an das Notebook anhängen
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Zeigt, wie Notizbuch als Bild mit bestimmten Optionen gespeichert wird.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

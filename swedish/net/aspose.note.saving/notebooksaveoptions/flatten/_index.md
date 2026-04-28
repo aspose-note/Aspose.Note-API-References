@@ -23,7 +23,7 @@ Visar hur man sparar tillplattad anteckningsbok i pdf-format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Spara anteckningsboken
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";

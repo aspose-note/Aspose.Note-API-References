@@ -103,13 +103,13 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline-Klassenobjekt initialisieren
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement-Klassenobjekt initialisieren
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // AttachedFile-Klassenobjekt initialisieren
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // Angehängte Datei hinzufügen
 outlineElem.AppendChildLast(attachedFile);
@@ -140,15 +140,15 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline-Klassenobjekt initialisieren
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement-Klassenobjekt initialisieren
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // Objekt der AttachedFile-Klasse initialisieren und auch seinen Icon-Pfad übergeben
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // Angehängte Datei hinzufügen
     outlineElem.AppendChildLast(attachedFile);

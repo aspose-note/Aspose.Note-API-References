@@ -59,8 +59,8 @@ Document doc = new Document();
 // Initiera Sidklassobjekt
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initiera Outline-klassobjektet och ställ in offsetegenskaper
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initiera OutlineElement-klassobjekt
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Ladda en bild efter filsökvägen.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

@@ -161,10 +161,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inicializa el objeto de la clase Esquema
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inicializa el objeto de la clase OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Cargar una imagen
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -200,12 +200,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inicializa el objeto de la clase Esquema
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inicializa el objeto de la clase OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // Agregar nodo de texto
@@ -272,10 +272,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inicializa el objeto de la clase TableRow
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // Inicializa el objeto de la clase TableCell
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Insertar contenido de celda
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -284,7 +284,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Inicializa el nodo de la tabla
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -296,8 +296,8 @@ table.AppendChildLast(row);
 // Agregar etiqueta a este nodo de tabla
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Agregar nodo de tabla
 outlineElem.AppendChildLast(table);

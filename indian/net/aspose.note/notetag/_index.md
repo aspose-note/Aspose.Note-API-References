@@ -161,10 +161,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // आउटलाइन क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // आउटलाइन एलिमेंट क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // छवि लोड करें
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -200,12 +200,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // आउटलाइन क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // आउटलाइन एलिमेंट क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
 // टेक्स्ट नोड जोड़ें
@@ -272,10 +272,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // टेबलसेल क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // सेल सामग्री डालें
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -284,7 +284,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // टेबल नोड को इनिशियलाइज़ करें
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -296,8 +296,8 @@ table.AppendChildLast(row);
 // इस टेबल नोड में टैग जोड़ें
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // टेबल नोड जोड़ें
 outlineElem.AppendChildLast(table);

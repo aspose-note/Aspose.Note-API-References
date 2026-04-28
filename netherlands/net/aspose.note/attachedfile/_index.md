@@ -103,13 +103,13 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initialiseer het Outline-klassenobject
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialiseer het klasseobject OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Initialiseer het klasseobject AttachedFile
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // Voeg bijgevoegd bestand toe
 outlineElem.AppendChildLast(attachedFile);
@@ -140,15 +140,15 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initialiseer het Outline-klassenobject
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialiseer het klasseobject OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // Initialiseer het klasseobject AttachedFile en geef ook het pictogrampad door
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // Voeg bijgevoegd bestand toe
     outlineElem.AppendChildLast(attachedFile);

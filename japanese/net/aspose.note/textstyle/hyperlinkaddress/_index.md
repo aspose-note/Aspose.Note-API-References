@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note for .NET API リファレンス
-description: TextStyle 財産. ハイパーリンク アドレスを取得または設定しますの値がIsHyperlinkプロパティは true.
+description: TextStyle プロパティ。 ハイパーリンク アドレスを取得または設定します。このプロパティを設定するだけでハイパーリンクを作成できます。
 type: docs
 weight: 60
 url: /ja/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-ハイパーリンク アドレスを取得または設定します。の値が[`IsHyperlink`](../ishyperlink/)プロパティは true.
+ハイパーリンク アドレスを取得または設定します。このプロパティを設定するだけでハイパーリンクを作成できます。
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

@@ -54,14 +54,14 @@ var pageHistory = document.GetPageHistory(page);
 
 pageHistory.RemoveRange(0, 1);
 
-pageHistory[0] = new Page(document);
+pageHistory[0] = new Page();
 if (pageHistory.Count > 1)
 {
     pageHistory[1].Title.TitleText.Text = "New Title";
 
-    pageHistory.Add(new Page(document));
+    pageHistory.Add(new Page());
 
-    pageHistory.Insert(1, new Page(document));
+    pageHistory.Insert(1, new Page());
 
     document.Save(dataDir + "ModifyPageHistory_out.one");
 }
@@ -74,21 +74,21 @@ string dataDir = RunExamples.GetDataDir_Text();
 string outputPath = dataDir + "CreateTitleMsStyle_out.one";
 
 var doc = new Document();
-var page = new Page(doc);
+var page = new Page();
 
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc)
+    TitleText = new RichText()
     {
         Text = "Title text.",
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleDate = new RichText(doc)
+    TitleDate = new RichText()
     {
         Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture),
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleTime = new RichText(doc)
+    TitleTime = new RichText()
     {
         Text = "12:34",
         ParagraphStyle = ParagraphStyle.Default
@@ -192,11 +192,11 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Définir les propriétés du titre de la page
-page.Title = new Title(doc)
+page.Title = new Title()
              {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
 // Ajoute le noeud Page dans le document
@@ -221,11 +221,11 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Style par défaut pour tout le texte du document.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-page.Title = new Title(doc)
+page.Title = new Title()
              {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
 // Ajoute le nœud de la page

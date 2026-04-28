@@ -33,10 +33,10 @@ public sealed class TextStyle : Style
 | [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Hiermee wordt de lettergrootte opgehaald of ingesteld. |
 | [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Krijgt de lettertypestijl. |
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | Haalt of stelt de markeringskleur in. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Haalt of stelt het hyperlinkadres in. Moet worden ingesteld als de waarde van de[`IsHyperlink`](./ishyperlink/) eigenschap is waar. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Haalt het hyperlinkadres op of stelt het in. Het instellen van deze eigenschap is voldoende om een hyperlink te maken. |
 | [IsBold](../../aspose.note/style/isbold/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of de tekststijl vet is. |
 | [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | Haalt of stelt een waarde in die aangeeft of de tekststijl verborgen is. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of de tekststijl een hyperlink is. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Verouderd sinds versie 22.5. Gebruik in plaats daarvan [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/). |
 | [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of de tekststijl cursief is. |
 | [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of de tekststijl wiskundige opmaak is. |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Hiermee wordt een waarde opgehaald of ingesteld die aangeeft of de tekststijl doorgestreept is. |
@@ -174,8 +174,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

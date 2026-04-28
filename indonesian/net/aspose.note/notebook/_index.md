@@ -82,7 +82,7 @@ Menunjukkan cara menyimpan buku catatan dalam format pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Menunjukkan cara menyimpan buku catatan sebagai gambar.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Menunjukkan cara menyimpan buku catatan yang diratakan dalam format pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Simpan Buku Catatan
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Memperlihatkan cara menambahkan bagian baru ke buku catatan.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Tambahkan anak baru ke Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Menunjukkan cara menyimpan buku catatan sebagai gambar dengan opsi yang ditentuk
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

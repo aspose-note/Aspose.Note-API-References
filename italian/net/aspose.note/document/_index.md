@@ -245,9 +245,9 @@ string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
 
-var page = new Page(document);
+var page = new Page();
 
-var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com" };
 
 page.AppendChildLast(image);
 
@@ -297,7 +297,7 @@ Mostra come aggiungere una nuova sezione a un blocco appunti.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Aggiungi un nuovo figlio al Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -406,8 +406,8 @@ Mostra come impostare la descrizione del testo per un'immagine.
 string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
-var page = new Page(document);
-var image = new Image(document, dataDir + "image.jpg")
+var page = new Page();
+var image = new Image(dataDir + "image.jpg")
             {
                 AlternativeTextTitle = "This is an image's title!",
                 AlternativeTextDescription = "And this is an image's description!"
@@ -494,14 +494,14 @@ var pageHistory = document.GetPageHistory(page);
 
 pageHistory.RemoveRange(0, 1);
 
-pageHistory[0] = new Page(document);
+pageHistory[0] = new Page();
 if (pageHistory.Count > 1)
 {
     pageHistory[1].Title.TitleText.Text = "New Title";
 
-    pageHistory.Add(new Page(document));
+    pageHistory.Add(new Page());
 
-    pageHistory.Insert(1, new Page(document));
+    pageHistory.Insert(1, new Page());
 
     document.Save(dataDir + "ModifyPageHistory_out.one");
 }
@@ -767,13 +767,13 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inizializza l'oggetto della classe Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inizializza l'oggetto della classe OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Inizializza l'oggetto della classe AttachedFile
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // Aggiungi file allegato
 outlineElem.AppendChildLast(attachedFile);
@@ -886,15 +886,15 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inizializza l'oggetto della classe Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inizializza l'oggetto della classe OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // Inizializza l'oggetto della classe AttachedFile e passa anche il suo percorso dell'icona
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // Aggiungi file allegato
     outlineElem.AppendChildLast(attachedFile);
@@ -986,11 +986,11 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Imposta le proprietà del titolo della pagina
-page.Title = new Title(doc)
+page.Title = new Title()
              {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
 // Aggiungi il nodo Pagina nel documento
@@ -1013,8 +1013,8 @@ Document doc = new Document();
 // Inizializza l'oggetto della classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -1052,10 +1052,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inizializza l'oggetto della classe Outline e imposta le proprietà di offset
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inizializza l'oggetto della classe OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Carica un'immagine dal percorso del file.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
@@ -1091,19 +1091,19 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document();
 
 // Inizializza l'oggetto della classe Page
-Page page = new Page(doc);
+Page page = new Page();
 
 // Inizializza l'oggetto della classe Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inizializza l'oggetto della classe OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Inizializza l'oggetto della classe TextStyle e imposta le proprietà di formattazione
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // Inizializza l'oggetto della classe RichText e applica lo stile del testo
-RichText text = new RichText(doc) { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // Aggiungi nodo RichText
 outlineElem.AppendChildLast(text);
@@ -1136,11 +1136,11 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Stile predefinito per tutto il testo nel documento.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-page.Title = new Title(doc)
+page.Title = new Title()
              {
-                 TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
 // Aggiungi il nodo della pagina
@@ -1224,8 +1224,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

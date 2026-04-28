@@ -66,9 +66,9 @@ string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
 
-var page = new Page(document);
+var page = new Page();
 
-var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" };
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com" };
 
 page.AppendChildLast(image);
 
@@ -84,8 +84,8 @@ document.Save(dataDir + "Image with Hyperlink_out.one");
 string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
-var page = new Page(document);
-var image = new Image(document, dataDir + "image.jpg")
+var page = new Page();
+var image = new Image(dataDir + "image.jpg")
             {
                 AlternativeTextTitle = "This is an image's title!",
                 AlternativeTextDescription = "And this is an image's description!"
@@ -159,10 +159,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 아웃라인 클래스 객체 초기화
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 클래스 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 이미지 로드
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -228,8 +228,8 @@ Document doc = new Document();
 // 페이지 클래스 객체 초기화
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -267,10 +267,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline 클래스 객체 초기화 및 오프셋 속성 설정
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 클래스 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 파일 경로로 이미지를 로드합니다.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

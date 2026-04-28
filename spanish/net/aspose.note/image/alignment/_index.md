@@ -59,8 +59,8 @@ Document doc = new Document();
 // Inicializar objeto de clase de página
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inicializa el objeto de la clase Esquema y establece las propiedades de compensación
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inicializa el objeto de la clase OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Carga una imagen por la ruta del archivo.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

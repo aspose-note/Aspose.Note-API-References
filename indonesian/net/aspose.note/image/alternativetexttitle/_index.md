@@ -23,8 +23,8 @@ Menunjukkan cara menyetel deskripsi teks untuk gambar.
 string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
-var page = new Page(document);
-var image = new Image(document, dataDir + "image.jpg")
+var page = new Page();
+var image = new Image(dataDir + "image.jpg")
             {
                 AlternativeTextTitle = "This is an image's title!",
                 AlternativeTextDescription = "And this is an image's description!"

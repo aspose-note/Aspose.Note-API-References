@@ -59,8 +59,8 @@ Document doc = new Document();
 // Inisialisasi objek kelas Halaman
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inisialisasi objek kelas Outline dan atur properti offset
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Menginisialisasi objek kelas OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Muat gambar dengan jalur file.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

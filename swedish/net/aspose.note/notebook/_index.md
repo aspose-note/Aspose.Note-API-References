@@ -82,7 +82,7 @@ Visar hur man sparar anteckningsboken i pdf-format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Visar hur du sparar anteckningsboken som bild.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Visar hur man sparar tillplattad anteckningsbok i pdf-format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Spara anteckningsboken
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Visar hur man lägger till ett nytt avsnitt i en anteckningsbok.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Lägg till ett nytt barn till anteckningsboken
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Visar hur du sparar anteckningsboken som bild med angivna alternativ.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

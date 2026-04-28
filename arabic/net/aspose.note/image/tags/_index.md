@@ -29,10 +29,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // تهيئة كائن فئة المخطط التفصيلي
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // تحميل صورة
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");

@@ -33,10 +33,10 @@ public sealed class TextStyle : Style
 | [FontSize](../../aspose.note/style/fontsize/) { get; set; } | 获取或设置字体大小。 |
 | [FontStyle](../../aspose.note/style/fontstyle/) { get; } | 获取字体样式。 |
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | 获取或设置高亮颜色。 |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | 获取或设置超链接地址。必须设置，如果值[`IsHyperlink`](./ishyperlink/)属性为真。 |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | 获取或设置超链接地址。设置此属性即可创建超链接。 |
 | [IsBold](../../aspose.note/style/isbold/) { get; set; } | 获取或设置文本样式是否为粗体的值。 |
 | [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | 获取或设置文本样式是否隐藏的值。 |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | 获取或设置文本样式是否为超链接的值。 |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | 自 22.5 起已过时。请改用 [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/)。 |
 | [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | 获取或设置文本样式是否为斜体的值。 |
 | [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | 获取或设置一个值，该值指示文本样式是否为数学格式。 |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 获取或设置文本样式是否为删除线的值。 |
@@ -174,8 +174,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

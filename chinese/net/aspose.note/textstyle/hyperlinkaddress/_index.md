@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note for .NET API 参考
-description: TextStyle 财产. 获取或设置超链接地址必须设置如果值IsHyperlink属性为真
+description: TextStyle 属性。 获取或设置超链接地址。设置此属性即可创建超链接。
 type: docs
 weight: 60
 url: /zh/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-获取或设置超链接地址。必须设置，如果值[`IsHyperlink`](../ishyperlink/)属性为真。
+获取或设置超链接地址。设置此属性即可创建超链接。
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

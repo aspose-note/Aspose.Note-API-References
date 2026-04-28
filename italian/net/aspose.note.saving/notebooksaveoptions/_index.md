@@ -37,7 +37,7 @@ Mostra come salvare il taccuino appiattito in formato pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Salva il taccuino
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -56,7 +56,7 @@ Mostra come salvare il notebook in formato pdf con le opzioni specificate.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

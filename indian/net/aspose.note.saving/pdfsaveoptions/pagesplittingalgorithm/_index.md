@@ -27,7 +27,7 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // एक OneNote नोटबुक लोड करें
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

@@ -27,7 +27,7 @@ Laat zien hoe u een notitieblok in pdf-indeling kunt opslaan met opgegeven optie
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

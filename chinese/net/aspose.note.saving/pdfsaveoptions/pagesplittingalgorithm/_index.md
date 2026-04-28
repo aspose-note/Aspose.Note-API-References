@@ -27,7 +27,7 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

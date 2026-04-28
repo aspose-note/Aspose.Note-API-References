@@ -1,14 +1,14 @@
 ---
 title: TextStyle.IsHyperlink
 second_title: Aspose.Note for .NET API Referansı
-description: TextStyle mülk. Metin stilinin köprü olup olmadığını gösteren bir değer alır veya ayarlar.
+description: TextStyle özelliği. 22.5 sürümünden itibaren kullanımdan kaldırılmıştır. Bunun yerine HyperlinkAddress kullanın.
 type: docs
 weight: 80
 url: /tr/net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-Metin stilinin köprü olup olmadığını gösteren bir değer alır veya ayarlar.
+22.5 sürümünden itibaren kullanımdan kaldırılmıştır. Bunun yerine `HyperlinkAddress` kullanın.
 
 ```csharp
 public bool IsHyperlink { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

@@ -82,7 +82,7 @@ Mostra come salvare il taccuino in formato pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Mostra come salvare il notebook come immagine.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Mostra come salvare il taccuino appiattito in formato pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Salva il taccuino
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Mostra come aggiungere una nuova sezione a un blocco appunti.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // Aggiungi un nuovo figlio al Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Mostra come salvare il notebook come immagine con le opzioni specificate.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

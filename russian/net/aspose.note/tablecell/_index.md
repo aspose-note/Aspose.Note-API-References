@@ -90,29 +90,29 @@ foreach (Table table in nodes)
 Document doc = new Document();
 
 // Инициализируем объект класса TableCell и устанавливаем текстовое содержимое
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // Инициализировать объект класса TableRow
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Инициализировать объект класса Page
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -133,10 +133,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Инициализировать объект класса TableRow
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // Инициализировать объект класса TableCell
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Вставляем содержимое ячейки
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -145,7 +145,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Инициализировать узел таблицы
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -157,8 +157,8 @@ table.AppendChildLast(row);
 // Добавляем тег к этому узлу таблицы
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Добавляем узел таблицы
 outlineElem.AppendChildLast(table);
@@ -186,23 +186,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Инициализировать объект класса TableRow
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Инициализируем объект класса TableCell и устанавливаем текстовое содержимое
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // Инициализировать объект класса TableRow
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // Инициализируем объект класса TableCell и устанавливаем текстовое содержимое
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Инициализировать объект класса Table
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -212,8 +212,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Добавляем узел таблицы
 outlineElem.AppendChildLast(table);
@@ -243,12 +243,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Инициализировать объект класса TableRow
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Инициализировать объекты класса TableCell
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // Добавляем элементы контура в ячейку таблицы
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -261,12 +261,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // Инициализировать объект класса TableRow
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // инициализируем объекты класса TableCell
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // Добавляем элементы контура в ячейку таблицы
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -279,7 +279,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Инициализируем объект класса Table и устанавливаем ширину столбцов
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -290,10 +290,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // Инициализировать объект Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Инициализировать объект OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Добавляем таблицу к узлу элемента контура
 outlineElem.AppendChildLast(table);

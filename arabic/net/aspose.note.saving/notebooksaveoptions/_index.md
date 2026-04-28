@@ -37,7 +37,7 @@ public abstract class NotebookSaveOptions
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // تحميل دفتر ملاحظات OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 // حفظ دفتر الملاحظات
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -56,7 +56,7 @@ notebook.Save(
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // تحميل دفتر ملاحظات OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

@@ -1,14 +1,14 @@
 ---
 title: TextStyle.IsHyperlink
 second_title: Aspose.Note for .NET API 参考
-description: TextStyle 财产. 获取或设置文本样式是否为超链接的值
+description: TextStyle 属性。 自 22.5 起已过时。请改用 HyperlinkAddress。
 type: docs
 weight: 80
 url: /zh/net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-获取或设置文本样式是否为超链接的值。
+自 22.5 起已过时。请改用 `HyperlinkAddress`。
 
 ```csharp
 public bool IsHyperlink { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
