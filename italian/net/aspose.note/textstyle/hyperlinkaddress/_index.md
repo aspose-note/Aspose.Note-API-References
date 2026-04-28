@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note per .NET API Reference
-description: TextStyle proprietà. Ottiene o imposta lindirizzo del collegamento ipertestuale. Deve essere impostato se il valore diIsHyperlink proprietà è true.
+description: Proprietà TextStyle. Ottiene o imposta l’indirizzo del collegamento ipertestuale. Impostare questa proprietà è sufficiente per creare un collegamento ipertestuale.
 type: docs
 weight: 60
 url: /it/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Ottiene o imposta l'indirizzo del collegamento ipertestuale. Deve essere impostato se il valore di[`IsHyperlink`](../ishyperlink/) proprietà è true.
+Ottiene o imposta l’indirizzo del collegamento ipertestuale. Impostare questa proprietà è sufficiente per creare un collegamento ipertestuale.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

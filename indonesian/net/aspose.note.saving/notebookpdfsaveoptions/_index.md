@@ -44,7 +44,7 @@ Menunjukkan cara menyimpan buku catatan dalam format pdf dengan opsi yang ditent
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

@@ -59,8 +59,8 @@ Document doc = new Document();
 // Αρχικοποίηση αντικειμένου κλάσης σελίδας
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Εκκίνηση αντικειμένου κλάσης Outline και ορισμός ιδιοτήτων μετατόπισης
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Αρχικοποίηση αντικειμένου κλάσης OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Φόρτωση εικόνας από τη διαδρομή του αρχείου.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

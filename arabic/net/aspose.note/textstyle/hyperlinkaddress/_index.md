@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note لمرجع NET API
-description: TextStyle ملكية. الحصول على عنوان الارتباط التشعبي أو تعيينه. يجب تعيين إذا كانت قيمةIsHyperlink الخاصية صحيحة .
+description: خاصية TextStyle. الحصول على عنوان الارتباط التشعبي أو تعيينه. يكفي تعيين هذه الخاصية لإنشاء ارتباط تشعبي.
 type: docs
 weight: 60
 url: /ar/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-الحصول على عنوان الارتباط التشعبي أو تعيينه. يجب تعيين إذا كانت قيمة[`IsHyperlink`](../ishyperlink/) الخاصية صحيحة .
+الحصول على عنوان الارتباط التشعبي أو تعيينه. يكفي تعيين هذه الخاصية لإنشاء ارتباط تشعبي.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

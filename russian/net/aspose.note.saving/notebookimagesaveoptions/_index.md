@@ -44,7 +44,7 @@ public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Загрузить блокнот OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Сохраняем блокнот
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -63,7 +63,7 @@ notebook.Save(
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Загрузить блокнот OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -84,7 +84,7 @@ notebook.Save(dataDir, notebookSaveOptions);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Загрузить блокнот OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

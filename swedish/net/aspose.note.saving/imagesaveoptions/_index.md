@@ -139,7 +139,7 @@ Visar hur du sparar anteckningsboken som bild med angivna alternativ.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -179,7 +179,7 @@ Visar hur man sparar tillplattad anteckningsbok som bild.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

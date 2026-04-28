@@ -82,7 +82,7 @@ notebook.Save(dataDir);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ notebook.Save(dataDir);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ foreach (RichText richTextNode in allRichTextNodes)
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // ノートブックを保存します
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -142,7 +142,7 @@ notebook.Save(
 それらを遅延ロードするノートブックのドキュメントを反復処理する方法を示します。
 
 ```csharp
-string inputFile = "Notizbuch öffnen.onetoc2";
+string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // デフォルトでは、子の読み込みは「遅延」です。
@@ -162,7 +162,7 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Notebook に新しい子を追加します
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -179,7 +179,7 @@ notebook.Save(dataDir);
 // ドキュメント ディレクトリへのパス。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -210,7 +210,7 @@ notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { Doc
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -231,7 +231,7 @@ notebook.Save(dataDir, notebookSaveOptions);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // OneNote ノートブックを読み込む
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -279,7 +279,7 @@ notebook.Save(dataDir);
 // NotebookLoadOptions.InstantLoading フラグを設定する必要があります。
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 

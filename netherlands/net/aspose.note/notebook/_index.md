@@ -82,7 +82,7 @@ Laat zien hoe je een notitieboek opslaat in pdf-formaat.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Laat zien hoe je een notitieboek opslaat als afbeelding.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Laat zien hoe u een afgeplat notitieboek in pdf-formaat kunt opslaan.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Sla het notitieblok op
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -142,7 +142,7 @@ notebook.Save(
 Laat zien hoe u door documenten van een notebook kunt bladeren die ze lui laden.
 
 ```csharp
-string inputFile = "Notizbuch öffnen.onetoc2";
+string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Standaard is het laden van kinderen "lui".
@@ -162,7 +162,7 @@ Laat zien hoe je een nieuwe sectie toevoegt aan een notitieblok.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Voeg een nieuw kind toe aan de Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -179,7 +179,7 @@ Laat zien hoe je een notebook laadt vanuit een stream.
 // Het pad naar de documentenmap.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -210,7 +210,7 @@ Laat zien hoe u een notitieblok kunt opslaan als afbeelding met opgegeven opties
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -231,7 +231,7 @@ Laat zien hoe u een afgeplat notitieboek als afbeelding kunt opslaan.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -279,7 +279,7 @@ Laat zien hoe u door vooraf geladen documenten van een notebook kunt bladeren.
 // het is noodzakelijk om de vlag NotebookLoadOptions.InstantLoading in te stellen.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 

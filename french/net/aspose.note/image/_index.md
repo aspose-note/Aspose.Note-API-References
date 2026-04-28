@@ -66,9 +66,9 @@ string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
 
-var page = new Page(document);
+var page = new Page();
 
-var image = new Image(document, dataDir + "image.jpg") { HyperlinkUrl = "http://image.com" } ;
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com" } ;
 
 page.AppendChildLast(image);
 
@@ -84,8 +84,8 @@ Montre comment définir la description textuelle d'une image.
 string dataDir = RunExamples.GetDataDir_Images();
 
 var document = new Document();
-var page = new Page(document);
-var image = new Image(document, dataDir + "image.jpg")
+var page = new Page();
+var image = new Image(dataDir + "image.jpg")
             {
                 AlternativeTextTitle = "This is an image's title!",
                 AlternativeTextDescription = "And this is an image's description!"
@@ -159,10 +159,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initialise l'objet de la classe Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialise l'objet de classe OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Charger une image
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
@@ -228,8 +228,8 @@ Document doc = new Document();
 // Initialise l'objet de la classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -267,10 +267,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Initialise l'objet de la classe Outline et définit les propriétés de décalage
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Initialise l'objet de classe OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Charge une image par le chemin du fichier.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

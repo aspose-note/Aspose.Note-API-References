@@ -24,11 +24,11 @@ Set proofing language for a text.
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
-var outline = new Outline(document);
-var outlineElem = new OutlineElement(document);
+var page = new Page();
+var outline = new Outline();
+var outlineElem = new OutlineElement();
 
-var text = new RichText(document) { Text = "United States Germany China", ParagraphStyle = ParagraphStyle.Default };
+var text = new RichText() { Text = "United States Germany China", ParagraphStyle = ParagraphStyle.Default };
 text.Styles.Add(new TextStyle()
                     {
                         Language = CultureInfo.GetCultureInfo("en-US"),
@@ -62,13 +62,13 @@ string dataDir = RunExamples.GetDataDir_Tasks();
 // Create an object of the Document class
 Document doc = new Document();
 
-RichText titleText = new RichText(doc)
+RichText titleText = new RichText()
                      {
                          Text = "Title!",
                          ParagraphStyle = ParagraphStyle.Default
                      };
 
-Outline outline = new Outline(doc)
+Outline outline = new Outline()
                   {
                       MaxWidth = 200,
                       MaxHeight = 200,
@@ -90,25 +90,24 @@ TextStyle textStyleHyperlink = new TextStyle
                               {
                                   // This style will be applied to 8-16 characters.
                                   RunIndex = 17,
-                                  IsHyperlink = true,
-                                  HyperlinkAddress = "www.google.com"
+                                  HyperlinkAddress = "https://www.google.com"
                               };
 
-RichText text = new RichText(doc)
+RichText text = new RichText()
                 {
                     Text = "This is hyperlink. This text is not a hyperlink.",
                     ParagraphStyle = ParagraphStyle.Default,
                     Styles = { textStyleRed, textStyleHyperlink }
                 };
 
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
 // Add outline elements
 outline.AppendChildLast(outlineElem);
 
 // Initialize Title class object
-Title title = new Title(doc) { TitleText = titleText };
+Title title = new Title() { TitleText = titleText };
 
 // Initialize Page class object
 Aspose.Note.Page page = new Aspose.Note.Page(doc) { Title = title };

@@ -26,7 +26,7 @@ Montre comment charger un bloc-notes à partir d'un flux.
 // Le chemin d'accès au répertoire des documents.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -88,7 +88,7 @@ Montre comment charger un bloc-notes à partir d'un flux.
 // Le chemin d'accès au répertoire des documents.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 

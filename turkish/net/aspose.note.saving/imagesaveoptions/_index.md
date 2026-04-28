@@ -139,7 +139,7 @@ Not defterini belirtilen seçeneklerle resim olarak nasıl kaydedeceğinizi gös
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -179,7 +179,7 @@ Düzleştirilmiş not defterinin resim olarak nasıl kaydedileceğini gösterir.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Bir OneNote Not Defteri yükleyin
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

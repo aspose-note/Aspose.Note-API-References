@@ -82,7 +82,7 @@ Menunjukkan cara menyimpan buku catatan dalam format pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Menunjukkan cara menyimpan buku catatan sebagai gambar.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Menunjukkan cara menyimpan buku catatan yang diratakan dalam format pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Simpan Buku Catatan
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -142,7 +142,7 @@ notebook.Save(
 Menunjukkan cara mengulangi dokumen buku catatan yang memuatnya dengan malas.
 
 ```csharp
-string inputFile = "Notizbuch öffnen.onetoc2";
+string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Secara default memuat anak-anak adalah "malas".
@@ -162,7 +162,7 @@ Memperlihatkan cara menambahkan bagian baru ke buku catatan.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Tambahkan anak baru ke Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -179,7 +179,7 @@ Menunjukkan cara memuat notebook dari aliran.
 // Jalur ke direktori dokumen.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -210,7 +210,7 @@ Menunjukkan cara menyimpan buku catatan sebagai gambar dengan opsi yang ditentuk
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -231,7 +231,7 @@ Menunjukkan cara menyimpan buku catatan yang diratakan sebagai gambar.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Muat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -279,7 +279,7 @@ Memperlihatkan cara mengulang melalui dokumen buku catatan yang dimuat sebelumny
 // Anda perlu menyetel bendera NotebookLoadOptions.InstantLoading.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 

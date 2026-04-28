@@ -37,7 +37,7 @@ Visar hur man sparar tillplattad anteckningsbok i pdf-format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Spara anteckningsboken
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -56,7 +56,7 @@ Visar hur du sparar anteckningsboken i pdf-format med angivna alternativ.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 
@@ -77,7 +77,7 @@ Visar hur man sparar tillplattad anteckningsbok som bild.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

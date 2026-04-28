@@ -82,7 +82,7 @@ Visar hur man sparar anteckningsboken i pdf-format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Visar hur du sparar anteckningsboken som bild.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Visar hur man sparar tillplattad anteckningsbok i pdf-format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Spara anteckningsboken
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -142,7 +142,7 @@ notebook.Save(
 Visar hur man itererar genom dokument från en anteckningsbok som laddar dem lätt.
 
 ```csharp
-string inputFile = "Notizbuch öffnen.onetoc2";
+string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Som standard är barnladdning "lat".
@@ -162,7 +162,7 @@ Visar hur man lägger till ett nytt avsnitt i en anteckningsbok.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Lägg till ett nytt barn till anteckningsboken
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -179,7 +179,7 @@ Visar hur man laddar anteckningsboken från en ström.
 // Sökvägen till dokumentkatalogen.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -210,7 +210,7 @@ Visar hur du sparar anteckningsboken som bild med angivna alternativ.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -231,7 +231,7 @@ Visar hur man sparar tillplattad anteckningsbok som bild.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -279,7 +279,7 @@ Visar hur man itererar genom förinstallerade dokument i en anteckningsbok.
 // det är nödvändigt att ställa in flaggan NotebookLoadOptions.InstantLoading.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 

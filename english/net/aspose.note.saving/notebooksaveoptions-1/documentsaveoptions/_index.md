@@ -23,7 +23,7 @@ Shows how to save notebook in pdf format with specified options.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

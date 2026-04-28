@@ -59,8 +59,8 @@ Document doc = new Document();
 // Sayfa sınıfı nesnesini başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Outline sınıf nesnesini başlat ve ofset özelliklerini ayarla
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement sınıf nesnesini başlat
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Dosya yoluna göre bir resim yükleyin.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

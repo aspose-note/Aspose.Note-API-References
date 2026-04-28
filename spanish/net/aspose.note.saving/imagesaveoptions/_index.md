@@ -139,7 +139,7 @@ Muestra cómo guardar el cuaderno como imagen con opciones específicas.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -179,7 +179,7 @@ Muestra cómo guardar un cuaderno aplanado como imagen.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

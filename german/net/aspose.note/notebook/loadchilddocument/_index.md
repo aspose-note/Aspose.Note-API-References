@@ -26,7 +26,7 @@ Zeigt, wie ein Notebook aus einem Stream geladen wird.
 // Der Pfad zum Dokumentenverzeichnis.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -88,7 +88,7 @@ Zeigt, wie ein Notebook aus einem Stream geladen wird.
 // Der Pfad zum Dokumentenverzeichnis.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 

@@ -82,7 +82,7 @@ notebook.Save(dataDir);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ notebook.Save(dataDir);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ foreach (RichText richTextNode in allRichTextNodes)
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // 保存笔记本
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -142,7 +142,7 @@ notebook.Save(
 展示如何遍历延迟加载的笔记本文档。
 
 ```csharp
-string inputFile = "Notizbuch öffnen.onetoc2";
+string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 默认情况下，子加载是“惰性”的。
@@ -162,7 +162,7 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // 添加一个新的孩子到笔记本
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -179,7 +179,7 @@ notebook.Save(dataDir);
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -210,7 +210,7 @@ notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { Doc
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -231,7 +231,7 @@ notebook.Save(dataDir, notebookSaveOptions);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -279,7 +279,7 @@ notebook.Save(dataDir);
 // 有必要设置 NotebookLoadOptions.InstantLoading 标志。
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 

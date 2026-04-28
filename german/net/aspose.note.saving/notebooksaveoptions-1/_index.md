@@ -43,7 +43,7 @@ Zeigt, wie Notizbücher im PDF-Format mit den angegebenen Optionen gespeichert w
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

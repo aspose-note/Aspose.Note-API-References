@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note .NET API संदर्भ के लिए
-description: TextStyle संपत्त. हइपरलंक पत प्रप्त य सेट करत है सेट कय जन चहए यद क मनIsHyperlink संपत्त सत्य है
+description: TextStyle गुण। हाइपरलिंक पता प्राप्त या सेट करता है। हाइपरलिंक बनाने के लिए इस गुण को सेट करना पर्याप्त है।
 type: docs
 weight: 60
 url: /hi/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-हाइपरलिंक पता प्राप्त या सेट करता है। सेट किया जाना चाहिए यदि का मान[`IsHyperlink`](../ishyperlink/) संपत्ति सत्य है।
+हाइपरलिंक पता प्राप्त या सेट करता है। हाइपरलिंक बनाने के लिए इस गुण को सेट करना पर्याप्त है।
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

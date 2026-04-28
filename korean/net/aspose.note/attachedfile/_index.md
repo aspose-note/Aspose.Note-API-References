@@ -103,13 +103,13 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 아웃라인 클래스 객체 초기화
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 클래스 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // AttachedFile 클래스 객체 초기화
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // 첨부파일 추가
 outlineElem.AppendChildLast(attachedFile);
@@ -140,15 +140,15 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 아웃라인 클래스 객체 초기화
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 클래스 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // AttachedFile 클래스 개체를 초기화하고 해당 아이콘 경로도 전달합니다.
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // 첨부파일 추가
     outlineElem.AppendChildLast(attachedFile);

@@ -114,29 +114,29 @@ Memperlihatkan cara menyetel warna latar belakang untuk sel.
 Document doc = new Document();
 
 // Inisialisasi objek kelas TableCell dan atur konten teks
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // Inisialisasi objek kelas TableRow
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Inisialisasi objek kelas Halaman
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -157,10 +157,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inisialisasi objek kelas TableRow
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // Inisialisasi objek kelas TableCell
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Sisipkan konten sel
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -169,7 +169,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Inisialisasi simpul tabel
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -181,8 +181,8 @@ table.AppendChildLast(row);
 // Tambahkan tag ke simpul tabel ini
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tambahkan simpul tabel
 outlineElem.AppendChildLast(table);
@@ -210,23 +210,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inisialisasi objek kelas TableRow
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Inisialisasi objek kelas TableCell dan atur konten teks
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // Inisialisasi objek kelas TableRow
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // Inisialisasi objek kelas TableCell dan atur konten teks
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Inisialisasi objek kelas Tabel
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -236,8 +236,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tambahkan simpul tabel
 outlineElem.AppendChildLast(table);
@@ -267,12 +267,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inisialisasi objek kelas TableRow
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Inisialisasi objek kelas TableCell
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // Tambahkan elemen kerangka di sel tabel
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -285,12 +285,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // Inisialisasi objek kelas TableRow
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // inisialisasi objek kelas TableCell
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // Tambahkan elemen kerangka di sel tabel
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -303,7 +303,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Inisialisasi objek kelas Tabel dan atur lebar kolom
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -314,10 +314,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // Inisialisasi objek Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Inisialisasi objek OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Tambahkan tabel ke simpul elemen kerangka
 outlineElem.AppendChildLast(table);

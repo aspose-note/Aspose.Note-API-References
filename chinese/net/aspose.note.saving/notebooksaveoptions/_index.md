@@ -37,7 +37,7 @@ public abstract class NotebookSaveOptions
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // 保存笔记本
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -56,7 +56,7 @@ notebook.Save(
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 
@@ -77,7 +77,7 @@ notebook.Save(dataDir, notebookSaveOptions);
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // 加载一个 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

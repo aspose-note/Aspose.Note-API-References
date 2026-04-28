@@ -23,29 +23,29 @@ public bool IsBordersVisible { get; set; }
 Document doc = new Document();
 
 // TableCell 클래스 객체 초기화 및 텍스트 내용 설정
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // TableRow 클래스 객체 초기화
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // 페이지 클래스 객체 초기화
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -66,10 +66,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow 클래스 객체 초기화
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // TableCell 클래스 객체 초기화
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // 셀 내용 삽입
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -78,7 +78,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // 테이블 노드 초기화
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -90,8 +90,8 @@ table.AppendChildLast(row);
 // 이 테이블 노드에 태그 추가
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // 테이블 노드 추가
 outlineElem.AppendChildLast(table);
@@ -119,23 +119,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow 클래스 객체 초기화
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // TableCell 클래스 객체 초기화 및 텍스트 내용 설정
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // TableRow 클래스 객체 초기화
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // TableCell 클래스 객체 초기화 및 텍스트 내용 설정
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // 테이블 클래스 객체 초기화
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -145,8 +145,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // 테이블 노드 추가
 outlineElem.AppendChildLast(table);
@@ -176,12 +176,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow 클래스 객체 초기화
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // TableCell 클래스 객체 초기화
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // 테이블 셀에 아웃라인 요소 추가
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -194,12 +194,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // TableRow 클래스 객체 초기화
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // TableCell 클래스 객체 초기화
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // 테이블 셀에 아웃라인 요소 추가
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -212,7 +212,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Table 클래스 객체 초기화 및 열 너비 설정
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -223,10 +223,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // 아웃라인 객체 초기화
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement 객체 초기화
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 아웃라인 요소 노드에 테이블 추가
 outlineElem.AppendChildLast(table);

@@ -44,7 +44,7 @@ Montre comment enregistrer un bloc-notes au format pdf avec les options spécifi
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

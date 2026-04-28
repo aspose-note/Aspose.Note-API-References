@@ -103,13 +103,13 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // تهيئة كائن فئة المخطط التفصيلي
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // تهيئة كائن فئة AttachedFile
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // أضف الملف المرفق
 outlineElem.AppendChildLast(attachedFile);
@@ -140,15 +140,15 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // تهيئة كائن فئة المخطط التفصيلي
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // Initialize AttachedFile class object وكذلك تمرير مسار الرمز الخاص به
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // أضف الملف المرفق
     outlineElem.AppendChildLast(attachedFile);

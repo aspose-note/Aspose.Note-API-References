@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note for .NET API Reference
-description: TextStyle property. Gets or sets the hyperlink address. Must be set if the value of the IsHyperlink property is true
+description: TextStyle property. Gets or sets the hyperlink address. Setting this property is enough to create a hyperlink.
 type: docs
 weight: 60
 url: /net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Gets or sets the hyperlink address. Must be set if the value of the [`IsHyperlink`](../ishyperlink/) property is true.
+Gets or sets the hyperlink address. Setting this property is enough to create a hyperlink.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

@@ -29,10 +29,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化大纲类对象
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // 初始化 OutlineElement 类对象
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 加载图像
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");

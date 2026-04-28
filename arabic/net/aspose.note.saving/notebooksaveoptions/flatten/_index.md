@@ -23,7 +23,7 @@ public bool Flatten { get; set; }
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // تحميل دفتر ملاحظات OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // حفظ دفتر الملاحظات
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -42,7 +42,7 @@ notebook.Save(
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // تحميل دفتر ملاحظات OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

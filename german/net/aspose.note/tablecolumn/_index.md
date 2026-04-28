@@ -36,29 +36,29 @@ Zeigt, wie eine Hintergrundfarbe für eine Zelle festgelegt wird.
 Document doc = new Document();
 
 // Objekt der TableCell-Klasse initialisieren und Textinhalt festlegen
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // TableRow-Klassenobjekt initialisieren
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // Seitenklassenobjekt initialisieren
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -79,10 +79,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow-Klassenobjekt initialisieren
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // TableCell-Klassenobjekt initialisieren
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 // Zellinhalt einfügen
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -91,7 +91,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // Tabellenknoten initialisieren
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -103,8 +103,8 @@ table.AppendChildLast(row);
 // Tag zu diesem Tabellenknoten hinzufügen
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tabellenknoten hinzufügen
 outlineElem.AppendChildLast(table);
@@ -132,23 +132,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow-Klassenobjekt initialisieren
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Objekt der TableCell-Klasse initialisieren und Textinhalt festlegen
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // TableRow-Klassenobjekt initialisieren
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // Objekt der TableCell-Klasse initialisieren und Textinhalt festlegen
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Tabellenklassenobjekt initialisieren
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -158,8 +158,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tabellenknoten hinzufügen
 outlineElem.AppendChildLast(table);
@@ -189,12 +189,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // TableRow-Klassenobjekt initialisieren
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Objekte der TableCell-Klasse initialisieren
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // Gliederungselemente in die Tabellenzelle einfügen
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -207,12 +207,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // TableRow-Klassenobjekt initialisieren
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // Objekte der TableCell-Klasse initialisieren
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // Gliederungselemente in die Tabellenzelle einfügen
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -225,7 +225,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // Tabellenklassenobjekt initialisieren und Spaltenbreiten festlegen
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -236,10 +236,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // Outline-Objekt initialisieren
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // OutlineElement-Objekt initialisieren
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Tabelle zum Gliederungselementknoten hinzufügen
 outlineElem.AppendChildLast(table);

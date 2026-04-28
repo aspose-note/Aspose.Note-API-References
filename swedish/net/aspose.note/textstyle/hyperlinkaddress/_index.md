@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note för .NET API-referens
-description: TextStyle fast egendom. Hämtar eller ställer in hyperlänkadressen. Måste ställas in om värdet påIsHyperlink egenskapen är sann.
+description: TextStyle-egenskap. Hämtar eller anger hyperlänkadressen. Det räcker att ange den här egenskapen för att skapa en hyperlänk.
 type: docs
 weight: 60
 url: /sv/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Hämtar eller ställer in hyperlänkadressen. Måste ställas in om värdet på[`IsHyperlink`](../ishyperlink/) egenskapen är sann.
+Hämtar eller anger hyperlänkadressen. Det räcker att ange den här egenskapen för att skapa en hyperlänk.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

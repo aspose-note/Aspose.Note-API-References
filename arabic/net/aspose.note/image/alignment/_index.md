@@ -59,8 +59,8 @@ Document doc = new Document();
 // تهيئة كائن فئة الصفحة
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -98,10 +98,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // تهيئة كائن فئة المخطط التفصيلي وتعيين خصائص الإزاحة
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // قم بتحميل صورة عن طريق مسار الملف.
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

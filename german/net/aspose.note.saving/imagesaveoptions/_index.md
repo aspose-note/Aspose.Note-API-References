@@ -139,7 +139,7 @@ Zeigt, wie Notizbuch als Bild mit bestimmten Optionen gespeichert wird.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -179,7 +179,7 @@ Zeigt, wie ein reduziertes Notizbuch als Bild gespeichert wird.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Ein OneNote-Notizbuch laden
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

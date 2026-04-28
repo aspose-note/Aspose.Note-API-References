@@ -23,7 +23,7 @@ Muestra cómo guardar un cuaderno aplanado en formato pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Guardar el cuaderno
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -42,7 +42,7 @@ Muestra cómo guardar un cuaderno aplanado como imagen.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

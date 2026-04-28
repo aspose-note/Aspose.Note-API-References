@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: Aspose.Note for .NET API Reference
-description: TextStyle ιδιοκτησία. Λαμβάνει ή ορίζει τη διεύθυνση υπερσύνδεσης. Πρέπει να οριστεί εάν η τιμή τουIsHyperlink Η ιδιότητα είναι αληθής.
+description: Ιδιότητα TextStyle. Λαμβάνει ή ορίζει τη διεύθυνση υπερσύνδεσης. Ο ορισμός αυτής της ιδιότητας αρκεί για τη δημιουργία υπερσύνδεσης.
 type: docs
 weight: 60
 url: /el/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-Λαμβάνει ή ορίζει τη διεύθυνση υπερσύνδεσης. Πρέπει να οριστεί εάν η τιμή του[`IsHyperlink`](../ishyperlink/) Η ιδιότητα είναι αληθής.
+Λαμβάνει ή ορίζει τη διεύθυνση υπερσύνδεσης. Ο ορισμός αυτής της ιδιότητας αρκεί για τη δημιουργία υπερσύνδεσης.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

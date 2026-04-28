@@ -23,29 +23,29 @@ public IList<TableColumn> Columns { get; }
 Document doc = new Document();
 
 // 初始化TableCell类对象并设置文本内容
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // 初始化 TableRow 类对象
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn() { Width = 200 } }
               };
 table.AppendChildLast(row);
 
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
 // 初始化页面类对象
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);
@@ -66,10 +66,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化 TableRow 类对象
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 
 // 初始化 TableCell 类对象
-TableCell cell = new TableCell(doc);
+TableCell cell = new TableCell();
 
 //插入单元格内容
 cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
@@ -78,7 +78,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
 row.AppendChildLast(cell);
 
 // 初始化表节点
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
@@ -90,8 +90,8 @@ table.AppendChildLast(row);
 // 给这个表节点添加标签
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // 添加表节点
 outlineElem.AppendChildLast(table);
@@ -119,23 +119,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化 TableRow 类对象
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // 初始化TableCell类对象并设置文本内容
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // 初始化 TableRow 类对象
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // 初始化TableCell类对象并设置文本内容
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // 初始化表类对象
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -145,8 +145,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // 添加表节点
 outlineElem.AppendChildLast(table);
@@ -176,12 +176,12 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // 初始化 TableRow 类对象
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // 初始化 TableCell 类对象
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 
 // 在表格单元格中追加轮廓元素
 cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
@@ -194,12 +194,12 @@ row1.AppendChildLast(cell12);
 row1.AppendChildLast(cell13);
 
 // 初始化 TableRow 类对象
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // 初始化 TableCell 类对象
-TableCell cell21 = new TableCell(doc);
-TableCell cell22 = new TableCell(doc);
-TableCell cell23 = new TableCell(doc);
+TableCell cell21 = new TableCell();
+TableCell cell22 = new TableCell();
+TableCell cell23 = new TableCell();
 
 // 在表格单元格中追加轮廓元素
 cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
@@ -212,7 +212,7 @@ row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
 // 初始化 Table 类对象并设置列宽
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -223,10 +223,10 @@ table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
 // 初始化轮廓对象
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // 初始化 OutlineElement 对象
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // 添加表到大纲元素节点
 outlineElem.AppendChildLast(table);

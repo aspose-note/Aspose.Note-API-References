@@ -29,10 +29,10 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Αρχικοποίηση αντικειμένου κλάσης OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Φόρτωση εικόνας
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");

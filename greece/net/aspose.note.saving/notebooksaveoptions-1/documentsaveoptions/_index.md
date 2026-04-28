@@ -23,7 +23,7 @@ public TDocumentSaveOptions DocumentSaveOptions { get; }
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Φόρτωση σημειωματάριου OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

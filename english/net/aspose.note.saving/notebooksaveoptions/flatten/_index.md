@@ -23,7 +23,7 @@ Shows how to save flattened notebook in pdf format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Save the Notebook
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -42,7 +42,7 @@ Shows how to save flattened notebook as image.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

@@ -27,7 +27,7 @@ Mostra come salvare il notebook in formato pdf con le opzioni specificate.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
 

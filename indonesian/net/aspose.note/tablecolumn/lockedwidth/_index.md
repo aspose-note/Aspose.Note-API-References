@@ -29,23 +29,23 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Inisialisasi objek kelas TableRow
-TableRow row1 = new TableRow(doc);
+TableRow row1 = new TableRow();
 
 // Inisialisasi objek kelas TableCell dan atur konten teks
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 row1.AppendChildLast(cell11);
 
 // Inisialisasi objek kelas TableRow
-TableRow row2 = new TableRow(doc);
+TableRow row2 = new TableRow();
 
 // Inisialisasi objek kelas TableCell dan atur konten teks
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
 // Inisialisasi objek kelas Tabel
-Table table = new Table(doc)
+Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -55,8 +55,8 @@ Table table = new Table(doc)
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 
 // Tambahkan simpul tabel
 outlineElem.AppendChildLast(table);

@@ -82,7 +82,7 @@ Muestra cómo guardar el cuaderno en formato pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Muestra cómo guardar el cuaderno como imagen.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Muestra cómo guardar un cuaderno aplanado en formato pdf.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Guardar el cuaderno
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -142,7 +142,7 @@ notebook.Save(
 Muestra cómo iterar a través de documentos de un cuaderno cargándolos con pereza.
 
 ```csharp
-string inputFile = "Notizbuch öffnen.onetoc2";
+string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Por defecto, la carga de niños es "perezosa".
@@ -162,7 +162,7 @@ Muestra cómo agregar una nueva sección a un cuaderno.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 // Agregar un nuevo hijo al Cuaderno
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -179,7 +179,7 @@ Muestra cómo cargar un cuaderno desde una secuencia.
 // La ruta al directorio de documentos.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 
 var notebook = new Notebook(stream);
 
@@ -210,7 +210,7 @@ Muestra cómo guardar el cuaderno como imagen con opciones específicas.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -231,7 +231,7 @@ Muestra cómo guardar un cuaderno aplanado como imagen.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Cargar un cuaderno de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -279,7 +279,7 @@ Muestra cómo iterar a través de documentos precargados de un cuaderno.
 // es necesario establecer el indicador NotebookLoadOptions.InstantLoading.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 

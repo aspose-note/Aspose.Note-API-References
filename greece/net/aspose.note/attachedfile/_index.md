@@ -103,13 +103,13 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Αρχικοποίηση αντικειμένου κλάσης OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 // Αρχικοποίηση αντικειμένου κλάσης AttachedFile
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // Προσθήκη συνημμένου αρχείου
 outlineElem.AppendChildLast(attachedFile);
@@ -140,15 +140,15 @@ Document doc = new Document();
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 
 // Αρχικοποίηση αντικειμένου κλάσης OutlineElement
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
     // Εκκινήστε το αντικείμενο κλάσης AttachedFile και περάστε επίσης τη διαδρομή του εικονιδίου του
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // Προσθήκη συνημμένου αρχείου
     outlineElem.AppendChildLast(attachedFile);

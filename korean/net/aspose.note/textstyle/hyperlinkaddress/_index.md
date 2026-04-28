@@ -1,14 +1,14 @@
 ---
 title: TextStyle.HyperlinkAddress
 second_title: .NET API 참조용 Aspose.Note
-description: TextStyle 재산. 하이퍼링크 주소를 가져오거나 설정합니다. 값이 다음과 같은 경우 설정해야 합니다.IsHyperlink 속성은 true입니다.
+description: TextStyle 속성. 하이퍼링크 주소를 가져오거나 설정합니다. 이 속성을 설정하는 것만으로 하이퍼링크를 만들 수 있습니다.
 type: docs
 weight: 60
 url: /ko/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-하이퍼링크 주소를 가져오거나 설정합니다. 값이 다음과 같은 경우 설정해야 합니다.[`IsHyperlink`](../ishyperlink/) 속성은 true입니다.
+하이퍼링크 주소를 가져오거나 설정합니다. 이 속성을 설정하는 것만으로 하이퍼링크를 만들 수 있습니다.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -44,8 +44,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       IsHyperlink = true,
-                                       HyperlinkAddress = "www.google.com"
+                                       HyperlinkAddress = "https://www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

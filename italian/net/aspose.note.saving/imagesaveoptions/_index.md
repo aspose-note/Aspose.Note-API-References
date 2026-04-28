@@ -139,7 +139,7 @@ Mostra come salvare il notebook come immagine con le opzioni specificate.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
@@ -179,7 +179,7 @@ Mostra come salvare il taccuino appiattito come immagine.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 
