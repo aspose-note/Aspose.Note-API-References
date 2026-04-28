@@ -1,14 +1,14 @@
 ---
 title: TextStyle.IsHyperlink
 second_title: Aspose.Note for .NET API Reference
-description: TextStyle property. Obsolete since 22.5. Use HyperlinkAddress instead.
+description: TextStyle property. Gets or sets a value indicating whether the text style is hyperlink
 type: docs
 weight: 80
 url: /net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-Obsolete since 22.5. Use `HyperlinkAddress` instead.
+Gets or sets a value indicating whether the text style is hyperlink.
 
 ```csharp
 public bool IsHyperlink { get; set; }
@@ -44,7 +44,8 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       HyperlinkAddress = "https://www.google.com"
+                                       IsHyperlink = true,
+                                       HyperlinkAddress = "www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }

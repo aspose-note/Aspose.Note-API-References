@@ -82,7 +82,7 @@ Shows how to save notebook in pdf format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
@@ -97,7 +97,7 @@ Shows how to save notebook as image.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
@@ -127,7 +127,7 @@ Shows how to save flattened notebook in pdf format.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 // Save the Notebook
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
@@ -162,7 +162,7 @@ Shows how to add new section to a notebook.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 // Append a new child to the Notebook
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
@@ -210,7 +210,7 @@ Shows how to save notebook as image with specified options.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch Ã¶ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
 

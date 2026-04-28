@@ -421,7 +421,8 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
                                    {
-                                       HyperlinkAddress = "https://www.google.com"
+                                       IsHyperlink = true,
+                                       HyperlinkAddress = "www.google.com"
                                    };
 
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
