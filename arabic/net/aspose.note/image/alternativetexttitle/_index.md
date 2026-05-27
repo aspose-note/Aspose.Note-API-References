@@ -1,22 +1,22 @@
 ---
-title: Image.AlternativeTextTitle
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. الحصول على عنوان نص بديل للصورة أو تعيينه.
+title: "Image.AlternativeTextTitle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل أو تعين عنوان النص البديل للصورة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/image/alternativetexttitle/
 ---
 ## Image.AlternativeTextTitle property
 
-الحصول على عنوان نص بديل للصورة أو تعيينه.
+يحصل أو يعيّن عنوان النص البديل للصورة.
 
 ```csharp
 public string AlternativeTextTitle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تعيين وصف نصي للصورة.
+يظهر كيفية تعيين وصف نصي لصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -36,10 +36,10 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

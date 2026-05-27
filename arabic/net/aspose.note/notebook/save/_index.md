@@ -1,177 +1,177 @@
 ---
-title: Notebook.Save
-second_title: Aspose.Note لمرجع NET API
-description: Notebook طريقة. يحفظ مستند OneNote في ملف.
+title: "Notebook.Save"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Notebook. تحفظ مستند OneNote إلى ملف"
 type: docs
 weight: 150
 url: /ar/net/aspose.note/notebook/save/
 ---
 ## Save(string) {#save_3}
 
-يحفظ مستند OneNote في ملف.
+يحفظ مستند OneNote إلى ملف.
 
 ```csharp
 public void Save(string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream) {#save}
 
-يحفظ مستند OneNote في دفق.
+يحفظ مستند OneNote إلى تدفق.
 
 ```csharp
 public void Save(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
+| دفق | Stream | التدفق. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveFormat) {#save_4}
 
-يحفظ مستند OneNote في ملف بالتنسيق المحدد.
+يحفظ مستند OneNote إلى ملف بالتنسيق المحدد.
 
 ```csharp
 public void Save(string fileName, SaveFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
-| format | SaveFormat | التنسيق المراد حفظ المستند به. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [SaveFormat](../../saveformat/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-يحفظ مستند OneNote في دفق بالتنسيق المحدد.
+يحفظ مستند OneNote إلى تدفق بالتنسيق المحدد.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
-| format | SaveFormat | التنسيق المراد حفظ المستند به. |
+| دفق | Stream | التدفق. |
+| تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [SaveFormat](../../saveformat/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, NotebookSaveOptions) {#save_5}
 
-يحفظ مستند OneNote في ملف باستخدام خيارات الحفظ المحددة.
+يحفظ مستند OneNote إلى ملف باستخدام خيارات الحفظ المحددة.
 
 ```csharp
 public void Save(string fileName, NotebookSaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
-| options | NotebookSaveOptions | يحدد الخيارات كيفية حفظ المستند في ملف. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| خيارات | NotebookSaveOptions | يحدد الخيارات التي يتم حفظ المستند بها في الملف. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, NotebookSaveOptions) {#save_2}
 
-يحفظ مستند OneNote في دفق باستخدام خيارات الحفظ المحددة.
+يحفظ مستند OneNote إلى تدفق باستخدام خيارات الحفظ المحددة.
 
 ```csharp
 public void Save(Stream stream, NotebookSaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
-| options | NotebookSaveOptions | يحدد الخيارات الخاصة بكيفية حفظ المستند. |
+| دفق | Stream | التدفق. |
+| خيارات | NotebookSaveOptions | يحدد الخيارات التي يتم حفظ المستند بها. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

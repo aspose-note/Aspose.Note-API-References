@@ -1,40 +1,40 @@
 ---
-title: Enum TiffCompression
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.TiffCompression تعداد. يحدد نوع الضغط الذي سيتم استخدامه عند حفظ مستند بتنسيق TIFF.
+title: "التعداد TiffCompression"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "التعداد Aspose.Note.Saving.TiffCompression. يحدد نوع الضغط الذي يُستخدم عند حفظ مستند بتنسيق TIFF"
 type: docs
-weight: 880
+weight: 960
 url: /ar/net/aspose.note.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
 
-يحدد نوع الضغط الذي سيتم استخدامه عند حفظ مستند بتنسيق TIFF.
+يحدد نوع الضغط الذي يُستخدم عند حفظ مستند إلى تنسيق TIFF.
 
 ```csharp
 public enum TiffCompression
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| None | `1` | لا يحدد أي ضغط . |
-| Rle | `2` | تحديد ضغط RLE . |
-| Ccitt3 | `3` | يحدد ترميز الفاكس CCITT Group 3 . |
-| Ccitt4 | `4` | يحدد ترميز الفاكس CCITT Group 4 . |
-| Lzw | `5` | يحدد ضغط LZW . |
-| PackBits | `32773` | تحديد ضغط Macintosh RLE . |
-| Jpeg | `7` | تحديد ضغط ضغط JPEG DCT . |
+| None | `1` | يحدد عدم وجود ضغط. |
+| Rle | `2` | يحدد ضغط RLE. |
+| Ccitt3 | `3` | يحدد ترميز الفاكس CCITT Group 3. |
+| Ccitt4 | `4` | يحدد ترميز الفاكس CCITT Group 4. |
+| Lzw | `5` | يحدد ضغط LZW. |
+| PackBits | `32773` | يحدد ضغط Macintosh RLE. |
+| Jpeg | `7` | يحدد ضغط JPEG DCT. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingPackBitsCompression.tiff");
@@ -46,13 +46,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingJpegCompression.tiff");
@@ -65,13 +65,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingCcitt3Compression.tiff");
@@ -84,9 +84,9 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

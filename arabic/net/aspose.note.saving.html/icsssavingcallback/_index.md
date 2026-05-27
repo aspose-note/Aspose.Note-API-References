@@ -1,28 +1,28 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.Html.ICssSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Note بحفظ CSS ورقة الأنماط المتتالية عند حفظ مستند إلى HTML.
+title: "الواجهة ICssSavingCallback"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الواجهة Aspose.Note.Saving.Html.ICssSavingCallback. نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note لملف CSS (ورقة الأنماط المتتالية) عند حفظ المستند إلى HTML"
 type: docs
-weight: 620
+weight: 700
 url: /ar/net/aspose.note.saving.html/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Note بحفظ CSS (ورقة الأنماط المتتالية) عند حفظ مستند إلى HTML.
+نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note لملف CSS (Cascading Style Sheet) عند حفظ المستند إلى HTML.
 
 ```csharp
 public interface ICssSavingCallback
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CssSaving](../../aspose.note.saving.html/icsssavingcallback/csssaving/)(CssSavingArgs) | يتم استدعاؤها عندما يحفظ Aspose.Note CSS (ورقة الأنماط المتتالية) . |
+| [CssSaving](../../aspose.note.saving.html/icsssavingcallback/csssaving/)(CssSavingArgs) | يتم الاستدعاء عندما يقوم Aspose.Note بحفظ CSS (ورقة الأنماط المتتالية). |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

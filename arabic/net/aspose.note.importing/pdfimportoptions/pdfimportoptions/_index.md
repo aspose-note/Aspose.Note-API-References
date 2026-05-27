@@ -1,23 +1,23 @@
 ---
-title: PdfImportOptions.PdfImportOptions
-second_title: Aspose.Note لمرجع NET API
-description: PdfImportOptions البناء. Default_Constructor
+title: "PdfImportOptions.PdfImportOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ PdfImportOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.importing/pdfimportoptions/pdfimportoptions/
 ---
 ## PdfImportOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public PdfImportOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PdfImportOptions](../)
-* مساحة الاسم [Aspose.Note.Importing](../../pdfimportoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimportoptions/)
+* assembly [Aspose.Note](../../../)
 
 

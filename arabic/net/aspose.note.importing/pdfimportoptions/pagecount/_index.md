@@ -1,23 +1,23 @@
 ---
-title: PdfImportOptions.PageCount
-second_title: Aspose.Note لمرجع NET API
-description: PdfImportOptions ملكية. الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند.
+title: "PdfImportOptions.PageCount"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PdfImportOptions. يحصل أو يحدد عدد الصفحات التي سيتم حفظها. بشكل افتراضي هو MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.importing/pdfimportoptions/pagecount/
 ---
 ## PdfImportOptions.PageCount property
 
-الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند.
+يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند.
 
 ```csharp
 public int PageCount { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PdfImportOptions](../)
-* مساحة الاسم [Aspose.Note.Importing](../../pdfimportoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimportoptions/)
+* assembly [Aspose.Note](../../../)
 
 

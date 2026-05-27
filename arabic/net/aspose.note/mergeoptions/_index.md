@@ -1,37 +1,37 @@
 ---
-title: Class MergeOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.MergeOptions فصل. خيارات دمج مجموعة من الصفحات .
+title: "الفئة MergeOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "Aspose.Note.MergeOptions فئة. الخيارات لدمج مجموعة من الصفحات"
 type: docs
-weight: 340
+weight: 410
 url: /ar/net/aspose.note/mergeoptions/
 ---
 ## MergeOptions class
 
-خيارات دمج مجموعة من الصفحات .
+الخيارات لدمج مجموعة من الصفحات.
 
 ```csharp
 public class MergeOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [MergeOptions](mergeoptions/)() | Default_Constructor |
+| [MergeOptions](mergeoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ImportAsSinglePage](../../aspose.note/mergeoptions/importassinglepage/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم استيراد الصفحات المقدمة كصفحة واحدة. |
-| [InsertAsChild](../../aspose.note/mergeoptions/insertaschild/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدرجة كأبناء الصفحة السابقة. |
-| [InsertAt](../../aspose.note/mergeoptions/insertat/) { get; set; } | الحصول على أو تحديد الموضع الذي سيتم فيه إدراج الصفحات المستوردة. |
-| [PageSpacing](../../aspose.note/mergeoptions/pagespacing/) { get; set; } | الحصول على التباعد بين الصفحات أو تعيينه عند استيرادها كصفحة واحدة. |
+| [ImportAsSinglePage](../../aspose.note/mergeoptions/importassinglepage/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان سيتم استيراد الصفحات المقدمة كصفحة واحدة. |
+| [InsertAsChild](../../aspose.note/mergeoptions/insertaschild/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدخلة كأطفال للصفحة السابقة. |
+| [InsertAt](../../aspose.note/mergeoptions/insertat/) { get; set; } | يحصل أو يعيّن الموضع الذي ستُدرج فيه الصفحات المستوردة. |
+| [PageSpacing](../../aspose.note/mergeoptions/pagespacing/) { get; set; } | يحصل أو يعيّن التباعد بين الصفحات عند استيرادها كصفحة واحدة. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مستند PDF الذي يجمع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -50,7 +50,7 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-يوضح كيفية استيراد كل الصفحات من مجموعة مستندات PDF أثناء إدراج الصفحات من كل مستند PDF كأطفال لصفحة OneNote ذات المستوى الأعلى.
+يعرض كيفية استيراد جميع الصفحات من مجموعة مستندات PDF مع إدراج صفحات كل مستند PDF كأطفال لصفحة OneNote المستوى الأعلى.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -66,7 +66,7 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-يوضح كيفية استيراد كل المحتوى من مجموعة مستندات PDF أثناء دمج الصفحات من كل مستند PDF إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع المحتويات من مجموعة مستندات PDF مع دمج صفحات كل مستند PDF إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -83,9 +83,9 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

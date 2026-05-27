@@ -1,39 +1,39 @@
 ---
-title: Class TextRun
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.TextRun فصل. الفئة التي تمثل جزءًا من النص بنمط مرتبط .
+title: "الفئة TextRun"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.TextRun. الفئة التي تمثل قطعة نص مع النمط المرتبط."
 type: docs
-weight: 960
+weight: 1040
 url: /ar/net/aspose.note/textrun/
 ---
 ## TextRun class
 
-الفئة التي تمثل جزءًا من النص بنمط مرتبط .
+الفئة التي تمثل قطعة نص مع نمط مرتبط.
 
 ```csharp
 public class TextRun
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TextRun](textrun/#constructor)() | يقوم بتهيئة مثيل جديد لملف`TextRun` فئة بنص فارغ ونمط افتراضي. |
-| [TextRun](textrun/#constructor_2)(string) | يقوم بتهيئة مثيل جديد لملف`TextRun` فئة ذات النمط الافتراضي. |
-| [TextRun](textrun/#constructor_1)(TextStyle) | يقوم بتهيئة مثيل جديد لملف`TextRun`فئة بنص فارغ. |
-| [TextRun](textrun/#constructor_3)(string, TextStyle) | يقوم بتهيئة مثيل جديد لملف`TextRun` فئة . |
+| [TextRun](textrun/#constructor)() | ينشئ مثيلاً جديدًا من الفئة `TextRun` بنص فارغ ونمط افتراضي. |
+| [TextRun](textrun/#constructor_2)(string) | ينشئ مثيلاً جديدًا من الفئة `TextRun` بنمط افتراضي. |
+| [TextRun](textrun/#constructor_1)(TextStyle) | ينشئ مثيلاً جديدًا من الفئة `TextRun` بنص فارغ. |
+| [TextRun](textrun/#constructor_3)(string, TextStyle) | ينشئ مثيلاً جديدًا من الفئة `TextRun`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Length](../../aspose.note/textrun/length/) { get; } | الحصول على طول النص المرتبط . |
-| [Style](../../aspose.note/textrun/style/) { get; set; } | الحصول على النمط أو تحديده . |
-| [Text](../../aspose.note/textrun/text/) { get; set; } | الحصول على النص أو تعيينه. |
+| [Length](../../aspose.note/textrun/length/) { get; } | يحصل على طول النص المرتبط. |
+| [Style](../../aspose.note/textrun/style/) { get; set; } | يحصل أو يضبط النمط. |
+| [Text](../../aspose.note/textrun/text/) { get; set; } | يحصل أو يضبط النص. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

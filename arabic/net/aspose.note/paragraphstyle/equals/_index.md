@@ -1,55 +1,55 @@
 ---
-title: ParagraphStyle.Equals
-second_title: Aspose.Note لمرجع NET API
-description: ParagraphStyle طريقة. تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+title: "ParagraphStyle.Equals"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة ParagraphStyle. تحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/paragraphstyle/equals/
 ---
 ## Equals(object) {#equals_1}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن . |
+| obj | Object | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ParagraphStyle](../)
-* مساحة الاسم [Aspose.Note](../../paragraphstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../paragraphstyle/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Equals(ParagraphStyle) {#equals}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public bool Equals(ParagraphStyle other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| other | ParagraphStyle | الكائن . |
+| أخرى | ParagraphStyle | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ParagraphStyle](../)
-* مساحة الاسم [Aspose.Note](../../paragraphstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../paragraphstyle/)
+* assembly [Aspose.Note](../../../)
 
 

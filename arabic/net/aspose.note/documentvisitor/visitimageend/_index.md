@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitImageEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةImage العقدة .
+title: "DocumentVisitor.VisitImageEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. إنهاء زيارة عقدة Image"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/documentvisitor/visitimageend/
 ---
 ## DocumentVisitor.VisitImageEnd method
 
-نهاية لزيارة[`Image`](../../image/) العقدة .
+إنهاء زيارة عقدة [`Image`](../../image/).
 
 ```csharp
 public virtual void VisitImageEnd(Image image)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | Image | ملف[`Image`](../../image/) العقدة . |
+| image | Image | العقدة [`Image`](../../image/) |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../../image/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

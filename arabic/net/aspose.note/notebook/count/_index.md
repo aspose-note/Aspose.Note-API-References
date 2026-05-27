@@ -1,23 +1,23 @@
 ---
-title: Notebook.Count
-second_title: Aspose.Note لمرجع NET API
-description: Notebook ملكية. الحصول على عدد العناصر الموجودة في ملفNotebook .
+title: "Notebook.Count"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Notebook. تحصل على عدد العناصر الموجودة في Notebook"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/notebook/count/
 ---
 ## Notebook.Count property
 
-الحصول على عدد العناصر الموجودة في ملف[`Notebook`](../) .
+تحصل على عدد العناصر الموجودة في [`Notebook`](../).
 
 ```csharp
 public int Count { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

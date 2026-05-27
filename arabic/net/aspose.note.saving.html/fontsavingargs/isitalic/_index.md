@@ -1,23 +1,23 @@
 ---
-title: FontSavingArgs.IsItalic
-second_title: Aspose.Note لمرجع NET API
-description: FontSavingArgs ملكية. الحصول على قيمة تشير إلى ما إذا كان الخط تحت الحفظ مائلًا.
+title: "FontSavingArgs.IsItalic"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية FontSavingArgs. يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه مائلًا"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving.html/fontsavingargs/isitalic/
 ---
 ## FontSavingArgs.IsItalic property
 
-الحصول على قيمة تشير إلى ما إذا كان الخط تحت الحفظ مائلًا.
+يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه مائلًا.
 
 ```csharp
 public bool IsItalic { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../fontsavingargs/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../fontsavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

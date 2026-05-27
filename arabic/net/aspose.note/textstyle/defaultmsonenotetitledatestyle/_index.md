@@ -1,23 +1,23 @@
 ---
-title: TextStyle.DefaultMsOneNoteTitleDateStyle
-second_title: Aspose.Note لمرجع NET API
-description: TextStyle ملكية. الحصول على النمط الافتراضي لتاريخ العنوان في MS OneNote .
+title: "TextStyle.DefaultMsOneNoteTitleDateStyle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextStyle. يحصل على النمط الافتراضي لتاريخ العنوان في MS OneNote"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/textstyle/defaultmsonenotetitledatestyle/
 ---
 ## TextStyle.DefaultMsOneNoteTitleDateStyle property
 
-الحصول على النمط الافتراضي لتاريخ العنوان في MS OneNote .
+يحصل على النمط الافتراضي لتاريخ العنوان في MS OneNote.
 
 ```csharp
 public static TextStyle DefaultMsOneNoteTitleDateStyle { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

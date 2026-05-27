@@ -1,7 +1,7 @@
 ---
-title: Style.GetHashCode
-second_title: Aspose.Note لمرجع NET API
-description: Style طريقة. يعمل كدالة تجزئة للنوع.
+title: "Style.GetHashCode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Style. تعمل كدالة تجزئة للنوع"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/style/gethashcode/
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Note](../../style/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

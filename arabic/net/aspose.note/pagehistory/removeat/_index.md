@@ -1,27 +1,27 @@
 ---
-title: PageHistory.RemoveAt
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. يزيل إصدار الصفحة في الفهرس المحدد لملفPageHistory .
+title: "PageHistory.RemoveAt"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. تُزيل إصدار الصفحة عند الفهرس المحدد في PageHistory."
 type: docs
 weight: 150
 url: /ar/net/aspose.note/pagehistory/removeat/
 ---
 ## PageHistory.RemoveAt method
 
-يزيل إصدار الصفحة في الفهرس المحدد لملف[`PageHistory`](../) .
+تُزيل إصدار الصفحة عند الفهرس المحدد في [`PageHistory`](../).
 
 ```csharp
 public void RemoveAt(int index)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | Int32 | الفهرس . |
+| الفهرس | Int32 | الفهرس. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

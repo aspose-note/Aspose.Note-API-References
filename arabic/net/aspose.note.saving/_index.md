@@ -1,41 +1,41 @@
 ---
-title: Aspose.Note.Saving
-second_title: Aspose.Note لمرجع NET API
-description: ملفSaving مساحة الاسم تحتوي على فئات تقوم بالحفظ بتنسيقات مختلفة.
+title: "Aspose.Note.Saving"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "مساحة الأسماء Saving تحتوي على فئات تقوم بالحفظ إلى تنسيقات مختلفة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/
 ---
-ملفSaving مساحة الاسم تحتوي على فئات تقوم بالحفظ بتنسيقات مختلفة.
+مساحة الاسم Saving تحتوي على فئات تقوم بالحفظ إلى صيغ مختلفة.
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [AlwaysSplitObjectsAlgorithm](./alwayssplitobjectsalgorithm/) | يقسم الكائن إلى عدة أجزاء في حالة عدم احتوائه في الصفحة الأصلية. |
-| [HtmlSaveOptions](./htmlsaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML . |
-| [ImageBinarizationOptions](./imagebinarizationoptions/) | خيارات لترميز الصورة بالترميز . |
-| [ImageSaveOptions](./imagesaveoptions/) | يسمح بتحديد خيارات إضافية عند عرض صفحات المستند على الصور. |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](./keeppartandclonesolidobjecttonextpagealgorithm/) | يضيف الجزء العلوي من الكائن إلى أسفل الصفحة ويستنسخ الكائن الكامل إلى الصفحة التالية في حالة عدم احتوائه في الصفحة الأصلية. |
-| [KeepSolidObjectsAlgorithm](./keepsolidobjectsalgorithm/) | ينقل الكائن بالكامل إلى الصفحة التالية في حالة عدم احتوائه في الصفحة الأصلية. |
-| [NotebookHtmlSaveOptions](./notebookhtmlsaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ المفكرة بتنسيق HTML . |
-| [NotebookImageSaveOptions](./notebookimagesaveoptions/) | يسمح بتحديد خيارات إضافية عند عرض صفحات دفتر الملاحظات على الصور. |
-| [NotebookOneSaveOptions](./notebookonesaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ دفتر الملاحظات بتنسيق OneNote. |
-| [NotebookPdfSaveOptions](./notebookpdfsaveoptions/) | يسمح بتحديد خيارات إضافية عند تقديم صفحات دفتر الملاحظات إلى PDF . |
-| [NotebookSaveOptions](./notebooksaveoptions/) | فئة أساسية مجردة تمثل خيارات حفظ الكمبيوتر المحمول لتنسيق معين. |
-| [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](./notebooksaveoptions-1/) | فئة أساسية مجردة تمثل خيارات حفظ الكمبيوتر المحمول لتنسيق معين وتوفر خيارات حفظ عامة لجميع العقد التابعة للمستند . |
-| [OneSaveOptions](./onesaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق OneNote. |
-| [PageSettings](./pagesettings/) | يمثل إعدادات التخطيط للصفحة. |
-| [PageSplittingAlgorithm](./pagesplittingalgorithm/) | فئة أساسية لتقسيم كائن في حالة عدم احتوائه في الصفحة الأصلية. |
-| [PdfSaveOptions](./pdfsaveoptions/) | يسمح بتحديد خيارات إضافية عند تقديم صفحات المستند إلى PDF . |
+| [AlwaysSplitObjectsAlgorithm](./alwayssplitobjectsalgorithm/) | يقسم كائنًا إلى عدة أجزاء في حال عدم ملاءمته للصفحة الأصلية. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML. |
+| [ImageBinarizationOptions](./imagebinarizationoptions/) | خيارات لتصنيف الصورة إلى ثنائي. |
+| [ImageSaveOptions](./imagesaveoptions/) | يسمح بتحديد خيارات إضافية عند تحويل صفحات المستند إلى صور. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](./keeppartandclonesolidobjecttonextpagealgorithm/) | يضيف الجزء العلوي من الكائن إلى أسفل الصفحة ويستنسخ الكائن بالكامل إلى الصفحة التالية في حال لم يتناسب مع الصفحة الأصلية. |
+| [KeepSolidObjectsAlgorithm](./keepsolidobjectsalgorithm/) | ينقل الكائن بالكامل إلى الصفحة التالية في حال لم يتناسب مع الصفحة الأصلية. |
+| [NotebookHtmlSaveOptions](./notebookhtmlsaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق HTML. |
+| [NotebookImageSaveOptions](./notebookimagesaveoptions/) | يسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى صور. |
+| [NotebookOneSaveOptions](./notebookonesaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق OneNote. |
+| [NotebookPdfSaveOptions](./notebookpdfsaveoptions/) | يسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى PDF. |
+| [NotebookSaveOptions](./notebooksaveoptions/) | فئة أساسية مجردة تمثل خيارات حفظ الدفتر لتنسيق معين. |
+| [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](./notebooksaveoptions-1/) | فئة أساسية مجردة تمثل خيارات حفظ الدفتر لتنسيق معين وتوفر خيارات حفظ مشتركة لجميع العقد الفرعية للمستند. |
+| [OneSaveOptions](./onesaveoptions/) | يسمح بتحديد خيارات إضافية عند حفظ المستند إلى تنسيق OneNote. |
+| [PageSettings](./pagesettings/) | يمثل إعدادات التخطيط لصفحة. |
+| [PageSplittingAlgorithm](./pagesplittingalgorithm/) | فئة أساسية لتقسيم كائن في حال لم يتناسب مع الصفحة الأصلية. |
+| [PdfSaveOptions](./pdfsaveoptions/) | يسمح بتحديد خيارات إضافية عند تحويل صفحات المستند إلى PDF. |
 | [PrintOptions](./printoptions/) | الخيارات المستخدمة لطباعة مستند. |
 | [SaveOptions](./saveoptions/) | فئة أساسية مجردة تمثل خيارات حفظ المستند لتنسيق معين. |
-## تعداد
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [BinarizationMethod](./binarizationmethod/) | يحدد طريقة التحويل الثنائي للصورة. |
-| [ColorMode](./colormode/) | الوضع اللوني للصورة . |
-| [TiffCompression](./tiffcompression/) | يحدد نوع الضغط الذي سيتم استخدامه عند حفظ مستند بتنسيق TIFF. |
+| [BinarizationMethod](./binarizationmethod/) | يحدد طريقة التثنائي للصورة. |
+| [ColorMode](./colormode/) | وضع اللون للصورة. |
+| [TiffCompression](./tiffcompression/) | يحدد نوع الضغط الذي يُستخدم عند حفظ مستند إلى تنسيق TIFF. |
 
 

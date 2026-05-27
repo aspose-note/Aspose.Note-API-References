@@ -1,14 +1,14 @@
 ---
-title: Interface IPageChildNode
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.IPageChildNode واجهه المستخدم. الواجهة لجميع العقد التابعة لعقدة الصفحة.
+title: "واجهة IPageChildNode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "واجهة Aspose.Note.IPageChildNode. الواجهة لجميع العقد الفرعية لعقدة الصفحة"
 type: docs
 weight: 220
 url: /ar/net/aspose.note/ipagechildnode/
 ---
 ## IPageChildNode interface
 
-الواجهة لجميع العقد التابعة لعقدة الصفحة.
+الواجهة لجميع العقد الفرعية لعقدة الصفحة.
 
 ```csharp
 public interface IPageChildNode : INode
@@ -16,15 +16,15 @@ public interface IPageChildNode : INode
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [HorizontalOffset](../../aspose.note/ipagechildnode/horizontaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
-| [VerticalOffset](../../aspose.note/ipagechildnode/verticaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
+| [HorizontalOffset](../../aspose.note/ipagechildnode/horizontaloffset/) { get; set; } | يحصل أو يعيّن الإزاحة الأفقية. |
+| [VerticalOffset](../../aspose.note/ipagechildnode/verticaloffset/) { get; set; } | يحصل أو يضبط الإزاحة العمودية. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INode](../inode/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

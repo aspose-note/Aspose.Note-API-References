@@ -1,23 +1,23 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Aspose.Note لمرجع NET API
-description: LoadOptions البناء. Default_Constructor
+title: "LoadOptions.LoadOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "LoadOptions منشئ. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/loadoptions/loadoptions/
 ---
 ## LoadOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public LoadOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Note](../../loadoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../loadoptions/)
+* assembly [Aspose.Note](../../../)
 
 

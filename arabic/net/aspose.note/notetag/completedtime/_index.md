@@ -1,27 +1,27 @@
 ---
-title: NoteTag.CompletedTime
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag ملكية. الحصول على الوقت المكتمل أو تعيينه .
+title: "NoteTag.CompletedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteTag خاصية. يحصل أو يضبط الوقت المكتمل"
 type: docs
 weight: 1130
 url: /ar/net/aspose.note/notetag/completedtime/
 ---
 ## NoteTag.CompletedTime property
 
-الحصول على الوقت المكتمل أو تعيينه .
+يحصل أو يعيّن وقت الإكمال.
 
 ```csharp
 public DateTime? CompletedTime { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملفNullable .
+القابل للإلغاء.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

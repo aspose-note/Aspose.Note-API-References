@@ -1,16 +1,16 @@
 ---
-title: Aspose.Note.Saving.Pdf
-second_title: Aspose.Note لمرجع NET API
-description: ملفPdf مساحة الاسم تحتوي على فئات تقوم بالحفظ بتنسيق PDF.
+title: "Aspose.Note.Saving.Pdf"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "مساحة الاسم Pdf تحتوي على فئات تقوم بالحفظ إلى صيغة PDF."
 type: docs
 weight: 60
 url: /ar/net/aspose.note.saving.pdf/
 ---
-ملفPdf مساحة الاسم تحتوي على فئات تقوم بالحفظ بتنسيق PDF.
+مساحة الاسم Pdf تحتوي على فئات تقوم بالحفظ إلى صيغة PDF.
 
-## تعداد
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
 | [PdfImageCompression](./pdfimagecompression/) | يحدد نوع الضغط المطبق على الصور في ملف PDF. |
 

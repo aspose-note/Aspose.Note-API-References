@@ -1,28 +1,28 @@
 ---
-title: CheckBox.Icon
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox ملكية. الحصول على الرمز أو تعيينه.
+title: "CheckBox.Icon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "CheckBox خاصية. يحصل على أو يضبط الأيقونة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/checkbox/icon/
 ---
 ## CheckBox.Icon property
 
-الحصول على الرمز أو تعيينه.
+يحصل أو يعيّن الأيقونة.
 
 ```csharp
 public abstract TagIcon Icon { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف[`TagIcon`](../../tagicon/) .
+ال [`TagIcon`](../../tagicon/).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TagIcon](../../tagicon/)
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

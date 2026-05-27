@@ -1,14 +1,14 @@
 ---
-title: CompositeNode1.GetEnumerator
-second_title: Aspose.Note لمرجع NET API
-description: CompositeNode طريقة. إرجاع العداد الذي يتكرر خلال العقد التابعة لملفCompositeNode .
+title: "CompositeNode1.GetEnumerator"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة CompositeNode. تُرجِع مُعدِّدًا يتنقل عبر العقد الفرعية لـ CompositeNode"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/compositenode-1/getenumerator/
 ---
 ## CompositeNode&lt;T&gt;.GetEnumerator method
 
-إرجاع العداد الذي يتكرر خلال العقد التابعة لملف[`CompositeNode`](../) .
+تُرجِع مُعدِّدًا يتنقل عبر العقد الفرعية لـ [`CompositeNode`](../).
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -16,12 +16,12 @@ public IEnumerator<T> GetEnumerator()
 
 ### قيمة الإرجاع
 
-أIEnumerator ل[`CompositeNode`](../) .
+مُعدِّد IEnumerator لـ [`CompositeNode`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CompositeNode&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Note](../../compositenode-1/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

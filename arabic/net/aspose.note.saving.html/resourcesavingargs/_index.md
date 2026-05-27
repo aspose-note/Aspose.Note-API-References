@@ -1,14 +1,14 @@
 ---
-title: Class ResourceSavingArgs
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.Html.ResourceSavingArgs فصل. توفير بيانات لحدث ResourceSaving .
+title: "الفئة ResourceSavingArgs"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.Html.ResourceSavingArgs. توفر البيانات لحدث ResourceSaving"
 type: docs
-weight: 690
+weight: 770
 url: /ar/net/aspose.note.saving.html/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
-توفير بيانات لحدث ResourceSaving .
+يوفر بيانات لحدث ResourceSaving.
 
 ```csharp
 public class ResourceSavingArgs
@@ -16,17 +16,17 @@ public class ResourceSavingArgs
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Document](../../aspose.note.saving.html/resourcesavingargs/document/) { get; } | يحصل على مستند الحفظ . |
+| [Document](../../aspose.note.saving.html/resourcesavingargs/document/) { get; } | يحصل على مستند الحفظ. |
 | [FileName](../../aspose.note.saving.html/resourcesavingargs/filename/) { get; } | يحصل على اسم الملف. |
-| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان البث مفتوحًا. |
-| [Stream](../../aspose.note.saving.html/resourcesavingargs/stream/) { get; set; } | الحصول على أو تعيين الدفق المستخدم لتخزين المورد. |
-| [Uri](../../aspose.note.saving.html/resourcesavingargs/uri/) { get; set; } | الحصول على أو تعيين uri للوصول إلى المورد المخزن. |
+| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب إبقاء الدفق مفتوحًا. |
+| [Stream](../../aspose.note.saving.html/resourcesavingargs/stream/) { get; set; } | يحصل أو يضبط الدفق المستخدم لتخزين المورد. |
+| [Uri](../../aspose.note.saving.html/resourcesavingargs/uri/) { get; set; } | يحصل أو يضبط عنوان الـ URI للوصول إلى المورد المخزن. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

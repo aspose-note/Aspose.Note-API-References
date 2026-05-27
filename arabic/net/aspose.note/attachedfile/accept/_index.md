@@ -1,28 +1,28 @@
 ---
-title: AttachedFile.Accept
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile طريقة. يقبل زائر العقدة .
+title: "AttachedFile.Accept"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة AttachedFile. تقبل زائر العقدة"
 type: docs
-weight: 220
+weight: 230
 url: /ar/net/aspose.note/attachedfile/accept/
 ---
 ## AttachedFile.Accept method
 
-يقبل زائر العقدة .
+يقبل زائر العقدة.
 
 ```csharp
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | كائن فئة مشتقة من[`DocumentVisitor`](../../documentvisitor/) . |
+| visitor | DocumentVisitor | الكائن من فئة مشتقة من [`DocumentVisitor`](../../documentvisitor/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

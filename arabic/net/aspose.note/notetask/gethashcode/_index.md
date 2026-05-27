@@ -1,7 +1,7 @@
 ---
-title: NoteTask.GetHashCode
-second_title: Aspose.Note لمرجع NET API
-description: NoteTask طريقة. يعمل كدالة تجزئة للنوع.
+title: "NoteTask.GetHashCode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTask. تعمل كدالة تجزئة لهذا النوع"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/notetask/gethashcode/
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTask](../)
-* مساحة الاسم [Aspose.Note](../../notetask/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

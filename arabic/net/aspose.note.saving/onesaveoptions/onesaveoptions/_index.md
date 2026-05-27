@@ -1,23 +1,23 @@
 ---
-title: OneSaveOptions.OneSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: OneSaveOptions البناء. Default_Constructor
+title: "OneSaveOptions.OneSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "OneSaveOptions constructor. المُنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/onesaveoptions/onesaveoptions/
 ---
 ## OneSaveOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public OneSaveOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OneSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../onesaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../onesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

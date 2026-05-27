@@ -1,23 +1,23 @@
 ---
-title: Margins.Left
-second_title: Aspose.Note لمرجع NET API
-description: Margins ملكية. الحصول على أو تحديد عرض الهامش الأيسر .
+title: "Margins.Left"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "Margins property. يحصل أو يضبط عرض الهامش الأيسر"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/margins/left/
 ---
 ## Margins.Left property
 
-الحصول على أو تحديد عرض الهامش الأيسر .
+الحصول على أو تعيين عرض الهامش الأيسر.
 
 ```csharp
 public float Left { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Margins](../)
-* مساحة الاسم [Aspose.Note](../../margins/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../margins/)
+* assembly [Aspose.Note](../../../)
 
 

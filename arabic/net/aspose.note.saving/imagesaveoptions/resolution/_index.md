@@ -1,32 +1,32 @@
 ---
-title: ImageSaveOptions.Resolution
-second_title: Aspose.Note لمرجع NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين دقة الصور التي تم إنشاؤها  بالنقاط في البوصة .
+title: "ImageSaveOptions.Resolution"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ImageSaveOptions. يحصل أو يضبط الدقة للصور المُولَّدة بوحدة النقاط في البوصة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
 
-الحصول على أو تعيين دقة الصور التي تم إنشاؤها ، بالنقاط في البوصة .
+يحصل أو يضبط الدقة للصور المُولَّدة، بوحدة النقاط في البوصة.
 
 ```csharp
 public float Resolution { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 96.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية ضبط دقة الصورة عند حفظ المستند كصورة.
+يعرض كيفية ضبط دقة الصورة عند حفظ المستند كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SetOutputImageResolution_out.jpg";
@@ -35,13 +35,13 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات كصورة بخيارات محددة.
+يوضح كيفية حفظ الدفتر كصورة مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -52,17 +52,17 @@ documentSaveOptions.Resolution = 400;
 
 dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات المسطح كصورة.
+يوضح كيفية حفظ الدفتر المسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -74,14 +74,14 @@ notebookSaveOptions.Flatten = true;
 
 dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../imagesaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

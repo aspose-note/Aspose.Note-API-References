@@ -1,23 +1,23 @@
 ---
-title: IndentatedNode1.IndentPosition
-second_title: Aspose.Note لمرجع NET API
-description: IndentatedNode ملكية. الحصول على موضع المسافة البادئة أو تعيينه .
+title: "IndentatedNode1.IndentPosition"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية IndentatedNode. تحصل أو تعين موضع المسافة البادئة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/indentatednode-1/indentposition/
 ---
 ## IndentatedNode&lt;T&gt;.IndentPosition property
 
-الحصول على موضع المسافة البادئة أو تعيينه .
+يحصل أو يعيّن موضع الإزاحة.
 
 ```csharp
 public byte IndentPosition { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [IndentatedNode&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Note](../../indentatednode-1/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../indentatednode-1/)
+* assembly [Aspose.Note](../../../)
 
 

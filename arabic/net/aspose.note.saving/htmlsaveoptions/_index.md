@@ -1,47 +1,47 @@
 ---
-title: Class HtmlSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.HtmlSaveOptions فصل. يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML .
+title: "الفئة HtmlSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.HtmlSaveOptions. يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML."
 type: docs
-weight: 700
+weight: 780
 url: /ar/net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML .
+يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML.
 
 ```csharp
 public class HtmlSaveOptions : SaveOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions/)() | Default_Constructor |
+| [HtmlSaveOptions](htmlsaveoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | يحصل أو يحدد ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
-| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين CSS. |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان إنشاء مستند لكل صفحة ممكّنًا . |
-| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | الحصول على طريقة تصدير css أو تعيينها. |
-| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | الحصول على أو تحديد طريقة تصدير الخطوط . |
-| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | الحصول على أو تحديد الطريقة التي يتم بها تصدير الصور. |
-| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes/) { get; set; } | الحصول على أنواع وجه الخط أو تعيينها. |
-| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الخط. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | الحصول على أو تعيين إعدادات الخط لاستخدامها أثناء الحفظ |
-| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصورة. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0. |
-| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصفحة. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على التنسيق الذي تم حفظ المستند به. |
+| [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | يحصل أو يعيّن ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
+| [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | يحصل أو يعيّن الدالة الراجعة التي تُستدعى لإنشاء مورد لتخزين CSS. |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان توليد مستند لكل صفحة مفعلاً. |
+| [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | يحصل أو يعيّن طريقة تصدير css. |
+| [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | يحصل أو يعيّن طريقة تصدير الخطوط. |
+| [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | يحصل أو يعيّن طريقة تصدير الصور. |
+| [FontFaceTypes](../../aspose.note.saving/htmlsaveoptions/fontfacetypes/) { get; set; } | يحصل أو يعيّن أنواع خطوط الواجهة. |
+| [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | يحصل أو يعيّن الدالة الراجعة التي تُستدعى لإنشاء مورد لتخزين الخط. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ |
+| [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | يحصل أو يضبط رد النداء الذي يتم استدعاؤه لإنشاء مورد لتخزين الصورة. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0. |
+| [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | يحصل أو يضبط رد النداء الذي يتم استدعاؤه لإنشاء مورد لتخزين الصفحة. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها المستند. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css / الخطوط / الصور) في ملفات منفصلة.
+يظهر كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css/خطوط/صور) في ملفات منفصلة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -57,7 +57,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-يوضح كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css / الخطوط / الصور).
+يظهر كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css/خطوط/صور).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -75,18 +75,18 @@ var r = new MemoryStream();
 document.Save(r, options);
 ```
 
-يوضح كيفية إنشاء مستند وحفظه بتنسيق html في نطاق محدد من الصفحات.
+يوضح كيفية إنشاء مستند وحفظه بتنسيق html لنطاق محدد من الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote
+// تهيئة مستند OneNote.
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -95,7 +95,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// حفظ في تنسيق HTML
+// حفظ بتنسيق HTML
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -104,11 +104,11 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css / الخطوط / الصور) باستخدام عمليات الاسترجاعات المعرفة من قبل المستخدم.
+يظهر كيفية حفظ مستند بتنسيق HTML مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
 
 ```csharp
-// ينشئ الكود أدناه مجلد "documentFolder" يحتوي على document.html ومجلد "css" بملف "style.css" ومجلد "images" مع صور ومجلد "خطوط" يحتوي على خطوط.
-// سيحتوي ملف "style.css" في نهاية السلسلة التالية "/ * هذا السطر مُلحق بالبث يدويًا بواسطة المستخدم * /"
+// الكود أدناه ينشئ مجلد 'documentFolder' يحتوي على document.html، ومجلد 'css' به ملف 'style.css'، ومجلد 'images' يحتوي على صور، ومجلد 'fonts' يحتوي على خطوط.
+// 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",
@@ -145,10 +145,10 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [SaveOptions](../saveoptions/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

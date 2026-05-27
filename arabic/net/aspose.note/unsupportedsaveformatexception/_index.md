@@ -1,22 +1,22 @@
 ---
-title: Class UnsupportedSaveFormatException
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.UnsupportedSaveFormatException فصل. تم إلقاؤه إذا لم يتم دعم تنسيق الحفظ المطلوب.
+title: "الفئة UnsupportedSaveFormatException"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.UnsupportedSaveFormatException. يتم إلقاؤها إذا كان تنسيق الحفظ المطلوب غير مدعوم"
 type: docs
-weight: 1000
+weight: 1080
 url: /ar/net/aspose.note/unsupportedsaveformatexception/
 ---
 ## UnsupportedSaveFormatException class
 
-تم إلقاؤه إذا لم يتم دعم تنسيق الحفظ المطلوب.
+يُرمى إذا لم يكن تنسيق الحفظ المطلوب مدعومًا.
 
 ```csharp
 public class UnsupportedSaveFormatException : Exception
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

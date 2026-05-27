@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateMovieClip
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة MovieClip والتسمية المحددة.
+title: "NoteTag.CreateMovieClip"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة MovieClip والملصق المحدد"
 type: docs
 weight: 650
 url: /ar/net/aspose.note/notetag/createmovieclip/
 ---
 ## NoteTag.CreateMovieClip method
 
-ينشئ علامة ملاحظة جديدة بأيقونة MovieClip والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة MovieClip وملصق محدد.
 
 ```csharp
 public static NoteTag CreateMovieClip(string label = "Movie to see")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

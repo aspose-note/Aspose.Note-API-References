@@ -1,28 +1,28 @@
 ---
-title: PageHistory.PageHistory
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory البناء. يقوم بتهيئة مثيل جديد لملفPageHistory فئة .
+title: "PageHistory.PageHistory"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ PageHistory. يُنشئ مثيلًا جديدًا من فئة PageHistory."
 type: docs
 weight: 10
 url: /ar/net/aspose.note/pagehistory/pagehistory/
 ---
 ## PageHistory constructor
 
-يقوم بتهيئة مثيل جديد لملف[`PageHistory`](../) فئة .
+يُنشئ مثيلاً جديدًا للفئة [`PageHistory`](../).
 
 ```csharp
 public PageHistory(Page page)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | Page | إصدار الصفحة الحالية. |
+| page | Page | إصدار الصفحة الحالي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

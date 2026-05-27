@@ -1,67 +1,67 @@
 ---
-title: Class Notebook
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Notebook فصل. يمثل Aspose.Note note .
+title: "فئة Notebook"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "فئة Aspose.Note.Notebook. تمثل دفتر ملاحظات Aspose.Note"
 type: docs
-weight: 410
+weight: 480
 url: /ar/net/aspose.note/notebook/
 ---
 ## Notebook class
 
-يمثل Aspose.Note note .
+يمثل دفتر ملاحظات Aspose.Note.
 
 ```csharp
 public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Notebook](notebook/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Notebook` فئة . |
-| [Notebook](notebook/#constructor_1)(Stream) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. فتح دفتر ملاحظات OneNote موجود من دفق. |
-| [Notebook](notebook/#constructor_3)(string) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. فتح دفتر ملاحظات OneNote موجود من ملف. |
-| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | يقوم بتهيئة مثيل جديد لملف`Notebook` class. يفتح دفتر ملاحظات OneNote من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل الأطفال ("كسول" / فوري) . |
+| [Notebook](notebook/#constructor)() | تهيئ نسخة جديدة من الفئة `Notebook`. |
+| [Notebook](notebook/#constructor_1)(Stream) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من تدفق. |
+| [Notebook](notebook/#constructor_3)(string) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من ملف. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل العناصر الفرعية ("lazy"/instant). |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color/) { get; set; } | الحصول على اللون أو تحديده . |
-| [Count](../../aspose.note/notebook/count/) { get; } | الحصول على عدد العناصر الموجودة في ملف`Notebook` . |
-| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | الحصول على أو تحديد اسم العرض . |
-| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | الحصول على تنسيق الملف (OneNote 2010 ، OneNote Online) . |
-| [Guid](../../aspose.note/notebook/guid/) { get; } | يحصل على معرف الكائن الفريد عالميًا . |
-| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان السجل ممكّنًا أم لا. |
-| [Item](../../aspose.note/notebook/item/) { get; } | يحصل على العقدة الفرعية للمفكرة بواسطة الفهرس المحدد. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | يحصل أو يعيّن اللون. |
+| [Count](../../aspose.note/notebook/count/) { get; } | يحصل على عدد العناصر الموجودة في `Notebook`. |
+| [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | يحصل أو يضبط اسم العرض. |
+| [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | يحصل على تنسيق الملف (OneNote 2010، OneNote Online). |
+| [Guid](../../aspose.note/notebook/guid/) { get; } | يحصل على المعرف الفريد عالميًا للكائن. |
+| [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان السجل مفعلاً. |
+| [Item](../../aspose.note/notebook/item/) { get; } | يحصل على عقدة الطفل للمفكرة بالترتيب المحدد. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | يضيف العقدة إلى نهاية القائمة. |
-| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | احصل على جميع العقد الفرعية حسب نوع العقدة . |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | إرجاع العداد الذي يتكرر خلال العقد التابعة لملف`Notebook` . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف . |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من دفق . |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من ملف. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | يضيف عقدة دفتر ملاحظات فرعية . يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | يضيف عقدة دفتر ملاحظات فرعية . يفتح دفتر ملاحظات OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
-| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | يزيل العقدة الفرعية . |
-| [Save](../../aspose.note/notebook/save/#save)(Stream) | يحفظ مستند OneNote في دفق. |
-| [Save](../../aspose.note/notebook/save/#save_3)(string) | يحفظ مستند OneNote في ملف. |
-| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | يحفظ مستند OneNote في دفق باستخدام خيارات الحفظ المحددة. |
-| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | يحفظ مستند OneNote في دفق بالتنسيق المحدد. |
-| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | يحفظ مستند OneNote في ملف باستخدام خيارات الحفظ المحددة. |
-| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | يحفظ مستند OneNote في ملف بالتنسيق المحدد. |
+| [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | احصل على جميع عقد الطفل حسب نوع العقدة. |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | يرجع عدّادًا يتنقل عبر عقد الطفل في `Notebook`. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من تدفق. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من ملف. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من ملف. يسمح بتحديد خيارات تحميل إضافية. |
+| [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | يزيل عقدة الطفل. |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | يحفظ مستند OneNote إلى تدفق. |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | يحفظ مستند OneNote إلى ملف. |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | يحفظ مستند OneNote إلى تدفق باستخدام خيارات الحفظ المحددة. |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | يحفظ مستند OneNote إلى تدفق بالتنسيق المحدد. |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | يحفظ مستند OneNote إلى ملف باستخدام خيارات الحفظ المحددة. |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | يحفظ مستند OneNote إلى ملف بالتنسيق المحدد. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر الملاحظات.
+يعرض كيفية حفظ المفكرة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -71,41 +71,41 @@ var notebook = new Notebook();
 
 dataDir = dataDir + "test_out.onetoc2";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات بتنسيق pdf.
+يوضح كيفية حفظ الدفتر بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات كصورة.
+يوضح كيفية حفظ الدفتر كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 dataDir = dataDir + "ConvertToImage_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية الحصول على كل النص من دفتر ملاحظات.
+يوضح كيفية استخراج كل النص من الدفتر.
 
 ```csharp
 string inputFile = "notebook.onetoc2";
@@ -120,16 +120,16 @@ foreach (RichText richTextNode in allRichTextNodes)
 }
 ```
 
-يوضح كيفية حفظ دفتر ملاحظات مسطح بتنسيق pdf.
+يوضح كيفية حفظ الدفتر المسطح بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
 notebook.Save(
     dataDir,
@@ -139,41 +139,41 @@ notebook.Save(
     });
 ```
 
-يوضح كيفية التكرار من خلال مستندات جهاز كمبيوتر محمول يتم تحميلها بتكاسل.
+يوضح كيفية التنقل عبر مستندات الدفتر وتحميلها بشكل كسول.
 
 ```csharp
 string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// افتراضيًا يتم تحميل الأطفال "كسول".
+// بشكل افتراضي، تحميل العناصر الفرعية هو "lazy".
 Notebook notebook = new Notebook(dataDir + inputFile);
 
 foreach (var notebookChildNode in notebook.OfType<Document>()) 
 {
-    // التحميل الفعلي للمستند الفرعي يحدث هنا فقط.
-    // افعل شيئًا مع المستند الفرعي
+    // يتم التحميل الفعلي للمستند الفرعي هنا فقط.
+    // قم بعمل شيء مع المستند الفرعي
 }
 ```
 
-يوضح كيفية إضافة قسم جديد إلى دفتر ملاحظات.
+يوضح كيفية إضافة قسم جديد إلى الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
-// إلحاق طفل جديد بدفتر الملاحظات
+// إلحاق عنصر فرعي جديد إلى الدفتر
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
 
 dataDir = dataDir + "AddChildNode_out.onetoc2";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية تحميل دفتر الملاحظات من دفق.
+يوضح كيفية تحميل الدفتر من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -191,7 +191,7 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-يوضح كيفية عمل دفتر ملاحظات مشفر.
+يوضح كيفية التعامل مع دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -203,13 +203,13 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات كصورة بخيارات محددة.
+يوضح كيفية حفظ الدفتر كصورة مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -220,17 +220,17 @@ documentSaveOptions.Resolution = 400;
 
 dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات المسطح كصورة.
+يوضح كيفية حفظ الدفتر المسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -242,55 +242,55 @@ notebookSaveOptions.Flatten = true;
 
 dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية إزالة قسم من دفتر ملاحظات.
+يوضح كيفية إزالة قسم من الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "test.onetoc2");
 
-// اجتياز العقد الفرعية للبحث عن العنصر الفرعي المطلوب
+// التنقل عبر العقد الفرعية للبحث عن العنصر الفرعي المطلوب
 foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // إزالة العنصر الفرعي من دفتر الملاحظات
+        // إزالة العنصر الفرعي من الدفتر
         notebook.RemoveChild(child);
     }
 }
 
 dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية التكرار من خلال المستندات المحملة مسبقًا لدفتر ملاحظات.
+يوضح كيفية التنقل عبر المستندات المحملة مسبقًا للدفتر.
 
 ```csharp
-// افتراضيًا يتم تحميل الأطفال "كسول".
-// لذلك حدث التحميل الفوري ،
-// من الضروري تعيين علامة NotebookLoadOptions.InstantLoading.
+// بشكل افتراضي، تحميل العناصر الفرعية هو "lazy".
+// لذلك، تم حدوث التحميل الفوري،
+// من الضروري ضبط علامة NotebookLoadOptions.InstantLoading.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
 String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 
-// تم تحميل كافة المستندات التابعة بالفعل.
+// جميع المستندات الفرعية تم تحميلها بالفعل.
 foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>()) 
 {
-   // افعل شيئًا مع المستند الفرعي
+   // قم بعمل شيء مع المستند الفرعي
 }
 ```
 
-يوضح كيفية المرور عبر محتوى دفتر ملاحظات.
+يوضح كيفية المرور عبر محتوى الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -304,11 +304,11 @@ try
         Console.WriteLine(notebookChildNode.DisplayName);
         if (notebookChildNode is Document)
         {
-            // افعل شيئًا مع المستند الفرعي
+            // قم بعمل شيء مع المستند الفرعي
         }
         else if (notebookChildNode is Notebook)
         {
-            // افعل شيئًا باستخدام دفتر ملاحظات الأطفال
+            // قم بعمل شيء مع دفتر فرعي
         }
     }
 }
@@ -318,10 +318,10 @@ catch (Exception ex)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../inotebookchildnode/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

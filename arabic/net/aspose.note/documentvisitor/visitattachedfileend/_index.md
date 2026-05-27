@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitAttachedFileEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةAttachedFile العقدة .
+title: "DocumentVisitor.VisitAttachedFileEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. نهاية زيارة عقدة AttachedFile"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/documentvisitor/visitattachedfileend/
 ---
 ## DocumentVisitor.VisitAttachedFileEnd method
 
-نهاية لزيارة[`AttachedFile`](../../attachedfile/) العقدة .
+نهاية زيارة عقدة [`AttachedFile`](../../attachedfile/).
 
 ```csharp
 public virtual void VisitAttachedFileEnd(AttachedFile attachedFile)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| attachedFile | AttachedFile | ملف[`AttachedFile`](../../attachedfile/) العقدة . |
+| attachedFile | AttachedFile | العقدة [`AttachedFile`](../../attachedfile/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../../attachedfile/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

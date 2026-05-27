@@ -1,23 +1,23 @@
 ---
-title: TextStyle.Default
-second_title: Aspose.Note لمرجع NET API
-description: TextStyle ملكية. يحصل على النمط مع ثقافة enUS .
+title: "TextStyle.Default"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextStyle. تحصل على النمط مع ثقافة enUS"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/textstyle/default/
 ---
 ## TextStyle.Default property
 
-يحصل على النمط مع ثقافة "en-US" .
+يحصل على النمط مع ثقافة "en-US".
 
 ```csharp
 public static TextStyle Default { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

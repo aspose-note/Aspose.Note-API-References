@@ -1,28 +1,28 @@
 ---
-title: PageSettings.Letter
-second_title: Aspose.Note لمرجع NET API
-description: PageSettings ملكية. الحصول على إعدادات لصفحة تنسيق Letter .
+title: "PageSettings.Letter"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PageSettings. يحصل على الإعدادات لصفحة تنسيق Letter"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/pagesettings/letter/
 ---
 ## PageSettings.Letter property
 
-الحصول على إعدادات لصفحة تنسيق Letter .
+يحصل على الإعدادات لصفحة بتنسيق Letter.
 
 ```csharp
 public static PageSettings Letter { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة الرسالة.
+يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "OneNote.one");
 
 var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
@@ -31,10 +31,10 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSettings](../)
-* مساحة الاسم [Aspose.Note.Saving](../../pagesettings/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../pagesettings/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteCheckBox.CreateBlueStarCheckBox
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox طريقة. إنشاء مربع اختيار ملاحظة جديد مع رمز BlueStarCheckBoxEmpty والتسمية المحددة.
+title: "NoteCheckBox.CreateBlueStarCheckBox"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteCheckBox. ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueStarCheckBoxEmpty والعنوان المحدد"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/notecheckbox/createbluestarcheckbox/
 ---
 ## NoteCheckBox.CreateBlueStarCheckBox method
 
-إنشاء مربع اختيار ملاحظة جديد مع رمز BlueStarCheckBoxEmpty والتسمية المحددة.
+ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueStarCheckBoxEmpty والملصق المحدد.
 
 ```csharp
 public static NoteCheckBox CreateBlueStarCheckBox(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteCheckBox`](../) .
+ال [`NoteCheckBox`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

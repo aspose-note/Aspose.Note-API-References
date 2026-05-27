@@ -1,14 +1,14 @@
 ---
-title: Class UnsupportedFileFormatException
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.UnsupportedFileFormatException فصل. يتم إلقاؤه أثناء تحميل المستند  عندما لا يتم التعرف على تنسيق الملف أو عدم دعمه بواسطة Aspose.
+title: "فئة UnsupportedFileFormatException"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "Aspose.Note.UnsupportedFileFormatException فئة. تُرمى أثناء تحميل المستند عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note"
 type: docs
-weight: 990
+weight: 1070
 url: /ar/net/aspose.note/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class
 
-يتم إلقاؤه أثناء تحميل المستند ، عندما لا يتم التعرف على تنسيق الملف أو عدم دعمه بواسطة Aspose.
+يُرمى أثناء تحميل المستند، عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note.
 
 ```csharp
 public class UnsupportedFileFormatException : Exception
@@ -16,13 +16,13 @@ public class UnsupportedFileFormatException : Exception
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | يحصل على تنسيق ملف البيانات التي تم تمريرها في حالة اكتشافه. |
+| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | يحصل على تنسيق الملف للبيانات الممررة إذا تم اكتشافه. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية التحقق من فشل تحميل المستند لأن تنسيق OneNote 2007 غير مدعوم.
+يعرض كيفية التحقق مما إذا فشل تحميل المستند لأن تنسيق OneNote 2007 غير مدعوم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -44,9 +44,9 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

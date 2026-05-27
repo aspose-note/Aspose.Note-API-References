@@ -1,28 +1,28 @@
 ---
-title: OutlineElement.Accept
-second_title: Aspose.Note لمرجع NET API
-description: OutlineElement طريقة. يقبل زائر العقدة .
+title: "OutlineElement.Accept"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة OutlineElement. يقبل زائر العقدة"
 type: docs
-weight: 50
+weight: 70
 url: /ar/net/aspose.note/outlineelement/accept/
 ---
 ## OutlineElement.Accept method
 
-يقبل زائر العقدة .
+يقبل زائر العقدة.
 
 ```csharp
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | كائن فئة مشتقة من[`DocumentVisitor`](../../documentvisitor/) . |
+| visitor | DocumentVisitor | الكائن من فئة مشتقة من [`DocumentVisitor`](../../documentvisitor/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [OutlineElement](../)
-* مساحة الاسم [Aspose.Note](../../outlineelement/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outlineelement/)
+* assembly [Aspose.Note](../../../)
 
 

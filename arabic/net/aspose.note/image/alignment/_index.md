@@ -1,22 +1,22 @@
 ---
-title: Image.Alignment
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. الحصول على المحاذاة أو تعيينها.
+title: "Image.Alignment"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل أو تعين المحاذاة"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/image/alignment/
 ---
 ## Image.Alignment property
 
-الحصول على المحاذاة أو تعيينها.
+يحصل أو يعيّن المحاذاة.
 
 ```csharp
 public HorizontalAlignment Alignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إضافة صورة من ملف إلى مستند بخصائص يحددها المستخدم.
+يظهر كيفية إضافة صورة من ملف إلى مستند مع خصائص محددة من قبل المستخدم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -26,20 +26,20 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // احصل على الصفحة الأولى من المستند.
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
 // تحميل صورة من الملف.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+Image image = new Image(dataDir + "image.jpg")
                           {
-                              // قم بتغيير حجم الصورة وفقًا لاحتياجاتك (اختياري).
+                              // غيّر حجم الصورة وفقًا لاحتياجاتك (اختياري).
                               Width = 100,
                               Height = 100,
 
-                              // تعيين موقع الصورة في الصفحة (اختياري).
+                              // حدد موقع الصورة في الصفحة (اختياري).
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // تعيين محاذاة الصورة
+                              // ضبط محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 
@@ -47,17 +47,17 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
-يوضح كيفية إضافة صورة من دفق إلى مستند.
+يظهر كيفية إضافة صورة من الدفق إلى مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
 Outline outline1 = new Outline();
 OutlineElement outlineElem1 = new OutlineElement();
@@ -65,10 +65,10 @@ OutlineElement outlineElem1 = new OutlineElement();
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // قم بتحميل الصورة الثانية باستخدام اسم الصورة والامتداد والدفق.
-    Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
+    // تحميل الصورة الثانية باستخدام اسم الصورة، الامتداد، والدفق.
+    Image image1 = new Image("Penguins.jpg", fs)
                                    {
-                                       // تعيين محاذاة الصورة
+                                       // ضبط محاذاة الصورة
                                        Alignment = HorizontalAlignment.Right
                                    };
 
@@ -80,58 +80,58 @@ page.AppendChildLast(outline1);
 
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إضافة صورة من ملف إلى مستند.
+يظهر كيفية إضافة صورة من ملف إلى مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي وتعيين خصائص الإزاحة
+// تهيئة كائن فئة Outline وتعيين خصائص الإزاحة
 Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// قم بتحميل صورة عن طريق مسار الملف.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+// تحميل صورة عبر مسار الملف.
+Image image = new Image(dataDir + "image.jpg")
                           {
-                              // تعيين محاذاة الصورة
+                              // ضبط محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 
 // إضافة صورة
 outlineElem.AppendChildLast(image);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

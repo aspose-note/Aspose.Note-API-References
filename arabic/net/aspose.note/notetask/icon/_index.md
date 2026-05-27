@@ -1,28 +1,28 @@
 ---
-title: NoteTask.Icon
-second_title: Aspose.Note لمرجع NET API
-description: NoteTask ملكية. الحصول على الرمز أو تعيينه.
+title: "NoteTask.Icon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NoteTask. تحصل أو تعيّن الأيقونة"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/notetask/icon/
 ---
 ## NoteTask.Icon property
 
-الحصول على الرمز أو تعيينه.
+يحصل أو يعيّن الأيقونة.
 
 ```csharp
 public override TagIcon Icon { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف[`TagIcon`](../../tagicon/) .
+ال [`TagIcon`](../../tagicon/).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TagIcon](../../tagicon/)
 * class [NoteTask](../)
-* مساحة الاسم [Aspose.Note](../../notetask/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

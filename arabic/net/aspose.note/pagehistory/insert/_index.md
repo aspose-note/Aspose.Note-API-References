@@ -1,29 +1,29 @@
 ---
-title: PageHistory.Insert
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. لإدراج إصدار صفحة في محفوظات الصفحة.
+title: "PageHistory.Insert"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. يدرج نسخة صفحة في تاريخ الصفحة"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/pagehistory/insert/
 ---
 ## PageHistory.Insert method
 
-لإدراج إصدار صفحة في محفوظات الصفحة.
+يدرج إصدار صفحة في سجل الصفحات.
 
 ```csharp
 public void Insert(int index, Page item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | Int32 | الفهرس . |
-| item | Page | إصدار الصفحة. |
+| الفهرس | Int32 | الفهرس. |
+| عنصر | Page | إصدار الصفحة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

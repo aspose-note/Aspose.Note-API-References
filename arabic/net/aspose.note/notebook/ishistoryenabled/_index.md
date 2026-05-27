@@ -1,23 +1,23 @@
 ---
-title: Notebook.IsHistoryEnabled
-second_title: Aspose.Note لمرجع NET API
-description: Notebook ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان السجل ممكّنًا أم لا.
+title: "Notebook.IsHistoryEnabled"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Notebook. تحصل أو تعين قيمة تشير إلى ما إذا كان السجل مفعلاً"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/notebook/ishistoryenabled/
 ---
 ## Notebook.IsHistoryEnabled property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان السجل ممكّنًا أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان السجل مفعلاً.
 
 ```csharp
 public bool IsHistoryEnabled { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

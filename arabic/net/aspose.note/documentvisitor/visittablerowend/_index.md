@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitTableRowEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةTableRow العقدة .
+title: "DocumentVisitor.VisitTableRowEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. انتهى من زيارة عقدة TableRow"
 type: docs
-weight: 200
+weight: 280
 url: /ar/net/aspose.note/documentvisitor/visittablerowend/
 ---
 ## DocumentVisitor.VisitTableRowEnd method
 
-نهاية لزيارة[`TableRow`](../../tablerow/) العقدة .
+انتهى من زيارة عقدة [`TableRow`](../../tablerow/).
 
 ```csharp
 public virtual void VisitTableRowEnd(TableRow tableRow)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| tableRow | TableRow | ملف[`TableRow`](../../tablerow/) العقدة . |
+| tableRow | TableRow | العقدة [`TableRow`](../../tablerow/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableRow](../../tablerow/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

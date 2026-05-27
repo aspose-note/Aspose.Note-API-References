@@ -1,20 +1,20 @@
 ---
-title: Document.DetectLayoutChanges
-second_title: Aspose.Note لمرجع NET API
-description: Document طريقة. يكتشف كل التغييرات التي تم إجراؤها على تخطيط المستند منذ السابقDetectLayoutChanges call. في حالةAutomaticLayoutChangesDetectionEnabled اضبط على صحيح  ويستخدم تلقائيًا في بداية تصدير المستند.
+title: "Document.DetectLayoutChanges"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Document. تكتشف جميع التغييرات التي تم إجراؤها على تخطيط المستند منذ استدعاء DetectLayoutChanges السابق. في حالة تعيين AutomaticLayoutChangesDetectionEnabled إلى true تُستخدم تلقائيًا في بداية تصدير المستند"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/document/detectlayoutchanges/
 ---
 ## Document.DetectLayoutChanges method
 
-يكتشف كل التغييرات التي تم إجراؤها على تخطيط المستند منذ السابق`DetectLayoutChanges` call. في حالة[`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled/) اضبط على "صحيح" ، ويستخدم تلقائيًا في بداية تصدير المستند.
+تكتشف جميع التغييرات التي تم إجراؤها على تخطيط المستند منذ استدعاء `DetectLayoutChanges` السابق. في حالة تعيين [`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled/) إلى true، تُستخدم تلقائيًا في بداية تصدير المستند.
 
 ```csharp
 public void DetectLayoutChanges()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيقات مختلفة.
 
@@ -26,9 +26,9 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // تهيئة الصفحة الجديدة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -40,7 +40,7 @@ page.Title = new Title()
 // إلحاق عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote بتنسيقات مختلفة وتعيين حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
+// حفظ مستند OneNote بصيغ مختلفة، ضبط حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -49,10 +49,10 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

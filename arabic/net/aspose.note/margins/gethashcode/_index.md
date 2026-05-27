@@ -1,7 +1,7 @@
 ---
-title: Margins.GetHashCode
-second_title: Aspose.Note لمرجع NET API
-description: Margins طريقة. يعمل كدالة تجزئة للنوع.
+title: "Margins.GetHashCode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Margins. تعمل كدالة تجزئة للنوع"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/margins/gethashcode/
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Margins](../)
-* مساحة الاسم [Aspose.Note](../../margins/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../margins/)
+* assembly [Aspose.Note](../../../)
 
 

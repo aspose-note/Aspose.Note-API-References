@@ -1,27 +1,27 @@
 ---
-title: INotebookChildNode.Guid
-second_title: Aspose.Note لمرجع NET API
-description: INotebookChildNode ملكية. يحصل على معرف الكائن الفريد عالميًا .
+title: "INotebookChildNode.Guid"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية INotebookChildNode. تحصل على المعرف الفريد عالميًا للكائن"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/inotebookchildnode/guid/
 ---
 ## INotebookChildNode.Guid property
 
-يحصل على معرف الكائن الفريد عالميًا .
+يحصل على المعرف الفريد عالميًا للكائن.
 
 ```csharp
 public Guid Guid { get; }
 ```
 
-### Property_Value
+### Property Value
 
-GUID.
+المعرف الفريد (GUID).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../)
-* مساحة الاسم [Aspose.Note](../../inotebookchildnode/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inotebookchildnode/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: CompositeNode1.LastChild
-second_title: Aspose.Note لمرجع NET API
-description: CompositeNode ملكية. الحصول على آخر عقدة فرعية لهذه العقدة.
+title: "CompositeNode1.LastChild"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية CompositeNode. تحصل على آخر عقدة فرعية لهذا العقدة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/compositenode-1/lastchild/
 ---
 ## CompositeNode&lt;T&gt;.LastChild property
 
-الحصول على آخر عقدة فرعية لهذه العقدة.
+يحصل على العقدة الفرعية الأخيرة لهذه العقدة.
 
 ```csharp
 public T LastChild { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CompositeNode&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Note](../../compositenode-1/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

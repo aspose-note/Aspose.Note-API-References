@@ -1,23 +1,23 @@
 ---
-title: FontsSubsystem.DefaultFont
-second_title: Aspose.Note لمرجع NET API
-description: FontsSubsystem ملكية. الحصول على الخط الافتراضي أو تعيينه.
+title: "FontsSubsystem.DefaultFont"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية FontsSubsystem. يحصل أو يضبط الخط الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.fonts/fontssubsystem/defaultfont/
 ---
 ## FontsSubsystem.DefaultFont property
 
-الحصول على الخط الافتراضي أو تعيينه.
+يحصل أو يعيّن الخط الافتراضي.
 
 ```csharp
 public FontFamily DefaultFont { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../fontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

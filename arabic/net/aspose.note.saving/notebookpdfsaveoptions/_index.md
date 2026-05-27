@@ -1,49 +1,49 @@
 ---
-title: Class NotebookPdfSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.NotebookPdfSaveOptions فصل. يسمح بتحديد خيارات إضافية عند تقديم صفحات دفتر الملاحظات إلى PDF .
+title: "الفئة NotebookPdfSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.NotebookPdfSaveOptions. تسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى PDF"
 type: docs
-weight: 780
+weight: 860
 url: /ar/net/aspose.note.saving/notebookpdfsaveoptions/
 ---
 ## NotebookPdfSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند تقديم صفحات دفتر الملاحظات إلى PDF .
+يسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى PDF.
 
 ```csharp
 public class NotebookPdfSaveOptions : NotebookSaveOptions<PdfSaveOptions>
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [NotebookPdfSaveOptions](notebookpdfsaveoptions/)() | Default_Constructor |
+| [NotebookPdfSaveOptions](notebookpdfsaveoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح . |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/) { get; } |  |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان التسلسل الهرمي للأطفال في دفتر الملاحظات مسطحًا أم لا. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا. |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions-1/saveformat/) { get; } |  |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/)() |  |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر الملاحظات بتنسيق pdf بخيارات محددة.
+يوضح كيفية حفظ الدفتر بتنسيق pdf مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -54,15 +54,15 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../notebooksaveoptions-1/)
 * class [PdfSaveOptions](../pdfsaveoptions/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

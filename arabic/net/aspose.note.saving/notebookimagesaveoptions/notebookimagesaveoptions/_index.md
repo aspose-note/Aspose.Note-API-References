@@ -1,28 +1,28 @@
 ---
-title: NotebookImageSaveOptions.NotebookImageSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: NotebookImageSaveOptions البناء. يقوم بتهيئة مثيل جديد لملفNotebookImageSaveOptions فئة .
+title: "NotebookImageSaveOptions.NotebookImageSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ NotebookImageSaveOptions. يهيئ مثيلًا جديدًا من الفئة NotebookImageSaveOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/notebookimagesaveoptions/notebookimagesaveoptions/
 ---
 ## NotebookImageSaveOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`NotebookImageSaveOptions`](../) فئة .
+يهيئ مثيلًا جديدًا من الفئة [`NotebookImageSaveOptions`](../).
 
 ```csharp
 public NotebookImageSaveOptions(SaveFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | SaveFormat | التنسيق الذي تم حفظ دفتر الملاحظات به . |
+| تنسيق | SaveFormat | الصيغة التي يتم حفظ الدفتر بها. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [SaveFormat](../../../aspose.note/saveformat/)
 * class [NotebookImageSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../notebookimagesaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../notebookimagesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

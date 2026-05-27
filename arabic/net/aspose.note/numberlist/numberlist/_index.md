@@ -1,53 +1,53 @@
 ---
-title: NumberList.NumberList
-second_title: Aspose.Note لمرجع NET API
-description: NumberList البناء. يقوم بتهيئة مثيل جديد لملفNumberListclass. يمثل هذا المثال قائمة نقطية.
+title: "NumberList.NumberList"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NumberList مُنشئ. يهيئ نسخة جديدة من الفئة NumberList. هذه النسخة تمثل قائمة نقطية"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/numberlist/numberlist/
 ---
 ## NumberList(string, string, int) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`NumberList`](../)class. يمثل هذا المثال قائمة نقطية.
+يهيئ نسخة جديدة من الفئة [`NumberList`](../). هذه النسخة تمثل قائمة نقطية.
 
 ```csharp
 public NumberList(string bulletedSymbol, string font, int fontSize)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| bulletedSymbol | String | رمز يمثل رصاصة . |
-| font | String | خط للرصاصة. |
-| fontSize | Int32 | حجم خط الرمز النقطي. |
+| bulletedSymbol | String | رمز يمثل نقطة. |
+| font | String | خط للرمز النقطي. |
+| fontSize | Int32 | حجم خط للرمز النقطي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NumberList](../)
-* مساحة الاسم [Aspose.Note](../../numberlist/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## NumberList(string, NumberFormat, string, int) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`NumberList`](../) class. يمثل هذا المثال قائمة مرقمة.
+يهيئ نسخة جديدة من الفئة [`NumberList`](../). هذه النسخة تمثل قائمة مرقمة.
 
 ```csharp
 public NumberList(string format, NumberFormat numberFormat, string font, int fontSize)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | String | تنسيق الرأس المرقم . |
-| numberFormat | NumberFormat | تنسيق الرقم في العنوان . |
+| تنسيق | String | تنسيق رأس القائمة المرقمة. |
+| numberFormat | NumberFormat | تنسيق الرقم في الرأس. |
 | font | String | خط للرأس المرقم. |
-| fontSize | Int32 | حجم الخط للرأس المرقم. |
+| fontSize | Int32 | حجم خط للرأس المرقم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [NumberFormat](../../numberformat/)
 * class [NumberList](../)
-* مساحة الاسم [Aspose.Note](../../numberlist/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 

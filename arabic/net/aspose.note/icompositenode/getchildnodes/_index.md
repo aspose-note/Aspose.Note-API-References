@@ -1,33 +1,33 @@
 ---
-title: ICompositeNode.GetChildNodes
-second_title: Aspose.Note لمرجع NET API
-description: ICompositeNode طريقة. احصل على جميع العقد الفرعية حسب نوع العقدة .
+title: "ICompositeNode.GetChildNodes"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة ICompositeNode. احصل على جميع العقد الفرعية حسب نوع العقدة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/icompositenode/getchildnodes/
 ---
 ## ICompositeNode.GetChildNodes&lt;T1&gt; method
 
-احصل على جميع العقد الفرعية حسب نوع العقدة .
+احصل على جميع عقد الطفل حسب نوع العقدة.
 
 ```csharp
 public List<T1> GetChildNodes<T1>()
     where T1 : class, INode
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| T1 | نوع العناصر في القائمة التي تم إرجاعها. |
+| T1 | نوع العناصر في القائمة المعادة. |
 
 ### قيمة الإرجاع
 
-قائمة بالعقد الفرعية.
+قائمة من العقد الفرعية.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INode](../../inode/)
 * interface [ICompositeNode](../)
-* مساحة الاسم [Aspose.Note](../../icompositenode/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../icompositenode/)
+* assembly [Aspose.Note](../../../)
 
 

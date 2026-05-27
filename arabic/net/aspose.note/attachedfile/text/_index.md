@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.Text
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على أو تعيين التمثيل النصي للملف المضمن. يجب ألا تحتوي السلسلة على أي أحرف بالقيمة 10 تغذية السطر أو 13 إرجاع السطر .
+title: "AttachedFile.Text"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل أو يضبط تمثيل النص للملف المضمّن. يجب ألا تحتوي السلسلة على أي من الأحرف ذات القيمة 10 (خط تغذية) أو 13 (عودة سطر)"
 type: docs
-weight: 190
+weight: 200
 url: /ar/net/aspose.note/attachedfile/text/
 ---
 ## AttachedFile.Text property
 
-الحصول على أو تعيين التمثيل النصي للملف المضمن. يجب ألا تحتوي السلسلة على أي أحرف بالقيمة 10 (تغذية السطر) أو 13 (إرجاع السطر) .
+يحصل أو يضبط تمثيل النص للملف المضمّن. يجب ألا يحتوي النص على أي أحرف ذات القيمة 10 (سطر جديد) أو 13 (عودة سطر).
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

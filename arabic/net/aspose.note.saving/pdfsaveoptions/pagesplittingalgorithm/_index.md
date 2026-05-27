@@ -1,32 +1,32 @@
 ---
-title: PdfSaveOptions.PageSplittingAlgorithm
-second_title: Aspose.Note لمرجع NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين الخوارزمية المستخدمة لتقسيم الصفحات.
+title: "PdfSaveOptions.PageSplittingAlgorithm"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PdfSaveOptions. يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/
 ---
 ## PdfSaveOptions.PageSplittingAlgorithm property
 
-الحصول على أو تعيين الخوارزمية المستخدمة لتقسيم الصفحات.
+يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات.
 
 ```csharp
 public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف`PageSplittingAlgorithm` .
+الـ `PageSplittingAlgorithm`.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر الملاحظات بتنسيق pdf بخيارات محددة.
+يوضح كيفية حفظ الدفتر بتنسيق pdf مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -37,17 +37,17 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-عندما يتم حفظ صفحات OneNote الطويلة بتنسيق pdf ، يتم تقسيمها عبر الصفحات. يوضح النموذج كيفية تكوين منطق تقسيم الكائنات الموجودة في فواصل الصفحة.
+عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 
 var pdfSaveOptions = new PdfSaveOptions();
@@ -60,13 +60,13 @@ dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorit
 doc.Save(dataDir);
 ```
 
-عندما يتم حفظ صفحات OneNote الطويلة بتنسيق pdf ، يتم تقسيمها عبر الصفحات. يوضح المثال كيفية تكوين منطق تقسيم الكائنات الموجودة في فواصل الصفحة.
+عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
@@ -88,11 +88,11 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSplittingAlgorithm](../../pagesplittingalgorithm/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../pdfsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

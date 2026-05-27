@@ -1,32 +1,32 @@
 ---
-title: Notebook.Item
-second_title: Aspose.Note لمرجع NET API
-description: Notebook ملكية. يحصل على العقدة الفرعية للمفكرة بواسطة الفهرس المحدد.
+title: "Notebook.Item"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Notebook. تحصل على عقدة الطفل للمفكرة وفق الفهرس المعطى"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/notebook/item/
 ---
 ## Notebook indexer
 
-يحصل على العقدة الفرعية للمفكرة بواسطة الفهرس المحدد.
+يحصل على عقدة الطفل للمفكرة بالترتيب المحدد.
 
 ```csharp
 public INotebookChildNode this[int index] { get; }
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| index | فهرس للعقدة الفرعية . |
+| الفهرس | الفهرس إلى عقدة الطفل. |
 
 ### قيمة الإرجاع
 
-العقدة التابعة في ملف*index* الموضع .
+عقدة الطفل في موضع *index*.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../../inotebookchildnode/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

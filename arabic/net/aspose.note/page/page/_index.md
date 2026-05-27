@@ -1,23 +1,23 @@
 ---
-title: Page.Page
-second_title: Aspose.Note لمرجع NET API
-description: Page البناء. يقوم بتهيئة مثيل جديد لملفPage فئة .
+title: "Page.Page"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ Page. يهيئ نسخة جديدة من الفئة Page"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/page/page/
 ---
 ## Page constructor
 
-يقوم بتهيئة مثيل جديد لملف[`Page`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`Page`](../).
 
 ```csharp
 public Page()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateYellowRightArrow
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة بأيقونة YellowRightArrow والتسمية المحددة.
+title: "NoteTag.CreateYellowRightArrow"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة YellowRightArrow والملصق المحدد"
 type: docs
 weight: 1020
 url: /ar/net/aspose.note/notetag/createyellowrightarrow/
 ---
 ## NoteTag.CreateYellowRightArrow method
 
-إنشاء علامة ملاحظة جديدة بأيقونة YellowRightArrow والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowRightArrow والعلامة المحددة.
 
 ```csharp
 public static NoteTag CreateYellowRightArrow(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

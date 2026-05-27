@@ -1,48 +1,48 @@
 ---
-title: Class NotebookSaveOptionsTDocumentSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.NotebookSaveOptions1TDocumentSaveOptions فصل. فئة أساسية مجردة تمثل خيارات حفظ الكمبيوتر المحمول لتنسيق معين وتوفر خيارات حفظ عامة لجميع العقد التابعة للمستند .
+title: "الفئة NotebookSaveOptionsTDocumentSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.NotebookSaveOptions1TDocumentSaveOptions. فئة أساسية مجردة تمثل خيارات حفظ الدفتر لتنسيق معين وتوفر خيارات حفظ مشتركة لجميع عقد المستند الفرعية"
 type: docs
-weight: 800
+weight: 880
 url: /ar/net/aspose.note.saving/notebooksaveoptions-1/
 ---
 ## NotebookSaveOptions&lt;TDocumentSaveOptions&gt; class
 
-فئة أساسية مجردة تمثل خيارات حفظ الكمبيوتر المحمول لتنسيق معين وتوفر خيارات حفظ عامة لجميع العقد التابعة للمستند .
+فئة أساسية مجردة تمثل خيارات حفظ الدفتر لتنسيق معين وتوفر خيارات حفظ مشتركة لجميع العقد الفرعية للمستند.
 
 ```csharp
 public abstract class NotebookSaveOptions<TDocumentSaveOptions> : NotebookSaveOptions
     where TDocumentSaveOptions : SaveOptions
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| TDocumentSaveOptions | خيارات الحفظ لكافة المستندات التابعة لدفتر الملاحظات . |
+| TDocumentSaveOptions | خيارات الحفظ لجميع المستندات الفرعية للدفتر. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح . |
-| [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/) { get; } | الحصول على أو تعيين خيارات الحفظ لجميع المستندات التابعة لدفتر الملاحظات. |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان التسلسل الهرمي للأطفال في دفتر الملاحظات مسطحًا أم لا. |
-| override [SaveFormat](../../aspose.note.saving/notebooksaveoptions-1/saveformat/) { get; } | يحصل على التنسيق الذي تم حفظ دفتر الملاحظات به. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً. |
+| [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/) { get; } | يحصل أو يعيّن خيارات الحفظ لجميع المستندات الفرعية للدفتر. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا. |
+| override [SaveFormat](../../aspose.note.saving/notebooksaveoptions-1/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها الدفتر. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/)() | يحصل على خيارات الحفظ لجميع المستندات التابعة للدفتر. |
+| override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/)() | يحصل على خيارات الحفظ لجميع المستندات الفرعية للدفتر. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر الملاحظات بتنسيق pdf بخيارات محددة.
+يوضح كيفية حفظ الدفتر بتنسيق pdf مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -53,15 +53,15 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions](../notebooksaveoptions/)
 * class [SaveOptions](../saveoptions/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

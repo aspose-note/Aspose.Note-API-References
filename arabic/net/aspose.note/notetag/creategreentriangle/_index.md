@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateGreenTriangle
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة بأيقونة GreenTriangle والتسمية المحددة.
+title: "NoteTag.CreateGreenTriangle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة GreenTriangle والملصق المحدد"
 type: docs
 weight: 500
 url: /ar/net/aspose.note/notetag/creategreentriangle/
 ---
 ## NoteTag.CreateGreenTriangle method
 
-إنشاء علامة ملاحظة جديدة بأيقونة GreenTriangle والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenTriangle والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateGreenTriangle(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

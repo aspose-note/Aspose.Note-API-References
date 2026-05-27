@@ -1,31 +1,31 @@
 ---
-title: DisplayUnitsConverter.PointToInch
-second_title: Aspose.Note لمرجع NET API
-description: DisplayUnitsConverter طريقة. تحويل النقاط إلى بوصة .
+title: "DisplayUnitsConverter.PointToInch"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DisplayUnitsConverter. يحول النقاط إلى بوصات"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/displayunitsconverter/pointtoinch/
 ---
 ## DisplayUnitsConverter.PointToInch method
 
-تحويل النقاط إلى بوصة .
+يقوم بتحويل النقاط إلى بوصات.
 
 ```csharp
 public static float PointToInch(float points)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | Single | القيمة المطلوب تحويلها بالنقاط . |
+| points | Single | القيمة المراد تحويلها بالنقاط. |
 
 ### قيمة الإرجاع
 
-ملفSingle .
+ال Single.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DisplayUnitsConverter](../)
-* مساحة الاسم [Aspose.Note](../../displayunitsconverter/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../displayunitsconverter/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: RichText.SpaceAfter
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. الحصول على أو تحديد الحد الأدنى من المساحة بعد .
+title: "RichText.SpaceAfter"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. يحصل أو يضبط الحد الأدنى للمسافة بعد"
 type: docs
-weight: 70
+weight: 100
 url: /ar/net/aspose.note/richtext/spaceafter/
 ---
 ## RichText.SpaceAfter property
 
-الحصول على أو تحديد الحد الأدنى من المساحة بعد .
+يحصل أو يضبط الحد الأدنى للمسافة بعد.
 
 ```csharp
 public float? SpaceAfter { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

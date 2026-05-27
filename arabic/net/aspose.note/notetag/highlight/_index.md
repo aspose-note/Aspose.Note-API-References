@@ -1,23 +1,23 @@
 ---
-title: NoteTag.Highlight
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag ملكية. الحصول على لون التمييز أو تعيينه.
+title: "NoteTag.Highlight"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NoteTag. يحصل أو يضبط لون التمييز"
 type: docs
 weight: 1160
 url: /ar/net/aspose.note/notetag/highlight/
 ---
 ## NoteTag.Highlight property
 
-الحصول على لون التمييز أو تعيينه.
+يحصل أو يضبط لون التظليل.
 
 ```csharp
 public Color Highlight { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

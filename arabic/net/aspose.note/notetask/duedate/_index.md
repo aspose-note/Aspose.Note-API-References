@@ -1,32 +1,32 @@
 ---
-title: NoteTask.DueDate
-second_title: Aspose.Note لمرجع NET API
-description: NoteTask ملكية. الحصول على تاريخ الاستحقاق أو تحديده.
+title: "NoteTask.DueDate"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NoteTask. تحصل أو تعيّن تاريخ الاستحقاق"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/notetask/duedate/
 ---
 ## NoteTask.DueDate property
 
-الحصول على تاريخ الاستحقاق أو تحديده.
+يحصل أو يضبط تاريخ الاستحقاق.
 
 ```csharp
 public DateTime DueDate { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-ملفDateTime .
+الـ DateTime.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إنشاء ملف pdf يحتوي على جميع الصفحات المتعلقة بالمشروع أ.
+يوضح كيفية إنشاء ملف pdf يحتوي على جميع الصفحات المتعلقة بـ 'Project A'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 var report = new Document();
@@ -41,19 +41,19 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-يوضح كيفية الوصول إلى تفاصيل مهام Outlook.
+يوضح كيفية الوصول إلى تفاصيل مهام outlook.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -62,7 +62,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Task: {richText.Text}");
         foreach (var noteTask in tasks)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTask.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTask.CreationTime}");
             Console.WriteLine($"    Due Date: {noteTask.DueDate}");
@@ -73,10 +73,10 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTask](../)
-* مساحة الاسم [Aspose.Note](../../notetask/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

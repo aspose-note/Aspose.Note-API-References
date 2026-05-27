@@ -1,23 +1,23 @@
 ---
-title: RichText.RichText
-second_title: Aspose.Note لمرجع NET API
-description: RichText البناء. يقوم بتهيئة مثيل جديد لملفRichText فئة .
+title: "RichText.RichText"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ RichText. يهيئ نسخة جديدة من الفئة RichText"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/richtext/richtext/
 ---
 ## RichText constructor
 
-يقوم بتهيئة مثيل جديد لملف[`RichText`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`RichText`](../).
 
 ```csharp
 public RichText()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

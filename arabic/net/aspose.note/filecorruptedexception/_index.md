@@ -1,22 +1,22 @@
 ---
-title: Class FileCorruptedException
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.FileCorruptedException فصل. تم إلقاؤه أثناء تحميل المستند  عندما يبدو أن المستند تالف ويستحيل تحميله.
+title: "الفئة FileCorruptedException"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.FileCorruptedException. تُرمى أثناء تحميل المستند عندما يبدو المستند تالفًا ولا يمكن تحميله"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-تم إلقاؤه أثناء تحميل المستند ، عندما يبدو أن المستند تالف ويستحيل تحميله.
+يُرمى أثناء تحميل المستند، عندما يبدو المستند تالفًا ولا يمكن تحميله.
 
 ```csharp
 public class FileCorruptedException : Exception
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

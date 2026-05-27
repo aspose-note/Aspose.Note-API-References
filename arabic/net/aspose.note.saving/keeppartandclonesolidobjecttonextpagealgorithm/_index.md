@@ -1,47 +1,47 @@
 ---
-title: Class KeepPartAndCloneSolidObjectToNextPageAlgorithm
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.KeepPartAndCloneSolidObjectToNextPageAlgorithm فصل. يضيف الجزء العلوي من الكائن إلى أسفل الصفحة ويستنسخ الكائن الكامل إلى الصفحة التالية في حالة عدم احتوائه في الصفحة الأصلية.
+title: "الفئة KeepPartAndCloneSolidObjectToNextPageAlgorithm"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.KeepPartAndCloneSolidObjectToNextPageAlgorithm. يضيف الجزء العلوي من الكائنات إلى أسفل الصفحة ويستنسخ الكائن بالكامل إلى الصفحة التالية في حال لم يتناسب مع الصفحة الأصلية."
 type: docs
-weight: 730
+weight: 810
 url: /ar/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm class
 
-يضيف الجزء العلوي من الكائن إلى أسفل الصفحة ويستنسخ الكائن الكامل إلى الصفحة التالية في حالة عدم احتوائه في الصفحة الأصلية.
+يضيف الجزء العلوي من الكائن إلى أسفل الصفحة ويستنسخ الكائن بالكامل إلى الصفحة التالية في حال لم يتناسب مع الصفحة الأصلية.
 
 ```csharp
 public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgorithm
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm/#constructor)() | يقوم بتهيئة مثيل جديد لملف`KeepPartAndCloneSolidObjectToNextPageAlgorithm` فئة ، باستخدام حد الارتفاع الافتراضي للجزء المستنسخ. |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm/#constructor_1)(float) | يقوم بتهيئة مثيل جديد لملف`KeepPartAndCloneSolidObjectToNextPageAlgorithm` فئة ، باستخدام حد ارتفاع معين للجزء المستنسخ. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm/#constructor)() | ينشئ مثيلاً جديداً من الفئة `KeepPartAndCloneSolidObjectToNextPageAlgorithm`، باستخدام حد الارتفاع الافتراضي للجزء المستنسخ. |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm](keeppartandclonesolidobjecttonextpagealgorithm/#constructor_1)(float) | ينشئ مثيلاً جديداً من الفئة `KeepPartAndCloneSolidObjectToNextPageAlgorithm`، باستخدام حد ارتفاع محدد للجزء المستنسخ. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart/) { get; } | يحصل على حد ارتفاع الجزء المستنسخ. |
+| [HeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart/) { get; } | يحصل على حد الارتفاع للجزء المستنسخ. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/defaultheightlimitofclonedpart/) | الحجم الأقصى الافتراضي للجزء المستنسخ. |
 
-### أمثلة
+## أمثلة
 
-عندما يتم حفظ صفحات OneNote الطويلة بتنسيق pdf ، يتم تقسيمها عبر الصفحات. يوضح النموذج كيفية تكوين منطق تقسيم الكائنات الموجودة في فواصل الصفحة.
+عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 
 var pdfSaveOptions = new PdfSaveOptions();
@@ -54,13 +54,13 @@ dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorit
 doc.Save(dataDir);
 ```
 
-عندما يتم حفظ صفحات OneNote الطويلة بتنسيق pdf ، يتم تقسيمها عبر الصفحات. يوضح المثال كيفية تكوين منطق تقسيم الكائنات الموجودة في فواصل الصفحة.
+عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
@@ -82,10 +82,10 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSplittingAlgorithm](../pagesplittingalgorithm/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

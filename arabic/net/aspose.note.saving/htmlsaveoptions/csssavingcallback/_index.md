@@ -1,26 +1,26 @@
 ---
-title: HtmlSaveOptions.CssSavingCallback
-second_title: Aspose.Note لمرجع NET API
-description: HtmlSaveOptions ملكية. الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين CSS.
+title: "HtmlSaveOptions.CssSavingCallback"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية HtmlSaveOptions. يحصل أو يضبط الـ callback الذي يُستدعى لإنشاء مورد لتخزين CSS"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/htmlsaveoptions/csssavingcallback/
 ---
 ## HtmlSaveOptions.CssSavingCallback property
 
-الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين CSS.
+يحصل أو يعيّن الدالة الراجعة التي تُستدعى لإنشاء مورد لتخزين CSS.
 
 ```csharp
 public ICssSavingCallback CssSavingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css / الخطوط / الصور) باستخدام عمليات الاسترجاعات المعرفة من قبل المستخدم.
+يظهر كيفية حفظ مستند بتنسيق HTML مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
 
 ```csharp
-// ينشئ الكود أدناه مجلد "documentFolder" يحتوي على document.html ومجلد "css" بملف "style.css" ومجلد "images" مع صور ومجلد "خطوط" يحتوي على خطوط.
-// سيحتوي ملف "style.css" في نهاية السلسلة التالية "/ * هذا السطر مُلحق بالبث يدويًا بواسطة المستخدم * /"
+// الكود أدناه ينشئ مجلد 'documentFolder' يحتوي على document.html، ومجلد 'css' به ملف 'style.css'، ومجلد 'images' يحتوي على صور، ومجلد 'fonts' يحتوي على خطوط.
+// 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",
@@ -57,11 +57,11 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [ICssSavingCallback](../../../aspose.note.saving.html/icsssavingcallback/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

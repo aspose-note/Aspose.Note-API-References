@@ -1,30 +1,30 @@
 ---
-title: Margins.Margins
-second_title: Aspose.Note لمرجع NET API
-description: Margins البناء. يقوم بتهيئة مثيل جديد لملفMarginsStruct بهوامش اليسار واليمين والعليا والسفلى المحددة.
+title: "Margins.Margins"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "Margins constructor. يهيئ نسخة جديدة من هيكل Margins مع الهوامش اليسرى واليمنى والعليا والسفلى المحددة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/margins/margins/
 ---
 ## Margins constructor
 
-يقوم بتهيئة مثيل جديد لملف[`Margins`](../)Struct بهوامش اليسار واليمين والعليا والسفلى المحددة.
+يُنشئ مثيلاً جديدًا من هيكل [`Margins`](../) مع الهوامش اليسرى واليمنى العليا والسفلى المحددة.
 
 ```csharp
 public Margins(float left, float right, float top, float bottom)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| left | Single | عرض الهامش الأيسر . |
-| right | Single | عرض الهامش الأيمن . |
-| top | Single | عرض الهامش العلوي . |
-| bottom | Single | عرض الهامش السفلي . |
+| اليسار | Single | عرض الهامش الأيسر. |
+| اليمين | Single | عرض الهامش الأيمن. |
+| أعلى | Single | عرض الهامش العلوي. |
+| الأسفل | Single | عرض الهامش السفلي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Margins](../)
-* مساحة الاسم [Aspose.Note](../../margins/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../margins/)
+* assembly [Aspose.Note](../../../)
 
 

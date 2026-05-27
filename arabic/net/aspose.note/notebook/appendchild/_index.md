@@ -1,7 +1,7 @@
 ---
-title: Notebook.AppendChild
-second_title: Aspose.Note لمرجع NET API
-description: Notebook طريقة. يضيف العقدة إلى نهاية القائمة.
+title: "Notebook.AppendChild"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Notebook. تضيف العقدة إلى نهاية القائمة"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/notebook/appendchild/
@@ -14,19 +14,19 @@ url: /ar/net/aspose.note/notebook/appendchild/
 public INotebookChildNode AppendChild(INotebookChildNode newChild)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| newChild | INotebookChildNode | العقدة المراد إضافتها . |
+| newChild | INotebookChildNode | العقدة المراد إضافتها. |
 
 ### قيمة الإرجاع
 
-العقدة المضافة .
+العقدة المضافة.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../../inotebookchildnode/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

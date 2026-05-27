@@ -1,30 +1,30 @@
 ---
-title: RichText.ParagraphStyle
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. الحصول على نمط الفقرة أو تعيينه. يتم استخدام هذه الإعدادات في حالة عدم وجود كائن TextStyle مطابق فيStyles مجموعة إما أن هذا الكائن لا يحدد الإعداد المطلوب.
+title: "RichText.ParagraphStyle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. تحصل أو تعيّن نمط الفقرة. تُستخدم هذه الإعدادات إذا لم يكن هناك كائن TextStyle مطابق في مجموعة Styles أو إذا لم يحدد هذا الكائن الإعداد المطلوب"
 type: docs
-weight: 60
+weight: 90
 url: /ar/net/aspose.note/richtext/paragraphstyle/
 ---
 ## RichText.ParagraphStyle property
 
-الحصول على نمط الفقرة أو تعيينه. يتم استخدام هذه الإعدادات في حالة عدم وجود كائن TextStyle مطابق فيStyles مجموعة إما أن هذا الكائن لا يحدد الإعداد المطلوب.
+يحصل أو يضبط نمط الفقرة. تُستخدم هذه الإعدادات إذا لم يكن هناك كائن TextStyle مطابق في مجموعة Styles أو إذا لم يحدد هذا الكائن الإعداد المطلوب.
 
 ```csharp
 public ParagraphStyle ParagraphStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-دعنا نبرز عناوين الصفحة بين الرؤوس الأخرى عن طريق زيادة حجم الخط.
+دعنا نبرز عناوين الصفحة بين العناوين الأخرى بزيادة حجم الخط.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// تكرار من خلال عناوين الصفحة.
+// تكرار عبر عناوين الصفحة.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -40,13 +40,13 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-يوضح كيفية تطبيق نمط النسق الداكن على مستند.
+يظهر كيفية تطبيق نمط السمة الداكنة على مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in doc)
@@ -66,15 +66,15 @@ foreach (var node in doc.GetChildNodes<RichText>())
 doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
-دعنا نؤكد على التغييرات الأخيرة في النص من خلال التمييز.
+دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Get RichText عُدلت الأسبوع الماضي.
+// احصل على عقد RichText المعدلة الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -91,7 +91,7 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-يوضح كيفية تعيين عنوان للصفحة.
+يوضح كيفية تعيين عنوان لصفحة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -124,7 +124,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-التلاعب بتنسيق النص باستخدام نمط الفقرة.
+التعامل مع تنسيق النص باستخدام نمط الفقرة.
 
 ```csharp
 var document = new Document();
@@ -145,19 +145,19 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-يوضح كيفية إضافة فقرة جديدة بعلامة.
+يعرض كيفية إضافة فقرة جديدة مع العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي
+// تهيئة كائن فئة Outline
 Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
@@ -166,36 +166,36 @@ ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontNam
 RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 
-// أضف عقدة نصية
+// إضافة عقدة نصية
 outlineElem.AppendChildLast(text);
 
-// إضافة عقدة عنصر المخطط التفصيلي
+// إضافة عقدة عنصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة الصفحة
+// إضافة عقدة صفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية الوصول إلى تفاصيل العلامة.
+يظهر كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "TagFile.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -204,7 +204,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -217,114 +217,114 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يوضح كيفية إدراج قائمة جديدة بالترقيم الصيني.
+يعرض كيفية إدراج قائمة جديدة بترقيم صيني.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// تهيئة مستند OneNote
-Aspose.Note.Document doc = new Aspose.Note.Document();
+// تهيئة مستند OneNote.
+Document doc = new Document();
 
-// تهيئة صفحة OneNote
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة صفحة OneNote.
+Page page = new Page();
 Outline outline = new Outline();
 
-// تطبيق إعدادات نمط النص
+// تطبيق إعدادات نمط النص.
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// يتم زيادة الأرقام الموجودة في نفس المخطط تلقائيًا.
+// الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-// ------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-// ------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// ------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إدراج قائمة ذات تعداد نقطي جديد.
+يعرض كيفية إدراج قائمة نقطية جديدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة المستند
-Aspose.Note.Document doc = new Aspose.Note.Document();
+// إنشاء كائن من فئة Document
+Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي
+// تهيئة كائن فئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات فئة OutlineElement وتطبيق الرموز النقطية
+// تهيئة كائنات الفئة OutlineElement وتطبيق النقاط
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
-// تهيئة كائن فئة RichText وتطبيق نمط النص
+// تهيئة كائن الفئة RichText وتطبيق نمط النص
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
 OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
-RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
+RichText text2 = new RichText(  ) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
 OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إدراج قائمة جديدة مع الترقيم.
+يعرض كيفية إدراج قائمة جديدة مع الترقيم.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي
+// تهيئة كائن فئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات فئة OutlineElement وتطبيق الترقيم
-// يتم زيادة الأرقام الموجودة في نفس المخطط تلقائيًا.
+// تهيئة كائنات الفئة OutlineElement وتطبيق الترقيم.
+// الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -337,29 +337,29 @@ OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-يوضح كيفية تحضير قالب للاجتماع الأسبوعي.
+يعرض كيفية إعداد قالب للاجتماع الأسبوعي.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -393,13 +393,13 @@ foreach (var e in new[] { "First", "Second", "Third" })
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
 
-يوضح كيفية ربط ارتباط تشعبي بنص.
+يظهر كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -432,31 +432,31 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// تهيئة كائن فئة العنوان
+// تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة الصفحة
+// تهيئة كائن فئة Page
 Page page = new Note.Page() { Title = title };
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ParagraphStyle](../../paragraphstyle/)
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateQuestionBalloon
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز بالون الاستفهام والتسمية المحددة.
+title: "NoteTag.CreateQuestionBalloon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة QuestionBalloon والعنوان المحدد"
 type: docs
 weight: 800
 url: /ar/net/aspose.note/notetag/createquestionballoon/
 ---
 ## NoteTag.CreateQuestionBalloon method
 
-إنشاء علامة ملاحظة جديدة مع رمز بالون الاستفهام والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة QuestionBalloon وملصق محدد.
 
 ```csharp
 public static NoteTag CreateQuestionBalloon(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

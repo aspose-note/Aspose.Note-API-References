@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.FileName
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. يحصل على اسم الملف المضمن.
+title: "AttachedFile.FileName"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل على اسم الملف المضمّن"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/attachedfile/filename/
 ---
 ## AttachedFile.FileName property
 
-يحصل على اسم الملف المضمن.
+يحصل على اسم الملف المضمّن.
 
 ```csharp
 public string FileName { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

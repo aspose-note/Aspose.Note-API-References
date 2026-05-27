@@ -1,14 +1,14 @@
 ---
-title: Interface INode
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.INode واجهه المستخدم. الواجهة لجميع العقد الخاصة بمستند Aspose.Note.
+title: "Interface INode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "واجهة Aspose.Note.INode. الواجهة لجميع عقد مستند Aspose.Note."
 type: docs
 weight: 170
 url: /ar/net/aspose.note/inode/
 ---
 ## INode interface
 
-الواجهة لجميع العقد الخاصة بمستند Aspose.Note.
+الواجهة لجميع عقد مستند Aspose.Note.
 
 ```csharp
 public interface INode
@@ -16,20 +16,20 @@ public interface INode
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [NextSibling](../../aspose.note/inode/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [PreviousSibling](../../aspose.note/inode/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [NextSibling](../../aspose.note/inode/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
+| [PreviousSibling](../../aspose.note/inode/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Accept](../../aspose.note/inode/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| [Accept](../../aspose.note/inode/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,48 +1,48 @@
 ---
-title: CheckBox.SetCompleted
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox طريقة. يعين العلامة على الحالة المكتملة .
+title: "CheckBox.SetCompleted"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة CheckBox. تعيين العلامة إلى الحالة المكتملة"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/checkbox/setcompleted/
 ---
 ## SetCompleted(DateTime) {#setcompleted_1}
 
-يعين العلامة على الحالة المكتملة .
+يضبط العلامة إلى حالة مكتملة.
 
 ```csharp
 public void SetCompleted(DateTime completedTime)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| completedTime | DateTime | الوقت المكتمل . |
+| completedTime | DateTime | وقت الاكتمال. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## SetCompleted() {#setcompleted}
 
-يضبط العلامة على الحالة المكتملة باستخدام الوقت الحالي كوقت مكتمل.
+يضبط العلامة إلى حالة مكتملة باستخدام الوقت الحالي كوقت إكمال.
 
 ```csharp
 public void SetCompleted()
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إكمال جميع عناصر مربعات الاختيار المتعلقة بالمشروع ج.
+يوضح كيفية إكمال جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -59,10 +59,10 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

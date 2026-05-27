@@ -1,35 +1,35 @@
 ---
-title: Enum HtmlImageType
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.Html.HtmlImageType تعداد. يمثل نوع صورة HTML .
+title: "التعداد HtmlImageType"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "التعداد Aspose.Note.Saving.Html.HtmlImageType. يمثل نوع صورة HTML"
 type: docs
-weight: 610
+weight: 690
 url: /ar/net/aspose.note.saving.html/htmlimagetype/
 ---
 ## HtmlImageType enumeration
 
-يمثل نوع صورة HTML .
+يمثل نوع صورة HTML.
 
 ```csharp
 public enum HtmlImageType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | Jpeg | `0` | JPEG JFIF. |
-| Png | `1` | رسومات الشبكة المحمولة. |
-| Bmp | `2` | صورة نقطية لـ Windows . |
+| Png | `1` | رسوميات الشبكة المحمولة. |
+| Bmp | `2` | Bitmap ويندوز. |
 | Gif | `3` | تنسيق صورة Gif |
 | Tiff | `4` | تنسيق صورة Tiff |
 | Svg | `5` | تنسيق صورة SVG |
-| Svgz | `6` | مضغوط SVG |
+| Svgz | `6` | SVG مضغوط |
 | Unknown | `7` | تنسيق غير معروف |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

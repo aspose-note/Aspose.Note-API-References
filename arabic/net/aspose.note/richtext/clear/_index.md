@@ -1,14 +1,14 @@
 ---
-title: RichText.Clear
-second_title: Aspose.Note لمرجع NET API
-description: RichText طريقة. يمحو محتوى هذا المثال .
+title: "RichText.Clear"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة RichText. تمسح محتوى هذا الكائن."
 type: docs
-weight: 150
+weight: 180
 url: /ar/net/aspose.note/richtext/clear/
 ---
 ## RichText.Clear method
 
-يمحو محتوى هذا المثال .
+يمسح محتوى هذا الكائن.
 
 ```csharp
 public RichText Clear()
@@ -16,12 +16,12 @@ public RichText Clear()
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

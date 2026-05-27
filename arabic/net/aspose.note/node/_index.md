@@ -1,14 +1,14 @@
 ---
-title: Class Node
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Node فصل. الفئة الأساسية لجميع العقد الخاصة بمستند Aspose.Note.
+title: "الفئة Node"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Node. الفئة الأساسية لجميع عقد مستند Aspose.Note"
 type: docs
-weight: 360
+weight: 430
 url: /ar/net/aspose.note/node/
 ---
 ## Node class
 
-الفئة الأساسية لجميع العقد الخاصة بمستند Aspose.Note.
+الفئة الأساسية لجميع عقد مستند Aspose.Note.
 
 ```csharp
 public abstract class Node : INode
@@ -16,25 +16,25 @@ public abstract class Node : INode
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
-| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
-| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
-| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كانت true يمكن للعقدة أن تحتوي على عقد فرعية. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| abstract [Accept](../../aspose.note/node/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| abstract [Accept](../../aspose.note/node/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INode](../inode/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

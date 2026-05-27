@@ -1,9 +1,9 @@
 ---
-title: Class PrintOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.PrintOptions فصل. الخيارات المستخدمة لطباعة مستند.
+title: "الفئة PrintOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.PrintOptions. خيارات تُستخدم لطباعة مستند."
 type: docs
-weight: 860
+weight: 940
 url: /ar/net/aspose.note.saving/printoptions/
 ---
 ## PrintOptions class
@@ -14,24 +14,24 @@ url: /ar/net/aspose.note.saving/printoptions/
 public class PrintOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PrintOptions](printoptions/)() | Default_Constructor |
+| [PrintOptions](printoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | الحصول على أو تحديد اسم المستند المطلوب عرضه (على سبيل المثال ، في مربع حوار حالة الطباعة أو قائمة انتظار الطابعة) أثناء طباعة المستند. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm/) { get; set; } | الحصول على أو تعيين الخوارزمية المستخدمة لتقسيم الصفحات. |
-| [PrinterSettings](../../aspose.note.saving/printoptions/printersettings/) { get; set; } | الحصول على إعدادات الطابعة أو تعيينها. |
-| [Resolution](../../aspose.note.saving/printoptions/resolution/) { get; set; } | الحصول على أو تعيين دقة الصور التي تم إنشاؤها ، بالنقاط في البوصة . |
+| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | يحصل أو يعيّن اسم المستند للعرض (على سبيل المثال، في مربع حوار حالة الطباعة أو في طابور الطابعة) أثناء طباعة المستند. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm/) { get; set; } | يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات. |
+| [PrinterSettings](../../aspose.note.saving/printoptions/printersettings/) { get; set; } | يحصل أو يعيّن إعدادات الطابعة. |
+| [Resolution](../../aspose.note.saving/printoptions/resolution/) { get; set; } | يحصل أو يضبط الدقة للصور المُولَّدة، بوحدة النقاط في البوصة. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إرسال المستند إلى الطابعة باستخدام مربع حوار Windows القياسي مع خيارات محددة.
+يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -52,9 +52,9 @@ document.Print(new PrintOptions()
                });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

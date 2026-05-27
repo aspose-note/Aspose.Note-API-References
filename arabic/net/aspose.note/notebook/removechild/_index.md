@@ -1,30 +1,30 @@
 ---
-title: Notebook.RemoveChild
-second_title: Aspose.Note لمرجع NET API
-description: Notebook طريقة. يزيل العقدة الفرعية .
+title: "Notebook.RemoveChild"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Notebook. تُزيل العقدة الفرعية"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/notebook/removechild/
 ---
 ## Notebook.RemoveChild method
 
-يزيل العقدة الفرعية .
+يزيل عقدة الطفل.
 
 ```csharp
 public INotebookChildNode RemoveChild(INotebookChildNode oldChild)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| oldChild | INotebookChildNode | العقدة المطلوب إزالتها . |
+| oldChild | INotebookChildNode | العقدة المراد إزالتها. |
 
 ### قيمة الإرجاع
 
-العقدة التي تمت إزالتها .
+العقدة التي تم إزالتها.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الوصول إلى كافة الأقسام من دفتر ملاحظات.
+يظهر كيفية الوصول إلى جميع الأقسام من دفتر ملاحظات.
 
 ```csharp
 string inputFile = "notebook.onetoc2";
@@ -39,32 +39,32 @@ foreach (Document document in allDocuments)
 }
 ```
 
-يوضح كيفية إزالة قسم من دفتر ملاحظات.
+يوضح كيفية إزالة قسم من الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "test.onetoc2");
 
-// اجتياز العقد الفرعية للبحث عن العنصر الفرعي المطلوب
+// التنقل عبر العقد الفرعية للبحث عن العنصر الفرعي المطلوب
 foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // إزالة العنصر الفرعي من دفتر الملاحظات
+        // إزالة العنصر الفرعي من الدفتر
         notebook.RemoveChild(child);
     }
 }
 
 dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية حفظ دفتر ملاحظات.
+يظهر كيفية حفظ دفتر ملاحظات.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -90,11 +90,11 @@ if (notebook.Any())
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../../inotebookchildnode/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

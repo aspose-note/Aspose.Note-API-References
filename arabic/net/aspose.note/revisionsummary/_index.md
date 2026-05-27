@@ -1,9 +1,9 @@
 ---
-title: Class RevisionSummary
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.RevisionSummary فصل. يمثل ملخصًا لمراجعة العقدة.
+title: "فئة RevisionSummary"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "فئة Aspose.Note.RevisionSummary. تمثّل ملخصًا لتعديل العقد"
 type: docs
-weight: 520
+weight: 600
 url: /ar/net/aspose.note/revisionsummary/
 ---
 ## RevisionSummary class
@@ -14,32 +14,32 @@ url: /ar/net/aspose.note/revisionsummary/
 public class RevisionSummary
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [RevisionSummary](revisionsummary/)() | Default_Constructor |
+| [RevisionSummary](revisionsummary/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AuthorMostRecent](../../aspose.note/revisionsummary/authormostrecent/) { get; set; } | الحصول على أحدث مؤلف أو تعيينه. |
-| [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
+| [AuthorMostRecent](../../aspose.note/revisionsummary/authormostrecent/) { get; set; } | يحصل أو يعيّن المؤلف الأخير. |
+| [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تحرير المعلومات الوصفية للصفحة.
+يعرض كيفية تعديل معلومات التعريف للصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// قراءة ملخص مراجعة المحتوى لهذه الصفحة
+// قراءة ملخص مراجعة المحتوى لهذه الصفحة.
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -47,19 +47,19 @@ Console.WriteLine(string.Format(
     pageRevisionInfo.AuthorMostRecent,
     pageRevisionInfo.LastModifiedTime.ToString("dd.MM.yyyy HH:mm:ss")));
 
-// تحديث ملخص مراجعة الصفحة لهذه الصفحة
+// تحديث ملخص مراجعة الصفحة لهذه الصفحة.
 pageRevisionInfo.AuthorMostRecent = "New Author";
 pageRevisionInfo.LastModifiedTime = DateTime.Now;
 
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-يوضح كيفية التحقق مما إذا كانت الصفحة عبارة عن صفحة تعارض (أي أنها تحتوي على تغييرات يتعذر على OneNote دمجها تلقائيًا).
+يعرض كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote
+// تحميل مستند OneNote.
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -72,8 +72,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // بشكل افتراضي يتم تخطي صفحات التعارض فقط عند الحفظ.
-    // إذا قمت بتمييزه على أنه غير متعارض ، فسيتم حفظه كالمعتاد في السجل.
+    // بشكل افتراضي، يتم تخطي صفحات التعارض عند الحفظ.
+    // إذا تم وضع علامة بأنها غير متعارضة، فسيتم حفظها كصفحة عادية في السجل.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -81,9 +81,9 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

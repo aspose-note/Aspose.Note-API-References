@@ -1,23 +1,23 @@
 ---
-title: Outline.ReservedWidth
-second_title: Aspose.Note لمرجع NET API
-description: Outline ملكية. الحصول على أو تعيين العرض المحجوز .
+title: "Outline.ReservedWidth"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Outline. يحصل أو يضبط العرض المحجوز"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/outline/reservedwidth/
 ---
 ## Outline.ReservedWidth property
 
-الحصول على أو تعيين العرض المحجوز .
+يحصل أو يعيّن العرض المحجوز.
 
 ```csharp
 public float ReservedWidth { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Outline](../)
-* مساحة الاسم [Aspose.Note](../../outline/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outline/)
+* assembly [Aspose.Note](../../../)
 
 

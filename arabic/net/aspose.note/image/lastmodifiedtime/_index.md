@@ -1,31 +1,31 @@
 ---
-title: Image.LastModifiedTime
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. الحصول على أو تعيين وقت آخر تعديل.
+title: "Image.LastModifiedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل أو تعين وقت التعديل الأخير"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/image/lastmodifiedtime/
 ---
 ## Image.LastModifiedTime property
 
-الحصول على أو تعيين وقت آخر تعديل.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
+يظهر كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,10 +40,10 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

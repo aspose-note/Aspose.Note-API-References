@@ -1,7 +1,7 @@
 ---
-title: NoteCheckBox.GetHashCode
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox طريقة. يعمل كدالة تجزئة للنوع.
+title: "NoteCheckBox.GetHashCode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteCheckBox. تُستخدم كدالة تجزئة للنوع"
 type: docs
 weight: 320
 url: /ar/net/aspose.note/notecheckbox/gethashcode/
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

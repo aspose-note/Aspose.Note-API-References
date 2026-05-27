@@ -1,28 +1,28 @@
 ---
-title: TextStyle.HyperlinkAddress
-second_title: Aspose.Note لمرجع NET API
-description: خاصية TextStyle. الحصول على عنوان الارتباط التشعبي أو تعيينه. يكفي تعيين هذه الخاصية لإنشاء ارتباط تشعبي.
+title: "TextStyle.HyperlinkAddress"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextStyle. يحصل أو يضبط عنوان الارتباط التشعبي. ضبط هذه الخاصية يكفي لإنشاء ارتباط تشعبي."
 type: docs
 weight: 60
 url: /ar/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-الحصول على عنوان الارتباط التشعبي أو تعيينه. يكفي تعيين هذه الخاصية لإنشاء ارتباط تشعبي.
+يحصل أو يعيّن عنوان الارتباط التشعبي. تعيين هذه الخاصية يكفي لإنشاء ارتباط تشعبي.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية ربط ارتباط تشعبي بنص.
+يظهر كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -55,30 +55,30 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// تهيئة كائن فئة العنوان
+// تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة الصفحة
+// تهيئة كائن فئة Page
 Page page = new Note.Page() { Title = title };
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

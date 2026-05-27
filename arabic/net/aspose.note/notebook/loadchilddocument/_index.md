@@ -1,26 +1,26 @@
 ---
-title: Notebook.LoadChildDocument
-second_title: Aspose.Note لمرجع NET API
-description: Notebook طريقة. يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف .
+title: "Notebook.LoadChildDocument"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Notebook. تضيف عقدة مستند طفل. تفتح مستند OneNote موجود من ملف"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/notebook/loadchilddocument/
 ---
 ## LoadChildDocument(string) {#loadchilddocument_2}
 
-يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف .
+يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف.
 
 ```csharp
 public void LoadChildDocument(string filePath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تحميل دفتر الملاحظات من دفق.
+يوضح كيفية تحميل الدفتر من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -38,51 +38,51 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## LoadChildDocument(string, LoadOptions) {#loadchilddocument_3}
 
-يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية.
+يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية.
 
 ```csharp
 public void LoadChildDocument(string filePath, LoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
-| loadOptions | LoadOptions | خيارات التحميل . |
+| loadOptions | LoadOptions | خيارات التحميل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [LoadOptions](../../loadoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## LoadChildDocument(Stream) {#loadchilddocument}
 
-يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق .
+يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق.
 
 ```csharp
 public void LoadChildDocument(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
+| دفق | Stream | التدفق. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تحميل دفتر الملاحظات من دفق.
+يوضح كيفية تحميل الدفتر من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -100,32 +100,32 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## LoadChildDocument(Stream, LoadOptions) {#loadchilddocument_1}
 
-يضيف عقدة مستند فرعية . يفتح مستند OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية.
+يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية.
 
 ```csharp
 public void LoadChildDocument(Stream stream, LoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
-| loadOptions | LoadOptions | خيارات التحميل . |
+| دفق | Stream | التدفق. |
+| loadOptions | LoadOptions | خيارات التحميل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [LoadOptions](../../loadoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

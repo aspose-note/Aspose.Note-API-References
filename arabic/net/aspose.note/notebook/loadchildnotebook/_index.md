@@ -1,91 +1,91 @@
 ---
-title: Notebook.LoadChildNotebook
-second_title: Aspose.Note لمرجع NET API
-description: Notebook طريقة. إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من ملف.
+title: "Notebook.LoadChildNotebook"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Notebook. تضيف عقدة مفكرة طفل. تفتح مفكرة OneNote موجودة من ملف"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/notebook/loadchildnotebook/
 ---
 ## LoadChildNotebook(string) {#loadchildnotebook_2}
 
-إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من ملف.
+يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من ملف.
 
 ```csharp
 public void LoadChildNotebook(string filePath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## LoadChildNotebook(string, NotebookLoadOptions) {#loadchildnotebook_3}
 
-يضيف عقدة دفتر ملاحظات فرعية . يفتح دفتر ملاحظات OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية.
+يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من ملف. يسمح بتحديد خيارات تحميل إضافية.
 
 ```csharp
 public void LoadChildNotebook(string filePath, NotebookLoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
-| loadOptions | NotebookLoadOptions | خيارات التحميل . |
+| loadOptions | NotebookLoadOptions | خيارات التحميل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## LoadChildNotebook(Stream) {#loadchildnotebook}
 
-إضافة عقدة دفتر ملاحظات فرعية . فتح دفتر ملاحظات OneNote موجود من دفق .
+يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من تدفق.
 
 ```csharp
 public void LoadChildNotebook(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
+| دفق | Stream | التدفق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## LoadChildNotebook(Stream, NotebookLoadOptions) {#loadchildnotebook_1}
 
-يضيف عقدة دفتر ملاحظات فرعية . يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية.
+يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من تدفق. يسمح بتحديد خيارات تحميل إضافية.
 
 ```csharp
 public void LoadChildNotebook(Stream stream, NotebookLoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
-| loadOptions | NotebookLoadOptions | خيارات التحميل . |
+| دفق | Stream | التدفق. |
+| loadOptions | NotebookLoadOptions | خيارات التحميل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

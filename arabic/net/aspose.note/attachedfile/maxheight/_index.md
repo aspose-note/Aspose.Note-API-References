@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.MaxHeight
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على أو تعيين أقصى ارتفاع لعرض رمز الملف المضمن.
+title: "AttachedFile.MaxHeight"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل أو يضبط أقصى ارتفاع لعرض أيقونة الملف المضمن"
 type: docs
 weight: 160
 url: /ar/net/aspose.note/attachedfile/maxheight/
 ---
 ## AttachedFile.MaxHeight property
 
-الحصول على أو تعيين أقصى ارتفاع لعرض رمز الملف المضمن.
+يحصل أو يعيّن الحد الأقصى للارتفاع لعرض أيقونة الملف المضمّن.
 
 ```csharp
 public float MaxHeight { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

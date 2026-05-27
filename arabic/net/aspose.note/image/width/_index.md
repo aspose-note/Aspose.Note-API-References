@@ -1,31 +1,31 @@
 ---
-title: Image.Width
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. الحصول على العرض أو تحديده. هذا هو العرض الحقيقي للصورة في مستند MS OneNote.
+title: "Image.Width"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل أو تعين العرض. هذا هو العرض الحقيقي للصورة في مستند MS OneNote"
 type: docs
 weight: 180
 url: /ar/net/aspose.note/image/width/
 ---
 ## Image.Width property
 
-الحصول على العرض أو تحديده. هذا هو العرض الحقيقي للصورة في مستند MS OneNote.
+يحصل أو يعيّن العرض. هذا هو العرض الحقيقي للصورة في مستند MS OneNote.
 
 ```csharp
 public float Width { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
+يظهر كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,7 +40,7 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-يوضح كيفية إضافة صورة من ملف إلى مستند بخصائص يحددها المستخدم.
+يظهر كيفية إضافة صورة من ملف إلى مستند مع خصائص محددة من قبل المستخدم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -50,20 +50,20 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // احصل على الصفحة الأولى من المستند.
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
 // تحميل صورة من الملف.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+Image image = new Image(dataDir + "image.jpg")
                           {
-                              // قم بتغيير حجم الصورة وفقًا لاحتياجاتك (اختياري).
+                              // غيّر حجم الصورة وفقًا لاحتياجاتك (اختياري).
                               Width = 100,
                               Height = 100,
 
-                              // تعيين موقع الصورة في الصفحة (اختياري).
+                              // حدد موقع الصورة في الصفحة (اختياري).
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // تعيين محاذاة الصورة
+                              // ضبط محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 
@@ -71,10 +71,10 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

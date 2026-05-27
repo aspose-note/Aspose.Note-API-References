@@ -1,23 +1,23 @@
 ---
-title: Margins.Bottom
-second_title: Aspose.Note لمرجع NET API
-description: Margins ملكية. الحصول على أو تحديد عرض الهامش السفلي.
+title: "Margins.Bottom"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "Margins property. يحصل أو يضبط عرض الهامش السفلي"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/margins/bottom/
 ---
 ## Margins.Bottom property
 
-الحصول على أو تحديد عرض الهامش السفلي.
+الحصول على أو تعيين عرض الهامش السفلي.
 
 ```csharp
 public float Bottom { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Margins](../)
-* مساحة الاسم [Aspose.Note](../../margins/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../margins/)
+* assembly [Aspose.Note](../../../)
 
 

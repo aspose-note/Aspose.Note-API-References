@@ -1,36 +1,36 @@
 ---
-title: Class PdfImportOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Importing.PdfImportOptions فصل. يسمح بتحديد الخيارات عند استيراد محتوى من مستند PDF .
+title: "الفئة PdfImportOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Importing.PdfImportOptions. يسمح بتحديد الخيارات عند استيراد المحتوى من مستند PDF"
 type: docs
-weight: 260
+weight: 280
 url: /ar/net/aspose.note.importing/pdfimportoptions/
 ---
 ## PdfImportOptions class
 
-يسمح بتحديد الخيارات عند استيراد محتوى من مستند PDF .
+يسمح بتحديد الخيارات عند استيراد المحتوى من مستند PDF.
 
 ```csharp
 public class PdfImportOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PdfImportOptions](pdfimportoptions/)() | Default_Constructor |
+| [PdfImportOptions](pdfimportoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount/) { get; set; } | الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند. |
-| [PageIndex](../../aspose.note.importing/pdfimportoptions/pageindex/) { get; set; } | الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0. |
-| [Password](../../aspose.note.importing/pdfimportoptions/password/) { get; set; } | الحصول على أو تعيين كلمة مرور لفك تشفير محتوى المستند. |
+| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند. |
+| [PageIndex](../../aspose.note.importing/pdfimportoptions/pageindex/) { get; set; } | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0. |
+| [Password](../../aspose.note.importing/pdfimportoptions/password/) { get; set; } | يحصل أو يضبط كلمة مرور لفك تشفير محتوى المستند. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Importing](../../aspose.note.importing/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Importing](../../aspose.note.importing/)
+* assembly [Aspose.Note](../../)
 
 

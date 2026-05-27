@@ -1,68 +1,68 @@
 ---
-title: RichText.Remove
-second_title: Aspose.Note لمرجع NET API
-description: RichText طريقة. يزيل عددًا محددًا من الأحرف في المثيل الحالي الذي يبدأ من الموضع المحدد.
+title: "RichText.Remove"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة RichText. تزيل عددًا محددًا من الأحرف في النسخة الحالية بدءًا من موضع محدد"
 type: docs
-weight: 190
+weight: 220
 url: /ar/net/aspose.note/richtext/remove/
 ---
 ## Remove(int, int) {#remove_1}
 
-يزيل عددًا محددًا من الأحرف في المثيل الحالي الذي يبدأ من الموضع المحدد.
+يزيل عددًا محددًا من الأحرف في الحالة الحالية بدءًا من موضع محدد.
 
 ```csharp
 public RichText Remove(int startIndex, int count)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| startIndex | Int32 | فهرس البداية . |
-| count | Int32 | العدد . |
+| startIndex | Int32 | فهرس البداية. |
+| count | Int32 | العدد. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Remove(int) {#remove}
 
-يزيل جميع الأحرف في المثال الحالي ، بدءًا من الموضع المحدد ويستمر حتى آخر موضع.
+يزيل جميع الأحرف في الحالة الحالية، بدءًا من موضع محدد ومتابعةً حتى الموضع الأخير.
 
 ```csharp
 public RichText Remove(int startIndex)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| startIndex | Int32 | فهرس البداية . |
+| startIndex | Int32 | فهرس البداية. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

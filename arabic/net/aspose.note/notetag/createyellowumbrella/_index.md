@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateYellowUmbrella
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز YellowUmbrella والتسمية المحددة.
+title: "NoteTag.CreateYellowUmbrella"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة YellowUmbrella وملصق محدد"
 type: docs
 weight: 1090
 url: /ar/net/aspose.note/notetag/createyellowumbrella/
 ---
 ## NoteTag.CreateYellowUmbrella method
 
-إنشاء علامة ملاحظة جديدة مع رمز YellowUmbrella والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowUmbrella والعلامة المحددة.
 
 ```csharp
 public static NoteTag CreateYellowUmbrella(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

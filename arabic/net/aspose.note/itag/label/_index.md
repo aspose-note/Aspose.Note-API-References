@@ -1,7 +1,7 @@
 ---
-title: ITag.Label
-second_title: Aspose.Note لمرجع NET API
-description: ITag ملكية. يحصل على نص التسمية.
+title: "ITag.Label"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "ITag property. يحصل على نص التسمية"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/itag/label/
@@ -14,15 +14,15 @@ url: /ar/net/aspose.note/itag/label/
 public string Label { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إكمال جميع عناصر مربعات الاختيار المتعلقة بالمشروع ج.
+يوضح كيفية إكمال جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -39,13 +39,13 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-يوضح كيفية فتح جميع عناصر مربعات الاختيار المتعلقة بالمشروع ج.
+يوضح كيفية فتح جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -62,19 +62,19 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-يوضح كيفية الوصول إلى تفاصيل العلامة.
+يظهر كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "TagFile.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -83,7 +83,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -96,10 +96,10 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [ITag](../)
-* مساحة الاسم [Aspose.Note](../../itag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../itag/)
+* assembly [Aspose.Note](../../../)
 
 

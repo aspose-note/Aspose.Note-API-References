@@ -1,22 +1,22 @@
 ---
-title: Document.FileFormat
-second_title: Aspose.Note لمرجع NET API
-description: Document ملكية. الحصول على تنسيق الملف OneNote 2010  OneNote Online .
+title: "Document.FileFormat"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Document. تحصل على تنسيق الملف OneNote 2010 OneNote Online"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/document/fileformat/
 ---
 ## Document.FileFormat property
 
-الحصول على تنسيق الملف (OneNote 2010 ، OneNote Online) .
+يحصل على تنسيق الملف (OneNote 2010، OneNote Online).
 
 ```csharp
 public FileFormat FileFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على تنسيق ملف لمستند.
+يعرض كيفية الحصول على تنسيق الملف للمستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -29,16 +29,16 @@ switch (document.FileFormat)
         // معالجة OneNote 2010
         break;
     case FileFormat.OneNoteOnline:
-        // معالجة OneNote عبر الإنترنت
+        // معالجة OneNote Online
         break;
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FileFormat](../../fileformat/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

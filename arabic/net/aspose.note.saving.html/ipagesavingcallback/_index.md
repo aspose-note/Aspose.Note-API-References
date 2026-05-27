@@ -1,28 +1,28 @@
 ---
-title: Interface IPageSavingCallback
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.Html.IPageSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Note بحفظ صفحات منفصلة.
+title: "الواجهة IPageSavingCallback"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الواجهة Aspose.Note.Saving.Html.IPageSavingCallback. نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصفحات المنفصلة."
 type: docs
-weight: 650
+weight: 730
 url: /ar/net/aspose.note.saving.html/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Note بحفظ صفحات منفصلة.
+نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصفحات المنفصلة.
 
 ```csharp
 public interface IPageSavingCallback
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PageSaving](../../aspose.note.saving.html/ipagesavingcallback/pagesaving/)(PageSavingArgs) | تم استدعاؤه عند Aspose.Note يحفظ صفحة منفصلة. |
+| [PageSaving](../../aspose.note.saving.html/ipagesavingcallback/pagesaving/)(PageSavingArgs) | يتم الاستدعاء عندما يقوم Aspose.Note بحفظ صفحة منفصلة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

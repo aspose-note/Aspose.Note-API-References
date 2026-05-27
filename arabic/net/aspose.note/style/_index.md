@@ -1,14 +1,14 @@
 ---
-title: Class Style
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Style فصل. تحتوي هذه الفئة على الخصائص العامة لـParagraphStyle وTextStyle الطبقات .
+title: "الفئة Style"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Style. تحتوي هذه الفئة على خصائص مشتركة لفئات ParagraphStyle و TextStyle."
 type: docs
-weight: 890
+weight: 970
 url: /ar/net/aspose.note/style/
 ---
 ## Style class
 
-تحتوي هذه الفئة على الخصائص العامة لـ[`ParagraphStyle`](../paragraphstyle/) و[`TextStyle`](../textstyle/) الطبقات .
+تحتوي هذه الفئة على خصائص مشتركة لفئات [`ParagraphStyle`](../paragraphstyle/) و [`TextStyle`](../textstyle/).
 
 ```csharp
 public class Style
@@ -16,29 +16,29 @@ public class Style
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | الحصول على لون الخط أو تعيينه. |
-| [FontName](../../aspose.note/style/fontname/) { get; set; } | الحصول على اسم الخط أو تحديده. |
-| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | الحصول على حجم الخط أو تحديده. |
-| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | يحصل على نمط الخط . |
-| [Highlight](../../aspose.note/style/highlight/) { get; set; } | الحصول على لون التمييز أو تعيينه. |
-| [IsBold](../../aspose.note/style/isbold/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص غامقًا . |
-| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مائلاً. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص يتوسطه خط أم لا. |
-| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
-| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص تحته خط أم لا. |
+| [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | يحصل أو يضبط لون الخط. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | يحصل أو يعيّن اسم الخط. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | يحصل أو يعيّن حجم الخط. |
+| [FontStyle](../../aspose.note/style/fontstyle/) { get; } | يحصل على نمط الخط. |
+| [Highlight](../../aspose.note/style/highlight/) { get; set; } | يحصل أو يضبط لون التظليل. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص تحته خط. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | override [GetHashCode](../../aspose.note/style/gethashcode/)() | يعمل كدالة تجزئة للنوع. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

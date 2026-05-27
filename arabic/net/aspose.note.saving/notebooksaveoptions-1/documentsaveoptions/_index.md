@@ -1,28 +1,28 @@
 ---
-title: NotebookSaveOptions1.DocumentSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: NotebookSaveOptions ملكية. الحصول على أو تعيين خيارات الحفظ لجميع المستندات التابعة لدفتر الملاحظات.
+title: "NotebookSaveOptions1.DocumentSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NotebookSaveOptions property. يحصل أو يعيّن خيارات الحفظ لجميع المستندات الفرعية للدفاتر"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/
 ---
 ## NotebookSaveOptions&lt;TDocumentSaveOptions&gt;.DocumentSaveOptions property
 
-الحصول على أو تعيين خيارات الحفظ لجميع المستندات التابعة لدفتر الملاحظات.
+يحصل أو يعيّن خيارات الحفظ لجميع المستندات الفرعية للدفتر.
 
 ```csharp
 public TDocumentSaveOptions DocumentSaveOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر الملاحظات بتنسيق pdf بخيارات محددة.
+يوضح كيفية حفظ الدفتر بتنسيق pdf مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -33,14 +33,14 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../)
-* مساحة الاسم [Aspose.Note.Saving](../../notebooksaveoptions-1/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../notebooksaveoptions-1/)
+* assembly [Aspose.Note](../../../)
 
 

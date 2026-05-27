@@ -1,23 +1,23 @@
 ---
-title: TableCell.LastModifiedTime
-second_title: Aspose.Note لمرجع NET API
-description: TableCell ملكية. الحصول على أو تعيين وقت آخر تعديل.
+title: "TableCell.LastModifiedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "TableCell خاصية. يحصل على أو يضبط وقت آخر تعديل"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/tablecell/lastmodifiedtime/
 ---
 ## TableCell.LastModifiedTime property
 
-الحصول على أو تعيين وقت آخر تعديل.
+يحصل أو يعيّن وقت آخر تعديل.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableCell](../)
-* مساحة الاسم [Aspose.Note](../../tablecell/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablecell/)
+* assembly [Aspose.Note](../../../)
 
 

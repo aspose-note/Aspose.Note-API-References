@@ -1,23 +1,23 @@
 ---
-title: Outline.MaxHeight
-second_title: Aspose.Note لمرجع NET API
-description: Outline ملكية. الحصول على أقصى ارتفاع أو تحديده.
+title: "Outline.MaxHeight"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Outline. يحصل أو يضبط الحد الأقصى للارتفاع"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/outline/maxheight/
 ---
 ## Outline.MaxHeight property
 
-الحصول على أقصى ارتفاع أو تحديده.
+يحصل أو يعيّن الحد الأقصى للارتفاع.
 
 ```csharp
 public float MaxHeight { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Outline](../)
-* مساحة الاسم [Aspose.Note](../../outline/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outline/)
+* assembly [Aspose.Note](../../../)
 
 

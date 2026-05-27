@@ -1,9 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.LoadOptions فصل. الخيارات المستخدمة لتحميل مستند.
+title: "الفئة LoadOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.LoadOptions. الخيارات المستخدمة لتحميل مستند."
 type: docs
-weight: 320
+weight: 380
 url: /ar/net/aspose.note/loadoptions/
 ---
 ## LoadOptions class
@@ -14,22 +14,22 @@ url: /ar/net/aspose.note/loadoptions/
 public class LoadOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [LoadOptions](loadoptions/)() | Default_Constructor |
+| [LoadOptions](loadoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DocumentPassword](../../aspose.note/loadoptions/documentpassword/) { get; set; } | الحصول على أو تعيين كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حالة عدم كون المستند محميًا بكلمة مرور. |
-| [LoadHistory](../../aspose.note/loadoptions/loadhistory/) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان يجب على أداة تحميل المستندات تجاهل السجل. استخدم هذا الخيار لتقليل استخدام الذاكرة ووحدة المعالجة المركزية . القيمة الافتراضية هي`حقيقي` . |
+| [DocumentPassword](../../aspose.note/loadoptions/documentpassword/) { get; set; } | يحصل أو يضبط كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حال عدم حماية المستند بكلمة مرور. |
+| [LoadHistory](../../aspose.note/loadoptions/loadhistory/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب على محمل المستند تجاهل السجل. استخدم هذا الخيار لتقليل استهلاك الذاكرة والمعالج. القيمة الافتراضية هي `true`. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية عمل مستند مشفر.
+يعرض كيفية التعامل مع مستند مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -39,7 +39,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-يوضح كيفية عمل دفتر ملاحظات مشفر.
+يوضح كيفية التعامل مع دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -51,13 +51,13 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-يوضح كيفية الحصول على محفوظات الصفحة.
+يظهر كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote
+// تحميل مستند OneNote.
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى
@@ -74,9 +74,9 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

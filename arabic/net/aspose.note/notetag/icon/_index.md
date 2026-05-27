@@ -1,28 +1,28 @@
 ---
-title: NoteTag.Icon
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag ملكية. الحصول على الرمز أو تعيينه.
+title: "NoteTag.Icon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NoteTag. تحصل أو تعين الرمز"
 type: docs
 weight: 1170
 url: /ar/net/aspose.note/notetag/icon/
 ---
 ## NoteTag.Icon property
 
-الحصول على الرمز أو تعيينه.
+يحصل أو يعيّن الأيقونة.
 
 ```csharp
 public TagIcon Icon { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف[`TagIcon`](../../tagicon/) .
+ال [`TagIcon`](../../tagicon/).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TagIcon](../../tagicon/)
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

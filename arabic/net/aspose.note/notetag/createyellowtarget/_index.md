@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateYellowTarget
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز YellowTarget والتسمية المحددة.
+title: "NoteTag.CreateYellowTarget"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowTarget والملصق المحدد"
 type: docs
 weight: 1070
 url: /ar/net/aspose.note/notetag/createyellowtarget/
 ---
 ## NoteTag.CreateYellowTarget method
 
-إنشاء علامة ملاحظة جديدة مع رمز YellowTarget والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowTarget والعلامة المحددة.
 
 ```csharp
 public static NoteTag CreateYellowTarget(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

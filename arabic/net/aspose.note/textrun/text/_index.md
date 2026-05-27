@@ -1,23 +1,23 @@
 ---
-title: TextRun.Text
-second_title: Aspose.Note لمرجع NET API
-description: TextRun ملكية. الحصول على النص أو تعيينه.
+title: "TextRun.Text"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextRun. تحصل أو تعين النص"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/textrun/text/
 ---
 ## TextRun.Text property
 
-الحصول على النص أو تعيينه.
+يحصل أو يضبط النص.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextRun](../)
-* مساحة الاسم [Aspose.Note](../../textrun/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textrun/)
+* assembly [Aspose.Note](../../../)
 
 

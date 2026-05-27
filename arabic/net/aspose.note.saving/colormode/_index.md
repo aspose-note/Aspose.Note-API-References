@@ -1,54 +1,54 @@
 ---
-title: Enum ColorMode
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.ColorMode تعداد. الوضع اللوني للصورة .
+title: "التعداد ColorMode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "التعداد Aspose.Note.Saving.ColorMode. وضع اللون للصورة"
 type: docs
-weight: 570
+weight: 650
 url: /ar/net/aspose.note.saving/colormode/
 ---
 ## ColorMode enumeration
 
-الوضع اللوني للصورة .
+وضع اللون للصورة.
 
 ```csharp
 public enum ColorMode
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Normal | `0` | صورة بالألوان الكاملة |
-| GrayScale | `1` | صورة بمقياس رمادي |
-| BlackAndWhite | `2` | صورة ثنائية: يتم استخدام الألوان السوداء والبيضاء فقط |
+| Normal | `0` | صورة ملونة بالكامل |
+| GrayScale | `1` | صورة بتدرج الرمادي |
+| BlackAndWhite | `2` | صورة ثنائية: تُستخدم فقط الألوان الأسود والأبيض |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند كصورة ذات تدرج رمادي.
+يظهر كيفية حفظ المستند كصورة بتدرج الرمادي.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingCcitt3Compression.tiff");
@@ -61,18 +61,18 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام طريقة Otsu.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -83,18 +83,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام عتبة ثابتة.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -106,9 +106,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

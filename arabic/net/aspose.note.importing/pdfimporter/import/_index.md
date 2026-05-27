@@ -1,35 +1,35 @@
 ---
-title: PdfImporter.Import
-second_title: Aspose.Note لمرجع NET API
-description: PdfImporter طريقة. يستورد محتوى مستند PDF من التدفق المقدم .
+title: "PdfImporter.Import"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PdfImporter. تستورد محتوى مستند PDF من تدفق مُقدم"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.importing/pdfimporter/import/
 ---
 ## Import(Stream, PdfImportOptions) {#import}
 
-يستورد محتوى مستند PDF من التدفق المقدم .
+يستورد محتوى مستند PDF من تدفق مُقدم.
 
 ```csharp
 public static List<Page> Import(Stream stream, PdfImportOptions options = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
-| options | PdfImportOptions | الخيارات . |
+| دفق | Stream | التدفق. |
+| خيارات | PdfImportOptions | الخيارات. |
 
 ### قيمة الإرجاع
 
-ملف[`PdfImporter`](../) .
+ال [`PdfImporter`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../../aspose.note/page/)
 * class [PdfImportOptions](../../pdfimportoptions/)
 * class [PdfImporter](../)
-* مساحة الاسم [Aspose.Note.Importing](../../pdfimporter/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimporter/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
@@ -41,18 +41,18 @@ public static List<Page> Import(Stream stream, PdfImportOptions options = null)
 public static List<Page> Import(string file, PdfImportOptions options = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| file | String | ملف PDF . |
-| options | PdfImportOptions | الخيارات . |
+| ملف | String | ملف PDF. |
+| خيارات | PdfImportOptions | الخيارات. |
 
 ### قيمة الإرجاع
 
-ملف[`PdfImporter`](../) .
+ال [`PdfImporter`](../).
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مستند PDF الذي يجمع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -71,12 +71,12 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../../aspose.note/page/)
 * class [PdfImportOptions](../../pdfimportoptions/)
 * class [PdfImporter](../)
-* مساحة الاسم [Aspose.Note.Importing](../../pdfimporter/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimporter/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Notebook.FileFormat
-second_title: Aspose.Note لمرجع NET API
-description: Notebook ملكية. الحصول على تنسيق الملف OneNote 2010  OneNote Online .
+title: "Notebook.FileFormat"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Notebook. تحصل على تنسيق الملف OneNote 2010 OneNote Online"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/notebook/fileformat/
 ---
 ## Notebook.FileFormat property
 
-الحصول على تنسيق الملف (OneNote 2010 ، OneNote Online) .
+يحصل على تنسيق الملف (OneNote 2010، OneNote Online).
 
 ```csharp
 public FileFormat FileFormat { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FileFormat](../../fileformat/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

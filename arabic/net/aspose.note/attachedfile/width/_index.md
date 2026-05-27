@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.Width
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على العرض الأصلي لرمز الملف المضمن.
+title: "AttachedFile.Width"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل على العرض الأصلي لأيقونة الملف المضمن"
 type: docs
-weight: 210
+weight: 220
 url: /ar/net/aspose.note/attachedfile/width/
 ---
 ## AttachedFile.Width property
 
-الحصول على العرض الأصلي لرمز الملف المضمن.
+يحصل على العرض الأصلي لأيقونة الملف المضمّن.
 
 ```csharp
 public float Width { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

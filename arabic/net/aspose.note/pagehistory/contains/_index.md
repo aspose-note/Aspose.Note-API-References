@@ -1,32 +1,32 @@
 ---
-title: PageHistory.Contains
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. لتحديد ما إذا كان سجل الصفحة يحتوي على إصدار الصفحة.
+title: "PageHistory.Contains"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. تحدد ما إذا كان تاريخ الصفحات يحتوي على إصدار الصفحة"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/pagehistory/contains/
 ---
 ## PageHistory.Contains method
 
-لتحديد ما إذا كان سجل الصفحة يحتوي على إصدار الصفحة.
+يحدد ما إذا كان سجل الصفحات يحتوي على إصدار الصفحة.
 
 ```csharp
 public bool Contains(Page item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| item | Page | إصدار الصفحة. |
+| عنصر | Page | إصدار الصفحة. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,32 +1,32 @@
 ---
-title: Margins.op_Equality
-second_title: Aspose.Note لمرجع NET API
-description: Margins طريقة. اختبار ما إذا كان اثنانMargins الهياكل متساوية.
+title: "Margins.op_Equality"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Margins. تختبر ما إذا كان هيكلا Margins اثنان متساويين"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/margins/op_equality/
 ---
 ## Margins Equality operator
 
-اختبار ما إذا كان اثنانMargins الهياكل متساوية.
+يفحص ما إذا كان هيكلا Margins متساويين.
 
 ```csharp
 public static bool operator ==(Margins lhs, Margins rhs)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | Margins | ملفMargins هيكل . |
-| rhs | Margins | ملفMargins هيكل ليتم مقارنتها مع . |
+| lhs | Margins | هيكل Margins. |
+| rhs | Margins | هيكل Margins للمقارنة معه. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Margins](../)
-* مساحة الاسم [Aspose.Note](../../margins/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../margins/)
+* assembly [Aspose.Note](../../../)
 
 

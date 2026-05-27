@@ -1,23 +1,23 @@
 ---
-title: Style.IsUnderline
-second_title: Aspose.Note لمرجع NET API
-description: Style ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص تحته خط أم لا.
+title: "Style.IsUnderline"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Style. يحصل على أو يضبط قيمة تشير إلى ما إذا كان نمط النص هو تحتي"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/style/isunderline/
 ---
 ## Style.IsUnderline property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص تحته خط أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص تحته خط.
 
 ```csharp
 public bool IsUnderline { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Note](../../style/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

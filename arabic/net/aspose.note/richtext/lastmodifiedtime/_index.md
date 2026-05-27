@@ -1,30 +1,30 @@
 ---
-title: RichText.LastModifiedTime
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. الحصول على أو تعيين وقت آخر تعديل.
+title: "RichText.LastModifiedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. تحصل أو تعيّن وقت التعديل الأخير"
 type: docs
-weight: 30
+weight: 60
 url: /ar/net/aspose.note/richtext/lastmodifiedtime/
 ---
 ## RichText.LastModifiedTime property
 
-الحصول على أو تعيين وقت آخر تعديل.
+يحصل أو يعيّن وقت آخر تعديل.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-دعنا نؤكد على التغييرات الأخيرة في النص من خلال التمييز.
+دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Get RichText عُدلت الأسبوع الماضي.
+// احصل على عقد RichText المعدلة الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -41,10 +41,10 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

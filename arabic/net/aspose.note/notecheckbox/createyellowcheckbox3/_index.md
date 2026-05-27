@@ -1,31 +1,31 @@
 ---
-title: NoteCheckBox.CreateYellowCheckBox3
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox طريقة. إنشاء مربع اختيار ملاحظة جديد مع رمز YellowCheckBox3Empty والتسمية المحددة.
+title: "NoteCheckBox.CreateYellowCheckBox3"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteCheckBox. ينشئ مربع اختيار ملاحظة جديد مع أيقونة YellowCheckBox3Empty والعنوان المحدد"
 type: docs
 weight: 230
 url: /ar/net/aspose.note/notecheckbox/createyellowcheckbox3/
 ---
 ## NoteCheckBox.CreateYellowCheckBox3 method
 
-إنشاء مربع اختيار ملاحظة جديد مع رمز YellowCheckBox3Empty والتسمية المحددة.
+إنشاء خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox3Empty والملصق المحدد.
 
 ```csharp
 public static NoteCheckBox CreateYellowCheckBox3(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteCheckBox`](../) .
+ال [`NoteCheckBox`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

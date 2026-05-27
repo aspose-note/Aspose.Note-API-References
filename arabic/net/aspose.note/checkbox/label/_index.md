@@ -1,7 +1,7 @@
 ---
-title: CheckBox.Label
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox ملكية. يحصل على نص التسمية.
+title: "CheckBox.Label"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "CheckBox خاصية. يحصل على نص التسمية"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/checkbox/label/
@@ -14,10 +14,10 @@ url: /ar/net/aspose.note/checkbox/label/
 public string Label { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.Icon
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على البيانات الثنائية للرمز المرتبط بالملف المضمن.
+title: "AttachedFile.Icon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل على البيانات الثنائية للأيقونة المرتبطة بالملف المضمّن"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/attachedfile/icon/
 ---
 ## AttachedFile.Icon property
 
-الحصول على البيانات الثنائية للرمز المرتبط بالملف المضمن.
+يحصل على البيانات الثنائية للأيقونة المرتبطة بالملف المضمّن.
 
 ```csharp
 public byte[] Icon { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

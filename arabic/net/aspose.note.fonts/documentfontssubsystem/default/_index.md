@@ -1,23 +1,23 @@
 ---
-title: DocumentFontsSubsystem.Default
-second_title: Aspose.Note لمرجع NET API
-description: DocumentFontsSubsystem ملكية. الحصول على المثيل الافتراضي الثابت أو تعيينه.
+title: "DocumentFontsSubsystem.Default"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "DocumentFontsSubsystem property. يحصل أو يضبط النسخة الافتراضية الثابتة"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.fonts/documentfontssubsystem/default/
 ---
 ## DocumentFontsSubsystem.Default property
 
-الحصول على المثيل الافتراضي الثابت أو تعيينه.
+يحصل أو يعيّن المثيل الافتراضي الثابت.
 
 ```csharp
 public static DocumentFontsSubsystem Default { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentFontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../documentfontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../documentfontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

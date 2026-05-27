@@ -1,14 +1,14 @@
 ---
-title: RichText.GetEnumerator
-second_title: Aspose.Note لمرجع NET API
-description: RichText طريقة. إرجاع عداد يتكرر خلال أحرف كائن RichText هذا.
+title: "RichText.GetEnumerator"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة RichText. تُرجع مُعدِّدًا يتنقل عبر أحرف هذا الكائن RichText"
 type: docs
-weight: 160
+weight: 190
 url: /ar/net/aspose.note/richtext/getenumerator/
 ---
 ## RichText.GetEnumerator method
 
-إرجاع عداد يتكرر خلال أحرف كائن RichText هذا.
+يرجع عدادًا يتنقل عبر أحرف كائن RichText هذا.
 
 ```csharp
 public IEnumerator<char> GetEnumerator()
@@ -16,12 +16,12 @@ public IEnumerator<char> GetEnumerator()
 
 ### قيمة الإرجاع
 
-ملفIEnumerator .
+الـ IEnumerator.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

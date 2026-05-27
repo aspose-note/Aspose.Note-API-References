@@ -1,27 +1,27 @@
 ---
-title: CheckBox.CompletedTime
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox ملكية. الحصول على الوقت المكتمل أو تعيينه .
+title: "CheckBox.CompletedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "CheckBox خاصية. يحصل على أو يضبط وقت الإكمال"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/checkbox/completedtime/
 ---
 ## CheckBox.CompletedTime property
 
-الحصول على الوقت المكتمل أو تعيينه .
+يحصل أو يعيّن وقت الإكمال.
 
 ```csharp
 public DateTime? CompletedTime { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملفNullable .
+القابل للإلغاء.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

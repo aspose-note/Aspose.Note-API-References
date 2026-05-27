@@ -1,20 +1,20 @@
 ---
-title: Document.AutomaticLayoutChangesDetectionEnabled
-second_title: Aspose.Note لمرجع NET API
-description: Document ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان Aspose.Note يقوم باكتشاف تغييرات التخطيط تلقائيًا. القيمة الافتراضية هيحقيقي .
+title: "Document.AutomaticLayoutChangesDetectionEnabled"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Document. تحصل أو تعين قيمة تشير إلى ما إذا كان Aspose.Note يقوم بالكشف عن تغييرات التخطيط تلقائيًا. القيمة الافتراضية هي true"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/document/automaticlayoutchangesdetectionenabled/
 ---
 ## Document.AutomaticLayoutChangesDetectionEnabled property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان Aspose.Note يقوم باكتشاف تغييرات التخطيط تلقائيًا. القيمة الافتراضية هي`حقيقي` .
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان Aspose.Note يقوم باكتشاف تغييرات التخطيط تلقائيًا. القيمة الافتراضية هي `true`.
 
 ```csharp
 public bool AutomaticLayoutChangesDetectionEnabled { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيقات مختلفة.
 
@@ -26,9 +26,9 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // تهيئة الصفحة الجديدة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -40,7 +40,7 @@ page.Title = new Title()
 // إلحاق عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote بتنسيقات مختلفة وتعيين حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
+// حفظ مستند OneNote بصيغ مختلفة، ضبط حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -49,10 +49,10 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

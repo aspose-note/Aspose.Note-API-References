@@ -1,28 +1,28 @@
 ---
-title: FontsSubsystem.AddFontSubstitution
-second_title: Aspose.Note لمرجع NET API
-description: FontsSubsystem طريقة. إضافة استبدال الخط .
+title: "FontsSubsystem.AddFontSubstitution"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة FontsSubsystem. يضيف استبدال الخط"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.fonts/fontssubsystem/addfontsubstitution/
 ---
 ## FontsSubsystem.AddFontSubstitution method
 
-إضافة استبدال الخط .
+يضيف استبدال الخط.
 
 ```csharp
 public void AddFontSubstitution(string substituted, string substitution)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| substituted | String | اسم الخط البديل. |
-| substitution | String | اسم خط الاستبدال . |
+| مستبدل | String | اسم الخط المستبدل. |
+| استبدال | String | اسم خط الاستبدال. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../fontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

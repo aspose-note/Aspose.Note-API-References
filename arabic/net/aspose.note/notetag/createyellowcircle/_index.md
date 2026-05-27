@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateYellowCircle
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة YellowCircle والتسمية المحددة.
+title: "NoteTag.CreateYellowCircle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة YellowCircle وملصق محدد"
 type: docs
 weight: 940
 url: /ar/net/aspose.note/notetag/createyellowcircle/
 ---
 ## NoteTag.CreateYellowCircle method
 
-ينشئ علامة ملاحظة جديدة بأيقونة YellowCircle والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowCircle والعلامة المحددة.
 
 ```csharp
 public static NoteTag CreateYellowCircle(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

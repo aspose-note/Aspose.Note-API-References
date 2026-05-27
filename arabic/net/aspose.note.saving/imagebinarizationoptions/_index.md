@@ -1,46 +1,46 @@
 ---
-title: Class ImageBinarizationOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.ImageBinarizationOptions فصل. خيارات لترميز الصورة بالترميز .
+title: "الفئة ImageBinarizationOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.ImageBinarizationOptions. خيارات لتصنيف الصور إلى ثنائي"
 type: docs
-weight: 710
+weight: 790
 url: /ar/net/aspose.note.saving/imagebinarizationoptions/
 ---
 ## ImageBinarizationOptions class
 
-خيارات لترميز الصورة بالترميز .
+خيارات لتصنيف الصورة إلى ثنائي.
 
 ```csharp
 public class ImageBinarizationOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ImageBinarizationOptions](imagebinarizationoptions/)() | Default_Constructor |
+| [ImageBinarizationOptions](imagebinarizationoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BinarizationMethod](../../aspose.note.saving/imagebinarizationoptions/binarizationmethod/) { get; set; } | الحصول على طريقة الترميز الثنائي أو تعيينها . القيمة الافتراضية هيFixedThreshold . |
-| [BinarizationThreshold](../../aspose.note.saving/imagebinarizationoptions/binarizationthreshold/) { get; set; } | الحصول على أو تعيين قيمة حد لطريقة ترميز العتبة الثنائية الثابتة . القيمة الافتراضية هي 128. |
+| [BinarizationMethod](../../aspose.note.saving/imagebinarizationoptions/binarizationmethod/) { get; set; } | يحصل أو يضبط طريقة التحويل إلى ثنائي. القيمة الافتراضية هي FixedThreshold. |
+| [BinarizationThreshold](../../aspose.note.saving/imagebinarizationoptions/binarizationthreshold/) { get; set; } | يحصل أو يضبط قيمة العتبة لطريقة التحويل إلى ثنائي ذات العتبة الثابتة. القيمة الافتراضية هي 128. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام طريقة Otsu.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -51,18 +51,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام عتبة ثابتة.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -74,9 +74,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

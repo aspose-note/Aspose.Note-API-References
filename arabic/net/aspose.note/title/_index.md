@@ -1,59 +1,59 @@
 ---
-title: Class Title
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Title فصل. يمثل عنوانًا .
+title: "الفئة Title"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Title. تمثل عنوانًا"
 type: docs
-weight: 980
+weight: 1060
 url: /ar/net/aspose.note/title/
 ---
 ## Title class
 
-يمثل عنوانًا .
+يمثل عنوانًا.
 
 ```csharp
 public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageChildNode
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Title](title/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Title` فئة . |
+| [Title](title/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
-| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
-| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
-| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
-| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | الحصول على أو تعيين سلسلة تمثيل التاريخ في العنوان. |
-| [TitleText](../../aspose.note/title/titletext/) { get; set; } | الحصول على نص العنوان أو تحديده. |
-| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | الحصول على أو تعيين سلسلة تمثيل للوقت في العنوان. |
-| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
+| [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | يحصل أو يعيّن الإزاحة الأفقية. |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كانت true يمكن للعقدة أن تحتوي على عقد فرعية. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | يحصل أو يعيّن تمثيلًا نصيًا للتاريخ في العنوان. |
+| [TitleText](../../aspose.note/title/titletext/) { get; set; } | يحصل أو يعيّن نص العنوان. |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | يحصل أو يعيّن تمثيلًا نصيًا للوقت في العنوان. |
+| [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | يحصل أو يضبط الإزاحة العمودية. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | احصل على جميع العقد الفرعية حسب نوع العقدة . |
-| [GetEnumerator](../../aspose.note/title/getenumerator/)() | إرجاع العداد الذي يتكرر خلال العقد التابعة لملف`Title` . |
+| override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | احصل على جميع عقد الطفل حسب نوع العقدة. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | يعيد عدّادًا يتنقل عبر العقد الفرعية لـ `Title`. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تحرير محفوظات الصفحة.
+يوضح كيفية تعديل تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -74,7 +74,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-يوضح كيفية تعيين عنوان للصفحة.
+يوضح كيفية تعيين عنوان لصفحة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -113,11 +113,11 @@ doc.Save(outputPath);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote
+// تهيئة مستند OneNote.
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -126,38 +126,9 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// حفظ في تنسيق HTML
+// حفظ بتنسيق HTML
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
-```
-
-يوضح كيفية إنشاء مستند وحفظه بتنسيق html في نطاق محدد من الصفحات.
-
-```csharp
-// المسار إلى دليل المستندات.
-string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
-
-// تهيئة مستند OneNote
-Document doc = new Document();
-
-Page page = doc.AppendChildLast(new Page());
-
-// النمط الافتراضي لكل النص في المستند.
-ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-page.Title = new Title()
-             {
-                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
-             };
-
-// حفظ في تنسيق HTML
-dataDir = dataDir + "CreateAndSavePageRange_out.html";
-doc.Save(dataDir, new HtmlSaveOptions
-                  {
-                      PageCount = 1,
-                      PageIndex = 0
-                  });
 ```
 
 يوضح كيفية إنشاء مستند بصفحة معنونة.
@@ -166,13 +137,13 @@ doc.Save(dataDir, new HtmlSaveOptions
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة المستند
-Document doc = new Aspose.Note.Document();
+// إنشاء كائن من فئة Document
+Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // تعيين خصائص عنوان الصفحة
@@ -183,12 +154,41 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة الصفحة في المستند
+// إلحاق عقدة Page في المستند
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
+```
+
+يوضح كيفية إنشاء مستند وحفظه بتنسيق html لنطاق محدد من الصفحات.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// تهيئة مستند OneNote.
+Document doc = new Document();
+
+Page page = doc.AppendChildLast(new Page());
+
+// النمط الافتراضي لجميع النصوص في المستند.
+ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+page.Title = new Title()
+             {
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
+             };
+
+// حفظ بتنسيق HTML
+dataDir = dataDir + "CreateAndSavePageRange_out.html";
+doc.Save(dataDir, new HtmlSaveOptions
+                  {
+                      PageCount = 1,
+                      PageIndex = 0
+                  });
 ```
 
 يوضح كيفية حفظ مستند بتنسيقات مختلفة.
@@ -201,9 +201,9 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // تهيئة الصفحة الجديدة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -215,7 +215,7 @@ page.Title = new Title()
 // إلحاق عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote بتنسيقات مختلفة وتعيين حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
+// حفظ مستند OneNote بصيغ مختلفة، ضبط حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -224,13 +224,13 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CompositeNodeBase](../compositenodebase/)
 * interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)
 * class [RichText](../richtext/)
 * interface [IPageChildNode](../ipagechildnode/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

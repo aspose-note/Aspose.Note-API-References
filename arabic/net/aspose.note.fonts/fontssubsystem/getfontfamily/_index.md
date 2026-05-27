@@ -1,31 +1,31 @@
 ---
-title: FontsSubsystem.GetFontFamily
-second_title: Aspose.Note لمرجع NET API
-description: FontsSubsystem طريقة. يحصل على عائلة الخطوط .
+title: "FontsSubsystem.GetFontFamily"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة FontsSubsystem. يحصل على عائلة الخط"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.fonts/fontssubsystem/getfontfamily/
 ---
 ## FontsSubsystem.GetFontFamily method
 
-يحصل على عائلة الخطوط .
+يحصل على عائلة الخط.
 
 ```csharp
 public virtual FontFamily GetFontFamily(string fontName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fontName | String | اسم الخط . |
+| fontName | String | اسم الخط. |
 
 ### قيمة الإرجاع
 
-ملفFontFamily .
+ال FontFamily.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../fontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

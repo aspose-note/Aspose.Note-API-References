@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitOutlineElementStart
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. ابدأ بزيارة موقعOutlineElement العقدة .
+title: "DocumentVisitor.VisitOutlineElementStart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. ابدأ بزيارة عقدة OutlineElement"
 type: docs
-weight: 80
+weight: 160
 url: /ar/net/aspose.note/documentvisitor/visitoutlineelementstart/
 ---
 ## DocumentVisitor.VisitOutlineElementStart method
 
-ابدأ بزيارة موقع[`OutlineElement`](../../outlineelement/) العقدة .
+ابدأ بزيارة عقدة [`OutlineElement`](../../outlineelement/).
 
 ```csharp
 public virtual void VisitOutlineElementStart(OutlineElement outlineElement)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| outlineElement | OutlineElement | ملف[`OutlineElement`](../../outlineelement/) العقدة . |
+| outlineElement | OutlineElement | العقدة [`OutlineElement`](../../outlineelement/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineElement](../../outlineelement/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

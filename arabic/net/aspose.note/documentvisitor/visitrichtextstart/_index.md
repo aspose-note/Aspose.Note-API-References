@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitRichTextStart
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. ابدأ بزيارة موقعRichText العقدة .
+title: "DocumentVisitor.VisitRichTextStart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. ابدأ بزيارة عقدة RichText"
 type: docs
-weight: 160
+weight: 240
 url: /ar/net/aspose.note/documentvisitor/visitrichtextstart/
 ---
 ## DocumentVisitor.VisitRichTextStart method
 
-ابدأ بزيارة موقع[`RichText`](../../richtext/) العقدة .
+ابدأ بزيارة عقدة [`RichText`](../../richtext/).
 
 ```csharp
 public virtual void VisitRichTextStart(RichText richText)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| richText | RichText | ملف[`RichText`](../../richtext/) العقدة . |
+| richText | RichText | العقدة [`RichText`](../../richtext/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../../richtext/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

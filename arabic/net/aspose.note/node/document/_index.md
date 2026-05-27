@@ -1,28 +1,28 @@
 ---
-title: Node.Document
-second_title: Aspose.Note لمرجع NET API
-description: Node ملكية. يحصل على وثيقة العقدة .
+title: "Node.Document"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Node. يحصل على المستند للعقدة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/node/document/
 ---
 ## Node.Document property
 
-يحصل على وثيقة العقدة .
+يحصل على مستند العقدة.
 
 ```csharp
 public Document Document { get; }
 ```
 
-### Property_Value
+### Property Value
 
 المستند.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../../document/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Note](../../node/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../node/)
+* assembly [Aspose.Note](../../../)
 
 

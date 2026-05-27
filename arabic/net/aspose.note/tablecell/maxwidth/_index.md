@@ -1,23 +1,23 @@
 ---
-title: TableCell.MaxWidth
-second_title: Aspose.Note لمرجع NET API
-description: TableCell ملكية. الحصول على أقصى عرض .
+title: "TableCell.MaxWidth"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "TableCell خاصية. يحصل على الحد الأقصى للعرض"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/tablecell/maxwidth/
 ---
 ## TableCell.MaxWidth property
 
-الحصول على أقصى عرض .
+يحصل على الحد الأقصى للعرض.
 
 ```csharp
 public float MaxWidth { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableCell](../)
-* مساحة الاسم [Aspose.Note](../../tablecell/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablecell/)
+* assembly [Aspose.Note](../../../)
 
 

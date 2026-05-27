@@ -1,38 +1,38 @@
 ---
-title: Class OneSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.OneSaveOptions فصل. يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق OneNote.
+title: "الفئة OneSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.OneSaveOptions. يسمح بتحديد خيارات إضافية عند حفظ المستند إلى تنسيق OneNote"
 type: docs
-weight: 810
+weight: 890
 url: /ar/net/aspose.note.saving/onesaveoptions/
 ---
 ## OneSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق OneNote.
+يسمح بتحديد خيارات إضافية عند حفظ المستند إلى تنسيق OneNote.
 
 ```csharp
 public sealed class OneSaveOptions : SaveOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [OneSaveOptions](onesaveoptions/)() | Default_Constructor |
+| [OneSaveOptions](onesaveoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword/) { get; set; } | الحصول على أو تعيين كلمة مرور لتشفير محتوى المستند. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | الحصول على أو تعيين إعدادات الخط لاستخدامها أثناء الحفظ |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على التنسيق الذي تم حفظ المستند به. |
+| [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword/) { get; set; } | يحصل أو يعيّن كلمة مرور لتشفير محتوى المستند. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها المستند. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ المستند مع التشفير.
+يعرض كيفية حفظ المستند مع التشفير.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -42,7 +42,7 @@ Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
 
-يوضح كيفية حفظ مستند باستخدام OneSaveOptions.
+يعرض كيفية حفظ مستند باستخدام OneSaveOptions.
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -54,10 +54,10 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [SaveOptions](../saveoptions/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

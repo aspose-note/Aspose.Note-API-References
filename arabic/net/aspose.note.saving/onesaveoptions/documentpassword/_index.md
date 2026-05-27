@@ -1,22 +1,22 @@
 ---
-title: OneSaveOptions.DocumentPassword
-second_title: Aspose.Note لمرجع NET API
-description: OneSaveOptions ملكية. الحصول على أو تعيين كلمة مرور لتشفير محتوى المستند.
+title: "OneSaveOptions.DocumentPassword"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "OneSaveOptions property. يحصل أو يعيّن كلمة مرور لتشفير محتوى المستند"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/onesaveoptions/documentpassword/
 ---
 ## OneSaveOptions.DocumentPassword property
 
-الحصول على أو تعيين كلمة مرور لتشفير محتوى المستند.
+يحصل أو يعيّن كلمة مرور لتشفير محتوى المستند.
 
 ```csharp
 public string DocumentPassword { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ المستند مع التشفير.
+يعرض كيفية حفظ المستند مع التشفير.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -26,10 +26,10 @@ Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OneSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../onesaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../onesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

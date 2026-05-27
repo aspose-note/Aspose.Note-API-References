@@ -1,7 +1,7 @@
 ---
-title: NoteTag.GetHashCode
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. يعمل كدالة تجزئة للنوع.
+title: "NoteTag.GetHashCode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تعمل كدالة تجزئة للنوع"
 type: docs
 weight: 1210
 url: /ar/net/aspose.note/notetag/gethashcode/
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

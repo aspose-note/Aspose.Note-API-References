@@ -1,23 +1,23 @@
 ---
-title: PdfImportOptions.Password
-second_title: Aspose.Note لمرجع NET API
-description: PdfImportOptions ملكية. الحصول على أو تعيين كلمة مرور لفك تشفير محتوى المستند.
+title: "PdfImportOptions.Password"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PdfImportOptions. يحصل أو يحدد كلمة مرور لفك تشفير محتوى المستند"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.importing/pdfimportoptions/password/
 ---
 ## PdfImportOptions.Password property
 
-الحصول على أو تعيين كلمة مرور لفك تشفير محتوى المستند.
+يحصل أو يضبط كلمة مرور لفك تشفير محتوى المستند.
 
 ```csharp
 public string Password { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PdfImportOptions](../)
-* مساحة الاسم [Aspose.Note.Importing](../../pdfimportoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimportoptions/)
+* assembly [Aspose.Note](../../../)
 
 

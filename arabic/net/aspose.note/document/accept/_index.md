@@ -1,26 +1,26 @@
 ---
-title: Document.Accept
-second_title: Aspose.Note لمرجع NET API
-description: Document طريقة. يقبل زائر العقدة .
+title: "Document.Accept"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Document. تقبل زائر العقدة"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/document/accept/
 ---
 ## Document.Accept method
 
-يقبل زائر العقدة .
+يقبل زائر العقدة.
 
 ```csharp
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | كائن فئة مشتقة من[`DocumentVisitor`](../../documentvisitor/) . |
+| visitor | DocumentVisitor | الكائن من فئة مشتقة من [`DocumentVisitor`](../../documentvisitor/). |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الوصول إلى محتوى مستند باستخدام الزائر.
+يعرض كيفية الوصول إلى محتوى مستند باستخدام الزائر.
 
 ```csharp
 public static void Run()
@@ -31,25 +31,25 @@ public static void Run()
     // افتح المستند الذي نريد تحويله.
     Document doc = new Document(dataDir + "Aspose.one");
 
-    // إنشاء كائن يرث من فئة DocumentVisitor.
+    // أنشئ كائنًا يرث من الفئة DocumentVisitor.
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // هذا هو نمط الزائر المعروف. احصل على النموذج لقبول زائر.
-    // سيقوم النموذج بالتكرار من خلال نفسه عن طريق استدعاء الطرق المقابلة
-    // على كائن الزائر (وهذا ما يسمى بالزيارة).
+    // هذا هو نمط الزائر المعروف. اجعل النموذج يقبل زائرًا.
+    // سيقوم النموذج بالتكرار على نفسه عن طريق استدعاء الطرق المقابلة
+    // على كائن الزائر (يُطلق على ذلك زيارة).
     //
-    // لاحظ أن كل عقدة في نموذج الكائن لها طريقة Accept لذا فإن زيارة
-    يمكن تنفيذ // ليس فقط للمستند بأكمله ، ولكن لأي عقدة في المستند.
+    // لاحظ أن كل عقدة في نموذج الكائن لديها طريقة Accept بحيث يمكن للزيارة
+    // يمكن تنفيذها ليس فقط للمستند بالكامل، بل لأي عقدة في المستند.
     doc.Accept(myConverter);
 
-    // بمجرد اكتمال الزيارة ، يمكننا استرداد نتيجة العملية ،
-    // التي في هذا المثال تراكمت في الزائر.
+    // بمجرد اكتمال الزيارة، يمكننا استرجاع نتيجة العملية،
+    // التي في هذا المثال، تم تجميعها في الزائر.
     Console.WriteLine(myConverter.GetText());
     Console.WriteLine(myConverter.NodeCount);            
 }
 
 /// <summary>
-/// تنفيذ بسيط لحفظ مستند بتنسيق النص العادي. تم تنفيذه كزائر.
+/// تنفيذ بسيط لحفظ مستند بتنسيق النص العادي. تم تنفيذها كزائر.
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي تم تجميعه بواسطة الزائر.
     /// </summary>
     public string GetText()
     {
@@ -69,7 +69,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يضيف نصًا إلى الإخراج الحالي. يكرم علامة الإخراج الممكنة / المعطلة.
+    /// يضيف نصًا إلى الإخراج الحالي. يراعي علامة الإخراج المفعلة/المعطلة.
     /// </summary>
     private void AppendText(string text)
     {
@@ -80,7 +80,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة RichText في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة RichText في المستند.
     /// </summary>
     public override void VisitRichTextStart(RichText run)
     {
@@ -89,7 +89,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة المستند في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة Document في المستند.
     /// </summary>
     public override void VisitDocumentStart(Document document)
     {
@@ -97,7 +97,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة الصفحة في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة Page في المستند.
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -106,7 +106,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند انتهاء معالجة عقدة الصفحة.
+    /// يُستدعى عند انتهاء معالجة عقدة Page.
     /// </summary>
     public override void VisitPageEnd(Page page)
     {
@@ -114,7 +114,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة العنوان في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة Title في المستند.
     /// </summary>
     public override void VisitTitleStart(Title title)
     {
@@ -122,7 +122,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة صورة في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة Image في المستند.
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -130,7 +130,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة OutlineGroup في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة OutlineGroup في المستند.
     /// </summary>
     public override void VisitOutlineGroupStart(OutlineGroup outlineGroup)
     {
@@ -138,7 +138,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة مخطط تفصيلي في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة Outline في المستند.
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -146,7 +146,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة OutlineElement في المستند.
+    /// يُستدعى عندما يتم العثور على عقدة OutlineElement في المستند.
     /// </summary>
     public override void VisitOutlineElementStart(OutlineElement outlineElement)
     {
@@ -154,7 +154,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// الحصول على العدد الإجمالي للعقد بواسطة الزائر
+    /// يحصل على العدد الإجمالي للعقد بواسطة الزائر
     /// </summary>
     public Int32 NodeCount
     {
@@ -167,11 +167,11 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

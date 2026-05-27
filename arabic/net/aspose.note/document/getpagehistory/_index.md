@@ -1,36 +1,36 @@
 ---
-title: Document.GetPageHistory
-second_title: Aspose.Note لمرجع NET API
-description: Document طريقة. يحصل على ملفPageHistory الذي يحتوي على التاريخ الكامل لكل صفحة معروضة في مستند الأقدم في الفهرس 0 . يمكن الوصول إلى مراجعة الصفحة الحالية كـCurrent ومضمنة بشكل منفصل عن مجموعة الإصدارات التاريخية.
+title: "Document.GetPageHistory"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Document. تحصل على PageHistory التي تحتوي على السجل الكامل لكل صفحة معروضة في المستند، الأقدم في الفهرس 0. يمكن الوصول إلى نسخة الصفحة الحالية كـ Current وتكون منفصلة عن مجموعة الإصدارات التاريخية."
 type: docs
 weight: 100
 url: /ar/net/aspose.note/document/getpagehistory/
 ---
 ## Document.GetPageHistory method
 
-يحصل على ملف[`PageHistory`](../../pagehistory/) الذي يحتوي على التاريخ الكامل لكل صفحة معروضة في مستند (الأقدم في الفهرس 0) . يمكن الوصول إلى مراجعة الصفحة الحالية كـ[`Current`](../../pagehistory/current/) ومضمنة بشكل منفصل عن مجموعة الإصدارات التاريخية.
+يحصل على [`PageHistory`](../../pagehistory/) التي تحتوي على السجل الكامل لكل صفحة معروضة في المستند (الأقدم في الفهرس 0). يمكن الوصول إلى نسخة الصفحة الحالية كـ [`Current`](../../pagehistory/current/) وتكون منفصلة عن مجموعة الإصدارات التاريخية.
 
 ```csharp
 public PageHistory GetPageHistory(Page page)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | Page | المراجعة الحالية للصفحة . |
+| page | Page | الإصدار الحالي لصفحة. |
 
 ### قيمة الإرجاع
 
-ملف[`PageHistory`](../../pagehistory/) .
+الـ [`PageHistory`](../../pagehistory/).
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استعادة الإصدار السابق من الصفحة.
+يعرض كيفية استعادة النسخة السابقة لصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -41,13 +41,13 @@ document.AppendChildLast(previousPageVersion);
 document.Save(dataDir + "RollBackRevisions_out.one");
 ```
 
-يوضح كيفية تحرير محفوظات الصفحة.
+يوضح كيفية تعديل تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -68,12 +68,12 @@ if (pageHistory.Count > 1)
 }
 ```
 
-يوضح كيفية التحقق مما إذا كانت الصفحة عبارة عن صفحة تعارض (أي أنها تحتوي على تغييرات يتعذر على OneNote دمجها تلقائيًا).
+يعرض كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote
+// تحميل مستند OneNote.
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -86,8 +86,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // بشكل افتراضي يتم تخطي صفحات التعارض فقط عند الحفظ.
-    // إذا قمت بتمييزه على أنه غير متعارض ، فسيتم حفظه كالمعتاد في السجل.
+    // بشكل افتراضي، يتم تخطي صفحات التعارض عند الحفظ.
+    // إذا تم وضع علامة بأنها غير متعارضة، فسيتم حفظها كصفحة عادية في السجل.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -95,12 +95,12 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageHistory](../../pagehistory/)
 * class [Page](../../page/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

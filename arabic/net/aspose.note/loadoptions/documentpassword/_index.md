@@ -1,22 +1,22 @@
 ---
-title: LoadOptions.DocumentPassword
-second_title: Aspose.Note لمرجع NET API
-description: LoadOptions ملكية. الحصول على أو تعيين كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حالة عدم كون المستند محميًا بكلمة مرور.
+title: "LoadOptions.DocumentPassword"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية LoadOptions. يحصل أو يحدد كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حال عدم حماية المستند بكلمة مرور"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/loadoptions/documentpassword/
 ---
 ## LoadOptions.DocumentPassword property
 
-الحصول على أو تعيين كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حالة عدم كون المستند محميًا بكلمة مرور.
+يحصل أو يضبط كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حال عدم حماية المستند بكلمة مرور.
 
 ```csharp
 public string DocumentPassword { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية عمل مستند مشفر.
+يعرض كيفية التعامل مع مستند مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -26,7 +26,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-يوضح كيفية عمل دفتر ملاحظات مشفر.
+يوضح كيفية التعامل مع دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -38,10 +38,10 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Note](../../loadoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../loadoptions/)
+* assembly [Aspose.Note](../../../)
 
 

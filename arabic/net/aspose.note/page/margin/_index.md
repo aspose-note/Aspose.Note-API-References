@@ -1,24 +1,24 @@
 ---
-title: Page.Margin
-second_title: Aspose.Note لمرجع NET API
-description: Page ملكية. الحصول على الهامش أو تحديده .
+title: "Page.Margin"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Page. يحصل أو يحدد الهامش"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/page/margin/
 ---
 ## Page.Margin property
 
-الحصول على الهامش أو تحديده .
+يحصل أو يضبط الهامش.
 
 ```csharp
 public Margins Margin { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Margins](../../margins/)
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

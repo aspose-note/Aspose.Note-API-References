@@ -1,28 +1,28 @@
 ---
-title: IImageSavingCallback.ImageSaving
-second_title: Aspose.Note لمرجع NET API
-description: IImageSavingCallback طريقة. يتم استدعاؤه عند Aspose.Note يحفظ صورة.
+title: "IImageSavingCallback.ImageSaving"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة IImageSavingCallback. يتم استدعاؤها عندما يقوم Aspose.Note بحفظ صورة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/iimagesavingcallback/imagesaving/
 ---
 ## IImageSavingCallback.ImageSaving method
 
-يتم استدعاؤه عند Aspose.Note يحفظ صورة.
+يتم الاستدعاء عندما يقوم Aspose.Note بحفظ صورة.
 
 ```csharp
 public void ImageSaving(ImageSavingArgs args)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | ImageSavingArgs | حفظ المعلمات . |
+| args | ImageSavingArgs | معلمات الحفظ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ImageSavingArgs](../../imagesavingargs/)
 * interface [IImageSavingCallback](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../iimagesavingcallback/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../iimagesavingcallback/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: HtmlSaveOptions.ExportCss
-second_title: Aspose.Note لمرجع NET API
-description: HtmlSaveOptions ملكية. الحصول على طريقة تصدير css أو تعيينها.
+title: "HtmlSaveOptions.ExportCss"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية HtmlSaveOptions. يحصل أو يضبط طريقة تصدير css"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.saving/htmlsaveoptions/exportcss/
 ---
 ## HtmlSaveOptions.ExportCss property
 
-الحصول على طريقة تصدير css أو تعيينها.
+يحصل أو يعيّن طريقة تصدير css.
 
 ```csharp
 public ResourceExportType ExportCss { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css / الخطوط / الصور) في ملفات منفصلة.
+يظهر كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css/خطوط/صور) في ملفات منفصلة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -32,7 +32,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-يوضح كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css / الخطوط / الصور).
+يظهر كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css/خطوط/صور).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -50,11 +50,11 @@ var r = new MemoryStream();
 document.Save(r, options);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [ResourceExportType](../../../aspose.note.saving.html/resourceexporttype/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

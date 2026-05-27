@@ -1,28 +1,28 @@
 ---
-title: PageHistory.AddRange
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. يضيف إصدارات الصفحة إلى نهاية ملفPageHistory .
+title: "PageHistory.AddRange"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. تُضيف إصدارات الصفحات إلى نهاية PageHistory"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/pagehistory/addrange/
 ---
 ## PageHistory.AddRange method
 
-يضيف إصدارات الصفحة إلى نهاية ملف[`PageHistory`](../) .
+تُضيف إصدارات الصفحات إلى نهاية [`PageHistory`](../).
 
 ```csharp
 public void AddRange(IEnumerable<Page> items)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| items | IEnumerable`1 | ملفIEnumerableمجموعة من إصدارات الصفحة. |
+| العناصر | IEnumerable`1 | مجموعة IEnumerable لإصدارات الصفحات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

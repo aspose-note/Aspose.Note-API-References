@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.FilePath
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. يحصل على المسار للملف الأصلي.
+title: "AttachedFile.FilePath"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل على المسار إلى الملف الأصلي"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/attachedfile/filepath/
 ---
 ## AttachedFile.FilePath property
 
-يحصل على المسار للملف الأصلي.
+يحصل على المسار إلى الملف الأصلي.
 
 ```csharp
 public string FilePath { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

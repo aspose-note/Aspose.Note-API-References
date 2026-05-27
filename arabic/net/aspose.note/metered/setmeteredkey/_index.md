@@ -1,31 +1,31 @@
 ---
-title: Metered.SetMeteredKey
-second_title: Aspose.Note لمرجع NET API
-description: Metered طريقة. مجموعات المفاتيح العامة والخاصة التي تم قياسها.
+title: "Metered.SetMeteredKey"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Metered. تعيين المفاتيح العامة والخاصة للعداد"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-مجموعات المفاتيح العامة والخاصة التي تم قياسها.
+يضبط المفاتيح العامة والخاصة القابلة للقياس.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| publicKey | String | المفتاح العمومي. |
+| publicKey | String | المفتاح العام. |
 | privateKey | String | المفتاح الخاص. |
 
-### ملاحظات
+## ملاحظات
 
-إذا اشتريت ترخيصًا مقننًا ، فيجب استدعاء واجهة برمجة التطبيقات هذه عند بدء تشغيل التطبيق ، عادةً ما يكون هذا كافيًا . ومع ذلك ، إذا فشل في تحميل بيانات الاستهلاك خلال فترة 24 ساعة ، فسيتم تعيين الترخيص على حالة التقييم. لتجنب مثل هذه الحالة ، يجب عليك التحقق بانتظام من حالة الترخيص إذا كانت حالة التقييم ، فاتصل بواجهة برمجة التطبيقات هذه مرة أخرى.
+إذا قمت بشراء ترخيص عددي، يجب استدعاء هذه الواجهة البرمجية عند بدء تشغيل التطبيق، عادةً يكون ذلك كافياً. ومع ذلك، إذا فشل العداد في رفع بيانات الاستهلاك خلال فترة 24 ساعة، سيتم تعيين الترخيص إلى حالة التقييم. لتجنب هذه الحالة، يجب عليك فحص حالة الترخيص بانتظام؛ إذا كانت حالة التقييم، استدعِ هذه الواجهة البرمجية مرة أخرى.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تعيين الترخيص المقنن.
+يوضح كيفية تعيين الترخيص القابل للقياس.
 
 ```csharp
 Metered metered = new Metered();
@@ -37,7 +37,7 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
@@ -46,10 +46,10 @@ Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Metered](../)
-* مساحة الاسم [Aspose.Note](../../metered/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../metered/)
+* assembly [Aspose.Note](../../../)
 
 

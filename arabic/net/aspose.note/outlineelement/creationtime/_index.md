@@ -1,23 +1,23 @@
 ---
-title: OutlineElement.CreationTime
-second_title: Aspose.Note لمرجع NET API
-description: OutlineElement ملكية. الحصول على وقت الإنشاء أو تعيينه.
+title: "OutlineElement.CreationTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية OutlineElement. يحصل أو يحدد وقت الإنشاء"
 type: docs
-weight: 20
+weight: 40
 url: /ar/net/aspose.note/outlineelement/creationtime/
 ---
 ## OutlineElement.CreationTime property
 
-الحصول على وقت الإنشاء أو تعيينه.
+يحصل أو يعيّن وقت الإنشاء.
 
 ```csharp
 public DateTime CreationTime { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineElement](../)
-* مساحة الاسم [Aspose.Note](../../outlineelement/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outlineelement/)
+* assembly [Aspose.Note](../../../)
 
 

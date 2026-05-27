@@ -1,28 +1,28 @@
 ---
-title: IPageSavingCallback.PageSaving
-second_title: Aspose.Note لمرجع NET API
-description: IPageSavingCallback طريقة. تم استدعاؤه عند Aspose.Note يحفظ صفحة منفصلة.
+title: "IPageSavingCallback.PageSaving"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة IPageSavingCallback. تُستدعى عندما يقوم Aspose.Note بحفظ صفحة منفصلة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/ipagesavingcallback/pagesaving/
 ---
 ## IPageSavingCallback.PageSaving method
 
-تم استدعاؤه عند Aspose.Note يحفظ صفحة منفصلة.
+يتم الاستدعاء عندما يقوم Aspose.Note بحفظ صفحة منفصلة.
 
 ```csharp
 public void PageSaving(PageSavingArgs args)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | PageSavingArgs | حفظ المعلمات . |
+| args | PageSavingArgs | معلمات الحفظ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSavingArgs](../../pagesavingargs/)
 * interface [IPageSavingCallback](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../ipagesavingcallback/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../ipagesavingcallback/)
+* assembly [Aspose.Note](../../../)
 
 

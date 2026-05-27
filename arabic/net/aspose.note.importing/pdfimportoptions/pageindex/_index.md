@@ -1,23 +1,23 @@
 ---
-title: PdfImportOptions.PageIndex
-second_title: Aspose.Note لمرجع NET API
-description: PdfImportOptions ملكية. الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0.
+title: "PdfImportOptions.PageIndex"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PdfImportOptions. يحصل أو يحدد فهرس الصفحة الأولى التي سيتم حفظها. بشكل افتراضي هو 0"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.importing/pdfimportoptions/pageindex/
 ---
 ## PdfImportOptions.PageIndex property
 
-الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0.
+يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0.
 
 ```csharp
 public int PageIndex { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PdfImportOptions](../)
-* مساحة الاسم [Aspose.Note.Importing](../../pdfimportoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimportoptions/)
+* assembly [Aspose.Note](../../../)
 
 

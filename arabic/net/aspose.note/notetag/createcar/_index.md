@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateCar
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة برمز السيارة والتسمية المحددة.
+title: "NoteTag.CreateCar"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز Car والعنوان المحدد"
 type: docs
 weight: 250
 url: /ar/net/aspose.note/notetag/createcar/
 ---
 ## NoteTag.CreateCar method
 
-ينشئ علامة ملاحظة جديدة برمز السيارة والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة Car والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateCar(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

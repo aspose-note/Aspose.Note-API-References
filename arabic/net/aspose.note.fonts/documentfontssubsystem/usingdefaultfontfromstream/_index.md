@@ -1,32 +1,32 @@
 ---
-title: DocumentFontsSubsystem.UsingDefaultFontFromStream
-second_title: Aspose.Note لمرجع NET API
-description: DocumentFontsSubsystem طريقة. إنشاء مثيل DocumentFontsSubsystem جديد باستخدام خط من دفق محدد كافتراضي.
+title: "DocumentFontsSubsystem.UsingDefaultFontFromStream"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "DocumentFontsSubsystem method. إنشاء نسخة جديدة من DocumentFontsSubsystem باستخدام خط من الدفق المحدد كافتراضي"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/
 ---
 ## DocumentFontsSubsystem.UsingDefaultFontFromStream method
 
-إنشاء مثيل DocumentFontsSubsystem جديد باستخدام خط من دفق محدد كافتراضي.
+أنشئ مثلاً جديداً من DocumentFontsSubsystem باستخدام خط من الدفق المحدد كافتراضي.
 
 ```csharp
 public static DocumentFontsSubsystem UsingDefaultFontFromStream(Stream defaultFontStream, 
     Dictionary<string, string> fontsSubstitutions = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | defaultFontStream | Stream | الدفق الذي يحتوي على اسم الخط الافتراضي. |
-| fontsSubstitutions | Dictionary`2 | بدائل الخطوط . |
+| fontsSubstitutions | Dictionary`2 | استبدالات الخطوط. |
 
 ### قيمة الإرجاع
 
-ملف[`DocumentFontsSubsystem`](../) .
+ال [`DocumentFontsSubsystem`](../).
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي من التدفق.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -34,10 +34,10 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf";
 
 using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShare.Read))
@@ -49,10 +49,10 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentFontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../documentfontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../documentfontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

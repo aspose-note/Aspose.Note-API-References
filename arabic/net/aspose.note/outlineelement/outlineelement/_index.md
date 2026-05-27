@@ -1,23 +1,23 @@
 ---
-title: OutlineElement.OutlineElement
-second_title: Aspose.Note لمرجع NET API
-description: OutlineElement البناء. يقوم بتهيئة مثيل جديد لملفOutlineElement فئة .
+title: "OutlineElement.OutlineElement"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ OutlineElement. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/outlineelement/outlineelement/
 ---
 ## OutlineElement constructor
 
-يقوم بتهيئة مثيل جديد لملف[`OutlineElement`](../) فئة .
+البناء الافتراضي.
 
 ```csharp
 public OutlineElement()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineElement](../)
-* مساحة الاسم [Aspose.Note](../../outlineelement/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outlineelement/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: Title.Accept
-second_title: Aspose.Note لمرجع NET API
-description: Title طريقة. يقبل زائر العقدة .
+title: "Title.Accept"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Title. تقبل زائر العقدة"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/title/accept/
 ---
 ## Title.Accept method
 
-يقبل زائر العقدة .
+يقبل زائر العقدة.
 
 ```csharp
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | كائن فئة مشتقة من[`DocumentVisitor`](../../documentvisitor/) . |
+| visitor | DocumentVisitor | الكائن من فئة مشتقة من [`DocumentVisitor`](../../documentvisitor/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Title](../)
-* مساحة الاسم [Aspose.Note](../../title/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../title/)
+* assembly [Aspose.Note](../../../)
 
 

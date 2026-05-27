@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreatePinkSquare
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة PinkSquare والتسمية المحددة.
+title: "NoteTag.CreatePinkSquare"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة PinkSquare والملصق المحدد"
 type: docs
 weight: 760
 url: /ar/net/aspose.note/notetag/createpinksquare/
 ---
 ## NoteTag.CreatePinkSquare method
 
-ينشئ علامة ملاحظة جديدة بأيقونة PinkSquare والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة PinkSquare وملصق محدد.
 
 ```csharp
 public static NoteTag CreatePinkSquare(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

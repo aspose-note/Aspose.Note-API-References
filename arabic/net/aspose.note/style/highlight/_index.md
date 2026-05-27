@@ -1,27 +1,27 @@
 ---
-title: Style.Highlight
-second_title: Aspose.Note لمرجع NET API
-description: Style ملكية. الحصول على لون التمييز أو تعيينه.
+title: "Style.Highlight"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Style. يحصل على أو يضبط لون التمييز"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/style/highlight/
 ---
 ## Style.Highlight property
 
-الحصول على لون التمييز أو تعيينه.
+يحصل أو يضبط لون التظليل.
 
 ```csharp
 public Color Highlight { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تغيير نمط النص.
+يظهر كيفية تغيير النمط لنص.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
 // احصل على عقدة RichText معينة
@@ -40,7 +40,7 @@ foreach (var run in richText.TextRuns)
 }
 ```
 
-يوضح كيفية إنشاء جدول يحتوي على نص بأنماط مختلفة.
+يظهر كيفية إنشاء جدول يحتوي على نص بأنماط مختلفة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -62,7 +62,7 @@ var headerRow = ranking.AppendChildFirst(new TableRow());
 var headerStyle = ParagraphStyle.Default;
 headerStyle.IsBold = true;
 
-// دعنا نضيف مجموعة من الأعمدة وصف الرأس
+// لنضيف مجموعة من الأعمدة وصفًا رأسياً
 var backGroundColor = Color.LightGray;
 foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Score C", "Final score", "Attached materials", "Comments" })
 {
@@ -73,7 +73,7 @@ foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Sc
                 .Append(header);
 }
 
-// دعونا 5 صفوف فارغة. الصفوف لها لون خلفية متبادل
+// لنضيف 5 صفوف فارغة. الصفوف لها لون خلفية متناوب
 for (int i = 0; i < 5; i++)
 {
     backGroundColor = backGroundColor.IsEmpty ? Color.LightGray : Color.Empty;
@@ -87,7 +87,7 @@ for (int i = 0; i < 5; i++)
     }
 }
 
-// دعنا نضيف بعض النماذج للمحتوى في عمود "جهات الاتصال"
+// لنضيف بعض القالب للمحتوى في عمود 'Contacts'
 foreach (var row in ranking.Skip(1))
 {
     var contactsCell = row.ElementAt(1);
@@ -104,10 +104,10 @@ d.AppendChildLast(page);
 d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Note](../../style/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

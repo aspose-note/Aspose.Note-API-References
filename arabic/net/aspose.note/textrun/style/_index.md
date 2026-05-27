@@ -1,24 +1,24 @@
 ---
-title: TextRun.Style
-second_title: Aspose.Note لمرجع NET API
-description: TextRun ملكية. الحصول على النمط أو تحديده .
+title: "TextRun.Style"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextRun. تحصل أو تعين النمط"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/textrun/style/
 ---
 ## TextRun.Style property
 
-الحصول على النمط أو تحديده .
+يحصل أو يضبط النمط.
 
 ```csharp
 public TextStyle Style { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../../textstyle/)
 * class [TextRun](../)
-* مساحة الاسم [Aspose.Note](../../textrun/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textrun/)
+* assembly [Aspose.Note](../../../)
 
 

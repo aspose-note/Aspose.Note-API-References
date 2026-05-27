@@ -1,23 +1,23 @@
 ---
-title: NotebookPdfSaveOptions.NotebookPdfSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: NotebookPdfSaveOptions البناء. Default_Constructor
+title: "NotebookPdfSaveOptions.NotebookPdfSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ NotebookPdfSaveOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/notebookpdfsaveoptions/notebookpdfsaveoptions/
 ---
 ## NotebookPdfSaveOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public NotebookPdfSaveOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookPdfSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../notebookpdfsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../notebookpdfsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

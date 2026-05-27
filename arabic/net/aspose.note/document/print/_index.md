@@ -1,22 +1,22 @@
 ---
-title: Document.Print
-second_title: Aspose.Note لمرجع NET API
-description: Document طريقة. طباعة المستند باستخدام الطابعة الافتراضية.
+title: "Document.Print"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Document. تطبع المستند باستخدام الطابعة الافتراضية"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/document/print/
 ---
 ## Print() {#print}
 
-طباعة المستند باستخدام الطابعة الافتراضية.
+يطبع المستند باستخدام الطابعة الافتراضية.
 
 ```csharp
 public void Print()
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إرسال المستند إلى الطابعة باستخدام مربع حوار Windows القياسي مع الخيارات الافتراضية.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات الافتراضية.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -27,7 +27,7 @@ var document = new Aspose.Note.Document(dataDir + "Aspose.one");
 document.Print();
 ```
 
-يوضح كيفية إرسال المستند إلى الطابعة باستخدام مربع حوار Windows القياسي مع خيارات محددة.
+يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -48,31 +48,31 @@ document.Print(new PrintOptions()
                });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Print(PrintOptions) {#print_1}
 
-طباعة المستند باستخدام الطابعة الافتراضية.
+يطبع المستند باستخدام الطابعة الافتراضية.
 
 ```csharp
 public void Print(PrintOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | PrintOptions | الخيارات المستخدمة لطباعة مستند. يمكن أن يكون فارغًا. |
+| خيارات | PrintOptions | خيارات تُستخدم لطباعة مستند. يمكن أن تكون فارغة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrintOptions](../../../aspose.note.saving/printoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

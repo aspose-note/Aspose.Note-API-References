@@ -1,23 +1,23 @@
 ---
-title: HtmlSaveOptions.DocumentPerPageGeneration
-second_title: Aspose.Note لمرجع NET API
-description: HtmlSaveOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان إنشاء مستند لكل صفحة ممكّنًا .
+title: "HtmlSaveOptions.DocumentPerPageGeneration"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية HtmlSaveOptions. يحصل أو يضبط قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلاً"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/htmlsaveoptions/documentperpagegeneration/
 ---
 ## HtmlSaveOptions.DocumentPerPageGeneration property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان إنشاء مستند لكل صفحة ممكّنًا .
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان توليد مستند لكل صفحة مفعلاً.
 
 ```csharp
 public bool DocumentPerPageGeneration { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

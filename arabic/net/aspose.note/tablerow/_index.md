@@ -1,44 +1,44 @@
 ---
-title: Class TableRow
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.TableRow فصل. يمثل صف جدول .
+title: "الفئة TableRow"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "Aspose.Note.TableRow فئة. يمثل صف جدول"
 type: docs
-weight: 930
+weight: 1010
 url: /ar/net/aspose.note/tablerow/
 ---
 ## TableRow class
 
-يمثل صف جدول .
+يمثل صف جدول.
 
 ```csharp
 public sealed class TableRow : CompositeNode<TableCell>
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TableRow](tablerow/#constructor)() | يقوم بتهيئة مثيل جديد لملف`TableRow` فئة . |
+| [TableRow](tablerow/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
-| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
-| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
+| [LastModifiedTime](../../aspose.note/tablerow/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Accept](../../aspose.note/tablerow/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| override [Accept](../../aspose.note/tablerow/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
@@ -48,15 +48,15 @@ public sealed class TableRow : CompositeNode<TableCell>
 | [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params TableCell[]) |  |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على نص من صف كل جدول.
+يوضح كيفية الحصول على النص من كل صف في الجدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Sample1.one");
 
 // احصل على قائمة بعقد الجدول
@@ -64,10 +64,10 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // التكرار خلال صفوف الجدول
+    // التكرار عبر صفوف الجدول
     foreach (TableRow row in table)
     {
-        // استرداد النص
+        // استرجاع النص
         string text = string.Join(Environment.NewLine, row.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
         // طباعة النص على شاشة الإخراج
@@ -76,13 +76,13 @@ foreach (Table table in nodes)
 }
 ```
 
-يوضح كيفية الحصول على نص من خلايا الجدول.
+يوضح كيفية الحصول على النص من خلايا الجدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Sample1.one");
 
 // احصل على قائمة بعقد الجدول
@@ -90,14 +90,14 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
-    // التكرار خلال صفوف الجدول
+    // التكرار عبر صفوف الجدول
     foreach (TableRow row in table)
     {
         // احصل على قائمة بعقد TableCell
-        // كرر خلال خلايا الجدول
+        // التكرار عبر خلايا الجدول
         foreach (TableCell cell in row)
         {
-            // استرداد النص
+            // استرجاع النص
             string text = string.Join(Environment.NewLine, cell.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
             // طباعة النص على شاشة الإخراج
@@ -107,15 +107,15 @@ foreach (Table table in nodes)
 }
 ```
 
-يوضح كيفية تعيين لون الخلفية لخلية.
+يوضح كيفية تعيين لون خلفية لخلية.
 
 ```csharp
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
 // تهيئة كائن فئة TableCell وتعيين محتوى النص
 TableCell cell11 = new TableCell();
-cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
+cell11.AppendChildLast(InsertTable.GetOutlineElementWithText("Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // تهيئة كائن فئة TableRow
@@ -135,7 +135,7 @@ oe.AppendChildLast(table);
 Outline o = new Outline();
 o.AppendChildLast(oe);
 
-// تهيئة كائن فئة الصفحة
+// تهيئة كائن فئة Page
 Page page = new Page();
 page.AppendChildLast(o);
 
@@ -144,17 +144,17 @@ doc.AppendChildLast(page);
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
 
-يوضح كيفية إضافة جدول جديد بعلامة.
+يعرض كيفية إضافة جدول جديد مع العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
 // تهيئة كائن فئة TableRow
 TableRow row = new TableRow();
@@ -162,10 +162,10 @@ TableRow row = new TableRow();
 // تهيئة كائن فئة TableCell
 TableCell cell = new TableCell();
 
-// أدخل محتوى الخلية
-cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
+// إدراج محتوى الخلية
+cell.AppendChildLast(InsertTable.GetOutlineElementWithText("Single cell."));
 
-// أضف خلية إلى عقدة صف
+// إضافة خلية إلى عقدة الصف
 row.AppendChildLast(cell);
 
 // تهيئة عقدة الجدول
@@ -175,46 +175,46 @@ Table table = new Table()
                   Columns = { new TableColumn { Width = 70 } }
               };
 
-// أدخل عقدة صف في الجدول
+// إدراج عقدة الصف في الجدول
 table.AppendChildLast(row);
 
-// أضف علامة إلى عقدة الجدول هذه
+// إضافة علامة إلى عقدة الجدول هذه
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 
-// إضافة عقدة الجدول
+// إضافة عقدة جدول
 outlineElem.AppendChildLast(table);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إنشاء جدول بعمود مؤمن.
+يوضح كيفية إنشاء جدول بعمود مقفل.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
 // تهيئة كائن فئة TableRow
 TableRow row1 = new TableRow();
 
 // تهيئة كائن فئة TableCell وتعيين محتوى النص
 TableCell cell11 = new TableCell();
-cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
+cell11.AppendChildLast(InsertTable.GetOutlineElementWithText("Small text"));
 row1.AppendChildLast(cell11);
 
 // تهيئة كائن فئة TableRow
@@ -222,10 +222,10 @@ TableRow row2 = new TableRow();
 
 // تهيئة كائن فئة TableCell وتعيين محتوى النص
 TableCell cell21 = new TableCell();
-cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
+cell21.AppendChildLast(InsertTable.GetOutlineElementWithText("Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
-// تهيئة كائن فئة الجدول
+// تهيئة كائن فئة Table
 Table table = new Table()
               {
                   IsBordersVisible = true,
@@ -239,16 +239,16 @@ table.AppendChildLast(row2);
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 
-// إضافة عقدة الجدول
+// إضافة عقدة جدول
 outlineElem.AppendChildLast(table);
 
-// إضافة عقدة عنصر المخطط التفصيلي
+// إضافة عقدة عنصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة الصفحة
+// إضافة عقدة صفحة
 doc.AppendChildLast(page);
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);
@@ -260,11 +260,11 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
 // تهيئة كائن فئة TableRow
 TableRow row1 = new TableRow();
@@ -274,10 +274,10 @@ TableCell cell11 = new TableCell();
 TableCell cell12 = new TableCell();
 TableCell cell13 = new TableCell();
 
-// إلحاق عناصر المخطط التفصيلي في خلية الجدول
-cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
-cell12.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.2"));
-cell13.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.3"));
+// إلحاق عناصر المخطط في خلية الجدول
+cell11.AppendChildLast(GetOutlineElementWithText("cell_1.1"));
+cell12.AppendChildLast(GetOutlineElementWithText("cell_1.2"));
+cell13.AppendChildLast(GetOutlineElementWithText("cell_1.3"));
 
 // خلايا الجدول إلى صفوف
 row1.AppendChildLast(cell11);
@@ -292,17 +292,17 @@ TableCell cell21 = new TableCell();
 TableCell cell22 = new TableCell();
 TableCell cell23 = new TableCell();
 
-// إلحاق عناصر المخطط التفصيلي في خلية الجدول
-cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
-cell22.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.2"));
-cell23.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.3"));
+// إلحاق عناصر المخطط في خلية الجدول
+cell21.AppendChildLast(GetOutlineElementWithText("cell_2.1"));
+cell22.AppendChildLast(GetOutlineElementWithText("cell_2.2"));
+cell23.AppendChildLast(GetOutlineElementWithText("cell_2.3"));
 
-// إلحاق خلايا الجدول بالصفوف
+// إلحاق خلايا الجدول إلى صفوف
 row2.AppendChildLast(cell21);
 row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
 
-// تهيئة كائن فئة الجدول وتعيين عرض العمود
+// تهيئة كائن فئة Table وتعيين عرض الأعمدة
 Table table = new Table()
               {
                   IsBordersVisible = true,
@@ -313,32 +313,32 @@ Table table = new Table()
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-// تهيئة كائن المخطط التفصيلي
+// تهيئة كائن Outline
 Outline outline = new Outline();
 
 // تهيئة كائن OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// إضافة جدول إلى مخطط عقدة العنصر
+// إضافة الجدول إلى عقدة عنصر المخطط
 outlineElem.AppendChildLast(table);
 
-// إضافة عنصر المخطط التفصيلي إلى مخطط تفصيلي
+// إضافة عنصر المخطط إلى المخطط
 outline.AppendChildLast(outlineElem);
 
-// إضافة مخطط إلى عقدة الصفحة
+// إضافة المخطط إلى عقدة الصفحة
 page.AppendChildLast(outline);
 
-// إضافة صفحة إلى عقدة الوثيقة
+// إضافة الصفحة إلى عقدة المستند
 doc.AppendChildLast(page);
 dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CompositeNode&lt;T&gt;](../compositenode-1/)
 * class [TableCell](../tablecell/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ResourceSavingArgs.KeepStreamOpen
-second_title: Aspose.Note لمرجع NET API
-description: ResourceSavingArgs ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان البث مفتوحًا.
+title: "ResourceSavingArgs.KeepStreamOpen"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ResourceSavingArgs. يحصل على أو يضبط قيمة تشير إلى ما إذا كان يجب إبقاء الدفق مفتوحًا"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving.html/resourcesavingargs/keepstreamopen/
 ---
 ## ResourceSavingArgs.KeepStreamOpen property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان البث مفتوحًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب إبقاء الدفق مفتوحًا.
 
 ```csharp
 public bool KeepStreamOpen { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../resourcesavingargs/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

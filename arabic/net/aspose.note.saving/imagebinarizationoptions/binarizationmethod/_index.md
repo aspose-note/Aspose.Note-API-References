@@ -1,33 +1,33 @@
 ---
-title: ImageBinarizationOptions.BinarizationMethod
-second_title: Aspose.Note لمرجع NET API
-description: ImageBinarizationOptions ملكية. الحصول على طريقة الترميز الثنائي أو تعيينها . القيمة الافتراضية هيFixedThreshold .
+title: "ImageBinarizationOptions.BinarizationMethod"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ImageBinarizationOptions. تحصل أو تعين طريقة التحويل الثنائي. القيمة الافتراضية هي FixedThreshold"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/imagebinarizationoptions/binarizationmethod/
 ---
 ## ImageBinarizationOptions.BinarizationMethod property
 
-الحصول على طريقة الترميز الثنائي أو تعيينها . القيمة الافتراضية هيFixedThreshold .
+يحصل أو يضبط طريقة التحويل إلى ثنائي. القيمة الافتراضية هي FixedThreshold.
 
 ```csharp
 public BinarizationMethod BinarizationMethod { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام طريقة Otsu.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -38,18 +38,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام عتبة ثابتة.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -61,11 +61,11 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [BinarizationMethod](../../binarizationmethod/)
 * class [ImageBinarizationOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../imagebinarizationoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../imagebinarizationoptions/)
+* assembly [Aspose.Note](../../../)
 
 

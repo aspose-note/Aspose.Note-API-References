@@ -1,22 +1,22 @@
 ---
-title: UnsupportedFileFormatException.FileFormat
-second_title: Aspose.Note لمرجع NET API
-description: UnsupportedFileFormatException ملكية. يحصل على تنسيق ملف البيانات التي تم تمريرها في حالة اكتشافه.
+title: "UnsupportedFileFormatException.FileFormat"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "UnsupportedFileFormatException property. يحصل على تنسيق الملف للبيانات الممررة إذا تم اكتشافه"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/unsupportedfileformatexception/fileformat/
 ---
 ## UnsupportedFileFormatException.FileFormat property
 
-يحصل على تنسيق ملف البيانات التي تم تمريرها في حالة اكتشافه.
+يحصل على تنسيق الملف للبيانات الممررة إذا تم اكتشافه.
 
 ```csharp
 public FileFormat FileFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية التحقق من فشل تحميل المستند لأن تنسيق OneNote 2007 غير مدعوم.
+يعرض كيفية التحقق مما إذا فشل تحميل المستند لأن تنسيق OneNote 2007 غير مدعوم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -38,11 +38,11 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FileFormat](../../fileformat/)
 * class [UnsupportedFileFormatException](../)
-* مساحة الاسم [Aspose.Note](../../unsupportedfileformatexception/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../unsupportedfileformatexception/)
+* assembly [Aspose.Note](../../../)
 
 

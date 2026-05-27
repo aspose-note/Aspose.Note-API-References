@@ -1,35 +1,35 @@
 ---
-title: Class NotebookLoadOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.NotebookLoadOptions فصل. الخيارات المستخدمة لتحميل دفتر ملاحظات .
+title: "الفئة NotebookLoadOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.NotebookLoadOptions. الخيارات المستخدمة لتحميل دفتر ملاحظات"
 type: docs
-weight: 420
+weight: 490
 url: /ar/net/aspose.note/notebookloadoptions/
 ---
 ## NotebookLoadOptions class
 
-الخيارات المستخدمة لتحميل دفتر ملاحظات .
+الخيارات المستخدمة لتحميل دفتر ملاحظات.
 
 ```csharp
 public class NotebookLoadOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [NotebookLoadOptions](notebookloadoptions/)() | Default_Constructor |
+| [NotebookLoadOptions](notebookloadoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeferredLoading](../../aspose.note/notebookloadoptions/deferredloading/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تحميل المستندات الفرعية بشكل صريح لاحقًا. |
-| [InstantLoading](../../aspose.note/notebookloadoptions/instantloading/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تحميل المستندات الفرعية أثناء تحميل المستند الأصلي . |
+| [DeferredLoading](../../aspose.note/notebookloadoptions/deferredloading/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تحميل المستندات الفرعية صراحةً لاحقًا. |
+| [InstantLoading](../../aspose.note/notebookloadoptions/instantloading/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تحميل المستندات الفرعية أثناء تحميل المستند الأصلي. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية عمل دفتر ملاحظات مشفر.
+يوضح كيفية التعامل مع دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -41,9 +41,9 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

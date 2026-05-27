@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateGreenUmbrella
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة GreenUmbrella والتسمية المحددة.
+title: "NoteTag.CreateGreenUmbrella"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة GreenUmbrella وملصق محدد"
 type: docs
 weight: 510
 url: /ar/net/aspose.note/notetag/creategreenumbrella/
 ---
 ## NoteTag.CreateGreenUmbrella method
 
-ينشئ علامة ملاحظة جديدة بأيقونة GreenUmbrella والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenUmbrella والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateGreenUmbrella(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,30 +1,30 @@
 ---
-title: Style.IsBold
-second_title: Aspose.Note لمرجع NET API
-description: Style ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص غامقًا .
+title: "Style.IsBold"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Style. يحصل على أو يضبط قيمة تشير إلى ما إذا كان نمط النص عريض"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/style/isbold/
 ---
 ## Style.IsBold property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص غامقًا .
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا.
 
 ```csharp
 public bool IsBold { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-دعنا نبرز عناوين الصفحة بين الرؤوس الأخرى عن طريق زيادة حجم الخط.
+دعنا نبرز عناوين الصفحة بين العناوين الأخرى بزيادة حجم الخط.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// تكرار من خلال عناوين الصفحة.
+// تكرار عبر عناوين الصفحة.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -40,15 +40,15 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-دعنا نؤكد على التغييرات الأخيرة في النص من خلال التمييز.
+دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// Get RichText عُدلت الأسبوع الماضي.
+// احصل على عقد RichText المعدلة الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
@@ -65,10 +65,10 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Note](../../style/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

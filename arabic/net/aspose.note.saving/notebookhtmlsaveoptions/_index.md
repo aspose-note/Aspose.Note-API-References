@@ -1,45 +1,45 @@
 ---
-title: Class NotebookHtmlSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.NotebookHtmlSaveOptions فصل. يسمح بتحديد خيارات إضافية عند حفظ المفكرة بتنسيق HTML .
+title: "الفئة NotebookHtmlSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.NotebookHtmlSaveOptions. يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق HTML"
 type: docs
-weight: 750
+weight: 830
 url: /ar/net/aspose.note.saving/notebookhtmlsaveoptions/
 ---
 ## NotebookHtmlSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ المفكرة بتنسيق HTML .
+يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق HTML.
 
 ```csharp
 public class NotebookHtmlSaveOptions : NotebookSaveOptions<HtmlSaveOptions>
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | Default_Constructor |
+| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح . |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/) { get; } |  |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان التسلسل الهرمي للأطفال في دفتر الملاحظات مسطحًا أم لا. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا. |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions-1/saveformat/) { get; } |  |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/)() |  |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../notebooksaveoptions-1/)
 * class [HtmlSaveOptions](../htmlsaveoptions/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteCheckBox.CreateRedFlagCheckBox
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox طريقة. إنشاء مربع اختيار ملاحظة جديد مع رمز RedFlagCheckBoxEmpty والتسمية المحددة.
+title: "NoteCheckBox.CreateRedFlagCheckBox"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteCheckBox طريقة. ينشئ مربع اختيار ملاحظة جديد مع أيقونة RedFlagCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 190
 url: /ar/net/aspose.note/notecheckbox/createredflagcheckbox/
 ---
 ## NoteCheckBox.CreateRedFlagCheckBox method
 
-إنشاء مربع اختيار ملاحظة جديد مع رمز RedFlagCheckBoxEmpty والتسمية المحددة.
+إنشاء خانة اختيار ملاحظة جديدة مع أيقونة RedFlagCheckBoxEmpty والملصق المحدد.
 
 ```csharp
 public static NoteCheckBox CreateRedFlagCheckBox(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteCheckBox`](../) .
+ال [`NoteCheckBox`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

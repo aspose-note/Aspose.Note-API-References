@@ -1,107 +1,107 @@
 ---
-title: Notebook.Notebook
-second_title: Aspose.Note لمرجع NET API
-description: Notebook البناء. يقوم بتهيئة مثيل جديد لملفNotebook فئة .
+title: "Notebook.Notebook"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ Notebook. يهيئ نسخة جديدة من فئة Notebook"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/notebook/notebook/
 ---
 ## Notebook() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Notebook`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`Notebook`](../).
 
 ```csharp
 public Notebook()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Notebook(string) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Notebook`](../) class. فتح دفتر ملاحظات OneNote موجود من ملف.
+يهيئ نسخة جديدة من الفئة [`Notebook`](../). يفتح دفتر OneNote موجود من ملف.
 
 ```csharp
 public Notebook(string filePath)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Notebook(string, NotebookLoadOptions) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`Notebook`](../) class. يفتح دفتر ملاحظات OneNote من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل الأطفال ("كسول" / فوري) .
+يقوم بإنشاء نسخة جديدة من الفئة [`Notebook`](../). يفتح دفتر OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل الأطفال ("lazy"/instant).
 
 ```csharp
 public Notebook(string filePath, NotebookLoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
-| loadOptions | NotebookLoadOptions | خيارات التحميل . |
+| loadOptions | NotebookLoadOptions | خيارات التحميل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Notebook(Stream) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Notebook`](../) class. فتح دفتر ملاحظات OneNote موجود من دفق.
+يقوم بإنشاء نسخة جديدة من الفئة [`Notebook`](../). يفتح دفتر OneNote موجود من تدفق.
 
 ```csharp
 public Notebook(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
+| دفق | Stream | التدفق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Notebook(Stream, NotebookLoadOptions) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Notebook`](../) class. يفتح دفتر ملاحظات OneNote موجود من دفق. يسمح بتحديد خيارات تحميل إضافية.
+يقوم بإنشاء نسخة جديدة من الفئة [`Notebook`](../). يفتح دفتر OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية.
 
 ```csharp
 public Notebook(Stream stream, NotebookLoadOptions loadOptions)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق . |
-| loadOptions | NotebookLoadOptions | خيارات التحميل . |
+| دفق | Stream | التدفق. |
+| loadOptions | NotebookLoadOptions | خيارات التحميل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

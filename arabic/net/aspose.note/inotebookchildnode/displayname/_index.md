@@ -1,23 +1,23 @@
 ---
-title: INotebookChildNode.DisplayName
-second_title: Aspose.Note لمرجع NET API
-description: INotebookChildNode ملكية. الحصول على اسم العرض .
+title: "INotebookChildNode.DisplayName"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية INotebookChildNode. تحصل على اسم العرض"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/inotebookchildnode/displayname/
 ---
 ## INotebookChildNode.DisplayName property
 
-الحصول على اسم العرض .
+يحصل على اسم العرض.
 
 ```csharp
 public string DisplayName { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../)
-* مساحة الاسم [Aspose.Note](../../inotebookchildnode/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inotebookchildnode/)
+* assembly [Aspose.Note](../../../)
 
 

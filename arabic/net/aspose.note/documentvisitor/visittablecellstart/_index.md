@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitTableCellStart
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. ابدأ بزيارة موقعTableCell العقدة .
+title: "DocumentVisitor.VisitTableCellStart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. البداية لزيارة عقدة TableCell"
 type: docs
-weight: 180
+weight: 260
 url: /ar/net/aspose.note/documentvisitor/visittablecellstart/
 ---
 ## DocumentVisitor.VisitTableCellStart method
 
-ابدأ بزيارة موقع[`TableCell`](../../tablecell/) العقدة .
+البداية لزيارة عقدة [`TableCell`](../../tablecell/).
 
 ```csharp
 public virtual void VisitTableCellStart(TableCell tableCell)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| tableCell | TableCell | ملف[`TableCell`](../../tablecell/) العقدة . |
+| tableCell | TableCell | العقدة [`TableCell`](../../tablecell/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableCell](../../tablecell/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

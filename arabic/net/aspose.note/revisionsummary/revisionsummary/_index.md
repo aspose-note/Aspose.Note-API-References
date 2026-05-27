@@ -1,23 +1,23 @@
 ---
-title: RevisionSummary.RevisionSummary
-second_title: Aspose.Note لمرجع NET API
-description: RevisionSummary البناء. Default_Constructor
+title: "RevisionSummary.RevisionSummary"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ RevisionSummary. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/revisionsummary/revisionsummary/
 ---
 ## RevisionSummary constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public RevisionSummary()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RevisionSummary](../)
-* مساحة الاسم [Aspose.Note](../../revisionsummary/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../revisionsummary/)
+* assembly [Aspose.Note](../../../)
 
 

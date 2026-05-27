@@ -1,28 +1,28 @@
 ---
-title: Node.PreviousSibling
-second_title: Aspose.Note لمرجع NET API
-description: Node ملكية. الحصول على العقدة السابقة على نفس مستوى شجرة العقدة.
+title: "Node.PreviousSibling"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Node. يحصل على العقدة السابقة في نفس مستوى شجرة العقد"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/node/previoussibling/
 ---
 ## Node.PreviousSibling property
 
-الحصول على العقدة السابقة على نفس مستوى شجرة العقدة.
+يحصل على العقدة السابقة في نفس مستوى شجرة العقد.
 
 ```csharp
 public INode PreviousSibling { get; }
 ```
 
-### Property_Value
+### Property Value
 
-الأخ السابق .
+العقدة الشقيقة السابقة.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INode](../../inode/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Note](../../node/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../node/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: MergeOptions.InsertAsChild
-second_title: Aspose.Note لمرجع NET API
-description: MergeOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدرجة كأبناء الصفحة السابقة.
+title: "MergeOptions.InsertAsChild"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية MergeOptions. تحصل أو تعين قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدخلة كأطفال للصفحة السابقة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/mergeoptions/insertaschild/
 ---
 ## MergeOptions.InsertAsChild property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدرجة كأبناء الصفحة السابقة.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدخلة كأطفال للصفحة السابقة.
 
 ```csharp
 public bool InsertAsChild { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مجموعة مستندات PDF أثناء إدراج الصفحات من كل مستند PDF كأطفال لصفحة OneNote ذات المستوى الأعلى.
+يعرض كيفية استيراد جميع الصفحات من مجموعة مستندات PDF مع إدراج صفحات كل مستند PDF كأطفال لصفحة OneNote المستوى الأعلى.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -32,10 +32,10 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [MergeOptions](../)
-* مساحة الاسم [Aspose.Note](../../mergeoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../mergeoptions/)
+* assembly [Aspose.Note](../../../)
 
 

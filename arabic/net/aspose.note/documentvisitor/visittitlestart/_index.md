@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitTitleStart
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. ابدأ بزيارة موقعTitle العقدة .
+title: "DocumentVisitor.VisitTitleStart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. بدء زيارة عقدة Title"
 type: docs
-weight: 240
+weight: 320
 url: /ar/net/aspose.note/documentvisitor/visittitlestart/
 ---
 ## DocumentVisitor.VisitTitleStart method
 
-ابدأ بزيارة موقع[`Title`](../../title/) العقدة .
+بدء زيارة عقدة [`Title`](../../title/)
 
 ```csharp
 public virtual void VisitTitleStart(Title title)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| title | Title | ملف[`Title`](../../title/) العقدة . |
+| title | Title | العقدة [`Title`](../../title/) |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../../title/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: PrintOptions.PrinterSettings
-second_title: Aspose.Note لمرجع NET API
-description: PrintOptions ملكية. الحصول على إعدادات الطابعة أو تعيينها.
+title: "PrintOptions.PrinterSettings"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "PrintOptions property. يحصل أو يعيّن إعدادات الطابعة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/printoptions/printersettings/
 ---
 ## PrintOptions.PrinterSettings property
 
-الحصول على إعدادات الطابعة أو تعيينها.
+يحصل أو يعيّن إعدادات الطابعة.
 
 ```csharp
 public PrinterSettings PrinterSettings { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إرسال المستند إلى الطابعة باستخدام مربع حوار Windows القياسي مع خيارات محددة.
+يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -37,10 +37,10 @@ document.Print(new PrintOptions()
                });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrintOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../printoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../printoptions/)
+* assembly [Aspose.Note](../../../)
 
 

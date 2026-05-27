@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateInstantMessagingContactPerson
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز InstantMessagingContactPerson والتسمية المحددة.
+title: "NoteTag.CreateInstantMessagingContactPerson"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة InstantMessagingContactPerson والملصق المحدد"
 type: docs
 weight: 590
 url: /ar/net/aspose.note/notetag/createinstantmessagingcontactperson/
 ---
 ## NoteTag.CreateInstantMessagingContactPerson method
 
-إنشاء علامة ملاحظة جديدة مع رمز InstantMessagingContactPerson والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة InstantMessagingContactPerson والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateInstantMessagingContactPerson(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

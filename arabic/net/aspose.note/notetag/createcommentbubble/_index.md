@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateCommentBubble
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز التعليق والتسمية المحددة.
+title: "NoteTag.CreateCommentBubble"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز CommentBubble والعنوان المحدد"
 type: docs
 weight: 290
 url: /ar/net/aspose.note/notetag/createcommentbubble/
 ---
 ## NoteTag.CreateCommentBubble method
 
-إنشاء علامة ملاحظة جديدة مع رمز التعليق والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة CommentBubble والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateCommentBubble(string label = "Remember for blog")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

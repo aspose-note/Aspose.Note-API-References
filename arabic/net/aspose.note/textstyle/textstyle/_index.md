@@ -1,23 +1,23 @@
 ---
-title: TextStyle.TextStyle
-second_title: Aspose.Note لمرجع NET API
-description: TextStyle البناء. Default_Constructor
+title: "TextStyle.TextStyle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ TextStyle. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/textstyle/textstyle/
 ---
 ## TextStyle constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public TextStyle()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

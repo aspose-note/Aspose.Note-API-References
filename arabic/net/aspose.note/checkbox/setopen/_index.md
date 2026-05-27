@@ -1,28 +1,28 @@
 ---
-title: CheckBox.SetOpen
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox طريقة. يعين العلامة لفتح حالة .
+title: "CheckBox.SetOpen"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "CheckBox طريقة. يضبط العلامة إلى حالة الفتح"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/checkbox/setopen/
 ---
 ## CheckBox.SetOpen method
 
-يعين العلامة لفتح حالة .
+يضبط العلامة إلى حالة مفتوحة.
 
 ```csharp
 public virtual void SetOpen()
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية فتح جميع عناصر مربعات الاختيار المتعلقة بالمشروع ج.
+يوضح كيفية فتح جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -39,10 +39,10 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

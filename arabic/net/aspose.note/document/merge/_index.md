@@ -1,31 +1,31 @@
 ---
-title: Document.Merge
-second_title: Aspose.Note لمرجع NET API
-description: Document طريقة. يدمج مجموعة من الصفحات في المستند.
+title: "Document.Merge"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Document. دمج مجموعة من الصفحات إلى المستند"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/document/merge/
 ---
 ## Document.Merge method
 
-يدمج مجموعة من الصفحات في المستند.
+يدمج مجموعة من الصفحات إلى المستند.
 
 ```csharp
 public Document Merge(IEnumerable<Page> pages, MergeOptions mergeOptions = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pages | IEnumerable`1 | مجموعة من الصفحات . |
-| mergeOptions | MergeOptions | يحدد الخيارات الخاصة بكيفية دمج الصفحات المتوفرة. |
+| صفحات | IEnumerable`1 | مجموعة من الصفحات. |
+| mergeOptions | MergeOptions | يحدد الخيارات التي يتم من خلالها دمج الصفحات المقدمة. |
 
 ### قيمة الإرجاع
 
-إرجاع المرجع إلى المستند.
+يعيد المرجع إلى المستند.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مستند PDF الذي يجمع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -44,12 +44,12 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [MergeOptions](../../mergeoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: RichText.Append
-second_title: Aspose.Note لمرجع NET API
-description: RichText طريقة. يضيف سلسلة إلى النهاية .
+title: "RichText.Append"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة RichText. تضيف سلسلة إلى النهاية"
 type: docs
-weight: 130
+weight: 160
 url: /ar/net/aspose.note/richtext/append/
 ---
 ## Append(string, TextStyle) {#append_1}
 
-يضيف سلسلة إلى النهاية .
+يضيف سلسلة إلى النهاية.
 
 ```csharp
 public RichText Append(string value, TextStyle style)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | String | القيمة المضافة . |
-| style | TextStyle | نمط السلسلة المضافة . |
+| value | String | القيمة المضافة. |
+| style | TextStyle | نمط السلسلة المضافة. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
-### أمثلة
+## أمثلة
 
-تعيين لغة التدقيق للنص.
+تعيين لغة التدقيق لنص.
 
 ```csharp
 var document = new Document();
@@ -46,7 +46,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-التلاعب بتنسيق النص باستخدام نمط الفقرة.
+التعامل مع تنسيق النص باستخدام نمط الفقرة.
 
 ```csharp
 var document = new Document();
@@ -67,13 +67,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-يوضح كيفية ربط ارتباط تشعبي بنص.
+يظهر كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -106,42 +106,42 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// تهيئة كائن فئة العنوان
+// تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة الصفحة
+// تهيئة كائن فئة Page
 Page page = new Note.Page() { Title = title };
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إنشاء مستند بنص منسق.
+يعرض كيفية إنشاء مستند بنص غني منسق.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
+// تهيئة كائن فئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة العنوان
+// تهيئة كائن فئة Title
 Title title = new Title();
 
-// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultTextStyle = new ParagraphStyle
                                       {
                                           FontColor = Color.Black,
@@ -198,45 +198,45 @@ outlineElem.AppendChildLast(text);
 // إضافة عقدة OutlineElement
 outline.AppendChildLast(outlineElem);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Append(string) {#append}
 
-يضيف سلسلة إلى آخر نطاق نصي.
+يضيف سلسلة إلى نطاق النص الأخير.
 
 ```csharp
 public RichText Append(string value)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | String | القيمة المضافة . |
+| value | String | القيمة المضافة. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
-### أمثلة
+## أمثلة
 
-التلاعب بتنسيق النص باستخدام نمط الفقرة.
+التعامل مع تنسيق النص باستخدام نمط الفقرة.
 
 ```csharp
 var document = new Document();
@@ -257,13 +257,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-يوضح كيفية ربط ارتباط تشعبي بنص.
+يظهر كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -296,30 +296,30 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// تهيئة كائن فئة العنوان
+// تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة الصفحة
+// تهيئة كائن فئة Page
 Page page = new Note.Page() { Title = title };
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,36 +1,36 @@
 ---
-title: Aspose.Note.Saving.Html
-second_title: Aspose.Note لمرجع NET API
-description: ملفHtml مساحة الاسم تحتوي على فئات تقوم بالحفظ بتنسيق HTML.
+title: "Aspose.Note.Saving.Html"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "تحتوي مساحة الاسم Html على فئات تقوم بالحفظ إلى تنسيق HTML"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.saving.html/
 ---
-ملفHtml مساحة الاسم تحتوي على فئات تقوم بالحفظ بتنسيق HTML.
+مساحة الاسم Html تحتوي على فئات تقوم بالحفظ إلى صيغة HTML.
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [CssSavingArgs](./csssavingargs/) | توفير بيانات لحدث CssSaving . |
-| [FontSavingArgs](./fontsavingargs/) | توفير بيانات لحدث FontSaving . |
-| [ImageSavingArgs](./imagesavingargs/) | توفير بيانات لحدث ImageSaving . |
-| [PageSavingArgs](./pagesavingargs/) | توفير بيانات لحدث PageSaving . |
-| [ResourceSavingArgs](./resourcesavingargs/) | توفير بيانات لحدث ResourceSaving . |
-## واجهات
+| [CssSavingArgs](./csssavingargs/) | يوفر بيانات لحدث CssSaving. |
+| [FontSavingArgs](./fontsavingargs/) | يوفر بيانات لحدث FontSaving. |
+| [ImageSavingArgs](./imagesavingargs/) | يوفر بيانات لحدث ImageSaving. |
+| [PageSavingArgs](./pagesavingargs/) | يوفر بيانات لحدث PageSaving. |
+| [ResourceSavingArgs](./resourcesavingargs/) | يوفر بيانات لحدث ResourceSaving. |
+## الواجهات
 
-| واجهه المستخدم | وصف |
+| الواجهة | الوصف |
 | --- | --- |
-| [ICssSavingCallback](./icsssavingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Note بحفظ CSS (ورقة الأنماط المتتالية) عند حفظ مستند إلى HTML. |
-| [IFontSavingCallback](./ifontsavingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note الخطوط عند حفظ مستند إلى HTML . |
-| [IImageSavingCallback](./iimagesavingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note للصور عند حفظ مستند إلى HTML . |
-| [IPageSavingCallback](./ipagesavingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Note بحفظ صفحات منفصلة. |
-## تعداد
+| [ICssSavingCallback](./icsssavingcallback/) | نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note لملف CSS (Cascading Style Sheet) عند حفظ المستند إلى HTML. |
+| [IFontSavingCallback](./ifontsavingcallback/) | نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للخطوط عند حفظ المستند إلى HTML. |
+| [IImageSavingCallback](./iimagesavingcallback/) | نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصور عند حفظ المستند إلى HTML. |
+| [IPageSavingCallback](./ipagesavingcallback/) | نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصفحات المنفصلة. |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [FontFaceType](./fontfacetype/) | تعداد أنواع وجه الخط |
-| [HtmlImageType](./htmlimagetype/) | يمثل نوع صورة HTML . |
-| [ResourceExportType](./resourceexporttype/) | تعداد الطرق التي يمكن بها تصدير المورد |
+| [FontFaceType](./fontfacetype/) | يسرد أنواع خطوط الوجه |
+| [HtmlImageType](./htmlimagetype/) | يمثل نوع صورة HTML. |
+| [ResourceExportType](./resourceexporttype/) | يسرد طرق تصدير المورد |
 
 

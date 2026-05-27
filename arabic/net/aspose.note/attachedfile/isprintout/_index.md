@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.IsPrintout
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان عرض الملف مطبوعًا.
+title: "AttachedFile.IsPrintout"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل أو يضبط قيمة تشير إلى ما إذا كان عرض الملف هو طباعة"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/attachedfile/isprintout/
 ---
 ## AttachedFile.IsPrintout property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان عرض الملف مطبوعًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان عرض الملف مطبوعًا.
 
 ```csharp
 public bool IsPrintout { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

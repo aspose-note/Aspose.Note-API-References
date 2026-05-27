@@ -1,23 +1,23 @@
 ---
-title: Document.Color
-second_title: Aspose.Note لمرجع NET API
-description: Document ملكية. الحصول على اللون أو تحديده .
+title: "Document.Color"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Document. تحصل أو تعيّن اللون"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/document/color/
 ---
 ## Document.Color property
 
-الحصول على اللون أو تحديده .
+يحصل أو يعيّن اللون.
 
 ```csharp
 public Color Color { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

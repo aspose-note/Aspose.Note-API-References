@@ -1,31 +1,31 @@
 ---
-title: Enum FileFormat
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.FileFormat تعداد. يمثل تنسيق ملف OneNote .
+title: "تعداد FileFormat"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "Aspose.Note.FileFormat enum. يمثل تنسيق ملف OneNote"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/fileformat/
 ---
 ## FileFormat enumeration
 
-يمثل تنسيق ملف OneNote .
+يمثل تنسيق ملف OneNote.
 
 ```csharp
 public enum FileFormat
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Unknown | `0` | تنسيق ملف غير معروف . |
+| Unknown | `0` | تنسيق ملف غير معروف. |
 | OneNote2007 | `1` | OneNote 2010. |
 | OneNote2010 | `2` | OneNote 2010. |
 | OneNoteOnline | `3` | OneNote Online. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية التحقق من فشل تحميل المستند لأن تنسيق OneNote 2007 غير مدعوم.
+يعرض كيفية التحقق مما إذا فشل تحميل المستند لأن تنسيق OneNote 2007 غير مدعوم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -47,9 +47,9 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 
