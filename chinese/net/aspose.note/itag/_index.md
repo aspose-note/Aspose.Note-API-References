@@ -1,22 +1,22 @@
 ---
-title: Interface ITag
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.ITag 界面. 各种标签的接口
+title: "接口 ITag"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.ITag 接口。用于各种标签的接口"
 type: docs
 weight: 230
 url: /zh/net/aspose.note/itag/
 ---
 ## ITag interface
 
-各种标签的接口。
+用于各种标签的接口。
 
 ```csharp
 public interface ITag
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [CompletedTime](../../aspose.note/itag/completedtime/) { get; } | 获取或设置完成时间。 |
 | [CreationTime](../../aspose.note/itag/creationtime/) { get; set; } | 获取或设置创建时间。 |
@@ -24,9 +24,9 @@ public interface ITag
 | [Label](../../aspose.note/itag/label/) { get; } | 获取标签文本。 |
 | [Status](../../aspose.note/itag/status/) { get; } | 获取或设置状态。 |
 
-### 例子
+## 示例
 
-显示如何生成包含与“项目 A”相关的所有页面的 pdf。
+展示如何生成包含所有与‘Project A’相关页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -47,7 +47,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-显示如何完成与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为已完成。
 
 ```csharp
 // 文档目录的路径。
@@ -70,7 +70,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-显示如何打开与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为打开。
 
 ```csharp
 // 文档目录的路径。
@@ -93,7 +93,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-展示如何生成一个 pdf，其中包含带有未完成复选框标记的项目和上周创建的页面。
+展示如何生成包含上周创建且标记为未完成复选框的页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -114,7 +114,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
 
-展示如何生成一个 pdf，其中包含本周要完成的 Outlook 未完成任务的页面。
+展示如何生成包含本周需完成的 Outlook 未完成任务页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -136,7 +136,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
 
-显示如何访问 outlook 任务的详细信息。
+展示如何访问 Outlook 任务的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -148,7 +148,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//遍历每个节点
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -168,7 +168,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-显示如何访问标签的详细信息。
+展示如何访问标签的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -180,7 +180,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//遍历每个节点
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -202,9 +202,9 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

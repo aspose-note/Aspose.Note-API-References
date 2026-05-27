@@ -1,7 +1,7 @@
 ---
-title: Image.FileName
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取文件名
+title: "Image.FileName"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取文件名"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/image/filename/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.note/image/filename/
 public string FileName { get; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取图像的元信息。
+展示如何获取图像的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -25,7 +25,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有Image节点
+// 获取所有 Image 节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,10 +40,10 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

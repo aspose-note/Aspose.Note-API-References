@@ -1,7 +1,7 @@
 ---
-title: CheckBox.CompletedTime
-second_title: Aspose.Note for .NET API 参考
-description: CheckBox 财产. 获取或设置完成时间
+title: "CheckBox.CompletedTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CheckBox 属性。获取或设置完成时间"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/checkbox/completedtime/
@@ -14,14 +14,14 @@ url: /zh/net/aspose.note/checkbox/completedtime/
 public DateTime? CompletedTime { get; }
 ```
 
-### 适当的价值
+### Property Value
 
-的Nullable.
+可空的 Nullable.
 
-### 也可以看看
+### 另请参阅
 
 * class [CheckBox](../)
-* 命名空间 [Aspose.Note](../../checkbox/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

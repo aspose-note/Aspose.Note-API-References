@@ -1,22 +1,22 @@
 ---
-title: Document.FileFormat
-second_title: Aspose.Note for .NET API 参考
-description: Document 财产. 获取文件格式OneNote 2010OneNote Online
+title: "Document.FileFormat"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Document 属性。获取文件格式（OneNote 2010、OneNote Online）。"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/document/fileformat/
 ---
 ## Document.FileFormat property
 
-获取文件格式（OneNote 2010、OneNote Online）。
+获取文件格式（OneNote 2010，OneNote Online）。
 
 ```csharp
 public FileFormat FileFormat { get; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取文档的文件格式。
+展示如何获取文档的文件格式。
 
 ```csharp
 // 文档目录的路径。
@@ -29,16 +29,16 @@ switch (document.FileFormat)
         // 处理 OneNote 2010
         break;
     case FileFormat.OneNoteOnline:
-        // 在线处理 OneNote
+        // 处理 OneNote Online
         break;
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * enum [FileFormat](../../fileformat/)
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

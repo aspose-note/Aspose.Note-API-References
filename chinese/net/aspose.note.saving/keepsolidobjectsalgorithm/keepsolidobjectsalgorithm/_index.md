@@ -1,43 +1,43 @@
 ---
-title: KeepSolidObjectsAlgorithm.KeepSolidObjectsAlgorithm
-second_title: Aspose.Note for .NET API 参考
-description: KeepSolidObjectsAlgorithm 构造函数. 初始化一个新的实例KeepSolidObjectsAlgorithm使用克隆部分的默认高度限制的类.
+title: "KeepSolidObjectsAlgorithm.KeepSolidObjectsAlgorithm"
+second_title: "Aspose.Note for .NET API 参考"
+description: "KeepSolidObjectsAlgorithm 构造函数。使用默认的克隆部件高度限制初始化 KeepSolidObjectsAlgorithm 类的新实例"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving/keepsolidobjectsalgorithm/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm() {#constructor}
 
-初始化一个新的实例[`KeepSolidObjectsAlgorithm`](../)使用克隆部分的默认高度限制的类.
+使用默认的克隆部件高度限制初始化 [`KeepSolidObjectsAlgorithm`](../) 类的新实例。
 
 ```csharp
 public KeepSolidObjectsAlgorithm()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [KeepSolidObjectsAlgorithm](../)
-* 命名空间 [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## KeepSolidObjectsAlgorithm(float) {#constructor_1}
 
-初始化一个新的实例[`KeepSolidObjectsAlgorithm`](../)使用克隆部分的特定高度限制的类.
+使用特定的克隆部件高度限制初始化 [`KeepSolidObjectsAlgorithm`](../) 类的新实例。
 
 ```csharp
 public KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| heightLimitOfClonedPart | Single | 克隆部分的最大高度。 |
+| heightLimitOfClonedPart | Single | 克隆部件的最大高度。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [KeepSolidObjectsAlgorithm](../)
-* 命名空间 [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
+* assembly [Aspose.Note](../../../)
 
 

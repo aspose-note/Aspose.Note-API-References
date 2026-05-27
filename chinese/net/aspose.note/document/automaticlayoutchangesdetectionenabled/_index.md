@@ -1,32 +1,32 @@
 ---
-title: Document.AutomaticLayoutChangesDetectionEnabled
-second_title: Aspose.Note for .NET API 参考
-description: Document 财产. 获取或设置一个值表示Aspose.Note是否自动检测布局变化 默认值为真的.
+title: "Document.AutomaticLayoutChangesDetectionEnabled"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Document 属性。获取或设置一个值，指示 Aspose.Note 是否自动检测布局更改。默认值为 true。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/document/automaticlayoutchangesdetectionenabled/
 ---
 ## Document.AutomaticLayoutChangesDetectionEnabled property
 
-获取或设置一个值，表示Aspose.Note是否自动检测布局变化。 默认值为`真的`.
+获取或设置一个值，指示 Aspose.Note 是否自动检测布局更改。默认值为 `true`。
 
 ```csharp
 public bool AutomaticLayoutChangesDetectionEnabled { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何以不同格式保存文档。
+展示如何将文档保存为不同的格式。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 初始化新文档
+// 初始化新的 Document
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // 初始化新页面
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
@@ -37,10 +37,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-//追加页面节点
+// 追加页面节点
 doc.AppendChildLast(page);
 
-// 以不同格式保存 OneNote 文档，手动设置文本字体大小和检测布局变化。
+// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局更改。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -49,10 +49,10 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: SaveOptions.FontsSubsystem
-second_title: Aspose.Note for .NET API 参考
-description: SaveOptions 财产. 获取或设置保存时要使用的字体设置
+title: "SaveOptions.FontsSubsystem"
+second_title: "Aspose.Note for .NET API 参考"
+description: "SaveOptions 属性。获取或设置保存时使用的字体设置"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving/saveoptions/fontssubsystem/
 ---
 ## SaveOptions.FontsSubsystem property
 
-获取或设置保存时要使用的字体设置
+获取或设置在保存时使用的字体设置
 
 ```csharp
 public FontsSubsystem FontsSubsystem { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何使用指定的默认字体以 pdf 格式保存文档。
+展示如何使用指定的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -33,7 +33,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-显示如何使用文件中的默认字体将文档保存为 pdf 格式。
+展示如何使用来自文件的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -52,7 +52,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-显示如何使用流中的默认字体以 pdf 格式保存文档。
+展示如何使用来自流的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -75,11 +75,11 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [FontsSubsystem](../../../aspose.note.fonts/fontssubsystem/)
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../saveoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../saveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

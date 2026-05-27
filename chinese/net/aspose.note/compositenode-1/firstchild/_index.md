@@ -1,22 +1,22 @@
 ---
-title: CompositeNode1.FirstChild
-second_title: Aspose.Note for .NET API 参考
-description: CompositeNode 财产. 获取该节点的第一个子节点
+title: "CompositeNode1.FirstChild"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CompositeNode 属性。获取此节点的第一个子节点"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/compositenode-1/firstchild/
 ---
 ## CompositeNode&lt;T&gt;.FirstChild property
 
-获取该节点的第一个子节点。
+获取此节点的第一个子节点。
 
 ```csharp
 public T FirstChild { get; }
 ```
 
-### 例子
+## 示例
 
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+展示如何检查页面是否为冲突页面（即它包含 OneNote 无法自动合并的更改）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -34,8 +34,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 默认情况下，冲突页面只是在保存时被跳过。
-    // 如果将其标记为非冲突，则它将照常保存在历史记录中。
+    // 默认情况下，冲突页面在保存时会被跳过。
+    // 如果将其标记为非冲突，则它将在历史记录中像普通页面一样保存。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -43,10 +43,10 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [CompositeNode&lt;T&gt;](../)
-* 命名空间 [Aspose.Note](../../compositenode-1/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

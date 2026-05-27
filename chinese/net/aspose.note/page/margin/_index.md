@@ -1,7 +1,7 @@
 ---
-title: Page.Margin
-second_title: Aspose.Note for .NET API 参考
-description: Page 财产. 获取或设置边距
+title: "Page.Margin"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 属性。获取或设置页边距"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/page/margin/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.note/page/margin/
 public Margins Margin { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * struct [Margins](../../margins/)
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

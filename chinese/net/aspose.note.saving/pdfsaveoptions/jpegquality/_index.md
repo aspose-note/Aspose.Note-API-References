@@ -1,26 +1,26 @@
 ---
-title: PdfSaveOptions.JpegQuality
-second_title: Aspose.Note for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置确定 PDF 文档中 JPEG 图像质量的值 该值可能在 0 到 100 之间变化其中 0 表示质量最差但压缩最大100 表示质量最好但压缩最小
+title: "PdfSaveOptions.JpegQuality"
+second_title: "Aspose.Note for .NET API 参考"
+description: "PdfSaveOptions 属性。获取或设置决定 PDF 文档中 JPEG 图像质量的值。该值范围为 0 到 100，其中 0 表示质量最差但压缩率最高，100 表示质量最佳但压缩率最低。"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/pdfsaveoptions/jpegquality/
 ---
 ## PdfSaveOptions.JpegQuality property
 
-获取或设置确定 PDF 文档中 JPEG 图像质量的值。 该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
+获取或设置决定 PDF 文档中 JPEG 图像质量的值。该值范围为 0 到 100，其中 0 表示质量最差但压缩最大，100 表示质量最佳但压缩最小。
 
 ```csharp
 public int JpegQuality { get; set; }
 ```
 
-### 评论
+## 备注
 
-默认值为 90.
+默认值为 90。
 
-### 例子
+## 示例
 
-显示如何使用特定设置将文档保存为 pdf 格式。
+展示如何使用特定设置以 PDF 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -43,10 +43,10 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../pdfsaveoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

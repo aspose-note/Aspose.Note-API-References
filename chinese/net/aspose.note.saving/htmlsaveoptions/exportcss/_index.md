@@ -1,22 +1,22 @@
 ---
-title: HtmlSaveOptions.ExportCss
-second_title: Aspose.Note for .NET API 参考
-description: HtmlSaveOptions 财产. 获取或设置css的导出方式
+title: "HtmlSaveOptions.ExportCss"
+second_title: "Aspose.Note for .NET API 参考"
+description: "HtmlSaveOptions 属性。获取或设置 css 的导出方式"
 type: docs
 weight: 50
 url: /zh/net/aspose.note.saving/htmlsaveoptions/exportcss/
 ---
 ## HtmlSaveOptions.ExportCss property
 
-获取或设置css的导出方式。
+获取或设置 CSS 的导出方式。
 
 ```csharp
 public ResourceExportType ExportCss { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何将文档保存为 html 格式，并将所有资源（css/字体/图像）存储到单独的文件中。
+展示如何以 HTML 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -32,7 +32,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-显示如何将文档保存到 html 格式的流中，并嵌入所有资源（css/字体/图像）。
+展示如何以 HTML 格式将文档保存到流中，并嵌入所有资源（css/字体/图像）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -50,11 +50,11 @@ var r = new MemoryStream();
 document.Save(r, options);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * enum [ResourceExportType](../../../aspose.note.saving.html/resourceexporttype/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../htmlsaveoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ResourceSavingArgs.FileName
-second_title: Aspose.Note for .NET API 参考
-description: ResourceSavingArgs 财产. 获取文件名
+title: "ResourceSavingArgs.FileName"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ResourceSavingArgs 属性。获取文件名"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving.html/resourcesavingargs/filename/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note.saving.html/resourcesavingargs/filename/
 public string FileName { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Note.Saving.Html](../../resourcesavingargs/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

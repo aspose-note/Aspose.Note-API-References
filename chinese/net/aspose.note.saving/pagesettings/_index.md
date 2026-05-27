@@ -1,9 +1,9 @@
 ---
-title: Class PageSettings
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Saving.PageSettings 班级. 表示页面的布局设置
+title: "类 PageSettings"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Saving.PageSettings 类。表示页面的布局设置"
 type: docs
-weight: 820
+weight: 900
 url: /zh/net/aspose.note.saving/pagesettings/
 ---
 ## PageSettings class
@@ -14,18 +14,18 @@ url: /zh/net/aspose.note.saving/pagesettings/
 public class PageSettings
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | static [A4](../../aspose.note.saving/pagesettings/a4/) { get; } | 获取 A4 格式页面的设置。 |
-| static [A4NoHeightLimit](../../aspose.note.saving/pagesettings/a4noheightlimit/) { get; } | 获取无限高度的A4格式页面设置。 |
-| static [Letter](../../aspose.note.saving/pagesettings/letter/) { get; } | 获取信件格式页面的设置。 |
-| static [LetterNoHeightLimit](../../aspose.note.saving/pagesettings/letternoheightlimit/) { get; } | 获取无限高度的 Letter-format 页面设置。 |
+| static [A4NoHeightLimit](../../aspose.note.saving/pagesettings/a4noheightlimit/) { get; } | 获取具有无限高度的 A4 格式页面的设置。 |
+| static [Letter](../../aspose.note.saving/pagesettings/letter/) { get; } | 获取 Letter 格式页面的设置。 |
+| static [LetterNoHeightLimit](../../aspose.note.saving/pagesettings/letternoheightlimit/) { get; } | 获取具有无限高度的 Letter 格式页面的设置。 |
 
-### 例子
+## 示例
 
-展示如何使用 Letter 页面布局将文档保存为 Pdf 格式。
+展示如何将文档保存为 Pdf 格式并使用 Letter 页面布局。
 
 ```csharp
 // 文档目录的路径。
@@ -40,7 +40,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-演示如何将文档保存为 A4 页面布局且没有高度限制的 Pdf 格式。
+展示如何将文档保存为 Pdf 格式并使用 A4 页面布局且不限制高度。
 
 ```csharp
 // 文档目录的路径。
@@ -55,9 +55,9 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note.Saving](../../aspose.note.saving/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

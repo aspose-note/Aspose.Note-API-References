@@ -1,7 +1,7 @@
 ---
-title: Document.Accept
-second_title: Aspose.Note for .NET API 参考
-description: Document 方法. 接受节点的访问者
+title: "Document.Accept"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Document 方法。接受节点的访问者"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/document/accept/
@@ -14,13 +14,13 @@ url: /zh/net/aspose.note/document/accept/
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 派生类的对象[`DocumentVisitor`](../../documentvisitor/). |
+| visitor | DocumentVisitor | 从 [`DocumentVisitor`](../../documentvisitor/) 派生的类的对象。 |
 
-### 例子
+## 示例
 
-显示如何使用访问者访问文档的内容。
+展示如何使用访问者访问文档的内容。
 
 ```csharp
 public static void Run()
@@ -28,28 +28,28 @@ public static void Run()
     // 文档目录的路径。
     string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-    // 打开我们要转换的文档。
+    // 打开我们想要转换的文档。
     Document doc = new Document(dataDir + "Aspose.one");
 
     // 创建一个继承自 DocumentVisitor 类的对象。
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // 这是众所周知的访客模式。让模型接受访客。
-    // 模型将通过调用相应的方法来遍历自身
+    // 这是众所周知的 Visitor 模式。让模型接受访问者。
+    // 模型将通过调用相应的方法自行遍历
     // 在访问者对象上（这称为访问）。
     //
     // 请注意，对象模型中的每个节点都有 Accept 方法，因此访问
-    // 不仅可以对整个文档执行，还可以对文档中的任何节点执行。
+    // 不仅可以对整个文档执行，也可以对文档中的任何节点执行。
     doc.Accept(myConverter);
 
-    // 一旦访问完成，我们就可以检索操作的结果，
-    // 在此示例中，已在访问者中积累。
+    // 一旦访问完成，我们可以检索操作的结果，
+    // 在本例中，该结果已在访问者中累积。
     Console.WriteLine(myConverter.GetText());
     Console.WriteLine(myConverter.NodeCount);            
 }
 
 /// <summary>
-/// 以纯文本格式保存文档的简单实现。作为访客实施。
+/// 简单实现将文档保存为纯文本格式。实现为 Visitor。
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 获取访问者积累的文档的纯文本。
+    /// 获取由访问者累积的文档纯文本。
     /// </summary>
     public string GetText()
     {
@@ -69,7 +69,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将文本添加到当前输出。尊重启用/禁用的输出标志。
+    /// 向当前输出添加文本。遵守已启用/已禁用的输出标志。
     /// </summary>
     private void AppendText(string text)
     {
@@ -80,7 +80,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 RichText 节点时调用。
+    /// 当文档中遇到 RichText 节点时调用。
     /// </summary>
     public override void VisitRichTextStart(RichText run)
     {
@@ -89,7 +89,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到文档节点时调用。
+    /// 当文档中遇到 Document 节点时调用。
     /// </summary>
     public override void VisitDocumentStart(Document document)
     {
@@ -97,7 +97,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到页面节点时调用。
+    /// 当文档中遇到 Page 节点时调用。
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -106,7 +106,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当页面节点的处理完成时调用。
+    /// 当 Page 节点的处理完成时调用。
     /// </summary>
     public override void VisitPageEnd(Page page)
     {
@@ -114,7 +114,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到标题节点时调用。
+    /// 当文档中遇到 Title 节点时调用。
     /// </summary>
     public override void VisitTitleStart(Title title)
     {
@@ -122,7 +122,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到图像节点时调用。
+    /// 当文档中遇到 Image 节点时调用。
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -130,7 +130,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 OutlineGroup 节点时调用。
+    /// 当文档中遇到 OutlineGroup 节点时调用。
     /// </summary>
     public override void VisitOutlineGroupStart(OutlineGroup outlineGroup)
     {
@@ -138,7 +138,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到大纲节点时调用。
+    /// 当文档中遇到 Outline 节点时调用。
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -146,7 +146,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 OutlineElement 节点时调用。
+    /// 当文档中遇到 OutlineElement 节点时调用。
     /// </summary>
     public override void VisitOutlineElementStart(OutlineElement outlineElement)
     {
@@ -154,7 +154,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 获取访问者的节点总数
+    /// 获取 Visitor 的节点总数
     /// </summary>
     public Int32 NodeCount
     {
@@ -167,11 +167,11 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

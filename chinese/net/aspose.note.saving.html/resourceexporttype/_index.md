@@ -1,30 +1,30 @@
 ---
-title: Enum ResourceExportType
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Saving.Html.ResourceExportType 枚举. 枚举资源的导出方式
+title: "枚举 ResourceExportType"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Saving.Html.ResourceExportType 枚举。枚举资源可以导出的方式。"
 type: docs
-weight: 680
+weight: 760
 url: /zh/net/aspose.note.saving.html/resourceexporttype/
 ---
 ## ResourceExportType enumeration
 
-枚举资源的导出方式
+枚举资源可导出的方式
 
 ```csharp
 public enum ResourceExportType
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NoExport | `0` | 资源被跳过 |
-| ExportAsStream | `1` | 资源导出到流。 |
-| ExportEmbedded | `2` | 作为 base64 编码值导出到 HTML 页面的资源 |
+| NoExport | `0` | 资源已被跳过 |
+| ExportAsStream | `1` | 资源已导出到流。 |
+| ExportEmbedded | `2` | 资源已作为 base64 编码值导出到 HTML 页面 |
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

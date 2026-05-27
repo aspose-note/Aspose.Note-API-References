@@ -1,9 +1,9 @@
 ---
-title: Class RevisionSummary
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.RevisionSummary 班级. 表示节点修订的摘要
+title: "RevisionSummary 类"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.RevisionSummary 类。表示节点修订的摘要"
 type: docs
-weight: 520
+weight: 600
 url: /zh/net/aspose.note/revisionsummary/
 ---
 ## RevisionSummary class
@@ -16,30 +16,30 @@ public class RevisionSummary
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [RevisionSummary](revisionsummary/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [AuthorMostRecent](../../aspose.note/revisionsummary/authormostrecent/) { get; set; } | 获取或设置最近的作者。 |
 | [LastModifiedTime](../../aspose.note/revisionsummary/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
 
-### 例子
+## 示例
 
-显示如何编辑页面的元信息。
+展示如何编辑页面的元信息。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// 阅读此页面的内容修订摘要
+// 读取此页面的内容修订摘要
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -54,7 +54,7 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+展示如何检查页面是否为冲突页面（即它包含 OneNote 无法自动合并的更改）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -72,8 +72,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 默认情况下，冲突页面只是在保存时被跳过。
-    // 如果将其标记为非冲突，则它将照常保存在历史记录中。
+    // 默认情况下，冲突页面在保存时会被跳过。
+    // 如果将其标记为非冲突，则它将在历史记录中像普通页面一样保存。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -81,9 +81,9 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: ImageBinarizationOptions.BinarizationThreshold
-second_title: Aspose.Note for .NET API 参考
-description: ImageBinarizationOptions 财产. 获取或设置固定阈值二值化方法的阈值 默认值为 128.
+title: "ImageBinarizationOptions.BinarizationThreshold"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ImageBinarizationOptions 属性。获取或设置固定阈值二值化方法的阈值。默认值为 128"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/imagebinarizationoptions/binarizationthreshold/
 ---
 ## ImageBinarizationOptions.BinarizationThreshold property
 
-获取或设置固定阈值二值化方法的阈值。 默认值为 128.
+获取或设置固定阈值二值化方法的阈值。默认值为 128。
 
 ```csharp
 public byte BinarizationThreshold { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何使用固定阈值将文档保存为二值图像。
+展示如何使用固定阈值将文档保存为二值图像。
 
 ```csharp
 // 文档目录的路径。
@@ -39,10 +39,10 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [ImageBinarizationOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../imagebinarizationoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../imagebinarizationoptions/)
+* assembly [Aspose.Note](../../../)
 
 

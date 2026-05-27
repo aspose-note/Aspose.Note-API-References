@@ -1,29 +1,29 @@
 ---
-title: PageHistory.Insert
-second_title: Aspose.Note for .NET API 参考
-description: PageHistory 方法. 将页面版本插入页面历史记录
+title: "PageHistory.Insert"
+second_title: "Aspose.Note for .NET API 参考"
+description: "PageHistory 方法。将页面版本插入页面历史"
 type: docs
 weight: 130
 url: /zh/net/aspose.note/pagehistory/insert/
 ---
 ## PageHistory.Insert method
 
-将页面版本插入页面历史记录。
+将页面版本插入到页面历史记录中。
 
 ```csharp
 public void Insert(int index, Page item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引. |
-| item | Page | 页面版本。 |
+| 索引 | Int32 | 该索引。 |
+| 项目 | Page | 页面版本。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* 命名空间 [Aspose.Note](../../pagehistory/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

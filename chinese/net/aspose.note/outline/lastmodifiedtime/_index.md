@@ -1,7 +1,7 @@
 ---
-title: Outline.LastModifiedTime
-second_title: Aspose.Note for .NET API 参考
-description: Outline 财产. 获取或设置最后修改时间
+title: "Outline.LastModifiedTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Outline 属性。获取或设置最后修改时间"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/outline/lastmodifiedtime/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/outline/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Outline](../)
-* 命名空间 [Aspose.Note](../../outline/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outline/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: TextStyle.IsHyperlink
-second_title: Aspose.Note for .NET API 参考
-description: TextStyle 属性。 自 22.5 起已过时。请改用 HyperlinkAddress。
+title: "TextStyle.IsHyperlink"
+second_title: "Aspose.Note for .NET API 参考"
+description: "TextStyle 属性。自 22.5 起已过时。请改用 HyperlinkAddress。"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/textstyle/ishyperlink/
@@ -14,15 +14,15 @@ url: /zh/net/aspose.note/textstyle/ishyperlink/
 public bool IsHyperlink { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何将超链接绑定到文本。
+展示如何将超链接绑定到文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -55,19 +55,19 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// 添加轮廓元素
+// 添加大纲元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化标题类对象
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 初始化页面类对象
+// 初始化 Page 类对象
 Page page = new Note.Page() { Title = title };
 
-// 添加轮廓节点
+// 添加 Outline 节点
 page.AppendChildLast(outline);
 
-// 添加页面节点
+// 添加 Page 节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -75,10 +75,10 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [TextStyle](../)
-* 命名空间 [Aspose.Note](../../textstyle/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

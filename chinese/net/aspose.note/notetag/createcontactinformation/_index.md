@@ -1,7 +1,7 @@
 ---
-title: NoteTag.CreateContactInformation
-second_title: Aspose.Note for .NET API 参考
-description: NoteTag 方法. 创建一个带有 ContactInformation 图标和指定标签的新笔记标签
+title: "NoteTag.CreateContactInformation"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NoteTag 方法。创建一个带有 ContactInformation 图标并指定标签的新笔记标签"
 type: docs
 weight: 300
 url: /zh/net/aspose.note/notetag/createcontactinformation/
@@ -14,18 +14,18 @@ url: /zh/net/aspose.note/notetag/createcontactinformation/
 public static NoteTag CreateContactInformation(string label = "Phone number")
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| label | String | 标签的标签。 |
+| 标签 | String | 标签的标签。 |
 
 ### 返回值
 
-的[`NoteTag`](../).
+该 [`NoteTag`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [NoteTag](../)
-* 命名空间 [Aspose.Note](../../notetag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

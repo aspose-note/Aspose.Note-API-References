@@ -1,7 +1,7 @@
 ---
-title: CheckBox.Icon
-second_title: Aspose.Note for .NET API 参考
-description: CheckBox 财产. 获取或设置图标
+title: "CheckBox.Icon"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CheckBox 属性。获取或设置图标"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/checkbox/icon/
@@ -14,15 +14,15 @@ url: /zh/net/aspose.note/checkbox/icon/
 public abstract TagIcon Icon { get; }
 ```
 
-### 适当的价值
+### Property Value
 
-的[`TagIcon`](../../tagicon/).
+该 [`TagIcon`](../../tagicon/)。
 
-### 也可以看看
+### 另请参阅
 
 * enum [TagIcon](../../tagicon/)
 * class [CheckBox](../)
-* 命名空间 [Aspose.Note](../../checkbox/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: CompositeNode1.AppendChildLast
-second_title: Aspose.Note for .NET API 参考
-description: CompositeNode 方法. 将节点添加到此节点的子节点列表的末尾
+title: "CompositeNode1.AppendChildLast"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CompositeNode 方法。将节点添加到此节点的子节点列表末尾"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/compositenode-1/appendchildlast/
@@ -15,19 +15,19 @@ public virtual T1 AppendChildLast<T1>(T1 newChild)
     where T1 : T
 ```
 
-| 范围 | 描述 |
+| 参数 | 描述 |
 | --- | --- |
-| T1 | 附加节点的确切类型。 |
+| T1 | 追加节点的确切类型。 |
 | newChild | 要添加的节点。 |
 
 ### 返回值
 
-添加的节点。
+已添加的节点。
 
-### 也可以看看
+### 另请参阅
 
 * class [CompositeNode&lt;T&gt;](../)
-* 命名空间 [Aspose.Note](../../compositenode-1/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

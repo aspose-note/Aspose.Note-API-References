@@ -1,7 +1,7 @@
 ---
-title: AlwaysSplitObjectsAlgorithm.AlwaysSplitObjectsAlgorithm
-second_title: Aspose.Note for .NET API 参考
-description: AlwaysSplitObjectsAlgorithm 构造函数. 默认构造函数
+title: "AlwaysSplitObjectsAlgorithm.AlwaysSplitObjectsAlgorithm"
+second_title: "Aspose.Note for .NET API 参考"
+description: "AlwaysSplitObjectsAlgorithm 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving/alwayssplitobjectsalgorithm/alwayssplitobjectsalgorithm/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note.saving/alwayssplitobjectsalgorithm/alwayssplitobjectsal
 public AlwaysSplitObjectsAlgorithm()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [AlwaysSplitObjectsAlgorithm](../)
-* 命名空间 [Aspose.Note.Saving](../../alwayssplitobjectsalgorithm/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../alwayssplitobjectsalgorithm/)
+* assembly [Aspose.Note](../../../)
 
 

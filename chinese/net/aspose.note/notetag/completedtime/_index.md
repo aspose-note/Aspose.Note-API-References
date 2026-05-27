@@ -1,7 +1,7 @@
 ---
-title: NoteTag.CompletedTime
-second_title: Aspose.Note for .NET API 参考
-description: NoteTag 财产. 获取或设置完成时间
+title: "NoteTag.CompletedTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NoteTag 属性。获取或设置完成时间"
 type: docs
 weight: 1130
 url: /zh/net/aspose.note/notetag/completedtime/
@@ -14,14 +14,14 @@ url: /zh/net/aspose.note/notetag/completedtime/
 public DateTime? CompletedTime { get; }
 ```
 
-### 适当的价值
+### Property Value
 
-的Nullable.
+可空的 Nullable.
 
-### 也可以看看
+### 另请参阅
 
 * class [NoteTag](../)
-* 命名空间 [Aspose.Note](../../notetag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

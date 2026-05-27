@@ -1,22 +1,22 @@
 ---
-title: Image.LastModifiedTime
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取或设置上次修改时间
+title: "Image.LastModifiedTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取或设置最后修改时间"
 type: docs
 weight: 130
 url: /zh/net/aspose.note/image/lastmodifiedtime/
 ---
 ## Image.LastModifiedTime property
 
-获取或设置上次修改时间。
+获取或设置最后修改时间。
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取图像的元信息。
+展示如何获取图像的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -25,7 +25,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有Image节点
+// 获取所有 Image 节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,10 +40,10 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

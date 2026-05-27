@@ -1,7 +1,7 @@
 ---
-title: Image.VerticalOffset
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取或设置垂直偏移量
+title: "Image.VerticalOffset"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取或设置垂直偏移量"
 type: docs
 weight: 170
 url: /zh/net/aspose.note/image/verticaloffset/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.note/image/verticaloffset/
 public float VerticalOffset { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何将图像从文件添加到具有用户定义属性的文档。
+展示如何从文件向文档添加图像，并使用用户定义的属性。
 
 ```csharp
 // 文档目录的路径。
@@ -26,10 +26,10 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // 获取文档的第一页。
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
-// 从文件中加载图像。
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+// 从文件加载图像。
+Image image = new Image(dataDir + "image.jpg")
                           {
                               // 根据需要更改图像的大小（可选）。
                               Width = 100,
@@ -39,7 +39,7 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // 设置图像对齐
+                              // 设置图像对齐方式
                               Alignment = HorizontalAlignment.Right
                           };
 
@@ -47,10 +47,10 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

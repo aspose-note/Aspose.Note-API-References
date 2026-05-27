@@ -1,7 +1,7 @@
 ---
-title: Notebook.Color
-second_title: Aspose.Note for .NET API 参考
-description: Notebook 财产. 获取或设置颜色
+title: "Notebook.Color"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Notebook 属性。获取或设置颜色"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/notebook/color/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/notebook/color/
 public Color Color { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Notebook](../)
-* 命名空间 [Aspose.Note](../../notebook/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

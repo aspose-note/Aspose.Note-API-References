@@ -1,22 +1,22 @@
 ---
-title: SaveOptions.PageIndex
-second_title: Aspose.Note for .NET API 参考
-description: SaveOptions 财产. 获取或设置要保存的第一页的索引默认为 0.
+title: "SaveOptions.PageIndex"
+second_title: "Aspose.Note for .NET API 参考"
+description: "SaveOptions 属性。获取或设置要保存的第一页的索引。默认值为 0"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/saveoptions/pageindex/
 ---
 ## SaveOptions.PageIndex property
 
-获取或设置要保存的第一页的索引。默认为 0.
+获取或设置要保存的第一页的索引。默认值为 0。
 
 ```csharp
 public int PageIndex { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何以 png 格式保存文档。
+展示如何以 PNG 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -38,7 +38,7 @@ dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 oneFile.Save(dataDir, opts);
 ```
 
-显示如何以 pdf 格式保存文档。
+展示如何以 PDF 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -50,10 +50,10 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 设置要保存的第一页的页索引
+                              // 设置要保存的第一页的页面索引
                               PageIndex = 0,
 
-                              // 设置页数
+                              // 设置页面数量
                               PageCount = 1,
                           };
 
@@ -62,7 +62,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-显示如何使用特定设置将文档保存为 pdf 格式。
+展示如何使用特定设置以 PDF 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -85,7 +85,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-显示如何创建文档并以 html 格式保存指定范围的页面。
+展示如何创建文档并在指定页面范围内以 HTML 格式保存。
 
 ```csharp
 // 文档目录的路径。
@@ -105,7 +105,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 保存成HTML格式
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -114,19 +114,19 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-演示如何创建具有格式化富文本的文档。
+展示如何创建带格式化富文本的文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化页面类对象
+// 初始化 Page 类对象
 Page page = new Page();
 
-// 初始化标题类对象
+// 初始化 Title 类对象
 Title title = new Title();
 
 // 初始化 TextStyle 类对象并设置格式属性
@@ -186,10 +186,10 @@ outlineElem.AppendChildLast(text);
 // 添加 OutlineElement 节点
 outline.AppendChildLast(outlineElem);
 
-// 添加轮廓节点
+// 添加 Outline 节点
 page.AppendChildLast(outline);
 
-// 添加页面节点
+// 添加 Page 节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -197,10 +197,10 @@ dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../saveoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../saveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: KeepSolidObjectsAlgorithm.DefaultHeightLimitOfClonedPart
-second_title: Aspose.Note for .NET API 参考
-description: KeepSolidObjectsAlgorithm 场地. 克隆部分的默认最大大小
+title: "KeepSolidObjectsAlgorithm.DefaultHeightLimitOfClonedPart"
+second_title: "Aspose.Note for .NET API 参考"
+description: "KeepSolidObjectsAlgorithm 字段。克隆部件的默认最大尺寸"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart/
 ---
 ## KeepSolidObjectsAlgorithm.DefaultHeightLimitOfClonedPart field
 
-克隆部分的默认最大大小。
+克隆部件的默认最大尺寸。
 
 ```csharp
 public const float DefaultHeightLimitOfClonedPart;
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [KeepSolidObjectsAlgorithm](../)
-* 命名空间 [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
+* assembly [Aspose.Note](../../../)
 
 

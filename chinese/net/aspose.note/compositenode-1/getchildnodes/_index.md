@@ -1,21 +1,21 @@
 ---
-title: CompositeNode1.GetChildNodes
-second_title: Aspose.Note for .NET API 参考
-description: CompositeNode 方法. 根据节点类型获取所有子节点
+title: "CompositeNode1.GetChildNodes"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CompositeNode 方法。按节点类型获取所有子节点"
 type: docs
 weight: 70
 url: /zh/net/aspose.note/compositenode-1/getchildnodes/
 ---
 ## CompositeNode&lt;T&gt;.GetChildNodes&lt;T1&gt; method
 
-根据节点类型获取所有子节点。
+按节点类型获取所有子节点。
 
 ```csharp
 public override List<T1> GetChildNodes<T1>()
     where T1 : class, INode
 ```
 
-| 范围 | 描述 |
+| 参数 | 描述 |
 | --- | --- |
 | T1 | 返回列表中元素的类型。 |
 
@@ -23,9 +23,9 @@ public override List<T1> GetChildNodes<T1>()
 
 子节点列表。
 
-### 例子
+## 示例
 
-演示如何从文档中获取图像。
+展示如何从文档中获取图像。
 
 ```csharp
 // 文档目录的路径。
@@ -34,7 +34,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有Image节点
+// 获取所有 Image 节点
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -50,7 +50,7 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
-显示如何获取图像的元信息。
+展示如何获取图像的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -59,7 +59,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有Image节点
+// 获取所有 Image 节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -74,11 +74,11 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [INode](../../inode/)
 * class [CompositeNode&lt;T&gt;](../)
-* 命名空间 [Aspose.Note](../../compositenode-1/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

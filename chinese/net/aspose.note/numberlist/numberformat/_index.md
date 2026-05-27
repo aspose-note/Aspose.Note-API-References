@@ -1,24 +1,24 @@
 ---
-title: NumberList.NumberFormat
-second_title: Aspose.Note for .NET API 参考
-description: NumberList 财产. 获取或设置用于一组自动编号对象的数字格式对于项目符号列表应该为空
+title: "NumberList.NumberFormat"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NumberList 属性。获取或设置用于一组自动编号对象的数字格式。对于项目符号列表应为 null。"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/numberlist/numberformat/
 ---
 ## NumberList.NumberFormat property
 
-获取或设置用于一组自动编号对象的数字格式。对于项目符号列表应该为空。
+获取或设置用于一组自动编号对象的数字格式。对于项目符号列表应为 null。
 
 ```csharp
 public NumberFormat? NumberFormat { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * enum [NumberFormat](../../numberformat/)
 * class [NumberList](../)
-* 命名空间 [Aspose.Note](../../numberlist/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 

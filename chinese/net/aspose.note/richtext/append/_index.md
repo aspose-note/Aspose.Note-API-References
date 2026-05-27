@@ -1,29 +1,29 @@
 ---
-title: RichText.Append
-second_title: Aspose.Note for .NET API 参考
-description: RichText 方法. 在末尾添加一个字符串
+title: "RichText.Append"
+second_title: "Aspose.Note for .NET API 参考"
+description: "RichText 方法。向末尾添加字符串"
 type: docs
-weight: 130
+weight: 160
 url: /zh/net/aspose.note/richtext/append/
 ---
 ## Append(string, TextStyle) {#append_1}
 
-在末尾添加一个字符串。
+在末尾添加字符串。
 
 ```csharp
 public RichText Append(string value, TextStyle style)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 附加值. |
-| style | TextStyle | 添加字符串的样式。 |
+| value | String | 添加的值。 |
+| style | TextStyle | 添加的字符串的样式。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 例子
+## 示例
 
 为文本设置校对语言。
 
@@ -46,7 +46,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-使用段落样式按文本格式进行操作。
+使用段落样式操作文本格式。
 
 ```csharp
 var document = new Document();
@@ -67,13 +67,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-显示如何将超链接绑定到文本。
+展示如何将超链接绑定到文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -106,19 +106,19 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// 添加轮廓元素
+// 添加大纲元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化标题类对象
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 初始化页面类对象
+// 初始化 Page 类对象
 Page page = new Note.Page() { Title = title };
 
-// 添加轮廓节点
+// 添加 Outline 节点
 page.AppendChildLast(outline);
 
-// 添加页面节点
+// 添加 Page 节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -126,19 +126,19 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-演示如何创建具有格式化富文本的文档。
+展示如何创建带格式化富文本的文档。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化页面类对象
+// 初始化 Page 类对象
 Page page = new Page();
 
-// 初始化标题类对象
+// 初始化 Title 类对象
 Title title = new Title();
 
 // 初始化 TextStyle 类对象并设置格式属性
@@ -198,10 +198,10 @@ outlineElem.AppendChildLast(text);
 // 添加 OutlineElement 节点
 outline.AppendChildLast(outlineElem);
 
-// 添加轮廓节点
+// 添加 Outline 节点
 page.AppendChildLast(outline);
 
-// 添加页面节点
+// 添加 Page 节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -209,34 +209,34 @@ dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Append(string) {#append}
 
-添加一个字符串到最后一个文本范围。
+向最后的文本范围添加字符串。
 
 ```csharp
 public RichText Append(string value)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 附加值. |
+| value | String | 添加的值。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 例子
+## 示例
 
-使用段落样式按文本格式进行操作。
+使用段落样式操作文本格式。
 
 ```csharp
 var document = new Document();
@@ -257,13 +257,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-显示如何将超链接绑定到文本。
+展示如何将超链接绑定到文本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -296,19 +296,19 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// 添加轮廓元素
+// 添加大纲元素
 outline.AppendChildLast(outlineElem);
 
-// 初始化标题类对象
+// 初始化 Title 类对象
 Title title = new Title() { TitleText = titleText };
 
-// 初始化页面类对象
+// 初始化 Page 类对象
 Page page = new Note.Page() { Title = title };
 
-// 添加轮廓节点
+// 添加 Outline 节点
 page.AppendChildLast(outline);
 
-// 添加页面节点
+// 添加 Page 节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -316,10 +316,10 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: NoteTask.DueDate
-second_title: Aspose.Note for .NET API 参考
-description: NoteTask 财产. 获取或设置截止日期
+title: "NoteTask.DueDate"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NoteTask 属性。获取或设置截止日期"
 type: docs
 weight: 70
 url: /zh/net/aspose.note/notetask/duedate/
@@ -14,13 +14,13 @@ url: /zh/net/aspose.note/notetask/duedate/
 public DateTime DueDate { get; set; }
 ```
 
-### 适当的价值
+### Property Value
 
-的DateTime.
+DateTime。
 
-### 例子
+## 示例
 
-显示如何生成包含与“项目 A”相关的所有页面的 pdf。
+展示如何生成包含所有与‘Project A’相关页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -41,7 +41,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-显示如何访问 outlook 任务的详细信息。
+展示如何访问 Outlook 任务的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -53,7 +53,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//遍历每个节点
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -73,10 +73,10 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [NoteTask](../)
-* 命名空间 [Aspose.Note](../../notetask/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,30 +1,30 @@
 ---
-title: Table.IsBordersVisible
-second_title: Aspose.Note for .NET API 参考
-description: Table 财产. 获取或设置一个值指示表格边框是否可见
+title: "Table.IsBordersVisible"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Table 属性。获取或设置一个指示表格边框是否可见的值"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/table/isbordersvisible/
 ---
 ## Table.IsBordersVisible property
 
-获取或设置一个值，指示表格边框是否可见。
+获取或设置指示表格边框是否可见的值。
 
 ```csharp
 public bool IsBordersVisible { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何为单元格设置背景颜色。
+展示如何为单元格设置背景颜色。
 
 ```csharp
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化TableCell类对象并设置文本内容
+// 初始化 TableCell 类对象并设置文本内容
 TableCell cell11 = new TableCell();
-cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
+cell11.AppendChildLast(InsertTable.GetOutlineElementWithText("Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // 初始化 TableRow 类对象
@@ -44,7 +44,7 @@ oe.AppendChildLast(table);
 Outline o = new Outline();
 o.AppendChildLast(oe);
 
-// 初始化页面类对象
+// 初始化 Page 类对象
 Page page = new Page();
 page.AppendChildLast(o);
 
@@ -53,17 +53,17 @@ doc.AppendChildLast(page);
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
 
-显示如何添加带有标签的新表。
+展示如何添加带标签的新表格。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// 初始化 Page 类对象
+Page page = new Page();
 
 // 初始化 TableRow 类对象
 TableRow row = new TableRow();
@@ -71,32 +71,32 @@ TableRow row = new TableRow();
 // 初始化 TableCell 类对象
 TableCell cell = new TableCell();
 
-//插入单元格内容
-cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."));
+// 插入单元格内容
+cell.AppendChildLast(InsertTable.GetOutlineElementWithText("Single cell."));
 
 // 将单元格添加到行节点
 row.AppendChildLast(cell);
 
-// 初始化表节点
+// 初始化表格节点
 Table table = new Table()
               {
                   IsBordersVisible = true,
                   Columns = { new TableColumn { Width = 70 } }
               };
 
-// 在表中插入行节点
+// 在表格中插入行节点
 table.AppendChildLast(row);
 
-// 给这个表节点添加标签
+// 为此表格节点添加标签
 table.Tags.Add(NoteTag.CreateQuestionMark());
 
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 
-// 添加表节点
+// 添加表格节点
 outlineElem.AppendChildLast(table);
 
-// 添加轮廓元素
+// 添加大纲元素
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
@@ -106,35 +106,35 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-显示如何创建具有锁定列的表。
+展示如何创建带有锁定列的表格。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// 初始化 Page 类对象
+Page page = new Page();
 
 // 初始化 TableRow 类对象
 TableRow row1 = new TableRow();
 
-// 初始化TableCell类对象并设置文本内容
+// 初始化 TableCell 类对象并设置文本内容
 TableCell cell11 = new TableCell();
-cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
+cell11.AppendChildLast(InsertTable.GetOutlineElementWithText("Small text"));
 row1.AppendChildLast(cell11);
 
 // 初始化 TableRow 类对象
 TableRow row2 = new TableRow();
 
-// 初始化TableCell类对象并设置文本内容
+// 初始化 TableCell 类对象并设置文本内容
 TableCell cell21 = new TableCell();
-cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long   text    with    several   words and    spaces."));
+cell21.AppendChildLast(InsertTable.GetOutlineElementWithText("Long   text    with    several   words and    spaces."));
 row2.AppendChildLast(cell21);
 
-// 初始化表类对象
+// 初始化 Table 类对象
 Table table = new Table()
               {
                   IsBordersVisible = true,
@@ -148,13 +148,13 @@ table.AppendChildLast(row2);
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 
-// 添加表节点
+// 添加表格节点
 outlineElem.AppendChildLast(table);
 
-// 添加轮廓元素节点
+// 添加大纲元素节点
 outline.AppendChildLast(outlineElem);
 
-// 添加轮廓节点
+// 添加大纲节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -163,17 +163,17 @@ dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);
 ```
 
-显示如何创建新表。
+展示如何创建新表格。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// 初始化 Page 类对象
+Page page = new Page();
 
 // 初始化 TableRow 类对象
 TableRow row1 = new TableRow();
@@ -184,9 +184,9 @@ TableCell cell12 = new TableCell();
 TableCell cell13 = new TableCell();
 
 // 在表格单元格中追加轮廓元素
-cell11.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.1"));
-cell12.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.2"));
-cell13.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.3"));
+cell11.AppendChildLast(GetOutlineElementWithText("cell_1.1"));
+cell12.AppendChildLast(GetOutlineElementWithText("cell_1.2"));
+cell13.AppendChildLast(GetOutlineElementWithText("cell_1.3"));
 
 // 表格单元格到行
 row1.AppendChildLast(cell11);
@@ -202,11 +202,11 @@ TableCell cell22 = new TableCell();
 TableCell cell23 = new TableCell();
 
 // 在表格单元格中追加轮廓元素
-cell21.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.1"));
-cell22.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.2"));
-cell23.AppendChildLast(GetOutlineElementWithText(doc, "cell_2.3"));
+cell21.AppendChildLast(GetOutlineElementWithText("cell_2.1"));
+cell22.AppendChildLast(GetOutlineElementWithText("cell_2.2"));
+cell23.AppendChildLast(GetOutlineElementWithText("cell_2.3"));
 
-// 将表格单元格附加到行
+// 将表格单元格追加到行
 row2.AppendChildLast(cell21);
 row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
@@ -218,35 +218,35 @@ Table table = new Table()
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
               };
 
-// 将表行追加到表中
+// 将表格行追加到表格
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 
-// 初始化轮廓对象
+// 初始化 Outline 对象
 Outline outline = new Outline();
 
 // 初始化 OutlineElement 对象
 OutlineElement outlineElem = new OutlineElement();
 
-// 添加表到大纲元素节点
+// 将表格添加到大纲元素节点
 outlineElem.AppendChildLast(table);
 
-// 将轮廓元素添加到轮廓
+// 将大纲元素添加到大纲
 outline.AppendChildLast(outlineElem);
 
-// 给页面节点添加轮廓
+// 将大纲添加到页面节点
 page.AppendChildLast(outline);
 
-// 添加页面到文档节点
+// 将页面添加到文档节点
 doc.AppendChildLast(page);
 dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Table](../)
-* 命名空间 [Aspose.Note](../../table/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../table/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Document.CreationTime
-second_title: Aspose.Note for .NET API 参考
-description: Document 财产. 获取或设置创建时间
+title: "Document.CreationTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Document 属性。获取或设置创建时间"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/document/creationtime/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/document/creationtime/
 public DateTime CreationTime { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class DocumentFontsSubsystem
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Fonts.DocumentFontsSubsystem 班级. Aspose.Note.Fonts.FontsSubsystem 的简单实现检索FontFamily来自 OS. 的对象
+title: "类 DocumentFontsSubsystem"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Fonts.DocumentFontsSubsystem 类。Aspose.Note.Fonts.FontsSubsystem 的简易实现。从操作系统检索 FontFamily 对象。"
 type: docs
 weight: 100
 url: /zh/net/aspose.note.fonts/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem class
 
-Aspose.Note.Fonts.FontsSubsystem 的简单实现。检索FontFamily来自 OS. 的对象
+Aspose.Note.Fonts.FontsSubsystem 的简单实现。从操作系统检索 FontFamily 对象。
 
 ```csharp
 public class DocumentFontsSubsystem : FontsSubsystem
@@ -16,36 +16,36 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | 初始化一个新的实例`DocumentFontsSubsystem`类. |
-| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | 初始化一个新的实例`DocumentFontsSubsystem`类. |
-| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | 初始化一个新的实例`DocumentFontsSubsystem`类. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | 初始化 `DocumentFontsSubsystem` 类的新实例。 |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | 初始化 `DocumentFontsSubsystem` 类的新实例。 |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | 初始化 `DocumentFontsSubsystem` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | static [Default](../../aspose.note.fonts/documentfontssubsystem/default/) { get; set; } | 获取或设置静态默认实例。 |
 | [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont/) { get; } | 获取或设置默认字体。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont/)(string, Dictionary&lt;string, string&gt;) | 使用指定的默认字体名称创建新的 DocumentFontsSubsystem 实例。 |
-| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | 使用指定文件中的字体作为默认字体创建新的 DocumentFontsSubsystem 实例。 |
-| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | 使用来自指定流的字体作为默认值创建新的 DocumentFontsSubsystem 实例。 |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | 使用指定文件中的字体作为默认值创建新的 DocumentFontsSubsystem 实例。 |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | 使用指定流中的字体作为默认值创建新的 DocumentFontsSubsystem 实例。 |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream) | 添加字体。 |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(string) | 添加字体。 |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream, string) | 添加字体。 |
 | [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution/)(string, string) | 添加字体替换。 |
 | virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily/)(string) | 获取字体系列。 |
-| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | 将指定文件夹中的所有 TrueType 字体加载到内部集合。 |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | 从指定文件夹加载所有 TrueType 字体到内部集合。 |
 
-### 例子
+## 示例
 
-显示如何使用指定的默认字体以 pdf 格式保存文档。
+展示如何使用指定的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -62,7 +62,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-显示如何使用文件中的默认字体将文档保存为 pdf 格式。
+展示如何使用来自文件的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -81,7 +81,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-显示如何使用流中的默认字体以 pdf 格式保存文档。
+展示如何使用来自流的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -104,10 +104,10 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [FontsSubsystem](../fontssubsystem/)
-* 命名空间 [Aspose.Note.Fonts](../../aspose.note.fonts/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Fonts](../../aspose.note.fonts/)
+* assembly [Aspose.Note](../../)
 
 

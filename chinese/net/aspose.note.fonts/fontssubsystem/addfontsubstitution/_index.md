@@ -1,7 +1,7 @@
 ---
-title: FontsSubsystem.AddFontSubstitution
-second_title: Aspose.Note for .NET API 参考
-description: FontsSubsystem 方法. 添加字体替换
+title: "FontsSubsystem.AddFontSubstitution"
+second_title: "Aspose.Note for .NET API 参考"
+description: "FontsSubsystem 方法。添加字体替换"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.fonts/fontssubsystem/addfontsubstitution/
@@ -14,15 +14,15 @@ url: /zh/net/aspose.note.fonts/fontssubsystem/addfontsubstitution/
 public void AddFontSubstitution(string substituted, string substitution)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| substituted | String | 替换的字体名称。 |
-| substitution | String | 替换字体名称。 |
+| 已替换的 | String | 已替换的字体名称。 |
+| 替换 | String | 替换字体的名称。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [FontsSubsystem](../)
-* 命名空间 [Aspose.Note.Fonts](../../fontssubsystem/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

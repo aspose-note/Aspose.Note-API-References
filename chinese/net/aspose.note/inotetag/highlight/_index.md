@@ -1,22 +1,22 @@
 ---
-title: INoteTag.Highlight
-second_title: Aspose.Note for .NET API 参考
-description: INoteTag 财产. 获取或设置高亮颜色
+title: "INoteTag.Highlight"
+second_title: "Aspose.Note for .NET API 参考"
+description: "INoteTag 属性。获取或设置突出显示颜色"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/inotetag/highlight/
 ---
 ## INoteTag.Highlight property
 
-获取或设置高亮颜色。
+获取或设置突出显示颜色。
 
 ```csharp
 public Color Highlight { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何访问标签的详细信息。
+展示如何访问标签的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -28,7 +28,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//遍历每个节点
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -50,10 +50,10 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [INoteTag](../)
-* 命名空间 [Aspose.Note](../../inotetag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inotetag/)
+* assembly [Aspose.Note](../../../)
 
 

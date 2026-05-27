@@ -1,7 +1,7 @@
 ---
-title: Node.Document
-second_title: Aspose.Note for .NET API 参考
-description: Node 财产. 获取节点的文档
+title: "Node.Document"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Node 属性。获取节点的文档"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/node/document/
@@ -14,15 +14,15 @@ url: /zh/net/aspose.note/node/document/
 public Document Document { get; }
 ```
 
-### 适当的价值
+### Property Value
 
-文件.
+该文档。
 
-### 也可以看看
+### 另请参阅
 
 * class [Document](../../document/)
 * class [Node](../)
-* 命名空间 [Aspose.Note](../../node/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../node/)
+* assembly [Aspose.Note](../../../)
 
 

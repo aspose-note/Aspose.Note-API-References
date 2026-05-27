@@ -1,14 +1,14 @@
 ---
-title: NoteTag.GetHashCode
-second_title: Aspose.Note for .NET API 参考
-description: NoteTag 方法. 用作类型的哈希函数
+title: "NoteTag.GetHashCode"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NoteTag 方法。用作该类型的哈希函数"
 type: docs
 weight: 1210
 url: /zh/net/aspose.note/notetag/gethashcode/
 ---
 ## NoteTag.GetHashCode method
 
-用作类型的哈希函数。
+作为该类型的哈希函数。
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### 返回值
 
-的Int32.
+Int32。
 
-### 也可以看看
+### 另请参阅
 
 * class [NoteTag](../)
-* 命名空间 [Aspose.Note](../../notetag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

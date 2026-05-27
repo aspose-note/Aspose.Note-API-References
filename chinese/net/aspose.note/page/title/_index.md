@@ -1,7 +1,7 @@
 ---
-title: Page.Title
-second_title: Aspose.Note for .NET API 参考
-description: Page 财产. 获取或设置标题
+title: "Page.Title"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 属性。获取或设置标题"
 type: docs
 weight: 120
 url: /zh/net/aspose.note/page/title/
@@ -14,13 +14,13 @@ url: /zh/net/aspose.note/page/title/
 public Title Title { get; set; }
 ```
 
-### 适当的价值
+### Property Value
 
-的`Title`.
+该 `Title`。
 
-### 例子
+## 示例
 
-显示如何获取有关页面的元信息。
+展示如何获取页面的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -40,13 +40,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-显示如何编辑页面的历史记录。
+展示如何编辑页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -67,7 +67,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-显示如何为页面设置标题。
+展示如何为页面设置标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -100,7 +100,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-显示如何获取页面的历史记录。
+展示如何获取页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
@@ -123,7 +123,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-显示如何使用默认选项创建文档并将其保存为 html 格式。
+展示如何创建文档并使用默认选项将其保存为 HTML 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -142,12 +142,43 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 保存成HTML格式
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-显示如何创建文档并以 html 格式保存指定范围的页面。
+展示如何创建带标题页面的文档。
+
+```csharp
+// 文档目录的路径。
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// 创建 Document 类的对象
+Document doc = new Document();
+
+// 初始化 Page 类对象
+Page page = new Page();
+
+// 文档中所有文本的默认样式。
+ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+
+// 设置页面标题属性
+page.Title = new Title()
+             {
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
+             };
+
+// 在文档中追加 Page 节点
+doc.AppendChildLast(page);
+
+// 保存 OneNote 文档
+dataDir = dataDir + "CreateDocWithPageTitle_out.one";
+doc.Save(dataDir);
+```
+
+展示如何创建文档并在指定页面范围内以 HTML 格式保存。
 
 ```csharp
 // 文档目录的路径。
@@ -167,7 +198,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 保存成HTML格式
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -176,48 +207,17 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-显示如何创建带标题页面的文档。
+展示如何将文档保存为不同的格式。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建文档类的对象
-Document doc = new Aspose.Note.Document();
-
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-
-// 文档中所有文本的默认样式。
-ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-
-// 设置页面标题属性
-page.Title = new Title()
-             {
-                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
-             };
-
-// 在文档中追加页面节点
-doc.AppendChildLast(page);
-
-// 保存 OneNote 文档
-dataDir = dataDir + "CreateDocWithPageTitle_out.one";
-doc.Save(dataDir);
-```
-
-显示如何以不同格式保存文档。
-
-```csharp
-// 文档目录的路径。
-string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
-
-// 初始化新文档
+// 初始化新的 Document
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // 初始化新页面
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
@@ -228,10 +228,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-//追加页面节点
+// 追加页面节点
 doc.AppendChildLast(page);
 
-// 以不同格式保存 OneNote 文档，手动设置文本字体大小和检测布局变化。
+// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局更改。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -240,11 +240,11 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Title](../../title/)
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

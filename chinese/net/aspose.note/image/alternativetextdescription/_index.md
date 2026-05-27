@@ -1,22 +1,22 @@
 ---
-title: Image.AlternativeTextDescription
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取或设置正文图像的替代文本
+title: "Image.AlternativeTextDescription"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取或设置图像的替代文本正文。"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/image/alternativetextdescription/
 ---
 ## Image.AlternativeTextDescription property
 
-获取或设置正文图像的替代文本。
+获取或设置图像的正文替代文本。
 
 ```csharp
 public string AlternativeTextDescription { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何为图像设置文本描述。
+展示如何为图像设置文本描述。
 
 ```csharp
 // 文档目录的路径。
@@ -36,10 +36,10 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

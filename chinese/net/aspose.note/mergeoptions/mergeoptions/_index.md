@@ -1,7 +1,7 @@
 ---
-title: MergeOptions.MergeOptions
-second_title: Aspose.Note for .NET API 参考
-description: MergeOptions 构造函数. 默认构造函数
+title: "MergeOptions.MergeOptions"
+second_title: "Aspose.Note for .NET API 参考"
+description: "MergeOptions 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/mergeoptions/mergeoptions/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/mergeoptions/mergeoptions/
 public MergeOptions()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [MergeOptions](../)
-* 命名空间 [Aspose.Note](../../mergeoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../mergeoptions/)
+* assembly [Aspose.Note](../../../)
 
 

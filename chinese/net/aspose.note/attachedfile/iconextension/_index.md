@@ -1,7 +1,7 @@
 ---
-title: AttachedFile.IconExtension
-second_title: Aspose.Note for .NET API 参考
-description: AttachedFile 财产. 获取图标的扩展名
+title: "AttachedFile.IconExtension"
+second_title: "Aspose.Note for .NET API 参考"
+description: "AttachedFile 属性。获取图标的扩展名"
 type: docs
 weight: 120
 url: /zh/net/aspose.note/attachedfile/iconextension/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/attachedfile/iconextension/
 public string IconExtension { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [AttachedFile](../)
-* 命名空间 [Aspose.Note](../../attachedfile/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

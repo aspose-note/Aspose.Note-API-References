@@ -1,7 +1,7 @@
 ---
-title: ITag.Label
-second_title: Aspose.Note for .NET API 参考
-description: ITag 财产. 获取标签文本
+title: "ITag.Label"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ITag 属性。获取标签文本"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/itag/label/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.note/itag/label/
 public string Label { get; }
 ```
 
-### 例子
+## 示例
 
-显示如何完成与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为已完成。
 
 ```csharp
 // 文档目录的路径。
@@ -39,7 +39,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-显示如何打开与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为打开。
 
 ```csharp
 // 文档目录的路径。
@@ -62,7 +62,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-显示如何访问标签的详细信息。
+展示如何访问标签的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -74,7 +74,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//遍历每个节点
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -96,10 +96,10 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [ITag](../)
-* 命名空间 [Aspose.Note](../../itag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../itag/)
+* assembly [Aspose.Note](../../../)
 
 

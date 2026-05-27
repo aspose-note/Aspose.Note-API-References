@@ -1,21 +1,21 @@
 ---
-title: Page.GetChildNodes
-second_title: Aspose.Note for .NET API 参考
-description: Page 方法. 根据节点类型获取页面的所有子节点
+title: "Page.GetChildNodes"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 方法。根据节点类型获取页面的所有子节点"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/page/getchildnodes/
 ---
 ## Page.GetChildNodes&lt;T1&gt; method
 
-根据节点类型获取页面的所有子节点。
+按节点类型获取页面的所有子节点。
 
 ```csharp
 public override List<T1> GetChildNodes<T1>()
     where T1 : class, INode
 ```
 
-| 范围 | 描述 |
+| 参数 | 描述 |
 | --- | --- |
 | T1 | 返回列表中元素的类型。 |
 
@@ -23,9 +23,9 @@ public override List<T1> GetChildNodes<T1>()
 
 子节点列表。
 
-### 例子
+## 示例
 
-显示如何从文档中获取所有文本。
+展示如何获取文档中的所有文本。
 
 ```csharp
 // 文档目录的路径。
@@ -41,7 +41,7 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 Console.WriteLine(text);
 ```
 
-显示如何从页面获取所有文本。
+展示如何获取页面中的所有文本。
 
 ```csharp
 // 文档目录的路径。
@@ -62,7 +62,7 @@ if (page != null)
 }
 ```
 
-显示如何遍历所有页面并在文本中进行替换。
+展示如何遍历所有页面并在文本中进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -88,11 +88,11 @@ foreach (RichText richText in textNodes)
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
-// 保存为任何支持的文件格式
+// 保存为任何受支持的文件格式
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-显示如何传递页面文本并进行替换。
+展示如何遍历页面的文本并进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -118,16 +118,16 @@ foreach (RichText richText in textNodes)
     }
 }
 
-// 保存为任何支持的文件格式
+// 保存为任何受支持的文件格式
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [INode](../../inode/)
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

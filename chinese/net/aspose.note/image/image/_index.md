@@ -1,66 +1,86 @@
 ---
-title: Image.Image
-second_title: Aspose.Note for .NET API 参考
-description: Image 构造函数. 初始化一个新的实例Image类.
+title: "Image.Image"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 构造函数。初始化 Image 类的新实例"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/image/image/
 ---
-## Image(string, string, string) {#constructor_5}
+## Image(string) {#constructor_1}
 
-初始化一个新的实例[`Image`](../)类.
+初始化 [`Image`](../) 类的新实例。
 
 ```csharp
-public Image(string path, string altTitle = null, string altDescription = null)
+public Image(string path)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 一个字符串，包含从中创建文件的路径[`Image`](../). |
-| altTitle | String | 替代标题. |
-| altDescription | String | 替代描述。 |
+| path | String | 一个包含用于创建 [`Image`](../) 的文件路径的字符串。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
-## Image(string, Stream) {#constructor_4}
+## Image(string, string, string) {#constructor_3}
 
-初始化一个新的实例[`Image`](../)类.
+初始化 [`Image`](../) 类的新实例。
+
+```csharp
+public Image(string path, string altTitle, string altDescription = null)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| path | String | 一个包含用于创建 [`Image`](../) 的文件路径的字符串。 |
+| altTitle | String | 替代标题。 |
+| altDescription | String | 替代描述。 |
+
+### 另请参阅
+
+* class [Image](../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## Image(string, Stream) {#constructor_2}
+
+初始化 [`Image`](../) 类的新实例。
 
 ```csharp
 public Image(string fileName, Stream imageStream)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 图像的名称。 |
-| imageStream | Stream | 包含图像的流。 |
+| imageStream | 流 | 包含图像的流。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Image() {#constructor}
 
-初始化一个新的实例[`Image`](../)类.
+初始化 [`Image`](../) 类的新实例。
 
 ```csharp
 public Image()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

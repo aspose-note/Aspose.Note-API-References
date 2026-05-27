@@ -1,7 +1,7 @@
 ---
-title: NotebookOneSaveOptions.NotebookOneSaveOptions
-second_title: Aspose.Note for .NET API 参考
-description: NotebookOneSaveOptions 构造函数. 默认构造函数
+title: "NotebookOneSaveOptions.NotebookOneSaveOptions"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NotebookOneSaveOptions 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving/notebookonesaveoptions/notebookonesaveoptions/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note.saving/notebookonesaveoptions/notebookonesaveoptions/
 public NotebookOneSaveOptions()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [NotebookOneSaveOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../notebookonesaveoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../notebookonesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

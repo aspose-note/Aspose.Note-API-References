@@ -1,7 +1,7 @@
 ---
-title: AttachedFile.Height
-second_title: Aspose.Note for .NET API 参考
-description: AttachedFile 财产. 获取嵌入文件图标的原始高度
+title: "AttachedFile.Height"
+second_title: "Aspose.Note for .NET API 参考"
+description: "AttachedFile 属性。获取嵌入文件图标的原始高度"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/attachedfile/height/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/attachedfile/height/
 public float Height { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [AttachedFile](../)
-* 命名空间 [Aspose.Note](../../attachedfile/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

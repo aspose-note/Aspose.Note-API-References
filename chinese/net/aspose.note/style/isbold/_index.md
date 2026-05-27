@@ -1,22 +1,22 @@
 ---
-title: Style.IsBold
-second_title: Aspose.Note for .NET API 参考
-description: Style 财产. 获取或设置文本样式是否为粗体的值
+title: "Style.IsBold"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Style 属性。获取或设置一个值，指示文本样式是否为粗体"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/style/isbold/
 ---
 ## Style.IsBold property
 
-获取或设置文本样式是否为粗体的值。
+获取或设置一个值，指示文本样式是否为粗体。
 
 ```csharp
 public bool IsBold { get; set; }
 ```
 
-### 例子
+## 示例
 
-让我们通过增加字体大小在其他标题中强调页面的标题。
+让我们通过增大字体大小来强调页面的标题，而不是其他标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -40,7 +40,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-让我们通过突出显示来强调最新文本的更改。
+让我们通过高亮来强调最新文本的更改。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -65,10 +65,10 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Style](../)
-* 命名空间 [Aspose.Note](../../style/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.HorizontalAlignment 枚举. 指定对齐方式
+title: "枚举 HorizontalAlignment"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.HorizontalAlignment 枚举。指定对齐方式"
 type: docs
 weight: 130
 url: /zh/net/aspose.note/horizontalalignment/
@@ -14,17 +14,17 @@ url: /zh/net/aspose.note/horizontalalignment/
 public enum HorizontalAlignment
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Left | `0` | 文本左对齐。 |
 | Center | `1` | 文本居中。 |
 | Right | `2` | 文本右对齐。 |
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

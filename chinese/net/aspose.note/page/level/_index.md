@@ -1,7 +1,7 @@
 ---
-title: Page.Level
-second_title: Aspose.Note for .NET API 参考
-description: Page 财产. 获取或设置级别
+title: "Page.Level"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 属性。获取或设置级别"
 type: docs
 weight: 70
 url: /zh/net/aspose.note/page/level/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.note/page/level/
 public byte Level { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取有关页面的元信息。
+展示如何获取页面的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -36,7 +36,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-显示如何获取页面的历史记录。
+展示如何获取页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
@@ -59,23 +59,23 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-显示如何添加带有子页面的页面。
+展示如何添加带有子页面的页面。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
 // 初始化 Page 类对象并设置其级别
-Aspose.Note.Page page1 = new Aspose.Note.Page(doc) { Level = 1 };
+Page page1 = new Page() { Level = 1 };
 
 // 初始化 Page 类对象并设置其级别
-Aspose.Note.Page page2 = new Aspose.Note.Page(doc) { Level = 2 };
+Page page2 = new Page() { Level = 2 };
 
 // 初始化 Page 类对象并设置其级别
-Aspose.Note.Page page3 = new Aspose.Note.Page(doc) { Level = 1 };
+Page page3 = new Page() { Level = 1 };
 
 /*---------- Adding nodes to first Page ----------*/
 Outline outline = new Outline();
@@ -114,10 +114,10 @@ dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

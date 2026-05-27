@@ -1,55 +1,55 @@
 ---
-title: TextStyle.Equals
-second_title: Aspose.Note for .NET API 参考
-description: TextStyle 方法. 判断指定对象是否等于当前对象
+title: "TextStyle.Equals"
+second_title: "Aspose.Note for .NET API 参考"
+description: "TextStyle 方法。确定指定的对象是否等于当前对象"
 type: docs
 weight: 110
 url: /zh/net/aspose.note/textstyle/equals/
 ---
 ## Equals(object) {#equals_1}
 
-判断指定对象是否等于当前对象。
+确定指定的对象是否等于当前对象。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 对象。 |
+| obj | Object | 该对象。 |
 
 ### 返回值
 
-的Boolean.
+布尔值。
 
-### 也可以看看
+### 另请参阅
 
 * class [TextStyle](../)
-* 命名空间 [Aspose.Note](../../textstyle/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Equals(TextStyle) {#equals}
 
-判断指定对象是否等于当前对象。
+确定指定的对象是否等于当前对象。
 
 ```csharp
 public bool Equals(TextStyle other)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| other | TextStyle | 对象。 |
+| 其他 | TextStyle | 该对象。 |
 
 ### 返回值
 
-的Boolean.
+布尔值。
 
-### 也可以看看
+### 另请参阅
 
 * class [TextStyle](../)
-* 命名空间 [Aspose.Note](../../textstyle/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

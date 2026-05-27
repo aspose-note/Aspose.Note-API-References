@@ -1,9 +1,9 @@
 ---
-title: AttachedFile.Accept
-second_title: Aspose.Note for .NET API 参考
-description: AttachedFile 方法. 接受节点的访问者
+title: "AttachedFile.Accept"
+second_title: "Aspose.Note for .NET API 参考"
+description: "AttachedFile 方法。接受节点的访问者"
 type: docs
-weight: 220
+weight: 230
 url: /zh/net/aspose.note/attachedfile/accept/
 ---
 ## AttachedFile.Accept method
@@ -14,15 +14,15 @@ url: /zh/net/aspose.note/attachedfile/accept/
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 派生类的对象[`DocumentVisitor`](../../documentvisitor/). |
+| visitor | DocumentVisitor | 从 [`DocumentVisitor`](../../documentvisitor/) 派生的类的对象。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [AttachedFile](../)
-* 命名空间 [Aspose.Note](../../attachedfile/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,32 +1,32 @@
 ---
-title: PageHistory.Remove
-second_title: Aspose.Note for .NET API 参考
-description: PageHistory 方法. 从中删除页面版本PageHistory.
+title: "PageHistory.Remove"
+second_title: "Aspose.Note for .NET API 参考"
+description: "PageHistory 方法。删除 PageHistory 中的页面版本。"
 type: docs
 weight: 140
 url: /zh/net/aspose.note/pagehistory/remove/
 ---
 ## PageHistory.Remove method
 
-从中删除页面版本[`PageHistory`](../).
+从 [`PageHistory`](../) 中删除页面版本。
 
 ```csharp
 public bool Remove(Page item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | Page | 页面版本。 |
+| 项目 | Page | 页面版本。 |
 
 ### 返回值
 
-的Boolean.
+布尔值。
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* 命名空间 [Aspose.Note](../../pagehistory/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

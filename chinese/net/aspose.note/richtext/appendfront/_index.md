@@ -1,57 +1,57 @@
 ---
-title: RichText.AppendFront
-second_title: Aspose.Note for .NET API 参考
-description: RichText 方法. 在第一个文本范围的前面添加一个字符串
+title: "RichText.AppendFront"
+second_title: "Aspose.Note for .NET API 参考"
+description: "RichText 方法。将字符串添加到第一个文本范围的前面"
 type: docs
-weight: 140
+weight: 170
 url: /zh/net/aspose.note/richtext/appendfront/
 ---
 ## AppendFront(string) {#appendfront}
 
-在第一个文本范围的前面添加一个字符串。
+在第一个文本范围的前面添加字符串。
 
 ```csharp
 public RichText AppendFront(string value)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 附加值. |
+| value | String | 添加的值。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## AppendFront(string, TextStyle) {#appendfront_1}
 
-在前面添加一个字符串。
+在前面添加字符串。
 
 ```csharp
 public RichText AppendFront(string value, TextStyle style)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 附加值. |
-| style | TextStyle | 添加字符串的样式。 |
+| value | String | 添加的值。 |
+| style | TextStyle | 添加的字符串的样式。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

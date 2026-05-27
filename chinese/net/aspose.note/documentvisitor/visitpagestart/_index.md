@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitPageStart
-second_title: Aspose.Note for .NET API 参考
-description: DocumentVisitor 方法. 开始访问Page节点.
+title: "DocumentVisitor.VisitPageStart"
+second_title: "Aspose.Note for .NET API 参考"
+description: "DocumentVisitor 方法。开始访问 Page 节点"
 type: docs
-weight: 140
+weight: 220
 url: /zh/net/aspose.note/documentvisitor/visitpagestart/
 ---
 ## DocumentVisitor.VisitPageStart method
 
-开始访问[`Page`](../../page/)节点.
+开始访问 [`Page`](../../page/) 节点。
 
 ```csharp
 public virtual void VisitPageStart(Page page)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| page | Page | 的[`Page`](../../page/)节点. |
+| page | Page | 该 [`Page`](../../page/) 节点。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../../page/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Note](../../documentvisitor/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

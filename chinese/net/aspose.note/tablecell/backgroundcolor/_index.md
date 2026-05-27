@@ -1,7 +1,7 @@
 ---
-title: TableCell.BackgroundColor
-second_title: Aspose.Note for .NET API 参考
-description: TableCell 财产. 获取或设置背景颜色
+title: "TableCell.BackgroundColor"
+second_title: "Aspose.Note for .NET API 参考"
+description: "TableCell 属性。获取或设置背景颜色"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/tablecell/backgroundcolor/
@@ -14,17 +14,17 @@ url: /zh/net/aspose.note/tablecell/backgroundcolor/
 public Color BackgroundColor { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何为单元格设置背景颜色。
+展示如何为单元格设置背景颜色。
 
 ```csharp
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化TableCell类对象并设置文本内容
+// 初始化 TableCell 类对象并设置文本内容
 TableCell cell11 = new TableCell();
-cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
+cell11.AppendChildLast(InsertTable.GetOutlineElementWithText("Small text"));
 cell11.BackgroundColor = Color.Coral;
 
 // 初始化 TableRow 类对象
@@ -44,7 +44,7 @@ oe.AppendChildLast(table);
 Outline o = new Outline();
 o.AppendChildLast(oe);
 
-// 初始化页面类对象
+// 初始化 Page 类对象
 Page page = new Page();
 page.AppendChildLast(o);
 
@@ -53,10 +53,10 @@ doc.AppendChildLast(page);
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [TableCell](../)
-* 命名空间 [Aspose.Note](../../tablecell/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablecell/)
+* assembly [Aspose.Note](../../../)
 
 

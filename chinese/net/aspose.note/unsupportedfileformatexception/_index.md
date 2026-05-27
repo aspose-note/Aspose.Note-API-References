@@ -1,28 +1,28 @@
 ---
-title: Class UnsupportedFileFormatException
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.UnsupportedFileFormatException 班级. 在文档加载期间抛出当 Aspose.Note 无法识别或不支持文件格式时抛出
+title: "UnsupportedFileFormatException 类"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.UnsupportedFileFormatException 类。在文档加载期间抛出，当文件格式未被识别或不受 Aspose.Note 支持时"
 type: docs
-weight: 990
+weight: 1070
 url: /zh/net/aspose.note/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class
 
-在文档加载期间抛出，当 Aspose.Note 无法识别或不支持文件格式时抛出。
+在文档加载期间抛出，当文件格式未被识别或不受 Aspose.Note 支持时。
 
 ```csharp
 public class UnsupportedFileFormatException : Exception
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | 如果检测到，获取传递数据的文件格式。 |
+| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | 如果检测到，则获取传入数据的文件格式。 |
 
-### 例子
+## 示例
 
-显示如何检查文档加载是否因不支持 OneNote 2007 格式而失败。
+展示如何检查文档加载是否因不支持 OneNote 2007 格式而失败。
 
 ```csharp
 // 文档目录的路径。
@@ -44,9 +44,9 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

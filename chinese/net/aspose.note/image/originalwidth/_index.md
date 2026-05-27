@@ -1,22 +1,22 @@
 ---
-title: Image.OriginalWidth
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取原始宽度这是图像的原始宽度在调整大小之前
+title: "Image.OriginalWidth"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取原始宽度。这是图像在调整大小前的原始宽度。"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/image/originalwidth/
 ---
 ## Image.OriginalWidth property
 
-获取原始宽度。这是图像的原始宽度，在调整大小之前。
+获取原始宽度。这是图像在调整大小之前的原始宽度。
 
 ```csharp
 public float OriginalWidth { get; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取图像的元信息。
+展示如何获取图像的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -25,7 +25,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有Image节点
+// 获取所有 Image 节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,10 +40,10 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

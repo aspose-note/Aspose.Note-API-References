@@ -1,7 +1,7 @@
 ---
-title: Page.LastModifiedTime
-second_title: Aspose.Note for .NET API 参考
-description: Page 财产. 获取或设置最后修改时间
+title: "Page.LastModifiedTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 属性。获取或设置最后修改时间"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/page/lastmodifiedtime/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.note/page/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取有关页面的元信息。
+展示如何获取页面的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -36,7 +36,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-显示如何获取页面的历史记录。
+展示如何获取页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
@@ -59,10 +59,10 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 
