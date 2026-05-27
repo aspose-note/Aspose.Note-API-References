@@ -1,7 +1,7 @@
 ---
-title: Page.BackgroundColor
-second_title: Aspose.Note for .NET API 参考
-description: Page 财产. 获取或设置页面的背景颜色
+title: "Page.BackgroundColor"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 属性。获取或设置页面的背景颜色"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/page/backgroundcolor/
@@ -14,15 +14,15 @@ url: /zh/net/aspose.note/page/backgroundcolor/
 public Color BackgroundColor { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何设置页面的背景颜色。
+展示如何设置页面的背景颜色。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -33,7 +33,7 @@ foreach (var page in document)
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
-展示如何将深色主题样式应用于文档。
+展示如何对文档应用暗色主题样式。
 
 ```csharp
 // 文档目录的路径。
@@ -59,10 +59,10 @@ foreach (var node in doc.GetChildNodes<RichText>())
 doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

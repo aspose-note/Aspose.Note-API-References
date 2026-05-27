@@ -1,27 +1,27 @@
 ---
-title: PageHistory.RemoveAt
-second_title: Aspose.Note for .NET API 参考
-description: PageHistory 方法. 删除指定索引处的页面版本PageHistory.
+title: "PageHistory.RemoveAt"
+second_title: "Aspose.Note for .NET API 参考"
+description: "PageHistory 方法。移除 PageHistory 中指定索引处的页面版本"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/pagehistory/removeat/
 ---
 ## PageHistory.RemoveAt method
 
-删除指定索引处的页面版本[`PageHistory`](../).
+移除 [`PageHistory`](../) 中指定索引处的页面版本。
 
 ```csharp
 public void RemoveAt(int index)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引. |
+| 索引 | Int32 | 该索引。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [PageHistory](../)
-* 命名空间 [Aspose.Note](../../pagehistory/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

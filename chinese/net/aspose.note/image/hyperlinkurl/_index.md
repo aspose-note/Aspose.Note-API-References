@@ -1,7 +1,7 @@
 ---
-title: Image.HyperlinkUrl
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取或设置与图像关联的超链接
+title: "Image.HyperlinkUrl"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取或设置与图像关联的超链接"
 type: docs
 weight: 110
 url: /zh/net/aspose.note/image/hyperlinkurl/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.note/image/hyperlinkurl/
 public string HyperlinkUrl { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何将超链接绑定到图像。
+展示如何将超链接绑定到图像。
 
 ```csharp
 // 文档目录的路径。
@@ -35,10 +35,10 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

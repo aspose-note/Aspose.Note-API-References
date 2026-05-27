@@ -1,7 +1,7 @@
 ---
-title: TableCell.LastModifiedTime
-second_title: Aspose.Note for .NET API 参考
-description: TableCell 财产. 获取或设置最后修改时间
+title: "TableCell.LastModifiedTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "TableCell 属性。获取或设置最后修改时间"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/tablecell/lastmodifiedtime/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/tablecell/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [TableCell](../)
-* 命名空间 [Aspose.Note](../../tablecell/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablecell/)
+* assembly [Aspose.Note](../../../)
 
 

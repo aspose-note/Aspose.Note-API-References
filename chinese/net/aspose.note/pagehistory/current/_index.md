@@ -1,7 +1,7 @@
 ---
-title: PageHistory.Current
-second_title: Aspose.Note for .NET API 参考
-description: PageHistory 财产. 获取当前页面版本
+title: "PageHistory.Current"
+second_title: "Aspose.Note for .NET API 参考"
+description: "PageHistory 属性。获取当前页面版本"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/pagehistory/current/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.note/pagehistory/current/
 public Page Current { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* 命名空间 [Aspose.Note](../../pagehistory/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

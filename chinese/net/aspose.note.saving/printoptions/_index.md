@@ -1,9 +1,9 @@
 ---
-title: Class PrintOptions
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Saving.PrintOptions 班级. 用于打印文档的选项
+title: "类 PrintOptions"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Saving.PrintOptions 类。用于打印文档的选项"
 type: docs
-weight: 860
+weight: 940
 url: /zh/net/aspose.note.saving/printoptions/
 ---
 ## PrintOptions class
@@ -16,22 +16,22 @@ public class PrintOptions
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [PrintOptions](printoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | 获取或设置打印文档时要显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
+| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | 获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印队列中）。 |
 | [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm/) { get; set; } | 获取或设置用于页面拆分的算法。 |
 | [PrinterSettings](../../aspose.note.saving/printoptions/printersettings/) { get; set; } | 获取或设置打印机设置。 |
-| [Resolution](../../aspose.note.saving/printoptions/resolution/) { get; set; } | 获取或设置生成图像的分辨率，以每英寸点数为单位。 |
+| [Resolution](../../aspose.note.saving/printoptions/resolution/) { get; set; } | 获取或设置生成图像的分辨率（每英寸点数）。 |
 
-### 例子
+## 示例
 
-显示如何使用具有指定选项的标准 Windows 对话框将文档发送到打印机。
+展示如何使用标准 Windows 对话框并指定选项将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -52,9 +52,9 @@ document.Print(new PrintOptions()
                });
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note.Saving](../../aspose.note.saving/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: Image.Height
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取或设置高度这是MS OneNote文档中图片的真实高度
+title: "Image.Height"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取或设置高度。这是 MS OneNote 文档中图像的实际高度"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/image/height/
 ---
 ## Image.Height property
 
-获取或设置高度。这是MS OneNote文档中图片的真实高度。
+获取或设置高度。这是图像在 MS OneNote 文档中的实际高度。
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取图像的元信息。
+展示如何获取图像的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -25,7 +25,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 获取所有Image节点
+// 获取所有 Image 节点
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,7 +40,7 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-显示如何将图像从文件添加到具有用户定义属性的文档。
+展示如何从文件向文档添加图像，并使用用户定义的属性。
 
 ```csharp
 // 文档目录的路径。
@@ -50,10 +50,10 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // 获取文档的第一页。
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
-// 从文件中加载图像。
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+// 从文件加载图像。
+Image image = new Image(dataDir + "image.jpg")
                           {
                               // 根据需要更改图像的大小（可选）。
                               Width = 100,
@@ -63,7 +63,7 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // 设置图像对齐
+                              // 设置图像对齐方式
                               Alignment = HorizontalAlignment.Right
                           };
 
@@ -71,10 +71,10 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,71 +1,71 @@
 ---
-title: RichText.Insert
-second_title: Aspose.Note for .NET API 参考
-description: RichText 方法. 在此实例中的指定索引位置插入指定的字符串
+title: "RichText.Insert"
+second_title: "Aspose.Note for .NET API 参考"
+description: "RichText 方法。在此实例中，在指定的索引位置插入指定的字符串"
 type: docs
-weight: 180
+weight: 210
 url: /zh/net/aspose.note/richtext/insert/
 ---
 ## Insert(int, string) {#insert}
 
-在此实例中的指定索引位置插入指定的字符串。
+在此实例的指定索引位置插入指定的字符串。
 
 ```csharp
 public RichText Insert(int startIndex, string value)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | Int32 | 起始索引。 |
-| value | String | 值。 |
+| value | String | 该值。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Insert(int, string, TextStyle) {#insert_1}
 
-在本实例的指定索引位置插入指定样式的指定字符串。
+在此实例的指定索引位置插入具有指定样式的指定字符串。
 
 ```csharp
 public RichText Insert(int startIndex, string value, TextStyle style)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | Int32 | 起始索引。 |
-| value | String | 值。 |
-| style | TextStyle | 样式. |
+| value | String | 该值。 |
+| style | TextStyle | 样式。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### 也可以看看
+### 另请参阅
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

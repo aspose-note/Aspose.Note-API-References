@@ -1,23 +1,23 @@
 ---
-title: OutlineGroup.OutlineGroup
-second_title: Aspose.Note for .NET API 参考
-description: OutlineGroup 构造函数. 初始化一个新的实例OutlineGroup类.
+title: "OutlineGroup.OutlineGroup"
+second_title: "Aspose.Note for .NET API 参考"
+description: "OutlineGroup 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/outlinegroup/outlinegroup/
 ---
 ## OutlineGroup constructor
 
-初始化一个新的实例[`OutlineGroup`](../)类.
+默认构造函数。
 
 ```csharp
 public OutlineGroup()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [OutlineGroup](../)
-* 命名空间 [Aspose.Note](../../outlinegroup/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outlinegroup/)
+* assembly [Aspose.Note](../../../)
 
 

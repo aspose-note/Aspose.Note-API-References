@@ -1,9 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.LoadOptions 班级. 用于加载文档的选项
+title: "类 LoadOptions"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.LoadOptions 类。用于加载文档的选项"
 type: docs
-weight: 320
+weight: 380
 url: /zh/net/aspose.note/loadoptions/
 ---
 ## LoadOptions class
@@ -16,20 +16,20 @@ public class LoadOptions
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [LoadOptions](loadoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [DocumentPassword](../../aspose.note/loadoptions/documentpassword/) { get; set; } | 获取或设置加密文档内容的密码。如果文档没有密码保护，值将被忽略。 |
-| [LoadHistory](../../aspose.note/loadoptions/loadhistory/) { get; set; } | 获取或设置一个值，指示文档加载程序是否应忽略历史记录。 使用此选项可减少内存和 CPU 使用率。 默认值为`真的`. |
+| [DocumentPassword](../../aspose.note/loadoptions/documentpassword/) { get; set; } | 获取或设置加密文档内容的密码。如果文档未受密码保护，则此值将被忽略。 |
+| [LoadHistory](../../aspose.note/loadoptions/loadhistory/) { get; set; } | 获取或设置一个值，指示文档加载器是否应忽略历史记录。使用此选项可降低内存和 CPU 使用率。默认值为 `true`。 |
 
-### 例子
+## 示例
 
-显示如何加密文档。
+展示如何处理加密文档。
 
 ```csharp
 // 文档目录的路径。
@@ -39,7 +39,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-展示如何加密笔记本。
+展示如何打开加密的笔记本。
 
 ```csharp
 // 文档目录的路径。
@@ -51,7 +51,7 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-显示如何获取页面的历史记录。
+展示如何获取页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
@@ -74,9 +74,9 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

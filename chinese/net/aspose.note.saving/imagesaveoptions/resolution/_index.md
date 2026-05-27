@@ -1,26 +1,26 @@
 ---
-title: ImageSaveOptions.Resolution
-second_title: Aspose.Note for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置生成图像的分辨率以每英寸点数为单位
+title: "ImageSaveOptions.Resolution"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ImageSaveOptions 属性。获取或设置生成图像的分辨率（每英寸点数）"
 type: docs
 weight: 50
 url: /zh/net/aspose.note.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
 
-获取或设置生成图像的分辨率，以每英寸点数为单位。
+获取或设置生成图像的分辨率（每英寸点数）。
 
 ```csharp
 public float Resolution { get; set; }
 ```
 
-### 评论
+## 备注
 
-默认值为 96.
+默认值为 96。
 
-### 例子
+## 示例
 
-显示将文档另存为图像时如何设置图像分辨率。
+展示如何在将文档保存为图像时设置图像分辨率。
 
 ```csharp
 // 文档目录的路径。
@@ -35,13 +35,13 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
-显示如何使用指定选项将笔记本另存为图像。
+展示如何使用指定选项将笔记本保存为图像。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 加载一个 OneNote 笔记本
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -56,13 +56,13 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-展示如何将扁平笔记本另存为图像。
+展示如何将扁平化的笔记本保存为图像。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 加载一个 OneNote 笔记本
+// 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -78,10 +78,10 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../imagesaveoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

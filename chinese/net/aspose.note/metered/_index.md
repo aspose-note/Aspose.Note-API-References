@@ -1,9 +1,9 @@
 ---
-title: Class Metered
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Metered 班级. 提供设置计量密钥的方法
+title: "Metered 类"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Metered 类。提供设置计量密钥的方法"
 type: docs
-weight: 350
+weight: 420
 url: /zh/net/aspose.note/metered/
 ---
 ## Metered class
@@ -16,22 +16,22 @@ public class Metered
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [Metered](metered/)() | 默认构造函数。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | 删除之前设置的许可证。 |
-| [SetMeteredKey](../../aspose.note/metered/setmeteredkey/)(string, string) | 设置计量公钥和私钥。 |
-| static [GetConsumptionCredit](../../aspose.note/metered/getconsumptioncredit/)() | 获得消费信用。 |
-| static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity/)() | 获取消费文件大小。 |
+| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | 删除先前设置的许可证。 |
+| [SetMeteredKey](../../aspose.note/metered/setmeteredkey/)(string, string) | 设置计量的公钥和私钥。 |
+| static [GetConsumptionCredit](../../aspose.note/metered/getconsumptioncredit/)() | 获取消耗积分。 |
+| static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity/)() | 获取消耗的文件大小。 |
 
-### 例子
+## 示例
 
-在此示例中，将尝试设置计量公钥和私钥
+在此示例中，将尝试设置计量的公钥和私钥。
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-显示如何设置计量许可证。
+展示如何设置计量许可证。
 
 ```csharp
 Metered metered = new Metered();
@@ -58,7 +58,7 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
@@ -67,9 +67,9 @@ Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

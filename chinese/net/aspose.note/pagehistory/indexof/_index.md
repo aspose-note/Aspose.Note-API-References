@@ -1,32 +1,32 @@
 ---
-title: PageHistory.IndexOf
-second_title: Aspose.Note for .NET API 参考
-description: PageHistory 方法. 确定页面历史中特定页面版本的索引
+title: "PageHistory.IndexOf"
+second_title: "Aspose.Note for .NET API 参考"
+description: "PageHistory 方法。确定页面历史中特定页面版本的索引。"
 type: docs
 weight: 120
 url: /zh/net/aspose.note/pagehistory/indexof/
 ---
 ## PageHistory.IndexOf method
 
-确定页面历史中特定页面版本的索引。
+确定特定页面版本在页面历史记录中的索引。
 
 ```csharp
 public int IndexOf(Page item)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | Page | 页面版本。 |
+| 项目 | Page | 页面版本。 |
 
 ### 返回值
 
-的Int32.
+Int32。
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* 命名空间 [Aspose.Note](../../pagehistory/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

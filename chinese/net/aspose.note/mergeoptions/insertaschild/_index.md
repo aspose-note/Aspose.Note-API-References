@@ -1,22 +1,22 @@
 ---
-title: MergeOptions.InsertAsChild
-second_title: Aspose.Note for .NET API 参考
-description: MergeOptions 财产. 获取或设置一个值该值指示插入的页面是否应添加为上一页的子页面
+title: "MergeOptions.InsertAsChild"
+second_title: "Aspose.Note for .NET API 参考"
+description: "MergeOptions 属性。获取或设置一个值，指示插入的页面是否应作为前一页面的子项添加"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/mergeoptions/insertaschild/
 ---
 ## MergeOptions.InsertAsChild property
 
-获取或设置一个值，该值指示插入的页面是否应添加为上一页的子页面。
+获取或设置一个值，指示插入的页面是否应作为前一页面的子页面添加。
 
 ```csharp
 public bool InsertAsChild { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何从一组 PDF 文档导入所有页面，同时从每个 PDF 文档插入页面作为顶级 OneNote 页面的子页面。
+展示如何从一组 PDF 文档导入所有页面，同时将每个 PDF 文档的页面插入为顶层 OneNote 页面下的子页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -32,10 +32,10 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [MergeOptions](../)
-* 命名空间 [Aspose.Note](../../mergeoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../mergeoptions/)
+* assembly [Aspose.Note](../../../)
 
 

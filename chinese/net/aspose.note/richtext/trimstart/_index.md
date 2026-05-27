@@ -1,9 +1,9 @@
 ---
-title: RichText.TrimStart
-second_title: Aspose.Note for .NET API 参考
-description: RichText 方法. 删除数组中指定的一组字符的所有前导出现
+title: "RichText.TrimStart"
+second_title: "Aspose.Note for .NET API 参考"
+description: "RichText 方法。删除数组中指定的一组字符的所有前导字符"
 type: docs
-weight: 230
+weight: 260
 url: /zh/net/aspose.note/richtext/trimstart/
 ---
 ## TrimStart(params char[]) {#trimstart_2}
@@ -14,49 +14,49 @@ url: /zh/net/aspose.note/richtext/trimstart/
 public RichText TrimStart(params char[] trimChars)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | trimChars | Char[] | 修剪字符。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## TrimStart(char) {#trimstart_1}
 
-删除指定字符的所有前导出现。
+删除所有指定字符的前导出现。
 
 ```csharp
 public RichText TrimStart(char trimChar)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | trimChar | Char | 修剪字符。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## TrimStart() {#trimstart}
 
-删除所有前导空白字符。
+删除所有前导的空白字符。
 
 ```csharp
 public RichText TrimStart()
@@ -64,12 +64,12 @@ public RichText TrimStart()
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

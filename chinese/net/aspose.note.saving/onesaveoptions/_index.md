@@ -1,9 +1,9 @@
 ---
-title: Class OneSaveOptions
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Saving.OneSaveOptions 班级. 允许在将文档保存为 OneNote 格式时指定其他选项
+title: "类 OneSaveOptions"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Saving.OneSaveOptions 类。允许在将文档保存为 OneNote 格式时指定其他选项"
 type: docs
-weight: 810
+weight: 890
 url: /zh/net/aspose.note.saving/onesaveoptions/
 ---
 ## OneSaveOptions class
@@ -16,23 +16,23 @@ public sealed class OneSaveOptions : SaveOptions
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [OneSaveOptions](onesaveoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword/) { get; set; } | 获取或设置用于加密文档内容的密码。 |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | 获取或设置保存时要使用的字体设置 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 这意味着将呈现文档的所有页面。 |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | 获取文档的保存格式。 |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | 获取或设置在保存时使用的字体设置 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示将渲染文档的所有页面。 |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认值为 0。 |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | 获取文档保存的格式。 |
 
-### 例子
+## 示例
 
-显示如何使用加密保存文档。
+展示如何使用加密保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -42,7 +42,7 @@ Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
 
-演示如何使用 OneSaveOptions 保存文档。
+展示如何使用 OneSaveOptions 保存文档。
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -54,10 +54,10 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [SaveOptions](../saveoptions/)
-* 命名空间 [Aspose.Note.Saving](../../aspose.note.saving/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

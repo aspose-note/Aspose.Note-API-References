@@ -1,7 +1,7 @@
 ---
-title: ResourceSavingArgs.Stream
-second_title: Aspose.Note for .NET API 参考
-description: ResourceSavingArgs 财产. 获取或设置用于存储资源的流
+title: "ResourceSavingArgs.Stream"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ResourceSavingArgs 属性。获取或设置用于存储资源的流"
 type: docs
 weight: 40
 url: /zh/net/aspose.note.saving.html/resourcesavingargs/stream/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note.saving.html/resourcesavingargs/stream/
 public Stream Stream { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Note.Saving.Html](../../resourcesavingargs/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

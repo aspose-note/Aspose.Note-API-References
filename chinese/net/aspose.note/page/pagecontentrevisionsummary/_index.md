@@ -1,7 +1,7 @@
 ---
-title: Page.PageContentRevisionSummary
-second_title: Aspose.Note for .NET API 参考
-description: Page 财产. 获取或设置页面及其子节点的修订摘要
+title: "Page.PageContentRevisionSummary"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 属性。获取或设置页面及其子节点的修订摘要"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/page/pagecontentrevisionsummary/
@@ -14,19 +14,19 @@ url: /zh/net/aspose.note/page/pagecontentrevisionsummary/
 public RevisionSummary PageContentRevisionSummary { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何编辑页面的元信息。
+展示如何编辑页面的元信息。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// 阅读此页面的内容修订摘要
+// 读取此页面的内容修订摘要
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -41,7 +41,7 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+展示如何检查页面是否为冲突页面（即它包含 OneNote 无法自动合并的更改）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -59,8 +59,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 默认情况下，冲突页面只是在保存时被跳过。
-    // 如果将其标记为非冲突，则它将照常保存在历史记录中。
+    // 默认情况下，冲突页面在保存时会被跳过。
+    // 如果将其标记为非冲突，则它将在历史记录中像普通页面一样保存。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -68,11 +68,11 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [RevisionSummary](../../revisionsummary/)
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

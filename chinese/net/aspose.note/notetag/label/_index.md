@@ -1,7 +1,7 @@
 ---
-title: NoteTag.Label
-second_title: Aspose.Note for .NET API 参考
-description: NoteTag 财产. 获取或设置标签文本
+title: "NoteTag.Label"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NoteTag 属性。获取或设置标签文本"
 type: docs
 weight: 1180
 url: /zh/net/aspose.note/notetag/label/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/notetag/label/
 public string Label { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [NoteTag](../)
-* 命名空间 [Aspose.Note](../../notetag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

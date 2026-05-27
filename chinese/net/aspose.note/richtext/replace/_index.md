@@ -1,63 +1,63 @@
 ---
-title: RichText.Replace
-second_title: Aspose.Note for .NET API 参考
-description: RichText 方法. 将此实例中所有出现的指定 Unicode 字符替换为另一个指定的 Unicode 字符
+title: "RichText.Replace"
+second_title: "Aspose.Note for .NET API 参考"
+description: "RichText 方法。将此实例中指定的 Unicode 字符的所有出现替换为另一个指定的 Unicode 字符"
 type: docs
-weight: 200
+weight: 230
 url: /zh/net/aspose.note/richtext/replace/
 ---
 ## Replace(char, char) {#replace}
 
-将此实例中所有出现的指定 Unicode 字符替换为另一个指定的 Unicode 字符。
+将此实例中所有指定的 Unicode 字符替换为另一个指定的 Unicode 字符。
 
 ```csharp
 public RichText Replace(char oldChar, char newChar)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChar | Char | 旧字符. |
-| newChar | Char | 新字符。 |
+| 旧字符 | Char | 旧字符。 |
+| 新字符 | Char | 新字符。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Replace(string, string) {#replace_1}
 
-用另一个指定的字符串替换当前实例中所有出现的指定字符串。
+将当前实例中所有指定的字符串替换为另一个指定的字符串。
 
 ```csharp
 public RichText Replace(string oldValue, string newValue)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | oldValue | String | 旧值。 |
 | newValue | String | 新值。 |
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | ArgumentNullException |  |
 | ArgumentException |  |
 
-### 例子
+## 示例
 
-显示如何传递页面文本并进行替换。
+展示如何遍历页面的文本并进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -83,12 +83,12 @@ foreach (RichText richText in textNodes)
     }
 }
 
-// 保存为任何支持的文件格式
+// 保存为任何受支持的文件格式
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-展示如何通过替换模板中的特殊文本片段来生成新文档。
+展示如何通过在模板中替换特殊文本片段来生成新文档。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -108,7 +108,7 @@ var D = new Dictionary<string, string>
 // 将模板文档加载到 Aspose.Note 中。
 var d = new Document(Path.Combine(dataDir, "JobOffer.one"));
 
-// 让我们替换所有模板词
+// 让我们替换所有模板词汇
 foreach (var e in d.GetChildNodes<RichText>())
 {
     foreach (var replace in D)
@@ -120,23 +120,23 @@ foreach (var e in d.GetChildNodes<RichText>())
 d.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Replace(string, string, TextStyle) {#replace_2}
 
-用指定样式的另一个指定字符串替换当前实例中所有出现的指定字符串。
+将当前实例中所有指定的字符串替换为具有指定样式的另一个指定字符串。
 
 ```csharp
 public RichText Replace(string oldValue, string newValue, TextStyle style)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | oldValue | String | 旧值。 |
 | newValue | String | 新值。 |
@@ -144,20 +144,20 @@ public RichText Replace(string oldValue, string newValue, TextStyle style)
 
 ### 返回值
 
-的[`RichText`](../).
+该 [`RichText`](../)。
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | ArgumentNullException |  |
 | ArgumentException |  |
 
-### 也可以看看
+### 另请参阅
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

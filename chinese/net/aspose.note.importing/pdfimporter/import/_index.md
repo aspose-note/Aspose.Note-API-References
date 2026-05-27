@@ -1,7 +1,7 @@
 ---
-title: PdfImporter.Import
-second_title: Aspose.Note for .NET API 参考
-description: PdfImporter 方法. 从提供的流中导入 PDF 文档的内容
+title: "PdfImporter.Import"
+second_title: "Aspose.Note for .NET API 参考"
+description: "PdfImporter 方法。从提供的流导入 PDF 文档的内容"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.importing/pdfimporter/import/
@@ -14,45 +14,45 @@ url: /zh/net/aspose.note.importing/pdfimporter/import/
 public static List<Page> Import(Stream stream, PdfImportOptions options = null)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 流. |
-| options | PdfImportOptions | 选项。 |
+| 流 | 流 | 流。 |
+| 选项 | PdfImportOptions | 这些选项。 |
 
 ### 返回值
 
-的[`PdfImporter`](../).
+此 [`PdfImporter`](../)。
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../../../aspose.note/page/)
 * class [PdfImportOptions](../../pdfimportoptions/)
 * class [PdfImporter](../)
-* 命名空间 [Aspose.Note.Importing](../../pdfimporter/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimporter/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Import(string, PdfImportOptions) {#import_1}
 
-从指定文件导入 PDF 文档的内容。
+从指定的文件中导入 PDF 文档的内容。
 
 ```csharp
 public static List<Page> Import(string file, PdfImportOptions options = null)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| file | String | PDF 文件。 |
-| options | PdfImportOptions | 选项。 |
+| 文件 | String | 此 PDF 文件。 |
+| 选项 | PdfImportOptions | 这些选项。 |
 
 ### 返回值
 
-的[`PdfImporter`](../).
+此 [`PdfImporter`](../)。
 
-### 例子
+## 示例
 
-演示如何将每 5 页分组的 PDF 文档中的所有页面导入到单个 OneNote 页面。
+展示如何从 PDF 文档导入所有页面，将每 5 页分组为一个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -71,12 +71,12 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../../../aspose.note/page/)
 * class [PdfImportOptions](../../pdfimportoptions/)
 * class [PdfImporter](../)
-* 命名空间 [Aspose.Note.Importing](../../pdfimporter/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Importing](../../pdfimporter/)
+* assembly [Aspose.Note](../../../)
 
 

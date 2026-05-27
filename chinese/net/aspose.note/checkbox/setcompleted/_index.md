@@ -1,42 +1,42 @@
 ---
-title: CheckBox.SetCompleted
-second_title: Aspose.Note for .NET API 参考
-description: CheckBox 方法. 将标签设置为完成状态
+title: "CheckBox.SetCompleted"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CheckBox 方法。将标签设置为已完成状态"
 type: docs
 weight: 70
 url: /zh/net/aspose.note/checkbox/setcompleted/
 ---
 ## SetCompleted(DateTime) {#setcompleted_1}
 
-将标签设置为完成状态。
+将标签设置为已完成状态。
 
 ```csharp
 public void SetCompleted(DateTime completedTime)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| completedTime | DateTime | 完成时间. |
+| completedTime | DateTime | 完成时间。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [CheckBox](../)
-* 命名空间 [Aspose.Note](../../checkbox/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## SetCompleted() {#setcompleted}
 
-使用当前时间作为完成时间将标签设置为完成状态。
+将标签设置为已完成状态，并使用当前时间作为完成时间。
 
 ```csharp
 public void SetCompleted()
 ```
 
-### 例子
+## 示例
 
-显示如何完成与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为已完成。
 
 ```csharp
 // 文档目录的路径。
@@ -59,10 +59,10 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [CheckBox](../)
-* 命名空间 [Aspose.Note](../../checkbox/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

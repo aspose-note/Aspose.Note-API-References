@@ -1,35 +1,35 @@
 ---
-title: Interface INode
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.INode 界面. Aspose.Note 文档的所有节点的接口
+title: "接口 INode"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.INode 接口。Aspose.Note 文档中所有节点的接口。"
 type: docs
 weight: 170
 url: /zh/net/aspose.note/inode/
 ---
 ## INode interface
 
-Aspose.Note 文档的所有节点的接口。
+用于 Aspose.Note 文档中所有节点的接口。
 
 ```csharp
 public interface INode
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [NextSibling](../../aspose.note/inode/nextsibling/) { get; } | 获取同一节点树级别的下一个节点。 |
-| [PreviousSibling](../../aspose.note/inode/previoussibling/) { get; } | 获取同一节点树级别的前一个节点。 |
+| [NextSibling](../../aspose.note/inode/nextsibling/) { get; } | 获取同一节点树层级的下一个节点。 |
+| [PreviousSibling](../../aspose.note/inode/previoussibling/) { get; } | 获取同一节点树层级的上一个节点。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [Accept](../../aspose.note/inode/accept/)(DocumentVisitor) | 接受节点的访问者。 |
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

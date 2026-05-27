@@ -1,24 +1,24 @@
 ---
-title: Class CheckBox
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.CheckBox 班级. 标签的基类可以在完整和不完整之间切换其状态
+title: "类 CheckBox"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.CheckBox 类。用于在完成和未完成之间切换状态的标签的基类"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/checkbox/
 ---
 ## CheckBox class
 
-标签的基类，可以在完整和不完整之间切换其状态。
+用于在完成和未完成之间切换状态的标签的基类。
 
 ```csharp
 public abstract class CheckBox : ITag
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Checked](../../aspose.note/checkbox/checked/) { get; } | 获取CheckBox是否处于选中状态的值。 |
+| [Checked](../../aspose.note/checkbox/checked/) { get; } | 获取一个值，指示复选框是否处于选中状态。 |
 | [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | 获取或设置完成时间。 |
 | [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | 获取或设置创建时间。 |
 | abstract [Icon](../../aspose.note/checkbox/icon/) { get; } | 获取或设置图标。 |
@@ -27,15 +27,15 @@ public abstract class CheckBox : ITag
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted)() | 使用当前时间作为完成时间将标签设置为完成状态。 |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted_1)(DateTime) | 将标签设置为完成状态。 |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted)() | 将标签设置为已完成状态，并使用当前时间作为完成时间。 |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted_1)(DateTime) | 将标签设置为已完成状态。 |
 | virtual [SetOpen](../../aspose.note/checkbox/setopen/)() | 将标签设置为打开状态。 |
 
-### 例子
+## 示例
 
-显示如何生成包含与“项目 A”相关的所有页面的 pdf。
+展示如何生成包含所有与‘Project A’相关页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -56,7 +56,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-显示如何完成与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为已完成。
 
 ```csharp
 // 文档目录的路径。
@@ -79,7 +79,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-显示如何打开与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为打开。
 
 ```csharp
 // 文档目录的路径。
@@ -102,7 +102,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-展示如何生成一个 pdf，其中包含带有未完成复选框标记的项目和上周创建的页面。
+展示如何生成包含上周创建且标记为未完成复选框的页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -123,7 +123,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
 
-展示如何生成一个 pdf，其中包含本周要完成的 Outlook 未完成任务的页面。
+展示如何生成包含本周需完成的 Outlook 未完成任务页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -145,10 +145,10 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [ITag](../itag/)
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

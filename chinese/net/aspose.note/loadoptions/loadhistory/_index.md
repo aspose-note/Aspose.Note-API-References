@@ -1,22 +1,22 @@
 ---
-title: LoadOptions.LoadHistory
-second_title: Aspose.Note for .NET API 参考
-description: LoadOptions 财产. 获取或设置一个值指示文档加载程序是否应忽略历史记录 使用此选项可减少内存和 CPU 使用率 默认值为真的.
+title: "LoadOptions.LoadHistory"
+second_title: "Aspose.Note for .NET API 参考"
+description: "LoadOptions 属性。获取或设置一个值，指示文档加载器是否应忽略历史记录。使用此选项可降低内存和 CPU 使用率。默认值为 true"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/loadoptions/loadhistory/
 ---
 ## LoadOptions.LoadHistory property
 
-获取或设置一个值，指示文档加载程序是否应忽略历史记录。 使用此选项可减少内存和 CPU 使用率。 默认值为`真的`.
+获取或设置一个值，指示文档加载器是否应忽略历史记录。使用此选项可降低内存和 CPU 使用率。默认值为 `true`。
 
 ```csharp
 public bool LoadHistory { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何获取页面的历史记录。
+展示如何获取页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
@@ -39,10 +39,10 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Note](../../loadoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../loadoptions/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,32 +1,32 @@
 ---
-title: Notebook.Item
-second_title: Aspose.Note for .NET API 参考
-description: Notebook 财产. 通过给定的索引获取笔记本子节点
+title: "Notebook.Item"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Notebook 属性。获取给定索引的笔记本子节点"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/notebook/item/
 ---
 ## Notebook indexer
 
-通过给定的索引获取笔记本子节点。
+通过给定索引获取笔记本子节点。
 
 ```csharp
 public INotebookChildNode this[int index] { get; }
 ```
 
-| 范围 | 描述 |
+| 参数 | 描述 |
 | --- | --- |
-| index | 子节点的索引。 |
+| 索引 | 子节点的索引。 |
 
 ### 返回值
 
-上的子节点*index*位置.
+位于 *index* 位置的子节点。
 
-### 也可以看看
+### 另请参阅
 
 * interface [INotebookChildNode](../../inotebookchildnode/)
 * class [Notebook](../)
-* 命名空间 [Aspose.Note](../../notebook/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

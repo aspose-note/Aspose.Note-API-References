@@ -1,7 +1,7 @@
 ---
-title: IFontsSubsystem.GetFontFamily
-second_title: Aspose.Note for .NET API 参考
-description: IFontsSubsystem 方法. 获取字体系列
+title: "IFontsSubsystem.GetFontFamily"
+second_title: "Aspose.Note for .NET API 参考"
+description: "IFontsSubsystem 方法。获取字体系列"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.fonts/ifontssubsystem/getfontfamily/
@@ -14,18 +14,18 @@ url: /zh/net/aspose.note.fonts/ifontssubsystem/getfontfamily/
 public FontFamily GetFontFamily(string fontName)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fontName | String | 字体名称。 |
 
 ### 返回值
 
-的FontFamily.
+该 FontFamily。
 
-### 也可以看看
+### 另请参阅
 
 * interface [IFontsSubsystem](../)
-* 命名空间 [Aspose.Note.Fonts](../../ifontssubsystem/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../ifontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

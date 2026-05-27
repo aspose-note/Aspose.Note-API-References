@@ -1,7 +1,7 @@
 ---
-title: CheckBox.CreationTime
-second_title: Aspose.Note for .NET API 参考
-description: CheckBox 财产. 获取或设置创建时间
+title: "CheckBox.CreationTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CheckBox 属性。获取或设置创建时间"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/checkbox/creationtime/
@@ -14,14 +14,14 @@ url: /zh/net/aspose.note/checkbox/creationtime/
 public DateTime CreationTime { get; set; }
 ```
 
-### 适当的价值
+### Property Value
 
-的DateTime.
+DateTime。
 
-### 也可以看看
+### 另请参阅
 
 * class [CheckBox](../)
-* 命名空间 [Aspose.Note](../../checkbox/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

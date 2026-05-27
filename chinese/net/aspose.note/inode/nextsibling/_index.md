@@ -1,27 +1,27 @@
 ---
-title: INode.NextSibling
-second_title: Aspose.Note for .NET API 参考
-description: INode 财产. 获取同一节点树级别的下一个节点
+title: "INode.NextSibling"
+second_title: "Aspose.Note for .NET API 参考"
+description: "INode 属性。获取同一节点树层级中的下一个节点"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/inode/nextsibling/
 ---
 ## INode.NextSibling property
 
-获取同一节点树级别的下一个节点。
+获取同一节点树层级的下一个节点。
 
 ```csharp
 public INode NextSibling { get; }
 ```
 
-### 适当的价值
+### Property Value
 
-下一个兄弟。
+下一个兄弟节点。
 
-### 也可以看看
+### 另请参阅
 
 * interface [INode](../)
-* 命名空间 [Aspose.Note](../../inode/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inode/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: AttachedFile.LastModifiedTime
-second_title: Aspose.Note for .NET API 参考
-description: AttachedFile 财产. 获取或设置最后修改时间
+title: "AttachedFile.LastModifiedTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "AttachedFile 属性。获取或设置最后修改时间"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/attachedfile/lastmodifiedtime/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/attachedfile/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [AttachedFile](../)
-* 命名空间 [Aspose.Note](../../attachedfile/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

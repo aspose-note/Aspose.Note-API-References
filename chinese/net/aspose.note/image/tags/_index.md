@@ -1,7 +1,7 @@
 ---
-title: Image.Tags
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取段落的所有标签列表
+title: "Image.Tags"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取段落的所有标签列表。"
 type: docs
 weight: 160
 url: /zh/net/aspose.note/image/tags/
@@ -14,37 +14,37 @@ url: /zh/net/aspose.note/image/tags/
 public List<ITag> Tags { get; }
 ```
 
-### 例子
+## 示例
 
-显示如何添加带有标签的新图像。
+展示如何添加带标签的新图像。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// 初始化 Page 类对象
+Page page = new Page();
 
-// 初始化大纲类对象
+// 初始化 Outline 类对象
 Outline outline = new Outline();
 
 // 初始化 OutlineElement 类对象
 OutlineElement outlineElem = new OutlineElement();
 
 // 加载图像
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
+Image image = new Image(dataDir + "icon.jpg");
 
-// 在文档节点插入图片
+// 在文档节点中插入图像
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// 添加轮廓元素节点
+// 添加大纲元素节点
 outline.AppendChildLast(outlineElem);
 
-// 添加轮廓节点
+// 添加大纲节点
 page.AppendChildLast(outline);
 
 // 添加页面节点
@@ -55,11 +55,11 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [ITag](../../itag/)
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

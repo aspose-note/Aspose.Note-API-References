@@ -1,23 +1,23 @@
 ---
-title: Image.IsBackground
-second_title: Aspose.Note for .NET API 参考
-description: Image 财产. 获取图片是否为背景图片
+title: "Image.IsBackground"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Image 属性。获取图像是否为背景图像。"
 type: docs
 weight: 120
 url: /zh/net/aspose.note/image/isbackground/
 ---
 ## Image.IsBackground property
 
-获取图片是否为背景图片。
+获取图像是否为背景图像。
 
 ```csharp
 public bool IsBackground { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Image](../)
-* 命名空间 [Aspose.Note](../../image/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

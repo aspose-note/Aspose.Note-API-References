@@ -1,22 +1,22 @@
 ---
-title: Class PageSplittingAlgorithm
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Saving.PageSplittingAlgorithm 班级. 用于拆分对象的基类以防它不适合原始页面
+title: "类 PageSplittingAlgorithm"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Saving.PageSplittingAlgorithm 类。用于在对象不适合原始页面时拆分对象的基类"
 type: docs
-weight: 830
+weight: 910
 url: /zh/net/aspose.note.saving/pagesplittingalgorithm/
 ---
 ## PageSplittingAlgorithm class
 
-用于拆分对象的基类，以防它不适合原始页面。
+用于在对象无法适应原始页面时拆分对象的基类。
 
 ```csharp
 public abstract class PageSplittingAlgorithm
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note.Saving](../../aspose.note.saving/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

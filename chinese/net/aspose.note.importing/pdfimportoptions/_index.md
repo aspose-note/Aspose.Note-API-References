@@ -1,9 +1,9 @@
 ---
-title: Class PdfImportOptions
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Importing.PdfImportOptions 班级. 允许在从 PDF 文档导入内容时指定选项
+title: "类 PdfImportOptions"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Importing.PdfImportOptions 类。允许在从 PDF 文档导入内容时指定选项"
 type: docs
-weight: 260
+weight: 280
 url: /zh/net/aspose.note.importing/pdfimportoptions/
 ---
 ## PdfImportOptions class
@@ -16,21 +16,21 @@ public class PdfImportOptions
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [PdfImportOptions](pdfimportoptions/)() | 默认构造函数。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认情况下是MaxValue 这意味着将呈现文档的所有页面。 |
-| [PageIndex](../../aspose.note.importing/pdfimportoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认为 0. |
+| [PageCount](../../aspose.note.importing/pdfimportoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示将渲染文档的所有页面。 |
+| [PageIndex](../../aspose.note.importing/pdfimportoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认值为 0。 |
 | [Password](../../aspose.note.importing/pdfimportoptions/password/) { get; set; } | 获取或设置用于解密文档内容的密码。 |
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note.Importing](../../aspose.note.importing/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Importing](../../aspose.note.importing/)
+* assembly [Aspose.Note](../../)
 
 

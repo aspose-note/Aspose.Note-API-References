@@ -1,22 +1,22 @@
 ---
-title: Class IncorrectDocumentStructureException
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.IncorrectDocumentStructureException 班级. 如果用户创建的文档结构不正确则抛出
+title: "类 IncorrectDocumentStructureException"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.IncorrectDocumentStructureException 类。如果用户创建的文档结构不正确，则抛出此异常"
 type: docs
-weight: 280
+weight: 300
 url: /zh/net/aspose.note/incorrectdocumentstructureexception/
 ---
 ## IncorrectDocumentStructureException class
 
-如果用户创建的文档结构不正确则抛出。
+如果用户创建的文档结构不正确，则抛出。
 
 ```csharp
 public class IncorrectDocumentStructureException : Exception
 ```
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

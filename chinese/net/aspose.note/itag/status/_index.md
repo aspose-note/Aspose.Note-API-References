@@ -1,7 +1,7 @@
 ---
-title: ITag.Status
-second_title: Aspose.Note for .NET API 参考
-description: ITag 财产. 获取或设置状态
+title: "ITag.Status"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ITag 属性。获取或设置状态"
 type: docs
 weight: 50
 url: /zh/net/aspose.note/itag/status/
@@ -14,13 +14,13 @@ url: /zh/net/aspose.note/itag/status/
 public TagStatus Status { get; }
 ```
 
-### 适当的价值
+### Property Value
 
-的[`TagStatus`](../../tagstatus/).
+该 [`TagStatus`](../../tagstatus/).
 
-### 例子
+## 示例
 
-显示如何访问 outlook 任务的详细信息。
+展示如何访问 Outlook 任务的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -32,7 +32,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//遍历每个节点
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -52,7 +52,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-显示如何访问标签的详细信息。
+展示如何访问标签的详细信息。
 
 ```csharp
 // 文档目录的路径。
@@ -64,7 +64,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 // 获取所有 RichText 节点
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-//遍历每个节点
+// 遍历每个节点
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -86,11 +86,11 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * enum [TagStatus](../../tagstatus/)
 * interface [ITag](../)
-* 命名空间 [Aspose.Note](../../itag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../itag/)
+* assembly [Aspose.Note](../../../)
 
 

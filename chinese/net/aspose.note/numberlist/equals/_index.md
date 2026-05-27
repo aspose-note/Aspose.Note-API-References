@@ -1,55 +1,55 @@
 ---
-title: NumberList.Equals
-second_title: Aspose.Note for .NET API 参考
-description: NumberList 方法. 判断指定对象是否等于当前对象
+title: "NumberList.Equals"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NumberList 方法。确定指定的对象是否等于当前对象"
 type: docs
 weight: 110
 url: /zh/net/aspose.note/numberlist/equals/
 ---
 ## Equals(object) {#equals_1}
 
-判断指定对象是否等于当前对象。
+确定指定的对象是否等于当前对象。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 对象。 |
+| obj | Object | 该对象。 |
 
 ### 返回值
 
-的Boolean.
+布尔值。
 
-### 也可以看看
+### 另请参阅
 
 * class [NumberList](../)
-* 命名空间 [Aspose.Note](../../numberlist/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Equals(NumberList) {#equals}
 
-判断指定对象是否等于当前对象。
+确定指定的对象是否等于当前对象。
 
 ```csharp
 public bool Equals(NumberList other)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| other | NumberList | 对象。 |
+| 其他 | NumberList | 该对象。 |
 
 ### 返回值
 
-的Boolean.
+布尔值。
 
-### 也可以看看
+### 另请参阅
 
 * class [NumberList](../)
-* 命名空间 [Aspose.Note](../../numberlist/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 

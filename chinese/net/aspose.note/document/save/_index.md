@@ -1,7 +1,7 @@
 ---
-title: Document.Save
-second_title: Aspose.Note for .NET API 参考
-description: Document 方法. 将 OneNote 文档保存到文件中
+title: "Document.Save"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Document 方法。将 OneNote 文档保存到文件。"
 type: docs
 weight: 140
 url: /zh/net/aspose.note/document/save/
@@ -14,20 +14,20 @@ url: /zh/net/aspose.note/document/save/
 public void Save(string fileName)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果具有指定全名的文件已经存在，则覆盖现有文件。 |
+| fileName | String | 文件的完整名称。如果已存在具有指定完整名称的文件，则会覆盖现有文件。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 例子
+## 示例
 
-显示如何保存文档。
+展示如何保存文档。
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -38,11 +38,11 @@ Document doc = new Document(dataDir + inputFile);
 doc.Save(dataDir + outputFile);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
@@ -54,48 +54,48 @@ doc.Save(dataDir + outputFile);
 public void Save(Stream stream)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 将保存文档的 System.IO.Stream。 |
+| 流 | 流 | 用于保存文档的 System.IO.Stream。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveFormat) {#save_4}
 
-将 OneNote 文档保存为指定格式的文件。
+以指定格式将 OneNote 文档保存到文件中。
 
 ```csharp
 public void Save(string fileName, SaveFormat format)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果具有指定全名的文件已经存在，则覆盖现有文件。 |
-| format | SaveFormat | 保存文档的格式。 |
+| fileName | String | 文件的完整名称。如果已存在具有指定完整名称的文件，则会覆盖现有文件。 |
+| 格式 | SaveFormat | 用于保存文档的格式。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 例子
+## 示例
 
-演示如何使用 SaveFormat 枚举保存文档。
+展示如何使用 SaveFormat 枚举保存文档。
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -107,7 +107,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
-显示如何以 gif 格式保存文档。
+展示如何将文档保存为 gif 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -122,12 +122,12 @@ dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
@@ -139,21 +139,34 @@ oneFile.Save(dataDir, SaveFormat.Gif);
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 将保存文档的 System.IO.Stream。 |
-| format | SaveFormat | 保存文档的格式。 |
+| 流 | 流 | 用于保存文档的 System.IO.Stream。 |
+| 格式 | SaveFormat | 用于保存文档的格式。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 例子
+## 示例
 
-显示如何使用默认设置将文档保存为 pdf 格式。
+展示如何将 OneNote 文档转换为 HTML 格式。
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Html();
+
+var oneFilePath = Path.Combine(dataDir, "sample.one");
+var htmlFilePath = Path.Combine(dataDir, "output.html");
+
+// 将 OneNote 转换为 HTML
+var doc = new Document(oneFilePath);
+doc.Save(htmlFilePath, SaveFormat.Html);
+```
+
+展示如何使用默认设置将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -167,7 +180,7 @@ dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-显示如何将文档保存到流中。
+展示如何将文档保存到流中。
 
 ```csharp
 // 文档目录的路径。
@@ -179,11 +192,30 @@ Document doc = new Document(dataDir + "Aspose.one");
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// 将流位置倒回到零，以便为下一个读者做好准备。
+// 将流位置倒回到零，以便下一个读取器使用。
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
-展示如何将深色主题样式应用于文档。
+展示如何将 OneNote 文档转换为 Markdown 格式。
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Markdown();
+
+var oneFilePath = Path.Combine(dataDir, "sample.one");
+var mdFilePath = Path.Combine(dataDir, "output.md");
+var htmlFilePath = Path.Combine(dataDir, "temp.html");
+
+// 将 OneNote 转换为 HTML
+var document = new Document(oneFilePath);
+document.Save(htmlFilePath, SaveFormat.Html);
+
+// 将 HTML 转换为 Markdown
+Converter.ConvertHTML(htmlFilePath, new MarkdownSaveOptions(), mdFilePath);
+
+Console.WriteLine("\nOneNote document converted to Markdown successfully.");
+```
+
+展示如何对文档应用暗色主题样式。
 
 ```csharp
 // 文档目录的路径。
@@ -209,38 +241,38 @@ foreach (var node in doc.GetChildNodes<RichText>())
 doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveOptions) {#save_5}
 
-使用指定的保存选项将 OneNote 文档保存到文件。
+使用指定的保存选项将 OneNote 文档保存到文件中。
 
 ```csharp
 public void Save(string fileName, SaveOptions options)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件的全名。如果具有指定全名的文件已经存在，则覆盖现有文件。 |
-| options | SaveOptions | 指定文档如何保存在文件中的选项。 |
+| fileName | String | 文件的完整名称。如果已存在具有指定完整名称的文件，则会覆盖现有文件。 |
+| 选项 | SaveOptions | 指定文档在文件中保存的选项。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 例子
+## 示例
 
-演示如何使用 OneSaveOptions 保存文档。
+展示如何使用 OneSaveOptions 保存文档。
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -252,7 +284,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-演示如何使用 SaveFormat 将文档另存为 Jpeg 格式的图像。
+展示如何使用 SaveFormat 将文档保存为 JPEG 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -267,7 +299,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
-演示如何使用 ImageSaveOptions 将文档另存为 Bmp 格式的图像。
+展示如何使用 ImageSaveOptions 将文档保存为 BMP 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -282,7 +314,7 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
-展示如何使用 Letter 页面布局将文档保存为 Pdf 格式。
+展示如何将文档保存为 Pdf 格式并使用 Letter 页面布局。
 
 ```csharp
 // 文档目录的路径。
@@ -297,7 +329,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-演示如何将文档保存为 A4 页面布局且没有高度限制的 Pdf 格式。
+展示如何将文档保存为 Pdf 格式并使用 A4 页面布局且不限制高度。
 
 ```csharp
 // 文档目录的路径。
@@ -312,7 +344,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-显示如何将文档另存为灰度图像。
+展示如何将文档保存为灰度图像。
 
 ```csharp
 // 文档目录的路径。
@@ -330,7 +362,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-演示如何使用 PackBits 压缩将文档另存为 Tiff 格式的图像。
+展示如何使用 PackBits 压缩将文档保存为 TIFF 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -348,7 +380,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-展示如何使用 Jpeg 压缩将文档另存为 Tiff 格式的图像。
+展示如何使用 JPEG 压缩将文档保存为 TIFF 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -367,7 +399,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-显示如何使用 CCITT Group 3 传真压缩将文档另存为 Tiff 格式的图像。
+展示如何使用 CCITT Group 3 传真压缩将文档保存为 TIFF 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -386,7 +418,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-显示如何以 pdf 格式保存文档。
+展示如何以 PDF 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -398,10 +430,10 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 设置要保存的第一页的页索引
+                              // 设置要保存的第一页的页面索引
                               PageIndex = 0,
 
-                              // 设置页数
+                              // 设置页面数量
                               PageCount = 1,
                           };
 
@@ -410,7 +442,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-显示如何使用特定设置将文档保存为 pdf 格式。
+展示如何使用特定设置以 PDF 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -433,7 +465,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-展示如何使用 Otsu 的方法将文档保存为二进制图像。
+展示如何使用 Otsu 方法将文档保存为二值图像。
 
 ```csharp
 // 文档目录的路径。
@@ -455,7 +487,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-显示如何使用固定阈值将文档保存为二值图像。
+展示如何使用固定阈值将文档保存为二值图像。
 
 ```csharp
 // 文档目录的路径。
@@ -478,12 +510,12 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [SaveOptions](../../../aspose.note.saving/saveoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
@@ -495,21 +527,21 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
 public void Save(Stream stream, SaveOptions options)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 将保存文档的 System.IO.Stream。 |
-| options | SaveOptions | 指定文档如何保存在流中的选项。 |
+| 流 | 流 | 用于保存文档的 System.IO.Stream。 |
+| 选项 | SaveOptions | 指定文档在流中保存的选项。 |
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 例子
+## 示例
 
-显示如何使用指定的默认字体以 pdf 格式保存文档。
+展示如何使用指定的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -526,7 +558,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-显示如何使用文件中的默认字体将文档保存为 pdf 格式。
+展示如何使用来自文件的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -545,7 +577,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-显示如何使用流中的默认字体以 pdf 格式保存文档。
+展示如何使用来自流的默认字体将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -568,11 +600,11 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [SaveOptions](../../../aspose.note.saving/saveoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

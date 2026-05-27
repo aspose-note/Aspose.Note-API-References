@@ -1,7 +1,7 @@
 ---
-title: ResourceSavingArgs.KeepStreamOpen
-second_title: Aspose.Note for .NET API 参考
-description: ResourceSavingArgs 财产. 获取或设置一个值指示是否保持流打开
+title: "ResourceSavingArgs.KeepStreamOpen"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ResourceSavingArgs 属性。获取或设置一个值，指示是否保持流打开"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving.html/resourcesavingargs/keepstreamopen/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note.saving.html/resourcesavingargs/keepstreamopen/
 public bool KeepStreamOpen { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Note.Saving.Html](../../resourcesavingargs/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

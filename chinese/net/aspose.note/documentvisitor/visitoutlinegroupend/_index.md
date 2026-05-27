@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitOutlineGroupEnd
-second_title: Aspose.Note for .NET API 参考
-description: DocumentVisitor 方法. 结束访问OutlineGroup节点.
+title: "DocumentVisitor.VisitOutlineGroupEnd"
+second_title: "Aspose.Note for .NET API 参考"
+description: "DocumentVisitor 方法。结束访问 OutlineGroup 节点"
 type: docs
-weight: 100
+weight: 180
 url: /zh/net/aspose.note/documentvisitor/visitoutlinegroupend/
 ---
 ## DocumentVisitor.VisitOutlineGroupEnd method
 
-结束访问[`OutlineGroup`](../../outlinegroup/)节点.
+结束访问 [`OutlineGroup`](../../outlinegroup/) 节点。
 
 ```csharp
 public virtual void VisitOutlineGroupEnd(OutlineGroup outlineGroup)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| outlineGroup | OutlineGroup | 的[`OutlineGroup`](../../outlinegroup/)节点. |
+| outlineGroup | OutlineGroup | 该 [`OutlineGroup`](../../outlinegroup/) 节点。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [OutlineGroup](../../outlinegroup/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Note](../../documentvisitor/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

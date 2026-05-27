@@ -1,7 +1,7 @@
 ---
-title: Page.Clone
-second_title: Aspose.Note for .NET API 参考
-description: Page 方法. 克隆页面
+title: "Page.Clone"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Page 方法。克隆页面"
 type: docs
 weight: 140
 url: /zh/net/aspose.note/page/clone/
@@ -14,23 +14,23 @@ url: /zh/net/aspose.note/page/clone/
 public Page Clone(bool cloneHistory = false)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cloneHistory | Boolean | 指定是否应克隆页面的历史记录.. |
+| cloneHistory | Boolean | 指定是否应克隆页面的历史记录。 |
 
 ### 返回值
 
 页面的克隆。
 
-### 例子
+## 示例
 
-显示如何将页面的当前版本推送到历史记录。
+展示如何将页面的当前版本推送到历史记录。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -41,7 +41,7 @@ pageHistory.Add(page.Clone());
 document.Save(dataDir + "PushCurrentPageVersion_out.one");
 ```
 
-显示如何克隆页面。
+展示如何克隆页面。
 
 ```csharp
 // 文档目录的路径。
@@ -50,19 +50,19 @@ string dataDir = RunExamples.GetDataDir_Pages();
 // 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-//克隆到没有历史记录的新文档
+// 克隆到新文档（不含历史）
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// 克隆到具有历史记录的新文档
+// 克隆到新文档（含历史）
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Page](../)
-* 命名空间 [Aspose.Note](../../page/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

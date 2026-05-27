@@ -1,22 +1,22 @@
 ---
-title: Style.Highlight
-second_title: Aspose.Note for .NET API 参考
-description: Style 财产. 获取或设置高亮颜色
+title: "Style.Highlight"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Style 属性。获取或设置突出显示颜色"
 type: docs
 weight: 50
 url: /zh/net/aspose.note/style/highlight/
 ---
 ## Style.Highlight property
 
-获取或设置高亮颜色。
+获取或设置突出显示颜色。
 
 ```csharp
 public Color Highlight { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何更改文本的样式。
+展示如何更改文本的样式。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -40,7 +40,7 @@ foreach (var run in richText.TextRuns)
 }
 ```
 
-演示如何编写包含各种样式文本的表格。
+展示如何创建包含不同样式文本的表格。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -73,7 +73,7 @@ foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Sc
                 .Append(header);
 }
 
-// 让我们有 5 个空行。行具有互换的背景颜色
+// 让我们添加5行空行。行的背景颜色交替
 for (int i = 0; i < 5; i++)
 {
     backGroundColor = backGroundColor.IsEmpty ? Color.LightGray : Color.Empty;
@@ -87,7 +87,7 @@ for (int i = 0; i < 5; i++)
     }
 }
 
-// 让我们为“联系人”列中的内容添加一些模板
+// 让我们为 'Contacts' 列添加一些内容模板
 foreach (var row in ranking.Skip(1))
 {
     var contactsCell = row.ElementAt(1);
@@ -104,10 +104,10 @@ d.AppendChildLast(page);
 d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Style](../)
-* 命名空间 [Aspose.Note](../../style/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

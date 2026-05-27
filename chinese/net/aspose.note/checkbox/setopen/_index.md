@@ -1,7 +1,7 @@
 ---
-title: CheckBox.SetOpen
-second_title: Aspose.Note for .NET API 参考
-description: CheckBox 方法. 将标签设置为打开状态
+title: "CheckBox.SetOpen"
+second_title: "Aspose.Note for .NET API 参考"
+description: "CheckBox 方法。将标签设置为打开状态"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/checkbox/setopen/
@@ -14,9 +14,9 @@ url: /zh/net/aspose.note/checkbox/setopen/
 public virtual void SetOpen()
 ```
 
-### 例子
+## 示例
 
-显示如何打开与“项目 C”相关的所有复选框项目。
+展示如何将与 'Project C' 相关的所有复选框项目标记为打开。
 
 ```csharp
 // 文档目录的路径。
@@ -39,10 +39,10 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [CheckBox](../)
-* 命名空间 [Aspose.Note](../../checkbox/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

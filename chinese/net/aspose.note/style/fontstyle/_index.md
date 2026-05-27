@@ -1,7 +1,7 @@
 ---
-title: Style.FontStyle
-second_title: Aspose.Note for .NET API 参考
-description: Style 财产. 获取字体样式
+title: "Style.FontStyle"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Style 属性。获取字体样式"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/style/fontstyle/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/style/fontstyle/
 public FontStyle FontStyle { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Style](../)
-* 命名空间 [Aspose.Note](../../style/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

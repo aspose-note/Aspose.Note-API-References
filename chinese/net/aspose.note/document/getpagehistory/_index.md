@@ -1,36 +1,36 @@
 ---
-title: Document.GetPageHistory
-second_title: Aspose.Note for .NET API 参考
-description: Document 方法. 获取PageHistory其中包含文档中出现的每个页面的完整历史记录最早的索引为 0 当前页面修订可以访问为Current并与历史版本的集合分开包含
+title: "Document.GetPageHistory"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Document 方法。获取 PageHistory，其中包含文档中每页的完整历史记录，最早的在索引 0。当前页面修订可通过 Current 访问，并与历史版本集合分开存放。"
 type: docs
 weight: 100
 url: /zh/net/aspose.note/document/getpagehistory/
 ---
 ## Document.GetPageHistory method
 
-获取[`PageHistory`](../../pagehistory/)其中包含文档中出现的每个页面的完整历史记录（最早的索引为 0）。 当前页面修订可以访问为[`Current`](../../pagehistory/current/)并与历史版本的集合分开包含。
+获取 [`PageHistory`](../../pagehistory/)，其中包含文档中每页的完整历史记录（最早的在索引 0）。当前页面修订可通过 [`Current`](../../pagehistory/current/) 访问，并与历史版本集合分开存放。
 
 ```csharp
 public PageHistory GetPageHistory(Page page)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| page | Page | 页面的当前修订版。 |
+| page | Page | 页面的当前修订。 |
 
 ### 返回值
 
-的[`PageHistory`](../../pagehistory/).
+[`PageHistory`](../../pagehistory/)。
 
-### 例子
+## 示例
 
-显示如何恢复页面的先前版本。
+展示如何恢复页面的先前版本。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -41,13 +41,13 @@ document.AppendChildLast(previousPageVersion);
 document.Save(dataDir + "RollBackRevisions_out.one");
 ```
 
-显示如何编辑页面的历史记录。
+展示如何编辑页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -68,7 +68,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+展示如何检查页面是否为冲突页面（即它包含 OneNote 无法自动合并的更改）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -86,8 +86,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 默认情况下，冲突页面只是在保存时被跳过。
-    // 如果将其标记为非冲突，则它将照常保存在历史记录中。
+    // 默认情况下，冲突页面在保存时会被跳过。
+    // 如果将其标记为非冲突，则它将在历史记录中像普通页面一样保存。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -95,12 +95,12 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [PageHistory](../../pagehistory/)
 * class [Page](../../page/)
 * class [Document](../)
-* 命名空间 [Aspose.Note](../../document/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

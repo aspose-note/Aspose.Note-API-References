@@ -1,32 +1,32 @@
 ---
-title: MergeOptions.InsertAt
-second_title: Aspose.Note for .NET API 参考
-description: MergeOptions 财产. 获取或设置将插入导入页面的位置
+title: "MergeOptions.InsertAt"
+second_title: "Aspose.Note for .NET API 参考"
+description: "MergeOptions 属性。获取或设置导入页面将被插入的位置"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/mergeoptions/insertat/
 ---
 ## MergeOptions.InsertAt property
 
-获取或设置将插入导入页面的位置。
+获取或设置导入页面将被插入的位置。
 
 ```csharp
 public int InsertAt { get; set; }
 ```
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### 评论
+## 备注
 
-如果值大于目标文档中的页数，则将导入的页面添加到文档末尾。
+如果该值大于目标文档中页面的数量，则导入的页面将添加到文档的末尾。
 
-### 例子
+## 示例
 
-显示如何从一组 PDF 文档导入所有页面，同时从每个 PDF 文档插入页面作为顶级 OneNote 页面的子页面。
+展示如何从一组 PDF 文档导入所有页面，同时将每个 PDF 文档的页面插入为顶层 OneNote 页面下的子页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -42,10 +42,10 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [MergeOptions](../)
-* 命名空间 [Aspose.Note](../../mergeoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../mergeoptions/)
+* assembly [Aspose.Note](../../../)
 
 

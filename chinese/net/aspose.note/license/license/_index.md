@@ -1,7 +1,7 @@
 ---
-title: License.License
-second_title: Aspose.Note for .NET API 参考
-description: License 构造函数. 默认构造函数
+title: "License.License"
+second_title: "Aspose.Note for .NET API 参考"
+description: "License 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/license/license/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/license/license/
 public License()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [License](../)
-* 命名空间 [Aspose.Note](../../license/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../license/)
+* assembly [Aspose.Note](../../../)
 
 

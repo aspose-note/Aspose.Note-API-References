@@ -1,7 +1,7 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Note for .NET API 参考
-description: Metered 构造函数. 默认构造函数
+title: "Metered.Metered"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Metered 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/metered/metered/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/metered/metered/
 public Metered()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [Metered](../)
-* 命名空间 [Aspose.Note](../../metered/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../metered/)
+* assembly [Aspose.Note](../../../)
 
 

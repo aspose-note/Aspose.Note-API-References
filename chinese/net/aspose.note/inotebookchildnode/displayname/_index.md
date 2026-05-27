@@ -1,7 +1,7 @@
 ---
-title: INotebookChildNode.DisplayName
-second_title: Aspose.Note for .NET API 参考
-description: INotebookChildNode 财产. 获取显示名称
+title: "INotebookChildNode.DisplayName"
+second_title: "Aspose.Note for .NET API 参考"
+description: "INotebookChildNode 属性。获取显示名称"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/inotebookchildnode/displayname/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/inotebookchildnode/displayname/
 public string DisplayName { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [INotebookChildNode](../)
-* 命名空间 [Aspose.Note](../../inotebookchildnode/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inotebookchildnode/)
+* assembly [Aspose.Note](../../../)
 
 

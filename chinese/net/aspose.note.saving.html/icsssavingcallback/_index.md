@@ -1,14 +1,14 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Saving.Html.ICssSavingCallback 界面. 如果你想控制Aspose.Note在保存文档到HTML时如何保存CSS层叠样式表实现这个接口
+title: "接口 ICssSavingCallback"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Saving.Html.ICssSavingCallback 接口。如果您想在将文档保存为 HTML 时控制 Aspose.Note 如何保存 CSS（层叠样式表），请实现此接口。"
 type: docs
-weight: 620
+weight: 700
 url: /zh/net/aspose.note.saving.html/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
 
-如果你想控制Aspose.Note在保存文档到HTML时如何保存CSS（层叠样式表），实现这个接口。
+如果您想控制 Aspose.Note 在将文档保存为 HTML 时如何保存 CSS（层叠样式表），请实现此接口。
 
 ```csharp
 public interface ICssSavingCallback
@@ -16,13 +16,13 @@ public interface ICssSavingCallback
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [CssSaving](../../aspose.note.saving.html/icsssavingcallback/csssaving/)(CssSavingArgs) | Aspose.Note保存一个CSS(Cascading Style Sheet)时调用。 |
+| [CssSaving](../../aspose.note.saving.html/icsssavingcallback/csssaving/)(CssSavingArgs) | 当 Aspose.Note 保存 CSS（层叠样式表）时调用。 |
 
-### 也可以看看
+### 另请参阅
 
-* 命名空间 [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

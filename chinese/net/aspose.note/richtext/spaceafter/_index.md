@@ -1,23 +1,23 @@
 ---
-title: RichText.SpaceAfter
-second_title: Aspose.Note for .NET API 参考
-description: RichText 财产. 获取或设置 . 之后的最小空间量
+title: "RichText.SpaceAfter"
+second_title: "Aspose.Note for .NET API 参考"
+description: "RichText 属性。获取或设置之后的最小间距"
 type: docs
-weight: 70
+weight: 100
 url: /zh/net/aspose.note/richtext/spaceafter/
 ---
 ## RichText.SpaceAfter property
 
-获取或设置 . 之后的最小空间量
+获取或设置之后的最小间距。
 
 ```csharp
 public float? SpaceAfter { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

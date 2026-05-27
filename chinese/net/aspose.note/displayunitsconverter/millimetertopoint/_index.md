@@ -1,7 +1,7 @@
 ---
-title: DisplayUnitsConverter.MillimeterToPoint
-second_title: Aspose.Note for .NET API 参考
-description: DisplayUnitsConverter 方法. 将毫米转换为点
+title: "DisplayUnitsConverter.MillimeterToPoint"
+second_title: "Aspose.Note for .NET API 参考"
+description: "DisplayUnitsConverter 方法。将毫米转换为点"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/displayunitsconverter/millimetertopoint/
@@ -14,18 +14,18 @@ url: /zh/net/aspose.note/displayunitsconverter/millimetertopoint/
 public static float MillimeterToPoint(float mm)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| mm | Single | 以毫米为单位转换的值。 |
+| mm | Single | 要转换的毫米值。 |
 
 ### 返回值
 
-的Single.
+该 Single。
 
-### 也可以看看
+### 另请参阅
 
 * class [DisplayUnitsConverter](../)
-* 命名空间 [Aspose.Note](../../displayunitsconverter/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../displayunitsconverter/)
+* assembly [Aspose.Note](../../../)
 
 

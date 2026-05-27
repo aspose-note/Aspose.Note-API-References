@@ -1,7 +1,7 @@
 ---
-title: TableColumn.TableColumn
-second_title: Aspose.Note for .NET API 参考
-description: TableColumn 构造函数. 默认构造函数
+title: "TableColumn.TableColumn"
+second_title: "Aspose.Note for .NET API 参考"
+description: "TableColumn 构造函数。默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/tablecolumn/tablecolumn/
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/tablecolumn/tablecolumn/
 public TableColumn()
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [TableColumn](../)
-* 命名空间 [Aspose.Note](../../tablecolumn/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablecolumn/)
+* assembly [Aspose.Note](../../../)
 
 

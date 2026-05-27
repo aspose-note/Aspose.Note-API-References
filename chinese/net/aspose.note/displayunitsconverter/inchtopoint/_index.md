@@ -1,7 +1,7 @@
 ---
-title: DisplayUnitsConverter.InchToPoint
-second_title: Aspose.Note for .NET API 参考
-description: DisplayUnitsConverter 方法. 将英寸转换为点
+title: "DisplayUnitsConverter.InchToPoint"
+second_title: "Aspose.Note for .NET API 参考"
+description: "DisplayUnitsConverter 方法。将英寸转换为点"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/displayunitsconverter/inchtopoint/
@@ -14,18 +14,18 @@ url: /zh/net/aspose.note/displayunitsconverter/inchtopoint/
 public static float InchToPoint(float inches)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| inches | Single | 以英寸为单位转换的值。 |
+| 英寸 | Single | 要转换的英寸值。 |
 
 ### 返回值
 
-的Single.
+该 Single。
 
-### 也可以看看
+### 另请参阅
 
 * class [DisplayUnitsConverter](../)
-* 命名空间 [Aspose.Note](../../displayunitsconverter/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../displayunitsconverter/)
+* assembly [Aspose.Note](../../../)
 
 

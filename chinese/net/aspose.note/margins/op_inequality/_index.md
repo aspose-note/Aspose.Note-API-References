@@ -1,32 +1,32 @@
 ---
-title: Margins.op_Inequality
-second_title: Aspose.Note for .NET API 参考
-description: Margins 方法. 测试是否两个Margins结构不相等.
+title: "Margins.op_Inequality"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Margins 方法。测试两个 Margins 结构是否不相等"
 type: docs
 weight: 100
 url: /zh/net/aspose.note/margins/op_inequality/
 ---
 ## Margins Inequality operator
 
-测试是否两个Margins结构不相等.
+测试两个 Margins 结构是否不相等。
 
 ```csharp
 public static bool operator !=(Margins lhs, Margins rhs)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| lhs | Margins | 的Margins结构. |
-| rhs | Margins | 的Margins要与之比较的结构. |
+| lhs | Margins | 该 Margins 结构。 |
+| rhs | Margins | 用于比较的 Margins 结构。 |
 
 ### 返回值
 
-的Boolean.
+布尔值。
 
-### 也可以看看
+### 另请参阅
 
 * struct [Margins](../)
-* 命名空间 [Aspose.Note](../../margins/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../margins/)
+* assembly [Aspose.Note](../../../)
 
 

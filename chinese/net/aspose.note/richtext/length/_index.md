@@ -1,9 +1,9 @@
 ---
-title: RichText.Length
-second_title: Aspose.Note for .NET API 参考
-description: RichText 财产. 获取文本的长度
+title: "RichText.Length"
+second_title: "Aspose.Note for .NET API 参考"
+description: "RichText 属性。获取文本的长度"
 type: docs
-weight: 40
+weight: 70
 url: /zh/net/aspose.note/richtext/length/
 ---
 ## RichText.Length property
@@ -14,10 +14,10 @@ url: /zh/net/aspose.note/richtext/length/
 public int Length { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [RichText](../)
-* 命名空间 [Aspose.Note](../../richtext/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

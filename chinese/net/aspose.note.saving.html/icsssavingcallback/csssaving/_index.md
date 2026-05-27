@@ -1,28 +1,28 @@
 ---
-title: ICssSavingCallback.CssSaving
-second_title: Aspose.Note for .NET API 参考
-description: ICssSavingCallback 方法. Aspose.Note保存一个CSSCascading Style Sheet时调用
+title: "ICssSavingCallback.CssSaving"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ICssSavingCallback 方法。调用于 Aspose.Note 保存 CSSCascading Style Sheet 时"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving.html/icsssavingcallback/csssaving/
 ---
 ## ICssSavingCallback.CssSaving method
 
-Aspose.Note保存一个CSS(Cascading Style Sheet)时调用。
+当 Aspose.Note 保存 CSS（层叠样式表）时调用。
 
 ```csharp
 public void CssSaving(CssSavingArgs args)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | args | CssSavingArgs | 保存参数。 |
 
-### 也可以看看
+### 另请参阅
 
 * class [CssSavingArgs](../../csssavingargs/)
 * interface [ICssSavingCallback](../)
-* 命名空间 [Aspose.Note.Saving.Html](../../icsssavingcallback/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../icsssavingcallback/)
+* assembly [Aspose.Note](../../../)
 
 

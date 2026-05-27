@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.Text
-second_title: Aspose.Note for .NET API 参考
-description: AttachedFile 财产. 获取或设置嵌入文件的文本表示字符串不得包含值 10换行或 13回车的任何字符
+title: "AttachedFile.Text"
+second_title: "Aspose.Note for .NET API 参考"
+description: "AttachedFile 属性。获取或设置嵌入文件的文本表示。字符串不得包含值为 10 的换行符或值为 13 的回车符。"
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.note/attachedfile/text/
 ---
 ## AttachedFile.Text property
 
-获取或设置嵌入文件的文本表示。字符串不得包含值 10（换行）或 13（回车）的任何字符。
+获取或设置嵌入文件的文本表示。该字符串不得包含值为10（换行）或13（回车）的任何字符。
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [AttachedFile](../)
-* 命名空间 [Aspose.Note](../../attachedfile/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

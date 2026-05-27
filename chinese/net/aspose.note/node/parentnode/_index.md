@@ -1,7 +1,7 @@
 ---
-title: Node.ParentNode
-second_title: Aspose.Note for .NET API 参考
-description: Node 财产. 获取父节点
+title: "Node.ParentNode"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Node 属性。获取父节点"
 type: docs
 weight: 50
 url: /zh/net/aspose.note/node/parentnode/
@@ -14,11 +14,11 @@ url: /zh/net/aspose.note/node/parentnode/
 public ICompositeNode ParentNode { get; }
 ```
 
-### 也可以看看
+### 另请参阅
 
 * interface [ICompositeNode](../../icompositenode/)
 * class [Node](../)
-* 命名空间 [Aspose.Note](../../node/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../node/)
+* assembly [Aspose.Note](../../../)
 
 

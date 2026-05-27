@@ -1,22 +1,22 @@
 ---
-title: ImageSaveOptions.ColorMode
-second_title: Aspose.Note for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置ColorMode对于输出图像.
+title: "ImageSaveOptions.ColorMode"
+second_title: "Aspose.Note for .NET API 参考"
+description: "ImageSaveOptions 属性。获取或设置输出图像的 ColorMode"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/imagesaveoptions/colormode/
 ---
 ## ImageSaveOptions.ColorMode property
 
-获取或设置`ColorMode`对于输出图像.
+获取或设置输出图像的 `ColorMode`。
 
 ```csharp
 public ColorMode ColorMode { get; set; }
 ```
 
-### 例子
+## 示例
 
-显示如何将文档另存为灰度图像。
+展示如何将文档保存为灰度图像。
 
 ```csharp
 // 文档目录的路径。
@@ -34,7 +34,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-显示如何使用 CCITT Group 3 传真压缩将文档另存为 Tiff 格式的图像。
+展示如何使用 CCITT Group 3 传真压缩将文档保存为 TIFF 格式的图像。
 
 ```csharp
 // 文档目录的路径。
@@ -53,7 +53,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-展示如何使用 Otsu 的方法将文档保存为二进制图像。
+展示如何使用 Otsu 方法将文档保存为二值图像。
 
 ```csharp
 // 文档目录的路径。
@@ -75,7 +75,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-显示如何使用固定阈值将文档保存为二值图像。
+展示如何使用固定阈值将文档保存为二值图像。
 
 ```csharp
 // 文档目录的路径。
@@ -98,11 +98,11 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 也可以看看
+### 另请参阅
 
 * enum [ColorMode](../../colormode/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Note.Saving](../../imagesaveoptions/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

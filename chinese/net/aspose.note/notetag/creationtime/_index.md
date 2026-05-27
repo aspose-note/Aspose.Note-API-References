@@ -1,7 +1,7 @@
 ---
-title: NoteTag.CreationTime
-second_title: Aspose.Note for .NET API 参考
-description: NoteTag 财产. 获取或设置创建时间
+title: "NoteTag.CreationTime"
+second_title: "Aspose.Note for .NET API 参考"
+description: "NoteTag 属性。获取或设置创建时间"
 type: docs
 weight: 1140
 url: /zh/net/aspose.note/notetag/creationtime/
@@ -14,14 +14,14 @@ url: /zh/net/aspose.note/notetag/creationtime/
 public DateTime CreationTime { get; set; }
 ```
 
-### 适当的价值
+### Property Value
 
-的DateTime.
+DateTime。
 
-### 也可以看看
+### 另请参阅
 
 * class [NoteTag](../)
-* 命名空间 [Aspose.Note](../../notetag/)
-* 部件 [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

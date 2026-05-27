@@ -1,14 +1,14 @@
 ---
-title: Class Page
-second_title: Aspose.Note for .NET API 参考
-description: Aspose.Note.Page 班级. 代表一个页面
+title: "类 Page"
+second_title: "Aspose.Note for .NET API 参考"
+description: "Aspose.Note.Page 类。表示一个页面"
 type: docs
-weight: 480
+weight: 550
 url: /zh/net/aspose.note/page/
 ---
 ## Page class
 
-代表一个页面。
+表示页面。
 
 ```csharp
 public sealed class Page : CompositeNode<IPageChildNode>
@@ -16,13 +16,13 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Page](page/#constructor)() | 初始化一个新的实例`Page`类. |
+| [Page](page/)() | 初始化 `Page` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [Author](../../aspose.note/page/author/) { get; set; } | 获取或设置作者。 |
 | [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | 获取或设置页面的背景颜色。 |
@@ -30,44 +30,44 @@ public sealed class Page : CompositeNode<IPageChildNode>
 | [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | 获取或设置一个值，该值指示此页是否为冲突页。 |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | 获取或设置一个值，指示此页面是否为冲突页面。 |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
 | [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
 | [Level](../../aspose.note/page/level/) { get; set; } | 获取或设置级别。 |
 | [Margin](../../aspose.note/page/margin/) { get; set; } | 获取或设置边距。 |
-| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | 获取同一节点树级别的下一个节点。 |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | 获取同一节点树层级的下一个节点。 |
 | [NodeType](../../aspose.note/node/nodetype/) { get; } | 获取节点类型。 |
 | [PageContentRevisionSummary](../../aspose.note/page/pagecontentrevisionsummary/) { get; set; } | 获取或设置页面及其子节点的修订摘要。 |
-| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | 获取或设置页面在编辑器中显示的布局大小。 |
+| [PageLayoutSize](../../aspose.note/page/pagelayoutsize/) { get; set; } | 获取或设置在编辑器中显示的页面布局大小。 |
 | [ParentNode](../../aspose.note/node/parentnode/) { get; } | 获取父节点。 |
-| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | 获取同一节点树级别的前一个节点。 |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | 获取同一节点树层级的上一个节点。 |
 | [SizeType](../../aspose.note/page/sizetype/) { get; set; } | 获取或设置页面的大小类型。 |
 | [Title](../../aspose.note/page/title/) { get; set; } | 获取或设置标题。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | override [Accept](../../aspose.note/page/accept/)(DocumentVisitor) | 接受节点的访问者。 |
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
 | [Clone](../../aspose.note/page/clone/)(bool) | 克隆页面。 |
-| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | 根据节点类型获取页面的所有子节点。 |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/page/getchildnodes/#getchildnodes_1)() | 按节点类型获取页面的所有子节点。 |
 | [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
 | [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;IPageChildNode&gt;) |  |
 | [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IPageChildNode[]) |  |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
-### 例子
+## 示例
 
-显示如何设置页面的背景颜色。
+展示如何设置页面的背景颜色。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -78,7 +78,7 @@ foreach (var page in document)
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
-显示如何获取有关页面的元信息。
+展示如何获取页面的元信息。
 
 ```csharp
 // 文档目录的路径。
@@ -98,7 +98,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-显示如何为页面设置标题。
+展示如何为页面设置标题。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -131,7 +131,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-显示如何获取页面的历史记录。
+展示如何获取页面的历史记录。
 
 ```csharp
 // 文档目录的路径。
@@ -154,17 +154,17 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-显示如何编辑页面的元信息。
+展示如何编辑页面的元信息。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子节点           
+// 加载 OneNote 文档并获取第一个子项
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// 阅读此页面的内容修订摘要
+// 读取此页面的内容修订摘要
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -179,7 +179,7 @@ pageRevisionInfo.LastModifiedTime = DateTime.Now;
 document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-显示如何遍历所有页面并在文本中进行替换。
+展示如何遍历所有页面并在文本中进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -205,11 +205,11 @@ foreach (RichText richText in textNodes)
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
-// 保存为任何支持的文件格式
+// 保存为任何受支持的文件格式
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-显示如何传递页面文本并进行替换。
+展示如何遍历页面的文本并进行替换。
 
 ```csharp
 // 文档目录的路径。
@@ -235,12 +235,51 @@ foreach (RichText richText in textNodes)
     }
 }
 
-// 保存为任何支持的文件格式
+// 保存为任何受支持的文件格式
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-显示如何使用默认选项创建文档并将其保存为 html 格式。
+展示如何添加带标签的新图像。
+
+```csharp
+// 文档目录的路径。
+string dataDir = RunExamples.GetDataDir_Tags();
+
+// 创建 Document 类的对象
+Document doc = new Document();
+
+// 初始化 Page 类对象
+Page page = new Page();
+
+// 初始化 Outline 类对象
+Outline outline = new Outline();
+
+// 初始化 OutlineElement 类对象
+OutlineElement outlineElem = new OutlineElement();
+
+// 加载图像
+Image image = new Image(dataDir + "icon.jpg");
+
+// 在文档节点中插入图像
+outlineElem.AppendChildLast(image);
+image.Tags.Add(NoteTag.CreateYellowStar());
+
+// 添加大纲元素节点
+outline.AppendChildLast(outlineElem);
+
+// 添加大纲节点
+page.AppendChildLast(outline);
+
+// 添加页面节点
+doc.AppendChildLast(page);
+
+// 保存 OneNote 文档
+dataDir = dataDir + "AddImageNodeWithTag_out.one";
+doc.Save(dataDir);
+```
+
+展示如何创建文档并使用默认选项将其保存为 HTML 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -259,51 +298,12 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// 保存成HTML格式
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-显示如何添加带有标签的新图像。
-
-```csharp
-// 文档目录的路径。
-string dataDir = RunExamples.GetDataDir_Tags();
-
-// 创建文档类的对象
-Document doc = new Document();
-
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-
-// 初始化大纲类对象
-Outline outline = new Outline();
-
-// 初始化 OutlineElement 类对象
-OutlineElement outlineElem = new OutlineElement();
-
-// 加载图像
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
-
-// 在文档节点插入图片
-outlineElem.AppendChildLast(image);
-image.Tags.Add(NoteTag.CreateYellowStar());
-
-// 添加轮廓元素节点
-outline.AppendChildLast(outlineElem);
-
-// 添加轮廓节点
-page.AppendChildLast(outline);
-
-// 添加页面节点
-doc.AppendChildLast(page);
-
-// 保存 OneNote 文档
-dataDir = dataDir + "AddImageNodeWithTag_out.one";
-doc.Save(dataDir);
-```
-
-显示如何检查页面是否为冲突页面（即它具有 OneNote 无法自动合并的更改）。
+展示如何检查页面是否为冲突页面（即它包含 OneNote 无法自动合并的更改）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
@@ -321,8 +321,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // 默认情况下，冲突页面只是在保存时被跳过。
-    // 如果将其标记为非冲突，则它将照常保存在历史记录中。
+    // 默认情况下，冲突页面在保存时会被跳过。
+    // 如果将其标记为非冲突，则它将在历史记录中像普通页面一样保存。
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -330,7 +330,38 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-显示如何创建文档并以 html 格式保存指定范围的页面。
+展示如何创建带标题页面的文档。
+
+```csharp
+// 文档目录的路径。
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// 创建 Document 类的对象
+Document doc = new Document();
+
+// 初始化 Page 类对象
+Page page = new Page();
+
+// 文档中所有文本的默认样式。
+ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+
+// 设置页面标题属性
+page.Title = new Title()
+             {
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
+             };
+
+// 在文档中追加 Page 节点
+doc.AppendChildLast(page);
+
+// 保存 OneNote 文档
+dataDir = dataDir + "CreateDocWithPageTitle_out.one";
+doc.Save(dataDir);
+```
+
+展示如何创建文档并在指定页面范围内以 HTML 格式保存。
 
 ```csharp
 // 文档目录的路径。
@@ -350,7 +381,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// 保存成HTML格式
+// 保存为 HTML 格式
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -359,48 +390,17 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-显示如何创建带标题页面的文档。
+展示如何将文档保存为不同的格式。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// 创建文档类的对象
-Document doc = new Aspose.Note.Document();
-
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
-
-// 文档中所有文本的默认样式。
-ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-
-// 设置页面标题属性
-page.Title = new Title()
-             {
-                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
-             };
-
-// 在文档中追加页面节点
-doc.AppendChildLast(page);
-
-// 保存 OneNote 文档
-dataDir = dataDir + "CreateDocWithPageTitle_out.one";
-doc.Save(dataDir);
-```
-
-显示如何以不同格式保存文档。
-
-```csharp
-// 文档目录的路径。
-string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
-
-// 初始化新文档
+// 初始化新的 Document
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // 初始化新页面
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
 // 文档中所有文本的默认样式。
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
@@ -411,10 +411,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-//追加页面节点
+// 追加页面节点
 doc.AppendChildLast(page);
 
-// 以不同格式保存 OneNote 文档，手动设置文本字体大小和检测布局变化。
+// 以不同格式保存 OneNote 文档，设置文本字体大小并手动检测布局更改。
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -423,22 +423,22 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-显示如何插入带有中文编号的新列表。
+展示如何插入带中文编号的新列表。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
 // 初始化 OneNote 文档
-Aspose.Note.Document doc = new Aspose.Note.Document();
+Document doc = new Document();
 
 // 初始化 OneNote 页面
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 Outline outline = new Outline();
 
 // 应用文本样式设置
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// 同一轮廓内的数字自动递增。
+// 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -465,18 +465,18 @@ dataDir = dataDir + "InsertChineseNumberList_out.one";
 doc.Save(dataDir);
 ```
 
-显示如何插入新的项目符号列表。
+展示如何插入新的项目符号列表。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建文档类的对象
-Aspose.Note.Document doc = new Aspose.Note.Document();
+// 创建 Document 类的对象
+Document doc = new Document();
 
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// 初始化 Page 类对象
+Page page = new Page();
 
-// 初始化大纲类对象
+// 初始化 Outline 类对象
 Outline outline = new Outline();
 
 // 初始化 TextStyle 类对象并设置格式属性
@@ -490,21 +490,21 @@ RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle 
 outlineElem1.AppendChildLast(text1);
 
 OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
-RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
+RichText text2 = new RichText(  ) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
 OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 添加轮廓元素
+// 添加大纲元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加轮廓节点
+// 添加 Outline 节点
 page.AppendChildLast(outline);
-// 添加页面节点
+// 添加 Page 节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -512,25 +512,25 @@ dataDir = dataDir + "ApplyBulletsOnText_out.one";
 doc.Save(dataDir);
 ```
 
-显示如何插入带有编号的新列表。
+展示如何插入带编号的新列表。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
-// 初始化页面类对象
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// 初始化 Page 类对象
+Page page = new Page();
 
-// 初始化大纲类对象
+// 初始化 Outline 类对象
 Outline outline = new Outline();
 
 // 初始化 TextStyle 类对象并设置格式属性
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // 初始化 OutlineElement 类对象并应用编号
-// 同一轮廓内的数字自动递增。
+// 同一大纲中的数字会自动递增。
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -543,15 +543,15 @@ OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// 添加轮廓元素
+// 添加大纲元素
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// 添加轮廓节点
+// 添加 Outline 节点
 page.AppendChildLast(outline);
 
-// 添加页面节点
+// 添加 Page 节点
 doc.AppendChildLast(page);
 
 // 保存 OneNote 文档
@@ -559,23 +559,23 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-显示如何添加带有子页面的页面。
+展示如何添加带有子页面的页面。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 创建文档类的对象
+// 创建 Document 类的对象
 Document doc = new Document();
 
 // 初始化 Page 类对象并设置其级别
-Aspose.Note.Page page1 = new Aspose.Note.Page(doc) { Level = 1 };
+Page page1 = new Page() { Level = 1 };
 
 // 初始化 Page 类对象并设置其级别
-Aspose.Note.Page page2 = new Aspose.Note.Page(doc) { Level = 2 };
+Page page2 = new Page() { Level = 2 };
 
 // 初始化 Page 类对象并设置其级别
-Aspose.Note.Page page3 = new Aspose.Note.Page(doc) { Level = 1 };
+Page page3 = new Page() { Level = 1 };
 
 /*---------- Adding nodes to first Page ----------*/
 Outline outline = new Outline();
@@ -614,11 +614,11 @@ dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
 
-### 也可以看看
+### 另请参阅
 
 * class [CompositeNode&lt;T&gt;](../compositenode-1/)
 * interface [IPageChildNode](../ipagechildnode/)
-* 命名空间 [Aspose.Note](../../aspose.note/)
-* 部件 [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 
