@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateBlueLeftArrow
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة بأيقونة BlueLeftArrow والتسمية المحددة.
+title: "NoteTag.CreateBlueLeftArrow"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlueLeftArrow والعنوان المحدد"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/notetag/createblueleftarrow/
 ---
 ## NoteTag.CreateBlueLeftArrow method
 
-إنشاء علامة ملاحظة جديدة بأيقونة BlueLeftArrow والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueLeftArrow والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateBlueLeftArrow(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

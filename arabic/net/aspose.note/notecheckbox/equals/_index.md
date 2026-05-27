@@ -1,55 +1,55 @@
 ---
-title: NoteCheckBox.Equals
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox طريقة. تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+title: "NoteCheckBox.Equals"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteCheckBox طريقة. يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي"
 type: docs
 weight: 310
 url: /ar/net/aspose.note/notecheckbox/equals/
 ---
 ## Equals(object) {#equals_1}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن . |
+| obj | Object | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Equals(NoteCheckBox) {#equals}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public bool Equals(NoteCheckBox other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| other | NoteCheckBox | الكائن . |
+| أخرى | NoteCheckBox | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,172 +1,172 @@
 ---
-title: OutlineElement.NumberList
-second_title: Aspose.Note لمرجع NET API
-description: OutlineElement ملكية. الحصول على أو تعيين النمط الخاص برأس القائمة المرقمة.
+title: "OutlineElement.NumberList"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية OutlineElement. يحصل أو يحدد النمط لرأس القائمة المرقمة"
 type: docs
-weight: 40
+weight: 60
 url: /ar/net/aspose.note/outlineelement/numberlist/
 ---
 ## OutlineElement.NumberList property
 
-الحصول على أو تعيين النمط الخاص برأس القائمة المرقمة.
+الحصول على أو تعيين النمط لرأس القائمة المرقمة.
 
 ```csharp
 public NumberList NumberList { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استرداد المعلومات حول تنسيق القائمة.
+يوضح كيفية استرجاع معلومات حول تنسيق القائمة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// استرداد عقد مجموعة لعنصر المخطط التفصيلي
+// استرجاع مجموعة العقد لعنصر المخطط.
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (OutlineElement node in nodes)
 {
     if (node.NumberList != null)
     {
         NumberList list = node.NumberList;
 
-        // استرداد اسم الخط
+        // استرجاع اسم الخط
         Console.WriteLine("Font Name: " + list.Font);
 
-        // استرداد طول الخط
+        // استرجاع طول الخط
         Console.WriteLine("Font Length: " + list.Font.Length);
 
-        // استرداد حجم الخط
+        // استرجاع حجم الخط
         Console.WriteLine("Font Size: " + list.FontSize);
 
-        // استرداد لون الخط
+        // استرجاع لون الخط
         Console.WriteLine("Font Color: " + list.FontColor);
 
-        // استرداد التنسيق
+        // استرجاع التنسيق
         Console.WriteLine("Font format: " + list.Format);
 
-        // تحقق بخط عريض
+        // التحقق من الغامق
         Console.WriteLine("Is bold: " + list.IsBold);
 
-        // تحقق من الخط المائل
+        // التحقق من المائل
         Console.WriteLine("Is italic: " + list.IsItalic);
         Console.WriteLine();
     }
 }
 ```
 
-يوضح كيفية إدراج قائمة جديدة بالترقيم الصيني.
+يعرض كيفية إدراج قائمة جديدة بترقيم صيني.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// تهيئة مستند OneNote
-Aspose.Note.Document doc = new Aspose.Note.Document();
+// تهيئة مستند OneNote.
+Document doc = new Document();
 
-// تهيئة صفحة OneNote
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة صفحة OneNote.
+Page page = new Page();
 Outline outline = new Outline();
 
-// تطبيق إعدادات نمط النص
+// تطبيق إعدادات نمط النص.
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// يتم زيادة الأرقام الموجودة في نفس المخطط تلقائيًا.
+// الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
-// ------------------------
+//------------------------
 OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
-// ------------------------
+//------------------------
 OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// ------------------------
+//------------------------
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إدراج قائمة ذات تعداد نقطي جديد.
+يعرض كيفية إدراج قائمة نقطية جديدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة المستند
-Aspose.Note.Document doc = new Aspose.Note.Document();
+// إنشاء كائن من فئة Document
+Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي
+// تهيئة كائن فئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات فئة OutlineElement وتطبيق الرموز النقطية
+// تهيئة كائنات الفئة OutlineElement وتطبيق النقاط
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
-// تهيئة كائن فئة RichText وتطبيق نمط النص
+// تهيئة كائن الفئة RichText وتطبيق نمط النص
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
 OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
-RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
+RichText text2 = new RichText(  ) { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 
 OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إدراج قائمة جديدة مع الترقيم.
+يعرض كيفية إدراج قائمة جديدة مع الترقيم.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي
+// تهيئة كائن فئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات فئة OutlineElement وتطبيق الترقيم
-// يتم زيادة الأرقام الموجودة في نفس المخطط تلقائيًا.
+// تهيئة كائنات الفئة OutlineElement وتطبيق الترقيم.
+// الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
@@ -179,27 +179,27 @@ OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList
 RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NumberList](../../numberlist/)
 * class [OutlineElement](../)
-* مساحة الاسم [Aspose.Note](../../outlineelement/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outlineelement/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateBlueXNo
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. يقوم بإنشاء علامة ملاحظة جديدة مع رمز BlueXNo والتسمية المحددة.
+title: "NoteTag.CreateBlueXNo"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة BlueXNo والملصق المحدد"
 type: docs
 weight: 220
 url: /ar/net/aspose.note/notetag/createbluexno/
 ---
 ## NoteTag.CreateBlueXNo method
 
-يقوم بإنشاء علامة ملاحظة جديدة مع رمز BlueXNo والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueXNo والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateBlueXNo(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

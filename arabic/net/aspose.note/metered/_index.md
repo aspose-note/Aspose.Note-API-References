@@ -1,37 +1,37 @@
 ---
-title: Class Metered
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Metered فصل. يوفر طرقًا لتعيين المفتاح المقنن .
+title: "الفئة Metered"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Metered. توفر طرقًا لتعيين المفتاح القابل للقياس"
 type: docs
-weight: 350
+weight: 420
 url: /ar/net/aspose.note/metered/
 ---
 ## Metered class
 
-يوفر طرقًا لتعيين المفتاح المقنن .
+يوفر أساليب لتعيين المفتاح المقيس.
 
 ```csharp
 public class Metered
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Metered](metered/)() | Default_Constructor |
+| [Metered](metered/)() | البناء الافتراضي. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | يزيل ترخيص الإعداد السابق . |
-| [SetMeteredKey](../../aspose.note/metered/setmeteredkey/)(string, string) | مجموعات المفاتيح العامة والخاصة التي تم قياسها. |
-| static [GetConsumptionCredit](../../aspose.note/metered/getconsumptioncredit/)() | يحصل على ائتمان الاستهلاك. |
-| static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity/)() | الحصول على حجم ملف الاستهلاك. |
+| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | يزيل الترخيص المُعد مسبقًا. |
+| [SetMeteredKey](../../aspose.note/metered/setmeteredkey/)(string, string) | يضبط المفاتيح العامة والخاصة القابلة للقياس. |
+| static [GetConsumptionCredit](../../aspose.note/metered/getconsumptioncredit/)() | يحصل على رصيد الاستهلاك. |
+| static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity/)() | يحصل على حجم ملف الاستهلاك. |
 
-### أمثلة
+## أمثلة
 
-في هذا المثال ، ستُبذل محاولة لتعيين المفتاح العام والخاص المحسوب
+في هذا المثال، سيتم محاولة تعيين المفتاح العام والخاص القابل للقياس.
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-يوضح كيفية تعيين الترخيص المقنن.
+يوضح كيفية تعيين الترخيص القابل للقياس.
 
 ```csharp
 Metered metered = new Metered();
@@ -58,7 +58,7 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
@@ -67,9 +67,9 @@ Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

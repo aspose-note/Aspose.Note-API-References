@@ -1,9 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.SaveOptions فصل. فئة أساسية مجردة تمثل خيارات حفظ المستند لتنسيق معين.
+title: "الفئة SaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.SaveOptions. فئة أساسية مجردة تمثل خيارات حفظ المستند لتنسيق معين"
 type: docs
-weight: 870
+weight: 950
 url: /ar/net/aspose.note.saving/saveoptions/
 ---
 ## SaveOptions class
@@ -16,16 +16,16 @@ public abstract class SaveOptions
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | الحصول على أو تعيين إعدادات الخط لاستخدامها أثناء الحفظ |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند. |
-| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | الحصول على أو تحديد فهرس الصفحة الأولى للحفظ. بشكل افتراضي هو 0. |
-| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على التنسيق الذي تم حفظ المستند به. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند. |
+| [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0. |
+| [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها المستند. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

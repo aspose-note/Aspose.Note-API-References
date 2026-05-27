@@ -1,28 +1,28 @@
 ---
-title: CheckBox.Status
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox ملكية. الحصول على الحالة أو تعيينها .
+title: "CheckBox.Status"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية CheckBox. تحصل أو تعين الحالة"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/checkbox/status/
 ---
 ## CheckBox.Status property
 
-الحصول على الحالة أو تعيينها .
+يحصل أو يعيّن الحالة.
 
 ```csharp
 public TagStatus Status { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف[`TagStatus`](../../tagstatus/) .
+الـ [`TagStatus`](../../tagstatus/).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TagStatus](../../tagstatus/)
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Margins.Empty
-second_title: Aspose.Note لمرجع NET API
-description: Margins مجال. هوامش فارغة .
+title: "Margins.Empty"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "حقل Margins. الهوامش الفارغة"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/margins/empty/
 ---
 ## Margins.Empty field
 
-هوامش فارغة .
+الهوامش الفارغة.
 
 ```csharp
 public static readonly Margins Empty;
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Margins](../)
-* مساحة الاسم [Aspose.Note](../../margins/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../margins/)
+* assembly [Aspose.Note](../../../)
 
 

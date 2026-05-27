@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateCalendarDateWithClock
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع أيقونة CalendarDateWithClock والتسمية المحددة.
+title: "NoteTag.CreateCalendarDateWithClock"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز CalendarDateWithClock والعنوان المحدد"
 type: docs
 weight: 240
 url: /ar/net/aspose.note/notetag/createcalendardatewithclock/
 ---
 ## NoteTag.CreateCalendarDateWithClock method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة CalendarDateWithClock والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة CalendarDateWithClock والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateCalendarDateWithClock(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

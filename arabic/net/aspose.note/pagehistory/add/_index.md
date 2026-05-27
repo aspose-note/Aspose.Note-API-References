@@ -1,28 +1,28 @@
 ---
-title: PageHistory.Add
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. يضيف إصدار الصفحة إلى نهاية ملفPageHistory .
+title: "PageHistory.Add"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. تُضيف إصدار الصفحة إلى نهاية PageHistory."
 type: docs
 weight: 60
 url: /ar/net/aspose.note/pagehistory/add/
 ---
 ## PageHistory.Add method
 
-يضيف إصدار الصفحة إلى نهاية ملف[`PageHistory`](../) .
+تُضيف إصدار الصفحة إلى نهاية [`PageHistory`](../).
 
 ```csharp
 public void Add(Page item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| item | Page | إصدار الصفحة. |
+| عنصر | Page | إصدار الصفحة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

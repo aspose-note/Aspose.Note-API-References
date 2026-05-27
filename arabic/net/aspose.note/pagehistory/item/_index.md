@@ -1,32 +1,32 @@
 ---
-title: PageHistory.Item
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory ملكية. الحصول على أو تحديد إصدار الصفحة في الفهرس المحدد لملفPageHistory .
+title: "PageHistory.Item"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PageHistory. تحصل أو تعيّن إصدار الصفحة عند الفهرس المحدد لـ PageHistory"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/pagehistory/item/
 ---
 ## PageHistory indexer
 
-الحصول على أو تحديد إصدار الصفحة في الفهرس المحدد لملف[`PageHistory`](../) .
+تحصل أو تعيّن إصدار الصفحة عند الفهرس المحدد لـ [`PageHistory`](../).
 
 ```csharp
 public Page this[int index] { get; set; }
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| index | الفهرس . |
+| الفهرس | الفهرس. |
 
 ### قيمة الإرجاع
 
 إصدار الصفحة.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

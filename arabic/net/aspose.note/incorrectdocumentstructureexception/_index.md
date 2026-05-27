@@ -1,22 +1,22 @@
 ---
-title: Class IncorrectDocumentStructureException
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.IncorrectDocumentStructureException فصل. يتم إلقاؤه إذا كان المستند الذي أنشأه المستخدم به بنية غير صحيحة.
+title: "الفئة IncorrectDocumentStructureException"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.IncorrectDocumentStructureException. يتم إلقاؤها إذا كان المستند الذي أنشأه المستخدم يحتوي على بنية غير صحيحة"
 type: docs
-weight: 280
+weight: 300
 url: /ar/net/aspose.note/incorrectdocumentstructureexception/
 ---
 ## IncorrectDocumentStructureException class
 
-يتم إلقاؤه إذا كان المستند الذي أنشأه المستخدم به بنية غير صحيحة.
+يُرمى إذا كان للمستند الذي أنشأه المستخدم بنية غير صحيحة.
 
 ```csharp
 public class IncorrectDocumentStructureException : Exception
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: Image.Accept
-second_title: Aspose.Note لمرجع NET API
-description: Image طريقة. يقبل زائر العقدة .
+title: "Image.Accept"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Image. تقبل زائر العقدة"
 type: docs
 weight: 190
 url: /ar/net/aspose.note/image/accept/
 ---
 ## Image.Accept method
 
-يقبل زائر العقدة .
+يقبل زائر العقدة.
 
 ```csharp
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | كائن فئة مشتقة من[`DocumentVisitor`](../../documentvisitor/) . |
+| visitor | DocumentVisitor | الكائن من فئة مشتقة من [`DocumentVisitor`](../../documentvisitor/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

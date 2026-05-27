@@ -1,40 +1,40 @@
 ---
-title: Enum BinarizationMethod
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.BinarizationMethod تعداد. يحدد طريقة التحويل الثنائي للصورة.
+title: "تعداد BinarizationMethod"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "تعداد Aspose.Note.Saving.BinarizationMethod. يحدد طريقة التثنث لصورة"
 type: docs
-weight: 560
+weight: 640
 url: /ar/net/aspose.note.saving/binarizationmethod/
 ---
 ## BinarizationMethod enumeration
 
-يحدد طريقة التحويل الثنائي للصورة.
+يحدد طريقة التثنائي للصورة.
 
 ```csharp
 public enum BinarizationMethod
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| FixedThreshold | `0` | يتم تنفيذ التحويل الثنائي للصورة باستخدام حد ثابت محدد. |
-| Otsu | `1` | يتم تنفيذ التحويل الثنائي للصورة بشكل تكيفي باستخدام طريقة Otsu لتقييم العتبة. |
+| FixedThreshold | `0` | يتم تنفيذ تثنث الصورة باستخدام العتبة الثابتة المحددة. |
+| Otsu | `1` | يتم تنفيذ تثنث الصورة بشكل تكيفي باستخدام طريقة أوتسو لتقييم العتبة. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام طريقة Otsu.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -45,18 +45,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام عتبة ثابتة.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -68,9 +68,9 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

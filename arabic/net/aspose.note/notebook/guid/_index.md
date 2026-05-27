@@ -1,27 +1,27 @@
 ---
-title: Notebook.Guid
-second_title: Aspose.Note لمرجع NET API
-description: Notebook ملكية. يحصل على معرف الكائن الفريد عالميًا .
+title: "Notebook.Guid"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Notebook. تحصل على المعرف الفريد عالميًا للكائن"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/notebook/guid/
 ---
 ## Notebook.Guid property
 
-يحصل على معرف الكائن الفريد عالميًا .
+يحصل على المعرف الفريد عالميًا للكائن.
 
 ```csharp
 public Guid Guid { get; }
 ```
 
-### Property_Value
+### Property Value
 
-GUID.
+المعرف الفريد (GUID).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

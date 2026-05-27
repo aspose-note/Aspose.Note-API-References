@@ -1,47 +1,47 @@
 ---
-title: Class KeepSolidObjectsAlgorithm
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.KeepSolidObjectsAlgorithm فصل. ينقل الكائن بالكامل إلى الصفحة التالية في حالة عدم احتوائه في الصفحة الأصلية.
+title: "الفئة KeepSolidObjectsAlgorithm"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.KeepSolidObjectsAlgorithm. ينقل الكائن الكامل إلى الصفحة التالية في حال عدم تناسبه مع الصفحة الأصلية"
 type: docs
-weight: 740
+weight: 820
 url: /ar/net/aspose.note.saving/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm class
 
-ينقل الكائن بالكامل إلى الصفحة التالية في حالة عدم احتوائه في الصفحة الأصلية.
+ينقل الكائن بالكامل إلى الصفحة التالية في حال لم يتناسب مع الصفحة الأصلية.
 
 ```csharp
 public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm/#constructor)() | يقوم بتهيئة مثيل جديد لملف`KeepSolidObjectsAlgorithm` فئة تستخدم حد الارتفاع الافتراضي للجزء المستنسخ. |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm/#constructor_1)(float) | يقوم بتهيئة مثيل جديد لملف`KeepSolidObjectsAlgorithm` فئة باستخدام حد ارتفاع معين للجزء المستنسخ. |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm/#constructor)() | ينشئ مثيلًا جديدًا للفئة `KeepSolidObjectsAlgorithm` باستخدام الحد الافتراضي للارتفاع للجزء المستنسخ. |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm/#constructor_1)(float) | ينشئ مثيلًا جديدًا للفئة `KeepSolidObjectsAlgorithm` باستخدام حد ارتفاع محدد للجزء المستنسخ. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [HeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/heightlimitofclonedpart/) { get; } | يحصل على حد ارتفاع الجزء المستنسخ. |
+| [HeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/heightlimitofclonedpart/) { get; } | يحصل على حد الارتفاع للجزء المستنسخ. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | const [DefaultHeightLimitOfClonedPart](../../aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart/) | الحجم الأقصى الافتراضي للجزء المستنسخ. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر الملاحظات بتنسيق pdf بخيارات محددة.
+يوضح كيفية حفظ الدفتر بتنسيق pdf مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -52,11 +52,11 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية إرسال المستند إلى الطابعة باستخدام مربع حوار Windows القياسي مع خيارات محددة.
+يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -77,13 +77,13 @@ document.Print(new PrintOptions()
                });
 ```
 
-عندما يتم حفظ صفحات OneNote الطويلة بتنسيق pdf ، يتم تقسيمها عبر الصفحات. يوضح المثال كيفية تكوين منطق تقسيم الكائنات الموجودة في فواصل الصفحة.
+عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
@@ -105,10 +105,10 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSplittingAlgorithm](../pagesplittingalgorithm/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PageHistory.Count
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory ملكية. يحصل على عدد إصدارات الصفحة في محفوظات الصفحة.
+title: "PageHistory.Count"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PageHistory. تُعيد عدد إصدارات الصفحة في تاريخ الصفحة."
 type: docs
 weight: 20
 url: /ar/net/aspose.note/pagehistory/count/
 ---
 ## PageHistory.Count property
 
-يحصل على عدد إصدارات الصفحة في محفوظات الصفحة.
+يحصل على عدد إصدارات الصفحة في تاريخ الصفحة.
 
 ```csharp
 public int Count { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

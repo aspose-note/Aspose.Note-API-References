@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateLaptop
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز الكمبيوتر المحمول والتسمية المحددة.
+title: "NoteTag.CreateLaptop"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة Laptop والملصق المحدد"
 type: docs
 weight: 600
 url: /ar/net/aspose.note/notetag/createlaptop/
 ---
 ## NoteTag.CreateLaptop method
 
-إنشاء علامة ملاحظة جديدة مع رمز الكمبيوتر المحمول والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة Laptop وملصق محدد.
 
 ```csharp
 public static NoteTag CreateLaptop(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

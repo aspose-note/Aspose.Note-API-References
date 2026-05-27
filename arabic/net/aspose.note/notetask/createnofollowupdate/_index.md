@@ -1,14 +1,14 @@
 ---
-title: NoteTask.CreateNoFollowUpDate
-second_title: Aspose.Note لمرجع NET API
-description: NoteTask طريقة. ينشئ مهمة ملاحظة جديدة برمز NoFollowUpDateFlag .
+title: "NoteTask.CreateNoFollowUpDate"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTask. تنشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/notetask/createnofollowupdate/
 ---
 ## NoteTask.CreateNoFollowUpDate method
 
-ينشئ مهمة ملاحظة جديدة برمز NoFollowUpDateFlag .
+ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag.
 
 ```csharp
 public static NoteTask CreateNoFollowUpDate()
@@ -16,12 +16,12 @@ public static NoteTask CreateNoFollowUpDate()
 
 ### قيمة الإرجاع
 
-ملف[`NoteTask`](../) .
+الـ [`NoteTask`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTask](../)
-* مساحة الاسم [Aspose.Note](../../notetask/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

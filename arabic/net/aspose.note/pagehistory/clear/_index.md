@@ -1,23 +1,23 @@
 ---
-title: PageHistory.Clear
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. يمسح محفوظات الصفحة.
+title: "PageHistory.Clear"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. تُمسح تاريخ الصفحة."
 type: docs
 weight: 80
 url: /ar/net/aspose.note/pagehistory/clear/
 ---
 ## PageHistory.Clear method
 
-يمسح محفوظات الصفحة.
+يمسح سجل الصفحات.
 
 ```csharp
 public void Clear()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

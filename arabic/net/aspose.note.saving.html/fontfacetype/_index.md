@@ -1,32 +1,32 @@
 ---
-title: Enum FontFaceType
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.Html.FontFaceType تعداد. تعداد أنواع وجه الخط
+title: "التعداد FontFaceType"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "التعداد Aspose.Note.Saving.Html.FontFaceType. يعدد أنواع واجهات الخط."
 type: docs
-weight: 590
+weight: 670
 url: /ar/net/aspose.note.saving.html/fontfacetype/
 ---
 ## FontFaceType enumeration
 
-تعداد أنواع وجه الخط
+يسرد أنواع خطوط الوجه
 
 ```csharp
 [Flags]
 public enum FontFaceType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| NotSpecified | `0` | نوع الخط ليس spefied |
-| Ttf | `1` | النوع الحقيقي fot |
-| Eot | `2` | الخط eot |
-| Woff | `4` | الخط woff |
+| NotSpecified | `0` | نوع الخط غير محدد |
+| Ttf | `1` | الخط TrueType |
+| Eot | `2` | الخط EOT |
+| Woff | `4` | الخط WOFF |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

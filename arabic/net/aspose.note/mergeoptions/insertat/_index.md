@@ -1,14 +1,14 @@
 ---
-title: MergeOptions.InsertAt
-second_title: Aspose.Note لمرجع NET API
-description: MergeOptions ملكية. الحصول على أو تحديد الموضع الذي سيتم فيه إدراج الصفحات المستوردة.
+title: "MergeOptions.InsertAt"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية MergeOptions. تحصل أو تعين الموضع الذي سيتم فيه إدراج الصفحات المستوردة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/mergeoptions/insertat/
 ---
 ## MergeOptions.InsertAt property
 
-الحصول على أو تحديد الموضع الذي سيتم فيه إدراج الصفحات المستوردة.
+يحصل أو يعيّن الموضع الذي ستُدرج فيه الصفحات المستوردة.
 
 ```csharp
 public int InsertAt { get; set; }
@@ -16,17 +16,17 @@ public int InsertAt { get; set; }
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### ملاحظات
+## ملاحظات
 
-إذا كانت القيمة أكبر من عدد الصفحات في المستند الهدف ، فسيتم إضافة الصفحات المستوردة إلى نهاية المستند.
+إذا كانت القيمة أكبر من عدد الصفحات في المستند الهدف، فستُضاف الصفحات المستوردة إلى نهاية المستند.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مجموعة مستندات PDF أثناء إدراج الصفحات من كل مستند PDF كأطفال لصفحة OneNote ذات المستوى الأعلى.
+يعرض كيفية استيراد جميع الصفحات من مجموعة مستندات PDF مع إدراج صفحات كل مستند PDF كأطفال لصفحة OneNote المستوى الأعلى.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -42,10 +42,10 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [MergeOptions](../)
-* مساحة الاسم [Aspose.Note](../../mergeoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../mergeoptions/)
+* assembly [Aspose.Note](../../../)
 
 

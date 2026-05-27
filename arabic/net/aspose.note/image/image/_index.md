@@ -1,66 +1,86 @@
 ---
-title: Image.Image
-second_title: Aspose.Note لمرجع NET API
-description: Image البناء. يقوم بتهيئة مثيل جديد لملفImage فئة .
+title: "Image.Image"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ Image. يهيئ نسخة جديدة من الفئة Image"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/image/image/
 ---
-## Image(string, string, string) {#constructor_5}
+## Image(string) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Image`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`Image`](../).
 
 ```csharp
-public Image(string path, string altTitle = null, string altDescription = null)
+public Image(string path)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | سلسلة تحتوي على مسار الملف الذي سيتم إنشاء ملف[`Image`](../) . |
-| altTitle | String | العنوان البديل . |
-| altDescription | String | الوصف البديل . |
+| path | String | سلسلة نصية تحتوي على المسار إلى الملف الذي يتم إنشاء [`Image`](../) منه. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
-## Image(string, Stream) {#constructor_4}
+## Image(string, string, string) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Image`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`Image`](../).
+
+```csharp
+public Image(string path, string altTitle, string altDescription = null)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| path | String | سلسلة نصية تحتوي على المسار إلى الملف الذي يتم إنشاء [`Image`](../) منه. |
+| altTitle | String | العنوان البديل. |
+| altDescription | String | الوصف البديل. |
+
+### انظر أيضًا
+
+* class [Image](../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## Image(string, Stream) {#constructor_2}
+
+يهيئ نسخة جديدة من الفئة [`Image`](../).
 
 ```csharp
 public Image(string fileName, Stream imageStream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | fileName | String | اسم الصورة. |
-| imageStream | Stream | تيار يحتوي على الصورة. |
+| imageStream | Stream | دفق يحتوي على الصورة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Image() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Image`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`Image`](../).
 
 ```csharp
 public Image()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

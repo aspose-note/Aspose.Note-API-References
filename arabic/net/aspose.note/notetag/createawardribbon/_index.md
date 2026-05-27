@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateAwardRibbon
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز AwardRibbon والتسمية المحددة.
+title: "NoteTag.CreateAwardRibbon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة AwardRibbon والملصق المحدد"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/notetag/createawardribbon/
 ---
 ## NoteTag.CreateAwardRibbon method
 
-إنشاء علامة ملاحظة جديدة مع رمز AwardRibbon والتسمية المحددة.
+ينشئ علامة ملاحظة جديدة بأيقونة AwardRibbon والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateAwardRibbon(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

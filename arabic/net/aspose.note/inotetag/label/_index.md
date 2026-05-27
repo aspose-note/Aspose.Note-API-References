@@ -1,23 +1,23 @@
 ---
-title: INoteTag.Label
-second_title: Aspose.Note لمرجع NET API
-description: INoteTag ملكية. الحصول على نص التسمية أو تعيينه.
+title: "INoteTag.Label"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية INoteTag. يحصل أو يضبط نص التسمية"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/inotetag/label/
 ---
 ## INoteTag.Label property
 
-الحصول على نص التسمية أو تعيينه.
+يحصل أو يضبط نص التسمية.
 
 ```csharp
 public string Label { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INoteTag](../)
-* مساحة الاسم [Aspose.Note](../../inotetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inotetag/)
+* assembly [Aspose.Note](../../../)
 
 

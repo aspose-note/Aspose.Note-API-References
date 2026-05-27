@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateYellowSun
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة بأيقونة YellowSun والتسمية المحددة.
+title: "NoteTag.CreateYellowSun"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowSun والعنوان المحدد"
 type: docs
 weight: 1060
 url: /ar/net/aspose.note/notetag/createyellowsun/
 ---
 ## NoteTag.CreateYellowSun method
 
-إنشاء علامة ملاحظة جديدة بأيقونة YellowSun والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowSun والعلامة المحددة.
 
 ```csharp
 public static NoteTag CreateYellowSun(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

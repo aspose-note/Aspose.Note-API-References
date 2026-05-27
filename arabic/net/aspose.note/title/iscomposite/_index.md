@@ -1,23 +1,23 @@
 ---
-title: Title.IsComposite
-second_title: Aspose.Note لمرجع NET API
-description: Title ملكية. يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا  يمكن أن تحتوي العقدة على عقد فرعية.
+title: "Title.IsComposite"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Title. تحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كانت true يمكن للعقدة أن تحتوي على عقد فرعية"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/title/iscomposite/
 ---
 ## Title.IsComposite property
 
-يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية.
+يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كانت true يمكن للعقدة أن تحتوي على عقد فرعية.
 
 ```csharp
 public override bool IsComposite { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../)
-* مساحة الاسم [Aspose.Note](../../title/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../title/)
+* assembly [Aspose.Note](../../../)
 
 

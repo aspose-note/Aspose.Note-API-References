@@ -1,23 +1,23 @@
 ---
-title: RichText.SpaceBefore
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. الحصول على أو تعيين الحد الأدنى من المساحة قبل .
+title: "RichText.SpaceBefore"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. يحصل أو يضبط الحد الأدنى للمسافة قبل"
 type: docs
-weight: 80
+weight: 110
 url: /ar/net/aspose.note/richtext/spacebefore/
 ---
 ## RichText.SpaceBefore property
 
-الحصول على أو تعيين الحد الأدنى من المساحة قبل .
+يحصل أو يضبط الحد الأدنى للمسافة قبل.
 
 ```csharp
 public float? SpaceBefore { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

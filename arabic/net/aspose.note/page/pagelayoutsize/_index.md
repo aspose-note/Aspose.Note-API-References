@@ -1,27 +1,27 @@
 ---
-title: Page.PageLayoutSize
-second_title: Aspose.Note لمرجع NET API
-description: Page ملكية. الحصول على أو تعيين حجم تخطيط الصفحة المعروض في المحرر.
+title: "Page.PageLayoutSize"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Page. تحصل أو تعين حجم تخطيط الصفحات المعروض في المحرر"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/page/pagelayoutsize/
 ---
 ## Page.PageLayoutSize property
 
-الحصول على أو تعيين حجم تخطيط الصفحة المعروض في المحرر.
+يحصل أو يضبط حجم تخطيط الصفحة المعروض في المحرر.
 
 ```csharp
 public SizeF PageLayoutSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-يتم استخدام هذه القيمة بواسطة تطبيق Microsoft OneNote لعرض تخطيط الصفحة الأساسي عند فتح المستند . لا تؤثر هذه القيمة على طباعة المستند وحفظه على أي حال . عند تعيين خاصية PageSizeType إلى PageSizeType. من المحتوى .
+يتم استخدام هذه القيمة بواسطة تطبيق Microsoft OneNote لعرض تخطيط الصفحة الأساسي عند فتح المستند. لا تؤثر على الطباعة وحفظ المستند على أي حال. عندما يتم تعيين خاصية Page.SizeType إلى PageSizeType.SizeByContent، تُعيد هذه الخاصية الحجم الحقيقي للمحتوى.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

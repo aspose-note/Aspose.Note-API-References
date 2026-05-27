@@ -1,24 +1,24 @@
 ---
-title: RichText.TextRuns
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. يحصل على مجموعة من تشغيلات النص.
+title: "RichText.TextRuns"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. تحصل على مجموعة مقاطع النص."
 type: docs
-weight: 110
+weight: 140
 url: /ar/net/aspose.note/richtext/textruns/
 ---
 ## RichText.TextRuns property
 
-يحصل على مجموعة من تشغيلات النص.
+يحصل على مجموعة تشغيل النص.
 
 ```csharp
 public IEnumerable<TextRun> TextRuns { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextRun](../../textrun/)
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

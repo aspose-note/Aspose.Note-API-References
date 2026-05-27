@@ -1,30 +1,30 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.HorizontalAlignment تعداد. يحدد المحاذاة .
+title: "التعداد HorizontalAlignment"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "التعداد Aspose.Note.HorizontalAlignment. يحدد المحاذاة"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-يحدد المحاذاة .
+يحدد المحاذاة.
 
 ```csharp
 public enum HorizontalAlignment
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Left | `0` | يتم محاذاة النص إلى اليسار. |
-| Center | `1` | يتم توسيط النص. |
-| Right | `2` | يتم محاذاة النص إلى اليمين. |
+| Left | `0` | النص محاذى إلى اليسار. |
+| Center | `1` | النص في الوسط. |
+| Right | `2` | النص محاذى إلى اليمين. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

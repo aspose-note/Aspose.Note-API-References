@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.AlternativeTextDescription
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على نص بديل لأيقونة الملف المرفق أو تعيينه.
+title: "AttachedFile.AlternativeTextDescription"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل أو يضبط نصًا بديلًا للجسم لأيقونة الملف المرفق"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/attachedfile/alternativetextdescription/
 ---
 ## AttachedFile.AlternativeTextDescription property
 
-الحصول على نص بديل لأيقونة الملف المرفق أو تعيينه.
+يحصل أو يعيّن نصًا بديلًا للجسم لأيقونة الملف المرفق.
 
 ```csharp
 public string AlternativeTextDescription { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,12 +1,12 @@
 ---
-title: Document.Import
-second_title: Aspose.Note لمرجع NET API
-description: Document طريقة. يستورد مجموعة من الصفحات من مستند PDF المقدم.
+title: "Document.Import"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Document. تستورد مجموعة من الصفحات من مستند PDF المقدم"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/document/import/
 ---
-## Import(Stream, PdfImportOptions, MergeOptions) {#import}
+## Import(Stream, PdfImportOptions, MergeOptions) {#import_1}
 
 يستورد مجموعة من الصفحات من مستند PDF المقدم.
 
@@ -15,27 +15,27 @@ public Document Import(Stream stream, PdfImportOptions importOptions = null,
     MergeOptions mergeOptions = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق مع مستند PDF . |
-| importOptions | PdfImportOptions | يحدد الخيارات كيفية استيراد الصفحات من مستند PDF. |
-| mergeOptions | MergeOptions | يحدد الخيارات الخاصة بكيفية دمج الصفحات المتوفرة. |
+| دفق | Stream | تدفق يحتوي على مستند PDF. |
+| importOptions | PdfImportOptions | يحدد الخيارات التي يتم من خلالها استيراد الصفحات من مستند PDF. |
+| mergeOptions | MergeOptions | يحدد الخيارات التي يتم من خلالها دمج الصفحات المقدمة. |
 
 ### قيمة الإرجاع
 
-إرجاع المرجع إلى المستند.
+يعيد المرجع إلى المستند.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PdfImportOptions](../../../aspose.note.importing/pdfimportoptions/)
 * class [MergeOptions](../../mergeoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
-## Import(string, PdfImportOptions, MergeOptions) {#import_1}
+## Import(string, PdfImportOptions, MergeOptions) {#import_3}
 
 يستورد مجموعة من الصفحات من مستند PDF المقدم.
 
@@ -44,19 +44,19 @@ public Document Import(string file, PdfImportOptions importOptions = null,
     MergeOptions mergeOptions = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| file | String | ملف به مستند PDF . |
-| importOptions | PdfImportOptions | يحدد الخيارات كيفية استيراد الصفحات من مستند PDF. |
-| mergeOptions | MergeOptions | يحدد الخيارات الخاصة بكيفية دمج الصفحات المتوفرة. |
+| ملف | String | ملف يحتوي على مستند PDF. |
+| importOptions | PdfImportOptions | يحدد الخيارات التي يتم من خلالها استيراد الصفحات من مستند PDF. |
+| mergeOptions | MergeOptions | يحدد الخيارات التي يتم من خلالها دمج الصفحات المقدمة. |
 
 ### قيمة الإرجاع
 
-إرجاع المرجع إلى المستند.
+يعيد المرجع إلى المستند.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مجموعة مستندات PDF صفحة بصفحة.
+يوضح كيفية استيراد جميع الصفحات من مجموعة من مستندات PDF صفحةً بصفحة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -70,7 +70,22 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"))
 d.Save(Path.Combine(dataDir, "sample_SimpleMerge.one"));
 ```
 
-يوضح كيفية استيراد كل الصفحات من مجموعة مستندات PDF أثناء إدراج الصفحات من كل مستند PDF كأطفال لصفحة OneNote ذات المستوى الأعلى.
+يوضح كيفية استيراد ملف PDF إلى مستند OneNote.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Pdf();
+
+// حدد المسارات
+var pdfFilePath = Path.Combine(dataDir, "sample.pdf");
+var oneFilePath = Path.Combine(dataDir, "output.one");
+
+// استيراد PDF إلى OneNote
+var document = new Document();
+document.Import(pdfFilePath);
+document.Save(oneFilePath);
+```
+
+يعرض كيفية استيراد جميع الصفحات من مجموعة مستندات PDF مع إدراج صفحات كل مستند PDF كأطفال لصفحة OneNote المستوى الأعلى.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -86,7 +101,7 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-يوضح كيفية استيراد كل المحتوى من مجموعة مستندات PDF أثناء دمج الصفحات من كل مستند PDF إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع المحتويات من مجموعة مستندات PDF مع دمج صفحات كل مستند PDF إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -103,12 +118,106 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PdfImportOptions](../../../aspose.note.importing/pdfimportoptions/)
 * class [MergeOptions](../../mergeoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## Import(Stream, HtmlImportOptions, MergeOptions) {#import}
+
+يستورد مجموعة من الصفحات من مستند HTML المقدم.
+
+```csharp
+public Document Import(Stream stream, HtmlImportOptions importOptions, 
+    MergeOptions mergeOptions = null)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| دفق | Stream | تدفق يحتوي على مستند HTML. |
+| importOptions | HtmlImportOptions | يحدد الخيارات التي يتم من خلالها استيراد الصفحات من مستند HTML. |
+| mergeOptions | MergeOptions | يحدد الخيارات التي يتم من خلالها دمج الصفحات المقدمة. |
+
+### قيمة الإرجاع
+
+يعيد المرجع إلى المستند.
+
+### انظر أيضًا
+
+* class [HtmlImportOptions](../../../aspose.note.importing/htmlimportoptions/)
+* class [MergeOptions](../../mergeoptions/)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## Import(string, HtmlImportOptions, MergeOptions) {#import_2}
+
+يستورد مجموعة من الصفحات من مستند HTML المقدم.
+
+```csharp
+public Document Import(string file, HtmlImportOptions importOptions, 
+    MergeOptions mergeOptions = null)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| ملف | String | ملف يحتوي على مستند HTML. |
+| importOptions | HtmlImportOptions | يحدد الخيارات التي يتم من خلالها استيراد الصفحات من مستند HTML. |
+| mergeOptions | MergeOptions | يحدد الخيارات التي يتم من خلالها دمج الصفحات المقدمة. |
+
+### قيمة الإرجاع
+
+يعيد المرجع إلى المستند.
+
+## أمثلة
+
+يوضح كيفية استيراد ملف HTML إلى مستند OneNote.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Html();
+
+var htmlFilePath = Path.Combine(dataDir, "sample.html");
+var oneFilePath = Path.Combine(dataDir, "output.one");
+
+// استيراد HTML إلى OneNote
+var doc = new Document();
+doc.Import(htmlFilePath, new HtmlImportOptions());
+doc.Save(oneFilePath);
+```
+
+يظهر كيفية استيراد ملف Markdown إلى مستند OneNote.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Markdown();
+
+var mdFilePath = Path.Combine(dataDir, "sample.md");
+var htmlFilePath = Path.Combine(dataDir, "temp.html");
+var oneFilePath = Path.Combine(dataDir, "output.one");
+
+// تحويل Markdown إلى HTML
+Converter.ConvertMarkdown(mdFilePath, htmlFilePath);
+
+// استيراد HTML إلى OneNote
+var document = new Document();
+document.Import(htmlFilePath, new HtmlImportOptions());
+document.Save(oneFilePath);
+
+Console.WriteLine("\nMarkdown document imported into OneNote successfully.");
+```
+
+### انظر أيضًا
+
+* class [HtmlImportOptions](../../../aspose.note.importing/htmlimportoptions/)
+* class [MergeOptions](../../mergeoptions/)
+* class [Document](../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

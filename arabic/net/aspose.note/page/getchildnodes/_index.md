@@ -1,7 +1,7 @@
 ---
-title: Page.GetChildNodes
-second_title: Aspose.Note لمرجع NET API
-description: Page طريقة. احصل على جميع العقد الفرعية للصفحة حسب نوع العقدة.
+title: "Page.GetChildNodes"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Page. احصل على جميع العقد الفرعية للصفحة حسب نوع العقدة"
 type: docs
 weight: 150
 url: /ar/net/aspose.note/page/getchildnodes/
@@ -15,15 +15,15 @@ public override List<T1> GetChildNodes<T1>()
     where T1 : class, INode
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| T1 | نوع العناصر في القائمة التي تم إرجاعها. |
+| T1 | نوع العناصر في القائمة المعادة. |
 
 ### قيمة الإرجاع
 
-قائمة بالعقد الفرعية.
+قائمة من العقد الفرعية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على كل النص من المستند.
 
@@ -31,10 +31,10 @@ public override List<T1> GetChildNodes<T1>()
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// استرداد النص
+// استرجاع النص
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
 
 // طباعة النص على شاشة الإخراج
@@ -47,7 +47,7 @@ Console.WriteLine(text);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // احصل على قائمة بعقد الصفحة
@@ -55,14 +55,14 @@ var page = oneFile.GetChildNodes<Page>().FirstOrDefault();
 
 if (page != null)
 {
-    // استرداد النص
+    // استرجاع النص
     string text = string.Join(Environment.NewLine, page.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
     // طباعة النص على شاشة الإخراج
     Console.WriteLine(text);
 }
 ```
 
-يوضح كيفية المرور عبر جميع الصفحات واستبدالها في النص.
+يوضح كيفية المرور عبر جميع الصفحات وإجراء استبدال في النص.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -71,7 +71,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("Some task here", "New Text Here");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // احصل على جميع عقد RichText
@@ -88,11 +88,11 @@ foreach (RichText richText in textNodes)
 
 dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 
-// حفظ بأي تنسيق ملف مدعوم
+// احفظ بأي تنسيق ملف مدعوم
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-يوضح كيفية تمرير نص الصفحة واستبداله.
+يوضح كيفية المرور عبر نص الصفحة وإجراء استبدال.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -101,7 +101,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("voice over", "voice over new text");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 IList<Page> pageNodes = oneFile.GetChildNodes<Page>();
@@ -118,16 +118,16 @@ foreach (RichText richText in textNodes)
     }
 }
 
-// حفظ بأي تنسيق ملف مدعوم
+// احفظ بأي تنسيق ملف مدعوم
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INode](../../inode/)
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

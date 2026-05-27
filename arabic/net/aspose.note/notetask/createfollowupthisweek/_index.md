@@ -1,14 +1,14 @@
 ---
-title: NoteTask.CreateFollowUpThisWeek
-second_title: Aspose.Note لمرجع NET API
-description: NoteTask طريقة. ينشئ مهمة ملاحظة جديدة باستخدام أيقونة FollowUpThisWeekFlag .
+title: "NoteTask.CreateFollowUpThisWeek"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTask. تنشئ مهمة ملاحظة جديدة مع أيقونة FollowUpThisWeekFlag"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/notetask/createfollowupthisweek/
 ---
 ## NoteTask.CreateFollowUpThisWeek method
 
-ينشئ مهمة ملاحظة جديدة باستخدام أيقونة FollowUpThisWeekFlag .
+ينشئ مهمة ملاحظة جديدة مع أيقونة FollowUpThisWeekFlag.
 
 ```csharp
 public static NoteTask CreateFollowUpThisWeek()
@@ -16,12 +16,12 @@ public static NoteTask CreateFollowUpThisWeek()
 
 ### قيمة الإرجاع
 
-ملف[`NoteTask`](../) .
+الـ [`NoteTask`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTask](../)
-* مساحة الاسم [Aspose.Note](../../notetask/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

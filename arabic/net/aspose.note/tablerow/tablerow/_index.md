@@ -1,23 +1,23 @@
 ---
-title: TableRow.TableRow
-second_title: Aspose.Note لمرجع NET API
-description: TableRow البناء. يقوم بتهيئة مثيل جديد لملفTableRow فئة .
+title: "TableRow.TableRow"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ TableRow. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/tablerow/tablerow/
 ---
 ## TableRow constructor
 
-يقوم بتهيئة مثيل جديد لملف[`TableRow`](../) فئة .
+البناء الافتراضي.
 
 ```csharp
 public TableRow()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableRow](../)
-* مساحة الاسم [Aspose.Note](../../tablerow/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablerow/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateSunflower
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة برمز عباد الشمس والتسمية المحددة.
+title: "NoteTag.CreateSunflower"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز Sunflower والعنوان المحدد"
 type: docs
 weight: 890
 url: /ar/net/aspose.note/notetag/createsunflower/
 ---
 ## NoteTag.CreateSunflower method
 
-ينشئ علامة ملاحظة جديدة برمز عباد الشمس والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة Sunflower والعلامة المحددة.
 
 ```csharp
 public static NoteTag CreateSunflower(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

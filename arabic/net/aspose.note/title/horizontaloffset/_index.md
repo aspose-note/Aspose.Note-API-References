@@ -1,23 +1,23 @@
 ---
-title: Title.HorizontalOffset
-second_title: Aspose.Note لمرجع NET API
-description: Title ملكية. الحصول على أو تعيين الإزاحة الأفقية.
+title: "Title.HorizontalOffset"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Title. تحصل أو تعين الإزاحة الأفقية"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/title/horizontaloffset/
 ---
 ## Title.HorizontalOffset property
 
-الحصول على أو تعيين الإزاحة الأفقية.
+يحصل أو يعيّن الإزاحة الأفقية.
 
 ```csharp
 public float HorizontalOffset { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../)
-* مساحة الاسم [Aspose.Note](../../title/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../title/)
+* assembly [Aspose.Note](../../../)
 
 

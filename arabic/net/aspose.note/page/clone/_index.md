@@ -1,36 +1,36 @@
 ---
-title: Page.Clone
-second_title: Aspose.Note لمرجع NET API
-description: Page طريقة. استنساخ الصفحة .
+title: "Page.Clone"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Page. تنسخ الصفحة"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/page/clone/
 ---
 ## Page.Clone method
 
-استنساخ الصفحة .
+ينسخ الصفحة.
 
 ```csharp
 public Page Clone(bool cloneHistory = false)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| cloneHistory | Boolean | تحديد ما إذا كان يجب نسخ محفوظات الصفحة .. |
+| cloneHistory | Boolean | يحدد ما إذا كان يجب نسخ سجل الصفحة.. |
 
 ### قيمة الإرجاع
 
-نسخة من الصفحة .
+نسخة من الصفحة.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية دفع الإصدار الحالي من الصفحة إلى المحفوظات.
+يعرض كيفية دفع النسخة الحالية من الصفحة إلى السجل.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -41,28 +41,28 @@ pageHistory.Add(page.Clone());
 document.Save(dataDir + "PushCurrentPageVersion_out.one");
 ```
 
-يوضح كيفية استنساخ الصفحة.
+يعرض كيفية استنساخ صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote
+// تحميل مستند OneNote.
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// استنساخ في مستند جديد بدون محفوظات
+// استنساخ إلى مستند جديد بدون تاريخ
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// استنساخ في مستند جديد مع المحفوظات
+// استنساخ إلى مستند جديد مع التاريخ
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

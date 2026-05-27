@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitTableCellEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةTableCell العقدة .
+title: "DocumentVisitor.VisitTableCellEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. النهاية لزيارة عقدة TableCell"
 type: docs
-weight: 170
+weight: 250
 url: /ar/net/aspose.note/documentvisitor/visittablecellend/
 ---
 ## DocumentVisitor.VisitTableCellEnd method
 
-نهاية لزيارة[`TableCell`](../../tablecell/) العقدة .
+النهاية لزيارة عقدة [`TableCell`](../../tablecell/).
 
 ```csharp
 public virtual void VisitTableCellEnd(TableCell tableCell)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| tableCell | TableCell | ملف[`TableCell`](../../tablecell/) العقدة . |
+| tableCell | TableCell | العقدة [`TableCell`](../../tablecell/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableCell](../../tablecell/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: INotebookChildNode.Color
-second_title: Aspose.Note لمرجع NET API
-description: INotebookChildNode ملكية. يحصل على لون. القيمة الافتراضية هي Color.Empty.
+title: "INotebookChildNode.Color"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية INotebookChildNode. تحصل على لون. القيمة الافتراضية هي Color.Empty"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/inotebookchildnode/color/
@@ -14,10 +14,10 @@ url: /ar/net/aspose.note/inotebookchildnode/color/
 public Color Color { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../)
-* مساحة الاسم [Aspose.Note](../../inotebookchildnode/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inotebookchildnode/)
+* assembly [Aspose.Note](../../../)
 
 

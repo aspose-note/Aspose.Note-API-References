@@ -1,23 +1,23 @@
 ---
-title: NumberList.Restart
-second_title: Aspose.Note لمرجع NET API
-description: NumberList ملكية. الحصول على أو تعيين القيمة الرقمية التي تتجاوز قيمة الرقم التلقائي لعنصر القائمة.
+title: "NumberList.Restart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NumberList. تحصل أو تعين القيمة الرقمية التي تتجاوز القيمة العددية التلقائية لعنصر القائمة"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/numberlist/restart/
 ---
 ## NumberList.Restart property
 
-الحصول على أو تعيين القيمة الرقمية التي تتجاوز قيمة الرقم التلقائي لعنصر القائمة.
+يحصل أو يعيّن القيمة الرقمية التي تتجاوز القيمة العددية التلقائية لعنصر القائمة.
 
 ```csharp
 public int Restart { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NumberList](../)
-* مساحة الاسم [Aspose.Note](../../numberlist/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 

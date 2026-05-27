@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateGreenXNo
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة بأيقونة GreenXNo والتسمية المحددة.
+title: "NoteTag.CreateGreenXNo"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة GreenXNo والعنوان المحدد"
 type: docs
 weight: 530
 url: /ar/net/aspose.note/notetag/creategreenxno/
 ---
 ## NoteTag.CreateGreenXNo method
 
-إنشاء علامة ملاحظة جديدة بأيقونة GreenXNo والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenXNo والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateGreenXNo(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

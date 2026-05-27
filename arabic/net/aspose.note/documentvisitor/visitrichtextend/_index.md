@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitRichTextEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةRichText العقدة .
+title: "DocumentVisitor.VisitRichTextEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. إنهاء زيارة عقدة RichText"
 type: docs
-weight: 150
+weight: 230
 url: /ar/net/aspose.note/documentvisitor/visitrichtextend/
 ---
 ## DocumentVisitor.VisitRichTextEnd method
 
-نهاية لزيارة[`RichText`](../../richtext/) العقدة .
+إنهاء زيارة عقدة [`RichText`](../../richtext/).
 
 ```csharp
 public virtual void VisitRichTextEnd(RichText richText)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| richText | RichText | ملف[`RichText`](../../richtext/) العقدة . |
+| richText | RichText | العقدة [`RichText`](../../richtext/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../../richtext/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

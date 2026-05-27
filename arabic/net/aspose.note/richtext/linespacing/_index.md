@@ -1,23 +1,23 @@
 ---
-title: RichText.LineSpacing
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. الحصول على تباعد الأسطر أو تعيينه.
+title: "RichText.LineSpacing"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. يحصل أو يضبط تباعد السطر"
 type: docs
-weight: 50
+weight: 80
 url: /ar/net/aspose.note/richtext/linespacing/
 ---
 ## RichText.LineSpacing property
 
-الحصول على تباعد الأسطر أو تعيينه.
+يحصل أو يضبط تباعد الأسطر.
 
 ```csharp
 public float? LineSpacing { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

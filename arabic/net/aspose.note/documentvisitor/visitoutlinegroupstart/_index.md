@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitOutlineGroupStart
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. ابدأ بزيارة موقعOutlineGroup العقدة .
+title: "DocumentVisitor.VisitOutlineGroupStart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. بدء زيارة عقدة OutlineGroup"
 type: docs
-weight: 110
+weight: 190
 url: /ar/net/aspose.note/documentvisitor/visitoutlinegroupstart/
 ---
 ## DocumentVisitor.VisitOutlineGroupStart method
 
-ابدأ بزيارة موقع[`OutlineGroup`](../../outlinegroup/) العقدة .
+بدء زيارة عقدة [`OutlineGroup`](../../outlinegroup/).
 
 ```csharp
 public virtual void VisitOutlineGroupStart(OutlineGroup outlineGroup)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| outlineGroup | OutlineGroup | ملف[`OutlineGroup`](../../outlinegroup/) العقدة . |
+| outlineGroup | OutlineGroup | العقدة [`OutlineGroup`](../../outlinegroup/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineGroup](../../outlinegroup/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

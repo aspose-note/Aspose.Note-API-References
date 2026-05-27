@@ -1,28 +1,28 @@
 ---
-title: NoteTag.Status
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag ملكية. الحصول على الحالة أو تعيينها .
+title: "NoteTag.Status"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NoteTag. يحصل أو يضبط الحالة"
 type: docs
 weight: 1190
 url: /ar/net/aspose.note/notetag/status/
 ---
 ## NoteTag.Status property
 
-الحصول على الحالة أو تعيينها .
+يحصل أو يعيّن الحالة.
 
 ```csharp
 public TagStatus Status { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف[`TagStatus`](../../tagstatus/) .
+الـ [`TagStatus`](../../tagstatus/).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TagStatus](../../tagstatus/)
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

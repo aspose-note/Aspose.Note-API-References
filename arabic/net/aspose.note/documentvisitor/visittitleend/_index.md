@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitTitleEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةTitle العقدة .
+title: "DocumentVisitor.VisitTitleEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. إنهاء زيارة عقدة Title"
 type: docs
-weight: 230
+weight: 310
 url: /ar/net/aspose.note/documentvisitor/visittitleend/
 ---
 ## DocumentVisitor.VisitTitleEnd method
 
-نهاية لزيارة[`Title`](../../title/) العقدة .
+إنهاء زيارة عقدة [`Title`](../../title/).
 
 ```csharp
 public virtual void VisitTitleEnd(Title title)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| title | Title | ملف[`Title`](../../title/) العقدة . |
+| title | Title | العقدة [`Title`](../../title/) |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../../title/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

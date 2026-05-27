@@ -1,27 +1,27 @@
 ---
-title: NotebookSaveOptions.DeferredSaving
-second_title: Aspose.Note لمرجع NET API
-description: NotebookSaveOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح .
+title: "NotebookSaveOptions.DeferredSaving"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NotebookSaveOptions. يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/notebooksaveoptions/deferredsaving/
 ---
 ## NotebookSaveOptions.DeferredSaving property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح .
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً.
 
 ```csharp
 public bool DeferredSaving { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-القيمة الافتراضية هي`خطأ شنيع` ، لذلك سيتم حفظ المستندات التابعة بشكل ضمني`حقيقي`يشير إلى أنه يجب على المستخدم حفظ العقدة الفرعية لكل جهاز كمبيوتر محمول بشكل صريح.`حقيقي` بالرغم من تعيينه صراحةً بواسطة المستخدم لـ`خطأ شنيع` .
+القيمة الافتراضية هي `false`، لذا سيتم حفظ المستندات الفرعية ضمنيًا. القيمة `true` تشير إلى أن المستخدم يجب أن يحفظ كل عقدة فرعية للدفتر صراحةً. إذا كان الدفتر يُحفظ إلى تدفق، تكون القيمة دائمًا `true` رغم أنه تم تعيينها صراحةً من قبل المستخدم إلى `false`.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../notebooksaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../notebooksaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

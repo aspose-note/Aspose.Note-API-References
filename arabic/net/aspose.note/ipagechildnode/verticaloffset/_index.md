@@ -1,23 +1,23 @@
 ---
-title: IPageChildNode.VerticalOffset
-second_title: Aspose.Note لمرجع NET API
-description: IPageChildNode ملكية. الحصول على أو تعيين الإزاحة الرأسية .
+title: "IPageChildNode.VerticalOffset"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية IPageChildNode. تحصل أو تعيّن الإزاحة العمودية"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/ipagechildnode/verticaloffset/
 ---
 ## IPageChildNode.VerticalOffset property
 
-الحصول على أو تعيين الإزاحة الرأسية .
+يحصل أو يضبط الإزاحة العمودية.
 
 ```csharp
 public float VerticalOffset { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [IPageChildNode](../)
-* مساحة الاسم [Aspose.Note](../../ipagechildnode/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../ipagechildnode/)
+* assembly [Aspose.Note](../../../)
 
 

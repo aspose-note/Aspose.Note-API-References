@@ -1,23 +1,23 @@
 ---
-title: Outline.MinWidth
-second_title: Aspose.Note لمرجع NET API
-description: Outline ملكية. الحصول على الحد الأدنى للعرض أو تحديده .
+title: "Outline.MinWidth"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Outline. تحصل أو تعين الحد الأدنى للعرض"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/outline/minwidth/
 ---
 ## Outline.MinWidth property
 
-الحصول على الحد الأدنى للعرض أو تحديده .
+يحصل أو يعيّن الحد الأدنى للعرض.
 
 ```csharp
 public float MinWidth { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Outline](../)
-* مساحة الاسم [Aspose.Note](../../outline/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outline/)
+* assembly [Aspose.Note](../../../)
 
 

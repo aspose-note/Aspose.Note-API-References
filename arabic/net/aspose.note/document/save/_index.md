@@ -1,31 +1,31 @@
 ---
-title: Document.Save
-second_title: Aspose.Note لمرجع NET API
-description: Document طريقة. يحفظ مستند OneNote في ملف.
+title: "Document.Save"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Document. تحفظ مستند OneNote إلى ملف"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/document/save/
 ---
 ## Save(string) {#save_3}
 
-يحفظ مستند OneNote في ملف.
+يحفظ مستند OneNote إلى ملف.
 
 ```csharp
 public void Save(string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند.
 
@@ -38,64 +38,64 @@ Document doc = new Document(dataDir + inputFile);
 doc.Save(dataDir + outputFile);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream) {#save}
 
-يحفظ مستند OneNote في دفق.
+يحفظ مستند OneNote إلى تدفق.
 
 ```csharp
 public void Save(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
+| دفق | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveFormat) {#save_4}
 
-يحفظ مستند OneNote في ملف بالتنسيق المحدد.
+يحفظ مستند OneNote إلى ملف بالتنسيق المحدد.
 
 ```csharp
 public void Save(string fileName, SaveFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
-| format | SaveFormat | التنسيق المراد حفظ المستند به. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند باستخدام تعداد SaveFormat.
+يعرض كيفية حفظ مستند باستخدام تعداد SaveFormat.
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -107,89 +107,121 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
-يوضح كيفية حفظ مستند بتنسيق gif.
+يعرض كيفية حفظ مستند بتنسيق gif.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-يحفظ مستند OneNote في دفق بالتنسيق المحدد.
+يحفظ مستند OneNote إلى تدفق بالتنسيق المحدد.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
-| format | SaveFormat | التنسيق المراد حفظ المستند به. |
+| دفق | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
+| تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الإعدادات الافتراضية.
+يعرض كيفية تحويل مستند OneNote إلى تنسيق HTML.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Html();
+
+var oneFilePath = Path.Combine(dataDir, "sample.one");
+var htmlFilePath = Path.Combine(dataDir, "output.html");
+
+// تحويل OneNote إلى HTML
+var doc = new Document(oneFilePath);
+doc.Save(htmlFilePath, SaveFormat.Html);
+```
+
+يعرض كيفية حفظ مستند بتنسيق pdf باستخدام الإعدادات الافتراضية.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-يوضح كيفية حفظ مستند في دفق.
+يعرض كيفية حفظ مستند إلى تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// قم بإرجاع موضع الدفق إلى الصفر بحيث يكون جاهزًا للقارئ التالي.
+// أعد موضع التدفق إلى الصفر لتكون جاهزة للقارئ التالي.
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
-يوضح كيفية تطبيق نمط النسق الداكن على مستند.
+يعرض كيفية تحويل مستند OneNote إلى تنسيق Markdown.
+
+```csharp
+var dataDir = RunExamples.GetDataDir_Conversion_Markdown();
+
+var oneFilePath = Path.Combine(dataDir, "sample.one");
+var mdFilePath = Path.Combine(dataDir, "output.md");
+var htmlFilePath = Path.Combine(dataDir, "temp.html");
+
+// تحويل OneNote إلى HTML
+var document = new Document(oneFilePath);
+document.Save(htmlFilePath, SaveFormat.Html);
+
+// تحويل HTML إلى Markdown
+Converter.ConvertHTML(htmlFilePath, new MarkdownSaveOptions(), mdFilePath);
+
+Console.WriteLine("\nOneNote document converted to Markdown successfully.");
+```
+
+يظهر كيفية تطبيق نمط السمة الداكنة على مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in doc)
@@ -209,38 +241,38 @@ foreach (var node in doc.GetChildNodes<RichText>())
 doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(string, SaveOptions) {#save_5}
 
-يحفظ مستند OneNote في ملف باستخدام خيارات الحفظ المحددة.
+يحفظ مستند OneNote إلى ملف باستخدام خيارات الحفظ المحددة.
 
 ```csharp
 public void Save(string fileName, SaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل ، فستتم الكتابة فوق الملف الحالي. |
-| options | SaveOptions | يحدد الخيارات كيفية حفظ المستند في ملف. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| خيارات | SaveOptions | يحدد الخيارات التي يتم حفظ المستند بها في الملف. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند باستخدام OneSaveOptions.
+يعرض كيفية حفظ مستند باستخدام OneSaveOptions.
 
 ```csharp
 string inputFile = "Sample1.one";
@@ -252,13 +284,13 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Jpeg باستخدام SaveFormat.
+يظهر كيفية حفظ المستند كصورة بتنسيق Jpeg باستخدام SaveFormat.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
@@ -267,13 +299,13 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Bmp باستخدام ImageSaveOptions.
+يظهر كيفية حفظ المستند كصورة بتنسيق Bmp باستخدام ImageSaveOptions.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
@@ -282,13 +314,13 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة الرسالة.
+يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "OneNote.one");
 
 var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
@@ -297,13 +329,13 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 بدون حد للارتفاع.
+يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "OneNote.one");
 
 var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
@@ -312,31 +344,31 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-يوضح كيفية حفظ مستند كصورة ذات تدرج رمادي.
+يظهر كيفية حفظ المستند كصورة بتدرج الرمادي.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingPackBitsCompression.tiff");
@@ -348,13 +380,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingJpegCompression.tiff");
@@ -367,13 +399,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingCcitt3Compression.tiff");
@@ -386,43 +418,43 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق pdf.
+يظهر كيفية حفظ مستند بتنسيق pdf.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // تهيئة كائن PdfSaveOptions
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // تعيين فهرس الصفحة للصفحة الأولى ليتم حفظها
+                              // تعيين فهرس الصفحة الأولى التي سيتم حفظها
                               PageIndex = 0,
 
                               // تعيين عدد الصفحات
                               PageCount = 1,
                           };
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 
 // تهيئة كائن PdfSaveOptions
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // استخدم ضغط Jpeg
+                              // استخدام ضغط Jpeg
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
                               // جودة ضغط JPEG
@@ -433,18 +465,18 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام طريقة Otsu.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -455,18 +487,18 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يوضح كيفية حفظ مستند كصورة ثنائية باستخدام عتبة ثابتة.
+يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند بصيغة gif.
+// احفظ المستند كـ gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -478,36 +510,36 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [SaveOptions](../../../aspose.note.saving/saveoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions) {#save_2}
 
-يحفظ مستند OneNote في دفق باستخدام خيارات الحفظ المحددة.
+يحفظ مستند OneNote إلى تدفق باستخدام خيارات الحفظ المحددة.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
-| options | SaveOptions | يحدد الخيارات كيفية حفظ المستند في الدفق. |
+| دفق | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
+| خيارات | SaveOptions | يحدد الخيارات التي يتم بها حفظ المستند في التدفق. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل الوثيقة ينتهك المواصفات. |
+| [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | هيكل المستند ينتهك المواصفات. |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | تنسيق الحفظ المطلوب غير مدعوم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي المحدد.
 
@@ -515,10 +547,10 @@ public void Save(Stream stream, SaveOptions options)
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions() 
                       {
@@ -534,10 +566,10 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions()
                           {
@@ -545,7 +577,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي من التدفق.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -553,10 +585,10 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf";
 
 using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShare.Read))
@@ -568,11 +600,11 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [SaveOptions](../../../aspose.note.saving/saveoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

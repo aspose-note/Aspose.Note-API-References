@@ -1,23 +1,23 @@
 ---
-title: NoteCheckBox.Label
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox ملكية. الحصول على نص التسمية أو تعيينه.
+title: "NoteCheckBox.Label"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteCheckBox خاصية. يحصل أو يعيّن نص الملصق"
 type: docs
 weight: 300
 url: /ar/net/aspose.note/notecheckbox/label/
 ---
 ## NoteCheckBox.Label property
 
-الحصول على نص التسمية أو تعيينه.
+يحصل أو يضبط نص التسمية.
 
 ```csharp
 public string Label { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

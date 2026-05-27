@@ -1,9 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.NodeType تعداد. يحدد نوع العقدة.
+title: "تعداد NodeType"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "تعداد Aspose.Note.NodeType. يحدد نوع العقدة"
 type: docs
-weight: 370
+weight: 440
 url: /ar/net/aspose.note/nodetype/
 ---
 ## NodeType enumeration
@@ -14,28 +14,32 @@ url: /ar/net/aspose.note/nodetype/
 public enum NodeType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Document | `0` | تحديد أن العقدة هي ملفDocument . |
-| Section | `1` | تحديد أن العقدة هي ملفSection . |
-| Page | `2` | تحديد أن العقدة هي ملفPage . |
-| PageSeries | `3` | تحديد أن العقدة هي ملفPageSeries . |
-| Title | `4` | تحديد أن العقدة هي ملفTitle . |
-| Outline | `5` | تحديد أن العقدة هي ملفOutline . |
-| OutlineElement | `6` | تحديد أن العقدة هي ملفOutlineElement . |
-| Image | `7` | تحديد أن العقدة هي ملفImage . |
-| RichText | `8` | تحديد أن العقدة هي ملفRichText . |
-| OutlineGroup | `9` | تحديد أن العقدة هي ملفOutlineGroup . |
-| AttachedFile | `10` | تحديد أن العقدة هي ملفAttachedFile . |
-| Table | `11` | تحديد أن العقدة هي ملفTable . |
-| TableRow | `12` | تحديد أن العقدة هي ملفTableRow . |
-| TableCell | `13` | تحديد أن العقدة هي ملفTableCell . |
+| Document | `0` | يحدد أن العقدة هي مستند. |
+| Section | `1` | يحدد أن العقدة هي قسم. |
+| Page | `2` | يحدد أن العقدة هي صفحة. |
+| PageSeries | `3` | يحدد أن العقدة هي سلسلة صفحات. |
+| Title | `4` | يحدد أن العقدة هي عنوان. |
+| Outline | `5` | يحدد أن العقدة هي مخطط. |
+| OutlineElement | `6` | يحدد أن العقدة هي OutlineElement. |
+| Image | `7` | يحدد أن العقدة هي Image. |
+| RichText | `8` | يحدد أن العقدة هي RichText. |
+| OutlineGroup | `9` | يحدد أن العقدة هي OutlineGroup. |
+| AttachedFile | `10` | يحدد أن العقدة هي AttachedFile. |
+| Table | `11` | يحدد أن العقدة هي Table. |
+| TableRow | `12` | يحدد أن العقدة هي TableRow. |
+| TableCell | `13` | يحدد أن العقدة هي TableCell. |
+| InkDrawing | `14` | يحدد أن العقدة هي InkDrawing. |
+| InkParagraph | `15` | يحدد أن العقدة هي InkParagraph. |
+| InkWord | `16` | يحدد أن العقدة هي InkWord. |
+| Loop | `17` | يحدد أن العقدة هي Loop. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

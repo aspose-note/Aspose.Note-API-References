@@ -1,28 +1,28 @@
 ---
-title: Interface IFontsSubsystem
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Fonts.IFontsSubsystem واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية استرداد Aspose.Note الخطوط عند حفظ مستند.
+title: "الواجهة IFontsSubsystem"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "واجهة Aspose.Note.Fonts.IFontsSubsystem. نفّذ هذه الواجهة إذا كنت تريد التحكم في كيفية استرجاع Aspose.Note للخطوط عند حفظ مستند."
 type: docs
 weight: 120
 url: /ar/net/aspose.note.fonts/ifontssubsystem/
 ---
 ## IFontsSubsystem interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية استرداد Aspose.Note الخطوط عند حفظ مستند.
+نفّذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند.
 
 ```csharp
 public interface IFontsSubsystem
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetFontFamily](../../aspose.note.fonts/ifontssubsystem/getfontfamily/)(string) | يحصل على عائلة الخطوط . |
+| [GetFontFamily](../../aspose.note.fonts/ifontssubsystem/getfontfamily/)(string) | يحصل على عائلة الخط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Fonts](../../aspose.note.fonts/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Fonts](../../aspose.note.fonts/)
+* assembly [Aspose.Note](../../)
 
 

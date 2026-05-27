@@ -1,34 +1,34 @@
 ---
-title: RichText.Tags
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. يحصل على قائمة بكافة علامات الفقرة .
+title: "RichText.Tags"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. يحصل على قائمة بجميع العلامات في فقرة"
 type: docs
-weight: 90
+weight: 120
 url: /ar/net/aspose.note/richtext/tags/
 ---
 ## RichText.Tags property
 
-يحصل على قائمة بكافة علامات الفقرة .
+يحصل على قائمة جميع العلامات في الفقرة.
 
 ```csharp
 public List<ITag> Tags { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الوصول إلى تفاصيل مهام Outlook.
+يوضح كيفية الوصول إلى تفاصيل مهام outlook.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -37,7 +37,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Task: {richText.Text}");
         foreach (var noteTask in tasks)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTask.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTask.CreationTime}");
             Console.WriteLine($"    Due Date: {noteTask.DueDate}");
@@ -48,11 +48,11 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [ITag](../../itag/)
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: FontSavingArgs.FontFamilyName
-second_title: Aspose.Note لمرجع NET API
-description: FontSavingArgs ملكية. الحصول على اسم عائلة الخط المراد حفظه.
+title: "FontSavingArgs.FontFamilyName"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية FontSavingArgs. يحصل على اسم عائلة الخط الذي سيتم حفظه"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/fontsavingargs/fontfamilyname/
 ---
 ## FontSavingArgs.FontFamilyName property
 
-الحصول على اسم عائلة الخط المراد حفظه.
+يحصل على اسم عائلة الخط الذي سيتم حفظه.
 
 ```csharp
 public string FontFamilyName { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../fontsavingargs/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../fontsavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

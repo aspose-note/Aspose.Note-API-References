@@ -1,31 +1,31 @@
 ---
-title: Image.OriginalWidth
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. يحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم.
+title: "Image.OriginalWidth"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة قبل إعادة التحجيم"
 type: docs
 weight: 150
 url: /ar/net/aspose.note/image/originalwidth/
 ---
 ## Image.OriginalWidth property
 
-يحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم.
+يحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة، قبل إعادة التحجيم.
 
 ```csharp
 public float OriginalWidth { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
+يظهر كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,10 +40,10 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

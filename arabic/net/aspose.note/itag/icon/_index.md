@@ -1,38 +1,38 @@
 ---
-title: ITag.Icon
-second_title: Aspose.Note لمرجع NET API
-description: ITag ملكية. الحصول على الرمز أو تعيينه.
+title: "ITag.Icon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "ITag property. يحصل أو يضبط الأيقونة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/itag/icon/
 ---
 ## ITag.Icon property
 
-الحصول على الرمز أو تعيينه.
+يحصل أو يعيّن الأيقونة.
 
 ```csharp
 public TagIcon Icon { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف[`TagIcon`](../../tagicon/) .
+ال [`TagIcon`](../../tagicon/).
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الوصول إلى تفاصيل مهام Outlook.
+يوضح كيفية الوصول إلى تفاصيل مهام outlook.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -41,7 +41,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Task: {richText.Text}");
         foreach (var noteTask in tasks)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTask.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTask.CreationTime}");
             Console.WriteLine($"    Due Date: {noteTask.DueDate}");
@@ -52,19 +52,19 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يوضح كيفية الوصول إلى تفاصيل العلامة.
+يظهر كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "TagFile.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -73,7 +73,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -86,11 +86,11 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TagIcon](../../tagicon/)
 * interface [ITag](../)
-* مساحة الاسم [Aspose.Note](../../itag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../itag/)
+* assembly [Aspose.Note](../../../)
 
 

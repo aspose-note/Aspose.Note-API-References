@@ -1,23 +1,23 @@
 ---
-title: Metered.ResetMeteredKey
-second_title: Aspose.Note لمرجع NET API
-description: Metered طريقة. يزيل ترخيص الإعداد السابق .
+title: "Metered.ResetMeteredKey"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Metered. تزيل الترخيص المُعد مسبقاً"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/metered/resetmeteredkey/
 ---
 ## Metered.ResetMeteredKey method
 
-يزيل ترخيص الإعداد السابق .
+يزيل الترخيص المُعد مسبقًا.
 
 ```csharp
 public void ResetMeteredKey()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Metered](../)
-* مساحة الاسم [Aspose.Note](../../metered/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../metered/)
+* assembly [Aspose.Note](../../../)
 
 

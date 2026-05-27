@@ -1,14 +1,14 @@
 ---
-title: PageHistory.GetEnumerator
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. إرجاع العداد الذي يتكرر خلال العقد التابعة لملفPageHistory .
+title: "PageHistory.GetEnumerator"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. تُرجع عدّادًا يتنقل عبر العقد الفرعية لـ PageHistory"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/pagehistory/getenumerator/
 ---
 ## PageHistory.GetEnumerator method
 
-إرجاع العداد الذي يتكرر خلال العقد التابعة لملف[`PageHistory`](../) .
+تُرجع عدّادًا يتنقل عبر العقد الفرعية لـ [`PageHistory`](../).
 
 ```csharp
 public IEnumerator<Page> GetEnumerator()
@@ -16,13 +16,13 @@ public IEnumerator<Page> GetEnumerator()
 
 ### قيمة الإرجاع
 
-ملفIEnumerator .
+الـ IEnumerator.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

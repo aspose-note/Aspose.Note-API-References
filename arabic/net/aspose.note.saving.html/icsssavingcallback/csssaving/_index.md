@@ -1,28 +1,28 @@
 ---
-title: ICssSavingCallback.CssSaving
-second_title: Aspose.Note لمرجع NET API
-description: ICssSavingCallback طريقة. يتم استدعاؤها عندما يحفظ Aspose.Note CSS ورقة الأنماط المتتالية .
+title: "ICssSavingCallback.CssSaving"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة ICssSavingCallback. يتم استدعاؤها عندما يقوم Aspose.Note بحفظ CSSCascading Style Sheet"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/icsssavingcallback/csssaving/
 ---
 ## ICssSavingCallback.CssSaving method
 
-يتم استدعاؤها عندما يحفظ Aspose.Note CSS (ورقة الأنماط المتتالية) .
+يتم الاستدعاء عندما يقوم Aspose.Note بحفظ CSS (ورقة الأنماط المتتالية).
 
 ```csharp
 public void CssSaving(CssSavingArgs args)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | CssSavingArgs | حفظ المعلمات . |
+| args | CssSavingArgs | معلمات الحفظ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CssSavingArgs](../../csssavingargs/)
 * interface [ICssSavingCallback](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../icsssavingcallback/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../icsssavingcallback/)
+* assembly [Aspose.Note](../../../)
 
 

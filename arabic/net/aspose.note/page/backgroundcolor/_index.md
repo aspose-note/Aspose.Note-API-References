@@ -1,28 +1,28 @@
 ---
-title: Page.BackgroundColor
-second_title: Aspose.Note لمرجع NET API
-description: Page ملكية. الحصول على لون خلفية الصفحة أو تعيينه.
+title: "Page.BackgroundColor"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Page. تحصل أو تعيّن لون خلفية الصفحة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/page/backgroundcolor/
 ---
 ## Page.BackgroundColor property
 
-الحصول على لون خلفية الصفحة أو تعيينه.
+يحصل أو يضبط لون خلفية الصفحة.
 
 ```csharp
 public Color BackgroundColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تعيين لون خلفية الصفحة.
+يوضح كيفية ضبط لون خلفية الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -33,13 +33,13 @@ foreach (var page in document)
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
-يوضح كيفية تطبيق نمط النسق الداكن على مستند.
+يظهر كيفية تطبيق نمط السمة الداكنة على مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Text();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in doc)
@@ -59,10 +59,10 @@ foreach (var node in doc.GetChildNodes<RichText>())
 doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateBlueTriangle
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة BlueTriangle والتسمية المحددة.
+title: "NoteTag.CreateBlueTriangle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة BlueTriangle والملصق المحدد"
 type: docs
 weight: 190
 url: /ar/net/aspose.note/notetag/createbluetriangle/
 ---
 ## NoteTag.CreateBlueTriangle method
 
-ينشئ علامة ملاحظة جديدة بأيقونة BlueTriangle والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueTriangle والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateBlueTriangle(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

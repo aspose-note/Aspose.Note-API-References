@@ -1,23 +1,23 @@
 ---
-title: ImageBinarizationOptions.ImageBinarizationOptions
-second_title: Aspose.Note لمرجع NET API
-description: ImageBinarizationOptions البناء. Default_Constructor
+title: "ImageBinarizationOptions.ImageBinarizationOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ ImageBinarizationOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/imagebinarizationoptions/imagebinarizationoptions/
 ---
 ## ImageBinarizationOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public ImageBinarizationOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ImageBinarizationOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../imagebinarizationoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../imagebinarizationoptions/)
+* assembly [Aspose.Note](../../../)
 
 

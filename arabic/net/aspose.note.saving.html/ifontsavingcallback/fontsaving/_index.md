@@ -1,28 +1,28 @@
 ---
-title: IFontSavingCallback.FontSaving
-second_title: Aspose.Note لمرجع NET API
-description: IFontSavingCallback طريقة. تم استدعاؤه عندما يحفظ Aspose.Note خطًا.
+title: "IFontSavingCallback.FontSaving"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة IFontSavingCallback. تُستدعى عندما يقوم Aspose.Note بحفظ خط"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback.FontSaving method
 
-تم استدعاؤه عندما يحفظ Aspose.Note خطًا.
+يُستدعى عندما يقوم Aspose.Note بحفظ خط.
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | FontSavingArgs | حفظ المعلمات . |
+| args | FontSavingArgs | معلمات الحفظ. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontSavingArgs](../../fontsavingargs/)
 * interface [IFontSavingCallback](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../ifontsavingcallback/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../ifontsavingcallback/)
+* assembly [Aspose.Note](../../../)
 
 

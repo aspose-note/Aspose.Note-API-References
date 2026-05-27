@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateOpenEnvelope
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة OpenEnvelope والتسمية المحددة.
+title: "NoteTag.CreateOpenEnvelope"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة OpenEnvelope والملصق المحدد"
 type: docs
 weight: 700
 url: /ar/net/aspose.note/notetag/createopenenvelope/
 ---
 ## NoteTag.CreateOpenEnvelope method
 
-ينشئ علامة ملاحظة جديدة بأيقونة OpenEnvelope والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة OpenEnvelope وملصق محدد.
 
 ```csharp
 public static NoteTag CreateOpenEnvelope(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

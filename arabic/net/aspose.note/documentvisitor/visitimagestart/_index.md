@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitImageStart
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. ابدأ بزيارة موقعImage العقدة .
+title: "DocumentVisitor.VisitImageStart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. بدء زيارة عقدة Image"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/documentvisitor/visitimagestart/
 ---
 ## DocumentVisitor.VisitImageStart method
 
-ابدأ بزيارة موقع[`Image`](../../image/) العقدة .
+بدء زيارة عقدة [`Image`](../../image/)
 
 ```csharp
 public virtual void VisitImageStart(Image image)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | Image | ملف[`Image`](../../image/) العقدة . |
+| image | Image | العقدة [`Image`](../../image/) |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../../image/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateGreenCircle2
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة GreenCircle2 والتسمية المحددة.
+title: "NoteTag.CreateGreenCircle2"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة GreenCircle2 والملصق المحدد"
 type: docs
 weight: 390
 url: /ar/net/aspose.note/notetag/creategreencircle2/
 ---
 ## NoteTag.CreateGreenCircle2 method
 
-ينشئ علامة ملاحظة جديدة بأيقونة GreenCircle2 والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenCircle2 والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateGreenCircle2(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

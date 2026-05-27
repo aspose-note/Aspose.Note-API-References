@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreatePen
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز القلم والتسمية المحددة.
+title: "NoteTag.CreatePen"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز Pen والعنوان المحدد"
 type: docs
 weight: 740
 url: /ar/net/aspose.note/notetag/createpen/
 ---
 ## NoteTag.CreatePen method
 
-إنشاء علامة ملاحظة جديدة مع رمز القلم والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة Pen وملصق محدد.
 
 ```csharp
 public static NoteTag CreatePen(string label = "Highlight")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

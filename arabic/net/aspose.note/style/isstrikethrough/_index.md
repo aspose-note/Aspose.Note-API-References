@@ -1,23 +1,23 @@
 ---
-title: Style.IsStrikethrough
-second_title: Aspose.Note لمرجع NET API
-description: Style ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص يتوسطه خط أم لا.
+title: "Style.IsStrikethrough"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Style. يحصل على أو يضبط قيمة تشير إلى ما إذا كان نمط النص هو مشطوب"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/style/isstrikethrough/
 ---
 ## Style.IsStrikethrough property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص يتوسطه خط أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا.
 
 ```csharp
 public bool IsStrikethrough { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Note](../../style/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

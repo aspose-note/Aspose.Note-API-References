@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateContactInformation
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز ContactInformation والتسمية المحددة.
+title: "NoteTag.CreateContactInformation"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة ContactInformation والعنوان المحدد"
 type: docs
 weight: 300
 url: /ar/net/aspose.note/notetag/createcontactinformation/
 ---
 ## NoteTag.CreateContactInformation method
 
-إنشاء علامة ملاحظة جديدة مع رمز ContactInformation والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة ContactInformation والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateContactInformation(string label = "Phone number")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

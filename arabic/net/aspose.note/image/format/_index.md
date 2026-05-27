@@ -1,23 +1,23 @@
 ---
-title: Image.Format
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. الحصول على تنسيق الصورة.
+title: "Image.Format"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل على تنسيق الصورة"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/image/format/
 ---
 ## Image.Format property
 
-الحصول على تنسيق الصورة.
+يحصل على تنسيق الصورة.
 
 ```csharp
 public ImageFormat Format { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

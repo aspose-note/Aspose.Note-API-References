@@ -1,7 +1,7 @@
 ---
-title: ResourceSavingArgs.FileName
-second_title: Aspose.Note لمرجع NET API
-description: ResourceSavingArgs ملكية. يحصل على اسم الملف.
+title: "ResourceSavingArgs.FileName"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ResourceSavingArgs. يحصل على اسم الملف"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving.html/resourcesavingargs/filename/
@@ -14,10 +14,10 @@ url: /ar/net/aspose.note.saving.html/resourcesavingargs/filename/
 public string FileName { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../resourcesavingargs/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: Page.SizeType
-second_title: Aspose.Note لمرجع NET API
-description: Page ملكية. الحصول على نوع حجم الصفحة أو تحديده.
+title: "Page.SizeType"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Page. يحصل أو يحدد نوع الحجم للصفحة"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/page/sizetype/
 ---
 ## Page.SizeType property
 
-الحصول على نوع حجم الصفحة أو تحديده.
+يحصل أو يضبط نوع حجم الصفحة.
 
 ```csharp
 public PageSizeType SizeType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-يتم تغيير حجم الصفحة تلقائيًا بشكل افتراضي. القيمة الافتراضية هيSizeByContent .
+بشكل افتراضي، يتم تغيير حجم الصفحة تلقائيًا. القيمة الافتراضية هي SizeByContent.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [PageSizeType](../../pagesizetype/)
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

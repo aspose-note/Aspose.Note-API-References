@@ -1,33 +1,33 @@
 ---
-title: Notebook.GetChildNodes
-second_title: Aspose.Note لمرجع NET API
-description: Notebook طريقة. احصل على جميع العقد الفرعية حسب نوع العقدة .
+title: "Notebook.GetChildNodes"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Notebook. احصل على جميع العقد الفرعية حسب نوع العقدة"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/notebook/getchildnodes/
 ---
 ## Notebook.GetChildNodes&lt;T1&gt; method
 
-احصل على جميع العقد الفرعية حسب نوع العقدة .
+احصل على جميع عقد الطفل حسب نوع العقدة.
 
 ```csharp
 public IList<T1> GetChildNodes<T1>()
     where T1 : Node
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| T1 | نوع العناصر في القائمة التي تم إرجاعها. |
+| T1 | نوع العناصر في القائمة المعادة. |
 
 ### قيمة الإرجاع
 
-قائمة بالعقد الفرعية.
+قائمة من العقد الفرعية.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Node](../../node/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

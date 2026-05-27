@@ -1,23 +1,23 @@
 ---
-title: OutlineElement.LastModifiedTime
-second_title: Aspose.Note لمرجع NET API
-description: OutlineElement ملكية. الحصول على أو تعيين وقت آخر تعديل.
+title: "OutlineElement.LastModifiedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية OutlineElement. يحصل أو يحدد وقت آخر تعديل"
 type: docs
-weight: 30
+weight: 50
 url: /ar/net/aspose.note/outlineelement/lastmodifiedtime/
 ---
 ## OutlineElement.LastModifiedTime property
 
-الحصول على أو تعيين وقت آخر تعديل.
+يحصل أو يعيّن وقت آخر تعديل.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineElement](../)
-* مساحة الاسم [Aspose.Note](../../outlineelement/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outlineelement/)
+* assembly [Aspose.Note](../../../)
 
 

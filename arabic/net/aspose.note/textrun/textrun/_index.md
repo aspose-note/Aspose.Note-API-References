@@ -1,86 +1,86 @@
 ---
-title: TextRun.TextRun
-second_title: Aspose.Note لمرجع NET API
-description: TextRun البناء. يقوم بتهيئة مثيل جديد لملفTextRun فئة .
+title: "TextRun.TextRun"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ TextRun. يهيئ نسخة جديدة من فئة TextRun"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/textrun/textrun/
 ---
 ## TextRun(string, TextStyle) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`TextRun`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`TextRun`](../).
 
 ```csharp
 public TextRun(string text, TextStyle style)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| text | String | النص المرتبط . |
-| style | TextStyle | النمط . |
+| نص | String | النص المرتبط. |
+| style | TextStyle | النمط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../../textstyle/)
 * class [TextRun](../)
-* مساحة الاسم [Aspose.Note](../../textrun/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textrun/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## TextRun(string) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`TextRun`](../) فئة ذات النمط الافتراضي.
+يهيئ نسخة جديدة من الفئة [`TextRun`](../) بنمط افتراضي.
 
 ```csharp
 public TextRun(string text)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| text | String | النص المرتبط . |
+| نص | String | النص المرتبط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextRun](../)
-* مساحة الاسم [Aspose.Note](../../textrun/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textrun/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## TextRun(TextStyle) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`TextRun`](../)فئة بنص فارغ.
+يهيئ نسخة جديدة من الفئة [`TextRun`](../) بنص فارغ.
 
 ```csharp
 public TextRun(TextStyle style)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| style | TextStyle | النمط . |
+| style | TextStyle | النمط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../../textstyle/)
 * class [TextRun](../)
-* مساحة الاسم [Aspose.Note](../../textrun/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textrun/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## TextRun() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`TextRun`](../) فئة بنص فارغ ونمط افتراضي.
+يهيئ نسخة جديدة من الفئة [`TextRun`](../) بنص فارغ ونمط افتراضي.
 
 ```csharp
 public TextRun()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextRun](../)
-* مساحة الاسم [Aspose.Note](../../textrun/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textrun/)
+* assembly [Aspose.Note](../../../)
 
 

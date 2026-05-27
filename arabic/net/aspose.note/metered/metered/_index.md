@@ -1,23 +1,23 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Note لمرجع NET API
-description: Metered البناء. Default_Constructor
+title: "Metered.Metered"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "المُنشئ Metered. المُنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/metered/metered/
 ---
 ## Metered constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public Metered()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Metered](../)
-* مساحة الاسم [Aspose.Note](../../metered/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../metered/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: KeepSolidObjectsAlgorithm.DefaultHeightLimitOfClonedPart
-second_title: Aspose.Note لمرجع NET API
-description: KeepSolidObjectsAlgorithm مجال. الحجم الأقصى الافتراضي للجزء المستنسخ.
+title: "KeepSolidObjectsAlgorithm.DefaultHeightLimitOfClonedPart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "KeepSolidObjectsAlgorithm field. الحد الأقصى الافتراضي لحجم الجزء المستنسخ"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofclonedpart/
@@ -14,10 +14,10 @@ url: /ar/net/aspose.note.saving/keepsolidobjectsalgorithm/defaultheightlimitofcl
 public const float DefaultHeightLimitOfClonedPart;
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [KeepSolidObjectsAlgorithm](../)
-* مساحة الاسم [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
+* assembly [Aspose.Note](../../../)
 
 

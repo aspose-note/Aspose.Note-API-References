@@ -1,23 +1,23 @@
 ---
-title: MergeOptions.MergeOptions
-second_title: Aspose.Note لمرجع NET API
-description: MergeOptions البناء. Default_Constructor
+title: "MergeOptions.MergeOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ MergeOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/mergeoptions/mergeoptions/
 ---
 ## MergeOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public MergeOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [MergeOptions](../)
-* مساحة الاسم [Aspose.Note](../../mergeoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../mergeoptions/)
+* assembly [Aspose.Note](../../../)
 
 

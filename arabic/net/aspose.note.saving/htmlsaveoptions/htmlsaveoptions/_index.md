@@ -1,23 +1,23 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: HtmlSaveOptions البناء. Default_Constructor
+title: "HtmlSaveOptions.HtmlSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ HtmlSaveOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public HtmlSaveOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

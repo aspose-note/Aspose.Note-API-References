@@ -1,89 +1,109 @@
 ---
-title: AttachedFile.AttachedFile
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile البناء. يقوم بتهيئة مثيل جديد لملفAttachedFile فئة .
+title: "AttachedFile.AttachedFile"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ AttachedFile. يهيئ مثيلاً جديداً من الفئة AttachedFile"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/attachedfile/attachedfile/
 ---
-## AttachedFile(string, Stream, ImageFormat) {#constructor_7}
+## AttachedFile(string) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../) فئة .
+يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
+
+```csharp
+public AttachedFile(string path)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| path | String | سلسلة نصية تحتوي على المسار إلى الملف الذي سيتم إنشاء [`AttachedFile`](../) منه. |
+
+### انظر أيضًا
+
+* class [AttachedFile](../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
+
+---
+
+## AttachedFile(string, Stream, ImageFormat) {#constructor_3}
+
+يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | سلسلة تحتوي على مسار الملف الذي سيتم إنشاء ملف[`AttachedFile`](../) . |
-| icon | Stream | رمز للملف المرفق . |
-| iconFormat | ImageFormat | تنسيق رمز الملف المرفق. |
+| path | String | سلسلة نصية تحتوي على المسار إلى الملف الذي سيتم إنشاء [`AttachedFile`](../) منه. |
+| أيقونة | Stream | أيقونة للملف المرفق. |
+| iconFormat | ImageFormat | تنسيق أيقونة الملف المرفق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
-## AttachedFile(string, Stream) {#constructor_6}
+## AttachedFile(string, Stream) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../) فئة .
+يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف المرفق . |
-| attachedFileStream | Stream | دفق يحتوي على بايت الملف المرفق. |
+| fileName | String | اسم الملف المرفق. |
+| attachedFileStream | Stream | دفق يحتوي على بايتات الملف المرفق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
-## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_8}
+## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../) فئة .
+يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, ImageFormat iconFormat)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف المرفق . |
-| attachedFileStream | Stream | دفق يحتوي على بايت الملف المرفق. |
-| icon | Stream | رمز للملف المرفق . |
-| iconFormat | ImageFormat | تنسيق رمز الملف المرفق. |
+| fileName | String | اسم الملف المرفق. |
+| attachedFileStream | Stream | دفق يحتوي على بايتات الملف المرفق. |
+| أيقونة | Stream | أيقونة للملف المرفق. |
+| iconFormat | ImageFormat | تنسيق أيقونة الملف المرفق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## AttachedFile() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`AttachedFile`](../) فئة .
+يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

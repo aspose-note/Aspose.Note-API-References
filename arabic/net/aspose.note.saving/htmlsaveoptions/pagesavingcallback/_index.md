@@ -1,24 +1,24 @@
 ---
-title: HtmlSaveOptions.PageSavingCallback
-second_title: Aspose.Note لمرجع NET API
-description: HtmlSaveOptions ملكية. الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصفحة.
+title: "HtmlSaveOptions.PageSavingCallback"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية HtmlSaveOptions. يحصل أو يضبط الـ callback الذي يُستدعى لإنشاء مورد لتخزين الصفحة"
 type: docs
 weight: 110
 url: /ar/net/aspose.note.saving/htmlsaveoptions/pagesavingcallback/
 ---
 ## HtmlSaveOptions.PageSavingCallback property
 
-الحصول على أو تعيين رد الاتصال المطلوب لإنشاء مورد لتخزين الصفحة.
+يحصل أو يضبط رد النداء الذي يتم استدعاؤه لإنشاء مورد لتخزين الصفحة.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [IPageSavingCallback](../../../aspose.note.saving.html/ipagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

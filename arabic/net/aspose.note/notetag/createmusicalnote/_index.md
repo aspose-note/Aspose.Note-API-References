@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateMusicalNote
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة MusicalNote والتسمية المحددة.
+title: "NoteTag.CreateMusicalNote"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة MusicalNote والملصق المحدد"
 type: docs
 weight: 660
 url: /ar/net/aspose.note/notetag/createmusicalnote/
 ---
 ## NoteTag.CreateMusicalNote method
 
-ينشئ علامة ملاحظة جديدة بأيقونة MusicalNote والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة MusicalNote وملصق محدد.
 
 ```csharp
 public static NoteTag CreateMusicalNote(string label = "Music to listen to")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

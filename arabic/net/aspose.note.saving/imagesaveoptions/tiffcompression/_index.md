@@ -1,28 +1,28 @@
 ---
-title: ImageSaveOptions.TiffCompression
-second_title: Aspose.Note لمرجع NET API
-description: ImageSaveOptions ملكية. الحصول على أو تحديد نوع الضغط المطلوب استخدامه عند حفظ الصور المُنشأة بتنسيق TIFF.
+title: "ImageSaveOptions.TiffCompression"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ImageSaveOptions. يحصل أو يضبط نوع الضغط الذي يُستخدم عند حفظ الصور المُولَّدة بتنسيق TIFF"
 type: docs
 weight: 60
 url: /ar/net/aspose.note.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-الحصول على أو تحديد نوع الضغط المطلوب استخدامه عند حفظ الصور المُنشأة بتنسيق TIFF.
+يحصل أو يضبط نوع الضغط المستخدم عند حفظ الصور المُولَّدة بتنسيق TIFF.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingPackBitsCompression.tiff");
@@ -34,13 +34,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingJpegCompression.tiff");
@@ -53,13 +53,13 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ مستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
+يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 var dst = Path.Combine(dataDir, "SaveToTiffUsingCcitt3Compression.tiff");
@@ -72,11 +72,11 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../imagesaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

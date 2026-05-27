@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateContactPersonOnCard
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز ContactPersonOnCard والتسمية المحددة.
+title: "NoteTag.CreateContactPersonOnCard"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة ContactPersonOnCard والعنوان المحدد"
 type: docs
 weight: 310
 url: /ar/net/aspose.note/notetag/createcontactpersononcard/
 ---
 ## NoteTag.CreateContactPersonOnCard method
 
-إنشاء علامة ملاحظة جديدة مع رمز ContactPersonOnCard والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة ContactPersonOnCard والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateContactPersonOnCard(string label = "Contact")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

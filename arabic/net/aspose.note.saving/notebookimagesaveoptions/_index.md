@@ -1,52 +1,52 @@
 ---
-title: Class NotebookImageSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.NotebookImageSaveOptions فصل. يسمح بتحديد خيارات إضافية عند عرض صفحات دفتر الملاحظات على الصور.
+title: "الفئة NotebookImageSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.NotebookImageSaveOptions. يسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى صور"
 type: docs
-weight: 760
+weight: 840
 url: /ar/net/aspose.note.saving/notebookimagesaveoptions/
 ---
 ## NotebookImageSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند عرض صفحات دفتر الملاحظات على الصور.
+يسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى صور.
 
 ```csharp
 public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [NotebookImageSaveOptions](notebookimagesaveoptions/)(SaveFormat) | يقوم بتهيئة مثيل جديد لملف`NotebookImageSaveOptions` فئة . |
+| [NotebookImageSaveOptions](notebookimagesaveoptions/)(SaveFormat) | ينشئ مثيلًا جديدًا للفئة `NotebookImageSaveOptions`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح . |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/) { get; } |  |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان التسلسل الهرمي للأطفال في دفتر الملاحظات مسطحًا أم لا. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا. |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions-1/saveformat/) { get; } |  |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/)() |  |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر ملاحظات مسطح بتنسيق pdf.
+يوضح كيفية حفظ الدفتر المسطح بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
 notebook.Save(
     dataDir,
@@ -56,13 +56,13 @@ notebook.Save(
     });
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات كصورة بخيارات محددة.
+يوضح كيفية حفظ الدفتر كصورة مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -73,17 +73,17 @@ documentSaveOptions.Resolution = 400;
 
 dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات المسطح كصورة.
+يوضح كيفية حفظ الدفتر المسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -95,15 +95,15 @@ notebookSaveOptions.Flatten = true;
 
 dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../notebooksaveoptions-1/)
 * class [ImageSaveOptions](../imagesaveoptions/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

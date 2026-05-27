@@ -1,27 +1,27 @@
 ---
-title: Document.Guid
-second_title: Aspose.Note لمرجع NET API
-description: Document ملكية. يحصل على معرف الكائن الفريد عالميًا .
+title: "Document.Guid"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Document. تحصل على المعرف الفريد عالميًا للكائنات"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/document/guid/
 ---
 ## Document.Guid property
 
-يحصل على معرف الكائن الفريد عالميًا .
+يحصل على المعرف الفريد عالميًا للكائن.
 
 ```csharp
 public Guid Guid { get; }
 ```
 
-### Property_Value
+### Property Value
 
-GUID.
+المعرف الفريد (GUID).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Note](../../document/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../document/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateGreenTarget
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة مع رمز GreenTarget والتسمية المحددة.
+title: "NoteTag.CreateGreenTarget"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز GreenTarget والعنوان المحدد"
 type: docs
 weight: 490
 url: /ar/net/aspose.note/notetag/creategreentarget/
 ---
 ## NoteTag.CreateGreenTarget method
 
-إنشاء علامة ملاحظة جديدة مع رمز GreenTarget والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenTarget والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateGreenTarget(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

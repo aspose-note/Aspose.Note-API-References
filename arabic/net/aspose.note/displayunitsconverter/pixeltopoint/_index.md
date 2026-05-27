@@ -1,32 +1,32 @@
 ---
-title: DisplayUnitsConverter.PixelToPoint
-second_title: Aspose.Note لمرجع NET API
-description: DisplayUnitsConverter طريقة. يحول البكسل إلى نقاط بدقة البكسل المحددة.
+title: "DisplayUnitsConverter.PixelToPoint"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DisplayUnitsConverter. يحول البكسلات إلى نقاط عند الدقة المحددة للبكسل"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/displayunitsconverter/pixeltopoint/
 ---
 ## DisplayUnitsConverter.PixelToPoint method
 
-يحول البكسل إلى نقاط بدقة البكسل المحددة.
+يقوم بتحويل البكسلات إلى نقاط عند دقة البكسل المحددة.
 
 ```csharp
 public static float PixelToPoint(int pixels, float dpi)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| pixels | Int32 | القيمة المطلوب تحويلها بالبكسل . |
-| dpi | Single | دقة الشاشة . |
+| pixels | Int32 | القيمة المراد تحويلها بالبكسلات. |
+| dpi | Single | دقة الشاشة. |
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DisplayUnitsConverter](../)
-* مساحة الاسم [Aspose.Note](../../displayunitsconverter/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../displayunitsconverter/)
+* assembly [Aspose.Note](../../../)
 
 

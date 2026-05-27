@@ -1,14 +1,14 @@
 ---
-title: NoteTask.CreateFollowUpToday
-second_title: Aspose.Note لمرجع NET API
-description: NoteTask طريقة. لإنشاء مهمة ملاحظة جديدة باستخدام أيقونة FollowUpTodayFlag.
+title: "NoteTask.CreateFollowUpToday"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTask. تنشئ مهمة ملاحظة جديدة مع أيقونة FollowUpTodayFlag"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/notetask/createfollowuptoday/
 ---
 ## NoteTask.CreateFollowUpToday method
 
-لإنشاء مهمة ملاحظة جديدة باستخدام أيقونة FollowUpTodayFlag.
+ينشئ مهمة ملاحظة جديدة مع أيقونة FollowUpTodayFlag.
 
 ```csharp
 public static NoteTask CreateFollowUpToday()
@@ -16,12 +16,12 @@ public static NoteTask CreateFollowUpToday()
 
 ### قيمة الإرجاع
 
-ملف[`NoteTask`](../) .
+الـ [`NoteTask`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTask](../)
-* مساحة الاسم [Aspose.Note](../../notetask/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

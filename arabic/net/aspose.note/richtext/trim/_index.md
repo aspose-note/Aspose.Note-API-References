@@ -1,62 +1,62 @@
 ---
-title: RichText.Trim
-second_title: Aspose.Note لمرجع NET API
-description: RichText طريقة. يزيل كل التكرارات السابقة والتالية لمجموعة من الأحرف المحددة في مصفوفة.
+title: "RichText.Trim"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة RichText. تزيل جميع التكرارات الأولية والنهائية لمجموعة من الأحرف المحددة في مصفوفة"
 type: docs
-weight: 210
+weight: 240
 url: /ar/net/aspose.note/richtext/trim/
 ---
 ## Trim(params char[]) {#trim_2}
 
-يزيل كل التكرارات السابقة والتالية لمجموعة من الأحرف المحددة في مصفوفة.
+يزيل جميع التكرارات في البداية والنهاية لمجموعة من الأحرف المحددة في مصفوفة.
 
 ```csharp
 public RichText Trim(params char[] trimChars)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| trimChars | Char[] | أحرف التقليم . |
+| trimChars | Char[] | أحرف القص. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Trim(char) {#trim_1}
 
-يزيل كافة المثيلات السابقة والتابعة للحرف.
+يزيل جميع الحالات في البداية والنهاية لحرف.
 
 ```csharp
 public RichText Trim(char trimChar)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| trimChar | Char | حرف القطع . |
+| trimChar | Char | حرف القص. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Trim() {#trim}
 
-يزيل كل أحرف المسافات البيضاء البادئة واللاحقة .
+يزيل جميع الأحرف البيضاء في البداية والنهاية.
 
 ```csharp
 public RichText Trim()
@@ -64,12 +64,12 @@ public RichText Trim()
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

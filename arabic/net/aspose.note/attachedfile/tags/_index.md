@@ -1,24 +1,24 @@
 ---
-title: AttachedFile.Tags
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. يحصل على قائمة بكافة علامات الفقرة .
+title: "AttachedFile.Tags"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل على قائمة بجميع العلامات في الفقرة"
 type: docs
-weight: 180
+weight: 190
 url: /ar/net/aspose.note/attachedfile/tags/
 ---
 ## AttachedFile.Tags property
 
-يحصل على قائمة بكافة علامات الفقرة .
+يحصل على قائمة جميع العلامات في الفقرة.
 
 ```csharp
 public List<ITag> Tags { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [ITag](../../itag/)
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

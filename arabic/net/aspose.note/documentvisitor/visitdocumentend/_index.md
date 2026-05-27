@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitDocumentEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةDocument العقدة .
+title: "DocumentVisitor.VisitDocumentEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. إنهاء زيارة عقدة Document"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/documentvisitor/visitdocumentend/
 ---
 ## DocumentVisitor.VisitDocumentEnd method
 
-نهاية لزيارة[`Document`](../../document/) العقدة .
+إنهاء زيارة عقدة [`Document`](../../document/)
 
 ```csharp
 public virtual void VisitDocumentEnd(Document document)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| document | Document | ملف[`Document`](../../document/) العقدة . |
+| document | Document | العقدة [`Document`](../../document/) |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Document](../../document/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

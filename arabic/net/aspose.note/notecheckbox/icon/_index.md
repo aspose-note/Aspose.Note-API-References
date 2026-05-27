@@ -1,28 +1,28 @@
 ---
-title: NoteCheckBox.Icon
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox ملكية. الحصول على الرمز أو تعيينه.
+title: "NoteCheckBox.Icon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteCheckBox خاصية. يحصل أو يعيّن الأيقونة"
 type: docs
 weight: 290
 url: /ar/net/aspose.note/notecheckbox/icon/
 ---
 ## NoteCheckBox.Icon property
 
-الحصول على الرمز أو تعيينه.
+يحصل أو يعيّن الأيقونة.
 
 ```csharp
 public override TagIcon Icon { get; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف[`TagIcon`](../../tagicon/) .
+ال [`TagIcon`](../../tagicon/).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TagIcon](../../tagicon/)
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

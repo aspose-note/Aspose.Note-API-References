@@ -1,23 +1,23 @@
 ---
-title: ResourceSavingArgs.Stream
-second_title: Aspose.Note لمرجع NET API
-description: ResourceSavingArgs ملكية. الحصول على أو تعيين الدفق المستخدم لتخزين المورد.
+title: "ResourceSavingArgs.Stream"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ResourceSavingArgs. يحصل على أو يضبط الدفق المستخدم لتخزين المورد"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving.html/resourcesavingargs/stream/
 ---
 ## ResourceSavingArgs.Stream property
 
-الحصول على أو تعيين الدفق المستخدم لتخزين المورد.
+يحصل أو يضبط الدفق المستخدم لتخزين المورد.
 
 ```csharp
 public Stream Stream { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../resourcesavingargs/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateGreenXWithDots
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة GreenXWithDots والتسمية المحددة.
+title: "NoteTag.CreateGreenXWithDots"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة GreenXWithDots والملصق المحدد"
 type: docs
 weight: 540
 url: /ar/net/aspose.note/notetag/creategreenxwithdots/
 ---
 ## NoteTag.CreateGreenXWithDots method
 
-ينشئ علامة ملاحظة جديدة بأيقونة GreenXWithDots والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenXWithDots والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateGreenXWithDots(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

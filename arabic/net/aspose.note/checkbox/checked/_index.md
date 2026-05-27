@@ -1,7 +1,7 @@
 ---
-title: CheckBox.Checked
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox ملكية. يحصل على قيمة تشير إلى ما إذا كان CheckBox في الحالة المحددة.
+title: "CheckBox.Checked"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "CheckBox خاصية. يحصل على قيمة تشير إلى ما إذا كان CheckBox في حالة الاختيار"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/checkbox/checked/
@@ -14,15 +14,15 @@ url: /ar/net/aspose.note/checkbox/checked/
 public bool Checked { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إنشاء ملف pdf يحتوي على جميع الصفحات المتعلقة بالمشروع أ.
+يوضح كيفية إنشاء ملف pdf يحتوي على جميع الصفحات المتعلقة بـ 'Project A'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 var report = new Document();
@@ -37,13 +37,13 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-يوضح كيفية إكمال جميع عناصر مربعات الاختيار المتعلقة بالمشروع ج.
+يوضح كيفية إكمال جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -60,13 +60,13 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-يوضح كيفية فتح جميع عناصر مربعات الاختيار المتعلقة بالمشروع ج.
+يوضح كيفية فتح جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 
 foreach (var node in oneFile.GetChildNodes<ITaggable>())
@@ -83,13 +83,13 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-يوضح كيفية إنشاء ملف pdf يحتوي على صفحات تحتوي على عناصر تم تمييزها بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
+يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر معلمة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
 
 var report = new Document();
@@ -104,13 +104,13 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
 
-يوضح كيفية إنشاء ملف pdf يحتوي على صفحات بها مهام غير مكتملة في Outlook لإكمالها في هذا الأسبوع.
+يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها مهام Outlook غير مكتملة لإكمالها هذا الأسبوع.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
 
 var report = new Document();
@@ -126,10 +126,10 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

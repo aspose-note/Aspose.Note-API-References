@@ -1,23 +1,23 @@
 ---
-title: TextStyle.DefaultMsOneNoteTitleTextStyle
-second_title: Aspose.Note لمرجع NET API
-description: TextStyle ملكية. الحصول على النمط الافتراضي لنص العنوان في MS OneNote .
+title: "TextStyle.DefaultMsOneNoteTitleTextStyle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextStyle. تحصل على النمط الافتراضي لنص العنوان في MS OneNote"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/textstyle/defaultmsonenotetitletextstyle/
 ---
 ## TextStyle.DefaultMsOneNoteTitleTextStyle property
 
-الحصول على النمط الافتراضي لنص العنوان في MS OneNote .
+يحصل على النمط الافتراضي لنص العنوان في MS OneNote.
 
 ```csharp
 public static TextStyle DefaultMsOneNoteTitleTextStyle { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

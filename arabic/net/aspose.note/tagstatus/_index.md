@@ -1,9 +1,9 @@
 ---
-title: Enum TagStatus
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.TagStatus تعداد. يحدد حالة عقدة علامة الملاحظة.
+title: "تعداد TagStatus"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "تعداد Aspose.Note.TagStatus. يحدد حالة عقدة علامة الملاحظة"
 type: docs
-weight: 950
+weight: 1030
 url: /ar/net/aspose.note/tagstatus/
 ---
 ## TagStatus enumeration
@@ -14,17 +14,17 @@ url: /ar/net/aspose.note/tagstatus/
 public enum TagStatus
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Open | `0` | علامة الملاحظة مفتوحة . |
-| Completed | `1` | تم الانتهاء من علامة الملاحظة . |
-| Disabled | `2` | علامة الملاحظة معطلة . |
+| Open | `0` | علامة الملاحظة مفتوحة. |
+| Completed | `1` | علامة الملاحظة مكتملة. |
+| Disabled | `2` | علامة الملاحظة معطلة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

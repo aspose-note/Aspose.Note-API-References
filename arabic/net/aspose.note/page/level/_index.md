@@ -1,28 +1,28 @@
 ---
-title: Page.Level
-second_title: Aspose.Note لمرجع NET API
-description: Page ملكية. الحصول على المستوى أو تحديده .
+title: "Page.Level"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Page. يحصل أو يحدد المستوى"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/page/level/
 ---
 ## Page.Level property
 
-الحصول على المستوى أو تحديده .
+يحصل أو يضبط المستوى.
 
 ```csharp
 public byte Level { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على معلومات التعريف حول الصفحة.
+يظهر كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -36,13 +36,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-يوضح كيفية الحصول على محفوظات الصفحة.
+يظهر كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote
+// تحميل مستند OneNote.
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى
@@ -59,23 +59,23 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-يوضح كيفية إضافة صفحة بصفحة فرعية.
+يوضح كيفية إضافة صفحة مع صفحة فرعية.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة وتعيين مستواه
-Aspose.Note.Page page1 = new Aspose.Note.Page(doc) { Level = 1 };
+// تهيئة كائن فئة Page وضبط مستواه
+Page page1 = new Page() { Level = 1 };
 
-// تهيئة كائن فئة الصفحة وتعيين مستواه
-Aspose.Note.Page page2 = new Aspose.Note.Page(doc) { Level = 2 };
+// تهيئة كائن فئة Page وضبط مستواه
+Page page2 = new Page() { Level = 2 };
 
-// تهيئة كائن فئة الصفحة وتعيين مستواه
-Aspose.Note.Page page3 = new Aspose.Note.Page(doc) { Level = 1 };
+// تهيئة كائن فئة Page وضبط مستواه
+Page page3 = new Page() { Level = 1 };
 
 /*---------- Adding nodes to first Page ----------*/
 Outline outline = new Outline();
@@ -109,15 +109,15 @@ doc.AppendChildLast(page1);
 doc.AppendChildLast(page2);
 doc.AppendChildLast(page3);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

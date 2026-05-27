@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitPageStart
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. ابدأ بزيارة موقعPage العقدة .
+title: "DocumentVisitor.VisitPageStart"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. بدء زيارة عقدة Page"
 type: docs
-weight: 140
+weight: 220
 url: /ar/net/aspose.note/documentvisitor/visitpagestart/
 ---
 ## DocumentVisitor.VisitPageStart method
 
-ابدأ بزيارة موقع[`Page`](../../page/) العقدة .
+بدء زيارة عقدة [`Page`](../../page/).
 
 ```csharp
 public virtual void VisitPageStart(Page page)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | Page | ملف[`Page`](../../page/) العقدة . |
+| page | Page | العقدة [`Page`](../../page/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitTableEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةTable العقدة .
+title: "DocumentVisitor.VisitTableEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. النهاية لزيارة عقدة Table"
 type: docs
-weight: 190
+weight: 270
 url: /ar/net/aspose.note/documentvisitor/visittableend/
 ---
 ## DocumentVisitor.VisitTableEnd method
 
-نهاية لزيارة[`Table`](../../table/) العقدة .
+النهاية لزيارة عقدة [`Table`](../../table/).
 
 ```csharp
 public virtual void VisitTableEnd(Table table)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| table | Table | ملف[`Table`](../../table/) العقدة . |
+| table | Table | العقدة [`Table`](../../table/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Table](../../table/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

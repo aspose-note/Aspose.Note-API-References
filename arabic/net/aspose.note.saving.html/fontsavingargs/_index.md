@@ -1,14 +1,14 @@
 ---
-title: Class FontSavingArgs
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.Html.FontSavingArgs فصل. توفير بيانات لحدث FontSaving .
+title: "الفئة FontSavingArgs"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "فئة Aspose.Note.Saving.Html.FontSavingArgs. توفر بيانات لحدث FontSaving"
 type: docs
-weight: 600
+weight: 680
 url: /ar/net/aspose.note.saving.html/fontsavingargs/
 ---
 ## FontSavingArgs class
 
-توفير بيانات لحدث FontSaving .
+يوفر بيانات لحدث FontSaving.
 
 ```csharp
 public class FontSavingArgs : ResourceSavingArgs
@@ -16,21 +16,21 @@ public class FontSavingArgs : ResourceSavingArgs
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Document](../../aspose.note.saving.html/resourcesavingargs/document/) { get; } | يحصل على مستند الحفظ . |
+| [Document](../../aspose.note.saving.html/resourcesavingargs/document/) { get; } | يحصل على مستند الحفظ. |
 | [FileName](../../aspose.note.saving.html/resourcesavingargs/filename/) { get; } | يحصل على اسم الملف. |
-| [FontFamilyName](../../aspose.note.saving.html/fontsavingargs/fontfamilyname/) { get; } | الحصول على اسم عائلة الخط المراد حفظه. |
-| [IsBold](../../aspose.note.saving.html/fontsavingargs/isbold/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الخط تحت الحفظ غامقًا. |
-| [IsItalic](../../aspose.note.saving.html/fontsavingargs/isitalic/) { get; } | الحصول على قيمة تشير إلى ما إذا كان الخط تحت الحفظ مائلًا. |
-| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان البث مفتوحًا. |
-| [Stream](../../aspose.note.saving.html/resourcesavingargs/stream/) { get; set; } | الحصول على أو تعيين الدفق المستخدم لتخزين المورد. |
-| [Uri](../../aspose.note.saving.html/resourcesavingargs/uri/) { get; set; } | الحصول على أو تعيين uri للوصول إلى المورد المخزن. |
+| [FontFamilyName](../../aspose.note.saving.html/fontsavingargs/fontfamilyname/) { get; } | يحصل على اسم عائلة الخط الذي سيتم حفظه. |
+| [IsBold](../../aspose.note.saving.html/fontsavingargs/isbold/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه غامقًا. |
+| [IsItalic](../../aspose.note.saving.html/fontsavingargs/isitalic/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه مائلًا. |
+| [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب إبقاء الدفق مفتوحًا. |
+| [Stream](../../aspose.note.saving.html/resourcesavingargs/stream/) { get; set; } | يحصل أو يضبط الدفق المستخدم لتخزين المورد. |
+| [Uri](../../aspose.note.saving.html/resourcesavingargs/uri/) { get; set; } | يحصل أو يضبط عنوان الـ URI للوصول إلى المورد المخزن. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceSavingArgs](../resourcesavingargs/)
-* مساحة الاسم [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

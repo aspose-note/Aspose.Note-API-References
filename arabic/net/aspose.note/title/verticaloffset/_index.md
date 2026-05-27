@@ -1,23 +1,23 @@
 ---
-title: Title.VerticalOffset
-second_title: Aspose.Note لمرجع NET API
-description: Title ملكية. الحصول على أو تعيين الإزاحة الرأسية .
+title: "Title.VerticalOffset"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Title. تحصل أو تعين الإزاحة العمودية"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/title/verticaloffset/
 ---
 ## Title.VerticalOffset property
 
-الحصول على أو تعيين الإزاحة الرأسية .
+يحصل أو يضبط الإزاحة العمودية.
 
 ```csharp
 public float VerticalOffset { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../)
-* مساحة الاسم [Aspose.Note](../../title/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../title/)
+* assembly [Aspose.Note](../../../)
 
 

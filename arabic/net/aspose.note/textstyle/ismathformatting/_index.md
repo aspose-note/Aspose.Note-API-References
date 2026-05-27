@@ -1,23 +1,23 @@
 ---
-title: TextStyle.IsMathFormatting
-second_title: Aspose.Note لمرجع NET API
-description: TextStyle ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي.
+title: "TextStyle.IsMathFormatting"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextStyle. تحصل أو تعيّن قيمة تشير إلى ما إذا كان نمط النص هو تنسيق رياضي"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/textstyle/ismathformatting/
 ---
 ## TextStyle.IsMathFormatting property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي.
 
 ```csharp
 public bool IsMathFormatting { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

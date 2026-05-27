@@ -1,23 +1,23 @@
 ---
-title: Style.IsItalic
-second_title: Aspose.Note لمرجع NET API
-description: Style ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مائلاً.
+title: "Style.IsItalic"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Style. يحصل على أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائل"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/style/isitalic/
 ---
 ## Style.IsItalic property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص مائلاً.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا.
 
 ```csharp
 public bool IsItalic { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Note](../../style/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Notebook.GetEnumerator
-second_title: Aspose.Note لمرجع NET API
-description: Notebook طريقة. إرجاع العداد الذي يتكرر خلال العقد التابعة لملفNotebook .
+title: "Notebook.GetEnumerator"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Notebook. تُرجع مُعدِّداً يتنقل عبر العقد الفرعية لـ Notebook"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/notebook/getenumerator/
 ---
 ## Notebook.GetEnumerator method
 
-إرجاع العداد الذي يتكرر خلال العقد التابعة لملف[`Notebook`](../) .
+تُرجع مُعدِّداً يتنقل عبر العقد الفرعية لـ [`Notebook`](../).
 
 ```csharp
 public IEnumerator<INotebookChildNode> GetEnumerator()
@@ -16,13 +16,13 @@ public IEnumerator<INotebookChildNode> GetEnumerator()
 
 ### قيمة الإرجاع
 
-أIEnumerator .
+مُعدِّد IEnumerator.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INotebookChildNode](../../inotebookchildnode/)
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

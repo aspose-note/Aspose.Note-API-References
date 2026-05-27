@@ -1,27 +1,27 @@
 ---
-title: CheckBox.CreationTime
-second_title: Aspose.Note لمرجع NET API
-description: CheckBox ملكية. الحصول على وقت الإنشاء أو تعيينه.
+title: "CheckBox.CreationTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية CheckBox. تحصل أو تعين وقت الإنشاء"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/checkbox/creationtime/
 ---
 ## CheckBox.CreationTime property
 
-الحصول على وقت الإنشاء أو تعيينه.
+يحصل أو يعيّن وقت الإنشاء.
 
 ```csharp
 public DateTime CreationTime { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-ملفDateTime .
+الـ DateTime.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CheckBox](../)
-* مساحة الاسم [Aspose.Note](../../checkbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../checkbox/)
+* assembly [Aspose.Note](../../../)
 
 

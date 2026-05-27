@@ -1,23 +1,23 @@
 ---
-title: Interface IOutlineChildNode
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.IOutlineChildNode واجهه المستخدم. الواجهة لجميع العقد التابعة لعقدة المخطط التفصيلي.
+title: "الواجهة IOutlineChildNode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "واجهة Aspose.Note.IOutlineChildNode. الواجهة لجميع العقد الفرعية لعقدة المخطط."
 type: docs
 weight: 200
 url: /ar/net/aspose.note/ioutlinechildnode/
 ---
 ## IOutlineChildNode interface
 
-الواجهة لجميع العقد التابعة لعقدة المخطط التفصيلي.
+الواجهة لجميع العقد الفرعية لعقدة المخطط.
 
 ```csharp
 public interface IOutlineChildNode : INode
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INode](../inode/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

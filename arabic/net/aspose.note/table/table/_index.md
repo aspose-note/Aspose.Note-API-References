@@ -1,23 +1,23 @@
 ---
-title: Table.Table
-second_title: Aspose.Note لمرجع NET API
-description: Table البناء. يقوم بتهيئة مثيل جديد لملفTable فئة .
+title: "Table.Table"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ Table. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/table/table/
 ---
 ## Table constructor
 
-يقوم بتهيئة مثيل جديد لملف[`Table`](../) فئة .
+البناء الافتراضي.
 
 ```csharp
 public Table()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Note](../../table/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../table/)
+* assembly [Aspose.Note](../../../)
 
 

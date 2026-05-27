@@ -1,7 +1,7 @@
 ---
-title: Image.FileName
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. يحصل على اسم الملف.
+title: "Image.FileName"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل على اسم الملف"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/image/filename/
@@ -14,18 +14,18 @@ url: /ar/net/aspose.note/image/filename/
 public string FileName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
+يظهر كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,10 +40,10 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: PageHistory.IsReadOnly
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory ملكية. يحصل على قيمة تشير إلى ما إذا كان تاريخ الصفحة للقراءة فقط.
+title: "PageHistory.IsReadOnly"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PageHistory. يحصل على قيمة تشير إلى ما إذا كان تاريخ الصفحة للقراءة فقط"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/pagehistory/isreadonly/
@@ -14,10 +14,10 @@ url: /ar/net/aspose.note/pagehistory/isreadonly/
 public bool IsReadOnly { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

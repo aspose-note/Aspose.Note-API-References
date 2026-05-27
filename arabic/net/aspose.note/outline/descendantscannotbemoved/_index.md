@@ -1,23 +1,23 @@
 ---
-title: Outline.DescendantsCannotBeMoved
-second_title: Aspose.Note لمرجع NET API
-description: Outline ملكية. الحصول على ما إذا كان يمكن نقل أحفاد المخطط التفصيلي.
+title: "Outline.DescendantsCannotBeMoved"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Outline. يحصل على ما إذا كان يمكن نقل السلف"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/outline/descendantscannotbemoved/
 ---
 ## Outline.DescendantsCannotBeMoved property
 
-الحصول على ما إذا كان يمكن نقل أحفاد المخطط التفصيلي.
+يحصل على ما إذا كان يمكن نقل العناصر التابعة للمخطط.
 
 ```csharp
 public bool DescendantsCannotBeMoved { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Outline](../)
-* مساحة الاسم [Aspose.Note](../../outline/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outline/)
+* assembly [Aspose.Note](../../../)
 
 

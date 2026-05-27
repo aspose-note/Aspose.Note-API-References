@@ -1,55 +1,55 @@
 ---
-title: NoteTag.Equals
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+title: "NoteTag.Equals"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي"
 type: docs
 weight: 1200
 url: /ar/net/aspose.note/notetag/equals/
 ---
 ## Equals(object) {#equals_1}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن . |
+| obj | Object | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Equals(NoteTag) {#equals}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public bool Equals(NoteTag other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| other | NoteTag | الكائن . |
+| أخرى | NoteTag | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

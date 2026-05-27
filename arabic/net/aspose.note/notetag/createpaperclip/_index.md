@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreatePaperClip
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة مشبك الورق والتسمية المحددة.
+title: "NoteTag.CreatePaperClip"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة PaperClip والعنوان المحدد"
 type: docs
 weight: 730
 url: /ar/net/aspose.note/notetag/createpaperclip/
 ---
 ## NoteTag.CreatePaperClip method
 
-ينشئ علامة ملاحظة جديدة بأيقونة مشبك الورق والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة PaperClip وملصق محدد.
 
 ```csharp
 public static NoteTag CreatePaperClip(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

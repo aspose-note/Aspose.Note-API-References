@@ -1,22 +1,22 @@
 ---
-title: MergeOptions.PageSpacing
-second_title: Aspose.Note لمرجع NET API
-description: MergeOptions ملكية. الحصول على التباعد بين الصفحات أو تعيينه عند استيرادها كصفحة واحدة.
+title: "MergeOptions.PageSpacing"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية MergeOptions. تحصل أو تعين التباعد بين الصفحات عند استيرادها كصفحة واحدة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/mergeoptions/pagespacing/
 ---
 ## MergeOptions.PageSpacing property
 
-الحصول على التباعد بين الصفحات أو تعيينه عند استيرادها كصفحة واحدة.
+يحصل أو يعيّن التباعد بين الصفحات عند استيرادها كصفحة واحدة.
 
 ```csharp
 public float PageSpacing { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مستند PDF الذي يجمع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -35,7 +35,7 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-يوضح كيفية استيراد كل المحتوى من مجموعة مستندات PDF أثناء دمج الصفحات من كل مستند PDF إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع المحتويات من مجموعة مستندات PDF مع دمج صفحات كل مستند PDF إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -52,10 +52,10 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [MergeOptions](../)
-* مساحة الاسم [Aspose.Note](../../mergeoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../mergeoptions/)
+* assembly [Aspose.Note](../../../)
 
 

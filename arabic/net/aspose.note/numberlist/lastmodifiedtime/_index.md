@@ -1,23 +1,23 @@
 ---
-title: NumberList.LastModifiedTime
-second_title: Aspose.Note لمرجع NET API
-description: NumberList ملكية. الحصول على أو تعيين وقت آخر تعديل.
+title: "NumberList.LastModifiedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية NumberList. تحصل أو تعين وقت آخر تعديل"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/numberlist/lastmodifiedtime/
 ---
 ## NumberList.LastModifiedTime property
 
-الحصول على أو تعيين وقت آخر تعديل.
+يحصل أو يعيّن وقت آخر تعديل.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NumberList](../)
-* مساحة الاسم [Aspose.Note](../../numberlist/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 

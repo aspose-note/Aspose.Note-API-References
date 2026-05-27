@@ -1,34 +1,34 @@
 ---
-title: INoteTag.FontColor
-second_title: Aspose.Note لمرجع NET API
-description: INoteTag ملكية. الحصول على لون الخط أو تعيينه.
+title: "INoteTag.FontColor"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية INoteTag. يحصل أو يضبط لون الخط"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/inotetag/fontcolor/
 ---
 ## INoteTag.FontColor property
 
-الحصول على لون الخط أو تعيينه.
+يحصل أو يضبط لون الخط.
 
 ```csharp
 public Color FontColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الوصول إلى تفاصيل العلامة.
+يظهر كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "TagFile.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -37,7 +37,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -50,10 +50,10 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INoteTag](../)
-* مساحة الاسم [Aspose.Note](../../inotetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../inotetag/)
+* assembly [Aspose.Note](../../../)
 
 

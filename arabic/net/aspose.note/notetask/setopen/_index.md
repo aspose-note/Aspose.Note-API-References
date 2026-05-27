@@ -1,23 +1,23 @@
 ---
-title: NoteTask.SetOpen
-second_title: Aspose.Note لمرجع NET API
-description: NoteTask طريقة. يعين العلامة لفتح حالة .
+title: "NoteTask.SetOpen"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTask. تعيّن العلامة إلى الحالة المفتوحة"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/notetask/setopen/
 ---
 ## NoteTask.SetOpen method
 
-يعين العلامة لفتح حالة .
+يضبط العلامة إلى حالة مفتوحة.
 
 ```csharp
 public override void SetOpen()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTask](../)
-* مساحة الاسم [Aspose.Note](../../notetask/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetask/)
+* assembly [Aspose.Note](../../../)
 
 

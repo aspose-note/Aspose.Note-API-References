@@ -1,23 +1,23 @@
 ---
-title: AlwaysSplitObjectsAlgorithm.AlwaysSplitObjectsAlgorithm
-second_title: Aspose.Note لمرجع NET API
-description: AlwaysSplitObjectsAlgorithm البناء. Default_Constructor
+title: "AlwaysSplitObjectsAlgorithm.AlwaysSplitObjectsAlgorithm"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "AlwaysSplitObjectsAlgorithm constructor. المُنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/alwayssplitobjectsalgorithm/alwayssplitobjectsalgorithm/
 ---
 ## AlwaysSplitObjectsAlgorithm constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public AlwaysSplitObjectsAlgorithm()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AlwaysSplitObjectsAlgorithm](../)
-* مساحة الاسم [Aspose.Note.Saving](../../alwayssplitobjectsalgorithm/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../alwayssplitobjectsalgorithm/)
+* assembly [Aspose.Note](../../../)
 
 

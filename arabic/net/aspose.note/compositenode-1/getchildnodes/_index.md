@@ -1,40 +1,40 @@
 ---
-title: CompositeNode1.GetChildNodes
-second_title: Aspose.Note لمرجع NET API
-description: CompositeNode طريقة. احصل على جميع العقد الفرعية حسب نوع العقدة .
+title: "CompositeNode1.GetChildNodes"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة CompositeNode. احصل على جميع العقد الفرعية حسب نوع العقدة"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/compositenode-1/getchildnodes/
 ---
 ## CompositeNode&lt;T&gt;.GetChildNodes&lt;T1&gt; method
 
-احصل على جميع العقد الفرعية حسب نوع العقدة .
+احصل على جميع عقد الطفل حسب نوع العقدة.
 
 ```csharp
 public override List<T1> GetChildNodes<T1>()
     where T1 : class, INode
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| T1 | نوع العناصر في القائمة التي تم إرجاعها. |
+| T1 | نوع العناصر في القائمة المعادة. |
 
 ### قيمة الإرجاع
 
-قائمة بالعقد الفرعية.
+قائمة من العقد الفرعية.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على صورة من مستند.
+يظهر كيفية الحصول على صورة من مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -43,23 +43,23 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // حفظ بايت الصورة في ملف
+            // حفظ بايتات الصورة إلى ملف
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
 }
 ```
 
-يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
+يظهر كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -74,11 +74,11 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [INode](../../inode/)
 * class [CompositeNode&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Note](../../compositenode-1/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

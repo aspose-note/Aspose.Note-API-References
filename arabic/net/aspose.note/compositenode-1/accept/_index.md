@@ -1,28 +1,28 @@
 ---
-title: CompositeNode1.Accept
-second_title: Aspose.Note لمرجع NET API
-description: CompositeNode طريقة. يقبل زائر العقدة .
+title: "CompositeNode1.Accept"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة CompositeNode. تقبل زائر العقدة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/compositenode-1/accept/
 ---
 ## CompositeNode&lt;T&gt;.Accept method
 
-يقبل زائر العقدة .
+يقبل زائر العقدة.
 
 ```csharp
 public override void Accept(DocumentVisitor visitor)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | كائن فئة مشتقة من[`DocumentVisitor`](../../documentvisitor/) . |
+| visitor | DocumentVisitor | الكائن من فئة مشتقة من [`DocumentVisitor`](../../documentvisitor/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [CompositeNode&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Note](../../compositenode-1/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

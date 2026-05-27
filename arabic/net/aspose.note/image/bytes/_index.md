@@ -1,7 +1,7 @@
 ---
-title: Image.Bytes
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. يحصل على مخزن بيانات الصورة.
+title: "Image.Bytes"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل على مخزن بيانات الصورة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/image/bytes/
@@ -14,18 +14,18 @@ url: /ar/net/aspose.note/image/bytes/
 public byte[] Bytes { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على صورة من مستند.
+يظهر كيفية الحصول على صورة من مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -34,17 +34,17 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // حفظ بايت الصورة في ملف
+            // حفظ بايتات الصورة إلى ملف
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

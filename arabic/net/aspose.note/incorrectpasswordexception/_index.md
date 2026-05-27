@@ -1,22 +1,22 @@
 ---
-title: Class IncorrectPasswordException
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.IncorrectPasswordException فصل. يتم إلقاؤه إذا تم تشفير المستند بكلمة مرور وكلمة المرور المحددة عند فتح المستند غير صحيحة أو مفقودة.
+title: "الفئة IncorrectPasswordException"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.IncorrectPasswordException. تُرمى إذا كان المستند مشفرًا بكلمة مرور وكلمة المرور المحددة عند فتح المستند غير صحيحة أو مفقودة"
 type: docs
-weight: 290
+weight: 310
 url: /ar/net/aspose.note/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
 
-يتم إلقاؤه إذا تم تشفير المستند بكلمة مرور وكلمة المرور المحددة عند فتح المستند غير صحيحة أو مفقودة.
+يُرمى إذا كان المستند مشفرًا بكلمة مرور وكلمة المرور المحددة عند فتح المستند غير صحيحة أو مفقودة.
 
 ```csharp
 public class IncorrectPasswordException : Exception
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

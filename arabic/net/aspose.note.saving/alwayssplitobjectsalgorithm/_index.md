@@ -1,34 +1,34 @@
 ---
-title: Class AlwaysSplitObjectsAlgorithm
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.AlwaysSplitObjectsAlgorithm فصل. يقسم الكائن إلى عدة أجزاء في حالة عدم احتوائه في الصفحة الأصلية.
+title: "الفئة AlwaysSplitObjectsAlgorithm"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.AlwaysSplitObjectsAlgorithm. تقسم كائنًا إلى عدة أجزاء في حال عدم تناسبه مع الصفحة الأصلية"
 type: docs
-weight: 550
+weight: 630
 url: /ar/net/aspose.note.saving/alwayssplitobjectsalgorithm/
 ---
 ## AlwaysSplitObjectsAlgorithm class
 
-يقسم الكائن إلى عدة أجزاء في حالة عدم احتوائه في الصفحة الأصلية.
+يقسم كائنًا إلى عدة أجزاء في حال عدم ملاءمته للصفحة الأصلية.
 
 ```csharp
 public class AlwaysSplitObjectsAlgorithm : PageSplittingAlgorithm
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AlwaysSplitObjectsAlgorithm](alwayssplitobjectsalgorithm/)() | Default_Constructor |
+| [AlwaysSplitObjectsAlgorithm](alwayssplitobjectsalgorithm/)() | البناء الافتراضي. |
 
-### أمثلة
+## أمثلة
 
-عندما يتم حفظ صفحات OneNote الطويلة بتنسيق pdf ، يتم تقسيمها عبر الصفحات. يوضح المثال كيفية تكوين منطق تقسيم الكائنات الموجودة في فواصل الصفحة.
+عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 var pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSplittingAlgorithm = new AlwaysSplitObjectsAlgorithm();
@@ -50,10 +50,10 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSplittingAlgorithm](../pagesplittingalgorithm/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

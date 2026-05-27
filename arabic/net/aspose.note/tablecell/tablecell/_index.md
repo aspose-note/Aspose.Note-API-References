@@ -1,23 +1,23 @@
 ---
-title: TableCell.TableCell
-second_title: Aspose.Note لمرجع NET API
-description: TableCell البناء. يقوم بتهيئة مثيل جديد لملفTableCell فئة .
+title: "TableCell.TableCell"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "TableCell منشئ. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/tablecell/tablecell/
 ---
 ## TableCell constructor
 
-يقوم بتهيئة مثيل جديد لملف[`TableCell`](../) فئة .
+البناء الافتراضي.
 
 ```csharp
 public TableCell()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableCell](../)
-* مساحة الاسم [Aspose.Note](../../tablecell/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablecell/)
+* assembly [Aspose.Note](../../../)
 
 

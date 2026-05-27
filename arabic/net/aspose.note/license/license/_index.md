@@ -1,23 +1,23 @@
 ---
-title: License.License
-second_title: Aspose.Note لمرجع NET API
-description: License البناء. Default_Constructor
+title: "License.License"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ License. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/license/license/
 ---
 ## License constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public License()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [License](../)
-* مساحة الاسم [Aspose.Note](../../license/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../license/)
+* assembly [Aspose.Note](../../../)
 
 

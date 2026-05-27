@@ -1,198 +1,198 @@
 ---
-title: Enum TagIcon
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.TagIcon تعداد. يحدد رمز العلامة أو أيقونة المهمة.
+title: "تعداد TagIcon"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "تعداد Aspose.Note.TagIcon. يحدد أيقونة العلامة أو أيقونة المهمة"
 type: docs
-weight: 940
+weight: 1020
 url: /ar/net/aspose.note/tagicon/
 ---
 ## TagIcon enumeration
 
-يحدد رمز العلامة أو أيقونة المهمة.
+يحدد أيقونة العلامة أو أيقونة المهمة.
 
 ```csharp
 public enum TagIcon
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| NoIcon | `0` | أيقونة غير محددة. |
-| GreenCheckBox | `1` | أيقونة خانة اختيار خضراء. |
-| YellowCheckBox | `2` | رمز خانة اختيار أصفر. |
-| BlueCheckBox | `3` | رمز مربع الاختيار الأزرق. |
-| GreenStarCheckBox | `4` | رمز خانة اختيار النجمة الخضراء. |
-| YellowStarCheckBox | `5` | رمز خانة اختيار نجمة صفراء. |
-| BlueStarCheckBox | `6` | رمز خانة اختيار النجمة الزرقاء. |
-| GreenExclamationCheckBox | `7` | رمز خانة اختيار علامة تعجب خضراء. |
-| YellowExclamationCheckBox | `8` | رمز خانة اختيار علامة تعجب صفراء. |
-| BlueExclamationCheckBox | `9` | رمز خانة الاختيار تعجب أزرق. |
-| GreenRightArrowCheckBox | `10` | رمز خانة اختيار باللون الأخضر ذي السهم الأيمن. |
-| YellowRightArrowCheckBox | `11` | رمز خانة اختيار باللون الأصفر مع سهم لليمين. |
-| BlueRightArrowCheckBox | `12` | رمز خانة اختيار باللون الأزرق ذي السهم الأيمن. |
-| YellowStar | `13` | رمز نجمة صفراء . |
-| BlueFollowUpFlag | `14` | رمز علامة المتابعة الزرقاء. |
-| QuestionMark | `15` | رمز علامة الاستفهام . |
-| BlueRightArrow | `16` | رمز السهم الأزرق الأيمن. |
-| HighPriority | `17` | رمز أولوية عالية (علامة تعجب حمراء). |
-| ContactInformation | `18` | رمز معلومات الاتصال . |
-| Meeting | `19` | رمز الاجتماع (التقويم) . |
-| TimeSensitive | `20` | رمز حساس للوقت . |
-| LightBulb | `21` | رمز المصباح الكهربائي . |
-| Pushpin | `22` | رمز دبوس التثبيت. |
-| Home | `23` | أيقونة الصفحة الرئيسية. |
-| CommentBubble | `24` | رمز فقاعة التعليق. |
-| SmilingFace | `25` | رمز الوجه المبتسم . |
-| AwardRibbon | `26` | رمز شريط الجائزة . |
-| YellowKey | `27` | رمز المفتاح الأصفر . |
-| BlueCheckBox1 | `28` | رمز مربع الاختيار 1 الأزرق . |
-| BlueCircle1 | `29` | رمز الدائرة الزرقاء 1 . |
-| BlueCheckBox2 | `30` | رمز مربع الاختيار 2 الأزرق . |
-| BlueCircle2 | `31` | رمز الدائرة الزرقاء 2 . |
-| BlueCheckBox3 | `32` | رمز مربع الاختيار 3 الأزرق . |
-| BlueCircle3 | `33` | رمز الدائرة الزرقاء 3. |
-| BlueEightPointStar | `34` | أيقونة نجمة من ثماني نقاط زرقاء . |
-| BlueCheckMark | `35` | رمز علامة الاختيار الزرقاء . |
-| BlueCircle | `36` | رمز الدائرة الزرقاء . |
-| BlueDownArrow | `37` | رمز السهم الأزرق لأسفل. |
-| BlueLeftArrow | `38` | رمز السهم الأيسر الأزرق . |
-| BlueSolidTarget | `39` | أيقونة الهدف الصلبة الزرقاء . |
-| BlueStar | `40` | رمز النجمة الزرقاء . |
-| BlueSun | `41` | أيقونة الشمس الزرقاء . |
-| BlueTarget | `42` | رمز الهدف الأزرق . |
-| BlueTriangle | `43` | رمز المثلث الأزرق . |
-| BlueUmbrella | `44` | أيقونة مظلة زرقاء . |
-| BlueUpArrow | `45` | رمز السهم الأزرق لأعلى . |
-| BlueXWithDots | `46` | أزرق "X" مع رمز النقاط . |
-| BlueXNo | `47` | أيقونة "X" الزرقاء . |
-| GreenCheckBox1 | `48` | رمز خانة اختيار أخضر 1 . |
-| GreenCircle1 | `49` | رمز الدائرة الخضراء 1 . |
-| GreenCheckBox2 | `50` | رمز مربع الاختيار الأخضر 2 . |
-| GreenCircle2 | `51` | رمز الدائرة الخضراء 2. |
-| GreenCheckBox3 | `52` | رمز مربع الاختيار الأخضر 3 . |
-| GreenCircle3 | `53` | رمز الدائرة الخضراء 3 . |
-| GreenEightPointStar | `54` | أيقونة نجمة ذات ثماني نقاط خضراء . |
-| GreenCheckMark | `55` | رمز علامة الاختيار الخضراء . |
-| GreenCircle | `56` | رمز الدائرة الخضراء . |
-| GreenDownArrow | `57` | رمز السهم الأخضر لأسفل . |
-| GreenLeftArrow | `58` | رمز السهم الأخضر الأيسر . |
-| GreenRightArrow | `59` | رمز السهم الأخضر لليمين . |
-| GreenSolidArrow | `60` | رمز السهم الأخضر المصمت . |
-| GreenStar | `61` | رمز النجمة الخضراء . |
-| GreenSun | `62` | رمز الشمس الخضراء . |
-| GreenTarget | `63` | رمز الهدف الأخضر . |
-| GreenTriangle | `64` | رمز المثلث الأخضر . |
-| GreenUmbrella | `65` | أيقونة مظلة خضراء . |
-| GreenUpArrow | `66` | رمز السهم الأخضر لأعلى . |
-| GreenXWithDots | `67` | علامة "X" خضراء مع رمز النقاط . |
-| GreenXNo | `68` | أيقونة "X" خضراء . |
-| YellowCheckBox1 | `69` | رمز خانة الاختيار 1 باللون الأصفر . |
-| YellowCircle1 | `70` | رمز الدائرة الصفراء 1 . |
-| YellowCheckBox2 | `71` | رمز مربع الاختيار 2 باللون الأصفر. |
-| YellowCircle2 | `72` | رمز الدائرة الصفراء 2 . |
-| YellowCheckBox3 | `73` | رمز مربع الاختيار 3 باللون الأصفر . |
-| YellowCircle3 | `74` | رمز الدائرة الصفراء 3 . |
-| YellowEightPointStar | `75` | أيقونة نجمة ذات ثماني نقاط صفراء . |
-| YellowCheckMark | `76` | رمز علامة الاختيار الصفراء . |
-| YellowCircle | `77` | رمز الدائرة الصفراء . |
-| YellowDownArrow | `78` | رمز السهم الأصفر لأسفل . |
-| YellowLeftArrow | `79` | رمز السهم الأيسر الأصفر . |
-| YellowRightArrow | `80` | رمز السهم الأصفر الأيمن. |
-| YellowSolidTarget | `81` | رمز الهدف الصلب الأصفر . |
-| YellowSun | `82` | أيقونة الشمس الصفراء . |
-| YellowTarget | `83` | رمز الهدف الأصفر . |
-| YellowTriangle | `84` | رمز المثلث الأصفر . |
-| YellowUmbrella | `85` | رمز مظلة صفراء . |
-| YellowUpArrow | `86` | رمز السهم الأصفر لأعلى . |
-| YellowXWithDots | `87` | علامة "X" صفراء مع رمز النقاط. |
-| YellowX | `88` | رمز "X" أصفر . |
-| FollowUpTodayFlag | `89` | متابعة رمز العلم اليوم . |
-| FollowUpTomorrowFlag | `90` | متابعة أيقونة علم الغد. |
-| FollowUpThisWeekFlag | `91` | متابعة رمز العلم هذا الأسبوع . |
-| FollowUpNextWeekFlag | `92` | متابعة رمز العلم الأسبوع القادم . |
-| NoFollowUpDateFlag | `93` | لا يوجد رمز علامة تاريخ المتابعة. |
-| BluePersonCheckBox | `94` | رمز خانة اختيار الشخص الأزرق. |
-| YellowPersonCheckBox | `95` | رمز خانة اختيار الشخص الأصفر. |
-| GreenPersonCheckBox | `96` | رمز خانة اختيار الشخص الأخضر. |
-| BlueFlagCheckBox | `97` | رمز خانة اختيار العلم الأزرق. |
-| RedFlagCheckBox | `98` | رمز خانة اختيار العلم الأحمر. |
-| GreenFlagCheckBox | `99` | رمز خانة اختيار العلم الأخضر. |
-| RedSquare | `100` | رمز مربع أحمر . |
-| YellowSquare | `101` | رمز مربع أصفر . |
-| BlueSquare | `102` | رمز مربع أزرق . |
-| GreenSquare | `103` | رمز المربع الأخضر . |
-| OrangeSquare | `104` | أيقونة أورانج سكوير . |
-| PinkSquare | `105` | رمز المربع الوردي . |
-| EMailMessage | `106` | رمز رسالة البريد الإلكتروني . |
-| ClosedEnvelope | `107` | أيقونة مغلف مغلق. |
-| OpenEnvelope | `108` | فتح رمز المغلف. |
-| MobilePhone | `109` | رمز الهاتف المحمول. |
-| TelephoneWithClock | `110` | هاتف مع رمز الساعة. |
-| QuestionBalloon | `111` | رمز بالون السؤال. |
-| PaperClip | `112` | رمز مشبك الورق . |
-| FrowningFace | `113` | أيقونة وجه عابس . |
-| InstantMessagingContactPerson | `114` | رمز جهة الاتصال الخاصة بالرسائل الفورية (IM) . |
-| PersonWithExclamationMark | `115` | شخص لديه رمز علامة تعجب. |
-| TwoPeople | `116` | رمز شخصين . |
-| ReminderBell | `117` | رمز جرس التذكير. |
-| ContactPersonOnCard | `118` | رمز جهة الاتصال (شخص على بطاقة) . |
-| RoseOnStem | `119` | وردة على أيقونة جذعية . |
-| CalendarDateWithClock | `120` | تاريخ التقويم مع رمز الساعة . |
-| MusicalNote | `121` | أيقونة النوتة الموسيقية. |
-| MovieClip | `122` | أيقونة مقطع الفيلم. |
-| QuotationMark | `123` | رمز علامة الاقتباس. |
-| Globe | `124` | أيقونة الكرة الأرضية . |
-| HyperlinkGlobe | `125` | رمز الكرة الأرضية للارتباط التشعبي . |
-| Laptop | `126` | رمز الكمبيوتر المحمول. |
-| Plane | `127` | رمز الطائرة . |
-| Car | `128` | أيقونة مع سيارة . |
-| Binoculars | `129` | رمز مناظير . |
-| PresentationSlide | `130` | رمز شريحة العرض التقديمي . |
-| Padlock | `131` | رمز القفل . |
-| OpenBook | `132` | فتح أيقونة الكتاب. |
-| NotebookWithClock | `133` | دفتر ملاحظات برمز الساعة. |
-| BlankPaperWithLines | `134` | ورق فارغ مع رمز الخطوط. |
-| Research | `135` | رمز البحث (الكتب ذات العدسة المكبرة). |
-| Pen | `136` | أيقونة بقلم . |
-| DollarSign | `137` | رمز علامة الدولار ($) . |
-| CoinsWithWindowBackdrop | `138` | عملات معدنية مع أيقونة خلفية نافذة . |
+| NoIcon | `0` | الأيقونة غير محددة. |
+| GreenCheckBox | `1` | أيقونة مربع اختيار أخضر. |
+| YellowCheckBox | `2` | أيقونة مربع اختيار أصفر. |
+| BlueCheckBox | `3` | أيقونة مربع اختيار أزرق. |
+| GreenStarCheckBox | `4` | أيقونة مربع اختيار نجمة خضراء. |
+| YellowStarCheckBox | `5` | أيقونة مربع اختيار نجمة صفراء. |
+| BlueStarCheckBox | `6` | أيقونة مربع اختيار نجمة زرقاء. |
+| GreenExclamationCheckBox | `7` | أيقونة مربع اختيار علامة تعجب خضراء. |
+| YellowExclamationCheckBox | `8` | أيقونة مربع اختيار أصفر-علامة تعجب. |
+| BlueExclamationCheckBox | `9` | أيقونة مربع اختيار أزرق-علامة تعجب. |
+| GreenRightArrowCheckBox | `10` | أيقونة مربع اختيار أخضر، سهم يمين. |
+| YellowRightArrowCheckBox | `11` | أيقونة مربع اختيار أصفر، سهم يمين. |
+| BlueRightArrowCheckBox | `12` | أيقونة مربع اختيار أزرق، سهم يمين. |
+| YellowStar | `13` | أيقونة نجمة صفراء. |
+| BlueFollowUpFlag | `14` | أيقونة علم متابعة أزرق. |
+| QuestionMark | `15` | أيقونة علامة سؤال. |
+| BlueRightArrow | `16` | أيقونة سهم يمين أزرق. |
+| HighPriority | `17` | أيقونة أولوية عالية (علامة تعجب حمراء). |
+| ContactInformation | `18` | أيقونة معلومات الاتصال. |
+| Meeting | `19` | أيقونة اجتماع (تقويم). |
+| TimeSensitive | `20` | أيقونة حساسة للوقت. |
+| LightBulb | `21` | أيقونة مصباح كهربائي. |
+| Pushpin | `22` | أيقونة دبوس. |
+| Home | `23` | أيقونة منزل. |
+| CommentBubble | `24` | أيقونة فقاعة تعليق. |
+| SmilingFace | `25` | أيقونة وجه مبتسم. |
+| AwardRibbon | `26` | أيقونة شريط جائزة. |
+| YellowKey | `27` | أيقونة مفتاح أصفر. |
+| BlueCheckBox1 | `28` | أيقونة مربع اختيار أزرق 1. |
+| BlueCircle1 | `29` | أيقونة دائرة زرقاء 1. |
+| BlueCheckBox2 | `30` | أيقونة مربع اختيار أزرق 2. |
+| BlueCircle2 | `31` | أيقونة دائرة زرقاء 2. |
+| BlueCheckBox3 | `32` | أيقونة مربع اختيار أزرق 3. |
+| BlueCircle3 | `33` | أيقونة دائرة 3 زرقاء. |
+| BlueEightPointStar | `34` | أيقونة نجمة زرقاء ذات ثمانية نقاط. |
+| BlueCheckMark | `35` | أيقونة علامة تحقق زرقاء. |
+| BlueCircle | `36` | أيقونة دائرة زرقاء. |
+| BlueDownArrow | `37` | أيقونة سهم أسفل زرقاء. |
+| BlueLeftArrow | `38` | أيقونة سهم يسار زرقاء. |
+| BlueSolidTarget | `39` | أيقونة هدف صلب زرقاء. |
+| BlueStar | `40` | أيقونة نجمة زرقاء. |
+| BlueSun | `41` | أيقونة شمس زرقاء. |
+| BlueTarget | `42` | أيقونة هدف زرقاء. |
+| BlueTriangle | `43` | أيقونة مثلث زرقاء. |
+| BlueUmbrella | `44` | أيقونة مظلة زرقاء. |
+| BlueUpArrow | `45` | أيقونة سهم أعلى زرقاء. |
+| BlueXWithDots | `46` | أيقونة "X" زرقاء مع نقاط. |
+| BlueXNo | `47` | أيقونة "X" زرقاء. |
+| GreenCheckBox1 | `48` | أيقونة مربع اختيار أخضر 1. |
+| GreenCircle1 | `49` | أيقونة دائرة 1 خضراء. |
+| GreenCheckBox2 | `50` | أيقونة مربع اختيار أخضر 2. |
+| GreenCircle2 | `51` | أيقونة دائرة 2 خضراء. |
+| GreenCheckBox3 | `52` | أيقونة مربع اختيار أخضر 3. |
+| GreenCircle3 | `53` | أيقونة دائرة 3 خضراء. |
+| GreenEightPointStar | `54` | أيقونة نجمة خضراء ذات ثمانية نقاط. |
+| GreenCheckMark | `55` | أيقونة علامة تحقق خضراء. |
+| GreenCircle | `56` | أيقونة دائرة خضراء. |
+| GreenDownArrow | `57` | أيقونة سهم أسفل خضراء. |
+| GreenLeftArrow | `58` | أيقونة سهم إلى اليسار خضراء. |
+| GreenRightArrow | `59` | أيقونة سهم إلى اليمين خضراء. |
+| GreenSolidArrow | `60` | أيقونة سهم صلب خضراء. |
+| GreenStar | `61` | أيقونة نجمة خضراء. |
+| GreenSun | `62` | أيقونة شمس خضراء. |
+| GreenTarget | `63` | أيقونة هدف خضراء. |
+| GreenTriangle | `64` | أيقونة مثلث خضراء. |
+| GreenUmbrella | `65` | أيقونة مظلة خضراء. |
+| GreenUpArrow | `66` | أيقونة سهم إلى الأعلى خضراء. |
+| GreenXWithDots | `67` | أيقونة "X" مع نقاط خضراء. |
+| GreenXNo | `68` | أيقونة "X" خضراء. |
+| YellowCheckBox1 | `69` | أيقونة مربع اختيار 1 أصفر. |
+| YellowCircle1 | `70` | أيقونة دائرة 1 أصفر. |
+| YellowCheckBox2 | `71` | أيقونة مربع اختيار 2 أصفر. |
+| YellowCircle2 | `72` | أيقونة دائرة 2 أصفر. |
+| YellowCheckBox3 | `73` | أيقونة مربع اختيار 3 أصفر. |
+| YellowCircle3 | `74` | أيقونة دائرة 3 أصفر. |
+| YellowEightPointStar | `75` | أيقونة نجمة ذات ثمان نقاط أصفر. |
+| YellowCheckMark | `76` | أيقونة علامة تحقق أصفر. |
+| YellowCircle | `77` | أيقونة دائرة أصفر. |
+| YellowDownArrow | `78` | أيقونة سهم إلى الأسفل أصفر. |
+| YellowLeftArrow | `79` | أيقونة سهم إلى اليسار أصفر. |
+| YellowRightArrow | `80` | أيقونة سهم إلى اليمين أصفر. |
+| YellowSolidTarget | `81` | أيقونة هدف صلب أصفر. |
+| YellowSun | `82` | أيقونة شمس أصفر. |
+| YellowTarget | `83` | أيقونة هدف صفراء. |
+| YellowTriangle | `84` | أيقونة مثلث صفراء. |
+| YellowUmbrella | `85` | أيقونة مظلة صفراء. |
+| YellowUpArrow | `86` | أيقونة سهم صاعد أصفر. |
+| YellowXWithDots | `87` | أيقونة "X" أصفر مع نقاط. |
+| YellowX | `88` | أيقونة "X" أصفر. |
+| FollowUpTodayFlag | `89` | أيقونة علم المتابعة اليوم. |
+| FollowUpTomorrowFlag | `90` | أيقونة علم المتابعة غدًا. |
+| FollowUpThisWeekFlag | `91` | أيقونة علم المتابعة هذا الأسبوع. |
+| FollowUpNextWeekFlag | `92` | أيقونة علم المتابعة الأسبوع القادم. |
+| NoFollowUpDateFlag | `93` | أيقونة علم بدون تاريخ متابعة. |
+| BluePersonCheckBox | `94` | أيقونة مربع اختيار شخص أزرق. |
+| YellowPersonCheckBox | `95` | أيقونة مربع اختيار شخص أصفر. |
+| GreenPersonCheckBox | `96` | أيقونة مربع اختيار شخص أخضر. |
+| BlueFlagCheckBox | `97` | أيقونة مربع اختيار علم أزرق. |
+| RedFlagCheckBox | `98` | أيقونة مربع اختيار علم أحمر. |
+| GreenFlagCheckBox | `99` | أيقونة مربع اختيار علم أخضر. |
+| RedSquare | `100` | أيقونة مربع أحمر. |
+| YellowSquare | `101` | أيقونة مربع أصفر. |
+| BlueSquare | `102` | أيقونة مربع أزرق. |
+| GreenSquare | `103` | أيقونة مربع أخضر. |
+| OrangeSquare | `104` | أيقونة مربع برتقالي. |
+| PinkSquare | `105` | أيقونة مربع وردي. |
+| EMailMessage | `106` | أيقونة رسالة بريد إلكتروني. |
+| ClosedEnvelope | `107` | أيقونة ظرف مغلق. |
+| OpenEnvelope | `108` | أيقونة الظرف المفتوح. |
+| MobilePhone | `109` | أيقونة الهاتف المحمول. |
+| TelephoneWithClock | `110` | أيقونة هاتف مع ساعة. |
+| QuestionBalloon | `111` | أيقونة فقاعة سؤال. |
+| PaperClip | `112` | أيقونة مشبك ورق. |
+| FrowningFace | `113` | أيقونة وجه عبوس. |
+| InstantMessagingContactPerson | `114` | أيقونة شخص اتصال المراسلة الفورية (IM). |
+| PersonWithExclamationMark | `115` | أيقونة شخص مع علامة تعجب. |
+| TwoPeople | `116` | أيقونة شخصين. |
+| ReminderBell | `117` | أيقونة جرس تذكير. |
+| ContactPersonOnCard | `118` | أيقونة جهة اتصال (شخص على بطاقة). |
+| RoseOnStem | `119` | أيقونة وردة على ساق. |
+| CalendarDateWithClock | `120` | أيقونة تاريخ تقويم مع ساعة. |
+| MusicalNote | `121` | أيقونة نوتة موسيقية. |
+| MovieClip | `122` | أيقونة مقطع فيلم. |
+| QuotationMark | `123` | أيقونة علامة اقتباس. |
+| Globe | `124` | أيقونة كرة أرضية. |
+| HyperlinkGlobe | `125` | أيقونة كرة أرضية للارتباط التشعبي. |
+| Laptop | `126` | أيقونة حاسوب محمول. |
+| Plane | `127` | أيقونة طائرة. |
+| Car | `128` | أيقونة مع سيارة. |
+| Binoculars | `129` | أيقونة منظار. |
+| PresentationSlide | `130` | أيقونة شريحة عرض تقديمي. |
+| Padlock | `131` | أيقونة قفل. |
+| OpenBook | `132` | أيقونة كتاب مفتوح. |
+| NotebookWithClock | `133` | دفتر ملاحظات مع أيقونة ساعة. |
+| BlankPaperWithLines | `134` | ورقة فارغة مع أيقونة خطوط. |
+| Research | `135` | أيقونة البحث (كتب مع عدسة مكبرة). |
+| Pen | `136` | أيقونة مع قلم. |
+| DollarSign | `137` | أيقونة علامة الدولار ($). |
+| CoinsWithWindowBackdrop | `138` | أيقونة عملات مع خلفية نافذة. |
 | ScheduledTask | `139` | أيقونة مهمة مجدولة (نموذج مع ساعة). |
-| LightningBolt | `140` | رمز صاعقة البرق. |
-| Cloud | `141` | أيقونة السحابة . |
-| Heart | `142` | رمز القلب . |
-| Sunflower | `143` | أيقونة عباد الشمس. |
-| BlueCheckBox1Empty | `144` | خانة اختيار زرقاء فارغة 1. |
-| BlueCheckBox2Empty | `145` | رمز مربع الاختيار 2 فارغ أزرق . |
-| BlueCheckBox3Empty | `146` | خانة اختيار زرقاء فارغة 3 رمز . |
-| BlueCheckBoxEmpty | `147` | رمز خانة اختيار فارغ أزرق. |
-| BlueExclamationCheckBoxEmpty | `148` | خانة اختيار علامة تعجب زرقاء فارغة. |
-| BlueFlagCheckBoxEmpty | `149` | خانة اختيار العلم الأزرق أيقونة فارغة. |
-| BluePersonCheckBoxEmpty | `150` | خانة اختيار الشخص الأزرق رمز فارغ. |
-| BlueRightArrowCheckBoxEmpty | `151` | مربع اختيار السهم الأيمن الأزرق رمز فارغ . |
-| BlueStarCheckBoxEmpty | `152` | خانة اختيار النجمة الزرقاء فارغة. |
-| GreenCheckBox1Empty | `153` | خانة اختيار خضراء فارغة |
-| GreenCheckBox2Empty | `154` | خانة اختيار خضراء فارغة. |
-| GreenCheckBox3Empty | `155` | خانة اختيار خضراء فارغة 3 رمز . |
-| GreenCheckBoxEmpty | `156` | أيقونة خانة اختيار خضراء فارغة. |
-| GreenExclamationCheckBoxEmpty | `157` | رمز خانة الاختيار الأخضر تعجب فارغ. |
-| GreenFlagCheckBoxEmpty | `158` | رمز خانة اختيار علامة خضراء فارغة. |
-| GreenPersonCheckBoxEmpty | `159` | رمز خانة اختيار شخص أخضر فارغ. |
-| GreenRightArrowCheckBoxEmpty | `160` | رمز خانة اختيار السهم الأخضر الأيمن الفارغ. |
-| GreenStarCheckBoxEmpty | `161` | رمز خانة اختيار نجمة خضراء فارغة. |
-| RedFlagCheckBoxEmpty | `162` | رمز خانة اختيار العلم الفارغ الأحمر. |
-| YellowCheckBox1Empty | `163` | خانة اختيار صفراء فارغة 1. |
-| YellowCheckBox2Empty | `164` | خانة اختيار صفراء فارغة 2. |
-| YellowCheckBox3Empty | `165` | خانة اختيار صفراء فارغة 3 رمز . |
-| YellowCheckBoxEmpty | `166` | رمز خانة اختيار أصفر فارغ. |
-| YellowExclamationCheckBoxEmpty | `167` | رمز خانة اختيار تعجب فارغ أصفر. |
-| YellowPersonCheckBoxEmpty | `168` | رمز خانة اختيار شخص فارغ أصفر. |
-| YellowRightArrowCheckBoxEmpty | `169` | رمز خانة اختيار سهم لليمين أصفر فارغ. |
-| YellowStarCheckBoxEmpty | `170` | رمز خانة اختيار نجمة صفراء فارغة. |
+| LightningBolt | `140` | أيقونة صاعقة. |
+| Cloud | `141` | أيقونة سحابة. |
+| Heart | `142` | أيقونة قلب. |
+| Sunflower | `143` | أيقونة دوار الشمس. |
+| BlueCheckBox1Empty | `144` | أيقونة مربع اختيار أزرق فارغ 1. |
+| BlueCheckBox2Empty | `145` | أيقونة مربع اختيار أزرق فارغ 2. |
+| BlueCheckBox3Empty | `146` | أيقونة مربع اختيار أزرق فارغ 3. |
+| BlueCheckBoxEmpty | `147` | أيقونة مربع اختيار أزرق فارغ. |
+| BlueExclamationCheckBoxEmpty | `148` | أيقونة مربع اختيار أزرق فارغ مع علامة تعجب. |
+| BlueFlagCheckBoxEmpty | `149` | أيقونة مربع اختيار أزرق فارغ مع علم. |
+| BluePersonCheckBoxEmpty | `150` | أيقونة مربع اختيار أزرق فارغ مع شخص. |
+| BlueRightArrowCheckBoxEmpty | `151` | أيقونة مربع اختيار أزرق فارغ مع سهم يمين. |
+| BlueStarCheckBoxEmpty | `152` | أيقونة مربع اختيار أزرق فارغ مع نجمة. |
+| GreenCheckBox1Empty | `153` | أيقونة مربع اختيار أخضر فارغ 1. |
+| GreenCheckBox2Empty | `154` | أيقونة مربع اختيار أخضر فارغ 2. |
+| GreenCheckBox3Empty | `155` | أيقونة مربع اختيار أخضر فارغ 3. |
+| GreenCheckBoxEmpty | `156` | أيقونة مربع اختيار أخضر فارغ. |
+| GreenExclamationCheckBoxEmpty | `157` | أيقونة مربع اختيار أخضر فارغ مع علامة تعجب. |
+| GreenFlagCheckBoxEmpty | `158` | أيقونة مربع اختيار فارغ علم أخضر. |
+| GreenPersonCheckBoxEmpty | `159` | أيقونة مربع اختيار فارغ شخص أخضر. |
+| GreenRightArrowCheckBoxEmpty | `160` | أيقونة مربع اختيار فارغ سهم يمين أخضر. |
+| GreenStarCheckBoxEmpty | `161` | أيقونة مربع اختيار فارغ نجمة خضراء. |
+| RedFlagCheckBoxEmpty | `162` | أيقونة مربع اختيار فارغ علم أحمر. |
+| YellowCheckBox1Empty | `163` | أيقونة check box1 فارغ أصفر. |
+| YellowCheckBox2Empty | `164` | أيقونة check box2 فارغ أصفر. |
+| YellowCheckBox3Empty | `165` | أيقونة check box3 فارغ أصفر. |
+| YellowCheckBoxEmpty | `166` | أيقونة مربع اختيار فارغ أصفر. |
+| YellowExclamationCheckBoxEmpty | `167` | أيقونة مربع اختيار فارغ علامة تعجب أصفر. |
+| YellowPersonCheckBoxEmpty | `168` | أيقونة مربع اختيار فارغ شخص أصفر. |
+| YellowRightArrowCheckBoxEmpty | `169` | أيقونة مربع اختيار فارغ سهم يمين أصفر. |
+| YellowStarCheckBoxEmpty | `170` | أيقونة مربع اختيار فارغ نجمة أصفر. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

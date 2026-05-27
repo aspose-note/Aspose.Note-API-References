@@ -1,29 +1,29 @@
 ---
-title: Interface ICompositeNodeT
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.ICompositeNode1T واجهه المستخدم. واجهة العقد التي يمكن أن تحتوي على عقد أخرى.
+title: "الواجهة ICompositeNodeT"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الواجهة Aspose.Note.ICompositeNode1T. الواجهة للعقد التي يمكنها احتواء عقد أخرى."
 type: docs
 weight: 150
 url: /ar/net/aspose.note/icompositenode-1/
 ---
 ## ICompositeNode&lt;T&gt; interface
 
-واجهة العقد التي يمكن أن تحتوي على عقد أخرى.
+الواجهة للعقد التي يمكنها احتواء عقد أخرى.
 
 ```csharp
 public interface ICompositeNode<T> : ICompositeNode, IEnumerable<T>
     where T : INode
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
 | T | نوع العقد الفرعية |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [ICompositeNode](../icompositenode/)
 * interface [INode](../inode/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

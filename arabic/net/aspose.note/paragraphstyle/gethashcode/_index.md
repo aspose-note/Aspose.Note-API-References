@@ -1,7 +1,7 @@
 ---
-title: ParagraphStyle.GetHashCode
-second_title: Aspose.Note لمرجع NET API
-description: ParagraphStyle طريقة. يعمل كدالة تجزئة للنوع.
+title: "ParagraphStyle.GetHashCode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة ParagraphStyle. تعمل كدالة تجزئة لهذا النوع"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/paragraphstyle/gethashcode/
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ParagraphStyle](../)
-* مساحة الاسم [Aspose.Note](../../paragraphstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../paragraphstyle/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class FontsSubsystem
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Fonts.FontsSubsystem فصل. تطبيق الفئة الأساسية Aspose.Note.Fonts.IFontsSubsystem interface. يوفر وظائف للخط الافتراضي واستبداله . Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily وظيفة العضو المحمية في فئة مشتقة لتنفيذ منطق لاستردادFontFamily الكائن .
+title: "الفئة FontsSubsystem"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Fonts.FontsSubsystem. الفئة الأساسية التي تنفّذ واجهة Aspose.Note.Fonts.IFontsSubsystem. توفر وظائف للخط الافتراضي واستبدالات الخطوط. قم بتجاوز الدالة المحمية Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily في فئة مشتقة لتنفيذ المنطق الخاص باسترجاع كائن FontFamily."
 type: docs
 weight: 110
 url: /ar/net/aspose.note.fonts/fontssubsystem/
 ---
 ## FontsSubsystem class
 
-تطبيق الفئة الأساسية Aspose.Note.Fonts.IFontsSubsystem interface. يوفر وظائف للخط الافتراضي واستبداله . Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily وظيفة العضو المحمية في فئة مشتقة لتنفيذ منطق لاستردادFontFamily الكائن .
+الفئة الأساسية التي تنفذ واجهة Aspose.Note.Fonts.IFontsSubsystem. توفر وظائف للخط الافتراضي واستبدالات الخط. قم بتجاوز الدالة المحمية Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily في فئة مشتقة لتنفيذ منطق استرجاع كائن FontFamily.
 
 ```csharp
 public abstract class FontsSubsystem : IFontsSubsystem
@@ -16,25 +16,25 @@ public abstract class FontsSubsystem : IFontsSubsystem
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont/) { get; } | الحصول على الخط الافتراضي أو تعيينه. |
+| [DefaultFont](../../aspose.note.fonts/fontssubsystem/defaultfont/) { get; } | يحصل أو يعيّن الخط الافتراضي. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/#addfont)(Stream) | أضف الخط. |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/#addfont_2)(string) | أضف الخط. |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/#addfont_1)(Stream, string) | أضف الخط. |
-| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution/)(string, string) | إضافة استبدال الخط . |
-| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily/)(string) | يحصل على عائلة الخطوط . |
-| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | يتم تحميل كافة خطوط TrueType من المجلد المحدد إلى المجموعة الداخلية. |
+| [AddFontSubstitution](../../aspose.note.fonts/fontssubsystem/addfontsubstitution/)(string, string) | يضيف استبدال الخط. |
+| virtual [GetFontFamily](../../aspose.note.fonts/fontssubsystem/getfontfamily/)(string) | يحصل على عائلة الخط. |
+| [LoadFontsFromFolder](../../aspose.note.fonts/fontssubsystem/loadfontsfromfolder/)(string) | يقوم بتحميل جميع خطوط TrueType من المجلد المحدد إلى المجموعة الداخلية. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [IFontsSubsystem](../ifontssubsystem/)
-* مساحة الاسم [Aspose.Note.Fonts](../../aspose.note.fonts/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Fonts](../../aspose.note.fonts/)
+* assembly [Aspose.Note](../../)
 
 

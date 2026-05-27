@@ -1,23 +1,23 @@
 ---
-title: Title.LastModifiedTime
-second_title: Aspose.Note لمرجع NET API
-description: Title ملكية. الحصول على أو تعيين وقت آخر تعديل.
+title: "Title.LastModifiedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Title. تحصل أو تعين وقت التعديل الأخير"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/title/lastmodifiedtime/
 ---
 ## Title.LastModifiedTime property
 
-الحصول على أو تعيين وقت آخر تعديل.
+يحصل أو يعيّن وقت آخر تعديل.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../)
-* مساحة الاسم [Aspose.Note](../../title/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../title/)
+* assembly [Aspose.Note](../../../)
 
 

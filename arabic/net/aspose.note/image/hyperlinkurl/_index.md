@@ -1,22 +1,22 @@
 ---
-title: Image.HyperlinkUrl
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. الحصول على أو تعيين الارتباط التشعبي المرتبط بالصورة.
+title: "Image.HyperlinkUrl"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل أو تعين الارتباط التشعبي المرتبط بالصورة"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/image/hyperlinkurl/
 ---
 ## Image.HyperlinkUrl property
 
-الحصول على أو تعيين الارتباط التشعبي المرتبط بالصورة.
+يحصل أو يعيّن الرابط التشعبي المرتبط بالصورة.
 
 ```csharp
 public string HyperlinkUrl { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية ربط ارتباط تشعبي بصورة ما.
+يعرض كيفية ربط ارتباط تشعبي بصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -26,7 +26,7 @@ var document = new Document();
 
 var page = new Page();
 
-var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com "} ;
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com" };
 
 page.AppendChildLast(image);
 
@@ -35,10 +35,10 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

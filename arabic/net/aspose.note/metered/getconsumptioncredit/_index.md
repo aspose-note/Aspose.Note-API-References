@@ -1,14 +1,14 @@
 ---
-title: Metered.GetConsumptionCredit
-second_title: Aspose.Note لمرجع NET API
-description: Metered طريقة. يحصل على ائتمان الاستهلاك.
+title: "Metered.GetConsumptionCredit"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة Metered. يسترجع رصيد الاستهلاك"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-يحصل على ائتمان الاستهلاك.
+يحصل على رصيد الاستهلاك.
 
 ```csharp
 public static decimal GetConsumptionCredit()
@@ -16,12 +16,12 @@ public static decimal GetConsumptionCredit()
 
 ### قيمة الإرجاع
 
-تُرجع عدد نقاط الائتمان المستهلكة.
+يعيد عدد نقاط الرصيد المستهلكة.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Metered](../)
-* مساحة الاسم [Aspose.Note](../../metered/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../metered/)
+* assembly [Aspose.Note](../../../)
 
 

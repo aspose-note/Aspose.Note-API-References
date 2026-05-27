@@ -1,31 +1,31 @@
 ---
-title: NoteCheckBox.CreateGreenRightArrowCheckBox
-second_title: Aspose.Note لمرجع NET API
-description: NoteCheckBox طريقة. إنشاء مربع اختيار ملاحظة جديد مع رمز GreenRightArrowCheckBoxEmpty والتسمية المحددة.
+title: "NoteCheckBox.CreateGreenRightArrowCheckBox"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteCheckBox طريقة. ينشئ مربع اختيار ملاحظة جديد مع أيقونة GreenRightArrowCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 170
 url: /ar/net/aspose.note/notecheckbox/creategreenrightarrowcheckbox/
 ---
 ## NoteCheckBox.CreateGreenRightArrowCheckBox method
 
-إنشاء مربع اختيار ملاحظة جديد مع رمز GreenRightArrowCheckBoxEmpty والتسمية المحددة.
+إنشاء خانة اختيار ملاحظة جديدة مع أيقونة GreenRightArrowCheckBoxEmpty والملصق المحدد.
 
 ```csharp
 public static NoteCheckBox CreateGreenRightArrowCheckBox(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteCheckBox`](../) .
+ال [`NoteCheckBox`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteCheckBox](../)
-* مساحة الاسم [Aspose.Note](../../notecheckbox/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notecheckbox/)
+* assembly [Aspose.Note](../../../)
 
 

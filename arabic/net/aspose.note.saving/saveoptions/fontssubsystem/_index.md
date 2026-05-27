@@ -1,20 +1,20 @@
 ---
-title: SaveOptions.FontsSubsystem
-second_title: Aspose.Note لمرجع NET API
-description: SaveOptions ملكية. الحصول على أو تعيين إعدادات الخط لاستخدامها أثناء الحفظ
+title: "SaveOptions.FontsSubsystem"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية SaveOptions. تحصل أو تعين إعدادات الخطوط المستخدمة أثناء الحفظ"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/saveoptions/fontssubsystem/
 ---
 ## SaveOptions.FontsSubsystem property
 
-الحصول على أو تعيين إعدادات الخط لاستخدامها أثناء الحفظ
+يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ
 
 ```csharp
 public FontsSubsystem FontsSubsystem { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي المحدد.
 
@@ -22,10 +22,10 @@ public FontsSubsystem FontsSubsystem { get; set; }
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions() 
                       {
@@ -41,10 +41,10 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions()
                           {
@@ -52,7 +52,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي من التدفق.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -60,10 +60,10 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
 string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf";
 
 using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShare.Read))
@@ -75,11 +75,11 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../../../aspose.note.fonts/fontssubsystem/)
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../saveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../saveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

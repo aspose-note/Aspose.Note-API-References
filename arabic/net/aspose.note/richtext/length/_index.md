@@ -1,9 +1,9 @@
 ---
-title: RichText.Length
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. يحصل على طول النص.
+title: "RichText.Length"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. تحصل على طول النص"
 type: docs
-weight: 40
+weight: 70
 url: /ar/net/aspose.note/richtext/length/
 ---
 ## RichText.Length property
@@ -14,10 +14,10 @@ url: /ar/net/aspose.note/richtext/length/
 public int Length { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

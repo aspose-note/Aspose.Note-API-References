@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.VerticalOffset
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على أو تعيين الإزاحة الرأسية .
+title: "AttachedFile.VerticalOffset"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل أو يضبط الإزاحة العمودية"
 type: docs
-weight: 200
+weight: 210
 url: /ar/net/aspose.note/attachedfile/verticaloffset/
 ---
 ## AttachedFile.VerticalOffset property
 
-الحصول على أو تعيين الإزاحة الرأسية .
+يحصل أو يضبط الإزاحة العمودية.
 
 ```csharp
 public float VerticalOffset { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

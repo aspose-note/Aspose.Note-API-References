@@ -1,7 +1,7 @@
 ---
-title: NumberList.GetHashCode
-second_title: Aspose.Note لمرجع NET API
-description: NumberList طريقة. يعمل كدالة تجزئة للنوع.
+title: "NumberList.GetHashCode"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NumberList. تعمل كدالة تجزئة للنوع"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/numberlist/gethashcode/
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-ملفInt32 .
+الـ Int32.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NumberList](../)
-* مساحة الاسم [Aspose.Note](../../numberlist/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 

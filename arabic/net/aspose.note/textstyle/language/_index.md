@@ -1,26 +1,26 @@
 ---
-title: TextStyle.Language
-second_title: Aspose.Note لمرجع NET API
-description: TextStyle ملكية. الحصول على لغة النص أو تحديدها .
+title: "TextStyle.Language"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextStyle. تحصل أو تعيّن لغة النص"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/textstyle/language/
 ---
 ## TextStyle.Language property
 
-الحصول على لغة النص أو تحديدها .
+يحصل أو يعيّن لغة النص.
 
 ```csharp
 public CultureInfo Language { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-عائداتInvariantCulture إذا لم يتم تعيين الخاصية.
+يرجع InvariantCulture إذا لم يتم تعيين الخاصية.
 
-### أمثلة
+## أمثلة
 
-تعيين لغة التدقيق للنص.
+تعيين لغة التدقيق لنص.
 
 ```csharp
 var document = new Document();
@@ -41,10 +41,10 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

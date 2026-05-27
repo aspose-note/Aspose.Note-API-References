@@ -1,23 +1,23 @@
 ---
-title: Title.Title
-second_title: Aspose.Note لمرجع NET API
-description: Title البناء. يقوم بتهيئة مثيل جديد لملفTitle فئة .
+title: "Title.Title"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ Title. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/title/title/
 ---
 ## Title constructor
 
-يقوم بتهيئة مثيل جديد لملف[`Title`](../) فئة .
+البناء الافتراضي.
 
 ```csharp
 public Title()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../)
-* مساحة الاسم [Aspose.Note](../../title/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../title/)
+* assembly [Aspose.Note](../../../)
 
 

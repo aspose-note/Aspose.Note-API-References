@@ -1,23 +1,23 @@
 ---
-title: ParagraphStyle.ParagraphStyle
-second_title: Aspose.Note لمرجع NET API
-description: ParagraphStyle البناء. يقوم بتهيئة مثيل جديد لملفParagraphStyle فئة .
+title: "ParagraphStyle.ParagraphStyle"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ ParagraphStyle. يتهيئ نسخة جديدة من فئة ParagraphStyle"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/paragraphstyle/paragraphstyle/
 ---
 ## ParagraphStyle constructor
 
-يقوم بتهيئة مثيل جديد لملف[`ParagraphStyle`](../) فئة .
+تهيئ نسخة جديدة من فئة [`ParagraphStyle`](../).
 
 ```csharp
 public ParagraphStyle()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ParagraphStyle](../)
-* مساحة الاسم [Aspose.Note](../../paragraphstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../paragraphstyle/)
+* assembly [Aspose.Note](../../../)
 
 

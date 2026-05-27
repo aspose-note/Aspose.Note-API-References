@@ -1,23 +1,23 @@
 ---
-title: ParagraphStyle.Default
-second_title: Aspose.Note لمرجع NET API
-description: ParagraphStyle ملكية. الحصول على ParagraphStyle بالإعدادات الافتراضية.
+title: "ParagraphStyle.Default"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ParagraphStyle. تحصل على ParagraphStyle بالإعدادات الافتراضية"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/paragraphstyle/default/
 ---
 ## ParagraphStyle.Default property
 
-الحصول على ParagraphStyle بالإعدادات الافتراضية.
+يحصل على الـ ParagraphStyle بالإعدادات الافتراضية.
 
 ```csharp
 public static ParagraphStyle Default { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ParagraphStyle](../)
-* مساحة الاسم [Aspose.Note](../../paragraphstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../paragraphstyle/)
+* assembly [Aspose.Note](../../../)
 
 

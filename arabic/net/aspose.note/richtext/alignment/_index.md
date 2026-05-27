@@ -1,24 +1,24 @@
 ---
-title: RichText.Alignment
-second_title: Aspose.Note لمرجع NET API
-description: RichText ملكية. الحصول على المحاذاة أو تعيينها.
+title: "RichText.Alignment"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية RichText. تحصل أو تعيّن المحاذاة"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/richtext/alignment/
 ---
 ## RichText.Alignment property
 
-الحصول على المحاذاة أو تعيينها.
+يحصل أو يعيّن المحاذاة.
 
 ```csharp
 public HorizontalAlignment Alignment { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

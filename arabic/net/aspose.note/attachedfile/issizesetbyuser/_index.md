@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.IsSizeSetByUser
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان قد تم تحديث قيمة حجم الرمز بشكل صريح من قبل المستخدم.
+title: "AttachedFile.IsSizeSetByUser"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل أو يضبط قيمة تشير إلى ما إذا كان حجم الأيقونة قد تم تحديثه صراحةً من قبل المستخدم"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/attachedfile/issizesetbyuser/
 ---
 ## AttachedFile.IsSizeSetByUser property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان قد تم تحديث قيمة حجم الرمز بشكل صريح من قبل المستخدم.
+يحصل أو يعيّن قيمة تشير إلى ما إذا تم تحديث قيمة حجم الأيقونة صراحةً من قبل المستخدم.
 
 ```csharp
 public bool IsSizeSetByUser { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

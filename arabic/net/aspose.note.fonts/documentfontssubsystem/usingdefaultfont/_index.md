@@ -1,30 +1,30 @@
 ---
-title: DocumentFontsSubsystem.UsingDefaultFont
-second_title: Aspose.Note لمرجع NET API
-description: DocumentFontsSubsystem طريقة. إنشاء مثيل DocumentFontsSubsystem جديد باستخدام اسم الخط الافتراضي المحدد.
+title: "DocumentFontsSubsystem.UsingDefaultFont"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "DocumentFontsSubsystem method. إنشاء نسخة جديدة من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.fonts/documentfontssubsystem/usingdefaultfont/
 ---
 ## DocumentFontsSubsystem.UsingDefaultFont method
 
-إنشاء مثيل DocumentFontsSubsystem جديد باستخدام اسم الخط الافتراضي المحدد.
+أنشئ مثلاً جديداً من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد.
 
 ```csharp
 public static DocumentFontsSubsystem UsingDefaultFont(string defaultFontName, 
     Dictionary<string, string> fontsSubstitutions = null)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| defaultFontName | String | اسم الخط الافتراضي . |
-| fontsSubstitutions | Dictionary`2 | بدائل الخطوط . |
+| defaultFontName | String | اسم الخط الافتراضي. |
+| fontsSubstitutions | Dictionary`2 | استبدالات الخطوط. |
 
 ### قيمة الإرجاع
 
-ملف[`DocumentFontsSubsystem`](../) .
+ال [`DocumentFontsSubsystem`](../).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيق pdf باستخدام الخط الافتراضي المحدد.
 
@@ -32,10 +32,10 @@ public static DocumentFontsSubsystem UsingDefaultFont(string defaultFontName,
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf";
 oneFile.Save(dataDir, new PdfSaveOptions() 
                       {
@@ -43,10 +43,10 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DocumentFontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../documentfontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../documentfontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

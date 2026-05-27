@@ -1,23 +1,23 @@
 ---
-title: PageSettings.LetterNoHeightLimit
-second_title: Aspose.Note لمرجع NET API
-description: PageSettings ملكية. الحصول على إعدادات لصفحة تنسيق Letter بارتفاع غير محدود.
+title: "PageSettings.LetterNoHeightLimit"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PageSettings. يحصل على الإعدادات لصفحة تنسيق Letter بدون حد للارتفاع"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/pagesettings/letternoheightlimit/
 ---
 ## PageSettings.LetterNoHeightLimit property
 
-الحصول على إعدادات لصفحة تنسيق Letter بارتفاع غير محدود.
+يحصل على الإعدادات لصفحة بتنسيق Letter ذات ارتفاع غير محدود.
 
 ```csharp
 public static PageSettings LetterNoHeightLimit { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSettings](../)
-* مساحة الاسم [Aspose.Note.Saving](../../pagesettings/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../pagesettings/)
+* assembly [Aspose.Note](../../../)
 
 

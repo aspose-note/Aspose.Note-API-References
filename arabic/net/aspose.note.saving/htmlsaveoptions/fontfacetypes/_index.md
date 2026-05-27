@@ -1,26 +1,26 @@
 ---
-title: HtmlSaveOptions.FontFaceTypes
-second_title: Aspose.Note لمرجع NET API
-description: HtmlSaveOptions ملكية. الحصول على أنواع وجه الخط أو تعيينها.
+title: "HtmlSaveOptions.FontFaceTypes"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية HtmlSaveOptions. يحصل أو يضبط أنواع خطوط الوجه"
 type: docs
 weight: 80
 url: /ar/net/aspose.note.saving/htmlsaveoptions/fontfacetypes/
 ---
 ## HtmlSaveOptions.FontFaceTypes property
 
-الحصول على أنواع وجه الخط أو تعيينها.
+يحصل أو يعيّن أنواع خطوط الواجهة.
 
 ```csharp
 public FontFaceType FontFaceTypes { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-أنواع وجه الخط .
+أنواع خطوط الوجه.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css / الخطوط / الصور) في ملفات منفصلة.
+يظهر كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css/خطوط/صور) في ملفات منفصلة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -36,7 +36,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-يوضح كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css / الخطوط / الصور).
+يظهر كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css/خطوط/صور).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -54,11 +54,11 @@ var r = new MemoryStream();
 document.Save(r, options);
 ```
 
-يوضح كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css / الخطوط / الصور) باستخدام عمليات الاسترجاعات المعرفة من قبل المستخدم.
+يظهر كيفية حفظ مستند بتنسيق HTML مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
 
 ```csharp
-// ينشئ الكود أدناه مجلد "documentFolder" يحتوي على document.html ومجلد "css" بملف "style.css" ومجلد "images" مع صور ومجلد "خطوط" يحتوي على خطوط.
-// سيحتوي ملف "style.css" في نهاية السلسلة التالية "/ * هذا السطر مُلحق بالبث يدويًا بواسطة المستخدم * /"
+// الكود أدناه ينشئ مجلد 'documentFolder' يحتوي على document.html، ومجلد 'css' به ملف 'style.css'، ومجلد 'images' يحتوي على صور، ومجلد 'fonts' يحتوي على خطوط.
+// 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",
@@ -95,11 +95,11 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FontFaceType](../../../aspose.note.saving.html/fontfacetype/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../htmlsaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

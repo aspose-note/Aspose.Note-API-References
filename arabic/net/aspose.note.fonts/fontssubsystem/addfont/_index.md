@@ -1,7 +1,7 @@
 ---
-title: FontsSubsystem.AddFont
-second_title: Aspose.Note لمرجع NET API
-description: FontsSubsystem طريقة. أضف الخط.
+title: "FontsSubsystem.AddFont"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "FontsSubsystem method. إضافة الخط"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.fonts/fontssubsystem/addfont/
@@ -14,16 +14,16 @@ url: /ar/net/aspose.note.fonts/fontssubsystem/addfont/
 public void AddFont(Stream stream, string tempFolder)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق الذي يحتوي على الخط . |
-| tempFolder | String | المجلد المؤقت. |
+| دفق | Stream | الدفق الذي يحتوي على الخط. |
+| مجلد مؤقت | String | مجلد المؤقت. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../fontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
@@ -35,15 +35,15 @@ public void AddFont(Stream stream, string tempFolder)
 public void AddFont(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق الذي يحتوي على الخط . |
+| دفق | Stream | الدفق الذي يحتوي على الخط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../fontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
@@ -55,14 +55,14 @@ public void AddFont(Stream stream)
 public void AddFont(string file)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| file | String | مسار الملف الذي يحتوي على الخط. |
+| ملف | String | المسار إلى الملف الذي يحتوي على الخط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../fontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

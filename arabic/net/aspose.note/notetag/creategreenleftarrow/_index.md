@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateGreenLeftArrow
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة بأيقونة GreenLeftArrow والتسمية المحددة.
+title: "NoteTag.CreateGreenLeftArrow"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة GreenLeftArrow والملصق المحدد"
 type: docs
 weight: 430
 url: /ar/net/aspose.note/notetag/creategreenleftarrow/
 ---
 ## NoteTag.CreateGreenLeftArrow method
 
-إنشاء علامة ملاحظة جديدة بأيقونة GreenLeftArrow والتسمية المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenLeftArrow والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateGreenLeftArrow(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

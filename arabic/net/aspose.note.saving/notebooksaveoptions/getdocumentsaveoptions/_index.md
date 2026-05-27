@@ -1,14 +1,14 @@
 ---
-title: NotebookSaveOptions.GetDocumentSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: NotebookSaveOptions طريقة. يحصل على خيارات الحفظ لجميع المستندات التابعة للدفتر.
+title: "NotebookSaveOptions.GetDocumentSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NotebookSaveOptions. يحصل على خيارات الحفظ لجميع المستندات الفرعية للدفاتر"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/notebooksaveoptions/getdocumentsaveoptions/
 ---
 ## NotebookSaveOptions.GetDocumentSaveOptions method
 
-يحصل على خيارات الحفظ لجميع المستندات التابعة للدفتر.
+يحصل على خيارات الحفظ لجميع المستندات الفرعية للدفتر.
 
 ```csharp
 public abstract SaveOptions GetDocumentSaveOptions()
@@ -16,13 +16,13 @@ public abstract SaveOptions GetDocumentSaveOptions()
 
 ### قيمة الإرجاع
 
-ملف[`SaveOptions`](../../saveoptions/) .
+الـ [`SaveOptions`](../../saveoptions/).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [SaveOptions](../../saveoptions/)
 * class [NotebookSaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../notebooksaveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../notebooksaveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

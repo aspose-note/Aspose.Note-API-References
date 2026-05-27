@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateHighPriority
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة عالية الأولوية وتسمية محددة.
+title: "NoteTag.CreateHighPriority"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة HighPriority والملصق المحدد"
 type: docs
 weight: 560
 url: /ar/net/aspose.note/notetag/createhighpriority/
 ---
 ## NoteTag.CreateHighPriority method
 
-ينشئ علامة ملاحظة جديدة بأيقونة عالية الأولوية وتسمية محددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة HighPriority والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateHighPriority(string label = "Critical")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

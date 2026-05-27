@@ -1,45 +1,45 @@
 ---
-title: Class NotebookOneSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.NotebookOneSaveOptions فصل. يسمح بتحديد خيارات إضافية عند حفظ دفتر الملاحظات بتنسيق OneNote.
+title: "الفئة NotebookOneSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.NotebookOneSaveOptions. تسمح بتحديد خيارات إضافية عند حفظ الدفتر بتنسيق OneNote"
 type: docs
-weight: 770
+weight: 850
 url: /ar/net/aspose.note.saving/notebookonesaveoptions/
 ---
 ## NotebookOneSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ دفتر الملاحظات بتنسيق OneNote.
+يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق OneNote.
 
 ```csharp
 public class NotebookOneSaveOptions : NotebookSaveOptions<OneSaveOptions>
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [NotebookOneSaveOptions](notebookonesaveoptions/)() | Default_Constructor |
+| [NotebookOneSaveOptions](notebookonesaveoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح . |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً. |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/) { get; } |  |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان التسلسل الهرمي للأطفال في دفتر الملاحظات مسطحًا أم لا. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا. |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions-1/saveformat/) { get; } |  |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | override [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/)() |  |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../notebooksaveoptions-1/)
 * class [OneSaveOptions](../onesaveoptions/)
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.Html.IFontSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note الخطوط عند حفظ مستند إلى HTML .
+title: "الواجهة IFontSavingCallback"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الواجهة Aspose.Note.Saving.Html.IFontSavingCallback. نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للخطوط عند حفظ مستند إلى HTML."
 type: docs
-weight: 630
+weight: 710
 url: /ar/net/aspose.note.saving.html/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note الخطوط عند حفظ مستند إلى HTML .
+نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للخطوط عند حفظ المستند إلى HTML.
 
 ```csharp
 public interface IFontSavingCallback
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FontSaving](../../aspose.note.saving.html/ifontsavingcallback/fontsaving/)(FontSavingArgs) | تم استدعاؤه عندما يحفظ Aspose.Note خطًا. |
+| [FontSaving](../../aspose.note.saving.html/ifontsavingcallback/fontsaving/)(FontSavingArgs) | يُستدعى عندما يقوم Aspose.Note بحفظ خط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
+* assembly [Aspose.Note](../../)
 
 

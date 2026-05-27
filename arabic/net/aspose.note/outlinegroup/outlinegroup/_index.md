@@ -1,23 +1,23 @@
 ---
-title: OutlineGroup.OutlineGroup
-second_title: Aspose.Note لمرجع NET API
-description: OutlineGroup البناء. يقوم بتهيئة مثيل جديد لملفOutlineGroup فئة .
+title: "OutlineGroup.OutlineGroup"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ OutlineGroup. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/outlinegroup/outlinegroup/
 ---
 ## OutlineGroup constructor
 
-يقوم بتهيئة مثيل جديد لملف[`OutlineGroup`](../) فئة .
+البناء الافتراضي.
 
 ```csharp
 public OutlineGroup()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineGroup](../)
-* مساحة الاسم [Aspose.Note](../../outlinegroup/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../outlinegroup/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,33 +1,33 @@
 ---
-title: CompositeNode1.RemoveChild
-second_title: Aspose.Note لمرجع NET API
-description: CompositeNode طريقة. يزيل العقدة الفرعية .
+title: "CompositeNode1.RemoveChild"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة CompositeNode. تُزيل العقدة الفرعية"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/compositenode-1/removechild/
 ---
 ## CompositeNode&lt;T&gt;.RemoveChild&lt;T1&gt; method
 
-يزيل العقدة الفرعية .
+يزيل عقدة الطفل.
 
 ```csharp
 public T1 RemoveChild<T1>(T1 oldChild)
     where T1 : T
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| T1 | النوع الدقيق للعقدة التي تمت إزالتها . |
-| oldChild | العقدة المطلوب إزالتها . |
+| T1 | النوع الدقيق للعقدة المُزالة. |
+| oldChild | العقدة المراد إزالتها. |
 
 ### قيمة الإرجاع
 
-العقدة التي تمت إزالتها .
+العقدة التي تم إزالتها.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [CompositeNode&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Note](../../compositenode-1/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../compositenode-1/)
+* assembly [Aspose.Note](../../../)
 
 

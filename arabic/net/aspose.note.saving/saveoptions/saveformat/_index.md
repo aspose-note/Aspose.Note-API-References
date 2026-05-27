@@ -1,24 +1,24 @@
 ---
-title: SaveOptions.SaveFormat
-second_title: Aspose.Note لمرجع NET API
-description: SaveOptions ملكية. يحصل على التنسيق الذي تم حفظ المستند به.
+title: "SaveOptions.SaveFormat"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية SaveOptions. يحصل على الصيغة التي يُحفظ بها المستند"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/saveoptions/saveformat/
 ---
 ## SaveOptions.SaveFormat property
 
-يحصل على التنسيق الذي تم حفظ المستند به.
+يحصل على الصيغة التي يُحفظ بها المستند.
 
 ```csharp
 public SaveFormat SaveFormat { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [SaveFormat](../../../aspose.note/saveformat/)
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../saveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../saveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

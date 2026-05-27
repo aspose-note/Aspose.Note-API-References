@@ -1,28 +1,28 @@
 ---
-title: PageSettings.A4NoHeightLimit
-second_title: Aspose.Note لمرجع NET API
-description: PageSettings ملكية. الحصول على إعدادات لصفحة تنسيق A4 بارتفاع غير محدود .
+title: "PageSettings.A4NoHeightLimit"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PageSettings. يحصل على الإعدادات لصفحة تنسيق A4 بدون حد للارتفاع"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/pagesettings/a4noheightlimit/
 ---
 ## PageSettings.A4NoHeightLimit property
 
-الحصول على إعدادات لصفحة تنسيق A4 بارتفاع غير محدود .
+يحصل على الإعدادات لصفحة بتنسيق A4 ذات ارتفاع غير محدود.
 
 ```csharp
 public static PageSettings A4NoHeightLimit { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 بدون حد للارتفاع.
+يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "OneNote.one");
 
 var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
@@ -31,10 +31,10 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSettings](../)
-* مساحة الاسم [Aspose.Note.Saving](../../pagesettings/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../pagesettings/)
+* assembly [Aspose.Note](../../../)
 
 

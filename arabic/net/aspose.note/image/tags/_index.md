@@ -1,65 +1,65 @@
 ---
-title: Image.Tags
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. يحصل على قائمة بكافة علامات الفقرة .
+title: "Image.Tags"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل على قائمة بجميع العلامات في الفقرة"
 type: docs
 weight: 160
 url: /ar/net/aspose.note/image/tags/
 ---
 ## Image.Tags property
 
-يحصل على قائمة بكافة علامات الفقرة .
+يحصل على قائمة جميع العلامات في الفقرة.
 
 ```csharp
 public List<ITag> Tags { get; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إضافة صورة جديدة مع علامة.
+يعرض كيفية إضافة صورة جديدة مع علامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي
+// تهيئة كائن فئة Outline
 Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تحميل صورة
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
+// تحميل صورة.
+Image image = new Image(dataDir + "icon.jpg");
 
-// أدخل الصورة في عقدة المستند
+// إدراج صورة في عقدة المستند.
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// إضافة عقدة عنصر المخطط التفصيلي
+// إضافة عقدة عنصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة الصفحة
+// إضافة عقدة صفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [ITag](../../itag/)
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

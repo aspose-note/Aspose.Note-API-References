@@ -1,58 +1,58 @@
 ---
-title: SaveOptions.PageCount
-second_title: Aspose.Note لمرجع NET API
-description: SaveOptions ملكية. الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند.
+title: "SaveOptions.PageCount"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية SaveOptions. يحصل أو يضبط عدد الصفحات التي سيتم حفظها. افتراضيًا هو MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/saveoptions/pagecount/
 ---
 ## SaveOptions.PageCount property
 
-الحصول على أو تحديد عدد الصفحات المراد حفظها. افتراضيا هوMaxValue مما يعني أنه سيتم تقديم جميع صفحات المستند.
+يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند.
 
 ```csharp
 public int PageCount { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق pdf.
+يظهر كيفية حفظ مستند بتنسيق pdf.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // تهيئة كائن PdfSaveOptions
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // تعيين فهرس الصفحة للصفحة الأولى ليتم حفظها
+                              // تعيين فهرس الصفحة الأولى التي سيتم حفظها
                               PageIndex = 0,
 
                               // تعيين عدد الصفحات
                               PageCount = 1,
                           };
 
-// احفظ المستند بصيغة PDF
+// احفظ المستند كملف PDF
 dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 
 // تهيئة كائن PdfSaveOptions
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // استخدم ضغط Jpeg
+                              // استخدام ضغط Jpeg
                               ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
 
                               // جودة ضغط JPEG
@@ -63,18 +63,18 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-يوضح كيفية إنشاء مستند وحفظه بتنسيق html في نطاق محدد من الصفحات.
+يوضح كيفية إنشاء مستند وحفظه بتنسيق html لنطاق محدد من الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote
+// تهيئة مستند OneNote.
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -83,7 +83,7 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// حفظ في تنسيق HTML
+// حفظ بتنسيق HTML
 dataDir = dataDir + "CreateAndSavePageRange_out.html";
 doc.Save(dataDir, new HtmlSaveOptions
                   {
@@ -92,10 +92,10 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Note.Saving](../../saveoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Saving](../../saveoptions/)
+* assembly [Aspose.Note](../../../)
 
 

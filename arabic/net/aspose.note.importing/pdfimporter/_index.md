@@ -1,29 +1,29 @@
 ---
-title: Class PdfImporter
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Importing.PdfImporter فصل. الفئة التي توفر api لاستيراد المحتوى من المستندات بتنسيق PDF . تسمح واجهة برمجة التطبيقات بالاستيراد من مستند PDF الموجود إما في ملف أو في دفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدامPdfImportOptions .
+title: "الفئة PdfImporter"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Importing.PdfImporter. الفئة التي توفر واجهة برمجة تطبيقات لاستيراد المحتوى من المستندات بصيغة PDF. تسمح الواجهة باستيراد مستند PDF موجود إما في ملف أو في تدفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدام PdfImportOptions"
 type: docs
-weight: 270
+weight: 290
 url: /ar/net/aspose.note.importing/pdfimporter/
 ---
 ## PdfImporter class
 
-الفئة التي توفر api لاستيراد المحتوى من المستندات بتنسيق PDF . تسمح واجهة برمجة التطبيقات بالاستيراد من مستند PDF الموجود إما في ملف أو في دفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدام[`PdfImportOptions`](../pdfimportoptions/) .
+الفئة التي توفر واجهة برمجة تطبيقات لاستيراد المحتوى من المستندات بصيغة PDF. تسمح الواجهة باستيراد مستند PDF موجود إما في ملف أو في تدفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدام [`PdfImportOptions`](../pdfimportoptions/).
 
 ```csharp
 public static class PdfImporter
 ```
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [Import](../../aspose.note.importing/pdfimporter/import/#import)(Stream, PdfImportOptions) | يستورد محتوى مستند PDF من التدفق المقدم . |
+| static [Import](../../aspose.note.importing/pdfimporter/import/#import)(Stream, PdfImportOptions) | يستورد محتوى مستند PDF من تدفق مُقدم. |
 | static [Import](../../aspose.note.importing/pdfimporter/import/#import_1)(string, PdfImportOptions) | يستورد محتوى مستند PDF من ملف محدد. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية استيراد كل الصفحات من مستند PDF الذي يجمع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -42,9 +42,9 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Importing](../../aspose.note.importing/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Importing](../../aspose.note.importing/)
+* assembly [Aspose.Note](../../)
 
 

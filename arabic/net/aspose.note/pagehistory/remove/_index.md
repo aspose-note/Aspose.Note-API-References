@@ -1,32 +1,32 @@
 ---
-title: PageHistory.Remove
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory طريقة. يزيل إصدار الصفحة من ملفPageHistory .
+title: "PageHistory.Remove"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة PageHistory. تُزيل إصدار الصفحة من PageHistory"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/pagehistory/remove/
 ---
 ## PageHistory.Remove method
 
-يزيل إصدار الصفحة من ملف[`PageHistory`](../) .
+تُزيل إصدار الصفحة من [`PageHistory`](../).
 
 ```csharp
 public bool Remove(Page item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| item | Page | إصدار الصفحة. |
+| عنصر | Page | إصدار الصفحة. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

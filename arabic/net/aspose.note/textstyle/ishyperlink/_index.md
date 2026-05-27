@@ -1,28 +1,28 @@
 ---
-title: TextStyle.IsHyperlink
-second_title: Aspose.Note لمرجع NET API
-description: خاصية TextStyle. قديمة منذ الإصدار 22.5. استخدم HyperlinkAddress بدلاً منها.
+title: "TextStyle.IsHyperlink"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية TextStyle. مهجور منذ الإصدار 22.5. استخدم HyperlinkAddress بدلاً من ذلك."
 type: docs
 weight: 80
 url: /ar/net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-قديمة منذ الإصدار 22.5. استخدم `HyperlinkAddress` بدلاً منها.
+مهجور منذ الإصدار 22.5. استخدم `HyperlinkAddress` بدلاً من ذلك.
 
 ```csharp
 public bool IsHyperlink { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية ربط ارتباط تشعبي بنص.
+يظهر كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -55,30 +55,30 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// تهيئة كائن فئة العنوان
+// تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة الصفحة
+// تهيئة كائن فئة Page
 Page page = new Note.Page() { Title = title };
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

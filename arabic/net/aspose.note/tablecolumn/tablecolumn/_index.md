@@ -1,23 +1,23 @@
 ---
-title: TableColumn.TableColumn
-second_title: Aspose.Note لمرجع NET API
-description: TableColumn البناء. Default_Constructor
+title: "TableColumn.TableColumn"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ TableColumn. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/tablecolumn/tablecolumn/
 ---
 ## TableColumn constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public TableColumn()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TableColumn](../)
-* مساحة الاسم [Aspose.Note](../../tablecolumn/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../tablecolumn/)
+* assembly [Aspose.Note](../../../)
 
 

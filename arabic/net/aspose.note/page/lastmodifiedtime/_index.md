@@ -1,28 +1,28 @@
 ---
-title: Page.LastModifiedTime
-second_title: Aspose.Note لمرجع NET API
-description: Page ملكية. الحصول على أو تعيين وقت آخر تعديل.
+title: "Page.LastModifiedTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Page. تحصل أو تعين وقت التعديل الأخير"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/page/lastmodifiedtime/
 ---
 ## Page.LastModifiedTime property
 
-الحصول على أو تعيين وقت آخر تعديل.
+يحصل أو يعيّن وقت آخر تعديل.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على معلومات التعريف حول الصفحة.
+يظهر كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -36,13 +36,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-يوضح كيفية الحصول على محفوظات الصفحة.
+يظهر كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote
+// تحميل مستند OneNote.
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى
@@ -59,10 +59,10 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

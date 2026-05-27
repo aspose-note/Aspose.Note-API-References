@@ -1,28 +1,28 @@
 ---
-title: DocumentVisitor.VisitOutlineElementEnd
-second_title: Aspose.Note لمرجع NET API
-description: DocumentVisitor طريقة. نهاية لزيارةOutlineElement العقدة .
+title: "DocumentVisitor.VisitOutlineElementEnd"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DocumentVisitor. النهاية لزيارة عقدة OutlineElement"
 type: docs
-weight: 70
+weight: 150
 url: /ar/net/aspose.note/documentvisitor/visitoutlineelementend/
 ---
 ## DocumentVisitor.VisitOutlineElementEnd method
 
-نهاية لزيارة[`OutlineElement`](../../outlineelement/) العقدة .
+النهاية لزيارة عقدة [`OutlineElement`](../../outlineelement/).
 
 ```csharp
 public virtual void VisitOutlineElementEnd(OutlineElement outlineElement)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| outlineElement | OutlineElement | ملف[`OutlineElement`](../../outlineelement/) العقدة . |
+| outlineElement | OutlineElement | العقدة [`OutlineElement`](../../outlineelement/). |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineElement](../../outlineelement/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Note](../../documentvisitor/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../documentvisitor/)
+* assembly [Aspose.Note](../../../)
 
 

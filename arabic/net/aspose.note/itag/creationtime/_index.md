@@ -1,32 +1,32 @@
 ---
-title: ITag.CreationTime
-second_title: Aspose.Note لمرجع NET API
-description: ITag ملكية. الحصول على وقت الإنشاء أو تعيينه.
+title: "ITag.CreationTime"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية ITag. يحصل أو يحدد وقت الإنشاء"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/itag/creationtime/
 ---
 ## ITag.CreationTime property
 
-الحصول على وقت الإنشاء أو تعيينه.
+يحصل أو يعيّن وقت الإنشاء.
 
 ```csharp
 public DateTime CreationTime { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-ملفDateTime .
+الـ DateTime.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إنشاء ملف pdf يحتوي على جميع الصفحات المتعلقة بالمشروع أ.
+يوضح كيفية إنشاء ملف pdf يحتوي على جميع الصفحات المتعلقة بـ 'Project A'.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 
 var report = new Document();
@@ -41,13 +41,13 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-يوضح كيفية إنشاء ملف pdf يحتوي على صفحات تحتوي على عناصر تم تمييزها بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
+يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر معلمة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
 
 var report = new Document();
@@ -62,13 +62,13 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteLastWeekReport.pdf"));
 ```
 
-يوضح كيفية إنشاء ملف pdf يحتوي على صفحات بها مهام غير مكتملة في Outlook لإكمالها في هذا الأسبوع.
+يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها مهام Outlook غير مكتملة لإكمالها هذا الأسبوع.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
 
 var report = new Document();
@@ -84,19 +84,19 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "IncompleteTasksForThisWeekReport.pdf"));
 ```
 
-يوضح كيفية الوصول إلى تفاصيل مهام Outlook.
+يوضح كيفية الوصول إلى تفاصيل مهام outlook.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tasks = richText.Tags.OfType<NoteTask>();
@@ -105,7 +105,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Task: {richText.Text}");
         foreach (var noteTask in tasks)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTask.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTask.CreationTime}");
             Console.WriteLine($"    Due Date: {noteTask.DueDate}");
@@ -116,19 +116,19 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يوضح كيفية الوصول إلى تفاصيل العلامة.
+يظهر كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "TagFile.one");
 
 // احصل على جميع عقد RichText
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 
-// كرر خلال كل عقدة
+// تكرار عبر كل عقدة
 foreach (RichText richText in nodes)
 {
     var tags = richText.Tags.OfType<NoteTag>();
@@ -137,7 +137,7 @@ foreach (RichText richText in nodes)
         Console.WriteLine($"Text: {richText.Text}");
         foreach (var noteTag in tags)
         {
-            // استرداد الخصائص
+            // استرجاع الخصائص
             Console.WriteLine($"    Completed Time: {noteTag.CompletedTime}");
             Console.WriteLine($"    Create Time: {noteTag.CreationTime}");
             Console.WriteLine($"    Font Color: {noteTag.FontColor}");
@@ -150,10 +150,10 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [ITag](../)
-* مساحة الاسم [Aspose.Note](../../itag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../itag/)
+* assembly [Aspose.Note](../../../)
 
 

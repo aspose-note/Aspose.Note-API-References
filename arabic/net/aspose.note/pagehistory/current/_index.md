@@ -1,24 +1,24 @@
 ---
-title: PageHistory.Current
-second_title: Aspose.Note لمرجع NET API
-description: PageHistory ملكية. يحصل على نسخة الصفحة الحالية.
+title: "PageHistory.Current"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية PageHistory. تُعيد إصدار الصفحة الحالي."
 type: docs
 weight: 30
 url: /ar/net/aspose.note/pagehistory/current/
 ---
 ## PageHistory.Current property
 
-يحصل على نسخة الصفحة الحالية.
+يحصل على إصدار الصفحة الحالي.
 
 ```csharp
 public Page Current { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Page](../../page/)
 * class [PageHistory](../)
-* مساحة الاسم [Aspose.Note](../../pagehistory/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../pagehistory/)
+* assembly [Aspose.Note](../../../)
 
 

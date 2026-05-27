@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateBlueCircle1
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة برمز BlueCircle1 وتسمية محددة.
+title: "NoteTag.CreateBlueCircle1"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز BlueCircle1 والعنوان المحدد"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/notetag/createbluecircle1/
 ---
 ## NoteTag.CreateBlueCircle1 method
 
-ينشئ علامة ملاحظة جديدة برمز BlueCircle1 وتسمية محددة.
+ينشئ علامة ملاحظة جديدة بأيقونة BlueCircle1 والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateBlueCircle1(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

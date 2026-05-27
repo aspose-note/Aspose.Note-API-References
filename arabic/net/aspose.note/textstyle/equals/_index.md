@@ -1,55 +1,55 @@
 ---
-title: TextStyle.Equals
-second_title: Aspose.Note لمرجع NET API
-description: TextStyle طريقة. تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+title: "TextStyle.Equals"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة TextStyle. تحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/textstyle/equals/
 ---
 ## Equals(object) {#equals_1}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن . |
+| obj | Object | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Equals(TextStyle) {#equals}
 
-تحديد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
 
 ```csharp
 public bool Equals(TextStyle other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| other | TextStyle | الكائن . |
+| أخرى | TextStyle | الكائن. |
 
 ### قيمة الإرجاع
 
-ملفBoolean .
+الـ Boolean.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../)
-* مساحة الاسم [Aspose.Note](../../textstyle/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../textstyle/)
+* assembly [Aspose.Note](../../../)
 
 

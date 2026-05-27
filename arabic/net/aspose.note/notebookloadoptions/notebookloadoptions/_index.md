@@ -1,23 +1,23 @@
 ---
-title: NotebookLoadOptions.NotebookLoadOptions
-second_title: Aspose.Note لمرجع NET API
-description: NotebookLoadOptions البناء. Default_Constructor
+title: "NotebookLoadOptions.NotebookLoadOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "منشئ NotebookLoadOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/notebookloadoptions/notebookloadoptions/
 ---
 ## NotebookLoadOptions constructor
 
-Default_Constructor
+البناء الافتراضي.
 
 ```csharp
 public NotebookLoadOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NotebookLoadOptions](../)
-* مساحة الاسم [Aspose.Note](../../notebookloadoptions/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebookloadoptions/)
+* assembly [Aspose.Note](../../../)
 
 

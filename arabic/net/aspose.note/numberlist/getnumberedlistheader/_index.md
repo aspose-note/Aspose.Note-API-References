@@ -1,31 +1,31 @@
 ---
-title: NumberList.GetNumberedListHeader
-second_title: Aspose.Note لمرجع NET API
-description: NumberList طريقة. الحصول على رأس القائمة المرقمة .
+title: "NumberList.GetNumberedListHeader"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NumberList. تحصل على رأس القائمة المرقمة"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/numberlist/getnumberedlistheader/
 ---
 ## NumberList.GetNumberedListHeader method
 
-الحصول على رأس القائمة المرقمة .
+يحصل على رأس القائمة المرقمة.
 
 ```csharp
 public string GetNumberedListHeader(int sequenceNumber)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| sequenceNumber | Int32 | الرقم التسلسلي في القائمة المرقمة . |
+| sequenceNumber | Int32 | رقم التسلسل في القائمة المرقمة. |
 
 ### قيمة الإرجاع
 
-تمثيل سلسلة لرقم التسلسل المحدد.
+تمثيل نصي لرقم التسلسل المحدد.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NumberList](../)
-* مساحة الاسم [Aspose.Note](../../numberlist/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../numberlist/)
+* assembly [Aspose.Note](../../../)
 
 

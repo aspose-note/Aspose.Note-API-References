@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateBinoculars
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. ينشئ علامة ملاحظة جديدة بأيقونة مناظير وتسمية محددة.
+title: "NoteTag.CreateBinoculars"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Binoculars والملصق المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/notetag/createbinoculars/
 ---
 ## NoteTag.CreateBinoculars method
 
-ينشئ علامة ملاحظة جديدة بأيقونة مناظير وتسمية محددة.
+ينشئ علامة ملاحظة جديدة بأيقونة Binoculars والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateBinoculars(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Style.IsSubscript
-second_title: Aspose.Note لمرجع NET API
-description: Style ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص منخفضًا.
+title: "Style.IsSubscript"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Style. يحصل على أو يضبط قيمة تشير إلى ما إذا كان نمط النص هو أسفل السطر"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/style/issubscript/
 ---
 ## Style.IsSubscript property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان نمط النص منخفضًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا.
 
 ```csharp
 public bool IsSubscript { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Note](../../style/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../style/)
+* assembly [Aspose.Note](../../../)
 
 

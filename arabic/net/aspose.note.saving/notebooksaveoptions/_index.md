@@ -1,14 +1,14 @@
 ---
-title: Class NotebookSaveOptions
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.NotebookSaveOptions فصل. فئة أساسية مجردة تمثل خيارات حفظ الكمبيوتر المحمول لتنسيق معين.
+title: "الفئة NotebookSaveOptions"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.NotebookSaveOptions. فئة أساسية مجردة تمثل خيارات حفظ الدفتر لتنسيق معين."
 type: docs
-weight: 790
+weight: 870
 url: /ar/net/aspose.note.saving/notebooksaveoptions/
 ---
 ## NotebookSaveOptions class
 
-فئة أساسية مجردة تمثل خيارات حفظ الكمبيوتر المحمول لتنسيق معين.
+فئة أساسية مجردة تمثل خيارات حفظ الدفتر لتنسيق معين.
 
 ```csharp
 public abstract class NotebookSaveOptions
@@ -16,30 +16,30 @@ public abstract class NotebookSaveOptions
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية بشكل صريح . |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان التسلسل الهرمي للأطفال في دفتر الملاحظات مسطحًا أم لا. |
-| abstract [SaveFormat](../../aspose.note.saving/notebooksaveoptions/saveformat/) { get; } | يحصل على التنسيق الذي تم حفظ دفتر الملاحظات به. |
+| [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً. |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا. |
+| abstract [SaveFormat](../../aspose.note.saving/notebooksaveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها الدفتر. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| abstract [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions/getdocumentsaveoptions/)() | يحصل على خيارات الحفظ لجميع المستندات التابعة للدفتر. |
+| abstract [GetDocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions/getdocumentsaveoptions/)() | يحصل على خيارات الحفظ لجميع المستندات الفرعية للدفتر. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية حفظ دفتر ملاحظات مسطح بتنسيق pdf.
+يوضح كيفية حفظ الدفتر المسطح بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
 notebook.Save(
     dataDir,
@@ -49,13 +49,13 @@ notebook.Save(
     });
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات بتنسيق pdf بخيارات محددة.
+يوضح كيفية حفظ الدفتر بتنسيق pdf مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookPdfSaveOptions();
@@ -66,17 +66,17 @@ documentSaveOptions.PageSplittingAlgorithm = new KeepSolidObjectsAlgorithm();
 
 dataDir = dataDir + "ConvertToPDF_out.pdf";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ دفتر الملاحظات المسطح كصورة.
+يوضح كيفية حفظ الدفتر المسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 var notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -88,13 +88,13 @@ notebookSaveOptions.Flatten = true;
 
 dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 

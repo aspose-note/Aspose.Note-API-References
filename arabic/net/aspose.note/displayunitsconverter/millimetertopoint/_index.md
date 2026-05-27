@@ -1,31 +1,31 @@
 ---
-title: DisplayUnitsConverter.MillimeterToPoint
-second_title: Aspose.Note لمرجع NET API
-description: DisplayUnitsConverter طريقة. تحويل المليمترات إلى نقاط .
+title: "DisplayUnitsConverter.MillimeterToPoint"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة DisplayUnitsConverter. يحول المليمترات إلى نقاط"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/displayunitsconverter/millimetertopoint/
 ---
 ## DisplayUnitsConverter.MillimeterToPoint method
 
-تحويل المليمترات إلى نقاط .
+يحول المليمترات إلى نقاط.
 
 ```csharp
 public static float MillimeterToPoint(float mm)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| mm | Single | القيمة المطلوب تحويلها بالميليمترات . |
+| mm | Single | القيمة المراد تحويلها بالمليمترات. |
 
 ### قيمة الإرجاع
 
-ملفSingle .
+ال Single.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [DisplayUnitsConverter](../)
-* مساحة الاسم [Aspose.Note](../../displayunitsconverter/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../displayunitsconverter/)
+* assembly [Aspose.Note](../../../)
 
 

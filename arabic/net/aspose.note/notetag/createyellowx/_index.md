@@ -1,31 +1,31 @@
 ---
-title: NoteTag.CreateYellowX
-second_title: Aspose.Note لمرجع NET API
-description: NoteTag طريقة. إنشاء علامة ملاحظة جديدة بأيقونة YellowX والتسمية المحددة.
+title: "NoteTag.CreateYellowX"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز YellowX والعنوان المحدد"
 type: docs
 weight: 1110
 url: /ar/net/aspose.note/notetag/createyellowx/
 ---
 ## NoteTag.CreateYellowX method
 
-إنشاء علامة ملاحظة جديدة بأيقونة YellowX والتسمية المحددة.
+ينشئ علامة ملاحظة جديدة مع أيقونة YellowX والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateYellowX(string label = "")
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| label | String | تسمية العلامة . |
+| ملصق | String | ملصق العلامة. |
 
 ### قيمة الإرجاع
 
-ملف[`NoteTag`](../) .
+ال [`NoteTag`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [NoteTag](../)
-* مساحة الاسم [Aspose.Note](../../notetag/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notetag/)
+* assembly [Aspose.Note](../../../)
 
 

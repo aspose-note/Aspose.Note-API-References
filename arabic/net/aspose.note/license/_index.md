@@ -1,42 +1,57 @@
 ---
-title: Class License
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.License فصل. يوفر طرقًا لترخيص المكون.
+title: "الفئة License"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.License. توفر طرقًا لترخيص المكوّن"
 type: docs
-weight: 310
+weight: 370
 url: /ar/net/aspose.note/license/
 ---
 ## License class
 
-يوفر طرقًا لترخيص المكون.
+يوفر أساليب لترخيص المكوّن.
 
 ```csharp
-public class License
+public sealed class License
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [License](license/)() | Default_Constructor |
+| [License](license/)() | البناء الافتراضي. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SetLicense](../../aspose.note/license/setlicense/#setlicense)(Stream) | تراخيص المكون . |
-| [SetLicense](../../aspose.note/license/setlicense/#setlicense_1)(string) | تراخيص المكون . |
+| [SetLicense](../../aspose.note/license/setlicense/#setlicense)(Stream) | يرخص المكوّن. |
+| [SetLicense](../../aspose.note/license/setlicense/#setlicense_1)(string) | يرخص المكوّن. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تحميل ترخيص Aspose.Note من ملف.
+في هذا المثال، سيتم محاولة العثور على ملف ترخيص باسم MyLicense.lic في المجلد الذي يحتوي على المكوّن، في المجلد الذي يحتوي على التجميع المستدعي، في مجلد التجميع الرئيسي ثم في الموارد المدمجة للتجميع المستدعي.
+
+```csharp
+[C#]
+
+License license = new License();
+license.SetLicense("MyLicense.lic");
+
+
+[Visual Basic]
+
+Dim license As license = New license
+License.SetLicense("MyLicense.lic")
+```
+
+يوضح كيفية تحميل ترخيص لـ Aspose.Note من ملف.
 
 ```csharp
 Aspose.Note.License license = new Aspose.Note.License();
 license.SetLicense("Aspose.Note.lic");
 ```
 
-يوضح كيفية تحميل ترخيص Aspose.Note من تيار.
+يوضح كيفية تحميل ترخيص لـ Aspose.Note من تدفق.
 
 ```csharp
 Aspose.Note.License license = new Aspose.Note.License();
@@ -46,19 +61,19 @@ using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
 }
 ```
 
-يوضح كيفية تحميل ترخيص Aspose.Note من مورد ملف مضمن.
+يوضح كيفية تحميل ترخيص لـ Aspose.Note من مورد ملف مدمج.
 
 ```csharp
-// إنشاء فئة الترخيص
+// إنشاء كائن من الفئة License
 Aspose.Note.License license = new Aspose.Note.License();
 
-// مرر فقط اسم ملف الترخيص المضمن في التجميع
+// مرّر فقط اسم ملف الترخيص المدمج في التجميع
 license.SetLicense("Aspose.Note.lic");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

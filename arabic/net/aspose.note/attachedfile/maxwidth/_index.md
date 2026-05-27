@@ -1,23 +1,23 @@
 ---
-title: AttachedFile.MaxWidth
-second_title: Aspose.Note لمرجع NET API
-description: AttachedFile ملكية. الحصول على أو تعيين الحد الأقصى للعرض لعرض رمز الملف المضمن.
+title: "AttachedFile.MaxWidth"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية AttachedFile. يحصل أو يضبط أقصى عرض لعرض أيقونة الملف المضمن"
 type: docs
 weight: 170
 url: /ar/net/aspose.note/attachedfile/maxwidth/
 ---
 ## AttachedFile.MaxWidth property
 
-الحصول على أو تعيين الحد الأقصى للعرض لعرض رمز الملف المضمن.
+يحصل أو يعيّن الحد الأقصى للعرض لعرض أيقونة الملف المضمّن.
 
 ```csharp
 public float MaxWidth { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AttachedFile](../)
-* مساحة الاسم [Aspose.Note](../../attachedfile/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../attachedfile/)
+* assembly [Aspose.Note](../../../)
 
 

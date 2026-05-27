@@ -1,64 +1,76 @@
 ---
-title: Class Image
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Image فصل. يمثل صورة .
+title: "الفئة Image"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Image. تمثل صورة."
 type: docs
 weight: 250
 url: /ar/net/aspose.note/image/
 ---
 ## Image class
 
-يمثل صورة .
+يمثل صورة.
 
 ```csharp
-public sealed class Image : Node, IOutlineElementChildNode, IPageChildNode, ITaggable
+public sealed class Image : CompositeNode<Loop>, IOutlineElementChildNode, IPageChildNode, ITaggable
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Image](image/#constructor)() | يقوم بتهيئة مثيل جديد لملف`Image` فئة . |
-| [Image](image/#constructor_4)(string, Stream) | يقوم بتهيئة مثيل جديد لملف`Image` فئة . |
-| [Image](image/#constructor_5)(string, string, string) | يقوم بتهيئة مثيل جديد لملف`Image` فئة . |
+| [Image](image/#constructor)() | يُنشئ مثيلاً جديدًا للفئة `Image`. |
+| [Image](image/#constructor_1)(string) | يُنشئ مثيلاً جديدًا للفئة `Image`. |
+| [Image](image/#constructor_2)(string, Stream) | يُنشئ مثيلاً جديدًا للفئة `Image`. |
+| [Image](image/#constructor_3)(string, string, string) | يُنشئ مثيلاً جديدًا للفئة `Image`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Alignment](../../aspose.note/image/alignment/) { get; set; } | الحصول على المحاذاة أو تعيينها. |
-| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | الحصول على نص بديل للصورة أو تعيينه. |
-| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | الحصول على عنوان نص بديل للصورة أو تعيينه. |
+| [Alignment](../../aspose.note/image/alignment/) { get; set; } | يحصل أو يعيّن المحاذاة. |
+| [AlternativeTextDescription](../../aspose.note/image/alternativetextdescription/) { get; set; } | يحصل أو يعيّن نصًا بديلًا للجسم للصورة. |
+| [AlternativeTextTitle](../../aspose.note/image/alternativetexttitle/) { get; set; } | يحصل أو يعيّن عنوان النص البديل للصورة. |
 | [Bytes](../../aspose.note/image/bytes/) { get; } | يحصل على مخزن بيانات الصورة. |
-| [Document](../../aspose.note/node/document/) { get; } | يحصل على وثيقة العقدة . |
+| [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [FileName](../../aspose.note/image/filename/) { get; } | يحصل على اسم الملف. |
-| [FilePath](../../aspose.note/image/filepath/) { get; } | يحصل على المسار لملف الصورة. |
-| [Format](../../aspose.note/image/format/) { get; } | الحصول على تنسيق الصورة. |
-| [Height](../../aspose.note/image/height/) { get; set; } | الحصول على الارتفاع أو تحديده. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote . |
-| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الأفقية. |
-| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | الحصول على أو تعيين الارتباط التشعبي المرتبط بالصورة. |
-| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | تحديد ما إذا كانت الصورة صورة خلفية . |
-| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان هذا صحيحًا ، يمكن أن تحتوي العقدة على عقد فرعية. |
-| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | الحصول على أو تعيين وقت آخر تعديل. |
-| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | الحصول على العقدة التالية على نفس مستوى شجرة العقدة. |
-| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة . |
-| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | الحصول على الارتفاع الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم. |
-| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | يحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة قبل تغيير الحجم. |
-| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية . |
-| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | الحصول على العقدة السابقة على نفس مستوى شجرة العقدة. |
-| [Tags](../../aspose.note/image/tags/) { get; } | يحصل على قائمة بكافة علامات الفقرة . |
-| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | الحصول على أو تعيين الإزاحة الرأسية . |
-| [Width](../../aspose.note/image/width/) { get; set; } | الحصول على العرض أو تحديده. هذا هو العرض الحقيقي للصورة في مستند MS OneNote. |
+| [FilePath](../../aspose.note/image/filepath/) { get; } | يحصل على المسار إلى ملف الصورة. |
+| [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
+| [Format](../../aspose.note/image/format/) { get; } | يحصل على تنسيق الصورة. |
+| [Height](../../aspose.note/image/height/) { get; set; } | يحصل أو يعيّن الارتفاع. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote. |
+| [HorizontalOffset](../../aspose.note/image/horizontaloffset/) { get; set; } | يحصل أو يعيّن الإزاحة الأفقية. |
+| [HyperlinkUrl](../../aspose.note/image/hyperlinkurl/) { get; set; } | يحصل أو يعيّن الرابط التشعبي المرتبط بالصورة. |
+| [IsBackground](../../aspose.note/image/isbackground/) { get; set; } | يحصل على ما إذا كانت الصورة صورة خلفية. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
+| [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
+| [LastModifiedTime](../../aspose.note/image/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت التعديل الأخير. |
+| [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
+| [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
+| [OriginalHeight](../../aspose.note/image/originalheight/) { get; } | يحصل على الارتفاع الأصلي. هذا هو العرض الأصلي للصورة، قبل إعادة التحجيم. |
+| [OriginalWidth](../../aspose.note/image/originalwidth/) { get; } | يحصل على العرض الأصلي. هذا هو العرض الأصلي للصورة، قبل إعادة التحجيم. |
+| [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية. |
+| [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
+| [Tags](../../aspose.note/image/tags/) { get; } | يحصل على قائمة جميع العلامات في الفقرة. |
+| [VerticalOffset](../../aspose.note/image/verticaloffset/) { get; set; } | يحصل أو يضبط الإزاحة العمودية. |
+| [Width](../../aspose.note/image/width/) { get; set; } | يحصل أو يعيّن العرض. هذا هو العرض الحقيقي للصورة في مستند MS OneNote. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | يقبل زائر العقدة . |
+| override [Accept](../../aspose.note/image/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
+| virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
+| override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, IEnumerable&lt;Loop&gt;) |  |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params Loop[]) |  |
+| [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
+| [Replace](../../aspose.note/image/replace/)(Image) | يستبدل بيانات الصورة الحالية بالبيانات من كائن Image المقدم. |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية ربط ارتباط تشعبي بصورة ما.
+يعرض كيفية ربط ارتباط تشعبي بصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -68,7 +80,7 @@ var document = new Document();
 
 var page = new Page();
 
-var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com "} ;
+var image = new Image(dataDir + "image.jpg") { HyperlinkUrl = "https://image.com" };
 
 page.AppendChildLast(image);
 
@@ -77,7 +89,7 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
-يوضح كيفية تعيين وصف نصي للصورة.
+يظهر كيفية تعيين وصف نصي لصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -97,16 +109,16 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-يوضح كيفية الحصول على صورة من مستند.
+يظهر كيفية الحصول على صورة من مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -115,23 +127,23 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // حفظ بايت الصورة في ملف
+            // حفظ بايتات الصورة إلى ملف
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
 }
 ```
 
-يوضح كيفية الحصول على معلومات التعريف الخاصة بالصورة.
+يظهر كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// احصل على جميع عُقد الصور
+// الحصول على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -146,46 +158,46 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-يوضح كيفية إضافة صورة جديدة مع علامة.
+يعرض كيفية إضافة صورة جديدة مع علامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي
+// تهيئة كائن فئة Outline
 Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تحميل صورة
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "icon.jpg");
+// تحميل صورة.
+Image image = new Image(dataDir + "icon.jpg");
 
-// أدخل الصورة في عقدة المستند
+// إدراج صورة في عقدة المستند.
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
-// إضافة عقدة عنصر المخطط التفصيلي
+// إضافة عقدة عنصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة الصفحة
+// إضافة عقدة صفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إضافة صورة من ملف إلى مستند بخصائص يحددها المستخدم.
+يظهر كيفية إضافة صورة من ملف إلى مستند مع خصائص محددة من قبل المستخدم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -195,20 +207,20 @@ string dataDir = RunExamples.GetDataDir_Images();
 Document doc = new Document(dataDir + "Aspose.one");
 
 // احصل على الصفحة الأولى من المستند.
-Aspose.Note.Page page = doc.FirstChild;
+Page page = doc.FirstChild;
 
 // تحميل صورة من الملف.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+Image image = new Image(dataDir + "image.jpg")
                           {
-                              // قم بتغيير حجم الصورة وفقًا لاحتياجاتك (اختياري).
+                              // غيّر حجم الصورة وفقًا لاحتياجاتك (اختياري).
                               Width = 100,
                               Height = 100,
 
-                              // تعيين موقع الصورة في الصفحة (اختياري).
+                              // حدد موقع الصورة في الصفحة (اختياري).
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // تعيين محاذاة الصورة
+                              // ضبط محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 
@@ -216,17 +228,17 @@ Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
-يوضح كيفية إضافة صورة من دفق إلى مستند.
+يظهر كيفية إضافة صورة من الدفق إلى مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
 Outline outline1 = new Outline();
 OutlineElement outlineElem1 = new OutlineElement();
@@ -234,10 +246,10 @@ OutlineElement outlineElem1 = new OutlineElement();
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // قم بتحميل الصورة الثانية باستخدام اسم الصورة والامتداد والدفق.
-    Aspose.Note.Image image1 = new Aspose.Note.Image(doc, "Penguins.jpg", fs)
+    // تحميل الصورة الثانية باستخدام اسم الصورة، الامتداد، والدفق.
+    Image image1 = new Image("Penguins.jpg", fs)
                                    {
-                                       // تعيين محاذاة الصورة
+                                       // ضبط محاذاة الصورة
                                        Alignment = HorizontalAlignment.Right
                                    };
 
@@ -249,60 +261,61 @@ page.AppendChildLast(outline1);
 
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إضافة صورة من ملف إلى مستند.
+يظهر كيفية إضافة صورة من ملف إلى مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// إنشاء كائن من فئة المستند
+// إنشاء كائن من فئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// تهيئة كائن فئة المخطط التفصيلي وتعيين خصائص الإزاحة
+// تهيئة كائن فئة Outline وتعيين خصائص الإزاحة
 Outline outline = new Outline();
 
 // تهيئة كائن فئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// قم بتحميل صورة عن طريق مسار الملف.
-Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
+// تحميل صورة عبر مسار الملف.
+Image image = new Image(dataDir + "image.jpg")
                           {
-                              // تعيين محاذاة الصورة
+                              // ضبط محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 
 // إضافة صورة
 outlineElem.AppendChildLast(image);
 
-// أضف عناصر المخطط التفصيلي
+// إضافة عناصر المخطط
 outline.AppendChildLast(outlineElem);
 
-// إضافة عقدة المخطط التفصيلي
+// إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Node](../node/)
+* class [CompositeNode&lt;T&gt;](../compositenode-1/)
+* class [Loop](../loop/)
 * interface [IOutlineElementChildNode](../ioutlineelementchildnode/)
 * interface [IPageChildNode](../ipagechildnode/)
 * interface [ITaggable](../itaggable/)
-* مساحة الاسم [Aspose.Note](../../aspose.note/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note](../../aspose.note/)
+* assembly [Aspose.Note](../../)
 
 

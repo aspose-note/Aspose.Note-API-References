@@ -1,50 +1,50 @@
 ---
-title: Notebook.DisplayName
-second_title: Aspose.Note لمرجع NET API
-description: Notebook ملكية. الحصول على أو تحديد اسم العرض .
+title: "Notebook.DisplayName"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Notebook. تحصل أو تعين اسم العرض"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/notebook/displayname/
 ---
 ## Notebook.DisplayName property
 
-الحصول على أو تحديد اسم العرض .
+يحصل أو يضبط اسم العرض.
 
 ```csharp
 public string DisplayName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية إزالة قسم من دفتر ملاحظات.
+يوضح كيفية إزالة قسم من الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// تحميل دفتر ملاحظات OneNote
+// تحميل دفتر OneNote
 var notebook = new Notebook(dataDir + "test.onetoc2");
 
-// اجتياز العقد الفرعية للبحث عن العنصر الفرعي المطلوب
+// التنقل عبر العقد الفرعية للبحث عن العنصر الفرعي المطلوب
 foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // إزالة العنصر الفرعي من دفتر الملاحظات
+        // إزالة العنصر الفرعي من الدفتر
         notebook.RemoveChild(child);
     }
 }
 
 dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 
-// حفظ دفتر الملاحظات
+// احفظ الدفتر
 notebook.Save(dataDir);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Notebook](../)
-* مساحة الاسم [Aspose.Note](../../notebook/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../notebook/)
+* assembly [Aspose.Note](../../../)
 
 

@@ -1,35 +1,35 @@
 ---
-title: FontsSubsystem.LoadFontsFromFolder
-second_title: Aspose.Note لمرجع NET API
-description: FontsSubsystem طريقة. يتم تحميل كافة خطوط TrueType من المجلد المحدد إلى المجموعة الداخلية.
+title: "FontsSubsystem.LoadFontsFromFolder"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة FontsSubsystem. يحمل جميع خطوط TrueType من المجلد المحدد إلى المجموعة الداخلية"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.fonts/fontssubsystem/loadfontsfromfolder/
 ---
 ## FontsSubsystem.LoadFontsFromFolder method
 
-يتم تحميل كافة خطوط TrueType من المجلد المحدد إلى المجموعة الداخلية.
+يقوم بتحميل جميع خطوط TrueType من المجلد المحدد إلى المجموعة الداخلية.
 
 ```csharp
 public void LoadFontsFromFolder(string folder)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| folder | String | المجلد الذي يحتوي على fonts. |
+| مجلد | String | المجلد الذي يحتوي على الخطوط. |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| NullReferenceException | معلمة "المجلد" فارغة أو فارغة . |
-| DirectoryNotFoundException | هناك دليل محدد بواسطة المجلد غير موجود . |
-| InvalidDataException | لا يحتوي الملف من المجلد على خط TrueType . |
+| NullReferenceException | المعامل 'folder' فارغ أو خالي. |
+| DirectoryNotFoundException | الدليل المحدد بالمجلد غير موجود. |
+| InvalidDataException | الملف الموجود في المجلد لا يحتوي على خط TrueType. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontsSubsystem](../)
-* مساحة الاسم [Aspose.Note.Fonts](../../fontssubsystem/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note.Fonts](../../fontssubsystem/)
+* assembly [Aspose.Note](../../../)
 
 

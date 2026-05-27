@@ -1,63 +1,63 @@
 ---
-title: RichText.Replace
-second_title: Aspose.Note لمرجع NET API
-description: RichText طريقة. يستبدل جميع تكرارات حرف Unicode المحدد في هذه الحالة بحرف Unicode آخر محدد.
+title: "RichText.Replace"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "طريقة RichText. تستبدل جميع تكرارات حرف يونيكود محدد في هذه النسخة بحرف يونيكود آخر محدد"
 type: docs
-weight: 200
+weight: 230
 url: /ar/net/aspose.note/richtext/replace/
 ---
 ## Replace(char, char) {#replace}
 
-يستبدل جميع تكرارات حرف Unicode المحدد في هذه الحالة بحرف Unicode آخر محدد.
+يستبدل جميع تكرارات حرف يونيكود محدد في هذه الحالة بحرف يونيكود آخر محدد.
 
 ```csharp
 public RichText Replace(char oldChar, char newChar)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| oldChar | Char | الحرف القديم . |
-| newChar | Char | الحرف الجديد . |
+| oldChar | Char | الحرف القديم. |
+| newChar | Char | الحرف الجديد. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Replace(string, string) {#replace_1}
 
-يستبدل كل تكرارات سلسلة محددة في المثيل الحالي بسلسلة أخرى محددة.
+يستبدل جميع تكرارات سلسلة محددة في الحالة الحالية بسلسلة أخرى محددة.
 
 ```csharp
 public RichText Replace(string oldValue, string newValue)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| oldValue | String | القيمة القديمة . |
-| newValue | String | القيمة الجديدة . |
+| oldValue | String | القيمة القديمة. |
+| newValue | String | القيمة الجديدة. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
 | ArgumentNullException |  |
 | ArgumentException |  |
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية تمرير نص الصفحة واستبداله.
+يوضح كيفية المرور عبر نص الصفحة وإجراء استبدال.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -66,7 +66,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("voice over", "voice over new text");
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 IList<Page> pageNodes = oneFile.GetChildNodes<Page>();
@@ -83,12 +83,12 @@ foreach (RichText richText in textNodes)
     }
 }
 
-// حفظ بأي تنسيق ملف مدعوم
+// احفظ بأي تنسيق ملف مدعوم
 dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-يوضح كيفية إنشاء مستند جديد عن طريق استبدال أجزاء نصية خاصة في قالب.
+يظهر كيفية إنشاء مستند جديد عن طريق استبدال قطع النص الخاصة في القالب.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -105,10 +105,10 @@ var D = new Dictionary<string, string>
                 { "YourName", "Ayn Rand" }
             };
 
-// قم بتحميل مستند النموذج في Aspose.Note.
+// حمّل مستند القالب في Aspose.Note.
 var d = new Document(Path.Combine(dataDir, "JobOffer.one"));
 
-// دعنا نستبدل جميع كلمات القالب
+// لنستبدل جميع كلمات القالب
 foreach (var e in d.GetChildNodes<RichText>())
 {
     foreach (var replace in D)
@@ -120,44 +120,44 @@ foreach (var e in d.GetChildNodes<RichText>())
 d.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 ---
 
 ## Replace(string, string, TextStyle) {#replace_2}
 
-يستبدل كل تكرارات سلسلة محددة في المثيل الحالي بسلسلة أخرى محددة في النمط المحدد.
+يستبدل جميع تكرارات سلسلة محددة في الحالة الحالية بسلسلة أخرى محددة بنمط محدد.
 
 ```csharp
 public RichText Replace(string oldValue, string newValue, TextStyle style)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| oldValue | String | القيمة القديمة . |
-| newValue | String | القيمة الجديدة . |
-| style | TextStyle | نمط القيمة الجديدة . |
+| oldValue | String | القيمة القديمة. |
+| newValue | String | القيمة الجديدة. |
+| style | TextStyle | نمط القيمة الجديدة. |
 
 ### قيمة الإرجاع
 
-ملف[`RichText`](../) .
+ال[`RichText`](../).
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
 | ArgumentNullException |  |
 | ArgumentException |  |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)
-* مساحة الاسم [Aspose.Note](../../richtext/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../richtext/)
+* assembly [Aspose.Note](../../../)
 
 

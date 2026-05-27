@@ -1,23 +1,23 @@
 ---
-title: Image.FilePath
-second_title: Aspose.Note لمرجع NET API
-description: Image ملكية. يحصل على المسار لملف الصورة.
+title: "Image.FilePath"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Image. تحصل على مسار ملف الصورة"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/image/filepath/
 ---
 ## Image.FilePath property
 
-يحصل على المسار لملف الصورة.
+يحصل على المسار إلى ملف الصورة.
 
 ```csharp
 public string FilePath { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Image](../)
-* مساحة الاسم [Aspose.Note](../../image/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../image/)
+* assembly [Aspose.Note](../../../)
 
 

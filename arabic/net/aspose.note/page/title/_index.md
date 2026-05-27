@@ -1,32 +1,32 @@
 ---
-title: Page.Title
-second_title: Aspose.Note لمرجع NET API
-description: Page ملكية. الحصول على العنوان أو تعيينه.
+title: "Page.Title"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "خاصية Page. تحصل أو تعيّن العنوان"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/page/title/
 ---
 ## Page.Title property
 
-الحصول على العنوان أو تعيينه.
+يحصل أو يضبط العنوان.
 
 ```csharp
 public Title Title { get; set; }
 ```
 
-### Property_Value
+### Property Value
 
-ملف`Title` .
+العنوان `Title`.
 
-### أمثلة
+## أمثلة
 
-يوضح كيفية الحصول على معلومات التعريف حول الصفحة.
+يظهر كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل المستند في Aspose.
+// حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
 foreach (Page page in oneFile)
@@ -40,13 +40,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-يوضح كيفية تحرير محفوظات الصفحة.
+يوضح كيفية تعديل تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// قم بتحميل مستند OneNote واحصل على الطفل الأول           
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -67,7 +67,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-يوضح كيفية تعيين عنوان للصفحة.
+يوضح كيفية تعيين عنوان لصفحة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -100,13 +100,13 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-يوضح كيفية الحصول على محفوظات الصفحة.
+يظهر كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote
+// تحميل مستند OneNote.
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى
@@ -129,11 +129,11 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote
+// تهيئة مستند OneNote.
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
                  {
@@ -142,38 +142,9 @@ page.Title = new Title()
                      TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
                  };
 
-// حفظ في تنسيق HTML
+// حفظ بتنسيق HTML
 dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
-```
-
-يوضح كيفية إنشاء مستند وحفظه بتنسيق html في نطاق محدد من الصفحات.
-
-```csharp
-// المسار إلى دليل المستندات.
-string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
-
-// تهيئة مستند OneNote
-Document doc = new Document();
-
-Page page = doc.AppendChildLast(new Page());
-
-// النمط الافتراضي لكل النص في المستند.
-ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-page.Title = new Title()
-             {
-                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
-                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
-             };
-
-// حفظ في تنسيق HTML
-dataDir = dataDir + "CreateAndSavePageRange_out.html";
-doc.Save(dataDir, new HtmlSaveOptions
-                  {
-                      PageCount = 1,
-                      PageIndex = 0
-                  });
 ```
 
 يوضح كيفية إنشاء مستند بصفحة معنونة.
@@ -182,13 +153,13 @@ doc.Save(dataDir, new HtmlSaveOptions
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة المستند
-Document doc = new Aspose.Note.Document();
+// إنشاء كائن من فئة Document
+Document doc = new Document();
 
-// تهيئة كائن فئة الصفحة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+// تهيئة كائن فئة Page
+Page page = new Page();
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // تعيين خصائص عنوان الصفحة
@@ -199,12 +170,41 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة الصفحة في المستند
+// إلحاق عقدة Page في المستند
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote
+// حفظ مستند OneNote.
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
+```
+
+يوضح كيفية إنشاء مستند وحفظه بتنسيق html لنطاق محدد من الصفحات.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+
+// تهيئة مستند OneNote.
+Document doc = new Document();
+
+Page page = doc.AppendChildLast(new Page());
+
+// النمط الافتراضي لجميع النصوص في المستند.
+ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
+page.Title = new Title()
+             {
+                 TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+                 TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+                 TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
+             };
+
+// حفظ بتنسيق HTML
+dataDir = dataDir + "CreateAndSavePageRange_out.html";
+doc.Save(dataDir, new HtmlSaveOptions
+                  {
+                      PageCount = 1,
+                      PageIndex = 0
+                  });
 ```
 
 يوضح كيفية حفظ مستند بتنسيقات مختلفة.
@@ -217,9 +217,9 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
 
 // تهيئة الصفحة الجديدة
-Aspose.Note.Page page = new Aspose.Note.Page(doc);
+Page page = new Page();
 
-// النمط الافتراضي لكل النص في المستند.
+// النمط الافتراضي لجميع النصوص في المستند.
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 page.Title = new Title()
              {
@@ -231,7 +231,7 @@ page.Title = new Title()
 // إلحاق عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote بتنسيقات مختلفة وتعيين حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
+// حفظ مستند OneNote بصيغ مختلفة، ضبط حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -240,11 +240,11 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Title](../../title/)
 * class [Page](../)
-* مساحة الاسم [Aspose.Note](../../page/)
-* المجسم [Aspose.Note](../../../)
+* namespace [Aspose.Note](../../page/)
+* assembly [Aspose.Note](../../../)
 
 

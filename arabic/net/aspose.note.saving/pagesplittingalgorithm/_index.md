@@ -1,22 +1,22 @@
 ---
-title: Class PageSplittingAlgorithm
-second_title: Aspose.Note لمرجع NET API
-description: Aspose.Note.Saving.PageSplittingAlgorithm فصل. فئة أساسية لتقسيم كائن في حالة عدم احتوائه في الصفحة الأصلية.
+title: "الفئة PageSplittingAlgorithm"
+second_title: "مرجع API لـ Aspose.Note for .NET"
+description: "الفئة Aspose.Note.Saving.PageSplittingAlgorithm. الفئة الأساسية لتقسيم كائن في حال عدم تناسبه مع الصفحة الأصلية"
 type: docs
-weight: 830
+weight: 910
 url: /ar/net/aspose.note.saving/pagesplittingalgorithm/
 ---
 ## PageSplittingAlgorithm class
 
-فئة أساسية لتقسيم كائن في حالة عدم احتوائه في الصفحة الأصلية.
+فئة أساسية لتقسيم كائن في حال لم يتناسب مع الصفحة الأصلية.
 
 ```csharp
 public abstract class PageSplittingAlgorithm
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Note.Saving](../../aspose.note.saving/)
-* المجسم [Aspose.Note](../../)
+* namespace [Aspose.Note.Saving](../../aspose.note.saving/)
+* assembly [Aspose.Note](../../)
 
 
