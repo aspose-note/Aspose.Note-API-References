@@ -30,7 +30,7 @@ public class ExtendedApsGlyphs extends ExtendedApsNode
 | [getCopy()](#getCopy--) | 获取字形的副本。 |
 | [getOrigin()](#getOrigin--) | 获取原点。 |
 | [getSize()](#getSize--) | 获取大小。 |
-| [getTop()](#getTop--) | 获取顶部。 |
+| [getTop()](#getTop--) | 获取字形的顶部。 |
 ### ExtendedApsGlyphs(ApsGlyphs internalGlyphs) {#ExtendedApsGlyphs-com.aspose.foundation.rendering.ApsGlyphs-}
 ```
 public ExtendedApsGlyphs(ApsGlyphs internalGlyphs)
@@ -81,7 +81,7 @@ public void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scaleTransform | float | 用于转换的比例因子。 |
+| scaleTransform | float | 转换的比例因子。 |
 
 ### getBottom() {#getBottom--}
 ```
@@ -129,7 +129,7 @@ public float getTop()
 ```
 
 
-获取顶部。
+获取字形的顶部。
 
 **Returns:**
 float

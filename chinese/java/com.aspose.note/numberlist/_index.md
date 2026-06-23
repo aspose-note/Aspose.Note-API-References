@@ -34,7 +34,7 @@ public class NumberList
 | [getNumberFormat()](#getNumberFormat--) | 获取或设置用于一组自动编号对象的数字格式。 |
 | [getNumberedListHeader(int sequenceNumber)](#getNumberedListHeader-int-) | 获取编号列表标题。 |
 | [getRestart()](#getRestart--) | 获取或设置覆盖列表项自动编号值的数值。 |
-| [hashCode()](#hashCode--) | 作为该类型的哈希函数。 |
+| [hashCode()](#hashCode--) | 用作该类型的哈希函数。 |
 | [isBold()](#isBold--) | 获取或设置一个值，指示文本样式是否为粗体。 |
 | [isItalic()](#isItalic--) | 获取或设置一个值，指示文本样式是否为斜体。 |
 | [setBold(boolean value)](#setBold-boolean-) | 获取或设置一个值，指示文本样式是否为粗体。 |
@@ -58,7 +58,7 @@ public NumberList(String bulletedSymbol, String font, int fontSize)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | bulletedSymbol | java.lang.String | 表示项目符号的符号。 |
-| font | java.lang.String | 项目符号的字体。 |
+| 字体 | java.lang.String | 项目符号的字体。 |
 | fontSize | int | 项目符号的字体大小。 |
 
 ### NumberList(String format, byte numberFormat, String font, int fontSize) {#NumberList-java.lang.String-byte-java.lang.String-int-}
@@ -74,7 +74,7 @@ public NumberList(String format, byte numberFormat, String font, int fontSize)
 | --- | --- | --- |
 | format | java.lang.String | 编号标题的格式。 |
 | numberFormat | byte | 标题中数字的格式。 |
-| font | java.lang.String | 编号标题的字体。 |
+| 字体 | java.lang.String | 编号标题的字体。 |
 | fontSize | int | 编号标题的字体大小。 |
 
 ### equals(NumberList other) {#equals-com.aspose.note.NumberList-}
@@ -91,7 +91,7 @@ public boolean equals(NumberList other)
 | other | [NumberList](../../com.aspose.note/numberlist) | 对象。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -103,10 +103,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 对象 | java.lang.Object | 对象。 |
+| obj | java.lang.Object | 对象。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### getFont() {#getFont--}
 ```
 public String getFont()
@@ -178,10 +178,10 @@ public String getNumberedListHeader(int sequenceNumber)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | int | 编号列表中的序列号。 |
+| sequenceNumber | int | 编号列表中的序号。 |
 
 **Returns:**
-java.lang.String - 指定序列号的字符串表示。
+java.lang.String - 指定序号的字符串表示。
 ### getRestart() {#getRestart--}
 ```
 public int getRestart()
@@ -198,10 +198,10 @@ public int hashCode()
 ```
 
 
-作为该类型的哈希函数。
+用作该类型的哈希函数。
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### isBold() {#isBold--}
 ```
 public boolean isBold()

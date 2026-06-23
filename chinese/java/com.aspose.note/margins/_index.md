@@ -153,10 +153,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 对象 | java.lang.Object | 任何对象。 |
+| obj | java.lang.Object | 任何对象。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### getBottom() {#getBottom--}
 ```
 public float getBottom()
@@ -209,10 +209,10 @@ public static boolean op_Equality(Margins lhs, Margins rhs)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | lhs | [Margins](../../com.aspose.note/margins) | `T:Margins` 结构。 |
-| rhs | [Margins](../../com.aspose.note/margins) | 要比较的 `T:Margins` 结构。 |
+| rhs | [Margins](../../com.aspose.note/margins) | 用于比较的 `T:Margins` 结构。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### op_Inequality(Margins lhs, Margins rhs) {#op-Inequality-com.aspose.note.Margins-com.aspose.note.Margins-}
 ```
 public static boolean op_Inequality(Margins lhs, Margins rhs)
@@ -225,10 +225,10 @@ public static boolean op_Inequality(Margins lhs, Margins rhs)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | lhs | [Margins](../../com.aspose.note/margins) | `T:Margins` 结构。 |
-| rhs | [Margins](../../com.aspose.note/margins) | 要比较的 `T:Margins` 结构。 |
+| rhs | [Margins](../../com.aspose.note/margins) | 用于比较的 `T:Margins` 结构。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### setBottom(float value) {#setBottom-float-}
 ```
 public void setBottom(float value)

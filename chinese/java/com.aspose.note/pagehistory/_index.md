@@ -29,18 +29,18 @@ public class PageHistory implements System.Collections.Generic.IGenericList<Page
 | [addItem(Page item)](#addItem-com.aspose.note.Page-) | 将页面版本添加到 `PageHistory` 的末尾。 |
 | [addRange(System.Collections.Generic.IGenericEnumerable&lt;Page&gt; items)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.note.Page--) | 将页面版本添加到 `PageHistory` 的末尾。 |
 | [clear()](#clear--) | 清除页面历史记录。 |
-| [containsItem(Page item)](#containsItem-com.aspose.note.Page-) | 确定页面历史记录是否包含该页面版本。 |
+| [containsItem(Page item)](#containsItem-com.aspose.note.Page-) | 确定页面历史记录是否包含页面版本。 |
 | [copyToTArray(Page[] array, int arrayIndex)](#copyToTArray-com.aspose.note.Page---int-) | 将页面版本复制到数组中，从特定索引开始。 |
 | [getCurrent()](#getCurrent--) | 获取当前页面版本。 |
-| [get_Item(int index)](#get-Item-int-) | 获取或设置 `PageHistory` 中指定索引的页面版本。 |
+| [get_Item(int index)](#get-Item-int-) | 获取或设置 `PageHistory` 中指定索引处的页面版本。 |
 | [indexOfItem(Page item)](#indexOfItem-com.aspose.note.Page-) | 确定页面历史中特定页面版本的索引。 |
 | [insertItem(int index, Page item)](#insertItem-int-com.aspose.note.Page-) | 在页面历史中插入页面版本。 |
-| [isReadOnly()](#isReadOnly--) | 获取一个值，指示页面历史是否为只读。 |
+| [isReadOnly()](#isReadOnly--) | 获取一个值，指示页面历史是否只读。 |
 | [iterator()](#iterator--) | 返回一个枚举器，用于遍历 `PageHistory` 的子节点。 |
-| [removeAt(int index)](#removeAt-int-) | 移除 `PageHistory` 中指定索引的页面版本。 |
+| [removeAt(int index)](#removeAt-int-) | 移除 `PageHistory` 中指定索引处的页面版本。 |
 | [removeItem(Page item)](#removeItem-com.aspose.note.Page-) | 从 `PageHistory` 中移除页面版本。 |
 | [removeRange(int index, int count)](#removeRange-int-int-) | 从 `PageHistory` 中移除一系列页面版本。 |
-| [set_Item(int index, Page value)](#set-Item-int-com.aspose.note.Page-) | 获取或设置 `PageHistory` 中指定索引的页面版本。 |
+| [set_Item(int index, Page value)](#set-Item-int-com.aspose.note.Page-) | 获取或设置 `PageHistory` 中指定索引处的页面版本。 |
 | [size()](#size--) | 获取页面历史中页面版本的计数。 |
 ### PageHistory(Page page) {#PageHistory-com.aspose.note.Page-}
 ```
@@ -79,7 +79,7 @@ public void addRange(System.Collections.Generic.IGenericEnumerable<Page> items)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 项 | com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.note.Page&gt; | 页面版本的 `IEnumerable\\{Page\\}` 集合。 |
+| items | com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.note.Page&gt; | 页面版本的 `IEnumerable\\{Page\\}` 集合。 |
 
 ### clear() {#clear--}
 ```
@@ -95,7 +95,7 @@ public boolean containsItem(Page item)
 ```
 
 
-确定页面历史记录是否包含该页面版本。
+确定页面历史记录是否包含页面版本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -103,7 +103,7 @@ public boolean containsItem(Page item)
 | item | [Page](../../com.aspose.note/page) | 页面版本。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### copyToTArray(Page[] array, int arrayIndex) {#copyToTArray-com.aspose.note.Page---int-}
 ```
 public void copyToTArray(Page[] array, int arrayIndex)
@@ -134,7 +134,7 @@ public Page get_Item(int index)
 ```
 
 
-获取或设置 `PageHistory` 中指定索引的页面版本。
+获取或设置 `PageHistory` 中指定索引处的页面版本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -157,7 +157,7 @@ public int indexOfItem(Page item)
 | item | [Page](../../com.aspose.note/page) | 页面版本。 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### insertItem(int index, Page item) {#insertItem-int-com.aspose.note.Page-}
 ```
 public void insertItem(int index, Page item)
@@ -178,7 +178,7 @@ public boolean isReadOnly()
 ```
 
 
-获取一个值，指示页面历史是否为只读。
+获取一个值，指示页面历史是否只读。
 
 **Returns:**
 boolean
@@ -191,14 +191,14 @@ public System.Collections.Generic.IGenericEnumerator<Page> iterator()
 返回一个枚举器，用于遍历 `PageHistory` 的子节点。
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.note.Page&gt; - 该 `IEnumerator`。
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.note.Page&gt; - `IEnumerator`。
 ### removeAt(int index) {#removeAt-int-}
 ```
 public void removeAt(int index)
 ```
 
 
-移除 `PageHistory` 中指定索引的页面版本。
+移除 `PageHistory` 中指定索引处的页面版本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -219,7 +219,7 @@ public boolean removeItem(Page item)
 | item | [Page](../../com.aspose.note/page) | 页面版本。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### removeRange(int index, int count) {#removeRange-int-int-}
 ```
 public void removeRange(int index, int count)
@@ -240,7 +240,7 @@ public void set_Item(int index, Page value)
 ```
 
 
-获取或设置 `PageHistory` 中指定索引的页面版本。
+获取或设置 `PageHistory` 中指定索引处的页面版本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -20,10 +20,10 @@ public abstract class NotebookSaveOptions
 | --- | --- |
 | [getDeferredSaving()](#getDeferredSaving--) | 获取或设置一个值，指示是否应显式保存子文档。 |
 | [getDocumentSaveOptionsInternal()](#getDocumentSaveOptionsInternal--) | 获取所有笔记本子文档的保存选项。 |
-| [getFlatten()](#getFlatten--) | 获取或设置一个值，指示是否将笔记本子层次结构保存为扁平化。 |
+| [getFlatten()](#getFlatten--) | 获取或设置一个值，指示是否以扁平化方式保存笔记本子层级。 |
 | [getSaveFormat()](#getSaveFormat--) | 获取笔记本保存的格式。 |
 | [setDeferredSaving(boolean value)](#setDeferredSaving-boolean-) | 获取或设置一个值，指示是否应显式保存子文档。 |
-| [setFlatten(boolean value)](#setFlatten-boolean-) | 获取或设置一个值，指示是否将笔记本子层次结构保存为扁平化。 |
+| [setFlatten(boolean value)](#setFlatten-boolean-) | 获取或设置一个值，指示是否以扁平化方式保存笔记本子层级。 |
 ### getDeferredSaving() {#getDeferredSaving--}
 ```
 public boolean getDeferredSaving()
@@ -54,7 +54,7 @@ public boolean getFlatten()
 ```
 
 
-获取或设置一个值，指示是否将笔记本子层次结构保存为扁平化。
+获取或设置一个值，指示是否以扁平化方式保存笔记本子层级。
 
 **Returns:**
 boolean
@@ -91,7 +91,7 @@ public void setFlatten(boolean value)
 ```
 
 
-获取或设置一个值，指示是否将笔记本子层次结构保存为扁平化。
+获取或设置一个值，指示是否以扁平化方式保存笔记本子层级。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

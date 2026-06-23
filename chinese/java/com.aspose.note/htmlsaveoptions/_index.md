@@ -18,28 +18,28 @@ public class HtmlSaveOptions extends SaveOptions
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [HtmlSaveOptions()](#HtmlSaveOptions--) | 初始化 [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions) 类的新实例。 |
+| [HtmlSaveOptions()](#HtmlSaveOptions--) | 初始化一个新的 [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions) 类实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [getCssPerPageGeneration()](#getCssPerPageGeneration--) | 获取或设置是否为每个新页面单独生成 StyleSheet 文件。 |
 | [getCssSavingCallback()](#getCssSavingCallback--) | 获取或设置用于创建存储 CSS 资源的回调。 |
-| [getDocumentPerPageGeneration()](#getDocumentPerPageGeneration--) | 获取或设置指示是否启用每页文档生成的值。 |
-| [getExportCss()](#getExportCss--) | 获取或设置 CSS 的导出方式。 |
+| [getDocumentPerPageGeneration()](#getDocumentPerPageGeneration--) | 获取或设置指示是否启用文档每页生成的值。 |
+| [getExportCss()](#getExportCss--) | 获取或设置 css 的导出方式。 |
 | [getExportFonts()](#getExportFonts--) | 获取或设置字体的导出方式。 |
 | [getExportImages()](#getExportImages--) | 获取或设置图像的导出方式。 |
-| [getFontFaceTypes()](#getFontFaceTypes--) | 获取或设置字体类型。 |
+| [getFontFaceTypes()](#getFontFaceTypes--) | 获取或设置字体面类型。 |
 | [getFontSavingCallback()](#getFontSavingCallback--) | 获取或设置用于创建存储字体资源的回调。 |
 | [getImageSavingCallback()](#getImageSavingCallback--) | 获取或设置用于创建存储图像资源的回调。 |
 | [getPageSavingCallback()](#getPageSavingCallback--) | 获取或设置用于创建存储页面资源的回调。 |
 | [setCssPerPageGeneration(boolean value)](#setCssPerPageGeneration-boolean-) | 获取或设置是否为每个新页面单独生成 StyleSheet 文件。 |
 | [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.note.ICssSavingCallback-) | 获取或设置用于创建存储 CSS 资源的回调。 |
-| [setDocumentPerPageGeneration(boolean value)](#setDocumentPerPageGeneration-boolean-) | 获取或设置指示是否启用每页文档生成的值。 |
-| [setExportCss(int value)](#setExportCss-int-) | 获取或设置 CSS 的导出方式。 |
+| [setDocumentPerPageGeneration(boolean value)](#setDocumentPerPageGeneration-boolean-) | 获取或设置指示是否启用文档每页生成的值。 |
+| [setExportCss(int value)](#setExportCss-int-) | 获取或设置 css 的导出方式。 |
 | [setExportFonts(int value)](#setExportFonts-int-) | 获取或设置字体的导出方式。 |
 | [setExportImages(int value)](#setExportImages-int-) | 获取或设置图像的导出方式。 |
-| [setFontFaceTypes(int value)](#setFontFaceTypes-int-) | 获取或设置字体类型。 |
+| [setFontFaceTypes(int value)](#setFontFaceTypes-int-) | 获取或设置字体面类型。 |
 | [setFontSavingCallback(IFontSavingCallback value)](#setFontSavingCallback-com.aspose.note.IFontSavingCallback-) | 获取或设置用于创建存储字体资源的回调。 |
 | [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.note.IImageSavingCallback-) | 获取或设置用于创建存储图像资源的回调。 |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.note.IPageSavingCallback-) | 获取或设置用于创建存储页面资源的回调。 |
@@ -49,7 +49,7 @@ public HtmlSaveOptions()
 ```
 
 
-初始化 [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions) 类的新实例。
+初始化一个新的 [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions) 类实例。
 
 ### getCssPerPageGeneration() {#getCssPerPageGeneration--}
 ```
@@ -77,7 +77,7 @@ public final boolean getDocumentPerPageGeneration()
 ```
 
 
-获取或设置指示是否启用每页文档生成的值。
+获取或设置指示是否启用文档每页生成的值。
 
 **Returns:**
 boolean
@@ -87,7 +87,7 @@ public final int getExportCss()
 ```
 
 
-获取或设置 CSS 的导出方式。
+获取或设置 css 的导出方式。
 
 **Returns:**
 int
@@ -117,9 +117,9 @@ public final int getFontFaceTypes()
 ```
 
 
-获取或设置字体类型。
+获取或设置字体面类型。
 
-值：字体类型。
+值：字体面类型。
 
 **Returns:**
 int
@@ -185,7 +185,7 @@ public final void setDocumentPerPageGeneration(boolean value)
 ```
 
 
-获取或设置指示是否启用每页文档生成的值。
+获取或设置指示是否启用文档每页生成的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -198,7 +198,7 @@ public final void setExportCss(int value)
 ```
 
 
-获取或设置 CSS 的导出方式。
+获取或设置 css 的导出方式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -237,9 +237,9 @@ public final void setFontFaceTypes(int value)
 ```
 
 
-获取或设置字体类型。
+获取或设置字体面类型。
 
-值：字体类型。
+值：字体面类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

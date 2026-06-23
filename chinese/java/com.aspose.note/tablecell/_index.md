@@ -67,7 +67,7 @@ public int getInternalIndentPosition()
 ```
 
 
-获取在 RgOutlineIndentDistance 数组中求和的项数，以获得缩进大小。
+获取在 RgOutlineIndentDistance 数组中求和的项目数量，以获得缩进大小。
 
 **Returns:**
 int

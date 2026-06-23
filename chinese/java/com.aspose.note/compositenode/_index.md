@@ -28,7 +28,7 @@ T :
 | [&lt;T1&gt;appendChildFirst(T1 newChild)](#-T1-appendChildFirst-T1-) | 将节点添加到此节点的子节点列表的前面。 |
 | [&lt;T1&gt;appendChildLast(T1 newChild)](#-T1-appendChildLast-T1-) | 将节点添加到此节点的子节点列表的末尾。 |
 | [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | 按节点类型获取所有子节点。 |
-| [&lt;T1&gt;insertChild(int i, T1 newChild)](#-T1-insertChild-int-T1-) | 将节点插入到此节点的子节点列表中的指定位置。 |
+| [&lt;T1&gt;insertChild(int i, T1 newChild)](#-T1-insertChild-int-T1-) | 在此节点的子节点列表中将节点插入到指定位置。 |
 | [&lt;T1&gt;removeChild(T1 oldChild)](#-T1-removeChild-T1-) | 移除子节点。 |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | 接受节点的访问者。 |
 | [getFirstChild()](#getFirstChild--) | 获取此节点的第一个子节点。 |
@@ -81,16 +81,16 @@ public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 | typeParameterClass | java.lang.Class&lt;T1&gt; |  |
 
 **Returns:**
-java.util.List&lt;T1&gt; - 子节点的列表。
+java.util.List&lt;T1&gt; - 子节点列表。
 
-`T1`：返回列表中元素的类型。
+`T1`: 返回列表中元素的类型。
 ### &lt;T1&gt;insertChild(int i, T1 newChild) {#-T1-insertChild-int-T1-}
 ```
 public T1 <T1>insertChild(int i, T1 newChild)
 ```
 
 
-将节点插入到此节点的子节点列表中的指定位置。
+在此节点的子节点列表中将节点插入到指定位置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -195,4 +195,4 @@ public System.Collections.Generic.IGenericEnumerator<T> iterator()
 返回一个枚举器，用于遍历 `CompositeNode\{T\}` 的子节点。
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;T&gt; - 用于 `CompositeNode\{T\}` 的 `T:IEnumerator`1`。
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;T&gt; - 用于 `CompositeNode\\{T\\}` 的 `T:IEnumerator`1`。

@@ -22,7 +22,7 @@ public final class InkDrawing extends InkNode implements IPageChildNode
 | 方法 | 描述 |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | 接受节点的访问者。 |
-| [getHorizontalOffset()](#getHorizontalOffset--) | 获取水平偏移。 |
+| [getHorizontalOffset()](#getHorizontalOffset--) | 获取水平偏移量。 |
 | [getVerticalOffset()](#getVerticalOffset--) | 获取垂直偏移量。 |
 | [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | 设置水平偏移量。 |
 | [setVerticalOffset(float value)](#setVerticalOffset-float-) | 设置垂直偏移量。 |
@@ -37,7 +37,7 @@ public void accept(DocumentVisitor visitor)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | 从 [DocumentVisitor](../../com.aspose.note/documentvisitor) 派生的类的对象。 |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | 该对象是从 [DocumentVisitor](../../com.aspose.note/documentvisitor) 派生的类的对象。 |
 
 ### getHorizontalOffset() {#getHorizontalOffset--}
 ```
@@ -45,7 +45,7 @@ public final float getHorizontalOffset()
 ```
 
 
-获取水平偏移。
+获取水平偏移量。
 
 **Returns:**
 float

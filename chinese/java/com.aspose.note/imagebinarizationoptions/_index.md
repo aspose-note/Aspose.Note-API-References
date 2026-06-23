@@ -41,7 +41,7 @@ public final int getBinarizationMethod()
 ```
 
 
-获取或设置二值化方法。默认值为 [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\#FixedThreshold)。
+获取或设置二值化方法。默认值是 [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\\#FixedThreshold)。
 
 **Returns:**
 int
@@ -61,7 +61,7 @@ public final void setBinarizationMethod(int value)
 ```
 
 
-获取或设置二值化方法。默认值为 [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\#FixedThreshold)。
+获取或设置二值化方法。默认值是 [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\\#FixedThreshold)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

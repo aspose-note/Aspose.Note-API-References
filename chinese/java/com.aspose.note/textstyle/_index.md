@@ -25,13 +25,13 @@ public final class TextStyle extends Style<TextStyle>
 | --- | --- |
 | [equals(TextStyle other)](#equals-com.aspose.note.TextStyle-) | 确定指定的对象是否等于当前对象。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定的对象是否等于当前对象。 |
-| [getDefault()](#getDefault--) | 获取具有 "en-US" 区域设置的样式。 |
+| [getDefault()](#getDefault--) | 获取带有 "en-US" 区域设置的样式。 |
 | [getDefaultMsOneNoteTitleDateStyle()](#getDefaultMsOneNoteTitleDateStyle--) | 获取 MS OneNote 中标题日期的默认样式。 |
 | [getDefaultMsOneNoteTitleTextStyle()](#getDefaultMsOneNoteTitleTextStyle--) | 获取 MS OneNote 中标题文本的默认样式。 |
 | [getDefaultMsOneNoteTitleTimeStyle()](#getDefaultMsOneNoteTitleTimeStyle--) | 获取 MS OneNote 中标题时间的默认样式。 |
 | [getHyperlinkAddress()](#getHyperlinkAddress--) | 获取超链接地址。 |
 | [getLanguage()](#getLanguage--) | 获取文本的语言。 |
-| [hashCode()](#hashCode--) | 作为该类型的哈希函数。 |
+| [hashCode()](#hashCode--) | 用作该类型的哈希函数。 |
 | [isHidden()](#isHidden--) | 获取指示文本样式是否隐藏的值。 |
 | [isHyperlink()](#isHyperlink--) | 获取指示文本样式是否为超链接的值。 |
 | [isMathFormatting()](#isMathFormatting--) | 获取或设置指示文本样式是否为数学格式的值。 |
@@ -62,7 +62,7 @@ public boolean equals(TextStyle other)
 | other | [TextStyle](../../com.aspose.note/textstyle) | 对象。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -74,17 +74,17 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 对象 | java.lang.Object | 对象。 |
+| obj | java.lang.Object | 对象。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### getDefault() {#getDefault--}
 ```
 public static TextStyle getDefault()
 ```
 
 
-获取具有 "en-US" 区域设置的样式。
+获取带有 "en-US" 区域设置的样式。
 
 **Returns:**
 [TextStyle](../../com.aspose.note/textstyle)
@@ -144,10 +144,10 @@ public int hashCode()
 ```
 
 
-作为该类型的哈希函数。
+用作该类型的哈希函数。
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### isHidden() {#isHidden--}
 ```
 public boolean isHidden()

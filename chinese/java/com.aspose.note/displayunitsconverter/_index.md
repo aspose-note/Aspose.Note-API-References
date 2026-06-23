@@ -21,9 +21,9 @@ public final class DisplayUnitsConverter
 | [inchToPoint(float inches)](#inchToPoint-float-) | 将英寸转换为点。 |
 | [millimeterToInch(float mm)](#millimeterToInch-float-) | 将毫米转换为英寸。 |
 | [millimeterToPoint(float mm)](#millimeterToPoint-float-) | 将毫米转换为点。 |
-| [pixelToPoint(int pixels, float dpi)](#pixelToPoint-int-float-) | 在指定的像素分辨率下将像素转换为点。 |
+| [pixelToPoint(int pixels, float dpi)](#pixelToPoint-int-float-) | 在指定的像素分辨率下，将像素转换为点。 |
 | [pointToInch(float points)](#pointToInch-float-) | 将点转换为英寸。 |
-| [pointToPixel(float points, float dpi)](#pointToPixel-float-float-) | 在指定的像素分辨率下将点转换为像素。 |
+| [pointToPixel(float points, float dpi)](#pointToPixel-float-float-) | 在指定的像素分辨率下，将点转换为像素。 |
 ### inchToPoint(float inches) {#inchToPoint-float-}
 ```
 public static float inchToPoint(float inches)
@@ -38,7 +38,7 @@ public static float inchToPoint(float inches)
 | 英寸 | float | 要转换的英寸值。 |
 
 **Returns:**
-float - `float`。
+float - 该 `float`。
 ### millimeterToInch(float mm) {#millimeterToInch-float-}
 ```
 public static float millimeterToInch(float mm)
@@ -53,7 +53,7 @@ public static float millimeterToInch(float mm)
 | 毫米 | float | 要转换的毫米值。 |
 
 **Returns:**
-float - `float`。
+float - 该 `float`。
 ### millimeterToPoint(float mm) {#millimeterToPoint-float-}
 ```
 public static float millimeterToPoint(float mm)
@@ -68,14 +68,14 @@ public static float millimeterToPoint(float mm)
 | 毫米 | float | 要转换的毫米值。 |
 
 **Returns:**
-float - `float`。
+float - 该 `float`。
 ### pixelToPoint(int pixels, float dpi) {#pixelToPoint-int-float-}
 ```
 public static float pixelToPoint(int pixels, float dpi)
 ```
 
 
-在指定的像素分辨率下将像素转换为点。
+在指定的像素分辨率下，将像素转换为点。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -84,7 +84,7 @@ public static float pixelToPoint(int pixels, float dpi)
 | dpi | float | 屏幕分辨率。 |
 
 **Returns:**
-float - `int`。
+float - 该 `int`。
 ### pointToInch(float points) {#pointToInch-float-}
 ```
 public static float pointToInch(float points)
@@ -99,14 +99,14 @@ public static float pointToInch(float points)
 | 点 | float | 要转换的点值。 |
 
 **Returns:**
-float - `float`。
+float - 该 `float`。
 ### pointToPixel(float points, float dpi) {#pointToPixel-float-float-}
 ```
 public static int pointToPixel(float points, float dpi)
 ```
 
 
-在指定的像素分辨率下将点转换为像素。
+在指定的像素分辨率下，将点转换为像素。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -115,4 +115,4 @@ public static int pointToPixel(float points, float dpi)
 | dpi | float | 屏幕分辨率。 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。

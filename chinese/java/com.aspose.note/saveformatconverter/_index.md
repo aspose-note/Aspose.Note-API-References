@@ -43,7 +43,7 @@ public static int convert(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 
 **Returns:**
 int - `SaveFormat`。

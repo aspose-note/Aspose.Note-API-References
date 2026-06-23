@@ -31,7 +31,7 @@ public class ImageSaveOptions extends SaveOptions
 | [setBinarizationOptions(ImageBinarizationOptions value)](#setBinarizationOptions-com.aspose.note.ImageBinarizationOptions-) | 获取或设置图像二值化的选项。 |
 | [setColorMode(int value)](#setColorMode-int-) | 获取或设置输出图像的 `ColorMode`([getColorMode](../../com.aspose.note/imagesaveoptions\#getColorMode--)/[setColorMode(int)](../../com.aspose.note/imagesaveoptions\#setColorMode-int-))。 |
 | [setQuality(int value)](#setQuality-int-) | 设置决定已保存图像质量的值。 |
-| [setResolution(float value)](#setResolution-float-) | 设置生成图像的分辨率（每英寸点数）。 |
+| [setResolution(float value)](#setResolution-float-) | 设置生成图像的分辨率，单位为每英寸点数（dpi）。 |
 | [setTiffCompression(int value)](#setTiffCompression-int-) | 获取或设置在将生成的图像保存为 TIFF 格式时使用的压缩类型。 |
 ### ImageSaveOptions(int format) {#ImageSaveOptions-int-}
 ```
@@ -76,7 +76,7 @@ public final int getQuality()
 
 --------------------
 
-质量类别的有效值范围为 0 到 100。指定的数值越低，压缩率越高，图像质量越低。0 将产生最低质量的图像，100 则为最高质量。默认值为 90。
+质量类别的有效取值范围为 0 到 100。指定的数值越低，压缩率越高，图像质量因此越低。0 将产生最低质量的图像，100 则为最高质量。默认值为 90。
 
 **Returns:**
 int
@@ -140,7 +140,7 @@ public final void setQuality(int value)
 
 --------------------
 
-质量类别的有效值范围为 0 到 100。指定的数值越低，压缩率越高，图像质量越低。0 将产生最低质量的图像，100 则为最高质量。默认值为 90。
+质量类别的有效取值范围为 0 到 100。指定的数值越低，压缩率越高，图像质量因此越低。0 将产生最低质量的图像，100 则为最高质量。默认值为 90。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -153,7 +153,7 @@ public void setResolution(float value)
 ```
 
 
-设置生成图像的分辨率（每英寸点数）。
+设置生成图像的分辨率，单位为每英寸点数（dpi）。
 
 --------------------
 

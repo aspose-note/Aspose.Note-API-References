@@ -25,7 +25,7 @@ LocaleOptions 类型指定 Aspose.Note 的区域设置配置。
 | --- | --- |
 | [clear()](#clear--) | 清除 Aspose.Note 的默认区域设置。 |
 | [getLocale()](#getLocale--) | 获取 Aspose.Note 当前实际的默认区域设置 |
-| [setLocale(Locale local)](#setLocale-java.util.Locale-) | 设置与 Aspose.Note 相关的默认区域设置。 |
+| [setLocale(Locale local)](#setLocale-java.util.Locale-) | 设置 Aspose.Note 相关的默认区域设置。 |
 ### LocaleOptions() {#LocaleOptions--}
 ```
 public LocaleOptions()
@@ -38,7 +38,7 @@ public static void clear()
 ```
 
 
-清除 Aspose.Note 的默认区域设置。将用于 Java 的默认区域设置。
+清除 Aspose.Note 的默认区域设置。将使用 Java 的默认区域设置。
 
 ### getLocale() {#getLocale--}
 ```
@@ -56,7 +56,7 @@ public static void setLocale(Locale local)
 ```
 
 
-设置与 Aspose.Note 相关的默认区域设置。
+设置 Aspose.Note 相关的默认区域设置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

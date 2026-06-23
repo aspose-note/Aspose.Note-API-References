@@ -39,7 +39,7 @@ public class Document extends CompositeNode<Page> implements INotebookChildNode
 | [getFileFormat()](#getFileFormat--) | 获取文件格式（OneNote 2010，OneNote Online）。 |
 | [getGuid()](#getGuid--) | 获取对象的全局唯一标识符。 |
 | [getGuidInternal()](#getGuidInternal--) |  |
-| [getPageHistory(Page page)](#getPageHistory-com.aspose.note.Page-) | 获取包含文档中每页完整历史的 `PageHistory`（最早的位于索引 0）。 |
+| [getPageHistory(Page page)](#getPageHistory-com.aspose.note.Page-) | 获取 `PageHistory`，它包含文档中每页的完整历史（最早的在索引 0 处）。 |
 | [isEncrypted(InputStream stream, Document[] document)](#isEncrypted-java.io.InputStream-com.aspose.note.Document---) | 检查来自流的文档是否已加密。 |
 | [isEncrypted(InputStream stream, LoadOptions options, Document[] document)](#isEncrypted-java.io.InputStream-com.aspose.note.LoadOptions-com.aspose.note.Document---) | 检查来自流的文档是否已加密。 |
 | [isEncrypted(InputStream stream, String password, Document[] document)](#isEncrypted-java.io.InputStream-java.lang.String-com.aspose.note.Document---) | 检查来自流的文档是否已加密。 |
@@ -56,7 +56,7 @@ public class Document extends CompositeNode<Page> implements INotebookChildNode
 | [save(String fileName)](#save-java.lang.String-) | 将 OneNote 文档保存到文件。 |
 | [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.note.SaveOptions-) | 使用指定的保存选项将 OneNote 文档保存到文件。 |
 | [save(String fileName, int format)](#save-java.lang.String-int-) | 以指定格式将 OneNote 文档保存到文件。 |
-| [setAutomaticLayoutChangesDetectionEnabled(boolean value)](#setAutomaticLayoutChangesDetectionEnabled-boolean-) | 设置一个值，指示 Aspose.Note 是否自动执行布局更改检测。 |
+| [setAutomaticLayoutChangesDetectionEnabled(boolean value)](#setAutomaticLayoutChangesDetectionEnabled-boolean-) | 设置一个值，指示 Aspose.Note 是否自动检测布局更改。 |
 | [setColor(Color value)](#setColor-java.awt.Color-) | 设置颜色。 |
 | [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | 设置创建时间。 |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | 设置显示名称。 |
@@ -66,7 +66,7 @@ public Document()
 ```
 
 
-初始化 `Document` 类的新实例。创建一个空的 OneNote 文档。
+初始化 `Document` 类的新实例。创建一个空白的 OneNote 文档。
 
 ### Document(String filePath) {#Document-java.lang.String-}
 ```
@@ -149,7 +149,7 @@ public boolean getAutomaticLayoutChangesDetectionEnabled()
 ```
 
 
-获取一个值，指示 Aspose.Note 是否自动执行布局更改检测。默认值为 `true`。
+获取一个值，指示 Aspose.Note 是否自动检测布局更改。默认值为 `true`。
 
 **Returns:**
 boolean
@@ -219,7 +219,7 @@ public PageHistory getPageHistory(Page page)
 ```
 
 
-获取包含文档中每页完整历史的 `PageHistory`（最早的位于索引 0）。当前页面修订可通过 `PageHistory.current` 访问，并与历史版本集合分开存储。
+获取 `PageHistory`，它包含文档中每页的完整历史（最早的在索引 0 处）。当前页面修订可通过 `PageHistory.current` 访问，并与历史版本集合分开存放。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -386,7 +386,7 @@ public void save(OutputStream stream)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | java.io.OutputStream | 该 System.iO.stream 用于保存文档。 |
+| 流 | java.io.OutputStream | 文档将被保存的 System.iO.stream。 |
 
 ### save(OutputStream stream, SaveOptions options) {#save-java.io.OutputStream-com.aspose.note.SaveOptions-}
 ```
@@ -399,7 +399,7 @@ public void save(OutputStream stream, SaveOptions options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | java.io.OutputStream | 该 System.iO.stream 用于保存文档。 |
+| 流 | java.io.OutputStream | 文档将被保存的 System.iO.stream。 |
 | options | [SaveOptions](../../com.aspose.note/saveoptions) | 指定文档在流中保存的选项。 |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
@@ -413,8 +413,8 @@ public void save(OutputStream stream, int format)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | java.io.OutputStream | 该 System.iO.stream 用于保存文档。 |
-| format | int | 保存文档的格式。 |
+| 流 | java.io.OutputStream | 文档将被保存的 System.iO.stream。 |
+| format | int | 用于保存文档的格式。 |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -427,7 +427,7 @@ public void save(String fileName)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
+| fileName | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
 
 ### save(String fileName, SaveOptions options) {#save-java.lang.String-com.aspose.note.SaveOptions-}
 ```
@@ -440,7 +440,7 @@ public void save(String fileName, SaveOptions options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
+| fileName | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
 | options | [SaveOptions](../../com.aspose.note/saveoptions) | 指定文档在文件中保存的选项。 |
 
 ### save(String fileName, int format) {#save-java.lang.String-int-}
@@ -454,8 +454,8 @@ public void save(String fileName, int format)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
-| format | int | 保存文档的格式。 |
+| fileName | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
+| format | int | 用于保存文档的格式。 |
 
 ### setAutomaticLayoutChangesDetectionEnabled(boolean value) {#setAutomaticLayoutChangesDetectionEnabled-boolean-}
 ```
@@ -463,7 +463,7 @@ public void setAutomaticLayoutChangesDetectionEnabled(boolean value)
 ```
 
 
-设置一个值，指示 Aspose.Note 是否自动执行布局更改检测。
+设置一个值，指示 Aspose.Note 是否自动检测布局更改。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

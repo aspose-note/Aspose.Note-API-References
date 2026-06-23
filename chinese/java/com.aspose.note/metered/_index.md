@@ -18,16 +18,16 @@ public class Metered
 --------------------
 
 &gt; ```
-&gt; 在此示例中，将尝试设置计量的公钥和私钥
+&gt; 在此示例中，将尝试设置 metered 公钥和私钥
 &gt; ``````
 
   [C#]
 
 Metered metered = new Metered();
-metered.SetMeteredKey("PublicKey", "PrivateKey");
+metered.SetMeteredKey(\"PublicKey\", \"PrivateKey\");
   [Visual Basic]
 Dim metered As Metered = New Metered
-metered.SetMeteredKey("PublicKey", "PrivateKey")
+metered.SetMeteredKey(\"PublicKey\", \"PrivateKey\")
   
 ```
 
@@ -36,7 +36,7 @@ the component jar file:
 ```
 
 Metered metered = new Metered();
-metered.setMeteredKey("PublicKey", "PrivateKey");
+metered.setMeteredKey(\"PublicKey\", \"PrivateKey\");
   
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: "IPageChildNode"
 second_title: "Aspose.Note for Java API 参考"
-description: "页面节点所有子节点的接口。"
+description: "页面节点的所有子节点的接口。"
 type: docs
 weight: 107
 url: /zh/java/com.aspose.note/ipagechildnode/
@@ -13,7 +13,7 @@ url: /zh/java/com.aspose.note/ipagechildnode/
 public interface IPageChildNode extends INode
 ```
 
-页面节点所有子节点的接口。
+页面节点的所有子节点的接口。
 ## 方法
 
 | 方法 | 描述 |

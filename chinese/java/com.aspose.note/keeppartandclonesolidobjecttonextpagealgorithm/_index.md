@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.note.PageSplittingAlgorithm](../../com.aspose.note
 public class KeepPartAndCloneSolidObjectToNextPageAlgorithm extends PageSplittingAlgorithm
 ```
 
-将对象的顶部添加到页面底部，并在对象不适合原始页面时将完整对象克隆到下一页。
+将对象的顶部添加到页面底部，并在对象无法适应原始页面时将完整对象克隆到下一页。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm()](#KeepPartAndCloneSolidObjectToNextPageAlgorithm--) | 使用克隆部分的默认高度限制初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例。 |
-| [KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart)](#KeepPartAndCloneSolidObjectToNextPageAlgorithm-float-) | 使用克隆部分的特定高度限制初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例。 |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm()](#KeepPartAndCloneSolidObjectToNextPageAlgorithm--) | 初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例，使用克隆部分的默认高度限制。 |
+| [KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart)](#KeepPartAndCloneSolidObjectToNextPageAlgorithm-float-) | 初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例，使用克隆部分的特定高度限制。 |
 ## 字段
 
 | 字段 | 描述 |
@@ -36,7 +36,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm()
 ```
 
 
-使用克隆部分的默认高度限制初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例。
+初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例，使用克隆部分的默认高度限制。
 
 ### KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart) {#KeepPartAndCloneSolidObjectToNextPageAlgorithm-float-}
 ```
@@ -44,7 +44,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedP
 ```
 
 
-使用克隆部分的特定高度限制初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例。
+初始化 `KeepPartAndCloneSolidObjectToNextPageAlgorithm` 类的新实例，使用克隆部分的特定高度限制。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

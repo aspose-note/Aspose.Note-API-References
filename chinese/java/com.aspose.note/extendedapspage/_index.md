@@ -26,10 +26,10 @@ public class ExtendedApsPage extends ApsPage implements System.Collections.Gener
 
 | 方法 | 描述 |
 | --- | --- |
-| [getContentSize()](#getContentSize--) | 获取不包括页边距的页面尺寸。 |
+| [getContentSize()](#getContentSize--) | 获取不包括页边距的页面大小。 |
 | [getMargin()](#getMargin--) | 获取此页面的页边距。 |
-| [getPageEndInNotePage()](#getPageEndInNotePage--) | 获取页面结束位置（在 MS OneNote 页面中），当一个 MS OneNote 页面被划分为多个 aps 页面时。 |
-| [getPageSize()](#getPageSize--) | 获取最终页面尺寸。 |
+| [getPageEndInNotePage()](#getPageEndInNotePage--) | 获取页面结束的位置（在 MS OneNote 页面中），当一个 MS OneNote 页面被划分为多个 aps 页面时。 |
+| [getPageSize()](#getPageSize--) | 获取最终页面大小。 |
 | [getPageStartInNotePage()](#getPageStartInNotePage--) | 获取页面起始位置（在 MS OneNote 页面中），当一个 MS OneNote 页面被划分为多个 aps 页面时。 |
 | [iterator()](#iterator--) | 返回遍历此页面所有节点的枚举器。 |
 | [iterator_Rename_Namesake()](#iterator-Rename-Namesake--) | 获取枚举器。 |
@@ -44,7 +44,7 @@ public ExtendedApsPage(System.Drawing.SizeF pageSize, float pageStartInNotePage,
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pageSize | com.aspose.ms.System.Drawing.SizeF | 页面尺寸。 |
+| pageSize | com.aspose.ms.System.Drawing.SizeF | 页面大小。 |
 | pageStartInNotePage | float | 原始 MS OneNote 页面中的页面起始位置。 |
 | margin | com.aspose.foundation.layout.Margin | 扩展的页面边距。 |
 
@@ -54,7 +54,7 @@ public System.Drawing.SizeF getContentSize()
 ```
 
 
-获取不包括页边距的页面尺寸。
+获取不包括页边距的页面大小。
 
 **Returns:**
 com.aspose.ms.System.Drawing.SizeF
@@ -74,7 +74,7 @@ public float getPageEndInNotePage()
 ```
 
 
-获取页面结束位置（在 MS OneNote 页面中），当一个 MS OneNote 页面被划分为多个 aps 页面时。
+获取页面结束的位置（在 MS OneNote 页面中），当一个 MS OneNote 页面被划分为多个 aps 页面时。
 
 **Returns:**
 float
@@ -84,7 +84,7 @@ public System.Drawing.SizeF getPageSize()
 ```
 
 
-获取最终页面尺寸。
+获取最终页面大小。
 
 **Returns:**
 com.aspose.ms.System.Drawing.SizeF
@@ -107,7 +107,7 @@ public System.Collections.Generic.IGenericEnumerator<ApsNode> iterator()
 返回遍历此页面所有节点的枚举器。
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.foundation.rendering.ApsNode&gt; - `IEnumerator`。
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.foundation.rendering.ApsNode&gt; - 该 `IEnumerator`。
 ### iterator_Rename_Namesake() {#iterator-Rename-Namesake--}
 ```
 public System.Collections.IEnumerator iterator_Rename_Namesake()
@@ -117,4 +117,4 @@ public System.Collections.IEnumerator iterator_Rename_Namesake()
 获取枚举器。
 
 **Returns:**
-com.aspose.ms.System.Collections.IEnumerator - `IEnumerator`。
+com.aspose.ms.System.Collections.IEnumerator - 该 `IEnumerator`。

@@ -22,10 +22,10 @@ public class ResourceSavingArgs
 | [getFileName()](#getFileName--) | 获取文件名。 |
 | [getKeepStreamOpen()](#getKeepStreamOpen--) | 获取或设置一个值，指示是否保持流打开。 |
 | [getStream()](#getStream--) | 获取或设置用于存储资源的流。 |
-| [getUri()](#getUri--) | 获取或设置访问已存储资源的 URI。 |
+| [getUri()](#getUri--) | 获取或设置访问存储资源的 URI。 |
 | [setKeepStreamOpen(boolean value)](#setKeepStreamOpen-boolean-) | 获取或设置一个值，指示是否保持流打开。 |
 | [setStream(OutputStream value)](#setStream-java.io.OutputStream-) | 获取或设置用于存储资源的流。 |
-| [setUri(String value)](#setUri-java.lang.String-) | 获取或设置访问已存储资源的 URI。 |
+| [setUri(String value)](#setUri-java.lang.String-) | 获取或设置访问存储资源的 URI。 |
 ### getDocument() {#getDocument--}
 ```
 public final Document getDocument()
@@ -72,7 +72,7 @@ public final String getUri()
 ```
 
 
-获取或设置访问已存储资源的 URI。
+获取或设置访问存储资源的 URI。
 
 **Returns:**
 java.lang.String
@@ -108,7 +108,7 @@ public final void setUri(String value)
 ```
 
 
-获取或设置访问已存储资源的 URI。
+获取或设置访问存储资源的 URI。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

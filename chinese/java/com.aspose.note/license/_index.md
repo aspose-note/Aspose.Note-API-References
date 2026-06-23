@@ -91,7 +91,7 @@ public final void setLicense(String licenseName)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | licenseName | java.lang.String | 可以是完整或短的文件名`或嵌入资源的名称`。使用空字符串切换到评估模式。 |
+|  | licenseName | java.lang.String | 可以是完整或简短的文件名`或嵌入资源的名称`。使用空字符串切换到评估模式。 |
 
 --------------------
 

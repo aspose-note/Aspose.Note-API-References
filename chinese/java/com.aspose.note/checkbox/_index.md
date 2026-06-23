@@ -1,7 +1,7 @@
 ---
 title: "CheckBox"
 second_title: "Aspose.Note for Java API 参考"
-description: "可在完成和未完成状态之间切换的标签的基类。"
+description: "该基类用于可以在完成和未完成状态之间切换的标签。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.note/checkbox/
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.note.TagExtended
 public abstract class CheckBox extends TagExtended
 ```
 
-可在完成和未完成状态之间切换的标签的基类。
+该基类用于可以在完成和未完成状态之间切换的标签。
 ## 方法
 
 | 方法 | 描述 |
@@ -23,8 +23,8 @@ public abstract class CheckBox extends TagExtended
 | [getCreationTime()](#getCreationTime--) | 获取或设置创建时间。 |
 | [getIcon()](#getIcon--) | 获取或设置图标。 |
 | [getStatus()](#getStatus--) | 获取或设置状态。 |
-| [setCompleted()](#setCompleted--) | 使用当前时间作为完成时间，将 tag 设置为已完成状态。 |
-| [setCompleted(Date completedTime)](#setCompleted-java.util.Date-) | 将 tag 设置为已完成状态。 |
+| [setCompleted()](#setCompleted--) | 使用当前时间作为完成时间，将标签设置为已完成状态。 |
+| [setCompleted(Date completedTime)](#setCompleted-java.util.Date-) | 将标签设置为已完成状态。 |
 | [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | 获取或设置创建时间。 |
 | [setOpen()](#setOpen--) | 将标签设置为打开状态。 |
 ### getChecked() {#getChecked--}
@@ -45,7 +45,7 @@ public final Date getCompletedTime()
 
 获取或设置完成时间。
 
-值：该 `Nullable\{DateTime\}`。
+值：`Nullable\{DateTime\}`。
 
 **Returns:**
 java.util.Date
@@ -57,7 +57,7 @@ public final Date getCreationTime()
 
 获取或设置创建时间。
 
-值：该 java.util.Date。
+值：java.util.Date。
 
 **Returns:**
 java.util.Date
@@ -69,7 +69,7 @@ public abstract int getIcon()
 
 获取或设置图标。
 
-值：该 [TagIcon](../../com.aspose.note.infrastructure/tagicon)。
+值： [TagIcon](../../com.aspose.note.infrastructure/tagicon)。
 
 **Returns:**
 int
@@ -81,7 +81,7 @@ public final int getStatus()
 
 获取或设置状态。
 
-值：该 [TagStatus](../../com.aspose.note/tagstatus)。
+值： [TagStatus](../../com.aspose.note/tagstatus)。
 
 **Returns:**
 int
@@ -91,7 +91,7 @@ public final void setCompleted()
 ```
 
 
-使用当前时间作为完成时间，将 tag 设置为已完成状态。
+使用当前时间作为完成时间，将标签设置为已完成状态。
 
 ### setCompleted(Date completedTime) {#setCompleted-java.util.Date-}
 ```
@@ -99,7 +99,7 @@ public final void setCompleted(Date completedTime)
 ```
 
 
-将 tag 设置为已完成状态。
+将标签设置为已完成状态。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -114,7 +114,7 @@ public final void setCreationTime(Date value)
 
 获取或设置创建时间。
 
-值：该 java.util.Date。
+值：java.util.Date。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

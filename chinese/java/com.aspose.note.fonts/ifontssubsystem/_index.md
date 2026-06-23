@@ -1,7 +1,7 @@
 ---
 title: "IFontsSubsystem"
 second_title: "Aspose.Note for Java API 参考"
-description: "如果您想控制 Aspose.Note 在保存文档时检索字体的方式，请实现此接口。"
+description: "如果您想控制 Aspose.Note 在保存文档时如何检索字体，请实现此接口。"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.note.fonts/ifontssubsystem/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.note.fonts/ifontssubsystem/
 public interface IFontsSubsystem
 ```
 
-如果您想控制 Aspose.Note 在保存文档时检索字体的方式，请实现此接口。
+如果您想控制 Aspose.Note 在保存文档时如何检索字体，请实现此接口。
 ## 方法
 
 | 方法 | 描述 |

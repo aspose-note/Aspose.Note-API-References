@@ -16,7 +16,7 @@ java.lang.Object
 public abstract class FontsSubsystem implements IFontsSubsystem
 ```
 
-实现 com.aspose.note.IFontsSubsystem 接口的基类。提供默认字体和字体替换的功能。覆盖派生类中的 com.aspose.note.FontsSubsystem.fetchFontFamily 受保护成员函数，以实现检索 Font 对象的逻辑。
+实现 com.aspose.note.IFontsSubsystem 接口的基类。提供默认字体和字体替换的功能。覆盖派生类中的受保护成员函数 com.aspose.note.FontsSubsystem.fetchFontFamily，以实现检索 Font 对象的逻辑。
 ## 方法
 
 | 方法 | 描述 |
@@ -64,7 +64,7 @@ public final void addFontSubstitution(String substituted, String substitution)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 已替换 | java.lang.String | 已替换的字体名称。 |
+| 已替换的 | java.lang.String | 已替换的字体名称。 |
 | 替换 | java.lang.String | 替换字体名称。 |
 
 ### getDefaultFont() {#getDefaultFont--}

@@ -41,7 +41,7 @@ public final int getPageCount()
 ```
 
 
-获取或设置要保存的页数。默认值为 \{@link int\#Int32Extensions.MaxValue\}，这表示文档的所有页面都将被渲染。
+获取或设置要保存的页数。默认是 \{@link int\#Int32Extensions.MaxValue\}，这表示文档的所有页面都将被渲染。
 
 **Returns:**
 int
@@ -84,7 +84,7 @@ public final void setPageCount(int value)
 ```
 
 
-获取或设置要保存的页数。默认值为 \{@link int\#Int32Extensions.MaxValue\}，这表示文档的所有页面都将被渲染。
+获取或设置要保存的页数。默认是 \{@link int\#Int32Extensions.MaxValue\}，这表示文档的所有页面都将被渲染。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

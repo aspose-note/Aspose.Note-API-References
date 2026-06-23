@@ -1,7 +1,7 @@
 ---
 title: "OneSaveOptions"
 second_title: "Aspose.Note for Java API 参考"
-description: "在将文档保存为 OneNote 格式时允许指定附加选项。"
+description: "在将文档保存为 OneNote 格式时允许指定额外选项。"
 type: docs
 weight: 65
 url: /zh/java/com.aspose.note/onesaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.note.SaveOptions](../../com.aspose.note/saveoption
 public final class OneSaveOptions extends SaveOptions
 ```
 
-在将文档保存为 OneNote 格式时允许指定附加选项。
+在将文档保存为 OneNote 格式时允许指定额外选项。
 ## 构造函数
 
 | 构造函数 | 描述 |

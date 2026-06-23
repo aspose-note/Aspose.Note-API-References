@@ -65,9 +65,9 @@ public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 | typeParameterClass | java.lang.Class&lt;T1&gt; |  |
 
 **Returns:**
-java.util.List&lt;T1&gt; - 子节点的列表。
+java.util.List&lt;T1&gt; - 子节点列表。
 
-`T1`：返回列表中元素的类型。
+`T1`: 返回列表中元素的类型。
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
 public void accept(DocumentVisitor visitor)
@@ -92,7 +92,7 @@ public List<INode> getChildNodes(int type)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 类型 | int |  |
+| type | int |  |
 
 **Returns:**
 java.util.List&lt;com.aspose.note.INode&gt;

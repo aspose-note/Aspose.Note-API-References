@@ -23,11 +23,11 @@ public class PrintOptions
 
 | 方法 | 描述 |
 | --- | --- |
-| [getDocumentName()](#getDocumentName--) | 获取或设置在打印文档时要显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
+| [getDocumentName()](#getDocumentName--) | 获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
 | [getPageSplittingAlgorithm()](#getPageSplittingAlgorithm--) | 获取或设置用于页面拆分的算法。 |
 | [getPrinterSettings()](#getPrinterSettings--) | 获取或设置打印机设置。 |
 | [getResolution()](#getResolution--) | 获取或设置生成图像的分辨率，单位为每英寸点数（dpi）。 |
-| [setDocumentName(String value)](#setDocumentName-java.lang.String-) | 获取或设置在打印文档时要显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
+| [setDocumentName(String value)](#setDocumentName-java.lang.String-) | 获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
 | [setPageSplittingAlgorithm(PageSplittingAlgorithm value)](#setPageSplittingAlgorithm-com.aspose.note.PageSplittingAlgorithm-) | 获取或设置用于页面拆分的算法。 |
 | [setPrinterSettings(AttributeSet value)](#setPrinterSettings-javax.print.attribute.AttributeSet-) | 获取或设置打印机设置。 |
 | [setResolution(float value)](#setResolution-float-) | 获取或设置生成图像的分辨率，单位为每英寸点数（dpi）。 |
@@ -45,7 +45,7 @@ public String getDocumentName()
 ```
 
 
-获取或设置在打印文档时要显示的文档名称（例如，在打印状态对话框或打印机队列中）。
+获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印机队列中）。
 
 **Returns:**
 java.lang.String
@@ -91,7 +91,7 @@ public void setDocumentName(String value)
 ```
 
 
-获取或设置在打印文档时要显示的文档名称（例如，在打印状态对话框或打印机队列中）。
+获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印机队列中）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
