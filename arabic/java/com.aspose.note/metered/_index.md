@@ -1,7 +1,7 @@
 ---
-title: "Metered"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يوفر طرقًا لتعيين المفتاح المقاس."
+title: "مقاس"
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يوفر طرقًا لتعيين المفتاح المقيس."
 type: docs
 weight: 50
 url: /ar/java/com.aspose.note/metered/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Metered
 ```
 
-يوفر طرقًا لتعيين المفتاح المقاس.
+يوفر طرقًا لتعيين المفتاح المقيس.
 
 --------------------
 

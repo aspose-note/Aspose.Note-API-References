@@ -1,7 +1,7 @@
 ---
 title: "SaveFormat"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يشير إلى الصيغة التي يُحفظ بها المستند."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يشير إلى التنسيق الذي يُحفظ به المستند."
 type: docs
 weight: 83
 url: /ar/java/com.aspose.note/saveformat/
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class SaveFormat extends System.Enum
 ```
 
-يشير إلى الصيغة التي يُحفظ بها المستند.
+يشير إلى التنسيق الذي يُحفظ به المستند.
 ## الحقول
 
 | حقل | الوصف |

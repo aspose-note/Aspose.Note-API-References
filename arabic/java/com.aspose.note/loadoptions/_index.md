@@ -1,6 +1,6 @@
 ---
 title: "LoadOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الخيارات المستخدمة لتحميل مستند."
 type: docs
 weight: 46
@@ -18,22 +18,22 @@ public class LoadOptions
 
 | المنشئ | الوصف |
 | --- | --- |
-| [LoadOptions()](#LoadOptions--) | يُنشئ مثيلاً جديدًا من الفئة `LoadOptions`. |
+| [LoadOptions()](#LoadOptions--) | يُنشئ مثيلًا جديدًا للفئة `LoadOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getDocumentPassword()](#getDocumentPassword--) | يحصل أو يعيّن كلمة مرور لمحتوى المستند المشفر. |
-| [getLoadHistory()](#getLoadHistory--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب على محمّل المستند تجاهل السجل. |
+| [getLoadHistory()](#getLoadHistory--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان محمّل المستند يجب أن يتجاهل السجل. |
 | [setDocumentPassword(String value)](#setDocumentPassword-java.lang.String-) | يحصل أو يعيّن كلمة مرور لمحتوى المستند المشفر. |
-| [setLoadHistory(boolean value)](#setLoadHistory-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب على محمّل المستند تجاهل السجل. |
+| [setLoadHistory(boolean value)](#setLoadHistory-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان محمّل المستند يجب أن يتجاهل السجل. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `LoadOptions`.
+يُنشئ مثيلًا جديدًا للفئة `LoadOptions`.
 
 ### getDocumentPassword() {#getDocumentPassword--}
 ```
@@ -41,7 +41,7 @@ public String getDocumentPassword()
 ```
 
 
-يحصل أو يعيّن كلمة مرور لمحتوى المستند المشفر. تُهمل القيمة في حال عدم حماية المستند بكلمة مرور.
+يحصل أو يعيّن كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حال عدم حماية المستند بكلمة مرور.
 
 **Returns:**
 java.lang.String
@@ -51,7 +51,7 @@ public boolean getLoadHistory()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب على محمّل المستند تجاهل السجل. استخدم هذا الخيار لتقليل استهلاك الذاكرة والمعالج. القيمة الافتراضية هي `true`.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان محمّل المستند يجب أن يتجاهل السجل. استخدم هذا الخيار لتقليل استهلاك الذاكرة والمعالج. القيمة الافتراضية هي `true`.
 
 **Returns:**
 boolean
@@ -61,7 +61,7 @@ public void setDocumentPassword(String value)
 ```
 
 
-يحصل أو يعيّن كلمة مرور لمحتوى المستند المشفر. تُهمل القيمة في حال عدم حماية المستند بكلمة مرور.
+يحصل أو يعيّن كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حال عدم حماية المستند بكلمة مرور.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,7 +74,7 @@ public void setLoadHistory(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب على محمّل المستند تجاهل السجل. استخدم هذا الخيار لتقليل استهلاك الذاكرة والمعالج. القيمة الافتراضية هي `true`.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان محمّل المستند يجب أن يتجاهل السجل. استخدم هذا الخيار لتقليل استهلاك الذاكرة والمعالج. القيمة الافتراضية هي `true`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

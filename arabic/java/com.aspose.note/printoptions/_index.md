@@ -1,6 +1,6 @@
 ---
 title: "PrintOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الخيارات المستخدمة لطباعة مستند."
 type: docs
 weight: 78
@@ -18,7 +18,7 @@ public class PrintOptions
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PrintOptions()](#PrintOptions--) | يُنشئ مثيلاً جديدًا من الفئة `PrintOptions`. |
+| [PrintOptions()](#PrintOptions--) | يُنشئ مثيلًا جديدًا للفئة `PrintOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -26,18 +26,18 @@ public class PrintOptions
 | [getDocumentName()](#getDocumentName--) | يحصل أو يضبط اسم المستند للعرض (على سبيل المثال، في مربع حوار حالة الطباعة أو طابور الطابعة) أثناء طباعة المستند. |
 | [getPageSplittingAlgorithm()](#getPageSplittingAlgorithm--) | يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات. |
 | [getPrinterSettings()](#getPrinterSettings--) | يحصل أو يضبط إعدادات الطابعة. |
-| [getResolution()](#getResolution--) | يحصل أو يضبط الدقة للصور المولدة، بوحدات النقاط لكل بوصة. |
+| [getResolution()](#getResolution--) | يحصل أو يضبط الدقة للصور المولدة، بوحدة النقاط في البوصة. |
 | [setDocumentName(String value)](#setDocumentName-java.lang.String-) | يحصل أو يضبط اسم المستند للعرض (على سبيل المثال، في مربع حوار حالة الطباعة أو طابور الطابعة) أثناء طباعة المستند. |
 | [setPageSplittingAlgorithm(PageSplittingAlgorithm value)](#setPageSplittingAlgorithm-com.aspose.note.PageSplittingAlgorithm-) | يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات. |
 | [setPrinterSettings(AttributeSet value)](#setPrinterSettings-javax.print.attribute.AttributeSet-) | يحصل أو يضبط إعدادات الطابعة. |
-| [setResolution(float value)](#setResolution-float-) | يحصل أو يضبط الدقة للصور المولدة، بوحدات النقاط لكل بوصة. |
+| [setResolution(float value)](#setResolution-float-) | يحصل أو يضبط الدقة للصور المولدة، بوحدة النقاط في البوصة. |
 ### PrintOptions() {#PrintOptions--}
 ```
 public PrintOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `PrintOptions`.
+يُنشئ مثيلًا جديدًا للفئة `PrintOptions`.
 
 ### getDocumentName() {#getDocumentName--}
 ```
@@ -77,7 +77,7 @@ public float getResolution()
 ```
 
 
-يحصل أو يضبط الدقة للصور المولدة، بوحدات النقاط لكل بوصة.
+يحصل أو يضبط الدقة للصور المولدة، بوحدة النقاط في البوصة.
 
 --------------------
 
@@ -132,7 +132,7 @@ public void setResolution(float value)
 ```
 
 
-يحصل أو يضبط الدقة للصور المولدة، بوحدات النقاط لكل بوصة.
+يحصل أو يضبط الدقة للصور المولدة، بوحدة النقاط في البوصة.
 
 --------------------
 

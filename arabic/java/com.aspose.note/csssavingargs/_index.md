@@ -1,7 +1,7 @@
 ---
 title: "CssSavingArgs"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يوفر البيانات لحدث CssSaving."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يوفر بيانات لحدث CssSaving."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.note/csssavingargs/
@@ -13,4 +13,4 @@ java.lang.Object, [com.aspose.note.ResourceSavingArgs](../../com.aspose.note/res
 public class CssSavingArgs extends ResourceSavingArgs
 ```
 
-يوفر البيانات لحدث CssSaving.
+يوفر بيانات لحدث CssSaving.

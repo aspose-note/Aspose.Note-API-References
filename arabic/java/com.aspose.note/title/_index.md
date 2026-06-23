@@ -1,6 +1,6 @@
 ---
 title: "Title"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل عنوانًا."
 type: docs
 weight: 95
@@ -21,35 +21,35 @@ public final class Title extends CompositeNodeBase implements ICompositeNodeT<Ri
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Title()](#Title--) | ينشئ مثيلًا جديدًا من الفئة `Title`. |
+| [Title()](#Title--) | ينشئ مثيلاً جديدًا من الفئة `Title`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | احصل على جميع العقد الفرعية وفقًا لنوع العقدة. |
+| [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | احصل على جميع العقد الفرعية حسب نوع العقدة. |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | يقبل زائر العقدة. |
 | [getChildNodes(int type)](#getChildNodes-int-) |  |
-| [getHorizontalOffset()](#getHorizontalOffset--) | يحصل أو يضبط الإزاحة الأفقية. |
-| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يضبط وقت التعديل الأخير. |
+| [getHorizontalOffset()](#getHorizontalOffset--) | يحصل على أو يضبط الإزاحة الأفقية. |
+| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يعيّن وقت التعديل الأخير. |
 | [getTitleDate()](#getTitleDate--) | يحصل أو يضبط تمثيلًا نصيًا للتاريخ في العنوان. |
 | [getTitleText()](#getTitleText--) | يحصل أو يضبط نص العنوان. |
 | [getTitleTime()](#getTitleTime--) | يحصل أو يضبط تمثيلًا نصيًا للوقت في العنوان. |
-| [getVerticalOffset()](#getVerticalOffset--) | يحصل أو يضبط الإزاحة العمودية. |
-| [isComposite()](#isComposite--) | يحصل على قيمة تشير إلى ما إذا كان هذا العنصر مركبًا. |
-| [iterator()](#iterator--) | يرجع عدادًا يتنقل عبر العقد الفرعية للـ [Title](../../com.aspose.note/title). |
-| [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | يحصل أو يضبط الإزاحة الأفقية. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يضبط وقت التعديل الأخير. |
+| [getVerticalOffset()](#getVerticalOffset--) | يحصل على أو يضبط الإزاحة العمودية. |
+| [isComposite()](#isComposite--) | يحصل على قيمة تشير إلى ما إذا كان هذا العقد مركبًا. |
+| [iterator()](#iterator--) | يعيد عدادًا يتجول عبر العقد الفرعية لـ [Title](../../com.aspose.note/title). |
+| [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | يحصل على أو يضبط الإزاحة الأفقية. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يعيّن وقت التعديل الأخير. |
 | [setTitleDate(RichText value)](#setTitleDate-com.aspose.note.RichText-) | يحصل أو يضبط تمثيلًا نصيًا للتاريخ في العنوان. |
 | [setTitleText(RichText value)](#setTitleText-com.aspose.note.RichText-) | يحصل أو يضبط نص العنوان. |
 | [setTitleTime(RichText value)](#setTitleTime-com.aspose.note.RichText-) | يحصل أو يضبط تمثيلًا نصيًا للوقت في العنوان. |
-| [setVerticalOffset(float value)](#setVerticalOffset-float-) | يحصل أو يضبط الإزاحة العمودية. |
+| [setVerticalOffset(float value)](#setVerticalOffset-float-) | يحصل على أو يضبط الإزاحة العمودية. |
 ### Title() {#Title--}
 ```
 public Title()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `Title`.
+ينشئ مثيلاً جديدًا من الفئة `Title`.
 
 ### &lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
 ```
@@ -57,7 +57,7 @@ public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 ```
 
 
-احصل على جميع العقد الفرعية وفقًا لنوع العقدة.
+احصل على جميع العقد الفرعية حسب نوع العقدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,7 +67,7 @@ public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 **Returns:**
 java.util.List&lt;T1&gt; - قائمة بالعقد الفرعية.
 
-`T1`: نوع العناصر في القائمة المعادة.
+`T1`: نوع العناصر في القائمة المرتجعة.
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
 public void accept(DocumentVisitor visitor)
@@ -92,7 +92,7 @@ public List<INode> getChildNodes(int type)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| النوع | int |  |
+| نوع | int |  |
 
 **Returns:**
 java.util.List&lt;com.aspose.note.INode&gt;
@@ -102,7 +102,7 @@ public final float getHorizontalOffset()
 ```
 
 
-يحصل أو يضبط الإزاحة الأفقية.
+يحصل على أو يضبط الإزاحة الأفقية.
 
 **Returns:**
 float
@@ -112,7 +112,7 @@ public Date getLastModifiedTime()
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Returns:**
 java.util.Date
@@ -152,7 +152,7 @@ public final float getVerticalOffset()
 ```
 
 
-يحصل أو يضبط الإزاحة العمودية.
+يحصل على أو يضبط الإزاحة العمودية.
 
 **Returns:**
 float
@@ -162,7 +162,7 @@ public boolean isComposite()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا العنصر مركبًا. إذا كان صحيحًا يمكن للعنصر أن يحتوي على عقد فرعية.
+يحصل على قيمة تشير إلى ما إذا كان هذا العقد مركبًا. إذا كان صحيحًا، يمكن للعقد أن يحتوي على عقد فرعية.
 
 **Returns:**
 boolean
@@ -172,7 +172,7 @@ public final System.Collections.Generic.IGenericEnumerator<RichText> iterator()
 ```
 
 
-يرجع عدادًا يتنقل عبر العقد الفرعية للـ [Title](../../com.aspose.note/title).
+يعيد عدادًا يتجول عبر العقد الفرعية لـ [Title](../../com.aspose.note/title).
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.note.RichText&gt; - الـ IEnumerator.
@@ -182,7 +182,7 @@ public final void setHorizontalOffset(float value)
 ```
 
 
-يحصل أو يضبط الإزاحة الأفقية.
+يحصل على أو يضبط الإزاحة الأفقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -195,7 +195,7 @@ public void setLastModifiedTime(Date value)
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -247,7 +247,7 @@ public final void setVerticalOffset(float value)
 ```
 
 
-يحصل أو يضبط الإزاحة العمودية.
+يحصل على أو يضبط الإزاحة العمودية.
 
 **Parameters:**
 | معامل | نوع | الوصف |

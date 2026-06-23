@@ -1,14 +1,14 @@
 ---
 title: "ExtendedApsPath"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل غلافًا لمسار ApsPath القياسي الذي يمد بعض سلوك الرسم."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل غلافًا لـ ApsPath القياسي الذي يوسع بعض سلوكيات الرسم."
 type: docs
 weight: 28
 url: /ar/java/com.aspose.note/extendedapspath/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
+java.lang.Object، [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
 ```
 public class ExtendedApsPath extends ExtendedApsNode
 ```
@@ -79,7 +79,7 @@ public void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scaleTransform | float | عامل القياس للتحويل. |
+| scaleTransform | float | عامل المقياس للتحويل. |
 
 ### getBottom() {#getBottom--}
 ```

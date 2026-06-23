@@ -1,6 +1,6 @@
 ---
 title: "PdfSaveOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يسمح بتحديد خيارات إضافية عند تحويل صفحات المستند إلى PDF."
 type: docs
 weight: 77
@@ -18,7 +18,7 @@ public final class PdfSaveOptions extends SaveOptions
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PdfSaveOptions()](#PdfSaveOptions--) | يُنشئ مثيلاً جديدًا من الفئة `PdfSaveOptions`. |
+| [PdfSaveOptions()](#PdfSaveOptions--) | يُنشئ مثيلًا جديدًا من الفئة `PdfSaveOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -37,7 +37,7 @@ public PdfSaveOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `PdfSaveOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `PdfSaveOptions`.
 
 ### getImageCompression() {#getImageCompression--}
 ```
@@ -55,7 +55,7 @@ public final int getJpegQuality()
 ```
 
 
-يحصل على قيمة تحدد جودة صور JPEG داخل مستند PDF. قد تتراوح القيمة من 0 إلى 100 حيث يعني 0 أسوأ جودة ولكن أقصى ضغط و100 يعني أفضل جودة ولكن أقل ضغط.
+يحصل على قيمة تحدد جودة صور JPEG داخل مستند PDF. يمكن أن تتراوح القيمة من 0 إلى 100 حيث يعني 0 أسوأ جودة ولكن أقصى ضغط و100 يعني أفضل جودة ولكن أقل ضغط.
 
 --------------------
 
@@ -69,7 +69,7 @@ public PageSettings getPageSettings()
 ```
 
 
-يحصل أو يضبط إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، \*US الثقافات لديها إعداد letter، الأخرى لديها إعداد A4.
+يحصل أو يضبط إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، \*US الثقافات لديها إعداد الحرف، الأخرى لديها إعداد A4.
 
 **Returns:**
 [PageSettings](../../com.aspose.note/pagesettings)
@@ -104,7 +104,7 @@ public final void setJpegQuality(int value)
 ```
 
 
-يضبط قيمة تحدد جودة صور JPEG داخل مستند PDF. قد تتراوح القيمة من 0 إلى 100 حيث يعني 0 أسوأ جودة ولكن أقصى ضغط و100 يعني أفضل جودة ولكن أقل ضغط.
+يضبط قيمة تحدد جودة صور JPEG داخل مستند PDF. يمكن أن تتراوح القيمة من 0 إلى 100 حيث يعني 0 أسوأ جودة ولكن أقصى ضغط و100 يعني أفضل جودة ولكن أقل ضغط.
 
 --------------------
 
@@ -121,7 +121,7 @@ public void setPageSettings(PageSettings value)
 ```
 
 
-يحصل أو يضبط إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، \*US الثقافات لديها إعداد letter، الأخرى لديها إعداد A4.
+يحصل أو يضبط إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، \*US الثقافات لديها إعداد الحرف، الأخرى لديها إعداد A4.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "License"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يوفر طرقًا لتفعيل الترخيص للمكوّن."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يوفر طرقًا لترخيص المكوّن."
 type: docs
 weight: 44
 url: /ar/java/com.aspose.note/license/
@@ -13,28 +13,28 @@ java.lang.Object
 public class License
 ```
 
-يوفر طرقًا لتفعيل الترخيص للمكوّن.
+يوفر طرقًا لترخيص المكوّن.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [License()](#License--) | ينشئ مثيلًا جديدًا من هذه الفئة. |
+| [License()](#License--) | ينشئ مثيلًا جديدًا لهذه الفئة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [resetThreadContext()](#resetThreadContext--) | يعيد تعيين سياق الترخيص للخيط الحالي. |
+| [resetThreadContext()](#resetThreadContext--) | يعيد تعيين سياق الرخصة للخيط الحالي. |
 | [setLicense(File licenseFile)](#setLicense-java.io.File-) | يُرخص المكوّن. |
 | [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | يُرخص المكوّن. |
 | [setLicense(String licenseName)](#setLicense-java.lang.String-) | يُرخص المكوّن. |
-| [setThreadContext(InputStream stream)](#setThreadContext-java.io.InputStream-) | يعيّن سياق الترخيص للخيط الحالي. |
+| [setThreadContext(InputStream stream)](#setThreadContext-java.io.InputStream-) | يضبط سياق الرخصة للخيط الحالي. |
 ### License() {#License--}
 ```
 public License()
 ```
 
 
-ينشئ مثيلًا جديدًا من هذه الفئة.
+ينشئ مثيلًا جديدًا لهذه الفئة.
 
 ### resetThreadContext() {#resetThreadContext--}
 ```
@@ -42,7 +42,7 @@ public static void resetThreadContext()
 ```
 
 
-يعيد تعيين سياق الترخيص للخيط الحالي.
+يعيد تعيين سياق الرخصة للخيط الحالي.
 
 ### setLicense(File licenseFile) {#setLicense-java.io.File-}
 ```
@@ -55,7 +55,7 @@ public void setLicense(File licenseFile)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| licenseFile | java.io.File | ملف الترخيص`System.IO.FileInfo`. |
+| licenseFile | java.io.File | ملف الرخصة`System.IO.FileInfo`. |
 
 ### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
 ```
@@ -68,7 +68,7 @@ public final void setLicense(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | دفق | java.io.InputStream | دفق يحتوي على الترخيص. |
+|  | دفق | java.io.InputStream | دفق يحتوي على الرخصة. |
 
 --------------------
 
@@ -107,17 +107,17 @@ public final void setLicense(String licenseName)
 
 2. المجلد الذي يحتوي على تجميع مكوّن Aspose.
 
-3. المجلد الذي يحتوي على تجميع الاستدعاء الخاص بالعميل.
+3. المجلد الذي يحتوي على تجميع استدعاء العميل.
 
-4. المجلد الذي يحتوي على تجميع الدخول (البدء).
+4. المجلد الذي يحتوي على تجميع الدخول (بدء التشغيل).
 
-5. مورد مضمّن في تجميع الاستدعاء الخاص بالعميل.
+5. مورد مضمّن في تجميع استدعاء العميل.
 
 **Note:**On the .NET Compact Framework, tries to find the license only in these locations:
 
 1. مسار صريح.
 
-2. مورد مضمّن في تجميع الاستدعاء الخاص بالعميل.
+2. مورد مضمّن في تجميع استدعاء العميل.
 
 ` `
 
@@ -133,10 +133,10 @@ public static void setThreadContext(InputStream stream)
 ```
 
 
-يعيّن سياق الترخيص للخيط الحالي.
+يضبط سياق الرخصة للخيط الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.InputStream | دفق يحتوي على الترخيص. |
+| دفق | java.io.InputStream | دفق يحتوي على الرخصة. |
 

@@ -1,6 +1,6 @@
 ---
 title: "NotebookSaveOptionsGeneric"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "فئة أساسية مجردة تمثل خيارات حفظ دفتر الملاحظات لتنسيق معين وتوفر خيارات حفظ مشتركة لجميع العقد الفرعية للمستند."
 type: docs
 weight: 62
@@ -15,7 +15,7 @@ public abstract class NotebookSaveOptionsGeneric<TDocumentSaveOptions> extends N
 
 فئة أساسية مجردة تمثل خيارات حفظ دفتر الملاحظات لتنسيق معين وتوفر خيارات حفظ مشتركة لجميع العقد الفرعية للمستند.
 
-`TDocumentSaveOptions`: خيارات الحفظ لجميع المستندات الفرعية في الدفتر.
+`TDocumentSaveOptions`: خيارات الحفظ لجميع المستندات الفرعية للمفكرة.
 
 TDocumentSaveOptions :
 ## المنشئات
@@ -27,7 +27,7 @@ TDocumentSaveOptions :
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDocumentSaveOptions()](#getDocumentSaveOptions--) | يحصل أو يعيّن خيارات الحفظ لجميع المستندات الفرعية في الدفتر. |
+| [getDocumentSaveOptions()](#getDocumentSaveOptions--) | يحصل أو يضبط خيارات الحفظ لجميع المستندات الفرعية للمفكرة. |
 | [getDocumentSaveOptionsInternal()](#getDocumentSaveOptionsInternal--) | يحصل على خيارات الحفظ لجميع مستندات الأطفال في الدفتر. |
 | [getSaveFormat()](#getSaveFormat--) | يحصل على الصيغة التي يُحفظ بها الدفتر. |
 ### NotebookSaveOptionsGeneric() {#NotebookSaveOptionsGeneric--}
@@ -42,7 +42,7 @@ public TDocumentSaveOptions getDocumentSaveOptions()
 ```
 
 
-يحصل أو يعيّن خيارات الحفظ لجميع المستندات الفرعية في الدفتر.
+يحصل أو يضبط خيارات الحفظ لجميع المستندات الفرعية للمفكرة.
 
 **Returns:**
 TDocumentSaveOptions

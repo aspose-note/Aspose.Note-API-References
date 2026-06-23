@@ -1,6 +1,6 @@
 ---
 title: "HtmlSaveOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق HTML."
 type: docs
 weight: 32
@@ -18,38 +18,38 @@ public class HtmlSaveOptions extends SaveOptions
 
 | المنشئ | الوصف |
 | --- | --- |
-| [HtmlSaveOptions()](#HtmlSaveOptions--) | يُنشئ مثلاً جديدًا من الفئة [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions) class. |
+| [HtmlSaveOptions()](#HtmlSaveOptions--) | يُنشئ مثيلًا جديدًا من الفئة [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCssPerPageGeneration()](#getCssPerPageGeneration--) | يحصل أو يضبط ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
-| [getCssSavingCallback()](#getCssSavingCallback--) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS. |
-| [getDocumentPerPageGeneration()](#getDocumentPerPageGeneration--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلاً. |
-| [getExportCss()](#getExportCss--) | يحصل أو يضبط طريقة تصدير css. |
-| [getExportFonts()](#getExportFonts--) | يحصل أو يضبط طريقة تصدير الخطوط. |
-| [getExportImages()](#getExportImages--) | يحصل أو يضبط طريقة تصدير الصور. |
-| [getFontFaceTypes()](#getFontFaceTypes--) | يحصل أو يضبط أنواع خط الوجه. |
-| [getFontSavingCallback()](#getFontSavingCallback--) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط. |
-| [getImageSavingCallback()](#getImageSavingCallback--) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة. |
-| [getPageSavingCallback()](#getPageSavingCallback--) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة. |
-| [setCssPerPageGeneration(boolean value)](#setCssPerPageGeneration-boolean-) | يحصل أو يضبط ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
-| [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.note.ICssSavingCallback-) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS. |
-| [setDocumentPerPageGeneration(boolean value)](#setDocumentPerPageGeneration-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلاً. |
-| [setExportCss(int value)](#setExportCss-int-) | يحصل أو يضبط طريقة تصدير css. |
-| [setExportFonts(int value)](#setExportFonts-int-) | يحصل أو يضبط طريقة تصدير الخطوط. |
-| [setExportImages(int value)](#setExportImages-int-) | يحصل أو يضبط طريقة تصدير الصور. |
-| [setFontFaceTypes(int value)](#setFontFaceTypes-int-) | يحصل أو يضبط أنواع خط الوجه. |
-| [setFontSavingCallback(IFontSavingCallback value)](#setFontSavingCallback-com.aspose.note.IFontSavingCallback-) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط. |
-| [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.note.IImageSavingCallback-) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة. |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.note.IPageSavingCallback-) | يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة. |
+| [getCssPerPageGeneration()](#getCssPerPageGeneration--) | يحصل أو يعيّن ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
+| [getCssSavingCallback()](#getCssSavingCallback--) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS. |
+| [getDocumentPerPageGeneration()](#getDocumentPerPageGeneration--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلًا. |
+| [getExportCss()](#getExportCss--) | يحصل أو يعيّن طريقة تصدير css. |
+| [getExportFonts()](#getExportFonts--) | يحصل أو يعيّن طريقة تصدير الخطوط. |
+| [getExportImages()](#getExportImages--) | يحصل أو يعيّن طريقة تصدير الصور. |
+| [getFontFaceTypes()](#getFontFaceTypes--) | يحصل أو يعيّن أنواع خطوط الواجهة. |
+| [getFontSavingCallback()](#getFontSavingCallback--) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط. |
+| [getImageSavingCallback()](#getImageSavingCallback--) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة. |
+| [getPageSavingCallback()](#getPageSavingCallback--) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة. |
+| [setCssPerPageGeneration(boolean value)](#setCssPerPageGeneration-boolean-) | يحصل أو يعيّن ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة. |
+| [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.note.ICssSavingCallback-) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS. |
+| [setDocumentPerPageGeneration(boolean value)](#setDocumentPerPageGeneration-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلًا. |
+| [setExportCss(int value)](#setExportCss-int-) | يحصل أو يعيّن طريقة تصدير css. |
+| [setExportFonts(int value)](#setExportFonts-int-) | يحصل أو يعيّن طريقة تصدير الخطوط. |
+| [setExportImages(int value)](#setExportImages-int-) | يحصل أو يعيّن طريقة تصدير الصور. |
+| [setFontFaceTypes(int value)](#setFontFaceTypes-int-) | يحصل أو يعيّن أنواع خطوط الواجهة. |
+| [setFontSavingCallback(IFontSavingCallback value)](#setFontSavingCallback-com.aspose.note.IFontSavingCallback-) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط. |
+| [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.note.IImageSavingCallback-) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة. |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.note.IPageSavingCallback-) | يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة. |
 ### HtmlSaveOptions() {#HtmlSaveOptions--}
 ```
 public HtmlSaveOptions()
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions) class.
+يُنشئ مثيلًا جديدًا من الفئة [HtmlSaveOptions](../../com.aspose.note/htmlsaveoptions).
 
 ### getCssPerPageGeneration() {#getCssPerPageGeneration--}
 ```
@@ -57,7 +57,7 @@ public final boolean getCssPerPageGeneration()
 ```
 
 
-يحصل أو يضبط ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة.
+يحصل أو يعيّن ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة.
 
 **Returns:**
 boolean
@@ -67,7 +67,7 @@ public final ICssSavingCallback getCssSavingCallback()
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS.
 
 **Returns:**
 [ICssSavingCallback](../../com.aspose.note/icsssavingcallback)
@@ -77,7 +77,7 @@ public final boolean getDocumentPerPageGeneration()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلاً.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلًا.
 
 **Returns:**
 boolean
@@ -87,7 +87,7 @@ public final int getExportCss()
 ```
 
 
-يحصل أو يضبط طريقة تصدير css.
+يحصل أو يعيّن طريقة تصدير css.
 
 **Returns:**
 int
@@ -97,7 +97,7 @@ public final int getExportFonts()
 ```
 
 
-يحصل أو يضبط طريقة تصدير الخطوط.
+يحصل أو يعيّن طريقة تصدير الخطوط.
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public final int getExportImages()
 ```
 
 
-يحصل أو يضبط طريقة تصدير الصور.
+يحصل أو يعيّن طريقة تصدير الصور.
 
 **Returns:**
 int
@@ -117,9 +117,9 @@ public final int getFontFaceTypes()
 ```
 
 
-يحصل أو يضبط أنواع خط الوجه.
+يحصل أو يعيّن أنواع خطوط الواجهة.
 
-القيمة: أنواع خط الوجه.
+القيمة: أنواع خطوط الواجهة.
 
 **Returns:**
 int
@@ -129,7 +129,7 @@ public final IFontSavingCallback getFontSavingCallback()
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط.
 
 **Returns:**
 [IFontSavingCallback](../../com.aspose.note/ifontsavingcallback)
@@ -139,7 +139,7 @@ public final IImageSavingCallback getImageSavingCallback()
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة.
 
 **Returns:**
 [IImageSavingCallback](../../com.aspose.note/iimagesavingcallback)
@@ -149,7 +149,7 @@ public final IPageSavingCallback getPageSavingCallback()
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة.
 
 **Returns:**
 [IPageSavingCallback](../../com.aspose.note/ipagesavingcallback)
@@ -159,7 +159,7 @@ public final void setCssPerPageGeneration(boolean value)
 ```
 
 
-يحصل أو يضبط ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة.
+يحصل أو يعيّن ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -172,7 +172,7 @@ public final void setCssSavingCallback(ICssSavingCallback value)
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -185,7 +185,7 @@ public final void setDocumentPerPageGeneration(boolean value)
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلاً.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان توليد المستند لكل صفحة مفعلًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -198,7 +198,7 @@ public final void setExportCss(int value)
 ```
 
 
-يحصل أو يضبط طريقة تصدير css.
+يحصل أو يعيّن طريقة تصدير css.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -211,7 +211,7 @@ public final void setExportFonts(int value)
 ```
 
 
-يحصل أو يضبط طريقة تصدير الخطوط.
+يحصل أو يعيّن طريقة تصدير الخطوط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -224,7 +224,7 @@ public final void setExportImages(int value)
 ```
 
 
-يحصل أو يضبط طريقة تصدير الصور.
+يحصل أو يعيّن طريقة تصدير الصور.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -237,9 +237,9 @@ public final void setFontFaceTypes(int value)
 ```
 
 
-يحصل أو يضبط أنواع خط الوجه.
+يحصل أو يعيّن أنواع خطوط الواجهة.
 
-القيمة: أنواع خط الوجه.
+القيمة: أنواع خطوط الواجهة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -252,7 +252,7 @@ public final void setFontSavingCallback(IFontSavingCallback value)
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -265,7 +265,7 @@ public final void setImageSavingCallback(IImageSavingCallback value)
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -278,7 +278,7 @@ public final void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة.
+يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصفحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

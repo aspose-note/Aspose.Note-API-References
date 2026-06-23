@@ -1,6 +1,6 @@
 ---
 title: "IPageChildNode"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الواجهة لجميع العقد الفرعية لعقدة الصفحة."
 type: docs
 weight: 107
@@ -18,17 +18,17 @@ public interface IPageChildNode extends INode
 
 | طريقة | الوصف |
 | --- | --- |
-| [getHorizontalOffset()](#getHorizontalOffset--) | يحصل أو يضبط الإزاحة الأفقية. |
-| [getVerticalOffset()](#getVerticalOffset--) | يحصل أو يضبط الإزاحة العمودية. |
-| [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | يحصل أو يضبط الإزاحة الأفقية. |
-| [setVerticalOffset(float value)](#setVerticalOffset-float-) | يحصل أو يضبط الإزاحة العمودية. |
+| [getHorizontalOffset()](#getHorizontalOffset--) | يحصل على أو يضبط الإزاحة الأفقية. |
+| [getVerticalOffset()](#getVerticalOffset--) | يحصل على أو يضبط الإزاحة العمودية. |
+| [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | يحصل على أو يضبط الإزاحة الأفقية. |
+| [setVerticalOffset(float value)](#setVerticalOffset-float-) | يحصل على أو يضبط الإزاحة العمودية. |
 ### getHorizontalOffset() {#getHorizontalOffset--}
 ```
 public abstract float getHorizontalOffset()
 ```
 
 
-يحصل أو يضبط الإزاحة الأفقية.
+يحصل على أو يضبط الإزاحة الأفقية.
 
 **Returns:**
 float
@@ -38,7 +38,7 @@ public abstract float getVerticalOffset()
 ```
 
 
-يحصل أو يضبط الإزاحة العمودية.
+يحصل على أو يضبط الإزاحة العمودية.
 
 **Returns:**
 float
@@ -48,7 +48,7 @@ public abstract void setHorizontalOffset(float value)
 ```
 
 
-يحصل أو يضبط الإزاحة الأفقية.
+يحصل على أو يضبط الإزاحة الأفقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -61,7 +61,7 @@ public abstract void setVerticalOffset(float value)
 ```
 
 
-يحصل أو يضبط الإزاحة العمودية.
+يحصل على أو يضبط الإزاحة العمودية.
 
 **Parameters:**
 | معامل | نوع | الوصف |

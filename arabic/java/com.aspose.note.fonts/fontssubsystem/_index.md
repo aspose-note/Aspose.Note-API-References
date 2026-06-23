@@ -1,6 +1,6 @@
 ---
 title: "FontsSubsystem"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الفئة الأساسية التي تنفذ واجهة com.aspose.note.IFontsSubsystem."
 type: docs
 weight: 11
@@ -16,7 +16,7 @@ java.lang.Object
 public abstract class FontsSubsystem implements IFontsSubsystem
 ```
 
-الفئة الأساسية التي تنفّذ واجهة com.aspose.note.IFontsSubsystem. توفر وظائف الخط الافتراضي واستبدالات الخط. قم بتجاوز الدالة المحمية com.aspose.note.FontsSubsystem.fetchFontFamily في فئة مشتقة لتنفيذ المنطق لاسترجاع كائن Font.
+الفئة الأساسية التي تنفذ واجهة com.aspose.note.IFontsSubsystem. توفر وظائف الخط الافتراضي واستبدالات الخط. قم بتجاوز الدالة المحمية com.aspose.note.FontsSubsystem.fetchFontFamily في فئة مشتقة لتنفيذ المنطق الخاص باسترجاع كائن Font.
 ## الطرق
 
 | طريقة | الوصف |

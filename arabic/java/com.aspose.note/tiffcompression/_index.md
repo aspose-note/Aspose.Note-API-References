@@ -1,6 +1,6 @@
 ---
 title: "TiffCompression"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يحدد نوع الضغط الذي يجب استخدامه عند حفظ المستند بتنسيق TIFF."
 type: docs
 weight: 94

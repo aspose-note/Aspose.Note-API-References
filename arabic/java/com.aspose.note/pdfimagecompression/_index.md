@@ -1,6 +1,6 @@
 ---
 title: "PdfImageCompression"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يحدد نوع الضغط المطبق على الصور في ملف PDF."
 type: docs
 weight: 76
@@ -20,7 +20,7 @@ public final class PdfImageCompression extends System.Enum
 | --- | --- |
 | [Auto](#Auto) | يختار تلقائيًا أفضل ضغط لكل صورة. |
 | [Flate](#Flate) | ضغط Flate (بدون فقدان). |
-| [Jpeg](#Jpeg) | ضغط JPEG. |
+| [Jpeg](#Jpeg) | ضغط Jpeg. |
 | [None](#None) | لا يُستخدم أي ضغط عند حفظ الصور. |
 ### Auto {#Auto}
 ```
@@ -44,7 +44,7 @@ public static final int Jpeg
 ```
 
 
-ضغط JPEG. لا يدعم الشفافية.
+ضغط Jpeg. لا يدعم الشفافية.
 
 ### None {#None}
 ```

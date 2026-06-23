@@ -1,6 +1,6 @@
 ---
 title: "IOutlineElementChildNode"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الواجهة لجميع العقد الفرعية لعقدة عنصر المخطط."
 type: docs
 weight: 106

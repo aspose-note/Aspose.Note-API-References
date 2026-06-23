@@ -1,6 +1,6 @@
 ---
 title: "NodeType"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يحدد نوع العقدة."
 type: docs
 weight: 52

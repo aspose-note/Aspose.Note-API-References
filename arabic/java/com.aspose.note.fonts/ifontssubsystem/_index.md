@@ -1,7 +1,7 @@
 ---
 title: "IFontsSubsystem"
-second_title: "مرجع Aspose.Note for Java API"
-description: "قم بتنفيذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "نفّذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.note.fonts/ifontssubsystem/
@@ -10,7 +10,7 @@ url: /ar/java/com.aspose.note.fonts/ifontssubsystem/
 public interface IFontsSubsystem
 ```
 
-قم بتنفيذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند.
+نفّذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند.
 ## الطرق
 
 | طريقة | الوصف |

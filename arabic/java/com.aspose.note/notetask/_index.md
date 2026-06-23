@@ -1,6 +1,6 @@
 ---
 title: "NoteTask"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل مهمة ملاحظة."
 type: docs
 weight: 55
@@ -18,27 +18,27 @@ public final class NoteTask extends CheckBox
 
 | طريقة | الوصف |
 | --- | --- |
-| [createCustomFollowUpDate(Date dueDate)](#createCustomFollowUpDate-java.util.Date-) | إنشاء مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ الاستحقاق المحدد. |
-| [createFollowUpNextWeek()](#createFollowUpNextWeek--) | * إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpNextWeekFlag. |
-| [createFollowUpThisWeek()](#createFollowUpThisWeek--) | * إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpThisWeekFlag. |
-| [createFollowUpToday()](#createFollowUpToday--) | * إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpTodayFlag. |
-| [createFollowUpTomorrow()](#createFollowUpTomorrow--) | * إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpTomorrowFlag. |
-| [createNoFollowUpDate()](#createNoFollowUpDate--) | * إنشاء علامة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag. |
-| [equals(NoteTask other)](#equals-com.aspose.note.NoteTask-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [getDueDate()](#getDueDate--) | الحصول على تاريخ الاستحقاق أو تعيينه. |
+| [createCustomFollowUpDate(Date dueDate)](#createCustomFollowUpDate-java.util.Date-) | ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ الاستحقاق المحدد. |
+| [createFollowUpNextWeek()](#createFollowUpNextWeek--) | * ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpNextWeekFlag. |
+| [createFollowUpThisWeek()](#createFollowUpThisWeek--) | * ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpThisWeekFlag. |
+| [createFollowUpToday()](#createFollowUpToday--) | * ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpTodayFlag. |
+| [createFollowUpTomorrow()](#createFollowUpTomorrow--) | * ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpTomorrowFlag. |
+| [createNoFollowUpDate()](#createNoFollowUpDate--) | * ينشئ علامة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag. |
+| [equals(NoteTask other)](#equals-com.aspose.note.NoteTask-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [getDueDate()](#getDueDate--) | يحصل أو يضبط تاريخ الاستحقاق. |
 | [getIcon()](#getIcon--) | يحصل أو يعيّن الأيقونة. |
 | [getLabel()](#getLabel--) |  |
 | [hashCode()](#hashCode--) | يعمل كدالة تجزئة للنوع. |
-| [setDueDate(Date value)](#setDueDate-java.util.Date-) | الحصول على تاريخ الاستحقاق أو تعيينه. |
-| [setOpen()](#setOpen--) | تعيين العلامة إلى الحالة المفتوحة. |
+| [setDueDate(Date value)](#setDueDate-java.util.Date-) | يحصل أو يضبط تاريخ الاستحقاق. |
+| [setOpen()](#setOpen--) | يضبط العلامة إلى الحالة المفتوحة. |
 ### createCustomFollowUpDate(Date dueDate) {#createCustomFollowUpDate-java.util.Date-}
 ```
 public static NoteTask createCustomFollowUpDate(Date dueDate)
 ```
 
 
-إنشاء مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ الاستحقاق المحدد.
+ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ الاستحقاق المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,7 +53,7 @@ public static NoteTask createFollowUpNextWeek()
 ```
 
 
-* إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpNextWeekFlag.
+* ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpNextWeekFlag.
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -63,7 +63,7 @@ public static NoteTask createFollowUpThisWeek()
 ```
 
 
-* إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpThisWeekFlag.
+* ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpThisWeekFlag.
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -73,7 +73,7 @@ public static NoteTask createFollowUpToday()
 ```
 
 
-* إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpTodayFlag.
+* ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpTodayFlag.
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -83,7 +83,7 @@ public static NoteTask createFollowUpTomorrow()
 ```
 
 
-* إنشاء علامة ملاحظة جديدة مع أيقونة FollowUpTomorrowFlag.
+* ينشئ علامة ملاحظة جديدة مع أيقونة FollowUpTomorrowFlag.
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -93,7 +93,7 @@ public static NoteTask createNoFollowUpDate()
 ```
 
 
-* إنشاء علامة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag.
+* ينشئ علامة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag.
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -103,7 +103,7 @@ public boolean equals(NoteTask other)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -111,29 +111,29 @@ public boolean equals(NoteTask other)
 | other | [NoteTask](../../com.aspose.note/notetask) | الكائن. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الكائن. |
+| كائن | java.lang.Object | الكائن. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### getDueDate() {#getDueDate--}
 ```
 public Date getDueDate()
 ```
 
 
-الحصول على تاريخ الاستحقاق أو تعيينه.
+يحصل أو يضبط تاريخ الاستحقاق.
 
 القيمة: الـ `DateTime`.
 
@@ -147,7 +147,7 @@ public int getIcon()
 
 يحصل أو يعيّن الأيقونة.
 
-القيمة: الـ [TagIcon](../../com.aspose.note.infrastructure/tagicon).
+القيمة: ال [TagIcon](../../com.aspose.note.infrastructure/tagicon).
 
 **Returns:**
 int
@@ -170,14 +170,14 @@ public int hashCode()
 يعمل كدالة تجزئة للنوع.
 
 **Returns:**
-عدد صحيح - الـ `int`.
+عدد صحيح - ال `int`.
 ### setDueDate(Date value) {#setDueDate-java.util.Date-}
 ```
 public void setDueDate(Date value)
 ```
 
 
-الحصول على تاريخ الاستحقاق أو تعيينه.
+يحصل أو يضبط تاريخ الاستحقاق.
 
 القيمة: الـ `DateTime`.
 
@@ -192,5 +192,5 @@ public void setOpen()
 ```
 
 
-تعيين العلامة إلى الحالة المفتوحة.
+يضبط العلامة إلى الحالة المفتوحة.
 

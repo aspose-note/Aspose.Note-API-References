@@ -1,7 +1,7 @@
 ---
 title: "LocaleOptions"
-second_title: "مرجع Aspose.Note for Java API"
-description: "نوع LocaleOptions يحدد تكوين الإعدادات الإقليمية لـ **Aspose.Note**."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "نوع LocaleOptions يحدد تكوين اللغة لـ Aspose.Note."
 type: docs
 weight: 47
 url: /ar/java/com.aspose.note/localeoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LocaleOptions
 ```
 
-نوع LocaleOptions يحدد تكوين الإعدادات الإقليمية لـ **Aspose.Note**.
+نوع LocaleOptions يحدد تكوين اللغة لـ Aspose.Note.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,9 +23,9 @@ public class LocaleOptions
 
 | طريقة | الوصف |
 | --- | --- |
-| [clear()](#clear--) | يمسح الإعداد الإقليمي الافتراضي لـ Aspose.Note. |
-| [getLocale()](#getLocale--) | احصل على الإعداد الإقليمي الافتراضي الحالي الفعلي لـ Aspose.Note |
-| [setLocale(Locale local)](#setLocale-java.util.Locale-) | حدد الإعداد الإقليمي الافتراضي المتعلق بـ Aspose.Note. |
+| [clear()](#clear--) | يمسح اللغة الافتراضية لـ Aspose.Note. |
+| [getLocale()](#getLocale--) | احصل على اللغة الافتراضية الحالية الفعلية لـ Aspose.Note |
+| [setLocale(Locale local)](#setLocale-java.util.Locale-) | اضبط اللغة الافتراضية المتعلقة بـ Aspose.Note. |
 ### LocaleOptions() {#LocaleOptions--}
 ```
 public LocaleOptions()
@@ -38,7 +38,7 @@ public static void clear()
 ```
 
 
-يمسح الإعداد الإقليمي الافتراضي لـ Aspose.Note. سيُستخدم الإعداد الإقليمي الافتراضي لـ Java.
+يمسح اللغة الافتراضية لـ Aspose.Note. سيتم استخدام اللغة الافتراضية لـ java.
 
 ### getLocale() {#getLocale--}
 ```
@@ -46,20 +46,20 @@ public static Locale getLocale()
 ```
 
 
-احصل على الإعداد الإقليمي الافتراضي الحالي الفعلي لـ Aspose.Note
+احصل على اللغة الافتراضية الحالية الفعلية لـ Aspose.Note
 
 **Returns:**
-java.util.Locale - مثيل الإعداد الإقليمي
+java.util.Locale - مثيل Locale
 ### setLocale(Locale local) {#setLocale-java.util.Locale-}
 ```
 public static void setLocale(Locale local)
 ```
 
 
-حدد الإعداد الإقليمي الافتراضي المتعلق بـ Aspose.Note.
+اضبط اللغة الافتراضية المتعلقة بـ Aspose.Note.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| محلي | java.util.Locale | مثيل الإعداد الإقليمي |
+| محلي | java.util.Locale | مثيل Locale |
 

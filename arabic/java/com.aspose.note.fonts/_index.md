@@ -1,14 +1,14 @@
 ---
 title: "com.aspose.note.fonts"
-second_title: "مرجع Aspose.Note for Java API"
-description: "النطاق com.aspose.note.fonts يحتوي على فئات توفر وظائف للتعامل مع بيئة الخطوط في المستند."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "تحتوي مساحة الاسم com.aspose.note.fonts على فئات توفر وظائف للتلاعب ببيئة الخطوط في المستند."
 type: docs
 weight: 27
 url: /ar/java/com.aspose.note.fonts/
 ---
 
 
-النطاق `com.aspose.note.fonts` يحتوي على فئات توفر وظائف للتعامل مع بيئة الخط في المستند.
+تحتوي مساحة الاسم `com.aspose.note.fonts` على فئات توفر وظائف للتلاعب ببيئة الخط في المستند.
 
 
 ## الفئات
@@ -22,4 +22,4 @@ url: /ar/java/com.aspose.note.fonts/
 
 | الواجهة | الوصف |
 | --- | --- |
-| [IFontsSubsystem](../com.aspose.note.fonts/ifontssubsystem) | قم بتنفيذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند. |
+| [IFontsSubsystem](../com.aspose.note.fonts/ifontssubsystem) | نفّذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند. |

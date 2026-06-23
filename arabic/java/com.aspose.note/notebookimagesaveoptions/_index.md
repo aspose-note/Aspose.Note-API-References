@@ -1,6 +1,6 @@
 ---
 title: "NotebookImageSaveOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يسمح بتحديد خيارات إضافية عند تحويل صفحات دفتر الملاحظات إلى صور."
 type: docs
 weight: 57
@@ -18,17 +18,17 @@ public class NotebookImageSaveOptions extends NotebookSaveOptionsGeneric<ImageSa
 
 | المنشئ | الوصف |
 | --- | --- |
-| [NotebookImageSaveOptions(int format)](#NotebookImageSaveOptions-int-) | ينشئ مثلاً جديداً من الفئة `NotebookImageSaveOptions`. |
+| [NotebookImageSaveOptions(int format)](#NotebookImageSaveOptions-int-) | ينشئ مثيلاً جديداً من الفئة `NotebookImageSaveOptions`. |
 ### NotebookImageSaveOptions(int format) {#NotebookImageSaveOptions-int-}
 ```
 public NotebookImageSaveOptions(int format)
 ```
 
 
-ينشئ مثلاً جديداً من الفئة `NotebookImageSaveOptions`.
+ينشئ مثيلاً جديداً من الفئة `NotebookImageSaveOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | int | الصيغة التي يُحفظ بها الدفتر. |
+| تنسيق | int | الصيغة التي يُحفظ بها الدفتر. |
 

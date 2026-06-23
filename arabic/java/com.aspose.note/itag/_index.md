@@ -1,6 +1,6 @@
 ---
 title: "ITag"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الواجهة للعلامات من جميع الأنواع."
 type: docs
 weight: 109
@@ -18,7 +18,7 @@ public interface ITag
 | [getCompletedTime()](#getCompletedTime--) | يحصل على وقت الانتهاء. |
 | [getCreationTime()](#getCreationTime--) | يحصل على وقت الإنشاء. |
 | [getIcon()](#getIcon--) | يحصل على الأيقونة. |
-| [getLabel()](#getLabel--) | يحصل على نص الملصق. |
+| [getLabel()](#getLabel--) | يحصل على نص التسمية. |
 | [getStatus()](#getStatus--) | يحصل على الحالة. |
 | [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | يضبط وقت الإنشاء. |
 ### getCompletedTime() {#getCompletedTime--}
@@ -29,7 +29,7 @@ public abstract Date getCompletedTime()
 
 يحصل على وقت الانتهاء.
 
-القيمة: الـ `Nullable\{DateTime\}`.
+القيمة: ال `Nullable\{DateTime\}`.
 
 **Returns:**
 java.util.Date
@@ -41,7 +41,7 @@ public abstract Date getCreationTime()
 
 يحصل على وقت الإنشاء.
 
-القيمة: الـ java.util.Date.
+القيمة: ال java.util.Date.
 
 **Returns:**
 java.util.Date
@@ -53,7 +53,7 @@ public abstract int getIcon()
 
 يحصل على الأيقونة.
 
-القيمة: الـ [TagIcon](../../com.aspose.note.infrastructure/tagicon).
+القيمة: ال [TagIcon](../../com.aspose.note.infrastructure/tagicon).
 
 **Returns:**
 int
@@ -63,7 +63,7 @@ public abstract String getLabel()
 ```
 
 
-يحصل على نص الملصق.
+يحصل على نص التسمية.
 
 **Returns:**
 java.lang.String
@@ -75,7 +75,7 @@ public abstract int getStatus()
 
 يحصل على الحالة.
 
-القيمة: الـ [TagStatus](../../com.aspose.note/tagstatus).
+القيمة: ال [TagStatus](../../com.aspose.note/tagstatus).
 
 **Returns:**
 int
@@ -87,7 +87,7 @@ public abstract void setCreationTime(Date value)
 
 يضبط وقت الإنشاء.
 
-القيمة: الـ java.util.Date.
+القيمة: ال java.util.Date.
 
 **Parameters:**
 | معامل | نوع | الوصف |

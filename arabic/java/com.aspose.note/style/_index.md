@@ -1,7 +1,7 @@
 ---
 title: "النمط"
-second_title: "مرجع Aspose.Note for Java API"
-description: "هذه الفئة تحتوي على خصائص مشتركة لفئتي  و  ."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "هذه الفئة تحتوي على خصائص مشتركة لـ  و  الفئات."
 type: docs
 weight: 86
 url: /ar/java/com.aspose.note/style/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Style<T>
 ```
 
-هذه الفئة تحتوي على خصائص مشتركة لفئتي [ParagraphStyle](../../com.aspose.note/paragraphstyle) و [TextStyle](../../com.aspose.note/textstyle).
+هذه الفئة تحتوي على خصائص مشتركة لـ [ParagraphStyle](../../com.aspose.note/paragraphstyle) و [TextStyle](../../com.aspose.note/textstyle) الفئات.
 
 T :
 ## المنشئات
@@ -26,27 +26,27 @@ T :
 | طريقة | الوصف |
 | --- | --- |
 | [getFontColor()](#getFontColor--) | يحصل أو يعيّن لون الخط. |
-| [getFontName()](#getFontName--) | يحصل أو يعيّن اسم الخط. |
-| [getFontSize()](#getFontSize--) | يحصل أو يعيّن حجم الخط. |
+| [getFontName()](#getFontName--) | يحصل أو يضبط اسم الخط. |
+| [getFontSize()](#getFontSize--) | يحصل أو يضبط حجم الخط. |
 | [getFontStyle()](#getFontStyle--) | يحصل على نمط الخط. |
-| [getHighlight()](#getHighlight--) | يحصل أو يعيّن لون التمييز. |
+| [getHighlight()](#getHighlight--) | يحصل أو يعيّن لون التظليل. |
 | [hashCode()](#hashCode--) | يعمل كدالة تجزئة للنوع. |
-| [isBold()](#isBold--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
-| [isItalic()](#isItalic--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
-| [isStrikethrough()](#isStrikethrough--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
-| [isSubscript()](#isSubscript--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
-| [isSuperscript()](#isSuperscript--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
-| [isUnderline()](#isUnderline--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مسطرًا. |
-| [setBold(boolean value)](#setBold-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
+| [isBold()](#isBold--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
+| [isItalic()](#isItalic--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
+| [isStrikethrough()](#isStrikethrough--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
+| [isSubscript()](#isSubscript--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
+| [isSuperscript()](#isSuperscript--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
+| [isUnderline()](#isUnderline--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مسطرًا. |
+| [setBold(boolean value)](#setBold-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | يحصل أو يعيّن لون الخط. |
-| [setFontName(String value)](#setFontName-java.lang.String-) | يحصل أو يعيّن اسم الخط. |
-| [setFontSize(Integer value)](#setFontSize-java.lang.Integer-) | يحصل أو يعيّن حجم الخط. |
-| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | يحصل أو يعيّن لون التمييز. |
-| [setItalic(boolean value)](#setItalic-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
-| [setStrikethrough(boolean value)](#setStrikethrough-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
-| [setSubscript(boolean value)](#setSubscript-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
-| [setSuperscript(boolean value)](#setSuperscript-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
-| [setUnderline(boolean value)](#setUnderline-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مسطرًا. |
+| [setFontName(String value)](#setFontName-java.lang.String-) | يحصل أو يضبط اسم الخط. |
+| [setFontSize(Integer value)](#setFontSize-java.lang.Integer-) | يحصل أو يضبط حجم الخط. |
+| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | يحصل أو يعيّن لون التظليل. |
+| [setItalic(boolean value)](#setItalic-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
+| [setStrikethrough(boolean value)](#setStrikethrough-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
+| [setSubscript(boolean value)](#setSubscript-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
+| [setSuperscript(boolean value)](#setSuperscript-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
+| [setUnderline(boolean value)](#setUnderline-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مسطرًا. |
 ### Style() {#Style--}
 ```
 public Style()
@@ -69,7 +69,7 @@ public final String getFontName()
 ```
 
 
-يحصل أو يعيّن اسم الخط.
+يحصل أو يضبط اسم الخط.
 
 **Returns:**
 java.lang.String
@@ -79,7 +79,7 @@ public final Integer getFontSize()
 ```
 
 
-يحصل أو يعيّن حجم الخط.
+يحصل أو يضبط حجم الخط.
 
 **Returns:**
 java.lang.Integer
@@ -99,7 +99,7 @@ public final Color getHighlight()
 ```
 
 
-يحصل أو يعيّن لون التمييز.
+يحصل أو يعيّن لون التظليل.
 
 **Returns:**
 java.awt.Color
@@ -112,14 +112,14 @@ public int hashCode()
 يعمل كدالة تجزئة للنوع.
 
 **Returns:**
-عدد صحيح - الـ `int`.
+عدد صحيح - ال `int`.
 ### isBold() {#isBold--}
 ```
 public final boolean isBold()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا.
 
 **Returns:**
 boolean
@@ -129,7 +129,7 @@ public final boolean isItalic()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائلًا.
 
 **Returns:**
 boolean
@@ -139,7 +139,7 @@ public final boolean isStrikethrough()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مشطوبًا.
 
 **Returns:**
 boolean
@@ -149,7 +149,7 @@ public final boolean isSubscript()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص منخفضًا.
 
 **Returns:**
 boolean
@@ -159,7 +159,7 @@ public final boolean isSuperscript()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مرتفعًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مرتفعًا.
 
 **Returns:**
 boolean
@@ -169,7 +169,7 @@ public final boolean isUnderline()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مسطرًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مسطرًا.
 
 **Returns:**
 boolean
@@ -179,7 +179,7 @@ public final T setBold(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -209,7 +209,7 @@ public final T setFontName(String value)
 ```
 
 
-يحصل أو يعيّن اسم الخط.
+يحصل أو يضبط اسم الخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -224,7 +224,7 @@ public final T setFontSize(Integer value)
 ```
 
 
-يحصل أو يعيّن حجم الخط.
+يحصل أو يضبط حجم الخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -239,7 +239,7 @@ public final T setHighlight(Color value)
 ```
 
 
-يحصل أو يعيّن لون التمييز.
+يحصل أو يعيّن لون التظليل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -254,7 +254,7 @@ public final T setItalic(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائلًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -269,7 +269,7 @@ public final T setStrikethrough(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مشطوبًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -284,7 +284,7 @@ public final T setSubscript(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص منخفضًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -299,7 +299,7 @@ public final T setSuperscript(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مرتفعًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مرتفعًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -314,7 +314,7 @@ public final T setUnderline(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مسطرًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مسطرًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |

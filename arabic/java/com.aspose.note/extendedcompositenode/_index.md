@@ -1,29 +1,29 @@
 ---
 title: "ExtendedCompositeNode"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يجمع عدة مثيلات IExtendedApsNode."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يجمع عدة مثيلات من IExtendedApsNode."
 type: docs
 weight: 29
 url: /ar/java/com.aspose.note/extendedcompositenode/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
+java.lang.Object، [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
 ```
 public class ExtendedCompositeNode extends ExtendedApsNode
 ```
 
-يجمع عدة مثيلات `IExtendedApsNode`.
+يجمع عدة `IExtendedApsNode`.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ExtendedCompositeNode()](#ExtendedCompositeNode--) | ينشئ مثيلًا جديدًا من الفئة `ExtendedCompositeNode`. |
+| [ExtendedCompositeNode()](#ExtendedCompositeNode--) | يُنشئ مثيلًا جديدًا من الفئة `ExtendedCompositeNode`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(ExtendedApsNode extendedApsNode)](#add-com.aspose.note.ExtendedApsNode-) | يضيف `extendedApsNode` إلى القائمة الداخلية للعناصر. |
+| [add(ExtendedApsNode extendedApsNode)](#add-com.aspose.note.ExtendedApsNode-) | يضيف `extendedApsNode` إلى القائمة الداخلية للعقد. |
 | [addToCompositeNode(ApsCompositeNode compositeNode)](#addToCompositeNode-com.aspose.foundation.rendering.ApsCompositeNode-) | يضيف هذه العقدة إلى `compositeNode` المعطى. |
 | [applyPlaneTransform(System.Drawing.PointF transformVector)](#applyPlaneTransform-com.aspose.ms.System.Drawing.PointF-) | يطبق تحويل المستوى، محركًا العقدة في مستويي x و y. |
 | [applyScaleTransform(float scaleTransform)](#applyScaleTransform-float-) | يطبق التحجيم على العقدة. |
@@ -35,7 +35,7 @@ public ExtendedCompositeNode()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `ExtendedCompositeNode`.
+يُنشئ مثيلًا جديدًا من الفئة `ExtendedCompositeNode`.
 
 ### add(ExtendedApsNode extendedApsNode) {#add-com.aspose.note.ExtendedApsNode-}
 ```
@@ -43,7 +43,7 @@ public final void add(ExtendedApsNode extendedApsNode)
 ```
 
 
-يضيف `extendedApsNode` إلى القائمة الداخلية للعناصر.
+يضيف `extendedApsNode` إلى القائمة الداخلية للعقد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,7 +87,7 @@ public void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scaleTransform | float | عامل القياس للتحويل. |
+| scaleTransform | float | عامل المقياس للتحويل. |
 
 ### getApsNodes() {#getApsNodes--}
 ```

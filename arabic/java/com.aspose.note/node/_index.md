@@ -1,7 +1,7 @@
 ---
-title: "العقدة"
-second_title: "مرجع Aspose.Note for Java API"
-description: "الفئة الأساسية لجميع عقد مستند **Aspose.Note**."
+title: "Node"
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "الفئة الأساسية لجميع عقد مستند Aspose.Note."
 type: docs
 weight: 51
 url: /ar/java/com.aspose.note/node/
@@ -16,7 +16,7 @@ java.lang.Object
 public abstract class Node implements INode
 ```
 
-الفئة الأساسية لجميع عقد مستند **Aspose.Note**.
+الفئة الأساسية لجميع عقد مستند Aspose.Note.
 ## الطرق
 
 | طريقة | الوصف |
@@ -24,11 +24,11 @@ public abstract class Node implements INode
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | يقبل زائر العقدة. |
 | [getDocument()](#getDocument--) | يحصل على مستند العقدة. |
 | [getNextSibling()](#getNextSibling--) | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
-| [getNodeId()](#getNodeId--) | يحصل على معرّف العقدة. |
+| [getNodeId()](#getNodeId--) | يحصل على معرف العقدة. |
 | [getNodeType()](#getNodeType--) | يحصل على نوع العقدة. |
 | [getParentNode()](#getParentNode--) | يحصل على العقدة الأصلية. |
 | [getPreviousSibling()](#getPreviousSibling--) | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
-| [isComposite()](#isComposite--) | يحصل على قيمة تشير إلى ما إذا كان هذا العنصر مركبًا. |
+| [isComposite()](#isComposite--) | يحصل على قيمة تشير إلى ما إذا كان هذا العقد مركبًا. |
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
 public abstract void accept(DocumentVisitor visitor)
@@ -62,7 +62,7 @@ public INode getNextSibling()
 
 يحصل على العقدة التالية في نفس مستوى شجرة العقد.
 
-القيمة: الأخ التالي.
+القيمة: الشقيق التالي.
 
 **Returns:**
 [INode](../../com.aspose.note/inode)
@@ -72,7 +72,7 @@ public ExtendedGuid getNodeId()
 ```
 
 
-يحصل على معرّف العقدة.
+يحصل على معرف العقدة.
 
 **Returns:**
 [ExtendedGuid](../../com.aspose.note.revision.types/extendedguid)
@@ -104,7 +104,7 @@ public INode getPreviousSibling()
 
 يحصل على العقدة السابقة في نفس مستوى شجرة العقد.
 
-القيمة: الأخ السابق.
+القيمة: الشقيق السابق.
 
 **Returns:**
 [INode](../../com.aspose.note/inode)
@@ -114,7 +114,7 @@ public boolean isComposite()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا العنصر مركبًا. إذا كان صحيحًا يمكن للعنصر أن يحتوي على عقد فرعية.
+يحصل على قيمة تشير إلى ما إذا كان هذا العقد مركبًا. إذا كان صحيحًا، يمكن للعقد أن يحتوي على عقد فرعية.
 
 **Returns:**
 boolean

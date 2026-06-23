@@ -1,7 +1,7 @@
 ---
 title: "OutlineGroup"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل OutlineGroup."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل مجموعة OutlineGroup."
 type: docs
 weight: 68
 url: /ar/java/com.aspose.note/outlinegroup/
@@ -16,12 +16,12 @@ java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspos
 public final class OutlineGroup extends IndentatedNode<IOutlineChildNode,OutlineGroup> implements IOutlineChildNode, IOutlineElementChildNode
 ```
 
-يمثل OutlineGroup.
+يمثل مجموعة OutlineGroup.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OutlineGroup()](#OutlineGroup--) | ينشئ نسخة جديدة من الفئة `OutlineGroup`. |
+| [OutlineGroup()](#OutlineGroup--) | ينشئ مثيلًا جديدًا من الفئة `OutlineGroup`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -33,7 +33,7 @@ public OutlineGroup()
 ```
 
 
-ينشئ نسخة جديدة من الفئة `OutlineGroup`.
+ينشئ مثيلًا جديدًا من الفئة `OutlineGroup`.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "OneSaveOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق OneNote."
 type: docs
 weight: 65

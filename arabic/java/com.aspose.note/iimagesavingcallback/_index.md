@@ -1,7 +1,7 @@
 ---
 title: "IImageSavingCallback"
-second_title: "مرجع Aspose.Note for Java API"
-description: "نفّذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note للصور عند حفظ المستند إلى HTML."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصور عند حفظ المستند إلى HTML."
 type: docs
 weight: 100
 url: /ar/java/com.aspose.note/iimagesavingcallback/
@@ -10,7 +10,7 @@ url: /ar/java/com.aspose.note/iimagesavingcallback/
 public interface IImageSavingCallback
 ```
 
-نفّذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note للصور عند حفظ المستند إلى HTML.
+نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصور عند حفظ المستند إلى HTML.
 ## الطرق
 
 | طريقة | الوصف |

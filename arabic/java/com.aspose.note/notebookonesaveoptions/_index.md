@@ -1,6 +1,6 @@
 ---
 title: "NotebookOneSaveOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يسمح بتحديد خيارات إضافية عند حفظ دفتر الملاحظات بتنسيق OneNote."
 type: docs
 weight: 59
@@ -18,12 +18,12 @@ public class NotebookOneSaveOptions extends NotebookSaveOptionsGeneric<OneSaveOp
 
 | المنشئ | الوصف |
 | --- | --- |
-| [NotebookOneSaveOptions()](#NotebookOneSaveOptions--) | يقوم بإنشاء نسخة جديدة من الفئة `NotebookOneSaveOptions`. |
+| [NotebookOneSaveOptions()](#NotebookOneSaveOptions--) | يقوم بتهيئة نسخة جديدة من الفئة `NotebookOneSaveOptions`. |
 ### NotebookOneSaveOptions() {#NotebookOneSaveOptions--}
 ```
 public NotebookOneSaveOptions()
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `NotebookOneSaveOptions`.
+يقوم بتهيئة نسخة جديدة من الفئة `NotebookOneSaveOptions`.
 

@@ -1,7 +1,7 @@
 ---
 title: "PageSavingArgs"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يوفر بيانات لحدث PageSaving."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يوفر البيانات لحدث PageSaving."
 type: docs
 weight: 71
 url: /ar/java/com.aspose.note/pagesavingargs/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.note.ResourceSavingArgs](../../com.aspose.note/res
 public class PageSavingArgs extends ResourceSavingArgs
 ```
 
-يوفر بيانات لحدث PageSaving.
+يوفر البيانات لحدث PageSaving.
 ## الطرق
 
 | طريقة | الوصف |

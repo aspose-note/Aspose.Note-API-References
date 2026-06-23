@@ -1,7 +1,7 @@
 ---
 title: "OutlineElement"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل OutlineElement."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل عنصر OutlineElement."
 type: docs
 weight: 67
 url: /ar/java/com.aspose.note/outlineelement/
@@ -16,12 +16,12 @@ java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspos
 public final class OutlineElement extends IndentatedNode<IOutlineElementChildNode,OutlineElement> implements IOutlineChildNode, IOutlineElementChildNode
 ```
 
-يمثل OutlineElement.
+يمثل عنصر OutlineElement.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OutlineElement()](#OutlineElement--) | يُنشئ مثيلاً جديدًا من الفئة `OutlineElement`. |
+| [OutlineElement()](#OutlineElement--) | يُنشئ مثيلًا جديدًا للفئة `OutlineElement`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,10 +30,10 @@ public final class OutlineElement extends IndentatedNode<IOutlineElementChildNod
 | [getAuthorMostRecent()](#getAuthorMostRecent--) | يحصل على المؤلف الأحدث لعنصر المخطط. |
 | [getAuthorOriginal()](#getAuthorOriginal--) | يحصل على المؤلف الأصلي لعنصر المخطط. |
 | [getCreationTime()](#getCreationTime--) | يحصل أو يعيّن وقت الإنشاء. |
-| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يضبط وقت التعديل الأخير. |
+| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يعيّن وقت التعديل الأخير. |
 | [getNumberList()](#getNumberList--) | يحصل أو يعيّن النمط لرأس القائمة المرقمة. |
 | [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | يحصل أو يعيّن وقت الإنشاء. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يضبط وقت التعديل الأخير. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يعيّن وقت التعديل الأخير. |
 | [setNumberList(NumberList value)](#setNumberList-com.aspose.note.NumberList-) | يحصل أو يعيّن النمط لرأس القائمة المرقمة. |
 ### OutlineElement() {#OutlineElement--}
 ```
@@ -41,7 +41,7 @@ public OutlineElement()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `OutlineElement`.
+يُنشئ مثيلًا جديدًا للفئة `OutlineElement`.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -96,7 +96,7 @@ public Date getLastModifiedTime()
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Returns:**
 java.util.Date
@@ -129,7 +129,7 @@ public void setLastModifiedTime(Date value)
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,6 +1,6 @@
 ---
 title: "INode"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الواجهة لجميع عقد مستند Aspose.Note."
 type: docs
 weight: 102

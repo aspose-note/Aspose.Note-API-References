@@ -1,6 +1,6 @@
 ---
 title: "Margins"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يحدد أبعاد هوامش العقدة."
 type: docs
 weight: 49
@@ -22,7 +22,7 @@ public class Margins extends Struct<Margins> implements System.IEquatable<Margin
 | المنشئ | الوصف |
 | --- | --- |
 | [Margins()](#Margins--) |  |
-| [Margins(float left, float right, float top, float bottom)](#Margins-float-float-float-float-) | ينشئ مثيلاً جديداً من البنية `Margins` بالهوامش اليسرى، اليمنى، العليا والسفلى المحددة. |
+| [Margins(float left, float right, float top, float bottom)](#Margins-float-float-float-float-) | ينشئ مثيلاً جديداً من البنية `Margins` بالهوامش اليسرى، اليمنى، العليا، والسفلى المحددة. |
 ## الحقول
 
 | حقل | الوصف |
@@ -60,7 +60,7 @@ public Margins(float left, float right, float top, float bottom)
 ```
 
 
-ينشئ مثيلاً جديداً من البنية `Margins` بالهوامش اليسرى، اليمنى، العليا والسفلى المحددة.
+ينشئ مثيلاً جديداً من البنية `Margins` بالهوامش اليسرى، اليمنى، العليا، والسفلى المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -153,10 +153,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | أي كائن. |
+| كائن | java.lang.Object | أي كائن. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### getBottom() {#getBottom--}
 ```
 public float getBottom()
@@ -212,7 +212,7 @@ public static boolean op_Equality(Margins lhs, Margins rhs)
 | rhs | [Margins](../../com.aspose.note/margins) | الهيكل `T:Margins` للمقارنة به. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### op_Inequality(Margins lhs, Margins rhs) {#op-Inequality-com.aspose.note.Margins-com.aspose.note.Margins-}
 ```
 public static boolean op_Inequality(Margins lhs, Margins rhs)
@@ -228,7 +228,7 @@ public static boolean op_Inequality(Margins lhs, Margins rhs)
 | rhs | [Margins](../../com.aspose.note/margins) | الهيكل `T:Margins` للمقارنة به. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### setBottom(float value) {#setBottom-float-}
 ```
 public void setBottom(float value)

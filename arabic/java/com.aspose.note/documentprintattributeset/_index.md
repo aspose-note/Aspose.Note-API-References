@@ -1,7 +1,7 @@
 ---
 title: "DocumentPrintAttributeSet"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل فئة مساعدة بواجهة سهلة الاستخدام مع AttributeSet."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل فئة مساعدة بواجهة صديقة للمستخدم مع AttributeSet."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.note/documentprintattributeset/
@@ -13,15 +13,15 @@ java.lang.Object, javax.print.attribute.HashAttributeSet
 public final class DocumentPrintAttributeSet extends HashAttributeSet
 ```
 
-يمثل فئة مساعدة بواجهة سهلة الاستخدام مع AttributeSet.
+يمثل فئة مساعدة بواجهة صديقة للمستخدم مع AttributeSet.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DocumentPrintAttributeSet(int copies)](#DocumentPrintAttributeSet-int-) | ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. |
-| [DocumentPrintAttributeSet(String printerName, int copies)](#DocumentPrintAttributeSet-java.lang.String-int-) | ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. |
-| [DocumentPrintAttributeSet(String printerName)](#DocumentPrintAttributeSet-java.lang.String-) | ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. |
-| [DocumentPrintAttributeSet()](#DocumentPrintAttributeSet--) | ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. |
+| [DocumentPrintAttributeSet(int copies)](#DocumentPrintAttributeSet-int-) | ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. |
+| [DocumentPrintAttributeSet(String printerName, int copies)](#DocumentPrintAttributeSet-java.lang.String-int-) | ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. |
+| [DocumentPrintAttributeSet(String printerName)](#DocumentPrintAttributeSet-java.lang.String-) | ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. |
+| [DocumentPrintAttributeSet()](#DocumentPrintAttributeSet--) | ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public final class DocumentPrintAttributeSet extends HashAttributeSet
 | [getCopies()](#getCopies--) |  |
 | [getLandscape()](#getLandscape--) |  |
 | [getPrinterName()](#getPrinterName--) |  |
-| [setCollate(boolean value)](#setCollate-boolean-) | يضبط قيمة تشير إلى ما إذا كان المستند مُرتّبًا. |
+| [setCollate(boolean value)](#setCollate-boolean-) | يضبط قيمة تشير إلى ما إذا كان المستند مُجمّعًا. |
 | [setCopies(int value)](#setCopies-int-) | يضبط عدد النسخ التي سيتم طباعتها. |
 | [setDuplex(boolean value)](#setDuplex-boolean-) | يضبط إعداد الطابعة للطباعة على الوجهين. |
 | [setLandscape(boolean value)](#setLandscape-boolean-) | يضبط اتجاه الصفحة. |
@@ -43,7 +43,7 @@ public DocumentPrintAttributeSet(int copies)
 ```
 
 
-ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي تُطبع جميع صفحات المستند.
+ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي تُطبع جميع صفحات المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -56,7 +56,7 @@ public DocumentPrintAttributeSet(String printerName, int copies)
 ```
 
 
-ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي تُطبع جميع صفحات المستند.
+ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي تُطبع جميع صفحات المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public DocumentPrintAttributeSet(String printerName)
 ```
 
 
-ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي النسخة الوحيدة لكل صفحة.
+ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي النسخة الوحيدة لكل صفحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -83,7 +83,7 @@ public DocumentPrintAttributeSet()
 ```
 
 
-ينشئ مثيلًا جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي النسخة الوحيدة لكل صفحة.
+ينشئ مثيلاً جديدًا من `DocumentPrintAttributeSet`. بشكل افتراضي النسخة الوحيدة لكل صفحة.
 
 ### getCopies() {#getCopies--}
 ```
@@ -121,12 +121,12 @@ public void setCollate(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان المستند مُرتّبًا.
+يضبط قيمة تشير إلى ما إذا كان المستند مُجمّعًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` يعادل إعداد SheetCollate.COLLATED `false` يعادل إعداد SheetCollate.UNCOLLATED |
+| القيمة | boolean | `true` يعادل إعداد SheetCollate.COLLATED، `false` يعادل إعداد SheetCollate.UNCOLLATED |
 
 ### setCopies(int value) {#setCopies-int-}
 ```
@@ -152,7 +152,7 @@ public void setDuplex(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` يعادل إعداد Sides.DUPLEX `false` يعادل إعداد Sides.ONE\_SIDED |
+| القيمة | boolean | `true` يعادل إعداد Sides.DUPLEX، `false` يعادل إعداد Sides.ONE\_SIDED |
 
 ### setLandscape(boolean value) {#setLandscape-boolean-}
 ```
@@ -165,7 +165,7 @@ public void setLandscape(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` يعادل إعداد OrientationRequested.LANDSCAPE `false` يعادل إعداد OrientationRequested.PORTRAIT |
+| القيمة | boolean | `true` يعادل إعداد OrientationRequested.LANDSCAPE، `false` يعادل إعداد OrientationRequested.PORTRAIT |
 
 ### setPrintRange(int page) {#setPrintRange-int-}
 ```
@@ -219,5 +219,5 @@ public void setPrinterName(String printerName, Locale locale)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | printerName | java.lang.String | اسم الطابعة. |
-| locale | java.util.Locale | اللغة الخاصة بـ printerName. |
+| locale | java.util.Locale | الإعداد المحلي لـ printerName. |
 

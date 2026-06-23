@@ -1,6 +1,6 @@
 ---
 title: "InkDrawing"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل عقدة حبر تحتوي على أي محتوى مرسوم."
 type: docs
 weight: 38
@@ -37,7 +37,7 @@ public void accept(DocumentVisitor visitor)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | كائن من فئة مشتقة من [DocumentVisitor](../../com.aspose.note/documentvisitor). |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | الكائن من فئة مشتقة من [DocumentVisitor](../../com.aspose.note/documentvisitor). |
 
 ### getHorizontalOffset() {#getHorizontalOffset--}
 ```

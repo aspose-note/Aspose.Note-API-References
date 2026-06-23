@@ -1,6 +1,6 @@
 ---
 title: "Table"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل جدولًا."
 type: docs
 weight: 87
@@ -21,25 +21,25 @@ public final class Table extends CompositeNode<TableRow> implements IOutlineElem
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Table()](#Table--) | ينشئ مثيلًا جديدًا من الفئة `Table`. |
+| [Table()](#Table--) | ينشئ مثيلاً جديدًا من الفئة `Table`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | يقبل زائر العقدة. |
 | [getColumns()](#getColumns--) | يحصل على أعمدة الجدول. |
-| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يضبط وقت التعديل الأخير. |
+| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يعيّن وقت التعديل الأخير. |
 | [getTags()](#getTags--) | يحصل على قائمة بجميع العلامات في جدول. |
 | [isBordersVisible()](#isBordersVisible--) | يحصل على قيمة تشير إلى ما إذا كان حد الجدول مرئيًا. |
 | [setBordersVisible(boolean value)](#setBordersVisible-boolean-) | يضبط قيمة تشير إلى ما إذا كان حد الجدول مرئيًا. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يضبط وقت التعديل الأخير. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يعيّن وقت التعديل الأخير. |
 ### Table() {#Table--}
 ```
 public Table()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `Table`.
+ينشئ مثيلاً جديدًا من الفئة `Table`.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -70,7 +70,7 @@ public Date getLastModifiedTime()
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Returns:**
 java.util.Date
@@ -113,7 +113,7 @@ public void setLastModifiedTime(Date value)
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |

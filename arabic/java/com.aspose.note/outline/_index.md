@@ -1,6 +1,6 @@
 ---
 title: "المخطط"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل مخططًا."
 type: docs
 weight: 66
@@ -21,36 +21,36 @@ public final class Outline extends IndentatedNode<IOutlineChildNode,Outline> imp
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Outline()](#Outline--) | يُنشئ مثيلًا جديدًا من الفئة [Outline](../../com.aspose.note/outline). |
+| [Outline()](#Outline--) | يقوم بإنشاء نسخة جديدة من الفئة [Outline](../../com.aspose.note/outline). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | يقبل زائر العقدة. |
-| [getDescendantsCannotBeMoved()](#getDescendantsCannotBeMoved--) | يحصل على ما إذا كان يمكن نقل سلالف المخطط. |
-| [getHorizontalOffset()](#getHorizontalOffset--) | يحصل أو يضبط الإزاحة الأفقية. |
+| [getDescendantsCannotBeMoved()](#getDescendantsCannotBeMoved--) | يحصل على ما إذا كان يمكن نقل سلالات المخطط. |
+| [getHorizontalOffset()](#getHorizontalOffset--) | يحصل على أو يضبط الإزاحة الأفقية. |
 | [getInternalIndentPosition()](#getInternalIndentPosition--) |  |
-| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يضبط وقت التعديل الأخير. |
-| [getMaxHeight()](#getMaxHeight--) | يحصل أو يضبط الحد الأقصى للارتفاع. |
-| [getMaxWidth()](#getMaxWidth--) | يحصل أو يضبط الحد الأقصى للعرض. |
-| [getMinWidth()](#getMinWidth--) | يحصل أو يضبط الحد الأدنى للعرض. |
-| [getReservedWidth()](#getReservedWidth--) | يحصل أو يضبط العرض المحجوز. |
-| [getVerticalOffset()](#getVerticalOffset--) | يحصل أو يضبط الإزاحة العمودية. |
-| [setDescendantsCannotBeMoved(boolean value)](#setDescendantsCannotBeMoved-boolean-) | يحصل على ما إذا كان يمكن نقل سلالف المخطط. |
-| [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | يحصل أو يضبط الإزاحة الأفقية. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يضبط وقت التعديل الأخير. |
-| [setMaxHeight(float value)](#setMaxHeight-float-) | يحصل أو يضبط الحد الأقصى للارتفاع. |
-| [setMaxWidth(float value)](#setMaxWidth-float-) | يحصل أو يضبط الحد الأقصى للعرض. |
-| [setMinWidth(float value)](#setMinWidth-float-) | يحصل أو يضبط الحد الأدنى للعرض. |
-| [setReservedWidth(float value)](#setReservedWidth-float-) | يحصل أو يضبط العرض المحجوز. |
-| [setVerticalOffset(float value)](#setVerticalOffset-float-) | يحصل أو يضبط الإزاحة العمودية. |
+| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يعيّن وقت التعديل الأخير. |
+| [getMaxHeight()](#getMaxHeight--) | يحصل على أو يضبط الحد الأقصى للارتفاع. |
+| [getMaxWidth()](#getMaxWidth--) | يحصل على أو يضبط الحد الأقصى للعرض. |
+| [getMinWidth()](#getMinWidth--) | يحصل على أو يضبط الحد الأدنى للعرض. |
+| [getReservedWidth()](#getReservedWidth--) | يحصل على أو يضبط العرض المحجوز. |
+| [getVerticalOffset()](#getVerticalOffset--) | يحصل على أو يضبط الإزاحة العمودية. |
+| [setDescendantsCannotBeMoved(boolean value)](#setDescendantsCannotBeMoved-boolean-) | يحصل على ما إذا كان يمكن نقل سلالات المخطط. |
+| [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | يحصل على أو يضبط الإزاحة الأفقية. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يعيّن وقت التعديل الأخير. |
+| [setMaxHeight(float value)](#setMaxHeight-float-) | يحصل على أو يضبط الحد الأقصى للارتفاع. |
+| [setMaxWidth(float value)](#setMaxWidth-float-) | يحصل على أو يضبط الحد الأقصى للعرض. |
+| [setMinWidth(float value)](#setMinWidth-float-) | يحصل على أو يضبط الحد الأدنى للعرض. |
+| [setReservedWidth(float value)](#setReservedWidth-float-) | يحصل على أو يضبط العرض المحجوز. |
+| [setVerticalOffset(float value)](#setVerticalOffset-float-) | يحصل على أو يضبط الإزاحة العمودية. |
 ### Outline() {#Outline--}
 ```
 public Outline()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [Outline](../../com.aspose.note/outline).
+يقوم بإنشاء نسخة جديدة من الفئة [Outline](../../com.aspose.note/outline).
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -71,7 +71,7 @@ public boolean getDescendantsCannotBeMoved()
 ```
 
 
-يحصل على ما إذا كان يمكن نقل سلالف المخطط.
+يحصل على ما إذا كان يمكن نقل سلالات المخطط.
 
 **Returns:**
 boolean
@@ -81,7 +81,7 @@ public float getHorizontalOffset()
 ```
 
 
-يحصل أو يضبط الإزاحة الأفقية.
+يحصل على أو يضبط الإزاحة الأفقية.
 
 **Returns:**
 float
@@ -101,7 +101,7 @@ public Date getLastModifiedTime()
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Returns:**
 java.util.Date
@@ -111,7 +111,7 @@ public float getMaxHeight()
 ```
 
 
-يحصل أو يضبط الحد الأقصى للارتفاع.
+يحصل على أو يضبط الحد الأقصى للارتفاع.
 
 **Returns:**
 float
@@ -121,7 +121,7 @@ public float getMaxWidth()
 ```
 
 
-يحصل أو يضبط الحد الأقصى للعرض.
+يحصل على أو يضبط الحد الأقصى للعرض.
 
 **Returns:**
 float
@@ -131,7 +131,7 @@ public float getMinWidth()
 ```
 
 
-يحصل أو يضبط الحد الأدنى للعرض.
+يحصل على أو يضبط الحد الأدنى للعرض.
 
 **Returns:**
 float
@@ -141,7 +141,7 @@ public float getReservedWidth()
 ```
 
 
-يحصل أو يضبط العرض المحجوز.
+يحصل على أو يضبط العرض المحجوز.
 
 **Returns:**
 float
@@ -151,7 +151,7 @@ public float getVerticalOffset()
 ```
 
 
-يحصل أو يضبط الإزاحة العمودية.
+يحصل على أو يضبط الإزاحة العمودية.
 
 **Returns:**
 float
@@ -161,7 +161,7 @@ public void setDescendantsCannotBeMoved(boolean value)
 ```
 
 
-يحصل على ما إذا كان يمكن نقل سلالف المخطط.
+يحصل على ما إذا كان يمكن نقل سلالات المخطط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -174,7 +174,7 @@ public void setHorizontalOffset(float value)
 ```
 
 
-يحصل أو يضبط الإزاحة الأفقية.
+يحصل على أو يضبط الإزاحة الأفقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -187,7 +187,7 @@ public void setLastModifiedTime(Date value)
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -200,7 +200,7 @@ public void setMaxHeight(float value)
 ```
 
 
-يحصل أو يضبط الحد الأقصى للارتفاع.
+يحصل على أو يضبط الحد الأقصى للارتفاع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -213,7 +213,7 @@ public void setMaxWidth(float value)
 ```
 
 
-يحصل أو يضبط الحد الأقصى للعرض.
+يحصل على أو يضبط الحد الأقصى للعرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -226,7 +226,7 @@ public void setMinWidth(float value)
 ```
 
 
-يحصل أو يضبط الحد الأدنى للعرض.
+يحصل على أو يضبط الحد الأدنى للعرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -239,7 +239,7 @@ public void setReservedWidth(float value)
 ```
 
 
-يحصل أو يضبط العرض المحجوز.
+يحصل على أو يضبط العرض المحجوز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -252,7 +252,7 @@ public void setVerticalOffset(float value)
 ```
 
 
-يحصل أو يضبط الإزاحة العمودية.
+يحصل على أو يضبط الإزاحة العمودية.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,6 +1,6 @@
 ---
 title: "ImageBinarizationOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "خيارات تحويل الصور إلى ثنائي."
 type: docs
 weight: 34
@@ -13,27 +13,27 @@ java.lang.Object
 public class ImageBinarizationOptions
 ```
 
-خيارات لتصنيف الصورة إلى ثنائي.
+خيارات لتصحيح ثنائية الصورة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageBinarizationOptions()](#ImageBinarizationOptions--) | يقوم بتهيئة نسخة جديدة من الفئة [ImageBinarizationOptions](../../com.aspose.note/imagebinarizationoptions). |
+| [ImageBinarizationOptions()](#ImageBinarizationOptions--) | ينشئ مثيلاً جديدًا للفئة [ImageBinarizationOptions](../../com.aspose.note/imagebinarizationoptions). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBinarizationMethod()](#getBinarizationMethod--) | يحصل أو يضبط طريقة التحويل الثنائي. |
-| [getBinarizationThreshold()](#getBinarizationThreshold--) | يحصل أو يضبط قيمة العتبة لطريقة التحويل الثنائي ذات العتبة الثابتة. |
-| [setBinarizationMethod(int value)](#setBinarizationMethod-int-) | يحصل أو يضبط طريقة التحويل الثنائي. |
-| [setBinarizationThreshold(int value)](#setBinarizationThreshold-int-) | يحصل أو يضبط قيمة العتبة لطريقة التحويل الثنائي ذات العتبة الثابتة. |
+| [getBinarizationMethod()](#getBinarizationMethod--) | يحصل أو يعيّن طريقة التحويل إلى ثنائي. |
+| [getBinarizationThreshold()](#getBinarizationThreshold--) | يحصل أو يعيّن قيمة العتبة لطريقة التحويل إلى ثنائي ذات العتبة الثابتة. |
+| [setBinarizationMethod(int value)](#setBinarizationMethod-int-) | يحصل أو يعيّن طريقة التحويل إلى ثنائي. |
+| [setBinarizationThreshold(int value)](#setBinarizationThreshold-int-) | يحصل أو يعيّن قيمة العتبة لطريقة التحويل إلى ثنائي ذات العتبة الثابتة. |
 ### ImageBinarizationOptions() {#ImageBinarizationOptions--}
 ```
 public ImageBinarizationOptions()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة [ImageBinarizationOptions](../../com.aspose.note/imagebinarizationoptions).
+ينشئ مثيلاً جديدًا للفئة [ImageBinarizationOptions](../../com.aspose.note/imagebinarizationoptions).
 
 ### getBinarizationMethod() {#getBinarizationMethod--}
 ```
@@ -41,7 +41,7 @@ public final int getBinarizationMethod()
 ```
 
 
-يحصل أو يضبط طريقة التحويل الثنائي. القيمة الافتراضية هي [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\#FixedThreshold).
+يحصل أو يعيّن طريقة التحويل إلى ثنائي. القيمة الافتراضية هي [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\#FixedThreshold).
 
 **Returns:**
 int
@@ -51,7 +51,7 @@ public final int getBinarizationThreshold()
 ```
 
 
-يحصل أو يضبط قيمة العتبة لطريقة التحويل الثنائي ذات العتبة الثابتة. القيمة الافتراضية هي 128.
+يحصل أو يعيّن قيمة العتبة لطريقة التحويل إلى ثنائي ذات العتبة الثابتة. القيمة الافتراضية هي 128.
 
 **Returns:**
 int
@@ -61,7 +61,7 @@ public final void setBinarizationMethod(int value)
 ```
 
 
-يحصل أو يضبط طريقة التحويل الثنائي. القيمة الافتراضية هي [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\#FixedThreshold).
+يحصل أو يعيّن طريقة التحويل إلى ثنائي. القيمة الافتراضية هي [BinarizationMethod.FixedThreshold](../../com.aspose.note/binarizationmethod\#FixedThreshold).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,7 +74,7 @@ public final void setBinarizationThreshold(int value)
 ```
 
 
-يحصل أو يضبط قيمة العتبة لطريقة التحويل الثنائي ذات العتبة الثابتة. القيمة الافتراضية هي 128.
+يحصل أو يعيّن قيمة العتبة لطريقة التحويل إلى ثنائي ذات العتبة الثابتة. القيمة الافتراضية هي 128.
 
 **Parameters:**
 | معامل | نوع | الوصف |

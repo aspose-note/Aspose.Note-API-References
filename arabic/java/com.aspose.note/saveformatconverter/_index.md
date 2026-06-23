@@ -1,7 +1,7 @@
 ---
 title: "SaveFormatConverter"
-second_title: "مرجع Aspose.Note for Java API"
-description: "محول صيغة الحفظ."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "محول تنسيق الحفظ."
 type: docs
 weight: 84
 url: /ar/java/com.aspose.note/saveformatconverter/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SaveFormatConverter
 ```
 
-محول صيغة الحفظ.
+محول تنسيق الحفظ.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -58,7 +58,7 @@ public static String deduceDocumentFileExtension(int format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | int |  |
+| تنسيق | int |  |
 
 **Returns:**
 java.lang.String
@@ -73,7 +73,7 @@ public static String deduceNotebookFileExtension(int format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | int |  |
+| تنسيق | int |  |
 
 **Returns:**
 java.lang.String

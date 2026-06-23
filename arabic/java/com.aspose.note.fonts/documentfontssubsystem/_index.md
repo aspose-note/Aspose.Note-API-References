@@ -1,6 +1,6 @@
 ---
 title: "DocumentFontsSubsystem"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "تنفيذ بسيط لـ Aspose.Note.Fonts.FontsSubsystem."
 type: docs
 weight: 10
@@ -28,8 +28,8 @@ public class DocumentFontsSubsystem extends FontsSubsystem
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDefault()](#getDefault--) | يحصل أو يضبط المثيل الافتراضي الثابت. |
-| [setDefault(DocumentFontsSubsystem value)](#setDefault-com.aspose.note.fonts.DocumentFontsSubsystem-) | يحصل أو يضبط المثيل الافتراضي الثابت. |
+| [getDefault()](#getDefault--) | يحصل أو يعيّن المثيل الافتراضي الثابت. |
+| [setDefault(DocumentFontsSubsystem value)](#setDefault-com.aspose.note.fonts.DocumentFontsSubsystem-) | يحصل أو يعيّن المثيل الافتراضي الثابت. |
 | [usingDefaultFont(String defaultFontName)](#usingDefaultFont-java.lang.String-) | إنشاء مثيل جديد من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد. |
 | [usingDefaultFont(String defaultFontName, Map&lt;String,String&gt; fontsSubstitutions)](#usingDefaultFont-java.lang.String-java.util.Map-java.lang.String-java.lang.String--) | إنشاء مثيل جديد من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد. |
 | [usingDefaultFontFromFile(String filePath)](#usingDefaultFontFromFile-java.lang.String-) | إنشاء مثيل جديد من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد. |
@@ -117,7 +117,7 @@ public static DocumentFontsSubsystem getDefault()
 ```
 
 
-يحصل أو يضبط المثيل الافتراضي الثابت.
+يحصل أو يعيّن المثيل الافتراضي الثابت.
 
 **Returns:**
 [DocumentFontsSubsystem](../../com.aspose.note.fonts/documentfontssubsystem)
@@ -127,7 +127,7 @@ public static void setDefault(DocumentFontsSubsystem value)
 ```
 
 
-يحصل أو يضبط المثيل الافتراضي الثابت.
+يحصل أو يعيّن المثيل الافتراضي الثابت.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "IPageSavingCallback"
-second_title: "مرجع Aspose.Note for Java API"
-description: "نفّذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note للصفحات المنفصلة."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصفحات المنفصلة."
 type: docs
 weight: 108
 url: /ar/java/com.aspose.note/ipagesavingcallback/
@@ -10,7 +10,7 @@ url: /ar/java/com.aspose.note/ipagesavingcallback/
 public interface IPageSavingCallback
 ```
 
-نفّذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note للصفحات المنفصلة.
+نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصفحات المنفصلة.
 ## الطرق
 
 | طريقة | الوصف |

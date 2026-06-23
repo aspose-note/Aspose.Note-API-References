@@ -1,6 +1,6 @@
 ---
 title: "NotebookPdfSaveOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يسمح بتحديد خيارات إضافية عند تحويل صفحات دفتر الملاحظات إلى PDF."
 type: docs
 weight: 60
@@ -18,12 +18,12 @@ public class NotebookPdfSaveOptions extends NotebookSaveOptionsGeneric<PdfSaveOp
 
 | المنشئ | الوصف |
 | --- | --- |
-| [NotebookPdfSaveOptions()](#NotebookPdfSaveOptions--) | يقوم بإنشاء نسخة جديدة من الفئة `NotebookPdfSaveOptions`. |
+| [NotebookPdfSaveOptions()](#NotebookPdfSaveOptions--) | يقوم بتهيئة نسخة جديدة من الفئة `NotebookPdfSaveOptions`. |
 ### NotebookPdfSaveOptions() {#NotebookPdfSaveOptions--}
 ```
 public NotebookPdfSaveOptions()
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `NotebookPdfSaveOptions`.
+يقوم بتهيئة نسخة جديدة من الفئة `NotebookPdfSaveOptions`.
 

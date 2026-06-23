@@ -1,6 +1,6 @@
 ---
 title: "KeepSolidObjectsAlgorithm"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "ينقل الكائن بالكامل إلى الصفحة التالية في حال عدم ملاءمته في الصفحة الأصلية."
 type: docs
 weight: 43
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.note.PageSplittingAlgorithm](../../com.aspose.note
 public class KeepSolidObjectsAlgorithm extends PageSplittingAlgorithm
 ```
 
-ينقل الكائن بالكامل إلى الصفحة التالية في حال عدم ملائمته للصفحة الأصلية.
+ينقل الكائن بالكامل إلى الصفحة التالية في حال عدم ملاءمته في الصفحة الأصلية.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -24,12 +24,12 @@ public class KeepSolidObjectsAlgorithm extends PageSplittingAlgorithm
 
 | حقل | الوصف |
 | --- | --- |
-| [DEFAULT_HEIGHT_LIMIT_OF_CLONED_PART](#DEFAULT-HEIGHT-LIMIT-OF-CLONED-PART) | الحجم الأقصى الافتراضي للجزء المستنسخ. |
+| [DEFAULT_HEIGHT_LIMIT_OF_CLONED_PART](#DEFAULT-HEIGHT-LIMIT-OF-CLONED-PART) | الحد الأقصى الافتراضي لحجم الجزء المستنسخ. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getHeightLimitOfClonedPart()](#getHeightLimitOfClonedPart--) | يحصل على حد الارتفاع للجزء المستنسخ. |
+| [getHeightLimitOfClonedPart()](#getHeightLimitOfClonedPart--) | يحصل على حد ارتفاع الجزء المستنسخ. |
 ### KeepSolidObjectsAlgorithm() {#KeepSolidObjectsAlgorithm--}
 ```
 public KeepSolidObjectsAlgorithm()
@@ -49,7 +49,7 @@ public KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| heightLimitOfClonedPart | float | الحد الأقصى للارتفاع للجزء المستنسخ. |
+| heightLimitOfClonedPart | float | الارتفاع الأقصى للجزء المستنسخ. |
 
 ### DEFAULT_HEIGHT_LIMIT_OF_CLONED_PART {#DEFAULT-HEIGHT-LIMIT-OF-CLONED-PART}
 ```
@@ -57,7 +57,7 @@ public static final float DEFAULT_HEIGHT_LIMIT_OF_CLONED_PART
 ```
 
 
-الحجم الأقصى الافتراضي للجزء المستنسخ.
+الحد الأقصى الافتراضي لحجم الجزء المستنسخ.
 
 ### getHeightLimitOfClonedPart() {#getHeightLimitOfClonedPart--}
 ```
@@ -65,7 +65,7 @@ public float getHeightLimitOfClonedPart()
 ```
 
 
-يحصل على حد الارتفاع للجزء المستنسخ.
+يحصل على حد ارتفاع الجزء المستنسخ.
 
 **Returns:**
 float

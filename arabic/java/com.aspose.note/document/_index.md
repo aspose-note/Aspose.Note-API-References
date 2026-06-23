@@ -1,6 +1,6 @@
 ---
 title: "Document"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل مستند Aspose.Note."
 type: docs
 weight: 20
@@ -21,18 +21,18 @@ public class Document extends CompositeNode<Page> implements INotebookChildNode
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Document()](#Document--) | يُنشئ مثلاً جديدًا من الفئة `Document` class. |
-| [Document(String filePath)](#Document-java.lang.String-) | يُنشئ مثلاً جديدًا من الفئة `Document` class. |
-| [Document(String filePath, LoadOptions loadOptions)](#Document-java.lang.String-com.aspose.note.LoadOptions-) | يُنشئ مثلاً جديدًا من الفئة `Document` class. |
-| [Document(InputStream inStream)](#Document-java.io.InputStream-) | يُنشئ مثلاً جديدًا من الفئة `Document` class. |
-| [Document(InputStream inStream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.aspose.note.LoadOptions-) | يُنشئ مثلاً جديدًا من الفئة `Document` class. |
+| [Document()](#Document--) | يُنشئ مثيلًا جديدًا من الفئة `Document`. |
+| [Document(String filePath)](#Document-java.lang.String-) | يُنشئ مثيلًا جديدًا من الفئة `Document`. |
+| [Document(String filePath, LoadOptions loadOptions)](#Document-java.lang.String-com.aspose.note.LoadOptions-) | يُنشئ مثيلًا جديدًا من الفئة `Document`. |
+| [Document(InputStream inStream)](#Document-java.io.InputStream-) | يُنشئ مثيلًا جديدًا من الفئة `Document`. |
+| [Document(InputStream inStream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.aspose.note.LoadOptions-) | يُنشئ مثيلًا جديدًا من الفئة `Document`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | يقبل زائر العقدة. |
 | [detectLayoutChanges()](#detectLayoutChanges--) | يكشف جميع التغييرات التي طرأت على تخطيط المستند منذ الاستدعاء السابق لـ `DetectLayoutChanges`. |
-| [getAutomaticLayoutChangesDetectionEnabled()](#getAutomaticLayoutChangesDetectionEnabled--) | يحصل على قيمة تشير إلى ما إذا كان Aspose.Note يقوم بالكشف عن تغييرات التخطيط تلقائيًا. |
+| [getAutomaticLayoutChangesDetectionEnabled()](#getAutomaticLayoutChangesDetectionEnabled--) | يحصل على قيمة تشير إلى ما إذا كان Aspose.Note يقوم باكتشاف تغييرات التخطيط تلقائيًا. |
 | [getColor()](#getColor--) | يحصل على اللون. |
 | [getCreationTime()](#getCreationTime--) | يحصل على وقت الإنشاء. |
 | [getDisplayName()](#getDisplayName--) | يحصل على اسم العرض. |
@@ -66,7 +66,7 @@ public Document()
 ```
 
 
-يُنشئ مثيلاً جديدًا لفئة `Document`. ينشئ مستند OneNote فارغًا.
+يُنشئ مثيلًا جديدًا من الفئة `Document`. ينشئ مستند OneNote فارغًا.
 
 ### Document(String filePath) {#Document-java.lang.String-}
 ```
@@ -74,7 +74,7 @@ public Document(String filePath)
 ```
 
 
-يُنشئ مثيلاً جديدًا لفئة `Document`. يفتح مستند OneNote موجود من ملف.
+يُنشئ مثيلًا جديدًا من الفئة `Document`. يفتح مستند OneNote موجود من ملف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,7 +87,7 @@ public Document(String filePath, LoadOptions loadOptions)
 ```
 
 
-يُنشئ مثيلاً جديدًا لفئة `Document`. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يُنشئ مثيلًا جديدًا من الفئة `Document`. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -101,7 +101,7 @@ public Document(InputStream inStream)
 ```
 
 
-يُنشئ مثيلاً جديدًا لفئة `Document`. يفتح مستند OneNote موجود من تدفق.
+يُنشئ مثيلًا جديدًا من الفئة `Document`. يفتح مستند OneNote موجود من تدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -114,7 +114,7 @@ public Document(InputStream inStream, LoadOptions loadOptions)
 ```
 
 
-يُنشئ مثيلاً جديدًا لفئة `Document`. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يُنشئ مثيلًا جديدًا من الفئة `Document`. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -141,7 +141,7 @@ public void detectLayoutChanges()
 ```
 
 
-يكشف عن جميع التغييرات التي تم إجراؤها على تخطيط المستند منذ استدعاء `DetectLayoutChanges` السابق. في حالة ضبط `AutomaticLayoutChangesDetectionEnabled` على true، يتم استخدامها تلقائيًا في بداية تصدير المستند.
+يكشف عن جميع التغييرات التي تم إجراؤها على تخطيط المستند منذ الاستدعاء السابق لـ `DetectLayoutChanges`. في حال تم تعيين `AutomaticLayoutChangesDetectionEnabled` إلى true، يُستخدم تلقائيًا في بداية تصدير المستند.
 
 ### getAutomaticLayoutChangesDetectionEnabled() {#getAutomaticLayoutChangesDetectionEnabled--}
 ```
@@ -219,7 +219,7 @@ public PageHistory getPageHistory(Page page)
 ```
 
 
-يحصل على `PageHistory` الذي يحتوي على السجل الكامل لكل صفحة معروضة في مستند (الأقدم في الفهرس 0). يمكن الوصول إلى نسخة الصفحة الحالية كـ `PageHistory.current` وتكون منفصلة عن مجموعة الإصدارات التاريخية.
+يحصل على `PageHistory` الذي يحتوي على السجل الكامل لكل صفحة معروضة في مستند (الأقدم في الفهرس 0). يمكن الوصول إلى نسخة الصفحة الحالية عبر `PageHistory.current` وتُحتفظ بها بشكل منفصل عن مجموعة الإصدارات التاريخية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -234,7 +234,7 @@ public static boolean isEncrypted(InputStream stream, Document[] document)
 ```
 
 
-يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى انخفاض في الأداء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -243,14 +243,14 @@ public static boolean isEncrypted(InputStream stream, Document[] document)
 | document | [Document\[\]](../../com.aspose.note/document) | المستند المحمَّل. |
 
 **Returns:**
-منطقي - يرجع true إذا كان المستند مشفرًا وإلا false.
+منطقي - يُرجع true إذا كان المستند مشفرًا وإلا false.
 ### isEncrypted(InputStream stream, LoadOptions options, Document[] document) {#isEncrypted-java.io.InputStream-com.aspose.note.LoadOptions-com.aspose.note.Document---}
 ```
 public static boolean isEncrypted(InputStream stream, LoadOptions options, Document[] document)
 ```
 
 
-يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى انخفاض في الأداء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -260,31 +260,31 @@ public static boolean isEncrypted(InputStream stream, LoadOptions options, Docum
 | document | [Document\[\]](../../com.aspose.note/document) | المستند المحمَّل. |
 
 **Returns:**
-منطقي - يرجع true إذا كان المستند مشفرًا وإلا false.
+منطقي - يُرجع true إذا كان المستند مشفرًا وإلا false.
 ### isEncrypted(InputStream stream, String password, Document[] document) {#isEncrypted-java.io.InputStream-java.lang.String-com.aspose.note.Document---}
 ```
 public static boolean isEncrypted(InputStream stream, String password, Document[] document)
 ```
 
 
-يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى انخفاض في الأداء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | دفق | java.io.InputStream | التدفق. |
-| password | java.lang.String | كلمة المرور لفك تشفير مستند. |
+| password | java.lang.String | كلمة المرور لفك تشفير المستند. |
 | document | [Document\[\]](../../com.aspose.note/document) | المستند المحمَّل. |
 
 **Returns:**
-منطقي - يرجع true إذا كان المستند مشفرًا وإلا false.
+منطقي - يُرجع true إذا كان المستند مشفرًا وإلا false.
 ### isEncrypted(String filePath, Document[] document) {#isEncrypted-java.lang.String-com.aspose.note.Document---}
 ```
 public static boolean isEncrypted(String filePath, Document[] document)
 ```
 
 
-يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى انخفاض في الأداء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -293,14 +293,14 @@ public static boolean isEncrypted(String filePath, Document[] document)
 | document | [Document\[\]](../../com.aspose.note/document) | المستند المحمَّل. |
 
 **Returns:**
-منطقي - يرجع true إذا كان المستند مشفرًا وإلا false.
+منطقي - يُرجع true إذا كان المستند مشفرًا وإلا false.
 ### isEncrypted(String filePath, LoadOptions options, Document[] document) {#isEncrypted-java.lang.String-com.aspose.note.LoadOptions-com.aspose.note.Document---}
 ```
 public static boolean isEncrypted(String filePath, LoadOptions options, Document[] document)
 ```
 
 
-يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى انخفاض في الأداء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -310,24 +310,24 @@ public static boolean isEncrypted(String filePath, LoadOptions options, Document
 | document | [Document\[\]](../../com.aspose.note/document) | المستند المحمَّل. |
 
 **Returns:**
-منطقي - يرجع true إذا كان المستند مشفرًا وإلا false.
+منطقي - يُرجع true إذا كان المستند مشفرًا وإلا false.
 ### isEncrypted(String filePath, String password, Document[] document) {#isEncrypted-java.lang.String-java.lang.String-com.aspose.note.Document---}
 ```
 public static boolean isEncrypted(String filePath, String password, Document[] document)
 ```
 
 
-يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذلك قد يؤدي هذا الأسلوب إلى انخفاض في الأداء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | java.lang.String | مسار الملف. |
-| password | java.lang.String | كلمة المرور لفك تشفير مستند. |
+| password | java.lang.String | كلمة المرور لفك تشفير المستند. |
 | document | [Document\[\]](../../com.aspose.note/document) | المستند المحمَّل. |
 
 **Returns:**
-منطقي - يرجع true إذا كان المستند مشفرًا وإلا false.
+منطقي - يُرجع true إذا كان المستند مشفرًا وإلا false.
 ### print() {#print--}
 ```
 public void print()
@@ -400,7 +400,7 @@ public void save(OutputStream stream, SaveOptions options)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | دفق | java.io.OutputStream | دفق System.iO حيث سيتم حفظ المستند. |
-| options | [SaveOptions](../../com.aspose.note/saveoptions) | يحدد الخيارات لكيفية حفظ المستند في الدفق. |
+| options | [SaveOptions](../../com.aspose.note/saveoptions) | يحدد الخيارات التي يتم بها حفظ المستند في الدفق. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
@@ -414,7 +414,7 @@ public void save(OutputStream stream, int format)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | دفق | java.io.OutputStream | دفق System.iO حيث سيتم حفظ المستند. |
-| format | int | الصيغة التي سيتم حفظ المستند بها. |
+| تنسيق | int | الصيغة التي يتم حفظ المستند بها. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -427,7 +427,7 @@ public void save(String fileName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، سيتم استبدال الملف الموجود. |
+| اسم الملف | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 
 ### save(String fileName, SaveOptions options) {#save-java.lang.String-com.aspose.note.SaveOptions-}
 ```
@@ -440,8 +440,8 @@ public void save(String fileName, SaveOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، سيتم استبدال الملف الموجود. |
-| options | [SaveOptions](../../com.aspose.note/saveoptions) | يحدد الخيارات التي يتم حفظ المستند بها في الملف. |
+| اسم الملف | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
+| options | [SaveOptions](../../com.aspose.note/saveoptions) | يحدد الخيارات لكيفية حفظ المستند في الملف. |
 
 ### save(String fileName, int format) {#save-java.lang.String-int-}
 ```
@@ -454,8 +454,8 @@ public void save(String fileName, int format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، سيتم استبدال الملف الموجود. |
-| format | int | الصيغة التي سيتم حفظ المستند بها. |
+| اسم الملف | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
+| تنسيق | int | الصيغة التي يتم حفظ المستند بها. |
 
 ### setAutomaticLayoutChangesDetectionEnabled(boolean value) {#setAutomaticLayoutChangesDetectionEnabled-boolean-}
 ```

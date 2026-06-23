@@ -1,6 +1,6 @@
 ---
 title: "AttachedFile"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل ملفًا مرفقًا."
 type: docs
 weight: 11
@@ -21,11 +21,11 @@ public class AttachedFile extends Node implements IPageChildNode, IOutlineElemen
 
 | المنشئ | الوصف |
 | --- | --- |
-| [AttachedFile(String path)](#AttachedFile-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `AttachedFile`. |
-| [AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | ينشئ مثيلاً جديدًا من الفئة `AttachedFile`. |
-| [AttachedFile(String fileName, InputStream attachedFileStream)](#AttachedFile-java.lang.String-java.io.InputStream-) | ينشئ مثيلاً جديدًا من الفئة `AttachedFile`. |
-| [AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | ينشئ مثيلاً جديدًا من الفئة `AttachedFile`. |
-| [AttachedFile()](#AttachedFile--) | ينشئ مثيلاً جديدًا من الفئة `AttachedFile`. |
+| [AttachedFile(String path)](#AttachedFile-java.lang.String-) | ينشئ مثيلًا جديدًا من الفئة `AttachedFile`. |
+| [AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | ينشئ مثيلًا جديدًا من الفئة `AttachedFile`. |
+| [AttachedFile(String fileName, InputStream attachedFileStream)](#AttachedFile-java.lang.String-java.io.InputStream-) | ينشئ مثيلًا جديدًا من الفئة `AttachedFile`. |
+| [AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat)](#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-) | ينشئ مثيلًا جديدًا من الفئة `AttachedFile`. |
+| [AttachedFile()](#AttachedFile--) | ينشئ مثيلًا جديدًا من الفئة `AttachedFile`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,25 +43,25 @@ public class AttachedFile extends Node implements IPageChildNode, IOutlineElemen
 | [getIcon()](#getIcon--) | يحصل على البيانات الثنائية للأيقونة المرتبطة بالملف المضمّن. |
 | [getIconExtension()](#getIconExtension--) | يحصل على امتداد الأيقونة. |
 | [getLastModifiedTime()](#getLastModifiedTime--) | يحصل على وقت التعديل الأخير. |
-| [getMaxHeight()](#getMaxHeight--) | يحصل على الحد الأقصى للارتفاع لعرض أيقونة الملف المضمن. |
-| [getMaxWidth()](#getMaxWidth--) | يحصل على الحد الأقصى للعرض لعرض أيقونة الملف المضمن. |
+| [getMaxHeight()](#getMaxHeight--) | يحصل على الحد الأقصى للارتفاع لعرض أيقونة الملف المضمّن. |
+| [getMaxWidth()](#getMaxWidth--) | يحصل على الحد الأقصى للعرض لعرض أيقونة الملف المضمّن. |
 | [getParsingErrorInfo()](#getParsingErrorInfo--) | يحصل على البيانات حول الخطأ الذي حدث أثناء الوصول إلى الملف. |
 | [getTags()](#getTags--) | يحصل على قائمة العلامات لملف مرفق. |
-| [getText()](#getText--) | يحصل على التمثيل النصي للملف المضمن. |
+| [getText()](#getText--) | يحصل على التمثيل النصي للملف المضمّن. |
 | [getVerticalOffset()](#getVerticalOffset--) | يحصل على الإزاحة العمودية. |
-| [getWidth()](#getWidth--) | يحصل على العرض الأصلي لأيقونة الملف المضمن. |
+| [getWidth()](#getWidth--) | يحصل على العرض الأصلي لأيقونة الملف المضمّن. |
 | [isPrintout()](#isPrintout--) | يحصل على قيمة تشير إلى ما إذا كان عرض الملف هو نسخة مطبوعة. |
-| [isSizeSetByUser()](#isSizeSetByUser--) | يحصل على قيمة تشير إلى ما إذا كان حجم الأيقونة قد تم تحديثه صراحةً من قبل المستخدم. |
+| [isSizeSetByUser()](#isSizeSetByUser--) | يحصل على قيمة تشير إلى ما إذا تم تحديث قيمة حجم الأيقونة صراحةً من قبل المستخدم. |
 | [setAlignment(int value)](#setAlignment-int-) | يضبط المحاذاة. |
 | [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | يحصل أو يضبط نصًا بديلًا للجسم لأيقونة الملف المرفق. |
 | [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | يحصل أو يضبط عنوان النص البديل لأيقونة الملف المرفق. |
 | [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | يضبط الإزاحة الأفقية. |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يضبط وقت التعديل الأخير. |
-| [setMaxHeight(float value)](#setMaxHeight-float-) | يضبط الحد الأقصى للارتفاع لعرض أيقونة الملف المضمن. |
-| [setMaxWidth(float value)](#setMaxWidth-float-) | يضبط الحد الأقصى للعرض لعرض أيقونة الملف المضمن. |
+| [setMaxHeight(float value)](#setMaxHeight-float-) | يضبط الحد الأقصى للارتفاع لعرض أيقونة الملف المضمّن. |
+| [setMaxWidth(float value)](#setMaxWidth-float-) | يضبط الحد الأقصى للعرض لعرض أيقونة الملف المضمّن. |
 | [setPrintout(boolean value)](#setPrintout-boolean-) | يضبط قيمة تشير إلى ما إذا كان عرض الملف هو نسخة مطبوعة. |
-| [setSizeSetByUser(boolean value)](#setSizeSetByUser-boolean-) | يضبط قيمة تشير إلى ما إذا كان حجم الأيقونة قد تم تحديثه صراحةً من قبل المستخدم. |
-| [setText(String value)](#setText-java.lang.String-) | يضبط التمثيل النصي للملف المضمن. |
+| [setSizeSetByUser(boolean value)](#setSizeSetByUser-boolean-) | يضبط قيمة تشير إلى ما إذا تم تحديث قيمة حجم الأيقونة صراحةً من قبل المستخدم. |
+| [setText(String value)](#setText-java.lang.String-) | يضبط التمثيل النصي للملف المضمّن. |
 | [setVerticalOffset(float value)](#setVerticalOffset-float-) | يضبط الإزاحة العمودية. |
 ### AttachedFile(String path) {#AttachedFile-java.lang.String-}
 ```
@@ -69,12 +69,12 @@ public AttachedFile(String path)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `AttachedFile`.
+ينشئ مثيلًا جديدًا من الفئة `AttachedFile`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | java.lang.String | سلسلة نصية تحتوي على المسار إلى الملف الذي سيتم إنشاء `AttachedFile` منه. |
+| المسار | java.lang.String | سلسلة تحتوي على المسار إلى الملف الذي سيتم إنشاء `AttachedFile` منه. |
 
 ### AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
 ```
@@ -82,14 +82,14 @@ public AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageF
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `AttachedFile`.
+ينشئ مثيلًا جديدًا من الفئة `AttachedFile`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | java.lang.String | سلسلة نصية تحتوي على المسار إلى الملف الذي سيتم إنشاء `AttachedFile` منه. |
-| icon | java.io.InputStream | أيقونة للملف المرفق. |
-| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat |  |
+| المسار | java.lang.String | سلسلة تحتوي على المسار إلى الملف الذي سيتم إنشاء `AttachedFile` منه. |
+| أيقونة | java.io.InputStream | أيقونة للملف المرفق. |
+| تنسيق الأيقونة | com.aspose.ms.System.Drawing.Imaging.ImageFormat |  |
 
 ### AttachedFile(String fileName, InputStream attachedFileStream) {#AttachedFile-java.lang.String-java.io.InputStream-}
 ```
@@ -97,12 +97,12 @@ public AttachedFile(String fileName, InputStream attachedFileStream)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `AttachedFile`.
+ينشئ مثيلًا جديدًا من الفئة `AttachedFile`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | اسم الملف المرفق. |
+| اسم الملف | java.lang.String | اسم الملف المرفق. |
 | attachedFileStream | java.io.InputStream | دفق يحتوي على بايتات الملف المرفق. |
 
 ### AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
@@ -111,15 +111,15 @@ public AttachedFile(String fileName, InputStream attachedFileStream, InputStream
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `AttachedFile`.
+ينشئ مثيلًا جديدًا من الفئة `AttachedFile`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | اسم الملف المرفق. |
+| اسم الملف | java.lang.String | اسم الملف المرفق. |
 | attachedFileStream | java.io.InputStream | دفق يحتوي على بايتات الملف المرفق. |
-| icon | java.io.InputStream | أيقونة للملف المرفق. |
-| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat | تنسيق أيقونة الملف المرفق. |
+| أيقونة | java.io.InputStream | أيقونة للملف المرفق. |
+| تنسيق الأيقونة | com.aspose.ms.System.Drawing.Imaging.ImageFormat | تنسيق أيقونة الملف المرفق. |
 
 ### AttachedFile() {#AttachedFile--}
 ```
@@ -127,7 +127,7 @@ public AttachedFile()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `AttachedFile`.
+ينشئ مثيلًا جديدًا من الفئة `AttachedFile`.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -268,7 +268,7 @@ public float getMaxHeight()
 ```
 
 
-يحصل على الحد الأقصى للارتفاع لعرض أيقونة الملف المضمن.
+يحصل على الحد الأقصى للارتفاع لعرض أيقونة الملف المضمّن.
 
 **Returns:**
 float
@@ -278,7 +278,7 @@ public float getMaxWidth()
 ```
 
 
-يحصل على الحد الأقصى للعرض لعرض أيقونة الملف المضمن.
+يحصل على الحد الأقصى للعرض لعرض أيقونة الملف المضمّن.
 
 **Returns:**
 float
@@ -308,7 +308,7 @@ public String getText()
 ```
 
 
-يحصل على تمثيل النص للملف المضمن. يجب ألا يحتوي السلسلة على أي أحرف ذات القيمة 10 (سطر جديد) أو 13 (عودة سيارة).
+يحصل على تمثيل النص للملف المضمّن. يجب ألا يحتوي السلسلة على أي أحرف ذات القيمة 10 (سطر جديد) أو 13 (عودة إلى السطر).
 
 **Returns:**
 java.lang.String
@@ -328,7 +328,7 @@ public float getWidth()
 ```
 
 
-يحصل على العرض الأصلي لأيقونة الملف المضمن.
+يحصل على العرض الأصلي لأيقونة الملف المضمّن.
 
 **Returns:**
 float
@@ -348,7 +348,7 @@ public boolean isSizeSetByUser()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان حجم الأيقونة قد تم تحديثه صراحةً من قبل المستخدم.
+يحصل على قيمة تشير إلى ما إذا تم تحديث قيمة حجم الأيقونة صراحةً من قبل المستخدم.
 
 **Returns:**
 boolean
@@ -363,7 +363,7 @@ public void setAlignment(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة المحاذاة. |
+| القيمة | int | قيمة Alignment. |
 
 ### setAlternativeTextDescription(String value) {#setAlternativeTextDescription-java.lang.String-}
 ```
@@ -402,7 +402,7 @@ public void setHorizontalOffset(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | قيمة الإزاحات. |
+| القيمة | float | قيمة Offsets. |
 
 ### setLastModifiedTime(Date value) {#setLastModifiedTime-java.util.Date-}
 ```
@@ -415,7 +415,7 @@ public void setLastModifiedTime(Date value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.Date | قيمة التاريخ. |
+| القيمة | java.util.Date | قيمة Date. |
 
 ### setMaxHeight(float value) {#setMaxHeight-float-}
 ```
@@ -423,7 +423,7 @@ public void setMaxHeight(float value)
 ```
 
 
-يضبط الحد الأقصى للارتفاع لعرض أيقونة الملف المضمن.
+يضبط الحد الأقصى للارتفاع لعرض أيقونة الملف المضمّن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -436,7 +436,7 @@ public void setMaxWidth(float value)
 ```
 
 
-يضبط الحد الأقصى للعرض لعرض أيقونة الملف المضمن.
+يضبط الحد الأقصى للعرض لعرض أيقونة الملف المضمّن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -462,7 +462,7 @@ public void setSizeSetByUser(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان حجم الأيقونة قد تم تحديثه صراحةً من قبل المستخدم.
+يضبط قيمة تشير إلى ما إذا تم تحديث قيمة حجم الأيقونة صراحةً من قبل المستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -475,12 +475,12 @@ public void setText(String value)
 ```
 
 
-يضبط تمثيل النص للملف المضمن. يجب ألا تحتوي السلسلة على أي أحرف ذات القيمة 10 (سطر جديد) أو 13 (عودة سيارة).
+يضبط تمثيل النص للملف المضمّن. يجب ألا تحتوي السلسلة على أي أحرف ذات القيمة 10 (سطر جديد) أو 13 (عودة إلى السطر).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | قيمة النص. |
+| القيمة | java.lang.String | قيمة Text. |
 
 ### setVerticalOffset(float value) {#setVerticalOffset-float-}
 ```
@@ -493,5 +493,5 @@ public void setVerticalOffset(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | قيمة الإزاحة. |
+| القيمة | float | قيمة Offset. |
 

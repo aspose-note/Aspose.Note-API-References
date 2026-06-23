@@ -1,7 +1,7 @@
 ---
 title: "INoteTag"
-second_title: "مرجع Aspose.Note for Java API"
-description: "الواجهة لتصنيفات الملاحظات i.e."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "الواجهة الخاصة بوسوم الملاحظات، أي."
 type: docs
 weight: 103
 url: /ar/java/com.aspose.note/inotetag/
@@ -13,7 +13,7 @@ url: /ar/java/com.aspose.note/inotetag/
 public interface INoteTag extends ITag
 ```
 
-الواجهة لتصنيفات الملاحظات (i.e. التصنيفات التي لا ترتبط بمهام Outlook).
+الواجهة الخاصة بوسوم الملاحظات (أي الوسوم التي لا ترتبط بمهام Outlook).
 ## الطرق
 
 | طريقة | الوصف |

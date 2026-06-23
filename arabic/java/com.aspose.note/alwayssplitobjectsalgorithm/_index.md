@@ -1,6 +1,6 @@
 ---
 title: "AlwaysSplitObjectsAlgorithm"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يقسم كائنًا إلى عدة أجزاء في حال عدم ملاءمته للصفحة الأصلية."
 type: docs
 weight: 10
