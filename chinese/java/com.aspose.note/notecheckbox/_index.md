@@ -33,57 +33,57 @@ public class NoteCheckBox extends CheckBox implements INoteTag, System.IEquatabl
 | [createBlueExclamationCheckBox(String label)](#createBlueExclamationCheckBox-java.lang.String-) | * 创建一个带有 BlueExclamationCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
 | [createBlueFlagCheckBox()](#createBlueFlagCheckBox--) | * 创建一个带有 BlueFlagCheckBoxEmpty 图标和默认标签的新笔记标签。 |
 | [createBlueFlagCheckBox(String label)](#createBlueFlagCheckBox-java.lang.String-) | * 创建一个带有 BlueFlagCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
-| [createBluePersonCheckBox()](#createBluePersonCheckBox--) | * 创建一个带有 BluePersonCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createBluePersonCheckBox(String label)](#createBluePersonCheckBox-java.lang.String-) | * 创建一个带有 BluePersonCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createBlueRightArrowCheckBox()](#createBlueRightArrowCheckBox--) | * 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createBlueRightArrowCheckBox(String label)](#createBlueRightArrowCheckBox-java.lang.String-) | * 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createBlueStarCheckBox()](#createBlueStarCheckBox--) | * 创建一个带有 BlueStarCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createBlueStarCheckBox(String label)](#createBlueStarCheckBox-java.lang.String-) | * 创建一个带有 BlueStarCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createGreenCheckBox()](#createGreenCheckBox--) | * 创建一个带有 GreenCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createGreenCheckBox(String label)](#createGreenCheckBox-java.lang.String-) | * 创建一个带有 GreenCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createGreenCheckBox1()](#createGreenCheckBox1--) | * 创建一个带有 GreenCheckBox1Empty 图标和默认标签的笔记标签。 |
-| [createGreenCheckBox1(String label)](#createGreenCheckBox1-java.lang.String-) | * 创建一个带有 GreenCheckBox1Empty 图标和指定标签的笔记复选框。 |
-| [createGreenCheckBox2()](#createGreenCheckBox2--) | * 创建一个带有 GreenCheckBox2Empty 图标和默认标签的笔记标签。 |
-| [createGreenCheckBox2(String label)](#createGreenCheckBox2-java.lang.String-) | * 创建一个带有 GreenCheckBox2Empty 图标和指定标签的笔记复选框。 |
-| [createGreenCheckBox3()](#createGreenCheckBox3--) | * 创建一个带有 GreenCheckBox3Empty 图标和默认标签的笔记标签。 |
-| [createGreenCheckBox3(String label)](#createGreenCheckBox3-java.lang.String-) | * 创建一个带有 GreenCheckBox3Empty 图标和指定标签的笔记复选框。 |
-| [createGreenExclamationCheckBox()](#createGreenExclamationCheckBox--) | * 创建一个带有 GreenExclamationCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createGreenExclamationCheckBox(String label)](#createGreenExclamationCheckBox-java.lang.String-) | * 创建一个带有 GreenExclamationCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createGreenFlagCheckBox()](#createGreenFlagCheckBox--) | * 创建一个带有 GreenFlagCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createGreenFlagCheckBox(String label)](#createGreenFlagCheckBox-java.lang.String-) | * 创建一个带有 GreenFlagCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createGreenPersonCheckBox()](#createGreenPersonCheckBox--) | * 创建一个带有 GreenPersonCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createGreenPersonCheckBox(String label)](#createGreenPersonCheckBox-java.lang.String-) | * 创建一个带有 GreenPersonCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createGreenRightArrowCheckBox()](#createGreenRightArrowCheckBox--) | * 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createGreenRightArrowCheckBox(String label)](#createGreenRightArrowCheckBox-java.lang.String-) | * 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createGreenStarCheckBox()](#createGreenStarCheckBox--) | * 创建一个带有 GreenStarCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createGreenStarCheckBox(String label)](#createGreenStarCheckBox-java.lang.String-) | * 创建一个带有 GreenStarCheckBoxEmpty 图标和指定标签的笔记复选框。 |
-| [createRedFlagCheckBox()](#createRedFlagCheckBox--) | * 创建一个带有 RedFlagCheckBoxEmpty 图标和默认标签的笔记标签。 |
-| [createRedFlagCheckBox(String label)](#createRedFlagCheckBox-java.lang.String-) | * 创建一个新的笔记复选框，使用 RedFlagCheckBoxEmpty 图标和指定的标签。 |
-| [createYellowCheckBox()](#createYellowCheckBox--) | * 创建一个新的笔记标签，使用 YellowCheckBoxEmpty 图标和默认标签。 |
-| [createYellowCheckBox(String label)](#createYellowCheckBox-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowCheckBoxEmpty 图标和指定的标签。 |
-| [createYellowCheckBox1()](#createYellowCheckBox1--) | * 创建一个新的笔记标签，使用 YellowCheckBox1Empty 图标和默认标签。 |
-| [createYellowCheckBox1(String label)](#createYellowCheckBox1-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowCheckBox1Empty 图标和指定的标签。 |
-| [createYellowCheckBox2()](#createYellowCheckBox2--) | * 创建一个新的笔记标签，使用 YellowCheckBox2Empty 图标和默认标签。 |
-| [createYellowCheckBox2(String label)](#createYellowCheckBox2-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowCheckBox2Empty 图标和指定的标签。 |
-| [createYellowCheckBox3()](#createYellowCheckBox3--) | * 创建一个新的笔记标签，使用 YellowCheckBox3Empty 图标和默认标签。 |
-| [createYellowCheckBox3(String label)](#createYellowCheckBox3-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowCheckBox3Empty 图标和指定的标签。 |
-| [createYellowExclamationCheckBox()](#createYellowExclamationCheckBox--) | * 创建一个新的笔记标签，使用 YellowExclamationCheckBoxEmpty 图标和默认标签。 |
-| [createYellowExclamationCheckBox(String label)](#createYellowExclamationCheckBox-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowExclamationCheckBoxEmpty 图标和指定的标签。 |
-| [createYellowPersonCheckBox()](#createYellowPersonCheckBox--) | * 创建一个新的笔记标签，使用 YellowPersonCheckBoxEmpty 图标和默认标签。 |
-| [createYellowPersonCheckBox(String label)](#createYellowPersonCheckBox-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowPersonCheckBoxEmpty 图标和指定的标签。 |
-| [createYellowRightArrowCheckBox()](#createYellowRightArrowCheckBox--) | * 创建一个新的笔记标签，使用 YellowRightArrowCheckBoxEmpty 图标和默认标签。 |
-| [createYellowRightArrowCheckBox(String label)](#createYellowRightArrowCheckBox-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowRightArrowCheckBoxEmpty 图标和指定的标签。 |
-| [createYellowStarCheckBox()](#createYellowStarCheckBox--) | * 创建一个新的笔记标签，使用 YellowStarCheckBoxEmpty 图标和默认标签。 |
-| [createYellowStarCheckBox(String label)](#createYellowStarCheckBox-java.lang.String-) | * 创建一个新的笔记复选框，使用 YellowStarCheckBoxEmpty 图标和指定的标签。 |
+| [createBluePersonCheckBox()](#createBluePersonCheckBox--) | * 创建一个带有 BluePersonCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createBluePersonCheckBox(String label)](#createBluePersonCheckBox-java.lang.String-) | * 创建一个带有 BluePersonCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createBlueRightArrowCheckBox()](#createBlueRightArrowCheckBox--) | * 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createBlueRightArrowCheckBox(String label)](#createBlueRightArrowCheckBox-java.lang.String-) | * 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createBlueStarCheckBox()](#createBlueStarCheckBox--) | * 创建一个带有 BlueStarCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createBlueStarCheckBox(String label)](#createBlueStarCheckBox-java.lang.String-) | * 创建一个带有 BlueStarCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createGreenCheckBox()](#createGreenCheckBox--) | * 创建一个带有 GreenCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createGreenCheckBox(String label)](#createGreenCheckBox-java.lang.String-) | * 创建一个带有 GreenCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createGreenCheckBox1()](#createGreenCheckBox1--) | * 创建一个带有 GreenCheckBox1Empty 图标和默认标签的新笔记标签。 |
+| [createGreenCheckBox1(String label)](#createGreenCheckBox1-java.lang.String-) | * 创建一个带有 GreenCheckBox1Empty 图标和指定标签的新笔记复选框。 |
+| [createGreenCheckBox2()](#createGreenCheckBox2--) | * 创建一个带有 GreenCheckBox2Empty 图标和默认标签的新笔记标签。 |
+| [createGreenCheckBox2(String label)](#createGreenCheckBox2-java.lang.String-) | * 创建一个带有 GreenCheckBox2Empty 图标和指定标签的新笔记复选框。 |
+| [createGreenCheckBox3()](#createGreenCheckBox3--) | * 创建一个带有 GreenCheckBox3Empty 图标和默认标签的新笔记标签。 |
+| [createGreenCheckBox3(String label)](#createGreenCheckBox3-java.lang.String-) | * 创建一个带有 GreenCheckBox3Empty 图标和指定标签的新笔记复选框。 |
+| [createGreenExclamationCheckBox()](#createGreenExclamationCheckBox--) | * 创建一个带有 GreenExclamationCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createGreenExclamationCheckBox(String label)](#createGreenExclamationCheckBox-java.lang.String-) | * 创建一个带有 GreenExclamationCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createGreenFlagCheckBox()](#createGreenFlagCheckBox--) | * 创建一个带有 GreenFlagCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createGreenFlagCheckBox(String label)](#createGreenFlagCheckBox-java.lang.String-) | * 创建一个带有 GreenFlagCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createGreenPersonCheckBox()](#createGreenPersonCheckBox--) | * 创建一个带有 GreenPersonCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createGreenPersonCheckBox(String label)](#createGreenPersonCheckBox-java.lang.String-) | * 创建一个带有 GreenPersonCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createGreenRightArrowCheckBox()](#createGreenRightArrowCheckBox--) | * 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createGreenRightArrowCheckBox(String label)](#createGreenRightArrowCheckBox-java.lang.String-) | * 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createGreenStarCheckBox()](#createGreenStarCheckBox--) | * 创建一个带有 GreenStarCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createGreenStarCheckBox(String label)](#createGreenStarCheckBox-java.lang.String-) | * 创建一个带有 GreenStarCheckBoxEmpty 图标和指定标签的新笔记复选框。 |
+| [createRedFlagCheckBox()](#createRedFlagCheckBox--) | * 创建一个带有 RedFlagCheckBoxEmpty 图标和默认标签的新笔记标签。 |
+| [createRedFlagCheckBox(String label)](#createRedFlagCheckBox-java.lang.String-) | \* 创建一个新的笔记复选框，使用 RedFlagCheckBoxEmpty 图标和指定的标签。 |
+| [createYellowCheckBox()](#createYellowCheckBox--) | \* 创建一个新的笔记标签，使用 YellowCheckBoxEmpty 图标和默认标签。 |
+| [createYellowCheckBox(String label)](#createYellowCheckBox-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowCheckBoxEmpty 图标和指定的标签。 |
+| [createYellowCheckBox1()](#createYellowCheckBox1--) | \* 创建一个新的笔记标签，使用 YellowCheckBox1Empty 图标和默认标签。 |
+| [createYellowCheckBox1(String label)](#createYellowCheckBox1-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowCheckBox1Empty 图标和指定的标签。 |
+| [createYellowCheckBox2()](#createYellowCheckBox2--) | \* 创建一个新的笔记标签，使用 YellowCheckBox2Empty 图标和默认标签。 |
+| [createYellowCheckBox2(String label)](#createYellowCheckBox2-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowCheckBox2Empty 图标和指定的标签。 |
+| [createYellowCheckBox3()](#createYellowCheckBox3--) | \* 创建一个新的笔记标签，使用 YellowCheckBox3Empty 图标和默认标签。 |
+| [createYellowCheckBox3(String label)](#createYellowCheckBox3-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowCheckBox3Empty 图标和指定的标签。 |
+| [createYellowExclamationCheckBox()](#createYellowExclamationCheckBox--) | \* 创建一个新的笔记标签，使用 YellowExclamationCheckBoxEmpty 图标和默认标签。 |
+| [createYellowExclamationCheckBox(String label)](#createYellowExclamationCheckBox-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowExclamationCheckBoxEmpty 图标和指定的标签。 |
+| [createYellowPersonCheckBox()](#createYellowPersonCheckBox--) | \* 创建一个新的笔记标签，使用 YellowPersonCheckBoxEmpty 图标和默认标签。 |
+| [createYellowPersonCheckBox(String label)](#createYellowPersonCheckBox-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowPersonCheckBoxEmpty 图标和指定的标签。 |
+| [createYellowRightArrowCheckBox()](#createYellowRightArrowCheckBox--) | \* 创建一个新的笔记标签，使用 YellowRightArrowCheckBoxEmpty 图标和默认标签。 |
+| [createYellowRightArrowCheckBox(String label)](#createYellowRightArrowCheckBox-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowRightArrowCheckBoxEmpty 图标和指定的标签。 |
+| [createYellowStarCheckBox()](#createYellowStarCheckBox--) | \* 创建一个新的笔记标签，使用 YellowStarCheckBoxEmpty 图标和默认标签。 |
+| [createYellowStarCheckBox(String label)](#createYellowStarCheckBox-java.lang.String-) | \* 创建一个新的笔记复选框，使用 YellowStarCheckBoxEmpty 图标和指定的标签。 |
 | [equals(NoteCheckBox other)](#equals-com.aspose.note.NoteCheckBox-) | 确定指定的对象是否等于当前对象。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定的对象是否等于当前对象。 |
 | [getFontColor()](#getFontColor--) | 获取或设置字体颜色。 |
-| [getHighlight()](#getHighlight--) | 获取或设置突出显示颜色。 |
+| [getHighlight()](#getHighlight--) | 获取或设置高亮颜色。 |
 | [getIcon()](#getIcon--) | 获取或设置图标。 |
 | [getLabel()](#getLabel--) | 获取或设置标签文本。 |
-| [hashCode()](#hashCode--) | 作为该类型的哈希函数。 |
+| [hashCode()](#hashCode--) | 用作该类型的哈希函数。 |
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | 获取或设置字体颜色。 |
-| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | 获取或设置突出显示颜色。 |
+| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | 获取或设置高亮颜色。 |
 | [setLabel(String value)](#setLabel-java.lang.String-) | 获取或设置标签文本。 |
 ### createBlueCheckBox() {#createBlueCheckBox--}
 ```
@@ -241,7 +241,7 @@ public static NoteCheckBox createBluePersonCheckBox()
 ```
 
 
-* 创建一个带有 BluePersonCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 BluePersonCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -251,7 +251,7 @@ public static NoteCheckBox createBluePersonCheckBox(String label)
 ```
 
 
-* 创建一个带有 BluePersonCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 BluePersonCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -266,7 +266,7 @@ public static NoteCheckBox createBlueRightArrowCheckBox()
 ```
 
 
-* 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -276,7 +276,7 @@ public static NoteCheckBox createBlueRightArrowCheckBox(String label)
 ```
 
 
-* 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 BlueRightArrowCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -291,7 +291,7 @@ public static NoteCheckBox createBlueStarCheckBox()
 ```
 
 
-* 创建一个带有 BlueStarCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 BlueStarCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -301,7 +301,7 @@ public static NoteCheckBox createBlueStarCheckBox(String label)
 ```
 
 
-* 创建一个带有 BlueStarCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 BlueStarCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -316,7 +316,7 @@ public static NoteCheckBox createGreenCheckBox()
 ```
 
 
-* 创建一个带有 GreenCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -326,7 +326,7 @@ public static NoteCheckBox createGreenCheckBox(String label)
 ```
 
 
-* 创建一个带有 GreenCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -341,7 +341,7 @@ public static NoteCheckBox createGreenCheckBox1()
 ```
 
 
-* 创建一个带有 GreenCheckBox1Empty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenCheckBox1Empty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -351,7 +351,7 @@ public static NoteCheckBox createGreenCheckBox1(String label)
 ```
 
 
-* 创建一个带有 GreenCheckBox1Empty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenCheckBox1Empty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -366,7 +366,7 @@ public static NoteCheckBox createGreenCheckBox2()
 ```
 
 
-* 创建一个带有 GreenCheckBox2Empty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenCheckBox2Empty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -376,7 +376,7 @@ public static NoteCheckBox createGreenCheckBox2(String label)
 ```
 
 
-* 创建一个带有 GreenCheckBox2Empty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenCheckBox2Empty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -391,7 +391,7 @@ public static NoteCheckBox createGreenCheckBox3()
 ```
 
 
-* 创建一个带有 GreenCheckBox3Empty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenCheckBox3Empty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -401,7 +401,7 @@ public static NoteCheckBox createGreenCheckBox3(String label)
 ```
 
 
-* 创建一个带有 GreenCheckBox3Empty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenCheckBox3Empty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -416,7 +416,7 @@ public static NoteCheckBox createGreenExclamationCheckBox()
 ```
 
 
-* 创建一个带有 GreenExclamationCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenExclamationCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -426,7 +426,7 @@ public static NoteCheckBox createGreenExclamationCheckBox(String label)
 ```
 
 
-* 创建一个带有 GreenExclamationCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenExclamationCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -441,7 +441,7 @@ public static NoteCheckBox createGreenFlagCheckBox()
 ```
 
 
-* 创建一个带有 GreenFlagCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenFlagCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -451,7 +451,7 @@ public static NoteCheckBox createGreenFlagCheckBox(String label)
 ```
 
 
-* 创建一个带有 GreenFlagCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenFlagCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -466,7 +466,7 @@ public static NoteCheckBox createGreenPersonCheckBox()
 ```
 
 
-* 创建一个带有 GreenPersonCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenPersonCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -476,7 +476,7 @@ public static NoteCheckBox createGreenPersonCheckBox(String label)
 ```
 
 
-* 创建一个带有 GreenPersonCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenPersonCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -491,7 +491,7 @@ public static NoteCheckBox createGreenRightArrowCheckBox()
 ```
 
 
-* 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -501,7 +501,7 @@ public static NoteCheckBox createGreenRightArrowCheckBox(String label)
 ```
 
 
-* 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenRightArrowCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -516,7 +516,7 @@ public static NoteCheckBox createGreenStarCheckBox()
 ```
 
 
-* 创建一个带有 GreenStarCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 GreenStarCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -526,7 +526,7 @@ public static NoteCheckBox createGreenStarCheckBox(String label)
 ```
 
 
-* 创建一个带有 GreenStarCheckBoxEmpty 图标和指定标签的笔记复选框。
+* 创建一个带有 GreenStarCheckBoxEmpty 图标和指定标签的新笔记复选框。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -541,7 +541,7 @@ public static NoteCheckBox createRedFlagCheckBox()
 ```
 
 
-* 创建一个带有 RedFlagCheckBoxEmpty 图标和默认标签的笔记标签。
+* 创建一个带有 RedFlagCheckBoxEmpty 图标和默认标签的新笔记标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -551,7 +551,7 @@ public static NoteCheckBox createRedFlagCheckBox(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 RedFlagCheckBoxEmpty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 RedFlagCheckBoxEmpty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -566,7 +566,7 @@ public static NoteCheckBox createYellowCheckBox()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowCheckBoxEmpty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowCheckBoxEmpty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -576,7 +576,7 @@ public static NoteCheckBox createYellowCheckBox(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowCheckBoxEmpty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowCheckBoxEmpty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -591,7 +591,7 @@ public static NoteCheckBox createYellowCheckBox1()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowCheckBox1Empty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowCheckBox1Empty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -601,7 +601,7 @@ public static NoteCheckBox createYellowCheckBox1(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowCheckBox1Empty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowCheckBox1Empty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -616,7 +616,7 @@ public static NoteCheckBox createYellowCheckBox2()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowCheckBox2Empty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowCheckBox2Empty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -626,7 +626,7 @@ public static NoteCheckBox createYellowCheckBox2(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowCheckBox2Empty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowCheckBox2Empty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -641,7 +641,7 @@ public static NoteCheckBox createYellowCheckBox3()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowCheckBox3Empty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowCheckBox3Empty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -651,7 +651,7 @@ public static NoteCheckBox createYellowCheckBox3(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowCheckBox3Empty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowCheckBox3Empty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -666,7 +666,7 @@ public static NoteCheckBox createYellowExclamationCheckBox()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowExclamationCheckBoxEmpty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowExclamationCheckBoxEmpty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -676,7 +676,7 @@ public static NoteCheckBox createYellowExclamationCheckBox(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowExclamationCheckBoxEmpty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowExclamationCheckBoxEmpty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -691,7 +691,7 @@ public static NoteCheckBox createYellowPersonCheckBox()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowPersonCheckBoxEmpty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowPersonCheckBoxEmpty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -701,7 +701,7 @@ public static NoteCheckBox createYellowPersonCheckBox(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowPersonCheckBoxEmpty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowPersonCheckBoxEmpty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -716,7 +716,7 @@ public static NoteCheckBox createYellowRightArrowCheckBox()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowRightArrowCheckBoxEmpty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowRightArrowCheckBoxEmpty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -726,7 +726,7 @@ public static NoteCheckBox createYellowRightArrowCheckBox(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowRightArrowCheckBoxEmpty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowRightArrowCheckBoxEmpty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -741,7 +741,7 @@ public static NoteCheckBox createYellowStarCheckBox()
 ```
 
 
-* 创建一个新的笔记标签，使用 YellowStarCheckBoxEmpty 图标和默认标签。
+\* 创建一个新的笔记标签，使用 YellowStarCheckBoxEmpty 图标和默认标签。
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -751,7 +751,7 @@ public static NoteCheckBox createYellowStarCheckBox(String label)
 ```
 
 
-* 创建一个新的笔记复选框，使用 YellowStarCheckBoxEmpty 图标和指定的标签。
+\* 创建一个新的笔记复选框，使用 YellowStarCheckBoxEmpty 图标和指定的标签。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -774,7 +774,7 @@ public final boolean equals(NoteCheckBox other)
 | other | [NoteCheckBox](../../com.aspose.note/notecheckbox) | 对象。 |
 
 **Returns:**
-boolean - 该 `boolean`。
+boolean - `boolean`。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -786,10 +786,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 对象 | java.lang.Object | 对象。 |
+| obj | java.lang.Object | 对象。 |
 
 **Returns:**
-boolean - 该 `boolean`。
+boolean - `boolean`。
 ### getFontColor() {#getFontColor--}
 ```
 public final Color getFontColor()
@@ -806,7 +806,7 @@ public final Color getHighlight()
 ```
 
 
-获取或设置突出显示颜色。
+获取或设置高亮颜色。
 
 **Returns:**
 java.awt.Color
@@ -818,7 +818,7 @@ public int getIcon()
 
 获取或设置图标。
 
-值：该 [TagIcon](../../com.aspose.note.infrastructure/tagicon)。
+值： [TagIcon](../../com.aspose.note.infrastructure/tagicon)。
 
 **Returns:**
 int
@@ -838,10 +838,10 @@ public int hashCode()
 ```
 
 
-作为该类型的哈希函数。
+用作该类型的哈希函数。
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### setFontColor(Color value) {#setFontColor-java.awt.Color-}
 ```
 public final void setFontColor(Color value)
@@ -861,7 +861,7 @@ public final void setHighlight(Color value)
 ```
 
 
-获取或设置突出显示颜色。
+获取或设置高亮颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

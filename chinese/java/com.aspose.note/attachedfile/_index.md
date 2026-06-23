@@ -32,20 +32,20 @@ public class AttachedFile extends Node implements IPageChildNode, IOutlineElemen
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | 接受节点的访问者。 |
 | [getAlignment()](#getAlignment--) | 获取对齐方式。 |
-| [getAlternativeTextDescription()](#getAlternativeTextDescription--) | 获取或设置附件文件图标的正文替代文本。 |
-| [getAlternativeTextTitle()](#getAlternativeTextTitle--) | 获取或设置附件文件图标的标题替代文本。 |
+| [getAlternativeTextDescription()](#getAlternativeTextDescription--) | 获取或设置附件文件图标的主体替代文本。 |
+| [getAlternativeTextTitle()](#getAlternativeTextTitle--) | 获取或设置附件文件图标的替代文本标题。 |
 | [getBytes()](#getBytes--) | 获取嵌入文件的二进制数据。 |
 | [getExtension()](#getExtension--) | 获取嵌入文件的扩展名。 |
 | [getFileName()](#getFileName--) | 获取嵌入文件的名称。 |
 | [getFilePath()](#getFilePath--) | 获取原始文件的路径。 |
 | [getHeight()](#getHeight--) | 获取嵌入文件图标的原始高度。 |
-| [getHorizontalOffset()](#getHorizontalOffset--) | 获取水平偏移。 |
+| [getHorizontalOffset()](#getHorizontalOffset--) | 获取水平偏移量。 |
 | [getIcon()](#getIcon--) | 获取与嵌入文件关联的图标的二进制数据。 |
 | [getIconExtension()](#getIconExtension--) | 获取图标的扩展名。 |
 | [getLastModifiedTime()](#getLastModifiedTime--) | 获取最后修改时间。 |
 | [getMaxHeight()](#getMaxHeight--) | 获取用于显示嵌入文件图标的最大高度。 |
 | [getMaxWidth()](#getMaxWidth--) | 获取用于显示嵌入文件图标的最大宽度。 |
-| [getParsingErrorInfo()](#getParsingErrorInfo--) | 获取访问文件时发生的错误数据。 |
+| [getParsingErrorInfo()](#getParsingErrorInfo--) | 获取在访问文件时发生的错误数据。 |
 | [getTags()](#getTags--) | 获取附件文件的标签列表。 |
 | [getText()](#getText--) | 获取嵌入文件的文本表示。 |
 | [getVerticalOffset()](#getVerticalOffset--) | 获取垂直偏移量。 |
@@ -53,8 +53,8 @@ public class AttachedFile extends Node implements IPageChildNode, IOutlineElemen
 | [isPrintout()](#isPrintout--) | 获取一个值，指示文件的视图是否为打印输出。 |
 | [isSizeSetByUser()](#isSizeSetByUser--) | 获取一个值，指示图标大小的值是否已被用户显式更新。 |
 | [setAlignment(int value)](#setAlignment-int-) | 设置对齐方式。 |
-| [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | 获取或设置附件文件图标的正文替代文本。 |
-| [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | 获取或设置附件文件图标的标题替代文本。 |
+| [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | 获取或设置附件文件图标的主体替代文本。 |
+| [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | 获取或设置附件文件图标的替代文本标题。 |
 | [setHorizontalOffset(float value)](#setHorizontalOffset-float-) | 设置水平偏移量。 |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | 设置最后修改时间。 |
 | [setMaxHeight(float value)](#setMaxHeight-float-) | 设置用于显示嵌入文件图标的最大高度。 |
@@ -74,7 +74,7 @@ public AttachedFile(String path)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 路径 | java.lang.String | 一个字符串，包含用于创建 `AttachedFile` 的文件路径。 |
+| path | java.lang.String | 一个字符串，包含用于创建 `AttachedFile` 的文件路径。 |
 
 ### AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-java.lang.String-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
 ```
@@ -87,9 +87,9 @@ public AttachedFile(String path, InputStream icon, System.Drawing.Imaging.ImageF
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 路径 | java.lang.String | 一个字符串，包含用于创建 `AttachedFile` 的文件路径。 |
-| 图标 | java.io.InputStream | 附件文件的图标。 |
-| 图标格式 | com.aspose.ms.System.Drawing.Imaging.ImageFormat |  |
+| path | java.lang.String | 一个字符串，包含用于创建 `AttachedFile` 的文件路径。 |
+| icon | java.io.InputStream | 用于附件文件的图标。 |
+| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat |  |
 
 ### AttachedFile(String fileName, InputStream attachedFileStream) {#AttachedFile-java.lang.String-java.io.InputStream-}
 ```
@@ -102,7 +102,7 @@ public AttachedFile(String fileName, InputStream attachedFileStream)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 附件文件的名称。 |
+| fileName | java.lang.String | 附件文件的名称。 |
 | attachedFileStream | java.io.InputStream | 包含附件文件字节的流。 |
 
 ### AttachedFile(String fileName, InputStream attachedFileStream, InputStream icon, System.Drawing.Imaging.ImageFormat iconFormat) {#AttachedFile-java.lang.String-java.io.InputStream-java.io.InputStream-com.aspose.ms.System.Drawing.Imaging.ImageFormat-}
@@ -116,10 +116,10 @@ public AttachedFile(String fileName, InputStream attachedFileStream, InputStream
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 附件文件的名称。 |
+| fileName | java.lang.String | 附件文件的名称。 |
 | attachedFileStream | java.io.InputStream | 包含附件文件字节的流。 |
-| 图标 | java.io.InputStream | 附件文件的图标。 |
-| 图标格式 | com.aspose.ms.System.Drawing.Imaging.ImageFormat | 附件文件图标的格式。 |
+| icon | java.io.InputStream | 用于附件文件的图标。 |
+| iconFormat | com.aspose.ms.System.Drawing.Imaging.ImageFormat | 附件文件图标的格式。 |
 
 ### AttachedFile() {#AttachedFile--}
 ```
@@ -158,7 +158,7 @@ public final String getAlternativeTextDescription()
 ```
 
 
-获取或设置附件文件图标的正文替代文本。
+获取或设置附件文件图标的主体替代文本。
 
 **Returns:**
 java.lang.String
@@ -168,7 +168,7 @@ public final String getAlternativeTextTitle()
 ```
 
 
-获取或设置附件文件图标的标题替代文本。
+获取或设置附件文件图标的替代文本标题。
 
 **Returns:**
 java.lang.String
@@ -228,7 +228,7 @@ public float getHorizontalOffset()
 ```
 
 
-获取水平偏移。
+获取水平偏移量。
 
 **Returns:**
 float
@@ -288,7 +288,7 @@ public final ParsingErrorInfo getParsingErrorInfo()
 ```
 
 
-获取访问文件时发生的错误数据。
+获取在访问文件时发生的错误数据。
 
 **Returns:**
 [ParsingErrorInfo](../../com.aspose.note.infrastructure/parsingerrorinfo)
@@ -371,7 +371,7 @@ public final void setAlternativeTextDescription(String value)
 ```
 
 
-获取或设置附件文件图标的正文替代文本。
+获取或设置附件文件图标的主体替代文本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -384,7 +384,7 @@ public final void setAlternativeTextTitle(String value)
 ```
 
 
-获取或设置附件文件图标的标题替代文本。
+获取或设置附件文件图标的替代文本标题。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -428,7 +428,7 @@ public void setMaxHeight(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | float | Maximum height 的值。 |
+| 值 | float | 最大高度的值。 |
 
 ### setMaxWidth(float value) {#setMaxWidth-float-}
 ```
@@ -441,7 +441,7 @@ public void setMaxWidth(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | float | Maximum width 的值。 |
+| 值 | float | 最大宽度的值。 |
 
 ### setPrintout(boolean value) {#setPrintout-boolean-}
 ```

@@ -16,7 +16,7 @@ com.aspose.ms.System.Collections.Generic.IGenericEnumerable
 public class ExtendedApsDocument extends ApsNode implements System.Collections.Generic.IGenericEnumerable<ApsPage>
 ```
 
-表示完整的 OneNote 文档，由转换为页面集的页面组成。
+表示完整的 OneNote 文档，由页面转换为页面集组成。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -63,7 +63,7 @@ public void addPage(ApsPage page)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 页面 | com.aspose.foundation.rendering.ApsPage | 页面集。 |
+| 页面 | com.aspose.foundation.rendering.ApsPage | 一个页面集。 |
 
 ### getPageList() {#getPageList--}
 ```

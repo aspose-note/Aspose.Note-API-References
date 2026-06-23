@@ -76,7 +76,7 @@ public abstract void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scaleTransform | float | 用于转换的比例因子。 |
+| scaleTransform | float | 转换的比例因子。 |
 
 ### copyAttributes(ApsNode src, ApsNode dst) {#copyAttributes-com.aspose.foundation.rendering.ApsNode-com.aspose.foundation.rendering.ApsNode-}
 ```

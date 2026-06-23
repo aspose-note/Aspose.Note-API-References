@@ -1,7 +1,7 @@
 ---
 title: "笔记本"
 second_title: "Aspose.Note for Java API 参考"
-description: "表示 Aspose.Note 笔记本。"
+description: "表示一个 Aspose.Note 笔记本。"
 type: docs
 weight: 56
 url: /zh/java/com.aspose.note/notebook/
@@ -16,7 +16,7 @@ java.lang.Object
 public class Notebook implements INotebookChildNode, System.Collections.Generic.IGenericEnumerable<INotebookChildNode>
 ```
 
-表示 Aspose.Note 笔记本。
+表示一个 Aspose.Note 笔记本。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -69,7 +69,7 @@ public Notebook(String filePath)
 ```
 
 
-初始化 `Notebook` 类的新实例。打开来自文件的现有 OneNote 笔记本。
+初始化 `Notebook` 类的新实例。 从文件打开现有的 OneNote 笔记本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -82,7 +82,7 @@ public Notebook(String filePath, NotebookLoadOptions loadOptions)
 ```
 
 
-初始化 `Notebook` 类的新实例。 从文件打开现有的 OneNote 笔记本。 允许指定附加选项，例如子项加载策略（\"lazy\"/instant）。
+初始化 `Notebook` 类的新实例。打开一个现有的 OneNote 笔记本文件。允许指定额外选项，例如子节点加载策略（\"lazy\"/instant）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -104,9 +104,9 @@ public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 | typeParameterClass | java.lang.Class&lt;T1&gt; |  |
 
 **Returns:**
-java.util.List&lt;T1&gt; - 子节点的列表。
+java.util.List&lt;T1&gt; - 子节点列表。
 
-`T1`：返回列表中元素的类型。
+`T1`: 返回列表中元素的类型。
 ### appendChild(INotebookChildNode newChild) {#appendChild-com.aspose.note.INotebookChildNode-}
 ```
 public INotebookChildNode appendChild(INotebookChildNode newChild)
@@ -225,7 +225,7 @@ public void loadChildDocument(InputStream stream)
 ```
 
 
-添加子文档节点。 从流中打开现有的 OneNote 文档。
+添加子文档节点。从流中打开现有的 OneNote 文档。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -238,7 +238,7 @@ public void loadChildDocument(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-添加子文档节点。 从流中打开现有的 OneNote 文档。 允许指定附加加载选项。
+添加子文档节点。从流中打开现有的 OneNote 文档。允许指定额外的加载选项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -252,7 +252,7 @@ public void loadChildDocument(String filePath)
 ```
 
 
-添加子文档节点。 从文件中打开现有的 OneNote 文档。
+添加子文档节点。从文件中打开现有的 OneNote 文档。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -265,7 +265,7 @@ public void loadChildDocument(String filePath, LoadOptions loadOptions)
 ```
 
 
-添加子文档节点。 从文件中打开现有的 OneNote 文档。 允许指定附加加载选项。
+添加子文档节点。从文件中打开现有的 OneNote 文档。允许指定额外的加载选项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -279,7 +279,7 @@ public void loadChildNotebook(String filePath)
 ```
 
 
-添加子笔记本节点。 从文件中打开现有的 OneNote 笔记本。
+添加子笔记本节点。从文件中打开现有的 OneNote 笔记本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -292,7 +292,7 @@ public void loadChildNotebook(String filePath, NotebookLoadOptions loadOptions)
 ```
 
 
-添加子笔记本节点。 从文件中打开现有的 OneNote 笔记本。 允许指定附加加载选项。
+添加子笔记本节点。从文件中打开现有的 OneNote 笔记本。允许指定额外的加载选项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -354,7 +354,7 @@ public void save(OutputStream stream, int format)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | java.io.OutputStream | 流。 |
-| format | int | 保存文档的格式。 |
+| format | int | 用于保存文档的格式。 |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -367,7 +367,7 @@ public void save(String fileName)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
+| fileName | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
 
 ### save(String fileName, NotebookSaveOptions options) {#save-java.lang.String-com.aspose.note.NotebookSaveOptions-}
 ```
@@ -380,7 +380,7 @@ public void save(String fileName, NotebookSaveOptions options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
+| fileName | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
 | options | [NotebookSaveOptions](../../com.aspose.note/notebooksaveoptions) | 指定文档在文件中保存的选项。 |
 
 ### save(String fileName, int format) {#save-java.lang.String-int-}
@@ -394,8 +394,8 @@ public void save(String fileName, int format)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
-| format | int | 保存文档的格式。 |
+| fileName | java.lang.String | 文件的完整名称。如果具有指定完整名称的文件已存在，则会覆盖现有文件。 |
+| format | int | 用于保存文档的格式。 |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```

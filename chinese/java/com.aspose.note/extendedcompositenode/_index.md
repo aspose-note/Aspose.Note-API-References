@@ -23,7 +23,7 @@ public class ExtendedCompositeNode extends ExtendedApsNode
 
 | 方法 | 描述 |
 | --- | --- |
-| [add(ExtendedApsNode extendedApsNode)](#add-com.aspose.note.ExtendedApsNode-) | 将 `extendedApsNode` 添加到内部节点列表中。 |
+| [add(ExtendedApsNode extendedApsNode)](#add-com.aspose.note.ExtendedApsNode-) | 将 `extendedApsNode` 添加到节点的内部列表中。 |
 | [addToCompositeNode(ApsCompositeNode compositeNode)](#addToCompositeNode-com.aspose.foundation.rendering.ApsCompositeNode-) | 将此节点添加到给定的 `compositeNode`。 |
 | [applyPlaneTransform(System.Drawing.PointF transformVector)](#applyPlaneTransform-com.aspose.ms.System.Drawing.PointF-) | 应用平面变换，将节点在 x 和 y 平面上移动。 |
 | [applyScaleTransform(float scaleTransform)](#applyScaleTransform-float-) | 对节点应用缩放。 |
@@ -43,7 +43,7 @@ public final void add(ExtendedApsNode extendedApsNode)
 ```
 
 
-将 `extendedApsNode` 添加到内部节点列表中。
+将 `extendedApsNode` 添加到节点的内部列表中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -87,7 +87,7 @@ public void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scaleTransform | float | 用于转换的比例因子。 |
+| scaleTransform | float | 转换的比例因子。 |
 
 ### getApsNodes() {#getApsNodes--}
 ```

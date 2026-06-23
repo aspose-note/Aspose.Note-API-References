@@ -1,7 +1,7 @@
 ---
 title: "NoteTask"
 second_title: "Aspose.Note for Java API 参考"
-description: "表示笔记任务。"
+description: "表示一个笔记任务。"
 type: docs
 weight: 55
 url: /zh/java/com.aspose.note/notetask/
@@ -13,23 +13,23 @@ java.lang.Object, com.aspose.note.TagExtended, [com.aspose.note.CheckBox](../../
 public final class NoteTask extends CheckBox
 ```
 
-表示笔记任务。
+表示一个笔记任务。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [createCustomFollowUpDate(Date dueDate)](#createCustomFollowUpDate-java.util.Date-) | 创建一个带有 NoFollowUpDateFlag 图标和指定截止日期的新笔记任务。 |
-| [createFollowUpNextWeek()](#createFollowUpNextWeek--) | * 创建一个带有 FollowUpNextWeekFlag 图标的新笔记标签。 |
-| [createFollowUpThisWeek()](#createFollowUpThisWeek--) | * 创建一个带有 FollowUpThisWeekFlag 图标的新笔记标签。 |
-| [createFollowUpToday()](#createFollowUpToday--) | * 创建一个带有 FollowUpTodayFlag 图标的新笔记标签。 |
-| [createFollowUpTomorrow()](#createFollowUpTomorrow--) | * 创建一个带有 FollowUpTomorrowFlag 图标的新笔记标签。 |
-| [createNoFollowUpDate()](#createNoFollowUpDate--) | * 创建一个带有 NoFollowUpDateFlag 图标的新笔记标签。 |
+| [createFollowUpNextWeek()](#createFollowUpNextWeek--) | \* 创建一个带有 FollowUpNextWeekFlag 图标的新笔记标签。 |
+| [createFollowUpThisWeek()](#createFollowUpThisWeek--) | \* 创建一个带有 FollowUpThisWeekFlag 图标的新笔记标签。 |
+| [createFollowUpToday()](#createFollowUpToday--) | \* 创建一个带有 FollowUpTodayFlag 图标的新笔记标签。 |
+| [createFollowUpTomorrow()](#createFollowUpTomorrow--) | \* 创建一个带有 FollowUpTomorrowFlag 图标的新笔记标签。 |
+| [createNoFollowUpDate()](#createNoFollowUpDate--) | \* 创建一个带有 NoFollowUpDateFlag 图标的新笔记标签。 |
 | [equals(NoteTask other)](#equals-com.aspose.note.NoteTask-) | 确定指定的对象是否等于当前对象。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定的对象是否等于当前对象。 |
 | [getDueDate()](#getDueDate--) | 获取或设置截止日期。 |
 | [getIcon()](#getIcon--) | 获取或设置图标。 |
 | [getLabel()](#getLabel--) |  |
-| [hashCode()](#hashCode--) | 作为该类型的哈希函数。 |
+| [hashCode()](#hashCode--) | 用作该类型的哈希函数。 |
 | [setDueDate(Date value)](#setDueDate-java.util.Date-) | 获取或设置截止日期。 |
 | [setOpen()](#setOpen--) | 将标签设置为打开状态。 |
 ### createCustomFollowUpDate(Date dueDate) {#createCustomFollowUpDate-java.util.Date-}
@@ -53,7 +53,7 @@ public static NoteTask createFollowUpNextWeek()
 ```
 
 
-* 创建一个带有 FollowUpNextWeekFlag 图标的新笔记标签。
+\* 创建一个带有 FollowUpNextWeekFlag 图标的新笔记标签。
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -63,7 +63,7 @@ public static NoteTask createFollowUpThisWeek()
 ```
 
 
-* 创建一个带有 FollowUpThisWeekFlag 图标的新笔记标签。
+\* 创建一个带有 FollowUpThisWeekFlag 图标的新笔记标签。
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -73,7 +73,7 @@ public static NoteTask createFollowUpToday()
 ```
 
 
-* 创建一个带有 FollowUpTodayFlag 图标的新笔记标签。
+\* 创建一个带有 FollowUpTodayFlag 图标的新笔记标签。
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -83,7 +83,7 @@ public static NoteTask createFollowUpTomorrow()
 ```
 
 
-* 创建一个带有 FollowUpTomorrowFlag 图标的新笔记标签。
+\* 创建一个带有 FollowUpTomorrowFlag 图标的新笔记标签。
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -93,7 +93,7 @@ public static NoteTask createNoFollowUpDate()
 ```
 
 
-* 创建一个带有 NoFollowUpDateFlag 图标的新笔记标签。
+\* 创建一个带有 NoFollowUpDateFlag 图标的新笔记标签。
 
 **Returns:**
 [NoteTask](../../com.aspose.note/notetask) - The [NoteTask](../../com.aspose.note/notetask).
@@ -111,7 +111,7 @@ public boolean equals(NoteTask other)
 | other | [NoteTask](../../com.aspose.note/notetask) | 对象。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -123,10 +123,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 对象 | java.lang.Object | 对象。 |
+| obj | java.lang.Object | 对象。 |
 
 **Returns:**
-boolean - 该 `bool`。
+boolean - `bool`。
 ### getDueDate() {#getDueDate--}
 ```
 public Date getDueDate()
@@ -147,7 +147,7 @@ public int getIcon()
 
 获取或设置图标。
 
-值：该 [TagIcon](../../com.aspose.note.infrastructure/tagicon)。
+值： [TagIcon](../../com.aspose.note.infrastructure/tagicon)。
 
 **Returns:**
 int
@@ -167,10 +167,10 @@ public int hashCode()
 ```
 
 
-作为该类型的哈希函数。
+用作该类型的哈希函数。
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### setDueDate(Date value) {#setDueDate-java.util.Date-}
 ```
 public void setDueDate(Date value)

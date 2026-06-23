@@ -1,7 +1,7 @@
 ---
 title: "NotebookPdfSaveOptions"
 second_title: "Aspose.Note for Java API 参考"
-description: "在将笔记本页面渲染为 PDF 时允许指定附加选项。"
+description: "在将笔记本页面渲染为 PDF 时允许指定额外选项。"
 type: docs
 weight: 60
 url: /zh/java/com.aspose.note/notebookpdfsaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.note.NotebookSaveOptions](../../com.aspose.note/no
 public class NotebookPdfSaveOptions extends NotebookSaveOptionsGeneric<PdfSaveOptions>
 ```
 
-在将笔记本页面渲染为 PDF 时允许指定附加选项。
+在将笔记本页面渲染为 PDF 时允许指定额外选项。
 ## 构造函数
 
 | 构造函数 | 描述 |

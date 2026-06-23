@@ -1,7 +1,7 @@
 ---
 title: "Table"
 second_title: "Aspose.Note for Java API 参考"
-description: "表示一个表格。"
+description: "表示一个表。"
 type: docs
 weight: 87
 url: /zh/java/com.aspose.note/table/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspos
 public final class Table extends CompositeNode<TableRow> implements IOutlineElementChildNode, ITaggable
 ```
 
-表示一个表格。
+表示一个表。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -30,8 +30,8 @@ public final class Table extends CompositeNode<TableRow> implements IOutlineElem
 | [getColumns()](#getColumns--) | 获取表的列。 |
 | [getLastModifiedTime()](#getLastModifiedTime--) | 获取或设置最后修改时间。 |
 | [getTags()](#getTags--) | 获取表的所有标签列表。 |
-| [isBordersVisible()](#isBordersVisible--) | 获取指示表格边框是否可见的值。 |
-| [setBordersVisible(boolean value)](#setBordersVisible-boolean-) | 设置指示表格边框是否可见的值。 |
+| [isBordersVisible()](#isBordersVisible--) | 获取指示表边框是否可见的值。 |
+| [setBordersVisible(boolean value)](#setBordersVisible-boolean-) | 设置指示表边框是否可见的值。 |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | 获取或设置最后修改时间。 |
 ### Table() {#Table--}
 ```
@@ -90,7 +90,7 @@ public boolean isBordersVisible()
 ```
 
 
-获取指示表格边框是否可见的值。
+获取指示表边框是否可见的值。
 
 **Returns:**
 boolean
@@ -100,7 +100,7 @@ public void setBordersVisible(boolean value)
 ```
 
 
-设置指示表格边框是否可见的值。
+设置指示表边框是否可见的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

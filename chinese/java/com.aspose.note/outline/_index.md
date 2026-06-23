@@ -1,7 +1,7 @@
 ---
 title: "大纲"
 second_title: "Aspose.Note for Java API 参考"
-description: "表示大纲。"
+description: "表示一个大纲。"
 type: docs
 weight: 66
 url: /zh/java/com.aspose.note/outline/
@@ -16,12 +16,12 @@ java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspos
 public final class Outline extends IndentatedNode<IOutlineChildNode,Outline> implements IPageChildNode
 ```
 
-表示大纲。
+表示一个大纲。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [Outline()](#Outline--) | 初始化一个新的 [Outline](../../com.aspose.note/outline) 类的实例。 |
+| [Outline()](#Outline--) | 初始化 [Outline](../../com.aspose.note/outline) 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -50,7 +50,7 @@ public Outline()
 ```
 
 
-初始化一个新的 [Outline](../../com.aspose.note/outline) 类的实例。
+初始化 [Outline](../../com.aspose.note/outline) 类的新实例。
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -91,7 +91,7 @@ public int getInternalIndentPosition()
 ```
 
 
-获取在 RgOutlineIndentDistance 数组中求和的项数，以获得缩进大小。
+获取在 RgOutlineIndentDistance 数组中求和的项目数量，以获得缩进大小。
 
 **Returns:**
 int

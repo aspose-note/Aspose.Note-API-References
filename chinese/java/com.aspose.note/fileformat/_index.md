@@ -21,7 +21,7 @@ public final class FileFormat extends System.Enum
 | [OneNote2007](#OneNote2007) | OneNote 2010。 |
 | [OneNote2010](#OneNote2010) | OneNote 2010。 |
 | [OneNoteOnline](#OneNoteOnline) | OneNote Online。 |
-| [Unknown](#Unknown) | 未知文件格式。 |
+| [Unknown](#Unknown) | 未知的文件格式。 |
 ### OneNote2007 {#OneNote2007}
 ```
 public static final int OneNote2007
@@ -52,5 +52,5 @@ public static final int Unknown
 ```
 
 
-未知文件格式。
+未知的文件格式。
 

@@ -27,7 +27,7 @@ Self :
 | 方法 | 描述 |
 | --- | --- |
 | [getIndentPosition()](#getIndentPosition--) | 获取或设置缩进位置。 |
-| [getInternalIndentPosition()](#getInternalIndentPosition--) | 获取在 RgOutlineIndentDistance 数组中求和的项数，以获得缩进大小。 |
+| [getInternalIndentPosition()](#getInternalIndentPosition--) | 获取在 RgOutlineIndentDistance 数组中求和的项目数量，以获得缩进大小。 |
 | [setIndentPosition(byte value)](#setIndentPosition-byte-) | 获取或设置缩进位置。 |
 | [setIndentPosition(int value)](#setIndentPosition-int-) |  |
 ### getIndentPosition() {#getIndentPosition--}
@@ -46,7 +46,7 @@ public int getInternalIndentPosition()
 ```
 
 
-获取在 RgOutlineIndentDistance 数组中求和的项数，以获得缩进大小。
+获取在 RgOutlineIndentDistance 数组中求和的项目数量，以获得缩进大小。
 
 **Returns:**
 int

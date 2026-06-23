@@ -1,7 +1,7 @@
 ---
 title: "ParagraphStyle"
 second_title: "Aspose.Note for Java API 参考"
-description: "如果在集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用的文本样式设置。"
+description: "如果在集合中没有匹配的 TextStyle 对象，或此对象未指定所需设置，则使用的文本样式设置。"
 type: docs
 weight: 75
 url: /zh/java/com.aspose.note/paragraphstyle/
@@ -16,7 +16,7 @@ com.aspose.ms.System.IEquatable, java.lang.Cloneable
 public final class ParagraphStyle extends Style<ParagraphStyle> implements System.IEquatable<ParagraphStyle>, Cloneable
 ```
 
-如果在 [RichText.getStyles](../../com.aspose.note/richtext\#getStyles) 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用的文本样式设置。
+如果在 [RichText.getStyles](../../com.aspose.note/richtext\#getStyles) 集合中没有匹配的 TextStyle 对象，或此对象未指定所需设置，则使用的文本样式设置。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,7 +29,7 @@ public final class ParagraphStyle extends Style<ParagraphStyle> implements Syste
 | [equals(ParagraphStyle other)](#equals-com.aspose.note.ParagraphStyle-) | 确定指定的对象是否等于当前对象。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定的对象是否等于当前对象。 |
 | [getDefault()](#getDefault--) | 获取具有默认设置的 ParagraphStyle。 |
-| [hashCode()](#hashCode--) | 作为该类型的哈希函数。 |
+| [hashCode()](#hashCode--) | 用作该类型的哈希函数。 |
 ### ParagraphStyle() {#ParagraphStyle--}
 ```
 public ParagraphStyle()
@@ -52,7 +52,7 @@ public final boolean equals(ParagraphStyle other)
 | other | [ParagraphStyle](../../com.aspose.note/paragraphstyle) | 对象。 |
 
 **Returns:**
-boolean - 该 `boolean`。
+boolean - `boolean`。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -64,10 +64,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 对象 | java.lang.Object | 对象。 |
+| obj | java.lang.Object | 对象。 |
 
 **Returns:**
-boolean - 该 `boolean`。
+boolean - `boolean`。
 ### getDefault() {#getDefault--}
 ```
 public static ParagraphStyle getDefault()
@@ -84,7 +84,7 @@ public int hashCode()
 ```
 
 
-作为该类型的哈希函数。
+用作该类型的哈希函数。
 
 **Returns:**
-int - 该 `int`。
+int - `int`。

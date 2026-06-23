@@ -1,7 +1,7 @@
 ---
 title: "InkParagraph"
 second_title: "Aspose.Note for Java API 参考"
-description: "表示包含手写文本并具有诸如倾斜书写等附加属性的墨水节点。"
+description: "表示包含手写文本且具有诸如倾斜书写等附加属性的墨水节点。"
 type: docs
 weight: 40
 url: /zh/java/com.aspose.note/inkparagraph/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspos
 public final class InkParagraph extends InkNode implements IOutlineElementChildNode
 ```
 
-表示包含手写文本并具有诸如倾斜书写等附加属性的墨水节点。
+表示包含手写文本且具有诸如倾斜书写等附加属性的墨水节点。
 ## 方法
 
 | 方法 | 描述 |
@@ -33,5 +33,5 @@ public void accept(DocumentVisitor visitor)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | 从 [DocumentVisitor](../../com.aspose.note/documentvisitor) 派生的类的对象。 |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | 该对象是从 [DocumentVisitor](../../com.aspose.note/documentvisitor) 派生的类的对象。 |
 

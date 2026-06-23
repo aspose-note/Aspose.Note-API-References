@@ -30,14 +30,14 @@ public final class Image extends CompositeNode<Loop> implements IPageChildNode, 
 | --- | --- |
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | 接受节点的访问者。 |
 | [getAlignment()](#getAlignment--) | 获取对齐方式。 |
-| [getAlternativeTextDescription()](#getAlternativeTextDescription--) | 获取图像的主体替代文本。 |
+| [getAlternativeTextDescription()](#getAlternativeTextDescription--) | 获取图像的正文替代文本。 |
 | [getAlternativeTextTitle()](#getAlternativeTextTitle--) | 获取图像的替代文本标题。 |
 | [getBytes()](#getBytes--) | 获取图像数据存储。 |
 | [getFileName()](#getFileName--) | 获取文件名。 |
 | [getFilePath()](#getFilePath--) | 获取图像文件的路径。 |
 | [getFormat()](#getFormat--) | 获取图像的格式。 |
 | [getHeight()](#getHeight--) | 获取高度。 |
-| [getHorizontalOffset()](#getHorizontalOffset--) | 获取水平偏移。 |
+| [getHorizontalOffset()](#getHorizontalOffset--) | 获取水平偏移量。 |
 | [getHyperlinkUrl()](#getHyperlinkUrl--) | 获取与图像关联的超链接。 |
 | [getLastModifiedTime()](#getLastModifiedTime--) | 获取最后修改时间。 |
 | [getOriginalHeight()](#getOriginalHeight--) | 获取原始高度。 |
@@ -46,9 +46,9 @@ public final class Image extends CompositeNode<Loop> implements IPageChildNode, 
 | [getVerticalOffset()](#getVerticalOffset--) | 获取垂直偏移量。 |
 | [getWidth()](#getWidth--) | 获取宽度。 |
 | [isBackground()](#isBackground--) | 获取图像是否为背景图像。 |
-| [replace(Image newImage)](#replace-com.aspose.note.Image-) | 用提供的 Image 对象中的数据替换当前图像数据。 |
+| [replace(Image newImage)](#replace-com.aspose.note.Image-) | 使用提供的 Image 对象中的数据替换当前图像数据。 |
 | [setAlignment(int value)](#setAlignment-int-) | 设置对齐方式。 |
-| [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | 设置图像的主体替代文本。 |
+| [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | 设置图像的正文替代文本。 |
 | [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | 设置图像的替代文本标题。 |
 | [setBackground(boolean value)](#setBackground-boolean-) | 获取图像是否为背景图像。 |
 | [setHeight(float value)](#setHeight-float-) | 设置高度。 |
@@ -68,7 +68,7 @@ public Image(String path)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 路径 | java.lang.String | 一个包含用于创建 `Image` 的文件路径的字符串。 |
+| path | java.lang.String | 一个包含用于创建 `Image` 的文件路径的字符串。 |
 
 ### Image(String fileName, InputStream imageStream) {#Image-java.lang.String-java.io.InputStream-}
 ```
@@ -81,7 +81,7 @@ public Image(String fileName, InputStream imageStream)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件名 | java.lang.String | 图像的名称。 |
+| fileName | java.lang.String | 图像的名称。 |
 | imageStream | java.io.InputStream | 包含图像的流。 |
 
 ### Image() {#Image--}
@@ -121,7 +121,7 @@ public final String getAlternativeTextDescription()
 ```
 
 
-获取图像的主体替代文本。
+获取图像的正文替代文本。
 
 **Returns:**
 java.lang.String
@@ -191,7 +191,7 @@ public float getHorizontalOffset()
 ```
 
 
-获取水平偏移。
+获取水平偏移量。
 
 **Returns:**
 float
@@ -281,7 +281,7 @@ public void replace(Image newImage)
 ```
 
 
-用提供的 Image 对象中的数据替换当前图像数据。
+使用提供的 Image 对象中的数据替换当前图像数据。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -307,7 +307,7 @@ public final void setAlternativeTextDescription(String value)
 ```
 
 
-设置图像的主体替代文本。
+设置图像的正文替代文本。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

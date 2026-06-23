@@ -48,7 +48,7 @@ public DocumentPrintAttributeSet(int copies)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 副本 | int | 要打印的文档副本数量。 |
+| copies | int | 要打印的文档副本数量。 |
 
 ### DocumentPrintAttributeSet(String printerName, int copies) {#DocumentPrintAttributeSet-java.lang.String-int-}
 ```
@@ -62,7 +62,7 @@ public DocumentPrintAttributeSet(String printerName, int copies)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | printerName | java.lang.String | 打印机的名称。 |
-| 副本 | int | 要打印的文档副本数量。 |
+| copies | int | 要打印的文档副本数量。 |
 
 ### DocumentPrintAttributeSet(String printerName) {#DocumentPrintAttributeSet-java.lang.String-}
 ```
@@ -152,7 +152,7 @@ public void setDuplex(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | boolean | true 等价于 Sides.DUPLEX 的设置，false 等价于 Sides.ONE\_SIDED 的设置 |
+| 值 | boolean | true 等价于 Sides.DUPLEX 的设置，false 等价于 Sides.ONE\\_SIDED 的设置 |
 
 ### setLandscape(boolean value) {#setLandscape-boolean-}
 ```
@@ -191,8 +191,8 @@ public void setPrintRange(int from, int to)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 从 | int | 第第一页。 |
-| 至 | int | 最后一页。 |
+| from | int | 第一页。 |
+| to | int | 最后一页。 |
 
 ### setPrinterName(String printerName) {#setPrinterName-java.lang.String-}
 ```

@@ -28,7 +28,7 @@ public class ExtendedApsPath extends ExtendedApsNode
 | [applyScaleTransform(float scaleTransform)](#applyScaleTransform-float-) | 对节点应用缩放。 |
 | [getBottom()](#getBottom--) | 获取底部。 |
 | [getCopy()](#getCopy--) | 创建此节点的完整副本。 |
-| [getTop()](#getTop--) | 获取顶部。 |
+| [getTop()](#getTop--) | 获取字形的顶部。 |
 ### ExtendedApsPath(ApsPath internalApsPath) {#ExtendedApsPath-com.aspose.foundation.rendering.ApsPath-}
 ```
 public ExtendedApsPath(ApsPath internalApsPath)
@@ -79,7 +79,7 @@ public void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scaleTransform | float | 用于转换的比例因子。 |
+| scaleTransform | float | 转换的比例因子。 |
 
 ### getBottom() {#getBottom--}
 ```
@@ -107,7 +107,7 @@ public float getTop()
 ```
 
 
-获取顶部。
+获取字形的顶部。
 
 **Returns:**
 float

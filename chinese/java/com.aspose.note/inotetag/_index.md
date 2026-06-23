@@ -13,7 +13,7 @@ url: /zh/java/com.aspose.note/inotetag/
 public interface INoteTag extends ITag
 ```
 
-用于笔记标签的接口（即不关联 Outlook 任务的标签）。
+用于笔记标签的接口（即不与 Outlook 任务关联的标签）。
 ## 方法
 
 | 方法 | 描述 |

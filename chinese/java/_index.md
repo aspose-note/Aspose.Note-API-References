@@ -10,5 +10,5 @@ is_root: true
 ## Packages
 | 包 | 描述 |
 | --- | --- |
-| [com.aspose.note](./com.aspose.note) | ``` com.aspose.note ``` 命名空间包含表示文档结构的类。 |
-| [com.aspose.note.fonts](./com.aspose.note.fonts) | ``` com.aspose.note.fonts ``` 命名空间包含提供对文档字体环境进行操作功能的类。 |
+| [com.aspose.note](./com.aspose.note) | 该 \\`\\`\\` com.aspose.note \\`\\`\\` 命名空间包含表示文档结构的类。 |
+| [com.aspose.note.fonts](./com.aspose.note.fonts) | 该 \\`\\`\\` com.aspose.note.fonts \\`\\`\\` 命名空间包含提供用于操作文档字体环境的功能的类。 |

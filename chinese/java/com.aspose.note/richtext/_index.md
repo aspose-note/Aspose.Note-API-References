@@ -37,8 +37,8 @@ public class RichText extends Node implements IOutlineElementChildNode, ITaggabl
 | [getLength()](#getLength--) |  |
 | [getLineSpacing()](#getLineSpacing--) | 获取行间距。 |
 | [getParagraphStyle()](#getParagraphStyle--) | 获取段落样式。 |
-| [getSpaceAfter()](#getSpaceAfter--) | 获取后面的最小间距。 |
-| [getSpaceBefore()](#getSpaceBefore--) | 获取前面的最小间距。 |
+| [getSpaceAfter()](#getSpaceAfter--) | 获取后方的最小间距。 |
+| [getSpaceBefore()](#getSpaceBefore--) | 获取前方的最小间距。 |
 | [getStyles()](#getStyles--) | 获取样式。 |
 | [getTags()](#getTags--) | 获取段落的所有标签列表。 |
 | [getText()](#getText--) | 获取文本。 |
@@ -53,22 +53,22 @@ public class RichText extends Node implements IOutlineElementChildNode, ITaggabl
 | [indexOf(String value, short comparisonType)](#indexOf-java.lang.String-short-) | 返回当前实例中指定字符串首次出现的零基索引。 |
 | [indexOf_Rename_Namesake(String value, int startIndex, short comparisonType)](#indexOf-Rename-Namesake-java.lang.String-int-short-) | 返回当前实例中指定字符串首次出现的零基索引。 |
 | [insert(int startIndex, String value)](#insert-int-java.lang.String-) | 在此实例的指定索引位置插入指定字符串。 |
-| [insert(int startIndex, String value, TextStyle style)](#insert-int-java.lang.String-com.aspose.note.TextStyle-) | 在此实例的指定索引位置插入带有指定样式的指定字符串。 |
+| [insert(int startIndex, String value, TextStyle style)](#insert-int-java.lang.String-com.aspose.note.TextStyle-) | 在此实例的指定索引位置插入具有指定样式的指定字符串。 |
 | [iterator()](#iterator--) |  |
 | [remove(int startIndex)](#remove-int-) | 从指定位置开始，删除当前实例中一直到最后位置的所有字符。 |
 | [remove(int startIndex, int count)](#remove-int-int-) | 从指定位置开始，删除当前实例中指定数量的字符。 |
-| [replace(char oldChar, char newChar)](#replace-char-char-) | 将此实例中所有指定 Unicode 字符的出现替换为另一个指定的 Unicode 字符。 |
-| [replace(String oldValue, String newValue)](#replace-java.lang.String-java.lang.String-) | 将当前实例中所有指定字符串的出现替换为另一个指定字符串。 |
-| [replace(String oldValue, String newValue, TextStyle style)](#replace-java.lang.String-java.lang.String-com.aspose.note.TextStyle-) | 将当前实例中所有指定字符串的出现替换为另一个指定样式的指定字符串。 |
+| [replace(char oldChar, char newChar)](#replace-char-char-) | 将此实例中所有指定的 Unicode 字符替换为另一个指定的 Unicode 字符。 |
+| [replace(String oldValue, String newValue)](#replace-java.lang.String-java.lang.String-) | 将当前实例中所有指定的字符串替换为另一个指定的字符串。 |
+| [replace(String oldValue, String newValue, TextStyle style)](#replace-java.lang.String-java.lang.String-com.aspose.note.TextStyle-) | 将当前实例中所有指定的字符串替换为具有指定样式的另一个指定字符串。 |
 | [setAlignment(int value)](#setAlignment-int-) | 设置对齐方式。 |
 | [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | 设置最后修改时间。 |
 | [setLineSpacing(float value)](#setLineSpacing-float-) |  |
 | [setLineSpacing(Float value)](#setLineSpacing-java.lang.Float-) | 设置行间距。 |
 | [setParagraphStyle(ParagraphStyle value)](#setParagraphStyle-com.aspose.note.ParagraphStyle-) | 设置段落样式。 |
 | [setSpaceAfter(float value)](#setSpaceAfter-float-) |  |
-| [setSpaceAfter(Float value)](#setSpaceAfter-java.lang.Float-) | 设置后面的最小间距。 |
+| [setSpaceAfter(Float value)](#setSpaceAfter-java.lang.Float-) | 设置后方的最小间距。 |
 | [setSpaceBefore(float value)](#setSpaceBefore-float-) |  |
-| [setSpaceBefore(Float value)](#setSpaceBefore-java.lang.Float-) | 设置之前的最小空间量。 |
+| [setSpaceBefore(Float value)](#setSpaceBefore-java.lang.Float-) | 设置前面的最小空格量。 |
 | [setText(String value)](#setText-java.lang.String-) | 设置文本。 |
 | [trim()](#trim--) | 删除所有前导和尾随的空白字符。 |
 | [trim(char trimChar)](#trim-char-) | 删除所有前导和尾随的字符实例。 |
@@ -98,7 +98,7 @@ public void accept(DocumentVisitor visitor)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | 从 [DocumentVisitor](../../com.aspose.note/documentvisitor) 派生的类的对象。 |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | 该对象是从 [DocumentVisitor](../../com.aspose.note/documentvisitor) 派生的类的对象。 |
 
 ### append(String value) {#append-java.lang.String-}
 ```
@@ -228,7 +228,7 @@ public Float getSpaceAfter()
 ```
 
 
-获取后面的最小间距。
+获取后方的最小间距。
 
 **Returns:**
 java.lang.Float
@@ -238,7 +238,7 @@ public Float getSpaceBefore()
 ```
 
 
-获取前面的最小间距。
+获取前方的最小间距。
 
 **Returns:**
 java.lang.Float
@@ -293,10 +293,10 @@ public final int indexOf(char value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | char | 该值。 |
+| 值 | char | 值。 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf(char value, int startIndex) {#indexOf-char-int-}
 ```
 public final int indexOf(char value, int startIndex)
@@ -308,11 +308,11 @@ public final int indexOf(char value, int startIndex)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | char | 该值。 |
+| 值 | char | 值。 |
 | startIndex | int | 起始搜索位置 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf(char value, int startIndex, int count) {#indexOf-char-int-int-}
 ```
 public final int indexOf(char value, int startIndex, int count)
@@ -324,12 +324,12 @@ public final int indexOf(char value, int startIndex, int count)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | char | 该值。 |
+| 值 | char | 值。 |
 | startIndex | int | 起始搜索位置 |
 | count | int | 计数。 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf(String value) {#indexOf-java.lang.String-}
 ```
 public final int indexOf(String value)
@@ -341,10 +341,10 @@ public final int indexOf(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf(String value, int startIndex) {#indexOf-java.lang.String-int-}
 ```
 public final int indexOf(String value, int startIndex)
@@ -356,11 +356,11 @@ public final int indexOf(String value, int startIndex)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 | startIndex | int | 起始搜索位置 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf(String value, int startIndex, int count) {#indexOf-java.lang.String-int-int-}
 ```
 public final int indexOf(String value, int startIndex, int count)
@@ -372,12 +372,12 @@ public final int indexOf(String value, int startIndex, int count)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 | startIndex | int | 起始搜索位置 |
 | count | int | 计数。 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf(String value, int startIndex, int count, short comparisonType) {#indexOf-java.lang.String-int-int-short-}
 ```
 public final int indexOf(String value, int startIndex, int count, short comparisonType)
@@ -389,46 +389,46 @@ public final int indexOf(String value, int startIndex, int count, short comparis
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 | startIndex | int | 起始搜索位置 |
 | count | int | 计数。 |
 | comparisonType | short | 用于指定字符串的搜索类型 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf(String value, short comparisonType) {#indexOf-java.lang.String-short-}
 ```
 public final int indexOf(String value, short comparisonType)
 ```
 
 
-返回当前实例中指定字符串首次出现的零基索引。参数指定用于指定字符串的搜索类型。
+返回当前实例中指定字符串首次出现的零基索引。参数指定用于该字符串的搜索类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 | comparisonType | short | 用于指定字符串的搜索类型 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### indexOf_Rename_Namesake(String value, int startIndex, short comparisonType) {#indexOf-Rename-Namesake-java.lang.String-int-short-}
 ```
 public final int indexOf_Rename_Namesake(String value, int startIndex, short comparisonType)
 ```
 
 
-返回当前实例中指定字符串首次出现的零基索引。参数指定当前字符串的起始搜索位置以及用于指定字符串的搜索类型。
+返回当前实例中指定字符串首次出现的零基索引。参数指定当前字符串的起始搜索位置以及用于该字符串的搜索类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 | startIndex | int | 起始搜索位置 |
 | comparisonType | short | 用于指定字符串的搜索类型 |
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### insert(int startIndex, String value) {#insert-int-java.lang.String-}
 ```
 public final RichText insert(int startIndex, String value)
@@ -441,7 +441,7 @@ public final RichText insert(int startIndex, String value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | int | 起始索引。 |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 
 **Returns:**
 [RichText](../../com.aspose.note/richtext) - The [RichText](../../com.aspose.note/richtext).
@@ -451,13 +451,13 @@ public final RichText insert(int startIndex, String value, TextStyle style)
 ```
 
 
-在此实例的指定索引位置插入带有指定样式的指定字符串。
+在此实例的指定索引位置插入具有指定样式的指定字符串。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | int | 起始索引。 |
-| 值 | java.lang.String | 该值。 |
+| 值 | java.lang.String | 值。 |
 | style | [TextStyle](../../com.aspose.note/textstyle) | 样式。 |
 
 **Returns:**
@@ -509,7 +509,7 @@ public final RichText replace(char oldChar, char newChar)
 ```
 
 
-将此实例中所有指定 Unicode 字符的出现替换为另一个指定的 Unicode 字符。
+将此实例中所有指定的 Unicode 字符替换为另一个指定的 Unicode 字符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -525,7 +525,7 @@ public final RichText replace(String oldValue, String newValue)
 ```
 
 
-将当前实例中所有指定字符串的出现替换为另一个指定字符串。
+将当前实例中所有指定的字符串替换为另一个指定的字符串。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -541,7 +541,7 @@ public final RichText replace(String oldValue, String newValue, TextStyle style)
 ```
 
 
-将当前实例中所有指定字符串的出现替换为另一个指定样式的指定字符串。
+将当前实例中所有指定的字符串替换为具有指定样式的另一个指定字符串。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -610,7 +610,7 @@ public final void setParagraphStyle(ParagraphStyle value)
 ```
 
 
-设置段落样式。如果在[getStyles](../../com.aspose.note/richtext\#getStyles)集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用这些设置。
+设置段落样式。如果在 [getStyles](../../com.aspose.note/richtext\#getStyles) 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需的设置，则使用这些设置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -636,7 +636,7 @@ public void setSpaceAfter(Float value)
 ```
 
 
-设置后面的最小间距。
+设置后方的最小间距。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -662,7 +662,7 @@ public void setSpaceBefore(Float value)
 ```
 
 
-设置之前的最小空间量。
+设置前面的最小空格量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -675,7 +675,7 @@ public final void setText(String value)
 ```
 
 
-设置文本。字符串不得包含值为 10 的字符（换行符）。
+设置文本。字符串不得包含值为 10（换行）的任何字符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

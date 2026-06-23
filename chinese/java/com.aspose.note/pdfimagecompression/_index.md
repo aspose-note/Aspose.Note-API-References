@@ -1,7 +1,7 @@
 ---
 title: "PdfImageCompression"
 second_title: "Aspose.Note for Java API 参考"
-description: "指定在 PDF 文件中应用于图像的压缩类型。"
+description: "指定在 PDF 文件中对图像应用的压缩类型。"
 type: docs
 weight: 76
 url: /zh/java/com.aspose.note/pdfimagecompression/
@@ -13,7 +13,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class PdfImageCompression extends System.Enum
 ```
 
-指定在 PDF 文件中应用于图像的压缩类型。
+指定在 PDF 文件中对图像应用的压缩类型。
 ## 字段
 
 | 字段 | 描述 |

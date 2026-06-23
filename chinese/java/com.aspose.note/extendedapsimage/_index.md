@@ -30,7 +30,7 @@ public class ExtendedApsImage extends ExtendedApsNode
 | [getCopy()](#getCopy--) | 创建此节点的完整副本。 |
 | [getOrigin()](#getOrigin--) | 获取原点。 |
 | [getSize()](#getSize--) | 获取大小。 |
-| [getTop()](#getTop--) | 获取顶部。 |
+| [getTop()](#getTop--) | 获取字形的顶部。 |
 | [isBackground()](#isBackground--) | 获取图像是否为背景图像。 |
 ### ExtendedApsImage(ApsImage internalImage) {#ExtendedApsImage-com.aspose.foundation.rendering.ApsImage-}
 ```
@@ -43,7 +43,7 @@ public ExtendedApsImage(ApsImage internalImage)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| internalImage | com.aspose.foundation.rendering.ApsImage | 图像。 |
+| internalImage | com.aspose.foundation.rendering.ApsImage | 该图像。 |
 
 ### addToCompositeNode(ApsCompositeNode compositeNode) {#addToCompositeNode-com.aspose.foundation.rendering.ApsCompositeNode-}
 ```
@@ -82,7 +82,7 @@ public void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scaleTransform | float | 用于转换的比例因子。 |
+| scaleTransform | float | 转换的比例因子。 |
 
 ### getBottom() {#getBottom--}
 ```
@@ -130,7 +130,7 @@ public float getTop()
 ```
 
 
-获取顶部。
+获取字形的顶部。
 
 **Returns:**
 float

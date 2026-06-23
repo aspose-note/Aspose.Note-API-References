@@ -29,8 +29,8 @@ T :
 | [getFontName()](#getFontName--) | 获取或设置字体名称。 |
 | [getFontSize()](#getFontSize--) | 获取或设置字体大小。 |
 | [getFontStyle()](#getFontStyle--) | 获取字体样式。 |
-| [getHighlight()](#getHighlight--) | 获取或设置突出显示颜色。 |
-| [hashCode()](#hashCode--) | 作为该类型的哈希函数。 |
+| [getHighlight()](#getHighlight--) | 获取或设置高亮颜色。 |
+| [hashCode()](#hashCode--) | 用作该类型的哈希函数。 |
 | [isBold()](#isBold--) | 获取或设置一个值，指示文本样式是否为粗体。 |
 | [isItalic()](#isItalic--) | 获取或设置一个值，指示文本样式是否为斜体。 |
 | [isStrikethrough()](#isStrikethrough--) | 获取或设置一个值，指示文本样式是否为删除线。 |
@@ -41,7 +41,7 @@ T :
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | 获取或设置字体颜色。 |
 | [setFontName(String value)](#setFontName-java.lang.String-) | 获取或设置字体名称。 |
 | [setFontSize(Integer value)](#setFontSize-java.lang.Integer-) | 获取或设置字体大小。 |
-| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | 获取或设置突出显示颜色。 |
+| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | 获取或设置高亮颜色。 |
 | [setItalic(boolean value)](#setItalic-boolean-) | 获取或设置一个值，指示文本样式是否为斜体。 |
 | [setStrikethrough(boolean value)](#setStrikethrough-boolean-) | 获取或设置一个值，指示文本样式是否为删除线。 |
 | [setSubscript(boolean value)](#setSubscript-boolean-) | 获取或设置一个值，指示文本样式是否为下标。 |
@@ -99,7 +99,7 @@ public final Color getHighlight()
 ```
 
 
-获取或设置突出显示颜色。
+获取或设置高亮颜色。
 
 **Returns:**
 java.awt.Color
@@ -109,10 +109,10 @@ public int hashCode()
 ```
 
 
-作为该类型的哈希函数。
+用作该类型的哈希函数。
 
 **Returns:**
-int - 该 `int`。
+int - `int`。
 ### isBold() {#isBold--}
 ```
 public final boolean isBold()
@@ -239,7 +239,7 @@ public final T setHighlight(Color value)
 ```
 
 
-获取或设置突出显示颜色。
+获取或设置高亮颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
