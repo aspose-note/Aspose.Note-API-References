@@ -1,7 +1,7 @@
 ---
 title: "IIndentatedNode"
-second_title: "مرجع Aspose.Note for Java API"
-description: "الواجهة للعقد ذات المسافة البادئة النسبية للعقد الفرعية."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "الواجهة للعقد ذات الإزاحة النسبية للعقد الفرعية."
 type: docs
 weight: 101
 url: /ar/java/com.aspose.note/iindentatednode/
@@ -10,21 +10,21 @@ url: /ar/java/com.aspose.note/iindentatednode/
 public interface IIndentatedNode
 ```
 
-الواجهة للعقد ذات المسافة البادئة النسبية للعقد الفرعية.
+الواجهة للعقد ذات الإزاحة النسبية للعقد الفرعية.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [&lt;T&gt;setIndentPosition(byte value)](#-T-setIndentPosition-byte-) | يحصل أو يضبط موضع الإزاحة. |
-| [&lt;T&gt;setIndentPosition(int value)](#-T-setIndentPosition-int-) | يحصل أو يضبط موضع الإزاحة. |
-| [getIndentPosition()](#getIndentPosition--) | يحصل أو يضبط موضع الإزاحة. |
+| [&lt;T&gt;setIndentPosition(byte value)](#-T-setIndentPosition-byte-) | يحصل على أو يضبط موضع المسافة البادئة. |
+| [&lt;T&gt;setIndentPosition(int value)](#-T-setIndentPosition-int-) | يحصل على أو يضبط موضع المسافة البادئة. |
+| [getIndentPosition()](#getIndentPosition--) | يحصل على أو يضبط موضع المسافة البادئة. |
 ### &lt;T&gt;setIndentPosition(byte value) {#-T-setIndentPosition-byte-}
 ```
 public abstract T <T>setIndentPosition(byte value)
 ```
 
 
-يحصل أو يضبط موضع الإزاحة.
+يحصل على أو يضبط موضع المسافة البادئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -39,7 +39,7 @@ public abstract T <T>setIndentPosition(int value)
 ```
 
 
-يحصل أو يضبط موضع الإزاحة.
+يحصل على أو يضبط موضع المسافة البادئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -54,7 +54,7 @@ public abstract byte getIndentPosition()
 ```
 
 
-يحصل أو يضبط موضع الإزاحة.
+يحصل على أو يضبط موضع المسافة البادئة.
 
 **Returns:**
 byte

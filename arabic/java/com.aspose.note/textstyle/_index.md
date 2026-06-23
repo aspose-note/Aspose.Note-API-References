@@ -1,6 +1,6 @@
 ---
 title: "TextStyle"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يحدد نمط النص."
 type: docs
 weight: 93
@@ -18,14 +18,14 @@ public final class TextStyle extends Style<TextStyle>
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TextStyle()](#TextStyle--) | يقوم بتهيئة نسخة جديدة من الفئة `TextStyle`. |
+| [TextStyle()](#TextStyle--) | ينشئ مثيلاً جديدًا للفئة `TextStyle`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [equals(TextStyle other)](#equals-com.aspose.note.TextStyle-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [getDefault()](#getDefault--) | يحصل على النمط مع الثقافة "en-US". |
+| [equals(TextStyle other)](#equals-com.aspose.note.TextStyle-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [getDefault()](#getDefault--) | يحصل على النمط مع ثقافة "en-US". |
 | [getDefaultMsOneNoteTitleDateStyle()](#getDefaultMsOneNoteTitleDateStyle--) | يحصل على النمط الافتراضي لتاريخ العنوان في MS OneNote. |
 | [getDefaultMsOneNoteTitleTextStyle()](#getDefaultMsOneNoteTitleTextStyle--) | يحصل على النمط الافتراضي لنص العنوان في MS OneNote. |
 | [getDefaultMsOneNoteTitleTimeStyle()](#getDefaultMsOneNoteTitleTimeStyle--) | يحصل على النمط الافتراضي لوقت العنوان في MS OneNote. |
@@ -34,10 +34,10 @@ public final class TextStyle extends Style<TextStyle>
 | [hashCode()](#hashCode--) | يعمل كدالة تجزئة للنوع. |
 | [isHidden()](#isHidden--) | يحصل على قيمة تشير إلى ما إذا كان نمط النص مخفيًا. |
 | [isHyperlink()](#isHyperlink--) | يحصل على قيمة تشير إلى ما إذا كان نمط النص ارتباطًا تشعبيًا. |
-| [isMathFormatting()](#isMathFormatting--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي. |
-| [setHidden(boolean value)](#setHidden-boolean-) | يضبط قيمة تشير إلى ما إذا كان نمط النص مخفيًا. |
-| [setHyperlink(boolean value)](#setHyperlink-boolean-) | يضبط قيمة تشير إلى ما إذا كان نمط النص ارتباطًا تشعبيًا. |
-| [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | يضبط عنوان الارتباط التشعبي. |
+| [isMathFormatting()](#isMathFormatting--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص تنسيقًا رياضيًا. |
+| [setHidden(boolean value)](#setHidden-boolean-) | يعيّن قيمة تشير إلى ما إذا كان نمط النص مخفيًا. |
+| [setHyperlink(boolean value)](#setHyperlink-boolean-) | يعيّن قيمة تشير إلى ما إذا كان نمط النص ارتباطًا تشعبيًا. |
+| [setHyperlinkAddress(String value)](#setHyperlinkAddress-java.lang.String-) | يعيّن عنوان الارتباط التشعبي. |
 | [setLanguage(Locale value)](#setLanguage-java.util.Locale-) | يضبط لغة النص. |
 | [setMathFormatting(boolean value)](#setMathFormatting-boolean-) | يضبط قيمة تشير إلى ما إذا كان نمط النص هو تنسيق رياضي. |
 ### TextStyle() {#TextStyle--}
@@ -46,7 +46,7 @@ public TextStyle()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `TextStyle`.
+ينشئ مثيلاً جديدًا للفئة `TextStyle`.
 
 ### equals(TextStyle other) {#equals-com.aspose.note.TextStyle-}
 ```
@@ -54,7 +54,7 @@ public boolean equals(TextStyle other)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,29 +62,29 @@ public boolean equals(TextStyle other)
 | other | [TextStyle](../../com.aspose.note/textstyle) | الكائن. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الكائن. |
+| كائن | java.lang.Object | الكائن. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### getDefault() {#getDefault--}
 ```
 public static TextStyle getDefault()
 ```
 
 
-يحصل على النمط مع الثقافة "en-US".
+يحصل على النمط مع ثقافة "en-US".
 
 **Returns:**
 [TextStyle](../../com.aspose.note/textstyle)
@@ -124,7 +124,7 @@ public String getHyperlinkAddress()
 ```
 
 
-يحصل على عنوان الارتباط التشعبي. يجب تعيينه إذا كانت قيمة الخاصية [isHyperlink](../../com.aspose.note/textstyle\#isHyperlink--) صحيحة.
+يحصل على عنوان الارتباط التشعبي. يجب ضبطه إذا كانت قيمة الخاصية [isHyperlink](../../com.aspose.note/textstyle\#isHyperlink--) صحيحة.
 
 **Returns:**
 java.lang.String
@@ -147,7 +147,7 @@ public int hashCode()
 يعمل كدالة تجزئة للنوع.
 
 **Returns:**
-عدد صحيح - الـ `int`.
+عدد صحيح - ال `int`.
 ### isHidden() {#isHidden--}
 ```
 public boolean isHidden()
@@ -174,7 +174,7 @@ public boolean isMathFormatting()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص تنسيقًا رياضيًا.
 
 **Returns:**
 boolean
@@ -184,7 +184,7 @@ public TextStyle setHidden(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان نمط النص مخفيًا.
+يعيّن قيمة تشير إلى ما إذا كان نمط النص مخفيًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -199,7 +199,7 @@ public TextStyle setHyperlink(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان نمط النص ارتباطًا تشعبيًا.
+يعيّن قيمة تشير إلى ما إذا كان نمط النص ارتباطًا تشعبيًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -214,7 +214,7 @@ public TextStyle setHyperlinkAddress(String value)
 ```
 
 
-يضبط عنوان الارتباط التشعبي. يجب تعيينه إذا كانت قيمة الخاصية [isHyperlink](../../com.aspose.note/textstyle\#isHyperlink--) صحيحة.
+يضبط عنوان الارتباط التشعبي. يجب ضبطه إذا كانت قيمة الخاصية [isHyperlink](../../com.aspose.note/textstyle\#isHyperlink--) صحيحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

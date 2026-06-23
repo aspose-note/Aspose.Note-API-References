@@ -1,7 +1,7 @@
 ---
-title: "IndentatedNode"
-second_title: "مرجع Aspose.Note for Java API"
-description: "الفئة الأساسية للعُقد ذات المسافة البادئة النسبية للعُقد الفرعية."
+title: "العقدة المتراجعة"
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "الفئة الأساسية للعُقد ذات الإزاحة النسبية للعُقد الفرعية."
 type: docs
 weight: 37
 url: /ar/java/com.aspose.note/indentatednode/
@@ -16,7 +16,7 @@ com.aspose.note.IIndentatedNodeExtended
 public class IndentatedNode<T,Self> extends CompositeNode<T> implements IIndentatedNodeExtended
 ```
 
-الفئة الأساسية للعُقد ذات المسافة البادئة النسبية للعُقد الفرعية.
+الفئة الأساسية للعُقد ذات الإزاحة النسبية للعُقد الفرعية.
 
 `T`: نوع العناصر في العقدة المركبة.
 
@@ -26,9 +26,9 @@ Self :
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIndentPosition()](#getIndentPosition--) | يحصل أو يضبط موضع الإزاحة. |
+| [getIndentPosition()](#getIndentPosition--) | يحصل على أو يضبط موضع المسافة البادئة. |
 | [getInternalIndentPosition()](#getInternalIndentPosition--) | يحصل على عدد العناصر التي يجب جمعها في مصفوفة RgOutlineIndentDistance للحصول على حجم المسافة البادئة. |
-| [setIndentPosition(byte value)](#setIndentPosition-byte-) | يحصل أو يضبط موضع الإزاحة. |
+| [setIndentPosition(byte value)](#setIndentPosition-byte-) | يحصل على أو يضبط موضع المسافة البادئة. |
 | [setIndentPosition(int value)](#setIndentPosition-int-) |  |
 ### getIndentPosition() {#getIndentPosition--}
 ```
@@ -36,7 +36,7 @@ public final byte getIndentPosition()
 ```
 
 
-يحصل أو يضبط موضع الإزاحة.
+يحصل على أو يضبط موضع المسافة البادئة.
 
 **Returns:**
 byte
@@ -56,7 +56,7 @@ public final Self setIndentPosition(byte value)
 ```
 
 
-يحصل أو يضبط موضع الإزاحة.
+يحصل على أو يضبط موضع المسافة البادئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

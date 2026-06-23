@@ -1,6 +1,6 @@
 ---
 title: "صورة"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل صورة."
 type: docs
 weight: 33
@@ -21,9 +21,9 @@ public final class Image extends CompositeNode<Loop> implements IPageChildNode, 
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Image(String path)](#Image-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `Image`. |
-| [Image(String fileName, InputStream imageStream)](#Image-java.lang.String-java.io.InputStream-) | ينشئ مثيلاً جديداً من الفئة `Image`. |
-| [Image()](#Image--) | ينشئ مثيلاً جديداً من الفئة `Image`. |
+| [Image(String path)](#Image-java.lang.String-) | يُنشئ نسخة جديدة من الفئة `Image`. |
+| [Image(String fileName, InputStream imageStream)](#Image-java.lang.String-java.io.InputStream-) | يُنشئ نسخة جديدة من الفئة `Image`. |
+| [Image()](#Image--) | يُنشئ نسخة جديدة من الفئة `Image`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,13 +42,13 @@ public final class Image extends CompositeNode<Loop> implements IPageChildNode, 
 | [getLastModifiedTime()](#getLastModifiedTime--) | يحصل على وقت التعديل الأخير. |
 | [getOriginalHeight()](#getOriginalHeight--) | يحصل على الارتفاع الأصلي. |
 | [getOriginalWidth()](#getOriginalWidth--) | يحصل على العرض الأصلي. |
-| [getTags()](#getTags--) | يحصل على قائمة بجميع العلامات الخاصة بصورة. |
+| [getTags()](#getTags--) | يحصل على قائمة بجميع العلامات لصورة. |
 | [getVerticalOffset()](#getVerticalOffset--) | يحصل على الإزاحة العمودية. |
 | [getWidth()](#getWidth--) | يحصل على العرض. |
 | [isBackground()](#isBackground--) | يحصل على ما إذا كانت الصورة صورة خلفية. |
 | [replace(Image newImage)](#replace-com.aspose.note.Image-) | يستبدل بيانات الصورة الحالية بالبيانات من كائن Image المقدم. |
 | [setAlignment(int value)](#setAlignment-int-) | يضبط المحاذاة. |
-| [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | يضبط نصًا بديلًا للجسم للصورة. |
+| [setAlternativeTextDescription(String value)](#setAlternativeTextDescription-java.lang.String-) | يضبط نص بديل للجسم للصورة. |
 | [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | يضبط عنوان النص البديل للصورة. |
 | [setBackground(boolean value)](#setBackground-boolean-) | يحصل على ما إذا كانت الصورة صورة خلفية. |
 | [setHeight(float value)](#setHeight-float-) | يضبط الارتفاع. |
@@ -63,12 +63,12 @@ public Image(String path)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `Image`.
+يُنشئ نسخة جديدة من الفئة `Image`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | java.lang.String | سلسلة تحتوي على المسار إلى الملف الذي سيتم إنشاء الـ `Image` منه. |
+| المسار | java.lang.String | سلسلة تحتوي على المسار إلى الملف الذي سيتم إنشاء الـ `Image` منه. |
 
 ### Image(String fileName, InputStream imageStream) {#Image-java.lang.String-java.io.InputStream-}
 ```
@@ -76,12 +76,12 @@ public Image(String fileName, InputStream imageStream)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `Image`.
+يُنشئ نسخة جديدة من الفئة `Image`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | اسم الصورة. |
+| اسم الملف | java.lang.String | اسم الصورة. |
 | imageStream | java.io.InputStream | دفق يحتوي على الصورة. |
 
 ### Image() {#Image--}
@@ -90,7 +90,7 @@ public Image()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `Image`.
+يُنشئ نسخة جديدة من الفئة `Image`.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```
@@ -181,7 +181,7 @@ public final float getHeight()
 ```
 
 
-يحصل على الارتفاع. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote.
+يحصل على الارتفاع. هذا هو الارتفاع الفعلي للصورة في مستند MS OneNote.
 
 **Returns:**
 float
@@ -241,7 +241,7 @@ public final System.Collections.Generic.List<ITag> getTags()
 ```
 
 
-يحصل على قائمة بجميع العلامات الخاصة بصورة.
+يحصل على قائمة بجميع العلامات لصورة.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List&lt;com.aspose.note.ITag&gt;
@@ -261,7 +261,7 @@ public final float getWidth()
 ```
 
 
-يحصل على العرض. هذا هو العرض الحقيقي للصورة في مستند MS OneNote.
+يحصل على العرض. هذا هو العرض الفعلي للصورة في مستند MS OneNote.
 
 **Returns:**
 float
@@ -307,7 +307,7 @@ public final void setAlternativeTextDescription(String value)
 ```
 
 
-يضبط نصًا بديلًا للجسم للصورة.
+يضبط نص بديل للجسم للصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -346,7 +346,7 @@ public final void setHeight(float value)
 ```
 
 
-يضبط الارتفاع. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote.
+يضبط الارتفاع. هذا هو الارتفاع الفعلي للصورة في مستند MS OneNote.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -411,7 +411,7 @@ public final void setWidth(float value)
 ```
 
 
-يضبط العرض. هذا هو العرض الحقيقي للصورة في مستند MS OneNote.
+يضبط العرض. هذا هو العرض الفعلي للصورة في مستند MS OneNote.
 
 **Parameters:**
 | معامل | نوع | الوصف |

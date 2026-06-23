@@ -1,6 +1,6 @@
 ---
 title: "FileFormat"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل تنسيق ملف OneNote."
 type: docs
 weight: 30

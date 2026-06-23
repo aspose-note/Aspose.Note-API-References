@@ -1,6 +1,6 @@
 ---
 title: "ColorMode"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "وضع اللون للصورة."
 type: docs
 weight: 14
@@ -18,7 +18,7 @@ public final class ColorMode extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [BlackAndWhite](#BlackAndWhite) | صورة ثنائية: تُستخدم فقط ألوان الأسود والأبيض |
+| [BlackAndWhite](#BlackAndWhite) | صورة ثنائية: تُستخدم فقط الألوان الأسود والأبيض |
 | [GrayScale](#GrayScale) | صورة تدرج رمادي |
 | [Normal](#Normal) | صورة ملونة بالكامل |
 ### BlackAndWhite {#BlackAndWhite}
@@ -27,7 +27,7 @@ public static final int BlackAndWhite
 ```
 
 
-صورة ثنائية: تُستخدم فقط ألوان الأسود والأبيض
+صورة ثنائية: تُستخدم فقط الألوان الأسود والأبيض
 
 ### GrayScale {#GrayScale}
 ```

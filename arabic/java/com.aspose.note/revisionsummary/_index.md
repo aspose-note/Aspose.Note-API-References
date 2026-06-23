@@ -1,6 +1,6 @@
 ---
 title: "RevisionSummary"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل ملخصًا لمراجعة العقد."
 type: docs
 weight: 81
@@ -23,10 +23,10 @@ public class RevisionSummary
 
 | طريقة | الوصف |
 | --- | --- |
-| [getAuthorMostRecent()](#getAuthorMostRecent--) | يحصل أو يضبط المؤلف الأخير. |
-| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يضبط وقت التعديل الأخير. |
-| [setAuthorMostRecent(String value)](#setAuthorMostRecent-java.lang.String-) | يحصل أو يضبط المؤلف الأخير. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يضبط وقت التعديل الأخير. |
+| [getAuthorMostRecent()](#getAuthorMostRecent--) | يحصل أو يعيّن المؤلف الأحدث. |
+| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يعيّن وقت التعديل الأخير. |
+| [setAuthorMostRecent(String value)](#setAuthorMostRecent-java.lang.String-) | يحصل أو يعيّن المؤلف الأحدث. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يعيّن وقت التعديل الأخير. |
 ### RevisionSummary() {#RevisionSummary--}
 ```
 public RevisionSummary()
@@ -39,7 +39,7 @@ public String getAuthorMostRecent()
 ```
 
 
-يحصل أو يضبط المؤلف الأخير.
+يحصل أو يعيّن المؤلف الأحدث.
 
 **Returns:**
 java.lang.String
@@ -49,7 +49,7 @@ public Date getLastModifiedTime()
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Returns:**
 java.util.Date
@@ -59,7 +59,7 @@ public void setAuthorMostRecent(String value)
 ```
 
 
-يحصل أو يضبط المؤلف الأخير.
+يحصل أو يعيّن المؤلف الأحدث.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -72,7 +72,7 @@ public void setLastModifiedTime(Date value)
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |

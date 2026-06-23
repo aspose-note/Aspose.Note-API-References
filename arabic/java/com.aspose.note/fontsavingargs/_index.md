@@ -1,7 +1,7 @@
 ---
 title: "FontSavingArgs"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يوفر البيانات لحدث FontSaving."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يوفر بيانات لحدث FontSaving."
 type: docs
 weight: 31
 url: /ar/java/com.aspose.note/fontsavingargs/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.note.ResourceSavingArgs](../../com.aspose.note/res
 public class FontSavingArgs extends ResourceSavingArgs
 ```
 
-يوفر البيانات لحدث FontSaving.
+يوفر بيانات لحدث FontSaving.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getFontFamilyName()](#getFontFamilyName--) | يحصل على اسم عائلة الخط المراد حفظه. |
-| [isBold()](#isBold--) | يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه غامقًا. |
+| [isBold()](#isBold--) | يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه عريضًا. |
 | [isItalic()](#isItalic--) | يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه مائلًا. |
 ### getFontFamilyName() {#getFontFamilyName--}
 ```
@@ -37,7 +37,7 @@ public final boolean isBold()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه غامقًا.
+يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه عريضًا.
 
 **Returns:**
 boolean

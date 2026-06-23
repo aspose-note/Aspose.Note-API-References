@@ -1,7 +1,7 @@
 ---
 title: "دفتر الملاحظات"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل دفتر ملاحظات **Aspose.Note**."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل دفتر ملاحظات Aspose.Note."
 type: docs
 weight: 56
 url: /ar/java/com.aspose.note/notebook/
@@ -16,7 +16,7 @@ java.lang.Object
 public class Notebook implements INotebookChildNode, System.Collections.Generic.IGenericEnumerable<INotebookChildNode>
 ```
 
-يمثل دفتر ملاحظات **Aspose.Note**.
+يمثل دفتر ملاحظات Aspose.Note.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -28,7 +28,7 @@ public class Notebook implements INotebookChildNode, System.Collections.Generic.
 
 | طريقة | الوصف |
 | --- | --- |
-| [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | احصل على جميع العقد الفرعية وفقًا لنوع العقدة. |
+| [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | احصل على جميع العقد الفرعية حسب نوع العقدة. |
 | [appendChild(INotebookChildNode newChild)](#appendChild-com.aspose.note.INotebookChildNode-) | يضيف العقدة إلى نهاية القائمة. |
 | [getColor()](#getColor--) | يحصل على اللون أو يضبطه. |
 | [getCount()](#getCount--) | يحصل على عدد العناصر الموجودة في `Notebook`. |
@@ -36,9 +36,9 @@ public class Notebook implements INotebookChildNode, System.Collections.Generic.
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف (OneNote 2010، OneNote Online). |
 | [getGuid()](#getGuid--) | يحصل على المعرف الفريد عالميًا للكائن. |
 | [getGuidInternal()](#getGuidInternal--) |  |
-| [get_Item(int index)](#get-Item-int-) | يحصل على عقدة فرعية للدفتر وفقًا للفهرس المعطى. |
+| [get_Item(int index)](#get-Item-int-) | يحصل على عقدة الطفل في دفتر الملاحظات حسب الفهرس المعطى. |
 | [isHistoryEnabled()](#isHistoryEnabled--) | يحصل على قيمة أو يضبطها تشير إلى ما إذا كان السجل مفعلاً. |
-| [iterator()](#iterator--) | يرجع عدّادًا يتنقل عبر العقد الفرعية لـ `Notebook`. |
+| [iterator()](#iterator--) | يعيد عدادًا يتنقل عبر العقد الفرعية لـ `Notebook`. |
 | [loadChildDocument(InputStream stream)](#loadChildDocument-java.io.InputStream-) | يضيف عقدة مستند فرعية. |
 | [loadChildDocument(InputStream stream, LoadOptions loadOptions)](#loadChildDocument-java.io.InputStream-com.aspose.note.LoadOptions-) | يضيف عقدة مستند فرعية. |
 | [loadChildDocument(String filePath)](#loadChildDocument-java.lang.String-) | يضيف عقدة مستند فرعية. |
@@ -82,7 +82,7 @@ public Notebook(String filePath, NotebookLoadOptions loadOptions)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `Notebook`. يفتح دفتر OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل الأطفال (\"lazy\"/instant).
+يقوم بتهيئة نسخة جديدة من الفئة `Notebook`. يفتح دفتر OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل الأطفال ("lazy"/instant).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -96,7 +96,7 @@ public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 ```
 
 
-احصل على جميع العقد الفرعية وفقًا لنوع العقدة.
+احصل على جميع العقد الفرعية حسب نوع العقدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -106,7 +106,7 @@ public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 **Returns:**
 java.util.List&lt;T1&gt; - قائمة بالعقد الفرعية.
 
-`T1`: نوع العناصر في القائمة المعادة.
+`T1`: نوع العناصر في القائمة المرتجعة.
 ### appendChild(INotebookChildNode newChild) {#appendChild-com.aspose.note.INotebookChildNode-}
 ```
 public INotebookChildNode appendChild(INotebookChildNode newChild)
@@ -190,12 +190,12 @@ public INotebookChildNode get_Item(int index)
 ```
 
 
-يحصل على عقدة فرعية للدفتر وفقًا للفهرس المعطى.
+يحصل على عقدة الطفل في دفتر الملاحظات حسب الفهرس المعطى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | فهرس إلى العقدة الفرعية. |
+| فهرس | int | فهرس إلى العقدة الفرعية. |
 
 **Returns:**
 [INotebookChildNode](../../com.aspose.note/inotebookchildnode) - The child node on the `index` position.
@@ -215,7 +215,7 @@ public System.Collections.Generic.IGenericEnumerator<INotebookChildNode> iterato
 ```
 
 
-يرجع عدّادًا يتنقل عبر العقد الفرعية لـ `Notebook`.
+يعيد عدادًا يتنقل عبر العقد الفرعية لـ `Notebook`.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.note.INotebookChildNode&gt; - `IEnumerator`.
@@ -340,7 +340,7 @@ public void save(OutputStream stream, NotebookSaveOptions options)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | دفق | java.io.OutputStream | التدفق. |
-| options | [NotebookSaveOptions](../../com.aspose.note/notebooksaveoptions) | يحدد الخيارات لكيفية حفظ المستند. |
+| options | [NotebookSaveOptions](../../com.aspose.note/notebooksaveoptions) | يحدد الخيارات التي يتم حفظ المستند بها. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
@@ -354,7 +354,7 @@ public void save(OutputStream stream, int format)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | دفق | java.io.OutputStream | التدفق. |
-| format | int | الصيغة التي سيتم حفظ المستند بها. |
+| تنسيق | int | الصيغة التي يتم حفظ المستند بها. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -367,7 +367,7 @@ public void save(String fileName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، سيتم استبدال الملف الموجود. |
+| اسم الملف | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 
 ### save(String fileName, NotebookSaveOptions options) {#save-java.lang.String-com.aspose.note.NotebookSaveOptions-}
 ```
@@ -380,8 +380,8 @@ public void save(String fileName, NotebookSaveOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، سيتم استبدال الملف الموجود. |
-| options | [NotebookSaveOptions](../../com.aspose.note/notebooksaveoptions) | يحدد الخيارات التي يتم حفظ المستند بها في الملف. |
+| اسم الملف | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
+| options | [NotebookSaveOptions](../../com.aspose.note/notebooksaveoptions) | يحدد الخيارات لكيفية حفظ المستند في الملف. |
 
 ### save(String fileName, int format) {#save-java.lang.String-int-}
 ```
@@ -394,8 +394,8 @@ public void save(String fileName, int format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، سيتم استبدال الملف الموجود. |
-| format | int | الصيغة التي سيتم حفظ المستند بها. |
+| اسم الملف | java.lang.String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
+| تنسيق | int | الصيغة التي يتم حفظ المستند بها. |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```

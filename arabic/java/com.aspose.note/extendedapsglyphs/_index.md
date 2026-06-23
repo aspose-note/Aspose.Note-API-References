@@ -1,14 +1,14 @@
 ---
 title: "ExtendedApsGlyphs"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل غلافًا لـ ApsGlyphs القياسي الذي يوسع بعض سلوكيات الرسم."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل غلافًا لـ ApsGlyphs القياسي الذي يمد بعض سلوك الرسم."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.note/extendedapsglyphs/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
+java.lang.Object، [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
 ```
 public class ExtendedApsGlyphs extends ExtendedApsNode
 ```
@@ -18,16 +18,16 @@ public class ExtendedApsGlyphs extends ExtendedApsNode
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ExtendedApsGlyphs(ApsGlyphs internalGlyphs)](#ExtendedApsGlyphs-com.aspose.foundation.rendering.ApsGlyphs-) | يُنشئ مثيلاً جديدًا من الفئة `ExtendedApsGlyphs`. |
+| [ExtendedApsGlyphs(ApsGlyphs internalGlyphs)](#ExtendedApsGlyphs-com.aspose.foundation.rendering.ApsGlyphs-) | يُنشئ مثيلًا جديدًا من الفئة `ExtendedApsGlyphs`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [addToCompositeNode(ApsCompositeNode compositeNode)](#addToCompositeNode-com.aspose.foundation.rendering.ApsCompositeNode-) | يضيف هذه العقدة إلى `compositeNode` المعطى. |
 | [applyPlaneTransform(System.Drawing.PointF transformVector)](#applyPlaneTransform-com.aspose.ms.System.Drawing.PointF-) | يطبق تحويل المستوى، محركًا العقدة في مستويي x و y. |
-| [applyScaleTransform(float scaleTransform)](#applyScaleTransform-float-) | يطبق التحجيم على الرموز. |
-| [getBottom()](#getBottom--) | يحصل على الجزء السفلي من الرموز. |
-| [getCopy()](#getCopy--) | يحصل على نسخة من الرموز. |
+| [applyScaleTransform(float scaleTransform)](#applyScaleTransform-float-) | يطبق التحجيم على glyphs. |
+| [getBottom()](#getBottom--) | يحصل على الجزء السفلي من glyphs. |
+| [getCopy()](#getCopy--) | يحصل على نسخة من glyphs. |
 | [getOrigin()](#getOrigin--) | يحصل على الأصل. |
 | [getSize()](#getSize--) | يحصل على الحجم. |
 | [getTop()](#getTop--) | يحصل على الجزء العلوي. |
@@ -37,7 +37,7 @@ public ExtendedApsGlyphs(ApsGlyphs internalGlyphs)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `ExtendedApsGlyphs`.
+يُنشئ مثيلًا جديدًا من الفئة `ExtendedApsGlyphs`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,12 +76,12 @@ public void applyScaleTransform(float scaleTransform)
 ```
 
 
-يطبق التحجيم على الرموز.
+يطبق التحجيم على glyphs.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scaleTransform | float | عامل القياس للتحويل. |
+| scaleTransform | float | عامل المقياس للتحويل. |
 
 ### getBottom() {#getBottom--}
 ```
@@ -89,7 +89,7 @@ public float getBottom()
 ```
 
 
-يحصل على الجزء السفلي من الرموز.
+يحصل على الجزء السفلي من glyphs.
 
 **Returns:**
 float
@@ -99,7 +99,7 @@ public ExtendedApsNode getCopy()
 ```
 
 
-يحصل على نسخة من الرموز.
+يحصل على نسخة من glyphs.
 
 **Returns:**
 [ExtendedApsNode](../../com.aspose.note/extendedapsnode) - The `IExtendedApsNode`.

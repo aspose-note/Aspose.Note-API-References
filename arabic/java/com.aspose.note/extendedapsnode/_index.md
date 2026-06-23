@@ -1,6 +1,6 @@
 ---
 title: "ExtendedApsNode"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل غلافًا لـ ApsNode القياسي الذي يمد بعض سلوكيات الرسم."
 type: docs
 weight: 26
@@ -28,11 +28,11 @@ public abstract class ExtendedApsNode
 | [applyScaleTransform(float scaleTransform)](#applyScaleTransform-float-) | يطبق التحجيم على العقدة. |
 | [copyAttributes(ApsNode src, ApsNode dst)](#copyAttributes-com.aspose.foundation.rendering.ApsNode-com.aspose.foundation.rendering.ApsNode-) |  |
 | [copyAttributes(ApsNodeAttributes src, ApsNodeAttributes dst)](#copyAttributes-com.aspose.foundation.rendering.ApsNodeAttributes-com.aspose.foundation.rendering.ApsNodeAttributes-) |  |
-| [getBottom()](#getBottom--) | يحصل أو يعيّن إحداثي y لأسفل العقدة. |
+| [getBottom()](#getBottom--) | يحصل أو يضبط إحداثي y لأسفل العقدة. |
 | [getCopy()](#getCopy--) | ينشئ نسخة كاملة من هذه العقدة. |
-| [getOrigin()](#getOrigin--) | يحصل أو يضبط أصل العقدة. |
-| [getSize()](#getSize--) | يحصل أو يضبط حجم العقدة. |
-| [getTop()](#getTop--) | يحصل أو يضبط إحداثي y لأعلى العقدة. |
+| [getOrigin()](#getOrigin--) | يحصل أو يعيّن أصل العقدة. |
+| [getSize()](#getSize--) | يحصل أو يعيّن حجم العقدة. |
+| [getTop()](#getTop--) | يحصل أو يعيّن إحداثي y لأعلى العقدة. |
 ### ExtendedApsNode() {#ExtendedApsNode--}
 ```
 public ExtendedApsNode()
@@ -76,7 +76,7 @@ public abstract void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scaleTransform | float | عامل القياس للتحويل. |
+| scaleTransform | float | عامل المقياس للتحويل. |
 
 ### copyAttributes(ApsNode src, ApsNode dst) {#copyAttributes-com.aspose.foundation.rendering.ApsNode-com.aspose.foundation.rendering.ApsNode-}
 ```
@@ -112,7 +112,7 @@ public float getBottom()
 ```
 
 
-يحصل أو يعيّن إحداثي y لأسفل العقدة.
+يحصل أو يضبط إحداثي y لأسفل العقدة.
 
 **Returns:**
 float
@@ -132,7 +132,7 @@ public System.Drawing.PointF getOrigin()
 ```
 
 
-يحصل أو يضبط أصل العقدة.
+يحصل أو يعيّن أصل العقدة.
 
 **Returns:**
 com.aspose.ms.System.Drawing.PointF
@@ -142,7 +142,7 @@ public System.Drawing.SizeF getSize()
 ```
 
 
-يحصل أو يضبط حجم العقدة.
+يحصل أو يعيّن حجم العقدة.
 
 **Returns:**
 com.aspose.ms.System.Drawing.SizeF
@@ -152,7 +152,7 @@ public float getTop()
 ```
 
 
-يحصل أو يضبط إحداثي y لأعلى العقدة.
+يحصل أو يعيّن إحداثي y لأعلى العقدة.
 
 **Returns:**
 float

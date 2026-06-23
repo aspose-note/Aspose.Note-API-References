@@ -1,7 +1,7 @@
 ---
 title: "TextRun"
-second_title: "مرجع Aspose.Note for Java API"
-description: "الفئة التي تمثل قطعة نص مع نمط مرتبط."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "الفئة التي تمثل قطعة نص مع النمط المرتبط."
 type: docs
 weight: 92
 url: /ar/java/com.aspose.note/textrun/
@@ -13,15 +13,15 @@ java.lang.Object
 public class TextRun
 ```
 
-الفئة التي تمثل قطعة نص مع نمط مرتبط.
+الفئة التي تمثل قطعة نص مع النمط المرتبط.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TextRun(String text, TextStyle style)](#TextRun-java.lang.String-com.aspose.note.TextStyle-) | ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun). |
-| [TextRun(String text)](#TextRun-java.lang.String-) | ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنمط افتراضي. |
-| [TextRun(TextStyle style)](#TextRun-com.aspose.note.TextStyle-) | ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ. |
-| [TextRun()](#TextRun--) | ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ ونمط افتراضي. |
+| [TextRun(String text, TextStyle style)](#TextRun-java.lang.String-com.aspose.note.TextStyle-) | يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun). |
+| [TextRun(String text)](#TextRun-java.lang.String-) | يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنمط افتراضي. |
+| [TextRun(TextStyle style)](#TextRun-com.aspose.note.TextStyle-) | يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ. |
+| [TextRun()](#TextRun--) | يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ ونمط افتراضي. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public class TextRun
 | [getLength()](#getLength--) | يحصل على طول النص المرتبط. |
 | [getStyle()](#getStyle--) | يحصل على النمط. |
 | [getText()](#getText--) | يحصل على النص. |
-| [setStyle(TextStyle value)](#setStyle-com.aspose.note.TextStyle-) | يعيّن النمط. |
+| [setStyle(TextStyle value)](#setStyle-com.aspose.note.TextStyle-) | يضبط النمط. |
 | [setText(String value)](#setText-java.lang.String-) | يضبط النص. |
 ### TextRun(String text, TextStyle style) {#TextRun-java.lang.String-com.aspose.note.TextStyle-}
 ```
@@ -37,7 +37,7 @@ public TextRun(String text, TextStyle style)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun).
+يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -51,7 +51,7 @@ public TextRun(String text)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنمط افتراضي.
+يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنمط افتراضي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public TextRun(TextStyle style)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ.
+يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,7 +77,7 @@ public TextRun()
 ```
 
 
-ينشئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ ونمط افتراضي.
+يُهيئ نسخة جديدة من الفئة [TextRun](../../com.aspose.note/textrun) بنص فارغ ونمط افتراضي.
 
 ### getLength() {#getLength--}
 ```
@@ -115,7 +115,7 @@ public final void setStyle(TextStyle value)
 ```
 
 
-يعيّن النمط.
+يضبط النمط.
 
 **Parameters:**
 | معامل | نوع | الوصف |

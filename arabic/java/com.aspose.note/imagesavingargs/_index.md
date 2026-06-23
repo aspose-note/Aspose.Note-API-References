@@ -1,7 +1,7 @@
 ---
 title: "ImageSavingArgs"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يوفر البيانات لحدث ImageSaving."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يوفر بيانات لحدث ImageSaving."
 type: docs
 weight: 36
 url: /ar/java/com.aspose.note/imagesavingargs/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.note.ResourceSavingArgs](../../com.aspose.note/res
 public class ImageSavingArgs extends ResourceSavingArgs
 ```
 
-يوفر البيانات لحدث ImageSaving.
+يوفر بيانات لحدث ImageSaving.
 ## الطرق
 
 | طريقة | الوصف |

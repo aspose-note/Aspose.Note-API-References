@@ -1,7 +1,7 @@
 ---
 title: "ExtendedApsDocument"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل مستندًا كاملًا من نوع one-note يتكون من صفحات تم تحويلها إلى مجموعات صفحات."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل مستندًا كاملًا من نوع one-note مكوّنًا من صفحات تم تحويلها إلى مجموعات صفحات."
 type: docs
 weight: 23
 url: /ar/java/com.aspose.note/extendedapsdocument/
@@ -21,7 +21,7 @@ public class ExtendedApsDocument extends ApsNode implements System.Collections.G
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ExtendedApsDocument()](#ExtendedApsDocument--) | ينشئ مثيلًا جديدًا من الفئة `ExtendedApsDocument`. |
+| [ExtendedApsDocument()](#ExtendedApsDocument--) | يُنشئ مثيلًا جديدًا لفئة `ExtendedApsDocument`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public class ExtendedApsDocument extends ApsNode implements System.Collections.G
 | [accept(ApsDocumentVisitor visitor)](#accept-com.aspose.foundation.rendering.ApsDocumentVisitor-) | يقبل ApsDocumentVisitor لهذا العنصر. |
 | [addPage(ApsPage page)](#addPage-com.aspose.foundation.rendering.ApsPage-) | يضيف مجموعة صفحات إلى المستند. |
 | [getPageList()](#getPageList--) | يحصل على قائمة مجموعات الصفحات. |
-| [iterator()](#iterator--) | يعيد عدادًا. |
+| [iterator()](#iterator--) | يعيد عدّادًا. |
 | [iterator_Rename_Namesake()](#iterator-Rename-Namesake--) |  |
 ### ExtendedApsDocument() {#ExtendedApsDocument--}
 ```
@@ -37,7 +37,7 @@ public ExtendedApsDocument()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `ExtendedApsDocument`.
+يُنشئ مثيلًا جديدًا لفئة `ExtendedApsDocument`.
 
 ### accept(ApsDocumentVisitor visitor) {#accept-com.aspose.foundation.rendering.ApsDocumentVisitor-}
 ```
@@ -81,7 +81,7 @@ public System.Collections.Generic.IGenericEnumerator<ApsPage> iterator()
 ```
 
 
-يعيد عدادًا.
+يعيد عدّادًا.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.foundation.rendering.ApsPage&gt;

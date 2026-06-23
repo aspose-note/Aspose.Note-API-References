@@ -1,7 +1,7 @@
 ---
 title: "InkParagraph"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل عقدة حبر تحتوي على نص مكتوب يدويًا بخصائص إضافية مثل الكتابة المائلة."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل عقدة حبر تحتوي على نص مكتوب يدويًا مع خصائص إضافية مثل الكتابة المائلة."
 type: docs
 weight: 40
 url: /ar/java/com.aspose.note/inkparagraph/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.note.Node](../../com.aspose.note/node), [com.aspos
 public final class InkParagraph extends InkNode implements IOutlineElementChildNode
 ```
 
-يمثل عقدة حبر تحتوي على نص مكتوب يدويًا بخصائص إضافية مثل الكتابة المائلة.
+يمثل عقدة حبر تحتوي على نص مكتوب يدويًا مع خصائص إضافية مثل الكتابة المائلة.
 ## الطرق
 
 | طريقة | الوصف |
@@ -33,5 +33,5 @@ public void accept(DocumentVisitor visitor)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | كائن من فئة مشتقة من [DocumentVisitor](../../com.aspose.note/documentvisitor). |
+| visitor | [DocumentVisitor](../../com.aspose.note/documentvisitor) | الكائن من فئة مشتقة من [DocumentVisitor](../../com.aspose.note/documentvisitor). |
 

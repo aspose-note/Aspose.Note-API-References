@@ -1,6 +1,6 @@
 ---
 title: "Loop"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل حلقة."
 type: docs
 weight: 48
@@ -21,7 +21,7 @@ public class Loop extends Node implements IOutlineElementChildNode
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Loop()](#Loop--) | ينشئ مثيلًا جديدًا من الفئة `Loop`. |
+| [Loop()](#Loop--) | ينشئ مثلاً جديداً من الفئة `Loop`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -37,7 +37,7 @@ public Loop()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `Loop`.
+ينشئ مثلاً جديداً من الفئة `Loop`.
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.note.DocumentVisitor-}
 ```

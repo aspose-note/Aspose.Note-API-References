@@ -1,6 +1,6 @@
 ---
 title: "DisplayUnitsConverter"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الفئة تحتوي على الأساليب لتحويل القيم."
 type: docs
 weight: 19
@@ -21,9 +21,9 @@ public final class DisplayUnitsConverter
 | [inchToPoint(float inches)](#inchToPoint-float-) | يحوّل البوصات إلى نقاط. |
 | [millimeterToInch(float mm)](#millimeterToInch-float-) | يحوّل المليمترات إلى بوصات. |
 | [millimeterToPoint(float mm)](#millimeterToPoint-float-) | يحوّل المليمترات إلى نقاط. |
-| [pixelToPoint(int pixels, float dpi)](#pixelToPoint-int-float-) | يحوّل البكسلات إلى نقاط عند الدقة البكسلية المحددة. |
+| [pixelToPoint(int pixels, float dpi)](#pixelToPoint-int-float-) | يحوّل البكسلات إلى نقاط وفقًا لدقة البكسل المحددة. |
 | [pointToInch(float points)](#pointToInch-float-) | يحوّل النقاط إلى بوصات. |
-| [pointToPixel(float points, float dpi)](#pointToPixel-float-float-) | يحوّل النقاط إلى بكسلات عند الدقة البكسلية المحددة. |
+| [pointToPixel(float points, float dpi)](#pointToPixel-float-float-) | يحوّل النقاط إلى بكسلات وفقًا لدقة البكسل المحددة. |
 ### inchToPoint(float inches) {#inchToPoint-float-}
 ```
 public static float inchToPoint(float inches)
@@ -35,7 +35,7 @@ public static float inchToPoint(float inches)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بوصات | float | القيمة المراد تحويلها بالبوصات. |
+| بوصات | float | القيمة المراد تحويلها إلى بوصات. |
 
 **Returns:**
 float - الـ `float`.
@@ -50,7 +50,7 @@ public static float millimeterToInch(float mm)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| مم | float | القيمة المراد تحويلها بالمليمترات. |
+| مم | float | القيمة المراد تحويلها إلى مليمترات. |
 
 **Returns:**
 float - الـ `float`.
@@ -65,7 +65,7 @@ public static float millimeterToPoint(float mm)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| مم | float | القيمة المراد تحويلها بالمليمترات. |
+| مم | float | القيمة المراد تحويلها إلى مليمترات. |
 
 **Returns:**
 float - الـ `float`.
@@ -75,12 +75,12 @@ public static float pixelToPoint(int pixels, float dpi)
 ```
 
 
-يحوّل البكسلات إلى نقاط عند الدقة البكسلية المحددة.
+يحوّل البكسلات إلى نقاط وفقًا لدقة البكسل المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بكسلات | int | القيمة المراد تحويلها بالبكسلات. |
+| بكسلات | int | القيمة المراد تحويلها إلى بكسلات. |
 | dpi | float | دقة الشاشة. |
 
 **Returns:**
@@ -96,7 +96,7 @@ public static float pointToInch(float points)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| نقاط | float | القيمة المراد تحويلها بالنقاط. |
+| نقاط | float | القيمة المراد تحويلها إلى نقاط. |
 
 **Returns:**
 float - الـ `float`.
@@ -106,13 +106,13 @@ public static int pointToPixel(float points, float dpi)
 ```
 
 
-يحوّل النقاط إلى بكسلات عند الدقة البكسلية المحددة.
+يحوّل النقاط إلى بكسلات وفقًا لدقة البكسل المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| نقاط | float | القيمة المراد تحويلها بالنقاط. |
+| نقاط | float | القيمة المراد تحويلها إلى نقاط. |
 | dpi | float | دقة الشاشة. |
 
 **Returns:**
-عدد صحيح - الـ `int`.
+عدد صحيح - ال `int`.

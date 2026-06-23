@@ -1,6 +1,6 @@
 ---
 title: "InkNode"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل واجهة مشتركة لجميع عقد الحبر."
 type: docs
 weight: 39

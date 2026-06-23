@@ -1,6 +1,6 @@
 ---
 title: "SaveOptions"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "فئة أساسية مجردة تمثل خيارات حفظ المستند لتنسيق معين."
 type: docs
 weight: 85
@@ -18,20 +18,20 @@ public abstract class SaveOptions
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFontsSubsystem()](#getFontsSubsystem--) | يحصل أو يضبط إعدادات الخط المستخدمة أثناء الحفظ |
-| [getPageCount()](#getPageCount--) | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. |
-| [getPageIndex()](#getPageIndex--) | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. |
-| [getSaveFormat()](#getSaveFormat--) | يحصل أو يضبط الصيغة التي يُحفظ بها المستند. |
-| [setFontsSubsystem(FontsSubsystem value)](#setFontsSubsystem-com.aspose.note.fonts.FontsSubsystem-) | يحصل أو يضبط إعدادات الخط المستخدمة أثناء الحفظ |
-| [setPageCount(int value)](#setPageCount-int-) | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. |
-| [setPageIndex(int value)](#setPageIndex-int-) | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. |
+| [getFontsSubsystem()](#getFontsSubsystem--) | يحصل أو يعيّن إعدادات الخط التي ستُستخدم أثناء الحفظ |
+| [getPageCount()](#getPageCount--) | يحصل أو يعيّن عدد الصفحات التي سيتم حفظها. |
+| [getPageIndex()](#getPageIndex--) | يحصل أو يعيّن فهرس الصفحة الأولى التي سيتم حفظها. |
+| [getSaveFormat()](#getSaveFormat--) | يحصل أو يعيّن التنسيق الذي يُحفظ به المستند. |
+| [setFontsSubsystem(FontsSubsystem value)](#setFontsSubsystem-com.aspose.note.fonts.FontsSubsystem-) | يحصل أو يعيّن إعدادات الخط التي ستُستخدم أثناء الحفظ |
+| [setPageCount(int value)](#setPageCount-int-) | يحصل أو يعيّن عدد الصفحات التي سيتم حفظها. |
+| [setPageIndex(int value)](#setPageIndex-int-) | يحصل أو يعيّن فهرس الصفحة الأولى التي سيتم حفظها. |
 ### getFontsSubsystem() {#getFontsSubsystem--}
 ```
 public final FontsSubsystem getFontsSubsystem()
 ```
 
 
-يحصل أو يضبط إعدادات الخط المستخدمة أثناء الحفظ
+يحصل أو يعيّن إعدادات الخط التي ستُستخدم أثناء الحفظ
 
 **Returns:**
 [FontsSubsystem](../../com.aspose.note.fonts/fontssubsystem)
@@ -41,7 +41,7 @@ public final int getPageCount()
 ```
 
 
-يحصل أو يضبط عدد الصفحات التي سيتم حفظها. بشكل افتراضي هو \{@link int\#Int32Extensions.MaxValue\} مما يعني أن جميع صفحات المستند سيتم عرضها.
+يحصل أو يعيّن عدد الصفحات التي سيتم حفظها. بشكل افتراضي هو \{@link int\#Int32Extensions.MaxValue\} مما يعني أن جميع صفحات المستند سيتم عرضها.
 
 **Returns:**
 int
@@ -51,7 +51,7 @@ public final int getPageIndex()
 ```
 
 
-يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. بشكل افتراضي هو 0.
+يحصل أو يعيّن فهرس الصفحة الأولى التي سيتم حفظها. بشكل افتراضي هو 0.
 
 **Returns:**
 int
@@ -61,7 +61,7 @@ public int getSaveFormat()
 ```
 
 
-يحصل أو يضبط الصيغة التي يُحفظ بها المستند.
+يحصل أو يعيّن التنسيق الذي يُحفظ به المستند.
 
 **Returns:**
 int
@@ -71,7 +71,7 @@ public final void setFontsSubsystem(FontsSubsystem value)
 ```
 
 
-يحصل أو يضبط إعدادات الخط المستخدمة أثناء الحفظ
+يحصل أو يعيّن إعدادات الخط التي ستُستخدم أثناء الحفظ
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -84,7 +84,7 @@ public final void setPageCount(int value)
 ```
 
 
-يحصل أو يضبط عدد الصفحات التي سيتم حفظها. بشكل افتراضي هو \{@link int\#Int32Extensions.MaxValue\} مما يعني أن جميع صفحات المستند سيتم عرضها.
+يحصل أو يعيّن عدد الصفحات التي سيتم حفظها. بشكل افتراضي هو \{@link int\#Int32Extensions.MaxValue\} مما يعني أن جميع صفحات المستند سيتم عرضها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -97,7 +97,7 @@ public final void setPageIndex(int value)
 ```
 
 
-يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. بشكل افتراضي هو 0.
+يحصل أو يعيّن فهرس الصفحة الأولى التي سيتم حفظها. بشكل افتراضي هو 0.
 
 **Parameters:**
 | معامل | نوع | الوصف |

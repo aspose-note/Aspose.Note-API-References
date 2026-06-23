@@ -1,6 +1,6 @@
 ---
 title: "ITaggable"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الواجهة للعقد التي يمكن وضع علامات عليها."
 type: docs
 weight: 110
@@ -18,14 +18,14 @@ public interface ITaggable extends INode
 
 | طريقة | الوصف |
 | --- | --- |
-| [getTags()](#getTags--) | يحصل على قائمة بجميع الوسوم. |
+| [getTags()](#getTags--) | يحصل على قائمة جميع العلامات. |
 ### getTags() {#getTags--}
 ```
 public abstract System.Collections.Generic.List<ITag> getTags()
 ```
 
 
-يحصل على قائمة بجميع الوسوم.
+يحصل على قائمة جميع العلامات.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List&lt;com.aspose.note.ITag&gt;

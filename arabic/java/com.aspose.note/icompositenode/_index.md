@@ -1,6 +1,6 @@
 ---
 title: "ICompositeNode"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الواجهة للعقد التي يمكنها احتواء عقد أخرى."
 type: docs
 weight: 96

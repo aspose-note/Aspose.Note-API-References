@@ -1,7 +1,7 @@
 ---
 title: "ResourceSavingArgs"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يوفر بيانات لحدث ResourceSaving."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يوفر البيانات لحدث ResourceSaving."
 type: docs
 weight: 80
 url: /ar/java/com.aspose.note/resourcesavingargs/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ResourceSavingArgs
 ```
 
-يوفر بيانات لحدث ResourceSaving.
+يوفر البيانات لحدث ResourceSaving.
 ## الطرق
 
 | طريقة | الوصف |

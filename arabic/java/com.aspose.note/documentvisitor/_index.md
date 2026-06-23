@@ -1,7 +1,7 @@
 ---
 title: "DocumentVisitor"
-second_title: "مرجع Aspose.Note for Java API"
-description: "الفئة المجردة للتنقل عبر الشجرة الفرعية مع الجذر عند العقدة المحددة."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "الفئة المجردة للتنقل عبر الشجرة الفرعية بجذر عند العقدة المحددة."
 type: docs
 weight: 22
 url: /ar/java/com.aspose.note/documentvisitor/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class DocumentVisitor
 ```
 
-الفئة المجردة للتنقل عبر الشجرة الفرعية مع الجذر عند العقدة المحددة.
+الفئة المجردة للتنقل عبر الشجرة الفرعية بجذر عند العقدة المحددة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,37 +23,37 @@ public abstract class DocumentVisitor
 
 | طريقة | الوصف |
 | --- | --- |
-| [visitAttachedFileEnd(AttachedFile attachedFile)](#visitAttachedFileEnd-com.aspose.note.AttachedFile-) | نهاية زيارة عقدة `AttachedFile`. |
-| [visitAttachedFileStart(AttachedFile attachedFile)](#visitAttachedFileStart-com.aspose.note.AttachedFile-) | ابدأ بزيارة العقدة `AttachedFile`. |
-| [visitDocumentEnd(Document document)](#visitDocumentEnd-com.aspose.note.Document-) | انتهى من زيارة العقدة `Document`. |
-| [visitDocumentStart(Document document)](#visitDocumentStart-com.aspose.note.Document-) | ابدأ بزيارة العقدة `Document`. |
-| [visitImageEnd(Image image)](#visitImageEnd-com.aspose.note.Image-) | انتهى من زيارة العقدة `Image`. |
-| [visitImageStart(Image image)](#visitImageStart-com.aspose.note.Image-) | ابدأ بزيارة العقدة `Image`. |
-| [visitInkDrawingEnd(InkDrawing inkDrawing)](#visitInkDrawingEnd-com.aspose.note.InkDrawing-) | انتهى من زيارة العقدة [InkDrawing](../../com.aspose.note/inkdrawing). |
-| [visitInkDrawingStart(InkDrawing inkDrawing)](#visitInkDrawingStart-com.aspose.note.InkDrawing-) | ابدأ بزيارة العقدة [InkDrawing](../../com.aspose.note/inkdrawing). |
-| [visitInkParagraphEnd(InkParagraph inkParagraph)](#visitInkParagraphEnd-com.aspose.note.InkParagraph-) | انتهى من زيارة العقدة [InkParagraph](../../com.aspose.note/inkparagraph). |
-| [visitInkParagraphStart(InkParagraph inkParagraph)](#visitInkParagraphStart-com.aspose.note.InkParagraph-) | ابدأ بزيارة العقدة [InkParagraph](../../com.aspose.note/inkparagraph). |
-| [visitInkWordEnd(InkWord inkWord)](#visitInkWordEnd-com.aspose.note.InkWord-) | انتهى من زيارة العقدة [InkWord](../../com.aspose.note/inkword). |
-| [visitInkWordStart(InkWord inkWord)](#visitInkWordStart-com.aspose.note.InkWord-) | ابدأ بزيارة العقدة [InkWord](../../com.aspose.note/inkword). |
-| [visitLoopEnd(Loop loop)](#visitLoopEnd-com.aspose.note.Loop-) | انتهى من زيارة العقدة [Loop](../../com.aspose.note/loop). |
-| [visitLoopStart(Loop loop)](#visitLoopStart-com.aspose.note.Loop-) | ابدأ بزيارة العقدة [Loop](../../com.aspose.note/loop). |
-| [visitOutlineElementEnd(OutlineElement outlineElement)](#visitOutlineElementEnd-com.aspose.note.OutlineElement-) | انتهى من زيارة العقدة `OutlineElement`. |
-| [visitOutlineElementStart(OutlineElement outlineElement)](#visitOutlineElementStart-com.aspose.note.OutlineElement-) | ابدأ بزيارة العقدة `OutlineElement`. |
-| [visitOutlineEnd(Outline outline)](#visitOutlineEnd-com.aspose.note.Outline-) | انتهى من زيارة العقدة `Outline`. |
-| [visitOutlineGroupEnd(OutlineGroup outlineGroup)](#visitOutlineGroupEnd-com.aspose.note.OutlineGroup-) | انتهى من زيارة العقدة `OutlineGroup`. |
-| [visitOutlineGroupStart(OutlineGroup outlineGroup)](#visitOutlineGroupStart-com.aspose.note.OutlineGroup-) | ابدأ بزيارة العقدة `OutlineGroup`. |
-| [visitOutlineStart(Outline outline)](#visitOutlineStart-com.aspose.note.Outline-) | ابدأ بزيارة العقدة `Outline`. |
-| [visitPageEnd(Page page)](#visitPageEnd-com.aspose.note.Page-) | انتهى من زيارة العقدة `Page`. |
-| [visitPageStart(Page page)](#visitPageStart-com.aspose.note.Page-) | ابدأ بزيارة العقدة `Page`. |
-| [visitRichTextEnd(RichText richText)](#visitRichTextEnd-com.aspose.note.RichText-) | انتهى من زيارة العقدة `RichText`. |
-| [visitRichTextStart(RichText richText)](#visitRichTextStart-com.aspose.note.RichText-) | ابدأ بزيارة العقدة `RichText`. |
-| [visitTableCellEnd(TableCell tableCell)](#visitTableCellEnd-com.aspose.note.TableCell-) | انتهى من زيارة العقدة `TableCell`. |
-| [visitTableCellStart(TableCell tableCell)](#visitTableCellStart-com.aspose.note.TableCell-) | ابدأ بزيارة العقدة `TableCell`. |
-| [visitTableEnd(Table table)](#visitTableEnd-com.aspose.note.Table-) | إنهاء زيارة عقدة `Table`. |
-| [visitTableRowEnd(TableRow tableRow)](#visitTableRowEnd-com.aspose.note.TableRow-) | إنهاء زيارة عقدة `TableRow`. |
+| [visitAttachedFileEnd(AttachedFile attachedFile)](#visitAttachedFileEnd-com.aspose.note.AttachedFile-) | انتهاء زيارة العقدة `AttachedFile`. |
+| [visitAttachedFileStart(AttachedFile attachedFile)](#visitAttachedFileStart-com.aspose.note.AttachedFile-) | ابدأ بزيارة عقدة `AttachedFile`. |
+| [visitDocumentEnd(Document document)](#visitDocumentEnd-com.aspose.note.Document-) | انتهى من زيارة عقدة `Document`. |
+| [visitDocumentStart(Document document)](#visitDocumentStart-com.aspose.note.Document-) | ابدأ بزيارة عقدة `Document`. |
+| [visitImageEnd(Image image)](#visitImageEnd-com.aspose.note.Image-) | انتهى من زيارة عقدة `Image`. |
+| [visitImageStart(Image image)](#visitImageStart-com.aspose.note.Image-) | ابدأ بزيارة عقدة `Image`. |
+| [visitInkDrawingEnd(InkDrawing inkDrawing)](#visitInkDrawingEnd-com.aspose.note.InkDrawing-) | انتهى من زيارة عقدة [InkDrawing](../../com.aspose.note/inkdrawing). |
+| [visitInkDrawingStart(InkDrawing inkDrawing)](#visitInkDrawingStart-com.aspose.note.InkDrawing-) | ابدأ بزيارة عقدة [InkDrawing](../../com.aspose.note/inkdrawing). |
+| [visitInkParagraphEnd(InkParagraph inkParagraph)](#visitInkParagraphEnd-com.aspose.note.InkParagraph-) | انتهى من زيارة عقدة [InkParagraph](../../com.aspose.note/inkparagraph). |
+| [visitInkParagraphStart(InkParagraph inkParagraph)](#visitInkParagraphStart-com.aspose.note.InkParagraph-) | ابدأ بزيارة عقدة [InkParagraph](../../com.aspose.note/inkparagraph). |
+| [visitInkWordEnd(InkWord inkWord)](#visitInkWordEnd-com.aspose.note.InkWord-) | انتهى من زيارة عقدة [InkWord](../../com.aspose.note/inkword). |
+| [visitInkWordStart(InkWord inkWord)](#visitInkWordStart-com.aspose.note.InkWord-) | ابدأ بزيارة عقدة [InkWord](../../com.aspose.note/inkword). |
+| [visitLoopEnd(Loop loop)](#visitLoopEnd-com.aspose.note.Loop-) | انتهى من زيارة عقدة [Loop](../../com.aspose.note/loop). |
+| [visitLoopStart(Loop loop)](#visitLoopStart-com.aspose.note.Loop-) | ابدأ بزيارة عقدة [Loop](../../com.aspose.note/loop). |
+| [visitOutlineElementEnd(OutlineElement outlineElement)](#visitOutlineElementEnd-com.aspose.note.OutlineElement-) | انتهى من زيارة عقدة `OutlineElement`. |
+| [visitOutlineElementStart(OutlineElement outlineElement)](#visitOutlineElementStart-com.aspose.note.OutlineElement-) | ابدأ بزيارة عقدة `OutlineElement`. |
+| [visitOutlineEnd(Outline outline)](#visitOutlineEnd-com.aspose.note.Outline-) | انتهى من زيارة عقدة `Outline`. |
+| [visitOutlineGroupEnd(OutlineGroup outlineGroup)](#visitOutlineGroupEnd-com.aspose.note.OutlineGroup-) | انتهى من زيارة عقدة `OutlineGroup`. |
+| [visitOutlineGroupStart(OutlineGroup outlineGroup)](#visitOutlineGroupStart-com.aspose.note.OutlineGroup-) | ابدأ بزيارة عقدة `OutlineGroup`. |
+| [visitOutlineStart(Outline outline)](#visitOutlineStart-com.aspose.note.Outline-) | ابدأ بزيارة عقدة `Outline`. |
+| [visitPageEnd(Page page)](#visitPageEnd-com.aspose.note.Page-) | انتهى من زيارة عقدة `Page`. |
+| [visitPageStart(Page page)](#visitPageStart-com.aspose.note.Page-) | ابدأ بزيارة عقدة `Page`. |
+| [visitRichTextEnd(RichText richText)](#visitRichTextEnd-com.aspose.note.RichText-) | انتهى من زيارة عقدة `RichText`. |
+| [visitRichTextStart(RichText richText)](#visitRichTextStart-com.aspose.note.RichText-) | ابدأ بزيارة عقدة `RichText`. |
+| [visitTableCellEnd(TableCell tableCell)](#visitTableCellEnd-com.aspose.note.TableCell-) | انتهى من زيارة عقدة `TableCell`. |
+| [visitTableCellStart(TableCell tableCell)](#visitTableCellStart-com.aspose.note.TableCell-) | ابدأ بزيارة عقدة `TableCell`. |
+| [visitTableEnd(Table table)](#visitTableEnd-com.aspose.note.Table-) | انتهاء زيارة عقدة `Table`. |
+| [visitTableRowEnd(TableRow tableRow)](#visitTableRowEnd-com.aspose.note.TableRow-) | انتهاء زيارة عقدة `TableRow`. |
 | [visitTableRowStart(TableRow tableRow)](#visitTableRowStart-com.aspose.note.TableRow-) | بدء زيارة عقدة `TableRow`. |
 | [visitTableStart(Table table)](#visitTableStart-com.aspose.note.Table-) | بدء زيارة عقدة `Table`. |
-| [visitTitleEnd(Title title)](#visitTitleEnd-com.aspose.note.Title-) | إنهاء زيارة عقدة `Title`. |
+| [visitTitleEnd(Title title)](#visitTitleEnd-com.aspose.note.Title-) | انتهاء زيارة عقدة `Title`. |
 | [visitTitleStart(Title title)](#visitTitleStart-com.aspose.note.Title-) | بدء زيارة عقدة `Title`. |
 ### DocumentVisitor() {#DocumentVisitor--}
 ```
@@ -67,7 +67,7 @@ public void visitAttachedFileEnd(AttachedFile attachedFile)
 ```
 
 
-نهاية زيارة عقدة `AttachedFile`.
+انتهاء زيارة العقدة `AttachedFile`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -80,7 +80,7 @@ public void visitAttachedFileStart(AttachedFile attachedFile)
 ```
 
 
-ابدأ بزيارة العقدة `AttachedFile`.
+ابدأ بزيارة عقدة `AttachedFile`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -93,7 +93,7 @@ public void visitDocumentEnd(Document document)
 ```
 
 
-انتهى من زيارة العقدة `Document`.
+انتهى من زيارة عقدة `Document`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -106,7 +106,7 @@ public void visitDocumentStart(Document document)
 ```
 
 
-ابدأ بزيارة العقدة `Document`.
+ابدأ بزيارة عقدة `Document`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -119,7 +119,7 @@ public void visitImageEnd(Image image)
 ```
 
 
-انتهى من زيارة العقدة `Image`.
+انتهى من زيارة عقدة `Image`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -132,7 +132,7 @@ public void visitImageStart(Image image)
 ```
 
 
-ابدأ بزيارة العقدة `Image`.
+ابدأ بزيارة عقدة `Image`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -145,7 +145,7 @@ public void visitInkDrawingEnd(InkDrawing inkDrawing)
 ```
 
 
-انتهى من زيارة العقدة [InkDrawing](../../com.aspose.note/inkdrawing).
+انتهى من زيارة عقدة [InkDrawing](../../com.aspose.note/inkdrawing).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -158,7 +158,7 @@ public void visitInkDrawingStart(InkDrawing inkDrawing)
 ```
 
 
-ابدأ بزيارة العقدة [InkDrawing](../../com.aspose.note/inkdrawing).
+ابدأ بزيارة عقدة [InkDrawing](../../com.aspose.note/inkdrawing).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -171,7 +171,7 @@ public void visitInkParagraphEnd(InkParagraph inkParagraph)
 ```
 
 
-انتهى من زيارة العقدة [InkParagraph](../../com.aspose.note/inkparagraph).
+انتهى من زيارة عقدة [InkParagraph](../../com.aspose.note/inkparagraph).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -184,7 +184,7 @@ public void visitInkParagraphStart(InkParagraph inkParagraph)
 ```
 
 
-ابدأ بزيارة العقدة [InkParagraph](../../com.aspose.note/inkparagraph).
+ابدأ بزيارة عقدة [InkParagraph](../../com.aspose.note/inkparagraph).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -197,7 +197,7 @@ public void visitInkWordEnd(InkWord inkWord)
 ```
 
 
-انتهى من زيارة العقدة [InkWord](../../com.aspose.note/inkword).
+انتهى من زيارة عقدة [InkWord](../../com.aspose.note/inkword).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -210,7 +210,7 @@ public void visitInkWordStart(InkWord inkWord)
 ```
 
 
-ابدأ بزيارة العقدة [InkWord](../../com.aspose.note/inkword).
+ابدأ بزيارة عقدة [InkWord](../../com.aspose.note/inkword).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -223,7 +223,7 @@ public void visitLoopEnd(Loop loop)
 ```
 
 
-انتهى من زيارة العقدة [Loop](../../com.aspose.note/loop).
+انتهى من زيارة عقدة [Loop](../../com.aspose.note/loop).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -236,7 +236,7 @@ public void visitLoopStart(Loop loop)
 ```
 
 
-ابدأ بزيارة العقدة [Loop](../../com.aspose.note/loop).
+ابدأ بزيارة عقدة [Loop](../../com.aspose.note/loop).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -249,7 +249,7 @@ public void visitOutlineElementEnd(OutlineElement outlineElement)
 ```
 
 
-انتهى من زيارة العقدة `OutlineElement`.
+انتهى من زيارة عقدة `OutlineElement`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -262,7 +262,7 @@ public void visitOutlineElementStart(OutlineElement outlineElement)
 ```
 
 
-ابدأ بزيارة العقدة `OutlineElement`.
+ابدأ بزيارة عقدة `OutlineElement`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -275,7 +275,7 @@ public void visitOutlineEnd(Outline outline)
 ```
 
 
-انتهى من زيارة العقدة `Outline`.
+انتهى من زيارة عقدة `Outline`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -288,7 +288,7 @@ public void visitOutlineGroupEnd(OutlineGroup outlineGroup)
 ```
 
 
-انتهى من زيارة العقدة `OutlineGroup`.
+انتهى من زيارة عقدة `OutlineGroup`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -301,7 +301,7 @@ public void visitOutlineGroupStart(OutlineGroup outlineGroup)
 ```
 
 
-ابدأ بزيارة العقدة `OutlineGroup`.
+ابدأ بزيارة عقدة `OutlineGroup`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -314,7 +314,7 @@ public void visitOutlineStart(Outline outline)
 ```
 
 
-ابدأ بزيارة العقدة `Outline`.
+ابدأ بزيارة عقدة `Outline`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -327,7 +327,7 @@ public void visitPageEnd(Page page)
 ```
 
 
-انتهى من زيارة العقدة `Page`.
+انتهى من زيارة عقدة `Page`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -340,7 +340,7 @@ public void visitPageStart(Page page)
 ```
 
 
-ابدأ بزيارة العقدة `Page`.
+ابدأ بزيارة عقدة `Page`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -353,7 +353,7 @@ public void visitRichTextEnd(RichText richText)
 ```
 
 
-انتهى من زيارة العقدة `RichText`.
+انتهى من زيارة عقدة `RichText`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -366,7 +366,7 @@ public void visitRichTextStart(RichText richText)
 ```
 
 
-ابدأ بزيارة العقدة `RichText`.
+ابدأ بزيارة عقدة `RichText`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -379,7 +379,7 @@ public void visitTableCellEnd(TableCell tableCell)
 ```
 
 
-انتهى من زيارة العقدة `TableCell`.
+انتهى من زيارة عقدة `TableCell`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -392,7 +392,7 @@ public void visitTableCellStart(TableCell tableCell)
 ```
 
 
-ابدأ بزيارة العقدة `TableCell`.
+ابدأ بزيارة عقدة `TableCell`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -405,7 +405,7 @@ public void visitTableEnd(Table table)
 ```
 
 
-إنهاء زيارة عقدة `Table`.
+انتهاء زيارة عقدة `Table`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -418,7 +418,7 @@ public void visitTableRowEnd(TableRow tableRow)
 ```
 
 
-إنهاء زيارة عقدة `TableRow`.
+انتهاء زيارة عقدة `TableRow`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -457,12 +457,12 @@ public void visitTitleEnd(Title title)
 ```
 
 
-إنهاء زيارة عقدة `Title`.
+انتهاء زيارة عقدة `Title`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| title | [Title](../../com.aspose.note/title) | العقدة `Title`. |
+| title | [Title](../../com.aspose.note/title) | الع العقدة `Title`. |
 
 ### visitTitleStart(Title title) {#visitTitleStart-com.aspose.note.Title-}
 ```
@@ -475,5 +475,5 @@ public void visitTitleStart(Title title)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| title | [Title](../../com.aspose.note/title) | العقدة `Title`. |
+| title | [Title](../../com.aspose.note/title) | الع العقدة `Title`. |
 

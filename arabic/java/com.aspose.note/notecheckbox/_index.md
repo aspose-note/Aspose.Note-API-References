@@ -1,6 +1,6 @@
 ---
 title: "NoteCheckBox"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل علامة ملاحظة يمكنها تبديل حالتها بين مكتملة وغير مكتملة."
 type: docs
 weight: 53
@@ -22,69 +22,69 @@ public class NoteCheckBox extends CheckBox implements INoteTag, System.IEquatabl
 | طريقة | الوصف |
 | --- | --- |
 | [createBlueCheckBox()](#createBlueCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueCheckBoxEmpty وملصق افتراضي. |
-| [createBlueCheckBox(String label)](#createBlueCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBoxEmpty وملصق محدد. |
+| [createBlueCheckBox(String label)](#createBlueCheckBox-java.lang.String-) | * ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBoxEmpty وملصق محدد. |
 | [createBlueCheckBox1()](#createBlueCheckBox1--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueCheckBox1Empty وملصق افتراضي. |
-| [createBlueCheckBox1(String label)](#createBlueCheckBox1-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBox1Empty وملصق محدد. |
+| [createBlueCheckBox1(String label)](#createBlueCheckBox1-java.lang.String-) | * ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox1Empty وملصق محدد. |
 | [createBlueCheckBox2()](#createBlueCheckBox2--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueCheckBox2Empty وملصق افتراضي. |
-| [createBlueCheckBox2(String label)](#createBlueCheckBox2-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBox2Empty وملصق محدد. |
+| [createBlueCheckBox2(String label)](#createBlueCheckBox2-java.lang.String-) | * ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox2Empty وملصق محدد. |
 | [createBlueCheckBox3()](#createBlueCheckBox3--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueCheckBox3Empty وملصق افتراضي. |
-| [createBlueCheckBox3(String label)](#createBlueCheckBox3-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBox3Empty وملصق محدد. |
+| [createBlueCheckBox3(String label)](#createBlueCheckBox3-java.lang.String-) | * ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox3Empty وملصق محدد. |
 | [createBlueExclamationCheckBox()](#createBlueExclamationCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueExclamationCheckBoxEmpty وملصق افتراضي. |
-| [createBlueExclamationCheckBox(String label)](#createBlueExclamationCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueExclamationCheckBoxEmpty وملصق محدد. |
+| [createBlueExclamationCheckBox(String label)](#createBlueExclamationCheckBox-java.lang.String-) | * ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueExclamationCheckBoxEmpty وملصق محدد. |
 | [createBlueFlagCheckBox()](#createBlueFlagCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueFlagCheckBoxEmpty وملصق افتراضي. |
-| [createBlueFlagCheckBox(String label)](#createBlueFlagCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueFlagCheckBoxEmpty وملصق محدد. |
+| [createBlueFlagCheckBox(String label)](#createBlueFlagCheckBox-java.lang.String-) | * ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueFlagCheckBoxEmpty وملصق محدد. |
 | [createBluePersonCheckBox()](#createBluePersonCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BluePersonCheckBoxEmpty وعلامة افتراضية. |
-| [createBluePersonCheckBox(String label)](#createBluePersonCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BluePersonCheckBoxEmpty وعلامة محددة. |
+| [createBluePersonCheckBox(String label)](#createBluePersonCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة BluePersonCheckBoxEmpty وعلامة محددة. |
 | [createBlueRightArrowCheckBox()](#createBlueRightArrowCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueRightArrowCheckBoxEmpty وعلامة افتراضية. |
-| [createBlueRightArrowCheckBox(String label)](#createBlueRightArrowCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueRightArrowCheckBoxEmpty وعلامة محددة. |
+| [createBlueRightArrowCheckBox(String label)](#createBlueRightArrowCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة BlueRightArrowCheckBoxEmpty وعلامة محددة. |
 | [createBlueStarCheckBox()](#createBlueStarCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة BlueStarCheckBoxEmpty وعلامة افتراضية. |
-| [createBlueStarCheckBox(String label)](#createBlueStarCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueStarCheckBoxEmpty وعلامة محددة. |
+| [createBlueStarCheckBox(String label)](#createBlueStarCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة BlueStarCheckBoxEmpty وعلامة محددة. |
 | [createGreenCheckBox()](#createGreenCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenCheckBoxEmpty وعلامة افتراضية. |
-| [createGreenCheckBox(String label)](#createGreenCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBoxEmpty وعلامة محددة. |
+| [createGreenCheckBox(String label)](#createGreenCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBoxEmpty وعلامة محددة. |
 | [createGreenCheckBox1()](#createGreenCheckBox1--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenCheckBox1Empty وعلامة افتراضية. |
-| [createGreenCheckBox1(String label)](#createGreenCheckBox1-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBox1Empty وعلامة محددة. |
+| [createGreenCheckBox1(String label)](#createGreenCheckBox1-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBox1Empty وعلامة محددة. |
 | [createGreenCheckBox2()](#createGreenCheckBox2--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenCheckBox2Empty وعلامة افتراضية. |
-| [createGreenCheckBox2(String label)](#createGreenCheckBox2-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBox2Empty وعلامة محددة. |
+| [createGreenCheckBox2(String label)](#createGreenCheckBox2-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBox2Empty وعلامة محددة. |
 | [createGreenCheckBox3()](#createGreenCheckBox3--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenCheckBox3Empty وعلامة افتراضية. |
-| [createGreenCheckBox3(String label)](#createGreenCheckBox3-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBox3Empty وعلامة محددة. |
+| [createGreenCheckBox3(String label)](#createGreenCheckBox3-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBox3Empty وعلامة محددة. |
 | [createGreenExclamationCheckBox()](#createGreenExclamationCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenExclamationCheckBoxEmpty وعلامة افتراضية. |
-| [createGreenExclamationCheckBox(String label)](#createGreenExclamationCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenExclamationCheckBoxEmpty وعلامة محددة. |
+| [createGreenExclamationCheckBox(String label)](#createGreenExclamationCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenExclamationCheckBoxEmpty وعلامة محددة. |
 | [createGreenFlagCheckBox()](#createGreenFlagCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenFlagCheckBoxEmpty وعلامة افتراضية. |
-| [createGreenFlagCheckBox(String label)](#createGreenFlagCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenFlagCheckBoxEmpty وعلامة محددة. |
+| [createGreenFlagCheckBox(String label)](#createGreenFlagCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenFlagCheckBoxEmpty وعلامة محددة. |
 | [createGreenPersonCheckBox()](#createGreenPersonCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenPersonCheckBoxEmpty وعلامة افتراضية. |
-| [createGreenPersonCheckBox(String label)](#createGreenPersonCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenPersonCheckBoxEmpty وعلامة محددة. |
+| [createGreenPersonCheckBox(String label)](#createGreenPersonCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenPersonCheckBoxEmpty وعلامة محددة. |
 | [createGreenRightArrowCheckBox()](#createGreenRightArrowCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenRightArrowCheckBoxEmpty وعلامة افتراضية. |
-| [createGreenRightArrowCheckBox(String label)](#createGreenRightArrowCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenRightArrowCheckBoxEmpty وعلامة محددة. |
+| [createGreenRightArrowCheckBox(String label)](#createGreenRightArrowCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenRightArrowCheckBoxEmpty وعلامة محددة. |
 | [createGreenStarCheckBox()](#createGreenStarCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة GreenStarCheckBoxEmpty وعلامة افتراضية. |
-| [createGreenStarCheckBox(String label)](#createGreenStarCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenStarCheckBoxEmpty وعلامة محددة. |
+| [createGreenStarCheckBox(String label)](#createGreenStarCheckBox-java.lang.String-) | * ينشئ خانة ملاحظة جديدة مع أيقونة GreenStarCheckBoxEmpty وعلامة محددة. |
 | [createRedFlagCheckBox()](#createRedFlagCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة RedFlagCheckBoxEmpty وعلامة افتراضية. |
-| [createRedFlagCheckBox(String label)](#createRedFlagCheckBox-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة RedFlagCheckBoxEmpty والعنوان المحدد. |
-| [createYellowCheckBox()](#createYellowCheckBox--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty والعنوان الافتراضي. |
-| [createYellowCheckBox(String label)](#createYellowCheckBox-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty والعنوان المحدد. |
-| [createYellowCheckBox1()](#createYellowCheckBox1--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox1Empty والعنوان الافتراضي. |
-| [createYellowCheckBox1(String label)](#createYellowCheckBox1-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox1Empty والعنوان المحدد. |
-| [createYellowCheckBox2()](#createYellowCheckBox2--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox2Empty والعنوان الافتراضي. |
-| [createYellowCheckBox2(String label)](#createYellowCheckBox2-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox2Empty والعنوان المحدد. |
-| [createYellowCheckBox3()](#createYellowCheckBox3--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox3Empty والعنوان الافتراضي. |
-| [createYellowCheckBox3(String label)](#createYellowCheckBox3-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox3Empty والعنوان المحدد. |
-| [createYellowExclamationCheckBox()](#createYellowExclamationCheckBox--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty والعنوان الافتراضي. |
-| [createYellowExclamationCheckBox(String label)](#createYellowExclamationCheckBox-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty والعنوان المحدد. |
-| [createYellowPersonCheckBox()](#createYellowPersonCheckBox--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty والعنوان الافتراضي. |
-| [createYellowPersonCheckBox(String label)](#createYellowPersonCheckBox-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty والعنوان المحدد. |
-| [createYellowRightArrowCheckBox()](#createYellowRightArrowCheckBox--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty والعنوان الافتراضي. |
-| [createYellowRightArrowCheckBox(String label)](#createYellowRightArrowCheckBox-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty والعنوان المحدد. |
-| [createYellowStarCheckBox()](#createYellowStarCheckBox--) | \* ينشئ علامة ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty والعنوان الافتراضي. |
-| [createYellowStarCheckBox(String label)](#createYellowStarCheckBox-java.lang.String-) | \* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty والعنوان المحدد. |
-| [equals(NoteCheckBox other)](#equals-com.aspose.note.NoteCheckBox-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
+| [createRedFlagCheckBox(String label)](#createRedFlagCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة RedFlagCheckBoxEmpty وعنوان محدد. |
+| [createYellowCheckBox()](#createYellowCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty والعنوان الافتراضي. |
+| [createYellowCheckBox(String label)](#createYellowCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty وعنوان محدد. |
+| [createYellowCheckBox1()](#createYellowCheckBox1--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox1Empty والعنوان الافتراضي. |
+| [createYellowCheckBox1(String label)](#createYellowCheckBox1-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox1Empty وعنوان محدد. |
+| [createYellowCheckBox2()](#createYellowCheckBox2--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox2Empty والعنوان الافتراضي. |
+| [createYellowCheckBox2(String label)](#createYellowCheckBox2-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox2Empty وعنوان محدد. |
+| [createYellowCheckBox3()](#createYellowCheckBox3--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox3Empty والعنوان الافتراضي. |
+| [createYellowCheckBox3(String label)](#createYellowCheckBox3-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox3Empty وعنوان محدد. |
+| [createYellowExclamationCheckBox()](#createYellowExclamationCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty والعنوان الافتراضي. |
+| [createYellowExclamationCheckBox(String label)](#createYellowExclamationCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty وعنوان محدد. |
+| [createYellowPersonCheckBox()](#createYellowPersonCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty والعنوان الافتراضي. |
+| [createYellowPersonCheckBox(String label)](#createYellowPersonCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty وعنوان محدد. |
+| [createYellowRightArrowCheckBox()](#createYellowRightArrowCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty والعنوان الافتراضي. |
+| [createYellowRightArrowCheckBox(String label)](#createYellowRightArrowCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty وعنوان محدد. |
+| [createYellowStarCheckBox()](#createYellowStarCheckBox--) | * ينشئ علامة ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty والعنوان الافتراضي. |
+| [createYellowStarCheckBox(String label)](#createYellowStarCheckBox-java.lang.String-) | * ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty وعنوان محدد. |
+| [equals(NoteCheckBox other)](#equals-com.aspose.note.NoteCheckBox-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
 | [getFontColor()](#getFontColor--) | يحصل أو يعيّن لون الخط. |
-| [getHighlight()](#getHighlight--) | يحصل أو يعيّن لون التمييز. |
+| [getHighlight()](#getHighlight--) | يحصل أو يعيّن لون التظليل. |
 | [getIcon()](#getIcon--) | يحصل أو يعيّن الأيقونة. |
-| [getLabel()](#getLabel--) | يحصل أو يضبط نص التسمية. |
+| [getLabel()](#getLabel--) | يحصل أو يضبط نص العنوان. |
 | [hashCode()](#hashCode--) | يعمل كدالة تجزئة للنوع. |
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | يحصل أو يعيّن لون الخط. |
-| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | يحصل أو يعيّن لون التمييز. |
-| [setLabel(String value)](#setLabel-java.lang.String-) | يحصل أو يضبط نص التسمية. |
+| [setHighlight(Color value)](#setHighlight-java.awt.Color-) | يحصل أو يعيّن لون التظليل. |
+| [setLabel(String value)](#setLabel-java.lang.String-) | يحصل أو يضبط نص العنوان. |
 ### createBlueCheckBox() {#createBlueCheckBox--}
 ```
 public static NoteCheckBox createBlueCheckBox()
@@ -101,12 +101,12 @@ public static NoteCheckBox createBlueCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBoxEmpty وملصق محدد.
+* ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBoxEmpty وملصق محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -126,12 +126,12 @@ public static NoteCheckBox createBlueCheckBox1(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBox1Empty وملصق محدد.
+* ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox1Empty وملصق محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -151,12 +151,12 @@ public static NoteCheckBox createBlueCheckBox2(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBox2Empty وملصق محدد.
+* ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox2Empty وملصق محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -176,12 +176,12 @@ public static NoteCheckBox createBlueCheckBox3(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueCheckBox3Empty وملصق محدد.
+* ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox3Empty وملصق محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -201,12 +201,12 @@ public static NoteCheckBox createBlueExclamationCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueExclamationCheckBoxEmpty وملصق محدد.
+* ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueExclamationCheckBoxEmpty وملصق محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -226,12 +226,12 @@ public static NoteCheckBox createBlueFlagCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueFlagCheckBoxEmpty وملصق محدد.
+* ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueFlagCheckBoxEmpty وملصق محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -251,12 +251,12 @@ public static NoteCheckBox createBluePersonCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BluePersonCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة BluePersonCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -276,12 +276,12 @@ public static NoteCheckBox createBlueRightArrowCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueRightArrowCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة BlueRightArrowCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -301,12 +301,12 @@ public static NoteCheckBox createBlueStarCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة BlueStarCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة BlueStarCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -326,12 +326,12 @@ public static NoteCheckBox createGreenCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -351,12 +351,12 @@ public static NoteCheckBox createGreenCheckBox1(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBox1Empty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBox1Empty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -376,12 +376,12 @@ public static NoteCheckBox createGreenCheckBox2(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBox2Empty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBox2Empty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -401,12 +401,12 @@ public static NoteCheckBox createGreenCheckBox3(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenCheckBox3Empty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenCheckBox3Empty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -426,12 +426,12 @@ public static NoteCheckBox createGreenExclamationCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenExclamationCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenExclamationCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -451,12 +451,12 @@ public static NoteCheckBox createGreenFlagCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenFlagCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenFlagCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -476,12 +476,12 @@ public static NoteCheckBox createGreenPersonCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenPersonCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenPersonCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -501,12 +501,12 @@ public static NoteCheckBox createGreenRightArrowCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenRightArrowCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenRightArrowCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -526,12 +526,12 @@ public static NoteCheckBox createGreenStarCheckBox(String label)
 ```
 
 
-* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة GreenStarCheckBoxEmpty وعلامة محددة.
+* ينشئ خانة ملاحظة جديدة مع أيقونة GreenStarCheckBoxEmpty وعلامة محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -551,12 +551,12 @@ public static NoteCheckBox createRedFlagCheckBox(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة RedFlagCheckBoxEmpty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة RedFlagCheckBoxEmpty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -566,7 +566,7 @@ public static NoteCheckBox createYellowCheckBox()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -576,12 +576,12 @@ public static NoteCheckBox createYellowCheckBox(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBoxEmpty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -591,7 +591,7 @@ public static NoteCheckBox createYellowCheckBox1()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox1Empty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox1Empty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -601,12 +601,12 @@ public static NoteCheckBox createYellowCheckBox1(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox1Empty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox1Empty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -616,7 +616,7 @@ public static NoteCheckBox createYellowCheckBox2()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox2Empty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox2Empty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -626,12 +626,12 @@ public static NoteCheckBox createYellowCheckBox2(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox2Empty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox2Empty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -641,7 +641,7 @@ public static NoteCheckBox createYellowCheckBox3()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox3Empty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowCheckBox3Empty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -651,12 +651,12 @@ public static NoteCheckBox createYellowCheckBox3(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox3Empty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowCheckBox3Empty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -666,7 +666,7 @@ public static NoteCheckBox createYellowExclamationCheckBox()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -676,12 +676,12 @@ public static NoteCheckBox createYellowExclamationCheckBox(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -691,7 +691,7 @@ public static NoteCheckBox createYellowPersonCheckBox()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -701,12 +701,12 @@ public static NoteCheckBox createYellowPersonCheckBox(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowPersonCheckBoxEmpty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -716,7 +716,7 @@ public static NoteCheckBox createYellowRightArrowCheckBox()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -726,12 +726,12 @@ public static NoteCheckBox createYellowRightArrowCheckBox(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -741,7 +741,7 @@ public static NoteCheckBox createYellowStarCheckBox()
 ```
 
 
-\* ينشئ علامة ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty والعنوان الافتراضي.
+* ينشئ علامة ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty والعنوان الافتراضي.
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -751,12 +751,12 @@ public static NoteCheckBox createYellowStarCheckBox(String label)
 ```
 
 
-\* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty والعنوان المحدد.
+* ينشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowStarCheckBoxEmpty وعنوان محدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الملصق | java.lang.String | ملصق العلامة. |
+| التسمية | java.lang.String | تسمية العلامة. |
 
 **Returns:**
 [NoteCheckBox](../../com.aspose.note/notecheckbox) - The [NoteCheckBox](../../com.aspose.note/notecheckbox).
@@ -766,7 +766,7 @@ public final boolean equals(NoteCheckBox other)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -774,22 +774,22 @@ public final boolean equals(NoteCheckBox other)
 | other | [NoteCheckBox](../../com.aspose.note/notecheckbox) | الكائن. |
 
 **Returns:**
-منطقية - الـ `boolean`.
+boolean - الـ `boolean`.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الكائن. |
+| كائن | java.lang.Object | الكائن. |
 
 **Returns:**
-منطقية - الـ `boolean`.
+boolean - الـ `boolean`.
 ### getFontColor() {#getFontColor--}
 ```
 public final Color getFontColor()
@@ -806,7 +806,7 @@ public final Color getHighlight()
 ```
 
 
-يحصل أو يعيّن لون التمييز.
+يحصل أو يعيّن لون التظليل.
 
 **Returns:**
 java.awt.Color
@@ -818,7 +818,7 @@ public int getIcon()
 
 يحصل أو يعيّن الأيقونة.
 
-القيمة: الـ [TagIcon](../../com.aspose.note.infrastructure/tagicon).
+القيمة: ال [TagIcon](../../com.aspose.note.infrastructure/tagicon).
 
 **Returns:**
 int
@@ -828,7 +828,7 @@ public final String getLabel()
 ```
 
 
-يحصل أو يضبط نص التسمية.
+يحصل أو يضبط نص العنوان.
 
 **Returns:**
 java.lang.String
@@ -841,7 +841,7 @@ public int hashCode()
 يعمل كدالة تجزئة للنوع.
 
 **Returns:**
-عدد صحيح - الـ `int`.
+عدد صحيح - ال `int`.
 ### setFontColor(Color value) {#setFontColor-java.awt.Color-}
 ```
 public final void setFontColor(Color value)
@@ -861,7 +861,7 @@ public final void setHighlight(Color value)
 ```
 
 
-يحصل أو يعيّن لون التمييز.
+يحصل أو يعيّن لون التظليل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -874,7 +874,7 @@ public final void setLabel(String value)
 ```
 
 
-يحصل أو يضبط نص التسمية.
+يحصل أو يضبط نص العنوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |

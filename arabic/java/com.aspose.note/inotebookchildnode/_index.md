@@ -1,7 +1,7 @@
 ---
 title: "INotebookChildNode"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل عنصرًا فرعيًا في دفتر ملاحظات Aspose.Note."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل عنصرًا فرعيًا من دفاتر ملاحظات Aspose.Note."
 type: docs
 weight: 104
 url: /ar/java/com.aspose.note/inotebookchildnode/
@@ -10,7 +10,7 @@ url: /ar/java/com.aspose.note/inotebookchildnode/
 public interface INotebookChildNode
 ```
 
-يمثل عنصرًا فرعيًا في دفتر ملاحظات Aspose.Note.
+يمثل عنصرًا فرعيًا من دفتر ملاحظات Aspose.Note.
 ## الطرق
 
 | طريقة | الوصف |

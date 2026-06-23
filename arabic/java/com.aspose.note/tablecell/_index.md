@@ -1,6 +1,6 @@
 ---
 title: "TableCell"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل خلية جدول."
 type: docs
 weight: 88
@@ -26,10 +26,10 @@ public final class TableCell extends IndentatedNode<IOutlineChildNode,TableCell>
 | [accept(DocumentVisitor visitor)](#accept-com.aspose.note.DocumentVisitor-) | يقبل زائر العقدة. |
 | [getBackgroundColor()](#getBackgroundColor--) | يحصل على لون الخلفية. |
 | [getInternalIndentPosition()](#getInternalIndentPosition--) |  |
-| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يضبط وقت التعديل الأخير. |
-| [getMaxWidth()](#getMaxWidth--) | يحصل على أقصى عرض. |
+| [getLastModifiedTime()](#getLastModifiedTime--) | يحصل أو يعيّن وقت التعديل الأخير. |
+| [getMaxWidth()](#getMaxWidth--) | يحصل على الحد الأقصى للعرض. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-java.awt.Color-) | يضبط لون الخلفية. |
-| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يضبط وقت التعديل الأخير. |
+| [setLastModifiedTime(Date value)](#setLastModifiedTime-java.util.Date-) | يحصل أو يعيّن وقت التعديل الأخير. |
 ### TableCell() {#TableCell--}
 ```
 public TableCell()
@@ -77,7 +77,7 @@ public Date getLastModifiedTime()
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Returns:**
 java.util.Date
@@ -87,7 +87,7 @@ public float getMaxWidth()
 ```
 
 
-يحصل على أقصى عرض.
+يحصل على الحد الأقصى للعرض.
 
 **Returns:**
 float
@@ -110,7 +110,7 @@ public void setLastModifiedTime(Date value)
 ```
 
 
-يحصل أو يضبط وقت التعديل الأخير.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |

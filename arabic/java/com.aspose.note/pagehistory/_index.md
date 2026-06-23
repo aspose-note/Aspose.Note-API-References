@@ -1,6 +1,6 @@
 ---
 title: "PageHistory"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يمثل تاريخ الصفحة."
 type: docs
 weight: 70
@@ -21,34 +21,34 @@ public class PageHistory implements System.Collections.Generic.IGenericList<Page
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PageHistory(Page page)](#PageHistory-com.aspose.note.Page-) | يُهيئ مثالًا جديدًا من الفئة `PageHistory`. |
+| [PageHistory(Page page)](#PageHistory-com.aspose.note.Page-) | يُهيئ مثيلًا جديدًا من الفئة `PageHistory`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [addItem(Page item)](#addItem-com.aspose.note.Page-) | يضيف نسخة الصفحة إلى نهاية `PageHistory`. |
 | [addRange(System.Collections.Generic.IGenericEnumerable&lt;Page&gt; items)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.note.Page--) | يضيف نسخ الصفحات إلى نهاية `PageHistory`. |
-| [clear()](#clear--) | يمسح سجل الصفحات. |
-| [containsItem(Page item)](#containsItem-com.aspose.note.Page-) | يحدد ما إذا كان سجل الصفحات يحتوي على نسخة الصفحة. |
+| [clear()](#clear--) | يمسح تاريخ الصفحات. |
+| [containsItem(Page item)](#containsItem-com.aspose.note.Page-) | يحدد ما إذا كان تاريخ الصفحات يحتوي على نسخة الصفحة. |
 | [copyToTArray(Page[] array, int arrayIndex)](#copyToTArray-com.aspose.note.Page---int-) | ينسخ إصدارات الصفحة إلى مصفوفة، بدءًا من فهرس معين.. |
 | [getCurrent()](#getCurrent--) | يحصل على إصدار الصفحة الحالي. |
-| [get_Item(int index)](#get-Item-int-) | يحصل أو يضبط إصدار الصفحة في الفهرس المحدد لـ `PageHistory`. |
-| [indexOfItem(Page item)](#indexOfItem-com.aspose.note.Page-) | يحدد فهرس إصدار صفحة معين في تاريخ الصفحات. |
-| [insertItem(int index, Page item)](#insertItem-int-com.aspose.note.Page-) | يدرج إصدار صفحة في تاريخ الصفحات. |
-| [isReadOnly()](#isReadOnly--) | يحصل على قيمة تشير إلى ما إذا كان تاريخ الصفحات للقراءة فقط. |
-| [iterator()](#iterator--) | يعيد عدادًا يتنقل عبر العقد الفرعية لـ `PageHistory`. |
+| [get_Item(int index)](#get-Item-int-) | يحصل أو يعيّن إصدار الصفحة في الفهرس المحدد لـ `PageHistory`. |
+| [indexOfItem(Page item)](#indexOfItem-com.aspose.note.Page-) | يحدد فهرس إصدار صفحة معين في سجل الصفحات. |
+| [insertItem(int index, Page item)](#insertItem-int-com.aspose.note.Page-) | يدرج إصدار صفحة في سجل الصفحات. |
+| [isReadOnly()](#isReadOnly--) | يحصل على قيمة تشير إلى ما إذا كان سجل الصفحات للقراءة فقط. |
+| [iterator()](#iterator--) | يرجع عدّادًا يتنقل عبر العقد الفرعية لـ `PageHistory`. |
 | [removeAt(int index)](#removeAt-int-) | يزيل إصدار الصفحة في الفهرس المحدد لـ `PageHistory`. |
 | [removeItem(Page item)](#removeItem-com.aspose.note.Page-) | يزيل إصدار الصفحة من `PageHistory`. |
 | [removeRange(int index, int count)](#removeRange-int-int-) | يزيل نطاقًا من إصدارات الصفحة من `PageHistory`. |
-| [set_Item(int index, Page value)](#set-Item-int-com.aspose.note.Page-) | يحصل أو يضبط إصدار الصفحة في الفهرس المحدد لـ `PageHistory`. |
-| [size()](#size--) | يحصل على عدد إصدارات الصفحة في تاريخ الصفحات. |
+| [set_Item(int index, Page value)](#set-Item-int-com.aspose.note.Page-) | يحصل أو يعيّن إصدار الصفحة في الفهرس المحدد لـ `PageHistory`. |
+| [size()](#size--) | يحصل على عدد إصدارات الصفحة في سجل الصفحات. |
 ### PageHistory(Page page) {#PageHistory-com.aspose.note.Page-}
 ```
 public PageHistory(Page page)
 ```
 
 
-يُهيئ مثالًا جديدًا من الفئة `PageHistory`.
+يُهيئ مثيلًا جديدًا من الفئة `PageHistory`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,7 +87,7 @@ public void clear()
 ```
 
 
-يمسح سجل الصفحات.
+يمسح تاريخ الصفحات.
 
 ### containsItem(Page item) {#containsItem-com.aspose.note.Page-}
 ```
@@ -95,7 +95,7 @@ public boolean containsItem(Page item)
 ```
 
 
-يحدد ما إذا كان سجل الصفحات يحتوي على نسخة الصفحة.
+يحدد ما إذا كان تاريخ الصفحات يحتوي على نسخة الصفحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -103,7 +103,7 @@ public boolean containsItem(Page item)
 | item | [Page](../../com.aspose.note/page) | إصدار الصفحة. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### copyToTArray(Page[] array, int arrayIndex) {#copyToTArray-com.aspose.note.Page---int-}
 ```
 public void copyToTArray(Page[] array, int arrayIndex)
@@ -134,12 +134,12 @@ public Page get_Item(int index)
 ```
 
 
-يحصل أو يضبط إصدار الصفحة في الفهرس المحدد لـ `PageHistory`.
+يحصل أو يعيّن إصدار الصفحة في الفهرس المحدد لـ `PageHistory`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. |
+| فهرس | int | الفهرس. |
 
 **Returns:**
 [Page](../../com.aspose.note/page) - The page version.
@@ -149,7 +149,7 @@ public int indexOfItem(Page item)
 ```
 
 
-يحدد فهرس إصدار صفحة معين في تاريخ الصفحات.
+يحدد فهرس إصدار صفحة معين في سجل الصفحات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -157,19 +157,19 @@ public int indexOfItem(Page item)
 | item | [Page](../../com.aspose.note/page) | إصدار الصفحة. |
 
 **Returns:**
-عدد صحيح - الـ `int`.
+عدد صحيح - ال `int`.
 ### insertItem(int index, Page item) {#insertItem-int-com.aspose.note.Page-}
 ```
 public void insertItem(int index, Page item)
 ```
 
 
-يدرج إصدار صفحة في تاريخ الصفحات.
+يدرج إصدار صفحة في سجل الصفحات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. |
+| فهرس | int | الفهرس. |
 | item | [Page](../../com.aspose.note/page) | إصدار الصفحة. |
 
 ### isReadOnly() {#isReadOnly--}
@@ -178,7 +178,7 @@ public boolean isReadOnly()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان تاريخ الصفحات للقراءة فقط.
+يحصل على قيمة تشير إلى ما إذا كان سجل الصفحات للقراءة فقط.
 
 **Returns:**
 boolean
@@ -188,7 +188,7 @@ public System.Collections.Generic.IGenericEnumerator<Page> iterator()
 ```
 
 
-يعيد عدادًا يتنقل عبر العقد الفرعية لـ `PageHistory`.
+يرجع عدّادًا يتنقل عبر العقد الفرعية لـ `PageHistory`.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.note.Page&gt; - الـ `IEnumerator`.
@@ -203,7 +203,7 @@ public void removeAt(int index)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. |
+| فهرس | int | الفهرس. |
 
 ### removeItem(Page item) {#removeItem-com.aspose.note.Page-}
 ```
@@ -219,7 +219,7 @@ public boolean removeItem(Page item)
 | item | [Page](../../com.aspose.note/page) | إصدار الصفحة. |
 
 **Returns:**
-منطقي - الـ `bool`.
+منطقي - ال `bool`.
 ### removeRange(int index, int count) {#removeRange-int-int-}
 ```
 public void removeRange(int index, int count)
@@ -231,7 +231,7 @@ public void removeRange(int index, int count)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. |
+| فهرس | int | الفهرس. |
 | count | int | العدد. |
 
 ### set_Item(int index, Page value) {#set-Item-int-com.aspose.note.Page-}
@@ -240,12 +240,12 @@ public void set_Item(int index, Page value)
 ```
 
 
-يحصل أو يضبط إصدار الصفحة في الفهرس المحدد لـ `PageHistory`.
+يحصل أو يعيّن إصدار الصفحة في الفهرس المحدد لـ `PageHistory`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. |
+| فهرس | int | الفهرس. |
 | value | [Page](../../com.aspose.note/page) |  |
 
 ### size() {#size--}
@@ -254,7 +254,7 @@ public int size()
 ```
 
 
-يحصل على عدد إصدارات الصفحة في تاريخ الصفحات.
+يحصل على عدد إصدارات الصفحة في سجل الصفحات.
 
 **Returns:**
 int

@@ -1,6 +1,6 @@
 ---
 title: "PageSplittingAlgorithm"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "الفئة الأساسية لتقسيم كائن في حال عدم ملاءمته للصفحة الأصلية."
 type: docs
 weight: 74

@@ -1,6 +1,6 @@
 ---
 title: "TagStatus"
-second_title: "مرجع Aspose.Note for Java API"
+second_title: "مرجع Aspose.Note لـ Java API"
 description: "يحدد حالة عقدة علامة الملاحظة."
 type: docs
 weight: 91

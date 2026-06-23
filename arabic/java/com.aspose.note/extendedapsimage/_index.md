@@ -1,14 +1,14 @@
 ---
 title: "ExtendedApsImage"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثل غلافًا لـ ApsImage القياسي الذي يمد بعض سلوكيات الرسم."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل غلافًا لـ ApsImage القياسي الذي يوسع بعض سلوكيات الرسم."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.note/extendedapsimage/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
+java.lang.Object، [com.aspose.note.ExtendedApsNode](../../com.aspose.note/extendedapsnode)
 ```
 public class ExtendedApsImage extends ExtendedApsNode
 ```
@@ -18,7 +18,7 @@ public class ExtendedApsImage extends ExtendedApsNode
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ExtendedApsImage(ApsImage internalImage)](#ExtendedApsImage-com.aspose.foundation.rendering.ApsImage-) | ينشئ مثيلًا جديدًا للفئة `ExtendedApsImage`. |
+| [ExtendedApsImage(ApsImage internalImage)](#ExtendedApsImage-com.aspose.foundation.rendering.ApsImage-) | يُنشئ مثيلًا جديدًا من الفئة `ExtendedApsImage`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,7 +38,7 @@ public ExtendedApsImage(ApsImage internalImage)
 ```
 
 
-ينشئ مثيلًا جديدًا للفئة `ExtendedApsImage`.
+يُنشئ مثيلًا جديدًا من الفئة `ExtendedApsImage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -82,7 +82,7 @@ public void applyScaleTransform(float scaleTransform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scaleTransform | float | عامل القياس للتحويل. |
+| scaleTransform | float | عامل المقياس للتحويل. |
 
 ### getBottom() {#getBottom--}
 ```

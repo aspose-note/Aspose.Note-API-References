@@ -1,7 +1,7 @@
 ---
 title: "ExtendedApsPage"
-second_title: "مرجع Aspose.Note for Java API"
-description: "يمثّل غلافًا لـ ApsGlyphs القياسي الذي يوسّع بعض سلوكيات الرسم."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "يمثل غلافًا لـ ApsGlyphs القياسي الذي يمد بعض سلوكيات الرسم."
 type: docs
 weight: 27
 url: /ar/java/com.aspose.note/extendedapspage/
@@ -21,7 +21,7 @@ public class ExtendedApsPage extends ApsPage implements System.Collections.Gener
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ExtendedApsPage(System.Drawing.SizeF pageSize, float pageStartInNotePage, Margin margin)](#ExtendedApsPage-com.aspose.ms.System.Drawing.SizeF-float-com.aspose.foundation.layout.Margin-) | يُهيئ نسخة جديدة من الفئة `ExtendedApsPage`. |
+| [ExtendedApsPage(System.Drawing.SizeF pageSize, float pageStartInNotePage, Margin margin)](#ExtendedApsPage-com.aspose.ms.System.Drawing.SizeF-float-com.aspose.foundation.layout.Margin-) | يُنشئ مثيلًا جديدًا من الفئة `ExtendedApsPage`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,15 +31,15 @@ public class ExtendedApsPage extends ApsPage implements System.Collections.Gener
 | [getPageEndInNotePage()](#getPageEndInNotePage--) | يحصل على موضع نهاية الصفحة في صفحة MS OneNote، عندما تُقسم صفحة MS OneNote واحدة إلى عدة صفحات aps. |
 | [getPageSize()](#getPageSize--) | يحصل على الحجم النهائي للصفحة. |
 | [getPageStartInNotePage()](#getPageStartInNotePage--) | يحصل على موضع بداية الصفحة في صفحة MS OneNote، عندما تُقسم صفحة MS OneNote واحدة إلى عدة صفحات aps. |
-| [iterator()](#iterator--) | يرجع المُعدِّد الذي يتنقّل عبر جميع العقد في هذه الصفحة. |
-| [iterator_Rename_Namesake()](#iterator-Rename-Namesake--) | المُعدِّد get. |
+| [iterator()](#iterator--) | يرجع المُعدِّـد الذي يتنقل عبر جميع العقد في هذه الصفحة. |
+| [iterator_Rename_Namesake()](#iterator-Rename-Namesake--) | المُعدِّـد get. |
 ### ExtendedApsPage(System.Drawing.SizeF pageSize, float pageStartInNotePage, Margin margin) {#ExtendedApsPage-com.aspose.ms.System.Drawing.SizeF-float-com.aspose.foundation.layout.Margin-}
 ```
 public ExtendedApsPage(System.Drawing.SizeF pageSize, float pageStartInNotePage, Margin margin)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `ExtendedApsPage`.
+يُنشئ مثيلًا جديدًا من الفئة `ExtendedApsPage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -104,7 +104,7 @@ public System.Collections.Generic.IGenericEnumerator<ApsNode> iterator()
 ```
 
 
-يرجع المُعدِّد الذي يتنقّل عبر جميع العقد في هذه الصفحة.
+يرجع المُعدِّـد الذي يتنقل عبر جميع العقد في هذه الصفحة.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.foundation.rendering.ApsNode&gt; - الـ `IEnumerator`.
@@ -114,7 +114,7 @@ public System.Collections.IEnumerator iterator_Rename_Namesake()
 ```
 
 
-المُعدِّد get.
+المُعدِّـد get.
 
 **Returns:**
 com.aspose.ms.System.Collections.IEnumerator - الـ `IEnumerator`.

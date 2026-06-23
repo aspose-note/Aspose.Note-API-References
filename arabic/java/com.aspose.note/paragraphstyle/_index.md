@@ -1,7 +1,7 @@
 ---
 title: "ParagraphStyle"
-second_title: "مرجع Aspose.Note for Java API"
-description: "إعدادات نمط النص التي ستُستخدم إذا لم يكن هناك كائن TextStyle مطابق في المجموعة إما أن هذا الكائن لا يحدد الإعداد المطلوب."
+second_title: "مرجع Aspose.Note لـ Java API"
+description: "إعدادات نمط النص التي تُستخدم إذا لم يكن هناك كائن TextStyle مطابق في المجموعة أو إذا لم يحدد هذا الكائن الإعداد المطلوب."
 type: docs
 weight: 75
 url: /ar/java/com.aspose.note/paragraphstyle/
@@ -16,18 +16,18 @@ com.aspose.ms.System.IEquatable, java.lang.Cloneable
 public final class ParagraphStyle extends Style<ParagraphStyle> implements System.IEquatable<ParagraphStyle>, Cloneable
 ```
 
-إعدادات نمط النص التي ستُستخدم إذا لم يكن هناك كائن TextStyle مطابق في مجموعة [RichText.getStyles](../../com.aspose.note/richtext\#getStyles) إما أن هذا الكائن لا يحدد الإعداد المطلوب.
+إعدادات نمط النص التي تُستخدم إذا لم يكن هناك كائن TextStyle مطابق في مجموعة [RichText.getStyles](../../com.aspose.note/richtext\#getStyles) أو إذا لم يحدد هذا الكائن الإعداد المطلوب.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ParagraphStyle()](#ParagraphStyle--) | ينشئ نسخة جديدة من الفئة [ParagraphStyle](../../com.aspose.note/paragraphstyle). |
+| [ParagraphStyle()](#ParagraphStyle--) | ينشئ مثيلًا جديدًا من الفئة [ParagraphStyle](../../com.aspose.note/paragraphstyle). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [equals(ParagraphStyle other)](#equals-com.aspose.note.ParagraphStyle-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
+| [equals(ParagraphStyle other)](#equals-com.aspose.note.ParagraphStyle-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
 | [getDefault()](#getDefault--) | يحصل على ParagraphStyle بالإعدادات الافتراضية. |
 | [hashCode()](#hashCode--) | يعمل كدالة تجزئة للنوع. |
 ### ParagraphStyle() {#ParagraphStyle--}
@@ -36,7 +36,7 @@ public ParagraphStyle()
 ```
 
 
-ينشئ نسخة جديدة من الفئة [ParagraphStyle](../../com.aspose.note/paragraphstyle).
+ينشئ مثيلًا جديدًا من الفئة [ParagraphStyle](../../com.aspose.note/paragraphstyle).
 
 ### equals(ParagraphStyle other) {#equals-com.aspose.note.ParagraphStyle-}
 ```
@@ -44,7 +44,7 @@ public final boolean equals(ParagraphStyle other)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -52,22 +52,22 @@ public final boolean equals(ParagraphStyle other)
 | other | [ParagraphStyle](../../com.aspose.note/paragraphstyle) | الكائن. |
 
 **Returns:**
-منطقية - الـ `boolean`.
+boolean - الـ `boolean`.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الكائن. |
+| كائن | java.lang.Object | الكائن. |
 
 **Returns:**
-منطقية - الـ `boolean`.
+boolean - الـ `boolean`.
 ### getDefault() {#getDefault--}
 ```
 public static ParagraphStyle getDefault()
@@ -87,4 +87,4 @@ public int hashCode()
 يعمل كدالة تجزئة للنوع.
 
 **Returns:**
-عدد صحيح - الـ `int`.
+عدد صحيح - ال `int`.
