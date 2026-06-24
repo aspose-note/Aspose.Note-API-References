@@ -1,6 +1,6 @@
 ---
 title: "TextStyle.DefaultMsOneNoteTitleDateStyle"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية TextStyle. يحصل على النمط الافتراضي لتاريخ العنوان في MS OneNote"
 type: docs
 weight: 30

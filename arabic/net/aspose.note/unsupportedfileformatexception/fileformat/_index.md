@@ -1,14 +1,14 @@
 ---
 title: "UnsupportedFileFormatException.FileFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "UnsupportedFileFormatException property. يحصل على تنسيق الملف للبيانات الممررة إذا تم اكتشافه"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية UnsupportedFileFormatException. يحصل على تنسيق الملف للبيانات الممررة إذا تم اكتشافه"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/unsupportedfileformatexception/fileformat/
 ---
 ## UnsupportedFileFormatException.FileFormat property
 
-يحصل على تنسيق الملف للبيانات الممررة إذا تم اكتشافه.
+يحصل على تنسيق الملف للبيانات الممرّرة إذا تم اكتشافه.
 
 ```csharp
 public FileFormat FileFormat { get; }

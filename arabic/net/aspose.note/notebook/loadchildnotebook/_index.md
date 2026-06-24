@@ -1,7 +1,7 @@
 ---
 title: "Notebook.LoadChildNotebook"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Notebook. تضيف عقدة مفكرة طفل. تفتح مفكرة OneNote موجودة من ملف"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Notebook. تضيف عقدة دفتر ملاحظات طفل. تفتح دفتر ملاحظات OneNote موجود من ملف"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/notebook/loadchildnotebook/
@@ -58,7 +58,7 @@ public void LoadChildNotebook(Stream stream)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 
 ### انظر أيضًا
 
@@ -78,7 +78,7 @@ public void LoadChildNotebook(Stream stream, NotebookLoadOptions loadOptions)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | loadOptions | NotebookLoadOptions | خيارات التحميل. |
 
 ### انظر أيضًا

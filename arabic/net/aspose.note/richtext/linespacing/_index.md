@@ -1,7 +1,7 @@
 ---
 title: "RichText.LineSpacing"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية RichText. يحصل أو يضبط تباعد السطر"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية RichText. يحصل أو يحدد تباعد السطر"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/richtext/linespacing/

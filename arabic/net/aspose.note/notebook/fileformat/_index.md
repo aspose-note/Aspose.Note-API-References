@@ -1,6 +1,6 @@
 ---
 title: "Notebook.FileFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Notebook. تحصل على تنسيق الملف OneNote 2010 OneNote Online"
 type: docs
 weight: 50

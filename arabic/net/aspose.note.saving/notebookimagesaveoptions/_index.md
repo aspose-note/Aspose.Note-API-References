@@ -1,7 +1,7 @@
 ---
 title: "الفئة NotebookImageSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.NotebookImageSaveOptions. يسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى صور"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Saving.NotebookImageSaveOptions. يسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى صور."
 type: docs
 weight: 840
 url: /ar/net/aspose.note.saving/notebookimagesaveoptions/
@@ -37,7 +37,7 @@ public class NotebookImageSaveOptions : NotebookSaveOptions<ImageSaveOptions>
 
 ## أمثلة
 
-يوضح كيفية حفظ الدفتر المسطح بصيغة PDF.
+يظهر كيفية حفظ دفتر مسطح بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -56,7 +56,7 @@ notebook.Save(
     });
 ```
 
-يوضح كيفية حفظ الدفتر كصورة مع الخيارات المحددة.
+يظهر كيفية حفظ الدفتر كصورة مع خيارات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -77,7 +77,7 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ الدفتر المسطح كصورة.
+يظهر كيفية حفظ دفتر مسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.

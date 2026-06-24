@@ -1,6 +1,6 @@
 ---
 title: "Image.HorizontalOffset"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Image. تحصل أو تعين الإزاحة الأفقية"
 type: docs
 weight: 100
@@ -16,7 +16,7 @@ public float HorizontalOffset { get; set; }
 
 ## أمثلة
 
-يظهر كيفية إضافة صورة من ملف إلى مستند مع خصائص محددة من قبل المستخدم.
+يعرض كيفية إضافة صورة من ملف إلى مستند مع خصائص معرفة من قبل المستخدم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -39,7 +39,7 @@ Image image = new Image(dataDir + "image.jpg")
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // ضبط محاذاة الصورة
+                              // تعيين محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 

@@ -1,6 +1,6 @@
 ---
 title: "Margins.Empty"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "حقل Margins. الهوامش الفارغة"
 type: docs
 weight: 20

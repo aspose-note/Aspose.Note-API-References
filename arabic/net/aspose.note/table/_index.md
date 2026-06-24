@@ -1,7 +1,7 @@
 ---
 title: "فئة Table"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "فئة Aspose.Note.Table. تمثل جدولًا"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "فئة Aspose.Note.Table. تمثّل جدولًا"
 type: docs
 weight: 980
 url: /ar/net/aspose.note/table/
@@ -18,7 +18,7 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 | الاسم | الوصف |
 | --- | --- |
-| [Table](table/)() | البناء الافتراضي. |
+| [Table](table/)() | الباني الافتراضي. |
 
 ## الخصائص
 
@@ -30,12 +30,12 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 | [IsBordersVisible](../../aspose.note/table/isbordersvisible/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان حد الجدول مرئيًا. |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
-| [LastModifiedTime](../../aspose.note/table/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [LastModifiedTime](../../aspose.note/table/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت التعديل الأخير. |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
 | [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
 | [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية. |
 | [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
-| [Tags](../../aspose.note/table/tags/) { get; } | يحصل على قائمة جميع العلامات في الفقرة. |
+| [Tags](../../aspose.note/table/tags/) { get; } | يحصل على قائمة بجميع العلامات في الفقرة. |
 
 ## الطرق
 
@@ -53,7 +53,7 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 ## أمثلة
 
-يوضح كيفية الحصول على النص من كل صف في الجدول.
+يظهر كيفية الحصول على النص من كل صف في الجدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -79,7 +79,7 @@ foreach (Table table in nodes)
 }
 ```
 
-يوضح كيفية الحصول على النص من جدول.
+يظهر كيفية الحصول على النص من جدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -107,7 +107,7 @@ foreach (Table table in nodes)
 }
 ```
 
-يوضح كيفية الحصول على النص من خلايا الجدول.
+يظهر كيفية الحصول على النص من خلايا الجدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -138,10 +138,10 @@ foreach (Table table in nodes)
 }
 ```
 
-يوضح كيفية تعيين لون خلفية لخلية.
+يظهر كيفية تعيين لون خلفية للخلية.
 
 ```csharp
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 // تهيئة كائن فئة TableCell وتعيين محتوى النص
@@ -166,7 +166,7 @@ oe.AppendChildLast(table);
 Outline o = new Outline();
 o.AppendChildLast(oe);
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 page.AppendChildLast(o);
 
@@ -175,16 +175,16 @@ doc.AppendChildLast(page);
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
 
-يعرض كيفية إضافة جدول جديد مع العلامة.
+يوضح كيفية إضافة جدول جديد مع علامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // تهيئة كائن فئة TableRow
@@ -206,7 +206,7 @@ Table table = new Table()
                   Columns = { new TableColumn { Width = 70 } }
               };
 
-// إدراج عقدة الصف في الجدول
+// إدراج عقدة صف في الجدول
 table.AppendChildLast(row);
 
 // إضافة علامة إلى عقدة الجدول هذه
@@ -223,21 +223,21 @@ outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إنشاء جدول بعمود مقفل.
+يظهر كيفية إنشاء جدول بعمود مقفل.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // تهيئة كائن فئة TableRow
@@ -279,22 +279,22 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إنشاء جدول جديد.
+يظهر كيفية إنشاء جدول جديد.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // تهيئة كائن فئة TableRow
@@ -328,7 +328,7 @@ cell21.AppendChildLast(GetOutlineElementWithText("cell_2.1"));
 cell22.AppendChildLast(GetOutlineElementWithText("cell_2.2"));
 cell23.AppendChildLast(GetOutlineElementWithText("cell_2.3"));
 
-// إلحاق خلايا الجدول إلى صفوف
+// إلحاق خلايا الجدول إلى الصفوف
 row2.AppendChildLast(cell21);
 row2.AppendChildLast(cell22);
 row2.AppendChildLast(cell23);
@@ -340,7 +340,7 @@ Table table = new Table()
                   Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
               };
 
-// إلحاق صفوف الجدول بالجدول
+// إضافة صفوف الجدول إلى الجدول
 table.AppendChildLast(row1);
 table.AppendChildLast(row2);
 

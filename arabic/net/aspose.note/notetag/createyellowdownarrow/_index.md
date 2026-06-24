@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateYellowDownArrow"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowDownArrow والملصق المحدد"
 type: docs
 weight: 980
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createyellowdownarrow/
 ---
 ## NoteTag.CreateYellowDownArrow method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة YellowDownArrow والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowDownArrow وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateYellowDownArrow(string label = "")

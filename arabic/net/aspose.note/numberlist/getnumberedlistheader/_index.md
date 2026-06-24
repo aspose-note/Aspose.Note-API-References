@@ -1,7 +1,7 @@
 ---
 title: "NumberList.GetNumberedListHeader"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NumberList. تحصل على رأس القائمة المرقمة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NumberList. يحصل على رأس القائمة المرقمة"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/numberlist/getnumberedlistheader/

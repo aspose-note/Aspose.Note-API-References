@@ -1,7 +1,7 @@
 ---
 title: "الفئة Node"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Node. الفئة الأساسية لجميع عقد مستند Aspose.Note"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Node فئة. الفئة الأساسية لجميع عقد مستند Aspose.Note"
 type: docs
 weight: 430
 url: /ar/net/aspose.note/node/

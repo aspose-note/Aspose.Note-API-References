@@ -1,7 +1,7 @@
 ---
 title: "الواجهة IIndentatedNode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "واجهة Aspose.Note.IIndentatedNode. الواجهة للعقد ذات الإزاحة النسبية للعقد الفرعية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "واجهة Aspose.Note.IIndentatedNode. الواجهة للعقد ذات المسافة البادئة النسبية للعقد الفرعية."
 type: docs
 weight: 160
 url: /ar/net/aspose.note/iindentatednode/
@@ -18,7 +18,7 @@ public interface IIndentatedNode
 
 | الاسم | الوصف |
 | --- | --- |
-| [IndentPosition](../../aspose.note/iindentatednode/indentposition/) { get; set; } | يحصل أو يعيّن موضع الإزاحة. |
+| [IndentPosition](../../aspose.note/iindentatednode/indentposition/) { get; set; } | يحصل أو يضبط موضع المسافة البادئة. |
 
 ### انظر أيضًا
 

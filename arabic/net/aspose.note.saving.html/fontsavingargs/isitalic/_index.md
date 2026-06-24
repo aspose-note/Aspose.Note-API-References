@@ -1,7 +1,7 @@
 ---
 title: "FontSavingArgs.IsItalic"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية FontSavingArgs. يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه مائلًا"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية FontSavingArgs. يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه مائل"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving.html/fontsavingargs/isitalic/

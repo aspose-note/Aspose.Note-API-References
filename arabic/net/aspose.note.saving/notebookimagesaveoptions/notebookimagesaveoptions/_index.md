@@ -1,14 +1,14 @@
 ---
 title: "NotebookImageSaveOptions.NotebookImageSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ NotebookImageSaveOptions. يهيئ مثيلًا جديدًا من الفئة NotebookImageSaveOptions"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ NotebookImageSaveOptions. يهيئ نسخة جديدة من فئة NotebookImageSaveOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/notebookimagesaveoptions/notebookimagesaveoptions/
 ---
 ## NotebookImageSaveOptions constructor
 
-يهيئ مثيلًا جديدًا من الفئة [`NotebookImageSaveOptions`](../).
+يهيئ نسخة جديدة من الفئة [`NotebookImageSaveOptions`](../).
 
 ```csharp
 public NotebookImageSaveOptions(SaveFormat format)

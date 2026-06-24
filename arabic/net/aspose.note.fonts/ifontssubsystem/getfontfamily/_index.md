@@ -1,7 +1,7 @@
 ---
 title: "IFontsSubsystem.GetFontFamily"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "IFontsSubsystem method. يحصل على عائلة الخط"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة IFontsSubsystem. يحصل على عائلة الخط"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.fonts/ifontssubsystem/getfontfamily/
@@ -20,7 +20,7 @@ public FontFamily GetFontFamily(string fontName)
 
 ### قيمة الإرجاع
 
-ال FontFamily.
+الـ FontFamily.
 
 ### انظر أيضًا
 

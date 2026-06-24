@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateMeeting"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة Meeting وملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Meeting والملصق المحدد"
 type: docs
 weight: 630
 url: /ar/net/aspose.note/notetag/createmeeting/
 ---
 ## NoteTag.CreateMeeting method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Meeting وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة Meeting والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateMeeting(string label = "")

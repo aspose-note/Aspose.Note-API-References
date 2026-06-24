@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateBlankPaperWithLines"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlankPaperWithLines والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlankPaperWithLines والملصق المحدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/notetag/createblankpaperwithlines/
 ---
 ## NoteTag.CreateBlankPaperWithLines method
 
-ينشئ علامة ملاحظة جديدة بأيقونة BlankPaperWithLines والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlankPaperWithLines والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateBlankPaperWithLines(string label = "")

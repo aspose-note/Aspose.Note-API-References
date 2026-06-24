@@ -1,6 +1,6 @@
 ---
 title: "CompositeNode1.GetChildNodes"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة CompositeNode. احصل على جميع العقد الفرعية حسب نوع العقدة"
 type: docs
 weight: 70
@@ -25,7 +25,7 @@ public override List<T1> GetChildNodes<T1>()
 
 ## أمثلة
 
-يظهر كيفية الحصول على صورة من مستند.
+يوضح كيفية استخراج صورة من مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -34,7 +34,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// الحصول على جميع عقد Image
+// احصل على جميع عقد Image
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -43,14 +43,14 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // حفظ بايتات الصورة إلى ملف
+            // احفظ بايتات الصورة إلى ملف
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
 }
 ```
 
-يظهر كيفية الحصول على معلومات ميتا للصورة.
+يوضح كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -59,7 +59,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// الحصول على جميع عقد Image
+// احصل على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)

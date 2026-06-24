@@ -1,14 +1,14 @@
 ---
 title: "CompositeNode1.InsertChild"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة CompositeNode. تُدرج العقدة في الموضع المحدد في قائمة العقد الفرعية لهذا العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة CompositeNode. تُدرج العقدة في الموضع المحدد في قائمة العقد الفرعية لهذا العقد"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/compositenode-1/insertchild/
 ---
 ## CompositeNode&lt;T&gt;.InsertChild&lt;T1&gt; method
 
-يدرج العقدة في الموضع المحدد في قائمة العقد الفرعية لهذه العقدة.
+يدخل العقدة في الموضع المحدد في قائمة العقد الفرعية لهذه العقدة.
 
 ```csharp
 public virtual T1 InsertChild<T1>(int i, T1 newChild)
@@ -17,9 +17,9 @@ public virtual T1 InsertChild<T1>(int i, T1 newChild)
 
 | معامل | الوصف |
 | --- | --- |
-| T1 | النوع الدقيق للعقدة المدخلة. |
+| T1 | النوع الدقيق للعقدة المُدرَجة. |
 | i | الموضع للإدراج |
-| newChild | العقدة التي سيتم إدراجها. |
+| newChild | العقدة للإدراج. |
 
 ### قيمة الإرجاع
 

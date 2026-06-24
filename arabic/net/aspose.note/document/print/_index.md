@@ -1,6 +1,6 @@
 ---
 title: "Document.Print"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Document. تطبع المستند باستخدام الطابعة الافتراضية"
 type: docs
 weight: 130
@@ -27,7 +27,7 @@ var document = new Aspose.Note.Document(dataDir + "Aspose.one");
 document.Print();
 ```
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -66,7 +66,7 @@ public void Print(PrintOptions options)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| خيارات | PrintOptions | خيارات تُستخدم لطباعة مستند. يمكن أن تكون فارغة. |
+| خيارات | PrintOptions | الخيارات المستخدمة لطباعة مستند. يمكن أن تكون فارغة. |
 
 ### انظر أيضًا
 

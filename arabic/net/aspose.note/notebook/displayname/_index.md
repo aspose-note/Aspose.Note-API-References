@@ -1,7 +1,7 @@
 ---
 title: "Notebook.DisplayName"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Notebook. تحصل أو تعين اسم العرض"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Notebook. تحصل على أو تعين اسم العرض"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/notebook/displayname/
@@ -16,7 +16,7 @@ public string DisplayName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إزالة قسم من الدفتر.
+يظهر كيفية إزالة قسم من الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.

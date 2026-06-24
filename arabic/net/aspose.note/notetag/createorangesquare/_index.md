@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateOrangeSquare"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة OrangeSquare والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة OrangeSquare والملصق المحدد"
 type: docs
 weight: 710
 url: /ar/net/aspose.note/notetag/createorangesquare/
 ---
 ## NoteTag.CreateOrangeSquare method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة OrangeSquare وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة OrangeSquare والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateOrangeSquare(string label = "")

@@ -1,6 +1,6 @@
 ---
 title: "RichText.Clear"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة RichText. تمسح محتوى هذا الكائن."
 type: docs
 weight: 180
@@ -16,7 +16,7 @@ public RichText Clear()
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### انظر أيضًا
 

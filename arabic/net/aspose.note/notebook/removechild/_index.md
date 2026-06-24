@@ -1,7 +1,7 @@
 ---
 title: "Notebook.RemoveChild"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Notebook. تُزيل العقدة الفرعية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Notebook. تُزيل العقدة الفرعية."
 type: docs
 weight: 140
 url: /ar/net/aspose.note/notebook/removechild/
@@ -39,7 +39,7 @@ foreach (Document document in allDocuments)
 }
 ```
 
-يوضح كيفية إزالة قسم من الدفتر.
+يظهر كيفية إزالة قسم من الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.

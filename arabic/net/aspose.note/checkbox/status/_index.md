@@ -1,6 +1,6 @@
 ---
 title: "CheckBox.Status"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية CheckBox. تحصل أو تعين الحالة"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/checkbox/status/
 ---
 ## CheckBox.Status property
 
-يحصل أو يعيّن الحالة.
+الحصول على أو تعيين الحالة.
 
 ```csharp
 public TagStatus Status { get; }

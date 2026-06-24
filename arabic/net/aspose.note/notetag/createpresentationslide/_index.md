@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreatePresentationSlide"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة PresentationSlide وملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة PresentationSlide والملصق المحدد"
 type: docs
 weight: 780
 url: /ar/net/aspose.note/notetag/createpresentationslide/
 ---
 ## NoteTag.CreatePresentationSlide method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة PresentationSlide وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة PresentationSlide والملصق المحدد.
 
 ```csharp
 public static NoteTag CreatePresentationSlide(string label = "")

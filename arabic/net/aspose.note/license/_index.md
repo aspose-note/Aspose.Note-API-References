@@ -1,6 +1,6 @@
 ---
 title: "الفئة License"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.License. توفر طرقًا لترخيص المكوّن"
 type: docs
 weight: 370
@@ -18,18 +18,18 @@ public sealed class License
 
 | الاسم | الوصف |
 | --- | --- |
-| [License](license/)() | البناء الافتراضي. |
+| [License](license/)() | الباني الافتراضي. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetLicense](../../aspose.note/license/setlicense/#setlicense)(Stream) | يرخص المكوّن. |
-| [SetLicense](../../aspose.note/license/setlicense/#setlicense_1)(string) | يرخص المكوّن. |
+| [SetLicense](../../aspose.note/license/setlicense/#setlicense)(Stream) | ترخص المكوّن. |
+| [SetLicense](../../aspose.note/license/setlicense/#setlicense_1)(string) | ترخص المكوّن. |
 
 ## أمثلة
 
-في هذا المثال، سيتم محاولة العثور على ملف ترخيص باسم MyLicense.lic في المجلد الذي يحتوي على المكوّن، في المجلد الذي يحتوي على التجميع المستدعي، في مجلد التجميع الرئيسي ثم في الموارد المدمجة للتجميع المستدعي.
+في هذا المثال، سيتم محاولة العثور على ملف ترخيص يُدعى MyLicense.lic في المجلد الذي يحتوي على المكوّن، وفي المجلد الذي يحتوي على التجميع المستدعي، وفي مجلد التجميع الرئيسي، ثم في الموارد المدمجة للتجميع المستدعي.
 
 ```csharp
 [C#]
@@ -67,7 +67,7 @@ using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
 // إنشاء كائن من الفئة License
 Aspose.Note.License license = new Aspose.Note.License();
 
-// مرّر فقط اسم ملف الترخيص المدمج في التجميع
+// تمرير اسم ملف الترخيص المدمج في التجميع فقط
 license.SetLicense("Aspose.Note.lic");
 ```
 

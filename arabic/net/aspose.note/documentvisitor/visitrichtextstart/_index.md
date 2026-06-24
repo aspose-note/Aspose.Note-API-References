@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitRichTextStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. ابدأ بزيارة عقدة RichText"
 type: docs
 weight: 240
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/documentvisitor/visitrichtextstart/
 ---
 ## DocumentVisitor.VisitRichTextStart method
 
-ابدأ بزيارة عقدة [`RichText`](../../richtext/).
+ابدأ بزيارة العقدة [`RichText`](../../richtext/).
 
 ```csharp
 public virtual void VisitRichTextStart(RichText richText)

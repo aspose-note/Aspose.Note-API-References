@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.Accept"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة AttachedFile. تقبل زائر العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة AttachedFile. تقبل زائر العقدة."
 type: docs
 weight: 230
 url: /ar/net/aspose.note/attachedfile/accept/

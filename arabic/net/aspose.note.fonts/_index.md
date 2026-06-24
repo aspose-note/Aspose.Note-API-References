@@ -1,12 +1,12 @@
 ---
 title: "Aspose.Note.Fonts"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "مساحة الاسم Fonts تحتوي على فئات توفر وظائف للتعامل مع بيئة الخطوط للمستند."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "مساحة الأسماء Fonts تحتوي على فئات توفر وظائف للتعامل مع بيئة الخطوط للمستند"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.fonts/
 ---
-مساحة الاسم Fonts تحتوي على فئات توفر وظائف للتعامل مع بيئة الخط للمستند.
+مساحة الأسماء Fonts تحتوي على فئات توفر وظائف للتعامل مع بيئة الخط للمستند.
 
 ## الفئات
 
@@ -18,6 +18,6 @@ url: /ar/net/aspose.note.fonts/
 
 | الواجهة | الوصف |
 | --- | --- |
-| [IFontsSubsystem](./ifontssubsystem/) | نفّذ هذه الواجهة إذا أردت التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند. |
+| [IFontsSubsystem](./ifontssubsystem/) | نفّذ هذه الواجهة إذا كنت ترغب في التحكم في طريقة استرجاع Aspose.Note للخطوط عند حفظ المستند. |
 
 

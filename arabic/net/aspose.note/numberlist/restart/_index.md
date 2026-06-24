@@ -1,7 +1,7 @@
 ---
 title: "NumberList.Restart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NumberList. تحصل أو تعين القيمة الرقمية التي تتجاوز القيمة العددية التلقائية لعنصر القائمة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NumberList. يحصل أو يعيّن القيمة الرقمية التي تتجاوز القيمة العددية التلقائية لعنصر القائمة"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/numberlist/restart/

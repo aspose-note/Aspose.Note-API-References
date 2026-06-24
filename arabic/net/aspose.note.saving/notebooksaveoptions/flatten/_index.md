@@ -1,7 +1,7 @@
 ---
 title: "NotebookSaveOptions.Flatten"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NotebookSaveOptions. يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NotebookSaveOptions. يحصل أو يضبط قيمة تشير إلى ما إذا كان هيكل المستندات الفرعية للمفكرة يُحفظ مسطحًا"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/notebooksaveoptions/flatten/
@@ -16,7 +16,7 @@ public bool Flatten { get; set; }
 
 ## أمثلة
 
-يوضح كيفية حفظ الدفتر المسطح بصيغة PDF.
+يظهر كيفية حفظ دفتر مسطح بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -35,7 +35,7 @@ notebook.Save(
     });
 ```
 
-يوضح كيفية حفظ الدفتر المسطح كصورة.
+يظهر كيفية حفظ دفتر مسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.

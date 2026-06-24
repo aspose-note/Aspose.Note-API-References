@@ -1,6 +1,6 @@
 ---
 title: "تعداد NodeType"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "تعداد Aspose.Note.NodeType. يحدد نوع العقدة"
 type: docs
 weight: 440

@@ -1,6 +1,6 @@
 ---
 title: "FontsSubsystem.DefaultFont"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية FontsSubsystem. يحصل أو يضبط الخط الافتراضي"
 type: docs
 weight: 10

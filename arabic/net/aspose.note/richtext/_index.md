@@ -1,7 +1,7 @@
 ---
 title: "الفئة RichText"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "فئة Aspose.Note.RichText. تمثل نصًا غنيًا."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.RichText. تمثل نصًا غنيًا."
 type: docs
 weight: 610
 url: /ar/net/aspose.note/richtext/
@@ -18,7 +18,7 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 
 | الاسم | الوصف |
 | --- | --- |
-| [RichText](richtext/)() | يُنشئ مثيلًا جديدًا لفئة `RichText`. |
+| [RichText](richtext/)() | ينشئ مثيلًا جديدًا للفئة `RichText`. |
 
 ## الخصائص
 
@@ -30,7 +30,7 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [IsTitleDate](../../aspose.note/richtext/istitledate/) { get; } | يحصل على قيمة تشير إلى ما إذا كان عنصر RichText يحتوي على التاريخ في عنوان الصفحة. |
 | [IsTitleText](../../aspose.note/richtext/istitletext/) { get; } | يحصل على قيمة تشير إلى ما إذا كان عنصر RichText يحتوي على نص عنوان الصفحة. |
 | [IsTitleTime](../../aspose.note/richtext/istitletime/) { get; } | يحصل على قيمة تشير إلى ما إذا كان عنصر RichText يحتوي على الوقت في عنوان الصفحة. |
-| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [LastModifiedTime](../../aspose.note/richtext/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت التعديل الأخير. |
 | [Length](../../aspose.note/richtext/length/) { get; } | يحصل على طول النص. |
 | [LineSpacing](../../aspose.note/richtext/linespacing/) { get; set; } | يحصل أو يضبط تباعد الأسطر. |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
@@ -40,9 +40,9 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
 | [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | يحصل أو يضبط الحد الأدنى للمسافة بعد. |
 | [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | يحصل أو يضبط الحد الأدنى للمسافة قبل. |
-| [Tags](../../aspose.note/richtext/tags/) { get; } | يحصل على قائمة جميع العلامات في الفقرة. |
+| [Tags](../../aspose.note/richtext/tags/) { get; } | يحصل على قائمة بجميع العلامات في الفقرة. |
 | [Text](../../aspose.note/richtext/text/) { get; set; } | يحصل أو يضبط النص. يجب ألا يحتوي السلسلة على أي أحرف ذات القيمة 10 (سطر جديد). |
-| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | يحصل على مجموعة تشغيل النص. |
+| [TextRuns](../../aspose.note/richtext/textruns/) { get; } | يحصل على مجموعة تشغيلات النص. |
 
 ## الطرق
 
@@ -54,16 +54,16 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [AppendFront](../../aspose.note/richtext/appendfront/#appendfront)(string) | يضيف سلسلة إلى مقدمة نطاق النص الأول. |
 | [AppendFront](../../aspose.note/richtext/appendfront/#appendfront_1)(string, TextStyle) | يضيف سلسلة إلى المقدمة. |
 | [Clear](../../aspose.note/richtext/clear/)() | يمسح محتوى هذا الكائن. |
-| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | يرجع عدادًا يتنقل عبر أحرف كائن RichText هذا. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | يرجع الفهرس الصفري للظهور الأول للحرف Unicode المحدد في هذه السلسلة. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | يرجع الفهرس الصفري للظهور الأول للسلسلة المحددة في هذا الكائن. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | يرجع الفهرس الصفري للظهور الأول للحرف Unicode المحدد في هذه السلسلة. يبدأ البحث من موضع حرف محدد. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | يرجع الفهرس الصفري للظهور الأول للسلسلة المحددة في هذا الكائن. يبدأ البحث من موضع حرف محدد. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | يرجع الفهرس الصفري للظهور الأول للسلسلة المحددة في الكائن الحالي. يحدد معامل نوع البحث الذي يُستخدم للسلسلة المحددة. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | يرجع الفهرس الصفري للظهور الأول للحرف المحدد في هذا الكائن. يبدأ البحث من موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | يرجع الفهرس الصفري للظهور الأول للسلسلة المحددة في هذا الكائن. يبدأ البحث من موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | يرجع الفهرس الصفري للظهور الأول للسلسلة المحددة في الكائن الحالي. تحدد المعلمات موضع بدء البحث في السلسلة الحالية ونوع البحث الذي يُستخدم للسلسلة المحددة. |
-| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | يرجع الفهرس الصفري للظهور الأول للسلسلة المحددة في الكائن الحالي. |
+| [GetEnumerator](../../aspose.note/richtext/getenumerator/)() | يعيد عدّادًا يتنقل عبر أحرف هذا الكائن RichText. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof)(char) | يعيد الفهرس الصفري للظهور الأول للحرف Unicode المحدد في هذه السلسلة. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_3)(string) | يعيد الفهرس الصفري للظهور الأول للسلسلة المحددة في هذا الكائن. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_1)(char, int) | يعيد الفهرس الصفري للظهور الأول للحرف Unicode المحدد في هذه السلسلة. يبدأ البحث من موضع حرف محدد. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_4)(string, int) | يعيد الفهرس الصفري للظهور الأول للسلسلة المحددة في هذا الكائن. يبدأ البحث من موضع حرف محدد. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_8)(string, StringComparison) | يعيد الفهرس الصفري للظهور الأول للسلسلة المحددة في الكائن الحالي. يحدد معلمة نوع البحث المستخدم للسلسلة المحددة. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_2)(char, int, int) | يعيد الفهرس الصفري للظهور الأول للحرف المحدد في هذا الكائن. يبدأ البحث من موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_5)(string, int, int) | يعيد الفهرس الصفري للظهور الأول للسلسلة المحددة في هذا الكائن. يبدأ البحث من موضع حرف محدد ويفحص عددًا محددًا من مواضع الأحرف. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_7)(string, int, StringComparison) | يعيد الفهرس الصفري للظهور الأول للسلسلة المحددة في الكائن الحالي. تحدد المعلمات موضع بدء البحث في السلسلة الحالية ونوع البحث المستخدم للسلسلة المحددة. |
+| [IndexOf](../../aspose.note/richtext/indexof/#indexof_6)(string, int, int, StringComparison) | يعيد الفهرس الصفري للظهور الأول للسلسلة المحددة في الكائن الحالي. |
 | [Insert](../../aspose.note/richtext/insert/#insert)(int, string) | يدرج سلسلة محددة في موضع فهرس محدد في هذه الحالة. |
 | [Insert](../../aspose.note/richtext/insert/#insert_1)(int, string, TextStyle) | يدرج سلسلة محددة مع نمط محدد في موضع فهرس محدد في هذه الحالة. |
 | [Remove](../../aspose.note/richtext/remove/#remove)(int) | يزيل جميع الأحرف في الحالة الحالية، بدءًا من موضع محدد ومتابعةً حتى الموضع الأخير. |
@@ -72,14 +72,14 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [Replace](../../aspose.note/richtext/replace/#replace_1)(string, string) | يستبدل جميع تكرارات سلسلة محددة في الحالة الحالية بسلسلة أخرى محددة. |
 | [Replace](../../aspose.note/richtext/replace/#replace_2)(string, string, TextStyle) | يستبدل جميع تكرارات سلسلة محددة في الحالة الحالية بسلسلة أخرى محددة بنمط محدد. |
 | [Trim](../../aspose.note/richtext/trim/#trim)() | يزيل جميع الأحرف البيضاء في البداية والنهاية. |
-| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | يزيل جميع الحالات في البداية والنهاية لحرف. |
-| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | يزيل جميع التكرارات في البداية والنهاية لمجموعة من الأحرف المحددة في مصفوفة. |
+| [Trim](../../aspose.note/richtext/trim/#trim_1)(char) | يزيل جميع الحالات الأولية والنهائية لحرف. |
+| [Trim](../../aspose.note/richtext/trim/#trim_2)(params char[]) | يزيل جميع التكرارات الأولية والنهائية لمجموعة من الأحرف المحددة في مصفوفة. |
 | [TrimEnd](../../aspose.note/richtext/trimend/#trimend)() | يزيل جميع الأحرف البيضاء المتبقية في النهاية. |
-| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | يزيل جميع التكرارات المتبقية لحرف. |
-| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | يزيل جميع التكرارات المتبقية لمجموعة من الأحرف المحددة في مصفوفة. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_1)(char) | يزيل جميع التكرارات النهائية لحرف. |
+| [TrimEnd](../../aspose.note/richtext/trimend/#trimend_2)(params char[]) | يزيل جميع التكرارات النهائية لمجموعة من الأحرف المحددة في مصفوفة. |
 | [TrimStart](../../aspose.note/richtext/trimstart/#trimstart)() | يزيل جميع الأحرف البيضاء في البداية. |
-| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | يزيل جميع التكرارات في البداية لحرف محدد. |
-| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | يزيل جميع التكرارات في البداية لمجموعة من الأحرف المحددة في مصفوفة. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_1)(char) | يزيل جميع التكرارات الأولية لحرف محدد. |
+| [TrimStart](../../aspose.note/richtext/trimstart/#trimstart_2)(params char[]) | يزيل جميع التكرارات الأولية لمجموعة من الأحرف المحددة في مصفوفة. |
 
 ## أمثلة
 
@@ -120,7 +120,7 @@ if (page != null)
 }
 ```
 
-دعنا نبرز عناوين الصفحة بين العناوين الأخرى بزيادة حجم الخط.
+لنُبرز عناوين الصفحة بين باقي العناوين بزيادة حجم الخط.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -128,7 +128,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// تكرار عبر عناوين الصفحة.
+// تكرّر عبر عناوين الصفحة.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -144,7 +144,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-يوضح كيفية الحصول على النص من كل صف في الجدول.
+يظهر كيفية الحصول على النص من كل صف في الجدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -170,7 +170,7 @@ foreach (Table table in nodes)
 }
 ```
 
-يوضح كيفية الحصول على النص من جدول.
+يظهر كيفية الحصول على النص من جدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -198,7 +198,7 @@ foreach (Table table in nodes)
 }
 ```
 
-دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
+لنُبرز تغييرات النص الأخير عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -206,16 +206,16 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// احصل على عقد RichText المعدلة الأسبوع الماضي.
+// احصل على عقد RichText التي تم تعديلها الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // تعيين لون التظليل
+    // حدد لون التظليل
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // تعيين لون التظليل
+        // حدد لون التظليل
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }
@@ -256,7 +256,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-تعيين لغة التدقيق لنص.
+حدد لغة التدقيق للنص.
 
 ```csharp
 var document = new Document();
@@ -296,7 +296,7 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // استبدال نص الشكل
+        // استبدال نص شكل
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
@@ -307,7 +307,7 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-التعامل مع تنسيق النص باستخدام نمط الفقرة.
+تلاعب بتنسيق النص باستخدام نمط الفقرة.
 
 ```csharp
 var document = new Document();
@@ -328,7 +328,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-يوضح كيفية الحصول على النص من خلايا الجدول.
+يظهر كيفية الحصول على النص من خلايا الجدول.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -380,7 +380,7 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // استبدال نص الشكل
+        // استبدال نص شكل
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
@@ -396,7 +396,7 @@ oneFile.Save(dataDir, SaveFormat.Pdf);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
@@ -414,22 +414,22 @@ dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-يعرض كيفية إضافة فقرة جديدة مع العلامة.
+يوضح كيفية إضافة فقرة جديدة مع علامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
@@ -444,10 +444,10 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddTextNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
@@ -458,7 +458,7 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
@@ -481,7 +481,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -515,28 +515,28 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يظهر كيفية إنشاء مستند بنص.
+يعرض كيفية إنشاء مستند بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائن الفئة RichText وتطبيق نمط النص
+// تهيئة كائن فئة RichText وتطبيق نمط النص
 RichText text = new RichText() { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // إضافة عقدة RichText
@@ -551,24 +551,24 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
 
-يعرض كيفية إدراج قائمة جديدة بترقيم صيني.
+يوضح كيفية إدراج قائمة جديدة بترقيم صيني.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
-// تهيئة صفحة OneNote.
+// تهيئة صفحة OneNote
 Page page = new Page();
 Outline outline = new Outline();
 
-// تطبيق إعدادات نمط النص.
+// تطبيق إعدادات نمط النص
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
@@ -593,7 +593,7 @@ outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -603,22 +603,22 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق النقاط
+// تهيئة كائنات فئة OutlineElement وتطبيق النقاط
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
-// تهيئة كائن الفئة RichText وتطبيق نمط النص
+// تهيئة كائن فئة RichText وتطبيق نمط النص
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -640,7 +640,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -650,19 +650,19 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق الترقيم.
+// تهيئة كائنات فئة OutlineElement وتطبيق الترقيم
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
@@ -687,18 +687,18 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
 
-يعرض كيفية إعداد قالب للاجتماع الأسبوعي.
+يوضح كيفية إعداد قالب للاجتماع الأسبوعي.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };
 var bodyStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 12 };
 
@@ -732,13 +732,13 @@ foreach (var e in new[] { "First", "Second", "Third" })
 d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 ```
 
-يظهر كيفية ربط ارتباط تشعبي بنص.
+يعرض كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -777,7 +777,7 @@ outline.AppendChildLast(outlineElem);
 // تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Note.Page() { Title = title };
 
 // إضافة عقدة المخطط
@@ -786,7 +786,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```

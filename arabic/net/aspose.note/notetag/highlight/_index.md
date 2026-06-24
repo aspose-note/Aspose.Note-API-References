@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.Highlight"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية NoteTag. يحصل أو يضبط لون التمييز"
 type: docs
 weight: 1160

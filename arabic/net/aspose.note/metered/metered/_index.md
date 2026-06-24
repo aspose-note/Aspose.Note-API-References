@@ -1,14 +1,14 @@
 ---
 title: "Metered.Metered"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "المُنشئ Metered. المُنشئ الافتراضي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ Metered. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/metered/metered/
 ---
 ## Metered constructor
 
-البناء الافتراضي.
+الباني الافتراضي.
 
 ```csharp
 public Metered()

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreatePadlock"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Padlock والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Padlock والعنوان المحدد"
 type: docs
 weight: 720
 url: /ar/net/aspose.note/notetag/createpadlock/
 ---
 ## NoteTag.CreatePadlock method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Padlock وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة Padlock والملصق المحدد.
 
 ```csharp
 public static NoteTag CreatePadlock(string label = "Password")

@@ -1,6 +1,6 @@
 ---
 title: "RichText.Length"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية RichText. تحصل على طول النص"
 type: docs
 weight: 70

@@ -1,7 +1,7 @@
 ---
 title: "CheckBox.Checked"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "CheckBox خاصية. يحصل على قيمة تشير إلى ما إذا كان CheckBox في حالة الاختيار"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية CheckBox. يحصل على قيمة تشير إلى ما إذا كان CheckBox في الحالة المحددة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/checkbox/checked/
@@ -37,7 +37,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-يوضح كيفية إكمال جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية إكمال جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -60,7 +60,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-يوضح كيفية فتح جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية فتح جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -83,7 +83,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر معلمة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
+يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر محددة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
 
 ```csharp
 // المسار إلى دليل المستندات.

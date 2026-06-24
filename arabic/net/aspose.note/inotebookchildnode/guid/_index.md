@@ -1,6 +1,6 @@
 ---
 title: "INotebookChildNode.Guid"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية INotebookChildNode. تحصل على المعرف الفريد عالميًا للكائن"
 type: docs
 weight: 30
@@ -16,7 +16,7 @@ public Guid Guid { get; }
 
 ### Property Value
 
-المعرف الفريد (GUID).
+المعرف الفريد.
 
 ### انظر أيضًا
 

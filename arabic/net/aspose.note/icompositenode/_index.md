@@ -1,7 +1,7 @@
 ---
 title: "الواجهة ICompositeNode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "واجهة Aspose.Note.ICompositeNode. الواجهة للعُقَد التي يمكنها احتواء عُقَد أخرى"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "واجهة Aspose.Note.ICompositeNode. الواجهة للعُقد التي يمكنها احتواء عُقد أخرى"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/icompositenode/

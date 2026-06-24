@@ -1,7 +1,7 @@
 ---
 title: "الفئة MergeOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "Aspose.Note.MergeOptions فئة. الخيارات لدمج مجموعة من الصفحات"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.MergeOptions. الخيارات لدمج مجموعة من الصفحات"
 type: docs
 weight: 410
 url: /ar/net/aspose.note/mergeoptions/
@@ -18,20 +18,20 @@ public class MergeOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [MergeOptions](mergeoptions/)() | البناء الافتراضي. |
+| [MergeOptions](mergeoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [ImportAsSinglePage](../../aspose.note/mergeoptions/importassinglepage/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان سيتم استيراد الصفحات المقدمة كصفحة واحدة. |
-| [InsertAsChild](../../aspose.note/mergeoptions/insertaschild/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدخلة كأطفال للصفحة السابقة. |
+| [ImportAsSinglePage](../../aspose.note/mergeoptions/importassinglepage/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب استيراد الصفحات المقدمة كصف واحد. |
+| [InsertAsChild](../../aspose.note/mergeoptions/insertaschild/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المُدخلة كأطفال للصفحة السابقة. |
 | [InsertAt](../../aspose.note/mergeoptions/insertat/) { get; set; } | يحصل أو يعيّن الموضع الذي ستُدرج فيه الصفحات المستوردة. |
-| [PageSpacing](../../aspose.note/mergeoptions/pagespacing/) { get; set; } | يحصل أو يعيّن التباعد بين الصفحات عند استيرادها كصفحة واحدة. |
+| [PageSpacing](../../aspose.note/mergeoptions/pagespacing/) { get; set; } | يحصل أو يعيّن التباعد بين الصفحات عند استيرادها كصف واحد. |
 
 ## أمثلة
 
-يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات في صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -66,7 +66,7 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-يعرض كيفية استيراد جميع المحتويات من مجموعة مستندات PDF مع دمج صفحات كل مستند PDF إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع المحتويات من مجموعة مستندات PDF مع دمج صفحات كل مستند PDF في صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

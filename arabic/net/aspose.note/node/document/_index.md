@@ -1,7 +1,7 @@
 ---
 title: "Node.Document"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Node. يحصل على المستند للعقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Node. تحصل على مستند العقدة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/node/document/

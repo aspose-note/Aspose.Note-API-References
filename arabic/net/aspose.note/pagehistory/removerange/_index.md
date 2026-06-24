@@ -1,14 +1,14 @@
 ---
 title: "PageHistory.RemoveRange"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. تُزيل مجموعة من إصدارات الصفحة من PageHistory."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تزيل مجموعة من إصدارات الصفحة من PageHistory"
 type: docs
 weight: 160
 url: /ar/net/aspose.note/pagehistory/removerange/
 ---
 ## PageHistory.RemoveRange method
 
-تُزيل مجموعة من إصدارات الصفحة من [`PageHistory`](../).
+تزيل مجموعة من إصدارات الصفحة من [`PageHistory`](../).
 
 ```csharp
 public void RemoveRange(int index, int count)

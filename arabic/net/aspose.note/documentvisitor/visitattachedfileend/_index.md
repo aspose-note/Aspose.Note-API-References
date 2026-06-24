@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitAttachedFileEnd"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. نهاية زيارة عقدة AttachedFile"
 type: docs
 weight: 10

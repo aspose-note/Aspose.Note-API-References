@@ -1,7 +1,7 @@
 ---
 title: "LoadOptions.LoadHistory"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "LoadOptions خاصية. يحصل على أو يضبط قيمة تشير إلى ما إذا كان محمل المستند يجب أن يتجاهل السجل. استخدم هذا الخيار لتقليل استهلاك الذاكرة ووحدة المعالجة المركزية. القيمة الافتراضية هي true"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية LoadOptions. يحصل أو يضبط قيمة تشير إلى ما إذا كان محمل المستند يجب أن يتجاهل السجل. استخدم هذا الخيار لتقليل استهلاك الذاكرة والمعالج. القيمة الافتراضية هي true"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/loadoptions/loadhistory/
@@ -16,13 +16,13 @@ public bool LoadHistory { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى

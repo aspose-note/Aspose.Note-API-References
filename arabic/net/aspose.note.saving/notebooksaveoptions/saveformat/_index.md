@@ -1,14 +1,14 @@
 ---
 title: "NotebookSaveOptions.SaveFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NotebookSaveOptions. يحصل على الصيغة التي يتم حفظ الدفتر بها"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NotebookSaveOptions. يحصل على الصيغة التي يتم حفظ المفكرة بها"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/notebooksaveoptions/saveformat/
 ---
 ## NotebookSaveOptions.SaveFormat property
 
-يحصل على الصيغة التي يُحفظ بها الدفتر.
+يحصل على التنسيق الذي يُحفظ به الدفتر.
 
 ```csharp
 public abstract SaveFormat SaveFormat { get; }

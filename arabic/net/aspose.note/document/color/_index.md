@@ -1,14 +1,14 @@
 ---
 title: "Document.Color"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Document. تحصل أو تعيّن اللون"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Document. تحصل أو تعين اللون"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/document/color/
 ---
 ## Document.Color property
 
-يحصل أو يعيّن اللون.
+يحصل على اللون أو يضبطه.
 
 ```csharp
 public Color Color { get; set; }

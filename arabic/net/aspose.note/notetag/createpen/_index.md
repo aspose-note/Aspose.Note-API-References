@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreatePen"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز Pen والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Pen والملصق المحدد"
 type: docs
 weight: 740
 url: /ar/net/aspose.note/notetag/createpen/
 ---
 ## NoteTag.CreatePen method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Pen وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة Pen والملصق المحدد.
 
 ```csharp
 public static NoteTag CreatePen(string label = "Highlight")

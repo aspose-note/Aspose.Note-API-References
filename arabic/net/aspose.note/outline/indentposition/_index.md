@@ -1,14 +1,14 @@
 ---
 title: "IndentPosition"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "يحصل أو يعيّن موضع الإزاحة."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "يحصل أو يضبط موضع المسافة البادئة."
 type: docs
 weight: 40
 url: /ar/net/aspose.note/outline/indentposition/
 ---
 ## Outline.IndentPosition property
 
-يحصل أو يعيّن موضع الإزاحة.
+يحصل أو يضبط موضع المسافة البادئة.
 
 ```csharp
 public byte IndentPosition { get; set; }
@@ -20,4 +20,4 @@ public byte IndentPosition { get; set; }
 * namespace [Aspose.Note](../../outline)
 * assembly [Aspose.Note](../../../)
 
-<!-- لا تقم بالتعديل: تم إنشاؤه بواسطة xmldocmd لـ Aspose.Note.dll -->
+<!-- لا تقم بالتعديل: تم الإنشاء بواسطة xmldocmd لـ Aspose.Note.dll -->

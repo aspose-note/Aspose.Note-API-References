@@ -1,14 +1,14 @@
 ---
 title: "ImageSaveOptions.ColorMode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية ImageSaveOptions. يحصل أو يضبط ColorMode للصورة الناتجة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ImageSaveOptions. تحصل أو تعيين ColorMode للصورة الناتجة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/imagesaveoptions/colormode/
 ---
 ## ImageSaveOptions.ColorMode property
 
-يحصل أو يضبط `ColorMode` للصورة الناتجة.
+تحصل أو تعيين `ColorMode` للصورة الناتجة.
 
 ```csharp
 public ColorMode ColorMode { get; set; }
@@ -16,7 +16,7 @@ public ColorMode ColorMode { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ المستند كصورة بتدرج الرمادي.
+يوضح كيفية حفظ المستند كصورة بتدرج الرمادي.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -27,14 +27,14 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -53,7 +53,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -64,7 +64,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -75,7 +75,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -86,7 +86,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,

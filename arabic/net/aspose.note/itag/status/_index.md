@@ -1,14 +1,14 @@
 ---
 title: "ITag.Status"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "ITag property. يحصل أو يضبط الحالة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ITag. تحصل أو تعين الحالة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/itag/status/
 ---
 ## ITag.Status property
 
-يحصل أو يعيّن الحالة.
+الحصول على أو تعيين الحالة.
 
 ```csharp
 public TagStatus Status { get; }
@@ -52,7 +52,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

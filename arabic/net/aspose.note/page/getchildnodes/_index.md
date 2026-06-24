@@ -1,7 +1,7 @@
 ---
 title: "Page.GetChildNodes"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Page. احصل على جميع العقد الفرعية للصفحة حسب نوع العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Page. الحصول على جميع العقد الفرعية للصفحة حسب نوع العقدة"
 type: docs
 weight: 150
 url: /ar/net/aspose.note/page/getchildnodes/
@@ -81,7 +81,7 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // استبدال نص الشكل
+        // استبدال نص شكل
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
@@ -113,7 +113,7 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // استبدال نص الشكل
+        // استبدال نص شكل
         richText.Replace(kvp.Key, kvp.Value);
     }
 }

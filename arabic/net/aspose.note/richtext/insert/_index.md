@@ -1,6 +1,6 @@
 ---
 title: "RichText.Insert"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة RichText. تُدرج سلسلة محددة في موضع فهرس محدد في هذه الحالة"
 type: docs
 weight: 210
@@ -21,7 +21,7 @@ public RichText Insert(int startIndex, string value)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### استثناءات
 
@@ -53,7 +53,7 @@ public RichText Insert(int startIndex, string value, TextStyle style)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### استثناءات
 

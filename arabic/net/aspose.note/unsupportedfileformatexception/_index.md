@@ -1,14 +1,14 @@
 ---
 title: "فئة UnsupportedFileFormatException"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "Aspose.Note.UnsupportedFileFormatException فئة. تُرمى أثناء تحميل المستند عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "فئة Aspose.Note.UnsupportedFileFormatException. تُرمى أثناء تحميل المستند عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note"
 type: docs
 weight: 1070
 url: /ar/net/aspose.note/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class
 
-يُرمى أثناء تحميل المستند، عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note.
+يُرمى أثناء تحميل المستند عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note.
 
 ```csharp
 public class UnsupportedFileFormatException : Exception
@@ -18,7 +18,7 @@ public class UnsupportedFileFormatException : Exception
 
 | الاسم | الوصف |
 | --- | --- |
-| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | يحصل على تنسيق الملف للبيانات الممررة إذا تم اكتشافه. |
+| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | يحصل على تنسيق الملف للبيانات الممرّرة إذا تم اكتشافه. |
 
 ## أمثلة
 

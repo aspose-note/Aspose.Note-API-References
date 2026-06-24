@@ -1,14 +1,14 @@
 ---
 title: "RichText.Tags"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية RichText. يحصل على قائمة بجميع العلامات في فقرة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية RichText. يحصل على قائمة جميع الوسوم في فقرة"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/richtext/tags/
 ---
 ## RichText.Tags property
 
-يحصل على قائمة جميع العلامات في الفقرة.
+يحصل على قائمة بجميع العلامات في الفقرة.
 
 ```csharp
 public List<ITag> Tags { get; }

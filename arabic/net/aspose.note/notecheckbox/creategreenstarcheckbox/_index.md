@@ -1,7 +1,7 @@
 ---
 title: "NoteCheckBox.CreateGreenStarCheckBox"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteCheckBox. ينشئ مربع اختيار ملاحظة جديد مع أيقونة GreenStarCheckBoxEmpty والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteCheckBox. تنشئ خانة ملاحظة جديدة مع أيقونة GreenStarCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 180
 url: /ar/net/aspose.note/notecheckbox/creategreenstarcheckbox/

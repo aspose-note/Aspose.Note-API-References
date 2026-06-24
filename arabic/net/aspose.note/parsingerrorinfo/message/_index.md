@@ -1,7 +1,7 @@
 ---
 title: "ParsingErrorInfo.Message"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية ParsingErrorInfo. تحصل على رسالة تصف الخطأ الحالي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ParsingErrorInfo. يحصل على رسالة تصف الخطأ الحالي"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/parsingerrorinfo/message/

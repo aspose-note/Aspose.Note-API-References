@@ -1,7 +1,7 @@
 ---
 title: "الفئة FileCorruptedException"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.FileCorruptedException. تُرمى أثناء تحميل المستند عندما يبدو المستند تالفًا ولا يمكن تحميله"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.FileCorruptedException فئة. تُرمى أثناء تحميل المستند عندما يبدو المستند تالفًا ولا يمكن تحميله"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/filecorruptedexception/

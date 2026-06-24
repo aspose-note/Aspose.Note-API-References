@@ -1,6 +1,6 @@
 ---
 title: "FontsSubsystem.LoadFontsFromFolder"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة FontsSubsystem. يحمل جميع خطوط TrueType من المجلد المحدد إلى المجموعة الداخلية"
 type: docs
 weight: 50
@@ -22,9 +22,9 @@ public void LoadFontsFromFolder(string folder)
 
 | استثناء | شرط |
 | --- | --- |
-| NullReferenceException | المعامل 'folder' فارغ أو خالي. |
+| NullReferenceException | المعامل 'folder' هو null أو فارغ. |
 | DirectoryNotFoundException | الدليل المحدد بالمجلد غير موجود. |
-| InvalidDataException | الملف الموجود في المجلد لا يحتوي على خط TrueType. |
+| InvalidDataException | الملف من المجلد لا يحتوي على خط TrueType. |
 
 ### انظر أيضًا
 

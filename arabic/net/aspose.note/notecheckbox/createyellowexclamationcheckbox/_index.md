@@ -1,7 +1,7 @@
 ---
 title: "NoteCheckBox.CreateYellowExclamationCheckBox"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteCheckBox. تنشئ مربع اختيار ملاحظة جديد مع أيقونة YellowExclamationCheckBoxEmpty والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteCheckBox. تنشئ خانة اختيار ملاحظة جديدة مع أيقونة YellowExclamationCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 240
 url: /ar/net/aspose.note/notecheckbox/createyellowexclamationcheckbox/

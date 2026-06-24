@@ -1,14 +1,14 @@
 ---
 title: "KeepPartAndCloneSolidObjectToNextPageAlgorithm.KeepPartAndCloneSolidObjectToNextPageAlgorithm"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ KeepPartAndCloneSolidObjectToNextPageAlgorithm. يهيئ مثالًا جديدًا من الفئة KeepPartAndCloneSolidObjectToNextPageAlgorithm باستخدام حد الارتفاع الافتراضي للجزء المستنسخ"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ KeepPartAndCloneSolidObjectToNextPageAlgorithm. يهيئ مثيلًا جديدًا من الفئة KeepPartAndCloneSolidObjectToNextPageAlgorithm باستخدام حد الارتفاع الافتراضي للجزء المستنسخ"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/keeppartandclonesolidobjecttonextpagealgorithm/
 ---
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm() {#constructor}
 
-يهيئ مثالًا جديدًا من الفئة [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../)، باستخدام حد الارتفاع الافتراضي للجزء المستنسخ.
+يهيئ مثيلًا جديدًا من الفئة [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../)، باستخدام حد الارتفاع الافتراضي للجزء المستنسخ.
 
 ```csharp
 public KeepPartAndCloneSolidObjectToNextPageAlgorithm()
@@ -24,7 +24,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm()
 
 ## KeepPartAndCloneSolidObjectToNextPageAlgorithm(float) {#constructor_1}
 
-يهيئ مثالًا جديدًا من الفئة [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../)، باستخدام حد ارتفاع محدد للجزء المستنسخ.
+يهيئ مثيلًا جديدًا من الفئة [`KeepPartAndCloneSolidObjectToNextPageAlgorithm`](../)، باستخدام حد ارتفاع محدد للجزء المستنسخ.
 
 ```csharp
 public KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedPart)
@@ -32,7 +32,7 @@ public KeepPartAndCloneSolidObjectToNextPageAlgorithm(float heightLimitOfClonedP
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| heightLimitOfClonedPart | Single | الحد الأقصى لارتفاع الجزء المستنسخ. |
+| heightLimitOfClonedPart | Single | الارتفاع الأقصى للجزء المستنسخ. |
 
 ### انظر أيضًا
 

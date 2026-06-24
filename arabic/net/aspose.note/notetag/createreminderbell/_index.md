@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateReminderBell"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة ReminderBell والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة ReminderBell والملصق المحدد"
 type: docs
 weight: 840
 url: /ar/net/aspose.note/notetag/createreminderbell/
 ---
 ## NoteTag.CreateReminderBell method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة ReminderBell وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة ReminderBell والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateReminderBell(string label = "")

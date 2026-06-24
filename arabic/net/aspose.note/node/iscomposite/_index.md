@@ -1,7 +1,7 @@
 ---
 title: "Node.IsComposite"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Node. يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كان صحيحًا يمكن للعقدة أن تحتوي على عقد فرعية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Node. تحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كانت true يمكن للعقدة أن تحتوي على عقد فرعية"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/node/iscomposite/

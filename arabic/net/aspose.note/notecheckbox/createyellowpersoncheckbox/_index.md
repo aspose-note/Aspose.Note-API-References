@@ -1,6 +1,6 @@
 ---
 title: "NoteCheckBox.CreateYellowPersonCheckBox"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "NoteCheckBox طريقة. ينشئ مربع اختيار ملاحظة جديد مع أيقونة YellowPersonCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 250

@@ -1,14 +1,14 @@
 ---
 title: "AttachedFile.Bytes"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل على البيانات الثنائية لملف مضمّن"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل على البيانات الثنائية لملف مضمّن"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/attachedfile/bytes/
 ---
 ## AttachedFile.Bytes property
 
-يحصل على البيانات الثنائية لملف مضمّن.
+يحصل على البيانات الثنائية للملف المضمّن.
 
 ```csharp
 public byte[] Bytes { get; }
@@ -16,7 +16,7 @@ public byte[] Bytes { get; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على محتوى ملف مرفق.
+يوضح كيفية الحصول على محتوى ملف مرفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -28,7 +28,7 @@ Document oneFile = new Document(dataDir + "Sample1.one");
 // احصل على قائمة بعقد الملفات المرفقة
 IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
 
-// تكرار عبر جميع العقد
+// التكرار عبر جميع العقد
 foreach (AttachedFile file in nodes)
 {
     // تحميل الملف المرفق إلى كائن تدفق

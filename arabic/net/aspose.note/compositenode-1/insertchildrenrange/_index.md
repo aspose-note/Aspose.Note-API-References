@@ -1,14 +1,14 @@
 ---
 title: "CompositeNode1.InsertChildrenRange"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة CompositeNode. تُدرج تسلسل العقد بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذا العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة CompositeNode. تُدرج تسلسل العقد بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذا العقد"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/compositenode-1/insertchildrenrange/
 ---
 ## InsertChildrenRange(int, IEnumerable&lt;T&gt;) {#insertchildrenrange}
 
-يدرج تسلسل العقدة بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة.
+يدخل تسلسل العقد بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة.
 
 ```csharp
 public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
@@ -29,7 +29,7 @@ public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
 
 ## InsertChildrenRange(int, params T[]) {#insertchildrenrange_1}
 
-يدرج تسلسل العقدة بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة.
+يدخل تسلسل العقد بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة.
 
 ```csharp
 public void InsertChildrenRange(int i, params T[] newChildren)

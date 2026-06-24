@@ -1,7 +1,7 @@
 ---
 title: "تعداد FileFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "Aspose.Note.FileFormat enum. يمثل تنسيق ملف OneNote"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "تعداد Aspose.Note.FileFormat. يمثل تنسيق ملف OneNote"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/fileformat/

@@ -1,6 +1,6 @@
 ---
 title: "TextRun.Length"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية TextRun. تحصل على طول النص المرتبط"
 type: docs
 weight: 20

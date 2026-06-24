@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Count"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية PageHistory. تُعيد عدد إصدارات الصفحة في تاريخ الصفحة."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية PageHistory. تحصل على عدد إصدارات الصفحة في سجل الصفحات"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/pagehistory/count/

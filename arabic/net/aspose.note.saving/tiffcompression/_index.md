@@ -1,14 +1,14 @@
 ---
 title: "التعداد TiffCompression"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "التعداد Aspose.Note.Saving.TiffCompression. يحدد نوع الضغط الذي يُستخدم عند حفظ مستند بتنسيق TIFF"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Saving.TiffCompression enum. يحدد نوع الضغط الذي يُستخدم عند حفظ مستند بتنسيق TIFF"
 type: docs
 weight: 960
 url: /ar/net/aspose.note.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
 
-يحدد نوع الضغط الذي يُستخدم عند حفظ مستند إلى تنسيق TIFF.
+يحدد نوع الضغط الذي يستخدم عند حفظ مستند إلى صيغة TIFF.
 
 ```csharp
 public enum TiffCompression
@@ -28,7 +28,7 @@ public enum TiffCompression
 
 ## أمثلة
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -46,7 +46,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -65,7 +65,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
 
 ```csharp
 // المسار إلى دليل المستندات.

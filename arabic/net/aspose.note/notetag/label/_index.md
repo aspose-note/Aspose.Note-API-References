@@ -1,7 +1,7 @@
 ---
 title: "NoteTag.Label"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteTag خاصية. يحصل أو يضبط نص الملصق"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NoteTag. تحصل أو تعين نص الملصق"
 type: docs
 weight: 1180
 url: /ar/net/aspose.note/notetag/label/

@@ -1,14 +1,14 @@
 ---
 title: "Image.Height"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Image. تحصل أو تعين الارتفاع. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Image. تحصل أو تعين الارتفاع. هذا هو الارتفاع الفعلي للصورة في مستند MS OneNote"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/image/height/
 ---
 ## Image.Height property
 
-يحصل أو يعيّن الارتفاع. هذا هو الارتفاع الحقيقي للصورة في مستند MS OneNote.
+يحصل أو يعيّن الارتفاع. هذا هو الارتفاع الفعلي للصورة في مستند MS OneNote.
 
 ```csharp
 public float Height { get; set; }
@@ -16,7 +16,7 @@ public float Height { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على معلومات ميتا للصورة.
+يوضح كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -25,7 +25,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// الحصول على جميع عقد Image
+// احصل على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -40,7 +40,7 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-يظهر كيفية إضافة صورة من ملف إلى مستند مع خصائص محددة من قبل المستخدم.
+يعرض كيفية إضافة صورة من ملف إلى مستند مع خصائص معرفة من قبل المستخدم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -63,7 +63,7 @@ Image image = new Image(dataDir + "image.jpg")
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // ضبط محاذاة الصورة
+                              // تعيين محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 

@@ -1,6 +1,6 @@
 ---
 title: "التعداد HorizontalAlignment"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "التعداد Aspose.Note.HorizontalAlignment. يحدد المحاذاة"
 type: docs
 weight: 130

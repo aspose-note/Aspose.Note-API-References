@@ -1,6 +1,6 @@
 ---
 title: "Image.Format"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Image. تحصل على تنسيق الصورة"
 type: docs
 weight: 80

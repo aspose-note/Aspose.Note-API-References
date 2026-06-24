@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitOutlineEnd"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. نهاية زيارة عقدة Outline"
 type: docs
 weight: 170
@@ -16,7 +16,7 @@ public virtual void VisitOutlineEnd(Outline outline)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| outline | Outline | العقدة [`Outline`](../../outline/) |
+| outline | Outline | العنصر [`Outline`](../../outline/) . |
 
 ### انظر أيضًا
 

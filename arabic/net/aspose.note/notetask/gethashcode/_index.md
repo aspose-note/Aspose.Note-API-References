@@ -1,14 +1,14 @@
 ---
 title: "NoteTask.GetHashCode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTask. تعمل كدالة تجزئة لهذا النوع"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTask. تعمل كدالة تجزئة للنوع"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/notetask/gethashcode/
 ---
 ## NoteTask.GetHashCode method
 
-يعمل كدالة تجزئة للنوع.
+يعمل كدالة تجزئة (hash) لهذا النوع.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-الـ Int32.
+القيمة Int32.
 
 ### انظر أيضًا
 

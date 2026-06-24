@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateGreenSquare"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز GreenSquare والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة GreenSquare والملصق المحدد"
 type: docs
 weight: 460
 url: /ar/net/aspose.note/notetag/creategreensquare/
 ---
 ## NoteTag.CreateGreenSquare method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة GreenSquare والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenSquare وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateGreenSquare(string label = "")

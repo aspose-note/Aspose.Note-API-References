@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.HorizontalOffset"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط الإزاحة الأفقية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين الإزاحة الأفقية"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/attachedfile/horizontaloffset/

@@ -1,14 +1,14 @@
 ---
 title: "ITag.Icon"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "ITag property. يحصل أو يضبط الأيقونة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ITag. تحصل أو تعين الأيقونة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/itag/icon/
 ---
 ## ITag.Icon property
 
-يحصل أو يعيّن الأيقونة.
+الحصول على أو تعيين الأيقونة.
 
 ```csharp
 public TagIcon Icon { get; }
@@ -52,7 +52,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

@@ -1,14 +1,14 @@
 ---
-title: "Interface INode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "واجهة Aspose.Note.INode. الواجهة لجميع عقد مستند Aspose.Note."
+title: "واجهة INode"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.INode interface. الواجهة لجميع عقد مستند Aspose.Note"
 type: docs
 weight: 170
 url: /ar/net/aspose.note/inode/
 ---
 ## INode interface
 
-الواجهة لجميع عقد مستند Aspose.Note.
+الواجهة لجميع العقد في مستند Aspose.Note.
 
 ```csharp
 public interface INode

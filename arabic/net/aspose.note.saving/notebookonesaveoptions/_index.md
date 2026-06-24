@@ -1,6 +1,6 @@
 ---
 title: "الفئة NotebookOneSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Saving.NotebookOneSaveOptions. تسمح بتحديد خيارات إضافية عند حفظ الدفتر بتنسيق OneNote"
 type: docs
 weight: 850
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note.saving/notebookonesaveoptions/
 ---
 ## NotebookOneSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق OneNote.
+يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى صيغة OneNote.
 
 ```csharp
 public class NotebookOneSaveOptions : NotebookSaveOptions<OneSaveOptions>
@@ -18,7 +18,7 @@ public class NotebookOneSaveOptions : NotebookSaveOptions<OneSaveOptions>
 
 | الاسم | الوصف |
 | --- | --- |
-| [NotebookOneSaveOptions](notebookonesaveoptions/)() | البناء الافتراضي. |
+| [NotebookOneSaveOptions](notebookonesaveoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 

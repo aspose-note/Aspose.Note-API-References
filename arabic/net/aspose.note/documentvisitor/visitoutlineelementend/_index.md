@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitOutlineElementEnd"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. النهاية لزيارة عقدة OutlineElement"
 type: docs
 weight: 150

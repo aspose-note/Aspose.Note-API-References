@@ -1,7 +1,7 @@
 ---
 title: "FontsSubsystem.AddFont"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "FontsSubsystem method. إضافة الخط"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة FontsSubsystem. إضافة الخط"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.fonts/fontssubsystem/addfont/
@@ -16,8 +16,8 @@ public void AddFont(Stream stream, string tempFolder)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | الدفق الذي يحتوي على الخط. |
-| مجلد مؤقت | String | مجلد المؤقت. |
+| تدفق | Stream | التدفق الذي يحتوي على الخط. |
+| tempFolder | String | المجلد المؤقت. |
 
 ### انظر أيضًا
 
@@ -37,7 +37,7 @@ public void AddFont(Stream stream)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | الدفق الذي يحتوي على الخط. |
+| تدفق | Stream | التدفق الذي يحتوي على الخط. |
 
 ### انظر أيضًا
 

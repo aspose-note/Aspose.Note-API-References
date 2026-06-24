@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateScheduledTask"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة ScheduledTask والملصق المحدد"
 type: docs
 weight: 870
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createscheduledtask/
 ---
 ## NoteTag.CreateScheduledTask method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة ScheduledTask والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة ScheduledTask وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateScheduledTask(string label = "")

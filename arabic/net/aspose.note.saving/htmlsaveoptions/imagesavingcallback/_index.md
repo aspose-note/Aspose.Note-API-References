@@ -1,14 +1,14 @@
 ---
 title: "HtmlSaveOptions.ImageSavingCallback"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية HtmlSaveOptions. يحصل أو يعيّن رد النداء الذي يُستدعى لإنشاء مورد لتخزين الصورة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية HtmlSaveOptions. يحصل أو يضبط الـcallback الذي يُستدعى لإنشاء مورد لتخزين الصورة"
 type: docs
 weight: 100
 url: /ar/net/aspose.note.saving/htmlsaveoptions/imagesavingcallback/
 ---
 ## HtmlSaveOptions.ImageSavingCallback property
 
-يحصل أو يضبط رد النداء الذي يتم استدعاؤه لإنشاء مورد لتخزين الصورة.
+يحصل أو يضبط الدالة الراجعة التي تُستدعى لإنشاء مورد لتخزين الصورة.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -16,11 +16,11 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ مستند بتنسيق HTML مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
+يعرض كيفية حفظ مستند بصيغة html مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
 
 ```csharp
 // الكود أدناه ينشئ مجلد 'documentFolder' يحتوي على document.html، ومجلد 'css' به ملف 'style.css'، ومجلد 'images' يحتوي على صور، ومجلد 'fonts' يحتوي على خطوط.
-// 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
+// ملف 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",

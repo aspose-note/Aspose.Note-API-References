@@ -1,6 +1,6 @@
 ---
 title: "KeepPartAndCloneSolidObjectToNextPageAlgorithm.DefaultHeightLimitOfClonedPart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "حقل KeepPartAndCloneSolidObjectToNextPageAlgorithm. الحد الأقصى الافتراضي لحجم الجزء المستنسخ"
 type: docs
 weight: 30

@@ -1,6 +1,6 @@
 ---
 title: "الأنماط"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: 
 type: docs
 weight: 80
@@ -32,7 +32,7 @@ foreach (TextStyle style in richText.Styles)
     // تعيين لون الخط
     style.FontColor = Color.Yellow;
 
-    // تعيين لون التظليل
+    // حدد لون التظليل
     style.Highlight = Color.Blue;
 
     // تعيين حجم الخط
@@ -68,7 +68,7 @@ foreach (Table table in nodes)
 document.Save(Path.Combine(dataDir, "ChangeTableStyleOut.one"));
 ```
 
-تعيين لغة التدقيق لنص.
+حدد لغة التدقيق للنص.
 
 ```csharp
 var document = new Document();
@@ -101,13 +101,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-يظهر كيفية ربط ارتباط تشعبي بنص.
+يعرض كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText()
@@ -157,7 +157,7 @@ outline.AppendChildLast(outlineElem);
 // تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc) { Title = title };
 
 // إضافة عقدة المخطط
@@ -166,7 +166,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
@@ -178,4 +178,4 @@ doc.Save(dataDir);
 * namespace [Aspose.Note](../../richtext)
 * assembly [Aspose.Note](../../../)
 
-<!-- لا تقم بالتعديل: تم إنشاؤه بواسطة xmldocmd لـ Aspose.Note.dll -->
+<!-- لا تقم بالتعديل: تم الإنشاء بواسطة xmldocmd لـ Aspose.Note.dll -->

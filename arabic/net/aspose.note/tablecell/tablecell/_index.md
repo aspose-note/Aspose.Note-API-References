@@ -1,14 +1,14 @@
 ---
 title: "TableCell.TableCell"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "TableCell منشئ. المنشئ الافتراضي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ TableCell. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/tablecell/tablecell/
 ---
 ## TableCell constructor
 
-البناء الافتراضي.
+الباني الافتراضي.
 
 ```csharp
 public TableCell()

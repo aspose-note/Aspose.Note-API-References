@@ -1,7 +1,7 @@
 ---
 title: "Page.Page"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ Page. يهيئ نسخة جديدة من الفئة Page"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ Page. يهيئ نسخة جديدة من فئة Page"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/page/page/

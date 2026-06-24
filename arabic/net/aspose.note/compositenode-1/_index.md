@@ -1,7 +1,7 @@
 ---
 title: "الفئة CompositeNodeT"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.CompositeNode1T. الفئة العامة الأساسية للعقد التي يمكنها احتواء عقد أخرى"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.CompositeNode1T. الفئة القاعدية العامة للعقد التي يمكن أن تحتوي على عقد أخرى"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/compositenode-1/
@@ -25,7 +25,7 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 | --- | --- |
 | [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } | يحصل على العقدة الفرعية الأولى لهذه العقدة. |
-| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } | يتحقق مما إذا كانت العقدة مركبة. إذا كان صحيحًا فإن العقدة يمكن أن تحتوي على عقد فرعية. |
+| [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } | يفحص ما إذا كانت العقدة مركبة. إذا كان صحيحًا فإن العقدة يمكن أن تحتوي على عقد فرعية. |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } | يحصل على العقدة الفرعية الأخيرة لهذه العقدة. |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
 | [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
@@ -37,13 +37,13 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 | الاسم | الوصف |
 | --- | --- |
 | override [Accept](../../aspose.note/compositenode-1/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
-| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) | يضيف العقدة إلى مقدمة قائمة العقد الفرعية لهذه العقدة. |
+| virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) | يضيف العقدة إلى بداية قائمة العقد الفرعية لهذه العقدة. |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) | يضيف العقدة إلى نهاية قائمة العقد الفرعية لهذه العقدة. |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/#getchildnodes_1)() | احصل على جميع عقد الطفل حسب نوع العقدة. |
-| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() | يرجع عدّادًا يتنقل عبر العقد الفرعية لـ `CompositeNode`. |
-| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) | يدرج العقدة في الموضع المحدد في قائمة العقد الفرعية لهذه العقدة. |
-| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | يدرج تسلسل العقدة بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة. |
-| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange_1)(int, params T[]) | يدرج تسلسل العقدة بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة. |
+| [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() | يرجع عدادًا يتنقل عبر العقد الفرعية لـ `CompositeNode`. |
+| virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) | يدخل العقدة في الموضع المحدد في قائمة العقد الفرعية لهذه العقدة. |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | يدخل تسلسل العقد بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة. |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange_1)(int, params T[]) | يدخل تسلسل العقد بدءًا من الموضع المحدد في قائمة العقد الفرعية لهذه العقدة. |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) | يزيل عقدة الطفل. |
 
 ### انظر أيضًا

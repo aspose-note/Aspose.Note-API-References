@@ -1,7 +1,7 @@
 ---
 title: "SaveOptions.PageIndex"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية SaveOptions. تحصل أو تعين فهرس الصفحة الأولى للحفظ. القيمة الافتراضية هي 0"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية SaveOptions. يحصل أو يضبط فهرس الصفحة الأولى للحفظ. القيمة الافتراضية هي 0"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/saveoptions/pageindex/
@@ -16,7 +16,7 @@ public int PageIndex { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ مستند بتنسيق png.
+يوضح كيفية حفظ مستند بتنسيق png.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -34,11 +34,11 @@ ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
 
 dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 
-// حفظ المستند كـ PNG.
+// احفظ المستند كـ PNG.
 oneFile.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf.
+يوضح كيفية حفظ مستند بتنسيق pdf.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -62,7 +62,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -91,7 +91,7 @@ doc.Save(dataDir, opts);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
@@ -114,22 +114,22 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-يعرض كيفية إنشاء مستند بنص غني منسق.
+يوضح كيفية إنشاء مستند بنص غني منسق.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // تهيئة كائن فئة Title
 Title title = new Title();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultTextStyle = new ParagraphStyle
                                       {
                                           FontColor = Color.Black,
@@ -192,7 +192,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```

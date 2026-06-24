@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateGreenStar"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة GreenStar والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة بأيقونة GreenStar والملصق المحدد"
 type: docs
 weight: 470
 url: /ar/net/aspose.note/notetag/creategreenstar/
 ---
 ## NoteTag.CreateGreenStar method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة GreenStar والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenStar وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateGreenStar(string label = "")

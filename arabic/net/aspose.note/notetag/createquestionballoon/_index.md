@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateQuestionBalloon"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة QuestionBalloon والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة QuestionBalloon والملصق المحدد"
 type: docs
 weight: 800
 url: /ar/net/aspose.note/notetag/createquestionballoon/
 ---
 ## NoteTag.CreateQuestionBalloon method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة QuestionBalloon وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة QuestionBalloon والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateQuestionBalloon(string label = "")

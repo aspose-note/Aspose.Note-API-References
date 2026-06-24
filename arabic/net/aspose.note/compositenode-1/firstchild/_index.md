@@ -1,7 +1,7 @@
 ---
 title: "CompositeNode1.FirstChild"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية CompositeNode. تحصل على أول عقدة فرعية لهذا العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية CompositeNode. يحصل على أول عقدة فرعية لهذا العقد"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/compositenode-1/firstchild/
@@ -16,12 +16,12 @@ public T FirstChild { get; }
 
 ## أمثلة
 
-يعرض كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
+يوضح كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -34,8 +34,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // بشكل افتراضي، يتم تخطي صفحات التعارض عند الحفظ.
-    // إذا تم وضع علامة بأنها غير متعارضة، فسيتم حفظها كصفحة عادية في السجل.
+    // بشكل افتراضي يتم تخطي صفحات التعارض عند الحفظ.
+    // إذا تم وضع علامة بأنها غير متعارضة فستُحفظ كصفحة عادية في السجل.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }

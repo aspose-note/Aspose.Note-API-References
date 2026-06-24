@@ -1,6 +1,6 @@
 ---
 title: "RichText.AppendFront"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة RichText. تضيف سلسلة إلى مقدمة النطاق النصي الأول."
 type: docs
 weight: 170
@@ -20,7 +20,7 @@ public RichText AppendFront(string value)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### انظر أيضًا
 
@@ -45,7 +45,7 @@ public RichText AppendFront(string value, TextStyle style)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### انظر أيضًا
 

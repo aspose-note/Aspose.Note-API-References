@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateBlueEightPointStar"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlueEightPointStar والملصق المحدد"
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createblueeightpointstar/
 ---
 ## NoteTag.CreateBlueEightPointStar method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة BlueEightPointStar والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueEightPointStar وملصق محدد.
 
 ```csharp
 public static NoteTag CreateBlueEightPointStar(string label = "")

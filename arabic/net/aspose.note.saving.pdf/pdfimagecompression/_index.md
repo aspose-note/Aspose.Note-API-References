@@ -1,7 +1,7 @@
 ---
 title: "Enum PdfImageCompression"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "تعداد Aspose.Note.Saving.Pdf.PdfImageCompression. يحدد نوع الضغط المطبق على الصور في ملف PDF."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Saving.Pdf.PdfImageCompression enum. تحدد نوع الضغط المطبق على الصور في ملف PDF"
 type: docs
 weight: 920
 url: /ar/net/aspose.note.saving.pdf/pdfimagecompression/
@@ -19,8 +19,8 @@ public enum PdfImageCompression
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | None | `1` | لا يتم استخدام أي ضغط عند حفظ الصور. |
-| Auto | `0` | يختار تلقائيًا أنسب ضغط لكل صورة. |
-| Jpeg | `6` | ضغط JPEG. لا يدعم الشفافية. |
+| Auto | `0` | يختار تلقائيًا الضغط الأنسب لكل صورة. |
+| Jpeg | `6` | ضغط Jpeg. لا يدعم الشفافية. |
 | Flate | `3` | ضغط Flate (بدون فقدان). |
 
 ### انظر أيضًا

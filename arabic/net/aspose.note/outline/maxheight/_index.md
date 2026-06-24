@@ -1,7 +1,7 @@
 ---
 title: "Outline.MaxHeight"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Outline. يحصل أو يضبط الحد الأقصى للارتفاع"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Outline. يحصل على أو يعيّن الحد الأقصى للارتفاع"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/outline/maxheight/

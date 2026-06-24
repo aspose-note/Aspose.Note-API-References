@@ -1,6 +1,6 @@
 ---
 title: "الفئة PageSettings"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Saving.PageSettings. تمثل إعدادات التخطيط لصفحة"
 type: docs
 weight: 900
@@ -19,13 +19,13 @@ public class PageSettings
 | الاسم | الوصف |
 | --- | --- |
 | static [A4](../../aspose.note.saving/pagesettings/a4/) { get; } | يحصل على الإعدادات لصفحة بتنسيق A4. |
-| static [A4NoHeightLimit](../../aspose.note.saving/pagesettings/a4noheightlimit/) { get; } | يحصل على الإعدادات لصفحة بتنسيق A4 ذات ارتفاع غير محدود. |
+| static [A4NoHeightLimit](../../aspose.note.saving/pagesettings/a4noheightlimit/) { get; } | يحصل على الإعدادات لصفحة بتنسيق A4 بارتفاع غير محدود. |
 | static [Letter](../../aspose.note.saving/pagesettings/letter/) { get; } | يحصل على الإعدادات لصفحة بتنسيق Letter. |
-| static [LetterNoHeightLimit](../../aspose.note.saving/pagesettings/letternoheightlimit/) { get; } | يحصل على الإعدادات لصفحة بتنسيق Letter ذات ارتفاع غير محدود. |
+| static [LetterNoHeightLimit](../../aspose.note.saving/pagesettings/letternoheightlimit/) { get; } | يحصل على الإعدادات لصفحة بتنسيق Letter بارتفاع غير محدود. |
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -40,7 +40,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
 
 ```csharp
 // المسار إلى دليل المستندات.

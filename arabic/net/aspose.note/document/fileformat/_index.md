@@ -1,6 +1,6 @@
 ---
 title: "Document.FileFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Document. تحصل على تنسيق الملف OneNote 2010 OneNote Online"
 type: docs
 weight: 60
@@ -16,7 +16,7 @@ public FileFormat FileFormat { get; }
 
 ## أمثلة
 
-يعرض كيفية الحصول على تنسيق الملف للمستند.
+يعرض كيفية الحصول على تنسيق ملف المستند.
 
 ```csharp
 // المسار إلى دليل المستندات.

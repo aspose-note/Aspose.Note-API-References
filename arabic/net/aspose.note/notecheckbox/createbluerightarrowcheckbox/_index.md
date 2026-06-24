@@ -1,6 +1,6 @@
 ---
 title: "NoteCheckBox.CreateBlueRightArrowCheckBox"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "NoteCheckBox طريقة. ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueRightArrowCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 80
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notecheckbox/createbluerightarrowcheckbox/
 ---
 ## NoteCheckBox.CreateBlueRightArrowCheckBox method
 
-ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueRightArrowCheckBoxEmpty والملصق المحدد.
+ينشئ مربع اختيار ملاحظة جديد بأيقونة BlueRightArrowCheckBoxEmpty والملصق المحدد.
 
 ```csharp
 public static NoteCheckBox CreateBlueRightArrowCheckBox(string label = "Call back")

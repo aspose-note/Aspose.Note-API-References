@@ -1,7 +1,7 @@
 ---
 title: "الفئة IndentatedNodeT"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "Aspose.Note.IndentatedNode1T فئة. الفئة الأساسية للعقد ذات المسافة البادئة النسبية للعقد الفرعية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "فئة Aspose.Note.IndentatedNode1T. الفئة الأساسية للعقد ذات المسافة البادئة النسبية للعقد الفرعية"
 type: docs
 weight: 320
 url: /ar/net/aspose.note/indentatednode-1/
@@ -25,7 +25,7 @@ public class IndentatedNode<T> : CompositeNode<T>, IIndentatedNode
 | --- | --- |
 | [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
-| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } | يحصل أو يعيّن موضع الإزاحة. |
+| [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } | يحصل أو يضبط موضع المسافة البادئة. |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |

@@ -1,7 +1,7 @@
 ---
 title: "الفئة OutlineElement"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.OutlineElement. تمثل عنصر OutlineElement."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.OutlineElement. تمثل عنصر مخطط."
 type: docs
 weight: 530
 url: /ar/net/aspose.note/outlineelement/
@@ -19,24 +19,24 @@ public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, I
 
 | الاسم | الوصف |
 | --- | --- |
-| [OutlineElement](outlineelement/)() | البناء الافتراضي. |
+| [OutlineElement](outlineelement/)() | الباني الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [AuthorMostRecent](../../aspose.note/outlineelement/authormostrecent/) { get; } | يحصل على أحدث مؤلف لعنصر مخطط. |
-| [AuthorOriginal](../../aspose.note/outlineelement/authororiginal/) { get; } | يحصل على المؤلف الأصلي لعنصر مخطط. |
-| [CreationTime](../../aspose.note/outlineelement/creationtime/) { get; set; } | يحصل أو يعيّن وقت الإنشاء. |
+| [AuthorMostRecent](../../aspose.note/outlineelement/authormostrecent/) { get; } | يحصل على أحدث مؤلف لعنصر المخطط. |
+| [AuthorOriginal](../../aspose.note/outlineelement/authororiginal/) { get; } | يحصل على المؤلف الأصلي لعنصر المخطط. |
+| [CreationTime](../../aspose.note/outlineelement/creationtime/) { get; set; } | الحصول على أو تعيين وقت الإنشاء. |
 | [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
 | [IndentPosition](../../aspose.note/indentatednode-1/indentposition/) { get; set; } |  |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
-| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [LastModifiedTime](../../aspose.note/outlineelement/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت التعديل الأخير. |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
 | [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
-| [NumberList](../../aspose.note/outlineelement/numberlist/) { get; set; } | الحصول على أو تعيين النمط لرأس القائمة المرقمة. |
+| [NumberList](../../aspose.note/outlineelement/numberlist/) { get; set; } | الحصول أو تعيين النمط لرأس القائمة المرقمة. |
 | [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية. |
 | [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | يحصل على العقدة السابقة في نفس مستوى شجرة العقد. |
 
@@ -56,28 +56,28 @@ public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, I
 
 ## أمثلة
 
-يعرض كيفية إضافة صورة جديدة مع علامة.
+يوضح كيفية إضافة صورة جديدة مع علامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تحميل صورة.
+// تحميل صورة
 Image image = new Image(dataDir + "icon.jpg");
 
-// إدراج صورة في عقدة المستند.
+// إدراج صورة في عقدة المستند
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
@@ -87,15 +87,15 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية استرجاع معلومات حول تنسيق القائمة.
+يعرض كيفية استرجاع معلومات تنسيق القائمة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -103,7 +103,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// استرجاع مجموعة العقد لعنصر المخطط.
+// استرجاع مجموعة العقد لعنصر المخطط
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
 // تكرار عبر كل عقدة
@@ -128,29 +128,29 @@ foreach (OutlineElement node in nodes)
         // استرجاع التنسيق
         Console.WriteLine("Font format: " + list.Format);
 
-        // التحقق من الغامق
+        // تحقق من الغامق
         Console.WriteLine("Is bold: " + list.IsBold);
 
-        // التحقق من المائل
+        // تحقق من المائل
         Console.WriteLine("Is italic: " + list.IsItalic);
         Console.WriteLine();
     }
 }
 ```
 
-يعرض كيفية إدراج قائمة جديدة بترقيم صيني.
+يوضح كيفية إدراج قائمة جديدة بترقيم صيني.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
-// تهيئة صفحة OneNote.
+// تهيئة صفحة OneNote
 Page page = new Page();
 Outline outline = new Outline();
 
-// تطبيق إعدادات نمط النص.
+// تطبيق إعدادات نمط النص
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
@@ -175,7 +175,7 @@ outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -185,22 +185,22 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق النقاط
+// تهيئة كائنات فئة OutlineElement وتطبيق النقاط
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
-// تهيئة كائن الفئة RichText وتطبيق نمط النص
+// تهيئة كائن فئة RichText وتطبيق نمط النص
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -222,7 +222,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -232,19 +232,19 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق الترقيم.
+// تهيئة كائنات فئة OutlineElement وتطبيق الترقيم
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
@@ -269,7 +269,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```

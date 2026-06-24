@@ -1,14 +1,14 @@
 ---
 title: "TableColumn.LockedWidth"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية TableColumn. يحصل أو يحدد قيمة تشير إلى ما إذا كان عرض عمود الجدول مقفلًا ولا يتم تغيير حجمه تلقائيًا ليتناسب مع محتوى الجدول. بشكل افتراضي، عرض العمود غير مقفل"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية TableColumn. تحصل أو تعيين قيمة تشير إلى ما إذا كان عرض عمود الجدول مقفلاً ولا يتم تغيير حجمه تلقائياً لملاءمة محتوى الجدول. بشكل افتراضي، عرض العمود غير مقفل"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/tablecolumn/lockedwidth/
 ---
 ## TableColumn.LockedWidth property
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان عمود الجدول يمتلك عرضًا مقفلًا ولا يعيد حجمه تلقائيًا لتناسب محتوى الجدول. بشكل افتراضي، عرض العمود غير مقفل.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان عمود الجدول يمتلك عرضًا مقفلًا ولا يعيد حجمه تلقائيًا ليتناسب مع محتوى الجدول. بشكل افتراضي، عرض العمود غير مقفل.
 
 ```csharp
 public bool LockedWidth { get; set; }
@@ -16,16 +16,16 @@ public bool LockedWidth { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول بعمود مقفل.
+يظهر كيفية إنشاء جدول بعمود مقفل.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tables();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // تهيئة كائن فئة TableRow
@@ -67,7 +67,7 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);

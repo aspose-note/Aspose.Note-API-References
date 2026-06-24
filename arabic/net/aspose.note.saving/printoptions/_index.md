@@ -1,6 +1,6 @@
 ---
 title: "الفئة PrintOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Saving.PrintOptions. خيارات تُستخدم لطباعة مستند."
 type: docs
 weight: 940
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note.saving/printoptions/
 ---
 ## PrintOptions class
 
-الخيارات المستخدمة لطباعة مستند.
+خيارات تستخدم لطباعة مستند.
 
 ```csharp
 public class PrintOptions
@@ -18,20 +18,20 @@ public class PrintOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [PrintOptions](printoptions/)() | البناء الافتراضي. |
+| [PrintOptions](printoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | يحصل أو يعيّن اسم المستند للعرض (على سبيل المثال، في مربع حوار حالة الطباعة أو في طابور الطابعة) أثناء طباعة المستند. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm/) { get; set; } | يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات. |
+| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | يحصل أو يعيّن اسم المستند للعرض (على سبيل المثال، في مربع حوار حالة الطباعة أو طابور الطابعة) أثناء طباعة المستند. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm/) { get; set; } | يحصل أو يعيّن الخوارزمية المستخدمة لتقسيم الصفحات. |
 | [PrinterSettings](../../aspose.note.saving/printoptions/printersettings/) { get; set; } | يحصل أو يعيّن إعدادات الطابعة. |
-| [Resolution](../../aspose.note.saving/printoptions/resolution/) { get; set; } | يحصل أو يضبط الدقة للصور المُولَّدة، بوحدة النقاط في البوصة. |
+| [Resolution](../../aspose.note.saving/printoptions/resolution/) { get; set; } | يحصل أو يعيّن الدقة للصور المُولَّدة، بوحدة النقاط في البوصة. |
 
 ## أمثلة
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.

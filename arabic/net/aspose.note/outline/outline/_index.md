@@ -1,6 +1,6 @@
 ---
 title: "Outline.Outline"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "منشئ Outline. المنشئ الافتراضي"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/outline/outline/
 ---
 ## Outline constructor
 
-البناء الافتراضي.
+الباني الافتراضي.
 
 ```csharp
 public Outline()

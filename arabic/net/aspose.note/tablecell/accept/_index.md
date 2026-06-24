@@ -1,7 +1,7 @@
 ---
 title: "TableCell.Accept"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "TableCell طريقة. يقبل زائر العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة TableCell. يقبل زائر العقدة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/tablecell/accept/

@@ -1,7 +1,7 @@
 ---
 title: "ITag.Label"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "ITag property. يحصل على نص التسمية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ITag. تحصل على نص التسمية"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/itag/label/
@@ -16,7 +16,7 @@ public string Label { get; }
 
 ## أمثلة
 
-يوضح كيفية إكمال جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية إكمال جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -39,7 +39,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-يوضح كيفية فتح جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية فتح جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -62,7 +62,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

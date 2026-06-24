@@ -1,7 +1,7 @@
 ---
 title: "NumberList.NumberList"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NumberList مُنشئ. يهيئ نسخة جديدة من الفئة NumberList. هذه النسخة تمثل قائمة نقطية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ NumberList. يهيئ نسخة جديدة من الفئة NumberList. هذه النسخة تمثل قائمة نقطية"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/numberlist/numberlist/
@@ -17,8 +17,8 @@ public NumberList(string bulletedSymbol, string font, int fontSize)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | bulletedSymbol | String | رمز يمثل نقطة. |
-| font | String | خط للرمز النقطي. |
-| fontSize | Int32 | حجم خط للرمز النقطي. |
+| font | String | خط للنقطة. |
+| fontSize | Int32 | حجم الخط للنقطة. |
 
 ### انظر أيضًا
 
@@ -40,8 +40,8 @@ public NumberList(string format, NumberFormat numberFormat, string font, int fon
 | --- | --- | --- |
 | تنسيق | String | تنسيق رأس القائمة المرقمة. |
 | numberFormat | NumberFormat | تنسيق الرقم في الرأس. |
-| font | String | خط للرأس المرقم. |
-| fontSize | Int32 | حجم خط للرأس المرقم. |
+| font | String | خط لرأس القائمة المرقمة. |
+| fontSize | Int32 | حجم الخط لرأس القائمة المرقمة. |
 
 ### انظر أيضًا
 

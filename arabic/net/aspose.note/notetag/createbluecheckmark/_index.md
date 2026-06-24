@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateBlueCheckMark"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlueCheckMark والملصق المحدد"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createbluecheckmark/
 ---
 ## NoteTag.CreateBlueCheckMark method
 
-ينشئ علامة ملاحظة جديدة بأيقونة BlueCheckMark والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueCheckMark والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateBlueCheckMark(string label = "")

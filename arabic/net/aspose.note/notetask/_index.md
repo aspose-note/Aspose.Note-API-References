@@ -1,6 +1,6 @@
 ---
 title: "الفئة NoteTask"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "Aspose.Note.NoteTask الفئة. يمثل مهمة ملاحظة"
 type: docs
 weight: 470
@@ -19,29 +19,29 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 | الاسم | الوصف |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked/) { get; } | يحصل على قيمة تشير إلى ما إذا كان CheckBox في الحالة المحددة. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | يحصل أو يعيّن وقت الإكمال. |
-| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | يحصل أو يعيّن وقت الإنشاء. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | الحصول على أو تعيين وقت الانتهاء. |
+| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | الحصول على أو تعيين وقت الإنشاء. |
 | [DueDate](../../aspose.note/notetask/duedate/) { get; set; } | يحصل أو يضبط تاريخ الاستحقاق. |
-| override [Icon](../../aspose.note/notetask/icon/) { get; } | يحصل أو يعيّن الأيقونة. |
+| override [Icon](../../aspose.note/notetask/icon/) { get; } | الحصول على أو تعيين الأيقونة. |
 | [Label](../../aspose.note/checkbox/label/) { get; } | يحصل على نص التسمية. |
-| [Status](../../aspose.note/checkbox/status/) { get; } | يحصل أو يعيّن الحالة. |
+| [Status](../../aspose.note/checkbox/status/) { get; } | الحصول على أو تعيين الحالة. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate/)(DateTime) | ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ استحقاق محدد. |
+| static [CreateCustomFollowUpDate](../../aspose.note/notetask/createcustomfollowupdate/)(DateTime) | ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ الاستحقاق المحدد. |
 | static [CreateFollowUpNextWeek](../../aspose.note/notetask/createfollowupnextweek/)() | ينشئ مهمة ملاحظة جديدة مع أيقونة FollowUpNextWeekFlag. |
 | static [CreateFollowUpThisWeek](../../aspose.note/notetask/createfollowupthisweek/)() | ينشئ مهمة ملاحظة جديدة مع أيقونة FollowUpThisWeekFlag. |
 | static [CreateFollowUpToday](../../aspose.note/notetask/createfollowuptoday/)() | ينشئ مهمة ملاحظة جديدة مع أيقونة FollowUpTodayFlag. |
 | static [CreateFollowUpTomorrow](../../aspose.note/notetask/createfollowuptomorrow/)() | ينشئ مهمة ملاحظة جديدة مع أيقونة FollowUpTomorrowFlag. |
 | static [CreateNoFollowUpDate](../../aspose.note/notetask/createnofollowupdate/)() | ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag. |
-| [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | يعمل كدالة تجزئة للنوع. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | يضبط العلامة إلى حالة مكتملة باستخدام الوقت الحالي كوقت إكمال. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | يضبط العلامة إلى حالة مكتملة. |
-| override [SetOpen](../../aspose.note/notetask/setopen/)() | يضبط العلامة إلى حالة مفتوحة. |
+| [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | يعمل كدالة تجزئة (hash) لهذا النوع. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | تعيين العلامة إلى حالة مكتملة باستخدام الوقت الحالي كوقت إكمال. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | تعيين العلامة إلى حالة مكتملة. |
+| override [SetOpen](../../aspose.note/notetask/setopen/)() | تعيين العلامة إلى حالة مفتوحة. |
 
 ## أمثلة
 

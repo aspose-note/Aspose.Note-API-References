@@ -1,6 +1,6 @@
 ---
 title: "الفئة NotebookSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Saving.NotebookSaveOptions. فئة أساسية مجردة تمثل خيارات حفظ الدفتر لتنسيق معين."
 type: docs
 weight: 870
@@ -20,7 +20,7 @@ public abstract class NotebookSaveOptions
 | --- | --- |
 | [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب حفظ المستندات الفرعية صراحةً. |
 | [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هيكل الأطفال في الدفتر يُحفظ مسطحًا. |
-| abstract [SaveFormat](../../aspose.note.saving/notebooksaveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها الدفتر. |
+| abstract [SaveFormat](../../aspose.note.saving/notebooksaveoptions/saveformat/) { get; } | يحصل على التنسيق الذي يُحفظ به الدفتر. |
 
 ## الطرق
 
@@ -30,7 +30,7 @@ public abstract class NotebookSaveOptions
 
 ## أمثلة
 
-يوضح كيفية حفظ الدفتر المسطح بصيغة PDF.
+يظهر كيفية حفظ دفتر مسطح بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -70,7 +70,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ الدفتر المسطح كصورة.
+يظهر كيفية حفظ دفتر مسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.

@@ -1,6 +1,6 @@
 ---
 title: "الفئة NotebookPdfSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Saving.NotebookPdfSaveOptions. تسمح بتحديد خيارات إضافية عند تحويل صفحات الدفتر إلى PDF"
 type: docs
 weight: 860
@@ -18,7 +18,7 @@ public class NotebookPdfSaveOptions : NotebookSaveOptions<PdfSaveOptions>
 
 | الاسم | الوصف |
 | --- | --- |
-| [NotebookPdfSaveOptions](notebookpdfsaveoptions/)() | البناء الافتراضي. |
+| [NotebookPdfSaveOptions](notebookpdfsaveoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 

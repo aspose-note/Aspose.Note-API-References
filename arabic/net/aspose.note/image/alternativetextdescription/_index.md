@@ -1,7 +1,7 @@
 ---
 title: "Image.AlternativeTextDescription"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Image. تحصل أو تعين نص بديل للجسم للصورة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Image. تحصل أو تعين نصًا بديلًا للجسم للصورة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/image/alternativetextdescription/
@@ -16,7 +16,7 @@ public string AlternativeTextDescription { get; set; }
 
 ## أمثلة
 
-يظهر كيفية تعيين وصف نصي لصورة.
+يوضح كيفية تعيين وصف نصي لصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.

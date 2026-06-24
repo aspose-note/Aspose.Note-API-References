@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitDocumentStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. ابدأ بزيارة عقدة Document"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/documentvisitor/visitdocumentstart/
 ---
 ## DocumentVisitor.VisitDocumentStart method
 
-ابدأ بزيارة عقدة [`Document`](../../document/).
+ابدأ بزيارة العقدة [`Document`](../../document/).
 
 ```csharp
 public virtual void VisitDocumentStart(Document document)
@@ -16,7 +16,7 @@ public virtual void VisitDocumentStart(Document document)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| document | Document | العقدة [`Document`](../../document/) |
+| document | Document | العنصر [`Document`](../../document/) . |
 
 ### انظر أيضًا
 

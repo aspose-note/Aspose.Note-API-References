@@ -1,7 +1,7 @@
 ---
 title: "Image.Replace"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Image. تستبدل بيانات الصورة الحالية بالبيانات من كائن Image المقدم"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Image method. تستبدل بيانات الصورة الحالية بالبيانات من كائن Image المقدم"
 type: docs
 weight: 200
 url: /ar/net/aspose.note/image/replace/

@@ -1,7 +1,7 @@
 ---
 title: "Page.SizeType"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Page. يحصل أو يحدد نوع الحجم للصفحة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Page. تحصل أو تعيين نوع حجم الصفحة"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/page/sizetype/

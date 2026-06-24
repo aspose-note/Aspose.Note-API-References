@@ -1,14 +1,14 @@
 ---
 title: "RichText.LastModifiedTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية RichText. تحصل أو تعيّن وقت التعديل الأخير"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية RichText. يحصل أو يعيّن وقت التعديل الأخير"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/richtext/lastmodifiedtime/
 ---
 ## RichText.LastModifiedTime property
 
-يحصل أو يعيّن وقت آخر تعديل.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime LastModifiedTime { get; set; }
 
 ## أمثلة
 
-دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
+لنُبرز تغييرات النص الأخير عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -24,16 +24,16 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// احصل على عقد RichText المعدلة الأسبوع الماضي.
+// احصل على عقد RichText التي تم تعديلها الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // تعيين لون التظليل
+    // حدد لون التظليل
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // تعيين لون التظليل
+        // حدد لون التظليل
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }

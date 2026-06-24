@@ -1,14 +1,14 @@
 ---
 title: "ITag.CreationTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية ITag. يحصل أو يحدد وقت الإنشاء"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ITag. تحصل أو تعيين وقت الإنشاء"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/itag/creationtime/
 ---
 ## ITag.CreationTime property
 
-يحصل أو يعيّن وقت الإنشاء.
+الحصول على أو تعيين وقت الإنشاء.
 
 ```csharp
 public DateTime CreationTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime CreationTime { get; set; }
 
 ### Property Value
 
-الـ DateTime.
+كائن DateTime.
 
 ## أمثلة
 
@@ -41,7 +41,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر معلمة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
+يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر محددة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -116,7 +116,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

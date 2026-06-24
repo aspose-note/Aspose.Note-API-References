@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.Equals"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي"
 type: docs
 weight: 1200
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/equals/
 ---
 ## Equals(object) {#equals_1}
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 
@@ -32,7 +32,7 @@ public override bool Equals(object obj)
 
 ## Equals(NoteTag) {#equals}
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 ```csharp
 public bool Equals(NoteTag other)
@@ -44,7 +44,7 @@ public bool Equals(NoteTag other)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 

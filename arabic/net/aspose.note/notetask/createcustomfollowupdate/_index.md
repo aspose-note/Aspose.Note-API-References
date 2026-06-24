@@ -1,14 +1,14 @@
 ---
 title: "NoteTask.CreateCustomFollowUpDate"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTask. تنشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ استحقاق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTask. تنشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ الاستحقاق المحدد"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/notetask/createcustomfollowupdate/
 ---
 ## NoteTask.CreateCustomFollowUpDate method
 
-ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ استحقاق محدد.
+ينشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag وتاريخ الاستحقاق المحدد.
 
 ```csharp
 public static NoteTask CreateCustomFollowUpDate(DateTime dueDate)

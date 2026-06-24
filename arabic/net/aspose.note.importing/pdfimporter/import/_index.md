@@ -1,14 +1,14 @@
 ---
 title: "PdfImporter.Import"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PdfImporter. تستورد محتوى مستند PDF من تدفق مُقدم"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "PdfImporter طريقة. يستورد محتوى مستند PDF من تدفق مقدم"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.importing/pdfimporter/import/
 ---
 ## Import(Stream, PdfImportOptions) {#import}
 
-يستورد محتوى مستند PDF من تدفق مُقدم.
+يستورد محتوى مستند PDF من تدفق مُقدَّم.
 
 ```csharp
 public static List<Page> Import(Stream stream, PdfImportOptions options = null)
@@ -16,7 +16,7 @@ public static List<Page> Import(Stream stream, PdfImportOptions options = null)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | خيارات | PdfImportOptions | الخيارات. |
 
 ### قيمة الإرجاع
@@ -52,7 +52,7 @@ public static List<Page> Import(string file, PdfImportOptions options = null)
 
 ## أمثلة
 
-يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات في صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

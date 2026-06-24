@@ -1,14 +1,14 @@
 ---
 title: "PageHistory.PageHistory"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ PageHistory. يُنشئ مثيلًا جديدًا من فئة PageHistory."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ PageHistory. يهيئ نسخة جديدة من فئة PageHistory"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/pagehistory/pagehistory/
 ---
 ## PageHistory constructor
 
-يُنشئ مثيلاً جديدًا للفئة [`PageHistory`](../).
+يُنشئ مثلاً جديدًا من الفئة [`PageHistory`](../).
 
 ```csharp
 public PageHistory(Page page)

@@ -1,7 +1,7 @@
 ---
 title: "الفئة TextRun"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.TextRun. الفئة التي تمثل قطعة نص مع النمط المرتبط."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.TextRun. تمثل هذه الفئة قطعة من النص مع النمط المرتبط"
 type: docs
 weight: 1040
 url: /ar/net/aspose.note/textrun/
@@ -18,10 +18,10 @@ public class TextRun
 
 | الاسم | الوصف |
 | --- | --- |
-| [TextRun](textrun/#constructor)() | ينشئ مثيلاً جديدًا من الفئة `TextRun` بنص فارغ ونمط افتراضي. |
-| [TextRun](textrun/#constructor_2)(string) | ينشئ مثيلاً جديدًا من الفئة `TextRun` بنمط افتراضي. |
-| [TextRun](textrun/#constructor_1)(TextStyle) | ينشئ مثيلاً جديدًا من الفئة `TextRun` بنص فارغ. |
-| [TextRun](textrun/#constructor_3)(string, TextStyle) | ينشئ مثيلاً جديدًا من الفئة `TextRun`. |
+| [TextRun](textrun/#constructor)() | ينشئ مثيلًا جديدًا من الفئة `TextRun` بنص فارغ ونمط افتراضي. |
+| [TextRun](textrun/#constructor_2)(string) | ينشئ مثيلًا جديدًا من الفئة `TextRun` بنمط افتراضي. |
+| [TextRun](textrun/#constructor_1)(TextStyle) | ينشئ مثيلًا جديدًا من الفئة `TextRun` بنص فارغ. |
+| [TextRun](textrun/#constructor_3)(string, TextStyle) | ينشئ مثيلًا جديدًا من الفئة `TextRun`. |
 
 ## الخصائص
 

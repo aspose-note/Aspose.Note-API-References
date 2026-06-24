@@ -1,14 +1,14 @@
 ---
 title: "PrintOptions.Resolution"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "PrintOptions property. يحصل أو يعيّن الدقة للصور المُولَّدة بالنقاط في البوصة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "PrintOptions الخاصية. يحصل أو يعيّن الدقة للصور المولدة بوحدة النقاط في البوصة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.saving/printoptions/resolution/
 ---
 ## PrintOptions.Resolution property
 
-يحصل أو يضبط الدقة للصور المُولَّدة، بوحدة النقاط في البوصة.
+يحصل أو يعيّن الدقة للصور المُولَّدة، بوحدة النقاط في البوصة.
 
 ```csharp
 public float Resolution { get; set; }
@@ -20,7 +20,7 @@ public float Resolution { get; set; }
 
 ## أمثلة
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.

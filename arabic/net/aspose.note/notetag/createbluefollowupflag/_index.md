@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateBlueFollowUpFlag"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز BlueFollowUpFlag والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlueFollowUpFlag والملصق المحدد"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/notetag/createbluefollowupflag/
 ---
 ## NoteTag.CreateBlueFollowUpFlag method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة BlueFollowUpFlag والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueFollowUpFlag وملصق محدد.
 
 ```csharp
 public static NoteTag CreateBlueFollowUpFlag(string label = "")

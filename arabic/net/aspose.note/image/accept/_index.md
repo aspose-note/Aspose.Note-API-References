@@ -1,7 +1,7 @@
 ---
 title: "Image.Accept"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Image. تقبل زائر العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Image. تقبل زائر العقدة."
 type: docs
 weight: 190
 url: /ar/net/aspose.note/image/accept/

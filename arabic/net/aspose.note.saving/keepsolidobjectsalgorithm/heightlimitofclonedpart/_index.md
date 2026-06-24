@@ -1,6 +1,6 @@
 ---
 title: "KeepSolidObjectsAlgorithm.HeightLimitOfClonedPart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية KeepSolidObjectsAlgorithm. يحصل على حد الارتفاع للجزء المستنسخ"
 type: docs
 weight: 20

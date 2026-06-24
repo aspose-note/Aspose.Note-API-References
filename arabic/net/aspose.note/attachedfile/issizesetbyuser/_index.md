@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.IsSizeSetByUser"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط قيمة تشير إلى ما إذا كان حجم الأيقونة قد تم تحديثه صراحةً من قبل المستخدم"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين قيمة تشير إلى ما إذا كان حجم الأيقونة قد تم تحديثه صراحةً من قبل المستخدم"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/attachedfile/issizesetbyuser/

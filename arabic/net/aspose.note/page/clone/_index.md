@@ -1,6 +1,6 @@
 ---
 title: "Page.Clone"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Page. تنسخ الصفحة"
 type: docs
 weight: 140
@@ -30,7 +30,7 @@ public Page Clone(bool cloneHistory = false)
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -47,14 +47,14 @@ document.Save(dataDir + "PushCurrentPageVersion_out.one");
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // استنساخ إلى مستند جديد بدون تاريخ
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// استنساخ إلى مستند جديد مع التاريخ
+// استنساخ إلى مستند جديد مع تاريخ
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```

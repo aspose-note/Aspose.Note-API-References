@@ -1,7 +1,7 @@
 ---
 title: "الفئة CompositeNodeBase"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.CompositeNodeBase. الفئة غير العامة للعقد التي يمكنها احتواء عقد أخرى"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.CompositeNodeBase فئة. الفئة غير العامة للعقد التي يمكن أن تحتوي على عقد أخرى"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/compositenodebase/

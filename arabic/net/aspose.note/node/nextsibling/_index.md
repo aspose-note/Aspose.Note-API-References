@@ -1,7 +1,7 @@
 ---
 title: "Node.NextSibling"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Node. يحصل على العقدة التالية في نفس مستوى شجرة العقد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Node. تحصل على العقدة التالية في نفس مستوى شجرة العقد"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/node/nextsibling/

@@ -1,7 +1,7 @@
 ---
 title: "TextRun.TextRun"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ TextRun. يهيئ نسخة جديدة من فئة TextRun"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ TextRun. يهيئ نسخة جديدة من الفئة TextRun"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/textrun/textrun/

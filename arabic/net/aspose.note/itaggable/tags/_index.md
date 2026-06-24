@@ -1,6 +1,6 @@
 ---
 title: "ITaggable.Tags"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية ITaggable. تحصل على قائمة بجميع العلامات"
 type: docs
 weight: 10

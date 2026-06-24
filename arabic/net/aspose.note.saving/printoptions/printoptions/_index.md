@@ -1,14 +1,14 @@
 ---
 title: "PrintOptions.PrintOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "PrintOptions constructor. المُنشئ الافتراضي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "PrintOptions المُنشئ. المُنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/printoptions/printoptions/
 ---
 ## PrintOptions constructor
 
-البناء الافتراضي.
+الباني الافتراضي.
 
 ```csharp
 public PrintOptions()

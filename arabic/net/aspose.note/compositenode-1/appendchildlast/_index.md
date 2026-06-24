@@ -1,7 +1,7 @@
 ---
 title: "CompositeNode1.AppendChildLast"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة CompositeNode. تُضيف العقدة إلى نهاية قائمة العقد الفرعية لهذا العنصر"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة CompositeNode. تُضيف العقدة إلى نهاية قائمة العقد الفرعية لهذه العقدة"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/compositenode-1/appendchildlast/

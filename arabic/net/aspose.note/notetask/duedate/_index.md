@@ -1,7 +1,7 @@
 ---
 title: "NoteTask.DueDate"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NoteTask. تحصل أو تعيّن تاريخ الاستحقاق"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NoteTask. تحصل أو تعيين تاريخ الاستحقاق"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/notetask/duedate/
@@ -16,7 +16,7 @@ public DateTime DueDate { get; set; }
 
 ### Property Value
 
-الـ DateTime.
+كائن DateTime.
 
 ## أمثلة
 

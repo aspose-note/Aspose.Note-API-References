@@ -1,6 +1,6 @@
 ---
 title: "ICompositeNode.GetChildNodes"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة ICompositeNode. احصل على جميع العقد الفرعية حسب نوع العقدة"
 type: docs
 weight: 10

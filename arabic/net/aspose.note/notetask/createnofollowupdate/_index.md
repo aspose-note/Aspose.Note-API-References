@@ -1,6 +1,6 @@
 ---
 title: "NoteTask.CreateNoFollowUpDate"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTask. تنشئ مهمة ملاحظة جديدة مع أيقونة NoFollowUpDateFlag"
 type: docs
 weight: 60

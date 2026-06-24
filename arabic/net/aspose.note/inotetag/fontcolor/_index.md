@@ -1,7 +1,7 @@
 ---
 title: "INoteTag.FontColor"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية INoteTag. يحصل أو يضبط لون الخط"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية INoteTag. يحصل أو يعيّن لون الخط"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/inotetag/fontcolor/
@@ -16,7 +16,7 @@ public Color FontColor { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

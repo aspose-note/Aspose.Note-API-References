@@ -1,14 +1,14 @@
 ---
 title: "PageHistory.IndexOf"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. تحدد فهرس إصدار صفحة محدد في تاريخ الصفحات"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تحدد فهرس إصدار صفحة معين في PageHistory."
 type: docs
 weight: 120
 url: /ar/net/aspose.note/pagehistory/indexof/
 ---
 ## PageHistory.IndexOf method
 
-يحدد فهرس إصدار صفحة معين في سجل الصفحات.
+يحدد فهرس إصدار صفحة محدد في سجل الصفحات.
 
 ```csharp
 public int IndexOf(Page item)
@@ -20,7 +20,7 @@ public int IndexOf(Page item)
 
 ### قيمة الإرجاع
 
-الـ Int32.
+القيمة Int32.
 
 ### انظر أيضًا
 

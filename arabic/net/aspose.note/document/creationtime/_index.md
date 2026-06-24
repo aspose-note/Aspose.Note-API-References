@@ -1,6 +1,6 @@
 ---
 title: "Document.CreationTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Document. تحصل أو تعين وقت الإنشاء"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/document/creationtime/
 ---
 ## Document.CreationTime property
 
-يحصل أو يعيّن وقت الإنشاء.
+الحصول على أو تعيين وقت الإنشاء.
 
 ```csharp
 public DateTime CreationTime { get; set; }

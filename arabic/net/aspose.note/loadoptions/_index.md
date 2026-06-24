@@ -1,6 +1,6 @@
 ---
 title: "الفئة LoadOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.LoadOptions. الخيارات المستخدمة لتحميل مستند."
 type: docs
 weight: 380
@@ -18,7 +18,7 @@ public class LoadOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [LoadOptions](loadoptions/)() | البناء الافتراضي. |
+| [LoadOptions](loadoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 
@@ -29,7 +29,7 @@ public class LoadOptions
 
 ## أمثلة
 
-يعرض كيفية التعامل مع مستند مشفر.
+يعرض كيفية تشفير مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -39,7 +39,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-يوضح كيفية التعامل مع دفتر مشفر.
+يظهر كيفية دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -51,13 +51,13 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى

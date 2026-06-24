@@ -1,6 +1,6 @@
 ---
 title: "INotebookChildNode.Color"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية INotebookChildNode. تحصل على لون. القيمة الافتراضية هي Color.Empty"
 type: docs
 weight: 10

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateGlobe"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة Globe والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة Globe والملصق المحدد"
 type: docs
 weight: 350
 url: /ar/net/aspose.note/notetag/createglobe/
 ---
 ## NoteTag.CreateGlobe method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Globe والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة Globe وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateGlobe(string label = "")

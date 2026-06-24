@@ -1,7 +1,7 @@
 ---
 title: "الفئة KeepSolidObjectsAlgorithm"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.KeepSolidObjectsAlgorithm. ينقل الكائن الكامل إلى الصفحة التالية في حال عدم تناسبه مع الصفحة الأصلية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Saving.KeepSolidObjectsAlgorithm. ينقل الكائن بالكامل إلى الصفحة التالية في حال لم يتناسب مع الصفحة الأصلية."
 type: docs
 weight: 820
 url: /ar/net/aspose.note.saving/keepsolidobjectsalgorithm/
@@ -18,7 +18,7 @@ public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
 
 | الاسم | الوصف |
 | --- | --- |
-| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm/#constructor)() | ينشئ مثيلًا جديدًا للفئة `KeepSolidObjectsAlgorithm` باستخدام الحد الافتراضي للارتفاع للجزء المستنسخ. |
+| [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm/#constructor)() | ينشئ مثيلًا جديدًا للفئة `KeepSolidObjectsAlgorithm` باستخدام حد الارتفاع الافتراضي للجزء المستنسخ. |
 | [KeepSolidObjectsAlgorithm](keepsolidobjectsalgorithm/#constructor_1)(float) | ينشئ مثيلًا جديدًا للفئة `KeepSolidObjectsAlgorithm` باستخدام حد ارتفاع محدد للجزء المستنسخ. |
 
 ## الخصائص
@@ -56,7 +56,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -77,7 +77,7 @@ document.Print(new PrintOptions()
                });
 ```
 
-عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بصيغة pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.

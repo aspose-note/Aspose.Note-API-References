@@ -1,6 +1,6 @@
 ---
 title: "Document.IsEncrypted"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Document. تتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد تؤدي هذه الطريقة إلى عقوبة في الأداء"
 type: docs
 weight: 150
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/document/isencrypted/
 ---
 ## IsEncrypted(Stream, LoadOptions, out Document) {#isencrypted_1}
 
-يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
 
 ```csharp
 public static bool IsEncrypted(Stream stream, LoadOptions options, out Document document)
@@ -16,9 +16,9 @@ public static bool IsEncrypted(Stream stream, LoadOptions options, out Document 
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | خيارات | LoadOptions | خيارات التحميل. |
-| مستند | Document& | المستند المحمَّل. |
+| document | Document& | المستند المحمل. |
 
 ### قيمة الإرجاع
 
@@ -44,7 +44,7 @@ else
 }
 ```
 
-يظهر كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
+يوضح كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -80,7 +80,7 @@ else
 
 ## IsEncrypted(Stream, string, out Document) {#isencrypted_2}
 
-يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
 
 ```csharp
 public static bool IsEncrypted(Stream stream, string password, out Document document)
@@ -88,9 +88,9 @@ public static bool IsEncrypted(Stream stream, string password, out Document docu
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
-| كلمة المرور | String | كلمة المرور لفك تشفير مستند. |
-| مستند | Document& | المستند المحمَّل. |
+| تدفق | Stream | التدفق. |
+| password | String | كلمة المرور لفك تشفير مستند. |
+| document | Document& | المستند المحمل. |
 
 ### قيمة الإرجاع
 
@@ -116,7 +116,7 @@ else
 }
 ```
 
-يظهر كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
+يوضح كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -151,7 +151,7 @@ else
 
 ## IsEncrypted(Stream, out Document) {#isencrypted}
 
-يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
 
 ```csharp
 public static bool IsEncrypted(Stream stream, out Document document)
@@ -159,8 +159,8 @@ public static bool IsEncrypted(Stream stream, out Document document)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
-| مستند | Document& | المستند المحمَّل. |
+| تدفق | Stream | التدفق. |
+| document | Document& | المستند المحمل. |
 
 ### قيمة الإرجاع
 
@@ -186,7 +186,7 @@ else
 }
 ```
 
-يظهر كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
+يوضح كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -221,7 +221,7 @@ else
 
 ## IsEncrypted(string, LoadOptions, out Document) {#isencrypted_4}
 
-يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
 
 ```csharp
 public static bool IsEncrypted(string filePath, LoadOptions options, out Document document)
@@ -231,7 +231,7 @@ public static bool IsEncrypted(string filePath, LoadOptions options, out Documen
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
 | خيارات | LoadOptions | خيارات التحميل. |
-| مستند | Document& | المستند المحمَّل. |
+| document | Document& | المستند المحمل. |
 
 ### قيمة الإرجاع
 
@@ -257,7 +257,7 @@ else
 }
 ```
 
-يظهر كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
+يوضح كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -293,7 +293,7 @@ else
 
 ## IsEncrypted(string, out Document) {#isencrypted_3}
 
-يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
 
 ```csharp
 public static bool IsEncrypted(string filePath, out Document document)
@@ -302,7 +302,7 @@ public static bool IsEncrypted(string filePath, out Document document)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
-| مستند | Document& | المستند المحمَّل. |
+| document | Document& | المستند المحمل. |
 
 ### قيمة الإرجاع
 
@@ -328,7 +328,7 @@ else
 }
 ```
 
-يظهر كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
+يوضح كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -363,7 +363,7 @@ else
 
 ## IsEncrypted(string, string, out Document) {#isencrypted_5}
 
-يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
+يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء.
 
 ```csharp
 public static bool IsEncrypted(string filePath, string password, out Document document)
@@ -372,8 +372,8 @@ public static bool IsEncrypted(string filePath, string password, out Document do
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
-| كلمة المرور | String | كلمة المرور لفك تشفير مستند. |
-| مستند | Document& | المستند المحمَّل. |
+| password | String | كلمة المرور لفك تشفير مستند. |
+| document | Document& | المستند المحمل. |
 
 ### قيمة الإرجاع
 
@@ -399,7 +399,7 @@ else
 }
 ```
 
-يظهر كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
+يوضح كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.

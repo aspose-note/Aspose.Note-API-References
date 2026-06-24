@@ -1,7 +1,7 @@
 ---
 title: "RichText.Replace"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة RichText. تستبدل جميع تكرارات حرف يونيكود محدد في هذه النسخة بحرف يونيكود آخر محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة RichText. يستبدل جميع تكرارات حرف يونيكود محدد في هذه النسخة بحرف يونيكود آخر محدد"
 type: docs
 weight: 230
 url: /ar/net/aspose.note/richtext/replace/
@@ -21,7 +21,7 @@ public RichText Replace(char oldChar, char newChar)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### انظر أيضًا
 
@@ -46,7 +46,7 @@ public RichText Replace(string oldValue, string newValue)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### استثناءات
 
@@ -78,7 +78,7 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // استبدال نص الشكل
+        // استبدال نص شكل
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
@@ -88,7 +88,7 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-يظهر كيفية إنشاء مستند جديد عن طريق استبدال قطع النص الخاصة في القالب.
+يوضح كيفية إنشاء مستند جديد عن طريق استبدال قطع نصية خاصة في قالب.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -105,10 +105,10 @@ var D = new Dictionary<string, string>
                 { "YourName", "Ayn Rand" }
             };
 
-// حمّل مستند القالب في Aspose.Note.
+// حمّل مستند القالب إلى Aspose.Note.
 var d = new Document(Path.Combine(dataDir, "JobOffer.one"));
 
-// لنستبدل جميع كلمات القالب
+// دعنا نستبدل جميع كلمات القالب
 foreach (var e in d.GetChildNodes<RichText>())
 {
     foreach (var replace in D)
@@ -144,7 +144,7 @@ public RichText Replace(string oldValue, string newValue, TextStyle style)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### استثناءات
 

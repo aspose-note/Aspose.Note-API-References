@@ -1,7 +1,7 @@
 ---
 title: "Image.VerticalOffset"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Image. يحصل أو يضبط الإزاحة العمودية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Image. يحصل أو يضبط الإزاحة العمودية."
 type: docs
 weight: 170
 url: /ar/net/aspose.note/image/verticaloffset/
@@ -16,7 +16,7 @@ public float VerticalOffset { get; set; }
 
 ## أمثلة
 
-يظهر كيفية إضافة صورة من ملف إلى مستند مع خصائص محددة من قبل المستخدم.
+يعرض كيفية إضافة صورة من ملف إلى مستند مع خصائص معرفة من قبل المستخدم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -39,7 +39,7 @@ Image image = new Image(dataDir + "image.jpg")
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // ضبط محاذاة الصورة
+                              // تعيين محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 

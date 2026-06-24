@@ -1,6 +1,6 @@
 ---
 title: "InkDrawing.VerticalOffset"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية InkDrawing. تحصل أو تعين الإزاحة العمودية"
 type: docs
 weight: 20

@@ -1,6 +1,6 @@
 ---
 title: "ParagraphStyle.Default"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية ParagraphStyle. تحصل على ParagraphStyle بالإعدادات الافتراضية"
 type: docs
 weight: 20

@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Contains"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. تحدد ما إذا كان تاريخ الصفحات يحتوي على إصدار الصفحة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تحدد ما إذا كان PageHistory يحتوي على إصدار الصفحة."
 type: docs
 weight: 90
 url: /ar/net/aspose.note/pagehistory/contains/
@@ -20,7 +20,7 @@ public bool Contains(Page item)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 

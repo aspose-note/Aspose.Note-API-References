@@ -1,6 +1,6 @@
 ---
 title: "ResourceSavingArgs.FileName"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية ResourceSavingArgs. يحصل على اسم الملف"
 type: docs
 weight: 20

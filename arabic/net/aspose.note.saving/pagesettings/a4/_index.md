@@ -1,6 +1,6 @@
 ---
 title: "PageSettings.A4"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية PageSettings. يحصل على الإعدادات لصفحة تنسيق A4"
 type: docs
 weight: 10

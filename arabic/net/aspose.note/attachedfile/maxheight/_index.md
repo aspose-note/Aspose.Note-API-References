@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.MaxHeight"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط أقصى ارتفاع لعرض أيقونة الملف المضمن"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين أقصى ارتفاع لعرض أيقونة الملف المضمن"
 type: docs
 weight: 160
 url: /ar/net/aspose.note/attachedfile/maxheight/

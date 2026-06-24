@@ -1,7 +1,7 @@
 ---
 title: "HtmlSaveOptions.CssSavingCallback"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية HtmlSaveOptions. يحصل أو يضبط الـ callback الذي يُستدعى لإنشاء مورد لتخزين CSS"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية HtmlSaveOptions. يحصل أو يضبط رد النداء الذي يُستدعى لإنشاء مورد لتخزين CSS"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/htmlsaveoptions/csssavingcallback/
@@ -16,11 +16,11 @@ public ICssSavingCallback CssSavingCallback { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ مستند بتنسيق HTML مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
+يعرض كيفية حفظ مستند بصيغة html مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
 
 ```csharp
 // الكود أدناه ينشئ مجلد 'documentFolder' يحتوي على document.html، ومجلد 'css' به ملف 'style.css'، ومجلد 'images' يحتوي على صور، ومجلد 'fonts' يحتوي على خطوط.
-// 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
+// ملف 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",

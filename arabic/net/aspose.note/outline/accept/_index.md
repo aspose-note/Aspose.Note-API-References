@@ -1,7 +1,7 @@
 ---
 title: "Outline.Accept"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Outline. يقبل زائر العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Outline. تقبل زائر العقدة"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/outline/accept/

@@ -1,6 +1,6 @@
 ---
 title: "تعداد TagStatus"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "تعداد Aspose.Note.TagStatus. يحدد حالة عقدة علامة الملاحظة"
 type: docs
 weight: 1030

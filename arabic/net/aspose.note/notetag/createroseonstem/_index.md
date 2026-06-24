@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateRoseOnStem"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز RoseOnStem والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة RoseOnStem والملصق المحدد"
 type: docs
 weight: 860
 url: /ar/net/aspose.note/notetag/createroseonstem/
 ---
 ## NoteTag.CreateRoseOnStem method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة RoseOnStem والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة RoseOnStem وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateRoseOnStem(string label = "")

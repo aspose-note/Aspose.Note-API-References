@@ -1,14 +1,14 @@
 ---
 title: "CheckBox.CompletedTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "CheckBox خاصية. يحصل على أو يضبط وقت الإكمال"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية CheckBox. يحصل أو يضبط وقت الإكمال"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/checkbox/completedtime/
 ---
 ## CheckBox.CompletedTime property
 
-يحصل أو يعيّن وقت الإكمال.
+الحصول على أو تعيين وقت الانتهاء.
 
 ```csharp
 public DateTime? CompletedTime { get; }
@@ -16,7 +16,7 @@ public DateTime? CompletedTime { get; }
 
 ### Property Value
 
-القابل للإلغاء.
+ال Nullable.
 
 ### انظر أيضًا
 

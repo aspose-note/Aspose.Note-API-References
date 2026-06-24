@@ -1,14 +1,14 @@
 ---
 title: "RichText.TrimStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة RichText. تزيل جميع التكرارات الأولية لمجموعة من الأحرف المحددة في مصفوفة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة RichText. يزيل جميع التكرارات الأولية لمجموعة من الأحرف المحددة في مصفوفة"
 type: docs
 weight: 260
 url: /ar/net/aspose.note/richtext/trimstart/
 ---
 ## TrimStart(params char[]) {#trimstart_2}
 
-يزيل جميع التكرارات في البداية لمجموعة من الأحرف المحددة في مصفوفة.
+يزيل جميع التكرارات الأولية لمجموعة من الأحرف المحددة في مصفوفة.
 
 ```csharp
 public RichText TrimStart(params char[] trimChars)
@@ -16,11 +16,11 @@ public RichText TrimStart(params char[] trimChars)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| trimChars | Char[] | أحرف القص. |
+| trimChars | Char[] | أحرف القطع. |
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### انظر أيضًا
 
@@ -32,7 +32,7 @@ public RichText TrimStart(params char[] trimChars)
 
 ## TrimStart(char) {#trimstart_1}
 
-يزيل جميع التكرارات في البداية لحرف محدد.
+يزيل جميع التكرارات الأولية لحرف محدد.
 
 ```csharp
 public RichText TrimStart(char trimChar)
@@ -40,11 +40,11 @@ public RichText TrimStart(char trimChar)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| trimChar | Char | حرف القص. |
+| trimChar | Char | حرف القطع. |
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### انظر أيضًا
 
@@ -64,7 +64,7 @@ public RichText TrimStart()
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### انظر أيضًا
 

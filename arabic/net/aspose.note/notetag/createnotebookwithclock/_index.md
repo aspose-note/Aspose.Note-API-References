@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateNotebookWithClock"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة NotebookWithClock والملصق المحدد"
 type: docs
 weight: 680
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createnotebookwithclock/
 ---
 ## NoteTag.CreateNotebookWithClock method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة NotebookWithClock وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة NotebookWithClock والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateNotebookWithClock(string label = "")

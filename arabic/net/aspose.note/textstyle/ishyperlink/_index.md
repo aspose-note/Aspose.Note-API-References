@@ -1,14 +1,14 @@
 ---
 title: "TextStyle.IsHyperlink"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية TextStyle. مهجور منذ الإصدار 22.5. استخدم HyperlinkAddress بدلاً من ذلك."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية TextStyle. مهجور منذ 22.5. استخدم HyperlinkAddress بدلاً من ذلك."
 type: docs
 weight: 80
 url: /ar/net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-مهجور منذ الإصدار 22.5. استخدم `HyperlinkAddress` بدلاً من ذلك.
+مهجور منذ 22.5. استخدم `HyperlinkAddress` بدلاً من ذلك.
 
 ```csharp
 public bool IsHyperlink { get; set; }
@@ -16,13 +16,13 @@ public bool IsHyperlink { get; set; }
 
 ## أمثلة
 
-يظهر كيفية ربط ارتباط تشعبي بنص.
+يعرض كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -61,7 +61,7 @@ outline.AppendChildLast(outlineElem);
 // تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Note.Page() { Title = title };
 
 // إضافة عقدة المخطط
@@ -70,7 +70,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```

@@ -1,7 +1,7 @@
 ---
 title: "الفئة InkNode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.InkNode. تمثل واجهة مشتركة لجميع عقد الحبر"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.InkNode فئة. تمثل واجهة مشتركة لجميع عقد الحبر"
 type: docs
 weight: 340
 url: /ar/net/aspose.note/inknode/

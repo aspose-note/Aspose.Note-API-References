@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreatePersonWithExclamationMark"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة PersonWithExclamationMark وملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة PersonWithExclamationMark والملصق المحدد"
 type: docs
 weight: 750
 url: /ar/net/aspose.note/notetag/createpersonwithexclamationmark/
 ---
 ## NoteTag.CreatePersonWithExclamationMark method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة PersonWithExclamationMark وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة PersonWithExclamationMark والملصق المحدد.
 
 ```csharp
 public static NoteTag CreatePersonWithExclamationMark(string label = "")

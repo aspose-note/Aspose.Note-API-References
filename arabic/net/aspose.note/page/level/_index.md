@@ -1,7 +1,7 @@
 ---
 title: "Page.Level"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Page. يحصل أو يحدد المستوى"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Page. تحصل أو تعيين المستوى"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/page/level/
@@ -16,7 +16,7 @@ public byte Level { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على معلومات ميتا حول صفحة.
+يوضح كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -36,13 +36,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى
@@ -65,16 +65,16 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page وضبط مستواه
+// تهيئة كائن الفئة Page وضبط مستواه
 Page page1 = new Page() { Level = 1 };
 
-// تهيئة كائن فئة Page وضبط مستواه
+// تهيئة كائن الفئة Page وضبط مستواه
 Page page2 = new Page() { Level = 2 };
 
-// تهيئة كائن فئة Page وضبط مستواه
+// تهيئة كائن الفئة Page وضبط مستواه
 Page page3 = new Page() { Level = 1 };
 
 /*---------- Adding nodes to first Page ----------*/
@@ -109,7 +109,7 @@ doc.AppendChildLast(page1);
 doc.AppendChildLast(page2);
 doc.AppendChildLast(page3);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```

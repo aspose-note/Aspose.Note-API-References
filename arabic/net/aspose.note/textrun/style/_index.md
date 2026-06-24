@@ -1,6 +1,6 @@
 ---
 title: "TextRun.Style"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية TextRun. تحصل أو تعين النمط"
 type: docs
 weight: 30

@@ -1,7 +1,7 @@
 ---
 title: "Style.Highlight"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Style. يحصل على أو يضبط لون التمييز"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Style. يحصل أو يضبط لون التمييز"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/style/highlight/
@@ -32,7 +32,7 @@ foreach (var run in richText.TextRuns)
     // تعيين لون الخط
     run.Style.FontColor = Color.Yellow;
 
-    // تعيين لون التظليل
+    // حدد لون التظليل
     run.Style.Highlight = Color.Blue;
 
     // تعيين حجم الخط
@@ -40,7 +40,7 @@ foreach (var run in richText.TextRuns)
 }
 ```
 
-يظهر كيفية إنشاء جدول يحتوي على نص بأنماط مختلفة.
+يعرض كيفية إنشاء جدول يحتوي على نص بأنماط مختلفة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();

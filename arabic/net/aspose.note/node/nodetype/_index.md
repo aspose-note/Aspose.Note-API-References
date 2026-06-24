@@ -1,7 +1,7 @@
 ---
 title: "Node.NodeType"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Node. يحصل على نوع العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Node. تحصل على نوع العقدة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/node/nodetype/

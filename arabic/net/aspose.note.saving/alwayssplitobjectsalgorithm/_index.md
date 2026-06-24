@@ -1,14 +1,14 @@
 ---
 title: "الفئة AlwaysSplitObjectsAlgorithm"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.AlwaysSplitObjectsAlgorithm. تقسم كائنًا إلى عدة أجزاء في حال عدم تناسبه مع الصفحة الأصلية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Saving.AlwaysSplitObjectsAlgorithm. تقسم كائنًا إلى عدة أجزاء في حال لم يتناسب مع الصفحة الأصلية"
 type: docs
 weight: 630
 url: /ar/net/aspose.note.saving/alwayssplitobjectsalgorithm/
 ---
 ## AlwaysSplitObjectsAlgorithm class
 
-يقسم كائنًا إلى عدة أجزاء في حال عدم ملاءمته للصفحة الأصلية.
+يقسم كائنًا إلى عدة أجزاء في حال عدم ملائمته للصفحة الأصلية.
 
 ```csharp
 public class AlwaysSplitObjectsAlgorithm : PageSplittingAlgorithm
@@ -18,11 +18,11 @@ public class AlwaysSplitObjectsAlgorithm : PageSplittingAlgorithm
 
 | الاسم | الوصف |
 | --- | --- |
-| [AlwaysSplitObjectsAlgorithm](alwayssplitobjectsalgorithm/)() | البناء الافتراضي. |
+| [AlwaysSplitObjectsAlgorithm](alwayssplitobjectsalgorithm/)() | الباني الافتراضي. |
 
 ## أمثلة
 
-عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بصيغة pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.

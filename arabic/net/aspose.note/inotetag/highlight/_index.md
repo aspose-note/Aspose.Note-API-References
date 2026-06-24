@@ -1,7 +1,7 @@
 ---
 title: "INoteTag.Highlight"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية INoteTag. يحصل أو يضبط لون التمييز"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية INoteTag. يحصل أو يعيّن لون التمييز"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/inotetag/highlight/
@@ -16,7 +16,7 @@ public Color Highlight { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

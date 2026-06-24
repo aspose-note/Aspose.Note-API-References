@@ -1,7 +1,7 @@
 ---
 title: "NoteCheckBox.Highlight"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteCheckBox خاصية. يحصل أو يعيّن لون التمييز"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "NoteCheckBox خاصية. يحصل أو يضبط لون التمييز"
 type: docs
 weight: 280
 url: /ar/net/aspose.note/notecheckbox/highlight/

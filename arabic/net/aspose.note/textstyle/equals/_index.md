@@ -1,14 +1,14 @@
 ---
 title: "TextStyle.Equals"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة TextStyle. تحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة TextStyle. تحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي."
 type: docs
 weight: 110
 url: /ar/net/aspose.note/textstyle/equals/
 ---
 ## Equals(object) {#equals_1}
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 
@@ -32,7 +32,7 @@ public override bool Equals(object obj)
 
 ## Equals(TextStyle) {#equals}
 
-يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي.
 
 ```csharp
 public bool Equals(TextStyle other)
@@ -44,7 +44,7 @@ public bool Equals(TextStyle other)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 

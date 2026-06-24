@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitInkParagraphEnd"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. إنهاء زيارة عقدة InkParagraph"
 type: docs
 weight: 90
@@ -16,7 +16,7 @@ public virtual void VisitInkParagraphEnd(InkParagraph inkParagraph)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| inkParagraph | InkParagraph | العقدة [`InkParagraph`](../../inkparagraph/) |
+| inkParagraph | InkParagraph | العنصر [`InkParagraph`](../../inkparagraph/) . |
 
 ### انظر أيضًا
 

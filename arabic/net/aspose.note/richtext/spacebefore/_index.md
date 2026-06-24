@@ -1,7 +1,7 @@
 ---
 title: "RichText.SpaceBefore"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية RichText. يحصل أو يضبط الحد الأدنى للمسافة قبل"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية RichText. تحصل أو تضبط الحد الأدنى للمسافة قبل"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/richtext/spacebefore/

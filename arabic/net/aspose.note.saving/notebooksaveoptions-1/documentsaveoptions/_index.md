@@ -1,7 +1,7 @@
 ---
 title: "NotebookSaveOptions1.DocumentSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NotebookSaveOptions property. يحصل أو يعيّن خيارات الحفظ لجميع المستندات الفرعية للدفاتر"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "NotebookSaveOptions الخاصية. يحصل أو يعيّن خيارات الحفظ لجميع مستندات الأطفال في الدفاتر"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/

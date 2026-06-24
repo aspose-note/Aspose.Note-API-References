@@ -1,6 +1,6 @@
 ---
 title: "AttachedFile.Extension"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية AttachedFile. يحصل على امتداد ملف مضمّن"
 type: docs
 weight: 60

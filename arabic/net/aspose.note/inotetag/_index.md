@@ -1,7 +1,7 @@
 ---
-title: "Interface INoteTag"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "واجهة Aspose.Note.INoteTag. الواجهة لعلامات الملاحظات أي العلامات التي لا ترتبط بمهام Outlook."
+title: "واجهة INoteTag"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.INoteTag interface. الواجهة للعلامات الملاحظة أي العلامات التي لا ترتبط بمهام Outlook"
 type: docs
 weight: 180
 url: /ar/net/aspose.note/inotetag/
@@ -24,7 +24,7 @@ public interface INoteTag : ITag
 
 ## أمثلة
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

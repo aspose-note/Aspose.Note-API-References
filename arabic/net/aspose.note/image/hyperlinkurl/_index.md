@@ -1,6 +1,6 @@
 ---
 title: "Image.HyperlinkUrl"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Image. تحصل أو تعين الارتباط التشعبي المرتبط بالصورة"
 type: docs
 weight: 110
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/image/hyperlinkurl/
 ---
 ## Image.HyperlinkUrl property
 
-يحصل أو يعيّن الرابط التشعبي المرتبط بالصورة.
+يحصل أو يعيّن الارتباط التشعبي المرتبط بالصورة.
 
 ```csharp
 public string HyperlinkUrl { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: "الفئة NotebookLoadOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.NotebookLoadOptions. الخيارات المستخدمة لتحميل دفتر ملاحظات"
 type: docs
 weight: 490
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notebookloadoptions/
 ---
 ## NotebookLoadOptions class
 
-الخيارات المستخدمة لتحميل دفتر ملاحظات.
+الخيارات المستخدمة لتحميل دفتر الملاحظات.
 
 ```csharp
 public class NotebookLoadOptions
@@ -18,7 +18,7 @@ public class NotebookLoadOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [NotebookLoadOptions](notebookloadoptions/)() | البناء الافتراضي. |
+| [NotebookLoadOptions](notebookloadoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 
@@ -29,7 +29,7 @@ public class NotebookLoadOptions
 
 ## أمثلة
 
-يوضح كيفية التعامل مع دفتر مشفر.
+يظهر كيفية دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.

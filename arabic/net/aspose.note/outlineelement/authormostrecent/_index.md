@@ -1,14 +1,14 @@
 ---
 title: "OutlineElement.AuthorMostRecent"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية OutlineElement. يحصل على أحدث مؤلف لعنصر المخطط"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية OutlineElement. تحصل على أحدث مؤلف لعنصر المخطط"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/outlineelement/authormostrecent/
 ---
 ## OutlineElement.AuthorMostRecent property
 
-يحصل على أحدث مؤلف لعنصر مخطط.
+يحصل على أحدث مؤلف لعنصر المخطط.
 
 ```csharp
 public string AuthorMostRecent { get; }

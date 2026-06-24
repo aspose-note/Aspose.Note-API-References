@@ -1,14 +1,14 @@
 ---
 title: "الفئة CheckBox"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.CheckBox. الفئة الأساسية للعلامات التي يمكنها تبديل حالتها بين مكتملة وغير مكتملة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.CheckBox. الفئة الأساسية للعلامات التي يمكنها تبديل حالتها بين مكتمل وغير مكتمل"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/checkbox/
 ---
 ## CheckBox class
 
-الفئة الأساسية للعلامات التي يمكنها تبديل حالتها بين مكتملة وغير مكتملة.
+الفئة الأساسية للوسوم التي يمكنها تبديل حالتها بين مكتملة وغير مكتملة.
 
 ```csharp
 public abstract class CheckBox : ITag
@@ -19,19 +19,19 @@ public abstract class CheckBox : ITag
 | الاسم | الوصف |
 | --- | --- |
 | [Checked](../../aspose.note/checkbox/checked/) { get; } | يحصل على قيمة تشير إلى ما إذا كان CheckBox في الحالة المحددة. |
-| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | يحصل أو يعيّن وقت الإكمال. |
-| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | يحصل أو يعيّن وقت الإنشاء. |
-| abstract [Icon](../../aspose.note/checkbox/icon/) { get; } | يحصل أو يعيّن الأيقونة. |
+| [CompletedTime](../../aspose.note/checkbox/completedtime/) { get; } | الحصول على أو تعيين وقت الانتهاء. |
+| [CreationTime](../../aspose.note/checkbox/creationtime/) { get; set; } | الحصول على أو تعيين وقت الإنشاء. |
+| abstract [Icon](../../aspose.note/checkbox/icon/) { get; } | الحصول على أو تعيين الأيقونة. |
 | [Label](../../aspose.note/checkbox/label/) { get; } | يحصل على نص التسمية. |
-| [Status](../../aspose.note/checkbox/status/) { get; } | يحصل أو يعيّن الحالة. |
+| [Status](../../aspose.note/checkbox/status/) { get; } | الحصول على أو تعيين الحالة. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted)() | يضبط العلامة إلى حالة مكتملة باستخدام الوقت الحالي كوقت إكمال. |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted_1)(DateTime) | يضبط العلامة إلى حالة مكتملة. |
-| virtual [SetOpen](../../aspose.note/checkbox/setopen/)() | يضبط العلامة إلى حالة مفتوحة. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted)() | تعيين العلامة إلى حالة مكتملة باستخدام الوقت الحالي كوقت إكمال. |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/#setcompleted_1)(DateTime) | تعيين العلامة إلى حالة مكتملة. |
+| virtual [SetOpen](../../aspose.note/checkbox/setopen/)() | تعيين العلامة إلى حالة مفتوحة. |
 
 ## أمثلة
 
@@ -56,7 +56,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-يوضح كيفية إكمال جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية إكمال جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -79,7 +79,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-يوضح كيفية فتح جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية فتح جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -102,7 +102,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر معلمة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
+يوضح كيفية إنشاء ملف PDF يحتوي على صفحات بها عناصر محددة بخانات اختيار غير مكتملة وتم إنشاؤها خلال الأسبوع الماضي.
 
 ```csharp
 // المسار إلى دليل المستندات.

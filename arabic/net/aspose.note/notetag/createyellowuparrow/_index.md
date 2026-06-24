@@ -1,7 +1,7 @@
 ---
 title: "NoteTag.CreateYellowUpArrow"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة YellowUpArrow والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowUpArrow والملصق المحدد"
 type: docs
 weight: 1100
 url: /ar/net/aspose.note/notetag/createyellowuparrow/
