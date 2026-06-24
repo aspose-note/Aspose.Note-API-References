@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/ipagechildnode/
 ---
 ## IPageChildNode interface
 
-用于页面节点所有子节点的接口。
+页面节点所有子节点的接口。
 
 ```csharp
 public interface IPageChildNode : INode
@@ -21,7 +21,7 @@ public interface IPageChildNode : INode
 | [HorizontalOffset](../../aspose.note/ipagechildnode/horizontaloffset/) { get; set; } | 获取或设置水平偏移。 |
 | [VerticalOffset](../../aspose.note/ipagechildnode/verticaloffset/) { get; set; } | 获取或设置垂直偏移量。 |
 
-### 另请参阅
+### 另见
 
 * interface [INode](../inode/)
 * namespace [Aspose.Note](../../aspose.note/)

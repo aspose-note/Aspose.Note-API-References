@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/title/verticaloffset/
 public float VerticalOffset { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Title](../)
 * namespace [Aspose.Note](../../title/)

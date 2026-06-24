@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.importing/pdfimportoptions/password/
 public string Password { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [PdfImportOptions](../)
 * namespace [Aspose.Note.Importing](../../pdfimportoptions/)

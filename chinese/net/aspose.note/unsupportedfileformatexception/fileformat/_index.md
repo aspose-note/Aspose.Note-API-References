@@ -1,14 +1,14 @@
 ---
 title: "UnsupportedFileFormatException.FileFormat"
 second_title: "Aspose.Note for .NET API 参考"
-description: "UnsupportedFileFormatException 属性。获取已检测的传入数据的文件格式"
+description: "UnsupportedFileFormatException 属性。获取传入数据的文件格式（如果检测到）"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/unsupportedfileformatexception/fileformat/
 ---
 ## UnsupportedFileFormatException.FileFormat property
 
-如果检测到，则获取传入数据的文件格式。
+如果检测到，获取传入数据的文件格式。
 
 ```csharp
 public FileFormat FileFormat { get; }
@@ -38,7 +38,7 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [FileFormat](../../fileformat/)
 * class [UnsupportedFileFormatException](../)

@@ -1,7 +1,7 @@
 ---
 title: "ParsingErrorInfo.Message"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ParsingErrorInfo 属性。获取描述当前错误的消息。"
+description: "ParsingErrorInfo 属性。获取描述当前错误的消息"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/parsingerrorinfo/message/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/parsingerrorinfo/message/
 public string Message { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ParsingErrorInfo](../)
 * namespace [Aspose.Note](../../parsingerrorinfo/)

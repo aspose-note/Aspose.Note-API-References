@@ -1,7 +1,7 @@
 ---
 title: "DocumentFontsSubsystem.UsingDefaultFontFromStream"
 second_title: "Aspose.Note for .NET API 参考"
-description: "DocumentFontsSubsystem 方法。创建新的 DocumentFontsSubsystem 实例，使用指定流中的字体作为默认"
+description: "DocumentFontsSubsystem method. 创建新的 DocumentFontsSubsystem 实例，使用指定流中的字体作为默认"
 type: docs
 weight: 50
 url: /zh/net/aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/
@@ -26,7 +26,7 @@ public static DocumentFontsSubsystem UsingDefaultFontFromStream(Stream defaultFo
 
 ## 示例
 
-展示如何使用来自流的默认字体将文档保存为 PDF 格式。
+展示如何使用来自流的默认字体将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -49,7 +49,7 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [DocumentFontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../documentfontssubsystem/)

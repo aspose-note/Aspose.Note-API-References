@@ -35,7 +35,7 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

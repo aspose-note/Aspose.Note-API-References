@@ -1,7 +1,7 @@
 ---
 title: "OutlineElement.NumberList"
 second_title: "Aspose.Note for .NET API 参考"
-description: "OutlineElement 属性。获取或设置编号列表标题的样式。"
+description: "OutlineElement 属性。获取或设置编号列表标题的样式"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/outlineelement/numberlist/
@@ -16,7 +16,7 @@ public NumberList NumberList { get; set; }
 
 ## 示例
 
-展示如何检索列表格式的信息。
+展示如何检索列表的格式信息。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -195,7 +195,7 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../../numberlist/)
 * class [OutlineElement](../)

@@ -8,13 +8,13 @@ url: /zh/net/aspose.note/attachedfile/alternativetexttitle/
 ---
 ## AttachedFile.AlternativeTextTitle property
 
-获取或设置附件文件图标的标题替代文本。
+获取或设置附件文件图标的替代文本标题。
 
 ```csharp
 public string AlternativeTextTitle { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

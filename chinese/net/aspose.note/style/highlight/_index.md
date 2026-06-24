@@ -62,7 +62,7 @@ var headerRow = ranking.AppendChildFirst(new TableRow());
 var headerStyle = ParagraphStyle.Default;
 headerStyle.IsBold = true;
 
-// 让我们添加一组列和一个标题行
+// 让我们添加一组列和标题行
 var backGroundColor = Color.LightGray;
 foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Score C", "Final score", "Attached materials", "Comments" })
 {
@@ -73,7 +73,7 @@ foreach (var header in new[] { "Supplier", "Contacts", "Score A", "Score B", "Sc
                 .Append(header);
 }
 
-// 让我们添加5行空行。行的背景颜色交替
+// 让我们添加5行空行。行的背景颜色交替显示
 for (int i = 0; i < 5; i++)
 {
     backGroundColor = backGroundColor.IsEmpty ? Color.LightGray : Color.Empty;
@@ -87,7 +87,7 @@ for (int i = 0; i < 5; i++)
     }
 }
 
-// 让我们为 'Contacts' 列添加一些内容模板
+// 让我们为 'Contacts' 列添加一些模板内容
 foreach (var row in ranking.Skip(1))
 {
     var contactsCell = row.ElementAt(1);
@@ -104,7 +104,7 @@ d.AppendChildLast(page);
 d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)

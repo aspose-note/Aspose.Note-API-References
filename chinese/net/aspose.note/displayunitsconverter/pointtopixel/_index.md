@@ -1,7 +1,7 @@
 ---
 title: "DisplayUnitsConverter.PointToPixel"
 second_title: "Aspose.Note for .NET API 参考"
-description: "DisplayUnitsConverter 方法。将点转换为像素，使用指定的像素分辨率"
+description: "DisplayUnitsConverter 方法。将点转换为指定像素分辨率下的像素"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/displayunitsconverter/pointtopixel/
@@ -21,9 +21,9 @@ public static int PointToPixel(float points, float dpi)
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [DisplayUnitsConverter](../)
 * namespace [Aspose.Note](../../displayunitsconverter/)

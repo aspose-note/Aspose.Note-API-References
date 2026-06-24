@@ -19,7 +19,7 @@ public enum BinarizationMethod
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | FixedThreshold | `0` | 图像的二值化使用指定的固定阈值进行。 |
-| Otsu | `1` | 图像的二值化采用自适应方式，使用大津法评估阈值。 |
+| Otsu | `1` | 图像的二值化使用大津法自适应评估阈值进行。 |
 
 ## 示例
 
@@ -34,7 +34,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -56,7 +56,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -68,7 +68,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)
 * assembly [Aspose.Note](../../)

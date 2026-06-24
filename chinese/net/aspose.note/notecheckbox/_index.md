@@ -1,7 +1,7 @@
 ---
-title: "类 NoteCheckBox"
+title: "NoteCheckBox 类"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.NoteCheckBox 类。表示一个可以在完成和未完成状态之间切换的笔记标签"
+description: "Aspose.Note.NoteCheckBox 类。表示一种可以在完成和未完成状态之间切换的笔记标签"
 type: docs
 weight: 450
 url: /zh/net/aspose.note/notecheckbox/
@@ -60,11 +60,11 @@ public sealed class NoteCheckBox : CheckBox, IEquatable<NoteCheckBox>, INoteTag
 | [Equals](../../aspose.note/notecheckbox/equals/#equals)(NoteCheckBox) | 确定指定的对象是否等于当前对象。 |
 | override [Equals](../../aspose.note/notecheckbox/equals/#equals_1)(object) | 确定指定的对象是否等于当前对象。 |
 | override [GetHashCode](../../aspose.note/notecheckbox/gethashcode/)() | 作为该类型的哈希函数。 |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | 将标签设置为已完成状态，并使用当前时间作为完成时间。 |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | 将标签设置为已完成状态，使用当前时间作为完成时间。 |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | 将标签设置为已完成状态。 |
 | virtual [SetOpen](../../aspose.note/checkbox/setopen/)() | 将标签设置为打开状态。 |
 
-### 另请参阅
+### 另见
 
 * class [CheckBox](../checkbox/)
 * interface [INoteTag](../inotetag/)

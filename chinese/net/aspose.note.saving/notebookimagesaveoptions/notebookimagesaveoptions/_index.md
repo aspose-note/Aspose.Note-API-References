@@ -18,7 +18,7 @@ public NotebookImageSaveOptions(SaveFormat format)
 | --- | --- | --- |
 | 格式 | SaveFormat | 笔记本保存的格式。 |
 
-### 另请参阅
+### 另见
 
 * enum [SaveFormat](../../../aspose.note/saveformat/)
 * class [NotebookImageSaveOptions](../)

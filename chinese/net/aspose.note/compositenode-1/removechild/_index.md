@@ -18,13 +18,13 @@ public T1 RemoveChild<T1>(T1 oldChild)
 | 参数 | 描述 |
 | --- | --- |
 | T1 | 被移除节点的确切类型。 |
-| oldChild | 要删除的节点。 |
+| oldChild | 要移除的节点。 |
 
 ### 返回值
 
-已删除的节点。
+已移除的节点。
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)

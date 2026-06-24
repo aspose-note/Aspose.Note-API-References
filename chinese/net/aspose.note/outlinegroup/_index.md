@@ -1,14 +1,14 @@
 ---
 title: "OutlineGroup 类"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.OutlineGroup 类。表示一个 OutlineGroup"
+description: "Aspose.Note.OutlineGroup 类。表示一个 OutlineGroup。"
 type: docs
 weight: 540
 url: /zh/net/aspose.note/outlinegroup/
 ---
 ## OutlineGroup class
 
-表示大纲组。
+表示一个 OutlineGroup。
 
 ```csharp
 public sealed class OutlineGroup : IndentatedNode<IOutlineChildNode>, IOutlineChildNode, 
@@ -49,7 +49,7 @@ public sealed class OutlineGroup : IndentatedNode<IOutlineChildNode>, IOutlineCh
 | [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params IOutlineChildNode[]) |  |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
-### 另请参阅
+### 另见
 
 * class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
 * interface [IOutlineChildNode](../ioutlinechildnode/)

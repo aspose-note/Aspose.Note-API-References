@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/page/margin/
 public Margins Margin { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * struct [Margins](../../margins/)
 * class [Page](../)

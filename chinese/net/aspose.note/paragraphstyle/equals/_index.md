@@ -1,7 +1,7 @@
 ---
 title: "ParagraphStyle.Equals"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ParagraphStyle 方法。确定指定对象是否等于当前对象"
+description: "ParagraphStyle 方法。确定指定的对象是否等于当前对象"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/paragraphstyle/equals/
@@ -22,7 +22,7 @@ public override bool Equals(object obj)
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * class [ParagraphStyle](../)
 * namespace [Aspose.Note](../../paragraphstyle/)
@@ -46,7 +46,7 @@ public bool Equals(ParagraphStyle other)
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * class [ParagraphStyle](../)
 * namespace [Aspose.Note](../../paragraphstyle/)

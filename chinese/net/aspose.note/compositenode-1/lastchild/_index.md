@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/compositenode-1/lastchild/
 public T LastChild { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)

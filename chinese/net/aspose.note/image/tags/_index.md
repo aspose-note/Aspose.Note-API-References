@@ -55,7 +55,7 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../../itag/)
 * class [Image](../)

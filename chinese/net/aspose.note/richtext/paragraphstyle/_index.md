@@ -1,7 +1,7 @@
 ---
 title: "RichText.ParagraphStyle"
 second_title: "Aspose.Note for .NET API 参考"
-description: "RichText 属性。获取或设置段落样式。如果在 Styles 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需的设置，则使用这些设置。"
+description: "RichText 属性。获取或设置段落样式。如果在 Styles 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用这些设置"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/richtext/paragraphstyle/
@@ -16,7 +16,7 @@ public ParagraphStyle ParagraphStyle { get; set; }
 
 ## 示例
 
-让我们通过增大字体大小来强调页面的标题，而不是其他标题。
+让我们通过增大字体大小来突出页面标题相对于其他标题的显示。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -40,7 +40,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-展示如何对文档应用暗色主题样式。
+展示如何对文档应用深色主题样式。
 
 ```csharp
 // 文档目录的路径。
@@ -124,7 +124,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-使用段落样式操作文本格式。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -452,7 +452,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [ParagraphStyle](../../paragraphstyle/)
 * class [RichText](../)

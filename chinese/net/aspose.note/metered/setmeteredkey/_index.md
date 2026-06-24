@@ -1,7 +1,7 @@
 ---
 title: "Metered.SetMeteredKey"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Metered 方法。设置计量公钥和私钥"
+description: "Metered 方法。设置计量的公钥和私钥"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/metered/setmeteredkey/
@@ -21,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 ## 备注
 
-如果您购买了计量许可证，应在应用程序启动时调用此 API，通常这就足够了。然而，如果计量在 24 小时内未能上传消费数据，许可证将被设置为评估状态。为避免这种情况，您应定期检查许可证状态；如果是评估状态，请再次调用此 API。
+如果您购买了计量许可证，应在应用程序启动时调用此 API，通常这已足够。然而，如果计量在 24 小时内未能上传使用数据，许可证将被设置为评估状态。为避免这种情况，您应定期检查许可证状态；如果处于评估状态，请再次调用此 API。
 
 ## 示例
 
@@ -37,7 +37,7 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
@@ -46,7 +46,7 @@ Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
 
-### 另请参阅
+### 另见
 
 * class [Metered](../)
 * namespace [Aspose.Note](../../metered/)

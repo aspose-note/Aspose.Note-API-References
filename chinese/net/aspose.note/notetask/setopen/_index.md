@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notetask/setopen/
 public override void SetOpen()
 ```
 
-### 另请参阅
+### 另见
 
 * class [NoteTask](../)
 * namespace [Aspose.Note](../../notetask/)

@@ -8,13 +8,13 @@ url: /zh/net/aspose.note/textstyle/defaultmsonenotetitletimestyle/
 ---
 ## TextStyle.DefaultMsOneNoteTitleTimeStyle property
 
-获取 MS OneNote 中标题时间的默认样式。
+获取在 MS OneNote 中标题时间的默认样式。
 
 ```csharp
 public static TextStyle DefaultMsOneNoteTitleTimeStyle { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

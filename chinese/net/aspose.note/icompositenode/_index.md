@@ -20,7 +20,7 @@ public interface ICompositeNode
 | --- | --- |
 | [GetChildNodes&lt;T1&gt;](../../aspose.note/icompositenode/getchildnodes/#getchildnodes_1)() | 按节点类型获取所有子节点。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

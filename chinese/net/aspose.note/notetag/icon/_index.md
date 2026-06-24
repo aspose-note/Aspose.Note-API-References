@@ -18,7 +18,7 @@ public TagIcon Icon { get; set; }
 
 该 [`TagIcon`](../../tagicon/)。
 
-### 另请参阅
+### 另见
 
 * enum [TagIcon](../../tagicon/)
 * class [NoteTag](../)

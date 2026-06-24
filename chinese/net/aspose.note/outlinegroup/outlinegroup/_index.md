@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/outlinegroup/outlinegroup/
 public OutlineGroup()
 ```
 
-### 另请参阅
+### 另见
 
 * class [OutlineGroup](../)
 * namespace [Aspose.Note](../../outlinegroup/)

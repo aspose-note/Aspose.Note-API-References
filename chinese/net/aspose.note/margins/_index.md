@@ -45,7 +45,7 @@ public struct Margins : IEquatable<Margins>
 | --- | --- |
 | static readonly [Empty](../../aspose.note/margins/empty/) | 空的边距。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

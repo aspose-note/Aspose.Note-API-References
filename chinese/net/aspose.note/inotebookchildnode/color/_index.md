@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/inotebookchildnode/color/
 public Color Color { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INotebookChildNode](../)
 * namespace [Aspose.Note](../../inotebookchildnode/)

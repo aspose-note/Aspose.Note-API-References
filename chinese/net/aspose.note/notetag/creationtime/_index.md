@@ -16,9 +16,9 @@ public DateTime CreationTime { get; set; }
 
 ### Property Value
 
-DateTime。
+该 DateTime。
 
-### 另请参阅
+### 另见
 
 * class [NoteTag](../)
 * namespace [Aspose.Note](../../notetag/)

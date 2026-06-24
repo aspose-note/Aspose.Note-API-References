@@ -1,7 +1,7 @@
 ---
 title: "Notebook.IsHistoryEnabled"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Notebook 属性。获取或设置一个指示是否启用历史记录的值"
+description: "Notebook 属性。获取或设置一个值，指示是否启用历史记录"
 type: docs
 weight: 70
 url: /zh/net/aspose.note/notebook/ishistoryenabled/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notebook/ishistoryenabled/
 public bool IsHistoryEnabled { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)

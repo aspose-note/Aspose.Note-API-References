@@ -1,5 +1,5 @@
 ---
-title: "类 Loop"
+title: "Loop 类"
 second_title: "Aspose.Note for .NET API 参考"
 description: "Aspose.Note.Loop 类。表示一个循环"
 type: docs
@@ -25,7 +25,7 @@ public sealed class Loop : Node, IOutlineElementChildNode
 | 名称 | 描述 |
 | --- | --- |
 | [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
-| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以拥有子节点。 |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以有子节点。 |
 | [LastModifiedTime](../../aspose.note/loop/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
 | [Link](../../aspose.note/loop/link/) { get; set; } | 获取或设置链接。 |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | 获取同一节点树层级的下一个节点。 |
@@ -39,7 +39,7 @@ public sealed class Loop : Node, IOutlineElementChildNode
 | --- | --- |
 | override [Accept](../../aspose.note/loop/accept/)(DocumentVisitor) | 接受节点的访问者。 |
 
-### 另请参阅
+### 另见
 
 * class [Node](../node/)
 * interface [IOutlineElementChildNode](../ioutlineelementchildnode/)

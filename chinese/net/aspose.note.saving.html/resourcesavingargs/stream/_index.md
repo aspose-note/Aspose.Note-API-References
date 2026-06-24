@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/resourcesavingargs/stream/
 public Stream Stream { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ResourceSavingArgs](../)
 * namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)

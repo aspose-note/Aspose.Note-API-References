@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/pagehistory/insert/
 ---
 ## PageHistory.Insert method
 
-将页面版本插入到页面历史记录中。
+在页面历史记录中插入一个页面版本。
 
 ```csharp
 public void Insert(int index, Page item)
@@ -16,10 +16,10 @@ public void Insert(int index, Page item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | Int32 | 该索引。 |
-| 项目 | Page | 页面版本。 |
+| 索引 | Int32 | 索引。 |
+| 项 | Page | 页面版本。 |
 
-### 另请参阅
+### 另见
 
 * class [Page](../../page/)
 * class [PageHistory](../)

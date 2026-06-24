@@ -20,7 +20,7 @@ public DocumentFontsSubsystem(Stream defaultFontStream,
 | defaultFontStream | 流 | 默认字体。 |
 | fontsSubstitutions | Dictionary`2 | 字体替换。 |
 
-### 另请参阅
+### 另见
 
 * class [DocumentFontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../documentfontssubsystem/)
@@ -42,7 +42,7 @@ public DocumentFontsSubsystem(string defaultFontFile,
 | defaultFontFile | String | 默认字体。 |
 | fontsSubstitutions | Dictionary`2 | 字体替换。 |
 
-### 另请参阅
+### 另见
 
 * class [DocumentFontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../documentfontssubsystem/)
@@ -62,7 +62,7 @@ public DocumentFontsSubsystem(Dictionary<string, string> fontsSubstitutions = nu
 | --- | --- | --- |
 | fontsSubstitutions | Dictionary`2 | 字体替换。 |
 
-### 另请参阅
+### 另见
 
 * class [DocumentFontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../documentfontssubsystem/)

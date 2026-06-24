@@ -8,13 +8,13 @@ url: /zh/net/aspose.note/textstyle/defaultmsonenotetitledatestyle/
 ---
 ## TextStyle.DefaultMsOneNoteTitleDateStyle property
 
-获取 MS OneNote 中标题日期的默认样式。
+获取在 MS OneNote 中标题日期的默认样式。
 
 ```csharp
 public static TextStyle DefaultMsOneNoteTitleDateStyle { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

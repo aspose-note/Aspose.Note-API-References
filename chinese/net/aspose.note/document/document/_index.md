@@ -1,20 +1,20 @@
 ---
 title: "Document.Document"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Document 构造函数。初始化 Document 类的新实例。创建一个空的 OneNote 文档"
+description: "Document 构造函数。初始化 Document 类的新实例。创建一个空白的 OneNote 文档"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/document/document/
 ---
 ## Document() {#constructor}
 
-初始化 [`Document`](../) 类的新实例。创建一个空的 OneNote 文档。
+初始化 [`Document`](../) 类的新实例。创建一个空白的 OneNote 文档。
 
 ```csharp
 public Document()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
@@ -24,7 +24,7 @@ public Document()
 
 ## Document(string) {#constructor_3}
 
-初始化 [`Document`](../) 类的新实例。打开文件中的现有 OneNote 文档。
+初始化 [`Document`](../) 类的新实例。从文件打开现有的 OneNote 文档。
 
 ```csharp
 public Document(string filePath)
@@ -40,8 +40,8 @@ public Document(string filePath)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 未识别或不支持该文档格式。 |
 | [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
-| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发人员报告。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，打开需要密码，但您提供的密码不正确。 |
+| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发者报告。 |
 | IOException | 发生输入/输出异常。 |
 
 ## 示例
@@ -113,7 +113,7 @@ foreach (var oneNotePage in document)
 Console.WriteLine("\nOneNote document converted to Notion-compatible format successfully.");
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
@@ -123,7 +123,7 @@ Console.WriteLine("\nOneNote document converted to Notion-compatible format succ
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-初始化 [`Document`](../) 类的新实例。打开文件中的现有 OneNote 文档。允许指定额外选项，例如加密密码。
+初始化 [`Document`](../) 类的新实例。从文件打开现有的 OneNote 文档。允许指定额外选项，例如加密密码。
 
 ```csharp
 public Document(string filePath, LoadOptions loadOptions)
@@ -140,11 +140,11 @@ public Document(string filePath, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 未识别或不支持该文档格式。 |
 | [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
-| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发人员报告。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，打开需要密码，但您提供的密码不正确。 |
+| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发者报告。 |
 | IOException | 发生输入/输出异常。 |
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../../loadoptions/)
 * class [Document](../)
@@ -155,7 +155,7 @@ public Document(string filePath, LoadOptions loadOptions)
 
 ## Document(Stream) {#constructor_1}
 
-初始化一个新的 [`Document`](../) 类实例。 从流中打开现有的 OneNote 文档。
+初始化 [`Document`](../) 类的新实例。打开来自流的现有 OneNote 文档。
 
 ```csharp
 public Document(Stream inStream)
@@ -171,12 +171,12 @@ public Document(Stream inStream)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 未识别或不支持该文档格式。 |
 | [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
-| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发人员报告。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，打开需要密码，但您提供的密码不正确。 |
+| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发者报告。 |
 | IOException | 发生输入/输出异常。 |
-| ArgumentException | 流不支持读取，或为 null，或已关闭。 |
+| ArgumentException | 流不支持读取、为 null，或已关闭。 |
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
@@ -186,7 +186,7 @@ public Document(Stream inStream)
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-初始化一个新的 [`Document`](../) 类实例。 从流中打开现有的 OneNote 文档。 允许指定额外选项，例如加密密码。
+初始化 [`Document`](../) 类的新实例。打开来自流的现有 OneNote 文档。允许指定额外选项，例如加密密码。
 
 ```csharp
 public Document(Stream inStream, LoadOptions loadOptions)
@@ -203,12 +203,12 @@ public Document(Stream inStream, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 未识别或不支持该文档格式。 |
 | [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
-| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发人员报告。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，打开需要密码，但您提供的密码不正确。 |
+| InvalidOperationException | 文档存在问题，应向 Aspose.Note 开发者报告。 |
 | IOException | 发生输入/输出异常。 |
-| ArgumentException | 流不支持读取，或为 null，或已关闭。 |
+| ArgumentException | 流不支持读取、为 null，或已关闭。 |
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../../loadoptions/)
 * class [Document](../)

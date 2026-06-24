@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/richtext/length/
 public int Length { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)

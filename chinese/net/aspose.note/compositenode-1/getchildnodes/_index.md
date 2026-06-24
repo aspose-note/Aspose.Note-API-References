@@ -1,7 +1,7 @@
 ---
 title: "CompositeNode1.GetChildNodes"
 second_title: "Aspose.Note for .NET API 参考"
-description: "CompositeNode 方法。按节点类型获取所有子节点"
+description: "CompositeNode 方法。根据节点类型获取所有子节点"
 type: docs
 weight: 70
 url: /zh/net/aspose.note/compositenode-1/getchildnodes/
@@ -74,7 +74,7 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INode](../../inode/)
 * class [CompositeNode&lt;T&gt;](../)

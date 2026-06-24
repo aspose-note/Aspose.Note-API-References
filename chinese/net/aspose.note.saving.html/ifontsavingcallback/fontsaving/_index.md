@@ -8,7 +8,7 @@ url: /zh/net/aspose.note.saving.html/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback.FontSaving method
 
-在 Aspose.Note 保存字体时调用。
+当 Aspose.Note 保存字体时调用。
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
@@ -18,7 +18,7 @@ public void FontSaving(FontSavingArgs args)
 | --- | --- | --- |
 | args | FontSavingArgs | 保存参数。 |
 
-### 另请参阅
+### 另见
 
 * class [FontSavingArgs](../../fontsavingargs/)
 * interface [IFontSavingCallback](../)

@@ -1,5 +1,5 @@
 ---
-title: "Metered 类"
+title: "类 Metered"
 second_title: "Aspose.Note for .NET API 参考"
 description: "Aspose.Note.Metered 类。提供设置计量密钥的方法"
 type: docs
@@ -24,14 +24,14 @@ public class Metered
 
 | 名称 | 描述 |
 | --- | --- |
-| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | 删除先前设置的许可证。 |
+| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | 移除先前设置的许可证。 |
 | [SetMeteredKey](../../aspose.note/metered/setmeteredkey/)(string, string) | 设置计量的公钥和私钥。 |
 | static [GetConsumptionCredit](../../aspose.note/metered/getconsumptioncredit/)() | 获取消耗积分。 |
-| static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity/)() | 获取消耗的文件大小。 |
+| static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity/)() | 获取消耗文件大小。 |
 
 ## 示例
 
-在此示例中，将尝试设置计量的公钥和私钥。
+在此示例中，将尝试设置计量的公钥和私钥
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
@@ -67,7 +67,7 @@ Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

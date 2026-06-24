@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.VerticalOffset"
 second_title: "Aspose.Note for .NET API 参考"
-description: "AttachedFile 属性。获取或设置垂直偏移"
+description: "AttachedFile 属性。获取或设置垂直偏移量"
 type: docs
 weight: 210
 url: /zh/net/aspose.note/attachedfile/verticaloffset/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/verticaloffset/
 public float VerticalOffset { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

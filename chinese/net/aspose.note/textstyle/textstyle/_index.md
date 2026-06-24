@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/textstyle/textstyle/
 public TextStyle()
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

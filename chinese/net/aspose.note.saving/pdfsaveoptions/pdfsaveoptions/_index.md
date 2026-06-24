@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/pdfsaveoptions/pdfsaveoptions/
 public PdfSaveOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [PdfSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../pdfsaveoptions/)

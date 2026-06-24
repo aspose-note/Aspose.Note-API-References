@@ -1,7 +1,7 @@
 ---
 title: "Notebook.LoadChildNotebook"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Notebook 方法。添加子笔记本节点。打开来自文件的现有 OneNote 笔记本"
+description: "Notebook 方法。添加子笔记本节点。打开文件中的现有 OneNote 笔记本"
 type: docs
 weight: 130
 url: /zh/net/aspose.note/notebook/loadchildnotebook/
@@ -18,7 +18,7 @@ public void LoadChildNotebook(string filePath)
 | --- | --- | --- |
 | filePath | String | 文件路径。 |
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -39,7 +39,7 @@ public void LoadChildNotebook(string filePath, NotebookLoadOptions loadOptions)
 | filePath | String | 文件路径。 |
 | loadOptions | NotebookLoadOptions | 加载选项。 |
 
-### 另请参阅
+### 另见
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)
@@ -60,7 +60,7 @@ public void LoadChildNotebook(Stream stream)
 | --- | --- | --- |
 | 流 | 流 | 流。 |
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -81,7 +81,7 @@ public void LoadChildNotebook(Stream stream, NotebookLoadOptions loadOptions)
 | 流 | 流 | 流。 |
 | loadOptions | NotebookLoadOptions | 加载选项。 |
 
-### 另请参阅
+### 另见
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)

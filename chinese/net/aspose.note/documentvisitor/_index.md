@@ -1,5 +1,5 @@
 ---
-title: "DocumentVisitor 类"
+title: "类 DocumentVisitor"
 second_title: "Aspose.Note for .NET API 参考"
 description: "Aspose.Note.DocumentVisitor 类。用于遍历以指定节点为根的子树的抽象类"
 type: docs
@@ -72,7 +72,7 @@ public static void Run()
     // 在访问者对象上（这称为访问）。
     //
     // 请注意，对象模型中的每个节点都有 Accept 方法，因此访问
-    // 不仅可以对整个文档执行，也可以对文档中的任何节点执行。
+    // 不仅可以针对整个文档执行，也可以针对文档中的任何节点执行。
     doc.Accept(myConverter);
 
     // 一旦访问完成，我们可以检索操作的结果，
@@ -82,7 +82,7 @@ public static void Run()
 }
 
 /// <summary>
-/// 简单实现将文档保存为纯文本格式。实现为 Visitor。
+/// 将文档保存为纯文本格式的简单实现。实现为 Visitor。
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -113,7 +113,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 RichText 节点时调用。
+    /// 当文档中出现 RichText 节点时调用。
     /// </summary>
     public override void VisitRichTextStart(RichText run)
     {
@@ -122,7 +122,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 Document 节点时调用。
+    /// 当文档中出现 Document 节点时调用。
     /// </summary>
     public override void VisitDocumentStart(Document document)
     {
@@ -130,7 +130,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 Page 节点时调用。
+    /// 当文档中出现 Page 节点时调用。
     /// </summary>
     public override void VisitPageStart(Page page)
     {
@@ -147,7 +147,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 Title 节点时调用。
+    /// 当文档中出现 Title 节点时调用。
     /// </summary>
     public override void VisitTitleStart(Title title)
     {
@@ -155,7 +155,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 Image 节点时调用。
+    /// 当文档中出现 Image 节点时调用。
     /// </summary>
     public override void VisitImageStart(Image image)
     {
@@ -163,7 +163,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 OutlineGroup 节点时调用。
+    /// 当文档中出现 OutlineGroup 节点时调用。
     /// </summary>
     public override void VisitOutlineGroupStart(OutlineGroup outlineGroup)
     {
@@ -171,7 +171,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 Outline 节点时调用。
+    /// 当文档中出现 Outline 节点时调用。
     /// </summary>
     public override void VisitOutlineStart(Outline outline)
     {
@@ -179,7 +179,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中遇到 OutlineElement 节点时调用。
+    /// 当文档中出现 OutlineElement 节点时调用。
     /// </summary>
     public override void VisitOutlineElementStart(OutlineElement outlineElement)
     {
@@ -200,7 +200,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
 }
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

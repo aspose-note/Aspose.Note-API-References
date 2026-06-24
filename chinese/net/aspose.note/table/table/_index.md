@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/table/table/
 public Table()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Table](../)
 * namespace [Aspose.Note](../../table/)

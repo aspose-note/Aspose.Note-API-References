@@ -16,9 +16,9 @@ public virtual void VisitOutlineEnd(Outline outline)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| outline | Outline | 此 [`Outline`](../../outline/) 节点。 |
+| outline | Outline | 该 [`Outline`](../../outline/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [Outline](../../outline/)
 * class [DocumentVisitor](../)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/inotebookchildnode/displayname/
 public string DisplayName { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INotebookChildNode](../)
 * namespace [Aspose.Note](../../inotebookchildnode/)

@@ -1,7 +1,7 @@
 ---
 title: "NumberList.LastModifiedTime"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NumberList 属性。获取或设置最后修改时间。"
+description: "NumberList 属性。获取或设置最后修改时间"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/numberlist/lastmodifiedtime/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/numberlist/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)

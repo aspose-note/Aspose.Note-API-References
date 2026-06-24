@@ -40,7 +40,7 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

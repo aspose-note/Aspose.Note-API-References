@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.fonts/fontssubsystem/defaultfont/
 public FontFamily DefaultFont { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [FontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../fontssubsystem/)

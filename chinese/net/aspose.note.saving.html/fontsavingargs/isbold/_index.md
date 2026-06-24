@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/fontsavingargs/isbold/
 public bool IsBold { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [FontSavingArgs](../)
 * namespace [Aspose.Note.Saving.Html](../../fontsavingargs/)

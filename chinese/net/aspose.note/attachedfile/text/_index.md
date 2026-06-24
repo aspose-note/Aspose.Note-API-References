@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/text/
 public string Text { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

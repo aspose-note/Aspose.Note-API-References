@@ -1,7 +1,7 @@
 ---
 title: "Notebook.LoadChildDocument"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Notebook 方法。添加子文档节点。打开来自文件的现有 OneNote 文档"
+description: "Notebook 方法。添加子文档节点。打开文件中的现有 OneNote 文档"
 type: docs
 weight: 120
 url: /zh/net/aspose.note/notebook/loadchilddocument/
@@ -38,7 +38,7 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -59,7 +59,7 @@ public void LoadChildDocument(string filePath, LoadOptions loadOptions)
 | filePath | String | 文件路径。 |
 | loadOptions | LoadOptions | 加载选项。 |
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../../loadoptions/)
 * class [Notebook](../)
@@ -100,7 +100,7 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -121,7 +121,7 @@ public void LoadChildDocument(Stream stream, LoadOptions loadOptions)
 | 流 | 流 | 流。 |
 | loadOptions | LoadOptions | 加载选项。 |
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../../loadoptions/)
 * class [Notebook](../)

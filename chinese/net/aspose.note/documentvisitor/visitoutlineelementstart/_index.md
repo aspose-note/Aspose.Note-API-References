@@ -1,14 +1,14 @@
 ---
 title: "DocumentVisitor.VisitOutlineElementStart"
 second_title: "Aspose.Note for .NET API 参考"
-description: "DocumentVisitor 方法. 开始访问 OutlineElement 节点"
+description: "DocumentVisitor 方法。开始访问 OutlineElement 节点"
 type: docs
 weight: 160
 url: /zh/net/aspose.note/documentvisitor/visitoutlineelementstart/
 ---
 ## DocumentVisitor.VisitOutlineElementStart method
 
-开始访问 [`OutlineElement`](../../outlineelement/) 节点.
+开始访问 [`OutlineElement`](../../outlineelement/) 节点。
 
 ```csharp
 public virtual void VisitOutlineElementStart(OutlineElement outlineElement)
@@ -18,7 +18,7 @@ public virtual void VisitOutlineElementStart(OutlineElement outlineElement)
 | --- | --- | --- |
 | outlineElement | OutlineElement | 该 [`OutlineElement`](../../outlineelement/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [OutlineElement](../../outlineelement/)
 * class [DocumentVisitor](../)

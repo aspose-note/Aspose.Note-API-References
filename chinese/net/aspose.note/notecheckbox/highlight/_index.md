@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notecheckbox/highlight/
 public Color Highlight { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [NoteCheckBox](../)
 * namespace [Aspose.Note](../../notecheckbox/)

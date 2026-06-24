@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/page/isconflictpage/
 ---
 ## Page.IsConflictPage property
 
-获取或设置一个值，指示此页面是否为冲突页面。
+获取或设置指示此页面是否为冲突页面的值。
 
 ```csharp
 public bool IsConflictPage { get; set; }
@@ -16,9 +16,9 @@ public bool IsConflictPage { get; set; }
 
 ## 备注
 
-冲突页面在两个用户尝试更新相同内容时产生。在这种情况下，第一位用户的更改会正常写入，但另一位用户的更改无法合并。因此会创建页面的副本并标记为冲突。
+冲突页面在两个用户尝试更新相同内容时产生。在这种情况下，第一位用户的更改会照常写入。但另一位用户的更改无法合并。因此会创建页面的副本并标记为冲突。
 
-在此版本中，冲突会以第一位用户的更改为准进行解决。因此，如果文档中存在冲突页面，它们会在历史记录中显示，但在保存时会被跳过。可以重置此标志，以便将这些页面像普通页面一样保存到历史记录中。
+在此版本中，冲突会按照第一位用户的更改来解决。因此，如果文档中存在冲突页面，它们将在历史记录中显示，但在保存时会被跳过。可以重置此标志，以便将这些页面像普通页面一样保存到历史记录中。
 
 有关冲突页面操作的详细示例可在在线文档中找到。
 
@@ -51,7 +51,7 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Page](../)
 * namespace [Aspose.Note](../../page/)

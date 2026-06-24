@@ -1,7 +1,7 @@
 ---
 title: "NumberList.Font"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NumberList 属性。获取或设置字体的名称"
+description: "NumberList 属性。获取或设置字体的名称。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/numberlist/font/
@@ -16,7 +16,7 @@ public string Font { get; set; }
 
 ## 示例
 
-展示如何检索列表格式的信息。
+展示如何检索列表的格式信息。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -59,7 +59,7 @@ foreach (OutlineElement node in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)

@@ -1,5 +1,5 @@
 ---
-title: "类 License"
+title: "License 类"
 second_title: "Aspose.Note for .NET API 参考"
 description: "Aspose.Note.License 类。提供对组件进行授权的方法"
 type: docs
@@ -24,8 +24,8 @@ public sealed class License
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetLicense](../../aspose.note/license/setlicense/#setlicense)(Stream) | 为组件授权。 |
-| [SetLicense](../../aspose.note/license/setlicense/#setlicense_1)(string) | 为组件授权。 |
+| [SetLicense](../../aspose.note/license/setlicense/#setlicense)(Stream) | 对组件进行授权。 |
+| [SetLicense](../../aspose.note/license/setlicense/#setlicense_1)(string) | 对组件进行授权。 |
 
 ## 示例
 
@@ -67,11 +67,11 @@ using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
 // 实例化 License 类
 Aspose.Note.License license = new Aspose.Note.License();
 
-// 仅传递嵌入程序集中的许可证文件名称
+// 仅传递嵌入在程序集中的许可证文件名称
 license.SetLicense("Aspose.Note.lic");
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

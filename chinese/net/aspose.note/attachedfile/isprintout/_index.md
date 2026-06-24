@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.IsPrintout"
 second_title: "Aspose.Note for .NET API 参考"
-description: "AttachedFile 属性。获取或设置一个值，指示文件的视图是否为打印输出"
+description: "AttachedFile 属性。获取或设置一个值，指示文件的视图是否为打印件"
 type: docs
 weight: 130
 url: /zh/net/aspose.note/attachedfile/isprintout/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/isprintout/
 public bool IsPrintout { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

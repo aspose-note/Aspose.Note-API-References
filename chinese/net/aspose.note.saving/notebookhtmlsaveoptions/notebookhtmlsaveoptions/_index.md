@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/notebookhtmlsaveoptions/notebookhtmlsaveoptions/
 public NotebookHtmlSaveOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [NotebookHtmlSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../notebookhtmlsaveoptions/)

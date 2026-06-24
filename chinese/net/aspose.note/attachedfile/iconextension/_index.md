@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/iconextension/
 public string IconExtension { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

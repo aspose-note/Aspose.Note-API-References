@@ -1,7 +1,7 @@
 ---
 title: "NotebookPdfSaveOptions.NotebookPdfSaveOptions"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NotebookPdfSaveOptions 构造函数。默认构造函数"
+description: "NotebookPdfSaveOptions 构造函数。默认构造函数。"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving/notebookpdfsaveoptions/notebookpdfsaveoptions/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/notebookpdfsaveoptions/notebookpdfsaveoptions/
 public NotebookPdfSaveOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [NotebookPdfSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../notebookpdfsaveoptions/)

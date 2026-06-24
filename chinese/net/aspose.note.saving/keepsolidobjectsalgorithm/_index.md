@@ -1,14 +1,14 @@
 ---
 title: "类 KeepSolidObjectsAlgorithm"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.Saving.KeepSolidObjectsAlgorithm 类。若完整对象不适合原始页面，则将其移至下一页"
+description: "Aspose.Note.Saving.KeepSolidObjectsAlgorithm 类。若完整对象不适合原始页面，则将其移动到下一页"
 type: docs
 weight: 820
 url: /zh/net/aspose.note.saving/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm class
 
-在对象无法适应原始页面时，将完整对象移至下一页。
+在对象不适合原始页面时，将完整对象移至下一页。
 
 ```csharp
 public class KeepSolidObjectsAlgorithm : PageSplittingAlgorithm
@@ -56,7 +56,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-展示如何使用标准 Windows 对话框并指定选项将文档发送到打印机。
+展示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -77,7 +77,7 @@ document.Print(new PrintOptions()
                });
 ```
 
-当长的 OneNote 页面以 PDF 格式保存时，它们会被拆分到多个页面。示例展示如何配置位于页面换行处对象的拆分逻辑。
+当长的 OneNote 页面以 PDF 格式保存时，它们会跨页拆分。示例展示如何配置位于页面换行处对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
@@ -105,7 +105,7 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSplittingAlgorithm](../pagesplittingalgorithm/)
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)

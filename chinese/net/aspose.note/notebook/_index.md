@@ -22,7 +22,7 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 | [Notebook](notebook/#constructor_1)(Stream) | 初始化 `Notebook` 类的新实例。从流中打开现有的 OneNote 笔记本。 |
 | [Notebook](notebook/#constructor_3)(string) | 初始化 `Notebook` 类的新实例。从文件中打开现有的 OneNote 笔记本。 |
 | [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | 初始化 `Notebook` 类的新实例。从流中打开现有的 OneNote 笔记本。允许指定额外的加载选项。 |
-| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | 初始化 `Notebook` 类的新实例。从文件中打开现有的 OneNote 笔记本。允许指定额外的选项，例如子项加载策略（\"lazy\"/instant）。 |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | 初始化 `Notebook` 类的新实例。从文件中打开现有的 OneNote 笔记本。允许指定额外的选项，例如子项加载策略（"lazy"/instant）。 |
 
 ## 属性
 
@@ -34,7 +34,7 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 | [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | 获取文件格式（OneNote 2010，OneNote Online）。 |
 | [Guid](../../aspose.note/notebook/guid/) { get; } | 获取对象的全局唯一标识符。 |
 | [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | 获取或设置指示是否启用历史记录的值。 |
-| [Item](../../aspose.note/notebook/item/) { get; } | 通过给定索引获取笔记本子节点。 |
+| [Item](../../aspose.note/notebook/item/) { get; } | 根据给定索引获取笔记本子节点。 |
 
 ## 方法
 
@@ -52,12 +52,12 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 | [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | 添加子笔记本节点。从流中打开现有的 OneNote 笔记本。允许指定额外的加载选项。 |
 | [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_3)(string, NotebookLoadOptions) | 添加子笔记本节点。从文件中打开现有的 OneNote 笔记本。允许指定额外的加载选项。 |
 | [RemoveChild](../../aspose.note/notebook/removechild/)(INotebookChildNode) | 移除子节点。 |
-| [Save](../../aspose.note/notebook/save/#save)(Stream) | 将 OneNote 文档保存到流中。 |
-| [Save](../../aspose.note/notebook/save/#save_3)(string) | 将 OneNote 文档保存到文件中。 |
-| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | 使用指定的保存选项将 OneNote 文档保存到流中。 |
-| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | 以指定格式将 OneNote 文档保存到流中。 |
-| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | 使用指定的保存选项将 OneNote 文档保存到文件中。 |
-| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | 以指定格式将 OneNote 文档保存到文件中。 |
+| [Save](../../aspose.note/notebook/save/#save)(Stream) | 将 OneNote 文档保存到流。 |
+| [Save](../../aspose.note/notebook/save/#save_3)(string) | 将 OneNote 文档保存到文件。 |
+| [Save](../../aspose.note/notebook/save/#save_2)(Stream, NotebookSaveOptions) | 使用指定的保存选项将 OneNote 文档保存到流。 |
+| [Save](../../aspose.note/notebook/save/#save_1)(Stream, SaveFormat) | 以指定格式将 OneNote 文档保存到流。 |
+| [Save](../../aspose.note/notebook/save/#save_5)(string, NotebookSaveOptions) | 使用指定的保存选项将 OneNote 文档保存到文件。 |
+| [Save](../../aspose.note/notebook/save/#save_4)(string, SaveFormat) | 以指定格式将 OneNote 文档保存到文件。 |
 
 ## 示例
 
@@ -145,13 +145,13 @@ notebook.Save(
 string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// 默认情况下，子项加载为“懒惰”。
+// 默认情况下，子项加载为 "lazy"。
 Notebook notebook = new Notebook(dataDir + inputFile);
 
 foreach (var notebookChildNode in notebook.OfType<Document>()) 
 {
     // 子文档的实际加载仅在此处进行。
-    // 对子文档进行操作
+    // 对子文档执行某些操作
 }
 ```
 
@@ -164,7 +164,7 @@ string dataDir = RunExamples.GetDataDir_NoteBook();
 // 加载 OneNote 笔记本
 var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
-// 向笔记本追加新子项
+// 向笔记本追加一个新子项
 notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
 
 dataDir = dataDir + "AddChildNode_out.onetoc2";
@@ -191,7 +191,7 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-展示如何打开加密的笔记本。
+展示如何处理加密的笔记本。
 
 ```csharp
 // 文档目录的路径。
@@ -260,7 +260,7 @@ foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // 从笔记本中删除子项
+        // 从笔记本中移除子项
         notebook.RemoveChild(child);
     }
 }
@@ -274,7 +274,7 @@ notebook.Save(dataDir);
 展示如何遍历笔记本的预加载文档。
 
 ```csharp
-// 默认情况下，子项加载为“懒惰”。
+// 默认情况下，子项加载为 "lazy"。
 // 因此，已完成即时加载，
 // 需要设置 NotebookLoadOptions.InstantLoading 标志。
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
@@ -283,10 +283,10 @@ String inputFile = "Notebook.onetoc2";
 String dataDir = RunExamples.GetDataDir_NoteBook();
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 
-// 所有子文档已加载。
+// 所有子文档已加载完毕。
 foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>()) 
 {
-   // 对子文档进行操作
+   // 对子文档执行某些操作
 }
 ```
 
@@ -304,11 +304,11 @@ try
         Console.WriteLine(notebookChildNode.DisplayName);
         if (notebookChildNode is Document)
         {
-            // 对子文档进行操作
+            // 对子文档执行某些操作
         }
         else if (notebookChildNode is Notebook)
         {
-            // 对子笔记本进行操作
+            // 对子笔记本执行某些操作
         }
     }
 }
@@ -318,7 +318,7 @@ catch (Exception ex)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INotebookChildNode](../inotebookchildnode/)
 * namespace [Aspose.Note](../../aspose.note/)

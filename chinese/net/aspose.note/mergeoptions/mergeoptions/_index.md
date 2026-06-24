@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/mergeoptions/mergeoptions/
 public MergeOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [MergeOptions](../)
 * namespace [Aspose.Note](../../mergeoptions/)

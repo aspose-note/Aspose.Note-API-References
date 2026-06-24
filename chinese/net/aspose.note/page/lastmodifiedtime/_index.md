@@ -1,7 +1,7 @@
 ---
 title: "Page.LastModifiedTime"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Page 属性。获取或设置最后修改时间"
+description: "Page 属性。获取或设置最后修改时间。"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/page/lastmodifiedtime/
@@ -59,7 +59,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Page](../)
 * namespace [Aspose.Note](../../page/)

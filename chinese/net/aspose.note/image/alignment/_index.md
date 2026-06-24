@@ -16,13 +16,13 @@ public HorizontalAlignment Alignment { get; set; }
 
 ## 示例
 
-展示如何从文件向文档添加图像，并使用用户定义的属性。
+展示如何将图像从文件添加到文档，并使用用户定义的属性。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Images();
 
-// 从流中加载文档。
+// 从流加载文档。
 Document doc = new Document(dataDir + "Aspose.one");
 
 // 获取文档的第一页。
@@ -47,7 +47,7 @@ Image image = new Image(dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
-展示如何从流向文档添加图像。
+展示如何将图像从流添加到文档。
 
 ```csharp
 // 文档目录的路径。
@@ -65,7 +65,7 @@ OutlineElement outlineElem1 = new OutlineElement();
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // 使用图像名称、扩展名和流加载第二张图像。
+    // 使用图像名称、扩展名和流加载第二个图像。
     Image image1 = new Image("Penguins.jpg", fs)
                                    {
                                        // 设置图像对齐方式
@@ -85,7 +85,7 @@ dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何从文件向文档添加图像。
+展示如何将图像从文件添加到文档。
 
 ```csharp
 // 文档目录的路径。
@@ -127,7 +127,7 @@ dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [Image](../)

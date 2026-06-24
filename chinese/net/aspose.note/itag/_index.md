@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/itag/
 ---
 ## ITag interface
 
-用于各种标签的接口。
+各种标签的接口。
 
 ```csharp
 public interface ITag
@@ -26,7 +26,7 @@ public interface ITag
 
 ## 示例
 
-展示如何生成包含所有与‘Project A’相关页面的 PDF。
+展示如何生成包含所有与 'Project A' 相关页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -47,7 +47,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-展示如何将与 'Project C' 相关的所有复选框项目标记为已完成。
+展示如何将与 'Project C' 相关的所有复选框项标记为已完成。
 
 ```csharp
 // 文档目录的路径。
@@ -70,7 +70,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-展示如何将与 'Project C' 相关的所有复选框项目标记为打开。
+展示如何将与 'Project C' 相关的所有复选框项标记为打开。
 
 ```csharp
 // 文档目录的路径。
@@ -93,7 +93,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-展示如何生成包含上周创建且标记为未完成复选框的页面的 PDF。
+展示如何生成包含上周创建且标记为未完成复选框的项目的页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -202,7 +202,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

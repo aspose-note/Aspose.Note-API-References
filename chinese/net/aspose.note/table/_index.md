@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/table/
 ---
 ## Table class
 
-表示表格。
+表示一个表。
 
 ```csharp
 public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, ITaggable
@@ -27,7 +27,7 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 | [Columns](../../aspose.note/table/columns/) { get; } | 获取表格的列。 |
 | [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
-| [IsBordersVisible](../../aspose.note/table/isbordersvisible/) { get; set; } | 获取或设置指示表格边框是否可见的值。 |
+| [IsBordersVisible](../../aspose.note/table/isbordersvisible/) { get; set; } | 获取或设置一个值，指示表格边框是否可见。 |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
 | [LastModifiedTime](../../aspose.note/table/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
@@ -53,7 +53,7 @@ public sealed class Table : CompositeNode<TableRow>, IOutlineElementChildNode, I
 
 ## 示例
 
-展示如何从每个表格的行中获取文本。
+展示如何从每行表格获取文本。
 
 ```csharp
 // 文档目录的路径。
@@ -62,7 +62,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
@@ -79,7 +79,7 @@ foreach (Table table in nodes)
 }
 ```
 
-展示如何从表格中获取文本。
+展示如何从表格获取文本。
 
 ```csharp
 // 文档目录的路径。
@@ -88,7 +88,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 // 设置表格计数
@@ -107,7 +107,7 @@ foreach (Table table in nodes)
 }
 ```
 
-展示如何从表格的单元格中获取文本。
+展示如何从表格单元格获取文本。
 
 ```csharp
 // 文档目录的路径。
@@ -116,7 +116,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();        
 
 foreach (Table table in nodes)
@@ -124,7 +124,7 @@ foreach (Table table in nodes)
     // 遍历表格行
     foreach (TableRow row in table)
     {
-        // 获取 TableCell 节点列表
+        // 获取 TableCell 节点的列表
         // 遍历表格单元格
         foreach (TableCell cell in row)
         {
@@ -228,7 +228,7 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何创建带有锁定列的表格。
+展示如何创建具有锁定列的表格。
 
 ```csharp
 // 文档目录的路径。
@@ -365,7 +365,7 @@ dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../compositenode-1/)
 * class [TableRow](../tablerow/)

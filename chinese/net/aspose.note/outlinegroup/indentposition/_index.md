@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/outlinegroup/indentposition/
 public byte IndentPosition { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [OutlineGroup](../../outlinegroup)
 * namespace [Aspose.Note](../../outlinegroup)

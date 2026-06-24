@@ -1,7 +1,7 @@
 ---
 title: "枚举 TiffCompression"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.Saving.TiffCompression 枚举。指定将文档保存为 TIFF 格式时使用的压缩类型"
+description: "Aspose.Note.Saving.TiffCompression 枚举。指定在将文档保存为 TIFF 格式时使用的压缩类型。"
 type: docs
 weight: 960
 url: /zh/net/aspose.note.saving/tiffcompression/
@@ -18,7 +18,7 @@ public enum TiffCompression
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| None | `1` | 指定不压缩。 |
+| None | `1` | 指定不使用压缩。 |
 | Rle | `2` | 指定 RLE 压缩。 |
 | Ccitt3 | `3` | 指定 CCITT Group 3 传真编码。 |
 | Ccitt4 | `4` | 指定 CCITT Group 4 传真编码。 |
@@ -84,7 +84,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)
 * assembly [Aspose.Note](../../)

@@ -1,7 +1,7 @@
 ---
 title: "NumberList.Equals"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NumberList 方法。确定指定的对象是否等于当前对象"
+description: "NumberList 方法。确定指定的对象是否等于当前对象。"
 type: docs
 weight: 110
 url: /zh/net/aspose.note/numberlist/equals/
@@ -22,7 +22,7 @@ public override bool Equals(object obj)
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)
@@ -46,7 +46,7 @@ public bool Equals(NumberList other)
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)

@@ -86,7 +86,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [TagStatus](../../tagstatus/)
 * interface [ITag](../)

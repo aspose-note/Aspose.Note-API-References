@@ -22,7 +22,7 @@ public override bool Equals(object obj)
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * class [NoteTask](../)
 * namespace [Aspose.Note](../../notetask/)
@@ -46,7 +46,7 @@ public bool Equals(NoteTask other)
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * class [NoteTask](../)
 * namespace [Aspose.Note](../../notetask/)

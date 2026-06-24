@@ -18,7 +18,7 @@ public PageSizeType SizeType { get; set; }
 
 默认情况下，页面会自动调整大小。默认值为 SizeByContent。
 
-### 另请参阅
+### 另见
 
 * enum [PageSizeType](../../pagesizetype/)
 * class [Page](../)

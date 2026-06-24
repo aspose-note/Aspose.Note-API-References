@@ -20,7 +20,7 @@ public interface IImageSavingCallback
 | --- | --- |
 | [ImageSaving](../../aspose.note.saving.html/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | 当 Aspose.Note 保存图像时调用。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
 * assembly [Aspose.Note](../../)

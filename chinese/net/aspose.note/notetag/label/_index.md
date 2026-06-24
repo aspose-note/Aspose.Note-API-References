@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notetag/label/
 public string Label { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [NoteTag](../)
 * namespace [Aspose.Note](../../notetag/)

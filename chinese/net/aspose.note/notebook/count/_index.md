@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notebook/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)

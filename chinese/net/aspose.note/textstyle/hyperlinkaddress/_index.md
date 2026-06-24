@@ -75,7 +75,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

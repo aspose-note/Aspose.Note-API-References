@@ -1,7 +1,7 @@
 ---
 title: "Image.OriginalWidth"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Image 属性。获取原始宽度。这是图像在调整大小前的原始宽度。"
+description: "Image 属性。获取原始宽度。这是图像在调整大小之前的原始宽度。"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/image/originalwidth/
@@ -40,7 +40,7 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

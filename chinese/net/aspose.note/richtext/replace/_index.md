@@ -16,14 +16,14 @@ public RichText Replace(char oldChar, char newChar)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 旧字符 | Char | 旧字符。 |
-| 新字符 | Char | 新字符。 |
+| oldChar | Char | 旧字符。 |
+| newChar | Char | 新字符。 |
 
 ### 返回值
 
 该 [`RichText`](../)。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -88,7 +88,7 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-展示如何通过在模板中替换特殊文本片段来生成新文档。
+展示如何通过替换模板中的特殊文本片段来生成新文档。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -120,7 +120,7 @@ foreach (var e in d.GetChildNodes<RichText>())
 d.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -153,7 +153,7 @@ public RichText Replace(string oldValue, string newValue, TextStyle style)
 | ArgumentNullException |  |
 | ArgumentException |  |
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)

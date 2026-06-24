@@ -16,13 +16,13 @@ public static float InchToPoint(float inches)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 英寸 | Single | 要转换的英寸值。 |
+| 英寸 | Single | 要以英寸转换的值。 |
 
 ### 返回值
 
 该 Single。
 
-### 另请参阅
+### 另见
 
 * class [DisplayUnitsConverter](../)
 * namespace [Aspose.Note](../../displayunitsconverter/)

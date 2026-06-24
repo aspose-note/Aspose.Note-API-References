@@ -26,7 +26,7 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | --- | --- |
 | [Alignment](../../aspose.note/richtext/alignment/) { get; set; } | 获取或设置对齐方式。 |
 | [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
-| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以拥有子节点。 |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以有子节点。 |
 | [IsTitleDate](../../aspose.note/richtext/istitledate/) { get; } | 获取一个值，指示 RichText 元素是否在页面标题中包含日期。 |
 | [IsTitleText](../../aspose.note/richtext/istitletext/) { get; } | 获取一个值，指示 RichText 元素是否在页面标题中包含文本。 |
 | [IsTitleTime](../../aspose.note/richtext/istitletime/) { get; } | 获取一个值，指示 RichText 元素是否在页面标题中包含时间。 |
@@ -38,8 +38,8 @@ public sealed class RichText : Node, IEnumerable<char>, IOutlineElementChildNode
 | [ParagraphStyle](../../aspose.note/richtext/paragraphstyle/) { get; set; } | 获取或设置段落样式。如果在 Styles 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用这些设置。 |
 | [ParentNode](../../aspose.note/node/parentnode/) { get; } | 获取父节点。 |
 | [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | 获取同一节点树层级的上一个节点。 |
-| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | 获取或设置之后的最小间距。 |
-| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | 获取或设置之前的最小间距。 |
+| [SpaceAfter](../../aspose.note/richtext/spaceafter/) { get; set; } | 获取或设置后面的最小间距。 |
+| [SpaceBefore](../../aspose.note/richtext/spacebefore/) { get; set; } | 获取或设置前面的最小间距。 |
 | [Tags](../../aspose.note/richtext/tags/) { get; } | 获取段落的所有标签列表。 |
 | [Text](../../aspose.note/richtext/text/) { get; set; } | 获取或设置文本。字符串不得包含值为 10（换行）的任何字符。 |
 | [TextRuns](../../aspose.note/richtext/textruns/) { get; } | 获取文本运行的集合。 |
@@ -120,7 +120,7 @@ if (page != null)
 }
 ```
 
-让我们通过增大字体大小来强调页面的标题，而不是其他标题。
+让我们通过增大字体大小来突出页面标题相对于其他标题的显示。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -144,7 +144,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-展示如何从每个表格的行中获取文本。
+展示如何从每行表格获取文本。
 
 ```csharp
 // 文档目录的路径。
@@ -153,7 +153,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
@@ -170,7 +170,7 @@ foreach (Table table in nodes)
 }
 ```
 
-展示如何从表格中获取文本。
+展示如何从表格获取文本。
 
 ```csharp
 // 文档目录的路径。
@@ -179,7 +179,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 // 设置表格计数
@@ -307,7 +307,7 @@ dataDir = dataDir + "ReplaceTextOnAllPages_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-使用段落样式操作文本格式。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -328,7 +328,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-展示如何从表格的单元格中获取文本。
+展示如何从表格单元格获取文本。
 
 ```csharp
 // 文档目录的路径。
@@ -337,7 +337,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();        
 
 foreach (Table table in nodes)
@@ -345,7 +345,7 @@ foreach (Table table in nodes)
     // 遍历表格行
     foreach (TableRow row in table)
     {
-        // 获取 TableCell 节点列表
+        // 获取 TableCell 节点的列表
         // 遍历表格单元格
         foreach (TableCell cell in row)
         {
@@ -390,7 +390,7 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-展示如何创建文档并使用默认选项将其保存为 HTML 格式。
+展示如何创建文档并使用默认选项以 HTML 格式保存。
 
 ```csharp
 // 文档目录的路径。
@@ -515,7 +515,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-展示如何使用文本创建文档。
+展示如何创建包含文本的文档。
 
 ```csharp
 // 文档目录的路径。
@@ -791,7 +791,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Node](../node/)
 * interface [IOutlineElementChildNode](../ioutlineelementchildnode/)

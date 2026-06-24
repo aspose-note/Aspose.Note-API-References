@@ -27,7 +27,7 @@ public enum HtmlImageType
 | Svgz | `6` | 压缩 SVG |
 | Unknown | `7` | 未知格式 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
 * assembly [Aspose.Note](../../)

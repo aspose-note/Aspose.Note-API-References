@@ -48,7 +48,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../../itag/)
 * class [RichText](../)

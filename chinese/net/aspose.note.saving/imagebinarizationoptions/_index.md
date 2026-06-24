@@ -1,7 +1,7 @@
 ---
 title: "类 ImageBinarizationOptions"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.Saving.ImageBinarizationOptions 类。图像二值化的选项"
+description: "Aspose.Note.Saving.ImageBinarizationOptions 类。图像二值化的选项。"
 type: docs
 weight: 790
 url: /zh/net/aspose.note.saving/imagebinarizationoptions/
@@ -40,7 +40,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -62,7 +62,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -74,7 +74,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)
 * assembly [Aspose.Note](../../)

@@ -1,7 +1,7 @@
 ---
 title: "ImageSaveOptions.ColorMode"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ImageSaveOptions 属性。获取或设置输出图像的 ColorMode"
+description: "ImageSaveOptions 属性。获取或设置输出图像的 ColorMode。"
 type: docs
 weight: 30
 url: /zh/net/aspose.note.saving/imagesaveoptions/colormode/
@@ -27,7 +27,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
@@ -64,7 +64,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -86,7 +86,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -98,7 +98,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 另请参阅
+### 另见
 
 * enum [ColorMode](../../colormode/)
 * class [ImageSaveOptions](../)

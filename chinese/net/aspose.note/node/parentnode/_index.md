@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/node/parentnode/
 public ICompositeNode ParentNode { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ICompositeNode](../../icompositenode/)
 * class [Node](../)

@@ -8,13 +8,13 @@ url: /zh/net/aspose.note/metered/resetmeteredkey/
 ---
 ## Metered.ResetMeteredKey method
 
-删除先前设置的许可证。
+移除先前设置的许可证。
 
 ```csharp
 public void ResetMeteredKey()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Metered](../)
 * namespace [Aspose.Note](../../metered/)

@@ -18,7 +18,7 @@ public virtual void VisitInkDrawingStart(InkDrawing inkDrawing)
 | --- | --- | --- |
 | inkDrawing | InkDrawing | 该 [`InkDrawing`](../../inkdrawing/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [InkDrawing](../../inkdrawing/)
 * class [DocumentVisitor](../)

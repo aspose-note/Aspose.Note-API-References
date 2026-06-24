@@ -16,9 +16,9 @@ public DateTime CreationTime { get; set; }
 
 ### Property Value
 
-DateTime。
+该 DateTime。
 
-### 另请参阅
+### 另见
 
 * class [CheckBox](../)
 * namespace [Aspose.Note](../../checkbox/)

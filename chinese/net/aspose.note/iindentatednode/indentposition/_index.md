@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/iindentatednode/indentposition/
 public byte IndentPosition { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [IIndentatedNode](../)
 * namespace [Aspose.Note](../../iindentatednode/)

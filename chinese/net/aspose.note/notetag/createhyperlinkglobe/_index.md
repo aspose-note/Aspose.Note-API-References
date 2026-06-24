@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/notetag/createhyperlinkglobe/
 ---
 ## NoteTag.CreateHyperlinkGlobe method
 
-创建一个带有 HyperlinkGlobe 图标的笔记标签，并指定标签。
+创建一个带有 HyperlinkGlobe 图标的新笔记标签，并指定标签。
 
 ```csharp
 public static NoteTag CreateHyperlinkGlobe(string label = "Web site to visit")
@@ -16,13 +16,13 @@ public static NoteTag CreateHyperlinkGlobe(string label = "Web site to visit")
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 标签 | String | 标签的标签。 |
+| label | String | 标签的标签。 |
 
 ### 返回值
 
 该 [`NoteTag`](../)。
 
-### 另请参阅
+### 另见
 
 * class [NoteTag](../)
 * namespace [Aspose.Note](../../notetag/)

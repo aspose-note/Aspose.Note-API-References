@@ -1,14 +1,14 @@
 ---
 title: "NotebookSaveOptions.Flatten"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NotebookSaveOptions 属性。获取或设置一个值，指示是否以扁平化方式保存笔记本子层级结构"
+description: "NotebookSaveOptions 属性。获取或设置一个值，指示笔记本子层级是否以扁平化方式保存"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/notebooksaveoptions/flatten/
 ---
 ## NotebookSaveOptions.Flatten property
 
-获取或设置一个值，指示是否将笔记本子层次结构保存为扁平化。
+获取或设置一个值，指示是否将笔记本子层次结构平铺保存。
 
 ```csharp
 public bool Flatten { get; set; }
@@ -57,7 +57,7 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### 另请参阅
+### 另见
 
 * class [NotebookSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../notebooksaveoptions/)

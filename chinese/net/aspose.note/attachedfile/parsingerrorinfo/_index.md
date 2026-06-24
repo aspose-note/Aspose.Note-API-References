@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.ParsingErrorInfo"
 second_title: "Aspose.Note for .NET API 参考"
-description: "AttachedFile 属性。获取访问文件时发生的错误数据"
+description: "AttachedFile 属性。获取在访问文件时发生的错误信息"
 type: docs
 weight: 180
 url: /zh/net/aspose.note/attachedfile/parsingerrorinfo/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/parsingerrorinfo/
 public ParsingErrorInfo ParsingErrorInfo { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ParsingErrorInfo](../../parsingerrorinfo/)
 * class [AttachedFile](../)

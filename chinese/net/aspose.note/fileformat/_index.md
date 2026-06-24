@@ -21,7 +21,7 @@ public enum FileFormat
 | Unknown | `0` | 未知文件格式。 |
 | OneNote2007 | `1` | OneNote 2010。 |
 | OneNote2010 | `2` | OneNote 2010。 |
-| OneNoteOnline | `3` | OneNote Online。 |
+| OneNoteOnline | `3` | OneNote 在线。 |
 
 ## 示例
 
@@ -47,7 +47,7 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

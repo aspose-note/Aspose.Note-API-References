@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

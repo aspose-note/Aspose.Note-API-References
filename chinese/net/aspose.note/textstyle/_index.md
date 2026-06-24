@@ -24,10 +24,10 @@ public sealed class TextStyle : Style
 
 | 名称 | 描述 |
 | --- | --- |
-| static [Default](../../aspose.note/textstyle/default/) { get; } | 获取具有 "en-US" 区域设置的样式。 |
-| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle/) { get; } | 获取 MS OneNote 中标题日期的默认样式。 |
-| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | 获取 MS OneNote 中标题文本的默认样式。 |
-| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | 获取 MS OneNote 中标题时间的默认样式。 |
+| static [Default](../../aspose.note/textstyle/default/) { get; } | 获取使用 "en-US" 区域设置的样式。 |
+| static [DefaultMsOneNoteTitleDateStyle](../../aspose.note/textstyle/defaultmsonenotetitledatestyle/) { get; } | 获取在 MS OneNote 中标题日期的默认样式。 |
+| static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | 获取在 MS OneNote 中标题文本的默认样式。 |
+| static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | 获取在 MS OneNote 中标题时间的默认样式。 |
 | [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | 获取或设置字体颜色。 |
 | [FontName](../../aspose.note/style/fontname/) { get; set; } | 获取或设置字体名称。 |
 | [FontSize](../../aspose.note/style/fontsize/) { get; set; } | 获取或设置字体大小。 |
@@ -35,14 +35,14 @@ public sealed class TextStyle : Style
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | 获取或设置突出显示颜色。 |
 | [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | 获取或设置超链接地址。设置此属性即可创建超链接。 |
 | [IsBold](../../aspose.note/style/isbold/) { get; set; } | 获取或设置一个值，指示文本样式是否为粗体。 |
-| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | 获取或设置一个值，指示文本样式是否隐藏。 |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | 自 22.5 起已弃用。请改用 [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/)。 |
+| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | 获取或设置一个值，指示文本样式是否为隐藏。 |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | 自 22.5 起已废弃。请改用 [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/)。 |
 | [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | 获取或设置一个值，指示文本样式是否为斜体。 |
 | [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | 获取或设置一个值，指示文本样式是否为数学格式。 |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 获取或设置一个值，指示文本样式是否有删除线。 |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 获取或设置一个值，指示文本样式是否为删除线。 |
 | [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | 获取或设置一个值，指示文本样式是否为下标。 |
 | [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | 获取或设置一个值，指示文本样式是否为上标。 |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | 获取或设置一个值，指示文本样式是否带下划线。 |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | 获取或设置一个值，指示文本样式是否为下划线。 |
 | [Language](../../aspose.note/textstyle/language/) { get; set; } | 获取或设置文本的语言。 |
 
 ## 方法
@@ -55,7 +55,7 @@ public sealed class TextStyle : Style
 
 ## 示例
 
-让我们通过增大字体大小来强调页面的标题，而不是其他标题。
+让我们通过增大字体大小来突出页面标题相对于其他标题的显示。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -125,7 +125,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-使用段落样式操作文本格式。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -205,7 +205,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../style/)
 * namespace [Aspose.Note](../../aspose.note/)

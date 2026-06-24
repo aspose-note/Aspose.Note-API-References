@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/notebook/save/
 ---
 ## Save(string) {#save_3}
 
-将 OneNote 文档保存到文件中。
+将 OneNote 文档保存到文件。
 
 ```csharp
 public void Save(string fileName)
@@ -25,7 +25,7 @@ public void Save(string fileName)
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -35,7 +35,7 @@ public void Save(string fileName)
 
 ## Save(Stream) {#save}
 
-将 OneNote 文档保存到流中。
+将 OneNote 文档保存到流。
 
 ```csharp
 public void Save(Stream stream)
@@ -52,7 +52,7 @@ public void Save(Stream stream)
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -62,7 +62,7 @@ public void Save(Stream stream)
 
 ## Save(string, SaveFormat) {#save_4}
 
-以指定格式将 OneNote 文档保存到文件中。
+以指定格式将 OneNote 文档保存到文件。
 
 ```csharp
 public void Save(string fileName, SaveFormat format)
@@ -80,7 +80,7 @@ public void Save(string fileName, SaveFormat format)
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 另请参阅
+### 另见
 
 * enum [SaveFormat](../../saveformat/)
 * class [Notebook](../)
@@ -91,7 +91,7 @@ public void Save(string fileName, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-以指定格式将 OneNote 文档保存到流中。
+以指定格式将 OneNote 文档保存到流。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -109,7 +109,7 @@ public void Save(Stream stream, SaveFormat format)
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 另请参阅
+### 另见
 
 * enum [SaveFormat](../../saveformat/)
 * class [Notebook](../)
@@ -120,7 +120,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ## Save(string, NotebookSaveOptions) {#save_5}
 
-使用指定的保存选项将 OneNote 文档保存到文件中。
+使用指定的保存选项将 OneNote 文档保存到文件。
 
 ```csharp
 public void Save(string fileName, NotebookSaveOptions options)
@@ -138,7 +138,7 @@ public void Save(string fileName, NotebookSaveOptions options)
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 另请参阅
+### 另见
 
 * class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
 * class [Notebook](../)
@@ -149,7 +149,7 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 ## Save(Stream, NotebookSaveOptions) {#save_2}
 
-使用指定的保存选项将 OneNote 文档保存到流中。
+使用指定的保存选项将 OneNote 文档保存到流。
 
 ```csharp
 public void Save(Stream stream, NotebookSaveOptions options)
@@ -167,7 +167,7 @@ public void Save(Stream stream, NotebookSaveOptions options)
 | [IncorrectDocumentStructureException](../../incorrectdocumentstructureexception/) | 文档结构违反规范。 |
 | [UnsupportedSaveFormatException](../../unsupportedsaveformatexception/) | 不支持请求的保存格式。 |
 
-### 另请参阅
+### 另见
 
 * class [NotebookSaveOptions](../../../aspose.note.saving/notebooksaveoptions/)
 * class [Notebook](../)

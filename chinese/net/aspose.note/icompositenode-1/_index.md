@@ -1,7 +1,7 @@
 ---
 title: "接口 ICompositeNodeT"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.ICompositeNode1T 接口。此接口用于可以包含其他节点的节点"
+description: "Aspose.Note.ICompositeNode1T 接口。用于可以包含其他节点的节点的接口"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/icompositenode-1/
@@ -19,7 +19,7 @@ public interface ICompositeNode<T> : ICompositeNode, IEnumerable<T>
 | --- | --- |
 | T | 子节点的类型 |
 
-### 另请参阅
+### 另见
 
 * interface [ICompositeNode](../icompositenode/)
 * interface [INode](../inode/)

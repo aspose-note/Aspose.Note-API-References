@@ -1,7 +1,7 @@
 ---
 title: "MergeOptions.InsertAsChild"
 second_title: "Aspose.Note for .NET API 参考"
-description: "MergeOptions 属性。获取或设置一个值，指示插入的页面是否应作为前一页面的子项添加"
+description: "MergeOptions 属性。获取或设置一个值，指示插入的页面是否应作为前一页面的子页面添加。"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/mergeoptions/insertaschild/
@@ -32,7 +32,7 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [MergeOptions](../)
 * namespace [Aspose.Note](../../mergeoptions/)

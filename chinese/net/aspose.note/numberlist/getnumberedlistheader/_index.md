@@ -1,7 +1,7 @@
 ---
 title: "NumberList.GetNumberedListHeader"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NumberList 方法。获取编号列表标题。"
+description: "NumberList 方法。获取编号列表标题"
 type: docs
 weight: 130
 url: /zh/net/aspose.note/numberlist/getnumberedlistheader/
@@ -22,7 +22,7 @@ public string GetNumberedListHeader(int sequenceNumber)
 
 指定序号的字符串表示形式。
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)

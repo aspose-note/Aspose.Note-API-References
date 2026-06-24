@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notebook/notebook/
 public Notebook()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -34,7 +34,7 @@ public Notebook(string filePath)
 | --- | --- | --- |
 | filePath | String | 文件路径。 |
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -55,7 +55,7 @@ public Notebook(string filePath, NotebookLoadOptions loadOptions)
 | filePath | String | 文件路径。 |
 | loadOptions | NotebookLoadOptions | 加载选项。 |
 
-### 另请参阅
+### 另见
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)
@@ -76,7 +76,7 @@ public Notebook(Stream stream)
 | --- | --- | --- |
 | 流 | 流 | 流。 |
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)
@@ -86,7 +86,7 @@ public Notebook(Stream stream)
 
 ## Notebook(Stream, NotebookLoadOptions) {#constructor_2}
 
-初始化 [`Notebook`](../) 类的新实例。 从流中打开现有的 OneNote 笔记本。 允许指定附加的加载选项。
+初始化 [`Notebook`](../) 类的新实例。 从流中打开现有的 OneNote 笔记本。 允许指定附加加载选项。
 
 ```csharp
 public Notebook(Stream stream, NotebookLoadOptions loadOptions)
@@ -97,7 +97,7 @@ public Notebook(Stream stream, NotebookLoadOptions loadOptions)
 | 流 | 流 | 流。 |
 | loadOptions | NotebookLoadOptions | 加载选项。 |
 
-### 另请参阅
+### 另见
 
 * class [NotebookLoadOptions](../../notebookloadoptions/)
 * class [Notebook](../)

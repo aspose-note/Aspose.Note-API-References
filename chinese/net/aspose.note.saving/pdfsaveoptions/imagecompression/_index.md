@@ -1,14 +1,14 @@
 ---
 title: "PdfSaveOptions.ImageCompression"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PdfSaveOptions 属性。获取或设置应用于 PDF 文件中图像的压缩类型"
+description: "PdfSaveOptions 属性。获取或设置 PDF 文件中图像的压缩类型"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property
 
-获取或设置应用于 PDF 文件中图像的压缩类型。
+获取或设置在 PDF 文件中应用于图像的压缩类型。
 
 ```csharp
 public PdfImageCompression ImageCompression { get; set; }
@@ -16,7 +16,7 @@ public PdfImageCompression ImageCompression { get; set; }
 
 ## 示例
 
-展示如何使用特定设置以 PDF 格式保存文档。
+展示如何使用特定设置以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -39,7 +39,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-### 另请参阅
+### 另见
 
 * enum [PdfImageCompression](../../../aspose.note.saving.pdf/pdfimagecompression/)
 * class [PdfSaveOptions](../)

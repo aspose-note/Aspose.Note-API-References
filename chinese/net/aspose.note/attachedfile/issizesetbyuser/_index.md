@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/issizesetbyuser/
 public bool IsSizeSetByUser { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

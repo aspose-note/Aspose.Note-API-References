@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/image/filepath/
 public string FilePath { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

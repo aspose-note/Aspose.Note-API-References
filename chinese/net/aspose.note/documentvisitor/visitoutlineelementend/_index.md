@@ -18,7 +18,7 @@ public virtual void VisitOutlineElementEnd(OutlineElement outlineElement)
 | --- | --- | --- |
 | outlineElement | OutlineElement | 该 [`OutlineElement`](../../outlineelement/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [OutlineElement](../../outlineelement/)
 * class [DocumentVisitor](../)

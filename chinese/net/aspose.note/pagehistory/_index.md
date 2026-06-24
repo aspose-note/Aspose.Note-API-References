@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/pagehistory/
 ---
 ## PageHistory class
 
-表示页面历史。
+表示页面历史记录。
 
 ```csharp
 public class PageHistory : IList<Page>
@@ -40,12 +40,12 @@ public class PageHistory : IList<Page>
 | [CopyTo](../../aspose.note/pagehistory/copyto/)(Page[], int) | 将页面版本复制到数组中，从开头开始。 |
 | [GetEnumerator](../../aspose.note/pagehistory/getenumerator/)() | 返回一个枚举器，用于遍历 `PageHistory` 的子节点。 |
 | [IndexOf](../../aspose.note/pagehistory/indexof/)(Page) | 确定特定页面版本在页面历史记录中的索引。 |
-| [Insert](../../aspose.note/pagehistory/insert/)(int, Page) | 将页面版本插入到页面历史记录中。 |
+| [Insert](../../aspose.note/pagehistory/insert/)(int, Page) | 在页面历史记录中插入一个页面版本。 |
 | [Remove](../../aspose.note/pagehistory/remove/)(Page) | 从 `PageHistory` 中移除页面版本。 |
 | [RemoveAt](../../aspose.note/pagehistory/removeat/)(int) | 从 `PageHistory` 的指定索引处移除页面版本。 |
 | [RemoveRange](../../aspose.note/pagehistory/removerange/)(int, int) | 从 `PageHistory` 中移除一系列页面版本。 |
 
-### 另请参阅
+### 另见
 
 * class [Page](../page/)
 * namespace [Aspose.Note](../../aspose.note/)

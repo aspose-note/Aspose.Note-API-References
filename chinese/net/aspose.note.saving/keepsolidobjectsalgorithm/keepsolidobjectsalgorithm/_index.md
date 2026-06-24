@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/keepsolidobjectsalgorithm/keepsolidobjectsalgori
 public KeepSolidObjectsAlgorithm()
 ```
 
-### 另请参阅
+### 另见
 
 * class [KeepSolidObjectsAlgorithm](../)
 * namespace [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)
@@ -32,9 +32,9 @@ public KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| heightLimitOfClonedPart | Single | 克隆部件的最大高度。 |
+| heightLimitOfClonedPart | Single | 克隆部分的最大高度。 |
 
-### 另请参阅
+### 另见
 
 * class [KeepSolidObjectsAlgorithm](../)
 * namespace [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)

@@ -17,7 +17,7 @@ public RichText Insert(int startIndex, string value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | Int32 | 起始索引。 |
-| value | String | 该值。 |
+| value | String | 值。 |
 
 ### 返回值
 
@@ -29,7 +29,7 @@ public RichText Insert(int startIndex, string value)
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -48,7 +48,7 @@ public RichText Insert(int startIndex, string value, TextStyle style)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | Int32 | 起始索引。 |
-| value | String | 该值。 |
+| value | String | 值。 |
 | style | TextStyle | 样式。 |
 
 ### 返回值
@@ -61,7 +61,7 @@ public RichText Insert(int startIndex, string value, TextStyle style)
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)

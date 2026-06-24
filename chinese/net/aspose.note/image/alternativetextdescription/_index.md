@@ -36,7 +36,7 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

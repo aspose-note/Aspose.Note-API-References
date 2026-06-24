@@ -1,7 +1,7 @@
 ---
 title: "Page.GetChildNodes"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Page 方法。根据节点类型获取页面的所有子节点"
+description: "Page 方法。按节点类型获取页面的所有子节点"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/page/getchildnodes/
@@ -123,7 +123,7 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INode](../../inode/)
 * class [Page](../)

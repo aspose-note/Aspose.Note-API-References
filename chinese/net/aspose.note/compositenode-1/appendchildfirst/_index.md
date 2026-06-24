@@ -17,14 +17,14 @@ public virtual T1 AppendChildFirst<T1>(T1 newChild)
 
 | 参数 | 描述 |
 | --- | --- |
-| T1 | 追加节点的确切类型。 |
+| T1 | 追加节点的精确类型。 |
 | newChild | 要添加的节点。 |
 
 ### 返回值
 
 已添加的节点。
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)

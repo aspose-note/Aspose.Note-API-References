@@ -26,7 +26,7 @@ public sealed class OneSaveOptions : SaveOptions
 | --- | --- |
 | [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword/) { get; set; } | 获取或设置用于加密文档内容的密码。 |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | 获取或设置在保存时使用的字体设置 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示将渲染文档的所有页面。 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示文档的所有页都将被渲染。 |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认值为 0。 |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | 获取文档保存的格式。 |
 
@@ -54,7 +54,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-### 另请参阅
+### 另见
 
 * class [SaveOptions](../saveoptions/)
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)

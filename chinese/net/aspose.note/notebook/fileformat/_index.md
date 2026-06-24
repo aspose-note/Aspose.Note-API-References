@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notebook/fileformat/
 public FileFormat FileFormat { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [FileFormat](../../fileformat/)
 * class [Notebook](../)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/imagebinarizationoptions/imagebinarizationoption
 public ImageBinarizationOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [ImageBinarizationOptions](../)
 * namespace [Aspose.Note.Saving](../../imagebinarizationoptions/)

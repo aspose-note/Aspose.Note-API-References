@@ -26,7 +26,7 @@ Document document = new Document();
 document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });
 ```
 
-### 另请参阅
+### 另见
 
 * class [OneSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../onesaveoptions/)

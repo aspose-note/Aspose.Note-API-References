@@ -18,7 +18,7 @@ public virtual void VisitOutlineGroupStart(OutlineGroup outlineGroup)
 | --- | --- | --- |
 | outlineGroup | OutlineGroup | 该 [`OutlineGroup`](../../outlinegroup/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [OutlineGroup](../../outlinegroup/)
 * class [DocumentVisitor](../)

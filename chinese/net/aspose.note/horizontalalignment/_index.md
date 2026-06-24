@@ -1,5 +1,5 @@
 ---
-title: "枚举 HorizontalAlignment"
+title: "HorizontalAlignment 枚举"
 second_title: "Aspose.Note for .NET API 参考"
 description: "Aspose.Note.HorizontalAlignment 枚举。指定对齐方式"
 type: docs
@@ -22,7 +22,7 @@ public enum HorizontalAlignment
 | Center | `1` | 文本居中。 |
 | Right | `2` | 文本右对齐。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

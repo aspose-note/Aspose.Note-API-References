@@ -1,14 +1,14 @@
 ---
 title: "类 IndentatedNodeT"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.IndentatedNode1T 类。用于具有相对缩进的子节点的基类"
+description: "Aspose.Note.IndentatedNode1T 类。用于具有相对缩进的子节点的基类。"
 type: docs
 weight: 320
 url: /zh/net/aspose.note/indentatednode-1/
 ---
 ## IndentatedNode&lt;T&gt; class
 
-具有子节点相对缩进的节点的基类。
+用于子节点具有相对缩进的节点的基类。
 
 ```csharp
 public class IndentatedNode<T> : CompositeNode<T>, IIndentatedNode
@@ -47,7 +47,7 @@ public class IndentatedNode<T> : CompositeNode<T>, IIndentatedNode
 | [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/)(int, params T[]) |  |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) |  |
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../compositenode-1/)
 * interface [IIndentatedNode](../iindentatednode/)

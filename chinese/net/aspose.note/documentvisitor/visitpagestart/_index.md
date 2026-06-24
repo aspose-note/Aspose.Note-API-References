@@ -18,7 +18,7 @@ public virtual void VisitPageStart(Page page)
 | --- | --- | --- |
 | page | Page | 该 [`Page`](../../page/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [Page](../../page/)
 * class [DocumentVisitor](../)

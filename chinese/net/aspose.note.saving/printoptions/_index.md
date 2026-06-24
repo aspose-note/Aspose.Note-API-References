@@ -24,14 +24,14 @@ public class PrintOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | 获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印队列中）。 |
+| [DocumentName](../../aspose.note.saving/printoptions/documentname/) { get; set; } | 获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印机队列中）。 |
 | [PageSplittingAlgorithm](../../aspose.note.saving/printoptions/pagesplittingalgorithm/) { get; set; } | 获取或设置用于页面拆分的算法。 |
 | [PrinterSettings](../../aspose.note.saving/printoptions/printersettings/) { get; set; } | 获取或设置打印机设置。 |
 | [Resolution](../../aspose.note.saving/printoptions/resolution/) { get; set; } | 获取或设置生成图像的分辨率（每英寸点数）。 |
 
 ## 示例
 
-展示如何使用标准 Windows 对话框并指定选项将文档发送到打印机。
+展示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -52,7 +52,7 @@ document.Print(new PrintOptions()
                });
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)
 * assembly [Aspose.Note](../../)

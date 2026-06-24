@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/extension/
 public string Extension { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

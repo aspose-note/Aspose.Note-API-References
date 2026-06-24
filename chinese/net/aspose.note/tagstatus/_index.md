@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/tagstatus/
 ---
 ## TagStatus enumeration
 
-指定注释标签节点的状态。
+指定笔记标签节点的状态。
 
 ```csharp
 public enum TagStatus
@@ -22,7 +22,7 @@ public enum TagStatus
 | Completed | `1` | 笔记标签已完成。 |
 | Disabled | `2` | 笔记标签已禁用。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

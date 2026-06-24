@@ -22,7 +22,7 @@ public Color BackgroundColor { get; set; }
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -33,7 +33,7 @@ foreach (var page in document)
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
-展示如何对文档应用暗色主题样式。
+展示如何对文档应用深色主题样式。
 
 ```csharp
 // 文档目录的路径。
@@ -59,7 +59,7 @@ foreach (var node in doc.GetChildNodes<RichText>())
 doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [Page](../)
 * namespace [Aspose.Note](../../page/)

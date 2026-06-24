@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/loadoptions/loadoptions/
 public LoadOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../)
 * namespace [Aspose.Note](../../loadoptions/)

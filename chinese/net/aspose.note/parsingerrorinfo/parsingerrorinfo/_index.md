@@ -1,7 +1,7 @@
 ---
 title: "ParsingErrorInfo.ParsingErrorInfo"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ParsingErrorInfo 构造函数。默认构造函数。"
+description: "ParsingErrorInfo 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/parsingerrorinfo/parsingerrorinfo/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/parsingerrorinfo/parsingerrorinfo/
 public ParsingErrorInfo()
 ```
 
-### 另请参阅
+### 另见
 
 * class [ParsingErrorInfo](../)
 * namespace [Aspose.Note](../../parsingerrorinfo/)

@@ -25,10 +25,10 @@ public class Style
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | 获取或设置突出显示颜色。 |
 | [IsBold](../../aspose.note/style/isbold/) { get; set; } | 获取或设置一个值，指示文本样式是否为粗体。 |
 | [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | 获取或设置一个值，指示文本样式是否为斜体。 |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 获取或设置一个值，指示文本样式是否有删除线。 |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 获取或设置一个值，指示文本样式是否为删除线。 |
 | [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | 获取或设置一个值，指示文本样式是否为下标。 |
 | [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | 获取或设置一个值，指示文本样式是否为上标。 |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | 获取或设置一个值，指示文本样式是否带下划线。 |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | 获取或设置一个值，指示文本样式是否为下划线。 |
 
 ## 方法
 
@@ -36,7 +36,7 @@ public class Style
 | --- | --- |
 | override [GetHashCode](../../aspose.note/style/gethashcode/)() | 作为该类型的哈希函数。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

@@ -1,7 +1,7 @@
 ---
 title: "MergeOptions.PageSpacing"
 second_title: "Aspose.Note for .NET API 参考"
-description: "MergeOptions 属性。获取或设置导入为单页时页面之间的间距"
+description: "MergeOptions 属性。获取或设置导入为单页时页面之间的间距。"
 type: docs
 weight: 50
 url: /zh/net/aspose.note/mergeoptions/pagespacing/
@@ -16,7 +16,7 @@ public float PageSpacing { get; set; }
 
 ## 示例
 
-展示如何从 PDF 文档导入所有页面，将每 5 页分组为一个 OneNote 页面。
+展示如何从 PDF 文档导入所有页面，并将每 5 页分组为单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -52,7 +52,7 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [MergeOptions](../)
 * namespace [Aspose.Note](../../mergeoptions/)

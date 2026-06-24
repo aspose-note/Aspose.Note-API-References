@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/outline/
 ---
 ## Outline class
 
-表示大纲。
+表示一个大纲。
 
 ```csharp
 public sealed class Outline : IndentatedNode<IOutlineChildNode>, IPageChildNode
@@ -233,7 +233,7 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
 * interface [IOutlineChildNode](../ioutlinechildnode/)

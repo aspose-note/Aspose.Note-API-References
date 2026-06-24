@@ -17,7 +17,7 @@ public virtual T1 InsertChild<T1>(int i, T1 newChild)
 
 | 参数 | 描述 |
 | --- | --- |
-| T1 | 插入节点的确切类型。 |
+| T1 | 插入节点的精确类型。 |
 | i | 插入位置 |
 | newChild | 要插入的节点。 |
 
@@ -25,7 +25,7 @@ public virtual T1 InsertChild<T1>(int i, T1 newChild)
 
 已添加的节点。
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)

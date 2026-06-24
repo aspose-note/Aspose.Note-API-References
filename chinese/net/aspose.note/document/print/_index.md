@@ -16,7 +16,7 @@ public void Print()
 
 ## 示例
 
-展示如何使用带默认选项的标准 Windows 对话框将文档发送到打印机。
+展示如何使用标准 Windows 对话框（默认选项）将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -27,7 +27,7 @@ var document = new Aspose.Note.Document(dataDir + "Aspose.one");
 document.Print();
 ```
 
-展示如何使用标准 Windows 对话框并指定选项将文档发送到打印机。
+展示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -48,7 +48,7 @@ document.Print(new PrintOptions()
                });
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
@@ -68,7 +68,7 @@ public void Print(PrintOptions options)
 | --- | --- | --- |
 | 选项 | PrintOptions | 用于打印文档的选项。可以为 null。 |
 
-### 另请参阅
+### 另见
 
 * class [PrintOptions](../../../aspose.note.saving/printoptions/)
 * class [Document](../)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/fontsavingargs/isitalic/
 public bool IsItalic { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [FontSavingArgs](../)
 * namespace [Aspose.Note.Saving.Html](../../fontsavingargs/)

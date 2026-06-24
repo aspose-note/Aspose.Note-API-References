@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/imagesavingargs/imagetype/
 public HtmlImageType ImageType { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [HtmlImageType](../../htmlimagetype/)
 * class [ImageSavingArgs](../)

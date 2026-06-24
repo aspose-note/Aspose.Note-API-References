@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/keepsolidobjectsalgorithm/heightlimitofclonedpar
 public float HeightLimitOfClonedPart { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [KeepSolidObjectsAlgorithm](../)
 * namespace [Aspose.Note.Saving](../../keepsolidobjectsalgorithm/)

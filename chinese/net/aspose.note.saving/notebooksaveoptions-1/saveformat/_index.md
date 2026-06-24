@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/notebooksaveoptions-1/saveformat/
 public override SaveFormat SaveFormat { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [SaveFormat](../../../aspose.note/saveformat/)
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../)

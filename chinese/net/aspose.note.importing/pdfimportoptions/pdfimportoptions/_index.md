@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.importing/pdfimportoptions/pdfimportoptions/
 public PdfImportOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [PdfImportOptions](../)
 * namespace [Aspose.Note.Importing](../../pdfimportoptions/)

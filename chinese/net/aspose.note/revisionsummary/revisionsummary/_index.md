@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/revisionsummary/revisionsummary/
 public RevisionSummary()
 ```
 
-### 另请参阅
+### 另见
 
 * class [RevisionSummary](../)
 * namespace [Aspose.Note](../../revisionsummary/)

@@ -16,7 +16,7 @@ public FontsSubsystem FontsSubsystem { get; set; }
 
 ## 示例
 
-展示如何使用指定的默认字体将文档保存为 PDF 格式。
+展示如何使用指定的默认字体将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -33,7 +33,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                       });
 ```
 
-展示如何使用来自文件的默认字体将文档保存为 PDF 格式。
+展示如何使用来自文件的默认字体将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -52,7 +52,7 @@ oneFile.Save(dataDir, new PdfSaveOptions()
                           });
 ```
 
-展示如何使用来自流的默认字体将文档保存为 PDF 格式。
+展示如何使用来自流的默认字体将文档保存为 pdf 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -75,7 +75,7 @@ using (var stream = File.Open(fontFile, FileMode.Open, FileAccess.Read, FileShar
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [FontsSubsystem](../../../aspose.note.fonts/fontssubsystem/)
 * class [SaveOptions](../)

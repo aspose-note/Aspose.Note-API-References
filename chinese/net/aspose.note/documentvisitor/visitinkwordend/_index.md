@@ -16,9 +16,9 @@ public virtual void VisitInkWordEnd(InkWord inkWord)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| inkWord | InkWord | 此 [`InkWord`](../../inkword/) 节点。 |
+| inkWord | InkWord | 该 [`InkWord`](../../inkword/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [InkWord](../../inkword/)
 * class [DocumentVisitor](../)

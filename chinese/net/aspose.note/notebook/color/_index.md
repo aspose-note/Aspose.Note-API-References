@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notebook/color/
 public Color Color { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)

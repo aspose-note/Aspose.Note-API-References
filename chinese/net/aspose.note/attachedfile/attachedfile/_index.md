@@ -18,7 +18,7 @@ public AttachedFile(string path)
 | --- | --- | --- |
 | path | String | 一个字符串，包含用于创建 [`AttachedFile`](../) 的文件路径。 |
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)
@@ -37,10 +37,10 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | path | String | 一个字符串，包含用于创建 [`AttachedFile`](../) 的文件路径。 |
-| icon | 流 | 附加文件的图标。 |
+| icon | 流 | 用于附加文件的图标。 |
 | iconFormat | ImageFormat | 附加文件图标的格式。 |
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)
@@ -61,7 +61,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 | fileName | String | 附加文件的名称。 |
 | attachedFileStream | 流 | 包含附加文件字节的流。 |
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)
@@ -81,10 +81,10 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 | --- | --- | --- |
 | fileName | String | 附加文件的名称。 |
 | attachedFileStream | 流 | 包含附加文件字节的流。 |
-| icon | 流 | 附加文件的图标。 |
+| icon | 流 | 用于附加文件的图标。 |
 | iconFormat | ImageFormat | 附加文件图标的格式。 |
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)
@@ -100,7 +100,7 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 public AttachedFile()
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

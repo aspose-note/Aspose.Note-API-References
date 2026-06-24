@@ -1,14 +1,14 @@
 ---
 title: "PageSettings.A4NoHeightLimit"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PageSettings 属性。获取 A4 格式页面的设置，且高度无限制"
+description: "PageSettings 属性。获取 A4 格式页面的设置，且高度无限。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/pagesettings/a4noheightlimit/
 ---
 ## PageSettings.A4NoHeightLimit property
 
-获取具有无限高度的 A4 格式页面的设置。
+获取 A4 格式页面（高度无限）的设置。
 
 ```csharp
 public static PageSettings A4NoHeightLimit { get; }
@@ -31,7 +31,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSettings](../)
 * namespace [Aspose.Note.Saving](../../pagesettings/)

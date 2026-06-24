@@ -41,7 +41,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
-展示如何使用默认设置将文档保存为 pdf 格式。
+展示如何使用默认设置将文档保存为 PDF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -70,7 +70,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
-展示如何将文档保存为 gif 格式。
+展示如何将文档保存为 GIF 格式。
 
 ```csharp
 // 文档目录的路径。
@@ -81,7 +81,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
 
@@ -141,7 +141,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
@@ -215,7 +215,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -237,7 +237,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -249,7 +249,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

@@ -1,14 +1,14 @@
 ---
 title: "PageHistory.PageHistory"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PageHistory 构造函数。初始化 PageHistory 类的新实例"
+description: "PageHistory 构造函数。初始化 PageHistory 类的新实例。"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/pagehistory/pagehistory/
 ---
 ## PageHistory constructor
 
-初始化一个新的 [`PageHistory`](../) 类的实例。
+初始化 [`PageHistory`](../) 类的新实例。
 
 ```csharp
 public PageHistory(Page page)
@@ -18,7 +18,7 @@ public PageHistory(Page page)
 | --- | --- | --- |
 | page | Page | 当前页面版本。 |
 
-### 另请参阅
+### 另见
 
 * class [Page](../../page/)
 * class [PageHistory](../)

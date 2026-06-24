@@ -18,7 +18,7 @@ public static NoteTask CreateFollowUpToday()
 
 该 [`NoteTask`](../)。
 
-### 另请参阅
+### 另见
 
 * class [NoteTask](../)
 * namespace [Aspose.Note](../../notetask/)

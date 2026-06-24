@@ -16,13 +16,13 @@ public RichText TitleText { get; set; }
 
 ## 示例
 
-展示如何编辑页面的历史记录。
+展示如何编辑页面的历史。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -76,7 +76,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-展示如何创建文档并使用默认选项将其保存为 HTML 格式。
+展示如何创建文档并使用默认选项以 HTML 格式保存。
 
 ```csharp
 // 文档目录的路径。
@@ -160,7 +160,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-展示如何将文档保存为不同的格式。
+展示如何以不同格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -193,7 +193,7 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### 另请参阅
+### 另见
 
 * class [RichText](../../richtext/)
 * class [Title](../)

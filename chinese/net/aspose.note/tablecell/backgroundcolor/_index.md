@@ -53,7 +53,7 @@ doc.AppendChildLast(page);
 doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [TableCell](../)
 * namespace [Aspose.Note](../../tablecell/)

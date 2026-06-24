@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/itaggable/tags/
 public List<ITag> Tags { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../../itag/)
 * interface [ITaggable](../)

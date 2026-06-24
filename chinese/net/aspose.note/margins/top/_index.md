@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/margins/top/
 public float Top { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * struct [Margins](../)
 * namespace [Aspose.Note](../../margins/)

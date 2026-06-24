@@ -1,7 +1,7 @@
 ---
 title: "接口 IIndentatedNode"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.IIndentatedNode 接口。该接口用于具有相对缩进的子节点。"
+description: "Aspose.Note.IIndentatedNode 接口。该接口用于子节点的相对缩进。"
 type: docs
 weight: 160
 url: /zh/net/aspose.note/iindentatednode/
@@ -20,7 +20,7 @@ public interface IIndentatedNode
 | --- | --- |
 | [IndentPosition](../../aspose.note/iindentatednode/indentposition/) { get; set; } | 获取或设置缩进位置。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

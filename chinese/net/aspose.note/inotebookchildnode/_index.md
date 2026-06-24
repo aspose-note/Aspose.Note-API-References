@@ -22,7 +22,7 @@ public interface INotebookChildNode
 | [DisplayName](../../aspose.note/inotebookchildnode/displayname/) { get; } | 获取显示名称。 |
 | [Guid](../../aspose.note/inotebookchildnode/guid/) { get; } | 获取对象的全局唯一标识符。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

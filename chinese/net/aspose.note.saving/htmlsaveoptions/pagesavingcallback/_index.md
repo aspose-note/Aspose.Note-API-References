@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/htmlsaveoptions/pagesavingcallback/
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [IPageSavingCallback](../../../aspose.note.saving.html/ipagesavingcallback/)
 * class [HtmlSaveOptions](../)

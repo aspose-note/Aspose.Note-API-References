@@ -19,7 +19,7 @@ public TextRun(string text, TextStyle style)
 | 文本 | String | 关联的文本。 |
 | style | TextStyle | 样式。 |
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle/)
 * class [TextRun](../)
@@ -40,7 +40,7 @@ public TextRun(string text)
 | --- | --- | --- |
 | 文本 | String | 关联的文本。 |
 
-### 另请参阅
+### 另见
 
 * class [TextRun](../)
 * namespace [Aspose.Note](../../textrun/)
@@ -60,7 +60,7 @@ public TextRun(TextStyle style)
 | --- | --- | --- |
 | style | TextStyle | 样式。 |
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle/)
 * class [TextRun](../)
@@ -77,7 +77,7 @@ public TextRun(TextStyle style)
 public TextRun()
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextRun](../)
 * namespace [Aspose.Note](../../textrun/)

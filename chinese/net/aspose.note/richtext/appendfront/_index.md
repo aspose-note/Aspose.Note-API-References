@@ -1,7 +1,7 @@
 ---
 title: "RichText.AppendFront"
 second_title: "Aspose.Note for .NET API 参考"
-description: "RichText 方法。将字符串添加到第一个文本范围的前面"
+description: "RichText method. 将字符串添加到第一个文本范围的前面"
 type: docs
 weight: 170
 url: /zh/net/aspose.note/richtext/appendfront/
@@ -22,7 +22,7 @@ public RichText AppendFront(string value)
 
 该 [`RichText`](../)。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -47,7 +47,7 @@ public RichText AppendFront(string value, TextStyle style)
 
 该 [`RichText`](../)。
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)

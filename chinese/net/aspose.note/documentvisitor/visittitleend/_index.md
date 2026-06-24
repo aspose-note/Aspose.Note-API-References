@@ -16,9 +16,9 @@ public virtual void VisitTitleEnd(Title title)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| title | Title | 此 [`Title`](../../title/) 节点。 |
+| title | Title | 该 [`Title`](../../title/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [Title](../../title/)
 * class [DocumentVisitor](../)

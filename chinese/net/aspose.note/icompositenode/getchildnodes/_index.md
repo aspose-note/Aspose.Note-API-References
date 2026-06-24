@@ -23,7 +23,7 @@ public List<T1> GetChildNodes<T1>()
 
 子节点列表。
 
-### 另请参阅
+### 另见
 
 * interface [INode](../../inode/)
 * interface [ICompositeNode](../)

@@ -1,7 +1,7 @@
 ---
 title: "OutlineElement.Accept"
 second_title: "Aspose.Note for .NET API 参考"
-description: "OutlineElement 方法。接受节点的访问者。"
+description: "OutlineElement 方法。接受节点的访问者"
 type: docs
 weight: 70
 url: /zh/net/aspose.note/outlineelement/accept/
@@ -18,7 +18,7 @@ public override void Accept(DocumentVisitor visitor)
 | --- | --- | --- |
 | visitor | DocumentVisitor | 从 [`DocumentVisitor`](../../documentvisitor/) 派生的类的对象。 |
 
-### 另请参阅
+### 另见
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [OutlineElement](../)

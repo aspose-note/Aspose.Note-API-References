@@ -21,11 +21,11 @@ public Document Merge(IEnumerable<Page> pages, MergeOptions mergeOptions = null)
 
 ### 返回值
 
-返回对文档的引用。
+返回文档的引用。
 
 ## 示例
 
-展示如何从 PDF 文档导入所有页面，将每 5 页分组为一个 OneNote 页面。
+展示如何从 PDF 文档导入所有页面，并将每 5 页分组为单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -44,7 +44,7 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [Page](../../page/)
 * class [MergeOptions](../../mergeoptions/)

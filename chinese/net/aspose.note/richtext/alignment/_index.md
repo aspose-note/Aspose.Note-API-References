@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/richtext/alignment/
 public HorizontalAlignment Alignment { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [RichText](../)

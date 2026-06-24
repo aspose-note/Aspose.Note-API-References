@@ -16,7 +16,7 @@ public int RunIndex { get; set; }
 
 ### 备注
 
-运行索引指定将在文本节点中使用此样式的最后一个符号的编号。第一个符号被定义为紧随前一个样式在样式集合中最后一个符号之后。索引从 1 开始。
+运行索引指定将在文本节点中使用此样式的最后一个符号的编号。第一个符号定义为前一个样式在样式集合中最后一个符号之后的符号。索引从 1 开始。
 
 ### 示例
 
@@ -123,7 +123,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle)
 * namespace [Aspose.Note](../../textstyle)

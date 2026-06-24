@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/metered/metered/
 public Metered()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Metered](../)
 * namespace [Aspose.Note](../../metered/)

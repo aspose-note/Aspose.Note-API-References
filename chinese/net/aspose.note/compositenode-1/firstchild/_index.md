@@ -43,7 +43,7 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)

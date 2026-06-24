@@ -1,12 +1,12 @@
 ---
 title: "Aspose.Note.Fonts"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Fonts 命名空间包含提供操作文档字体环境功能的类。"
+description: "Fonts 命名空间包含提供对文档字体环境进行操作功能的类。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.fonts/
 ---
-Fonts 命名空间包含提供操作文档字体环境功能的类。
+Fonts 命名空间包含提供对文档字体环境进行操作功能的类。
 
 ## 类
 

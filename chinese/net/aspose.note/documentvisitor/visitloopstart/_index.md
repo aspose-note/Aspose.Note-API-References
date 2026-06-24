@@ -18,7 +18,7 @@ public virtual void VisitLoopStart(Loop loop)
 | --- | --- | --- |
 | loop | Loop | 该 [`Loop`](../../loop/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [Loop](../../loop/)
 * class [DocumentVisitor](../)

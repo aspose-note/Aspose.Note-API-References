@@ -16,13 +16,13 @@ public bool Equals(Margins other)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 其他 | Margins | 该 Margins 结构。 |
+| 其他 | Margins | Margins 结构。 |
 
 ### 返回值
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * struct [Margins](../)
 * namespace [Aspose.Note](../../margins/)
@@ -46,7 +46,7 @@ public override bool Equals(object obj)
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * struct [Margins](../)
 * namespace [Aspose.Note](../../margins/)

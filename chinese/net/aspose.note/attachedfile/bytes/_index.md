@@ -44,7 +44,7 @@ foreach (AttachedFile file in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

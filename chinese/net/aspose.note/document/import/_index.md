@@ -23,9 +23,9 @@ public Document Import(Stream stream, PdfImportOptions importOptions = null,
 
 ### 返回值
 
-返回对文档的引用。
+返回文档的引用。
 
-### 另请参阅
+### 另见
 
 * class [PdfImportOptions](../../../aspose.note.importing/pdfimportoptions/)
 * class [MergeOptions](../../mergeoptions/)
@@ -52,7 +52,7 @@ public Document Import(string file, PdfImportOptions importOptions = null,
 
 ### 返回值
 
-返回对文档的引用。
+返回文档的引用。
 
 ## 示例
 
@@ -118,7 +118,7 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [PdfImportOptions](../../../aspose.note.importing/pdfimportoptions/)
 * class [MergeOptions](../../mergeoptions/)
@@ -145,9 +145,9 @@ public Document Import(Stream stream, HtmlImportOptions importOptions,
 
 ### 返回值
 
-返回对文档的引用。
+返回文档的引用。
 
-### 另请参阅
+### 另见
 
 * class [HtmlImportOptions](../../../aspose.note.importing/htmlimportoptions/)
 * class [MergeOptions](../../mergeoptions/)
@@ -174,7 +174,7 @@ public Document Import(string file, HtmlImportOptions importOptions,
 
 ### 返回值
 
-返回对文档的引用。
+返回文档的引用。
 
 ## 示例
 
@@ -212,7 +212,7 @@ document.Save(oneFilePath);
 Console.WriteLine("\nMarkdown document imported into OneNote successfully.");
 ```
 
-### 另请参阅
+### 另见
 
 * class [HtmlImportOptions](../../../aspose.note.importing/htmlimportoptions/)
 * class [MergeOptions](../../mergeoptions/)

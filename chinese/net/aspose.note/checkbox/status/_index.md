@@ -18,7 +18,7 @@ public TagStatus Status { get; }
 
 该 [`TagStatus`](../../tagstatus/).
 
-### 另请参阅
+### 另见
 
 * enum [TagStatus](../../tagstatus/)
 * class [CheckBox](../)

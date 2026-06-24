@@ -16,9 +16,9 @@ public virtual void VisitInkParagraphStart(InkParagraph inkParagraph)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| inkParagraph | InkParagraph | 此 [`InkParagraph`](../../inkparagraph/) 节点。 |
+| inkParagraph | InkParagraph | 该 [`InkParagraph`](../../inkparagraph/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [InkParagraph](../../inkparagraph/)
 * class [DocumentVisitor](../)

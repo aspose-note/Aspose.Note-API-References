@@ -8,7 +8,7 @@ url: /zh/net/aspose.note.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
 
-允许在将文档页面渲染为图像时指定其他选项。
+在将文档页面渲染为图像时允许指定其他选项。
 
 ```csharp
 public class ImageSaveOptions : SaveOptions
@@ -27,7 +27,7 @@ public class ImageSaveOptions : SaveOptions
 | [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions/) { get; set; } | 获取或设置图像二值化的选项。 |
 | [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode/) { get; set; } | 获取或设置输出图像的 [`ColorMode`](./colormode/)。 |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | 获取或设置在保存时使用的字体设置 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示将渲染文档的所有页面。 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示文档的所有页都将被渲染。 |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认值为 0。 |
 | [Quality](../../aspose.note.saving/imagesaveoptions/quality/) { get; set; } | 获取或设置决定已保存图像质量的值。该值作为 System.Drawing.Imaging.Encoder.Quality 参数传递给编解码器。 |
 | [Resolution](../../aspose.note.saving/imagesaveoptions/resolution/) { get; set; } | 获取或设置生成图像的分辨率（每英寸点数）。 |
@@ -107,7 +107,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
@@ -213,7 +213,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-展示如何以 PNG 格式保存文档。
+展示如何以 png 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -222,10 +222,10 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 初始化 ImageSaveOptions 对象 
+// 初始化 ImageSaveOptions 对象
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
                             {
-                                // 设置页面索引
+                                // 设置页索引
                                 PageIndex = 1
                             };
 
@@ -246,7 +246,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -268,7 +268,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// 将文档保存为 gif。
+// 将文档保存为 GIF。
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -280,7 +280,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           });
 ```
 
-### 另请参阅
+### 另见
 
 * class [SaveOptions](../saveoptions/)
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)
