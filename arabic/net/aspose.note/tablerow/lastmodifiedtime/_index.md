@@ -1,6 +1,6 @@
 ---
 title: "TableRow.LastModifiedTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية TableRow. تحصل أو تعين وقت التعديل الأخير"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/tablerow/lastmodifiedtime/
 ---
 ## TableRow.LastModifiedTime property
 
-يحصل أو يعيّن وقت آخر تعديل.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }

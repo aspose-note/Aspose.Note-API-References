@@ -1,14 +1,14 @@
 ---
 title: "الفئة Page"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Page. تمثل صفحة."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Page. تمثل صفحة"
 type: docs
 weight: 550
 url: /ar/net/aspose.note/page/
 ---
 ## Page class
 
-يمثل صفحةً.
+يمثل صفحة.
 
 ```csharp
 public sealed class Page : CompositeNode<IPageChildNode>
@@ -18,7 +18,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 
 | الاسم | الوصف |
 | --- | --- |
-| [Page](page/)() | يُنشئ مثيلاً جديدًا من الفئة `Page`. |
+| [Page](page/)() | يقوم بتهيئة نسخة جديدة من الفئة `Page`. |
 
 ## الخصائص
 
@@ -26,13 +26,13 @@ public sealed class Page : CompositeNode<IPageChildNode>
 | --- | --- |
 | [Author](../../aspose.note/page/author/) { get; set; } | يحصل أو يضبط المؤلف. |
 | [BackgroundColor](../../aspose.note/page/backgroundcolor/) { get; set; } | يحصل أو يضبط لون خلفية الصفحة. |
-| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | يحصل أو يعيّن وقت الإنشاء. |
+| [CreationTime](../../aspose.note/page/creationtime/) { get; set; } | الحصول على أو تعيين وقت الإنشاء. |
 | [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
 | [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كانت هذه الصفحة صفحة تعارض. |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
-| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت التعديل الأخير. |
 | [Level](../../aspose.note/page/level/) { get; set; } | يحصل أو يضبط المستوى. |
 | [Margin](../../aspose.note/page/margin/) { get; set; } | يحصل أو يضبط الهامش. |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
@@ -67,7 +67,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -78,7 +78,7 @@ foreach (var page in document)
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
-يظهر كيفية الحصول على معلومات ميتا حول صفحة.
+يوضح كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -131,13 +131,13 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى
@@ -154,17 +154,17 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-يعرض كيفية تعديل معلومات التعريف للصفحة.
+يوضح كيفية تعديل معلومات التعريف للصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
-// قراءة ملخص مراجعة المحتوى لهذه الصفحة.
+// قراءة ملخص مراجعة المحتوى لهذه الصفحة
 var pageRevisionInfo = page.PageContentRevisionSummary;
 
 Console.WriteLine(string.Format(
@@ -172,7 +172,7 @@ Console.WriteLine(string.Format(
     pageRevisionInfo.AuthorMostRecent,
     pageRevisionInfo.LastModifiedTime.ToString("dd.MM.yyyy HH:mm:ss")));
 
-// تحديث ملخص مراجعة الصفحة لهذه الصفحة.
+// تحديث ملخص مراجعة الصفحة لهذه الصفحة
 pageRevisionInfo.AuthorMostRecent = "New Author";
 pageRevisionInfo.LastModifiedTime = DateTime.Now;
 
@@ -198,7 +198,7 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // استبدال نص الشكل
+        // استبدال نص شكل
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
@@ -230,7 +230,7 @@ foreach (RichText richText in textNodes)
 {
     foreach (KeyValuePair<string, string> kvp in replacements)
     {
-        // استبدال نص الشكل
+        // استبدال نص شكل
         richText.Replace(kvp.Key, kvp.Value);
     }
 }
@@ -240,28 +240,28 @@ dataDir = dataDir + "ReplaceTextOnParticularPage_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-يعرض كيفية إضافة صورة جديدة مع علامة.
+يوضح كيفية إضافة صورة جديدة مع علامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تحميل صورة.
+// تحميل صورة
 Image image = new Image(dataDir + "icon.jpg");
 
-// إدراج صورة في عقدة المستند.
+// إدراج صورة في عقدة المستند
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
@@ -271,10 +271,10 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
@@ -285,7 +285,7 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
@@ -303,12 +303,12 @@ dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-يعرض كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
+يوضح كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -321,8 +321,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // بشكل افتراضي، يتم تخطي صفحات التعارض عند الحفظ.
-    // إذا تم وضع علامة بأنها غير متعارضة، فسيتم حفظها كصفحة عادية في السجل.
+    // بشكل افتراضي يتم تخطي صفحات التعارض عند الحفظ.
+    // إذا تم وضع علامة بأنها غير متعارضة فستُحفظ كصفحة عادية في السجل.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -330,16 +330,16 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-يوضح كيفية إنشاء مستند بصفحة معنونة.
+يوضح كيفية إنشاء مستند بصفحة ذات عنوان.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // النمط الافتراضي لجميع النصوص في المستند.
@@ -353,10 +353,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة Page في المستند
+// إضافة عقدة Page إلى المستند
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
@@ -367,7 +367,7 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
@@ -411,10 +411,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة الصفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote بصيغ مختلفة، ضبط حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
+// احفظ مستند OneNote بصيغ مختلفة، اضبط حجم خط النص واكتشف تغييرات التخطيط يدويًا.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -423,19 +423,19 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-يعرض كيفية إدراج قائمة جديدة بترقيم صيني.
+يوضح كيفية إدراج قائمة جديدة بترقيم صيني.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
-// تهيئة صفحة OneNote.
+// تهيئة صفحة OneNote
 Page page = new Page();
 Outline outline = new Outline();
 
-// تطبيق إعدادات نمط النص.
+// تطبيق إعدادات نمط النص
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
@@ -460,7 +460,7 @@ outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -470,22 +470,22 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق النقاط
+// تهيئة كائنات فئة OutlineElement وتطبيق النقاط
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
-// تهيئة كائن الفئة RichText وتطبيق نمط النص
+// تهيئة كائن فئة RichText وتطبيق نمط النص
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -507,7 +507,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -517,19 +517,19 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق الترقيم.
+// تهيئة كائنات فئة OutlineElement وتطبيق الترقيم
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
@@ -554,7 +554,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -565,16 +565,16 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page وضبط مستواه
+// تهيئة كائن الفئة Page وضبط مستواه
 Page page1 = new Page() { Level = 1 };
 
-// تهيئة كائن فئة Page وضبط مستواه
+// تهيئة كائن الفئة Page وضبط مستواه
 Page page2 = new Page() { Level = 2 };
 
-// تهيئة كائن فئة Page وضبط مستواه
+// تهيئة كائن الفئة Page وضبط مستواه
 Page page3 = new Page() { Level = 1 };
 
 /*---------- Adding nodes to first Page ----------*/
@@ -609,7 +609,7 @@ doc.AppendChildLast(page1);
 doc.AppendChildLast(page2);
 doc.AppendChildLast(page3);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateCoinsWithWindowBackdrop"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة CoinsWithWindowBackdrop والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة CoinsWithWindowBackdrop والعنوان المحدد"
 type: docs
 weight: 280
 url: /ar/net/aspose.note/notetag/createcoinswithwindowbackdrop/
 ---
 ## NoteTag.CreateCoinsWithWindowBackdrop method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة CoinsWithWindowBackdrop والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة CoinsWithWindowBackdrop وملصق محدد.
 
 ```csharp
 public static NoteTag CreateCoinsWithWindowBackdrop(string label = "")

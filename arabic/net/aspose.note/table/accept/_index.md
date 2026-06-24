@@ -1,6 +1,6 @@
 ---
 title: "Table.Accept"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Table. تقبل زائر العقدة"
 type: docs
 weight: 60

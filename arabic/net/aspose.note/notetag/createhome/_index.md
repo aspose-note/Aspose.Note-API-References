@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateHome"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة Home والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة Home والملصق المحدد"
 type: docs
 weight: 570
 url: /ar/net/aspose.note/notetag/createhome/
 ---
 ## NoteTag.CreateHome method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Home والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة Home وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateHome(string label = "")

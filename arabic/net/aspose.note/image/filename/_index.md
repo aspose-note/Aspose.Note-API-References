@@ -1,6 +1,6 @@
 ---
 title: "Image.FileName"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Image. تحصل على اسم الملف"
 type: docs
 weight: 60
@@ -16,7 +16,7 @@ public string FileName { get; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على معلومات ميتا للصورة.
+يوضح كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -25,7 +25,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// الحصول على جميع عقد Image
+// احصل على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)

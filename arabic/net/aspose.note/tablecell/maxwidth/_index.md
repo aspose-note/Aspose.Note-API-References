@@ -1,7 +1,7 @@
 ---
 title: "TableCell.MaxWidth"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "TableCell خاصية. يحصل على الحد الأقصى للعرض"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية TableCell. يحصل على الحد الأقصى للعرض"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/tablecell/maxwidth/

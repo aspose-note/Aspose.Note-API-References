@@ -1,6 +1,6 @@
 ---
 title: "Document.Guid"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Document. تحصل على المعرف الفريد عالميًا للكائنات"
 type: docs
 weight: 70
@@ -16,7 +16,7 @@ public Guid Guid { get; }
 
 ### Property Value
 
-المعرف الفريد (GUID).
+المعرف الفريد.
 
 ### انظر أيضًا
 

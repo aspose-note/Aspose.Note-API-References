@@ -1,14 +1,14 @@
 ---
 title: "KeepSolidObjectsAlgorithm.KeepSolidObjectsAlgorithm"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ KeepSolidObjectsAlgorithm. يهيئ مثيلًا جديدًا من الفئة KeepSolidObjectsAlgorithm باستخدام حد الارتفاع الافتراضي للجزء المستنسخ"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ KeepSolidObjectsAlgorithm. يهيئ نسخة جديدة من فئة KeepSolidObjectsAlgorithm باستخدام حد الارتفاع الافتراضي للجزء المستنسخ"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/keepsolidobjectsalgorithm/keepsolidobjectsalgorithm/
 ---
 ## KeepSolidObjectsAlgorithm() {#constructor}
 
-يهيئ مثيلًا جديدًا من الفئة [`KeepSolidObjectsAlgorithm`](../) باستخدام حد الارتفاع الافتراضي للجزء المستنسخ.
+يهيئ نسخة جديدة من الفئة [`KeepSolidObjectsAlgorithm`](../) باستخدام حد الارتفاع الافتراضي للجزء المستنسخ.
 
 ```csharp
 public KeepSolidObjectsAlgorithm()
@@ -24,7 +24,7 @@ public KeepSolidObjectsAlgorithm()
 
 ## KeepSolidObjectsAlgorithm(float) {#constructor_1}
 
-يهيئ مثيلًا جديدًا من الفئة [`KeepSolidObjectsAlgorithm`](../) باستخدام حد ارتفاع محدد للجزء المستنسخ.
+يهيئ نسخة جديدة من الفئة [`KeepSolidObjectsAlgorithm`](../) باستخدام حد ارتفاع محدد للجزء المستنسخ.
 
 ```csharp
 public KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)
@@ -32,7 +32,7 @@ public KeepSolidObjectsAlgorithm(float heightLimitOfClonedPart)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| heightLimitOfClonedPart | Single | الحد الأقصى لارتفاع الجزء المستنسخ. |
+| heightLimitOfClonedPart | Single | الارتفاع الأقصى للجزء المستنسخ. |
 
 ### انظر أيضًا
 

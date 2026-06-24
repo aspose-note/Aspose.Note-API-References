@@ -1,14 +1,14 @@
 ---
 title: "NoteCheckBox.CreateBlueCheckBox1"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteCheckBox. ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox1Empty والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteCheckBox. تنشئ خانة ملاحظة جديدة مع أيقونة BlueCheckBox1Empty والملصق المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/notecheckbox/createbluecheckbox1/
 ---
 ## NoteCheckBox.CreateBlueCheckBox1 method
 
-ينشئ مربع اختيار ملاحظة جديد مع أيقونة BlueCheckBox1Empty والملصق المحدد.
+ينشئ مربع اختيار ملاحظة جديد بأيقونة BlueCheckBox1Empty والملصق المحدد.
 
 ```csharp
 public static NoteCheckBox CreateBlueCheckBox1(string label = "To Do priority 1")

@@ -1,6 +1,6 @@
 ---
 title: "RichText.IsTitleTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية RichText. تحصل على قيمة تشير إلى ما إذا كان عنصر RichText يحتوي على الوقت في عنوان الصفحة"
 type: docs
 weight: 50

@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitAttachedFileStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. ابدأ بزيارة عقدة AttachedFile"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/documentvisitor/visitattachedfilestart/
 ---
 ## DocumentVisitor.VisitAttachedFileStart method
 
-ابدأ بزيارة عقدة [`AttachedFile`](../../attachedfile/).
+ابدأ بزيارة العقدة [`AttachedFile`](../../attachedfile/).
 
 ```csharp
 public virtual void VisitAttachedFileStart(AttachedFile attachedFile)

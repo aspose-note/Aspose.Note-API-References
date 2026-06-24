@@ -1,6 +1,6 @@
 ---
 title: "Notebook.LoadChildDocument"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Notebook. تضيف عقدة مستند طفل. تفتح مستند OneNote موجود من ملف"
 type: docs
 weight: 120
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notebook/loadchilddocument/
 ---
 ## LoadChildDocument(string) {#loadchilddocument_2}
 
-يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف.
+يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من ملف.
 
 ```csharp
 public void LoadChildDocument(string filePath)
@@ -20,7 +20,7 @@ public void LoadChildDocument(string filePath)
 
 ## أمثلة
 
-يوضح كيفية تحميل الدفتر من تدفق.
+يظهر كيفية تحميل الدفتر من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -48,7 +48,7 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 
 ## LoadChildDocument(string, LoadOptions) {#loadchilddocument_3}
 
-يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية.
+يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية.
 
 ```csharp
 public void LoadChildDocument(string filePath, LoadOptions loadOptions)
@@ -70,7 +70,7 @@ public void LoadChildDocument(string filePath, LoadOptions loadOptions)
 
 ## LoadChildDocument(Stream) {#loadchilddocument}
 
-يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق.
+يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من تدفق.
 
 ```csharp
 public void LoadChildDocument(Stream stream)
@@ -78,11 +78,11 @@ public void LoadChildDocument(Stream stream)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 
 ## أمثلة
 
-يوضح كيفية تحميل الدفتر من تدفق.
+يظهر كيفية تحميل الدفتر من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -110,7 +110,7 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 
 ## LoadChildDocument(Stream, LoadOptions) {#loadchilddocument_1}
 
-يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية.
+يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية.
 
 ```csharp
 public void LoadChildDocument(Stream stream, LoadOptions loadOptions)
@@ -118,7 +118,7 @@ public void LoadChildDocument(Stream stream, LoadOptions loadOptions)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | loadOptions | LoadOptions | خيارات التحميل. |
 
 ### انظر أيضًا

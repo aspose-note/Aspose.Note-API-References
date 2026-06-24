@@ -1,7 +1,7 @@
 ---
 title: "CompositeNode1.Accept"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة CompositeNode. تقبل زائر العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة CompositeNode. يقبل زائر العقدة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/compositenode-1/accept/

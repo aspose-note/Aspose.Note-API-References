@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.IsReadOnly"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية PageHistory. يحصل على قيمة تشير إلى ما إذا كان تاريخ الصفحة للقراءة فقط"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية PageHistory. تحصل على قيمة تشير إلى ما إذا كان تاريخ الصفحة للقراءة فقط"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/pagehistory/isreadonly/

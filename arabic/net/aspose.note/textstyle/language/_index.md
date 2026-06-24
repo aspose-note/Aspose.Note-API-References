@@ -1,14 +1,14 @@
 ---
 title: "TextStyle.Language"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية TextStyle. تحصل أو تعيّن لغة النص"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية TextStyle. تحصل أو تعيين لغة النص"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/textstyle/language/
 ---
 ## TextStyle.Language property
 
-يحصل أو يعيّن لغة النص.
+يحصل أو يضبط لغة النص.
 
 ```csharp
 public CultureInfo Language { get; set; }
@@ -20,7 +20,7 @@ public CultureInfo Language { get; set; }
 
 ## أمثلة
 
-تعيين لغة التدقيق لنص.
+حدد لغة التدقيق للنص.
 
 ```csharp
 var document = new Document();

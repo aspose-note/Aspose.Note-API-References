@@ -1,6 +1,6 @@
 ---
 title: "ResourceSavingArgs.Uri"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية ResourceSavingArgs. يحصل على أو يضبط الـ uri للوصول إلى المورد المخزن"
 type: docs
 weight: 50
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note.saving.html/resourcesavingargs/uri/
 ---
 ## ResourceSavingArgs.Uri property
 
-يحصل أو يضبط عنوان الـ URI للوصول إلى المورد المخزن.
+يحصل أو يضبط الـ URI للوصول إلى المورد المخزن.
 
 ```csharp
 public string Uri { get; set; }

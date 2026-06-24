@@ -1,6 +1,6 @@
 ---
 title: "التعداد HtmlImageType"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "التعداد Aspose.Note.Saving.Html.HtmlImageType. يمثل نوع صورة HTML"
 type: docs
 weight: 690
@@ -19,8 +19,8 @@ public enum HtmlImageType
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | Jpeg | `0` | JPEG JFIF. |
-| Png | `1` | رسوميات الشبكة المحمولة. |
-| Bmp | `2` | Bitmap ويندوز. |
+| Png | `1` | Portable Network Graphics. |
+| Bmp | `2` | Windows Bitmap. |
 | Gif | `3` | تنسيق صورة Gif |
 | Tiff | `4` | تنسيق صورة Tiff |
 | Svg | `5` | تنسيق صورة SVG |

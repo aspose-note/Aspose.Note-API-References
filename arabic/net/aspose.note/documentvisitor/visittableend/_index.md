@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitTableEnd"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. النهاية لزيارة عقدة Table"
 type: docs
 weight: 270

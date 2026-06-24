@@ -1,7 +1,7 @@
 ---
 title: "Margins.Equals"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Margins. تختبر ما إذا كان هيكلا Margins اثنان متساويين"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Margins. تختبر ما إذا كان هيكلا Margins متساويين"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/margins/equals/
@@ -20,7 +20,7 @@ public bool Equals(Margins other)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 

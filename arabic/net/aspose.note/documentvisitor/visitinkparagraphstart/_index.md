@@ -1,14 +1,14 @@
 ---
 title: "DocumentVisitor.VisitInkParagraphStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة DocumentVisitor. بدء زيارة عقدة InkParagraph"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة DocumentVisitor. بدء زيارة العنصر InkParagraph ."
 type: docs
 weight: 100
 url: /ar/net/aspose.note/documentvisitor/visitinkparagraphstart/
 ---
 ## DocumentVisitor.VisitInkParagraphStart method
 
-بدء زيارة عقدة [`InkParagraph`](../../inkparagraph/)
+بدء زيارة العنصر [`InkParagraph`](../../inkparagraph/) .
 
 ```csharp
 public virtual void VisitInkParagraphStart(InkParagraph inkParagraph)
@@ -16,7 +16,7 @@ public virtual void VisitInkParagraphStart(InkParagraph inkParagraph)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| inkParagraph | InkParagraph | العقدة [`InkParagraph`](../../inkparagraph/) |
+| inkParagraph | InkParagraph | العنصر [`InkParagraph`](../../inkparagraph/) . |
 
 ### انظر أيضًا
 

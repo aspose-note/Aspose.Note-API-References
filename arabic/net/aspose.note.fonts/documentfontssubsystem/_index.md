@@ -1,6 +1,6 @@
 ---
 title: "الفئة DocumentFontsSubsystem"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Fonts.DocumentFontsSubsystem. تنفيذ بسيط لـ Aspose.Note.Fonts.FontsSubsystem. يسترجع كائن FontFamily من نظام التشغيل"
 type: docs
 weight: 100
@@ -18,9 +18,9 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | الاسم | الوصف |
 | --- | --- |
-| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | يُنشئ مثلاً جديداً للفئة `DocumentFontsSubsystem`. |
-| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | يُنشئ مثلاً جديداً للفئة `DocumentFontsSubsystem`. |
-| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | يُنشئ مثلاً جديداً للفئة `DocumentFontsSubsystem`. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor)(Dictionary&lt;string, string&gt;) | ينشئ مثيلًا جديدًا من الفئة `DocumentFontsSubsystem`. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_1)(Stream, Dictionary&lt;string, string&gt;) | ينشئ مثيلًا جديدًا من الفئة `DocumentFontsSubsystem`. |
+| [DocumentFontsSubsystem](documentfontssubsystem/#constructor_2)(string, Dictionary&lt;string, string&gt;) | ينشئ مثيلًا جديدًا من الفئة `DocumentFontsSubsystem`. |
 
 ## الخصائص
 
@@ -33,9 +33,9 @@ public class DocumentFontsSubsystem : FontsSubsystem
 
 | الاسم | الوصف |
 | --- | --- |
-| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont/)(string, Dictionary&lt;string, string&gt;) | أنشئ مثلاً جديداً من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد. |
-| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | أنشئ مثلاً جديداً من DocumentFontsSubsystem باستخدام خط من الملف المحدد كافتراضي. |
-| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | أنشئ مثلاً جديداً من DocumentFontsSubsystem باستخدام خط من الدفق المحدد كافتراضي. |
+| static [UsingDefaultFont](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfont/)(string, Dictionary&lt;string, string&gt;) | أنشئ مثيلًا جديدًا من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد. |
+| static [UsingDefaultFontFromFile](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromfile/)(string, Dictionary&lt;string, string&gt;) | أنشئ مثيلًا جديدًا من DocumentFontsSubsystem باستخدام خط من الملف المحدد كافتراضي. |
+| static [UsingDefaultFontFromStream](../../aspose.note.fonts/documentfontssubsystem/usingdefaultfontfromstream/)(Stream, Dictionary&lt;string, string&gt;) | أنشئ مثيلًا جديدًا من DocumentFontsSubsystem باستخدام خط من الدفق المحدد كافتراضي. |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream) | أضف الخط. |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(string) | أضف الخط. |
 | [AddFont](../../aspose.note.fonts/fontssubsystem/addfont/)(Stream, string) | أضف الخط. |

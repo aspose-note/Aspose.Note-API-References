@@ -1,6 +1,6 @@
 ---
 title: "INode.NextSibling"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية INode. يحصل على العقدة التالية في نفس مستوى شجرة العقد"
 type: docs
 weight: 10

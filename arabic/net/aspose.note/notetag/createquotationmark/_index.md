@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateQuotationMark"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة QuotationMark والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة بأيقونة QuotationMark والملصق المحدد"
 type: docs
 weight: 820
 url: /ar/net/aspose.note/notetag/createquotationmark/
 ---
 ## NoteTag.CreateQuotationMark method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة QuotationMark وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة QuotationMark والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateQuotationMark(string label = "")

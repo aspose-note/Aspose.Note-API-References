@@ -1,7 +1,7 @@
 ---
 title: "الواجهة ICompositeNodeT"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الواجهة Aspose.Note.ICompositeNode1T. الواجهة للعقد التي يمكنها احتواء عقد أخرى."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الواجهة Aspose.Note.ICompositeNode1T. الواجهة للعقد التي يمكنها احتواء عقد أخرى"
 type: docs
 weight: 150
 url: /ar/net/aspose.note/icompositenode-1/

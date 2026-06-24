@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateGreenRightArrow"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز GreenRightArrow والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة GreenRightArrow والملصق المحدد"
 type: docs
 weight: 440
 url: /ar/net/aspose.note/notetag/creategreenrightarrow/
 ---
 ## NoteTag.CreateGreenRightArrow method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة GreenRightArrow والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenRightArrow وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateGreenRightArrow(string label = "")

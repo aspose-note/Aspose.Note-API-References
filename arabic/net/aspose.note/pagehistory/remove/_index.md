@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Remove"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. تُزيل إصدار الصفحة من PageHistory"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تُزيل إصدار الصفحة من PageHistory."
 type: docs
 weight: 140
 url: /ar/net/aspose.note/pagehistory/remove/
@@ -20,7 +20,7 @@ public bool Remove(Page item)
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 

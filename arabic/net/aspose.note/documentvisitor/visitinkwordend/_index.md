@@ -1,14 +1,14 @@
 ---
 title: "DocumentVisitor.VisitInkWordEnd"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة DocumentVisitor. إنهاء زيارة عقدة InkWord"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة DocumentVisitor. إنهاء زيارة العنصر InkWord ."
 type: docs
 weight: 110
 url: /ar/net/aspose.note/documentvisitor/visitinkwordend/
 ---
 ## DocumentVisitor.VisitInkWordEnd method
 
-إنهاء زيارة عقدة [`InkWord`](../../inkword/)
+إنهاء زيارة العنصر [`InkWord`](../../inkword/) .
 
 ```csharp
 public virtual void VisitInkWordEnd(InkWord inkWord)
@@ -16,7 +16,7 @@ public virtual void VisitInkWordEnd(InkWord inkWord)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| inkWord | InkWord | العقدة [`InkWord`](../../inkword/) |
+| inkWord | InkWord | العنصر [`InkWord`](../../inkword/) . |
 
 ### انظر أيضًا
 

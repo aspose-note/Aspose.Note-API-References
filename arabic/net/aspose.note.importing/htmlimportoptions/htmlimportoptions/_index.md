@@ -1,14 +1,14 @@
 ---
 title: "HtmlImportOptions.HtmlImportOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ HtmlImportOptions. المنشئ الافتراضي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "HtmlImportOptions منشئ. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.importing/htmlimportoptions/htmlimportoptions/
 ---
 ## HtmlImportOptions constructor
 
-البناء الافتراضي.
+الباني الافتراضي.
 
 ```csharp
 public HtmlImportOptions()

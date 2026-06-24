@@ -1,7 +1,7 @@
 ---
 title: "فئة ParagraphStyle"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "Aspose.Note.ParagraphStyle فئة. إعدادات نمط النص لاستخدامها إذا لم يكن هناك كائن TextStyle مطابق في مجموعة Styles أو إذا كان هذا الكائن لا يحدد الإعداد المطلوب"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "فئة Aspose.Note.ParagraphStyle. إعدادات نمط النص لاستخدامها إذا لم يكن هناك كائن TextStyle مطابق في مجموعة Styles أو إذا لم يحدد هذا الكائن الإعداد المطلوب"
 type: docs
 weight: 580
 url: /ar/net/aspose.note/paragraphstyle/
@@ -18,7 +18,7 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 | الاسم | الوصف |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle/)() | ينشئ مثلاً جديداً من الفئة `ParagraphStyle`. |
+| [ParagraphStyle](paragraphstyle/)() | يُنشئ مثلاً جديداً من الفئة `ParagraphStyle`. |
 
 ## الخصائص
 
@@ -26,28 +26,28 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 | --- | --- |
 | static [Default](../../aspose.note/paragraphstyle/default/) { get; } | يحصل على الـ ParagraphStyle بالإعدادات الافتراضية. |
 | [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | يحصل أو يضبط لون الخط. |
-| [FontName](../../aspose.note/style/fontname/) { get; set; } | يحصل أو يعيّن اسم الخط. |
-| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | يحصل أو يعيّن حجم الخط. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | يحصل أو يضبط اسم الخط. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | يحصل أو يضبط حجم الخط. |
 | [FontStyle](../../aspose.note/style/fontstyle/) { get; } | يحصل على نمط الخط. |
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | يحصل أو يضبط لون التظليل. |
-| [IsBold](../../aspose.note/style/isbold/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
-| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
-| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
-| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص تحته خط. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص تحت السطر. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص فوق السطر. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مسطرًا. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.note/paragraphstyle/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [Equals](../../aspose.note/paragraphstyle/equals/#equals)(ParagraphStyle) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode/)() | يعمل كدالة تجزئة للنوع. |
+| override [Equals](../../aspose.note/paragraphstyle/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [Equals](../../aspose.note/paragraphstyle/equals/#equals)(ParagraphStyle) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [GetHashCode](../../aspose.note/paragraphstyle/gethashcode/)() | يعمل كدالة تجزئة (hash) لهذا النوع. |
 
 ## أمثلة
 
-دعنا نبرز عناوين الصفحة بين العناوين الأخرى بزيادة حجم الخط.
+لنُبرز عناوين الصفحة بين باقي العناوين بزيادة حجم الخط.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -55,7 +55,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// تكرار عبر عناوين الصفحة.
+// تكرّر عبر عناوين الصفحة.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -71,7 +71,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
+لنُبرز تغييرات النص الأخير عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -79,16 +79,16 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// احصل على عقد RichText المعدلة الأسبوع الماضي.
+// احصل على عقد RichText التي تم تعديلها الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // تعيين لون التظليل
+    // حدد لون التظليل
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // تعيين لون التظليل
+        // حدد لون التظليل
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }
@@ -96,7 +96,7 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-التعامل مع تنسيق النص باستخدام نمط الفقرة.
+تلاعب بتنسيق النص باستخدام نمط الفقرة.
 
 ```csharp
 var document = new Document();
@@ -117,19 +117,19 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-يعرض كيفية إدراج قائمة جديدة بترقيم صيني.
+يوضح كيفية إدراج قائمة جديدة بترقيم صيني.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
-// تهيئة صفحة OneNote.
+// تهيئة صفحة OneNote
 Page page = new Page();
 Outline outline = new Outline();
 
-// تطبيق إعدادات نمط النص.
+// تطبيق إعدادات نمط النص
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
@@ -154,7 +154,7 @@ outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -164,22 +164,22 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق النقاط
+// تهيئة كائنات فئة OutlineElement وتطبيق النقاط
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
 
-// تهيئة كائن الفئة RichText وتطبيق نمط النص
+// تهيئة كائن فئة RichText وتطبيق نمط النص
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 
@@ -201,7 +201,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 ```
@@ -211,19 +211,19 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق الترقيم.
+// تهيئة كائنات فئة OutlineElement وتطبيق الترقيم
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
@@ -248,7 +248,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```

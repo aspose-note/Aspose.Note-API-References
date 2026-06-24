@@ -1,6 +1,6 @@
 ---
 title: "Notebook.IsHistoryEnabled"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Notebook. تحصل أو تعين قيمة تشير إلى ما إذا كان السجل مفعلاً"
 type: docs
 weight: 70

@@ -1,6 +1,6 @@
 ---
 title: "ResourceSavingArgs.KeepStreamOpen"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية ResourceSavingArgs. يحصل على أو يضبط قيمة تشير إلى ما إذا كان يجب إبقاء الدفق مفتوحًا"
 type: docs
 weight: 30

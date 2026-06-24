@@ -1,7 +1,7 @@
 ---
 title: "Margins.op_Equality"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Margins. تختبر ما إذا كان هيكلا Margins اثنان متساويين"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Margins. تختبر ما إذا كان هيكلا Margins متساويين"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/margins/op_equality/
@@ -17,11 +17,11 @@ public static bool operator ==(Margins lhs, Margins rhs)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | lhs | Margins | هيكل Margins. |
-| rhs | Margins | هيكل Margins للمقارنة معه. |
+| rhs | Margins | هيكل Margins للمقارنة به. |
 
 ### قيمة الإرجاع
 
-الـ Boolean.
+القيمة المنطقية.
 
 ### انظر أيضًا
 

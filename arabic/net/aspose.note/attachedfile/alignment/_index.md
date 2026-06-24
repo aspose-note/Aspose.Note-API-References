@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.Alignment"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط المحاذاة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين المحاذاة"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/attachedfile/alignment/

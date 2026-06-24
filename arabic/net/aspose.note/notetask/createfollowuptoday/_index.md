@@ -1,6 +1,6 @@
 ---
 title: "NoteTask.CreateFollowUpToday"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTask. تنشئ مهمة ملاحظة جديدة مع أيقونة FollowUpTodayFlag"
 type: docs
 weight: 40

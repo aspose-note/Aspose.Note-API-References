@@ -1,7 +1,7 @@
 ---
 title: "TextStyle.DefaultMsOneNoteTitleTimeStyle"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية TextStyle. يحصل على النمط الافتراضي لوقت العنوان في MS OneNote"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية TextStyle. يحصل على النمط الافتراضي لوقت العنوان في MS OneNote."
 type: docs
 weight: 50
 url: /ar/net/aspose.note/textstyle/defaultmsonenotetitletimestyle/

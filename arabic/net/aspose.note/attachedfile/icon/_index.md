@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.Icon"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل على البيانات الثنائية للأيقونة المرتبطة بالملف المضمّن"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. يحصل على البيانات الثنائية للأيقونة المرتبطة بالملف المضمن"
 type: docs
 weight: 110
 url: /ar/net/aspose.note/attachedfile/icon/

@@ -1,6 +1,6 @@
 ---
 title: "الفئة InkWord"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.InkWord. تمثل عقدة حبر تحتوي على نص مكتوب يدويًا"
 type: docs
 weight: 360

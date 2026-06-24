@@ -1,7 +1,7 @@
 ---
 title: "TableCell.BackgroundColor"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "TableCell خاصية. يحصل على أو يضبط لون الخلفية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية TableCell. يحصل أو يضبط لون الخلفية"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/tablecell/backgroundcolor/
@@ -16,10 +16,10 @@ public Color BackgroundColor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين لون خلفية لخلية.
+يظهر كيفية تعيين لون خلفية للخلية.
 
 ```csharp
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 // تهيئة كائن فئة TableCell وتعيين محتوى النص
@@ -44,7 +44,7 @@ oe.AppendChildLast(table);
 Outline o = new Outline();
 o.AppendChildLast(oe);
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 page.AppendChildLast(o);
 

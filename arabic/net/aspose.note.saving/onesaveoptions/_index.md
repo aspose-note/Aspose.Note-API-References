@@ -1,14 +1,14 @@
 ---
 title: "الفئة OneSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.OneSaveOptions. يسمح بتحديد خيارات إضافية عند حفظ المستند إلى تنسيق OneNote"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Saving.OneSaveOptions. يسمح بتحديد خيارات إضافية عند حفظ المستند بتنسيق OneNote"
 type: docs
 weight: 890
 url: /ar/net/aspose.note.saving/onesaveoptions/
 ---
 ## OneSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ المستند إلى تنسيق OneNote.
+يسمح بتحديد خيارات إضافية عند حفظ المستند إلى صيغة OneNote.
 
 ```csharp
 public sealed class OneSaveOptions : SaveOptions
@@ -18,15 +18,15 @@ public sealed class OneSaveOptions : SaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [OneSaveOptions](onesaveoptions/)() | البناء الافتراضي. |
+| [OneSaveOptions](onesaveoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
 | [DocumentPassword](../../aspose.note.saving/onesaveoptions/documentpassword/) { get; set; } | يحصل أو يعيّن كلمة مرور لتشفير محتوى المستند. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط لاستخدامها أثناء الحفظ |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها المستند. |
 

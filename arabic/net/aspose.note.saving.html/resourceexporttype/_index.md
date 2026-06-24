@@ -1,7 +1,7 @@
 ---
-title: "التعداد ResourceExportType"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "التعداد Aspose.Note.Saving.Html.ResourceExportType. يعدد الطرق التي يمكن من خلالها تصدير المورد."
+title: "تعداد ResourceExportType"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Saving.Html.ResourceExportType تعداد. يعدد الطرق التي يمكن من خلالها تصدير المورد"
 type: docs
 weight: 760
 url: /ar/net/aspose.note.saving.html/resourceexporttype/

@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.CopyTo"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. تنسخ إصدارات الصفحة إلى مصفوفة بدءًا من البداية."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تنسخ إصدارات الصفحة إلى مصفوفة بدءًا من البداية"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/pagehistory/copyto/

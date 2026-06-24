@@ -1,7 +1,7 @@
 ---
 title: "Node.ParentNode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Node. يحصل على العقدة الأصلية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Node. تحصل على العقدة الأصلية"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/node/parentnode/

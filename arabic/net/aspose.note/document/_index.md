@@ -1,6 +1,6 @@
 ---
 title: "الفئة Document"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Document. تمثل مستند Aspose.Note"
 type: docs
 weight: 60
@@ -29,8 +29,8 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 | الاسم | الوصف |
 | --- | --- |
 | [AutomaticLayoutChangesDetectionEnabled](../../aspose.note/document/automaticlayoutchangesdetectionenabled/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان Aspose.Note يقوم باكتشاف تغييرات التخطيط تلقائيًا. القيمة الافتراضية هي `true`. |
-| [Color](../../aspose.note/document/color/) { get; set; } | يحصل أو يعيّن اللون. |
-| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | يحصل أو يعيّن وقت الإنشاء. |
+| [Color](../../aspose.note/document/color/) { get; set; } | يحصل على اللون أو يضبطه. |
+| [CreationTime](../../aspose.note/document/creationtime/) { get; set; } | الحصول على أو تعيين وقت الإنشاء. |
 | [DisplayName](../../aspose.note/document/displayname/) { get; set; } | يحصل أو يضبط اسم العرض. |
 | [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [FileFormat](../../aspose.note/document/fileformat/) { get; } | يحصل على تنسيق الملف (OneNote 2010، OneNote Online). |
@@ -50,10 +50,10 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 | override [Accept](../../aspose.note/document/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
 | virtual [AppendChildFirst&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildfirst/)(T1) |  |
 | virtual [AppendChildLast&lt;T1&gt;](../../aspose.note/compositenode-1/appendchildlast/)(T1) |  |
-| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | يكتشف جميع التغييرات التي تم إجراؤها على تخطيط المستند منذ الاستدعاء السابق لـ [`DetectLayoutChanges`](./detectlayoutchanges/). في حال تم تعيين [`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) إلى true، يتم استخدامها تلقائيًا في بداية تصدير المستند. |
+| [DetectLayoutChanges](../../aspose.note/document/detectlayoutchanges/)() | يكتشف جميع التغييرات التي تم إجراؤها على تخطيط المستند منذ استدعاء [`DetectLayoutChanges`](./detectlayoutchanges/) السابق. في حالة تعيين [`AutomaticLayoutChangesDetectionEnabled`](./automaticlayoutchangesdetectionenabled/) إلى true، يُستخدم تلقائيًا في بداية تصدير المستند. |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/)() |  |
 | [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() |  |
-| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | يحصل على [`PageHistory`](../pagehistory/) التي تحتوي على السجل الكامل لكل صفحة موجودة في المستند (الأقدم في الفهرس 0). يمكن الوصول إلى نسخة الصفحة الحالية عبر [`Current`](../pagehistory/current/) وتُحتفظ بها بشكل منفصل عن مجموعة الإصدارات التاريخية. |
+| [GetPageHistory](../../aspose.note/document/getpagehistory/)(Page) | يحصل على [`PageHistory`](../pagehistory/) الذي يحتوي على السجل الكامل لكل صفحة موجودة في المستند (الأقدم في الفهرس 0). يمكن الوصول إلى نسخة الصفحة الحالية عبر [`Current`](../pagehistory/current/) وتكون منفصلة عن مجموعة الإصدارات التاريخية. |
 | [Import](../../aspose.note/document/import/#import)(Stream, HtmlImportOptions, MergeOptions) | يستورد مجموعة من الصفحات من مستند HTML المقدم. |
 | [Import](../../aspose.note/document/import/#import_1)(Stream, PdfImportOptions, MergeOptions) | يستورد مجموعة من الصفحات من مستند PDF المقدم. |
 | [Import](../../aspose.note/document/import/#import_2)(string, HtmlImportOptions, MergeOptions) | يستورد مجموعة من الصفحات من مستند HTML المقدم. |
@@ -71,12 +71,12 @@ public class Document : CompositeNode<Page>, INotebookChildNode
 | [Save](../../aspose.note/document/save/#save_2)(Stream, SaveOptions) | يحفظ مستند OneNote إلى تدفق باستخدام خيارات الحفظ المحددة. |
 | [Save](../../aspose.note/document/save/#save_4)(string, SaveFormat) | يحفظ مستند OneNote إلى ملف بالتنسيق المحدد. |
 | [Save](../../aspose.note/document/save/#save_5)(string, SaveOptions) | يحفظ مستند OneNote إلى ملف باستخدام خيارات الحفظ المحددة. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
-| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل هذا المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted)(Stream, out Document) | يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_3)(string, out Document) | يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_1)(Stream, LoadOptions, out Document) | يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_2)(Stream, string, out Document) | يتحقق مما إذا كان المستند من تدفق مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_4)(string, LoadOptions, out Document) | يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
+| static [IsEncrypted](../../aspose.note/document/isencrypted/#isencrypted_5)(string, string, out Document) | يتحقق مما إذا كان المستند من ملف مشفرًا. للتحقق من ذلك نحتاج إلى تحميل المستند بالكامل. لذا قد يؤدي هذا الأسلوب إلى عقوبة في الأداء. |
 
 ## أمثلة
 
@@ -102,7 +102,7 @@ Document doc = new Document(dataDir + inputFile);
 doc.Save(dataDir + outputFile);
 ```
 
-يعرض كيفية التعامل مع مستند مشفر.
+يعرض كيفية تشفير مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -162,7 +162,7 @@ int count = oneFile.Count();
 Console.WriteLine(count);
 ```
 
-يعرض كيفية حفظ مستند بتنسيق pdf باستخدام الإعدادات الافتراضية.
+يعرض كيفية حفظ مستند بصيغة pdf باستخدام الإعدادات الافتراضية.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -176,7 +176,7 @@ dataDir = dataDir + "SaveWithDefaultSettings_out.pdf";
 oneFile.Save(dataDir, SaveFormat.Pdf);
 ```
 
-يعرض كيفية حفظ مستند بتنسيق gif.
+يعرض كيفية حفظ مستند بصيغة gif.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -187,11 +187,11 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
 
-يعرض كيفية ضبط جودة الصورة عند حفظ المستند كصورة بتنسيق JPEG.
+يعرض كيفية ضبط جودة الصورة عند حفظ المستند كصورة بصيغة JPEG.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -240,7 +240,7 @@ document.AppendChildLast(page);
 document.Save(dataDir + "Image with Hyperlink_out.one");
 ```
 
-يعرض كيفية الحصول على تنسيق الملف للمستند.
+يعرض كيفية الحصول على تنسيق ملف المستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -270,7 +270,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// أعد موضع التدفق إلى الصفر لتكون جاهزة للقارئ التالي.
+// أعد موضع التدفق إلى الصفر حتى يكون جاهزًا للقارئ التالي.
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
@@ -292,7 +292,7 @@ else
 }
 ```
 
-يوضح كيفية إضافة قسم جديد إلى الدفتر.
+يظهر كيفية إضافة قسم جديد إلى الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -332,13 +332,13 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-يعرض كيفية استعادة النسخة السابقة لصفحة.
+يعرض كيفية استعادة النسخة السابقة من الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -355,19 +355,19 @@ document.Save(dataDir + "RollBackRevisions_out.one");
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // استنساخ إلى مستند جديد بدون تاريخ
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// استنساخ إلى مستند جديد مع التاريخ
+// استنساخ إلى مستند جديد مع تاريخ
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
-يظهر كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css/خطوط/صور) في ملفات منفصلة.
+يوضح كيفية حفظ مستند بتنسيق html مع تخزين جميع الموارد (css/خطوط/صور) في ملفات منفصلة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -383,7 +383,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-يظهر كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css/خطوط/صور).
+يوضح كيفية حفظ مستند إلى تدفق بتنسيق html مع تضمين جميع الموارد (css/خطوط/صور).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -401,7 +401,7 @@ var r = new MemoryStream();
 document.Save(r, options);
 ```
 
-يظهر كيفية تعيين وصف نصي لصورة.
+يوضح كيفية تعيين وصف نصي لصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -421,7 +421,7 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-يظهر كيفية الحصول على معلومات ميتا حول صفحة.
+يوضح كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -441,7 +441,7 @@ foreach (Page page in oneFile)
 }
 ```
 
-عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق تقسيم الكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -460,7 +460,7 @@ dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorit
 doc.Save(dataDir);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق png.
+يوضح كيفية حفظ مستند بتنسيق png.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -478,7 +478,7 @@ ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
 
 dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 
-// حفظ المستند كـ PNG.
+// احفظ المستند كـ PNG.
 oneFile.Save(dataDir, opts);
 ```
 
@@ -488,7 +488,7 @@ oneFile.Save(dataDir, opts);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -509,7 +509,7 @@ if (pageHistory.Count > 1)
 }
 ```
 
-يظهر كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
+يوضح كيفية التحقق مما إذا كان المستند محميًا بكلمة مرور محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -534,7 +534,7 @@ else
 }
 ```
 
-يظهر كيفية تطبيق نمط السمة الداكنة على مستند.
+يوضح كيفية تطبيق نمط السمة الداكنة على مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -560,7 +560,7 @@ foreach (var node in doc.GetChildNodes<RichText>())
 doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 ```
 
-يوضح كيفية المرور عبر محتوى الدفتر.
+يظهر كيفية المرور عبر محتوى الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -588,7 +588,7 @@ catch (Exception ex)
 }
 ```
 
-يظهر كيفية الحصول على صورة من مستند.
+يوضح كيفية استخراج صورة من مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -597,7 +597,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// الحصول على جميع عقد Image
+// احصل على جميع عقد Image
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in nodes)
@@ -606,14 +606,14 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // حفظ بايتات الصورة إلى ملف
+            // احفظ بايتات الصورة إلى ملف
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
 }
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf.
+يوضح كيفية حفظ مستند بتنسيق pdf.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -637,7 +637,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -660,7 +660,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -681,7 +681,7 @@ document.Print(new PrintOptions()
                });
 ```
 
-يظهر كيفية الحصول على محتوى ملف مرفق.
+يوضح كيفية الحصول على محتوى ملف مرفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -693,7 +693,7 @@ Document oneFile = new Document(dataDir + "Sample1.one");
 // احصل على قائمة بعقد الملفات المرفقة
 IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
 
-// تكرار عبر جميع العقد
+// التكرار عبر جميع العقد
 foreach (AttachedFile file in nodes)
 {
     // تحميل الملف المرفق إلى كائن تدفق
@@ -709,7 +709,7 @@ foreach (AttachedFile file in nodes)
 }
 ```
 
-يظهر كيفية الحصول على معلومات ميتا للصورة.
+يوضح كيفية الحصول على معلومات ميتا للصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -718,7 +718,7 @@ string dataDir = RunExamples.GetDataDir_Images();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// الحصول على جميع عقد Image
+// احصل على جميع عقد Image
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 foreach (Aspose.Note.Image image in images)
@@ -733,13 +733,13 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى
@@ -756,25 +756,25 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-يظهر كيفية إضافة ملف إلى مستند باستخدام مسار الملف.
+يوضح كيفية إضافة ملف إلى مستند باستخدام مسار الملف.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Attachments();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تهيئة كائن فئة AttachedFile
+// تهيئة كائن الفئة AttachedFile
 AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 
 // إضافة ملف مرفق
@@ -786,7 +786,7 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
 dataDir = dataDir + "AttachFileByPath_out.one";
@@ -799,7 +799,7 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
@@ -817,12 +817,12 @@ dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-يعرض كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
+يوضح كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -835,8 +835,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // بشكل افتراضي، يتم تخطي صفحات التعارض عند الحفظ.
-    // إذا تم وضع علامة بأنها غير متعارضة، فسيتم حفظها كصفحة عادية في السجل.
+    // بشكل افتراضي يتم تخطي صفحات التعارض عند الحفظ.
+    // إذا تم وضع علامة بأنها غير متعارضة فستُحفظ كصفحة عادية في السجل.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }
@@ -844,7 +844,7 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-يظهر كيفية إضافة صورة من ملف إلى مستند مع خصائص محددة من قبل المستخدم.
+يعرض كيفية إضافة صورة من ملف إلى مستند مع خصائص معرفة من قبل المستخدم.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -867,7 +867,7 @@ Image image = new Image(dataDir + "image.jpg")
                               HorizontalOffset = 100,
                               VerticalOffset = 400,
 
-                              // ضبط محاذاة الصورة
+                              // تعيين محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 
@@ -875,27 +875,27 @@ Image image = new Image(dataDir + "image.jpg")
 page.AppendChildLast(image);
 ```
 
-يظهر كيفية إضافة ملف من تدفق إلى مستند.
+يوضح كيفية إضافة ملف من تدفق إلى مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Attachments();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    // تهيئة كائن فئة AttachedFile وتمرير مسار أيقونته أيضًا
+    // تهيئة كائن الفئة AttachedFile وتمرير مسار أيقونته أيضًا
     AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 
     // إضافة ملف مرفق
@@ -908,23 +908,23 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-يظهر كيفية إضافة صورة من الدفق إلى مستند.
+يعرض كيفية إضافة صورة من الدفق إلى مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 Outline outline1 = new Outline();
@@ -933,10 +933,10 @@ OutlineElement outlineElem1 = new OutlineElement();
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
 
-    // تحميل الصورة الثانية باستخدام اسم الصورة، الامتداد، والدفق.
+    // تحميل الصورة الثانية باستخدام اسم الصورة والامتداد والدفق.
     Image image1 = new Image("Penguins.jpg", fs)
                                    {
-                                       // ضبط محاذاة الصورة
+                                       // تعيين محاذاة الصورة
                                        Alignment = HorizontalAlignment.Right
                                    };
 
@@ -948,21 +948,21 @@ page.AppendChildLast(outline1);
 
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "BuildDocAndInsertImageUsingImageStream_out.one";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إنشاء مستند بصفحة معنونة.
+يوضح كيفية إنشاء مستند بصفحة ذات عنوان.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // النمط الافتراضي لجميع النصوص في المستند.
@@ -976,15 +976,15 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة Page في المستند
+// إضافة عقدة Page إلى المستند
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
 
-عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بصيغة pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -1012,28 +1012,28 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-يظهر كيفية إضافة صورة من ملف إلى مستند.
+يعرض كيفية إضافة صورة من ملف إلى مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Images();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // تهيئة كائن فئة Outline وتعيين خصائص الإزاحة
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تحميل صورة عبر مسار الملف.
+// تحميل صورة باستخدام مسار الملف.
 Image image = new Image(dataDir + "image.jpg")
                           {
-                              // ضبط محاذاة الصورة
+                              // تعيين محاذاة الصورة
                               Alignment = HorizontalAlignment.Right
                           };
 
@@ -1049,7 +1049,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "BuildDocAndInsertImage_out.one";
 doc.Save(dataDir);
 ```
@@ -1060,7 +1060,7 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
@@ -1083,28 +1083,28 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-يظهر كيفية إنشاء مستند بنص.
+يعرض كيفية إنشاء مستند بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائن الفئة RichText وتطبيق نمط النص
+// تهيئة كائن فئة RichText وتطبيق نمط النص
 RichText text = new RichText() { Text = "Hello OneNote text!", ParagraphStyle = textStyle };
 
 // إضافة عقدة RichText
@@ -1119,7 +1119,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithSimpleRichText_out.one";
 doc.Save(dataDir);
 ```
@@ -1145,10 +1145,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة الصفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote بصيغ مختلفة، ضبط حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
+// احفظ مستند OneNote بصيغ مختلفة، اضبط حجم خط النص واكتشف تغييرات التخطيط يدويًا.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            
@@ -1157,11 +1157,11 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-يظهر كيفية حفظ مستند بتنسيق HTML مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
+يعرض كيفية حفظ مستند بصيغة html مع تخزين جميع الموارد (css/خطوط/صور) باستخدام ردود نداء معرفة من قبل المستخدم.
 
 ```csharp
 // الكود أدناه ينشئ مجلد 'documentFolder' يحتوي على document.html، ومجلد 'css' به ملف 'style.css'، ومجلد 'images' يحتوي على صور، ومجلد 'fonts' يحتوي على خطوط.
-// 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
+// ملف 'style.css' سيحتوي في النهاية على السلسلة التالية "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
                               RootFolder = "documentFolder",
@@ -1198,13 +1198,13 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 }
 ```
 
-يظهر كيفية ربط ارتباط تشعبي بنص.
+يعرض كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -1243,7 +1243,7 @@ outline.AppendChildLast(outlineElem);
 // تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Note.Page() { Title = title };
 
 // إضافة عقدة المخطط
@@ -1252,12 +1252,12 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-يعرض كيفية الوصول إلى محتوى مستند باستخدام الزائر.
+يظهر كيفية الوصول إلى محتوى مستند باستخدام الزائر.
 
 ```csharp
 public static void Run()
@@ -1268,15 +1268,15 @@ public static void Run()
     // افتح المستند الذي نريد تحويله.
     Document doc = new Document(dataDir + "Aspose.one");
 
-    // أنشئ كائنًا يرث من الفئة DocumentVisitor.
+    // أنشئ كائنًا يرث من الفئة **DocumentVisitor**.
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // هذا هو نمط الزائر المعروف. اجعل النموذج يقبل زائرًا.
+    // هذا هو نمط Visitor المعروف جيدًا. اجعل النموذج يقبل زائرًا.
     // سيقوم النموذج بالتكرار على نفسه عن طريق استدعاء الطرق المقابلة
-    // على كائن الزائر (يُطلق على ذلك زيارة).
+    // على كائن الزائر (هذا ما يُسمى بالزيارة).
     //
-    // لاحظ أن كل عقدة في نموذج الكائن لديها طريقة Accept بحيث يمكن للزيارة
-    // يمكن تنفيذها ليس فقط للمستند بالكامل، بل لأي عقدة في المستند.
+    // لاحظ أن كل عقدة في نموذج الكائن لديها طريقة Accept لذا يمكن تنفيذ الزيارة
+    // ليس فقط للمستند الكامل، بل لأي عقدة في المستند.
     doc.Accept(myConverter);
 
     // بمجرد اكتمال الزيارة، يمكننا استرجاع نتيجة العملية،
@@ -1286,7 +1286,7 @@ public static void Run()
 }
 
 /// <summary>
-/// تنفيذ بسيط لحفظ مستند بتنسيق النص العادي. تم تنفيذها كزائر.
+/// تنفيذ بسيط لحفظ مستند بتنسيق النص العادي. تم تنفيذها كـ Visitor.
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -1306,7 +1306,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يضيف نصًا إلى الإخراج الحالي. يراعي علامة الإخراج المفعلة/المعطلة.
+    /// يضيف نصًا إلى الإخراج الحالي. يراعي علم الإخراج المفعّل/المعطّل.
     /// </summary>
     private void AppendText(string text)
     {
@@ -1343,7 +1343,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يُستدعى عند انتهاء معالجة عقدة Page.
+    /// يُستدعى عندما ينتهي معالجة عقدة Page.
     /// </summary>
     public override void VisitPageEnd(Page page)
     {
@@ -1391,7 +1391,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على العدد الإجمالي للعقد بواسطة الزائر
+    /// يحصل على العدد الكلي للعقد بواسطة Visitor
     /// </summary>
     public Int32 NodeCount
     {

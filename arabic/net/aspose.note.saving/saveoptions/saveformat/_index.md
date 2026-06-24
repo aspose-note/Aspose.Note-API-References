@@ -1,6 +1,6 @@
 ---
 title: "SaveOptions.SaveFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية SaveOptions. يحصل على الصيغة التي يُحفظ بها المستند"
 type: docs
 weight: 40

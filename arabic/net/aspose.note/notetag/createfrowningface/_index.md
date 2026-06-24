@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateFrowningFace"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز FrowningFace والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة FrowningFace والملصق المحدد"
 type: docs
 weight: 340
 url: /ar/net/aspose.note/notetag/createfrowningface/
 ---
 ## NoteTag.CreateFrowningFace method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة FrowningFace والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة FrowningFace وملصق محدد.
 
 ```csharp
 public static NoteTag CreateFrowningFace(string label = "")

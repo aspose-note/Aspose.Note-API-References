@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateDollarSign"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة DollarSign وملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة DollarSign والملصق المحدد"
 type: docs
 weight: 320
 url: /ar/net/aspose.note/notetag/createdollarsign/
 ---
 ## NoteTag.CreateDollarSign method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة DollarSign والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة DollarSign وملصق محدد.
 
 ```csharp
 public static NoteTag CreateDollarSign(string label = "")

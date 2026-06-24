@@ -1,6 +1,6 @@
 ---
 title: "ImageSaveOptions.ImageSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "منشئ ImageSaveOptions. يهيئ مثيلًا جديدًا من فئة ImageSaveOptions"
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ public ImageSaveOptions(SaveFormat format)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تنسيق | SaveFormat | الصيغة التي يُحفظ بها المستند. |
+| تنسيق | SaveFormat | التنسيق الذي يُحفظ به المستند. |
 
 ### انظر أيضًا
 

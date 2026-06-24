@@ -1,14 +1,14 @@
 ---
 title: "Image.Tags"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Image. تحصل على قائمة بجميع العلامات في الفقرة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Image. تحصل على قائمة بجميع وسوم الفقرة"
 type: docs
 weight: 160
 url: /ar/net/aspose.note/image/tags/
 ---
 ## Image.Tags property
 
-يحصل على قائمة جميع العلامات في الفقرة.
+يحصل على قائمة بجميع العلامات في الفقرة.
 
 ```csharp
 public List<ITag> Tags { get; }
@@ -16,28 +16,28 @@ public List<ITag> Tags { get; }
 
 ## أمثلة
 
-يعرض كيفية إضافة صورة جديدة مع علامة.
+يوضح كيفية إضافة صورة جديدة مع علامة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tags();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن فئة OutlineElement
+// تهيئة كائن الفئة OutlineElement
 OutlineElement outlineElem = new OutlineElement();
 
-// تحميل صورة.
+// تحميل صورة
 Image image = new Image(dataDir + "icon.jpg");
 
-// إدراج صورة في عقدة المستند.
+// إدراج صورة في عقدة المستند
 outlineElem.AppendChildLast(image);
 image.Tags.Add(NoteTag.CreateYellowStar());
 
@@ -47,10 +47,10 @@ outline.AppendChildLast(outlineElem);
 // إضافة عقدة المخطط
 page.AppendChildLast(outline);
 
-// إضافة عقدة صفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```

@@ -1,14 +1,14 @@
 ---
 title: "الفئة PdfImporter"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Importing.PdfImporter. الفئة التي توفر واجهة برمجة تطبيقات لاستيراد المحتوى من المستندات بصيغة PDF. تسمح الواجهة باستيراد مستند PDF موجود إما في ملف أو في تدفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدام PdfImportOptions"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Importing.PdfImporter. الفئة التي توفر واجهة برمجة تطبيقات لاستيراد المحتوى من المستندات بتنسيق PDF. تسمح الواجهة باستيراد مستند PDF موجود إما في ملف أو في تدفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدام PdfImportOptions"
 type: docs
 weight: 290
 url: /ar/net/aspose.note.importing/pdfimporter/
 ---
 ## PdfImporter class
 
-الفئة التي توفر واجهة برمجة تطبيقات لاستيراد المحتوى من المستندات بصيغة PDF. تسمح الواجهة باستيراد مستند PDF موجود إما في ملف أو في تدفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدام [`PdfImportOptions`](../pdfimportoptions/).
+الفئة التي توفر واجهة برمجة تطبيقات لاستيراد المحتوى من المستندات بتنسيق PDF. تسمح الواجهة باستيراد مستند PDF موجود إما في ملف أو في تدفق باستخدام الخيارات المحددة. يتم تمرير خيارات الاستيراد باستخدام [`PdfImportOptions`](../pdfimportoptions/).
 
 ```csharp
 public static class PdfImporter
@@ -18,12 +18,12 @@ public static class PdfImporter
 
 | الاسم | الوصف |
 | --- | --- |
-| static [Import](../../aspose.note.importing/pdfimporter/import/#import)(Stream, PdfImportOptions) | يستورد محتوى مستند PDF من تدفق مُقدم. |
+| static [Import](../../aspose.note.importing/pdfimporter/import/#import)(Stream, PdfImportOptions) | يستورد محتوى مستند PDF من تدفق مُقدَّم. |
 | static [Import](../../aspose.note.importing/pdfimporter/import/#import_1)(string, PdfImportOptions) | يستورد محتوى مستند PDF من ملف محدد. |
 
 ## أمثلة
 
-يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات إلى صفحة OneNote واحدة.
+يعرض كيفية استيراد جميع الصفحات من مستند PDF مع تجميع كل 5 صفحات في صفحة OneNote واحدة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();

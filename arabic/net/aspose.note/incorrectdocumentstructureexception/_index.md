@@ -1,6 +1,6 @@
 ---
 title: "الفئة IncorrectDocumentStructureException"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.IncorrectDocumentStructureException. يتم إلقاؤها إذا كان المستند الذي أنشأه المستخدم يحتوي على بنية غير صحيحة"
 type: docs
 weight: 300

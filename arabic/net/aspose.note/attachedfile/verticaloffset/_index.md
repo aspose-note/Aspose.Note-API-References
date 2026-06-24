@@ -1,6 +1,6 @@
 ---
 title: "AttachedFile.VerticalOffset"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية AttachedFile. يحصل أو يضبط الإزاحة العمودية"
 type: docs
 weight: 210

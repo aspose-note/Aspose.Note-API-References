@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.FileName"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل على اسم الملف المضمّن"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. يحصل على اسم الملف المضمّن."
 type: docs
 weight: 70
 url: /ar/net/aspose.note/attachedfile/filename/

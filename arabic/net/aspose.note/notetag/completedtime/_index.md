@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CompletedTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteTag خاصية. يحصل أو يضبط الوقت المكتمل"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NoteTag. تحصل أو تعين وقت الانتهاء"
 type: docs
 weight: 1130
 url: /ar/net/aspose.note/notetag/completedtime/
 ---
 ## NoteTag.CompletedTime property
 
-يحصل أو يعيّن وقت الإكمال.
+الحصول على أو تعيين وقت الانتهاء.
 
 ```csharp
 public DateTime? CompletedTime { get; }
@@ -16,7 +16,7 @@ public DateTime? CompletedTime { get; }
 
 ### Property Value
 
-القابل للإلغاء.
+ال Nullable.
 
 ### انظر أيضًا
 

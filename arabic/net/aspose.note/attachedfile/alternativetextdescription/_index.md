@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.AlternativeTextDescription"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط نصًا بديلًا للجسم لأيقونة الملف المرفق"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين نص بديل للجسم لأيقونة الملف المرفق"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/attachedfile/alternativetextdescription/

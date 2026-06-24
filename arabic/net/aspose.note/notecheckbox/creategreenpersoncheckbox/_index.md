@@ -1,14 +1,14 @@
 ---
 title: "NoteCheckBox.CreateGreenPersonCheckBox"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteCheckBox. ينشئ مربع اختيار ملاحظة جديد مع أيقونة GreenPersonCheckBoxEmpty والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteCheckBox. تنشئ خانة ملاحظة جديدة مع أيقونة GreenPersonCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 160
 url: /ar/net/aspose.note/notecheckbox/creategreenpersoncheckbox/
 ---
 ## NoteCheckBox.CreateGreenPersonCheckBox method
 
-ينشئ مربع اختيار ملاحظة جديد مع أيقونة GreenPersonCheckBoxEmpty والملصق المحدد.
+ينشئ مربع اختيار ملاحظة جديد بأيقونة GreenPersonCheckBoxEmpty والملصق المحدد.
 
 ```csharp
 public static NoteCheckBox CreateGreenPersonCheckBox(string label = "")

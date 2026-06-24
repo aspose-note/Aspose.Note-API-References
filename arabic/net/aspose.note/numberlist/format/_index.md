@@ -1,7 +1,7 @@
 ---
 title: "NumberList.Format"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NumberList خاصية. يحصل أو يضبط تنسيق رأس السطر. للقوائم النقطية يمثل رمزًا نقطيًا"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NumberList. تحصل أو تعيين تنسيق رأس السطر. بالنسبة للقوائم ذات النقاط تمثل رمزًا نقطيًا"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/numberlist/format/
@@ -16,7 +16,7 @@ public string Format { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استرجاع معلومات حول تنسيق القائمة.
+يعرض كيفية استرجاع معلومات تنسيق القائمة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -24,7 +24,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// استرجاع مجموعة العقد لعنصر المخطط.
+// استرجاع مجموعة العقد لعنصر المخطط
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
 // تكرار عبر كل عقدة
@@ -49,10 +49,10 @@ foreach (OutlineElement node in nodes)
         // استرجاع التنسيق
         Console.WriteLine("Font format: " + list.Format);
 
-        // التحقق من الغامق
+        // تحقق من الغامق
         Console.WriteLine("Is bold: " + list.IsBold);
 
-        // التحقق من المائل
+        // تحقق من المائل
         Console.WriteLine("Is italic: " + list.IsItalic);
         Console.WriteLine();
     }

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.Icon"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NoteTag. تحصل أو تعين الرمز"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NoteTag. تحصل أو تعين الأيقونة"
 type: docs
 weight: 1170
 url: /ar/net/aspose.note/notetag/icon/
 ---
 ## NoteTag.Icon property
 
-يحصل أو يعيّن الأيقونة.
+الحصول على أو تعيين الأيقونة.
 
 ```csharp
 public TagIcon Icon { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "LoadOptions.LoadOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "LoadOptions منشئ. المنشئ الافتراضي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ LoadOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/loadoptions/loadoptions/
 ---
 ## LoadOptions constructor
 
-البناء الافتراضي.
+الباني الافتراضي.
 
 ```csharp
 public LoadOptions()

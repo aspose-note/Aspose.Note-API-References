@@ -1,7 +1,7 @@
 ---
 title: "NoteCheckBox.Label"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteCheckBox خاصية. يحصل أو يعيّن نص الملصق"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "NoteCheckBox خاصية. يحصل أو يضبط نص التسمية"
 type: docs
 weight: 300
 url: /ar/net/aspose.note/notecheckbox/label/

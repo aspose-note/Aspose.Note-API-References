@@ -1,7 +1,7 @@
 ---
 title: "Page.Author"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Page. يحصل أو يحدد المؤلف"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Page. تحصل أو تعيين المؤلف"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/page/author/
@@ -16,7 +16,7 @@ public string Author { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على معلومات ميتا حول صفحة.
+يوضح كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -36,13 +36,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى

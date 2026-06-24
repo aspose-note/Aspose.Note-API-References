@@ -1,6 +1,6 @@
 ---
 title: "ImageSavingArgs.ImageType"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية ImageSavingArgs. يحصل على نوع الصورة التي سيتم حفظها"
 type: docs
 weight: 10

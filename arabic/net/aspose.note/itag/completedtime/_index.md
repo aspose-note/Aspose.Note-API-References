@@ -1,14 +1,14 @@
 ---
 title: "ITag.CompletedTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "ITag property. يحصل أو يضبط وقت الانتهاء"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ITag. تحصل أو تعين وقت الإكمال"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/itag/completedtime/
 ---
 ## ITag.CompletedTime property
 
-يحصل أو يعيّن وقت الإكمال.
+الحصول على أو تعيين وقت الانتهاء.
 
 ```csharp
 public DateTime? CompletedTime { get; }
@@ -16,7 +16,7 @@ public DateTime? CompletedTime { get; }
 
 ### Property Value
 
-القابل للإلغاء.
+ال Nullable.
 
 ## أمثلة
 
@@ -52,7 +52,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-يظهر كيفية الوصول إلى تفاصيل العلامة.
+يعرض كيفية الوصول إلى تفاصيل العلامة.
 
 ```csharp
 // المسار إلى دليل المستندات.

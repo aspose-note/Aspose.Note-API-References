@@ -1,6 +1,6 @@
 ---
 title: "Outline.MaxWidth"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Outline. تحصل أو تعين الحد الأقصى للعرض"
 type: docs
 weight: 60

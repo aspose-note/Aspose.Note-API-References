@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateBlueSquare"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlueSquare والملصق المحدد"
 type: docs
 weight: 150
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createbluesquare/
 ---
 ## NoteTag.CreateBlueSquare method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة BlueSquare والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueSquare وملصق محدد.
 
 ```csharp
 public static NoteTag CreateBlueSquare(string label = "")

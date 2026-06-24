@@ -1,7 +1,7 @@
 ---
 title: "الفئة InkDrawing"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "فئة Aspose.Note.InkDrawing. تمثل عقدة حبر تحتوي على أي محتوى مرسوم."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.InkDrawing. تمثل عقدة حبر تحتوي على أي محتوى مرسوم."
 type: docs
 weight: 330
 url: /ar/net/aspose.note/inkdrawing/

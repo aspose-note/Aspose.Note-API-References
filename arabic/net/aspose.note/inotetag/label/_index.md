@@ -1,7 +1,7 @@
 ---
 title: "INoteTag.Label"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية INoteTag. يحصل أو يضبط نص التسمية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية INoteTag. يحصل أو يعيّن نص التسمية"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/inotetag/label/

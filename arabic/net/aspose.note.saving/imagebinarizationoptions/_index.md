@@ -1,14 +1,14 @@
 ---
 title: "الفئة ImageBinarizationOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.ImageBinarizationOptions. خيارات لتصنيف الصور إلى ثنائي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Saving.ImageBinarizationOptions class. خيارات لتصنيف الصور إلى ثنائية"
 type: docs
 weight: 790
 url: /ar/net/aspose.note.saving/imagebinarizationoptions/
 ---
 ## ImageBinarizationOptions class
 
-خيارات لتصنيف الصورة إلى ثنائي.
+خيارات ثنائية الصورة.
 
 ```csharp
 public class ImageBinarizationOptions
@@ -18,7 +18,7 @@ public class ImageBinarizationOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [ImageBinarizationOptions](imagebinarizationoptions/)() | البناء الافتراضي. |
+| [ImageBinarizationOptions](imagebinarizationoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 
@@ -29,7 +29,7 @@ public class ImageBinarizationOptions
 
 ## أمثلة
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -40,7 +40,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -51,7 +51,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -62,7 +62,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,

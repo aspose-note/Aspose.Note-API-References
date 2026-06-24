@@ -1,7 +1,7 @@
 ---
 title: "Document.Save"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Document. تحفظ مستند OneNote إلى ملف"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Document. يحفظ مستند OneNote إلى ملف"
 type: docs
 weight: 140
 url: /ar/net/aspose.note/document/save/
@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 
 ### استثناءات
 
@@ -56,7 +56,7 @@ public void Save(Stream stream)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
+| تدفق | Stream | تدفق System.IO.Stream حيث سيتم حفظ المستند. |
 
 ### استثناءات
 
@@ -83,7 +83,7 @@ public void Save(string fileName, SaveFormat format)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 | تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
@@ -107,7 +107,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, SaveFormat.One);
 ```
 
-يعرض كيفية حفظ مستند بتنسيق gif.
+يعرض كيفية حفظ مستند بصيغة gif.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -118,7 +118,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToImageDefaultOptions_out.gif";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, SaveFormat.Gif);
 ```
 
@@ -141,7 +141,7 @@ public void Save(Stream stream, SaveFormat format)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
+| تدفق | Stream | تدفق System.IO.Stream حيث سيتم حفظ المستند. |
 | تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
@@ -153,7 +153,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ## أمثلة
 
-يعرض كيفية تحويل مستند OneNote إلى تنسيق HTML.
+يوضح كيفية تحويل مستند OneNote إلى صيغة HTML.
 
 ```csharp
 var dataDir = RunExamples.GetDataDir_Conversion_Html();
@@ -166,7 +166,7 @@ var doc = new Document(oneFilePath);
 doc.Save(htmlFilePath, SaveFormat.Html);
 ```
 
-يعرض كيفية حفظ مستند بتنسيق pdf باستخدام الإعدادات الافتراضية.
+يعرض كيفية حفظ مستند بصيغة pdf باستخدام الإعدادات الافتراضية.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -192,11 +192,11 @@ Document doc = new Document(dataDir + "Aspose.one");
 MemoryStream dstStream = new MemoryStream();
 doc.Save(dstStream, SaveFormat.Pdf);
 
-// أعد موضع التدفق إلى الصفر لتكون جاهزة للقارئ التالي.
+// أعد موضع التدفق إلى الصفر حتى يكون جاهزًا للقارئ التالي.
 dstStream.Seek(0, SeekOrigin.Begin);
 ```
 
-يعرض كيفية تحويل مستند OneNote إلى تنسيق Markdown.
+يوضح كيفية تحويل مستند OneNote إلى صيغة Markdown.
 
 ```csharp
 var dataDir = RunExamples.GetDataDir_Conversion_Markdown();
@@ -215,7 +215,7 @@ Converter.ConvertHTML(htmlFilePath, new MarkdownSaveOptions(), mdFilePath);
 Console.WriteLine("\nOneNote document converted to Markdown successfully.");
 ```
 
-يظهر كيفية تطبيق نمط السمة الداكنة على مستند.
+يوضح كيفية تطبيق نمط السمة الداكنة على مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -260,7 +260,7 @@ public void Save(string fileName, SaveOptions options)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 | خيارات | SaveOptions | يحدد الخيارات التي يتم حفظ المستند بها في الملف. |
 
 ### استثناءات
@@ -284,7 +284,7 @@ Document document = new Document(dataDir + inputFile);
 document.Save(dataDir + outputFile, new OneSaveOptions());
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Jpeg باستخدام SaveFormat.
+يوضح كيفية حفظ المستند كصورة بتنسيق Jpeg باستخدام SaveFormat.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -299,7 +299,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Bmp باستخدام ImageSaveOptions.
+يوضح كيفية حفظ المستند كصورة بتنسيق Bmp باستخدام ImageSaveOptions.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -314,7 +314,7 @@ dataDir = dataDir + "SaveToBmpImageUsingImageSaveOptions_out.bmp";
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -329,7 +329,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -344,7 +344,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتدرج الرمادي.
+يوضح كيفية حفظ المستند كصورة بتدرج الرمادي.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -355,14 +355,14 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -380,7 +380,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -399,7 +399,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -418,7 +418,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf.
+يوضح كيفية حفظ مستند بتنسيق pdf.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -442,7 +442,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -465,7 +465,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -476,7 +476,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -487,7 +487,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -498,7 +498,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,
@@ -529,8 +529,8 @@ public void Save(Stream stream, SaveOptions options)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | System.IO.Stream حيث سيتم حفظ المستند. |
-| خيارات | SaveOptions | يحدد الخيارات التي يتم بها حفظ المستند في التدفق. |
+| تدفق | Stream | تدفق System.IO.Stream حيث سيتم حفظ المستند. |
+| خيارات | SaveOptions | يحدد الخيارات التي يتم بها حفظ المستند في الدفق. |
 
 ### استثناءات
 

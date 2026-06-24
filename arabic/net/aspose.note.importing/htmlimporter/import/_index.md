@@ -1,7 +1,7 @@
 ---
 title: "HtmlImporter.Import"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة HtmlImporter. تستورد محتوى مستند HTML من ملف محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "HtmlImporter طريقة. يستورد محتوى مستند HTML من ملف محدد"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.importing/htmlimporter/import/
@@ -35,7 +35,7 @@ public static List<Page> Import(string file, HtmlImportOptions options = null)
 
 ## Import(Stream, HtmlImportOptions) {#import}
 
-يستورد محتوى مستند HTML من تدفق مُقدم.
+يستورد محتوى مستند HTML من تدفق مُقدَّم.
 
 ```csharp
 public static List<Page> Import(Stream stream, HtmlImportOptions options = null)
@@ -43,7 +43,7 @@ public static List<Page> Import(Stream stream, HtmlImportOptions options = null)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | خيارات | HtmlImportOptions | الخيارات. |
 
 ### قيمة الإرجاع

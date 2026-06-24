@@ -1,6 +1,6 @@
 ---
 title: "الفئة ImageSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Saving.ImageSaveOptions. تسمح بتحديد خيارات إضافية عند تحويل صفحات المستند إلى صور"
 type: docs
 weight: 800
@@ -18,25 +18,25 @@ public class ImageSaveOptions : SaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | يُنشئ مثيلاً جديداً من الفئة `ImageSaveOptions`. |
+| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | ينشئ مثيلاً جديداً من الفئة `ImageSaveOptions`. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions/) { get; set; } | يحصل أو يضبط خيارات تحويل الصورة إلى ثنائية. |
-| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode/) { get; set; } | يحصل أو يضبط [`ColorMode`](./colormode/) للصورة الناتجة. |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند. |
+| [BinarizationOptions](../../aspose.note.saving/imagesaveoptions/binarizationoptions/) { get; set; } | يحصل أو يعيّن خيارات تحويل الصورة إلى ثنائية. |
+| [ColorMode](../../aspose.note.saving/imagesaveoptions/colormode/) { get; set; } | يحصل أو يعيّن [`ColorMode`](./colormode/) للصورة الناتجة. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط لاستخدامها أثناء الحفظ |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0. |
-| [Quality](../../aspose.note.saving/imagesaveoptions/quality/) { get; set; } | يحصل أو يضبط قيمة تحدد جودة الصورة المحفوظة. تُمرّر هذه القيمة إلى الترميز كمعامل System.Drawing.Imaging.Encoder.Quality. |
-| [Resolution](../../aspose.note.saving/imagesaveoptions/resolution/) { get; set; } | يحصل أو يضبط الدقة للصور المُولَّدة، بوحدة النقاط في البوصة. |
+| [Quality](../../aspose.note.saving/imagesaveoptions/quality/) { get; set; } | يحصل أو يعيّن قيمة تحدد جودة الصورة المحفوظة. تُمرّر هذه القيمة إلى برنامج الترميز كمعامل System.Drawing.Imaging.Encoder.Quality. |
+| [Resolution](../../aspose.note.saving/imagesaveoptions/resolution/) { get; set; } | يحصل أو يعيّن الدقة للصور المُولَّدة، بوحدة النقاط في البوصة. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها المستند. |
-| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression/) { get; set; } | يحصل أو يضبط نوع الضغط المستخدم عند حفظ الصور المُولَّدة بتنسيق TIFF. |
+| [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression/) { get; set; } | يحصل أو يعيّن نوع الضغط المستخدم عند حفظ الصور المُولَّدة بتنسيق TIFF. |
 
 ## أمثلة
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Jpeg باستخدام SaveFormat.
+يوضح كيفية حفظ المستند كصورة بتنسيق Jpeg باستخدام SaveFormat.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -51,7 +51,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
-يعرض كيفية ضبط جودة الصورة عند حفظ المستند كصورة بتنسيق JPEG.
+يعرض كيفية ضبط جودة الصورة عند حفظ المستند كصورة بصيغة JPEG.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -66,7 +66,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Bmp باستخدام ImageSaveOptions.
+يوضح كيفية حفظ المستند كصورة بتنسيق Bmp باستخدام ImageSaveOptions.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -96,7 +96,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتدرج الرمادي.
+يوضح كيفية حفظ المستند كصورة بتدرج الرمادي.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -107,14 +107,14 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.GrayScale
                           });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -132,7 +132,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ الدفتر كصورة مع الخيارات المحددة.
+يظهر كيفية حفظ الدفتر كصورة مع خيارات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -153,7 +153,7 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -172,7 +172,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يوضح كيفية حفظ الدفتر المسطح كصورة.
+يظهر كيفية حفظ دفتر مسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -194,7 +194,7 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -213,7 +213,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ مستند بتنسيق png.
+يوضح كيفية حفظ مستند بتنسيق png.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -231,11 +231,11 @@ ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
 
 dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 
-// حفظ المستند كـ PNG.
+// احفظ المستند كـ PNG.
 oneFile.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام طريقة Otsu.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -246,7 +246,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         {
                             ColorMode = ColorMode.BlackAndWhite,
@@ -257,7 +257,7 @@ oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                         });
 ```
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -268,7 +268,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,

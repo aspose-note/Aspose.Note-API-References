@@ -1,14 +1,14 @@
 ---
 title: "ImageSaveOptions.TiffCompression"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية ImageSaveOptions. يحصل أو يضبط نوع الضغط الذي يُستخدم عند حفظ الصور المُولَّدة بتنسيق TIFF"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ImageSaveOptions. تحصل أو تعيين نوع الضغط المستخدم عند حفظ الصور المولدة بتنسيق TIFF"
 type: docs
 weight: 60
 url: /ar/net/aspose.note.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-يحصل أو يضبط نوع الضغط المستخدم عند حفظ الصور المُولَّدة بتنسيق TIFF.
+يحصل أو يعيّن نوع الضغط المستخدم عند حفظ الصور المُولَّدة بتنسيق TIFF.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -16,7 +16,7 @@ public TiffCompression TiffCompression { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط PackBits.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -34,7 +34,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -53,7 +53,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط CCITT Group 3 fax.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط الفاكس CCITT Group 3.
 
 ```csharp
 // المسار إلى دليل المستندات.

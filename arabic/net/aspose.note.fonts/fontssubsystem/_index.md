@@ -1,7 +1,7 @@
 ---
 title: "الفئة FontsSubsystem"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Fonts.FontsSubsystem. الفئة الأساسية التي تنفّذ واجهة Aspose.Note.Fonts.IFontsSubsystem. توفر وظائف للخط الافتراضي واستبدالات الخطوط. قم بتجاوز الدالة المحمية Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily في فئة مشتقة لتنفيذ المنطق الخاص باسترجاع كائن FontFamily."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Fonts.FontsSubsystem. الفئة الأساسية التي تنفّذ واجهة Aspose.Note.Fonts.IFontsSubsystem. توفر وظائف للخط الافتراضي واستبدالات الخطوط. قم بتجاوز الدالة المحمية Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily في فئة مشتقة لتنفيذ منطق استرجاع كائن FontFamily."
 type: docs
 weight: 110
 url: /ar/net/aspose.note.fonts/fontssubsystem/

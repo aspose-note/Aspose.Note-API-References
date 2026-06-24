@@ -1,14 +1,14 @@
 ---
 title: "PrintOptions.DocumentName"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "PrintOptions property. يحصل أو يعيّن اسم المستند لعرضه على سبيل المثال في مربع حوار حالة الطباعة أو طابور الطابعة أثناء طباعة المستند"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "PrintOptions الخاصية. يحصل أو يعيّن اسم المستند لعرضه على سبيل المثال في مربع حوار حالة الطباعة أو طابور الطابعة أثناء طباعة المستند"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/printoptions/documentname/
 ---
 ## PrintOptions.DocumentName property
 
-يحصل أو يعيّن اسم المستند للعرض (على سبيل المثال، في مربع حوار حالة الطباعة أو في طابور الطابعة) أثناء طباعة المستند.
+يحصل أو يعيّن اسم المستند للعرض (على سبيل المثال، في مربع حوار حالة الطباعة أو طابور الطابعة) أثناء طباعة المستند.
 
 ```csharp
 public string DocumentName { get; set; }
@@ -16,7 +16,7 @@ public string DocumentName { get; set; }
 
 ## أمثلة
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.

@@ -1,7 +1,7 @@
 ---
 title: "RichText.SpaceAfter"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية RichText. يحصل أو يضبط الحد الأدنى للمسافة بعد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية RichText. يحصل أو يحدد الحد الأدنى للمسافة بعد"
 type: docs
 weight: 100
 url: /ar/net/aspose.note/richtext/spaceafter/

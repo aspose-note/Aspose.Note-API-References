@@ -1,7 +1,7 @@
 ---
 title: "Loop.Link"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Loop. تحصل أو تعين الرابط"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Loop. تحصل أو تعيّن الرابط"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/loop/link/

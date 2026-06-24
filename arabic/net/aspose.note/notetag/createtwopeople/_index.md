@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateTwoPeople"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة TwoPeople والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة TwoPeople والملصق المحدد"
 type: docs
 weight: 920
 url: /ar/net/aspose.note/notetag/createtwopeople/
 ---
 ## NoteTag.CreateTwoPeople method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة TwoPeople والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة TwoPeople وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateTwoPeople(string label = "")

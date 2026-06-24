@@ -1,14 +1,14 @@
 ---
 title: "PrintOptions.PageSplittingAlgorithm"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "PrintOptions property. يحصل أو يعيّن الخوارزمية المستخدمة لتقسيم الصفحات"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "PrintOptions الخاصية. يحصل أو يعيّن الخوارزمية المستخدمة لتقسيم الصفحات"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/printoptions/pagesplittingalgorithm/
 ---
 ## PrintOptions.PageSplittingAlgorithm property
 
-يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات.
+يحصل أو يعيّن الخوارزمية المستخدمة لتقسيم الصفحات.
 
 ```csharp
 public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
@@ -20,7 +20,7 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 
 ## أمثلة
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.

@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Clear"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. تُمسح تاريخ الصفحة."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تمسح سجل الصفحات"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/pagehistory/clear/

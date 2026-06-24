@@ -1,14 +1,14 @@
 ---
 title: "PdfSaveOptions.ImageCompression"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية PdfSaveOptions. تحصل أو تعين نوع الضغط المطبق على الصور في ملف PDF"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية PdfSaveOptions. يحصل أو يضبط نوع الضغط المطبق على الصور في ملف PDF"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property
 
-يحصل أو يضبط نوع الضغط المطبق على الصور في ملف PDF.
+يحصل أو يعيّن نوع الضغط المطبق على الصور في ملف PDF.
 
 ```csharp
 public PdfImageCompression ImageCompression { get; set; }
@@ -16,7 +16,7 @@ public PdfImageCompression ImageCompression { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.

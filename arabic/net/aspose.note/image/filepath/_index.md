@@ -1,6 +1,6 @@
 ---
 title: "Image.FilePath"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Image. تحصل على مسار ملف الصورة"
 type: docs
 weight: 70

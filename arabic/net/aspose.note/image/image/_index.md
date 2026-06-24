@@ -1,14 +1,14 @@
 ---
 title: "Image.Image"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ Image. يهيئ نسخة جديدة من الفئة Image"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ Image. ينشئ مثيلاً جديداً من الفئة Image"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/image/image/
 ---
 ## Image(string) {#constructor_1}
 
-يهيئ نسخة جديدة من الفئة [`Image`](../).
+ينشئ مثيلاً جديداً من الفئة [`Image`](../).
 
 ```csharp
 public Image(string path)
@@ -16,7 +16,7 @@ public Image(string path)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | سلسلة نصية تحتوي على المسار إلى الملف الذي يتم إنشاء [`Image`](../) منه. |
+| path | String | سلسلة تحتوي على المسار إلى الملف الذي يُستخدم لإنشاء الـ [`Image`](../). |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public Image(string path)
 
 ## Image(string, string, string) {#constructor_3}
 
-يهيئ نسخة جديدة من الفئة [`Image`](../).
+ينشئ مثيلاً جديداً من الفئة [`Image`](../).
 
 ```csharp
 public Image(string path, string altTitle, string altDescription = null)
@@ -36,7 +36,7 @@ public Image(string path, string altTitle, string altDescription = null)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | String | سلسلة نصية تحتوي على المسار إلى الملف الذي يتم إنشاء [`Image`](../) منه. |
+| path | String | سلسلة تحتوي على المسار إلى الملف الذي يُستخدم لإنشاء الـ [`Image`](../). |
 | altTitle | String | العنوان البديل. |
 | altDescription | String | الوصف البديل. |
 
@@ -50,7 +50,7 @@ public Image(string path, string altTitle, string altDescription = null)
 
 ## Image(string, Stream) {#constructor_2}
 
-يهيئ نسخة جديدة من الفئة [`Image`](../).
+ينشئ مثيلاً جديداً من الفئة [`Image`](../).
 
 ```csharp
 public Image(string fileName, Stream imageStream)
@@ -71,7 +71,7 @@ public Image(string fileName, Stream imageStream)
 
 ## Image() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`Image`](../).
+ينشئ مثيلاً جديداً من الفئة [`Image`](../).
 
 ```csharp
 public Image()

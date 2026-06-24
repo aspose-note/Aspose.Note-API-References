@@ -1,7 +1,7 @@
 ---
 title: "NumberList.NumberFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NumberList. تحصل أو تعين تنسيق الأرقام المستخدم لمجموعة من الكائنات المرقمة تلقائيًا. يجب أن تكون null للقوائم النقطية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NumberList. يحصل أو يعيّن تنسيق الأرقام المستخدم لمجموعة من الكائنات المرقمة تلقائيًا. يجب أن يكون null للقوائم النقطية"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/numberlist/numberformat/

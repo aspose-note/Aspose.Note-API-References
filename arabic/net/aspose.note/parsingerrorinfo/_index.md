@@ -1,7 +1,7 @@
 ---
 title: "الفئة ParsingErrorInfo"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.ParsingErrorInfo. معلومات حول الخطأ الذي حدث أثناء التحليل"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.ParsingErrorInfo. معلومات عن الخطأ الذي حدث أثناء التحليل"
 type: docs
 weight: 590
 url: /ar/net/aspose.note/parsingerrorinfo/
@@ -18,7 +18,7 @@ public class ParsingErrorInfo
 
 | الاسم | الوصف |
 | --- | --- |
-| [ParsingErrorInfo](parsingerrorinfo/)() | البناء الافتراضي. |
+| [ParsingErrorInfo](parsingerrorinfo/)() | الباني الافتراضي. |
 
 ## الخصائص
 

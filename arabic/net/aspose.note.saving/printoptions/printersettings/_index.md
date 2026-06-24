@@ -1,7 +1,7 @@
 ---
 title: "PrintOptions.PrinterSettings"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "PrintOptions property. يحصل أو يعيّن إعدادات الطابعة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "PrintOptions الخاصية. يحصل أو يعيّن إعدادات الطابعة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/printoptions/printersettings/
@@ -16,7 +16,7 @@ public PrinterSettings PrinterSettings { get; set; }
 
 ## أمثلة
 
-يظهر كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
+يوضح كيفية إرسال المستند إلى طابعة باستخدام مربع حوار Windows القياسي مع الخيارات المحددة.
 
 ```csharp
 // المسار إلى دليل المستندات.

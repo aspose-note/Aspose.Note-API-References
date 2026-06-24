@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.AlternativeTextTitle"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط عنوان النص البديل لأيقونة الملف المرفق"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين عنوان النص البديل لأيقونة الملف المرفق"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/attachedfile/alternativetexttitle/

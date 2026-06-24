@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateGreenCircle"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز GreenCircle والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة GreenCircle والملصق المحدد"
 type: docs
 weight: 370
 url: /ar/net/aspose.note/notetag/creategreencircle/
 ---
 ## NoteTag.CreateGreenCircle method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة GreenCircle والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenCircle وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateGreenCircle(string label = "")

@@ -1,7 +1,7 @@
 ---
 title: "Metered.GetConsumptionCredit"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Metered. يسترجع رصيد الاستهلاك"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Metered. الحصول على رصيد الاستهلاك"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/metered/getconsumptioncredit/
@@ -16,7 +16,7 @@ public static decimal GetConsumptionCredit()
 
 ### قيمة الإرجاع
 
-يعيد عدد نقاط الرصيد المستهلكة.
+إرجاع عدد نقاط الائتمان المستهلكة.
 
 ### انظر أيضًا
 

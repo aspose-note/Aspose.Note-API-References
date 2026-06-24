@@ -1,6 +1,6 @@
 ---
 title: "MergeOptions.InsertAsChild"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية MergeOptions. تحصل أو تعين قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدخلة كأطفال للصفحة السابقة"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/mergeoptions/insertaschild/
 ---
 ## MergeOptions.InsertAsChild property
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المدخلة كأطفال للصفحة السابقة.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب إضافة الصفحات المُدخلة كأطفال للصفحة السابقة.
 
 ```csharp
 public bool InsertAsChild { get; set; }

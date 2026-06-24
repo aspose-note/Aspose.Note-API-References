@@ -1,7 +1,7 @@
 ---
 title: "CompositeNode1.LastChild"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية CompositeNode. تحصل على آخر عقدة فرعية لهذا العقدة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية CompositeNode. يحصل على آخر عقدة فرعية لهذا العقد"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/compositenode-1/lastchild/

@@ -1,7 +1,7 @@
 ---
 title: "NotebookSaveOptions1.GetDocumentSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NotebookSaveOptions. يحصل على خيارات الحفظ لجميع المستندات الفرعية للدفاتر"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NotebookSaveOptions. يحصل على خيارات الحفظ لجميع المستندات الفرعية للمفكرات"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/notebooksaveoptions-1/getdocumentsaveoptions/
@@ -16,7 +16,7 @@ public override SaveOptions GetDocumentSaveOptions()
 
 ### قيمة الإرجاع
 
-الـ [`SaveOptions`](../../saveoptions/).
+الـ[`SaveOptions`](../../saveoptions/).
 
 ### انظر أيضًا
 

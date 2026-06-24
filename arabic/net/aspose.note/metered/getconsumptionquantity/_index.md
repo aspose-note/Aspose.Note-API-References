@@ -1,7 +1,7 @@
 ---
 title: "Metered.GetConsumptionQuantity"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Metered. يسترجع حجم ملف الاستهلاك"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Metered. الحصول على حجم ملف الاستهلاك"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/metered/getconsumptionquantity/
@@ -16,7 +16,7 @@ public static decimal GetConsumptionQuantity()
 
 ### قيمة الإرجاع
 
-يعيد عدد البايتات المستهلكة.
+إرجاع عدد البايتات المستهلكة.
 
 ### انظر أيضًا
 

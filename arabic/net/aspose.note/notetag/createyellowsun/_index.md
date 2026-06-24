@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateYellowSun"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowSun والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowSun والملصق المحدد"
 type: docs
 weight: 1060
 url: /ar/net/aspose.note/notetag/createyellowsun/
 ---
 ## NoteTag.CreateYellowSun method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة YellowSun والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowSun وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateYellowSun(string label = "")

@@ -1,7 +1,7 @@
 ---
 title: "PdfImportOptions.PageIndex"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية PdfImportOptions. يحصل أو يحدد فهرس الصفحة الأولى التي سيتم حفظها. بشكل افتراضي هو 0"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "PdfImportOptions خاصية. يحصل أو يحدد فهرس الصفحة الأولى التي سيتم حفظها. بشكل افتراضي هو 0"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.importing/pdfimportoptions/pageindex/

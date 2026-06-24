@@ -1,6 +1,6 @@
 ---
 title: "NotebookHtmlSaveOptions.NotebookHtmlSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "منشئ NotebookHtmlSaveOptions. المنشئ الافتراضي"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note.saving/notebookhtmlsaveoptions/notebookhtmlsaveoptions/
 ---
 ## NotebookHtmlSaveOptions constructor
 
-البناء الافتراضي.
+الباني الافتراضي.
 
 ```csharp
 public NotebookHtmlSaveOptions()

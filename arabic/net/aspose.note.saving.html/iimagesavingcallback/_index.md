@@ -1,14 +1,14 @@
 ---
 title: "الواجهة IImageSavingCallback"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الواجهة Aspose.Note.Saving.Html.IImageSavingCallback. نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصور عند حفظ المستند إلى HTML"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الواجهة Aspose.Note.Saving.Html.IImageSavingCallback. نفّذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Note للصور عند حفظ المستند إلى HTML"
 type: docs
 weight: 720
 url: /ar/net/aspose.note.saving.html/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصور عند حفظ المستند إلى HTML.
+نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصور عند حفظ مستند إلى HTML.
 
 ```csharp
 public interface IImageSavingCallback

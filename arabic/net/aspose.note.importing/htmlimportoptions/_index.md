@@ -1,14 +1,14 @@
 ---
 title: "الفئة HtmlImportOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "فئة Aspose.Note.Importing.HtmlImportOptions. يسمح بتحديد الخيارات عند استيراد المحتوى من مستند HTML"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Importing.HtmlImportOptions فئة. يسمح بتحديد الخيارات عند استيراد المحتوى من مستند HTML"
 type: docs
 weight: 260
 url: /ar/net/aspose.note.importing/htmlimportoptions/
 ---
 ## HtmlImportOptions class
 
-يسمح بتحديد الخيارات عند استيراد المحتوى من مستند HTML.
+يسمح بتحديد خيارات عند استيراد المحتوى من مستند HTML.
 
 ```csharp
 public class HtmlImportOptions
@@ -18,7 +18,7 @@ public class HtmlImportOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [HtmlImportOptions](htmlimportoptions/)() | البناء الافتراضي. |
+| [HtmlImportOptions](htmlimportoptions/)() | الباني الافتراضي. |
 
 ### انظر أيضًا
 

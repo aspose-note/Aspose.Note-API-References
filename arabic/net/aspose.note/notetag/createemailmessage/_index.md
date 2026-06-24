@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateEMailMessage"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة EMailMessage والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة EMailMessage والعنوان المحدد"
 type: docs
 weight: 330
 url: /ar/net/aspose.note/notetag/createemailmessage/
 ---
 ## NoteTag.CreateEMailMessage method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة EMailMessage والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة EMailMessage وملصق محدد.
 
 ```csharp
 public static NoteTag CreateEMailMessage(string label = "Send in email")

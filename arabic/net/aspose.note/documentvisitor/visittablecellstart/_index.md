@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitTableCellStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. البداية لزيارة عقدة TableCell"
 type: docs
 weight: 260

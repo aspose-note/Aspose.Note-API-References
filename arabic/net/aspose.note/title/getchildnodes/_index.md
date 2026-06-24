@@ -1,6 +1,6 @@
 ---
 title: "Title.GetChildNodes"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Title. احصل على جميع العقد الفرعية حسب نوع العقدة"
 type: docs
 weight: 100

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreatePaperClip"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة PaperClip والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة PaperClip والملصق المحدد"
 type: docs
 weight: 730
 url: /ar/net/aspose.note/notetag/createpaperclip/
 ---
 ## NoteTag.CreatePaperClip method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة PaperClip وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة PaperClip والملصق المحدد.
 
 ```csharp
 public static NoteTag CreatePaperClip(string label = "")

@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.Status"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية NoteTag. يحصل أو يضبط الحالة"
 type: docs
 weight: 1190
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/status/
 ---
 ## NoteTag.Status property
 
-يحصل أو يعيّن الحالة.
+الحصول على أو تعيين الحالة.
 
 ```csharp
 public TagStatus Status { get; }

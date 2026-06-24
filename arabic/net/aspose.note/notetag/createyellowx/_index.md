@@ -1,7 +1,7 @@
 ---
 title: "NoteTag.CreateYellowX"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز YellowX والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة YellowX والملصق المحدد"
 type: docs
 weight: 1110
 url: /ar/net/aspose.note/notetag/createyellowx/

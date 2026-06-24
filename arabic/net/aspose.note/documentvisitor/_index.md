@@ -1,6 +1,6 @@
 ---
 title: "الفئة DocumentVisitor"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.DocumentVisitor. الفئة المجردة للتنقل عبر الشجرة الفرعية مع الجذر عند العقدة المحددة"
 type: docs
 weight: 70
@@ -53,7 +53,7 @@ public abstract class DocumentVisitor
 
 ## أمثلة
 
-يعرض كيفية الوصول إلى محتوى مستند باستخدام الزائر.
+يظهر كيفية الوصول إلى محتوى مستند باستخدام الزائر.
 
 ```csharp
 public static void Run()
@@ -64,15 +64,15 @@ public static void Run()
     // افتح المستند الذي نريد تحويله.
     Document doc = new Document(dataDir + "Aspose.one");
 
-    // أنشئ كائنًا يرث من الفئة DocumentVisitor.
+    // أنشئ كائنًا يرث من الفئة **DocumentVisitor**.
     MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 
-    // هذا هو نمط الزائر المعروف. اجعل النموذج يقبل زائرًا.
+    // هذا هو نمط Visitor المعروف جيدًا. اجعل النموذج يقبل زائرًا.
     // سيقوم النموذج بالتكرار على نفسه عن طريق استدعاء الطرق المقابلة
-    // على كائن الزائر (يُطلق على ذلك زيارة).
+    // على كائن الزائر (هذا ما يُسمى بالزيارة).
     //
-    // لاحظ أن كل عقدة في نموذج الكائن لديها طريقة Accept بحيث يمكن للزيارة
-    // يمكن تنفيذها ليس فقط للمستند بالكامل، بل لأي عقدة في المستند.
+    // لاحظ أن كل عقدة في نموذج الكائن لديها طريقة Accept لذا يمكن تنفيذ الزيارة
+    // ليس فقط للمستند الكامل، بل لأي عقدة في المستند.
     doc.Accept(myConverter);
 
     // بمجرد اكتمال الزيارة، يمكننا استرجاع نتيجة العملية،
@@ -82,7 +82,7 @@ public static void Run()
 }
 
 /// <summary>
-/// تنفيذ بسيط لحفظ مستند بتنسيق النص العادي. تم تنفيذها كزائر.
+/// تنفيذ بسيط لحفظ مستند بتنسيق النص العادي. تم تنفيذها كـ Visitor.
 /// </summary>
 public class MyOneNoteToTxtWriter : DocumentVisitor
 {
@@ -102,7 +102,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يضيف نصًا إلى الإخراج الحالي. يراعي علامة الإخراج المفعلة/المعطلة.
+    /// يضيف نصًا إلى الإخراج الحالي. يراعي علم الإخراج المفعّل/المعطّل.
     /// </summary>
     private void AppendText(string text)
     {
@@ -139,7 +139,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يُستدعى عند انتهاء معالجة عقدة Page.
+    /// يُستدعى عندما ينتهي معالجة عقدة Page.
     /// </summary>
     public override void VisitPageEnd(Page page)
     {
@@ -187,7 +187,7 @@ public class MyOneNoteToTxtWriter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على العدد الإجمالي للعقد بواسطة الزائر
+    /// يحصل على العدد الكلي للعقد بواسطة Visitor
     /// </summary>
     public Int32 NodeCount
     {

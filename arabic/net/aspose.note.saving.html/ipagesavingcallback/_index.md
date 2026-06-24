@@ -1,7 +1,7 @@
 ---
 title: "الواجهة IPageSavingCallback"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الواجهة Aspose.Note.Saving.Html.IPageSavingCallback. نفّذ هذه الواجهة إذا كنت تريد التحكم في طريقة حفظ Aspose.Note للصفحات المنفصلة."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Saving.Html.IPageSavingCallback واجهة. نفّذ هذه الواجهة إذا أردت التحكم في كيفية حفظ Aspose.Note للصفحات المنفصلة"
 type: docs
 weight: 730
 url: /ar/net/aspose.note.saving.html/ipagesavingcallback/

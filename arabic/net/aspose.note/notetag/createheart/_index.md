@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateHeart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Heart والملصق المحدد"
 type: docs
 weight: 550
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createheart/
 ---
 ## NoteTag.CreateHeart method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Heart والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة Heart وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateHeart(string label = "")

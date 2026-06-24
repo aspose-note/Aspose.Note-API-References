@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreationTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NoteTag. تحصل أو تعيّن وقت الإنشاء"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NoteTag. تحصل أو تعين وقت الإنشاء"
 type: docs
 weight: 1140
 url: /ar/net/aspose.note/notetag/creationtime/
 ---
 ## NoteTag.CreationTime property
 
-يحصل أو يعيّن وقت الإنشاء.
+الحصول على أو تعيين وقت الإنشاء.
 
 ```csharp
 public DateTime CreationTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime CreationTime { get; set; }
 
 ### Property Value
 
-الـ DateTime.
+كائن DateTime.
 
 ### انظر أيضًا
 

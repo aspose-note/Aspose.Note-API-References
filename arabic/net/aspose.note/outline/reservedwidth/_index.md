@@ -1,7 +1,7 @@
 ---
 title: "Outline.ReservedWidth"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Outline. يحصل أو يضبط العرض المحجوز"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Outline. يحصل على أو يعيّن العرض المحجوز"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/outline/reservedwidth/

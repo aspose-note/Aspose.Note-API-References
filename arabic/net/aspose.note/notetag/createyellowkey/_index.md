@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateYellowKey"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز YellowKey والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowKey والملصق المحدد"
 type: docs
 weight: 1000
 url: /ar/net/aspose.note/notetag/createyellowkey/
 ---
 ## NoteTag.CreateYellowKey method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة YellowKey والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowKey وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateYellowKey(string label = "")

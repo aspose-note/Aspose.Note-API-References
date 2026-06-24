@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.MaxWidth"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط أقصى عرض لعرض أيقونة الملف المضمن"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين أقصى عرض لعرض أيقونة الملف المضمن"
 type: docs
 weight: 170
 url: /ar/net/aspose.note/attachedfile/maxwidth/

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateBlueTarget"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز BlueTarget والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة BlueTarget والملصق المحدد"
 type: docs
 weight: 180
 url: /ar/net/aspose.note/notetag/createbluetarget/
 ---
 ## NoteTag.CreateBlueTarget method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة BlueTarget والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueTarget وملصق محدد.
 
 ```csharp
 public static NoteTag CreateBlueTarget(string label = "")

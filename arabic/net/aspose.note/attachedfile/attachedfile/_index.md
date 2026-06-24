@@ -1,14 +1,14 @@
 ---
 title: "AttachedFile.AttachedFile"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ AttachedFile. يهيئ مثيلاً جديداً من الفئة AttachedFile"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ AttachedFile. يهيئ نسخة جديدة من الفئة AttachedFile"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/attachedfile/attachedfile/
 ---
 ## AttachedFile(string) {#constructor_1}
 
-يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
+يهيئ نسخة جديدة من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile(string path)
@@ -28,7 +28,7 @@ public AttachedFile(string path)
 
 ## AttachedFile(string, Stream, ImageFormat) {#constructor_3}
 
-يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
+يهيئ نسخة جديدة من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
@@ -37,8 +37,8 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | path | String | سلسلة نصية تحتوي على المسار إلى الملف الذي سيتم إنشاء [`AttachedFile`](../) منه. |
-| أيقونة | Stream | أيقونة للملف المرفق. |
-| iconFormat | ImageFormat | تنسيق أيقونة الملف المرفق. |
+| icon | Stream | أيقونة للملف المرفق. |
+| iconFormat | ImageFormat | تنسيق لأيقونة الملف المرفق. |
 
 ### انظر أيضًا
 
@@ -50,7 +50,7 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 ## AttachedFile(string, Stream) {#constructor_2}
 
-يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
+يهيئ نسخة جديدة من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream)
@@ -58,7 +58,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف المرفق. |
+| fileName | String | اسم للملف المرفق. |
 | attachedFileStream | Stream | دفق يحتوي على بايتات الملف المرفق. |
 
 ### انظر أيضًا
@@ -71,7 +71,7 @@ public AttachedFile(string fileName, Stream attachedFileStream)
 
 ## AttachedFile(string, Stream, Stream, ImageFormat) {#constructor_4}
 
-يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
+يهيئ نسخة جديدة من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, ImageFormat iconFormat)
@@ -79,10 +79,10 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف المرفق. |
+| fileName | String | اسم للملف المرفق. |
 | attachedFileStream | Stream | دفق يحتوي على بايتات الملف المرفق. |
-| أيقونة | Stream | أيقونة للملف المرفق. |
-| iconFormat | ImageFormat | تنسيق أيقونة الملف المرفق. |
+| icon | Stream | أيقونة للملف المرفق. |
+| iconFormat | ImageFormat | تنسيق لأيقونة الملف المرفق. |
 
 ### انظر أيضًا
 
@@ -94,7 +94,7 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 
 ## AttachedFile() {#constructor}
 
-يهيئ مثيلاً جديداً من الفئة [`AttachedFile`](../).
+يهيئ نسخة جديدة من الفئة [`AttachedFile`](../).
 
 ```csharp
 public AttachedFile()

@@ -1,6 +1,6 @@
 ---
 title: "الفئة PdfSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Saving.PdfSaveOptions. تسمح بتحديد خيارات إضافية عند تحويل صفحات المستند إلى PDF"
 type: docs
 weight: 930
@@ -18,24 +18,24 @@ public sealed class PdfSaveOptions : SaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions/)() | البناء الافتراضي. |
+| [PdfSaveOptions](pdfsaveoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ |
-| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression/) { get; set; } | يحصل أو يضبط نوع الضغط المطبق على الصور في ملف PDF. |
-| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality/) { get; set; } | يحصل أو يضبط قيمة تحدد جودة صور JPEG داخل مستند PDF. يمكن أن تتراوح القيمة من 0 إلى 100 حيث 0 تعني أسوأ جودة ولكن أقصى ضغط و100 تعني أفضل جودة ولكن أقل ضغط. |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند. |
+| [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | يحصل أو يضبط إعدادات الخط لاستخدامها أثناء الحفظ |
+| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression/) { get; set; } | يحصل أو يعيّن نوع الضغط المطبق على الصور في ملف PDF. |
+| [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality/) { get; set; } | يحصل أو يعيّن قيمة تحدد جودة صور JPEG داخل مستند PDF. يمكن أن تتراوح القيمة من 0 إلى 100 حيث 0 تعني أسوأ جودة ولكن أقصى ضغط و100 تعني أفضل جودة ولكن أقل ضغط. |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | يحصل أو يضبط فهرس الصفحة الأولى التي سيتم حفظها. القيمة الافتراضية هي 0. |
-| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings/) { get; set; } | يحصل أو يضبط إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، *الثقافات الأمريكية تستخدم إعداد الحرف، والبقية تستخدم إعداد A4. |
-| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/) { get; set; } | يحصل أو يضبط الخوارزمية المستخدمة لتقسيم الصفحات. |
+| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings/) { get; set; } | يحصل أو يعيّن إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، *الثقافات الأمريكية لديها إعداد الحرف، والثقافات الأخرى لديها إعداد A4. |
+| [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/) { get; set; } | يحصل أو يعيّن الخوارزمية المستخدمة لتقسيم الصفحات. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | يحصل على الصيغة التي يُحفظ بها المستند. |
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -50,7 +50,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -86,7 +86,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق تقسيم الكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -105,7 +105,7 @@ dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorit
 doc.Save(dataDir);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf.
+يوضح كيفية حفظ مستند بتنسيق pdf.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -129,7 +129,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -152,7 +152,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بصيغة pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.

@@ -1,14 +1,14 @@
 ---
 title: "ImageSaveOptions.Resolution"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية ImageSaveOptions. يحصل أو يضبط الدقة للصور المُولَّدة بوحدة النقاط في البوصة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ImageSaveOptions. تحصل أو تعيين الدقة للصور المولدة بوحدة النقاط في البوصة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
 
-يحصل أو يضبط الدقة للصور المُولَّدة، بوحدة النقاط في البوصة.
+يحصل أو يعيّن الدقة للصور المُولَّدة، بوحدة النقاط في البوصة.
 
 ```csharp
 public float Resolution { get; set; }
@@ -35,7 +35,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Resolution = 220 });
 ```
 
-يوضح كيفية حفظ الدفتر كصورة مع الخيارات المحددة.
+يظهر كيفية حفظ الدفتر كصورة مع خيارات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -56,7 +56,7 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ الدفتر المسطح كصورة.
+يظهر كيفية حفظ دفتر مسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.

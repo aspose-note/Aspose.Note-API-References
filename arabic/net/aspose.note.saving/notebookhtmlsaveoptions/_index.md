@@ -1,14 +1,14 @@
 ---
 title: "الفئة NotebookHtmlSaveOptions"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.NotebookHtmlSaveOptions. يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق HTML"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Saving.NotebookHtmlSaveOptions. يسمح بتحديد خيارات إضافية عند حفظ الدفتر بتنسيق HTML."
 type: docs
 weight: 830
 url: /ar/net/aspose.note.saving/notebookhtmlsaveoptions/
 ---
 ## NotebookHtmlSaveOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى تنسيق HTML.
+يسمح بتحديد خيارات إضافية عند حفظ الدفتر إلى صيغة HTML.
 
 ```csharp
 public class NotebookHtmlSaveOptions : NotebookSaveOptions<HtmlSaveOptions>
@@ -18,7 +18,7 @@ public class NotebookHtmlSaveOptions : NotebookSaveOptions<HtmlSaveOptions>
 
 | الاسم | الوصف |
 | --- | --- |
-| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | البناء الافتراضي. |
+| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | الباني الافتراضي. |
 
 ## الخصائص
 

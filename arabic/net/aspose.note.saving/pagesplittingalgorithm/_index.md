@@ -1,7 +1,7 @@
 ---
 title: "الفئة PageSplittingAlgorithm"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.PageSplittingAlgorithm. الفئة الأساسية لتقسيم كائن في حال عدم تناسبه مع الصفحة الأصلية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Saving.PageSplittingAlgorithm. فئة أساسية لتقسيم كائن في حال لم يتناسب مع الصفحة الأصلية."
 type: docs
 weight: 910
 url: /ar/net/aspose.note.saving/pagesplittingalgorithm/

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreatePlane"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة Plane والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Plane والملصق المحدد"
 type: docs
 weight: 770
 url: /ar/net/aspose.note/notetag/createplane/
 ---
 ## NoteTag.CreatePlane method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Plane وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة Plane والملصق المحدد.
 
 ```csharp
 public static NoteTag CreatePlane(string label = "")

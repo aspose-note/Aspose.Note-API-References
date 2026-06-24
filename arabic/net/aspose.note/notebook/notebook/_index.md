@@ -1,14 +1,14 @@
 ---
 title: "Notebook.Notebook"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ Notebook. يهيئ نسخة جديدة من فئة Notebook"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ Notebook. يهيئ مثيلًا جديدًا من فئة Notebook"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/notebook/notebook/
 ---
 ## Notebook() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`Notebook`](../).
+يهيئ مثيلًا جديدًا من الفئة [`Notebook`](../).
 
 ```csharp
 public Notebook()
@@ -24,7 +24,7 @@ public Notebook()
 
 ## Notebook(string) {#constructor_3}
 
-يهيئ نسخة جديدة من الفئة [`Notebook`](../). يفتح دفتر OneNote موجود من ملف.
+يهيئ مثيلًا جديدًا من الفئة [`Notebook`](../). يفتح دفتر OneNote موجود من ملف.
 
 ```csharp
 public Notebook(string filePath)
@@ -74,7 +74,7 @@ public Notebook(Stream stream)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 
 ### انظر أيضًا
 
@@ -94,7 +94,7 @@ public Notebook(Stream stream, NotebookLoadOptions loadOptions)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | loadOptions | NotebookLoadOptions | خيارات التحميل. |
 
 ### انظر أيضًا

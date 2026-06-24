@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateLightBulb"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة LightBulb والملصق المحدد"
 type: docs
 weight: 610
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createlightbulb/
 ---
 ## NoteTag.CreateLightBulb method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة LightBulb وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة LightBulb والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateLightBulb(string label = "Idea")

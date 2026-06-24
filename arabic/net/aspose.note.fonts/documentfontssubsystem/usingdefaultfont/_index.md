@@ -1,14 +1,14 @@
 ---
 title: "DocumentFontsSubsystem.UsingDefaultFont"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "DocumentFontsSubsystem method. إنشاء نسخة جديدة من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة DocumentFontsSubsystem. إنشاء مثيل جديد من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.fonts/documentfontssubsystem/usingdefaultfont/
 ---
 ## DocumentFontsSubsystem.UsingDefaultFont method
 
-أنشئ مثلاً جديداً من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد.
+أنشئ مثيلًا جديدًا من DocumentFontsSubsystem باستخدام اسم الخط الافتراضي المحدد.
 
 ```csharp
 public static DocumentFontsSubsystem UsingDefaultFont(string defaultFontName, 
@@ -22,7 +22,7 @@ public static DocumentFontsSubsystem UsingDefaultFont(string defaultFontName,
 
 ### قيمة الإرجاع
 
-ال [`DocumentFontsSubsystem`](../).
+الـ [`DocumentFontsSubsystem`](../).
 
 ## أمثلة
 

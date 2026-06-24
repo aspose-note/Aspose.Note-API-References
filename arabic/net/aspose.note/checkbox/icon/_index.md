@@ -1,14 +1,14 @@
 ---
 title: "CheckBox.Icon"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "CheckBox خاصية. يحصل على أو يضبط الأيقونة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية CheckBox. يحصل أو يضبط الأيقونة"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/checkbox/icon/
 ---
 ## CheckBox.Icon property
 
-يحصل أو يعيّن الأيقونة.
+الحصول على أو تعيين الأيقونة.
 
 ```csharp
 public abstract TagIcon Icon { get; }

@@ -1,7 +1,7 @@
 ---
 title: "RichText.Remove"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة RichText. تزيل عددًا محددًا من الأحرف في النسخة الحالية بدءًا من موضع محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة RichText. يزيل عددًا محددًا من الأحرف في النسخة الحالية بدءًا من موضع محدد"
 type: docs
 weight: 220
 url: /ar/net/aspose.note/richtext/remove/
@@ -21,7 +21,7 @@ public RichText Remove(int startIndex, int count)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### استثناءات
 
@@ -51,7 +51,7 @@ public RichText Remove(int startIndex)
 
 ### قيمة الإرجاع
 
-ال[`RichText`](../).
+الـ [`RichText`](../).
 
 ### استثناءات
 

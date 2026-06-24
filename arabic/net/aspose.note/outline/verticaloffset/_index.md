@@ -1,7 +1,7 @@
 ---
 title: "Outline.VerticalOffset"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Outline. يحصل أو يضبط الإزاحة العمودية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Outline. يحصل على أو يعيّن الإزاحة العمودية"
 type: docs
 weight: 90
 url: /ar/net/aspose.note/outline/verticaloffset/

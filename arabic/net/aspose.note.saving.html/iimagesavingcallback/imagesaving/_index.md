@@ -1,7 +1,7 @@
 ---
 title: "IImageSavingCallback.ImageSaving"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة IImageSavingCallback. يتم استدعاؤها عندما يقوم Aspose.Note بحفظ صورة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة IImageSavingCallback. تُستدعى عندما يقوم Aspose.Note بحفظ صورة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/iimagesavingcallback/imagesaving/

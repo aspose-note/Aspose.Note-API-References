@@ -1,6 +1,6 @@
 ---
 title: "Document.Document"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "منشئ Document. يهيئ نسخة جديدة من فئة Document. ينشئ مستند OneNote فارغ"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/document/document/
 ---
 ## Document() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`Document`](../). ينشئ مستند OneNote فارغ.
+يهيئ نسخة جديدة من فئة [`Document`](../). ينشئ مستند OneNote فارغ.
 
 ```csharp
 public Document()
@@ -24,7 +24,7 @@ public Document()
 
 ## Document(string) {#constructor_3}
 
-يهيئ نسخة جديدة من الفئة [`Document`](../). يفتح مستند OneNote موجود من ملف.
+يهيئ نسخة جديدة من فئة [`Document`](../). يفتح مستند OneNote موجود من ملف.
 
 ```csharp
 public Document(string filePath)
@@ -38,7 +38,7 @@ public Document(string filePath)
 
 | استثناء | شرط |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معترف به أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور للفتح، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | هناك مشكلة في المستند ويجب الإبلاغ عنها لمطوري Aspose.Note. |
@@ -52,7 +52,7 @@ public Document(string filePath)
 var dataDir = RunExamples.GetDataDir_Import();
 var documentPath = Path.Combine(dataDir, "Sample.one");
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 var document = new Document(documentPath);
 
 // إعداد عميل Notion
@@ -85,7 +85,7 @@ foreach (var oneNotePage in document)
 
     foreach (var richText in oneNoteAllRichText)
     {
-        // تجاوز النصوص الخاصة بالعنوان أو التاريخ أو الوقت
+        // تخطي النصوص الخاصة بالعنوان أو التاريخ أو الوقت
         if (richText.IsTitleDate || richText.IsTitleText || richText.IsTitleTime)
         {
             continue;
@@ -123,7 +123,7 @@ Console.WriteLine("\nOneNote document converted to Notion-compatible format succ
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-يهيئ نسخة جديدة من الفئة [`Document`](../). يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يهيئ نسخة جديدة من فئة [`Document`](../). يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 ```csharp
 public Document(string filePath, LoadOptions loadOptions)
@@ -132,13 +132,13 @@ public Document(string filePath, LoadOptions loadOptions)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف. |
-| loadOptions | LoadOptions | الخيارات المستخدمة لتحميل مستند. يمكن أن تكون null. |
+| loadOptions | LoadOptions | الخيارات المستخدمة لتحميل المستند. يمكن أن تكون null. |
 
 ### استثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معترف به أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور للفتح، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | هناك مشكلة في المستند ويجب الإبلاغ عنها لمطوري Aspose.Note. |
@@ -155,7 +155,7 @@ public Document(string filePath, LoadOptions loadOptions)
 
 ## Document(Stream) {#constructor_1}
 
-يُنشئ مثيلاً جديدًا من الفئة [`Document`](../). يفتح مستند OneNote موجود من تدفق.
+يقوم بإنشاء نسخة جديدة من الفئة [`Document`](../). يفتح مستند OneNote موجود من تدفق.
 
 ```csharp
 public Document(Stream inStream)
@@ -169,12 +169,12 @@ public Document(Stream inStream)
 
 | استثناء | شرط |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معترف به أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور للفتح، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | هناك مشكلة في المستند ويجب الإبلاغ عنها لمطوري Aspose.Note. |
 | IOException | هناك استثناء في الإدخال/الإخراج. |
-| ArgumentException | التدفق لا يدعم القراءة، أو أنه فارغ، أو أنه مغلق بالفعل. |
+| ArgumentException | التدفق لا يدعم القراءة، أو أنه فارغ (null)، أو أنه مغلق بالفعل. |
 
 ### انظر أيضًا
 
@@ -186,7 +186,7 @@ public Document(Stream inStream)
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-يُنشئ مثيلاً جديدًا من الفئة [`Document`](../). يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يقوم بإنشاء نسخة جديدة من الفئة [`Document`](../). يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 ```csharp
 public Document(Stream inStream, LoadOptions loadOptions)
@@ -195,18 +195,18 @@ public Document(Stream inStream, LoadOptions loadOptions)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | inStream | Stream | التدفق. |
-| loadOptions | LoadOptions | الخيارات المستخدمة لتحميل مستند. يمكن أن تكون null. |
+| loadOptions | LoadOptions | الخيارات المستخدمة لتحميل المستند. يمكن أن تكون null. |
 
 ### استثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معترف به أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور للفتح، لكنك أدخلت كلمة مرور غير صحيحة. |
 | InvalidOperationException | هناك مشكلة في المستند ويجب الإبلاغ عنها لمطوري Aspose.Note. |
 | IOException | هناك استثناء في الإدخال/الإخراج. |
-| ArgumentException | التدفق لا يدعم القراءة، أو أنه فارغ، أو أنه مغلق بالفعل. |
+| ArgumentException | التدفق لا يدعم القراءة، أو أنه فارغ (null)، أو أنه مغلق بالفعل. |
 
 ### انظر أيضًا
 

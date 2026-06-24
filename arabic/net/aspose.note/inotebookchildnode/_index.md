@@ -1,6 +1,6 @@
 ---
 title: "الواجهة INotebookChildNode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "واجهة Aspose.Note.INotebookChildNode. تمثل عنصرًا فرعيًا من دفاتر ملاحظات Aspose.Note"
 type: docs
 weight: 190

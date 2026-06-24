@@ -1,7 +1,7 @@
 ---
 title: "الفئة Metered"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Metered. توفر طرقًا لتعيين المفتاح القابل للقياس"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "الفئة Aspose.Note.Metered. توفر طرقًا لتعيين المفتاح المقيس"
 type: docs
 weight: 420
 url: /ar/net/aspose.note/metered/
@@ -18,20 +18,20 @@ public class Metered
 
 | الاسم | الوصف |
 | --- | --- |
-| [Metered](metered/)() | البناء الافتراضي. |
+| [Metered](metered/)() | الباني الافتراضي. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | يزيل الترخيص المُعد مسبقًا. |
-| [SetMeteredKey](../../aspose.note/metered/setmeteredkey/)(string, string) | يضبط المفاتيح العامة والخاصة القابلة للقياس. |
+| [ResetMeteredKey](../../aspose.note/metered/resetmeteredkey/)() | يزيل الترخيص الذي تم إعداده مسبقًا. |
+| [SetMeteredKey](../../aspose.note/metered/setmeteredkey/)(string, string) | يضبط المفاتيح العامة والخاصة المقيسة. |
 | static [GetConsumptionCredit](../../aspose.note/metered/getconsumptioncredit/)() | يحصل على رصيد الاستهلاك. |
 | static [GetConsumptionQuantity](../../aspose.note/metered/getconsumptionquantity/)() | يحصل على حجم ملف الاستهلاك. |
 
 ## أمثلة
 
-في هذا المثال، سيتم محاولة تعيين المفتاح العام والخاص القابل للقياس.
+في هذا المثال، سيتم محاولة تعيين المفتاح العام والخاص المقيس
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-يوضح كيفية تعيين الترخيص القابل للقياس.
+يوضح كيفية تعيين الترخيص المقيس.
 
 ```csharp
 Metered metered = new Metered();
@@ -58,7 +58,7 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));

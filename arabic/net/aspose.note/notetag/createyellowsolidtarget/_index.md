@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateYellowSolidTarget"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowSolidTarget والملصق المحدد"
 type: docs
 weight: 1030
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createyellowsolidtarget/
 ---
 ## NoteTag.CreateYellowSolidTarget method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة YellowSolidTarget والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowSolidTarget وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateYellowSolidTarget(string label = "")

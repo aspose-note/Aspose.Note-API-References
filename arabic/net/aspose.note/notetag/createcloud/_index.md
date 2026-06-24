@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateCloud"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Cloud والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة Cloud والعنوان المحدد"
 type: docs
 weight: 270
 url: /ar/net/aspose.note/notetag/createcloud/
 ---
 ## NoteTag.CreateCloud method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Cloud والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة Cloud وملصق محدد.
 
 ```csharp
 public static NoteTag CreateCloud(string label = "")

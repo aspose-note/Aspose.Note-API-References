@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitOutlineGroupStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. بدء زيارة عقدة OutlineGroup"
 type: docs
 weight: 190

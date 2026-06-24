@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateRedSquare"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة RedSquare وملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة RedSquare والملصق المحدد"
 type: docs
 weight: 830
 url: /ar/net/aspose.note/notetag/createredsquare/
 ---
 ## NoteTag.CreateRedSquare method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة RedSquare وملصق محدد.
+ينشئ علامة ملاحظة جديدة مع أيقونة RedSquare والملصق المحدد.
 
 ```csharp
 public static NoteTag CreateRedSquare(string label = "Project A")

@@ -1,14 +1,14 @@
 ---
 title: "DisplayUnitsConverter.MillimeterToInch"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة DisplayUnitsConverter. يحول المليمترات إلى بوصات"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة DisplayUnitsConverter. تحويل المليمترات إلى إنشات"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/displayunitsconverter/millimetertoinch/
 ---
 ## DisplayUnitsConverter.MillimeterToInch method
 
-يحول المليمترات إلى بوصات.
+يحوّل المليمترات إلى بوصات.
 
 ```csharp
 public static float MillimeterToInch(float mm)
@@ -20,7 +20,7 @@ public static float MillimeterToInch(float mm)
 
 ### قيمة الإرجاع
 
-ال Single.
+الـ Single.
 
 ### انظر أيضًا
 

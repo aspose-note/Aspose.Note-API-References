@@ -1,6 +1,6 @@
 ---
 title: "الفئة IncorrectPasswordException"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.IncorrectPasswordException. تُرمى إذا كان المستند مشفرًا بكلمة مرور وكلمة المرور المحددة عند فتح المستند غير صحيحة أو مفقودة"
 type: docs
 weight: 310

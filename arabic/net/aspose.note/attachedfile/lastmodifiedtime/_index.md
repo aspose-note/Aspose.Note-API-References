@@ -1,14 +1,14 @@
 ---
 title: "AttachedFile.LastModifiedTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل أو يضبط وقت التعديل الأخير"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل أو تعين وقت التعديل الأخير"
 type: docs
 weight: 150
 url: /ar/net/aspose.note/attachedfile/lastmodifiedtime/
 ---
 ## AttachedFile.LastModifiedTime property
 
-يحصل أو يعيّن وقت آخر تعديل.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }

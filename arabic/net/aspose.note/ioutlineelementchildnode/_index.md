@@ -1,6 +1,6 @@
 ---
 title: "الواجهة IOutlineElementChildNode"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "واجهة Aspose.Note.IOutlineElementChildNode. الواجهة لجميع العقد الفرعية لعقدة عنصر المخطط."
 type: docs
 weight: 210

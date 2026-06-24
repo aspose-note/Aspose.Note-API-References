@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateBlueUmbrella"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة BlueUmbrella وملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة BlueUmbrella والملصق المحدد"
 type: docs
 weight: 200
 url: /ar/net/aspose.note/notetag/createblueumbrella/
 ---
 ## NoteTag.CreateBlueUmbrella method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة BlueUmbrella والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة BlueUmbrella وملصق محدد.
 
 ```csharp
 public static NoteTag CreateBlueUmbrella(string label = "")

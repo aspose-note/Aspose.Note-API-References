@@ -1,14 +1,14 @@
 ---
 title: "DocumentVisitor.VisitInkWordStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة DocumentVisitor. بدء زيارة عقدة InkWord"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة DocumentVisitor. بدء زيارة العنصر InkWord ."
 type: docs
 weight: 120
 url: /ar/net/aspose.note/documentvisitor/visitinkwordstart/
 ---
 ## DocumentVisitor.VisitInkWordStart method
 
-بدء زيارة عقدة [`InkWord`](../../inkword/)
+بدء زيارة العنصر [`InkWord`](../../inkword/) .
 
 ```csharp
 public virtual void VisitInkWordStart(InkWord inkWord)
@@ -16,7 +16,7 @@ public virtual void VisitInkWordStart(InkWord inkWord)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| inkWord | InkWord | العقدة [`InkWord`](../../inkword/) |
+| inkWord | InkWord | العنصر [`InkWord`](../../inkword/) . |
 
 ### انظر أيضًا
 

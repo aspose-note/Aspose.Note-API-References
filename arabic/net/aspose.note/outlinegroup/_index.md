@@ -1,7 +1,7 @@
 ---
 title: "فئة OutlineGroup"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "Aspose.Note.OutlineGroup فئة. تمثل مجموعة OutlineGroup"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "فئة Aspose.Note.OutlineGroup. تمثّل مجموعة OutlineGroup"
 type: docs
 weight: 540
 url: /ar/net/aspose.note/outlinegroup/
@@ -19,7 +19,7 @@ public sealed class OutlineGroup : IndentatedNode<IOutlineChildNode>, IOutlineCh
 
 | الاسم | الوصف |
 | --- | --- |
-| [OutlineGroup](outlinegroup/)() | البناء الافتراضي. |
+| [OutlineGroup](outlinegroup/)() | الباني الافتراضي. |
 
 ## الخصائص
 

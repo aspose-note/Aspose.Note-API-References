@@ -1,7 +1,7 @@
 ---
 title: "Page.BackgroundColor"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Page. تحصل أو تعيّن لون خلفية الصفحة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Page. تحصل على أو تعيين لون خلفية الصفحة"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/page/backgroundcolor/
@@ -22,7 +22,7 @@ public Color BackgroundColor { get; set; }
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -33,7 +33,7 @@ foreach (var page in document)
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
-يظهر كيفية تطبيق نمط السمة الداكنة على مستند.
+يوضح كيفية تطبيق نمط السمة الداكنة على مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.

@@ -1,14 +1,14 @@
 ---
 title: "SaveOptions.PageCount"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية SaveOptions. يحصل أو يضبط عدد الصفحات التي سيتم حفظها. افتراضيًا هو MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية SaveOptions. يحصل أو يضبط عدد الصفحات التي سيتم حفظها. بشكل افتراضي يكون MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/saveoptions/pagecount/
 ---
 ## SaveOptions.PageCount property
 
-يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أنه سيتم عرض جميع صفحات المستند.
+يحصل أو يضبط عدد الصفحات التي سيتم حفظها. القيمة الافتراضية هي MaxValue مما يعني أن جميع صفحات المستند سيتم عرضها.
 
 ```csharp
 public int PageCount { get; set; }
@@ -16,7 +16,7 @@ public int PageCount { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ مستند بتنسيق pdf.
+يوضح كيفية حفظ مستند بتنسيق pdf.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -40,7 +40,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-يظهر كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
+يوضح كيفية حفظ مستند بتنسيق pdf باستخدام إعدادات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -69,7 +69,7 @@ doc.Save(dataDir, opts);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());

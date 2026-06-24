@@ -1,14 +1,14 @@
 ---
 title: "SaveOptions.FontsSubsystem"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية SaveOptions. تحصل أو تعين إعدادات الخطوط المستخدمة أثناء الحفظ"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية SaveOptions. يحصل أو يضبط إعدادات الخطوط المستخدمة أثناء الحفظ"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving/saveoptions/fontssubsystem/
 ---
 ## SaveOptions.FontsSubsystem property
 
-يحصل أو يضبط إعدادات الخط التي سيتم استخدامها أثناء الحفظ
+يحصل أو يضبط إعدادات الخط لاستخدامها أثناء الحفظ
 
 ```csharp
 public FontsSubsystem FontsSubsystem { get; set; }

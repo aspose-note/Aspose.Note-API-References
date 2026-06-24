@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateTimeSensitive"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة برمز TimeSensitive والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة TimeSensitive والملصق المحدد"
 type: docs
 weight: 910
 url: /ar/net/aspose.note/notetag/createtimesensitive/
 ---
 ## NoteTag.CreateTimeSensitive method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة TimeSensitive والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة TimeSensitive وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateTimeSensitive(string label = "")

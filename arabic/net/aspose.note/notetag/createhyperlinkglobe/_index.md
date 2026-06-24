@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateHyperlinkGlobe"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "NoteTag طريقة. ينشئ علامة ملاحظة جديدة مع أيقونة HyperlinkGlobe والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة HyperlinkGlobe والملصق المحدد"
 type: docs
 weight: 580
 url: /ar/net/aspose.note/notetag/createhyperlinkglobe/
 ---
 ## NoteTag.CreateHyperlinkGlobe method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة HyperlinkGlobe والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة HyperlinkGlobe وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateHyperlinkGlobe(string label = "Web site to visit")

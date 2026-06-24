@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Insert"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. يدرج نسخة صفحة في تاريخ الصفحة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تُدرج نسخة صفحة في تاريخ الصفحة"
 type: docs
 weight: 130
 url: /ar/net/aspose.note/pagehistory/insert/

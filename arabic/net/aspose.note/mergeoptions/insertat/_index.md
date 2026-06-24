@@ -1,6 +1,6 @@
 ---
 title: "MergeOptions.InsertAt"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية MergeOptions. تحصل أو تعين الموضع الذي سيتم فيه إدراج الصفحات المستوردة"
 type: docs
 weight: 40

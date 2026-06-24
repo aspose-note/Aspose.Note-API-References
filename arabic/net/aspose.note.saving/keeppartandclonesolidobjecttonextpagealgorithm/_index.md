@@ -1,7 +1,7 @@
 ---
 title: "الفئة KeepPartAndCloneSolidObjectToNextPageAlgorithm"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "الفئة Aspose.Note.Saving.KeepPartAndCloneSolidObjectToNextPageAlgorithm. يضيف الجزء العلوي من الكائنات إلى أسفل الصفحة ويستنسخ الكائن بالكامل إلى الصفحة التالية في حال لم يتناسب مع الصفحة الأصلية."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "Aspose.Note.Saving.KeepPartAndCloneSolidObjectToNextPageAlgorithm class. يضيف الجزء العلوي من الكائنات إلى أسفل الصفحة ويستنسخ الكائن الكامل إلى الصفحة التالية في حال عدم ملائمته للصفحة الأصلية"
 type: docs
 weight: 810
 url: /ar/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/
@@ -35,7 +35,7 @@ public class KeepPartAndCloneSolidObjectToNextPageAlgorithm : PageSplittingAlgor
 
 ## أمثلة
 
-عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بتنسيق pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق تقسيم الكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -54,7 +54,7 @@ dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorit
 doc.Save(dataDir);
 ```
 
-عند حفظ صفحات OneNote الطويلة بتنسيق PDF يتم تقسيمها عبر صفحات متعددة. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
+عند حفظ صفحات OneNote الطويلة بصيغة pdf يتم تقسيمها عبر صفحات. يوضح المثال كيفية تكوين منطق التقسيم للكائنات الموجودة على فواصل الصفحات.
 
 ```csharp
 // المسار إلى دليل المستندات.

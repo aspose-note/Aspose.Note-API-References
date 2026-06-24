@@ -1,7 +1,7 @@
 ---
 title: "LoadOptions.DocumentPassword"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية LoadOptions. يحصل أو يحدد كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حال عدم حماية المستند بكلمة مرور"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية LoadOptions. تحصل أو تعيين كلمة مرور لمحتوى المستند المشفر. يتم تجاهل القيمة في حال عدم حماية المستند بكلمة مرور"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/loadoptions/documentpassword/
@@ -16,7 +16,7 @@ public string DocumentPassword { get; set; }
 
 ## أمثلة
 
-يعرض كيفية التعامل مع مستند مشفر.
+يعرض كيفية تشفير مستند.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -26,7 +26,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-يوضح كيفية التعامل مع دفتر مشفر.
+يظهر كيفية دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.

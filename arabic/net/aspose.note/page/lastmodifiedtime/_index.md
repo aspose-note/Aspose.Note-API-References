@@ -1,6 +1,6 @@
 ---
 title: "Page.LastModifiedTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Page. تحصل أو تعين وقت التعديل الأخير"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/page/lastmodifiedtime/
 ---
 ## Page.LastModifiedTime property
 
-يحصل أو يعيّن وقت آخر تعديل.
+يحصل أو يعيّن وقت التعديل الأخير.
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime LastModifiedTime { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على معلومات ميتا حول صفحة.
+يوضح كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -36,13 +36,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى

@@ -1,6 +1,6 @@
 ---
 title: "الفئة NumberList"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.NumberList. تمثل القائمة المرقمة أو القائمة ذات الرموز النقطية"
 type: docs
 weight: 510
@@ -18,8 +18,8 @@ public class NumberList
 
 | الاسم | الوصف |
 | --- | --- |
-| [NumberList](numberlist/#constructor_1)(string, string, int) | يُنشئ مثيلاً جديداً من الفئة `NumberList`. هذا المثيل يمثل قائمة ذات رموز نقطية. |
-| [NumberList](numberlist/#constructor)(string, NumberFormat, string, int) | يُنشئ مثيلاً جديداً من الفئة `NumberList`. هذا المثيل يمثل قائمة مرقمة. |
+| [NumberList](numberlist/#constructor_1)(string, string, int) | يُنشئ مثيلًا جديدًا من الفئة `NumberList`. هذا المثيل يمثل قائمة ذات رموز نقطية. |
+| [NumberList](numberlist/#constructor)(string, NumberFormat, string, int) | يُنشئ مثيلًا جديدًا من الفئة `NumberList`. هذا المثيل يمثل قائمة مرقمة. |
 
 ## الخصائص
 
@@ -27,11 +27,11 @@ public class NumberList
 | --- | --- |
 | [Font](../../aspose.note/numberlist/font/) { get; set; } | يحصل أو يعيّن اسم الخط. |
 | [FontColor](../../aspose.note/numberlist/fontcolor/) { get; set; } | يحصل أو يضبط لون الخط. |
-| [FontSize](../../aspose.note/numberlist/fontsize/) { get; set; } | يحصل أو يعيّن حجم الخط. |
+| [FontSize](../../aspose.note/numberlist/fontsize/) { get; set; } | يحصل أو يضبط حجم الخط. |
 | [Format](../../aspose.note/numberlist/format/) { get; set; } | يحصل أو يعيّن تنسيق رأس السطر. بالنسبة للقوائم ذات الرموز النقطية يمثل رمزًا نقطيًا. |
-| [IsBold](../../aspose.note/numberlist/isbold/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
-| [IsItalic](../../aspose.note/numberlist/isitalic/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
-| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [IsBold](../../aspose.note/numberlist/isbold/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
+| [IsItalic](../../aspose.note/numberlist/isitalic/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
+| [LastModifiedTime](../../aspose.note/numberlist/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت التعديل الأخير. |
 | [NumberFormat](../../aspose.note/numberlist/numberformat/) { get; set; } | يحصل أو يعيّن تنسيق الرقم المستخدم لمجموعة من الكائنات المرقمة تلقائيًا. يجب أن يكون فارغًا للقوائم ذات الرموز النقطية. |
 | [Restart](../../aspose.note/numberlist/restart/) { get; set; } | يحصل أو يعيّن القيمة الرقمية التي تتجاوز القيمة العددية التلقائية لعنصر القائمة. |
 
@@ -39,14 +39,14 @@ public class NumberList
 
 | الاسم | الوصف |
 | --- | --- |
-| [Equals](../../aspose.note/numberlist/equals/#equals)(NumberList) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| override [Equals](../../aspose.note/numberlist/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| override [GetHashCode](../../aspose.note/numberlist/gethashcode/)() | يعمل كدالة تجزئة للنوع. |
+| [Equals](../../aspose.note/numberlist/equals/#equals)(NumberList) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [Equals](../../aspose.note/numberlist/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [GetHashCode](../../aspose.note/numberlist/gethashcode/)() | يعمل كدالة تجزئة (hash) لهذا النوع. |
 | [GetNumberedListHeader](../../aspose.note/numberlist/getnumberedlistheader/)(int) | يحصل على رأس القائمة المرقمة. |
 
 ## أمثلة
 
-يوضح كيفية استرجاع معلومات حول تنسيق القائمة.
+يعرض كيفية استرجاع معلومات تنسيق القائمة.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -54,7 +54,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 
-// استرجاع مجموعة العقد لعنصر المخطط.
+// استرجاع مجموعة العقد لعنصر المخطط
 IList<OutlineElement> nodes = oneFile.GetChildNodes<OutlineElement>();
 
 // تكرار عبر كل عقدة
@@ -79,29 +79,29 @@ foreach (OutlineElement node in nodes)
         // استرجاع التنسيق
         Console.WriteLine("Font format: " + list.Format);
 
-        // التحقق من الغامق
+        // تحقق من الغامق
         Console.WriteLine("Is bold: " + list.IsBold);
 
-        // التحقق من المائل
+        // تحقق من المائل
         Console.WriteLine("Is italic: " + list.IsItalic);
         Console.WriteLine();
     }
 }
 ```
 
-يعرض كيفية إدراج قائمة جديدة بترقيم صيني.
+يوضح كيفية إدراج قائمة جديدة بترقيم صيني.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
-// تهيئة صفحة OneNote.
+// تهيئة صفحة OneNote
 Page page = new Page();
 Outline outline = new Outline();
 
-// تطبيق إعدادات نمط النص.
+// تطبيق إعدادات نمط النص
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
@@ -126,7 +126,7 @@ outline.AppendChildLast(outlineElem3);
 page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
 ```
@@ -136,19 +136,19 @@ doc.Save(dataDir);
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
-// تهيئة كائن فئة Outline
+// تهيئة كائن الفئة Outline
 Outline outline = new Outline();
 
-// تهيئة كائن الفئة TextStyle وتعيين خصائص التنسيق
+// تهيئة كائن فئة TextStyle وتعيين خصائص التنسيق
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 
-// تهيئة كائنات الفئة OutlineElement وتطبيق الترقيم.
+// تهيئة كائنات فئة OutlineElement وتطبيق الترقيم
 // الأرقام في نفس المخطط تُزاد تلقائيًا.
 OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10) };
 RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
@@ -173,7 +173,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "ApplyNumberingOnText_out.one"; 
 doc.Save(dataDir);
 ```

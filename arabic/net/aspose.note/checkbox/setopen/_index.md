@@ -1,14 +1,14 @@
 ---
 title: "CheckBox.SetOpen"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "CheckBox طريقة. يضبط العلامة إلى حالة الفتح"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة CheckBox. يضبط العلامة إلى الحالة المفتوحة"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/checkbox/setopen/
 ---
 ## CheckBox.SetOpen method
 
-يضبط العلامة إلى حالة مفتوحة.
+تعيين العلامة إلى حالة مفتوحة.
 
 ```csharp
 public virtual void SetOpen()
@@ -16,7 +16,7 @@ public virtual void SetOpen()
 
 ## أمثلة
 
-يوضح كيفية فتح جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية فتح جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.

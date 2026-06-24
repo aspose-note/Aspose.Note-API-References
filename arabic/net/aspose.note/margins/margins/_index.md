@@ -1,14 +1,14 @@
 ---
 title: "Margins.Margins"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "Margins constructor. يهيئ نسخة جديدة من هيكل Margins مع الهوامش اليسرى واليمنى والعليا والسفلى المحددة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ Margins. يهيئ نسخة جديدة من هيكل Margins مع الهوامش اليسرى واليمنى والعلوية والسفلية المحددة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/margins/margins/
 ---
 ## Margins constructor
 
-يُنشئ مثيلاً جديدًا من هيكل [`Margins`](../) مع الهوامش اليسرى واليمنى العليا والسفلى المحددة.
+يقوم بإنشاء نسخة جديدة من بنية [`Margins`](../) مع الهوامش اليسرى واليمنى والعليا والسفلى المحددة.
 
 ```csharp
 public Margins(float left, float right, float top, float bottom)
@@ -16,10 +16,10 @@ public Margins(float left, float right, float top, float bottom)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اليسار | Single | عرض الهامش الأيسر. |
-| اليمين | Single | عرض الهامش الأيمن. |
+| يسار | Single | عرض الهامش الأيسر. |
+| يمين | Single | عرض الهامش الأيمن. |
 | أعلى | Single | عرض الهامش العلوي. |
-| الأسفل | Single | عرض الهامش السفلي. |
+| أسفل | Single | عرض الهامش السفلي. |
 
 ### انظر أيضًا
 

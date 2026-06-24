@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Current"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية PageHistory. تُعيد إصدار الصفحة الحالي."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية PageHistory. تحصل على إصدار الصفحة الحالي"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/pagehistory/current/

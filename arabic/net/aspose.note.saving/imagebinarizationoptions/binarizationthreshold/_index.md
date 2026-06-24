@@ -1,7 +1,7 @@
 ---
 title: "ImageBinarizationOptions.BinarizationThreshold"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية ImageBinarizationOptions. تحصل أو تعين قيمة العتبة لطريقة التحويل الثنائي بالعتبة الثابتة. القيمة الافتراضية هي 128"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ImageBinarizationOptions. يحصل أو يضبط قيمة العتبة لطريقة التحويل الثنائي ذات العتبة الثابتة. القيمة الافتراضية هي 128"
 type: docs
 weight: 30
 url: /ar/net/aspose.note.saving/imagebinarizationoptions/binarizationthreshold/
@@ -16,7 +16,7 @@ public byte BinarizationThreshold { get; set; }
 
 ## أمثلة
 
-يظهر كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
+يوضح كيفية حفظ المستند كصورة ثنائية باستخدام عتبة ثابتة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -27,7 +27,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
 
-// احفظ المستند كـ gif.
+// احفظ المستند بصيغة gif.
 oneFile.Save(dataDir, new ImageSaveOptions(SaveFormat.Png)
                           {
                               ColorMode = ColorMode.BlackAndWhite,

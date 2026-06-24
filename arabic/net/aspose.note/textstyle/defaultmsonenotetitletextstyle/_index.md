@@ -1,6 +1,6 @@
 ---
 title: "TextStyle.DefaultMsOneNoteTitleTextStyle"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية TextStyle. تحصل على النمط الافتراضي لنص العنوان في MS OneNote"
 type: docs
 weight: 40

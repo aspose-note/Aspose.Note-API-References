@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitImageEnd"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. إنهاء زيارة عقدة Image"
 type: docs
 weight: 50
@@ -16,7 +16,7 @@ public virtual void VisitImageEnd(Image image)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | Image | العقدة [`Image`](../../image/) |
+| image | Image | العنصر [`Image`](../../image/) . |
 
 ### انظر أيضًا
 

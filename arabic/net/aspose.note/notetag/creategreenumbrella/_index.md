@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateGreenUmbrella"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة GreenUmbrella وملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة GreenUmbrella والملصق المحدد"
 type: docs
 weight: 510
 url: /ar/net/aspose.note/notetag/creategreenumbrella/
 ---
 ## NoteTag.CreateGreenUmbrella method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة GreenUmbrella والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenUmbrella وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateGreenUmbrella(string label = "")

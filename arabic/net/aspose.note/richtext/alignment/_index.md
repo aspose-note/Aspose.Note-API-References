@@ -1,7 +1,7 @@
 ---
 title: "RichText.Alignment"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية RichText. تحصل أو تعيّن المحاذاة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية RichText. يحصل أو يعيّن المحاذاة"
 type: docs
 weight: 20
 url: /ar/net/aspose.note/richtext/alignment/

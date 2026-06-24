@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateGreenCheckMark"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة GreenCheckMark والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة بأيقونة GreenCheckMark والملصق المحدد"
 type: docs
 weight: 360
 url: /ar/net/aspose.note/notetag/creategreencheckmark/
 ---
 ## NoteTag.CreateGreenCheckMark method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة GreenCheckMark والملصق المحدد.
+إنشاء علامة ملاحظة جديدة مع أيقونة GreenCheckMark وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateGreenCheckMark(string label = "")

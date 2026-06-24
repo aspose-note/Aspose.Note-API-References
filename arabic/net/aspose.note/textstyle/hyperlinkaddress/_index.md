@@ -1,6 +1,6 @@
 ---
 title: "TextStyle.HyperlinkAddress"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية TextStyle. يحصل أو يضبط عنوان الارتباط التشعبي. ضبط هذه الخاصية يكفي لإنشاء ارتباط تشعبي."
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/textstyle/hyperlinkaddress/
 ---
 ## TextStyle.HyperlinkAddress property
 
-يحصل أو يعيّن عنوان الارتباط التشعبي. تعيين هذه الخاصية يكفي لإنشاء ارتباط تشعبي.
+يحصل أو يضبط عنوان الارتباط التشعبي. ضبط هذه الخاصية يكفي لإنشاء ارتباط تشعبي.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
@@ -16,13 +16,13 @@ public string HyperlinkAddress { get; set; }
 
 ## أمثلة
 
-يظهر كيفية ربط ارتباط تشعبي بنص.
+يعرض كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -61,7 +61,7 @@ outline.AppendChildLast(outlineElem);
 // تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Note.Page() { Title = title };
 
 // إضافة عقدة المخطط
@@ -70,7 +70,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```

@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitTableRowStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. ابدأ بزيارة عقدة TableRow"
 type: docs
 weight: 290
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/documentvisitor/visittablerowstart/
 ---
 ## DocumentVisitor.VisitTableRowStart method
 
-ابدأ بزيارة عقدة [`TableRow`](../../tablerow/).
+ابدأ بزيارة العقدة [`TableRow`](../../tablerow/).
 
 ```csharp
 public virtual void VisitTableRowStart(TableRow tableRow)

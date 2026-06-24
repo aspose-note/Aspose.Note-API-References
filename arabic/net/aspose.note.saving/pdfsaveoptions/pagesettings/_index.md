@@ -1,14 +1,14 @@
 ---
 title: "PdfSaveOptions.PageSettings"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية PdfSaveOptions. تحصل أو تعين إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي تعتمد على CurrentUICulture؛ الثقافات الأمريكية تستخدم إعداد الورقة Letter، وغيرها تستخدم إعداد A4."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية PdfSaveOptions. يحصل أو يضبط إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture؛ الثقافات الأمريكية تستخدم إعداد Letter بينما الأخرى تستخدم إعداد A4."
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/pdfsaveoptions/pagesettings/
 ---
 ## PdfSaveOptions.PageSettings property
 
-يحصل أو يضبط إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، *الثقافات الأمريكية تستخدم إعداد الحرف، والبقية تستخدم إعداد A4.
+يحصل أو يعيّن إعدادات الصفحة لكل صفحة في المستند. بشكل افتراضي يعتمد على CurrentUICulture، *الثقافات الأمريكية لديها إعداد الحرف، والثقافات الأخرى لديها إعداد A4.
 
 ```csharp
 public PageSettings PageSettings { get; set; }
@@ -16,7 +16,7 @@ public PageSettings PageSettings { get; set; }
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -31,7 +31,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة A4 دون حد للارتفاع.
 
 ```csharp
 // المسار إلى دليل المستندات.

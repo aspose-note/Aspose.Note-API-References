@@ -1,6 +1,6 @@
 ---
 title: "Notebook.AppendChild"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Notebook. تضيف العقدة إلى نهاية القائمة"
 type: docs
 weight: 90

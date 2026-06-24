@@ -1,6 +1,6 @@
 ---
 title: "الفئة Title"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.Title. تمثل عنوانًا"
 type: docs
 weight: 1060
@@ -18,7 +18,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 | الاسم | الوصف |
 | --- | --- |
-| [Title](title/)() | البناء الافتراضي. |
+| [Title](title/)() | الباني الافتراضي. |
 
 ## الخصائص
 
@@ -27,7 +27,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 | [Document](../../aspose.note/node/document/) { get; } | يحصل على مستند العقدة. |
 | [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | يحصل أو يعيّن الإزاحة الأفقية. |
 | override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه العقدة مركبة. إذا كانت true يمكن للعقدة أن تحتوي على عقد فرعية. |
-| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت آخر تعديل. |
+| [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | يحصل أو يعيّن وقت التعديل الأخير. |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | يحصل على العقدة التالية في نفس مستوى شجرة العقد. |
 | [NodeType](../../aspose.note/node/nodetype/) { get; } | يحصل على نوع العقدة. |
 | [ParentNode](../../aspose.note/node/parentnode/) { get; } | يحصل على العقدة الأصلية. |
@@ -43,7 +43,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 | --- | --- |
 | override [Accept](../../aspose.note/title/accept/)(DocumentVisitor) | يقبل زائر العقدة. |
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/title/getchildnodes/#getchildnodes_1)() | احصل على جميع عقد الطفل حسب نوع العقدة. |
-| [GetEnumerator](../../aspose.note/title/getenumerator/)() | يعيد عدّادًا يتنقل عبر العقد الفرعية لـ `Title`. |
+| [GetEnumerator](../../aspose.note/title/getenumerator/)() | يرجع عدّادًا يتنقل عبر العقد الفرعية لـ `Title`. |
 
 ## أمثلة
 
@@ -53,7 +53,7 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -113,7 +113,7 @@ doc.Save(outputPath);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 Page page = doc.AppendChildLast(new Page());
 
@@ -131,16 +131,16 @@ dataDir = dataDir + "CreateOneNoteDocAndSaveToHTML_out.html";
 doc.Save(dataDir);
 ```
 
-يوضح كيفية إنشاء مستند بصفحة معنونة.
+يوضح كيفية إنشاء مستند بصفحة ذات عنوان.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Page();
 
 // النمط الافتراضي لجميع النصوص في المستند.
@@ -154,10 +154,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة Page في المستند
+// إضافة عقدة Page إلى المستند
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);
 ```
@@ -168,7 +168,7 @@ doc.Save(dataDir);
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 
-// تهيئة مستند OneNote.
+// تهيئة مستند OneNote
 Document doc = new Document();
 
 Page page = doc.AppendChildLast(new Page());
@@ -212,10 +212,10 @@ page.Title = new Title()
                  TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
              };
 
-// إلحاق عقدة الصفحة
+// إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote بصيغ مختلفة، ضبط حجم خط النص واكتشاف تغييرات التخطيط يدويًا.
+// احفظ مستند OneNote بصيغ مختلفة، اضبط حجم خط النص واكتشف تغييرات التخطيط يدويًا.
 doc.Save(dataDir + "ConsequentExportOperations_out.html");            
 doc.Save(dataDir + "ConsequentExportOperations_out.pdf");            
 doc.Save(dataDir + "ConsequentExportOperations_out.jpg");            

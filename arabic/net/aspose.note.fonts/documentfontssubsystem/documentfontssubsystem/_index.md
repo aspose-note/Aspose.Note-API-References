@@ -1,14 +1,14 @@
 ---
 title: "DocumentFontsSubsystem.DocumentFontsSubsystem"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "منشئ DocumentFontsSubsystem. يهيئ مثيلاً جديداً من الفئة DocumentFontsSubsystem."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "منشئ DocumentFontsSubsystem. يهيئ نسخة جديدة من الفئة DocumentFontsSubsystem."
 type: docs
 weight: 10
 url: /ar/net/aspose.note.fonts/documentfontssubsystem/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem(Stream, Dictionary&lt;string, string&gt;) {#constructor_1}
 
-يُهيئ مثيلاً جديداً من الفئة [`DocumentFontsSubsystem`](../).
+يهيئ نسخة جديدة من الفئة [`DocumentFontsSubsystem`](../).
 
 ```csharp
 public DocumentFontsSubsystem(Stream defaultFontStream, 
@@ -30,7 +30,7 @@ public DocumentFontsSubsystem(Stream defaultFontStream,
 
 ## DocumentFontsSubsystem(string, Dictionary&lt;string, string&gt;) {#constructor_2}
 
-يُهيئ مثيلاً جديداً من الفئة [`DocumentFontsSubsystem`](../).
+يهيئ نسخة جديدة من الفئة [`DocumentFontsSubsystem`](../).
 
 ```csharp
 public DocumentFontsSubsystem(string defaultFontFile, 
@@ -52,7 +52,7 @@ public DocumentFontsSubsystem(string defaultFontFile,
 
 ## DocumentFontsSubsystem(Dictionary&lt;string, string&gt;) {#constructor}
 
-يُهيئ مثيلاً جديداً من الفئة [`DocumentFontsSubsystem`](../).
+يهيئ نسخة جديدة من الفئة [`DocumentFontsSubsystem`](../).
 
 ```csharp
 public DocumentFontsSubsystem(Dictionary<string, string> fontsSubstitutions = null)

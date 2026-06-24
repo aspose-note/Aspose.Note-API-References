@@ -1,6 +1,6 @@
 ---
 title: "Notebook.Save"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة Notebook. تحفظ مستند OneNote إلى ملف"
 type: docs
 weight: 150
@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 
 ### استثناءات
 
@@ -43,7 +43,7 @@ public void Save(Stream stream)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 
 ### استثناءات
 
@@ -70,7 +70,7 @@ public void Save(string fileName, SaveFormat format)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 | تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
@@ -99,7 +99,7 @@ public void Save(Stream stream, SaveFormat format)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | تنسيق | SaveFormat | التنسيق الذي سيتم حفظ المستند به. |
 
 ### استثناءات
@@ -128,7 +128,7 @@ public void Save(string fileName, NotebookSaveOptions options)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجود بالفعل، يتم استبدال الملف الموجود. |
+| fileName | String | الاسم الكامل للملف. إذا كان هناك ملف بالاسم الكامل المحدد موجودًا بالفعل، يتم استبدال الملف الموجود. |
 | خيارات | NotebookSaveOptions | يحدد الخيارات التي يتم حفظ المستند بها في الملف. |
 
 ### استثناءات
@@ -157,7 +157,7 @@ public void Save(Stream stream, NotebookSaveOptions options)
 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | Stream | التدفق. |
+| تدفق | Stream | التدفق. |
 | خيارات | NotebookSaveOptions | يحدد الخيارات التي يتم حفظ المستند بها. |
 
 ### استثناءات

@@ -1,7 +1,7 @@
 ---
 title: "IFontSavingCallback.FontSaving"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة IFontSavingCallback. تُستدعى عندما يقوم Aspose.Note بحفظ خط"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة IFontSavingCallback. تُستدعى عندما تقوم Aspose.Note بحفظ خط"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/ifontsavingcallback/fontsaving/

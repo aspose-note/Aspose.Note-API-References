@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.AddRange"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة PageHistory. تُضيف إصدارات الصفحات إلى نهاية PageHistory"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة PageHistory. تُضيف إصدارات الصفحات إلى نهاية PageHistory."
 type: docs
 weight: 70
 url: /ar/net/aspose.note/pagehistory/addrange/

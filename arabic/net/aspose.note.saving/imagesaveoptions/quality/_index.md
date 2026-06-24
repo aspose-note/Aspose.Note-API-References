@@ -1,14 +1,14 @@
 ---
 title: "ImageSaveOptions.Quality"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية ImageSaveOptions. يحصل أو يضبط قيمة تحدد جودة الصورة المحفوظة. تُمرّر هذه القيمة إلى برنامج الترميز كمعامل System.Drawing.Imaging.Encoder.Quality"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية ImageSaveOptions. تحصل أو تعيين قيمة تحدد جودة الصورة المحفوظة. تُمرر هذه القيمة إلى الترميز كمعامل System.Drawing.Imaging.Encoder.Quality"
 type: docs
 weight: 40
 url: /ar/net/aspose.note.saving/imagesaveoptions/quality/
 ---
 ## ImageSaveOptions.Quality property
 
-يحصل أو يضبط قيمة تحدد جودة الصورة المحفوظة. تُمرّر هذه القيمة إلى الترميز كمعامل System.Drawing.Imaging.Encoder.Quality.
+يحصل أو يعيّن قيمة تحدد جودة الصورة المحفوظة. تُمرّر هذه القيمة إلى برنامج الترميز كمعامل System.Drawing.Imaging.Encoder.Quality.
 
 ```csharp
 public int Quality { get; set; }
@@ -16,11 +16,11 @@ public int Quality { get; set; }
 
 ## ملاحظات
 
-نطاق القيم المفيدة لفئة الجودة هو من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. الصفر يعطيك أدنى جودة للصورة و100 أعلى جودة. القيمة الافتراضية هي 90.
+نطاق القيم المفيدة لفئة الجودة هو من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. الصفر يعطيك أدنى جودة صورة و100 أعلى جودة. القيمة الافتراضية هي 90.
 
 ## أمثلة
 
-يعرض كيفية ضبط جودة الصورة عند حفظ المستند كصورة بتنسيق JPEG.
+يعرض كيفية ضبط جودة الصورة عند حفظ المستند كصورة بصيغة JPEG.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -35,7 +35,7 @@ dataDir = dataDir + "SetOutputImageResolution_out.jpg";
 doc.Save(dataDir, new ImageSaveOptions(SaveFormat.Jpeg) { Quality = 100 });
 ```
 
-يظهر كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
+يوضح كيفية حفظ المستند كصورة بتنسيق Tiff باستخدام ضغط Jpeg.
 
 ```csharp
 // المسار إلى دليل المستندات.

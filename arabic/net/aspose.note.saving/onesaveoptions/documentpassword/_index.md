@@ -1,7 +1,7 @@
 ---
 title: "OneSaveOptions.DocumentPassword"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "OneSaveOptions property. يحصل أو يعيّن كلمة مرور لتشفير محتوى المستند"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "OneSaveOptions الخاصية. يحصل أو يعيّن كلمة مرور لتشفير محتوى المستند"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving/onesaveoptions/documentpassword/

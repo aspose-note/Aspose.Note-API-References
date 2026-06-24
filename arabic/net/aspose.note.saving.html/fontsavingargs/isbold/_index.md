@@ -1,7 +1,7 @@
 ---
 title: "FontSavingArgs.IsBold"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية FontSavingArgs. يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه عريضًا"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية FontSavingArgs. يحصل على قيمة تشير إلى ما إذا كان الخط الجاري حفظه عريض"
 type: docs
 weight: 20
 url: /ar/net/aspose.note.saving.html/fontsavingargs/isbold/

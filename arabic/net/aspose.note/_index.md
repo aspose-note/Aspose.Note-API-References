@@ -1,19 +1,19 @@
 ---
 title: "Aspose.Note"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "المساحة الاسمية Note تحتوي على فئات تمثل بنية المستند"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "مساحة الأسماء Note تحتوي على الفئات التي تمثل بنية المستند"
 type: docs
 weight: 10
 url: /ar/net/aspose.note/
 ---
-مساحة الاسم Note تحتوي على فئات تمثل بنية المستند.
+مساحة الأسماء Note تحتوي على فئات تمثل بنية المستند.
 
 ## الفئات
 
 | الفئة | الوصف |
 | --- | --- |
 | [AttachedFile](./attachedfile/) | يمثل ملفًا مرفقًا. |
-| [CheckBox](./checkbox/) | الفئة الأساسية للعلامات التي يمكنها تبديل حالتها بين مكتملة وغير مكتملة. |
+| [CheckBox](./checkbox/) | الفئة الأساسية للوسوم التي يمكنها تبديل حالتها بين مكتملة وغير مكتملة. |
 | [CompositeNode&lt;T&gt;](./compositenode-1/) | الفئة العامة الأساسية للعقد التي يمكنها احتواء عقد أخرى. |
 | [CompositeNodeBase](./compositenodebase/) | الفئة غير العامة للعقد التي يمكنها احتواء عقد أخرى. |
 | [DisplayUnitsConverter](./displayunitsconverter/) | الفئة تحتوي على الأساليب لتحويل القيم. |
@@ -35,7 +35,7 @@ url: /ar/net/aspose.note/
 | [Metered](./metered/) | يوفر أساليب لتعيين المفتاح المقيس. |
 | [Node](./node/) | الفئة الأساسية لجميع عقد مستند Aspose.Note. |
 | [Notebook](./notebook/) | يمثل دفتر ملاحظات Aspose.Note. |
-| [NotebookLoadOptions](./notebookloadoptions/) | الخيارات المستخدمة لتحميل دفتر ملاحظات. |
+| [NotebookLoadOptions](./notebookloadoptions/) | الخيارات المستخدمة لتحميل دفتر الملاحظات. |
 | [NoteCheckBox](./notecheckbox/) | يمثل علامة ملاحظة يمكنها تبديل حالتها بين مكتملة وغير مكتملة. |
 | [NoteTag](./notetag/) | يمثل علامة ملاحظة. |
 | [NoteTask](./notetask/) | يمثل مهمة ملاحظة. |
@@ -43,13 +43,13 @@ url: /ar/net/aspose.note/
 | [Outline](./outline/) | يمثل مخططًا. |
 | [OutlineElement](./outlineelement/) | يمثل عنصر مخطط. |
 | [OutlineGroup](./outlinegroup/) | يمثل مجموعة مخطط. |
-| [Page](./page/) | يمثل صفحةً. |
+| [Page](./page/) | يمثل صفحة. |
 | [PageHistory](./pagehistory/) | يمثل تاريخ الصفحة. |
 | [ParagraphStyle](./paragraphstyle/) | إعدادات نمط النص التي تُستخدم إذا لم يكن هناك كائن TextStyle مطابق في مجموعة Styles أو إذا لم يحدد هذا الكائن الإعداد المطلوب. |
 | [ParsingErrorInfo](./parsingerrorinfo/) | معلومات حول الخطأ الذي حدث أثناء التحليل. |
 | [RevisionSummary](./revisionsummary/) | يمثل ملخصًا لمراجعة العقدة. |
 | [RichText](./richtext/) | يمثل نصًا غنيًا. |
-| [Style](./style/) | هذه الفئة تحتوي على خصائص مشتركة لفئات [`ParagraphStyle`](../aspose.note/paragraphstyle/) و [`TextStyle`](../aspose.note/textstyle/). |
+| [Style](./style/) | تحتوي هذه الفئة على الخصائص المشتركة لفئات [`ParagraphStyle`](../aspose.note/paragraphstyle/) و [`TextStyle`](../aspose.note/textstyle/). |
 | [Table](./table/) | يمثل جدولًا. |
 | [TableCell](./tablecell/) | يمثل خلية جدول. |
 | [TableColumn](./tablecolumn/) | يمثل عمود جدول. |
@@ -57,11 +57,11 @@ url: /ar/net/aspose.note/
 | [TextRun](./textrun/) | الفئة التي تمثل قطعة نص مع نمط مرتبط. |
 | [TextStyle](./textstyle/) | يحدد نمط النص. |
 | [Title](./title/) | يمثل عنوانًا. |
-| [UnsupportedFileFormatException](./unsupportedfileformatexception/) | يُرمى أثناء تحميل المستند، عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note. |
-| [UnsupportedSaveFormatException](./unsupportedsaveformatexception/) | يُرمى إذا لم يكن تنسيق الحفظ المطلوب مدعومًا. |
+| [UnsupportedFileFormatException](./unsupportedfileformatexception/) | يُرمى أثناء تحميل المستند عندما لا يتم التعرف على تنسيق الملف أو لا يدعمه Aspose.Note. |
+| [UnsupportedSaveFormatException](./unsupportedsaveformatexception/) | يُرمى إذا كان تنسيق الحفظ المطلوب غير مدعوم. |
 ## Structures
 
-| بنية | الوصف |
+| الهيكل | الوصف |
 | --- | --- |
 | [Margins](./margins/) | يحدد أبعاد هوامش العقدة. |
 ## الواجهات
@@ -71,7 +71,7 @@ url: /ar/net/aspose.note/
 | [ICompositeNode](./icompositenode/) | الواجهة للعقد التي يمكنها احتواء عقد أخرى. |
 | [ICompositeNode&lt;T&gt;](./icompositenode-1/) | الواجهة للعقد التي يمكنها احتواء عقد أخرى. |
 | [IIndentatedNode](./iindentatednode/) | الواجهة للعقد التي لديها إزاحة نسبية للعقد الفرعية. |
-| [INode](./inode/) | الواجهة لجميع عقد مستند Aspose.Note. |
+| [INode](./inode/) | الواجهة لجميع العقد في مستند Aspose.Note. |
 | [INotebookChildNode](./inotebookchildnode/) | يمثل عنصرًا فرعيًا في دفتر ملاحظات Aspose.Note. |
 | [INoteTag](./inotetag/) | الواجهة لعلامات الملاحظات (أي العلامات التي لا ترتبط بمهام Outlook). |
 | [IOutlineChildNode](./ioutlinechildnode/) | الواجهة لجميع العقد الفرعية لعقدة المخطط. |
@@ -88,7 +88,7 @@ url: /ar/net/aspose.note/
 | [NodeType](./nodetype/) | يحدد نوع العقدة. |
 | [NumberFormat](./numberformat/) | يحدد تنسيق الترقيم الذي يمكن استخدامه لمجموعة من الكائنات المرقمة تلقائيًا. القائمة الكاملة محددة على [MSDN](https://msdn.microsoft.com/en-us/library/dd923798(v=office.12).aspx) |
 | [PageSizeType](./pagesizetype/) | يحدد حجم نوع عقدة الصفحة. |
-| [SaveFormat](./saveformat/) | يشير إلى التنسيق الذي يتم حفظ المستند به. |
+| [SaveFormat](./saveformat/) | يشير إلى الصيغة التي يتم حفظ المستند بها. |
 | [TagIcon](./tagicon/) | يحدد أيقونة العلامة أو أيقونة المهمة. |
 | [TagStatus](./tagstatus/) | يحدد حالة عقدة علامة الملاحظة. |
 

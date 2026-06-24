@@ -1,7 +1,7 @@
 ---
-title: "التعداد NumberFormat"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "التعداد Aspose.Note.NumberFormat. يحدد تنسيق الترقيم الذي يمكن استخدامه لمجموعة من الكائنات المرقمة تلقائيًا. القائمة الكاملة محددة على MSDN"
+title: "تعداد NumberFormat"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "تعداد Aspose.Note.NumberFormat. يحدد تنسيق الترقيم الذي يمكن استخدامه لمجموعة من الكائنات المرقمة تلقائيًا. القائمة الكاملة محددة على MSDN."
 type: docs
 weight: 500
 url: /ar/net/aspose.note/numberformat/
@@ -19,8 +19,8 @@ public enum NumberFormat : byte
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | DecimalNumbers | `0` | يحدد أن التسلسل يجب أن يتكون من ترقيم عشري. مثال: 1, 2, 3, …, 8, 9, 10, 11, 12, …, 18, 19, 20, 21. |
-| UpperRoman | `1` | يحدد أن التسلسل يجب أن يتكون من أرقام رومانية كبيرة. مثال: I, II, III, IV, …, XVIII, XIX, XX, XXI. |
-| LowerRoman | `2` | يحدد أن التسلسل يجب أن يتكون من أرقام رومانية صغيرة. مثال: i, ii, iii, iv, …, xviii, xix, xx, xxi. |
+| UpperRoman | `1` | يحدد أن التسلسل يجب أن يتكون من أرقام رومانية بالحروف الكبيرة. مثال: I, II, III, IV, …, XVIII, XIX, XX, XXI. |
+| LowerRoman | `2` | يحدد أن التسلسل يجب أن يتكون من أرقام رومانية بالحروف الصغيرة. مثال: i, ii, iii, iv, …, xviii, xix, xx, xxi. |
 | UpperLetter | `3` | يحدد أن التسلسل يجب أن يتكون من تكرار واحد أو أكثر لحرف واحد من الأبجدية اللاتينية بالحروف الكبيرة. مثال: A, B, C, …, Y, Z, AA, BB, CC, …, YY, ZZ, AAA, BBB, CCC. |
 | LowerLetter | `4` | يحدد أن التسلسل يجب أن يتكون من تكرار واحد أو أكثر لحرف واحد من الأبجدية اللاتينية بالحروف الصغيرة. مثال: a, b, c, …, y, z, aa, bb, cc, …, yy, zz, aaa, bbb, ccc. |
 | TaiwaneseCounting | `33` | يحدد أن التسلسل يجب أن يتكون من أرقام متسلسلة من نظام العد التايواني. |

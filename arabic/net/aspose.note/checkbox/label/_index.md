@@ -1,7 +1,7 @@
 ---
 title: "CheckBox.Label"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "CheckBox خاصية. يحصل على نص التسمية"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية CheckBox. يحصل على نص التسمية"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/checkbox/label/

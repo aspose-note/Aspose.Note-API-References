@@ -1,14 +1,14 @@
 ---
 title: "Table.Tags"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Table. تحصل على قائمة جميع العلامات لفقرة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Table. تحصل على قائمة بجميع العلامات في فقرة"
 type: docs
 weight: 50
 url: /ar/net/aspose.note/table/tags/
 ---
 ## Table.Tags property
 
-يحصل على قائمة جميع العلامات في الفقرة.
+يحصل على قائمة بجميع العلامات في الفقرة.
 
 ```csharp
 public List<ITag> Tags { get; }

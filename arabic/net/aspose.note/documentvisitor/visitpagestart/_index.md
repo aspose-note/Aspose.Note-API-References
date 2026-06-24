@@ -1,6 +1,6 @@
 ---
 title: "DocumentVisitor.VisitPageStart"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة DocumentVisitor. بدء زيارة عقدة Page"
 type: docs
 weight: 220

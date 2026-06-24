@@ -1,6 +1,6 @@
 ---
 title: "الفئة TextStyle"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "الفئة Aspose.Note.TextStyle. تحدد نمط النص"
 type: docs
 weight: 1050
@@ -18,7 +18,7 @@ public sealed class TextStyle : Style
 
 | الاسم | الوصف |
 | --- | --- |
-| [TextStyle](textstyle/)() | البناء الافتراضي. |
+| [TextStyle](textstyle/)() | الباني الافتراضي. |
 
 ## الخصائص
 
@@ -29,33 +29,33 @@ public sealed class TextStyle : Style
 | static [DefaultMsOneNoteTitleTextStyle](../../aspose.note/textstyle/defaultmsonenotetitletextstyle/) { get; } | يحصل على النمط الافتراضي لنص العنوان في MS OneNote. |
 | static [DefaultMsOneNoteTitleTimeStyle](../../aspose.note/textstyle/defaultmsonenotetitletimestyle/) { get; } | يحصل على النمط الافتراضي لوقت العنوان في MS OneNote. |
 | [FontColor](../../aspose.note/style/fontcolor/) { get; set; } | يحصل أو يضبط لون الخط. |
-| [FontName](../../aspose.note/style/fontname/) { get; set; } | يحصل أو يعيّن اسم الخط. |
-| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | يحصل أو يعيّن حجم الخط. |
+| [FontName](../../aspose.note/style/fontname/) { get; set; } | يحصل أو يضبط اسم الخط. |
+| [FontSize](../../aspose.note/style/fontsize/) { get; set; } | يحصل أو يضبط حجم الخط. |
 | [FontStyle](../../aspose.note/style/fontstyle/) { get; } | يحصل على نمط الخط. |
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | يحصل أو يضبط لون التظليل. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | يحصل أو يعيّن عنوان الارتباط التشعبي. تعيين هذه الخاصية يكفي لإنشاء ارتباط تشعبي. |
-| [IsBold](../../aspose.note/style/isbold/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
-| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مخفيًا. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | يحصل أو يضبط عنوان الارتباط التشعبي. ضبط هذه الخاصية يكفي لإنشاء ارتباط تشعبي. |
+| [IsBold](../../aspose.note/style/isbold/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا. |
+| [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مخفيًا. |
 | [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | مهمل منذ 22.5. استخدم [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) بدلاً من ذلك. |
-| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
-| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي. |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
-| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص منخفضًا. |
-| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص مرتفعًا. |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص تحته خط. |
-| [Language](../../aspose.note/textstyle/language/) { get; set; } | يحصل أو يعيّن لغة النص. |
+| [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مائلًا. |
+| [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص بتنسيق رياضي. |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مشطوبًا. |
+| [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص تحت السطر. |
+| [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص فوق السطر. |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص مسطرًا. |
+| [Language](../../aspose.note/textstyle/language/) { get; set; } | يحصل أو يضبط لغة النص. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.note/textstyle/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| [Equals](../../aspose.note/textstyle/equals/#equals)(TextStyle) | يحدد ما إذا كان الكائن المحدد مساويًا للكائن الحالي. |
-| override [GetHashCode](../../aspose.note/textstyle/gethashcode/)() | يعمل كدالة تجزئة للنوع. |
+| override [Equals](../../aspose.note/textstyle/equals/#equals_1)(object) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| [Equals](../../aspose.note/textstyle/equals/#equals)(TextStyle) | يحدد ما إذا كان الكائن المحدد يساوي الكائن الحالي. |
+| override [GetHashCode](../../aspose.note/textstyle/gethashcode/)() | يعمل كدالة تجزئة (hash) لهذا النوع. |
 
 ## أمثلة
 
-دعنا نبرز عناوين الصفحة بين العناوين الأخرى بزيادة حجم الخط.
+لنُبرز عناوين الصفحة بين باقي العناوين بزيادة حجم الخط.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -63,7 +63,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// تكرار عبر عناوين الصفحة.
+// تكرّر عبر عناوين الصفحة.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -79,7 +79,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
+لنُبرز تغييرات النص الأخير عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -87,16 +87,16 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// احصل على عقد RichText المعدلة الأسبوع الماضي.
+// احصل على عقد RichText التي تم تعديلها الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // تعيين لون التظليل
+    // حدد لون التظليل
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // تعيين لون التظليل
+        // حدد لون التظليل
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }
@@ -104,7 +104,7 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-تعيين لغة التدقيق لنص.
+حدد لغة التدقيق للنص.
 
 ```csharp
 var document = new Document();
@@ -125,7 +125,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-التعامل مع تنسيق النص باستخدام نمط الفقرة.
+تلاعب بتنسيق النص باستخدام نمط الفقرة.
 
 ```csharp
 var document = new Document();
@@ -146,13 +146,13 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
 ```
 
-يظهر كيفية ربط ارتباط تشعبي بنص.
+يعرض كيفية ربط ارتباط تشعبي بنص.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Tasks();
 
-// إنشاء كائن من فئة Document
+// إنشاء كائن من الفئة Document
 Document doc = new Document();
 
 RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
@@ -191,7 +191,7 @@ outline.AppendChildLast(outlineElem);
 // تهيئة كائن فئة Title
 Title title = new Title() { TitleText = titleText };
 
-// تهيئة كائن فئة Page
+// تهيئة كائن الفئة Page
 Page page = new Note.Page() { Title = title };
 
 // إضافة عقدة المخطط
@@ -200,7 +200,7 @@ page.AppendChildLast(outline);
 // إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 
-// حفظ مستند OneNote.
+// حفظ مستند OneNote
 dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```

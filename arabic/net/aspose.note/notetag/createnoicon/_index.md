@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateNoIcon"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة بدون أيقونة ومع ملصق محدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة بدون أيقونة ومع الملصق المحدد"
 type: docs
 weight: 670
 url: /ar/net/aspose.note/notetag/createnoicon/
 ---
 ## NoteTag.CreateNoIcon method
 
-إنشاء علامة ملاحظة جديدة بدون أيقونة ومع ملصق محدد.
+ينشئ علامة ملاحظة جديدة بدون أيقونة ومع الملصق المحدد.
 
 ```csharp
 public static NoteTag CreateNoIcon(string label = "")

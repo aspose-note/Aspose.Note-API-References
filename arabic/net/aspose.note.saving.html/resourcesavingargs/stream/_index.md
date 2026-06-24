@@ -1,6 +1,6 @@
 ---
 title: "ResourceSavingArgs.Stream"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية ResourceSavingArgs. يحصل على أو يضبط الدفق المستخدم لتخزين المورد"
 type: docs
 weight: 40

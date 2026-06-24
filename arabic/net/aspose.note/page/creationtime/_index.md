@@ -1,14 +1,14 @@
 ---
 title: "Page.CreationTime"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Page. يحصل أو يحدد وقت الإنشاء"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Page. تحصل أو تعيين وقت الإنشاء"
 type: docs
 weight: 40
 url: /ar/net/aspose.note/page/creationtime/
 ---
 ## Page.CreationTime property
 
-يحصل أو يعيّن وقت الإنشاء.
+الحصول على أو تعيين وقت الإنشاء.
 
 ```csharp
 public DateTime CreationTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime CreationTime { get; set; }
 
 ## أمثلة
 
-يظهر كيفية الحصول على معلومات ميتا حول صفحة.
+يوضح كيفية الحصول على معلومات ميتا حول صفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -36,13 +36,13 @@ foreach (Page page in oneFile)
 }
 ```
 
-يظهر كيفية الحصول على تاريخ الصفحة.
+يوضح كيفية الحصول على تاريخ الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 // احصل على الصفحة الأولى

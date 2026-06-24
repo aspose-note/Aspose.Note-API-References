@@ -1,14 +1,14 @@
 ---
 title: "Style.IsBold"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Style. يحصل على أو يضبط قيمة تشير إلى ما إذا كان نمط النص عريض"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Style. يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص عريضًا"
 type: docs
 weight: 60
 url: /ar/net/aspose.note/style/isbold/
 ---
 ## Style.IsBold property
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان نمط النص غامقًا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان نمط النص غامقًا.
 
 ```csharp
 public bool IsBold { get; set; }
@@ -16,7 +16,7 @@ public bool IsBold { get; set; }
 
 ## أمثلة
 
-دعنا نبرز عناوين الصفحة بين العناوين الأخرى بزيادة حجم الخط.
+لنُبرز عناوين الصفحة بين باقي العناوين بزيادة حجم الخط.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -24,7 +24,7 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// تكرار عبر عناوين الصفحة.
+// تكرّر عبر عناوين الصفحة.
 foreach (var title in document.Select(e => e.Title.TitleText))
 {
     title.ParagraphStyle.FontSize = 24;
@@ -40,7 +40,7 @@ foreach (var title in document.Select(e => e.Title.TitleText))
 document.Save(Path.Combine(dataDir, "ChangePageTitleStyle.pdf"));
 ```
 
-دعنا نبرز تغييرات النص الأخيرة عن طريق التظليل.
+لنُبرز تغييرات النص الأخير عن طريق التظليل.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -48,16 +48,16 @@ string dataDir = RunExamples.GetDataDir_Text();
 // حمّل المستند إلى Aspose.Note.
 Document document = new Document(dataDir + "Aspose.one");
 
-// احصل على عقد RichText المعدلة الأسبوع الماضي.
+// احصل على عقد RichText التي تم تعديلها الأسبوع الماضي.
 var richTextNodes = document.GetChildNodes<RichText>().Where(e => e.LastModifiedTime >= DateTime.Today.Subtract(TimeSpan.FromDays(7)));
 
 foreach (var node in richTextNodes)
 {
-    // تعيين لون التظليل
+    // حدد لون التظليل
     node.ParagraphStyle.Highlight = Color.DarkGreen;
     foreach (var run in node.TextRuns)
     {
-        // تعيين لون التظليل
+        // حدد لون التظليل
         run.Style.Highlight = Color.DarkSeaGreen;
     }
 }

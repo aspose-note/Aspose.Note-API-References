@@ -1,6 +1,6 @@
 ---
 title: "PageSettings.Letter"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية PageSettings. يحصل على الإعدادات لصفحة تنسيق Letter"
 type: docs
 weight: 30
@@ -16,7 +16,7 @@ public static PageSettings Letter { get; }
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
+يعرض كيفية حفظ مستند بتنسيق Pdf مع تخطيط صفحة Letter.
 
 ```csharp
 // المسار إلى دليل المستندات.

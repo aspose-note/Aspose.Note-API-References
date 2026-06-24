@@ -1,7 +1,7 @@
 ---
 title: "Page.Margin"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية Page. يحصل أو يحدد الهامش"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية Page. تحصل أو تعيين الهامش"
 type: docs
 weight: 80
 url: /ar/net/aspose.note/page/margin/

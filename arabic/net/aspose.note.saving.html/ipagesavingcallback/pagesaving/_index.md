@@ -1,7 +1,7 @@
 ---
 title: "IPageSavingCallback.PageSaving"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة IPageSavingCallback. تُستدعى عندما يقوم Aspose.Note بحفظ صفحة منفصلة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة IPageSavingCallback. تُستدعى عندما تقوم Aspose.Note بحفظ صفحة منفصلة"
 type: docs
 weight: 10
 url: /ar/net/aspose.note.saving.html/ipagesavingcallback/pagesaving/

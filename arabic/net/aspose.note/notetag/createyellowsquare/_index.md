@@ -1,6 +1,6 @@
 ---
 title: "NoteTag.CreateYellowSquare"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة مع أيقونة YellowSquare والملصق المحدد"
 type: docs
 weight: 1040
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note/notetag/createyellowsquare/
 ---
 ## NoteTag.CreateYellowSquare method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة YellowSquare والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة YellowSquare وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateYellowSquare(string label = "Project B")

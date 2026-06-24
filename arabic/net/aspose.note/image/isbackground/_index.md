@@ -1,6 +1,6 @@
 ---
 title: "Image.IsBackground"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Image. تحصل على ما إذا كانت الصورة صورة خلفية"
 type: docs
 weight: 120

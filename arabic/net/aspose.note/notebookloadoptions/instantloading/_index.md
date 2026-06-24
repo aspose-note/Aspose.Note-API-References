@@ -1,7 +1,7 @@
 ---
 title: "NotebookLoadOptions.InstantLoading"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية NotebookLoadOptions. تحصل أو تعيين قيمة تشير إلى ما إذا كان يجب تحميل المستندات الفرعية أثناء تحميل المستند الأصلي"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية NotebookLoadOptions. تحصل أو تعين قيمة تشير إلى ما إذا كان يجب تحميل المستندات الفرعية أثناء تحميل المستند الأصلي"
 type: docs
 weight: 30
 url: /ar/net/aspose.note/notebookloadoptions/instantloading/
@@ -16,7 +16,7 @@ public bool InstantLoading { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي `false`، لذا سيتم تحميل المستندات الفرعية "بشكل كسول"، أي يجب تأجيل تحميلها حتى الوصول المباشر إلى فرع محدد. القيمة `true` تشير إلى أنه يجب تحميلها فوراً.
+القيمة الافتراضية هي `false`، لذا سيتم تحميل المستندات الفرعية "بشكل كسول"، أي يجب تأجيل تحميلها حتى الوصول المباشر إلى فرع معين. القيمة `true` تشير إلى أنه يجب تحميلها فورًا.
 
 ### انظر أيضًا
 

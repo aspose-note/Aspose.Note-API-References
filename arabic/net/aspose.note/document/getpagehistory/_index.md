@@ -1,14 +1,14 @@
 ---
 title: "Document.GetPageHistory"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة Document. تحصل على PageHistory التي تحتوي على السجل الكامل لكل صفحة معروضة في المستند، الأقدم في الفهرس 0. يمكن الوصول إلى نسخة الصفحة الحالية كـ Current وتكون منفصلة عن مجموعة الإصدارات التاريخية."
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة Document. تحصل على PageHistory التي تحتوي على السجل الكامل لكل صفحة معروضة في مستند، الأقدم في الفهرس 0. يمكن الوصول إلى نسخة الصفحة الحالية كـ Current وتكون منفصلة عن مجموعة الإصدارات التاريخية."
 type: docs
 weight: 100
 url: /ar/net/aspose.note/document/getpagehistory/
 ---
 ## Document.GetPageHistory method
 
-يحصل على [`PageHistory`](../../pagehistory/) التي تحتوي على السجل الكامل لكل صفحة معروضة في المستند (الأقدم في الفهرس 0). يمكن الوصول إلى نسخة الصفحة الحالية كـ [`Current`](../../pagehistory/current/) وتكون منفصلة عن مجموعة الإصدارات التاريخية.
+يحصل على [`PageHistory`](../../pagehistory/) التي تحتوي على السجل الكامل لكل صفحة معروضة في مستند (الأقدم في الفهرس 0). يمكن الوصول إلى نسخة الصفحة الحالية كـ [`Current`](../../pagehistory/current/) وتكون منفصلة عن مجموعة الإصدارات التاريخية.
 
 ```csharp
 public PageHistory GetPageHistory(Page page)
@@ -24,13 +24,13 @@ public PageHistory GetPageHistory(Page page)
 
 ## أمثلة
 
-يعرض كيفية استعادة النسخة السابقة لصفحة.
+يعرض كيفية استعادة النسخة السابقة من الصفحة.
 
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -47,7 +47,7 @@ document.Save(dataDir + "RollBackRevisions_out.one");
 // المسار إلى دليل المستندات.
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote والحصول على العنصر الفرعي الأول.
+// تحميل مستند OneNote والحصول على العنصر الفرعي الأول           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -68,12 +68,12 @@ if (pageHistory.Count > 1)
 }
 ```
 
-يعرض كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
+يوضح كيفية التحقق مما إذا كانت الصفحة صفحة تعارض (أي أنها تحتوي على تغييرات لم يتمكن OneNote من دمجها تلقائيًا).
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// تحميل مستند OneNote.
+// تحميل مستند OneNote
 Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
 var history = doc.GetPageHistory(doc.FirstChild);
@@ -86,8 +86,8 @@ for (int i = 0; i < history.Count; i++)
                     historyPage.PageContentRevisionSummary.LastModifiedTime);
     Console.WriteLine(historyPage.IsConflictPage ? ", IsConflict: true" : string.Empty);
 
-    // بشكل افتراضي، يتم تخطي صفحات التعارض عند الحفظ.
-    // إذا تم وضع علامة بأنها غير متعارضة، فسيتم حفظها كصفحة عادية في السجل.
+    // بشكل افتراضي يتم تخطي صفحات التعارض عند الحفظ.
+    // إذا تم وضع علامة بأنها غير متعارضة فستُحفظ كصفحة عادية في السجل.
     if (historyPage.IsConflictPage)
         historyPage.IsConflictPage = false;
 }

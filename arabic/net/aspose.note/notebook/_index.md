@@ -1,6 +1,6 @@
 ---
-title: "فئة Notebook"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+title: "الفئة Notebook"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "فئة Aspose.Note.Notebook. تمثل دفتر ملاحظات Aspose.Note"
 type: docs
 weight: 480
@@ -18,23 +18,23 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 
 | الاسم | الوصف |
 | --- | --- |
-| [Notebook](notebook/#constructor)() | تهيئ نسخة جديدة من الفئة `Notebook`. |
-| [Notebook](notebook/#constructor_1)(Stream) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من تدفق. |
-| [Notebook](notebook/#constructor_3)(string) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من ملف. |
-| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | تهيئ نسخة جديدة من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل العناصر الفرعية ("lazy"/instant). |
+| [Notebook](notebook/#constructor)() | يُهيئ مثيلًا جديدًا من الفئة `Notebook`. |
+| [Notebook](notebook/#constructor_1)(Stream) | يُهيئ مثيلًا جديدًا من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من تدفق. |
+| [Notebook](notebook/#constructor_3)(string) | يُهيئ مثيلًا جديدًا من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من ملف. |
+| [Notebook](notebook/#constructor_2)(Stream, NotebookLoadOptions) | يُهيئ مثيلًا جديدًا من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [Notebook](notebook/#constructor_4)(string, NotebookLoadOptions) | يُهيئ مثيلًا جديدًا من الفئة `Notebook`. يفتح دفتر ملاحظات OneNote موجود من ملف. يسمح بتحديد خيارات إضافية مثل استراتيجية تحميل العناصر الفرعية (\"lazy\"/instant). |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [Color](../../aspose.note/notebook/color/) { get; set; } | يحصل أو يعيّن اللون. |
+| [Color](../../aspose.note/notebook/color/) { get; set; } | يحصل على اللون أو يضبطه. |
 | [Count](../../aspose.note/notebook/count/) { get; } | يحصل على عدد العناصر الموجودة في `Notebook`. |
 | [DisplayName](../../aspose.note/notebook/displayname/) { get; set; } | يحصل أو يضبط اسم العرض. |
 | [FileFormat](../../aspose.note/notebook/fileformat/) { get; } | يحصل على تنسيق الملف (OneNote 2010، OneNote Online). |
 | [Guid](../../aspose.note/notebook/guid/) { get; } | يحصل على المعرف الفريد عالميًا للكائن. |
 | [IsHistoryEnabled](../../aspose.note/notebook/ishistoryenabled/) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان السجل مفعلاً. |
-| [Item](../../aspose.note/notebook/item/) { get; } | يحصل على عقدة الطفل للمفكرة بالترتيب المحدد. |
+| [Item](../../aspose.note/notebook/item/) { get; } | يحصل على عقدة الطفل للمفكرة وفق الفهرس المعطى. |
 
 ## الطرق
 
@@ -42,11 +42,11 @@ public class Notebook : IEnumerable<INotebookChildNode>, INotebookChildNode
 | --- | --- |
 | [AppendChild](../../aspose.note/notebook/appendchild/)(INotebookChildNode) | يضيف العقدة إلى نهاية القائمة. |
 | [GetChildNodes&lt;T1&gt;](../../aspose.note/notebook/getchildnodes/)() | احصل على جميع عقد الطفل حسب نوع العقدة. |
-| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | يرجع عدّادًا يتنقل عبر عقد الطفل في `Notebook`. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
-| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | يضيف عقدة مستند طفل. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
+| [GetEnumerator](../../aspose.note/notebook/getenumerator/)() | يعيد عدادًا يتنقل عبر عقد الطفل في `Notebook`. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument)(Stream) | يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من تدفق. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_2)(string) | يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من ملف. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_1)(Stream, LoadOptions) | يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
+| [LoadChildDocument](../../aspose.note/notebook/loadchilddocument/#loadchilddocument_3)(string, LoadOptions) | يضيف عقدة وثيقة طفل. يفتح مستند OneNote موجود من ملف. يسمح بتحديد خيارات تحميل إضافية. |
 | [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook)(Stream) | يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من تدفق. |
 | [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_2)(string) | يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من ملف. |
 | [LoadChildNotebook](../../aspose.note/notebook/loadchildnotebook/#loadchildnotebook_1)(Stream, NotebookLoadOptions) | يضيف عقدة مفكرة طفل. يفتح مفكرة OneNote موجودة من تدفق. يسمح بتحديد خيارات تحميل إضافية. |
@@ -75,7 +75,7 @@ dataDir = dataDir + "test_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية حفظ الدفتر بصيغة PDF.
+يظهر كيفية حفظ الدفتر بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -90,7 +90,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية حفظ الدفتر كصورة.
+يظهر كيفية حفظ الدفتر كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -105,7 +105,7 @@ dataDir = dataDir + "ConvertToImage_out.png";
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية استخراج كل النص من الدفتر.
+يظهر كيفية الحصول على كل النص من الدفتر.
 
 ```csharp
 string inputFile = "notebook.onetoc2";
@@ -120,7 +120,7 @@ foreach (RichText richTextNode in allRichTextNodes)
 }
 ```
 
-يوضح كيفية حفظ الدفتر المسطح بصيغة PDF.
+يظهر كيفية حفظ دفتر مسطح بصيغة PDF.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -139,23 +139,23 @@ notebook.Save(
     });
 ```
 
-يوضح كيفية التنقل عبر مستندات الدفتر وتحميلها بشكل كسول.
+يظهر كيفية التنقل عبر مستندات الدفتر وتحميلها بشكل كسول.
 
 ```csharp
 string inputFile = "Notebook.onetoc2";
 string dataDir = RunExamples.GetDataDir_NoteBook();
 
-// بشكل افتراضي، تحميل العناصر الفرعية هو "lazy".
+// بشكل افتراضي، تحميل العناصر الفرعية هو "كسول".
 Notebook notebook = new Notebook(dataDir + inputFile);
 
 foreach (var notebookChildNode in notebook.OfType<Document>()) 
 {
-    // يتم التحميل الفعلي للمستند الفرعي هنا فقط.
+    // يحدث التحميل الفعلي للمستند الفرعي هنا فقط.
     // قم بعمل شيء مع المستند الفرعي
 }
 ```
 
-يوضح كيفية إضافة قسم جديد إلى الدفتر.
+يظهر كيفية إضافة قسم جديد إلى الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -173,7 +173,7 @@ dataDir = dataDir + "AddChildNode_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية تحميل الدفتر من تدفق.
+يظهر كيفية تحميل الدفتر من تدفق.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -191,7 +191,7 @@ using (FileStream childStream = new FileStream(dataDir + "Aspose.one", FileMode.
 notebook.LoadChildDocument(dataDir + "Sample1.one");
 ```
 
-يوضح كيفية التعامل مع دفتر مشفر.
+يظهر كيفية دفتر مشفر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -203,7 +203,7 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-يوضح كيفية حفظ الدفتر كصورة مع الخيارات المحددة.
+يظهر كيفية حفظ الدفتر كصورة مع خيارات محددة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -224,7 +224,7 @@ dataDir = dataDir + "ConvertToImageWithOptions_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية حفظ الدفتر المسطح كصورة.
+يظهر كيفية حفظ دفتر مسطح كصورة.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -246,7 +246,7 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-يوضح كيفية إزالة قسم من الدفتر.
+يظهر كيفية إزالة قسم من الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.
@@ -271,12 +271,12 @@ dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-يوضح كيفية التنقل عبر المستندات المحملة مسبقًا للدفتر.
+يظهر كيفية التنقل عبر المستندات المحملة مسبقًا للدفتر.
 
 ```csharp
-// بشكل افتراضي، تحميل العناصر الفرعية هو "lazy".
+// بشكل افتراضي، تحميل العناصر الفرعية هو "كسول".
 // لذلك، تم حدوث التحميل الفوري،
-// من الضروري ضبط علامة NotebookLoadOptions.InstantLoading.
+// من الضروري ضبط علم NotebookLoadOptions.InstantLoading.
 NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
 String inputFile = "Notebook.onetoc2";
@@ -290,7 +290,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 }
 ```
 
-يوضح كيفية المرور عبر محتوى الدفتر.
+يظهر كيفية المرور عبر محتوى الدفتر.
 
 ```csharp
 // المسار إلى دليل المستندات.

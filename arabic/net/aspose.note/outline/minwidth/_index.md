@@ -1,6 +1,6 @@
 ---
 title: "Outline.MinWidth"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية Outline. تحصل أو تعين الحد الأدنى للعرض"
 type: docs
 weight: 70

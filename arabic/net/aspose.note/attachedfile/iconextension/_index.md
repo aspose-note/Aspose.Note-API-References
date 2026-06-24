@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.IconExtension"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "خاصية AttachedFile. يحصل على امتداد الأيقونة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "خاصية AttachedFile. تحصل على امتداد الأيقونة"
 type: docs
 weight: 120
 url: /ar/net/aspose.note/attachedfile/iconextension/

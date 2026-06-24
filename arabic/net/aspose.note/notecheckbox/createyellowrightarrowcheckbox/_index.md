@@ -1,7 +1,7 @@
 ---
 title: "NoteCheckBox.CreateYellowRightArrowCheckBox"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteCheckBox. ينشئ مربع اختيار ملاحظة جديد مع أيقونة YellowRightArrowCheckBoxEmpty والعنوان المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteCheckBox. تنشئ خانة ملاحظة جديدة مع أيقونة YellowRightArrowCheckBoxEmpty والملصق المحدد"
 type: docs
 weight: 260
 url: /ar/net/aspose.note/notecheckbox/createyellowrightarrowcheckbox/

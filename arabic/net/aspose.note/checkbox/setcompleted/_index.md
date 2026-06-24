@@ -1,14 +1,14 @@
 ---
 title: "CheckBox.SetCompleted"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة CheckBox. تعيين العلامة إلى الحالة المكتملة"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة CheckBox. تعين العلامة إلى الحالة المكتملة"
 type: docs
 weight: 70
 url: /ar/net/aspose.note/checkbox/setcompleted/
 ---
 ## SetCompleted(DateTime) {#setcompleted_1}
 
-يضبط العلامة إلى حالة مكتملة.
+تعيين العلامة إلى حالة مكتملة.
 
 ```csharp
 public void SetCompleted(DateTime completedTime)
@@ -28,7 +28,7 @@ public void SetCompleted(DateTime completedTime)
 
 ## SetCompleted() {#setcompleted}
 
-يضبط العلامة إلى حالة مكتملة باستخدام الوقت الحالي كوقت إكمال.
+تعيين العلامة إلى حالة مكتملة باستخدام الوقت الحالي كوقت إكمال.
 
 ```csharp
 public void SetCompleted()
@@ -36,7 +36,7 @@ public void SetCompleted()
 
 ## أمثلة
 
-يوضح كيفية إكمال جميع عناصر خانة الاختيار المتعلقة بـ 'Project C'.
+يوضح كيفية إكمال جميع عناصر خانة الاختيار المرتبطة بـ 'Project C'.
 
 ```csharp
 // المسار إلى دليل المستندات.

@@ -1,14 +1,14 @@
 ---
 title: "NoteTag.CreateResearch"
-second_title: "مرجع API لـ Aspose.Note for .NET"
-description: "طريقة NoteTag. ينشئ علامة ملاحظة جديدة مع أيقونة Research والملصق المحدد"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
+description: "طريقة NoteTag. تنشئ علامة ملاحظة جديدة بأيقونة Research والملصق المحدد"
 type: docs
 weight: 850
 url: /ar/net/aspose.note/notetag/createresearch/
 ---
 ## NoteTag.CreateResearch method
 
-إنشاء علامة ملاحظة جديدة مع أيقونة Research والعلامة المحددة.
+إنشاء علامة ملاحظة جديدة مع أيقونة Research وتسمية محددة.
 
 ```csharp
 public static NoteTag CreateResearch(string label = "")

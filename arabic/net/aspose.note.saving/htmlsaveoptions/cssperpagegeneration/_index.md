@@ -1,6 +1,6 @@
 ---
 title: "HtmlSaveOptions.CssPerPageGeneration"
-second_title: "مرجع API لـ Aspose.Note for .NET"
+second_title: "مرجع API لـ Aspose.Note لـ .NET"
 description: "خاصية HtmlSaveOptions. يحصل أو يضبط ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.note.saving/htmlsaveoptions/cssperpagegeneration/
 ---
 ## HtmlSaveOptions.CssPerPageGeneration property
 
-يحصل أو يعيّن ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة على حدة.
+يحصل أو يعيّن ما إذا كان سيتم إنشاء ملف StyleSheet لكل صفحة جديدة بشكل منفصل.
 
 ```csharp
 public bool CssPerPageGeneration { get; set; }
