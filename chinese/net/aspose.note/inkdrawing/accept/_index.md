@@ -18,7 +18,7 @@ public override void Accept(DocumentVisitor visitor)
 | --- | --- | --- |
 | visitor | DocumentVisitor | 从 [`DocumentVisitor`](../../documentvisitor/) 派生的类的对象。 |
 
-### 另请参阅
+### 另见
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [InkDrawing](../)

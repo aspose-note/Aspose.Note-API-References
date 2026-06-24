@@ -22,7 +22,7 @@ public static NoteTask CreateCustomFollowUpDate(DateTime dueDate)
 
 该 [`NoteTask`](../)。
 
-### 另请参阅
+### 另见
 
 * class [NoteTask](../)
 * namespace [Aspose.Note](../../notetask/)

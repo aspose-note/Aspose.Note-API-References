@@ -1,7 +1,7 @@
 ---
 title: "TableColumn.Width"
 second_title: "Aspose.Note for .NET API 参考"
-description: "TableColumn 属性。获取或设置宽度。"
+description: "TableColumn 属性。获取或设置宽度"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/tablecolumn/width/
@@ -106,7 +106,7 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何创建带有锁定列的表格。
+展示如何创建具有锁定列的表格。
 
 ```csharp
 // 文档目录的路径。
@@ -243,7 +243,7 @@ dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [TableColumn](../)
 * namespace [Aspose.Note](../../tablecolumn/)

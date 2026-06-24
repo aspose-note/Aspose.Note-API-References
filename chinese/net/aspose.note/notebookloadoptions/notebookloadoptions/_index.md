@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/notebookloadoptions/notebookloadoptions/
 public NotebookLoadOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [NotebookLoadOptions](../)
 * namespace [Aspose.Note](../../notebookloadoptions/)

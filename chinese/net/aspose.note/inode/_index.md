@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/inode/
 ---
 ## INode interface
 
-用于 Aspose.Note 文档中所有节点的接口。
+Aspose.Note 文档中所有节点的接口。
 
 ```csharp
 public interface INode
@@ -27,7 +27,7 @@ public interface INode
 | --- | --- |
 | [Accept](../../aspose.note/inode/accept/)(DocumentVisitor) | 接受节点的访问者。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

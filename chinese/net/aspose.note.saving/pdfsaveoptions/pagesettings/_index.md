@@ -1,14 +1,14 @@
 ---
 title: "PdfSaveOptions.PageSettings"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PdfSaveOptions 属性。获取或设置文档中每页的页面设置。默认情况下取决于 CurrentUICulture，US 文化使用 Letter 设置，其他使用 A4 设置"
+description: "PdfSaveOptions 属性。获取或设置文档中每页的页面设置。默认情况下取决于 CurrentUICulture，美国地区使用信纸尺寸，其他地区使用 A4 尺寸"
 type: docs
 weight: 40
 url: /zh/net/aspose.note.saving/pdfsaveoptions/pagesettings/
 ---
 ## PdfSaveOptions.PageSettings property
 
-获取或设置文档中每页的页面设置。默认情况下取决于 CurrentUICulture，*美国地区使用信纸尺寸，其他地区使用 A4 尺寸。
+获取或设置文档中每页的页面设置。默认情况下取决于 CurrentUICulture，*美国文化使用信纸设置，其他使用 A4 设置。
 
 ```csharp
 public PageSettings PageSettings { get; set; }
@@ -46,7 +46,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSettings](../../pagesettings/)
 * class [PdfSaveOptions](../)

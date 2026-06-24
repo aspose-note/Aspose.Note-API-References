@@ -37,7 +37,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### 另请参阅
+### 另见
 
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../)
 * namespace [Aspose.Note.Saving](../../notebooksaveoptions-1/)

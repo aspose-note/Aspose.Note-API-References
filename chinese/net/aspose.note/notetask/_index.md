@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/notetask/
 ---
 ## NoteTask class
 
-表示笔记任务。
+表示一个笔记任务。
 
 ```csharp
 public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
@@ -39,13 +39,13 @@ public sealed class NoteTask : CheckBox, IEquatable<NoteTask>
 | [Equals](../../aspose.note/notetask/equals/#equals)(NoteTask) | 确定指定的对象是否等于当前对象。 |
 | override [Equals](../../aspose.note/notetask/equals/#equals_1)(object) | 确定指定的对象是否等于当前对象。 |
 | override [GetHashCode](../../aspose.note/notetask/gethashcode/)() | 作为该类型的哈希函数。 |
-| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | 将标签设置为已完成状态，并使用当前时间作为完成时间。 |
+| [SetCompleted](../../aspose.note/checkbox/setcompleted/)() | 将标签设置为已完成状态，使用当前时间作为完成时间。 |
 | [SetCompleted](../../aspose.note/checkbox/setcompleted/)(DateTime) | 将标签设置为已完成状态。 |
 | override [SetOpen](../../aspose.note/notetask/setopen/)() | 将标签设置为打开状态。 |
 
 ## 示例
 
-展示如何生成包含所有与‘Project A’相关页面的 PDF。
+展示如何生成包含所有与 'Project A' 相关页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -98,7 +98,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [CheckBox](../checkbox/)
 * namespace [Aspose.Note](../../aspose.note/)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/htmlsaveoptions/cssperpagegeneration/
 public bool CssPerPageGeneration { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [HtmlSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../htmlsaveoptions/)

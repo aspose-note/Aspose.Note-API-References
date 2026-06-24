@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/compositenode-1/insertchildrenrange/
 ---
 ## InsertChildrenRange(int, IEnumerable&lt;T&gt;) {#insertchildrenrange}
 
-从指定位置开始，将节点的序列插入到此节点的子节点列表中。
+从指定位置开始，将节点序列插入到此节点的子节点列表中。
 
 ```csharp
 public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
@@ -19,7 +19,7 @@ public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
 | i | Int32 | 插入位置 |
 | newChildren | IEnumerable`1 | 要插入的节点序列。 |
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)
@@ -29,7 +29,7 @@ public void InsertChildrenRange(int i, IEnumerable<T> newChildren)
 
 ## InsertChildrenRange(int, params T[]) {#insertchildrenrange_1}
 
-从指定位置开始，将节点的序列插入到此节点的子节点列表中。
+从指定位置开始，将节点序列插入到此节点的子节点列表中。
 
 ```csharp
 public void InsertChildrenRange(int i, params T[] newChildren)
@@ -40,7 +40,7 @@ public void InsertChildrenRange(int i, params T[] newChildren)
 | i | Int32 | 插入位置 |
 | newChildren | T[] | 要插入的节点序列。 |
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)

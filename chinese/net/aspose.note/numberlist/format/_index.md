@@ -1,7 +1,7 @@
 ---
 title: "NumberList.Format"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NumberList 属性。获取或设置行标题的格式。对于项目符号列表，表示一个项目符号符号"
+description: "NumberList 属性。获取或设置行标题的格式。对于项目符号列表，表示一个项目符号符号。"
 type: docs
 weight: 50
 url: /zh/net/aspose.note/numberlist/format/
@@ -16,7 +16,7 @@ public string Format { get; set; }
 
 ## 示例
 
-展示如何检索列表格式的信息。
+展示如何检索列表的格式信息。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -59,7 +59,7 @@ foreach (OutlineElement node in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)

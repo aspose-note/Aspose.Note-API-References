@@ -31,7 +31,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSettings](../)
 * namespace [Aspose.Note.Saving](../../pagesettings/)

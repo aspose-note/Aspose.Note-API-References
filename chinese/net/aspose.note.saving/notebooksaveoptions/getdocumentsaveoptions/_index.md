@@ -16,9 +16,9 @@ public abstract SaveOptions GetDocumentSaveOptions()
 
 ### 返回值
 
-此 [`SaveOptions`](../../saveoptions/)。
+该 [`SaveOptions`](../../saveoptions/)。
 
-### 另请参阅
+### 另见
 
 * class [SaveOptions](../../saveoptions/)
 * class [NotebookSaveOptions](../)

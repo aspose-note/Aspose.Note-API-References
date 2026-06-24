@@ -1,7 +1,7 @@
 ---
 title: "IPageChildNode.VerticalOffset"
 second_title: "Aspose.Note for .NET API 参考"
-description: "IPageChildNode 属性。获取或设置垂直偏移。"
+description: "IPageChildNode 属性。 获取或设置垂直偏移量。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/ipagechildnode/verticaloffset/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/ipagechildnode/verticaloffset/
 public float VerticalOffset { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [IPageChildNode](../)
 * namespace [Aspose.Note](../../ipagechildnode/)

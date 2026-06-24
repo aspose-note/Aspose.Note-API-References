@@ -29,8 +29,8 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | 名称 | 描述 |
 | --- | --- |
 | [Alignment](../../aspose.note/attachedfile/alignment/) { get; set; } | 获取或设置对齐方式。 |
-| [AlternativeTextDescription](../../aspose.note/attachedfile/alternativetextdescription/) { get; set; } | 获取或设置附件文件图标的正文替代文本。 |
-| [AlternativeTextTitle](../../aspose.note/attachedfile/alternativetexttitle/) { get; set; } | 获取或设置附件文件图标的标题替代文本。 |
+| [AlternativeTextDescription](../../aspose.note/attachedfile/alternativetextdescription/) { get; set; } | 获取或设置附件文件图标的主体替代文本。 |
+| [AlternativeTextTitle](../../aspose.note/attachedfile/alternativetexttitle/) { get; set; } | 获取或设置附件文件图标的替代文本标题。 |
 | [Bytes](../../aspose.note/attachedfile/bytes/) { get; } | 获取嵌入文件的二进制数据。 |
 | [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
 | [Extension](../../aspose.note/attachedfile/extension/) { get; } | 获取嵌入文件的扩展名。 |
@@ -40,7 +40,7 @@ public class AttachedFile : Node, IOutlineElementChildNode, IPageChildNode, ITag
 | [HorizontalOffset](../../aspose.note/attachedfile/horizontaloffset/) { get; set; } | 获取或设置水平偏移。 |
 | [Icon](../../aspose.note/attachedfile/icon/) { get; } | 获取与嵌入文件关联的图标的二进制数据。 |
 | [IconExtension](../../aspose.note/attachedfile/iconextension/) { get; } | 获取图标的扩展名。 |
-| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以拥有子节点。 |
+| virtual [IsComposite](../../aspose.note/node/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以有子节点。 |
 | [IsPrintout](../../aspose.note/attachedfile/isprintout/) { get; set; } | 获取或设置一个值，指示文件的视图是否为打印输出。 |
 | [IsSizeSetByUser](../../aspose.note/attachedfile/issizesetbyuser/) { get; set; } | 获取或设置一个值，指示图标大小的值是否已被用户显式更新。 |
 | [LastModifiedTime](../../aspose.note/attachedfile/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
@@ -129,7 +129,7 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何从流中将文件添加到文档。
+展示如何从流向文档添加文件。
 
 ```csharp
 // 文档目录的路径。
@@ -169,7 +169,7 @@ dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Node](../node/)
 * interface [IOutlineElementChildNode](../ioutlineelementchildnode/)

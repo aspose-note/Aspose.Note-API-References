@@ -16,9 +16,9 @@ public Image(string path)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 一个包含用于创建 [`Image`](../) 的文件路径的字符串。 |
+| path | String | 一个字符串，包含用于创建 [`Image`](../) 的文件路径。 |
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)
@@ -36,11 +36,11 @@ public Image(string path, string altTitle, string altDescription = null)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 一个包含用于创建 [`Image`](../) 的文件路径的字符串。 |
-| altTitle | String | 替代标题。 |
-| altDescription | String | 替代描述。 |
+| path | String | 一个字符串，包含用于创建 [`Image`](../) 的文件路径。 |
+| altTitle | String | 备用标题。 |
+| altDescription | String | 备用描述。 |
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)
@@ -61,7 +61,7 @@ public Image(string fileName, Stream imageStream)
 | fileName | String | 图像的名称。 |
 | imageStream | 流 | 包含图像的流。 |
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)
@@ -77,7 +77,7 @@ public Image(string fileName, Stream imageStream)
 public Image()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

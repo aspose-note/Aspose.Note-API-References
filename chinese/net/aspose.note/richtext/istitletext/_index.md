@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/richtext/istitletext/
 public bool IsTitleText { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)

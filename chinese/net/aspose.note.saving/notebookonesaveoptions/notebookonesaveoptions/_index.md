@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/notebookonesaveoptions/notebookonesaveoptions/
 public NotebookOneSaveOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [NotebookOneSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../notebookonesaveoptions/)

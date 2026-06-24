@@ -30,7 +30,7 @@ public Page Clone(bool cloneHistory = false)
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -50,16 +50,16 @@ string dataDir = RunExamples.GetDataDir_Pages();
 // 加载 OneNote 文档
 Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });
 
-// 克隆到新文档（不含历史）
+// 克隆到新文档（无历史）
 var cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone());
 
-// 克隆到新文档（含历史）
+// 克隆到新文档（有历史）
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```
 
-### 另请参阅
+### 另见
 
 * class [Page](../)
 * namespace [Aspose.Note](../../page/)

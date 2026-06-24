@@ -1,14 +1,14 @@
 ---
 title: "类 TextRun"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.TextRun 类。此类表示带有关联样式的文本片段"
+description: "Aspose.Note.TextRun 类。该类表示带有关联样式的文本片段"
 type: docs
 weight: 1040
 url: /zh/net/aspose.note/textrun/
 ---
 ## TextRun class
 
-表示带有关联样式的文本片段的类。
+表示具有相关样式的文本片段的类。
 
 ```csharp
 public class TextRun
@@ -31,7 +31,7 @@ public class TextRun
 | [Style](../../aspose.note/textrun/style/) { get; set; } | 获取或设置样式。 |
 | [Text](../../aspose.note/textrun/text/) { get; set; } | 获取或设置文本。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

@@ -1,7 +1,7 @@
 ---
 title: "ITag.CreationTime"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ITag 属性。获取或设置创建时间。"
+description: "ITag 属性。获取或设置创建时间"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/itag/creationtime/
@@ -16,11 +16,11 @@ public DateTime CreationTime { get; set; }
 
 ### Property Value
 
-DateTime。
+该 DateTime。
 
 ## 示例
 
-展示如何生成包含所有与‘Project A’相关页面的 PDF。
+展示如何生成包含所有与 'Project A' 相关页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -41,7 +41,7 @@ foreach (var page in oneFile)
 report.Save(Path.Combine(dataDir, "ProjectA_Report.pdf"));
 ```
 
-展示如何生成包含上周创建且标记为未完成复选框的页面的 PDF。
+展示如何生成包含上周创建且标记为未完成复选框的项目的页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -150,7 +150,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../)
 * namespace [Aspose.Note](../../itag/)

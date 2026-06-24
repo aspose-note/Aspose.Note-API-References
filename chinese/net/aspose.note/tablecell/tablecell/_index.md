@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/tablecell/tablecell/
 public TableCell()
 ```
 
-### 另请参阅
+### 另见
 
 * class [TableCell](../)
 * namespace [Aspose.Note](../../tablecell/)

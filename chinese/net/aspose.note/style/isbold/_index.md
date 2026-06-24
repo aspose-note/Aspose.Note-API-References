@@ -16,7 +16,7 @@ public bool IsBold { get; set; }
 
 ## 示例
 
-让我们通过增大字体大小来强调页面的标题，而不是其他标题。
+让我们通过增大字体大小来突出页面标题相对于其他标题的显示。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -65,7 +65,7 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/style/issubscript/
 public bool IsSubscript { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)

@@ -20,7 +20,7 @@ public float Resolution { get; set; }
 
 ## 示例
 
-展示如何使用标准 Windows 对话框并指定选项将文档发送到打印机。
+展示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -41,7 +41,7 @@ document.Print(new PrintOptions()
                });
 ```
 
-### 另请参阅
+### 另见
 
 * class [PrintOptions](../)
 * namespace [Aspose.Note.Saving](../../printoptions/)

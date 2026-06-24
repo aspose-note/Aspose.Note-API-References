@@ -20,7 +20,7 @@ public interface ICssSavingCallback
 | --- | --- |
 | [CssSaving](../../aspose.note.saving.html/icsssavingcallback/csssaving/)(CssSavingArgs) | 当 Aspose.Note 保存 CSS（层叠样式表）时调用。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
 * assembly [Aspose.Note](../../)

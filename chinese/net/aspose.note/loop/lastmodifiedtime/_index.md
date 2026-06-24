@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/loop/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Loop](../)
 * namespace [Aspose.Note](../../loop/)

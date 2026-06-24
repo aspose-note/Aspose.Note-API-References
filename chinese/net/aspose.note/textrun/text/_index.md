@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/textrun/text/
 public string Text { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextRun](../)
 * namespace [Aspose.Note](../../textrun/)

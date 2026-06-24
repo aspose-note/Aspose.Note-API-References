@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/page/
 ---
 ## Page class
 
-表示页面。
+表示一个页面。
 
 ```csharp
 public sealed class Page : CompositeNode<IPageChildNode>
@@ -30,7 +30,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 | [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
 | [FirstChild](../../aspose.note/compositenode-1/firstchild/) { get; } |  |
 | [IsComposite](../../aspose.note/compositenode-1/iscomposite/) { get; } |  |
-| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | 获取或设置一个值，指示此页面是否为冲突页面。 |
+| [IsConflictPage](../../aspose.note/page/isconflictpage/) { get; set; } | 获取或设置指示此页面是否为冲突页面的值。 |
 | [LastChild](../../aspose.note/compositenode-1/lastchild/) { get; } |  |
 | [LastModifiedTime](../../aspose.note/page/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
 | [Level](../../aspose.note/page/level/) { get; set; } | 获取或设置级别。 |
@@ -67,7 +67,7 @@ public sealed class Page : CompositeNode<IPageChildNode>
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
 foreach (var page in document)
@@ -160,7 +160,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -279,7 +279,7 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何创建文档并使用默认选项将其保存为 HTML 格式。
+展示如何创建文档并使用默认选项以 HTML 格式保存。
 
 ```csharp
 // 文档目录的路径。
@@ -390,7 +390,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-展示如何将文档保存为不同的格式。
+展示如何以不同格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -559,7 +559,7 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何添加带有子页面的页面。
+展示如何添加带子页面的页面。
 
 ```csharp
 // 文档目录的路径。
@@ -614,7 +614,7 @@ dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../compositenode-1/)
 * interface [IPageChildNode](../ipagechildnode/)

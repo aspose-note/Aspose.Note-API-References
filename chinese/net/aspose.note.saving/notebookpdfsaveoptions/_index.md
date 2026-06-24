@@ -26,7 +26,7 @@ public class NotebookPdfSaveOptions : NotebookSaveOptions<PdfSaveOptions>
 | --- | --- |
 | [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | 获取或设置一个值，指示是否应显式保存子文档。 |
 | [DocumentSaveOptions](../../aspose.note.saving/notebooksaveoptions-1/documentsaveoptions/) { get; } |  |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | 获取或设置一个值，指示是否将笔记本子层次结构保存为扁平化。 |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | 获取或设置一个值，指示是否将笔记本子层次结构平铺保存。 |
 | override [SaveFormat](../../aspose.note.saving/notebooksaveoptions-1/saveformat/) { get; } |  |
 
 ## 方法
@@ -58,7 +58,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### 另请参阅
+### 另见
 
 * class [NotebookSaveOptions&lt;TDocumentSaveOptions&gt;](../notebooksaveoptions-1/)
 * class [PdfSaveOptions](../pdfsaveoptions/)

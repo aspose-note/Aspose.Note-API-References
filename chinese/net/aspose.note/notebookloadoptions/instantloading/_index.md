@@ -16,9 +16,9 @@ public bool InstantLoading { get; set; }
 
 ## 备注
 
-默认值为 `false`，因此子文档将 "懒惰" 加载，即它们的加载应推迟到对特定子文档的直接访问。值 `true` 表示应立即加载它们。
+默认值为 `false`，因此子文档将加载 "懒惰"，即其加载应推迟到对特定子文档的直接访问。值 `true` 表示应立即加载它们。
 
-### 另请参阅
+### 另见
 
 * class [NotebookLoadOptions](../)
 * namespace [Aspose.Note](../../notebookloadoptions/)

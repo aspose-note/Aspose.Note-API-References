@@ -1,7 +1,7 @@
 ---
 title: "ParagraphStyle.GetHashCode"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ParagraphStyle 方法。作为该类型的哈希函数"
+description: "ParagraphStyle 方法。用作该类型的哈希函数"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/paragraphstyle/gethashcode/
@@ -16,9 +16,9 @@ public override int GetHashCode()
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [ParagraphStyle](../)
 * namespace [Aspose.Note](../../paragraphstyle/)

@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/tablecolumn/
 ---
 ## TableColumn class
 
-表示表格列。
+表示一个表格列。
 
 ```csharp
 public sealed class TableColumn
@@ -24,7 +24,7 @@ public sealed class TableColumn
 
 | 名称 | 描述 |
 | --- | --- |
-| [LockedWidth](../../aspose.note/tablecolumn/lockedwidth/) { get; set; } | 获取或设置一个值，指示表格列是否具有锁定宽度且不会自动调整以适应表格内容。默认情况下，列宽未锁定。 |
+| [LockedWidth](../../aspose.note/tablecolumn/lockedwidth/) { get; set; } | 获取或设置一个值，指示表格列是否锁定宽度且不会自动调整以适应表格内容。默认情况下，列宽未锁定。 |
 | [Width](../../aspose.note/tablecolumn/width/) { get; set; } | 获取或设置宽度。 |
 
 ## 示例
@@ -119,7 +119,7 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何创建带有锁定列的表格。
+展示如何创建具有锁定列的表格。
 
 ```csharp
 // 文档目录的路径。
@@ -256,7 +256,7 @@ dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

@@ -18,7 +18,7 @@ public virtual void VisitAttachedFileEnd(AttachedFile attachedFile)
 | --- | --- | --- |
 | attachedFile | AttachedFile | 该 [`AttachedFile`](../../attachedfile/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../../attachedfile/)
 * class [DocumentVisitor](../)

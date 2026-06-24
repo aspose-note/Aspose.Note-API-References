@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/textrun/length/
 public int Length { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextRun](../)
 * namespace [Aspose.Note](../../textrun/)

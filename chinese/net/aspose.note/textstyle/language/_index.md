@@ -41,7 +41,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

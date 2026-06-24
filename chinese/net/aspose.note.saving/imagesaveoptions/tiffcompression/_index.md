@@ -1,7 +1,7 @@
 ---
 title: "ImageSaveOptions.TiffCompression"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ImageSaveOptions 属性。获取或设置将生成的图像保存为 TIFF 格式时使用的压缩类型"
+description: "ImageSaveOptions 属性。获取或设置保存生成图像为 TIFF 格式时使用的压缩类型。"
 type: docs
 weight: 60
 url: /zh/net/aspose.note.saving/imagesaveoptions/tiffcompression/
@@ -72,7 +72,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-### 另请参阅
+### 另见
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)

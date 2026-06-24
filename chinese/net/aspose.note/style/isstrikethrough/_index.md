@@ -8,13 +8,13 @@ url: /zh/net/aspose.note/style/isstrikethrough/
 ---
 ## Style.IsStrikethrough property
 
-获取或设置一个值，指示文本样式是否有删除线。
+获取或设置一个值，指示文本样式是否为删除线。
 
 ```csharp
 public bool IsStrikethrough { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)

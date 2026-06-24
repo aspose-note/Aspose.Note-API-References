@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/image/format/
 public ImageFormat Format { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/onesaveoptions/onesaveoptions/
 public OneSaveOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [OneSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../onesaveoptions/)

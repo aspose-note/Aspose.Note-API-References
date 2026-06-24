@@ -16,9 +16,9 @@ public override int GetHashCode()
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [NoteCheckBox](../)
 * namespace [Aspose.Note](../../notecheckbox/)

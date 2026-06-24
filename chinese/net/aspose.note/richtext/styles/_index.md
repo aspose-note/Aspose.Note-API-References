@@ -40,7 +40,7 @@ foreach (TextStyle style in richText.Styles)
 }
 ```
 
-让我们格式化表格以获得更好的可读性。将标题行设为粗体和斜体，使用 LightGray 颜色突出显示每个偶数行。
+让我们格式化表格以获得更好的感知。将标题行加粗并倾斜，使用 LightGray 颜色突出显示每个偶数行。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Tables();
@@ -48,14 +48,14 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "ChangeTableStyleIn.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();
 
 foreach (Table table in nodes)
 {
     SetRowStyle(table.First(), Color.DarkGray, true, true);
 
-    // 突出显示标题后的第一行。
+    // 突出显示标题之后的第一行。
     var flag = false;
     foreach (var row in table.Skip(1))
     {
@@ -171,7 +171,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle)
 * class [RichText](../../richtext)

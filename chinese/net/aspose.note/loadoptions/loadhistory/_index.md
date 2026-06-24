@@ -39,7 +39,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../)
 * namespace [Aspose.Note](../../loadoptions/)

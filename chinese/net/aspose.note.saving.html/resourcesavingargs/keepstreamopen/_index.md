@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/resourcesavingargs/keepstreamopen/
 public bool KeepStreamOpen { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ResourceSavingArgs](../)
 * namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)

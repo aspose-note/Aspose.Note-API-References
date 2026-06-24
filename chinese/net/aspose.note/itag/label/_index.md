@@ -16,7 +16,7 @@ public string Label { get; }
 
 ## 示例
 
-展示如何将与 'Project C' 相关的所有复选框项目标记为已完成。
+展示如何将与 'Project C' 相关的所有复选框项标记为已完成。
 
 ```csharp
 // 文档目录的路径。
@@ -39,7 +39,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, ClosedProjectCNotesFileName));
 ```
 
-展示如何将与 'Project C' 相关的所有复选框项目标记为打开。
+展示如何将与 'Project C' 相关的所有复选框项标记为打开。
 
 ```csharp
 // 文档目录的路径。
@@ -96,7 +96,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../)
 * namespace [Aspose.Note](../../itag/)

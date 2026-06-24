@@ -1,7 +1,7 @@
 ---
 title: "OutlineElement.AuthorMostRecent"
 second_title: "Aspose.Note for .NET API 参考"
-description: "OutlineElement 属性。获取大纲元素的最新作者。"
+description: "OutlineElement 属性。获取大纲元素的最新作者"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/outlineelement/authormostrecent/
@@ -18,7 +18,7 @@ public string AuthorMostRecent { get; }
 
 最新作者。
 
-### 另请参阅
+### 另见
 
 * class [OutlineElement](../)
 * namespace [Aspose.Note](../../outlineelement/)

@@ -19,7 +19,7 @@ public abstract class NotebookSaveOptions
 | 名称 | 描述 |
 | --- | --- |
 | [DeferredSaving](../../aspose.note.saving/notebooksaveoptions/deferredsaving/) { get; set; } | 获取或设置一个值，指示是否应显式保存子文档。 |
-| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | 获取或设置一个值，指示是否将笔记本子层次结构保存为扁平化。 |
+| [Flatten](../../aspose.note.saving/notebooksaveoptions/flatten/) { get; set; } | 获取或设置一个值，指示是否将笔记本子层次结构平铺保存。 |
 | abstract [SaveFormat](../../aspose.note.saving/notebooksaveoptions/saveformat/) { get; } | 获取笔记本保存的格式。 |
 
 ## 方法
@@ -92,7 +92,7 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)
 * assembly [Aspose.Note](../../)

@@ -25,11 +25,11 @@ public sealed class PdfSaveOptions : SaveOptions
 | 名称 | 描述 |
 | --- | --- |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | 获取或设置在保存时使用的字体设置 |
-| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression/) { get; set; } | 获取或设置应用于 PDF 文件中图像的压缩类型。 |
+| [ImageCompression](../../aspose.note.saving/pdfsaveoptions/imagecompression/) { get; set; } | 获取或设置在 PDF 文件中应用于图像的压缩类型。 |
 | [JpegQuality](../../aspose.note.saving/pdfsaveoptions/jpegquality/) { get; set; } | 获取或设置决定 PDF 文档中 JPEG 图像质量的值。该值范围为 0 到 100，其中 0 表示质量最差但压缩最大，100 表示质量最佳但压缩最小。 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示将渲染文档的所有页面。 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示文档的所有页都将被渲染。 |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认值为 0。 |
-| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings/) { get; set; } | 获取或设置文档中每页的页面设置。默认情况下取决于 CurrentUICulture，*美国地区使用信纸尺寸，其他地区使用 A4 尺寸。 |
+| [PageSettings](../../aspose.note.saving/pdfsaveoptions/pagesettings/) { get; set; } | 获取或设置文档中每页的页面设置。默认情况下取决于 CurrentUICulture，*美国文化使用信纸设置，其他使用 A4 设置。 |
 | [PageSplittingAlgorithm](../../aspose.note.saving/pdfsaveoptions/pagesplittingalgorithm/) { get; set; } | 获取或设置用于页面拆分的算法。 |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | 获取文档保存的格式。 |
 
@@ -86,7 +86,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-当长的 OneNote 页面以 PDF 格式保存时，它们会被拆分到多个页面。示例展示如何配置位于页面换页处对象的拆分逻辑。
+当长的 OneNote 页面以 pdf 格式保存时，它们会跨页拆分。示例展示如何配置位于页面换行处对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
@@ -105,7 +105,7 @@ dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorit
 doc.Save(dataDir);
 ```
 
-展示如何以 PDF 格式保存文档。
+展示如何以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -117,10 +117,10 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 设置要保存的第一页的页面索引
+                              // 设置要保存的第一页的页索引
                               PageIndex = 0,
 
-                              // 设置页面数量
+                              // 设置页数
                               PageCount = 1,
                           };
 
@@ -129,7 +129,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-展示如何使用特定设置以 PDF 格式保存文档。
+展示如何使用特定设置以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -152,7 +152,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-当长的 OneNote 页面以 PDF 格式保存时，它们会被拆分到多个页面。示例展示如何配置位于页面换行处对象的拆分逻辑。
+当长的 OneNote 页面以 PDF 格式保存时，它们会跨页拆分。示例展示如何配置位于页面换行处对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
@@ -180,7 +180,7 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [SaveOptions](../saveoptions/)
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)

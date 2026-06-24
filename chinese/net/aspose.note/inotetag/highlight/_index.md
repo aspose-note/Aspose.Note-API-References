@@ -1,7 +1,7 @@
 ---
 title: "INoteTag.Highlight"
 second_title: "Aspose.Note for .NET API 参考"
-description: "INoteTag 属性。获取或设置突出显示颜色"
+description: "INoteTag 属性。获取或设置突出显示颜色。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/inotetag/highlight/
@@ -50,7 +50,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INoteTag](../)
 * namespace [Aspose.Note](../../inotetag/)

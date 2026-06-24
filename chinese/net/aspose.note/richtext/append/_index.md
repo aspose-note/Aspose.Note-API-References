@@ -1,7 +1,7 @@
 ---
 title: "RichText.Append"
 second_title: "Aspose.Note for .NET API 参考"
-description: "RichText 方法。向末尾添加字符串"
+description: "RichText 方法。将字符串添加到末尾"
 type: docs
 weight: 160
 url: /zh/net/aspose.note/richtext/append/
@@ -46,7 +46,7 @@ document.AppendChildLast(page);
 document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
 ```
 
-使用段落样式操作文本格式。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -126,7 +126,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何创建带格式化富文本的文档。
+展示如何创建带有格式化富文本的文档。
 
 ```csharp
 // 文档目录的路径。
@@ -209,7 +209,7 @@ dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle/)
 * class [RichText](../)
@@ -236,7 +236,7 @@ public RichText Append(string value)
 
 ## 示例
 
-使用段落样式操作文本格式。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -316,7 +316,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)

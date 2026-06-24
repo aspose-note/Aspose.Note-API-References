@@ -1,7 +1,7 @@
 ---
 title: "NoteTag.Status"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NoteTag 属性。获取或设置状态"
+description: "NoteTag 属性. 获取或设置状态"
 type: docs
 weight: 1190
 url: /zh/net/aspose.note/notetag/status/
@@ -18,7 +18,7 @@ public TagStatus Status { get; }
 
 该 [`TagStatus`](../../tagstatus/).
 
-### 另请参阅
+### 另见
 
 * enum [TagStatus](../../tagstatus/)
 * class [NoteTag](../)

@@ -1,14 +1,14 @@
 ---
 title: "Document.GetPageHistory"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Document 方法。获取 PageHistory，其中包含文档中每页的完整历史记录，最早的在索引 0。当前页面修订可通过 Current 访问，并与历史版本集合分开存放。"
+description: "Document 方法。获取 PageHistory，其中包含文档中每页的完整历史记录，最早的位于索引 0。当前页面修订版可通过 Current 访问，并与历史版本集合分开存放。"
 type: docs
 weight: 100
 url: /zh/net/aspose.note/document/getpagehistory/
 ---
 ## Document.GetPageHistory method
 
-获取 [`PageHistory`](../../pagehistory/)，其中包含文档中每页的完整历史记录（最早的在索引 0）。当前页面修订可通过 [`Current`](../../pagehistory/current/) 访问，并与历史版本集合分开存放。
+获取 [`PageHistory`](../../pagehistory/)，其中包含文档中每页的完整历史记录（最早的位于索引 0）。当前页面修订版可通过 [`Current`](../../pagehistory/current/) 访问，并与历史版本集合分开存放。
 
 ```csharp
 public PageHistory GetPageHistory(Page page)
@@ -16,11 +16,11 @@ public PageHistory GetPageHistory(Page page)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| page | Page | 页面的当前修订。 |
+| page | Page | 页面的当前修订版。 |
 
 ### 返回值
 
-[`PageHistory`](../../pagehistory/)。
+该 [`PageHistory`](../../pagehistory/)。
 
 ## 示例
 
@@ -30,7 +30,7 @@ public PageHistory GetPageHistory(Page page)
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;           
 Page previousPageVersion = document.GetPageHistory(page).Last();
@@ -41,13 +41,13 @@ document.AppendChildLast(previousPageVersion);
 document.Save(dataDir + "RollBackRevisions_out.one");
 ```
 
-展示如何编辑页面的历史记录。
+展示如何编辑页面的历史。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -95,7 +95,7 @@ for (int i = 0; i < history.Count; i++)
 doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageHistory](../../pagehistory/)
 * class [Page](../../page/)

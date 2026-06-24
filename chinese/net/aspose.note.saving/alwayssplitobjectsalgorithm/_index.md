@@ -8,7 +8,7 @@ url: /zh/net/aspose.note.saving/alwayssplitobjectsalgorithm/
 ---
 ## AlwaysSplitObjectsAlgorithm class
 
-在对象无法适应原始页面时，将其拆分为多个部分。
+如果对象无法适应原始页面，则将其拆分为多个部分。
 
 ```csharp
 public class AlwaysSplitObjectsAlgorithm : PageSplittingAlgorithm
@@ -22,7 +22,7 @@ public class AlwaysSplitObjectsAlgorithm : PageSplittingAlgorithm
 
 ## 示例
 
-当长的 OneNote 页面以 PDF 格式保存时，它们会被拆分到多个页面。示例展示如何配置位于页面换行处对象的拆分逻辑。
+当长的 OneNote 页面以 PDF 格式保存时，它们会跨页拆分。示例展示如何配置位于页面换行处对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
@@ -50,7 +50,7 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSplittingAlgorithm](../pagesplittingalgorithm/)
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)

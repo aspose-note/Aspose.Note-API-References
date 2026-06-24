@@ -1,7 +1,7 @@
 ---
 title: "OutlineElement.AuthorOriginal"
 second_title: "Aspose.Note for .NET API 参考"
-description: "OutlineElement 属性。获取大纲元素的原始作者。"
+description: "OutlineElement 属性。获取大纲元素的原始作者"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/outlineelement/authororiginal/
@@ -18,7 +18,7 @@ public string AuthorOriginal { get; }
 
 原始作者。
 
-### 另请参阅
+### 另见
 
 * class [OutlineElement](../)
 * namespace [Aspose.Note](../../outlineelement/)

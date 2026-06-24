@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Count"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PageHistory 属性。获取页面历史中页面版本的计数"
+description: "PageHistory 属性。获取页面历史中页面版本的计数。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/pagehistory/count/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/pagehistory/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageHistory](../)
 * namespace [Aspose.Note](../../pagehistory/)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/pagehistory/isreadonly/
 public bool IsReadOnly { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageHistory](../)
 * namespace [Aspose.Note](../../pagehistory/)

@@ -1,7 +1,7 @@
 ---
 title: "Metered.GetConsumptionCredit"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Metered 方法。获取消费积分"
+description: "Metered 方法。获取消耗的信用点"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/metered/getconsumptioncredit/
@@ -16,9 +16,9 @@ public static decimal GetConsumptionCredit()
 
 ### 返回值
 
-返回已消耗的积分数量。
+返回已消耗的信用点数。
 
-### 另请参阅
+### 另见
 
 * class [Metered](../)
 * namespace [Aspose.Note](../../metered/)

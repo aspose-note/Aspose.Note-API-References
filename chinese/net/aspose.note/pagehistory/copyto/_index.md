@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.CopyTo"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PageHistory 方法。将页面版本复制到数组，从开头开始"
+description: "PageHistory 方法。将页面版本复制到从开头开始的数组。"
 type: docs
 weight: 100
 url: /zh/net/aspose.note/pagehistory/copyto/
@@ -19,7 +19,7 @@ public void CopyTo(Page[] array, int arrayIndex)
 | 数组 | Page[] | 目标数组。 |
 | arrayIndex | Int32 | 数组索引。 |
 
-### 另请参阅
+### 另见
 
 * class [Page](../../page/)
 * class [PageHistory](../)

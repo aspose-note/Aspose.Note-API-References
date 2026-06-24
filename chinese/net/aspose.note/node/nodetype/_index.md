@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/node/nodetype/
 public NodeType NodeType { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)

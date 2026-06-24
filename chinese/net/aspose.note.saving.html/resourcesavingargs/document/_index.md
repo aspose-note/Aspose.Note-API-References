@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/resourcesavingargs/document/
 public Document Document { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../../../aspose.note/document/)
 * class [ResourceSavingArgs](../)

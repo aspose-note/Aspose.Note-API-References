@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/outline/reservedwidth/
 public float ReservedWidth { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Outline](../)
 * namespace [Aspose.Note](../../outline/)

@@ -31,7 +31,7 @@ public class MergeOptions
 
 ## 示例
 
-展示如何从 PDF 文档导入所有页面，将每 5 页分组为一个 OneNote 页面。
+展示如何从 PDF 文档导入所有页面，并将每 5 页分组为单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -83,7 +83,7 @@ d.Import(Path.Combine(dataDir, "sampleText.pdf"), importOptions, mergeOptions)
 d.Save(Path.Combine(dataDir, "sample_SinglePageMerge.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

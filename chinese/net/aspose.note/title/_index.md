@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/title/
 ---
 ## Title class
 
-表示标题。
+表示一个标题。
 
 ```csharp
 public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageChildNode
@@ -26,15 +26,15 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 | --- | --- |
 | [Document](../../aspose.note/node/document/) { get; } | 获取节点的文档。 |
 | [HorizontalOffset](../../aspose.note/title/horizontaloffset/) { get; set; } | 获取或设置水平偏移。 |
-| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以拥有子节点。 |
+| override [IsComposite](../../aspose.note/title/iscomposite/) { get; } | 获取一个值，指示此节点是否为复合节点。如果为 true，则该节点可以有子节点。 |
 | [LastModifiedTime](../../aspose.note/title/lastmodifiedtime/) { get; set; } | 获取或设置最后修改时间。 |
 | [NextSibling](../../aspose.note/node/nextsibling/) { get; } | 获取同一节点树层级的下一个节点。 |
 | [NodeType](../../aspose.note/node/nodetype/) { get; } | 获取节点类型。 |
 | [ParentNode](../../aspose.note/node/parentnode/) { get; } | 获取父节点。 |
 | [PreviousSibling](../../aspose.note/node/previoussibling/) { get; } | 获取同一节点树层级的上一个节点。 |
-| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | 获取或设置标题中日期的字符串表示。 |
+| [TitleDate](../../aspose.note/title/titledate/) { get; set; } | 获取或设置标题中日期的字符串表示形式。 |
 | [TitleText](../../aspose.note/title/titletext/) { get; set; } | 获取或设置标题的文本。 |
-| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | 获取或设置标题中时间的字符串表示。 |
+| [TitleTime](../../aspose.note/title/titletime/) { get; set; } | 获取或设置标题中时间的字符串表示形式。 |
 | [VerticalOffset](../../aspose.note/title/verticaloffset/) { get; set; } | 获取或设置垂直偏移量。 |
 
 ## 方法
@@ -47,13 +47,13 @@ public sealed class Title : CompositeNodeBase, ICompositeNode<RichText>, IPageCh
 
 ## 示例
 
-展示如何编辑页面的历史记录。
+展示如何编辑页面的历史。
 
 ```csharp
 // 文档目录的路径。
 string dataDir = RunExamples.GetDataDir_Pages();
 
-// 加载 OneNote 文档并获取第一个子项
+// 加载 OneNote 文档并获取第一个子节点           
 Document document = new Document(dataDir + "Aspose.one");
 Page page = document.FirstChild;
 
@@ -107,7 +107,7 @@ doc.AppendChildLast(page);
 doc.Save(outputPath);
 ```
 
-展示如何创建文档并使用默认选项将其保存为 HTML 格式。
+展示如何创建文档并使用默认选项以 HTML 格式保存。
 
 ```csharp
 // 文档目录的路径。
@@ -191,7 +191,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-展示如何将文档保存为不同的格式。
+展示如何以不同格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -224,7 +224,7 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### 另请参阅
+### 另见
 
 * class [CompositeNodeBase](../compositenodebase/)
 * interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)

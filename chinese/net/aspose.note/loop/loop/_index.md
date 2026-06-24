@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/loop/loop/
 public Loop()
 ```
 
-### 另请参阅
+### 另见
 
 * class [Loop](../)
 * namespace [Aspose.Note](../../loop/)

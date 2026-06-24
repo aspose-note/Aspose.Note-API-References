@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/license/setlicense/
 ---
 ## SetLicense(string) {#setlicense_1}
 
-为组件授权。
+对组件进行授权。
 
 ```csharp
 public void SetLicense(string licenseName)
@@ -62,11 +62,11 @@ license.SetLicense("Aspose.Note.lic");
 // 实例化 License 类
 Aspose.Note.License license = new Aspose.Note.License();
 
-// 仅传递嵌入程序集中的许可证文件名称
+// 仅传递嵌入在程序集中的许可证文件名称
 license.SetLicense("Aspose.Note.lic");
 ```
 
-### 另请参阅
+### 另见
 
 * class [License](../)
 * namespace [Aspose.Note](../../license/)
@@ -76,7 +76,7 @@ license.SetLicense("Aspose.Note.lic");
 
 ## SetLicense(Stream) {#setlicense}
 
-为组件授权。
+对组件进行授权。
 
 ```csharp
 public void SetLicense(Stream stream)
@@ -88,7 +88,7 @@ public void SetLicense(Stream stream)
 
 ## 备注
 
-使用此方法从流加载许可证。
+使用此方法从流中加载许可证。
 
 ## 示例
 
@@ -115,7 +115,7 @@ using (FileStream myStream = new FileStream("Aspose.Note.lic", FileMode.Open))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [License](../)
 * namespace [Aspose.Note](../../license/)

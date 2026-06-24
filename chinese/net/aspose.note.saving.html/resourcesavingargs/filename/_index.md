@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/resourcesavingargs/filename/
 public string FileName { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ResourceSavingArgs](../)
 * namespace [Aspose.Note.Saving.Html](../../resourcesavingargs/)

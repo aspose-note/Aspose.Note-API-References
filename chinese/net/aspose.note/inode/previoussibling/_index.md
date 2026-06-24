@@ -1,7 +1,7 @@
 ---
 title: "INode.PreviousSibling"
 second_title: "Aspose.Note for .NET API 参考"
-description: "INode 属性。获取同一节点树层级中的前一个节点"
+description: "INode 属性。获取同一节点树层级的前一个节点。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/inode/previoussibling/
@@ -18,7 +18,7 @@ public INode PreviousSibling { get; }
 
 前一个兄弟节点。
 
-### 另请参阅
+### 另见
 
 * interface [INode](../)
 * namespace [Aspose.Note](../../inode/)

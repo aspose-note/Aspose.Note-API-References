@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/checkbox/label/
 public string Label { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [CheckBox](../)
 * namespace [Aspose.Note](../../checkbox/)

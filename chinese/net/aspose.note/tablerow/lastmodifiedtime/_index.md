@@ -1,7 +1,7 @@
 ---
 title: "TableRow.LastModifiedTime"
 second_title: "Aspose.Note for .NET API 参考"
-description: "TableRow 属性。获取或设置最后修改时间"
+description: "TableRow 属性。获取或设置最后修改时间。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/tablerow/lastmodifiedtime/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/tablerow/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TableRow](../)
 * namespace [Aspose.Note](../../tablerow/)

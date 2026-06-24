@@ -22,7 +22,7 @@ public INotebookChildNode AppendChild(INotebookChildNode newChild)
 
 已添加的节点。
 
-### 另请参阅
+### 另见
 
 * interface [INotebookChildNode](../../inotebookchildnode/)
 * class [Notebook](../)

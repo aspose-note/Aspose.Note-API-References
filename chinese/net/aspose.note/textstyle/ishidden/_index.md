@@ -8,13 +8,13 @@ url: /zh/net/aspose.note/textstyle/ishidden/
 ---
 ## TextStyle.IsHidden property
 
-获取或设置一个值，指示文本样式是否隐藏。
+获取或设置一个值，指示文本样式是否为隐藏。
 
 ```csharp
 public bool IsHidden { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

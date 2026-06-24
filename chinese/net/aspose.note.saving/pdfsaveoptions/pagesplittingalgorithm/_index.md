@@ -16,7 +16,7 @@ public PageSplittingAlgorithm PageSplittingAlgorithm { get; set; }
 
 ### Property Value
 
-该 `PageSplittingAlgorithm`。
+此 `PageSplittingAlgorithm`。
 
 ## 示例
 
@@ -41,7 +41,7 @@ dataDir = dataDir + "ConvertToPDF_out.pdf";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-当长的 OneNote 页面以 PDF 格式保存时，它们会被拆分到多个页面。示例展示如何配置位于页面换页处对象的拆分逻辑。
+当长的 OneNote 页面以 pdf 格式保存时，它们会跨页拆分。示例展示如何配置位于页面换行处对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
@@ -60,7 +60,7 @@ dataDir = dataDir + "PageSplittUsingKeepPartAndCloneSolidObjectToNextPageAlgorit
 doc.Save(dataDir);
 ```
 
-当长的 OneNote 页面以 PDF 格式保存时，它们会被拆分到多个页面。示例展示如何配置位于页面换行处对象的拆分逻辑。
+当长的 OneNote 页面以 PDF 格式保存时，它们会跨页拆分。示例展示如何配置位于页面换行处对象的拆分逻辑。
 
 ```csharp
 // 文档目录的路径。
@@ -88,7 +88,7 @@ dataDir = dataDir + "UsingKeepSOlidObjectsAlgorithm_out.pdf";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSplittingAlgorithm](../../pagesplittingalgorithm/)
 * class [PdfSaveOptions](../)

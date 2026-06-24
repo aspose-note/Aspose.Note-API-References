@@ -1,7 +1,7 @@
 ---
 title: "RichText.Trim"
 second_title: "Aspose.Note for .NET API 参考"
-description: "RichText 方法。删除数组中指定的一组字符的所有前导和尾随出现"
+description: "RichText 方法。移除数组中指定的一组字符的所有前导和尾随出现"
 type: docs
 weight: 240
 url: /zh/net/aspose.note/richtext/trim/
@@ -16,13 +16,13 @@ public RichText Trim(params char[] trimChars)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| trimChars | Char[] | 修剪字符。 |
+| trimChars | Char[] | 要修剪的字符。 |
 
 ### 返回值
 
 该 [`RichText`](../)。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -40,13 +40,13 @@ public RichText Trim(char trimChar)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| trimChar | Char | 修剪字符。 |
+| trimChar | Char | 要修剪的字符。 |
 
 ### 返回值
 
 该 [`RichText`](../)。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -66,7 +66,7 @@ public RichText Trim()
 
 该 [`RichText`](../)。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)

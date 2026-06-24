@@ -59,7 +59,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-展示如何添加带有子页面的页面。
+展示如何添加带子页面的页面。
 
 ```csharp
 // 文档目录的路径。
@@ -114,7 +114,7 @@ dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Page](../)
 * namespace [Aspose.Note](../../page/)

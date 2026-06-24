@@ -1,7 +1,7 @@
 ---
 title: "IImageSavingCallback.ImageSaving"
 second_title: "Aspose.Note for .NET API 参考"
-description: "IImageSavingCallback 方法。调用于 Aspose.Note 保存图像时"
+description: "IImageSavingCallback 方法。当 Aspose.Note 保存图像 时调用"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving.html/iimagesavingcallback/imagesaving/
@@ -18,7 +18,7 @@ public void ImageSaving(ImageSavingArgs args)
 | --- | --- | --- |
 | args | ImageSavingArgs | 保存参数。 |
 
-### 另请参阅
+### 另见
 
 * class [ImageSavingArgs](../../imagesavingargs/)
 * interface [IImageSavingCallback](../)

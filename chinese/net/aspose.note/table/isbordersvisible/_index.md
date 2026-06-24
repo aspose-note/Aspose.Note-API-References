@@ -1,14 +1,14 @@
 ---
 title: "Table.IsBordersVisible"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Table 属性。获取或设置一个指示表格边框是否可见的值"
+description: "Table 属性。获取或设置一个值，指示表格边框是否可见"
 type: docs
 weight: 30
 url: /zh/net/aspose.note/table/isbordersvisible/
 ---
 ## Table.IsBordersVisible property
 
-获取或设置指示表格边框是否可见的值。
+获取或设置一个值，指示表格边框是否可见。
 
 ```csharp
 public bool IsBordersVisible { get; set; }
@@ -106,7 +106,7 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何创建带有锁定列的表格。
+展示如何创建具有锁定列的表格。
 
 ```csharp
 // 文档目录的路径。
@@ -243,7 +243,7 @@ dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Table](../)
 * namespace [Aspose.Note](../../table/)

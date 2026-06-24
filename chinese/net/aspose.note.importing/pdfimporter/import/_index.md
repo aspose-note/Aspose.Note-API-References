@@ -1,14 +1,14 @@
 ---
 title: "PdfImporter.Import"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PdfImporter 方法。从提供的流导入 PDF 文档的内容"
+description: "PdfImporter 方法。从提供的流中导入 PDF 文档的内容"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.importing/pdfimporter/import/
 ---
 ## Import(Stream, PdfImportOptions) {#import}
 
-从提供的流中导入 PDF 文档的内容。
+从提供的流导入 PDF 文档的内容。
 
 ```csharp
 public static List<Page> Import(Stream stream, PdfImportOptions options = null)
@@ -21,9 +21,9 @@ public static List<Page> Import(Stream stream, PdfImportOptions options = null)
 
 ### 返回值
 
-此 [`PdfImporter`](../)。
+该 [`PdfImporter`](../)。
 
-### 另请参阅
+### 另见
 
 * class [Page](../../../aspose.note/page/)
 * class [PdfImportOptions](../../pdfimportoptions/)
@@ -35,7 +35,7 @@ public static List<Page> Import(Stream stream, PdfImportOptions options = null)
 
 ## Import(string, PdfImportOptions) {#import_1}
 
-从指定的文件中导入 PDF 文档的内容。
+从指定的文件导入 PDF 文档的内容。
 
 ```csharp
 public static List<Page> Import(string file, PdfImportOptions options = null)
@@ -43,16 +43,16 @@ public static List<Page> Import(string file, PdfImportOptions options = null)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件 | String | 此 PDF 文件。 |
+| 文件 | String | 该 PDF 文件。 |
 | 选项 | PdfImportOptions | 这些选项。 |
 
 ### 返回值
 
-此 [`PdfImporter`](../)。
+该 [`PdfImporter`](../)。
 
 ## 示例
 
-展示如何从 PDF 文档导入所有页面，将每 5 页分组为一个 OneNote 页面。
+展示如何从 PDF 文档导入所有页面，并将每 5 页分组为单个 OneNote 页面。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Import();
@@ -71,7 +71,7 @@ while (pages.Any())
 d.Save(Path.Combine(dataDir, "sample_CustomMerge.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [Page](../../../aspose.note/page/)
 * class [PdfImportOptions](../../pdfimportoptions/)

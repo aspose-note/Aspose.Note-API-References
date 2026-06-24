@@ -39,7 +39,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-展示如何打开加密的笔记本。
+展示如何处理加密的笔记本。
 
 ```csharp
 // 文档目录的路径。
@@ -74,7 +74,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

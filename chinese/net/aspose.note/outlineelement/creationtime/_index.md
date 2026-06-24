@@ -1,7 +1,7 @@
 ---
 title: "OutlineElement.CreationTime"
 second_title: "Aspose.Note for .NET API 参考"
-description: "OutlineElement 属性。获取或设置创建时间。"
+description: "OutlineElement 属性。获取或设置创建时间"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/outlineelement/creationtime/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/outlineelement/creationtime/
 public DateTime CreationTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [OutlineElement](../)
 * namespace [Aspose.Note](../../outlineelement/)

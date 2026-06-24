@@ -1,14 +1,14 @@
 ---
 title: "枚举 TagIcon"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.TagIcon 枚举。指定标签或任务图标的图标。"
+description: "Aspose.Note.TagIcon 枚举。指定标签或任务的图标。"
 type: docs
 weight: 1020
 url: /zh/net/aspose.note/tagicon/
 ---
 ## TagIcon enumeration
 
-指定标签或任务的图标。
+指定标签或任务图标。
 
 ```csharp
 public enum TagIcon
@@ -18,7 +18,7 @@ public enum TagIcon
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NoIcon | `0` | 图标未指定。 |
+| NoIcon | `0` | 未指定图标。 |
 | GreenCheckBox | `1` | 绿色复选框图标。 |
 | YellowCheckBox | `2` | 黄色复选框图标。 |
 | BlueCheckBox | `3` | 蓝色复选框图标。 |
@@ -28,11 +28,11 @@ public enum TagIcon
 | GreenExclamationCheckBox | `7` | 绿色感叹号复选框图标。 |
 | YellowExclamationCheckBox | `8` | 黄色感叹号复选框图标。 |
 | BlueExclamationCheckBox | `9` | 蓝色感叹号复选框图标。 |
-| GreenRightArrowCheckBox | `10` | 绿色，右箭头复选框图标。 |
-| YellowRightArrowCheckBox | `11` | 黄色，右箭头复选框图标。 |
-| BlueRightArrowCheckBox | `12` | 蓝色，右箭头复选框图标。 |
+| GreenRightArrowCheckBox | `10` | 绿色、右箭头复选框图标。 |
+| YellowRightArrowCheckBox | `11` | 黄色、右箭头复选框图标。 |
+| BlueRightArrowCheckBox | `12` | 蓝色、右箭头复选框图标。 |
 | YellowStar | `13` | 黄色星形图标。 |
-| BlueFollowUpFlag | `14` | 蓝色后续标记图标。 |
+| BlueFollowUpFlag | `14` | 蓝色跟进标志图标。 |
 | QuestionMark | `15` | 问号图标。 |
 | BlueRightArrow | `16` | 蓝色右箭头图标。 |
 | HighPriority | `17` | 高优先级（红色感叹号）图标。 |
@@ -44,7 +44,7 @@ public enum TagIcon
 | Home | `23` | 主页图标。 |
 | CommentBubble | `24` | 评论气泡图标。 |
 | SmilingFace | `25` | 笑脸图标。 |
-| AwardRibbon | `26` | 奖项丝带图标。 |
+| AwardRibbon | `26` | 奖章丝带图标。 |
 | YellowKey | `27` | 黄色钥匙图标。 |
 | BlueCheckBox1 | `28` | 蓝色复选框1图标。 |
 | BlueCircle1 | `29` | 蓝色圆形1图标。 |
@@ -52,19 +52,19 @@ public enum TagIcon
 | BlueCircle2 | `31` | 蓝色圆形2图标。 |
 | BlueCheckBox3 | `32` | 蓝色复选框3图标。 |
 | BlueCircle3 | `33` | 蓝色圆形 3 图标。 |
-| BlueEightPointStar | `34` | 蓝色，八角星图标。 |
-| BlueCheckMark | `35` | 蓝色勾号图标。 |
-| BlueCircle | `36` | 蓝色圆形图标。 |
-| BlueDownArrow | `37` | 蓝色向下箭头图标。 |
-| BlueLeftArrow | `38` | 蓝色向左箭头图标。 |
-| BlueSolidTarget | `39` | 蓝色实心靶心图标。 |
-| BlueStar | `40` | 蓝色星形图标。 |
-| BlueSun | `41` | 蓝色太阳图标。 |
-| BlueTarget | `42` | 蓝色目标图标。 |
-| BlueTriangle | `43` | 蓝色三角形图标。 |
-| BlueUmbrella | `44` | 蓝色雨伞图标。 |
-| BlueUpArrow | `45` | 蓝色向上箭头图标。 |
-| BlueXWithDots | `46` | 蓝色带点的 "X" 图标。 |
+| BlueEightPointStar | `34` | 蓝色，八角星 图标。 |
+| BlueCheckMark | `35` | 蓝色勾号 图标。 |
+| BlueCircle | `36` | 蓝色圆形 图标。 |
+| BlueDownArrow | `37` | 蓝色向下箭头 图标。 |
+| BlueLeftArrow | `38` | 蓝色向左箭头 图标。 |
+| BlueSolidTarget | `39` | 蓝色实心目标 图标。 |
+| BlueStar | `40` | 蓝色星形 图标。 |
+| BlueSun | `41` | 蓝色太阳 图标。 |
+| BlueTarget | `42` | 蓝色目标 图标。 |
+| BlueTriangle | `43` | 蓝色三角形 图标。 |
+| BlueUmbrella | `44` | 蓝色雨伞 图标。 |
+| BlueUpArrow | `45` | 蓝色向上箭头 图标。 |
+| BlueXWithDots | `46` | 蓝色 "X" 带点 图标。 |
 | BlueXNo | `47` | 蓝色 "X" 图标。 |
 | GreenCheckBox1 | `48` | 绿色复选框 1 图标。 |
 | GreenCircle1 | `49` | 绿色圆形 1 图标。 |
@@ -72,10 +72,10 @@ public enum TagIcon
 | GreenCircle2 | `51` | 绿色圆形 2 图标。 |
 | GreenCheckBox3 | `52` | 绿色复选框 3 图标。 |
 | GreenCircle3 | `53` | 绿色圆形 3 图标。 |
-| GreenEightPointStar | `54` | 绿色，八角星图标。 |
-| GreenCheckMark | `55` | 绿色勾号图标。 |
-| GreenCircle | `56` | 绿色圆形图标。 |
-| GreenDownArrow | `57` | 绿色向下箭头图标。 |
+| GreenEightPointStar | `54` | 绿色，八角星 图标。 |
+| GreenCheckMark | `55` | 绿色勾号 图标。 |
+| GreenCircle | `56` | 绿色圆形 图标。 |
+| GreenDownArrow | `57` | 绿色向下箭头 图标。 |
 | GreenLeftArrow | `58` | 绿色左箭头图标。 |
 | GreenRightArrow | `59` | 绿色右箭头图标。 |
 | GreenSolidArrow | `60` | 绿色实心箭头图标。 |
@@ -84,9 +84,9 @@ public enum TagIcon
 | GreenTarget | `63` | 绿色目标图标。 |
 | GreenTriangle | `64` | 绿色三角形图标。 |
 | GreenUmbrella | `65` | 绿色雨伞图标。 |
-| GreenUpArrow | `66` | 绿色向上箭头图标。 |
-| GreenXWithDots | `67` | 绿色带点的\"X\"图标。 |
-| GreenXNo | `68` | 绿色\"X\"图标。 |
+| GreenUpArrow | `66` | 绿色上箭头图标。 |
+| GreenXWithDots | `67` | 绿色带点的 "X" 图标。 |
+| GreenXNo | `68` | 绿色 "X" 图标。 |
 | YellowCheckBox1 | `69` | 黄色复选框 1 图标。 |
 | YellowCircle1 | `70` | 黄色圆形 1 图标。 |
 | YellowCheckBox2 | `71` | 黄色复选框 2 图标。 |
@@ -94,9 +94,9 @@ public enum TagIcon
 | YellowCheckBox3 | `73` | 黄色复选框 3 图标。 |
 | YellowCircle3 | `74` | 黄色圆形 3 图标。 |
 | YellowEightPointStar | `75` | 黄色，八角星图标。 |
-| YellowCheckMark | `76` | 黄色勾号图标。 |
+| YellowCheckMark | `76` | 黄色对勾图标。 |
 | YellowCircle | `77` | 黄色圆形图标。 |
-| YellowDownArrow | `78` | 黄色向下箭头图标。 |
+| YellowDownArrow | `78` | 黄色下箭头图标。 |
 | YellowLeftArrow | `79` | 黄色左箭头图标。 |
 | YellowRightArrow | `80` | 黄色右箭头图标。 |
 | YellowSolidTarget | `81` | 黄色实心目标图标。 |
@@ -107,36 +107,36 @@ public enum TagIcon
 | YellowUpArrow | `86` | 黄色向上箭头图标。 |
 | YellowXWithDots | `87` | 黄色 "X" 带点图标。 |
 | YellowX | `88` | 黄色 "X" 图标。 |
-| FollowUpTodayFlag | `89` | 今天跟进标志图标。 |
-| FollowUpTomorrowFlag | `90` | 明天跟进标志图标。 |
+| FollowUpTodayFlag | `89` | 今日跟进标志图标。 |
+| FollowUpTomorrowFlag | `90` | 明日跟进标志图标。 |
 | FollowUpThisWeekFlag | `91` | 本周跟进标志图标。 |
 | FollowUpNextWeekFlag | `92` | 下周跟进标志图标。 |
 | NoFollowUpDateFlag | `93` | 无跟进日期标志图标。 |
 | BluePersonCheckBox | `94` | 蓝色人物复选框图标。 |
 | YellowPersonCheckBox | `95` | 黄色人物复选框图标。 |
 | GreenPersonCheckBox | `96` | 绿色人物复选框图标。 |
-| BlueFlagCheckBox | `97` | 蓝色标志复选框图标。 |
-| RedFlagCheckBox | `98` | 红色标志复选框图标。 |
-| GreenFlagCheckBox | `99` | 绿色标志复选框图标。 |
+| BlueFlagCheckBox | `97` | 蓝色旗帜复选框图标。 |
+| RedFlagCheckBox | `98` | 红色旗帜复选框图标。 |
+| GreenFlagCheckBox | `99` | 绿色旗帜复选框图标。 |
 | RedSquare | `100` | 红色方形图标。 |
 | YellowSquare | `101` | 黄色方形图标。 |
 | BlueSquare | `102` | 蓝色方形图标。 |
 | GreenSquare | `103` | 绿色方形图标。 |
 | OrangeSquare | `104` | 橙色方形图标。 |
 | PinkSquare | `105` | 粉色方形图标。 |
-| EMailMessage | `106` | 电子邮件消息图标。 |
+| EMailMessage | `106` | 电子邮件信息图标。 |
 | ClosedEnvelope | `107` | 已关闭信封图标。 |
 | OpenEnvelope | `108` | 打开信封图标。 |
 | MobilePhone | `109` | 手机图标。 |
 | TelephoneWithClock | `110` | 带时钟的电话图标。 |
 | QuestionBalloon | `111` | 问号气泡图标。 |
 | PaperClip | `112` | 回形针图标。 |
-| FrowningFace | `113` | 皱眉脸图标。 |
+| FrowningFace | `113` | 皱眉表情图标。 |
 | InstantMessagingContactPerson | `114` | 即时通讯（IM）联系人图标。 |
-| PersonWithExclamationMark | `115` | 带感叹号的人图标。 |
-| TwoPeople | `116` | 两个人图标。 |
-| ReminderBell | `117` | 提醒铃图标。 |
-| ContactPersonOnCard | `118` | 联系人（卡片上的人）图标。 |
+| PersonWithExclamationMark | `115` | 带感叹号的人物图标。 |
+| TwoPeople | `116` | 两个人物图标。 |
+| ReminderBell | `117` | 提醒铃铛图标。 |
+| ContactPersonOnCard | `118` | 联系人（卡片上的人物）图标。 |
 | RoseOnStem | `119` | 带茎的玫瑰图标。 |
 | CalendarDateWithClock | `120` | 带时钟的日历日期图标。 |
 | MusicalNote | `121` | 音乐符号图标。 |
@@ -151,31 +151,31 @@ public enum TagIcon
 | PresentationSlide | `130` | 演示幻灯片图标。 |
 | Padlock | `131` | 挂锁图标。 |
 | OpenBook | `132` | 打开的书本图标。 |
-| NotebookWithClock | `133` | 带时钟图标的笔记本. |
-| BlankPaperWithLines | `134` | 带线条图标的空白纸张. |
-| Research | `135` | 研究 (带放大镜的书籍) 图标. |
-| Pen | `136` | 带笔的图标. |
-| DollarSign | `137` | 美元符号 ($) 图标. |
-| CoinsWithWindowBackdrop | `138` | 带窗口背景的硬币图标. |
-| ScheduledTask | `139` | 计划任务 (带时钟的表单) 图标. |
-| LightningBolt | `140` | 闪电图标. |
-| Cloud | `141` | 云图标. |
-| Heart | `142` | 心形图标. |
-| Sunflower | `143` | 向日葵图标. |
-| BlueCheckBox1Empty | `144` | 蓝色空复选框1图标. |
-| BlueCheckBox2Empty | `145` | 蓝色空复选框2图标. |
-| BlueCheckBox3Empty | `146` | 蓝色空复选框3图标. |
-| BlueCheckBoxEmpty | `147` | 蓝色空复选框图标. |
-| BlueExclamationCheckBoxEmpty | `148` | 蓝色感叹号空复选框图标. |
-| BlueFlagCheckBoxEmpty | `149` | 蓝色旗帜空复选框图标. |
-| BluePersonCheckBoxEmpty | `150` | 蓝色人物空复选框图标. |
-| BlueRightArrowCheckBoxEmpty | `151` | 蓝色右箭头空复选框图标. |
-| BlueStarCheckBoxEmpty | `152` | 蓝色星形空复选框图标. |
-| GreenCheckBox1Empty | `153` | 绿色空复选框1图标. |
-| GreenCheckBox2Empty | `154` | 绿色空复选框2图标. |
-| GreenCheckBox3Empty | `155` | 绿色空复选框3图标. |
-| GreenCheckBoxEmpty | `156` | 绿色空复选框图标. |
-| GreenExclamationCheckBoxEmpty | `157` | 绿色感叹号空复选框图标. |
+| NotebookWithClock | `133` | 带时钟图标的笔记本。 |
+| BlankPaperWithLines | `134` | 带线条图标的空白纸。 |
+| Research | `135` | 带放大镜的书籍图标的研究。 |
+| Pen | `136` | 带笔的图标。 |
+| DollarSign | `137` | 美元符号（$）图标。 |
+| CoinsWithWindowBackdrop | `138` | 带窗口背景的硬币图标。 |
+| ScheduledTask | `139` | 带时钟的表单图标的计划任务。 |
+| LightningBolt | `140` | 闪电图标。 |
+| Cloud | `141` | 云图标。 |
+| Heart | `142` | 心形图标。 |
+| Sunflower | `143` | 向日葵图标。 |
+| BlueCheckBox1Empty | `144` | 蓝色空复选框1图标。 |
+| BlueCheckBox2Empty | `145` | 蓝色空复选框2图标。 |
+| BlueCheckBox3Empty | `146` | 蓝色空复选框3图标。 |
+| BlueCheckBoxEmpty | `147` | 蓝色空复选框图标。 |
+| BlueExclamationCheckBoxEmpty | `148` | 蓝色感叹号空复选框图标。 |
+| BlueFlagCheckBoxEmpty | `149` | 蓝色旗帜空复选框图标。 |
+| BluePersonCheckBoxEmpty | `150` | 蓝色人物空复选框图标。 |
+| BlueRightArrowCheckBoxEmpty | `151` | 蓝色右箭头空复选框图标。 |
+| BlueStarCheckBoxEmpty | `152` | 蓝色星形空复选框图标。 |
+| GreenCheckBox1Empty | `153` | 绿色空复选框1图标。 |
+| GreenCheckBox2Empty | `154` | 绿色空复选框2图标。 |
+| GreenCheckBox3Empty | `155` | 绿色空复选框3图标。 |
+| GreenCheckBoxEmpty | `156` | 绿色空复选框图标。 |
+| GreenExclamationCheckBoxEmpty | `157` | 绿色感叹号空复选框图标。 |
 | GreenFlagCheckBoxEmpty | `158` | 绿色旗帜空复选框图标。 |
 | GreenPersonCheckBoxEmpty | `159` | 绿色人物空复选框图标。 |
 | GreenRightArrowCheckBoxEmpty | `160` | 绿色右向空箭头复选框图标。 |
@@ -190,7 +190,7 @@ public enum TagIcon
 | YellowRightArrowCheckBoxEmpty | `169` | 黄色空右箭头复选框图标。 |
 | YellowStarCheckBoxEmpty | `170` | 黄色空星形复选框图标。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

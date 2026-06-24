@@ -1,7 +1,7 @@
 ---
 title: "INoteTag.FontColor"
 second_title: "Aspose.Note for .NET API 参考"
-description: "INoteTag 属性。获取或设置字体颜色"
+description: "INoteTag 属性。获取或设置字体颜色。"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/inotetag/fontcolor/
@@ -50,7 +50,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INoteTag](../)
 * namespace [Aspose.Note](../../inotetag/)

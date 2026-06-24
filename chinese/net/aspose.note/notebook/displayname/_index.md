@@ -30,7 +30,7 @@ foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // 从笔记本中删除子项
+        // 从笔记本中移除子项
         notebook.RemoveChild(child);
     }
 }
@@ -41,7 +41,7 @@ dataDir = dataDir + "RemoveChildNode_out.onetoc2";
 notebook.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Notebook](../)
 * namespace [Aspose.Note](../../notebook/)

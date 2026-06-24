@@ -16,7 +16,7 @@ public bool AutomaticLayoutChangesDetectionEnabled { get; set; }
 
 ## 示例
 
-展示如何将文档保存为不同的格式。
+展示如何以不同格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -49,7 +49,7 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)

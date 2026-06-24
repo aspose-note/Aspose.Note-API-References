@@ -1,7 +1,7 @@
 ---
 title: "IPageSavingCallback.PageSaving"
 second_title: "Aspose.Note for .NET API 参考"
-description: "IPageSavingCallback 方法。当 Aspose.Note 保存单独页面时调用"
+description: "IPageSavingCallback 方法。当 Aspose.Note 保存单独的页面时调用"
 type: docs
 weight: 10
 url: /zh/net/aspose.note.saving.html/ipagesavingcallback/pagesaving/
@@ -18,7 +18,7 @@ public void PageSaving(PageSavingArgs args)
 | --- | --- | --- |
 | args | PageSavingArgs | 保存参数。 |
 
-### 另请参阅
+### 另见
 
 * class [PageSavingArgs](../../pagesavingargs/)
 * interface [IPageSavingCallback](../)

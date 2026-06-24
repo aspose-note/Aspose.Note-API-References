@@ -1,7 +1,7 @@
 ---
 title: "Notebook.RemoveChild"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Notebook 方法。删除子节点。"
+description: "Notebook 方法。移除子节点。"
 type: docs
 weight: 140
 url: /zh/net/aspose.note/notebook/removechild/
@@ -16,11 +16,11 @@ public INotebookChildNode RemoveChild(INotebookChildNode oldChild)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChild | INotebookChildNode | 要删除的节点。 |
+| oldChild | INotebookChildNode | 要移除的节点。 |
 
 ### 返回值
 
-已删除的节点。
+已移除的节点。
 
 ## 示例
 
@@ -53,7 +53,7 @@ foreach (var child in new List<INotebookChildNode>(notebook))
 {
     if (child.DisplayName == "Remove Me")
     {
-        // 从笔记本中删除子项
+        // 从笔记本中移除子项
         notebook.RemoveChild(child);
     }
 }
@@ -90,7 +90,7 @@ if (notebook.Any())
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [INotebookChildNode](../../inotebookchildnode/)
 * class [Notebook](../)

@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/tablecolumn/lockedwidth/
 ---
 ## TableColumn.LockedWidth property
 
-获取或设置一个值，指示表格列是否具有锁定宽度且不会自动调整以适应表格内容。默认情况下，列宽未锁定。
+获取或设置一个值，指示表格列是否锁定宽度且不会自动调整以适应表格内容。默认情况下，列宽未锁定。
 
 ```csharp
 public bool LockedWidth { get; set; }
@@ -16,7 +16,7 @@ public bool LockedWidth { get; set; }
 
 ## 示例
 
-展示如何创建带有锁定列的表格。
+展示如何创建具有锁定列的表格。
 
 ```csharp
 // 文档目录的路径。
@@ -73,7 +73,7 @@ dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [TableColumn](../)
 * namespace [Aspose.Note](../../tablecolumn/)

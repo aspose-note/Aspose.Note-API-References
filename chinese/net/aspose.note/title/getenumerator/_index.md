@@ -18,7 +18,7 @@ public IEnumerator<RichText> GetEnumerator()
 
 IEnumerator。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../../richtext/)
 * class [Title](../)

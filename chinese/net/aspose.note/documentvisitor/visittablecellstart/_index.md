@@ -18,7 +18,7 @@ public virtual void VisitTableCellStart(TableCell tableCell)
 | --- | --- | --- |
 | tableCell | TableCell | 该 [`TableCell`](../../tablecell/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [TableCell](../../tablecell/)
 * class [DocumentVisitor](../)

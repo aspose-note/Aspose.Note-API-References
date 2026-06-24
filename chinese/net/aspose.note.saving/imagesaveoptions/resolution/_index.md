@@ -1,7 +1,7 @@
 ---
 title: "ImageSaveOptions.Resolution"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ImageSaveOptions 属性。获取或设置生成图像的分辨率（每英寸点数）"
+description: "ImageSaveOptions 属性。获取或设置生成图像的分辨率（每英寸点数）。"
 type: docs
 weight: 50
 url: /zh/net/aspose.note.saving/imagesaveoptions/resolution/
@@ -78,7 +78,7 @@ dataDir = dataDir + "ConvertToImageAsFlattenedNotebook_out.png";
 notebook.Save(dataDir, notebookSaveOptions);
 ```
 
-### 另请参阅
+### 另见
 
 * class [ImageSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../imagesaveoptions/)

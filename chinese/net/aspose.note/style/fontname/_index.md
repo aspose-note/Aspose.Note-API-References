@@ -16,7 +16,7 @@ public string FontName { get; set; }
 
 ## 示例
 
-使用段落样式操作文本格式。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -232,7 +232,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)

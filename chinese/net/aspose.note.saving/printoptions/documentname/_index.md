@@ -1,14 +1,14 @@
 ---
 title: "PrintOptions.DocumentName"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PrintOptions 属性。获取或设置在打印文档时显示的文档名称，例如在打印状态对话框或打印机队列中"
+description: "PrintOptions 属性。获取或设置文档名称，例如在打印状态对话框或打印机队列中显示的名称"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/printoptions/documentname/
 ---
 ## PrintOptions.DocumentName property
 
-获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印队列中）。
+获取或设置在打印文档时显示的文档名称（例如，在打印状态对话框或打印机队列中）。
 
 ```csharp
 public string DocumentName { get; set; }
@@ -16,7 +16,7 @@ public string DocumentName { get; set; }
 
 ## 示例
 
-展示如何使用标准 Windows 对话框并指定选项将文档发送到打印机。
+展示如何使用带有指定选项的标准 Windows 对话框将文档发送到打印机。
 
 ```csharp
 // 文档目录的路径。
@@ -37,7 +37,7 @@ document.Print(new PrintOptions()
                });
 ```
 
-### 另请参阅
+### 另见
 
 * class [PrintOptions](../)
 * namespace [Aspose.Note.Saving](../../printoptions/)

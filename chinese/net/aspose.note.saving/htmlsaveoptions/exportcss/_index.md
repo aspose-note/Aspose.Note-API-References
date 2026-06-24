@@ -16,7 +16,7 @@ public ResourceExportType ExportCss { get; set; }
 
 ## 示例
 
-展示如何以 HTML 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
+展示如何以 html 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -32,7 +32,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-展示如何以 HTML 格式将文档保存到流中，并嵌入所有资源（css/字体/图像）。
+展示如何以 html 格式将文档保存到流中，并嵌入所有资源（css/字体/图像）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -50,7 +50,7 @@ var r = new MemoryStream();
 document.Save(r, options);
 ```
 
-### 另请参阅
+### 另见
 
 * enum [ResourceExportType](../../../aspose.note.saving.html/resourceexporttype/)
 * class [HtmlSaveOptions](../)

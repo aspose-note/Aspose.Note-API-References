@@ -1,14 +1,14 @@
 ---
 title: "Document.DetectLayoutChanges"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Document 方法。检测自上一次 DetectLayoutChanges 调用以来对文档布局所做的所有更改。如果 AutomaticLayoutChangesDetectionEnabled 设置为 true，则在文档导出开始时自动使用。"
+description: "Document 方法。检测自上一次 DetectLayoutChanges 调用以来文档布局所做的所有更改。如果 AutomaticLayoutChangesDetectionEnabled 设置为 true，则在文档导出开始时自动使用。"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/document/detectlayoutchanges/
 ---
 ## Document.DetectLayoutChanges method
 
-检测自上一次 `DetectLayoutChanges` 调用以来对文档布局所做的所有更改。如果 [`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled/) 设置为 true，则在文档导出开始时自动使用。
+检测自上一次 `DetectLayoutChanges` 调用以来文档布局所做的所有更改。如果 [`AutomaticLayoutChangesDetectionEnabled`](../automaticlayoutchangesdetectionenabled/) 设置为 true，则在文档导出开始时自动使用。
 
 ```csharp
 public void DetectLayoutChanges()
@@ -16,7 +16,7 @@ public void DetectLayoutChanges()
 
 ## 示例
 
-展示如何将文档保存为不同的格式。
+展示如何以不同格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -49,7 +49,7 @@ doc.DetectLayoutChanges();
 doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)

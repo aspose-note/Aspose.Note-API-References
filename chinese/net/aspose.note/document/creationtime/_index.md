@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/document/creationtime/
 public DateTime CreationTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)

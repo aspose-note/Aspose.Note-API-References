@@ -20,7 +20,7 @@ public int JpegQuality { get; set; }
 
 ## 示例
 
-展示如何使用特定设置以 PDF 格式保存文档。
+展示如何使用特定设置以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -43,7 +43,7 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.Save(dataDir, opts);
 ```
 
-### 另请参阅
+### 另见
 
 * class [PdfSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../pdfsaveoptions/)

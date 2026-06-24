@@ -1,14 +1,14 @@
 ---
 title: "ParagraphStyle 类"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.ParagraphStyle 类。如果在 Styles 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用的文本样式设置"
+description: "Aspose.Note.ParagraphStyle 类。如果在 Styles 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用此文本样式设置。"
 type: docs
 weight: 580
 url: /zh/net/aspose.note/paragraphstyle/
 ---
 ## ParagraphStyle class
 
-如果在 Styles 集合中没有匹配的 TextStyle 对象，或者此对象未指定所需设置，则使用的文本样式设置。
+当 Styles 集合中没有匹配的 TextStyle 对象，或此对象未指定所需设置时使用的文本样式设置。
 
 ```csharp
 public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
@@ -32,10 +32,10 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | 获取或设置突出显示颜色。 |
 | [IsBold](../../aspose.note/style/isbold/) { get; set; } | 获取或设置一个值，指示文本样式是否为粗体。 |
 | [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | 获取或设置一个值，指示文本样式是否为斜体。 |
-| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 获取或设置一个值，指示文本样式是否有删除线。 |
+| [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | 获取或设置一个值，指示文本样式是否为删除线。 |
 | [IsSubscript](../../aspose.note/style/issubscript/) { get; set; } | 获取或设置一个值，指示文本样式是否为下标。 |
 | [IsSuperscript](../../aspose.note/style/issuperscript/) { get; set; } | 获取或设置一个值，指示文本样式是否为上标。 |
-| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | 获取或设置一个值，指示文本样式是否带下划线。 |
+| [IsUnderline](../../aspose.note/style/isunderline/) { get; set; } | 获取或设置一个值，指示文本样式是否为下划线。 |
 
 ## 方法
 
@@ -47,7 +47,7 @@ public sealed class ParagraphStyle : Style, IEquatable<ParagraphStyle>
 
 ## 示例
 
-让我们通过增大字体大小来强调页面的标题，而不是其他标题。
+让我们通过增大字体大小来突出页面标题相对于其他标题的显示。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -96,7 +96,7 @@ foreach (var node in richTextNodes)
 document.Save(Path.Combine(dataDir, "HighlightAllRecentChanges.pdf"));
 ```
 
-使用段落样式操作文本格式。
+使用段落样式按文本格式进行操作。
 
 ```csharp
 var document = new Document();
@@ -253,7 +253,7 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../style/)
 * namespace [Aspose.Note](../../aspose.note/)

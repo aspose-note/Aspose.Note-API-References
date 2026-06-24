@@ -20,10 +20,10 @@ public enum PdfImageCompression
 | --- | --- | --- |
 | None | `1` | 保存图像时不使用压缩。 |
 | Auto | `0` | 自动为每个图像选择最合适的压缩方式。 |
-| Jpeg | `6` | JPEG 压缩。不支持透明度。 |
+| Jpeg | `6` | Jpeg 压缩。不支持透明度。 |
 | Flate | `3` | Flate 压缩（无损）。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving.Pdf](../../aspose.note.saving.pdf/)
 * assembly [Aspose.Note](../../)

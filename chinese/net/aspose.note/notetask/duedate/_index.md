@@ -16,11 +16,11 @@ public DateTime DueDate { get; set; }
 
 ### Property Value
 
-DateTime。
+该 DateTime。
 
 ## 示例
 
-展示如何生成包含所有与‘Project A’相关页面的 PDF。
+展示如何生成包含所有与 'Project A' 相关页面的 PDF。
 
 ```csharp
 // 文档目录的路径。
@@ -73,7 +73,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [NoteTask](../)
 * namespace [Aspose.Note](../../notetask/)

@@ -1,14 +1,14 @@
 ---
 title: "UnsupportedFileFormatException 类"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.UnsupportedFileFormatException 类。在文档加载期间抛出，当文件格式未被识别或不受 Aspose.Note 支持时"
+description: "Aspose.Note.UnsupportedFileFormatException 类。在文档加载期间抛出，当文件格式未被识别或不受 Aspose.Note 支持时。"
 type: docs
 weight: 1070
 url: /zh/net/aspose.note/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class
 
-在文档加载期间抛出，当文件格式未被识别或不受 Aspose.Note 支持时。
+在文档加载期间抛出，当文件格式未被识别或 Aspose.Note 不支持时。
 
 ```csharp
 public class UnsupportedFileFormatException : Exception
@@ -18,7 +18,7 @@ public class UnsupportedFileFormatException : Exception
 
 | 名称 | 描述 |
 | --- | --- |
-| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | 如果检测到，则获取传入数据的文件格式。 |
+| [FileFormat](../../aspose.note/unsupportedfileformatexception/fileformat/) { get; } | 如果检测到，获取传入数据的文件格式。 |
 
 ## 示例
 
@@ -44,7 +44,7 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

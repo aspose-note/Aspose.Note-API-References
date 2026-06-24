@@ -16,9 +16,9 @@ public DateTime? CompletedTime { get; }
 
 ### Property Value
 
-可空的 Nullable.
+该 Nullable。
 
-### 另请参阅
+### 另见
 
 * class [CheckBox](../)
 * namespace [Aspose.Note](../../checkbox/)

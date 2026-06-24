@@ -18,7 +18,7 @@ public override TagIcon Icon { get; }
 
 该 [`TagIcon`](../../tagicon/)。
 
-### 另请参阅
+### 另见
 
 * enum [TagIcon](../../tagicon/)
 * class [NoteCheckBox](../)

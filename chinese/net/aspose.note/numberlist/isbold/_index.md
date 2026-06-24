@@ -1,7 +1,7 @@
 ---
 title: "NumberList.IsBold"
 second_title: "Aspose.Note for .NET API 参考"
-description: "NumberList 属性。获取或设置一个值，指示文本样式是否为粗体。"
+description: "NumberList 属性。获取或设置指示文本样式是否为粗体的值"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/numberlist/isbold/
@@ -16,7 +16,7 @@ public bool IsBold { get; set; }
 
 ## 示例
 
-展示如何检索列表格式的信息。
+展示如何检索列表的格式信息。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -59,7 +59,7 @@ foreach (OutlineElement node in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)

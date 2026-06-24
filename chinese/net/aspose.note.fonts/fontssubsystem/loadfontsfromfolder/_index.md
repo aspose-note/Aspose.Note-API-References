@@ -16,7 +16,7 @@ public void LoadFontsFromFolder(string folder)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 包含字体的文件夹。 |
+| 文件夹 | String | 包含字体的文件夹。 |
 
 ### 异常
 
@@ -26,7 +26,7 @@ public void LoadFontsFromFolder(string folder)
 | DirectoryNotFoundException | 指定的文件夹目录不存在。 |
 | InvalidDataException | 文件夹中的文件不包含 TrueType 字体。 |
 
-### 另请参阅
+### 另见
 
 * class [FontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../fontssubsystem/)

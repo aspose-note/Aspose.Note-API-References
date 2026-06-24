@@ -25,7 +25,7 @@ public static class DisplayUnitsConverter
 | static [PointToInch](../../aspose.note/displayunitsconverter/pointtoinch/)(float) | 将点转换为英寸。 |
 | static [PointToPixel](../../aspose.note/displayunitsconverter/pointtopixel/)(float, float) | 在指定的像素分辨率下，将点转换为像素。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

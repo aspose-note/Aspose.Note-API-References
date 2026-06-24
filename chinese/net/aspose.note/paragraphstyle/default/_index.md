@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/paragraphstyle/default/
 public static ParagraphStyle Default { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [ParagraphStyle](../)
 * namespace [Aspose.Note](../../paragraphstyle/)

@@ -1,7 +1,7 @@
 ---
 title: "ImageSaveOptions.Quality"
 second_title: "Aspose.Note for .NET API 参考"
-description: "ImageSaveOptions 属性。获取或设置决定已保存图像质量的值。该值作为 System.Drawing.Imaging.Encoder.Quality 参数传递给编解码器"
+description: "ImageSaveOptions 属性。获取或设置决定已保存图像质量的值。该值作为 System.Drawing.Imaging.Encoder.Quality 参数传递给编解码器。"
 type: docs
 weight: 40
 url: /zh/net/aspose.note.saving/imagesaveoptions/quality/
@@ -16,7 +16,7 @@ public int Quality { get; set; }
 
 ## 备注
 
-质量类别的有效取值范围为 0 到 100。指定的数值越低，压缩率越高，图像质量因此越低。0 会得到最低质量的图像，100 则为最高质量。默认值为 90。
+质量类别的有效值范围为 0 到 100。指定的数值越低，压缩率越高，图像质量因此越低。0 会得到最低质量的图像，100 会得到最高质量的图像。默认值为 90。
 
 ## 示例
 
@@ -54,7 +54,7 @@ oneFile.Save(dst, new ImageSaveOptions(SaveFormat.Tiff)
                       });
 ```
 
-### 另请参阅
+### 另见
 
 * class [ImageSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../imagesaveoptions/)

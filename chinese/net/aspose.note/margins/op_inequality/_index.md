@@ -16,14 +16,14 @@ public static bool operator !=(Margins lhs, Margins rhs)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| lhs | Margins | 该 Margins 结构。 |
+| lhs | Margins | Margins 结构。 |
 | rhs | Margins | 用于比较的 Margins 结构。 |
 
 ### 返回值
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * struct [Margins](../)
 * namespace [Aspose.Note](../../margins/)

@@ -16,9 +16,9 @@ public virtual void VisitRichTextEnd(RichText richText)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| richText | RichText | 该 [`RichText`](../../richtext/) 节点. |
+| richText | RichText | 该 [`RichText`](../../richtext/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [RichText](../../richtext/)
 * class [DocumentVisitor](../)

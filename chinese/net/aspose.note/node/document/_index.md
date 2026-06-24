@@ -16,9 +16,9 @@ public Document Document { get; }
 
 ### Property Value
 
-该文档。
+文档。
 
-### 另请参阅
+### 另见
 
 * class [Document](../../document/)
 * class [Node](../)

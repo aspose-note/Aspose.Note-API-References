@@ -16,9 +16,9 @@ public virtual void VisitDocumentEnd(Document document)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Document | 此 [`Document`](../../document/) 节点。 |
+| document | Document | 该 [`Document`](../../document/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [Document](../../document/)
 * class [DocumentVisitor](../)

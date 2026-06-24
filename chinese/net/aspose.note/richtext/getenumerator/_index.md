@@ -18,7 +18,7 @@ public IEnumerator<char> GetEnumerator()
 
 IEnumerator。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)

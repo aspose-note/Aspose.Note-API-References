@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/icon/
 public byte[] Icon { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)

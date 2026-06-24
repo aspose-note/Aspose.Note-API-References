@@ -1,14 +1,14 @@
 ---
 title: "TextStyle.IsHyperlink"
 second_title: "Aspose.Note for .NET API 参考"
-description: "TextStyle 属性。自 22.5 起已过时。请改用 HyperlinkAddress。"
+description: "TextStyle 属性。自 22.5 起已弃用。请改用 HyperlinkAddress。"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-自 22.5 起已过时。请改用 `HyperlinkAddress`。
+自 22.5 起已弃用。请改用 `HyperlinkAddress`。
 
 ```csharp
 public bool IsHyperlink { get; set; }
@@ -75,7 +75,7 @@ dataDir = dataDir + "AddHyperlink_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

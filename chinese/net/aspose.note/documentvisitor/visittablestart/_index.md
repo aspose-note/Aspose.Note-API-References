@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/documentvisitor/visittablestart/
 ---
 ## DocumentVisitor.VisitTableStart method
 
-开始访问 [`Table`](../../table/) 节点.
+开始访问 [`Table`](../../table/) 节点。
 
 ```csharp
 public virtual void VisitTableStart(Table table)
@@ -16,9 +16,9 @@ public virtual void VisitTableStart(Table table)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| table | Table | 该 [`Table`](../../table/) 节点. |
+| table | Table | 该 [`Table`](../../table/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [Table](../../table/)
 * class [DocumentVisitor](../)

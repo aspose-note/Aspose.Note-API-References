@@ -1,7 +1,7 @@
 ---
 title: "AttachedFile.Tags"
 second_title: "Aspose.Note for .NET API 参考"
-description: "AttachedFile 属性。获取段落中所有标签的列表"
+description: "AttachedFile 属性。获取段落的所有标签列表"
 type: docs
 weight: 190
 url: /zh/net/aspose.note/attachedfile/tags/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/attachedfile/tags/
 public List<ITag> Tags { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../../itag/)
 * class [AttachedFile](../)

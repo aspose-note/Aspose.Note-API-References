@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/printoptions/printoptions/
 public PrintOptions()
 ```
 
-### 另请参阅
+### 另见
 
 * class [PrintOptions](../)
 * namespace [Aspose.Note.Saving](../../printoptions/)

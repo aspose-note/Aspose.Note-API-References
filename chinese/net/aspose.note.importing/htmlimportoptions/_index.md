@@ -20,7 +20,7 @@ public class HtmlImportOptions
 | --- | --- |
 | [HtmlImportOptions](htmlimportoptions/)() | 默认构造函数。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Importing](../../aspose.note.importing/)
 * assembly [Aspose.Note](../../)

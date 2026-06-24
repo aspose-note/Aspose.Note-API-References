@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/alwayssplitobjectsalgorithm/alwayssplitobjectsal
 public AlwaysSplitObjectsAlgorithm()
 ```
 
-### 另请参阅
+### 另见
 
 * class [AlwaysSplitObjectsAlgorithm](../)
 * namespace [Aspose.Note.Saving](../../alwayssplitobjectsalgorithm/)

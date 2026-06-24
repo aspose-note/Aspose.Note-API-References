@@ -8,7 +8,7 @@ url: /zh/net/aspose.note.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
 
-允许在将文档保存为 HTML 格式时指定其他选项。
+在将文档保存为 HTML 格式时允许指定其他选项。
 
 ```csharp
 public class HtmlSaveOptions : SaveOptions
@@ -26,7 +26,7 @@ public class HtmlSaveOptions : SaveOptions
 | --- | --- |
 | [CssPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/cssperpagegeneration/) { get; set; } | 获取或设置是否为每个新页面单独生成 StyleSheet 文件。 |
 | [CssSavingCallback](../../aspose.note.saving/htmlsaveoptions/csssavingcallback/) { get; set; } | 获取或设置用于创建存储 CSS 资源的回调。 |
-| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | 获取或设置一个值，指示是否启用每页生成文档。 |
+| [DocumentPerPageGeneration](../../aspose.note.saving/htmlsaveoptions/documentperpagegeneration/) { get; set; } | 获取或设置一个值，指示是否启用每页文档生成。 |
 | [ExportCss](../../aspose.note.saving/htmlsaveoptions/exportcss/) { get; set; } | 获取或设置 CSS 的导出方式。 |
 | [ExportFonts](../../aspose.note.saving/htmlsaveoptions/exportfonts/) { get; set; } | 获取或设置字体的导出方式。 |
 | [ExportImages](../../aspose.note.saving/htmlsaveoptions/exportimages/) { get; set; } | 获取或设置图像的导出方式。 |
@@ -34,14 +34,14 @@ public class HtmlSaveOptions : SaveOptions
 | [FontSavingCallback](../../aspose.note.saving/htmlsaveoptions/fontsavingcallback/) { get; set; } | 获取或设置用于创建存储字体资源的回调。 |
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | 获取或设置在保存时使用的字体设置 |
 | [ImageSavingCallback](../../aspose.note.saving/htmlsaveoptions/imagesavingcallback/) { get; set; } | 获取或设置用于创建存储图像资源的回调。 |
-| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示将渲染文档的所有页面。 |
+| [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | 获取或设置要保存的页数。默认值为 MaxValue，表示文档的所有页都将被渲染。 |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | 获取或设置要保存的第一页的索引。默认值为 0。 |
 | [PageSavingCallback](../../aspose.note.saving/htmlsaveoptions/pagesavingcallback/) { get; set; } | 获取或设置用于创建存储页面资源的回调。 |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | 获取文档保存的格式。 |
 
 ## 示例
 
-展示如何以 HTML 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
+展示如何以 html 格式保存文档，并将所有资源（css/字体/图像）存储到单独的文件中。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -57,7 +57,7 @@ var options = new HtmlSaveOptions()
 document.Save(dataDir + "document_out.html", options);
 ```
 
-展示如何以 HTML 格式将文档保存到流中，并嵌入所有资源（css/字体/图像）。
+展示如何以 html 格式将文档保存到流中，并嵌入所有资源（css/字体/图像）。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
@@ -104,10 +104,10 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-展示如何使用用户定义的回调函数，以 html 格式保存文档并存储所有资源（css/字体/图像）。
+展示如何使用用户定义的回调函数，以 HTML 格式保存文档并存储所有资源（css/字体/图像）。
 
 ```csharp
-// 下面的代码创建了 'documentFolder' 文件夹，其中包含 document.html，'css' 文件夹内有 'style.css' 文件，'images' 文件夹内有图像，'fonts' 文件夹内有字体。
+// 下面的代码创建了 'documentFolder' 文件夹，其中包含 document.html，'css' 文件夹及其 'style.css' 文件，'images' 文件夹包含图像，'fonts' 文件夹包含字体。
 // 'style.css' 文件将在末尾包含以下字符串 "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
@@ -145,7 +145,7 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [SaveOptions](../saveoptions/)
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)

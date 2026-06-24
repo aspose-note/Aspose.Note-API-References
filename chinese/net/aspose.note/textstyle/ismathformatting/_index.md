@@ -1,7 +1,7 @@
 ---
 title: "TextStyle.IsMathFormatting"
 second_title: "Aspose.Note for .NET API 参考"
-description: "TextStyle 属性。获取或设置一个值，指示文本样式是否为 mathformatting"
+description: "TextStyle 属性。获取或设置指示文本样式是否为数学格式的值"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/textstyle/ismathformatting/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/textstyle/ismathformatting/
 public bool IsMathFormatting { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../)
 * namespace [Aspose.Note](../../textstyle/)

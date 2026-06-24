@@ -1,7 +1,7 @@
 ---
 title: "LoadOptions.DocumentPassword"
 second_title: "Aspose.Note for .NET API 参考"
-description: "LoadOptions 属性。获取或设置加密文档内容的密码。如果文档未受密码保护，则该值将被忽略。"
+description: "LoadOptions 属性。获取或设置加密文档内容的密码。如果文档未受密码保护，则此值将被忽略。"
 type: docs
 weight: 20
 url: /zh/net/aspose.note/loadoptions/documentpassword/
@@ -26,7 +26,7 @@ LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-展示如何打开加密的笔记本。
+展示如何处理加密的笔记本。
 
 ```csharp
 // 文档目录的路径。
@@ -38,7 +38,7 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../)
 * namespace [Aspose.Note](../../loadoptions/)

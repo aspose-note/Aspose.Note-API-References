@@ -1,7 +1,7 @@
 ---
 title: "Document.IsEncrypted"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Document 方法。检查来自流的文档是否已加密。要进行检查，需要完全加载此文档。因此此方法可能导致性能损失"
+description: "Document 方法。检查来自流的文档是否已加密。要进行检查，需要完整加载此文档。因此此方法可能导致性能损失"
 type: docs
 weight: 150
 url: /zh/net/aspose.note/document/isencrypted/
@@ -69,7 +69,7 @@ else
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../../loadoptions/)
 * class [Document](../)
@@ -141,7 +141,7 @@ else
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
@@ -211,7 +211,7 @@ else
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
@@ -282,7 +282,7 @@ else
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../../loadoptions/)
 * class [Document](../)
@@ -353,7 +353,7 @@ else
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
@@ -424,7 +424,7 @@ else
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)

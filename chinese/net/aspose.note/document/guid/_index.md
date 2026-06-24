@@ -16,9 +16,9 @@ public Guid Guid { get; }
 
 ### Property Value
 
-该 GUID。
+全局唯一标识符。
 
-### 另请参阅
+### 另见
 
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)

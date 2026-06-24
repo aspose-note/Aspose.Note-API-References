@@ -1,5 +1,5 @@
 ---
-title: "类 ParsingErrorInfo"
+title: "ParsingErrorInfo 类"
 second_title: "Aspose.Note for .NET API 参考"
 description: "Aspose.Note.ParsingErrorInfo 类。有关解析期间发生的错误的信息"
 type: docs
@@ -26,7 +26,7 @@ public class ParsingErrorInfo
 | --- | --- |
 | [Message](../../aspose.note/parsingerrorinfo/message/) { get; } | 获取描述当前错误的消息。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

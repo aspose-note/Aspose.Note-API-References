@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/pagesettings/a4/
 public static PageSettings A4 { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSettings](../)
 * namespace [Aspose.Note.Saving](../../pagesettings/)

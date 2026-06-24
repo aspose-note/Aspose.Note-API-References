@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/tablecell/maxwidth/
 public float MaxWidth { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TableCell](../)
 * namespace [Aspose.Note](../../tablecell/)

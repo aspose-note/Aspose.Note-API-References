@@ -1,7 +1,7 @@
 ---
 title: "OutlineElement.OutlineElement"
 second_title: "Aspose.Note for .NET API 参考"
-description: "OutlineElement 构造函数。默认构造函数。"
+description: "OutlineElement 构造函数。默认构造函数"
 type: docs
 weight: 10
 url: /zh/net/aspose.note/outlineelement/outlineelement/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/outlineelement/outlineelement/
 public OutlineElement()
 ```
 
-### 另请参阅
+### 另见
 
 * class [OutlineElement](../)
 * namespace [Aspose.Note](../../outlineelement/)

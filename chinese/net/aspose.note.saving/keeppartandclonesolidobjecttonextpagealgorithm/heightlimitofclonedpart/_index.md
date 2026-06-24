@@ -1,7 +1,7 @@
 ---
 title: "KeepPartAndCloneSolidObjectToNextPageAlgorithm.HeightLimitOfClonedPart"
 second_title: "Aspose.Note for .NET API 参考"
-description: "KeepPartAndCloneSolidObjectToNextPageAlgorithm 属性。获取克隆部件的高度限制"
+description: "KeepPartAndCloneSolidObjectToNextPageAlgorithm 属性。获取克隆部分的高度限制"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/heightlimitofclonedpart/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/keeppartandclonesolidobjecttonextpagealgorithm/h
 public float HeightLimitOfClonedPart { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [KeepPartAndCloneSolidObjectToNextPageAlgorithm](../)
 * namespace [Aspose.Note.Saving](../../keeppartandclonesolidobjecttonextpagealgorithm/)

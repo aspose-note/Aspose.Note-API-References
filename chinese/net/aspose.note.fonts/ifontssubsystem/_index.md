@@ -20,7 +20,7 @@ public interface IFontsSubsystem
 | --- | --- |
 | [GetFontFamily](../../aspose.note.fonts/ifontssubsystem/getfontfamily/)(string) | 获取字体系列。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Fonts](../../aspose.note.fonts/)
 * assembly [Aspose.Note](../../)

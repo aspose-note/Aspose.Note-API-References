@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving/saveoptions/saveformat/
 public SaveFormat SaveFormat { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [SaveFormat](../../../aspose.note/saveformat/)
 * class [SaveOptions](../)

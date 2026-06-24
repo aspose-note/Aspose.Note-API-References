@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/tablecell/
 ---
 ## TableCell class
 
-表示表格单元格。
+表示一个表格单元格。
 
 ```csharp
 public sealed class TableCell : IndentatedNode<IOutlineChildNode>
@@ -53,7 +53,7 @@ public sealed class TableCell : IndentatedNode<IOutlineChildNode>
 
 ## 示例
 
-展示如何从表格的单元格中获取文本。
+展示如何从表格单元格获取文本。
 
 ```csharp
 // 文档目录的路径。
@@ -62,7 +62,7 @@ string dataDir = RunExamples.GetDataDir_Tables();
 // 将文档加载到 Aspose.Note 中。
 Document document = new Document(dataDir + "Sample1.one");
 
-// 获取表格节点列表
+// 获取表格节点的列表
 IList<Table> nodes = document.GetChildNodes<Table>();        
 
 foreach (Table table in nodes)
@@ -70,7 +70,7 @@ foreach (Table table in nodes)
     // 遍历表格行
     foreach (TableRow row in table)
     {
-        // 获取 TableCell 节点列表
+        // 获取 TableCell 节点的列表
         // 遍历表格单元格
         foreach (TableCell cell in row)
         {
@@ -174,7 +174,7 @@ dataDir = dataDir + "AddTableNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何创建带有锁定列的表格。
+展示如何创建具有锁定列的表格。
 
 ```csharp
 // 文档目录的路径。
@@ -311,7 +311,7 @@ dataDir = dataDir + "InsertTable_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
 * interface [IOutlineChildNode](../ioutlinechildnode/)

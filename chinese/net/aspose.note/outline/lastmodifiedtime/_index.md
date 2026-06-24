@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/outline/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Outline](../)
 * namespace [Aspose.Note](../../outline/)

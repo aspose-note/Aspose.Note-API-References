@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/license/license/
 public License()
 ```
 
-### 另请参阅
+### 另见
 
 * class [License](../)
 * namespace [Aspose.Note](../../license/)

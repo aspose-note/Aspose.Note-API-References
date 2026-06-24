@@ -1,7 +1,7 @@
 ---
 title: "RichText.TextRuns"
 second_title: "Aspose.Note for .NET API 参考"
-description: "RichText 属性。获取文本运行的集合"
+description: "RichText property. 获取文本运行的集合"
 type: docs
 weight: 140
 url: /zh/net/aspose.note/richtext/textruns/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/richtext/textruns/
 public IEnumerable<TextRun> TextRuns { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextRun](../../textrun/)
 * class [RichText](../)

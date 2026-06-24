@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/style/fontstyle/
 public FontStyle FontStyle { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)

@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/outlineelement/
 ---
 ## OutlineElement class
 
-表示大纲元素。
+表示一个 OutlineElement。
 
 ```csharp
 public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, IOutlineChildNode, 
@@ -95,7 +95,7 @@ dataDir = dataDir + "AddImageNodeWithTag_out.one";
 doc.Save(dataDir);
 ```
 
-展示如何检索列表格式的信息。
+展示如何检索列表的格式信息。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -274,7 +274,7 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [IndentatedNode&lt;T&gt;](../indentatednode-1/)
 * interface [IOutlineElementChildNode](../ioutlineelementchildnode/)

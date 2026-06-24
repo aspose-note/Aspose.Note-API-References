@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/image/isbackground/
 public bool IsBackground { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)

@@ -19,9 +19,9 @@ public class PageSettings
 | 名称 | 描述 |
 | --- | --- |
 | static [A4](../../aspose.note.saving/pagesettings/a4/) { get; } | 获取 A4 格式页面的设置。 |
-| static [A4NoHeightLimit](../../aspose.note.saving/pagesettings/a4noheightlimit/) { get; } | 获取具有无限高度的 A4 格式页面的设置。 |
+| static [A4NoHeightLimit](../../aspose.note.saving/pagesettings/a4noheightlimit/) { get; } | 获取 A4 格式页面（高度无限）的设置。 |
 | static [Letter](../../aspose.note.saving/pagesettings/letter/) { get; } | 获取 Letter 格式页面的设置。 |
-| static [LetterNoHeightLimit](../../aspose.note.saving/pagesettings/letternoheightlimit/) { get; } | 获取具有无限高度的 Letter 格式页面的设置。 |
+| static [LetterNoHeightLimit](../../aspose.note.saving/pagesettings/letternoheightlimit/) { get; } | 获取 Letter 格式页面（高度无限）的设置。 |
 
 ## 示例
 
@@ -55,7 +55,7 @@ var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.
 oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving](../../aspose.note.saving/)
 * assembly [Aspose.Note](../../)

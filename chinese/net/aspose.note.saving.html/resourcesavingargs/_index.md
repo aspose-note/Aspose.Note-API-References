@@ -22,9 +22,9 @@ public class ResourceSavingArgs
 | [FileName](../../aspose.note.saving.html/resourcesavingargs/filename/) { get; } | 获取文件名。 |
 | [KeepStreamOpen](../../aspose.note.saving.html/resourcesavingargs/keepstreamopen/) { get; set; } | 获取或设置一个值，指示是否保持流打开。 |
 | [Stream](../../aspose.note.saving.html/resourcesavingargs/stream/) { get; set; } | 获取或设置用于存储资源的流。 |
-| [Uri](../../aspose.note.saving.html/resourcesavingargs/uri/) { get; set; } | 获取或设置访问已存储资源的 URI。 |
+| [Uri](../../aspose.note.saving.html/resourcesavingargs/uri/) { get; set; } | 获取或设置访问存储资源的 URI。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note.Saving.Html](../../aspose.note.saving.html/)
 * assembly [Aspose.Note](../../)

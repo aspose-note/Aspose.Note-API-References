@@ -16,10 +16,10 @@ public ICssSavingCallback CssSavingCallback { get; set; }
 
 ## 示例
 
-展示如何使用用户定义的回调函数，以 html 格式保存文档并存储所有资源（css/字体/图像）。
+展示如何使用用户定义的回调函数，以 HTML 格式保存文档并存储所有资源（css/字体/图像）。
 
 ```csharp
-// 下面的代码创建了 'documentFolder' 文件夹，其中包含 document.html，'css' 文件夹内有 'style.css' 文件，'images' 文件夹内有图像，'fonts' 文件夹内有字体。
+// 下面的代码创建了 'documentFolder' 文件夹，其中包含 document.html，'css' 文件夹及其 'style.css' 文件，'images' 文件夹包含图像，'fonts' 文件夹包含字体。
 // 'style.css' 文件将在末尾包含以下字符串 "/* This line is appended to stream manually by user */"
 var savingCallbacks = new UserSavingCallbacks()
                           {
@@ -57,7 +57,7 @@ using (var writer = new StreamWriter(savingCallbacks.CssStream))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ICssSavingCallback](../../../aspose.note.saving.html/icsssavingcallback/)
 * class [HtmlSaveOptions](../)

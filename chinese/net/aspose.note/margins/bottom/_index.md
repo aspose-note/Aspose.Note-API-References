@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/margins/bottom/
 public float Bottom { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * struct [Margins](../)
 * namespace [Aspose.Note](../../margins/)

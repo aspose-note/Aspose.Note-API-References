@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Clear"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PageHistory 方法。清除页面历史记录"
+description: "PageHistory 方法。清除页面历史。"
 type: docs
 weight: 80
 url: /zh/net/aspose.note/pagehistory/clear/
@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/pagehistory/clear/
 public void Clear()
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageHistory](../)
 * namespace [Aspose.Note](../../pagehistory/)

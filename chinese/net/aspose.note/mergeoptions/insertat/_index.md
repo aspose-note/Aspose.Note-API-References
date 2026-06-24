@@ -1,7 +1,7 @@
 ---
 title: "MergeOptions.InsertAt"
 second_title: "Aspose.Note for .NET API 参考"
-description: "MergeOptions 属性。获取或设置导入页面将被插入的位置"
+description: "MergeOptions 属性。获取或设置导入页面将被插入的位置。"
 type: docs
 weight: 40
 url: /zh/net/aspose.note/mergeoptions/insertat/
@@ -22,7 +22,7 @@ public int InsertAt { get; set; }
 
 ## 备注
 
-如果该值大于目标文档中页面的数量，则导入的页面将添加到文档的末尾。
+如果值大于目标文档中的页面数量，则导入的页面将添加到文档末尾。
 
 ## 示例
 
@@ -42,7 +42,7 @@ foreach (var file in new[] { "sampleText.pdf", "sampleImage.pdf", "sampleTable.p
 d.Save(Path.Combine(dataDir, "sample_StructuredMerge.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [MergeOptions](../)
 * namespace [Aspose.Note](../../mergeoptions/)

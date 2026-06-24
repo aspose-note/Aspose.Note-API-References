@@ -1,7 +1,7 @@
 ---
 title: "PageHistory.Contains"
 second_title: "Aspose.Note for .NET API 参考"
-description: "PageHistory 方法。确定页面历史是否包含该页面版本。"
+description: "PageHistory 方法。 确定页面历史是否包含该页面版本。"
 type: docs
 weight: 90
 url: /zh/net/aspose.note/pagehistory/contains/
@@ -16,13 +16,13 @@ public bool Contains(Page item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 项目 | Page | 页面版本。 |
+| 项 | Page | 页面版本。 |
 
 ### 返回值
 
 布尔值。
 
-### 另请参阅
+### 另见
 
 * class [Page](../../page/)
 * class [PageHistory](../)

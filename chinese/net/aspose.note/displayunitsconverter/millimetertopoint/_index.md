@@ -22,7 +22,7 @@ public static float MillimeterToPoint(float mm)
 
 该 Single。
 
-### 另请参阅
+### 另见
 
 * class [DisplayUnitsConverter](../)
 * namespace [Aspose.Note](../../displayunitsconverter/)

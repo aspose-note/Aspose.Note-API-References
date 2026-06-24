@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/table/lastmodifiedtime/
 public DateTime LastModifiedTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Table](../)
 * namespace [Aspose.Note](../../table/)

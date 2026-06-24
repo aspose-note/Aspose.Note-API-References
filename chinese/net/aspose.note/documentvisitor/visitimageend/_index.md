@@ -16,9 +16,9 @@ public virtual void VisitImageEnd(Image image)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Image | 此 [`Image`](../../image/) 节点。 |
+| image | Image | 该 [`Image`](../../image/) 节点。 |
 
-### 另请参阅
+### 另见
 
 * class [Image](../../image/)
 * class [DocumentVisitor](../)

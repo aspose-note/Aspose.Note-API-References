@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/compositenode-1/
 ---
 ## CompositeNode&lt;T&gt; class
 
-可以包含其他节点的节点的基泛型类。
+用于可以包含其他节点的节点的基泛型类。
 
 ```csharp
 public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
@@ -42,11 +42,11 @@ public abstract class CompositeNode<T> : CompositeNodeBase, ICompositeNode<T>
 | override [GetChildNodes&lt;T1&gt;](../../aspose.note/compositenode-1/getchildnodes/#getchildnodes_1)() | 按节点类型获取所有子节点。 |
 | [GetEnumerator](../../aspose.note/compositenode-1/getenumerator/)() | 返回一个枚举器，用于遍历 `CompositeNode` 的子节点。 |
 | virtual [InsertChild&lt;T1&gt;](../../aspose.note/compositenode-1/insertchild/)(int, T1) | 将节点插入到此节点的子节点列表中的指定位置。 |
-| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | 从指定位置开始，将节点的序列插入到此节点的子节点列表中。 |
-| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange_1)(int, params T[]) | 从指定位置开始，将节点的序列插入到此节点的子节点列表中。 |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange)(int, IEnumerable&lt;T&gt;) | 从指定位置开始，将节点序列插入到此节点的子节点列表中。 |
+| [InsertChildrenRange](../../aspose.note/compositenode-1/insertchildrenrange/#insertchildrenrange_1)(int, params T[]) | 从指定位置开始，将节点序列插入到此节点的子节点列表中。 |
 | [RemoveChild&lt;T1&gt;](../../aspose.note/compositenode-1/removechild/)(T1) | 移除子节点。 |
 
-### 另请参阅
+### 另见
 
 * class [CompositeNodeBase](../compositenodebase/)
 * interface [ICompositeNode&lt;T&gt;](../icompositenode-1/)

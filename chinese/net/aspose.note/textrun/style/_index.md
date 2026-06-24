@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/textrun/style/
 public TextStyle Style { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextStyle](../../textstyle/)
 * class [TextRun](../)

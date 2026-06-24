@@ -16,7 +16,7 @@ public virtual void SetOpen()
 
 ## 示例
 
-展示如何将与 'Project C' 相关的所有复选框项目标记为打开。
+展示如何将与 'Project C' 相关的所有复选框项标记为打开。
 
 ```csharp
 // 文档目录的路径。
@@ -39,7 +39,7 @@ foreach (var node in oneFile.GetChildNodes<ITaggable>())
 oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ```
 
-### 另请参阅
+### 另见
 
 * class [CheckBox](../)
 * namespace [Aspose.Note](../../checkbox/)

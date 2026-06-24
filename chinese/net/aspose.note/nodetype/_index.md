@@ -19,7 +19,7 @@ public enum NodeType
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Document | `0` | 指定该节点是文档。 |
-| Section | `1` | 指定该节点是节。 |
+| Section | `1` | 指定该节点是章节。 |
 | Page | `2` | 指定该节点是页面。 |
 | PageSeries | `3` | 指定该节点是页面系列。 |
 | Title | `4` | 指定该节点是标题。 |
@@ -37,7 +37,7 @@ public enum NodeType
 | InkWord | `16` | 指定该节点是 InkWord。 |
 | Loop | `17` | 指定该节点是 Loop。 |
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

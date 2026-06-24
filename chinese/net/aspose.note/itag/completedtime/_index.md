@@ -16,7 +16,7 @@ public DateTime? CompletedTime { get; }
 
 ### Property Value
 
-可空的 Nullable.
+该 Nullable。
 
 ## 示例
 
@@ -86,7 +86,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../)
 * namespace [Aspose.Note](../../itag/)

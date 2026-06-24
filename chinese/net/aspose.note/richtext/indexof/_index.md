@@ -1,7 +1,7 @@
 ---
 title: "RichText.IndexOf"
 second_title: "Aspose.Note for .NET API 参考"
-description: "RichText 方法。返回当前实例中指定字符串首次出现的零基索引"
+description: "RichText 方法。返回当前实例中指定字符串第一次出现的零基索引"
 type: docs
 weight: 200
 url: /zh/net/aspose.note/richtext/indexof/
@@ -16,16 +16,16 @@ public int IndexOf(string value, int startIndex, int count, StringComparison com
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 该值。 |
+| value | String | 值。 |
 | startIndex | Int32 | 起始搜索位置 |
-| 计数 | Int32 | 计数。 |
+| count | Int32 | 计数。 |
 | comparisonType | StringComparison | 指定字符串的搜索类型 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -43,15 +43,15 @@ public int IndexOf(string value, int startIndex, StringComparison comparisonType
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 该值。 |
+| value | String | 值。 |
 | startIndex | Int32 | 起始搜索位置 |
 | comparisonType | StringComparison | 指定字符串的搜索类型 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -69,15 +69,15 @@ public int IndexOf(char value, int startIndex, int count)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Char | 该值。 |
+| value | Char | 值。 |
 | startIndex | Int32 | 起始搜索位置 |
-| 计数 | Int32 | 计数。 |
+| count | Int32 | 计数。 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -95,14 +95,14 @@ public int IndexOf(string value, StringComparison comparisonType)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 该值。 |
+| value | String | 值。 |
 | comparisonType | StringComparison | 指定字符串的搜索类型 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -120,15 +120,15 @@ public int IndexOf(string value, int startIndex, int count)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 该值。 |
+| value | String | 值。 |
 | startIndex | Int32 | 起始搜索位置 |
-| 计数 | Int32 | 计数。 |
+| count | Int32 | 计数。 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -146,14 +146,14 @@ public int IndexOf(char value, int startIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Char | 该值。 |
+| value | Char | 值。 |
 | startIndex | Int32 | 起始搜索位置 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -171,13 +171,13 @@ public int IndexOf(string value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 该值。 |
+| value | String | 值。 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -195,13 +195,13 @@ public int IndexOf(char value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Char | 该值。 |
+| value | Char | 值。 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)
@@ -219,14 +219,14 @@ public int IndexOf(string value, int startIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 该值。 |
+| value | String | 值。 |
 | startIndex | Int32 | 起始搜索位置 |
 
 ### 返回值
 
-Int32。
+Int32 类型。
 
-### 另请参阅
+### 另见
 
 * class [RichText](../)
 * namespace [Aspose.Note](../../richtext/)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/style/issuperscript/
 public bool IsSuperscript { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)

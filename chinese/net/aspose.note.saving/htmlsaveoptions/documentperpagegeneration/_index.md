@@ -8,13 +8,13 @@ url: /zh/net/aspose.note.saving/htmlsaveoptions/documentperpagegeneration/
 ---
 ## HtmlSaveOptions.DocumentPerPageGeneration property
 
-获取或设置一个值，指示是否启用每页生成文档。
+获取或设置一个值，指示是否启用每页文档生成。
 
 ```csharp
 public bool DocumentPerPageGeneration { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [HtmlSaveOptions](../)
 * namespace [Aspose.Note.Saving](../../htmlsaveoptions/)

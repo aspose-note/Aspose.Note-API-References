@@ -1,7 +1,7 @@
 ---
 title: "Document.FileFormat"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Document 属性。获取文件格式（OneNote 2010、OneNote Online）。"
+description: "Document 属性。获取文件格式 OneNote 2010 OneNote Online"
 type: docs
 weight: 60
 url: /zh/net/aspose.note/document/fileformat/
@@ -34,7 +34,7 @@ switch (document.FileFormat)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [FileFormat](../../fileformat/)
 * class [Document](../)

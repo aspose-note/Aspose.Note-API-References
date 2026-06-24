@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/inotetag/
 ---
 ## INoteTag interface
 
-用于注释标签（即未关联 Outlook 任务的标签）的接口。
+用于笔记标签（即未关联 Outlook 任务的标签）的接口。
 
 ```csharp
 public interface INoteTag : ITag
@@ -58,7 +58,7 @@ foreach (RichText richText in nodes)
 }
 ```
 
-### 另请参阅
+### 另见
 
 * interface [ITag](../itag/)
 * namespace [Aspose.Note](../../aspose.note/)

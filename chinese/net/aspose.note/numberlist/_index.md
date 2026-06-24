@@ -1,7 +1,7 @@
 ---
 title: "类 NumberList"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Aspose.Note.NumberList 类。表示编号或项目符号列表"
+description: "Aspose.Note.NumberList 类。表示编号列表或项目符号列表"
 type: docs
 weight: 510
 url: /zh/net/aspose.note/numberlist/
@@ -46,7 +46,7 @@ public class NumberList
 
 ## 示例
 
-展示如何检索列表格式的信息。
+展示如何检索列表的格式信息。
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Text();
@@ -178,7 +178,7 @@ dataDir = dataDir + "ApplyNumberingOnText_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/outline/maxwidth/
 public float MaxWidth { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Outline](../)
 * namespace [Aspose.Note](../../outline/)

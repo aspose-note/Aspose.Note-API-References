@@ -1,14 +1,14 @@
 ---
 title: "SaveOptions.PageCount"
 second_title: "Aspose.Note for .NET API 参考"
-description: "SaveOptions 属性。获取或设置要保存的页数。默认是 MaxValue，表示文档的所有页面都将被渲染"
+description: "SaveOptions 属性。获取或设置要保存的页数。默认是 MaxValue，表示将渲染文档的所有页面"
 type: docs
 weight: 20
 url: /zh/net/aspose.note.saving/saveoptions/pagecount/
 ---
 ## SaveOptions.PageCount property
 
-获取或设置要保存的页数。默认值为 MaxValue，表示将渲染文档的所有页面。
+获取或设置要保存的页数。默认值为 MaxValue，表示文档的所有页都将被渲染。
 
 ```csharp
 public int PageCount { get; set; }
@@ -16,7 +16,7 @@ public int PageCount { get; set; }
 
 ## 示例
 
-展示如何以 PDF 格式保存文档。
+展示如何以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -28,10 +28,10 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 设置要保存的第一页的页面索引
+                              // 设置要保存的第一页的页索引
                               PageIndex = 0,
 
-                              // 设置页面数量
+                              // 设置页数
                               PageCount = 1,
                           };
 
@@ -40,7 +40,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-展示如何使用特定设置以 PDF 格式保存文档。
+展示如何使用特定设置以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -92,7 +92,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-### 另请参阅
+### 另见
 
 * class [SaveOptions](../)
 * namespace [Aspose.Note.Saving](../../saveoptions/)

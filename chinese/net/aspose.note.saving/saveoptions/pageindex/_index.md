@@ -16,7 +16,7 @@ public int PageIndex { get; set; }
 
 ## 示例
 
-展示如何以 PNG 格式保存文档。
+展示如何以 png 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -25,10 +25,10 @@ string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
 // 将文档加载到 Aspose.Note 中。
 Document oneFile = new Document(dataDir + "Aspose.one");
 
-// 初始化 ImageSaveOptions 对象 
+// 初始化 ImageSaveOptions 对象
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png)
                             {
-                                // 设置页面索引
+                                // 设置页索引
                                 PageIndex = 1
                             };
 
@@ -38,7 +38,7 @@ dataDir = dataDir + "ConvertSpecificPageToImage_out.png";
 oneFile.Save(dataDir, opts);
 ```
 
-展示如何以 PDF 格式保存文档。
+展示如何以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -50,10 +50,10 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 // 初始化 PdfSaveOptions 对象
 PdfSaveOptions opts = new PdfSaveOptions
                           {
-                              // 设置要保存的第一页的页面索引
+                              // 设置要保存的第一页的页索引
                               PageIndex = 0,
 
-                              // 设置页面数量
+                              // 设置页数
                               PageCount = 1,
                           };
 
@@ -62,7 +62,7 @@ dataDir = dataDir + "SaveRangeOfPagesAsPDF_out.pdf";
 oneFile.Save(dataDir, opts);
 ```
 
-展示如何使用特定设置以 PDF 格式保存文档。
+展示如何使用特定设置以 pdf 格式保存文档。
 
 ```csharp
 // 文档目录的路径。
@@ -114,7 +114,7 @@ doc.Save(dataDir, new HtmlSaveOptions
                   });
 ```
 
-展示如何创建带格式化富文本的文档。
+展示如何创建带有格式化富文本的文档。
 
 ```csharp
 // 文档目录的路径。
@@ -197,7 +197,7 @@ dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
 
-### 另请参阅
+### 另见
 
 * class [SaveOptions](../)
 * namespace [Aspose.Note.Saving](../../saveoptions/)

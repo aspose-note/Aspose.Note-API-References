@@ -16,13 +16,13 @@ public static NoteCheckBox CreateGreenCheckBox3(string label = "")
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 标签 | String | 标签的标签。 |
+| label | String | 标签的标签。 |
 
 ### 返回值
 
 该 [`NoteCheckBox`](../)。
 
-### 另请参阅
+### 另见
 
 * class [NoteCheckBox](../)
 * namespace [Aspose.Note](../../notecheckbox/)

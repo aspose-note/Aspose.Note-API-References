@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.saving.html/pagesavingargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [PageSavingArgs](../)
 * namespace [Aspose.Note.Saving.Html](../../pagesavingargs/)

@@ -8,13 +8,13 @@ url: /zh/net/aspose.note.saving.html/fontsavingargs/fontfamilyname/
 ---
 ## FontSavingArgs.FontFamilyName property
 
-获取要保存的字体的族名称。
+获取要保存的字体的族名。
 
 ```csharp
 public string FontFamilyName { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [FontSavingArgs](../)
 * namespace [Aspose.Note.Saving.Html](../../fontsavingargs/)

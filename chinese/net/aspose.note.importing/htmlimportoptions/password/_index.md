@@ -14,7 +14,7 @@ url: /zh/net/aspose.note.importing/htmlimportoptions/password/
 public string Password { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [HtmlImportOptions](../)
 * namespace [Aspose.Note.Importing](../../htmlimportoptions/)

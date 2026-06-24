@@ -18,7 +18,7 @@ public INode NextSibling { get; }
 
 下一个兄弟节点。
 
-### 另请参阅
+### 另见
 
 * interface [INode](../../inode/)
 * class [Node](../)

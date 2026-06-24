@@ -14,7 +14,7 @@ url: /zh/net/aspose.note/compositenode-1/iscomposite/
 public bool IsComposite { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [CompositeNode&lt;T&gt;](../)
 * namespace [Aspose.Note](../../compositenode-1/)

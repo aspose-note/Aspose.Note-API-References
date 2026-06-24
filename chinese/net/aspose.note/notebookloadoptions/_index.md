@@ -1,5 +1,5 @@
 ---
-title: "类 NotebookLoadOptions"
+title: "NotebookLoadOptions 类"
 second_title: "Aspose.Note for .NET API 参考"
 description: "Aspose.Note.NotebookLoadOptions 类。用于加载笔记本的选项"
 type: docs
@@ -8,7 +8,7 @@ url: /zh/net/aspose.note/notebookloadoptions/
 ---
 ## NotebookLoadOptions class
 
-用于加载笔记本的选项。
+加载笔记本时使用的选项。
 
 ```csharp
 public class NotebookLoadOptions
@@ -29,7 +29,7 @@ public class NotebookLoadOptions
 
 ## 示例
 
-展示如何打开加密的笔记本。
+展示如何处理加密的笔记本。
 
 ```csharp
 // 文档目录的路径。
@@ -41,7 +41,7 @@ notebook.LoadChildDocument(dataDir + "Locked Pass1.one", new LoadOptions() { Doc
 notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { DocumentPassword = "pass2" });
 ```
 
-### 另请参阅
+### 另见
 
 * namespace [Aspose.Note](../../aspose.note/)
 * assembly [Aspose.Note](../../)

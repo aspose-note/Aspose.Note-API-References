@@ -1,7 +1,7 @@
 ---
 title: "Notebook.GetChildNodes"
 second_title: "Aspose.Note for .NET API 参考"
-description: "Notebook 方法。根据节点类型获取所有子节点"
+description: "Notebook 方法。按节点类型获取所有子节点"
 type: docs
 weight: 100
 url: /zh/net/aspose.note/notebook/getchildnodes/
@@ -23,7 +23,7 @@ public IList<T1> GetChildNodes<T1>()
 
 子节点列表。
 
-### 另请参阅
+### 另见
 
 * class [Node](../../node/)
 * class [Notebook](../)
