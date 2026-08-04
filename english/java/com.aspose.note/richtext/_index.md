@@ -32,17 +32,26 @@ Represents a rich text.
 | [appendFront(String value)](#appendFront-java.lang.String-) | Adds a string to the front of the first text range. |
 | [appendFront(String value, TextStyle style)](#appendFront-java.lang.String-com.aspose.note.TextStyle-) | Adds a string to the front. |
 | [clear()](#clear--) | Clears content of this instance. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlignment()](#getAlignment--) | Gets the alignment. |
+| [getClass()](#getClass--) |  |
+| [getDocument()](#getDocument--) | Gets the document of the node. |
 | [getLastModifiedTime()](#getLastModifiedTime--) | Gets the last modified time. |
 | [getLength()](#getLength--) |  |
 | [getLineSpacing()](#getLineSpacing--) | Gets the line spacing. |
+| [getNextSibling()](#getNextSibling--) | Gets the next node at the same node tree level. |
+| [getNodeId()](#getNodeId--) | Gets the node's ID. |
+| [getNodeType()](#getNodeType--) | Gets the node type. |
 | [getParagraphStyle()](#getParagraphStyle--) | Gets the paragraph style. |
+| [getParentNode()](#getParentNode--) | Gets the parent node. |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the previous node at the same node tree level. |
 | [getSpaceAfter()](#getSpaceAfter--) | Gets the minimum amount of space after. |
 | [getSpaceBefore()](#getSpaceBefore--) | Gets the minimum amount of space before. |
 | [getStyles()](#getStyles--) | Gets the styles. |
 | [getTags()](#getTags--) | Gets the list of all tags of a paragraph. |
 | [getText()](#getText--) | Gets the text. |
 | [getTextRuns()](#getTextRuns--) |  |
+| [hashCode()](#hashCode--) |  |
 | [indexOf(char value)](#indexOf-char-) | Returns the zero-based index of the first occurrence of the specified Unicode character in this string. |
 | [indexOf(char value, int startIndex)](#indexOf-char-int-) | Returns the zero-based index of the first occurrence of the specified Unicode character in this string. |
 | [indexOf(char value, int startIndex, int count)](#indexOf-char-int-int-) | Returns the zero-based index of the first occurrence of the specified character in this instance. |
@@ -54,7 +63,10 @@ Represents a rich text.
 | [indexOf_Rename_Namesake(String value, int startIndex, short comparisonType)](#indexOf-Rename-Namesake-java.lang.String-int-short-) | Returns the zero-based index of the first occurrence of the specified string in the current instance. |
 | [insert(int startIndex, String value)](#insert-int-java.lang.String-) | Inserts a specified string at a specified index position in this instance. |
 | [insert(int startIndex, String value, TextStyle style)](#insert-int-java.lang.String-com.aspose.note.TextStyle-) | Inserts a specified string with specified style at a specified index position in this instance. |
+| [isComposite()](#isComposite--) | Gets a value indicating whether this node is composite. |
 | [iterator()](#iterator--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [remove(int startIndex)](#remove-int-) | Removes all the characters in the current instance, beginning at a specified position and continuing through the last position. |
 | [remove(int startIndex, int count)](#remove-int-int-) | Removes specified number of characters in the current instance beginning at a specified position. |
 | [replace(char oldChar, char newChar)](#replace-char-char-) | Replaces all occurrences of a specified Unicode character in this instance with another specified Unicode character. |
@@ -70,6 +82,7 @@ Represents a rich text.
 | [setSpaceBefore(float value)](#setSpaceBefore-float-) |  |
 | [setSpaceBefore(Float value)](#setSpaceBefore-java.lang.Float-) | Sets the minimum amount of space before. |
 | [setText(String value)](#setText-java.lang.String-) | Sets the text. |
+| [toString()](#toString--) |  |
 | [trim()](#trim--) | Removes all leading and trailing white-space characters. |
 | [trim(char trimChar)](#trim-char-) | Removes all leading and trailing instances of a character. |
 | [trim(char[] trimChars)](#trim-char...-) | Removes all leading and trailing occurrences of a set of characters specified in an array. |
@@ -79,6 +92,9 @@ Represents a rich text.
 | [trimStart()](#trimStart--) | Removes all the leading white-space characters. |
 | [trimStart(char trimChar)](#trimStart-char-) | Removes all the leading occurrences of a specified character. |
 | [trimStart(char[] trimChars)](#trimStart-char...-) | Removes all the leading occurrences of a set of characters specified in an array. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### RichText() {#RichText--}
 ```
 public RichText()
@@ -172,6 +188,21 @@ Clears content of this instance.
 
 **Returns:**
 [RichText](../../com.aspose.note/richtext) - The [RichText](../../com.aspose.note/richtext).
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
@@ -182,6 +213,28 @@ Gets the alignment.
 
 **Returns:**
 int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDocument() {#getDocument--}
+```
+public Document getDocument()
+```
+
+
+Gets the document of the node.
+
+Value: The document.
+
+**Returns:**
+[Document](../../com.aspose.note/document)
 ### getLastModifiedTime() {#getLastModifiedTime--}
 ```
 public Date getLastModifiedTime()
@@ -212,6 +265,38 @@ Gets the line spacing.
 
 **Returns:**
 java.lang.Float
+### getNextSibling() {#getNextSibling--}
+```
+public INode getNextSibling()
+```
+
+
+Gets the next node at the same node tree level.
+
+Value: The next sibling.
+
+**Returns:**
+[INode](../../com.aspose.note/inode)
+### getNodeId() {#getNodeId--}
+```
+public ExtendedGuid getNodeId()
+```
+
+
+Gets the node's ID.
+
+**Returns:**
+[ExtendedGuid](../../com.aspose.note.revision.types/extendedguid)
+### getNodeType() {#getNodeType--}
+```
+public int getNodeType()
+```
+
+
+Gets the node type.
+
+**Returns:**
+int
 ### getParagraphStyle() {#getParagraphStyle--}
 ```
 public final ParagraphStyle getParagraphStyle()
@@ -222,6 +307,28 @@ Gets the paragraph style. These settings are used if there is no matching TextSt
 
 **Returns:**
 [ParagraphStyle](../../com.aspose.note/paragraphstyle)
+### getParentNode() {#getParentNode--}
+```
+public ICompositeNode getParentNode()
+```
+
+
+Gets the parent node.
+
+**Returns:**
+[ICompositeNode](../../com.aspose.note/icompositenode)
+### getPreviousSibling() {#getPreviousSibling--}
+```
+public INode getPreviousSibling()
+```
+
+
+Gets the previous node at the same node tree level.
+
+Value: The previous sibling.
+
+**Returns:**
+[INode](../../com.aspose.note/inode)
 ### getSpaceAfter() {#getSpaceAfter--}
 ```
 public Float getSpaceAfter()
@@ -251,7 +358,7 @@ public System.Collections.Generic.IGenericEnumerable<TextStyle> getStyles()
 Gets the styles.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.note.TextStyle&gt;
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.note.TextStyle>
 ### getTags() {#getTags--}
 ```
 public final System.Collections.Generic.List<ITag> getTags()
@@ -261,7 +368,7 @@ public final System.Collections.Generic.List<ITag> getTags()
 Gets the list of all tags of a paragraph.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.List&lt;com.aspose.note.ITag&gt;
+com.aspose.ms.System.Collections.Generic.List<com.aspose.note.ITag>
 ### getText() {#getText--}
 ```
 public final String getText()
@@ -281,7 +388,17 @@ public final System.Collections.Generic.IGenericEnumerable<TextRun> getTextRuns(
 
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable&lt;com.aspose.note.TextRun&gt;
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.note.TextRun>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### indexOf(char value) {#indexOf-char-}
 ```
 public final int indexOf(char value)
@@ -296,7 +413,7 @@ Returns the zero-based index of the first occurrence of the specified Unicode ch
 | value | char | The value. |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf(char value, int startIndex) {#indexOf-char-int-}
 ```
 public final int indexOf(char value, int startIndex)
@@ -312,7 +429,7 @@ Returns the zero-based index of the first occurrence of the specified Unicode ch
 | startIndex | int | The starting search position |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf(char value, int startIndex, int count) {#indexOf-char-int-int-}
 ```
 public final int indexOf(char value, int startIndex, int count)
@@ -329,7 +446,7 @@ Returns the zero-based index of the first occurrence of the specified character 
 | count | int | The count. |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf(String value) {#indexOf-java.lang.String-}
 ```
 public final int indexOf(String value)
@@ -344,7 +461,7 @@ Returns the zero-based index of the first occurrence of the specified string in 
 | value | java.lang.String | The value. |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf(String value, int startIndex) {#indexOf-java.lang.String-int-}
 ```
 public final int indexOf(String value, int startIndex)
@@ -360,7 +477,7 @@ Returns the zero-based index of the first occurrence of the specified string in 
 | startIndex | int | The starting search position |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf(String value, int startIndex, int count) {#indexOf-java.lang.String-int-int-}
 ```
 public final int indexOf(String value, int startIndex, int count)
@@ -377,7 +494,7 @@ Returns the zero-based index of the first occurrence of the specified string in 
 | count | int | The count. |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf(String value, int startIndex, int count, short comparisonType) {#indexOf-java.lang.String-int-int-short-}
 ```
 public final int indexOf(String value, int startIndex, int count, short comparisonType)
@@ -395,7 +512,7 @@ Returns the zero-based index of the first occurrence of the specified string in 
 | comparisonType | short | The type of search to use for the specified string |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf(String value, short comparisonType) {#indexOf-java.lang.String-short-}
 ```
 public final int indexOf(String value, short comparisonType)
@@ -411,7 +528,7 @@ Returns the zero-based index of the first occurrence of the specified string in 
 | comparisonType | short | The type of search to use for the specified string |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### indexOf_Rename_Namesake(String value, int startIndex, short comparisonType) {#indexOf-Rename-Namesake-java.lang.String-int-short-}
 ```
 public final int indexOf_Rename_Namesake(String value, int startIndex, short comparisonType)
@@ -428,7 +545,7 @@ Returns the zero-based index of the first occurrence of the specified string in 
 | comparisonType | short | The type of search to use for the specified string |
 
 **Returns:**
-int - The `int`.
+int - The  int .
 ### insert(int startIndex, String value) {#insert-int-java.lang.String-}
 ```
 public final RichText insert(int startIndex, String value)
@@ -462,6 +579,16 @@ Inserts a specified string with specified style at a specified index position in
 
 **Returns:**
 [RichText](../../com.aspose.note/richtext) - The [RichText](../../com.aspose.note/richtext).
+### isComposite() {#isComposite--}
+```
+public boolean isComposite()
+```
+
+
+Gets a value indicating whether this node is composite. If true the node can have child nodes.
+
+**Returns:**
+boolean
 ### iterator() {#iterator--}
 ```
 public System.Collections.Generic.IGenericEnumerator<Character> iterator()
@@ -471,7 +598,23 @@ public System.Collections.Generic.IGenericEnumerator<Character> iterator()
 
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;java.lang.Character&gt;
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<java.lang.Character>
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### remove(int startIndex) {#remove-int-}
 ```
 public final RichText remove(int startIndex)
@@ -682,6 +825,16 @@ Sets the text. The string MUST NOT contain any characters of the value 10 (line 
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### trim() {#trim--}
 ```
 public final RichText trim()
@@ -802,3 +955,38 @@ Removes all the leading occurrences of a set of characters specified in an array
 
 **Returns:**
 [RichText](../../com.aspose.note/richtext) - The [RichText](../../com.aspose.note/richtext).
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

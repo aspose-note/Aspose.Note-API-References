@@ -15,8 +15,8 @@ The interface for nodes that can contain other nodes.
 
 | Method | Description |
 | --- | --- |
-| [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) |  |
-### &lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
+| [<T1>getChildNodes(Class<T1> typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) |  |
+### <T1>getChildNodes(Class<T1> typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
 ```
 public abstract List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 ```
@@ -27,7 +27,7 @@ public abstract List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| typeParameterClass | java.lang.Class&lt;T1&gt; |  |
+| typeParameterClass | java.lang.Class<T1> |  |
 
 **Returns:**
-java.util.List&lt;T1&gt;
+java.util.List<T1>

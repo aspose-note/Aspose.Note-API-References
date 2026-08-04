@@ -21,30 +21,35 @@ Represents an Aspose.Note notebook.
 
 | Constructor | Description |
 | --- | --- |
-| [Notebook()](#Notebook--) | Initializes a new instance of the `Notebook` class. |
-| [Notebook(String filePath)](#Notebook-java.lang.String-) | Initializes a new instance of the `Notebook` class. |
-| [Notebook(String filePath, NotebookLoadOptions loadOptions)](#Notebook-java.lang.String-com.aspose.note.NotebookLoadOptions-) | Initializes a new instance of the `Notebook` class. |
+| [Notebook()](#Notebook--) | Initializes a new instance of the  Notebook  class. |
+| [Notebook(String filePath)](#Notebook-java.lang.String-) | Initializes a new instance of the  Notebook  class. |
+| [Notebook(String filePath, NotebookLoadOptions loadOptions)](#Notebook-java.lang.String-com.aspose.note.NotebookLoadOptions-) | Initializes a new instance of the  Notebook  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [&lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | Get all child nodes by the node type. |
+| [<T1>getChildNodes(Class<T1> typeParameterClass)](#-T1-getChildNodes-java.lang.Class-T1--) | Get all child nodes by the node type. |
 | [appendChild(INotebookChildNode newChild)](#appendChild-com.aspose.note.INotebookChildNode-) | Adds the node to the end of the list. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets or sets the color. |
-| [getCount()](#getCount--) | Gets the number of elements contained in the `Notebook`. |
+| [getCount()](#getCount--) | Gets the number of elements contained in the  Notebook . |
 | [getDisplayName()](#getDisplayName--) | Gets or sets the display name. |
 | [getFileFormat()](#getFileFormat--) | Gets file format (OneNote 2010, OneNote Online). |
 | [getGuid()](#getGuid--) | Gets the object's globally unique id. |
 | [getGuidInternal()](#getGuidInternal--) |  |
 | [get_Item(int index)](#get-Item-int-) | Gets notebook child node by the given index. |
+| [hashCode()](#hashCode--) |  |
 | [isHistoryEnabled()](#isHistoryEnabled--) | Gets or sets a value indicating whether the history is enabled. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the `Notebook`. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through child nodes of the  Notebook . |
 | [loadChildDocument(InputStream stream)](#loadChildDocument-java.io.InputStream-) | Adds a child document node. |
 | [loadChildDocument(InputStream stream, LoadOptions loadOptions)](#loadChildDocument-java.io.InputStream-com.aspose.note.LoadOptions-) | Adds a child document node. |
 | [loadChildDocument(String filePath)](#loadChildDocument-java.lang.String-) | Adds a child document node. |
 | [loadChildDocument(String filePath, LoadOptions loadOptions)](#loadChildDocument-java.lang.String-com.aspose.note.LoadOptions-) | Adds a child document node. |
 | [loadChildNotebook(String filePath)](#loadChildNotebook-java.lang.String-) | Adds a child notebook node. |
 | [loadChildNotebook(String filePath, NotebookLoadOptions loadOptions)](#loadChildNotebook-java.lang.String-com.aspose.note.NotebookLoadOptions-) | Adds a child notebook node. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [removeChild(INotebookChildNode oldChild)](#removeChild-com.aspose.note.INotebookChildNode-) | Removes the child node. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the OneNote document to a stream. |
 | [save(OutputStream stream, NotebookSaveOptions options)](#save-java.io.OutputStream-com.aspose.note.NotebookSaveOptions-) | Saves the OneNote document to a stream using the specified save options. |
@@ -55,13 +60,17 @@ Represents an Aspose.Note notebook.
 | [setColor(Color value)](#setColor-java.awt.Color-) | Gets or sets the color. |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets or sets the display name. |
 | [setHistoryEnabled(boolean value)](#setHistoryEnabled-boolean-) | Gets or sets a value indicating whether the history is enabled. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Notebook() {#Notebook--}
 ```
 public Notebook()
 ```
 
 
-Initializes a new instance of the `Notebook` class.
+Initializes a new instance of the  Notebook  class.
 
 ### Notebook(String filePath) {#Notebook-java.lang.String-}
 ```
@@ -69,7 +78,7 @@ public Notebook(String filePath)
 ```
 
 
-Initializes a new instance of the `Notebook` class. Opens an existing OneNote notebook from a file.
+Initializes a new instance of the  Notebook  class. Opens an existing OneNote notebook from a file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -82,7 +91,7 @@ public Notebook(String filePath, NotebookLoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the `Notebook` class. Opens an existing OneNote notebook from a file. Allows to specify additional options such as a children loading strategy ("lazy"/instant).
+Initializes a new instance of the  Notebook  class. Opens an existing OneNote notebook from a file. Allows to specify additional options such as a children loading strategy ("lazy"/instant).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -90,7 +99,7 @@ Initializes a new instance of the `Notebook` class. Opens an existing OneNote no
 | filePath | java.lang.String | The file path. |
 | loadOptions | [NotebookLoadOptions](../../com.aspose.note/notebookloadoptions) | The load options. |
 
-### &lt;T1&gt;getChildNodes(Class&lt;T1&gt; typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
+### <T1>getChildNodes(Class<T1> typeParameterClass) {#-T1-getChildNodes-java.lang.Class-T1--}
 ```
 public List<T1> <T1>getChildNodes(Class<T1> typeParameterClass)
 ```
@@ -101,12 +110,12 @@ Get all child nodes by the node type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| typeParameterClass | java.lang.Class&lt;T1&gt; |  |
+| typeParameterClass | java.lang.Class<T1> |  |
 
 **Returns:**
-java.util.List&lt;T1&gt; - A list of child nodes.
+java.util.List<T1> - A list of child nodes.
 
-`T1`: The type of elements in the returned list.
+ T1 : The type of elements in the returned list.
 ### appendChild(INotebookChildNode newChild) {#appendChild-com.aspose.note.INotebookChildNode-}
 ```
 public INotebookChildNode appendChild(INotebookChildNode newChild)
@@ -122,6 +131,31 @@ Adds the node to the end of the list.
 
 **Returns:**
 [INotebookChildNode](../../com.aspose.note/inotebookchildnode) - The added node.
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -138,7 +172,7 @@ public int getCount()
 ```
 
 
-Gets the number of elements contained in the `Notebook`.
+Gets the number of elements contained in the  Notebook .
 
 **Returns:**
 int
@@ -198,7 +232,17 @@ Gets notebook child node by the given index.
 | index | int | Index to child node. |
 
 **Returns:**
-[INotebookChildNode](../../com.aspose.note/inotebookchildnode) - The child node on the `index` position.
+[INotebookChildNode](../../com.aspose.note/inotebookchildnode) - The child node on the  index  position.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### isHistoryEnabled() {#isHistoryEnabled--}
 ```
 public boolean isHistoryEnabled()
@@ -215,10 +259,10 @@ public System.Collections.Generic.IGenericEnumerator<INotebookChildNode> iterato
 ```
 
 
-Returns an enumerator that iterates through child nodes of the `Notebook`.
+Returns an enumerator that iterates through child nodes of the  Notebook .
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator&lt;com.aspose.note.INotebookChildNode&gt; - A `IEnumerator`.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.note.INotebookChildNode> - A  IEnumerator .
 ### loadChildDocument(InputStream stream) {#loadChildDocument-java.io.InputStream-}
 ```
 public void loadChildDocument(InputStream stream)
@@ -299,6 +343,22 @@ Adds a child notebook node. Opens an existing OneNote notebook from a file. Allo
 | --- | --- | --- |
 | filePath | java.lang.String | The file path. |
 | loadOptions | [NotebookLoadOptions](../../com.aspose.note/notebookloadoptions) | The load options. |
+
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### removeChild(INotebookChildNode oldChild) {#removeChild-com.aspose.note.INotebookChildNode-}
 ```
@@ -435,4 +495,49 @@ Gets or sets a value indicating whether the history is enabled.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

@@ -165,8 +165,8 @@ M:com.aspose.note.DocumentVisitor.visitInkParagraphEnd(com.aspose.note.InkParagr
 M:com.aspose.note.DocumentVisitor.visitInkParagraphStart(com.aspose.note.InkParagraph)
 M:com.aspose.note.DocumentVisitor.visitInkWordEnd(com.aspose.note.InkWord)
 M:com.aspose.note.DocumentVisitor.visitInkWordStart(com.aspose.note.InkWord)
-M:com.aspose.note.DocumentVisitor.visitLoopStart(com.aspose.note.Loop)
 M:com.aspose.note.DocumentVisitor.visitLoopEnd(com.aspose.note.Loop)
+M:com.aspose.note.DocumentVisitor.visitLoopStart(com.aspose.note.Loop)
 M:com.aspose.note.DocumentVisitor.visitOutlineElementEnd(com.aspose.note.OutlineElement)
 M:com.aspose.note.DocumentVisitor.visitOutlineElementStart(com.aspose.note.OutlineElement)
 M:com.aspose.note.DocumentVisitor.visitOutlineEnd(com.aspose.note.Outline)
@@ -286,7 +286,6 @@ T:com.aspose.note.Image
 M:com.aspose.note.Image.#ctor
 M:com.aspose.note.Image.#ctor(java.lang.String)
 M:com.aspose.note.Image.#ctor(java.lang.String,java.io.InputStream)
-M:com.aspose.note.Image.replace(com.aspose.note.Image)
 M:com.aspose.note.Image.accept(com.aspose.note.DocumentVisitor)
 M:com.aspose.note.Image.getAlignment
 M:com.aspose.note.Image.getAlternativeTextDescription
@@ -305,6 +304,7 @@ M:com.aspose.note.Image.getTags
 M:com.aspose.note.Image.getVerticalOffset
 M:com.aspose.note.Image.getWidth
 M:com.aspose.note.Image.isBackground
+M:com.aspose.note.Image.replace(com.aspose.note.Image)
 M:com.aspose.note.Image.setAlignment(int)
 M:com.aspose.note.Image.setAlternativeTextDescription(java.lang.String)
 M:com.aspose.note.Image.setAlternativeTextTitle(java.lang.String)
@@ -886,8 +886,8 @@ M:com.aspose.note.Outline.setVerticalOffset(float)
 T:com.aspose.note.OutlineElement
 M:com.aspose.note.OutlineElement.#ctor
 M:com.aspose.note.OutlineElement.accept(com.aspose.note.DocumentVisitor)
-M:com.aspose.note.OutlineElement.getAuthorOriginal
 M:com.aspose.note.OutlineElement.getAuthorMostRecent
+M:com.aspose.note.OutlineElement.getAuthorOriginal
 M:com.aspose.note.OutlineElement.getCreationTime
 M:com.aspose.note.OutlineElement.getLastModifiedTime
 M:com.aspose.note.OutlineElement.getNumberList

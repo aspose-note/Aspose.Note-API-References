@@ -15,6 +15,4 @@ public interface ICompositeNodeT<T> extends ICompositeNode, System.Collections.G
 
 The interface for nodes that can contain other nodes.
 
-`T`: Type of child nodes
-
- T : 
+ T : Type of child nodes
