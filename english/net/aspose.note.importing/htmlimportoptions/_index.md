@@ -18,7 +18,7 @@ public class HtmlImportOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlImportOptions](htmlimportoptions/)() | The default constructor. |
+| [HtmlImportOptions](htmlimportoptions/)() | Initializes a new instance of the `HtmlImportOptions` class. |
 
 ### See Also
 

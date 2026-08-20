@@ -3,7 +3,7 @@ title: Class TableCell
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TableCell class. Represents a table cell
 type: docs
-weight: 990
+weight: 1100
 url: /net/aspose.note/tablecell/
 ---
 ## TableCell class
@@ -18,7 +18,7 @@ public sealed class TableCell : IndentatedNode<IOutlineChildNode>
 
 | Name | Description |
 | --- | --- |
-| [TableCell](tablecell/)() | The default constructor. |
+| [TableCell](tablecell/)() | Initializes a new instance of the `TableCell` class. |
 
 ## Properties
 

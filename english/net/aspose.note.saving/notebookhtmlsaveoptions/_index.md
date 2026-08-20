@@ -3,7 +3,7 @@ title: Class NotebookHtmlSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.NotebookHtmlSaveOptions class. Allows to specify additional options when saving notebook to HTML format
 type: docs
-weight: 830
+weight: 940
 url: /net/aspose.note.saving/notebookhtmlsaveoptions/
 ---
 ## NotebookHtmlSaveOptions class
@@ -18,7 +18,7 @@ public class NotebookHtmlSaveOptions : NotebookSaveOptions<HtmlSaveOptions>
 
 | Name | Description |
 | --- | --- |
-| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | The default constructor. |
+| [NotebookHtmlSaveOptions](notebookhtmlsaveoptions/)() | Initializes a new instance of the `NotebookHtmlSaveOptions` class. |
 
 ## Properties
 

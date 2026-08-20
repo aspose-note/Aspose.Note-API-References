@@ -1,78 +1,17 @@
 ---
 title: TextStyle.IsHyperlink
 second_title: Aspose.Note for .NET API Reference
-description: TextStyle property. Obsolete since 22.5. Use HyperlinkAddress instead.
+description: TextStyle property. Gets or sets a value indicating whether the text style is hyperlink
 type: docs
 weight: 80
 url: /net/aspose.note/textstyle/ishyperlink/
 ---
 ## TextStyle.IsHyperlink property
 
-Obsolete since 22.5. Use `HyperlinkAddress` instead.
+Gets or sets a value indicating whether the text style is hyperlink.
 
 ```csharp
 public bool IsHyperlink { get; set; }
-```
-
-## Examples
-
-Shows how to bind a hyperlink to a text.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_Tasks();
-
-// Create an object of the Document class
-Document doc = new Document();
-
-RichText titleText = new RichText() { ParagraphStyle = ParagraphStyle.Default }.Append("Title!");
-
-Outline outline = new Outline()
-                      {
-                          MaxWidth = 200,
-                          MaxHeight = 200,
-                          VerticalOffset = 100,
-                          HorizontalOffset = 100
-                      };
-
-TextStyle textStyleRed = new TextStyle
-                             {
-                                 FontColor = Color.Red,
-                                 FontName = "Arial",
-                                 FontSize = 10,
-                             };
-
-TextStyle textStyleHyperlink = new TextStyle
-                                   {
-                                       HyperlinkAddress = "https://www.google.com"
-                                   };
-
-RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
-                    .Append("This is ", textStyleRed)
-                    .Append("hyperlink", textStyleHyperlink)
-                    .Append(". This text is not a hyperlink.", TextStyle.Default);
-
-OutlineElement outlineElem = new OutlineElement();
-outlineElem.AppendChildLast(text);
-
-// Add outline elements
-outline.AppendChildLast(outlineElem);
-
-// Initialize Title class object
-Title title = new Title() { TitleText = titleText };
-
-// Initialize Page class object
-Page page = new Note.Page() { Title = title };
-
-// Add Outline node
-page.AppendChildLast(outline);
-
-// Add Page node
-doc.AppendChildLast(page);
-
-// Save OneNote document
-dataDir = dataDir + "AddHyperlink_out.one";
-doc.Save(dataDir);
 ```
 
 ### See Also

@@ -18,7 +18,7 @@ public class NotebookLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [NotebookLoadOptions](notebookloadoptions/)() | The default constructor. |
+| [NotebookLoadOptions](notebookloadoptions/)() | Initializes a new instance of the `NotebookLoadOptions` class. |
 
 ## Properties
 
