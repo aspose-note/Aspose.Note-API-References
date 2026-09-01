@@ -8,7 +8,7 @@ url: /net/aspose.note.fonts/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem class
 
-Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves FontFamily object from OS.
+Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves [`FontFamily`](../../system.drawing/fontfamily/) object from OS.
 
 ```csharp
 public class DocumentFontsSubsystem : FontsSubsystem

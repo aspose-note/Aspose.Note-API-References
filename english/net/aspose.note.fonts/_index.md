@@ -12,8 +12,8 @@ The Fonts namespace contains classes which provides functionality to manipulate 
 
 | Class | Description |
 | --- | --- |
-| [DocumentFontsSubsystem](./documentfontssubsystem/) | Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves FontFamily object from OS. |
-| [FontsSubsystem](./fontssubsystem/) | Base class implementing Aspose.Note.Fonts.IFontsSubsystem interface. Provides functionality for default font and font's substitutions. Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily protected member function in a derived class to implement logic for retrieving of FontFamily object. |
+| [DocumentFontsSubsystem](./documentfontssubsystem/) | Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves [`FontFamily`](../system.drawing/fontfamily/) object from OS. |
+| [FontsSubsystem](./fontssubsystem/) | Base class implementing Aspose.Note.Fonts.IFontsSubsystem interface. Provides functionality for default font and font's substitutions. Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily protected member function in a derived class to implement logic for retrieving of [`FontFamily`](../system.drawing/fontfamily/) object. |
 ## Interfaces
 
 | Interface | Description |

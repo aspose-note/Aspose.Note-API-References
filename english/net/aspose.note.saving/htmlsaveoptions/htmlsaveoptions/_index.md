@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlSaveOptions
 second_title: Aspose.Note for .NET API Reference
-description: HtmlSaveOptions constructor. The default constructor
+description: HtmlSaveOptions constructor. Initializes a new instance of the HtmlSaveOptions class
 type: docs
 weight: 10
 url: /net/aspose.note.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions constructor
 
-The default constructor.
+Initializes a new instance of the [`HtmlSaveOptions`](../) class.
 
 ```csharp
 public HtmlSaveOptions()

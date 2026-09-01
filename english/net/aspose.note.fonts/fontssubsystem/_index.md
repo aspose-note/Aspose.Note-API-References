@@ -8,7 +8,7 @@ url: /net/aspose.note.fonts/fontssubsystem/
 ---
 ## FontsSubsystem class
 
-Base class implementing Aspose.Note.Fonts.IFontsSubsystem interface. Provides functionality for default font and font's substitutions. Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily protected member function in a derived class to implement logic for retrieving of FontFamily object.
+Base class implementing Aspose.Note.Fonts.IFontsSubsystem interface. Provides functionality for default font and font's substitutions. Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily protected member function in a derived class to implement logic for retrieving of [`FontFamily`](../../system.drawing/fontfamily/) object.
 
 ```csharp
 public abstract class FontsSubsystem : IFontsSubsystem

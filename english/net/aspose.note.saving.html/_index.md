@@ -3,7 +3,7 @@ title: Aspose.Note.Saving.Html
 second_title: Aspose.Note for .NET API Reference
 description: The Html namespace contains classes which perform saving to HTML format
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.note.saving.html/
 ---
 The Html namespace contains classes which perform saving to HTML format.

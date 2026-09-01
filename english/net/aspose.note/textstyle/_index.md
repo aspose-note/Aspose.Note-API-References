@@ -3,7 +3,7 @@ title: Class TextStyle
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TextStyle class. Specifies the text style
 type: docs
-weight: 1050
+weight: 1160
 url: /net/aspose.note/textstyle/
 ---
 ## TextStyle class
@@ -18,7 +18,7 @@ public sealed class TextStyle : Style
 
 | Name | Description |
 | --- | --- |
-| [TextStyle](textstyle/)() | The default constructor. |
+| [TextStyle](textstyle/)() | Initializes a new instance of the `TextStyle` class. |
 
 ## Properties
 
@@ -33,10 +33,10 @@ public sealed class TextStyle : Style
 | [FontSize](../../aspose.note/style/fontsize/) { get; set; } | Gets or sets the font size. |
 | [FontStyle](../../aspose.note/style/fontstyle/) { get; } | Gets the font style. |
 | [Highlight](../../aspose.note/style/highlight/) { get; set; } | Gets or sets the highlight color. |
-| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Gets or sets the hyperlink address. Setting this property is enough to create a hyperlink. |
+| [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) { get; set; } | Gets or sets the hyperlink address. Must be set if the value of the [`IsHyperlink`](./ishyperlink/) property is true. |
 | [IsBold](../../aspose.note/style/isbold/) { get; set; } | Gets or sets a value indicating whether the text style is bold. |
 | [IsHidden](../../aspose.note/textstyle/ishidden/) { get; set; } | Gets or sets a value indicating whether the text style is hidden. |
-| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Obsolete since 22.5. Use [HyperlinkAddress](../../aspose.note/textstyle/hyperlinkaddress/) instead. |
+| [IsHyperlink](../../aspose.note/textstyle/ishyperlink/) { get; set; } | Gets or sets a value indicating whether the text style is hyperlink. |
 | [IsItalic](../../aspose.note/style/isitalic/) { get; set; } | Gets or sets a value indicating whether the text style is italic. |
 | [IsMathFormatting](../../aspose.note/textstyle/ismathformatting/) { get; set; } | Gets or sets a value indicating whether the text style is math-formatting. |
 | [IsStrikethrough](../../aspose.note/style/isstrikethrough/) { get; set; } | Gets or sets a value indicating whether the text style is strikethrough. |

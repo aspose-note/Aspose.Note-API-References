@@ -16,6 +16,7 @@ public FontStyle FontStyle { get; }
 
 ### See Also
 
+* enum [FontStyle](../../../system.drawing/fontstyle/)
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)
 * assembly [Aspose.Note](../../../)

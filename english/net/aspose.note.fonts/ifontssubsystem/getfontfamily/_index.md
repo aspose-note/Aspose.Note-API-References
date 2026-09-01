@@ -20,10 +20,11 @@ public FontFamily GetFontFamily(string fontName)
 
 ### Return Value
 
-The FontFamily.
+The [`FontFamily`](../../../system.drawing/fontfamily/).
 
 ### See Also
 
+* class [FontFamily](../../../system.drawing/fontfamily/)
 * interface [IFontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../ifontssubsystem/)
 * assembly [Aspose.Note](../../../)
