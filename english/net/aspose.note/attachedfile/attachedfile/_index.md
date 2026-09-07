@@ -42,6 +42,7 @@ public AttachedFile(string path, Stream icon, ImageFormat iconFormat)
 
 ### See Also
 
+* class [ImageFormat](../../../system.drawing.imaging/imageformat/)
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)
 * assembly [Aspose.Note](../../../)
@@ -86,6 +87,7 @@ public AttachedFile(string fileName, Stream attachedFileStream, Stream icon, Ima
 
 ### See Also
 
+* class [ImageFormat](../../../system.drawing.imaging/imageformat/)
 * class [AttachedFile](../)
 * namespace [Aspose.Note](../../attachedfile/)
 * assembly [Aspose.Note](../../../)

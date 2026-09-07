@@ -18,7 +18,7 @@ public class PdfImportOptions
 
 | Name | Description |
 | --- | --- |
-| [PdfImportOptions](pdfimportoptions/)() | The default constructor. |
+| [PdfImportOptions](pdfimportoptions/)() | Initializes a new instance of the `PdfImportOptions` class. |
 
 ## Properties
 

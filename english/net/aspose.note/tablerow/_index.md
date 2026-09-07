@@ -3,7 +3,7 @@ title: Class TableRow
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.TableRow class. Represents a table row
 type: docs
-weight: 1010
+weight: 1120
 url: /net/aspose.note/tablerow/
 ---
 ## TableRow class
@@ -18,7 +18,7 @@ public sealed class TableRow : CompositeNode<TableCell>
 
 | Name | Description |
 | --- | --- |
-| [TableRow](tablerow/)() | The default constructor. |
+| [TableRow](tablerow/)() | Initializes a new instance of the `TableRow` class. |
 
 ## Properties
 

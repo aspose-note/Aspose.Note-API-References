@@ -1,14 +1,14 @@
 ---
 title: Loop.Loop
 second_title: Aspose.Note for .NET API Reference
-description: Loop constructor. The default constructor
+description: Loop constructor. Initializes a new instance of the Loop class
 type: docs
 weight: 10
 url: /net/aspose.note/loop/loop/
 ---
 ## Loop constructor
 
-The default constructor.
+Initializes a new instance of the [`Loop`](../) class.
 
 ```csharp
 public Loop()

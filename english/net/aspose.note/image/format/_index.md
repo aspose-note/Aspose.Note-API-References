@@ -16,6 +16,7 @@ public ImageFormat Format { get; }
 
 ### See Also
 
+* class [ImageFormat](../../../system.drawing.imaging/imageformat/)
 * class [Image](../)
 * namespace [Aspose.Note](../../image/)
 * assembly [Aspose.Note](../../../)
