@@ -3,7 +3,7 @@ title: Interface IPageChildNode
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.IPageChildNode interface. The interface for all child nodes of a page node
 type: docs
-weight: 220
+weight: 320
 url: /net/aspose.note/ipagechildnode/
 ---
 ## IPageChildNode interface

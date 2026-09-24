@@ -1,14 +1,14 @@
 ---
 title: TextStyle.TextStyle
 second_title: Aspose.Note for .NET API Reference
-description: TextStyle constructor. The default constructor
+description: TextStyle constructor. Initializes a new instance of the TextStyle class
 type: docs
 weight: 10
 url: /net/aspose.note/textstyle/textstyle/
 ---
 ## TextStyle constructor
 
-The default constructor.
+Initializes a new instance of the [`TextStyle`](../) class.
 
 ```csharp
 public TextStyle()

@@ -3,7 +3,7 @@ title: Class AttachedFile
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.AttachedFile class. Represents an attached file
 type: docs
-weight: 10
+weight: 110
 url: /net/aspose.note/attachedfile/
 ---
 ## AttachedFile class

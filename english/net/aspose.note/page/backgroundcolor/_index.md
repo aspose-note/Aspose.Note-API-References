@@ -61,6 +61,7 @@ doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * class [Page](../)
 * namespace [Aspose.Note](../../page/)
 * assembly [Aspose.Note](../../../)

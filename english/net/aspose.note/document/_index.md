@@ -3,7 +3,7 @@ title: Class Document
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Document class. Represents an Aspose.Note document
 type: docs
-weight: 60
+weight: 160
 url: /net/aspose.note/document/
 ---
 ## Document class
@@ -258,6 +258,24 @@ switch (document.FileFormat)
 }
 ```
 
+Shows how to add new section to a notebook.
+
+```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_NoteBook();
+
+// Load a OneNote Notebook
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
+
+// Append a new child to the Notebook
+notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
+
+dataDir = dataDir + "AddChildNode_out.onetoc2";
+
+// Save the Notebook
+notebook.Save(dataDir);
+```
+
 Shows how to save a document to a stream.
 
 ```csharp
@@ -290,24 +308,6 @@ else
 {
     Console.WriteLine("The document is encrypted. Provide a password.");
 }
-```
-
-Shows how to add new section to a notebook.
-
-```csharp
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_NoteBook();
-
-// Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notebook.onetoc2");
-
-// Append a new child to the Notebook
-notebook.AppendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
-
-dataDir = dataDir + "AddChildNode_out.onetoc2";
-
-// Save the Notebook
-notebook.Save(dataDir);
 ```
 
 Shows how to check if a document load is failed because OneNote 2007 format is not supported.

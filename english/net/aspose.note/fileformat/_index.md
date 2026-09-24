@@ -3,7 +3,7 @@ title: Enum FileFormat
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.FileFormat enum. Represents OneNote file format
 type: docs
-weight: 90
+weight: 190
 url: /net/aspose.note/fileformat/
 ---
 ## FileFormat enumeration

@@ -3,7 +3,7 @@ title: Class HtmlImporter
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Importing.HtmlImporter class. The class providing api to import content from documents in HTML format. The api allows to import from HTML document located either in a file or in a stream using specified options. The import options are passed using HtmlImportOptions
 type: docs
-weight: 270
+weight: 370
 url: /net/aspose.note.importing/htmlimporter/
 ---
 ## HtmlImporter class

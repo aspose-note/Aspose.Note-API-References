@@ -3,7 +3,7 @@ title: Class Image
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Image class. Represents an Image
 type: docs
-weight: 250
+weight: 350
 url: /net/aspose.note/image/
 ---
 ## Image class

@@ -3,7 +3,7 @@ title: Class MergeOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.MergeOptions class. The options for merging a collection of pages
 type: docs
-weight: 410
+weight: 510
 url: /net/aspose.note/mergeoptions/
 ---
 ## MergeOptions class
@@ -18,7 +18,7 @@ public class MergeOptions
 
 | Name | Description |
 | --- | --- |
-| [MergeOptions](mergeoptions/)() | The default constructor. |
+| [MergeOptions](mergeoptions/)() | Initializes a new instance of the `MergeOptions` class. |
 
 ## Properties
 

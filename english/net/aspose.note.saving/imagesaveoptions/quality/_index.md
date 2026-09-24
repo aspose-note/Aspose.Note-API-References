@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Quality
 second_title: Aspose.Note for .NET API Reference
-description: ImageSaveOptions property. Gets or sets a value determining the quality of saved image. This value is passed to codec as System.Drawing.Imaging.Encoder.Quality parameter
+description: ImageSaveOptions property. Gets or sets a value determining the quality of saved image. This value is passed to codec as Aspose.Drawing.Imaging.Encoder.Quality parameter
 type: docs
 weight: 40
 url: /net/aspose.note.saving/imagesaveoptions/quality/
 ---
 ## ImageSaveOptions.Quality property
 
-Gets or sets a value determining the quality of saved image. This value is passed to codec as System.Drawing.Imaging.Encoder.Quality parameter.
+Gets or sets a value determining the quality of saved image. This value is passed to codec as Aspose.Drawing.Imaging.Encoder.Quality parameter.
 
 ```csharp
 public int Quality { get; set; }

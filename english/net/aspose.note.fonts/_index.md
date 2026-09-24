@@ -3,7 +3,7 @@ title: Aspose.Note.Fonts
 second_title: Aspose.Note for .NET API Reference
 description: The Fonts namespace contains classes which provides functionality to manipulate by fonts environment for a document
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.note.fonts/
 ---
 The Fonts namespace contains classes which provides functionality to manipulate by font's environment for a document.
@@ -12,8 +12,8 @@ The Fonts namespace contains classes which provides functionality to manipulate 
 
 | Class | Description |
 | --- | --- |
-| [DocumentFontsSubsystem](./documentfontssubsystem/) | Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves FontFamily object from OS. |
-| [FontsSubsystem](./fontssubsystem/) | Base class implementing Aspose.Note.Fonts.IFontsSubsystem interface. Provides functionality for default font and font's substitutions. Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily protected member function in a derived class to implement logic for retrieving of FontFamily object. |
+| [DocumentFontsSubsystem](./documentfontssubsystem/) | Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves [`FontFamily`](../aspose.drawing/fontfamily/) object from OS. |
+| [FontsSubsystem](./fontssubsystem/) | Base class implementing Aspose.Note.Fonts.IFontsSubsystem interface. Provides functionality for default font and font's substitutions. Override Aspose.Note.Fonts.FontsSubsystem.FetchFontFamily protected member function in a derived class to implement logic for retrieving of [`FontFamily`](../aspose.drawing/fontfamily/) object. |
 ## Interfaces
 
 | Interface | Description |

@@ -3,7 +3,7 @@ title: Class Loop
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Loop class. Represents a loop
 type: docs
-weight: 390
+weight: 490
 url: /net/aspose.note/loop/
 ---
 ## Loop class
@@ -18,7 +18,7 @@ public sealed class Loop : Node, IOutlineElementChildNode
 
 | Name | Description |
 | --- | --- |
-| [Loop](loop/)() | The default constructor. |
+| [Loop](loop/)() | Initializes a new instance of the `Loop` class. |
 
 ## Properties
 

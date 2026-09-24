@@ -61,6 +61,7 @@ foreach (OutlineElement node in nodes)
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * class [NumberList](../)
 * namespace [Aspose.Note](../../numberlist/)
 * assembly [Aspose.Note](../../../)

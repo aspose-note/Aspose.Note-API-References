@@ -3,7 +3,7 @@ title: Interface ICompositeNodeT
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.ICompositeNode1T interface. The interface for nodes that can contain other nodes
 type: docs
-weight: 150
+weight: 250
 url: /net/aspose.note/icompositenode-1/
 ---
 ## ICompositeNode&lt;T&gt; interface

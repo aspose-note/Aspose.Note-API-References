@@ -16,6 +16,7 @@ public Color Highlight { get; set; }
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * class [NoteTag](../)
 * namespace [Aspose.Note](../../notetag/)
 * assembly [Aspose.Note](../../../)
