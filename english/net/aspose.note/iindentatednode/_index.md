@@ -3,7 +3,7 @@ title: Interface IIndentatedNode
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.IIndentatedNode interface. The interface for nodes with relative indentation for child nodes
 type: docs
-weight: 160
+weight: 260
 url: /net/aspose.note/iindentatednode/
 ---
 ## IIndentatedNode interface

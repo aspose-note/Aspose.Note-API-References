@@ -327,6 +327,7 @@ d.Save(Path.Combine(dataDir, "ComposeTable_out.one"));
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * class [Style](../)
 * namespace [Aspose.Note](../../style/)
 * assembly [Aspose.Note](../../../)

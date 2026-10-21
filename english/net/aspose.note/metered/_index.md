@@ -3,7 +3,7 @@ title: Class Metered
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Metered class. Provides methods to set metered key
 type: docs
-weight: 420
+weight: 520
 url: /net/aspose.note/metered/
 ---
 ## Metered class
@@ -44,6 +44,13 @@ metered.SetMeteredKey("PublicKey", "PrivateKey");
 
 Dim metered As Metered = New Metered
 metered.SetMeteredKey("PublicKey", "PrivateKey")
+```
+
+the component jar file:
+
+```csharp
+Metered metered = new Metered();
+metered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
 Shows how to set metered license.

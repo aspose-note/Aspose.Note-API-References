@@ -3,7 +3,7 @@ title: Interface ITaggable
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.ITaggable interface. The interface for nodes that can be marked by tags
 type: docs
-weight: 240
+weight: 340
 url: /net/aspose.note/itaggable/
 ---
 ## ITaggable interface

@@ -16,6 +16,7 @@ public Color Color { get; set; }
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * class [Document](../)
 * namespace [Aspose.Note](../../document/)
 * assembly [Aspose.Note](../../../)

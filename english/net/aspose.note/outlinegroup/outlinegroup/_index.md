@@ -1,14 +1,14 @@
 ---
 title: OutlineGroup.OutlineGroup
 second_title: Aspose.Note for .NET API Reference
-description: OutlineGroup constructor. The default constructor
+description: OutlineGroup constructor. Initializes a new instance of the OutlineGroup class
 type: docs
 weight: 10
 url: /net/aspose.note/outlinegroup/outlinegroup/
 ---
 ## OutlineGroup constructor
 
-The default constructor.
+Initializes a new instance of the [`OutlineGroup`](../) class.
 
 ```csharp
 public OutlineGroup()

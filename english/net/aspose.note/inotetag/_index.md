@@ -3,7 +3,7 @@ title: Interface INoteTag
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.INoteTag interface. The interface for note tagsi.e. tags that are not associated with Outlook tasks
 type: docs
-weight: 180
+weight: 280
 url: /net/aspose.note/inotetag/
 ---
 ## INoteTag interface

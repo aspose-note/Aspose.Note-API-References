@@ -1,14 +1,14 @@
 ---
 title: NotebookLoadOptions.NotebookLoadOptions
 second_title: Aspose.Note for .NET API Reference
-description: NotebookLoadOptions constructor. The default constructor
+description: NotebookLoadOptions constructor. Initializes a new instance of the NotebookLoadOptions class
 type: docs
 weight: 10
 url: /net/aspose.note/notebookloadoptions/notebookloadoptions/
 ---
 ## NotebookLoadOptions constructor
 
-The default constructor.
+Initializes a new instance of the [`NotebookLoadOptions`](../) class.
 
 ```csharp
 public NotebookLoadOptions()

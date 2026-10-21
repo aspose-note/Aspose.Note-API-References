@@ -19,6 +19,12 @@ public void AddFontSubstitution(string substituted, string substitution)
 | substituted | String | The substituted font name. |
 | substitution | String | The substitution font name. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | The substitution would let a chain of substitutions reach the substituted font name again. |
+
 ### See Also
 
 * class [FontsSubsystem](../)
