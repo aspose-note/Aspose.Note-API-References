@@ -3,7 +3,7 @@ title: Class CheckBox
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.CheckBox class. The base class for tags that can toggle their state between complete and incomplete
 type: docs
-weight: 20
+weight: 120
 url: /net/aspose.note/checkbox/
 ---
 ## CheckBox class

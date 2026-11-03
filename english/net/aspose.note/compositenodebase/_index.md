@@ -3,7 +3,7 @@ title: Class CompositeNodeBase
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.CompositeNodeBase class. The nongeneric class for nodes that can contain other nodes
 type: docs
-weight: 30
+weight: 130
 url: /net/aspose.note/compositenodebase/
 ---
 ## CompositeNodeBase class

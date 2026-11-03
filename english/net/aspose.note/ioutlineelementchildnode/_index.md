@@ -3,7 +3,7 @@ title: Interface IOutlineElementChildNode
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.IOutlineElementChildNode interface. The interface for all child nodes of an outline element node
 type: docs
-weight: 210
+weight: 310
 url: /net/aspose.note/ioutlineelementchildnode/
 ---
 ## IOutlineElementChildNode interface

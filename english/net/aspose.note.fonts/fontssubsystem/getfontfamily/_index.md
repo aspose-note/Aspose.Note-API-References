@@ -20,10 +20,11 @@ public virtual FontFamily GetFontFamily(string fontName)
 
 ### Return Value
 
-The FontFamily.
+The [`FontFamily`](../../../aspose.drawing/fontfamily/).
 
 ### See Also
 
+* class [FontFamily](../../../aspose.drawing/fontfamily/)
 * class [FontsSubsystem](../)
 * namespace [Aspose.Note.Fonts](../../fontssubsystem/)
 * assembly [Aspose.Note](../../../)

@@ -3,7 +3,7 @@ title: Aspose.Note.Importing
 second_title: Aspose.Note for .NET API Reference
 description: The Importing namespace contains classes providing api to import content from documents in PDF format
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.note.importing/
 ---
 The Importing namespace contains classes providing api to import content from documents in PDF format.

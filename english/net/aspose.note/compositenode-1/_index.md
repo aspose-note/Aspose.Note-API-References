@@ -3,7 +3,7 @@ title: Class CompositeNodeT
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.CompositeNode1T class. The base generic class for nodes that can contain other nodes
 type: docs
-weight: 40
+weight: 140
 url: /net/aspose.note/compositenode-1/
 ---
 ## CompositeNode&lt;T&gt; class

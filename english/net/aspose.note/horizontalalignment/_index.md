@@ -3,7 +3,7 @@ title: Enum HorizontalAlignment
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.HorizontalAlignment enum. Specifies the alignment
 type: docs
-weight: 130
+weight: 230
 url: /net/aspose.note/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

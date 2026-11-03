@@ -3,12 +3,12 @@ title: Class DocumentFontsSubsystem
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Fonts.DocumentFontsSubsystem class. Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves FontFamily object from OS
 type: docs
-weight: 100
+weight: 200
 url: /net/aspose.note.fonts/documentfontssubsystem/
 ---
 ## DocumentFontsSubsystem class
 
-Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves FontFamily object from OS.
+Simple implementation of Aspose.Note.Fonts.FontsSubsystem. Retrieves [`FontFamily`](../../aspose.drawing/fontfamily/) object from OS.
 
 ```csharp
 public class DocumentFontsSubsystem : FontsSubsystem

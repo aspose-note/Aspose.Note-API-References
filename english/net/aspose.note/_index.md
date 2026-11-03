@@ -3,7 +3,7 @@ title: Aspose.Note
 second_title: Aspose.Note for .NET API Reference
 description: The Note namespace contains classes which represent document structure
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.note/
 ---
 The Note namespace contains classes which represent document structure.

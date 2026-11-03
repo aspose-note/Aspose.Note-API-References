@@ -3,7 +3,7 @@ title: Interface IFontsSubsystem
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Fonts.IFontsSubsystem interface. Implement this interface if you want to control how Aspose.Note retrieves fonts when saving a document
 type: docs
-weight: 120
+weight: 220
 url: /net/aspose.note.fonts/ifontssubsystem/
 ---
 ## IFontsSubsystem interface

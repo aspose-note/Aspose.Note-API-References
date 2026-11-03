@@ -20,6 +20,7 @@ This value is used by Microsoft OneNote application to display underlying page l
 
 ### See Also
 
+* struct [SizeF](../../../aspose.drawing/sizef/)
 * class [Page](../)
 * namespace [Aspose.Note](../../page/)
 * assembly [Aspose.Note](../../../)

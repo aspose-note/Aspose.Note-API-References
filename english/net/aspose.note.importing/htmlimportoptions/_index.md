@@ -3,7 +3,7 @@ title: Class HtmlImportOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Importing.HtmlImportOptions class. Allows to specify options when importing content from HTML document
 type: docs
-weight: 260
+weight: 360
 url: /net/aspose.note.importing/htmlimportoptions/
 ---
 ## HtmlImportOptions class
@@ -18,7 +18,7 @@ public class HtmlImportOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlImportOptions](htmlimportoptions/)() | The default constructor. |
+| [HtmlImportOptions](htmlimportoptions/)() | Initializes a new instance of the `HtmlImportOptions` class. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Class InkNode
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.InkNode class. Represents a common interface for all ink nodes
 type: docs
-weight: 340
+weight: 440
 url: /net/aspose.note/inknode/
 ---
 ## InkNode class

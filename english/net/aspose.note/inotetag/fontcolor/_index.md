@@ -52,6 +52,7 @@ foreach (RichText richText in nodes)
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * interface [INoteTag](../)
 * namespace [Aspose.Note](../../inotetag/)
 * assembly [Aspose.Note](../../../)

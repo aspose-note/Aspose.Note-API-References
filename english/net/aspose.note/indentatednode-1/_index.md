@@ -3,7 +3,7 @@ title: Class IndentatedNodeT
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.IndentatedNode1T class. The base class for nodes with relative indentation for child nodes
 type: docs
-weight: 320
+weight: 420
 url: /net/aspose.note/indentatednode-1/
 ---
 ## IndentatedNode&lt;T&gt; class

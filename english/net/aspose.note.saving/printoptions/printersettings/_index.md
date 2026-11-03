@@ -39,6 +39,7 @@ document.Print(new PrintOptions()
 
 ### See Also
 
+* class [PrinterSettings](../../../aspose.note.printing/printersettings/)
 * class [PrintOptions](../)
 * namespace [Aspose.Note.Saving](../../printoptions/)
 * assembly [Aspose.Note](../../../)

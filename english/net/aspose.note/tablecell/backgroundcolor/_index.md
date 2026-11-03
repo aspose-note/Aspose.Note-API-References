@@ -55,6 +55,7 @@ doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundCol
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * class [TableCell](../)
 * namespace [Aspose.Note](../../tablecell/)
 * assembly [Aspose.Note](../../../)

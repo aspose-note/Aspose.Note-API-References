@@ -3,7 +3,7 @@ title: Class ImageSaveOptions
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages to images
 type: docs
-weight: 800
+weight: 1010
 url: /net/aspose.note.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -29,7 +29,7 @@ public class ImageSaveOptions : SaveOptions
 | [FontsSubsystem](../../aspose.note.saving/saveoptions/fontssubsystem/) { get; set; } | Gets or sets font's settings to be used while saving |
 | [PageCount](../../aspose.note.saving/saveoptions/pagecount/) { get; set; } | Gets or sets the number of pages to save. By default is MaxValue which means all pages of the document will be rendered. |
 | [PageIndex](../../aspose.note.saving/saveoptions/pageindex/) { get; set; } | Gets or sets the index of the first page to save. By default is 0. |
-| [Quality](../../aspose.note.saving/imagesaveoptions/quality/) { get; set; } | Gets or sets a value determining the quality of saved image. This value is passed to codec as System.Drawing.Imaging.Encoder.Quality parameter. |
+| [Quality](../../aspose.note.saving/imagesaveoptions/quality/) { get; set; } | Gets or sets a value determining the quality of saved image. This value is passed to codec as Aspose.Drawing.Imaging.Encoder.Quality parameter. |
 | [Resolution](../../aspose.note.saving/imagesaveoptions/resolution/) { get; set; } | Gets or sets the resolution for the generated images, in dots per inch. |
 | [SaveFormat](../../aspose.note.saving/saveoptions/saveformat/) { get; } | Gets the format in which the document is saved. |
 | [TiffCompression](../../aspose.note.saving/imagesaveoptions/tiffcompression/) { get; set; } | Gets or sets the type of compression to use when saving generated images to the TIFF format. |

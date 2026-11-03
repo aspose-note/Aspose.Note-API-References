@@ -3,7 +3,7 @@ title: Class DocumentVisitor
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.DocumentVisitor class. The abstract class for iterating through subtree with root at the specified node
 type: docs
-weight: 70
+weight: 170
 url: /net/aspose.note/documentvisitor/
 ---
 ## DocumentVisitor class

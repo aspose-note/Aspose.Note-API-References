@@ -16,6 +16,7 @@ public Color Highlight { get; set; }
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * class [NoteCheckBox](../)
 * namespace [Aspose.Note](../../notecheckbox/)
 * assembly [Aspose.Note](../../../)

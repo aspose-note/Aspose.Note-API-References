@@ -3,7 +3,7 @@ title: Class OutlineElement
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.OutlineElement class. Represents a OutlineElement
 type: docs
-weight: 530
+weight: 630
 url: /net/aspose.note/outlineelement/
 ---
 ## OutlineElement class
@@ -19,7 +19,7 @@ public sealed class OutlineElement : IndentatedNode<IOutlineElementChildNode>, I
 
 | Name | Description |
 | --- | --- |
-| [OutlineElement](outlineelement/)() | The default constructor. |
+| [OutlineElement](outlineelement/)() | Initializes a new instance of the `OutlineElement` class. |
 
 ## Properties
 

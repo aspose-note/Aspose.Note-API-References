@@ -3,7 +3,7 @@ title: Class DisplayUnitsConverter
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.DisplayUnitsConverter class. The class contains the methods for converting values
 type: docs
-weight: 50
+weight: 150
 url: /net/aspose.note/displayunitsconverter/
 ---
 ## DisplayUnitsConverter class

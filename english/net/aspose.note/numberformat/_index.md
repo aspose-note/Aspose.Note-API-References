@@ -3,7 +3,7 @@ title: Enum NumberFormat
 second_title: Aspose.Note for .NET API Reference
 description: Aspose.Note.NumberFormat enum. Specifies the numbering format that can be used for a group of automatically numbered objects. Full list is specified on MSDN
 type: docs
-weight: 500
+weight: 600
 url: /net/aspose.note/numberformat/
 ---
 ## NumberFormat enumeration

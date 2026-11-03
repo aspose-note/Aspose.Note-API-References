@@ -16,6 +16,7 @@ public Color Color { get; }
 
 ### See Also
 
+* struct [Color](../../../aspose.drawing/color/)
 * interface [INotebookChildNode](../)
 * namespace [Aspose.Note](../../inotebookchildnode/)
 * assembly [Aspose.Note](../../../)
