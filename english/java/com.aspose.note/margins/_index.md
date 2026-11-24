@@ -22,7 +22,7 @@ Specifies the dimensions of the margins of a node.
 | Constructor | Description |
 | --- | --- |
 | [Margins()](#Margins--) |  |
-| [Margins(float left, float right, float top, float bottom)](#Margins-float-float-float-float-) | Initializes a new instance of the `Margins` struct with the specified left, right, top, and bottom margins. |
+| [Margins(float left, float right, float top, float bottom)](#Margins-float-float-float-float-) | Initializes a new instance of the  Margins  struct with the specified left, right, top, and bottom margins. |
 ## Fields
 
 | Field | Description |
@@ -33,21 +33,30 @@ Specifies the dimensions of the margins of a node.
 | Method | Description |
 | --- | --- |
 | [Clone()](#Clone--) |  |
+| [CloneTo(T arg0)](#CloneTo-T-) |  |
 | [CloneTo(Margins that)](#CloneTo-com.aspose.note.Margins-) |  |
 | [clone()](#clone--) |  |
 | [equals(Margins other)](#equals-com.aspose.note.Margins-) |  |
 | [equals(Margins obj1, Margins obj2)](#equals-com.aspose.note.Margins-com.aspose.note.Margins-) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) | Tests whether two `T:Margins` structures are equal. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Tests whether two  T:Margins  structures are equal. |
 | [getBottom()](#getBottom--) | Gets or sets the bottom margin width. |
+| [getClass()](#getClass--) |  |
 | [getLeft()](#getLeft--) | Gets or sets the left margin width. |
 | [getRight()](#getRight--) | Gets or sets the right margin width. |
 | [getTop()](#getTop--) | Gets or sets the top margin width. |
-| [op_Equality(Margins lhs, Margins rhs)](#op-Equality-com.aspose.note.Margins-com.aspose.note.Margins-) | Tests whether two `T:Margins` structures are equal. |
-| [op_Inequality(Margins lhs, Margins rhs)](#op-Inequality-com.aspose.note.Margins-com.aspose.note.Margins-) | Tests whether two `T:Margins` structures are not equal. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [op_Equality(Margins lhs, Margins rhs)](#op-Equality-com.aspose.note.Margins-com.aspose.note.Margins-) | Tests whether two  T:Margins  structures are equal. |
+| [op_Inequality(Margins lhs, Margins rhs)](#op-Inequality-com.aspose.note.Margins-com.aspose.note.Margins-) | Tests whether two  T:Margins  structures are not equal. |
 | [setBottom(float value)](#setBottom-float-) | Gets or sets the bottom margin width. |
 | [setLeft(float value)](#setLeft-float-) | Gets or sets the left margin width. |
 | [setRight(float value)](#setRight-float-) | Gets or sets the right margin width. |
 | [setTop(float value)](#setTop-float-) | Gets or sets the top margin width. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Margins() {#Margins--}
 ```
 public Margins()
@@ -60,7 +69,7 @@ public Margins(float left, float right, float top, float bottom)
 ```
 
 
-Initializes a new instance of the `Margins` struct with the specified left, right, top, and bottom margins.
+Initializes a new instance of the  Margins  struct with the specified left, right, top, and bottom margins.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -88,6 +97,19 @@ public Margins Clone()
 
 **Returns:**
 [Margins](../../com.aspose.note/margins)
+### CloneTo(T arg0) {#CloneTo-T-}
+```
+public abstract void CloneTo(T arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T |  |
+
 ### CloneTo(Margins that) {#CloneTo-com.aspose.note.Margins-}
 ```
 public void CloneTo(Margins that)
@@ -148,7 +170,7 @@ public boolean equals(Object obj)
 ```
 
 
-Tests whether two `T:Margins` structures are equal.
+Tests whether two  T:Margins  structures are equal.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +178,7 @@ Tests whether two `T:Margins` structures are equal.
 | obj | java.lang.Object | Any object. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
 ### getBottom() {#getBottom--}
 ```
 public float getBottom()
@@ -167,6 +189,16 @@ Gets or sets the bottom margin width.
 
 **Returns:**
 float
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getLeft() {#getLeft--}
 ```
 public float getLeft()
@@ -197,38 +229,64 @@ Gets or sets the top margin width.
 
 **Returns:**
 float
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### op_Equality(Margins lhs, Margins rhs) {#op-Equality-com.aspose.note.Margins-com.aspose.note.Margins-}
 ```
 public static boolean op_Equality(Margins lhs, Margins rhs)
 ```
 
 
-Tests whether two `T:Margins` structures are equal.
+Tests whether two  T:Margins  structures are equal.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs | [Margins](../../com.aspose.note/margins) | The `T:Margins` structure. |
-| rhs | [Margins](../../com.aspose.note/margins) | The `T:Margins` structure to be compared with. |
+| lhs | [Margins](../../com.aspose.note/margins) | The  T:Margins  structure. |
+| rhs | [Margins](../../com.aspose.note/margins) | The  T:Margins  structure to be compared with. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
 ### op_Inequality(Margins lhs, Margins rhs) {#op-Inequality-com.aspose.note.Margins-com.aspose.note.Margins-}
 ```
 public static boolean op_Inequality(Margins lhs, Margins rhs)
 ```
 
 
-Tests whether two `T:Margins` structures are not equal.
+Tests whether two  T:Margins  structures are not equal.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs | [Margins](../../com.aspose.note/margins) | The `T:Margins` structure. |
-| rhs | [Margins](../../com.aspose.note/margins) | The `T:Margins` structure to be compared with. |
+| lhs | [Margins](../../com.aspose.note/margins) | The  T:Margins  structure. |
+| rhs | [Margins](../../com.aspose.note/margins) | The  T:Margins  structure to be compared with. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
 ### setBottom(float value) {#setBottom-float-}
 ```
 public void setBottom(float value)
@@ -280,4 +338,49 @@ Gets or sets the top margin width.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

@@ -252,6 +252,7 @@ Represents a note tag.
 | [createYellowXWithDots(String label)](#createYellowXWithDots-java.lang.String-) | \* Creates a new note tag with YellowXWithDots icon and specified label. |
 | [equals(NoteTag other)](#equals-com.aspose.note.NoteTag-) | Determines whether the specified object is equal to the current object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [getClass()](#getClass--) |  |
 | [getCompletedTime()](#getCompletedTime--) | Gets or sets the completed time. |
 | [getCreationTime()](#getCreationTime--) | Gets or sets the creation time. |
 | [getFontColor()](#getFontColor--) | Gets or sets the font color. |
@@ -260,11 +261,17 @@ Represents a note tag.
 | [getLabel()](#getLabel--) | Gets the label text. |
 | [getStatus()](#getStatus--) | Gets or sets the status. |
 | [hashCode()](#hashCode--) | Serves as a hash function for the type. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setCreationTime(Date value)](#setCreationTime-java.util.Date-) | Gets or sets the creation time. |
 | [setFontColor(Color value)](#setFontColor-java.awt.Color-) | Gets or sets the font color. |
 | [setHighlight(Color value)](#setHighlight-java.awt.Color-) | Gets or sets the highlight color. |
 | [setIcon(int value)](#setIcon-int-) | Gets or sets the icon. |
 | [setLabel(String value)](#setLabel-java.lang.String-) | Sets the label text. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### NoteTag() {#NoteTag--}
 ```
 public NoteTag()
@@ -3087,7 +3094,7 @@ Determines whether the specified object is equal to the current object.
 | other | [NoteTag](../../com.aspose.note/notetag) | The object. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -3102,7 +3109,17 @@ Determines whether the specified object is equal to the current object.
 | obj | java.lang.Object | The object. |
 
 **Returns:**
-boolean - The `bool`.
+boolean - The  bool .
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCompletedTime() {#getCompletedTime--}
 ```
 public final Date getCompletedTime()
@@ -3111,7 +3128,7 @@ public final Date getCompletedTime()
 
 Gets or sets the completed time.
 
-Value: The `Nullable\{DateTime\}`.
+Value: The  Nullable\{DateTime\} .
 
 **Returns:**
 java.util.Date
@@ -3190,7 +3207,23 @@ public int hashCode()
 Serves as a hash function for the type.
 
 **Returns:**
-int - The `int`.
+int - The  int .
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setCreationTime(Date value) {#setCreationTime-java.util.Date-}
 ```
 public final void setCreationTime(Date value)
@@ -3259,4 +3292,49 @@ Sets the label text.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 
